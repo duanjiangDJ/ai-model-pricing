@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-08-21T11:39:14Z",
+  "generated_at": "2026-08-21T11:40:00Z",
   "currency": "USD",
-  "provider_count": 201,
+  "provider_count": 203,
   "model_count": 7296,
-  "plan_count": 46,
+  "plan_count": 51,
   "providers": [
     {
       "id": "hpc-ai",
@@ -1613,6 +1613,22 @@
       "model_count": 0,
       "file": "providers/aws.json",
       "updated_at": "2026-08-21T11:39:14Z"
+    },
+    {
+      "id": "tabnine",
+      "name": "Tabnine",
+      "channel": "subscription",
+      "model_count": 0,
+      "file": "providers/tabnine.json",
+      "updated_at": "2026-08-21T11:40:00Z"
+    },
+    {
+      "id": "replit",
+      "name": "Replit",
+      "channel": "subscription",
+      "model_count": 0,
+      "file": "providers/replit.json",
+      "updated_at": "2026-08-21T11:40:00Z"
     }
   ],
   "resellers": [

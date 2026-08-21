@@ -3,10 +3,10 @@
 > 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/machine/`](../machine/)。
 > 更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。
 
-- 数据更新时间: 2026-08-21T11:39:14Z
-- 覆盖渠道: 202 个（含 OpenRouter 聚合 419 个模型）
+- 数据更新时间: 2026-08-21T11:40:00Z
+- 覆盖渠道: 204 个（含 OpenRouter 聚合 419 个模型）
 - 模型总数: 7296
-- 订阅计划数: 46
+- 订阅计划数: 51
 
 ## 供应商列表
 
@@ -213,11 +213,13 @@
 | [火山引擎方舟 (Volcengine Ark / 豆包)](providers/volcengine.md) | 官方直供 | 2 | `providers/volcengine.json` | 2026-08-21T11:38:22Z |
 | [Devin (Cognition)](providers/devin.md) | subscription | 0 | `providers/devin.json` | 2026-08-21T11:39:14Z |
 | [Amazon Web Services](providers/aws.md) | 云平台托管 | 0 | `providers/aws.json` | 2026-08-21T11:39:14Z |
+| [Tabnine](providers/tabnine.md) | subscription | 0 | `providers/tabnine.json` | 2026-08-21T11:40:00Z |
+| [Replit](providers/replit.md) | subscription | 0 | `providers/replit.json` | 2026-08-21T11:40:00Z |
 | [OpenRouter](providers/openrouter.md) | 聚合站 | 419 | `providers/openrouter.json` | 2026-08-21T11:28:18Z |
 
 ## 订阅计划
 
-[plans.md](plans.md) — 共 46 个计划
+[plans.md](plans.md) — 共 51 个计划
 
 ## 其他文档
 

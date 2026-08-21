@@ -2,6 +2,82 @@
   "schema_version": "1.0.0",
   "entries": [
     {
+      "date": "2026-08-21T11:40:00Z",
+      "kind": "update",
+      "scope": "provider",
+      "provider_id": "tabnine",
+      "item_id": "tabnine",
+      "field": "catalog",
+      "new": {
+        "models": 0,
+        "research_models": 0
+      },
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:40:00Z",
+      "kind": "update",
+      "scope": "provider",
+      "provider_id": "replit",
+      "item_id": "replit",
+      "field": "catalog",
+      "new": {
+        "models": 0,
+        "research_models": 0
+      },
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:40:00Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "tabnine",
+      "item_id": "tabnine-code",
+      "field": "price",
+      "new": 468,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:40:00Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "tabnine",
+      "item_id": "tabnine-enterprise",
+      "field": "price",
+      "new": 708,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:40:00Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "replit",
+      "item_id": "replit-starter",
+      "field": "price",
+      "new": 0,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:40:00Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "replit",
+      "item_id": "replit-core",
+      "field": "price",
+      "new": 20,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:40:00Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "replit",
+      "item_id": "replit-pro",
+      "field": "price",
+      "new": 100,
+      "source": "research-subagent"
+    },
+    {
       "date": "2026-08-21T11:39:14Z",
       "kind": "update",
       "scope": "provider",

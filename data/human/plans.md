@@ -1,6 +1,6 @@
 # 订阅与编码工具计划（Plans）
 
-共 **46** 个计划。更新时间: 2026-08-21T11:39:14Z
+共 **51** 个计划。更新时间: 2026-08-21T11:40:00Z
 
 | 产品 | 计划 | 类别 | 计费 | 价格(USD) | 用量限制 | 包含内容 | 定价页 | 核实时间 |
 |---|---|---|---|---|---|---|---|---|
@@ -43,9 +43,14 @@
 | Poe | Lite | consumer | monthly | $10 | 基础无限访问 | 多模型聊天聚合 | [链接](https://poe.com/subscription) | 2026-08-21T00:00:00Z |
 | Poe | Standard | consumer | monthly | $19.99 | 点数制用量 | 全部模型访问; 更高点数 | [链接](https://poe.com/subscription) | 2026-08-21T00:00:00Z |
 | Poe | Standard (年付) | consumer | yearly | $199.99 | 同 Standard | 同 Standard | [链接](https://poe.com/subscription) | 2026-08-21T00:00:00Z |
+| Replit | Core | coding | monthly | $20 | $20 月 credits；5 协作者；无 credits 结转 | Full build; Plan Mode; Connectors; 无限发布应用 | [链接](https://replit.com/pricing) | 2026-08-21T00:00:00Z |
+| Replit | Pro | coding | monthly | $100 | $100 月 credits；15 协作者；10 并行 agents；1 月 credits 结转 | Core 全部功能; Turbo 模式; 优先支持 | [链接](https://replit.com/pricing) | 2026-08-21T00:00:00Z |
+| Replit | Starter | coding | monthly | $0 | 每日 Agent credits；1 个发布应用；~1200 开发分钟/月 | Agent; Lite build | [链接](https://replit.com/pricing) | 2026-08-21T00:00:00Z |
 | SuperGrok | SuperGrok | consumer | monthly | $30 | Subscription via grok.com for the Grok chat app | Longer chat sessions with Grok 4.x; More image/video generation (longer videos with Imagine); Priority access during peak load; Early access to new features | [链接](https://grok.com) | 2026-08-21T00:00:00Z |
 | SuperGrok | SuperGrok Heavy | consumer | monthly | $300 | Top-tier plan for professionals | Everything in SuperGrok; Maximum limits for chat, Imagine, voice mode and companions; Dedicated compute | [链接](https://grok.com) | 2026-08-21T00:00:00Z |
 | SuperGrok | SuperGrok Lite | consumer | monthly | $10 | Reported by Economic Times (Nov 2025); current availability not confirmed on official xAI page at verification date | — | — | 2026-08-21T00:00:00Z |
+| Tabnine | Code (Pro) | coding | yearly | $468 | 每用户/月 | Chat 与补全; IDE 集成 | [链接](https://www.tabnine.com/pricing) | 2026-08-21T00:00:00Z |
+| Tabnine | Enterprise | enterprise | yearly | $708 | 每用户/月 | Code 全部功能; 企业级安全部署; 自托管 | [链接](https://www.tabnine.com/pricing) | 2026-08-21T00:00:00Z |
 | Windsurf | Free | coding | monthly | $0 | 基础用量 | 基础模型访问 | [链接](https://windsurf.com/pricing) | 2026-08-21T00:00:00Z |
 | Windsurf | Max | coding | monthly | $200 | 最高用量池 | 无限 Agent; 全部模型 | [链接](https://windsurf.com/pricing) | 2026-08-21T00:00:00Z |
 | Windsurf | Pro | coding | monthly | $20 | 信用点数制（用量池） | 前沿模型; Agent 功能 | [链接](https://windsurf.com/pricing) | 2026-08-21T00:00:00Z |

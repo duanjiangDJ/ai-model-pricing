@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-21T11:39:14Z",
+  "updated_at": "2026-08-21T11:40:00Z",
   "plans": [
     {
       "id": "amazon-q-dev-free",
@@ -633,6 +633,59 @@
       "provider_id": "poe"
     },
     {
+      "id": "replit-core",
+      "product": "Replit",
+      "plan": "Core",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 20,
+      "price_note": "年付 $18/月",
+      "limits": "$20 月 credits；5 协作者；无 credits 结转",
+      "includes": [
+        "Full build",
+        "Plan Mode",
+        "Connectors",
+        "无限发布应用"
+      ],
+      "url": "https://replit.com/pricing",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "replit"
+    },
+    {
+      "id": "replit-pro",
+      "product": "Replit",
+      "plan": "Pro",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 100,
+      "price_note": "年付 $90/月",
+      "limits": "$100 月 credits；15 协作者；10 并行 agents；1 月 credits 结转",
+      "includes": [
+        "Core 全部功能",
+        "Turbo 模式",
+        "优先支持"
+      ],
+      "url": "https://replit.com/pricing",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "replit"
+    },
+    {
+      "id": "replit-starter",
+      "product": "Replit",
+      "plan": "Starter",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 0,
+      "limits": "每日 Agent credits；1 个发布应用；~1200 开发分钟/月",
+      "includes": [
+        "Agent",
+        "Lite build"
+      ],
+      "url": "https://replit.com/pricing",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "replit"
+    },
+    {
       "id": "supergrok",
       "product": "SuperGrok",
       "plan": "SuperGrok",
@@ -679,6 +732,41 @@
       "url": "",
       "provider_id": "xai",
       "verified_at": "2026-08-21T00:00:00Z"
+    },
+    {
+      "id": "tabnine-code",
+      "product": "Tabnine",
+      "plan": "Code (Pro)",
+      "category": "coding",
+      "billing": "yearly",
+      "price_usd": 468,
+      "price_note": "$39/用户/月（年付）",
+      "limits": "每用户/月",
+      "includes": [
+        "Chat 与补全",
+        "IDE 集成"
+      ],
+      "url": "https://www.tabnine.com/pricing",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "tabnine"
+    },
+    {
+      "id": "tabnine-enterprise",
+      "product": "Tabnine",
+      "plan": "Enterprise",
+      "category": "enterprise",
+      "billing": "yearly",
+      "price_usd": 708,
+      "price_note": "$59/用户/月（年付）",
+      "limits": "每用户/月",
+      "includes": [
+        "Code 全部功能",
+        "企业级安全部署",
+        "自托管"
+      ],
+      "url": "https://www.tabnine.com/pricing",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "tabnine"
     },
     {
       "id": "windsurf-free",

@@ -1,0 +1,13 @@
+{
+  "provider_id": "replit",
+  "name": "Replit",
+  "channel": "subscription",
+  "category": "ai_vendor",
+  "region": "us",
+  "homepage": "https://replit.com",
+  "pricing_page": "https://replit.com/pricing",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:40:00Z",
+  "verified_at": "2026-08-21T00:00:00Z",
+  "models": []
+}
