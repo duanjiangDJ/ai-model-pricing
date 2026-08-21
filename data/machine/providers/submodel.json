@@ -7,8 +7,8 @@
   "homepage": "https://submodel.gitbook.io",
   "pricing_page": "https://submodel.gitbook.io",
   "currency": "USD",
-  "updated_at": "2026-08-21T11:28:18Z",
-  "verified_at": "2026-08-21T11:28:18Z",
+  "updated_at": "2026-08-21T11:29:38Z",
+  "verified_at": "2026-08-21T11:29:38Z",
   "models": [
     {
       "id": "Qwen/Qwen3-235B-A22B-Instruct-2507",

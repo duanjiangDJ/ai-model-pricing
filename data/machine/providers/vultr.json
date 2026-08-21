@@ -7,8 +7,8 @@
   "homepage": "https://api.vultrinference.com/",
   "pricing_page": "https://api.vultrinference.com/",
   "currency": "USD",
-  "updated_at": "2026-08-21T11:28:18Z",
-  "verified_at": "2026-08-21T11:28:18Z",
+  "updated_at": "2026-08-21T11:29:38Z",
+  "verified_at": "2026-08-21T11:29:38Z",
   "models": [
     {
       "id": "MiniMaxAI/MiniMax-M2.7",

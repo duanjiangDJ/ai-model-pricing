@@ -5,8 +5,8 @@
 - 官网: https://tinker-docs.thinkingmachines.ai/tinker/compatible-apis/anthropic/
 - 定价页: https://tinker-docs.thinkingmachines.ai/tinker/compatible-apis/anthropic/
 - 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- 数据更新时间: 2026-08-21T11:29:38Z
+- 核实时间: 2026-08-21T11:29:38Z
 
 共 **2** 个模型。
 
