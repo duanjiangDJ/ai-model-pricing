@@ -5,7 +5,7 @@
 
 - Generated: 2026-08-21T13:59:16Z
 - Providers: 185
-- Models total: 7111
+- Models total: 7077
 - Plans total: 53
 
 ## Providers
@@ -76,7 +76,7 @@
 | [Crusoe](providers/crusoe.md) | Inference host | 8 | `providers/crusoe.json` | 2026-08-21T13:21:07Z |
 | [DInference](providers/dinference.md) | Inference host | 6 | `providers/dinference.json` | 2026-08-21T13:21:07Z |
 | [OpenAI](providers/openai.md) | First-party | 47 | `providers/openai.json` | 2026-08-21T13:19:25Z |
-| [OpenCode Go](providers/opencode-go.md) | Inference host | 27 | `providers/opencode-go.json` | 2026-08-21T13:21:07Z |
+| [OpenCode Go](providers/opencode-go.md) | subscription | 23 | `providers/opencode-go.json` | 2026-08-21T00:00:00Z |
 | [xAI](providers/xai.md) | First-party | 17 | `providers/xai.json` | 2026-08-21T13:18:01Z |
 | [LMStudio](providers/lmstudio.md) | Inference host | 3 | `providers/lmstudio.json` | 2026-08-21T13:21:07Z |
 | [Ambient](providers/ambient.md) | Inference host | 10 | `providers/ambient.json` | 2026-08-21T13:21:07Z |
@@ -132,7 +132,7 @@
 | [Neon](providers/neon.md) | Inference host | 42 | `providers/neon.json` | 2026-08-21T13:21:07Z |
 | [evroc](providers/evroc.md) | Inference host | 15 | `providers/evroc.json` | 2026-08-21T13:21:07Z |
 | [302.AI](providers/302ai.md) | Inference host | 97 | `providers/302ai.json` | 2026-08-21T13:21:07Z |
-| [OpenCode Zen](providers/opencode.md) | Inference host | 93 | `providers/opencode.json` | 2026-08-21T13:21:07Z |
+| [OpenCode Zen](providers/opencode.md) | Aggregator | 63 | `providers/opencode.json` | 2026-08-21T00:00:00Z |
 | [Requesty](providers/requesty.md) | Inference host | 139 | `providers/requesty.json` | 2026-08-21T13:21:07Z |
 | [SiliconFlow](providers/siliconflow.md) | Inference host | 61 | `providers/siliconflow.json` | 2026-08-21T15:59:09Z |
 | [Atomic Chat](providers/atomic-chat.md) | Inference host | 5 | `providers/atomic-chat.json` | 2026-08-21T13:21:07Z |

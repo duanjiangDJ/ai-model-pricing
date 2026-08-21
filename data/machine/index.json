@@ -3,7 +3,7 @@
   "generated_at": "2026-08-21T13:59:16Z",
   "currency": "USD",
   "provider_count": 184,
-  "model_count": 7111,
+  "model_count": 7077,
   "plan_count": 53,
   "providers": [
     {
@@ -522,7 +522,7 @@
       "id": "opencode-go",
       "name": "OpenCode Go",
       "channel": "hosted",
-      "model_count": 27,
+      "model_count": 23,
       "file": "providers/opencode-go.json",
       "updated_at": "2026-08-21T11:27:12Z"
     },
@@ -970,7 +970,7 @@
       "id": "opencode",
       "name": "OpenCode Zen",
       "channel": "hosted",
-      "model_count": 93,
+      "model_count": 63,
       "file": "providers/opencode.json",
       "updated_at": "2026-08-21T11:27:12Z"
     },
