@@ -2,6 +2,7 @@
 
 - provider_id: `devin`
 - Channel: subscription
+- API base URL: — (subscription product, no public API)
 - Homepage: https://devin.ai
 - Pricing page: https://docs.devin.ai/admin/billing/self-serve
 - Currency: USD
@@ -10,5 +11,5 @@
 
 **0** models in total.
 
-| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|---|
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|

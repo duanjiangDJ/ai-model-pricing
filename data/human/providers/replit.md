@@ -2,6 +2,7 @@
 
 - provider_id: `replit`
 - Channel: subscription
+- API base URL: — (subscription product, no public API)
 - Homepage: https://replit.com
 - Pricing page: https://replit.com/pricing
 - Currency: USD
@@ -10,5 +11,5 @@
 
 **0** models in total.
 
-| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|---|
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|

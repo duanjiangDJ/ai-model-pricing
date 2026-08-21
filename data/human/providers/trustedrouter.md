@@ -2,6 +2,7 @@
 
 - provider_id: `trustedrouter`
 - Channel: Aggregator
+- API base URL: `https://api.trustedrouter.com/v1`
 - Homepage: https://trustedrouter.com/docs
 - Pricing page: https://trustedrouter.com/docs
 - Currency: USD
@@ -10,12 +11,12 @@
 
 **7** models in total.
 
-| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|---|
-| `auto` | — | reasoning | 1M | — | — | — | — | —/— | — |
-| `cheap` | — | reasoning | 1M | — | — | — | — | —/— | — |
-| `e2e` | — | reasoning | 1M | — | — | — | — | —/— | — |
-| `fast` | — | reasoning | 1M | — | — | — | — | —/— | — |
-| `synth` | — | reasoning | 1M | — | — | — | — | —/— | — |
-| `synth-code` | — | reasoning | 1M | — | — | — | — | —/— | — |
-| `zdr` | — | reasoning | 1M | — | — | — | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|
+| `auto` | — | reasoning | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `cheap` | — | reasoning | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `e2e` | — | reasoning | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `fast` | — | reasoning | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `synth` | — | reasoning | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `synth-code` | — | reasoning | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `zdr` | — | reasoning | 1M | — | — | — | — | —/— | — | models.dev official list price |

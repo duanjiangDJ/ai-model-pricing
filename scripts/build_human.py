@@ -29,6 +29,8 @@ CHANNEL_LABEL_ZH = {
 L10N = {
     "en": {
         "channel": "Channel",
+        "api_base": "API base URL",
+        "api_null": " (subscription product, no public API)",
         "homepage": "Homepage",
         "pricing_page": "Pricing page",
         "currency": "Currency",
@@ -75,6 +77,8 @@ L10N = {
     },
     "zh-CN": {
         "channel": "渠道",
+        "api_base": "API 地址",
+        "api_null": "（订阅产品，无公开 API）",
         "homepage": "官网",
         "pricing_page": "定价页",
         "currency": "币种",
@@ -160,11 +164,13 @@ def build_provider_md(provider, lang, channel_labels):
     t = L10N[lang]
     cur = provider.get("currency", "USD")
     status_label = STATUS_LABEL if lang == "en" else STATUS_LABEL_ZH
+    api = provider.get("api_base_url")
     lines = [
         f"# {provider['name']}",
         "",
         f"- provider_id: `{provider['provider_id']}`",
         f"- {t['channel']}: {channel_labels.get(provider['channel'], provider['channel'])}",
+        f"- {t['api_base']}: {('`' + api + '`') if api else '—'}" + (t["api_null"] if not api else ""),
         f"- {t['homepage']}: {provider.get('homepage', '—')}",
         f"- {t['pricing_page']}: {provider.get('pricing_page') or '—'}",
         f"- {t['currency']}: {cur}" + (t["currency_note"] if cur != "USD" else ""),
@@ -173,8 +179,8 @@ def build_provider_md(provider, lang, channel_labels):
         "",
         t["models_count"].format(len(provider["models"])),
         "",
-        f"| {t['model']} | {t['status']} | {t['category']} | {t['context']} | {t['input']} | {t['output']} | {t['cache_read']} | {t['cache_write']} | {t['batch']} | {t['other']} |",
-        "|---|---|---|---|---|---|---|---|---|---|",
+        f"| {t['model']} | {t['status']} | {t['category']} | {t['context']} | {t['input']} | {t['output']} | {t['cache_read']} | {t['cache_write']} | {t['batch']} | {t['other']} | {t['notes']} |",
+        "|---|---|---|---|---|---|---|---|---|---|---|",
     ]
     for m in provider["models"]:
         p = m.get("pricing") or {}
@@ -199,8 +205,11 @@ def build_provider_md(provider, lang, channel_labels):
         note_low = (m.get("notes") or "").lower()
         if any(k in note_low for k in ("peak/off-peak", "峰谷", "高峰", "off-peak", "peak tier")):
             other.append("⚡ peak/off-peak" if lang == "en" else "⚡ 峰谷双档")
+        notes_disp = (m.get("notes") or "").replace("|", "\\|")
+        if len(notes_disp) > 80:
+            notes_disp = notes_disp[:77] + "…"
         lines.append(
-            "| {} | {} | {} | {} | {} | {} | {} | {} | {} | {} |".format(
+            "| {} | {} | {} | {} | {} | {} | {} | {} | {} | {} | {} |".format(
                 f"`{m['id']}`",
                 st or "—",
                 m.get("category", "—"),
@@ -211,6 +220,7 @@ def build_provider_md(provider, lang, channel_labels):
                 fmt(mt.get("cache_write"), cur),
                 f"{fmt(batch.get('input'), cur)}/{fmt(batch.get('output'), cur)}",
                 "; ".join(other) or "—",
+                notes_disp or "—",
             )
         )
     return "\n".join(lines) + "\n"

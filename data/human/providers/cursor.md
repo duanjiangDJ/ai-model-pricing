@@ -2,6 +2,7 @@
 
 - provider_id: `cursor`
 - Channel: subscription
+- API base URL: — (subscription product, no public API)
 - Homepage: https://cursor.com
 - Pricing page: https://cursor.com/pricing
 - Currency: USD
@@ -10,5 +11,5 @@
 
 **0** models in total.
 
-| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|---|
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|

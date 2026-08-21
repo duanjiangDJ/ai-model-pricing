@@ -2,6 +2,7 @@
 
 - provider_id: `subconscious`
 - Channel: Inference host
+- API base URL: `https://api.subconscious.dev/v1`
 - Homepage: https://docs.subconscious.dev
 - Pricing page: https://docs.subconscious.dev
 - Currency: USD
@@ -10,7 +11,7 @@
 
 **2** models in total.
 
-| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|---|
-| `subconscious/glm-5.2` | — | reasoning | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — |
-| `subconscious/tim-qwen3.6-27b` | — | reasoning | 8.192K | $0.3 | $3 | $0.15 | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|
+| `subconscious/glm-5.2` | — | reasoning | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `subconscious/tim-qwen3.6-27b` | — | reasoning | 8.192K | $0.3 | $3 | $0.15 | — | —/— | — | models.dev official list price |

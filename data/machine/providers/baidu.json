@@ -28,7 +28,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "官方价：输入≤32k ¥4/百万tokens、输出 ¥18/百万；32k<输入≤128k：¥6/¥22 每百万。CNY 计价。"
+      "notes": "Official price: input ≤32k ¥4/1M tokens, output ¥18/1M; 32k<input≤128k: ¥6/¥22 per 1M. Priced in CNY."
     },
     {
       "id": "ernie-5.0",
@@ -48,7 +48,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "官方价：输入 ¥6/百万、输出 ¥24/百万；32k+ 输入 ¥10/输出 ¥40 每百万。CNY 计价。"
+      "notes": "Official price: input ¥6/1M, output ¥24/1M; 32k+ input ¥10/output ¥40 per 1M. Priced in CNY."
     },
     {
       "id": "ernie-4.5-turbo",
@@ -71,7 +71,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "官方价：输入 ¥0.8/百万、命中缓存 ¥0.2/百万、输出 ¥3.2/百万；批量推理 ¥0.32/¥1.28。CNY 计价。"
+      "notes": "Official price: input ¥0.8/1M, cache hit ¥0.2/1M, output ¥3.2/1M; batch inference ¥0.32/¥1.28. Priced in CNY."
     }
   ],
   "api_base_url": "https://qianfan.baidubce.com/v2"

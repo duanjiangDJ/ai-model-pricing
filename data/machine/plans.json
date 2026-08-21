@@ -1,5 +1,5 @@
 {
-  "schema_version": "26.0.0",
+  "schema_version": "26.0.1",
   "updated_at": "2026-08-21T12:11:53Z",
   "plans": [
     {
@@ -9,10 +9,10 @@
       "category": "coding",
       "billing": "monthly",
       "price_usd": 0,
-      "limits": "50 agentic requests/月，1000 行 Java 转换/月",
+      "limits": "50 agentic requests/month, 1000 lines of Java conversion/month",
       "includes": [
-        "IDE 与 CLI 访问",
-        "最新 Claude 模型"
+        "IDE & CLI access",
+        "Latest Claude models"
       ],
       "url": "https://aws.amazon.com/q/developer/",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -26,11 +26,11 @@
       "category": "coding",
       "billing": "monthly",
       "price_usd": 19,
-      "limits": "每用户/月，扩展 agentic 额度",
+      "limits": "Per user/month, expanded agentic allowance",
       "includes": [
-        "Free 全部功能",
-        "更高请求额度",
-        "AWS 服务深度集成"
+        "All Free features",
+        "Higher request allowance",
+        "Deep AWS service integration"
       ],
       "url": "https://aws.amazon.com/q/developer/",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -44,10 +44,10 @@
       "category": "coding",
       "billing": "monthly",
       "price_usd": 20,
-      "limits": "含 API 用量额度",
+      "limits": "Includes API usage allowance",
       "includes": [
         "Claude Code CLI",
-        "Sonnet/Opus 调用额度"
+        "Sonnet/Opus call allowance"
       ],
       "url": "https://www.anthropic.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -61,10 +61,10 @@
       "category": "consumer",
       "billing": "monthly",
       "price_usd": 200,
-      "limits": "20x Pro 用量/会话",
+      "limits": "20x Pro usage/session",
       "includes": [
-        "Claude Code 最高额度",
-        "全职工具用途"
+        "Claude Code maximum allowance",
+        "Full-time tool usage"
       ],
       "url": "https://www.anthropic.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -78,10 +78,10 @@
       "category": "consumer",
       "billing": "monthly",
       "price_usd": 100,
-      "limits": "5x Pro 用量/会话",
+      "limits": "5x Pro usage/session",
       "includes": [
-        "Claude Code 高额度",
-        "Opus 5/Fable 5 访问"
+        "Claude Code high allowance",
+        "Opus 5/Fable 5 access"
       ],
       "url": "https://www.anthropic.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -95,11 +95,11 @@
       "category": "consumer",
       "billing": "monthly",
       "price_usd": 20,
-      "price_note": "年付 $17/月",
-      "limits": "1x 日常用量",
+      "price_note": "Annual billing $17/month",
+      "limits": "1x daily usage",
       "includes": [
-        "Claude 全模型访问",
-        "Claude Code 基础用量"
+        "Access to all Claude models",
+        "Claude Code basic usage"
       ],
       "url": "https://www.anthropic.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -113,10 +113,10 @@
       "category": "coding",
       "billing": "monthly",
       "price_usd": 0,
-      "limits": "有限 Agent 请求与 Tab 补全",
+      "limits": "Limited Agent requests and Tab completion",
       "includes": [
-        "免费永久",
-        "1 周 Pro 试用"
+        "Free forever",
+        "1-week Pro trial"
       ],
       "url": "https://cursor.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -130,11 +130,11 @@
       "category": "coding",
       "billing": "monthly",
       "price_usd": 20,
-      "limits": "~$20 前沿模型用量 credits/月",
+      "limits": "~$20 frontier model usage credits/month",
       "includes": [
         "Unlimited Tab",
-        "扩展 Agent 限制",
-        "Unlimited Auto 模式"
+        "Extended Agent limits",
+        "Unlimited Auto mode"
       ],
       "url": "https://cursor.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -148,10 +148,10 @@
       "category": "coding",
       "billing": "monthly",
       "price_usd": 60,
-      "limits": "更高 credits 池",
+      "limits": "Larger credits pool",
       "includes": [
-        "Pro 全部功能",
-        "更多前沿模型用量"
+        "All Pro features",
+        "More frontier model usage"
       ],
       "url": "https://cursor.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -165,10 +165,10 @@
       "category": "team",
       "billing": "monthly",
       "price_usd": 40,
-      "limits": "每用户/月",
+      "limits": "Per user/month",
       "includes": [
-        "团队管理",
-        "共享用量池"
+        "Team management",
+        "Shared usage pool"
       ],
       "url": "https://cursor.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -182,10 +182,10 @@
       "category": "coding",
       "billing": "monthly",
       "price_usd": 200,
-      "limits": "最高 credits 池",
+      "limits": "Largest credits pool",
       "includes": [
-        "无限高级模型",
-        "最高优先级"
+        "Unlimited premium models",
+        "Highest priority"
       ],
       "url": "https://cursor.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -199,9 +199,9 @@
       "category": "coding",
       "billing": "monthly",
       "price_usd": 0,
-      "limits": "1 成员",
+      "limits": "1 member",
       "includes": [
-        "试用 Devin"
+        "Try Devin"
       ],
       "url": "https://docs.devin.ai/admin/billing/self-serve",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -215,9 +215,9 @@
       "category": "coding",
       "billing": "monthly",
       "price_usd": 200,
-      "limits": "更高配额，个人计划",
+      "limits": "Higher quota, personal plan",
       "includes": [
-        "大量 Agent 用量"
+        "Large Agent usage"
       ],
       "url": "https://docs.devin.ai/admin/billing/self-serve",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -231,9 +231,9 @@
       "category": "coding",
       "billing": "monthly",
       "price_usd": 20,
-      "limits": "1 成员，个人计划",
+      "limits": "1 member, personal plan",
       "includes": [
-        "Devin Agent 用量"
+        "Devin Agent usage"
       ],
       "url": "https://docs.devin.ai/admin/billing/self-serve",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -247,11 +247,11 @@
       "category": "team",
       "billing": "monthly",
       "price_usd": 80,
-      "price_note": "$80/月最低，成员无限",
-      "limits": "full seat / flex seat 模式",
+      "price_note": "$80/month minimum, unlimited members",
+      "limits": "full seat / flex seat mode",
       "includes": [
-        "团队协作",
-        "共享配额"
+        "Team collaboration",
+        "Shared quota"
       ],
       "url": "https://docs.devin.ai/admin/billing/self-serve",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -331,11 +331,11 @@
       "category": "coding",
       "billing": "monthly",
       "price_usd": 100,
-      "price_note": "base $100 + flex $100 = 每月 $200 总用量；新增计划",
-      "limits": "最高 AI Credits 配额",
+      "price_note": "base $100 + flex $100 = $200 total monthly usage; new plan",
+      "limits": "Maximum AI Credits quota",
       "includes": [
-        "Pro+ 全部功能",
-        "最高模型用量"
+        "All Pro+ features",
+        "Maximum model usage"
       ],
       "url": "https://github.blog/news-insights/company-news/github-copilot-individual-plans-introducing-flex-allotments-in-pro-and-pro-and-a-new-max-plan/",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -349,12 +349,12 @@
       "category": "coding",
       "billing": "monthly",
       "price_usd": 10,
-      "price_note": "2026-06-01 起 AI Credits 计费：base $10 + flex $5 = 每月 $15 总用量",
-      "limits": "AI Credits 制（base + flex 用量）",
+      "price_note": "AI Credits billing from 2026-06-01: base $10 + flex $5 = $15 total monthly usage",
+      "limits": "AI Credits system (base + flex usage)",
       "includes": [
-        "Copilot 编码代理",
-        "ChatGPT 集成",
-        "IDE 补全与聊天"
+        "Copilot coding agent",
+        "ChatGPT integration",
+        "IDE completion and chat"
       ],
       "url": "https://github.com/features/copilot/plans",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -368,11 +368,11 @@
       "category": "coding",
       "billing": "monthly",
       "price_usd": 39,
-      "price_note": "base $39 + flex $31 = 每月 $70 总用量",
-      "limits": "更高 AI Credits 配额",
+      "price_note": "base $39 + flex $31 = $70 total monthly usage",
+      "limits": "Higher AI Credits quota",
       "includes": [
-        "Pro 全部功能",
-        "更多代理/模型访问"
+        "All Pro features",
+        "More agent/model access"
       ],
       "url": "https://github.com/features/copilot/plans",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -453,9 +453,9 @@
       "category": "coding",
       "billing": "monthly",
       "price_usd": 0,
-      "limits": "3 AI Credits/30 天",
+      "limits": "3 AI Credits/30 days",
       "includes": [
-        "AI Assistant 基础功能"
+        "AI Assistant basic features"
       ],
       "url": "https://www.jetbrains.com/help/ai-assistant/2026.1/licensing-and-subscriptions.html",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -469,11 +469,11 @@
       "category": "coding",
       "billing": "monthly",
       "price_usd": 10,
-      "price_note": "All Products Pack 用户 $20/月（20 credits）",
-      "limits": "10 AI Credits/30 天",
+      "price_note": "All Products Pack users $20/month (20 credits)",
+      "limits": "10 AI Credits/30 days",
       "includes": [
         "AI Assistant",
-        "AI Credits 用量池"
+        "AI Credits usage pool"
       ],
       "url": "https://www.jetbrains.com/help/ai-assistant/2026.1/licensing-and-subscriptions.html",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -487,11 +487,11 @@
       "category": "coding",
       "billing": "monthly",
       "price_usd": 30,
-      "price_note": "All Products Pack 用户 $60/月（70 credits）",
-      "limits": "35 AI Credits/30 天",
+      "price_note": "All Products Pack users $60/month (70 credits)",
+      "limits": "35 AI Credits/30 days",
       "includes": [
-        "最高模型访问",
-        "更高配额"
+        "Access to top-tier models",
+        "Higher quota"
       ],
       "url": "https://www.jetbrains.com/help/ai-assistant/2026.1/licensing-and-subscriptions.html",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -507,8 +507,8 @@
       "pricing_model": "flat_monthly",
       "billing": "monthly",
       "price_usd": 50.0,
-      "price_note": "$50/月（中文站 ¥119/月）",
-      "limits": "Token Plan（原 Coding Plan 更名）；额度含模型调用量",
+      "price_note": "$50/month (CN site ¥119/month)",
+      "limits": "Token Plan (renamed from Coding Plan); allowance includes model call volume",
       "includes": [],
       "url": "https://platform.minimax.io/docs/token-plan/intro",
       "verified_at": "2026-08-21T00:00:00Z"
@@ -522,8 +522,8 @@
       "pricing_model": "flat_monthly",
       "billing": "monthly",
       "price_usd": 20.0,
-      "price_note": "$20/月（中文站 ¥49/月）",
-      "limits": "Token Plan（原 Coding Plan 更名）；额度含模型调用量",
+      "price_note": "$20/month (CN site ¥49/month)",
+      "limits": "Token Plan (renamed from Coding Plan); allowance includes model call volume",
       "includes": [],
       "url": "https://platform.minimax.io/docs/token-plan/intro",
       "verified_at": "2026-08-21T00:00:00Z"
@@ -537,8 +537,8 @@
       "pricing_model": "flat_monthly",
       "billing": "monthly",
       "price_usd": 120.0,
-      "price_note": "$120/月（中文站 ¥469/月）",
-      "limits": "Token Plan（原 Coding Plan 更名）；额度含模型调用量",
+      "price_note": "$120/month (CN site ¥469/month)",
+      "limits": "Token Plan (renamed from Coding Plan); allowance includes model call volume",
       "includes": [],
       "url": "https://platform.minimax.io/docs/token-plan/intro",
       "verified_at": "2026-08-21T00:00:00Z"
@@ -552,8 +552,8 @@
       "pricing_model": "flat_monthly",
       "billing": "monthly",
       "price_usd": 39.0,
-      "price_note": "周配额、5 小时速率窗口",
-      "limits": "Kimi Code 独立订阅（Kimi 会员亦含 Code 功能）",
+      "price_note": "Weekly quota, 5-hour rate window",
+      "limits": "Kimi Code standalone subscription (Kimi membership also includes Code features)",
       "includes": [],
       "url": "https://kimi.com/code/docs/en/kimi-code/membership",
       "verified_at": "2026-08-21T00:00:00Z"
@@ -567,8 +567,8 @@
       "pricing_model": "flat_monthly",
       "billing": "monthly",
       "price_usd": 99.0,
-      "price_note": "周配额、5 小时速率窗口",
-      "limits": "Kimi Code 独立订阅（Kimi 会员亦含 Code 功能）",
+      "price_note": "Weekly quota, 5-hour rate window",
+      "limits": "Kimi Code standalone subscription (Kimi membership also includes Code features)",
       "includes": [],
       "url": "https://kimi.com/code/docs/en/kimi-code/membership",
       "verified_at": "2026-08-21T00:00:00Z"
@@ -582,8 +582,8 @@
       "pricing_model": "flat_monthly",
       "billing": "monthly",
       "price_usd": 19.0,
-      "price_note": "周配额、5 小时速率窗口",
-      "limits": "Kimi Code 独立订阅（Kimi 会员亦含 Code 功能）",
+      "price_note": "Weekly quota, 5-hour rate window",
+      "limits": "Kimi Code standalone subscription (Kimi membership also includes Code features)",
       "includes": [],
       "url": "https://kimi.com/code/docs/en/kimi-code/membership",
       "verified_at": "2026-08-21T00:00:00Z"
@@ -597,8 +597,8 @@
       "pricing_model": "flat_monthly",
       "billing": "monthly",
       "price_usd": 199.0,
-      "price_note": "周配额、5 小时速率窗口",
-      "limits": "Kimi Code 独立订阅（Kimi 会员亦含 Code 功能）",
+      "price_note": "Weekly quota, 5-hour rate window",
+      "limits": "Kimi Code standalone subscription (Kimi membership also includes Code features)",
       "includes": [],
       "url": "https://kimi.com/code/docs/en/kimi-code/membership",
       "verified_at": "2026-08-21T00:00:00Z"
@@ -612,11 +612,11 @@
       "pricing_model": "flat_monthly",
       "billing": "monthly",
       "price_usd": 8,
-      "limits": "官方未公布具体用量额度（含广告；约 10 倍于 Free 的处理量）",
+      "limits": "Official specific usage allowance not published (includes ads; roughly 10x Free tier processing volume)",
       "includes": [
-        "标准模型访问",
-        "广告支持模式",
-        "包含 Codex 基础用量"
+        "Standard model access",
+        "Ad-supported mode",
+        "Includes Codex basic usage"
       ],
       "url": "https://chatgpt.com/plans/go/",
       "verified_at": "2026-08-21T00:00:00Z"
@@ -628,11 +628,11 @@
       "category": "consumer",
       "billing": "monthly",
       "price_usd": 20,
-      "limits": "Standard usage limits；官方未公布具体用量额度（2026 年多次调整限额政策）",
+      "limits": "Standard usage limits; official specific usage allowance not published (limit policy adjusted multiple times in 2026)",
       "includes": [
-        "GPT-5 系列访问",
-        "更高限额",
-        "包含 Codex 编码用量（GPT-5.5 本地约 15-80 条/5h）"
+        "Access to GPT-5 series",
+        "Higher limits",
+        "Includes Codex coding usage (GPT-5.5 native, ~15-80 messages/5h)"
       ],
       "url": "https://openai.com/chatgpt/pricing/",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -646,10 +646,10 @@
       "category": "consumer",
       "billing": "monthly",
       "price_usd": 100,
-      "limits": "5x Codex access vs Plus；官方未公布具体用量额度（5x Codex 访问为官方口径）",
+      "limits": "5x Codex access vs Plus; official specific usage allowance not published (5x Codex access is the official figure)",
       "includes": [
-        "5 倍 Codex 用量",
-        "更高模型限额"
+        "5x Codex usage",
+        "Higher model limits"
       ],
       "url": "https://thenextweb.com/news/openais-new-100-chatgpt-pro-plan-targets-claude-max-with-five-times-the-codex-access",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -663,10 +663,10 @@
       "category": "consumer",
       "billing": "monthly",
       "price_usd": 200,
-      "limits": "Top tier；官方未公布具体用量额度",
+      "limits": "Top tier; official specific usage allowance not published",
       "includes": [
-        "最高模型限额",
-        "o 系列与 Codex 高额度"
+        "Maximum model limits",
+        "High allowance for o-series and Codex"
       ],
       "url": "https://openai.com/chatgpt/pricing/",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -682,16 +682,16 @@
       "pricing_model": "credits",
       "billing": "monthly",
       "price_usd": 10,
-      "price_note": "首月 $5，之后 $10/月",
-      "limits": "含 $60 美元用量额度（按模型消耗率折算请求数）",
+      "price_note": "First month $5, then $10/month",
+      "limits": "Includes $60 USD usage allowance (request count converted by model consumption rate)",
       "credits_included": {
         "unit_name": "USD usage",
         "amount": 60,
         "renewal": "monthly"
       },
       "includes": [
-        "流行开源编码模型访问",
-        "额度用尽后可继续按量"
+        "Access to popular open-source coding models",
+        "Pay-as-you-go after allowance is exhausted"
       ],
       "url": "https://opencode.ai/docs/go/",
       "verified_at": "2026-08-21T00:00:00Z"
@@ -703,9 +703,9 @@
       "category": "student",
       "billing": "monthly",
       "price_usd": 10,
-      "limits": "需学生验证",
+      "limits": "Student verification required",
       "includes": [
-        "Pro 功能折扣价"
+        "Pro features at a discount"
       ],
       "url": "https://www.perplexity.ai/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -719,13 +719,13 @@
       "category": "enterprise",
       "billing": "monthly",
       "price_usd": 40,
-      "price_note": "每 seat/月起",
-      "limits": "统一账单、seat 管理",
+      "price_note": "Per seat/month (starting at)",
+      "limits": "Unified billing, seat management",
       "includes": [
-        "Pro 全部功能",
-        "组织级文件库",
-        "内部知识搜索",
-        "SOC 2 等合规"
+        "All Pro features",
+        "Organization-level file library",
+        "Internal knowledge search",
+        "SOC 2 and other compliance"
       ],
       "url": "https://www.perplexity.ai/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -739,10 +739,10 @@
       "category": "consumer",
       "billing": "monthly",
       "price_usd": 200,
-      "limits": "最高个人档：更高研究与 Comet 限额",
+      "limits": "Top personal tier: higher research and Comet limits",
       "includes": [
-        "顶级模型访问",
-        "高级功能"
+        "Top-tier model access",
+        "Advanced features"
       ],
       "url": "https://www.perplexity.ai/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -756,12 +756,12 @@
       "category": "consumer",
       "billing": "monthly",
       "price_usd": 20,
-      "limits": "更高 Pro Search 限额",
+      "limits": "Higher Pro Search limits",
       "includes": [
-        "前沿模型访问 (GPT-5, Claude Opus)",
-        "文件上传",
-        "图像/视频生成",
-        "每日 Deep Research 额度"
+        "Frontier model access (GPT-5, Claude Opus)",
+        "File uploads",
+        "Image/video generation",
+        "Daily Deep Research allowance"
       ],
       "url": "https://www.perplexity.ai/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -775,9 +775,9 @@
       "category": "consumer",
       "billing": "monthly",
       "price_usd": 10,
-      "limits": "基础无限访问",
+      "limits": "Basic unlimited access",
       "includes": [
-        "多模型聊天聚合"
+        "Multi-model chat aggregation"
       ],
       "url": "https://poe.com/subscription",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -791,10 +791,10 @@
       "category": "consumer",
       "billing": "monthly",
       "price_usd": 19.99,
-      "limits": "点数制用量",
+      "limits": "Points-based usage",
       "includes": [
-        "全部模型访问",
-        "更高点数"
+        "Access to all models",
+        "Higher points"
       ],
       "url": "https://poe.com/subscription",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -804,14 +804,14 @@
     {
       "id": "poe-yearly",
       "product": "Poe",
-      "plan": "Standard (年付)",
+      "plan": "Standard (annual)",
       "category": "consumer",
       "billing": "yearly",
       "price_usd": 199.99,
-      "price_note": "平均 $16.67/月，省 17%",
-      "limits": "同 Standard",
+      "price_note": "Average $16.67/month, save 17%",
+      "limits": "Same as Standard",
       "includes": [
-        "同 Standard"
+        "Same as Standard"
       ],
       "url": "https://poe.com/subscription",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -825,13 +825,13 @@
       "category": "coding",
       "billing": "monthly",
       "price_usd": 20,
-      "price_note": "年付 $18/月",
-      "limits": "$20 月 credits；5 协作者；无 credits 结转",
+      "price_note": "Annual billing $18/month",
+      "limits": "$20 monthly credits; 5 collaborators; no credit rollover",
       "includes": [
         "Full build",
         "Plan Mode",
         "Connectors",
-        "无限发布应用"
+        "Unlimited app publishing"
       ],
       "url": "https://replit.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -845,12 +845,12 @@
       "category": "coding",
       "billing": "monthly",
       "price_usd": 100,
-      "price_note": "年付 $90/月",
-      "limits": "$100 月 credits；15 协作者；10 并行 agents；1 月 credits 结转",
+      "price_note": "Annual billing $90/month",
+      "limits": "$100 monthly credits; 15 collaborators; 10 parallel agents; 1 month credit rollover",
       "includes": [
-        "Core 全部功能",
-        "Turbo 模式",
-        "优先支持"
+        "All Core features",
+        "Turbo mode",
+        "Priority support"
       ],
       "url": "https://replit.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -864,7 +864,7 @@
       "category": "coding",
       "billing": "monthly",
       "price_usd": 0,
-      "limits": "每日 Agent credits；1 个发布应用；~1200 开发分钟/月",
+      "limits": "Daily Agent credits; 1 published app; ~1200 development minutes/month",
       "includes": [
         "Agent",
         "Lite build"
@@ -932,11 +932,11 @@
       "category": "coding",
       "billing": "yearly",
       "price_usd": 468,
-      "price_note": "$39/用户/月（年付）",
-      "limits": "每用户/月",
+      "price_note": "$39/user/month (annual billing)",
+      "limits": "Per user/month",
       "includes": [
-        "Chat 与补全",
-        "IDE 集成"
+        "Chat and completion",
+        "IDE integration"
       ],
       "url": "https://www.tabnine.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -950,12 +950,12 @@
       "category": "enterprise",
       "billing": "yearly",
       "price_usd": 708,
-      "price_note": "$59/用户/月（年付）",
-      "limits": "每用户/月",
+      "price_note": "$59/user/month (annual billing)",
+      "limits": "Per user/month",
       "includes": [
-        "Code 全部功能",
-        "企业级安全部署",
-        "自托管"
+        "All Code features",
+        "Enterprise-grade secure deployment",
+        "Self-hosting"
       ],
       "url": "https://www.tabnine.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -969,9 +969,9 @@
       "category": "coding",
       "billing": "monthly",
       "price_usd": 0,
-      "limits": "基础用量",
+      "limits": "Basic usage",
       "includes": [
-        "基础模型访问"
+        "Basic model access"
       ],
       "url": "https://windsurf.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -985,10 +985,10 @@
       "category": "coding",
       "billing": "monthly",
       "price_usd": 200,
-      "limits": "最高用量池",
+      "limits": "Maximum usage pool",
       "includes": [
-        "无限 Agent",
-        "全部模型"
+        "Unlimited Agents",
+        "All models"
       ],
       "url": "https://windsurf.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -1002,10 +1002,10 @@
       "category": "coding",
       "billing": "monthly",
       "price_usd": 20,
-      "limits": "信用点数制（用量池）",
+      "limits": "Credit points system (usage pool)",
       "includes": [
-        "前沿模型",
-        "Agent 功能"
+        "Frontier models",
+        "Agent features"
       ],
       "url": "https://windsurf.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -1019,10 +1019,10 @@
       "category": "team",
       "billing": "monthly",
       "price_usd": 40,
-      "limits": "每用户/月",
+      "limits": "Per user/month",
       "includes": [
-        "团队管理",
-        "共享用量"
+        "Team management",
+        "Shared usage"
       ],
       "url": "https://windsurf.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -1038,8 +1038,8 @@
       "pricing_model": "flat_monthly",
       "billing": "monthly",
       "price_usd": 6.0,
-      "price_note": "$6/月（¥39）",
-      "limits": "编程场景 Token Plan 订阅（年付约 88 折）",
+      "price_note": "$6/month (¥39)",
+      "limits": "Token Plan subscription for coding scenarios (annual billing approx. 12% off)",
       "includes": [],
       "url": "https://mimo.mi.com/docs/price/token-plan",
       "verified_at": "2026-08-21T00:00:00Z"
@@ -1053,8 +1053,8 @@
       "pricing_model": "flat_monthly",
       "billing": "monthly",
       "price_usd": 100.0,
-      "price_note": "$100/月（¥659）",
-      "limits": "编程场景 Token Plan 订阅（年付约 88 折）",
+      "price_note": "$100/month (¥659)",
+      "limits": "Token Plan subscription for coding scenarios (annual billing approx. 12% off)",
       "includes": [],
       "url": "https://mimo.mi.com/docs/price/token-plan",
       "verified_at": "2026-08-21T00:00:00Z"
@@ -1068,8 +1068,8 @@
       "pricing_model": "flat_monthly",
       "billing": "monthly",
       "price_usd": 50.0,
-      "price_note": "$50/月（¥329）",
-      "limits": "编程场景 Token Plan 订阅（年付约 88 折）",
+      "price_note": "$50/month (¥329)",
+      "limits": "Token Plan subscription for coding scenarios (annual billing approx. 12% off)",
       "includes": [],
       "url": "https://mimo.mi.com/docs/price/token-plan",
       "verified_at": "2026-08-21T00:00:00Z"
@@ -1083,8 +1083,8 @@
       "pricing_model": "flat_monthly",
       "billing": "monthly",
       "price_usd": 16.0,
-      "price_note": "$16/月（¥99）",
-      "limits": "编程场景 Token Plan 订阅（年付约 88 折）",
+      "price_note": "$16/month (¥99)",
+      "limits": "Token Plan subscription for coding scenarios (annual billing approx. 12% off)",
       "includes": [],
       "url": "https://mimo.mi.com/docs/price/token-plan",
       "verified_at": "2026-08-21T00:00:00Z"

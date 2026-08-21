@@ -2,6 +2,7 @@
 
 - provider_id: `groq`
 - Channel: Inference host
+- API base URL: `https://api.groq.com/openai/v1`
 - Homepage: https://console.groq.com/docs/models
 - Pricing page: https://console.groq.com/docs/models
 - Currency: USD
@@ -10,20 +11,20 @@
 
 **15** models in total.
 
-| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|---|
-| `allam-2-7b` | — | chat | 4.096K | $0 | $0 | — | — | —/— | — |
-| `canopylabs/orpheus-arabic-saudi` | — | chat | 4K | — | — | — | — | —/— | — |
-| `canopylabs/orpheus-v1-english` | — | chat | 4K | — | — | — | — | —/— | — |
-| `groq/compound` | — | chat | 131.072K | — | — | — | — | —/— | — |
-| `groq/compound-mini` | — | chat | 131.072K | — | — | — | — | —/— | — |
-| `llama-3.1-8b-instant` | — | chat | 131.072K | $0.05 | $0.08 | — | — | —/— | — |
-| `llama-3.3-70b-versatile` | — | chat | 131.072K | $0.59 | $0.79 | — | — | —/— | — |
-| `meta-llama/llama-prompt-guard-2-22m` | — | chat | 512 | $0.03 | $0.03 | — | — | —/— | — |
-| `meta-llama/llama-prompt-guard-2-86m` | — | chat | 512 | $0.04 | $0.04 | — | — | —/— | — |
-| `openai/gpt-oss-120b` | — | reasoning | 131.072K | $0.15 | $0.6 | $0.075 | — | —/— | — |
-| `openai/gpt-oss-20b` | — | reasoning | 131.072K | $0.075 | $0.3 | $0.0375 | — | —/— | — |
-| `openai/gpt-oss-safeguard-20b` | — | reasoning | 131.072K | $0.075 | $0.3 | — | — | —/— | — |
-| `qwen/qwen3.6-27b` | — | reasoning | 131.072K | $0.6 | $3 | $0.3 | — | —/— | — |
-| `whisper-large-v3` | — | chat | — | — | — | — | — | —/— | — |
-| `whisper-large-v3-turbo` | — | chat | — | — | — | — | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|
+| `allam-2-7b` | — | chat | 4.096K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `canopylabs/orpheus-arabic-saudi` | — | chat | 4K | — | — | — | — | —/— | — | models.dev official list price |
+| `canopylabs/orpheus-v1-english` | — | chat | 4K | — | — | — | — | —/— | — | models.dev official list price |
+| `groq/compound` | — | chat | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
+| `groq/compound-mini` | — | chat | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
+| `llama-3.1-8b-instant` | — | chat | 131.072K | $0.05 | $0.08 | — | — | —/— | — | models.dev official list price |
+| `llama-3.3-70b-versatile` | — | chat | 131.072K | $0.59 | $0.79 | — | — | —/— | — | models.dev official list price |
+| `meta-llama/llama-prompt-guard-2-22m` | — | chat | 512 | $0.03 | $0.03 | — | — | —/— | — | models.dev official list price |
+| `meta-llama/llama-prompt-guard-2-86m` | — | chat | 512 | $0.04 | $0.04 | — | — | —/— | — | models.dev official list price |
+| `openai/gpt-oss-120b` | — | reasoning | 131.072K | $0.15 | $0.6 | $0.075 | — | —/— | — | models.dev official list price |
+| `openai/gpt-oss-20b` | — | reasoning | 131.072K | $0.075 | $0.3 | $0.0375 | — | —/— | — | models.dev official list price |
+| `openai/gpt-oss-safeguard-20b` | — | reasoning | 131.072K | $0.075 | $0.3 | — | — | —/— | — | models.dev official list price |
+| `qwen/qwen3.6-27b` | — | reasoning | 131.072K | $0.6 | $3 | $0.3 | — | —/— | — | models.dev official list price |
+| `whisper-large-v3` | — | chat | — | — | — | — | — | —/— | — | models.dev official list price |
+| `whisper-large-v3-turbo` | — | chat | — | — | — | — | — | —/— | — | models.dev official list price |

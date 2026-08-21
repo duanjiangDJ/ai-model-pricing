@@ -3,6 +3,7 @@
 
 [![Daily Price Check](https://github.com/duanjiangDJ/ai-model-pricing/actions/workflows/daily-check.yml/badge.svg)](https://github.com/duanjiangDJ/ai-model-pricing/actions/workflows/daily-check.yml)
 [![PR Check](https://github.com/duanjiangDJ/ai-model-pricing/actions/workflows/pr-check.yml/badge.svg)](https://github.com/duanjiangDJ/ai-model-pricing/actions/workflows/pr-check.yml)
+[![GitHub Stars](https://img.shields.io/github/stars/duanjiangDJ/ai-model-pricing?style=social&label=Stars)](https://github.com/duanjiangDJ/ai-model-pricing/stargazers)
 
 收集市面上**所有可获取的 AI 模型定价**的开源数据库，覆盖多种收费形式：
 API 按 token（输入/输出/缓存/批处理）、按图、按音频秒、按请求、点数制、GPU 秒、消费订阅、编码工具计划等。
@@ -23,6 +24,73 @@ API 按 token（输入/输出/缓存/批处理）、按图、按音频秒、按�
 - **欢迎一切贡献**：发现错误或建议新的数据来源/获取策略请提 **issue**；修正价格或改进采集管线请提 **PR**（见 [CONTRIBUTING.md](CONTRIBUTING.md)）。所有变更一律走 PR + 自动校验（`pr-check.yml`：schema 校验、生成页面一致性、版本一致性）。
 
 **项目技术栈**：本仓库最初基于 [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness) 、使用 **deepseek-v4-flash-0731** 模型维护。数据获取结合官方定价页直采（`scripts/sync_official.py`）、公开目录（models.dev、OpenRouter）与人工/Agent 核实。
+
+<!-- STATS:BEGIN -->
+
+## 数据统计（精确值）
+
+- **供应商数**：185
+- **模型数**：7077
+- **订阅计划数**：64
+- **去重后的 API 端点数**：178
+- **免费模型数**：407
+
+### 按渠道
+
+| 渠道 | 供应商 | 模型 |
+|---|---|---|
+| 推理托管 | 146 | 0 |
+| 官方直供 | 16 | 0 |
+| 聚合站 | 13 | 0 |
+| 订阅产品 | 9 | 0 |
+| 云平台托管 | 1 | 0 |
+
+### 按地区
+
+| 地区 | 供应商 |
+|---|---|
+| Global | 174 |
+| US | 8 |
+| China | 3 |
+
+### 模型状态分布
+
+| 状态 | 模型数 |
+|---|---|
+| retired | 39 |
+| active | 3 |
+| deprecated | 2 |
+| superseded | 2 |
+| preview | 2 |
+| （未标注） | 7029 |
+
+### 模型数 Top 15 供应商
+
+| 供应商 | 模型数 |
+|---|---|
+| NanoGPT（`nano-gpt`） | 597 |
+| DevPass (LLM Gateway)（`llmgateway`） | 556 |
+| OpenRouter（`openrouter`） | 420 |
+| Kilo Gateway（`kilo`） | 363 |
+| Vercel AI Gateway（`vercel`） | 350 |
+| Eden AI（`edenai`） | 232 |
+| Merge Gateway（`merge-gateway`） | 174 |
+| Requesty（`requesty`） | 139 |
+| Poe（`poe`） | 137 |
+| ZenMux（`zenmux`） | 120 |
+| Amazon Web Services（`aws`） | 120 |
+| Cortecs（`cortecs`） | 108 |
+| Abacus（`abacus`） | 108 |
+| Ofox（`ofox`） | 107 |
+| NovitaAI（`novita-ai`） | 107 |
+
+### 按计价币种
+
+| 币种 | 供应商 |
+|---|---|
+| USD | 185 |
+
+<!-- STATS:END -->
 
 ## 快速开始（机器读取）
 

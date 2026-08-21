@@ -2,6 +2,7 @@
 
 - provider_id: `salad-cloud`
 - Channel: Aggregator
+- API base URL: `https://api.salad.com/v1`
 - Homepage: https://docs.salad.com/ai-gateway/explanation/overview
 - Pricing page: https://docs.salad.com/ai-gateway/explanation/overview
 - Currency: USD
@@ -10,6 +11,6 @@
 
 **1** models in total.
 
-| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|---|
-| `qwen3.6-35b-a3b` | — | reasoning | 262.144K | $0.09 | $0.6 | — | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|
+| `qwen3.6-35b-a3b` | — | reasoning | 262.144K | $0.09 | $0.6 | — | — | —/— | — | models.dev official list price |

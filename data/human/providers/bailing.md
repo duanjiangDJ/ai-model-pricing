@@ -2,6 +2,7 @@
 
 - provider_id: `bailing`
 - Channel: Inference host
+- API base URL: `https://api.tbox.cn/api/llm/v1/chat/completions`
 - Homepage: https://alipaytbox.yuque.com/sxs0ba/ling/intro
 - Pricing page: https://alipaytbox.yuque.com/sxs0ba/ling/intro
 - Currency: USD
@@ -10,7 +11,7 @@
 
 **2** models in total.
 
-| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|---|
-| `Ling-1T` | — | chat | 128K | $0.57 | $2.29 | — | — | —/— | — |
-| `Ring-1T` | — | reasoning | 128K | $0.57 | $2.29 | — | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|
+| `Ling-1T` | — | chat | 128K | $0.57 | $2.29 | — | — | —/— | — | models.dev official list price |
+| `Ring-1T` | — | reasoning | 128K | $0.57 | $2.29 | — | — | —/— | — | models.dev official list price |

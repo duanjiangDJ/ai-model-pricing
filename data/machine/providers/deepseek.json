@@ -31,7 +31,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "旧型号（V3.2 时代），已被 deepseek-v4-flash 取代；旧价 $0.28/$0.42 不再适用于当前官方在售模型，保留条目仅作历史参考。 SUPERSEDED by deepseek-v4 series; historical entry only.",
+      "notes": "Legacy model (V3.2 era), superseded by deepseek-v4-flash; old prices $0.28/$0.42 no longer apply to current official models on sale; entry kept for historical reference only. SUPERSEDED by deepseek-v4 series; historical entry only.",
       "status": "superseded"
     },
     {
@@ -55,7 +55,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "旧型号（R1 时代），已被 deepseek-v4-flash/pro 的思考模式取代；旧价 $0.55/$2.19 不再适用于当前官方在售模型，保留条目仅作历史参考。 SUPERSEDED by deepseek-v4 series; historical entry only.",
+      "notes": "Legacy model (R1 era), superseded by deepseek-v4-flash/pro thinking mode; old prices $0.55/$2.19 no longer apply to current official models on sale; entry kept for historical reference only. SUPERSEDED by deepseek-v4 series; historical entry only.",
       "status": "superseded"
     },
     {
@@ -79,7 +79,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "官方价（CNY/百万tokens，2026-08-21 官方文档）：输入(缓存未命中) 高峰 ¥3.0 / 闲时 ¥1.5；输出 高峰 ¥9.0 / 闲时 ¥4.5；输入(缓存命中) 高峰 ¥0.10 / 闲时 ¥0.05。高峰=北京 9:00-12:00、14:00-18:00。上下文 1M，输出最大 384K。支持思考/非思考模式。 官方英文页 USD 价：空闲 \\.22/\\.66/\\.007，高峰 \\.44/\\.32/\\.014（每百万 tokens）。 | Official page (CNY/1M tokens, peak tier; off-peak = 50%, peak = BJT 9-12/14-18). Parsed by sync_official.py."
+      "notes": "Official price (CNY/1M tokens, official docs 2026-08-21): input (cache miss) peak ¥3.0 / off-peak ¥1.5; output peak ¥9.0 / off-peak ¥4.5; input (cache hit) peak ¥0.10 / off-peak ¥0.05. Peak = Beijing time 9:00-12:00, 14:00-18:00. Context 1M, max output 384K. Supports thinking/non-thinking modes. Official English page USD price: off-peak \\.22/\\.66/\\.007, peak \\.44/\\.32/\\.014 (per 1M tokens). | Official page (CNY/1M tokens, peak tier; off-peak = 50%, peak = BJT 9-12/14-18). Parsed by sync_official.py."
     },
     {
       "id": "deepseek-v4-flash-vision-exp",
@@ -99,7 +99,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "官方价（CNY/百万tokens）与 flash 相同：输入(未命中) 高峰 ¥3.0/闲时 ¥1.5；输出 ¥9.0/¥4.5；缓存命中 ¥0.10/¥0.05。图片按尺寸换算成 token 一并计费（Exp 实验版）。 官方英文页 USD 价同 flash。",
+      "notes": "Official price (CNY/1M tokens) same as flash: input (cache miss) peak ¥3.0/off-peak ¥1.5; output ¥9.0/¥4.5; cache hit ¥0.10/¥0.05. Images are converted to tokens by size and billed together (Exp experimental version). Official English page USD price same as flash.",
       "status": "preview"
     },
     {
@@ -123,7 +123,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "官方价（CNY/百万tokens）：输入(缓存未命中) 高峰 ¥9.0 / 闲时 ¥4.5；输出 高峰 ¥27.0 / 闲时 ¥13.5；输入(缓存命中) 高峰 ¥0.30 / 闲时 ¥0.15。高峰=北京 9:00-12:00、14:00-18:00。上下文 1M，输出最大 384K。 官方英文页 USD 价：空闲 \\.66/\\.98/\\.022，高峰 \\.32/\\.96/\\.044。 | Official page (CNY/1M tokens, peak tier; off-peak = 50%, peak = BJT 9-12/14-18). Parsed by sync_official.py."
+      "notes": "Official price (CNY/1M tokens): input (cache miss) peak ¥9.0 / off-peak ¥4.5; output peak ¥27.0 / off-peak ¥13.5; input (cache hit) peak ¥0.30 / off-peak ¥0.15. Peak = Beijing time 9:00-12:00, 14:00-18:00. Context 1M, max output 384K. Official English page USD price: off-peak \\.66/\\.98/\\.022, peak \\.32/\\.96/\\.044. | Official page (CNY/1M tokens, peak tier; off-peak = 50%, peak = BJT 9-12/14-18). Parsed by sync_official.py."
     }
   ],
   "api_base_url": "https://api.deepseek.com"

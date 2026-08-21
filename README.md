@@ -3,6 +3,7 @@
 
 [![Daily Price Check](https://github.com/duanjiangDJ/ai-model-pricing/actions/workflows/daily-check.yml/badge.svg)](https://github.com/duanjiangDJ/ai-model-pricing/actions/workflows/daily-check.yml)
 [![PR Check](https://github.com/duanjiangDJ/ai-model-pricing/actions/workflows/pr-check.yml/badge.svg)](https://github.com/duanjiangDJ/ai-model-pricing/actions/workflows/pr-check.yml)
+[![GitHub Stars](https://img.shields.io/github/stars/duanjiangDJ/ai-model-pricing?style=social&label=Stars)](https://github.com/duanjiangDJ/ai-model-pricing/stargazers)
 
 An open database collecting pricing for **every obtainable AI model** across all billing models:
 per-token API (input/output/cache/batch), per-image, per-audio-second, per-request, credit
@@ -32,6 +33,73 @@ systems, GPU-second pricing, consumer subscriptions, and coding-tool plans.
 **deepseek-v4-flash-0731** model. Data acquisition combines official pricing pages
 (`scripts/sync_official.py`), public catalogs (models.dev, OpenRouter), and human/agent
 verification.
+
+<!-- STATS:BEGIN -->
+
+## Data Statistics (exact)
+
+- **Providers**: 185
+- **Models**: 7077
+- **Subscription plans**: 64
+- **Distinct API endpoints**: 178
+- **Free models**: 407
+
+### By channel
+
+| Channel | Providers | Models |
+|---|---|---|
+| Inference host | 146 | 0 |
+| First-party | 16 | 0 |
+| Aggregator | 13 | 0 |
+| Subscription | 9 | 0 |
+| Cloud-hosted | 1 | 0 |
+
+### By region
+
+| Region | Providers |
+|---|---|
+| Global | 174 |
+| US | 8 |
+| China | 3 |
+
+### Model status
+
+| Status | Models |
+|---|---|
+| retired | 39 |
+| active | 3 |
+| deprecated | 2 |
+| superseded | 2 |
+| preview | 2 |
+| (unmarked) | 7029 |
+
+### Top providers by model count
+
+| Provider | Models |
+|---|---|
+| NanoGPT (`nano-gpt`) | 597 |
+| DevPass (LLM Gateway) (`llmgateway`) | 556 |
+| OpenRouter (`openrouter`) | 420 |
+| Kilo Gateway (`kilo`) | 363 |
+| Vercel AI Gateway (`vercel`) | 350 |
+| Eden AI (`edenai`) | 232 |
+| Merge Gateway (`merge-gateway`) | 174 |
+| Requesty (`requesty`) | 139 |
+| Poe (`poe`) | 137 |
+| ZenMux (`zenmux`) | 120 |
+| Amazon Web Services (`aws`) | 120 |
+| Cortecs (`cortecs`) | 108 |
+| Abacus (`abacus`) | 108 |
+| Ofox (`ofox`) | 107 |
+| NovitaAI (`novita-ai`) | 107 |
+
+### By currency
+
+| Currency | Providers |
+|---|---|
+| USD | 185 |
+
+<!-- STATS:END -->
 
 ## Quick Start (machine reading)
 
