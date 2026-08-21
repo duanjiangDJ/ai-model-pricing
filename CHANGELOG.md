@@ -14,6 +14,21 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.1.0 — 2026-08-21 (feature update)
+
+- **Billing-mode fixes** (content): OpenCode Go recorded as subscription (USD-allowance
+  based; plan added: $5 first month / $10 mo, $60 usage); ChatGPT Go plan added ($8/mo,
+  ad-supported); 436 genuinely-free models explicitly flagged; ChatGPT plan limits marked
+  "not publicly specified".
+- **Versioning**: scheme reversed to `year.content.feature` (content = pricing updates).
+- **Bilingual docs**: every prose document now has English (default) + `*.zh-CN.md`.
+- **Repo hardening**: `main` branch protected (PR-only, no force push); `pr-check.yml`
+  (validate + audit + generated-page consistency + version consistency); `daily-check.yml`
+  now opens a PR instead of pushing directly; `reports/` removed (stale report via
+  `--stale-report`); `CONTRIBUTING` + issue/PR templates; `scripts/audit.py` added.
+- Project status disclosure (work-in-progress, data may be inaccurate) and tech-stack note
+  (DeepSeek Harness + deepseek-v4-flash-0731) added to README/AGENTS.
+
 ## 26.0.0 — 2026-08-21 (Initial Normalized Version)
 
 The first version to adopt the new versioning rules (content covers all work completed on 2026-08-21).

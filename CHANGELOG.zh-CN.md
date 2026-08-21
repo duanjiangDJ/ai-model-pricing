@@ -14,6 +14,14 @@
 
 ---
 
+## 26.1.0 — 2026-08-21（功能更新）
+
+- **收费模式修正**（内容更新）：OpenCode Go 改为订阅制记录（美元额度制；新增计划：首月 $5 / 之后 $10/月，含 $60 额度）；新增 ChatGPT Go 计划（$8/月，含广告）；436 个真正免费模型显式标注；ChatGPT 各计划额度注明"官方未公布"。
+- **版本规则**：改为 `年份.内容更新.功能更新`（内容更新=定价更新）。
+- **文档全双语**：所有纯文字文档提供英文默认版 + `*.zh-CN.md`。
+- **仓库加固**：`main` 分支保护（仅 PR、禁 force push）；新增 `pr-check.yml`（validate + audit + 生成页一致性 + 版本一致性）；`daily-check.yml` 改为开 PR 而非直接推送；删除 `reports/`（stale 报告改走 `--stale-report`）；新增 `CONTRIBUTING` 与 issue/PR 模板、`scripts/audit.py`。
+- README/AGENTS 增加项目状态声明（仍在完善、数据可能不准确）与技术栈说明（DeepSeek Harness + deepseek-v4-flash-0731）。
+
 ## 26.0.0 — 2026-08-21（初始规范化版本）
 
 首个采用新版本规则的版本（内容为 2026-08-21 当天完成的所有工作）。
