@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "entries": [
+    {
+      "date": "2026-08-21T11:25:09Z",
+      "kind": "update",
+      "scope": "provider",
+      "provider_id": "openrouter",
+      "item_id": "openrouter",
+      "field": "catalog",
+      "new": {
+        "model_count": 419
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-21T11:25:03Z",
+      "kind": "update",
+      "scope": "provider",
+      "provider_id": "openrouter",
+      "item_id": "openrouter",
+      "field": "catalog",
+      "new": {
+        "model_count": 419
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-21T11:24:04Z",
+      "kind": "update",
+      "scope": "provider",
+      "provider_id": "openrouter",
+      "item_id": "openrouter",
+      "field": "catalog",
+      "new": {
+        "model_count": 419
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    }
+  ]
+}

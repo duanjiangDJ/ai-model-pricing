@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-08-21T11:25:09Z",
+  "currency": "USD",
+  "provider_count": 0,
+  "model_count": 419,
+  "plan_count": 0,
+  "providers": [],
+  "resellers": [
+    {
+      "id": "openrouter",
+      "name": "OpenRouter",
+      "channel": "aggregator",
+      "model_count": 419,
+      "file": "providers/openrouter.json",
+      "updated_at": "2026-08-21T11:25:09Z"
+    }
+  ]
+}

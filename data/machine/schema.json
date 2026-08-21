@@ -1,0 +1,298 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/duanjiangDJ/ai-model-pricing/main/data/machine/schema.json",
+  "title": "AI Model Pricing Database Schema",
+  "description": "Versioned machine-readable schema for the ai-model-pricing database. Validates: index.json, providers/*.json, plans.json, resellers.json, manifest.json, changelog.json",
+  "version": "1.0.0",
+  "$defs": {
+    "channel": {
+      "type": "string",
+      "enum": ["first_party", "cloud", "hosted", "aggregator", "reseller", "subscription"]
+    },
+    "providerCategory": {
+      "type": "string",
+      "enum": ["ai_vendor", "cloud_platform", "inference_host", "aggregator", "reseller", "gpu_cloud"]
+    },
+    "modelCategory": {
+      "type": "string",
+      "enum": ["chat", "reasoning", "embedding", "image_gen", "video_gen", "audio_tts", "audio_stt", "audio_understanding", "realtime", "rerank", "moderation", "code", "translation", "vision", "music_gen", "multimodal"]
+    },
+    "priceType": {
+      "type": "string",
+      "enum": [
+        "per_mtok", "cache_read", "cache_write", "batch", "per_image", "per_audio_second",
+        "per_character", "per_request", "credits", "gpu_second", "gpu_hour", "neuron_second",
+        "subscription_monthly", "subscription_yearly", "free_tier", "finetune", "provisioned"
+      ]
+    },
+    "planCategory": {
+      "type": "string",
+      "enum": ["consumer", "coding", "team", "enterprise", "student", "api_credits", "free"]
+    },
+    "mtokPricing": {
+      "type": "object",
+      "description": "USD per 1M tokens. null = not offered/unknown (never 0).",
+      "properties": {
+        "input": { "type": ["number", "null"], "minimum": 0 },
+        "output": { "type": ["number", "null"], "minimum": 0 },
+        "cache_read": { "type": ["number", "null"], "minimum": 0 },
+        "cache_write": { "type": ["number", "null"], "minimum": 0 },
+        "reasoning_effort": {
+          "type": ["array", "null"],
+          "description": "Some models price output by reasoning effort tier.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "effort": { "type": "string" },
+              "input": { "type": ["number", "null"] },
+              "output": { "type": ["number", "null"] }
+            },
+            "required": ["effort", "input", "output"]
+          }
+        }
+      },
+      "required": ["input", "output"]
+    },
+    "modelPricing": {
+      "type": "object",
+      "description": "All price types for one model. Every field optional; at least one non-null.",
+      "properties": {
+        "per_mtok": { "$ref": "#/$defs/mtokPricing" },
+        "batch": {
+          "type": ["object", "null"],
+          "properties": {
+            "input": { "type": ["number", "null"] },
+            "output": { "type": ["number", "null"] }
+          }
+        },
+        "per_image": {
+          "type": ["array", "null"],
+          "description": "Tiers for image models.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "price": { "type": "number", "minimum": 0 }
+            },
+            "required": ["name", "price"]
+          }
+        },
+        "per_audio_second": {
+          "type": ["object", "null"],
+          "properties": {
+            "input": { "type": ["number", "null"] },
+            "output": { "type": ["number", "null"] },
+            "unit": { "type": "string", "enum": ["per_second", "per_minute"] }
+          }
+        },
+        "per_character": {
+          "type": ["object", "null"],
+          "properties": {
+            "price": { "type": ["number", "null"] },
+            "unit": { "type": "string", "enum": ["per_char", "per_1k_char"] }
+          }
+        },
+        "per_request": { "type": ["number", "null"], "minimum": 0 },
+        "credits": {
+          "type": ["object", "null"],
+          "description": "Credit/points based pricing. Keep original units; convertible flag tells machines whether USD equivalence exists.",
+          "properties": {
+            "unit_name": { "type": "string", "description": "e.g. 'points', 'credits', 'diamonds'" },
+            "topup": {
+              "type": "object",
+              "properties": {
+                "amount_usd": { "type": "number" },
+                "credits": { "type": "number" }
+              }
+            },
+            "model_rate": {
+              "type": "object",
+              "description": "Rate in credit units.",
+              "properties": {
+                "per_mtok_input": { "type": ["number", "null"] },
+                "per_mtok_output": { "type": ["number", "null"] },
+                "per_request": { "type": ["number", "null"] },
+                "per_image": { "type": ["number", "null"] }
+              }
+            },
+            "convertible": { "type": "boolean" }
+          }
+        },
+        "gpu": {
+          "type": ["array", "null"],
+          "items": {
+            "type": "object",
+            "properties": {
+              "sku": { "type": "string" },
+              "price": { "type": "number", "minimum": 0 },
+              "unit": { "type": "string", "enum": ["per_second", "per_hour"] }
+            },
+            "required": ["sku", "price", "unit"]
+          }
+        },
+        "neuron_second": {
+          "type": ["object", "null"],
+          "properties": {
+            "price_per_m": { "type": "number", "description": "USD per 1M neuron-seconds" },
+            "notes": { "type": "string" }
+          }
+        },
+        "finetune": {
+          "type": ["object", "null"],
+          "properties": {
+            "training_input": { "type": ["number", "null"] },
+            "training_output": { "type": ["number", "null"] },
+            "hosting": { "type": ["number", "null"] },
+            "unit": { "type": "string", "enum": ["per_mtok", "per_hour"] }
+          }
+        },
+        "provisioned": {
+          "type": ["string", "null"],
+          "description": "Typically 'contact_sales' or an hourly USD figure as string.",
+          "enum": ["contact_sales", null]
+        }
+      },
+      "minProperties": 1
+    },
+    "model": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Stable machine id, e.g. 'gpt-4o' or 'openai/gpt-4o' for aggregator files" },
+        "name": { "type": "string" },
+        "category": { "$ref": "#/$defs/modelCategory" },
+        "modalities": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["text", "image_in", "image_out", "audio_in", "audio_out", "video_in", "video_out"] }
+        },
+        "context_window": { "type": ["integer", "null"], "minimum": 0 },
+        "max_output": { "type": ["integer", "null"], "minimum": 0 },
+        "pricing": { "$ref": "#/$defs/modelPricing" },
+        "notes": { "type": ["string", "null"] }
+      },
+      "required": ["id", "name", "category", "pricing"]
+    },
+    "provider": {
+      "type": "object",
+      "properties": {
+        "provider_id": { "type": "string" },
+        "name": { "type": "string" },
+        "channel": { "$ref": "#/$defs/channel" },
+        "category": { "$ref": "#/$defs/providerCategory" },
+        "region": { "type": "string", "enum": ["global", "cn", "us", "eu", "other"] },
+        "homepage": { "type": "string", "format": "uri" },
+        "pricing_page": { "type": ["string", "null"] },
+        "currency": { "type": "string", "default": "USD" },
+        "updated_at": { "type": "string", "format": "date-time" },
+        "verified_at": { "type": "string", "format": "date-time" },
+        "models": { "type": "array", "items": { "$ref": "#/$defs/model" } }
+      },
+      "required": ["provider_id", "name", "channel", "category", "currency", "updated_at", "models"]
+    },
+    "plan": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "provider_id": { "type": "string" },
+        "product": { "type": "string", "description": "e.g. 'ChatGPT', 'Claude Code', 'Cursor'" },
+        "plan": { "type": "string", "description": "e.g. 'Plus', 'Pro', 'Ultra'" },
+        "category": { "$ref": "#/$defs/planCategory" },
+        "billing": { "type": ["string", "null"], "enum": ["monthly", "yearly", "one_time", null] },
+        "price_usd": { "type": ["number", "null"], "minimum": 0, "description": "Yearly plans: total yearly price. null = free plan." },
+        "price_note": { "type": ["string", "null"] },
+        "limits": { "type": ["string", "null"], "description": "Usage limits in human terms" },
+        "includes": { "type": "array", "items": { "type": "string" } },
+        "url": { "type": "string", "format": "uri" },
+        "verified_at": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "provider_id", "product", "plan", "category", "price_usd", "verified_at"]
+    },
+    "indexEntry": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "channel": { "$ref": "#/$defs/channel" },
+        "model_count": { "type": "integer", "minimum": 0 },
+        "file": { "type": "string" },
+        "updated_at": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "name", "channel", "model_count", "file", "updated_at"]
+    },
+    "changelogEntry": {
+      "type": "object",
+      "properties": {
+        "date": { "type": "string", "format": "date-time" },
+        "kind": { "type": "string", "enum": ["add", "update", "remove", "verify"] },
+        "scope": { "type": "string", "enum": ["provider", "model", "plan", "reseller", "meta"] },
+        "provider_id": { "type": "string" },
+        "item_id": { "type": "string" },
+        "field": { "type": "string" },
+        "old": {},
+        "new": {},
+        "source": { "type": "string" }
+      },
+      "required": ["date", "kind", "scope", "provider_id", "item_id"]
+    }
+  },
+  "providerFile": {
+    "$ref": "#/$defs/provider"
+  },
+  "plansFile": {
+    "type": "object",
+    "properties": {
+      "schema_version": { "type": "string", "const": "1.0.0" },
+      "updated_at": { "type": "string", "format": "date-time" },
+      "plans": { "type": "array", "items": { "$ref": "#/$defs/plan" } }
+    },
+    "required": ["schema_version", "updated_at", "plans"]
+  },
+  "indexFile": {
+    "type": "object",
+    "properties": {
+      "schema_version": { "type": "string", "const": "1.0.0" },
+      "generated_at": { "type": "string", "format": "date-time" },
+      "currency": { "type": "string", "const": "USD" },
+      "provider_count": { "type": "integer" },
+      "model_count": { "type": "integer" },
+      "plan_count": { "type": "integer" },
+      "providers": { "type": "array", "items": { "$ref": "#/$defs/indexEntry" } },
+      "resellers": { "type": "array", "items": { "$ref": "#/$defs/indexEntry" } }
+    },
+    "required": ["schema_version", "generated_at", "currency", "provider_count", "model_count", "plan_count", "providers", "resellers"]
+  },
+  "manifestFile": {
+    "type": "object",
+    "properties": {
+      "schema_version": { "type": "string", "const": "1.0.0" },
+      "last_full_sync": { "type": "string", "format": "date-time" },
+      "last_daily_check": { "type": "string", "format": "date-time" },
+      "sources": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string" },
+            "url": { "type": "string", "format": "uri" },
+            "auto_sync": { "type": "boolean" },
+            "last_ok": { "type": ["string", "null"], "format": "date-time" },
+            "last_error": { "type": ["string", "null"] }
+          },
+          "required": ["name", "url", "auto_sync"]
+        }
+      },
+      "coverage": {
+        "type": "object",
+        "additionalProperties": { "type": "integer" }
+      }
+    },
+    "required": ["schema_version", "sources"]
+  },
+  "changelogFile": {
+    "type": "object",
+    "properties": {
+      "schema_version": { "type": "string", "const": "1.0.0" },
+      "entries": { "type": "array", "items": { "$ref": "#/$defs/changelogEntry" } }
+    },
+    "required": ["schema_version", "entries"]
+  }
+}
