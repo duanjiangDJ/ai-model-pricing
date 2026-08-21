@@ -1,0 +1,290 @@
+{
+  "provider_id": "alibaba-coding-plan",
+  "name": "Alibaba Coding Plan",
+  "channel": "hosted",
+  "category": "inference_host",
+  "region": "global",
+  "homepage": "https://www.alibabacloud.com/help/en/model-studio/coding-plan",
+  "pricing_page": "https://www.alibabacloud.com/help/en/model-studio/coding-plan",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:27:12Z",
+  "verified_at": "2026-08-21T11:27:12Z",
+  "models": [
+    {
+      "id": "MiniMax-M2.5",
+      "name": "MiniMax-M2.5",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 196608,
+      "max_output": 24576,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "glm-4.7",
+      "name": "GLM-4.7",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 202752,
+      "max_output": 16384,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "glm-5",
+      "name": "GLM-5",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 202752,
+      "max_output": 16384,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "kimi-k2.5",
+      "name": "Kimi K2.5",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen3-coder-next",
+      "name": "Qwen3 Coder Next",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen3-coder-plus",
+      "name": "Qwen3 Coder Plus",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen3-max-2026-01-23",
+      "name": "Qwen3 Max",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen3.5-plus",
+      "name": "Qwen3.5 Plus",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen3.6-flash",
+      "name": "Qwen3.6 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.1875,
+          "output": 1.125,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen3.6-plus",
+      "name": "Qwen3.6 Plus",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen3.7-max",
+      "name": "Qwen3.7 Max",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 2.5,
+          "output": 7.5,
+          "cache_read": 0.5,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen3.7-plus",
+      "name": "Qwen3.7 Plus",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 64000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    }
+  ]
+}

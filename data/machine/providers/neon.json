@@ -1,0 +1,980 @@
+{
+  "provider_id": "neon",
+  "name": "Neon",
+  "channel": "hosted",
+  "category": "inference_host",
+  "region": "global",
+  "homepage": "https://neon.com/docs",
+  "pricing_page": "https://neon.com/docs",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:27:12Z",
+  "verified_at": "2026-08-21T11:27:12Z",
+  "models": [
+    {
+      "id": "claude-fable-5",
+      "name": "Claude Fable 5",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 10,
+          "output": 50,
+          "cache_read": 1,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "claude-haiku-4-5",
+      "name": "Claude Haiku 4.5 (latest)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 64000,
+      "pricing": {
+        "per_mtok": {
+          "input": 1,
+          "output": 5,
+          "cache_read": 0.1,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "claude-opus-4-1",
+      "name": "Claude Opus 4.1 (latest)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 32000,
+      "pricing": {
+        "per_mtok": {
+          "input": 15,
+          "output": 75,
+          "cache_read": 1.5,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "claude-opus-4-5",
+      "name": "Claude Opus 4.5 (latest)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 64000,
+      "pricing": {
+        "per_mtok": {
+          "input": 5,
+          "output": 25,
+          "cache_read": 0.5,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "claude-opus-4-6",
+      "name": "Claude Opus 4.6",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 5,
+          "output": 25,
+          "cache_read": 0.5,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "claude-opus-4-7",
+      "name": "Claude Opus 4.7",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 5,
+          "output": 25,
+          "cache_read": 0.5,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "claude-opus-4-8",
+      "name": "Claude Opus 4.8",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 5,
+          "output": 25,
+          "cache_read": 0.5,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "claude-opus-5",
+      "name": "Claude Opus 5",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 5,
+          "output": 25,
+          "cache_read": 0.5,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "claude-sonnet-4-5",
+      "name": "Claude Sonnet 4.5 (latest)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 64000,
+      "pricing": {
+        "per_mtok": {
+          "input": 3,
+          "output": 15,
+          "cache_read": 0.3,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "name": "Claude Sonnet 4.6",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 64000,
+      "pricing": {
+        "per_mtok": {
+          "input": 3,
+          "output": 15,
+          "cache_read": 0.3,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "claude-sonnet-5",
+      "name": "Claude Sonnet 5",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 2,
+          "output": 10,
+          "cache_read": 0.2,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gemini-3-1-flash-lite",
+      "name": "Gemini 3.1 Flash Lite Preview",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.25,
+          "output": 1.5,
+          "cache_read": 0.025,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gemini-3-1-pro",
+      "name": "Gemini 3.1 Pro Preview Custom Tools",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 2,
+          "output": 12,
+          "cache_read": 0.2,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gemini-3-5-flash",
+      "name": "Gemini 3.5 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.5,
+          "output": 9,
+          "cache_read": 0.15,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gemini-3-5-flash-lite",
+      "name": "Gemini 3.5 Flash Lite",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.3,
+          "output": 2.5,
+          "cache_read": 0.03,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gemini-3-6-flash",
+      "name": "Gemini 3.6 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.5,
+          "output": 7.5,
+          "cache_read": 0.15,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gemini-3-flash",
+      "name": "Gemini 3 Flash Preview",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.5,
+          "output": 3,
+          "cache_read": 0.05,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gemma-3-12b",
+      "name": "Gemma 3 12B",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131072,
+      "max_output": 8192,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.15,
+          "output": 0.5,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "glm-5-2",
+      "name": "GLM-5.2",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.4,
+          "output": 4.4,
+          "cache_read": 0.26,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gpt-5",
+      "name": "GPT-5",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 400000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.25,
+          "output": 10,
+          "cache_read": 0.125,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gpt-5-1",
+      "name": "GPT-5.1",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 400000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.25,
+          "output": 10,
+          "cache_read": 0.125,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gpt-5-2",
+      "name": "GPT-5.2",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 400000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.75,
+          "output": 14,
+          "cache_read": 0.175,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gpt-5-3-codex",
+      "name": "GPT-5.3 Codex",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 400000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.75,
+          "output": 14,
+          "cache_read": 0.175,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gpt-5-4",
+      "name": "GPT-5.4",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1050000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 2.5,
+          "output": 15,
+          "cache_read": 0.25,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gpt-5-4-mini",
+      "name": "GPT-5.4 mini",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 400000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.75,
+          "output": 4.5,
+          "cache_read": 0.075,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gpt-5-4-nano",
+      "name": "GPT-5.4 nano",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 400000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.2,
+          "output": 1.25,
+          "cache_read": 0.02,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gpt-5-5",
+      "name": "GPT-5.5",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1050000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 5,
+          "output": 30,
+          "cache_read": 0.5,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gpt-5-5-pro",
+      "name": "GPT-5.5 Pro",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1050000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 30,
+          "output": 180,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gpt-5-6-luna",
+      "name": "GPT-5.6 Luna",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1050000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 1,
+          "output": 6,
+          "cache_read": 0.1,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gpt-5-6-sol",
+      "name": "GPT-5.6 Sol",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1050000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 5,
+          "output": 30,
+          "cache_read": 0.5,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gpt-5-6-terra",
+      "name": "GPT-5.6 Terra",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1050000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 2.5,
+          "output": 15,
+          "cache_read": 0.25,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gpt-5-mini",
+      "name": "GPT-5 Mini",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 400000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.25,
+          "output": 2,
+          "cache_read": 0.025,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gpt-5-nano",
+      "name": "GPT-5 Nano",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 400000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.05,
+          "output": 0.4,
+          "cache_read": 0.005,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gpt-oss-120b",
+      "name": "GPT OSS 120B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131072,
+      "max_output": 25000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.072,
+          "output": 0.28,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gpt-oss-20b",
+      "name": "GPT OSS 20B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131072,
+      "max_output": 25000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.05,
+          "output": 0.2,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "inkling",
+      "name": "Inkling",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": null,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "kimi-k3",
+      "name": "Kimi K3",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 3,
+          "output": 15,
+          "cache_read": 0.3,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "llama-4-maverick",
+      "name": "Llama 4 Maverick 17B Instruct",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 8192,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.5,
+          "output": 1.5,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "meta-llama-3-1-8b-instruct",
+      "name": "Llama 3.1 8B Instruct",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131072,
+      "max_output": 8192,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.15,
+          "output": 0.45,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "meta-llama-3-3-70b-instruct",
+      "name": "Llama-3.3-70B-Instruct",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 8192,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.5,
+          "output": 1.5,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen3-next-80b-a3b-instruct",
+      "name": "Qwen3-Next 80B-A3B Instruct",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131072,
+      "max_output": 10000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.15,
+          "output": 1.2,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen35-122b-a10b",
+      "name": "Qwen3.5 122B-A10B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 25000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.22,
+          "output": 2.2,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    }
+  ]
+}

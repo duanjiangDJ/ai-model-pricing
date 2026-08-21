@@ -1,0 +1,60 @@
+{
+  "provider_id": "hetzner",
+  "name": "Hetzner",
+  "channel": "hosted",
+  "category": "inference_host",
+  "region": "global",
+  "homepage": "https://experiments.hetzner.com/docs/inference",
+  "pricing_page": "https://experiments.hetzner.com/docs/inference",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:27:12Z",
+  "verified_at": "2026-08-21T11:27:12Z",
+  "models": [
+    {
+      "id": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "name": "Qwen3.6 35B A3B FP8",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 262144,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen3.8-27B",
+      "name": "Qwen3.8-27B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 262144,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    }
+  ]
+}

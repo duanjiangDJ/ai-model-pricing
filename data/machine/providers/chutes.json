@@ -1,0 +1,336 @@
+{
+  "provider_id": "chutes",
+  "name": "Chutes",
+  "channel": "hosted",
+  "category": "inference_host",
+  "region": "global",
+  "homepage": "https://llm.chutes.ai/v1/models",
+  "pricing_page": "https://llm.chutes.ai/v1/models",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:27:12Z",
+  "verified_at": "2026-08-21T11:27:12Z",
+  "models": [
+    {
+      "id": "Nemotron-3-Nano-Omni-30B-TEE",
+      "name": "Nemotron 3 Nano Omni 30B TEE",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131072,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.0245,
+          "output": 0.0978,
+          "cache_read": 0.0024499999999999995,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3-235B-A22B-Thinking-2507-TEE",
+      "name": "Qwen3 235B A22B Thinking 2507 TEE",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 262144,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.2989,
+          "output": 1.1957,
+          "cache_read": 0.029889999999999993,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3-32B-TEE",
+      "name": "Qwen3 32B TEE",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 40960,
+      "max_output": 40960,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.104,
+          "output": 0.416,
+          "cache_read": 0.010399999999999998,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3.5-397B-A17B-TEE",
+      "name": "Qwen3.5 397B A17B TEE",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.45,
+          "output": 3,
+          "cache_read": 0.04499999999999999,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3.6-27B-TEE",
+      "name": "Qwen3.6 27B TEE",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.3,
+          "output": 2,
+          "cache_read": 0.029999999999999992,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3.8-27B-TEE",
+      "name": "Qwen3.8 27B TEE",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.4,
+          "output": 3,
+          "cache_read": 0.039999999999999994,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3.2-TEE",
+      "name": "DeepSeek V3.2 TEE",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131072,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 1,
+          "output": 1,
+          "cache_read": 0.09999999999999998,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V4-Flash-0731-TEE",
+      "name": "DeepSeek V4 Flash 0731 TEE",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.14,
+          "output": 0.28,
+          "cache_read": 0.013999999999999999,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "google/gemma-4-31B-turbo-TEE",
+      "name": "gemma 4 31B turbo TEE",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131072,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.12,
+          "output": 0.37,
+          "cache_read": 0.011999999999999997,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "moonshotai/Kimi-K2.6-TEE",
+      "name": "Kimi K2.6 TEE",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 65535,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.58,
+          "output": 3.4,
+          "cache_read": 0.05799999999999998,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "moonshotai/Kimi-K3-TEE",
+      "name": "Kimi K3 TEE",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65535,
+      "pricing": {
+        "per_mtok": {
+          "input": 3,
+          "output": 15,
+          "cache_read": 0.29999999999999993,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "unsloth/Mistral-Nemo-Instruct-2407-TEE",
+      "name": "Mistral Nemo Instruct 2407 TEE",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131072,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.0245,
+          "output": 0.0978,
+          "cache_read": 0.0024499999999999995,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "zai-org/GLM-5.1-TEE",
+      "name": "GLM 5.1 TEE",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 202752,
+      "max_output": 65535,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.98,
+          "output": 3.08,
+          "cache_read": 0.09799999999999998,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "zai-org/GLM-5.2-TEE",
+      "name": "GLM 5.2 TEE",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65535,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.25,
+          "output": 3.95,
+          "cache_read": 0.12499999999999997,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    }
+  ]
+}

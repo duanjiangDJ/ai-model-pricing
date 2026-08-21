@@ -1,0 +1,60 @@
+{
+  "provider_id": "cerebras",
+  "name": "Cerebras",
+  "channel": "hosted",
+  "category": "inference_host",
+  "region": "global",
+  "homepage": "https://inference-docs.cerebras.ai/models/overview",
+  "pricing_page": "https://inference-docs.cerebras.ai/models/overview",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:27:12Z",
+  "verified_at": "2026-08-21T11:27:12Z",
+  "models": [
+    {
+      "id": "gemma-4-31b",
+      "name": "Gemma 4 31B IT",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131072,
+      "max_output": 40960,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.99,
+          "output": 1.49,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gpt-oss-120b",
+      "name": "GPT OSS 120B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131072,
+      "max_output": 40960,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.35,
+          "output": 0.75,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    }
+  ]
+}

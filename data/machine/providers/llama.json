@@ -1,0 +1,175 @@
+{
+  "provider_id": "llama",
+  "name": "Llama",
+  "channel": "hosted",
+  "category": "inference_host",
+  "region": "global",
+  "homepage": "https://llama.developer.meta.com/docs/models",
+  "pricing_page": "https://llama.developer.meta.com/docs/models",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:27:12Z",
+  "verified_at": "2026-08-21T11:27:12Z",
+  "models": [
+    {
+      "id": "cerebras-llama-4-maverick-17b-128e-instruct",
+      "name": "Cerebras-Llama-4-Maverick-17B-128E-Instruct",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 4096,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "cerebras-llama-4-scout-17b-16e-instruct",
+      "name": "Cerebras-Llama-4-Scout-17B-16E-Instruct",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 4096,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "groq-llama-4-maverick-17b-128e-instruct",
+      "name": "Groq-Llama-4-Maverick-17B-128E-Instruct",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 4096,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "llama-3.3-70b-instruct",
+      "name": "Llama-3.3-70B-Instruct",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 4096,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "llama-3.3-8b-instruct",
+      "name": "Llama-3.3-8B-Instruct",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 4096,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "llama-4-maverick-17b-128e-instruct-fp8",
+      "name": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 4096,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "llama-4-scout-17b-16e-instruct-fp8",
+      "name": "Llama-4-Scout-17B-16E-Instruct-FP8",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 4096,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    }
+  ]
+}

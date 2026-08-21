@@ -1,0 +1,60 @@
+{
+  "provider_id": "abliteration-ai",
+  "name": "abliteration.ai",
+  "channel": "hosted",
+  "category": "inference_host",
+  "region": "global",
+  "homepage": "https://docs.abliteration.ai/models",
+  "pricing_page": "https://docs.abliteration.ai/models",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:27:12Z",
+  "verified_at": "2026-08-21T11:27:12Z",
+  "models": [
+    {
+      "id": "abliterated-model",
+      "name": "Abliterated Model",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 150000,
+      "max_output": 8192,
+      "pricing": {
+        "per_mtok": {
+          "input": 3,
+          "output": 3,
+          "cache_read": 0.3,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "abliterated-model-large",
+      "name": "Abliterated Model Large",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 999990,
+      "pricing": {
+        "per_mtok": {
+          "input": 5,
+          "output": 5,
+          "cache_read": 0.5,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    }
+  ]
+}

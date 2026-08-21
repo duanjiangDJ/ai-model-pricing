@@ -1,0 +1,83 @@
+{
+  "provider_id": "v0",
+  "name": "v0",
+  "channel": "hosted",
+  "category": "inference_host",
+  "region": "global",
+  "homepage": "https://sdk.vercel.ai/providers/ai-sdk-providers/vercel",
+  "pricing_page": "https://sdk.vercel.ai/providers/ai-sdk-providers/vercel",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:27:12Z",
+  "verified_at": "2026-08-21T11:27:12Z",
+  "models": [
+    {
+      "id": "v0-1.0-md",
+      "name": "v0-1.0-md",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 32000,
+      "pricing": {
+        "per_mtok": {
+          "input": 3,
+          "output": 15,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "v0-1.5-lg",
+      "name": "v0-1.5-lg",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 512000,
+      "max_output": 32000,
+      "pricing": {
+        "per_mtok": {
+          "input": 15,
+          "output": 75,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "v0-1.5-md",
+      "name": "v0-1.5-md",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 32000,
+      "pricing": {
+        "per_mtok": {
+          "input": 3,
+          "output": 15,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    }
+  ]
+}

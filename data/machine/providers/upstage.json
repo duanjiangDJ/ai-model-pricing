@@ -1,0 +1,106 @@
+{
+  "provider_id": "upstage",
+  "name": "Upstage",
+  "channel": "hosted",
+  "category": "inference_host",
+  "region": "global",
+  "homepage": "https://developers.upstage.ai/docs/apis/chat",
+  "pricing_page": "https://developers.upstage.ai/docs/apis/chat",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:27:12Z",
+  "verified_at": "2026-08-21T11:27:12Z",
+  "models": [
+    {
+      "id": "solar-mini",
+      "name": "solar-mini",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 32768,
+      "max_output": 4096,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.15,
+          "output": 0.15,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "solar-pro2",
+      "name": "solar-pro2",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 65536,
+      "max_output": 8192,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.25,
+          "output": 0.25,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "solar-pro3",
+      "name": "solar-pro3",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131072,
+      "max_output": 8192,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.25,
+          "output": 0.25,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "solar-pro4",
+      "name": "Solar Pro 4",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 524288,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.3,
+          "output": 1.2,
+          "cache_read": 0.06,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    }
+  ]
+}

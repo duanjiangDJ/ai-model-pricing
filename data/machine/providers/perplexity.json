@@ -1,0 +1,106 @@
+{
+  "provider_id": "perplexity",
+  "name": "Perplexity",
+  "channel": "first_party",
+  "category": "ai_vendor",
+  "region": "global",
+  "homepage": "https://docs.perplexity.ai",
+  "pricing_page": "https://docs.perplexity.ai",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:27:12Z",
+  "verified_at": "2026-08-21T11:27:12Z",
+  "models": [
+    {
+      "id": "sonar",
+      "name": "Sonar",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 4096,
+      "pricing": {
+        "per_mtok": {
+          "input": 1,
+          "output": 1,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "sonar-deep-research",
+      "name": "Perplexity Sonar Deep Research",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 32768,
+      "pricing": {
+        "per_mtok": {
+          "input": 2,
+          "output": 8,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "sonar-pro",
+      "name": "Sonar Pro",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 8192,
+      "pricing": {
+        "per_mtok": {
+          "input": 3,
+          "output": 15,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "sonar-reasoning-pro",
+      "name": "Sonar Reasoning Pro",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 4096,
+      "pricing": {
+        "per_mtok": {
+          "input": 2,
+          "output": 8,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    }
+  ]
+}

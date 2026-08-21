@@ -1,0 +1,60 @@
+{
+  "provider_id": "inception",
+  "name": "Inception",
+  "channel": "hosted",
+  "category": "inference_host",
+  "region": "global",
+  "homepage": "https://platform.inceptionlabs.ai/docs",
+  "pricing_page": "https://platform.inceptionlabs.ai/docs",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:27:12Z",
+  "verified_at": "2026-08-21T11:27:12Z",
+  "models": [
+    {
+      "id": "mercury-2",
+      "name": "Mercury 2",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 50000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.25,
+          "output": 0.75,
+          "cache_read": 0.025,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "mercury-edit-2",
+      "name": "Mercury Edit 2",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 8192,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.25,
+          "output": 0.75,
+          "cache_read": 0.025,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    }
+  ]
+}

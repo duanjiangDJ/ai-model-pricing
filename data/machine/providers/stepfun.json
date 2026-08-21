@@ -1,0 +1,198 @@
+{
+  "provider_id": "stepfun",
+  "name": "StepFun (China)",
+  "channel": "first_party",
+  "category": "ai_vendor",
+  "region": "global",
+  "homepage": "https://platform.stepfun.com/docs/zh/overview/concept",
+  "pricing_page": "https://platform.stepfun.com/docs/zh/overview/concept",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:27:12Z",
+  "verified_at": "2026-08-21T11:27:12Z",
+  "models": [
+    {
+      "id": "step-1-32k",
+      "name": "Step 1 (32K)",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 32768,
+      "max_output": 32768,
+      "pricing": {
+        "per_mtok": {
+          "input": 2.05,
+          "output": 9.59,
+          "cache_read": 0.41,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "step-2-16k",
+      "name": "Step 2 (16K)",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 16384,
+      "max_output": 8192,
+      "pricing": {
+        "per_mtok": {
+          "input": 5.21,
+          "output": 16.44,
+          "cache_read": 1.04,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "step-3.5-flash",
+      "name": "Step 3.5 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": 256000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.1,
+          "output": 0.3,
+          "cache_read": 0.02,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "step-3.5-flash-2603",
+      "name": "Step 3.5 Flash 2603",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": 256000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.1,
+          "output": 0.3,
+          "cache_read": 0.02,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "step-3.7-flash",
+      "name": "Step 3.7 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": 256000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.185,
+          "output": 1.11,
+          "cache_read": 0.037,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "step-tts-2",
+      "name": "Step TTS 2",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": null,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "stepaudio-2.5-asr",
+      "name": "StepAudio 2.5 ASR",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": null,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "stepaudio-2.5-tts",
+      "name": "StepAudio 2.5 TTS",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": null,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    }
+  ]
+}

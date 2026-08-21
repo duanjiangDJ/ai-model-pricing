@@ -1,11 +1,1548 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-08-21T11:25:09Z",
+  "generated_at": "2026-08-21T11:27:12Z",
   "currency": "USD",
-  "provider_count": 0,
-  "model_count": 419,
+  "provider_count": 192,
+  "model_count": 7282,
   "plan_count": 0,
-  "providers": [],
+  "providers": [
+    {
+      "id": "hpc-ai",
+      "name": "HPC-AI",
+      "channel": "hosted",
+      "model_count": 9,
+      "file": "providers/hpc-ai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "ai-router",
+      "name": "AI-ROUTER",
+      "channel": "aggregator",
+      "model_count": 5,
+      "file": "providers/ai-router.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "mixlayer",
+      "name": "Mixlayer",
+      "channel": "hosted",
+      "model_count": 5,
+      "file": "providers/mixlayer.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "qiniu-ai",
+      "name": "Qiniu",
+      "channel": "hosted",
+      "model_count": 91,
+      "file": "providers/qiniu-ai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "neuralwatt",
+      "name": "Neuralwatt",
+      "channel": "hosted",
+      "model_count": 22,
+      "file": "providers/neuralwatt.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "umans-ai-coding-plan",
+      "name": "Umans AI Coding Plan",
+      "channel": "hosted",
+      "model_count": 8,
+      "file": "providers/umans-ai-coding-plan.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "cloudflare-workers-ai",
+      "name": "Cloudflare Workers AI",
+      "channel": "hosted",
+      "model_count": 25,
+      "file": "providers/cloudflare-workers-ai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "meganova",
+      "name": "Meganova",
+      "channel": "hosted",
+      "model_count": 19,
+      "file": "providers/meganova.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "infomaniak",
+      "name": "Infomaniak",
+      "channel": "hosted",
+      "model_count": 10,
+      "file": "providers/infomaniak.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "orcarouter",
+      "name": "OrcaRouter",
+      "channel": "aggregator",
+      "model_count": 81,
+      "file": "providers/orcarouter.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "zenifra",
+      "name": "Zenifra",
+      "channel": "hosted",
+      "model_count": 1,
+      "file": "providers/zenifra.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "nvidia",
+      "name": "Nvidia",
+      "channel": "first_party",
+      "model_count": 100,
+      "file": "providers/nvidia.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "qvac",
+      "name": "QVAC",
+      "channel": "hosted",
+      "model_count": 9,
+      "file": "providers/qvac.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "iflowcn",
+      "name": "iFlow",
+      "channel": "hosted",
+      "model_count": 14,
+      "file": "providers/iflowcn.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "claudinio",
+      "name": "Claudinio",
+      "channel": "hosted",
+      "model_count": 2,
+      "file": "providers/claudinio.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "cortecs",
+      "name": "Cortecs",
+      "channel": "hosted",
+      "model_count": 108,
+      "file": "providers/cortecs.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "nano-gpt",
+      "name": "NanoGPT",
+      "channel": "hosted",
+      "model_count": 595,
+      "file": "providers/nano-gpt.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "modelscope",
+      "name": "ModelScope",
+      "channel": "hosted",
+      "model_count": 7,
+      "file": "providers/modelscope.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "synthetic",
+      "name": "Synthetic",
+      "channel": "hosted",
+      "model_count": 8,
+      "file": "providers/synthetic.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "jalapeno",
+      "name": "Jalapeno Cloud",
+      "channel": "hosted",
+      "model_count": 17,
+      "file": "providers/jalapeno.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "abliteration-ai",
+      "name": "abliteration.ai",
+      "channel": "hosted",
+      "model_count": 2,
+      "file": "providers/abliteration-ai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "channel": "first_party",
+      "model_count": 4,
+      "file": "providers/deepseek.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "greenpt",
+      "name": "GreenPT",
+      "channel": "hosted",
+      "model_count": 37,
+      "file": "providers/greenpt.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "xpersona",
+      "name": "Xpersona",
+      "channel": "hosted",
+      "model_count": 13,
+      "file": "providers/xpersona.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "tencent-tokenhub",
+      "name": "Tencent TokenHub",
+      "channel": "hosted",
+      "model_count": 2,
+      "file": "providers/tencent-tokenhub.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "stepfun-step-plan",
+      "name": "StepFun Step Plan (China)",
+      "channel": "hosted",
+      "model_count": 4,
+      "file": "providers/stepfun-step-plan.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "xiaomi-token-plan-sgp",
+      "name": "Xiaomi Token Plan (Singapore)",
+      "channel": "hosted",
+      "model_count": 7,
+      "file": "providers/xiaomi-token-plan-sgp.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "the-grid-ai",
+      "name": "The Grid AI",
+      "channel": "hosted",
+      "model_count": 9,
+      "file": "providers/the-grid-ai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "google-vertex",
+      "name": "Vertex",
+      "channel": "hosted",
+      "model_count": 42,
+      "file": "providers/google-vertex.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "alibaba-token-plan",
+      "name": "Alibaba Token Plan",
+      "channel": "hosted",
+      "model_count": 25,
+      "file": "providers/alibaba-token-plan.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "channel": "first_party",
+      "model_count": 39,
+      "file": "providers/google.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "model-oracle-ai",
+      "name": "Model Oracle AI",
+      "channel": "hosted",
+      "model_count": 15,
+      "file": "providers/model-oracle-ai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "deepinfra",
+      "name": "Deep Infra",
+      "channel": "hosted",
+      "model_count": 60,
+      "file": "providers/deepinfra.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "channel": "hosted",
+      "model_count": 3,
+      "file": "providers/meta.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "channel": "hosted",
+      "model_count": 69,
+      "file": "providers/huggingface.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "impossibl",
+      "name": "Impossibl",
+      "channel": "hosted",
+      "model_count": 76,
+      "file": "providers/impossibl.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "jiekou",
+      "name": "Jiekou.AI",
+      "channel": "hosted",
+      "model_count": 61,
+      "file": "providers/jiekou.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "longcat",
+      "name": "LongCat",
+      "channel": "hosted",
+      "model_count": 1,
+      "file": "providers/longcat.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "inception",
+      "name": "Inception",
+      "channel": "hosted",
+      "model_count": 2,
+      "file": "providers/inception.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "google-vertex-anthropic",
+      "name": "Vertex (Anthropic)",
+      "channel": "hosted",
+      "model_count": 12,
+      "file": "providers/google-vertex-anthropic.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "poolside",
+      "name": "Poolside",
+      "channel": "hosted",
+      "model_count": 3,
+      "file": "providers/poolside.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "hetzner",
+      "name": "Hetzner",
+      "channel": "hosted",
+      "model_count": 2,
+      "file": "providers/hetzner.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "regolo-ai",
+      "name": "Regolo AI",
+      "channel": "hosted",
+      "model_count": 18,
+      "file": "providers/regolo-ai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "lynkr",
+      "name": "Lynkr",
+      "channel": "hosted",
+      "model_count": 1,
+      "file": "providers/lynkr.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "lucidquery",
+      "name": "LucidQuery",
+      "channel": "hosted",
+      "model_count": 4,
+      "file": "providers/lucidquery.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "blueclaw",
+      "name": "Blue Claw",
+      "channel": "hosted",
+      "model_count": 2,
+      "file": "providers/blueclaw.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "auriko",
+      "name": "Auriko",
+      "channel": "hosted",
+      "model_count": 15,
+      "file": "providers/auriko.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "daoxe",
+      "name": "DaoXE",
+      "channel": "hosted",
+      "model_count": 9,
+      "file": "providers/daoxe.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "moonshotai",
+      "name": "Moonshot AI",
+      "channel": "hosted",
+      "model_count": 10,
+      "file": "providers/moonshotai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "crossmodel",
+      "name": "CrossModel",
+      "channel": "hosted",
+      "model_count": 52,
+      "file": "providers/crossmodel.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "kenari",
+      "name": "Kenari",
+      "channel": "hosted",
+      "model_count": 38,
+      "file": "providers/kenari.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "clarifai",
+      "name": "Clarifai",
+      "channel": "hosted",
+      "model_count": 12,
+      "file": "providers/clarifai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "snowflake-cortex",
+      "name": "Snowflake Cortex",
+      "channel": "hosted",
+      "model_count": 25,
+      "file": "providers/snowflake-cortex.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "channel": "first_party",
+      "model_count": 13,
+      "file": "providers/anthropic.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "cohere",
+      "name": "Cohere",
+      "channel": "first_party",
+      "model_count": 14,
+      "file": "providers/cohere.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "zai",
+      "name": "Z.AI",
+      "channel": "hosted",
+      "model_count": 14,
+      "file": "providers/zai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "routing-run",
+      "name": "routing.run",
+      "channel": "hosted",
+      "model_count": 15,
+      "file": "providers/routing-run.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "stackit",
+      "name": "STACKIT",
+      "channel": "hosted",
+      "model_count": 8,
+      "file": "providers/stackit.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "databricks",
+      "name": "Databricks",
+      "channel": "hosted",
+      "model_count": 30,
+      "file": "providers/databricks.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "moark",
+      "name": "Moark",
+      "channel": "hosted",
+      "model_count": 2,
+      "file": "providers/moark.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "salad-cloud",
+      "name": "SaladCloud AI Gateway",
+      "channel": "aggregator",
+      "model_count": 1,
+      "file": "providers/salad-cloud.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "alibaba-cn",
+      "name": "Alibaba (China)",
+      "channel": "hosted",
+      "model_count": 86,
+      "file": "providers/alibaba-cn.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "kosmik",
+      "name": "Kosmik Compute",
+      "channel": "hosted",
+      "model_count": 1,
+      "file": "providers/kosmik.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "minimax-cn-coding-plan",
+      "name": "MiniMax Token Plan (minimaxi.com)",
+      "channel": "hosted",
+      "model_count": 7,
+      "file": "providers/minimax-cn-coding-plan.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "amazon-bedrock",
+      "name": "Amazon Bedrock",
+      "channel": "hosted",
+      "model_count": 120,
+      "file": "providers/amazon-bedrock.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "unorouter",
+      "name": "UnoRouter",
+      "channel": "aggregator",
+      "model_count": 23,
+      "file": "providers/unorouter.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "crusoe",
+      "name": "Crusoe",
+      "channel": "hosted",
+      "model_count": 8,
+      "file": "providers/crusoe.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "dinference",
+      "name": "DInference",
+      "channel": "hosted",
+      "model_count": 6,
+      "file": "providers/dinference.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "channel": "first_party",
+      "model_count": 47,
+      "file": "providers/openai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "opencode-go",
+      "name": "OpenCode Go",
+      "channel": "hosted",
+      "model_count": 27,
+      "file": "providers/opencode-go.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "xai",
+      "name": "xAI",
+      "channel": "first_party",
+      "model_count": 12,
+      "file": "providers/xai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "stepfun-ai",
+      "name": "StepFun (Global)",
+      "channel": "hosted",
+      "model_count": 8,
+      "file": "providers/stepfun-ai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "lmstudio",
+      "name": "LMStudio",
+      "channel": "hosted",
+      "model_count": 3,
+      "file": "providers/lmstudio.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "ambient",
+      "name": "Ambient",
+      "channel": "hosted",
+      "model_count": 10,
+      "file": "providers/ambient.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "llmgateway-providers",
+      "name": "LLM Gateway",
+      "channel": "aggregator",
+      "model_count": 367,
+      "file": "providers/llmgateway-providers.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "vivgrid",
+      "name": "Vivgrid",
+      "channel": "hosted",
+      "model_count": 20,
+      "file": "providers/vivgrid.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "nebius",
+      "name": "Nebius Token Factory",
+      "channel": "hosted",
+      "model_count": 34,
+      "file": "providers/nebius.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "echo",
+      "name": "Echo",
+      "channel": "hosted",
+      "model_count": 1,
+      "file": "providers/echo.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "cloudferro-sherlock",
+      "name": "CloudFerro Sherlock",
+      "channel": "hosted",
+      "model_count": 5,
+      "file": "providers/cloudferro-sherlock.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "nearai",
+      "name": "NEAR AI Cloud",
+      "channel": "hosted",
+      "model_count": 37,
+      "file": "providers/nearai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "xiaomi-token-plan-cn",
+      "name": "Xiaomi Token Plan (China)",
+      "channel": "hosted",
+      "model_count": 7,
+      "file": "providers/xiaomi-token-plan-cn.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "tinfoil",
+      "name": "Tinfoil",
+      "channel": "hosted",
+      "model_count": 8,
+      "file": "providers/tinfoil.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "zhipuai-coding-plan",
+      "name": "Zhipu AI Coding Plan",
+      "channel": "hosted",
+      "model_count": 8,
+      "file": "providers/zhipuai-coding-plan.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "llmtr",
+      "name": "LLMTR",
+      "channel": "hosted",
+      "model_count": 32,
+      "file": "providers/llmtr.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "merge-gateway",
+      "name": "Merge Gateway",
+      "channel": "aggregator",
+      "model_count": 174,
+      "file": "providers/merge-gateway.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "inceptron",
+      "name": "Inceptron",
+      "channel": "hosted",
+      "model_count": 4,
+      "file": "providers/inceptron.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "ovhcloud",
+      "name": "OVHcloud AI Endpoints",
+      "channel": "hosted",
+      "model_count": 14,
+      "file": "providers/ovhcloud.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "aki-io",
+      "name": "AKI.IO",
+      "channel": "hosted",
+      "model_count": 6,
+      "file": "providers/aki-io.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "stepfun",
+      "name": "StepFun (China)",
+      "channel": "first_party",
+      "model_count": 8,
+      "file": "providers/stepfun.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "llama",
+      "name": "Llama",
+      "channel": "hosted",
+      "model_count": 7,
+      "file": "providers/llama.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "cloudflare-ai-gateway",
+      "name": "Cloudflare AI Gateway",
+      "channel": "aggregator",
+      "model_count": 67,
+      "file": "providers/cloudflare-ai-gateway.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "drun",
+      "name": "D.Run (China)",
+      "channel": "hosted",
+      "model_count": 3,
+      "file": "providers/drun.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "sarvam",
+      "name": "Sarvam AI",
+      "channel": "hosted",
+      "model_count": 2,
+      "file": "providers/sarvam.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "digitalocean",
+      "name": "DigitalOcean",
+      "channel": "hosted",
+      "model_count": 92,
+      "file": "providers/digitalocean.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "alibaba-coding-plan-cn",
+      "name": "Alibaba Coding Plan (China)",
+      "channel": "hosted",
+      "model_count": 12,
+      "file": "providers/alibaba-coding-plan-cn.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "stepfun-ai-step-plan",
+      "name": "StepFun Step Plan (Global)",
+      "channel": "hosted",
+      "model_count": 3,
+      "file": "providers/stepfun-ai-step-plan.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "fastrouter",
+      "name": "FastRouter",
+      "channel": "aggregator",
+      "model_count": 47,
+      "file": "providers/fastrouter.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "privatemode-ai",
+      "name": "Privatemode AI",
+      "channel": "hosted",
+      "model_count": 7,
+      "file": "providers/privatemode-ai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "zeldoc",
+      "name": "Zeldoc",
+      "channel": "hosted",
+      "model_count": 1,
+      "file": "providers/zeldoc.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "lilac",
+      "name": "Lilac",
+      "channel": "hosted",
+      "model_count": 4,
+      "file": "providers/lilac.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "io-net",
+      "name": "IO.NET",
+      "channel": "hosted",
+      "model_count": 17,
+      "file": "providers/io-net.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "berget",
+      "name": "Berget.AI",
+      "channel": "hosted",
+      "model_count": 9,
+      "file": "providers/berget.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "xiaomi",
+      "name": "Xiaomi",
+      "channel": "hosted",
+      "model_count": 6,
+      "file": "providers/xiaomi.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "minimax-coding-plan",
+      "name": "MiniMax Token Plan (minimax.io)",
+      "channel": "hosted",
+      "model_count": 7,
+      "file": "providers/minimax-coding-plan.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "zai-coding-plan",
+      "name": "Z.AI Coding Plan",
+      "channel": "hosted",
+      "model_count": 5,
+      "file": "providers/zai-coding-plan.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "alibaba",
+      "name": "Alibaba",
+      "channel": "first_party",
+      "model_count": 54,
+      "file": "providers/alibaba.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "sakana",
+      "name": "Sakana AI",
+      "channel": "hosted",
+      "model_count": 4,
+      "file": "providers/sakana.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "zenmux",
+      "name": "ZenMux",
+      "channel": "hosted",
+      "model_count": 120,
+      "file": "providers/zenmux.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "perplexity-agent",
+      "name": "Perplexity Agent",
+      "channel": "hosted",
+      "model_count": 22,
+      "file": "providers/perplexity-agent.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "alibaba-coding-plan",
+      "name": "Alibaba Coding Plan",
+      "channel": "hosted",
+      "model_count": 12,
+      "file": "providers/alibaba-coding-plan.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "ollama-cloud",
+      "name": "Ollama Cloud",
+      "channel": "hosted",
+      "model_count": 20,
+      "file": "providers/ollama-cloud.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "channel": "first_party",
+      "model_count": 4,
+      "file": "providers/perplexity.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "gmicloud",
+      "name": "GMI Cloud",
+      "channel": "hosted",
+      "model_count": 13,
+      "file": "providers/gmicloud.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "umans-ai",
+      "name": "Umans AI",
+      "channel": "hosted",
+      "model_count": 7,
+      "file": "providers/umans-ai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "sap-ai-core",
+      "name": "SAP AI Core",
+      "channel": "hosted",
+      "model_count": 48,
+      "file": "providers/sap-ai-core.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "inference",
+      "name": "Inference",
+      "channel": "hosted",
+      "model_count": 9,
+      "file": "providers/inference.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "arcee",
+      "name": "Arcee",
+      "channel": "hosted",
+      "model_count": 7,
+      "file": "providers/arcee.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "qihang-ai",
+      "name": "QiHang",
+      "channel": "hosted",
+      "model_count": 9,
+      "file": "providers/qihang-ai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "kuae-cloud-coding-plan",
+      "name": "KUAE Cloud Coding Plan",
+      "channel": "hosted",
+      "model_count": 1,
+      "file": "providers/kuae-cloud-coding-plan.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "submodel",
+      "name": "submodel",
+      "channel": "hosted",
+      "model_count": 9,
+      "file": "providers/submodel.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "scx-ai",
+      "name": "SCX.ai",
+      "channel": "hosted",
+      "model_count": 4,
+      "file": "providers/scx-ai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "freemodel",
+      "name": "FreeModel",
+      "channel": "hosted",
+      "model_count": 10,
+      "file": "providers/freemodel.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "nova",
+      "name": "Nova",
+      "channel": "hosted",
+      "model_count": 2,
+      "file": "providers/nova.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "togetherai",
+      "name": "Together AI",
+      "channel": "hosted",
+      "model_count": 36,
+      "file": "providers/togetherai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "ofox",
+      "name": "Ofox",
+      "channel": "hosted",
+      "model_count": 107,
+      "file": "providers/ofox.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "friendli",
+      "name": "Friendli",
+      "channel": "hosted",
+      "model_count": 5,
+      "file": "providers/friendli.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "inferx",
+      "name": "InferX",
+      "channel": "hosted",
+      "model_count": 12,
+      "file": "providers/inferx.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "helicone",
+      "name": "Helicone",
+      "channel": "hosted",
+      "model_count": 90,
+      "file": "providers/helicone.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "zhipuai",
+      "name": "Zhipu AI",
+      "channel": "first_party",
+      "model_count": 13,
+      "file": "providers/zhipuai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "channel": "hosted",
+      "model_count": 42,
+      "file": "providers/neon.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "evroc",
+      "name": "evroc",
+      "channel": "hosted",
+      "model_count": 15,
+      "file": "providers/evroc.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "azure-cognitive-services",
+      "name": "Azure Cognitive Services",
+      "channel": "hosted",
+      "model_count": 73,
+      "file": "providers/azure-cognitive-services.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "302ai",
+      "name": "302.AI",
+      "channel": "hosted",
+      "model_count": 97,
+      "file": "providers/302ai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "opencode",
+      "name": "OpenCode Zen",
+      "channel": "hosted",
+      "model_count": 93,
+      "file": "providers/opencode.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "requesty",
+      "name": "Requesty",
+      "channel": "hosted",
+      "model_count": 139,
+      "file": "providers/requesty.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "siliconflow",
+      "name": "SiliconFlow",
+      "channel": "hosted",
+      "model_count": 49,
+      "file": "providers/siliconflow.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "atomic-chat",
+      "name": "Atomic Chat",
+      "channel": "hosted",
+      "model_count": 5,
+      "file": "providers/atomic-chat.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "hyper",
+      "name": "Charm Hyper",
+      "channel": "hosted",
+      "model_count": 26,
+      "file": "providers/hyper.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "subconscious",
+      "name": "Subconscious",
+      "channel": "hosted",
+      "model_count": 2,
+      "file": "providers/subconscious.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "azure",
+      "name": "Azure",
+      "channel": "hosted",
+      "model_count": 84,
+      "file": "providers/azure.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "trustedrouter",
+      "name": "TrustedRouter",
+      "channel": "aggregator",
+      "model_count": 7,
+      "file": "providers/trustedrouter.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "scaleway",
+      "name": "Scaleway",
+      "channel": "hosted",
+      "model_count": 14,
+      "file": "providers/scaleway.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "frogbot",
+      "name": "FrogBot",
+      "channel": "hosted",
+      "model_count": 26,
+      "file": "providers/frogbot.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "thinkingmachines",
+      "name": "Thinking Machines",
+      "channel": "hosted",
+      "model_count": 2,
+      "file": "providers/thinkingmachines.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "baseten",
+      "name": "Baseten",
+      "channel": "hosted",
+      "model_count": 19,
+      "file": "providers/baseten.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "siliconflow-cn",
+      "name": "SiliconFlow (China)",
+      "channel": "hosted",
+      "model_count": 47,
+      "file": "providers/siliconflow-cn.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "minimax-cn",
+      "name": "MiniMax (minimaxi.com)",
+      "channel": "hosted",
+      "model_count": 7,
+      "file": "providers/minimax-cn.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "poe",
+      "name": "Poe",
+      "channel": "hosted",
+      "model_count": 137,
+      "file": "providers/poe.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral",
+      "channel": "first_party",
+      "model_count": 33,
+      "file": "providers/mistral.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "modal",
+      "name": "Modal",
+      "channel": "hosted",
+      "model_count": 2,
+      "file": "providers/modal.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "aihubmix",
+      "name": "AIHubMix",
+      "channel": "hosted",
+      "model_count": 70,
+      "file": "providers/aihubmix.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "cline-pass",
+      "name": "ClinePass",
+      "channel": "hosted",
+      "model_count": 11,
+      "file": "providers/cline-pass.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "empiriolabs",
+      "name": "EmpirioLabs AI",
+      "channel": "hosted",
+      "model_count": 55,
+      "file": "providers/empiriolabs.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "morph",
+      "name": "Morph",
+      "channel": "hosted",
+      "model_count": 3,
+      "file": "providers/morph.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "tencent-coding-plan",
+      "name": "Tencent Coding Plan (China)",
+      "channel": "hosted",
+      "model_count": 8,
+      "file": "providers/tencent-coding-plan.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "xiaomi-token-plan-ams",
+      "name": "Xiaomi Token Plan (Europe)",
+      "channel": "hosted",
+      "model_count": 7,
+      "file": "providers/xiaomi-token-plan-ams.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "scnet-token-plan",
+      "name": "SCNet Token Plan",
+      "channel": "hosted",
+      "model_count": 16,
+      "file": "providers/scnet-token-plan.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "anyapi",
+      "name": "AnyAPI",
+      "channel": "hosted",
+      "model_count": 30,
+      "file": "providers/anyapi.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "cerebras",
+      "name": "Cerebras",
+      "channel": "hosted",
+      "model_count": 2,
+      "file": "providers/cerebras.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "amd",
+      "name": "AMD",
+      "channel": "hosted",
+      "model_count": 1,
+      "file": "providers/amd.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "bailing",
+      "name": "Bailing",
+      "channel": "hosted",
+      "model_count": 2,
+      "file": "providers/bailing.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "watsonx",
+      "name": "watsonx.ai",
+      "channel": "hosted",
+      "model_count": 5,
+      "file": "providers/watsonx.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel AI Gateway",
+      "channel": "aggregator",
+      "model_count": 350,
+      "file": "providers/vercel.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "edenai",
+      "name": "Eden AI",
+      "channel": "hosted",
+      "model_count": 232,
+      "file": "providers/edenai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "novita-ai",
+      "name": "NovitaAI",
+      "channel": "hosted",
+      "model_count": 107,
+      "file": "providers/novita-ai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "upstage",
+      "name": "Upstage",
+      "channel": "hosted",
+      "model_count": 4,
+      "file": "providers/upstage.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "llmgateway",
+      "name": "DevPass (LLM Gateway)",
+      "channel": "aggregator",
+      "model_count": 189,
+      "file": "providers/llmgateway.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "chutes",
+      "name": "Chutes",
+      "channel": "hosted",
+      "model_count": 14,
+      "file": "providers/chutes.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "crof",
+      "name": "CrofAI",
+      "channel": "hosted",
+      "model_count": 26,
+      "file": "providers/crof.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "v0",
+      "name": "v0",
+      "channel": "hosted",
+      "model_count": 3,
+      "file": "providers/v0.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "groq",
+      "name": "Groq",
+      "channel": "hosted",
+      "model_count": 15,
+      "file": "providers/groq.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "runinfra",
+      "name": "RunInfra",
+      "channel": "hosted",
+      "model_count": 5,
+      "file": "providers/runinfra.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "gitlab",
+      "name": "GitLab Duo",
+      "channel": "hosted",
+      "model_count": 23,
+      "file": "providers/gitlab.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "alibaba-token-plan-cn",
+      "name": "Alibaba Token Plan (China)",
+      "channel": "hosted",
+      "model_count": 25,
+      "file": "providers/alibaba-token-plan-cn.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "coralbricks",
+      "name": "CoralBricks",
+      "channel": "hosted",
+      "model_count": 3,
+      "file": "providers/coralbricks.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "aiand",
+      "name": "ai&",
+      "channel": "hosted",
+      "model_count": 9,
+      "file": "providers/aiand.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "channel": "hosted",
+      "model_count": 33,
+      "file": "providers/github-copilot.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "wafer.ai",
+      "name": "Wafer",
+      "channel": "hosted",
+      "model_count": 5,
+      "file": "providers/wafer.ai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "modelis",
+      "name": "Modelis",
+      "channel": "hosted",
+      "model_count": 9,
+      "file": "providers/modelis.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "ebcloud",
+      "name": "EBCloud",
+      "channel": "hosted",
+      "model_count": 4,
+      "file": "providers/ebcloud.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "tensorx",
+      "name": "TensorX",
+      "channel": "hosted",
+      "model_count": 25,
+      "file": "providers/tensorx.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "tencent-token-plan",
+      "name": "Tencent Token Plan",
+      "channel": "hosted",
+      "model_count": 1,
+      "file": "providers/tencent-token-plan.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "kilo",
+      "name": "Kilo Gateway",
+      "channel": "aggregator",
+      "model_count": 362,
+      "file": "providers/kilo.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "pioneer",
+      "name": "Pioneer",
+      "channel": "hosted",
+      "model_count": 103,
+      "file": "providers/pioneer.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "venice",
+      "name": "Venice AI",
+      "channel": "hosted",
+      "model_count": 99,
+      "file": "providers/venice.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "fireworks-ai",
+      "name": "Fireworks AI",
+      "channel": "hosted",
+      "model_count": 23,
+      "file": "providers/fireworks-ai.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "moonshotai-cn",
+      "name": "Moonshot AI (China)",
+      "channel": "hosted",
+      "model_count": 10,
+      "file": "providers/moonshotai-cn.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "wandb",
+      "name": "Weights & Biases",
+      "channel": "hosted",
+      "model_count": 29,
+      "file": "providers/wandb.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "kimi-for-coding",
+      "name": "Kimi For Coding",
+      "channel": "hosted",
+      "model_count": 4,
+      "file": "providers/kimi-for-coding.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "abacus",
+      "name": "Abacus",
+      "channel": "hosted",
+      "model_count": 108,
+      "file": "providers/abacus.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax (minimax.io)",
+      "channel": "first_party",
+      "model_count": 7,
+      "file": "providers/minimax.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "vultr",
+      "name": "Vultr",
+      "channel": "hosted",
+      "model_count": 10,
+      "file": "providers/vultr.json",
+      "updated_at": "2026-08-21T11:27:12Z"
+    }
+  ],
   "resellers": [
     {
       "id": "openrouter",

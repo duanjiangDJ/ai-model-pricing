@@ -1,0 +1,198 @@
+{
+  "provider_id": "stackit",
+  "name": "STACKIT",
+  "channel": "hosted",
+  "category": "inference_host",
+  "region": "global",
+  "homepage": "https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models",
+  "pricing_page": "https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:27:12Z",
+  "verified_at": "2026-08-21T11:27:12Z",
+  "models": [
+    {
+      "id": "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",
+      "name": "Qwen3-VL 235B",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 218000,
+      "max_output": 16384,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.76,
+          "output": 2.05,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3-VL-Embedding-8B",
+      "name": "Qwen3-VL Embedding 8B",
+      "category": "embedding",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 32000,
+      "max_output": 4096,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.09,
+          "output": 0.09,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3.6-27B",
+      "name": "Qwen3.6 27B",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 16384,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.53,
+          "output": 0.76,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "cortecs/Llama-3.3-70B-Instruct-FP8-Dynamic",
+      "name": "Llama 3.3 70B",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 4096,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.53,
+          "output": 0.76,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "google/gemma-3-27b-it",
+      "name": "Gemma 3 27B",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 37000,
+      "max_output": 4096,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.53,
+          "output": 0.76,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "intfloat/e5-mistral-7b-instruct",
+      "name": "E5 Mistral 7B",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 4096,
+      "max_output": 4096,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.02,
+          "output": 0.02,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "openai/gpt-oss-120b",
+      "name": "GPT OSS 120B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131000,
+      "max_output": 8192,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.53,
+          "output": 0.76,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "openai/gpt-oss-20b",
+      "name": "GPT OSS 20B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131072,
+      "max_output": 8192,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.18,
+          "output": 0.29,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    }
+  ]
+}

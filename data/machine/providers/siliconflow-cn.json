@@ -1,0 +1,1095 @@
+{
+  "provider_id": "siliconflow-cn",
+  "name": "SiliconFlow (China)",
+  "channel": "hosted",
+  "category": "inference_host",
+  "region": "global",
+  "homepage": "https://cloud.siliconflow.com/models",
+  "pricing_page": "https://cloud.siliconflow.com/models",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:27:12Z",
+  "verified_at": "2026-08-21T11:27:12Z",
+  "models": [
+    {
+      "id": "ByteDance-Seed/Seed-OSS-36B-Instruct",
+      "name": "ByteDance-Seed/Seed-OSS-36B-Instruct",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262000,
+      "max_output": 262000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.21,
+          "output": 0.57,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "PaddlePaddle/PaddleOCR-VL-1.5",
+      "name": "PaddlePaddle/PaddleOCR-VL-1.5",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 16384,
+      "max_output": 16384,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Pro/MiniMaxAI/MiniMax-M2.5",
+      "name": "Pro/MiniMaxAI/MiniMax-M2.5",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 192000,
+      "max_output": 131000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.3,
+          "output": 1.22,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Pro/deepseek-ai/DeepSeek-R1",
+      "name": "Pro/deepseek-ai/DeepSeek-R1",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 164000,
+      "max_output": 164000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.5,
+          "output": 2.18,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Pro/deepseek-ai/DeepSeek-V3",
+      "name": "Pro/deepseek-ai/DeepSeek-V3",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 164000,
+      "max_output": 164000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.25,
+          "output": 1,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Pro/deepseek-ai/DeepSeek-V3.1-Terminus",
+      "name": "Pro/deepseek-ai/DeepSeek-V3.1-Terminus",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 164000,
+      "max_output": 164000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.27,
+          "output": 1,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Pro/deepseek-ai/DeepSeek-V3.2",
+      "name": "Pro/deepseek-ai/DeepSeek-V3.2",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 164000,
+      "max_output": 164000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.27,
+          "output": 0.42,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Pro/moonshotai/Kimi-K2.5",
+      "name": "Pro/moonshotai/Kimi-K2.5",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262000,
+      "max_output": 262000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.45,
+          "output": 2.25,
+          "cache_read": 0.07,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Pro/moonshotai/Kimi-K2.6",
+      "name": "Pro/moonshotai/Kimi-K2.6",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262000,
+      "max_output": 262000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.95,
+          "output": 4,
+          "cache_read": 0.16,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Pro/zai-org/GLM-5",
+      "name": "Pro/zai-org/GLM-5",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 205000,
+      "max_output": 205000,
+      "pricing": {
+        "per_mtok": {
+          "input": 1,
+          "output": 3.2,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Pro/zai-org/GLM-5.1",
+      "name": "Pro/zai-org/GLM-5.1",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 205000,
+      "max_output": 205000,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.4,
+          "output": 4.4,
+          "cache_read": 0.26,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen2.5-72B-Instruct",
+      "name": "Qwen/Qwen2.5-72B-Instruct",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 33000,
+      "max_output": 4000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.59,
+          "output": 0.59,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen2.5-7B-Instruct",
+      "name": "Qwen/Qwen2.5-7B-Instruct",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 33000,
+      "max_output": 4000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.05,
+          "output": 0.05,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3-14B",
+      "name": "Qwen/Qwen3-14B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131000,
+      "max_output": 131000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.07,
+          "output": 0.28,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+      "name": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262000,
+      "max_output": 262000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.13,
+          "output": 0.6,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+      "name": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262000,
+      "max_output": 262000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.09,
+          "output": 0.3,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3-32B",
+      "name": "Qwen/Qwen3-32B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131000,
+      "max_output": 131000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.14,
+          "output": 0.57,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3-8B",
+      "name": "Qwen/Qwen3-8B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131000,
+      "max_output": 131000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.06,
+          "output": 0.06,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+      "name": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262000,
+      "max_output": 262000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.07,
+          "output": 0.28,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+      "name": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262000,
+      "max_output": 262000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.25,
+          "output": 1,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3-VL-235B-A22B-Instruct",
+      "name": "Qwen/Qwen3-VL-235B-A22B-Instruct",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262000,
+      "max_output": 262000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.3,
+          "output": 1.5,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3-VL-235B-A22B-Thinking",
+      "name": "Qwen/Qwen3-VL-235B-A22B-Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262000,
+      "max_output": 262000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.45,
+          "output": 3.5,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+      "name": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262000,
+      "max_output": 262000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.29,
+          "output": 1,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3-VL-30B-A3B-Thinking",
+      "name": "Qwen/Qwen3-VL-30B-A3B-Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262000,
+      "max_output": 262000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.29,
+          "output": 1,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3-VL-32B-Instruct",
+      "name": "Qwen/Qwen3-VL-32B-Instruct",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262000,
+      "max_output": 262000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.2,
+          "output": 0.6,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3-VL-32B-Thinking",
+      "name": "Qwen/Qwen3-VL-32B-Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262000,
+      "max_output": 262000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.2,
+          "output": 1.5,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3-VL-8B-Instruct",
+      "name": "Qwen/Qwen3-VL-8B-Instruct",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262000,
+      "max_output": 262000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.18,
+          "output": 0.68,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3.5-122B-A10B",
+      "name": "Qwen/Qwen3.5-122B-A10B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.29,
+          "output": 2.32,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3.5-27B",
+      "name": "Qwen/Qwen3.5-27B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.26,
+          "output": 2.09,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3.5-35B-A3B",
+      "name": "Qwen/Qwen3.5-35B-A3B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.23,
+          "output": 1.86,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3.5-397B-A17B",
+      "name": "Qwen/Qwen3.5-397B-A17B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.29,
+          "output": 1.74,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3.5-4B",
+      "name": "Qwen/Qwen3.5-4B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3.5-9B",
+      "name": "Qwen/Qwen3.5-9B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.22,
+          "output": 1.74,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3.6-35B-A3B",
+      "name": "Qwen/Qwen3.6-35B-A3B",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.23,
+          "output": 1.86,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "baidu/ERNIE-4.5-300B-A47B",
+      "name": "baidu/ERNIE-4.5-300B-A47B",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131000,
+      "max_output": 131000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.28,
+          "output": 1.1,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-OCR",
+      "name": "deepseek-ai/DeepSeek-OCR",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 8192,
+      "max_output": 8192,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-R1",
+      "name": "deepseek-ai/DeepSeek-R1",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 164000,
+      "max_output": 164000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.5,
+          "output": 2.18,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3",
+      "name": "deepseek-ai/DeepSeek-V3",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 164000,
+      "max_output": 164000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.25,
+          "output": 1,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3.1-Terminus",
+      "name": "deepseek-ai/DeepSeek-V3.1-Terminus",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 164000,
+      "max_output": 164000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.27,
+          "output": 1,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3.2",
+      "name": "deepseek-ai/DeepSeek-V3.2",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 164000,
+      "max_output": 164000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.27,
+          "output": 0.42,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V4-Flash",
+      "name": "DeepSeek V4 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 384000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.14,
+          "output": 0.28,
+          "cache_read": 0.003,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V4-Pro",
+      "name": "deepseek-ai/DeepSeek-V4-Pro",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1049000,
+      "max_output": 393000,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.74,
+          "output": 3.48,
+          "cache_read": 0.145,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "inclusionAI/Ling-flash-2.0",
+      "name": "inclusionAI/Ling-flash-2.0",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131000,
+      "max_output": 131000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.14,
+          "output": 0.57,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "stepfun-ai/Step-3.5-Flash",
+      "name": "stepfun-ai/Step-3.5-Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262000,
+      "max_output": 262000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.1,
+          "output": 0.3,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "tencent/Hunyuan-A13B-Instruct",
+      "name": "tencent/Hunyuan-A13B-Instruct",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131000,
+      "max_output": 131000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.14,
+          "output": 0.57,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "zai-org/GLM-4.5-Air",
+      "name": "zai-org/GLM-4.5-Air",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131000,
+      "max_output": 131000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.14,
+          "output": 0.86,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "zai-org/GLM-5.2",
+      "name": "GLM-5.2",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1049000,
+      "max_output": 262000,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.4,
+          "output": 4.4,
+          "cache_read": 0.26,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    }
+  ]
+}

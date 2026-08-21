@@ -1,0 +1,336 @@
+{
+  "provider_id": "cohere",
+  "name": "Cohere",
+  "channel": "first_party",
+  "category": "ai_vendor",
+  "region": "global",
+  "homepage": "https://docs.cohere.com/docs/models",
+  "pricing_page": "https://docs.cohere.com/docs/models",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:27:12Z",
+  "verified_at": "2026-08-21T11:27:12Z",
+  "models": [
+    {
+      "id": "c4ai-aya-expanse-32b",
+      "name": "Aya Expanse 32B",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 4000,
+      "pricing": {
+        "per_mtok": {
+          "input": null,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "c4ai-aya-expanse-8b",
+      "name": "Aya Expanse 8B",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 8000,
+      "max_output": 4000,
+      "pricing": {
+        "per_mtok": {
+          "input": null,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "c4ai-aya-vision-32b",
+      "name": "Aya Vision 32B",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 16000,
+      "max_output": 4000,
+      "pricing": {
+        "per_mtok": {
+          "input": null,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "c4ai-aya-vision-8b",
+      "name": "Aya Vision 8B",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 16000,
+      "max_output": 4000,
+      "pricing": {
+        "per_mtok": {
+          "input": null,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "command-a-03-2025",
+      "name": "Command A",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": 8000,
+      "pricing": {
+        "per_mtok": {
+          "input": 2.5,
+          "output": 10,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "command-a-plus-05-2026",
+      "name": "Command A Plus",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 64000,
+      "pricing": {
+        "per_mtok": {
+          "input": 2.5,
+          "output": 10,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "command-a-reasoning-08-2025",
+      "name": "Command A Reasoning",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": 32000,
+      "pricing": {
+        "per_mtok": {
+          "input": 2.5,
+          "output": 10,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "command-a-translate-08-2025",
+      "name": "Command A Translate",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 8000,
+      "max_output": 8000,
+      "pricing": {
+        "per_mtok": {
+          "input": 2.5,
+          "output": 10,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "command-a-vision-07-2025",
+      "name": "Command A Vision",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 8000,
+      "pricing": {
+        "per_mtok": {
+          "input": 2.5,
+          "output": 10,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "command-r-08-2024",
+      "name": "Command R",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 4000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.15,
+          "output": 0.6,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "command-r-plus-08-2024",
+      "name": "Command R+",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 4000,
+      "pricing": {
+        "per_mtok": {
+          "input": 2.5,
+          "output": 10,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "command-r7b-12-2024",
+      "name": "Command R7B",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 4000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.0375,
+          "output": 0.15,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "command-r7b-arabic-02-2025",
+      "name": "Command R7B Arabic",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 4000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.0375,
+          "output": 0.15,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "north-mini-code-1-0",
+      "name": "North Mini Code",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": 64000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    }
+  ]
+}

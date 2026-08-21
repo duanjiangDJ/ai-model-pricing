@@ -2,6 +2,2310 @@
   "schema_version": "1.0.0",
   "entries": [
     {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "hpc-ai",
+      "item_id": "hpc-ai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "ai-router",
+      "item_id": "ai-router",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "mixlayer",
+      "item_id": "mixlayer",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "qiniu-ai",
+      "item_id": "qiniu-ai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "neuralwatt",
+      "item_id": "neuralwatt",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "umans-ai-coding-plan",
+      "item_id": "umans-ai-coding-plan",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "cloudflare-workers-ai",
+      "item_id": "cloudflare-workers-ai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "meganova",
+      "item_id": "meganova",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "infomaniak",
+      "item_id": "infomaniak",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "orcarouter",
+      "item_id": "orcarouter",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "zenifra",
+      "item_id": "zenifra",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "nvidia",
+      "item_id": "nvidia",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "qvac",
+      "item_id": "qvac",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "iflowcn",
+      "item_id": "iflowcn",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "claudinio",
+      "item_id": "claudinio",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "cortecs",
+      "item_id": "cortecs",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "nano-gpt",
+      "item_id": "nano-gpt",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "modelscope",
+      "item_id": "modelscope",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "synthetic",
+      "item_id": "synthetic",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "jalapeno",
+      "item_id": "jalapeno",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "abliteration-ai",
+      "item_id": "abliteration-ai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "deepseek",
+      "item_id": "deepseek",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "greenpt",
+      "item_id": "greenpt",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "xpersona",
+      "item_id": "xpersona",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "tencent-tokenhub",
+      "item_id": "tencent-tokenhub",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "stepfun-step-plan",
+      "item_id": "stepfun-step-plan",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "xiaomi-token-plan-sgp",
+      "item_id": "xiaomi-token-plan-sgp",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "the-grid-ai",
+      "item_id": "the-grid-ai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "google-vertex",
+      "item_id": "google-vertex",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "alibaba-token-plan",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "google",
+      "item_id": "google",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "model-oracle-ai",
+      "item_id": "model-oracle-ai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "deepinfra",
+      "item_id": "deepinfra",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "meta",
+      "item_id": "meta",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "huggingface",
+      "item_id": "huggingface",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "impossibl",
+      "item_id": "impossibl",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "jiekou",
+      "item_id": "jiekou",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "longcat",
+      "item_id": "longcat",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "inception",
+      "item_id": "inception",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "google-vertex-anthropic",
+      "item_id": "google-vertex-anthropic",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "poolside",
+      "item_id": "poolside",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "hetzner",
+      "item_id": "hetzner",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "regolo-ai",
+      "item_id": "regolo-ai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "lynkr",
+      "item_id": "lynkr",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "lucidquery",
+      "item_id": "lucidquery",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "blueclaw",
+      "item_id": "blueclaw",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "auriko",
+      "item_id": "auriko",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "daoxe",
+      "item_id": "daoxe",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "moonshotai",
+      "item_id": "moonshotai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "crossmodel",
+      "item_id": "crossmodel",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "kenari",
+      "item_id": "kenari",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "clarifai",
+      "item_id": "clarifai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "snowflake-cortex",
+      "item_id": "snowflake-cortex",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "anthropic",
+      "item_id": "anthropic",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "cohere",
+      "item_id": "cohere",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "zai",
+      "item_id": "zai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "routing-run",
+      "item_id": "routing-run",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "stackit",
+      "item_id": "stackit",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "databricks",
+      "item_id": "databricks",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "moark",
+      "item_id": "moark",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "salad-cloud",
+      "item_id": "salad-cloud",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "alibaba-cn",
+      "item_id": "alibaba-cn",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "kosmik",
+      "item_id": "kosmik",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "minimax-cn-coding-plan",
+      "item_id": "minimax-cn-coding-plan",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "amazon-bedrock",
+      "item_id": "amazon-bedrock",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "unorouter",
+      "item_id": "unorouter",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "crusoe",
+      "item_id": "crusoe",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "dinference",
+      "item_id": "dinference",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "openai",
+      "item_id": "openai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "opencode-go",
+      "item_id": "opencode-go",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "xai",
+      "item_id": "xai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "stepfun-ai",
+      "item_id": "stepfun-ai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "lmstudio",
+      "item_id": "lmstudio",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "ambient",
+      "item_id": "ambient",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "llmgateway-providers",
+      "item_id": "llmgateway-providers",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "vivgrid",
+      "item_id": "vivgrid",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "nebius",
+      "item_id": "nebius",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "echo",
+      "item_id": "echo",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "cloudferro-sherlock",
+      "item_id": "cloudferro-sherlock",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "nearai",
+      "item_id": "nearai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "xiaomi-token-plan-cn",
+      "item_id": "xiaomi-token-plan-cn",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "tinfoil",
+      "item_id": "tinfoil",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "zhipuai-coding-plan",
+      "item_id": "zhipuai-coding-plan",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "llmtr",
+      "item_id": "llmtr",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "merge-gateway",
+      "item_id": "merge-gateway",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "inceptron",
+      "item_id": "inceptron",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "ovhcloud",
+      "item_id": "ovhcloud",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "aki-io",
+      "item_id": "aki-io",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "stepfun",
+      "item_id": "stepfun",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "llama",
+      "item_id": "llama",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "cloudflare-ai-gateway",
+      "item_id": "cloudflare-ai-gateway",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "drun",
+      "item_id": "drun",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "sarvam",
+      "item_id": "sarvam",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "digitalocean",
+      "item_id": "digitalocean",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "alibaba-coding-plan-cn",
+      "item_id": "alibaba-coding-plan-cn",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "stepfun-ai-step-plan",
+      "item_id": "stepfun-ai-step-plan",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "fastrouter",
+      "item_id": "fastrouter",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "privatemode-ai",
+      "item_id": "privatemode-ai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "zeldoc",
+      "item_id": "zeldoc",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "lilac",
+      "item_id": "lilac",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "io-net",
+      "item_id": "io-net",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "berget",
+      "item_id": "berget",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "xiaomi",
+      "item_id": "xiaomi",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "minimax-coding-plan",
+      "item_id": "minimax-coding-plan",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "zai-coding-plan",
+      "item_id": "zai-coding-plan",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "alibaba",
+      "item_id": "alibaba",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "sakana",
+      "item_id": "sakana",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "zenmux",
+      "item_id": "zenmux",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "perplexity-agent",
+      "item_id": "perplexity-agent",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "alibaba-coding-plan",
+      "item_id": "alibaba-coding-plan",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "ollama-cloud",
+      "item_id": "ollama-cloud",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "perplexity",
+      "item_id": "perplexity",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "gmicloud",
+      "item_id": "gmicloud",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "umans-ai",
+      "item_id": "umans-ai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "sap-ai-core",
+      "item_id": "sap-ai-core",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "inference",
+      "item_id": "inference",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "arcee",
+      "item_id": "arcee",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "qihang-ai",
+      "item_id": "qihang-ai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "kuae-cloud-coding-plan",
+      "item_id": "kuae-cloud-coding-plan",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "submodel",
+      "item_id": "submodel",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "scx-ai",
+      "item_id": "scx-ai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "freemodel",
+      "item_id": "freemodel",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "nova",
+      "item_id": "nova",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "togetherai",
+      "item_id": "togetherai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "ofox",
+      "item_id": "ofox",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "friendli",
+      "item_id": "friendli",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "inferx",
+      "item_id": "inferx",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "helicone",
+      "item_id": "helicone",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "zhipuai",
+      "item_id": "zhipuai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "neon",
+      "item_id": "neon",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "evroc",
+      "item_id": "evroc",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "azure-cognitive-services",
+      "item_id": "azure-cognitive-services",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "302ai",
+      "item_id": "302ai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "opencode",
+      "item_id": "opencode",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "requesty",
+      "item_id": "requesty",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "siliconflow",
+      "item_id": "siliconflow",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "atomic-chat",
+      "item_id": "atomic-chat",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "hyper",
+      "item_id": "hyper",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "subconscious",
+      "item_id": "subconscious",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "azure",
+      "item_id": "azure",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "trustedrouter",
+      "item_id": "trustedrouter",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "scaleway",
+      "item_id": "scaleway",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "frogbot",
+      "item_id": "frogbot",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "thinkingmachines",
+      "item_id": "thinkingmachines",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "baseten",
+      "item_id": "baseten",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "siliconflow-cn",
+      "item_id": "siliconflow-cn",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "minimax-cn",
+      "item_id": "minimax-cn",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "poe",
+      "item_id": "poe",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "mistral",
+      "item_id": "mistral",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "modal",
+      "item_id": "modal",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "aihubmix",
+      "item_id": "aihubmix",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "cline-pass",
+      "item_id": "cline-pass",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "empiriolabs",
+      "item_id": "empiriolabs",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "morph",
+      "item_id": "morph",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "tencent-coding-plan",
+      "item_id": "tencent-coding-plan",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "xiaomi-token-plan-ams",
+      "item_id": "xiaomi-token-plan-ams",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "scnet-token-plan",
+      "item_id": "scnet-token-plan",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "anyapi",
+      "item_id": "anyapi",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "cerebras",
+      "item_id": "cerebras",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "amd",
+      "item_id": "amd",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "bailing",
+      "item_id": "bailing",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "watsonx",
+      "item_id": "watsonx",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "vercel",
+      "item_id": "vercel",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "edenai",
+      "item_id": "edenai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "novita-ai",
+      "item_id": "novita-ai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "upstage",
+      "item_id": "upstage",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "llmgateway",
+      "item_id": "llmgateway",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "chutes",
+      "item_id": "chutes",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "crof",
+      "item_id": "crof",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "v0",
+      "item_id": "v0",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "groq",
+      "item_id": "groq",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "runinfra",
+      "item_id": "runinfra",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "gitlab",
+      "item_id": "gitlab",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "alibaba-token-plan-cn",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "coralbricks",
+      "item_id": "coralbricks",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "aiand",
+      "item_id": "aiand",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "github-copilot",
+      "item_id": "github-copilot",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "wafer.ai",
+      "item_id": "wafer.ai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "modelis",
+      "item_id": "modelis",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "ebcloud",
+      "item_id": "ebcloud",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "tensorx",
+      "item_id": "tensorx",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "tencent-token-plan",
+      "item_id": "tencent-token-plan",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "kilo",
+      "item_id": "kilo",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "pioneer",
+      "item_id": "pioneer",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "venice",
+      "item_id": "venice",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "fireworks-ai",
+      "item_id": "fireworks-ai",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "moonshotai-cn",
+      "item_id": "moonshotai-cn",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "wandb",
+      "item_id": "wandb",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "kimi-for-coding",
+      "item_id": "kimi-for-coding",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "abacus",
+      "item_id": "abacus",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "minimax",
+      "item_id": "minimax",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-21T11:27:12Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "vultr",
+      "item_id": "vultr",
+      "field": "catalog",
+      "new": {
+        "provider_count": 192
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
       "date": "2026-08-21T11:25:09Z",
       "kind": "update",
       "scope": "provider",

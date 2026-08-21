@@ -1,0 +1,106 @@
+{
+  "provider_id": "lucidquery",
+  "name": "LucidQuery",
+  "channel": "hosted",
+  "category": "inference_host",
+  "region": "global",
+  "homepage": "https://lucidquery.com/docs",
+  "pricing_page": "https://lucidquery.com/docs",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:27:12Z",
+  "verified_at": "2026-08-21T11:27:12Z",
+  "models": [
+    {
+      "id": "lucidnova-rf1-100b",
+      "name": "LucidNova RF1 100B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 120000,
+      "max_output": 8000,
+      "pricing": {
+        "per_mtok": {
+          "input": 2,
+          "output": 5,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "lucidquery-agi-01-frontier",
+      "name": "AGI-01 Frontier",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 300000,
+      "max_output": 120000,
+      "pricing": {
+        "per_mtok": {
+          "input": 4.5,
+          "output": 22,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "lucidquery-agi-01-swift",
+      "name": "AGI-01 Swift",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 300000,
+      "max_output": 120000,
+      "pricing": {
+        "per_mtok": {
+          "input": 2.5,
+          "output": 15,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "lucidquery-nexus-coder",
+      "name": "LucidQuery Nexus Coder",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 250000,
+      "max_output": 60000,
+      "pricing": {
+        "per_mtok": {
+          "input": 2,
+          "output": 5,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "provider_id": "longcat",
+  "name": "LongCat",
+  "channel": "hosted",
+  "category": "inference_host",
+  "region": "global",
+  "homepage": "https://longcat.chat/platform/docs/",
+  "pricing_page": "https://longcat.chat/platform/docs/",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:27:12Z",
+  "verified_at": "2026-08-21T11:27:12Z",
+  "models": [
+    {
+      "id": "LongCat-2.0",
+      "name": "LongCat-2.0",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.75,
+          "output": 2.95,
+          "cache_read": 0.015,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    }
+  ]
+}

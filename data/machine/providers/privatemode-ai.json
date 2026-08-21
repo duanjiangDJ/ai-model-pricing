@@ -1,0 +1,175 @@
+{
+  "provider_id": "privatemode-ai",
+  "name": "Privatemode AI",
+  "channel": "hosted",
+  "category": "inference_host",
+  "region": "global",
+  "homepage": "https://docs.privatemode.ai/api/overview",
+  "pricing_page": "https://docs.privatemode.ai/api/overview",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:27:12Z",
+  "verified_at": "2026-08-21T11:27:12Z",
+  "models": [
+    {
+      "id": "deepseek-ocr-2",
+      "name": "DeepSeek OCR 2",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 8192,
+      "max_output": 8192,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.8897,
+          "output": 1.4675,
+          "cache_read": 0.0924,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gpt-oss-120b",
+      "name": "gpt-oss-120b",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 32768,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.4969,
+          "output": 1.9644,
+          "cache_read": 0.0462,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "kimi-k2.6",
+      "name": "Kimi K2.6",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": 262144,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.791,
+          "output": 8.9436,
+          "cache_read": 0.1733,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "kimi-latest",
+      "name": "Kimi (latest)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": 262144,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.791,
+          "output": 8.9436,
+          "cache_read": 0.1733,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen3-embedding-4b",
+      "name": "Qwen3-Embedding 4B",
+      "category": "embedding",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 32000,
+      "max_output": 2560,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.1502,
+          "output": 0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "voxtral-mini-3b",
+      "name": "Voxtral Mini 3B",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 32000,
+      "max_output": 32000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.00462,
+          "output": 0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "whisper-large-v3",
+      "name": "Whisper large-v3",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 448,
+      "max_output": 4096,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.01618,
+          "output": 0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    }
+  ]
+}

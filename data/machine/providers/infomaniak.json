@@ -1,0 +1,244 @@
+{
+  "provider_id": "infomaniak",
+  "name": "Infomaniak",
+  "channel": "hosted",
+  "category": "inference_host",
+  "region": "global",
+  "homepage": "https://www.infomaniak.com/en/hosting/ai-services/open-source-models",
+  "pricing_page": "https://www.infomaniak.com/en/hosting/ai-services/open-source-models",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:27:12Z",
+  "verified_at": "2026-08-21T11:27:12Z",
+  "models": [
+    {
+      "id": "Qwen/Qwen3.5-122B-A10B-FP8",
+      "name": "Qwen3.5 122B-A10B FP8",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.5,
+          "output": 3.97,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Qwen/Qwen3.5-397B-A17B-FP8",
+      "name": "Qwen3.5 397B-A17B FP8",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.99,
+          "output": 4.46,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "bge_multilingual_gemma2",
+      "name": "BGE Multilingual Gemma2",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 8000,
+      "max_output": 3584,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.08,
+          "output": 0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "google/gemma-4-31B-it",
+      "name": "Gemma 4 31B IT",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 100000,
+      "max_output": 32768,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.25,
+          "output": 0.5,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "mini_lm_l12_v2",
+      "name": "All-MiniLM-L12-v2",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128,
+      "max_output": 384,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "mistralai/Ministral-3-14B-Instruct-2512",
+      "name": "Ministral 3 14B Instruct",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 100000,
+      "max_output": 25600,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.37,
+          "output": 0.5,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "mistralai/Mistral-Small-4-119B-2603",
+      "name": "Mistral Small 4",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": 256000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.25,
+          "output": 0.93,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "moonshotai/Kimi-K2.6",
+      "name": "Kimi K2.6",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": 256000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.74,
+          "output": 3.72,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8",
+      "name": "Nemotron 3 Nano 30B A3B FP8",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 262144,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.06,
+          "output": 0.25,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "swiss-ai/Apertus-v1.5-70B",
+      "name": "Apertus v1.5 70B",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 100000,
+      "max_output": 8192,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.87,
+          "output": 3.1,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    }
+  ]
+}

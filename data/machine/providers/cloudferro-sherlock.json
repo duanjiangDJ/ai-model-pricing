@@ -1,0 +1,129 @@
+{
+  "provider_id": "cloudferro-sherlock",
+  "name": "CloudFerro Sherlock",
+  "channel": "hosted",
+  "category": "inference_host",
+  "region": "global",
+  "homepage": "https://docs.sherlock.cloudferro.com/",
+  "pricing_page": "https://docs.sherlock.cloudferro.com/",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:27:12Z",
+  "verified_at": "2026-08-21T11:27:12Z",
+  "models": [
+    {
+      "id": "MiniMaxAI/MiniMax-M2.5",
+      "name": "MiniMax-M2.5",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 196000,
+      "max_output": 16000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.3,
+          "output": 1.2,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "meta-llama/Llama-3.3-70B-Instruct",
+      "name": "Llama 3.3 70B Instruct",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 70000,
+      "max_output": 70000,
+      "pricing": {
+        "per_mtok": {
+          "input": 2.92,
+          "output": 2.92,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "openai/gpt-oss-120b",
+      "name": "OpenAI GPT OSS 120B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131000,
+      "max_output": 131000,
+      "pricing": {
+        "per_mtok": {
+          "input": 2.92,
+          "output": 2.92,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "speakleash/Bielik-11B-v2.6-Instruct",
+      "name": "Bielik 11B v2.6 Instruct",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 32000,
+      "max_output": 32000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.67,
+          "output": 0.67,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "speakleash/Bielik-11B-v3.0-Instruct",
+      "name": "Bielik 11B v3.0 Instruct",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 32000,
+      "max_output": 32000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.67,
+          "output": 0.67,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    }
+  ]
+}

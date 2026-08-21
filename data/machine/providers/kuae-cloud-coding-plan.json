@@ -1,0 +1,37 @@
+{
+  "provider_id": "kuae-cloud-coding-plan",
+  "name": "KUAE Cloud Coding Plan",
+  "channel": "hosted",
+  "category": "inference_host",
+  "region": "global",
+  "homepage": "https://docs.mthreads.com/kuaecloud/kuaecloud-doc-online/coding_plan/",
+  "pricing_page": "https://docs.mthreads.com/kuaecloud/kuaecloud-doc-online/coding_plan/",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:27:12Z",
+  "verified_at": "2026-08-21T11:27:12Z",
+  "models": [
+    {
+      "id": "GLM-4.7",
+      "name": "GLM-4.7",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 204800,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    }
+  ]
+}

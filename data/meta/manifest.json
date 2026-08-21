@@ -7,6 +7,13 @@
       "auto_sync": true,
       "last_ok": "2026-08-21T11:25:44Z",
       "last_error": null
+    },
+    {
+      "name": "models.dev",
+      "url": "https://models.dev/api.json",
+      "auto_sync": true,
+      "last_ok": "2026-08-21T11:27:12Z",
+      "last_error": null
     }
   ],
   "coverage": {},
