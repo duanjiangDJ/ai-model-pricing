@@ -1,5 +1,15 @@
 # Changelog
 
+## 全面定价复核（2026-08-21，官方文档为准）
+
+- **DeepSeek**：确认 V3.2 时代已结束——官方在售 **V4 系列**（deepseek-v4-flash ¥3/¥9、v4-pro ¥9/¥27 每百万 tokens，CNY；2026-08-16/17 起峰谷分时定价，高峰=北京 9:00-12:00/14:00-18:00，闲时半价；上下文 1M/输出 384K）。旧 deepseek-chat/reasoner 标记 superseded。官方中英文定价页均已直接抓取，多源交叉核实。
+- **Anthropic**：13 模型逐一核实（官方 pricing 页 + docs + 5 个二级源）。关键更新：**Sonnet 5 的 $2/$10 于 2026-08-11 永久化**（原定 9/1 涨至 $3/$15 已取消）；新增 claude-mythos-5（$10/$50，受限访问）；补齐全部 cache_write（=input×1.25）与 batch（=50%）；Opus 4.1 标记 legacy。
+- **OpenAI**：官方定价页快照（2026-08-12）确认 gpt-5.6-sol/terra/luna 全价（含 cache_write $6.25/$2.5/$0.25、batch 50%、long-context 档、数据驻留 +10%）；官方 deprecations 页（2026-08-10）确认 o 系列/gpt-4 全系/dall-e/embedding-3-small 等 **26 个模型已标记退役提示**；官方 catalog（2026-08-09）显示当前在售 5 个模型（gpt-oss、gpt-5.6 四款）。
+- **国内厂商**：百度千帆 ERNIE 5.1/5.0/4.5T（官方计费文档 2026-08-18）、腾讯混元 Hy3（官方新闻）、豆包 2.1 Pro/Turbo（官方发布新闻）此前已按官方来源录入；阿里/智谱/MiniMax/阶跃/Kimi 沿用 models.dev 官方列表价（每日自动同步）。
+- **托管平台**：Together/Groq/Cerebras/DeepInfra/SiliconFlow/Novita 等沿用 models.dev 列表价（每日自动同步），未逐项人工复核（复核子代理超时，已在 README 诚实声明）。
+- **新增文档**：AGENTS.md（agent 指南）、docs/verification.md（每日检查逻辑与真实性保证机制）。
+- **双语化**：README + data/human/ 全量中英双版（英文默认，中文在 zh-CN/）。
+
 ## 进度（2026-08-21 第四轮）
 
 - **订阅/编码计划扩充至 51 个**：GitHub Copilot Pro $10/Pro+ $39/Max $100（AI Credits 制）、Cursor Hobby/Pro $20/Pro+ $60/Ultra $200/Teams $40、Windsurf Free/Pro $20/Max $200/Teams $40、JetBrains AI Free/Pro $10/Ultimate $30、Perplexity Pro $20/Max $200、Poe Lite $10/Standard $19.99、Devin Free/Pro $20/Max $200/Teams $80、Amazon Q Free/Pro $19、Tabnine $39/$59、Replit Starter/Core $20/Pro $100
