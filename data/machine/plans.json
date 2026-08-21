@@ -499,6 +499,111 @@
       "pricing_model": "credits"
     },
     {
+      "id": "minimax-token-plan-max",
+      "provider_id": "minimax",
+      "product": "MiniMax Token Plan",
+      "plan": "Max",
+      "category": "coding",
+      "pricing_model": "flat_monthly",
+      "billing": "monthly",
+      "price_usd": 50.0,
+      "price_note": "$50/月（中文站 ¥119/月）",
+      "limits": "Token Plan（原 Coding Plan 更名）；额度含模型调用量",
+      "includes": [],
+      "url": "https://platform.minimax.io/docs/token-plan/intro",
+      "verified_at": "2026-08-21T00:00:00Z"
+    },
+    {
+      "id": "minimax-token-plan-plus",
+      "provider_id": "minimax",
+      "product": "MiniMax Token Plan",
+      "plan": "Plus",
+      "category": "coding",
+      "pricing_model": "flat_monthly",
+      "billing": "monthly",
+      "price_usd": 20.0,
+      "price_note": "$20/月（中文站 ¥49/月）",
+      "limits": "Token Plan（原 Coding Plan 更名）；额度含模型调用量",
+      "includes": [],
+      "url": "https://platform.minimax.io/docs/token-plan/intro",
+      "verified_at": "2026-08-21T00:00:00Z"
+    },
+    {
+      "id": "minimax-token-plan-ultra",
+      "provider_id": "minimax",
+      "product": "MiniMax Token Plan",
+      "plan": "Ultra",
+      "category": "coding",
+      "pricing_model": "flat_monthly",
+      "billing": "monthly",
+      "price_usd": 120.0,
+      "price_note": "$120/月（中文站 ¥469/月）",
+      "limits": "Token Plan（原 Coding Plan 更名）；额度含模型调用量",
+      "includes": [],
+      "url": "https://platform.minimax.io/docs/token-plan/intro",
+      "verified_at": "2026-08-21T00:00:00Z"
+    },
+    {
+      "id": "moonshot-kimi-code-allegretto",
+      "provider_id": "moonshotai",
+      "product": "Kimi Code",
+      "plan": "Allegretto",
+      "category": "coding",
+      "pricing_model": "flat_monthly",
+      "billing": "monthly",
+      "price_usd": 39.0,
+      "price_note": "周配额、5 小时速率窗口",
+      "limits": "Kimi Code 独立订阅（Kimi 会员亦含 Code 功能）",
+      "includes": [],
+      "url": "https://kimi.com/code/docs/en/kimi-code/membership",
+      "verified_at": "2026-08-21T00:00:00Z"
+    },
+    {
+      "id": "moonshot-kimi-code-allegro",
+      "provider_id": "moonshotai",
+      "product": "Kimi Code",
+      "plan": "Allegro",
+      "category": "coding",
+      "pricing_model": "flat_monthly",
+      "billing": "monthly",
+      "price_usd": 99.0,
+      "price_note": "周配额、5 小时速率窗口",
+      "limits": "Kimi Code 独立订阅（Kimi 会员亦含 Code 功能）",
+      "includes": [],
+      "url": "https://kimi.com/code/docs/en/kimi-code/membership",
+      "verified_at": "2026-08-21T00:00:00Z"
+    },
+    {
+      "id": "moonshot-kimi-code-moderato",
+      "provider_id": "moonshotai",
+      "product": "Kimi Code",
+      "plan": "Moderato",
+      "category": "coding",
+      "pricing_model": "flat_monthly",
+      "billing": "monthly",
+      "price_usd": 19.0,
+      "price_note": "周配额、5 小时速率窗口",
+      "limits": "Kimi Code 独立订阅（Kimi 会员亦含 Code 功能）",
+      "includes": [],
+      "url": "https://kimi.com/code/docs/en/kimi-code/membership",
+      "verified_at": "2026-08-21T00:00:00Z"
+    },
+    {
+      "id": "moonshot-kimi-code-vivace",
+      "provider_id": "moonshotai",
+      "product": "Kimi Code",
+      "plan": "Vivace",
+      "category": "coding",
+      "pricing_model": "flat_monthly",
+      "billing": "monthly",
+      "price_usd": 199.0,
+      "price_note": "周配额、5 小时速率窗口",
+      "limits": "Kimi Code 独立订阅（Kimi 会员亦含 Code 功能）",
+      "includes": [],
+      "url": "https://kimi.com/code/docs/en/kimi-code/membership",
+      "verified_at": "2026-08-21T00:00:00Z"
+    },
+    {
       "id": "openai-chatgpt-go",
       "provider_id": "openai",
       "product": "ChatGPT",
@@ -510,7 +615,8 @@
       "limits": "官方未公布具体用量额度（含广告；约 10 倍于 Free 的处理量）",
       "includes": [
         "标准模型访问",
-        "广告支持模式"
+        "广告支持模式",
+        "包含 Codex 基础用量"
       ],
       "url": "https://chatgpt.com/plans/go/",
       "verified_at": "2026-08-21T00:00:00Z"
@@ -525,7 +631,8 @@
       "limits": "Standard usage limits；官方未公布具体用量额度（2026 年多次调整限额政策）",
       "includes": [
         "GPT-5 系列访问",
-        "更高限额"
+        "更高限额",
+        "包含 Codex 编码用量（GPT-5.5 本地约 15-80 条/5h）"
       ],
       "url": "https://openai.com/chatgpt/pricing/",
       "verified_at": "2026-08-21T00:00:00Z",
@@ -921,6 +1028,66 @@
       "verified_at": "2026-08-21T00:00:00Z",
       "provider_id": "windsurf",
       "pricing_model": "per_seat_monthly"
+    },
+    {
+      "id": "xiaomi-token-plan-lite",
+      "provider_id": "xiaomi",
+      "product": "Xiaomi MiMo Token Plan",
+      "plan": "Lite",
+      "category": "coding",
+      "pricing_model": "flat_monthly",
+      "billing": "monthly",
+      "price_usd": 6.0,
+      "price_note": "$6/月（¥39）",
+      "limits": "编程场景 Token Plan 订阅（年付约 88 折）",
+      "includes": [],
+      "url": "https://mimo.mi.com/docs/price/token-plan",
+      "verified_at": "2026-08-21T00:00:00Z"
+    },
+    {
+      "id": "xiaomi-token-plan-max",
+      "provider_id": "xiaomi",
+      "product": "Xiaomi MiMo Token Plan",
+      "plan": "Max",
+      "category": "coding",
+      "pricing_model": "flat_monthly",
+      "billing": "monthly",
+      "price_usd": 100.0,
+      "price_note": "$100/月（¥659）",
+      "limits": "编程场景 Token Plan 订阅（年付约 88 折）",
+      "includes": [],
+      "url": "https://mimo.mi.com/docs/price/token-plan",
+      "verified_at": "2026-08-21T00:00:00Z"
+    },
+    {
+      "id": "xiaomi-token-plan-pro",
+      "provider_id": "xiaomi",
+      "product": "Xiaomi MiMo Token Plan",
+      "plan": "Pro",
+      "category": "coding",
+      "pricing_model": "flat_monthly",
+      "billing": "monthly",
+      "price_usd": 50.0,
+      "price_note": "$50/月（¥329）",
+      "limits": "编程场景 Token Plan 订阅（年付约 88 折）",
+      "includes": [],
+      "url": "https://mimo.mi.com/docs/price/token-plan",
+      "verified_at": "2026-08-21T00:00:00Z"
+    },
+    {
+      "id": "xiaomi-token-plan-standard",
+      "provider_id": "xiaomi",
+      "product": "Xiaomi MiMo Token Plan",
+      "plan": "Standard",
+      "category": "coding",
+      "pricing_model": "flat_monthly",
+      "billing": "monthly",
+      "price_usd": 16.0,
+      "price_note": "$16/月（¥99）",
+      "limits": "编程场景 Token Plan 订阅（年付约 88 折）",
+      "includes": [],
+      "url": "https://mimo.mi.com/docs/price/token-plan",
+      "verified_at": "2026-08-21T00:00:00Z"
     }
   ]
 }

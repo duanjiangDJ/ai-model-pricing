@@ -4,7 +4,7 @@
   "currency": "USD",
   "provider_count": 184,
   "model_count": 7077,
-  "plan_count": 53,
+  "plan_count": 64,
   "providers": [
     {
       "id": "hpc-ai",

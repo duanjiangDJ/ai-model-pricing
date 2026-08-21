@@ -196,6 +196,9 @@ def build_provider_md(provider, lang, channel_labels):
         if p.get("neuron_second"):
             other.append("neuron-sec")
         st = status_label.get(m.get("status"), "")
+        note_low = (m.get("notes") or "").lower()
+        if any(k in note_low for k in ("peak/off-peak", "峰谷", "高峰", "off-peak", "peak tier")):
+            other.append("⚡ peak/off-peak" if lang == "en" else "⚡ 峰谷双档")
         lines.append(
             "| {} | {} | {} | {} | {} | {} | {} | {} | {} | {} |".format(
                 f"`{m['id']}`",

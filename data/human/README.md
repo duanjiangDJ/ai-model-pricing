@@ -6,7 +6,7 @@
 - Generated: 2026-08-21T13:59:16Z
 - Providers: 185
 - Models total: 7077
-- Plans total: 53
+- Plans total: 64
 
 ## Providers
 
@@ -200,7 +200,7 @@
 
 ## Plans
 
-[plans.md](plans.md) — **53** plans in total. Updated: —
+[plans.md](plans.md) — **64** plans in total. Updated: —
 
 ## Misc
 
