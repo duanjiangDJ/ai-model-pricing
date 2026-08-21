@@ -1,7 +1,72 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-21T11:31:59Z",
+  "updated_at": "2026-08-21T11:34:52Z",
   "plans": [
+    {
+      "id": "anthropic-claude-code-pro",
+      "product": "Claude Code",
+      "plan": "Pro",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 20,
+      "limits": "含 API 用量额度",
+      "includes": [
+        "Claude Code CLI",
+        "Sonnet/Opus 调用额度"
+      ],
+      "url": "https://www.anthropic.com/pricing",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "anthropic"
+    },
+    {
+      "id": "anthropic-claude-max-20x",
+      "product": "Claude",
+      "plan": "Max 20x",
+      "category": "consumer",
+      "billing": "monthly",
+      "price_usd": 200,
+      "limits": "20x Pro 用量/会话",
+      "includes": [
+        "Claude Code 最高额度",
+        "全职工具用途"
+      ],
+      "url": "https://www.anthropic.com/pricing",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "anthropic"
+    },
+    {
+      "id": "anthropic-claude-max-5x",
+      "product": "Claude",
+      "plan": "Max 5x",
+      "category": "consumer",
+      "billing": "monthly",
+      "price_usd": 100,
+      "limits": "5x Pro 用量/会话",
+      "includes": [
+        "Claude Code 高额度",
+        "Opus 5/Fable 5 访问"
+      ],
+      "url": "https://www.anthropic.com/pricing",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "anthropic"
+    },
+    {
+      "id": "anthropic-claude-pro",
+      "product": "Claude",
+      "plan": "Pro",
+      "category": "consumer",
+      "billing": "monthly",
+      "price_usd": 20,
+      "price_note": "年付 $17/月",
+      "limits": "1x 日常用量",
+      "includes": [
+        "Claude 全模型访问",
+        "Claude Code 基础用量"
+      ],
+      "url": "https://www.anthropic.com/pricing",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "anthropic"
+    },
     {
       "id": "gemini-api-free-tier",
       "product": "Gemini API",
@@ -126,6 +191,54 @@
       "url": "https://one.google.com/about/google-ai-plans/",
       "provider_id": "google",
       "verified_at": "2026-08-21T00:00:00Z"
+    },
+    {
+      "id": "openai-chatgpt-plus",
+      "product": "ChatGPT",
+      "plan": "Plus",
+      "category": "consumer",
+      "billing": "monthly",
+      "price_usd": 20,
+      "limits": "Standard usage limits",
+      "includes": [
+        "GPT-5 系列访问",
+        "更高限额"
+      ],
+      "url": "https://openai.com/chatgpt/pricing/",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "openai"
+    },
+    {
+      "id": "openai-chatgpt-pro-100",
+      "product": "ChatGPT",
+      "plan": "Pro $100",
+      "category": "consumer",
+      "billing": "monthly",
+      "price_usd": 100,
+      "limits": "5x Codex access vs Plus",
+      "includes": [
+        "5 倍 Codex 用量",
+        "更高模型限额"
+      ],
+      "url": "https://thenextweb.com/news/openais-new-100-chatgpt-pro-plan-targets-claude-max-with-five-times-the-codex-access",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "openai"
+    },
+    {
+      "id": "openai-chatgpt-pro-200",
+      "product": "ChatGPT",
+      "plan": "Pro $200",
+      "category": "consumer",
+      "billing": "monthly",
+      "price_usd": 200,
+      "limits": "Top tier",
+      "includes": [
+        "最高模型限额",
+        "o 系列与 Codex 高额度"
+      ],
+      "url": "https://openai.com/chatgpt/pricing/",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "openai"
     },
     {
       "id": "supergrok",

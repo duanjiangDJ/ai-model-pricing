@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-08-21T11:31:59Z",
+  "generated_at": "2026-08-21T11:34:52Z",
   "currency": "USD",
   "provider_count": 192,
   "model_count": 7290,
-  "plan_count": 11,
+  "plan_count": 18,
   "providers": [
     {
       "id": "hpc-ai",
@@ -436,7 +436,7 @@
       "channel": "first_party",
       "model_count": 13,
       "file": "providers/anthropic.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-21T11:34:52Z"
     },
     {
       "id": "cohere",
@@ -556,7 +556,7 @@
       "channel": "first_party",
       "model_count": 47,
       "file": "providers/openai.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-21T11:34:52Z"
     },
     {
       "id": "opencode-go",

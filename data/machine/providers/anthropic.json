@@ -5,10 +5,10 @@
   "category": "ai_vendor",
   "region": "global",
   "homepage": "https://docs.anthropic.com/en/docs/about-claude/models",
-  "pricing_page": "https://docs.anthropic.com/en/docs/about-claude/models",
+  "pricing_page": "https://www.anthropic.com/pricing",
   "currency": "USD",
-  "updated_at": "2026-08-21T11:28:18Z",
-  "verified_at": "2026-08-21T11:28:18Z",
+  "updated_at": "2026-08-21T11:34:52Z",
+  "verified_at": "2026-08-21T00:00:00Z",
   "models": [
     {
       "id": "claude-fable-5",

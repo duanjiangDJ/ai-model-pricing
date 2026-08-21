@@ -5,10 +5,10 @@
   "category": "ai_vendor",
   "region": "global",
   "homepage": "https://platform.openai.com/docs/models",
-  "pricing_page": "https://platform.openai.com/docs/models",
+  "pricing_page": "https://openai.com/chatgpt/pricing/",
   "currency": "USD",
-  "updated_at": "2026-08-21T11:28:18Z",
-  "verified_at": "2026-08-21T11:28:18Z",
+  "updated_at": "2026-08-21T11:34:52Z",
+  "verified_at": "2026-08-21T00:00:00Z",
   "models": [
     {
       "id": "chatgpt-image-latest",

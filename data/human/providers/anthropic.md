@@ -3,10 +3,10 @@
 - provider_id: `anthropic`
 - 渠道: 官方直供
 - 官网: https://docs.anthropic.com/en/docs/about-claude/models
-- 定价页: https://docs.anthropic.com/en/docs/about-claude/models
+- 定价页: https://www.anthropic.com/pricing
 - 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- 数据更新时间: 2026-08-21T11:34:52Z
+- 核实时间: 2026-08-21T00:00:00Z
 
 共 **13** 个模型。
 

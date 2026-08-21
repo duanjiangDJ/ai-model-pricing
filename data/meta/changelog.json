@@ -2,6 +2,102 @@
   "schema_version": "1.0.0",
   "entries": [
     {
+      "date": "2026-08-21T11:34:52Z",
+      "kind": "update",
+      "scope": "provider",
+      "provider_id": "openai",
+      "item_id": "openai",
+      "field": "catalog",
+      "new": {
+        "models": 47,
+        "research_models": 0
+      },
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:34:52Z",
+      "kind": "update",
+      "scope": "provider",
+      "provider_id": "anthropic",
+      "item_id": "anthropic",
+      "field": "catalog",
+      "new": {
+        "models": 13,
+        "research_models": 0
+      },
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:34:52Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "openai",
+      "item_id": "openai-chatgpt-plus",
+      "field": "price",
+      "new": 20,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:34:52Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "openai",
+      "item_id": "openai-chatgpt-pro-100",
+      "field": "price",
+      "new": 100,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:34:52Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "openai",
+      "item_id": "openai-chatgpt-pro-200",
+      "field": "price",
+      "new": 200,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:34:52Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "anthropic",
+      "item_id": "anthropic-claude-pro",
+      "field": "price",
+      "new": 20,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:34:52Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "anthropic",
+      "item_id": "anthropic-claude-max-5x",
+      "field": "price",
+      "new": 100,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:34:52Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "anthropic",
+      "item_id": "anthropic-claude-max-20x",
+      "field": "price",
+      "new": 200,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:34:52Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "anthropic",
+      "item_id": "anthropic-claude-code-pro",
+      "field": "price",
+      "new": 20,
+      "source": "research-subagent"
+    },
+    {
       "date": "2026-08-21T11:31:59Z",
       "kind": "update",
       "scope": "provider",

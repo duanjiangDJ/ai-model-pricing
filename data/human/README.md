@@ -3,10 +3,10 @@
 > 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/machine/`](../machine/)。
 > 更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。
 
-- 数据更新时间: 2026-08-21T11:31:59Z
+- 数据更新时间: 2026-08-21T11:34:52Z
 - 覆盖渠道: 193 个（含 OpenRouter 聚合 419 个模型）
 - 模型总数: 7290
-- 订阅计划数: 11
+- 订阅计划数: 18
 
 ## 供应商列表
 
@@ -65,7 +65,7 @@
 | [Kenari](providers/kenari.md) | 推理托管 | 38 | `providers/kenari.json` | 2026-08-21T11:28:18Z |
 | [Clarifai](providers/clarifai.md) | 推理托管 | 12 | `providers/clarifai.json` | 2026-08-21T11:28:18Z |
 | [Snowflake Cortex](providers/snowflake-cortex.md) | 推理托管 | 25 | `providers/snowflake-cortex.json` | 2026-08-21T11:28:18Z |
-| [Anthropic](providers/anthropic.md) | 官方直供 | 13 | `providers/anthropic.json` | 2026-08-21T11:28:18Z |
+| [Anthropic](providers/anthropic.md) | 官方直供 | 13 | `providers/anthropic.json` | 2026-08-21T11:34:52Z |
 | [Cohere](providers/cohere.md) | 官方直供 | 14 | `providers/cohere.json` | 2026-08-21T11:28:18Z |
 | [Z.AI](providers/zai.md) | 推理托管 | 14 | `providers/zai.json` | 2026-08-21T11:28:18Z |
 | [routing.run](providers/routing-run.md) | 推理托管 | 15 | `providers/routing-run.json` | 2026-08-21T11:28:18Z |
@@ -80,7 +80,7 @@
 | [UnoRouter](providers/unorouter.md) | 聚合站 | 23 | `providers/unorouter.json` | 2026-08-21T11:28:18Z |
 | [Crusoe](providers/crusoe.md) | 推理托管 | 8 | `providers/crusoe.json` | 2026-08-21T11:28:18Z |
 | [DInference](providers/dinference.md) | 推理托管 | 6 | `providers/dinference.json` | 2026-08-21T11:28:18Z |
-| [OpenAI](providers/openai.md) | 官方直供 | 47 | `providers/openai.json` | 2026-08-21T11:28:18Z |
+| [OpenAI](providers/openai.md) | 官方直供 | 47 | `providers/openai.json` | 2026-08-21T11:34:52Z |
 | [OpenCode Go](providers/opencode-go.md) | 推理托管 | 27 | `providers/opencode-go.json` | 2026-08-21T11:28:18Z |
 | [xAI](providers/xai.md) | 官方直供 | 17 | `providers/xai.json` | 2026-08-21T11:31:59Z |
 | [StepFun (Global)](providers/stepfun-ai.md) | 推理托管 | 8 | `providers/stepfun-ai.json` | 2026-08-21T11:28:18Z |
@@ -208,7 +208,7 @@
 
 ## 订阅计划
 
-[plans.md](plans.md) — 共 11 个计划
+[plans.md](plans.md) — 共 18 个计划
 
 ## 其他文档
 
