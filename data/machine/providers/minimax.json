@@ -7,7 +7,7 @@
   "homepage": "https://platform.minimax.io/docs/guides/quickstart",
   "pricing_page": "https://platform.minimax.io/docs/guides/quickstart",
   "currency": "USD",
-  "updated_at": "2026-08-21T13:21:07Z",
+  "updated_at": "2026-08-21T15:59:09Z",
   "verified_at": "2026-08-21T13:21:07Z",
   "models": [
     {
@@ -171,5 +171,7 @@
       },
       "notes": "models.dev official list price"
     }
-  ]
+  ],
+  "api_base_url": "https://api.minimax.chat/v1",
+  "notes": "Merged from minimax-cn (same api_base_url https://api.minimax.chat/v1) on 2026-08-21T15:59:09Z. | Merged from minimax-coding-plan (same api_base_url https://api.minimax.chat/v1) on 2026-08-21T15:59:09Z. | Merged from minimax-cn-coding-plan (same api_base_url https://api.minimax.chat/v1) on 2026-08-21T15:59:09Z."
 }

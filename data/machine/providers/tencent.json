@@ -30,5 +30,6 @@
       },
       "notes": "2026-07-06 发布并开源；官方新闻：输入低至 ¥1/百万tokens（输出价未在公开新闻中给出，待核实）。CNY 计价。"
     }
-  ]
+  ],
+  "api_base_url": "https://api.hunyuan.cloud.tencent.com/v1"
 }

@@ -7,7 +7,7 @@
   "homepage": "https://cloud.google.com/vertex-ai/generative-ai/docs/models",
   "pricing_page": "https://cloud.google.com/vertex-ai/generative-ai/docs/models",
   "currency": "USD",
-  "updated_at": "2026-08-21T13:18:01Z",
+  "updated_at": "2026-08-21T15:59:09Z",
   "verified_at": "2026-08-21T13:18:01Z",
   "models": [
     {
@@ -976,5 +976,7 @@
       },
       "notes": "models.dev official list price"
     }
-  ]
+  ],
+  "api_base_url": "https://{region}-aiplatform.googleapis.com",
+  "notes": "Merged from google-vertex-anthropic (same api_base_url https://{region}-aiplatform.googleapis.com) on 2026-08-21T15:59:09Z."
 }

@@ -125,5 +125,6 @@
       },
       "notes": "官方价（CNY/百万tokens）：输入(缓存未命中) 高峰 ¥9.0 / 闲时 ¥4.5；输出 高峰 ¥27.0 / 闲时 ¥13.5；输入(缓存命中) 高峰 ¥0.30 / 闲时 ¥0.15。高峰=北京 9:00-12:00、14:00-18:00。上下文 1M，输出最大 384K。 官方英文页 USD 价：空闲 \\.66/\\.98/\\.022，高峰 \\.32/\\.96/\\.044。 | Official page (CNY/1M tokens, peak tier; off-peak = 50%, peak = BJT 9-12/14-18). Parsed by sync_official.py."
     }
-  ]
+  ],
+  "api_base_url": "https://api.deepseek.com"
 }

@@ -1,8 +1,8 @@
 {
   "provider_id": "v0",
   "name": "v0",
-  "channel": "hosted",
-  "category": "inference_host",
+  "channel": "subscription",
+  "category": "ai_vendor",
   "region": "global",
   "homepage": "https://sdk.vercel.ai/providers/ai-sdk-providers/vercel",
   "pricing_page": "https://sdk.vercel.ai/providers/ai-sdk-providers/vercel",
@@ -79,5 +79,6 @@
       },
       "notes": "models.dev official list price"
     }
-  ]
+  ],
+  "api_base_url": null
 }

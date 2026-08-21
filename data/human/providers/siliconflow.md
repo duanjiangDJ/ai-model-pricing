@@ -5,15 +5,25 @@
 - Homepage: https://cloud.siliconflow.com/models
 - Pricing page: https://cloud.siliconflow.com/models
 - Currency: USD
-- Data updated: 2026-08-21T13:21:07Z
+- Data updated: 2026-08-21T15:59:09Z
 - Verified: 2026-08-21T13:21:07Z
 
-**49** models in total.
+**61** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|---|
 | `ByteDance-Seed/Seed-OSS-36B-Instruct` | — | chat | 262K | $0.21 | $0.57 | — | — | —/— | — |
 | `MiniMaxAI/MiniMax-M2.5` | — | chat | 197K | $0.3 | $1.2 | $0.03 | — | —/— | — |
+| `PaddlePaddle/PaddleOCR-VL-1.5` | — | chat | 16.384K | $0 | $0 | — | — | —/— | — |
+| `Pro/MiniMaxAI/MiniMax-M2.5` | — | chat | 192K | $0.3 | $1.22 | — | — | —/— | — |
+| `Pro/deepseek-ai/DeepSeek-R1` | — | reasoning | 164K | $0.5 | $2.18 | — | — | —/— | — |
+| `Pro/deepseek-ai/DeepSeek-V3` | — | chat | 164K | $0.25 | $1 | — | — | —/— | — |
+| `Pro/deepseek-ai/DeepSeek-V3.1-Terminus` | — | reasoning | 164K | $0.27 | $1 | — | — | —/— | — |
+| `Pro/deepseek-ai/DeepSeek-V3.2` | — | reasoning | 164K | $0.27 | $0.42 | — | — | —/— | — |
+| `Pro/moonshotai/Kimi-K2.5` | — | reasoning | 262K | $0.45 | $2.25 | $0.07 | — | —/— | — |
+| `Pro/moonshotai/Kimi-K2.6` | — | reasoning | 262K | $0.95 | $4 | $0.16 | — | —/— | — |
+| `Pro/zai-org/GLM-5` | — | reasoning | 205K | $1 | $3.2 | — | — | —/— | — |
+| `Pro/zai-org/GLM-5.1` | — | reasoning | 205K | $1.4 | $4.4 | $0.26 | — | —/— | — |
 | `Qwen/Qwen2.5-72B-Instruct` | — | chat | 33K | $0.59 | $0.59 | — | — | —/— | — |
 | `Qwen/Qwen2.5-7B-Instruct` | — | chat | 33K | $0.05 | $0.05 | — | — | —/— | — |
 | `Qwen/Qwen3-14B` | — | reasoning | 131K | $0.07 | $0.28 | — | — | —/— | — |
@@ -34,10 +44,12 @@
 | `Qwen/Qwen3.5-27B` | — | chat | 262.144K | $0.25 | $2 | — | — | —/— | — |
 | `Qwen/Qwen3.5-35B-A3B` | — | chat | 262.144K | $0.24 | $1.8 | — | — | —/— | — |
 | `Qwen/Qwen3.5-397B-A17B` | — | chat | 262.144K | $0.39 | $2.34 | — | — | —/— | — |
+| `Qwen/Qwen3.5-4B` | — | reasoning | 262.144K | $0 | $0 | — | — | —/— | — |
 | `Qwen/Qwen3.5-9B` | — | chat | 262.144K | $0.1 | $0.15 | — | — | —/— | — |
 | `Qwen/Qwen3.6-27B` | — | chat | 262.144K | $0.3 | $3.2 | — | — | —/— | — |
 | `Qwen/Qwen3.6-35B-A3B` | — | chat | 262.144K | $0.2 | $1.6 | — | — | —/— | — |
 | `baidu/ERNIE-4.5-300B-A47B` | — | chat | 131K | $0.28 | $1.1 | — | — | —/— | — |
+| `deepseek-ai/DeepSeek-OCR` | — | chat | 8.192K | $0 | $0 | — | — | —/— | — |
 | `deepseek-ai/DeepSeek-R1` | — | reasoning | 164K | $0.5 | $2.18 | — | — | —/— | — |
 | `deepseek-ai/DeepSeek-V3` | — | chat | 164K | $0.25 | $1 | — | — | —/— | — |
 | `deepseek-ai/DeepSeek-V3.1` | — | reasoning | 164K | $0.27 | $1 | — | — | —/— | — |

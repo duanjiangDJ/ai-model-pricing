@@ -286,5 +286,6 @@
       },
       "notes": "models.dev official list price | Free model (per_mtok = 0)."
     }
-  ]
+  ],
+  "api_base_url": "https://model.inferx.net/endpoints/v1"
 }

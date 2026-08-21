@@ -7,7 +7,7 @@
   "homepage": "https://app.umans.ai/offers/code/docs/orgs",
   "pricing_page": "https://app.umans.ai/offers/code/docs/orgs",
   "currency": "USD",
-  "updated_at": "2026-08-21T13:21:07Z",
+  "updated_at": "2026-08-21T15:59:09Z",
   "verified_at": "2026-08-21T13:21:07Z",
   "models": [
     {
@@ -170,6 +170,31 @@
         "per_request": null
       },
       "notes": "models.dev official list price"
+    },
+    {
+      "id": "umans-qwen3.6-35b-a3b",
+      "name": "Qwen3.6 35B A3B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 262144,
+      "pricing": {
+        "per_mtok": {
+          "input": null,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     }
-  ]
+  ],
+  "api_base_url": "https://api.code.umans.ai/v1",
+  "notes": "Merged from umans-ai-coding-plan (same api_base_url https://api.code.umans.ai/v1) on 2026-08-21T15:59:09Z."
 }

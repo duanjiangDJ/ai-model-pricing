@@ -50,5 +50,6 @@
       },
       "notes": "官方称相对 2.1 Pro '价格再减半'，按 Pro 半价记录（待官方定价页精确核实）。CNY 计价。"
     }
-  ]
+  ],
+  "api_base_url": "https://ark.cn-beijing.volces.com/api/v3"
 }

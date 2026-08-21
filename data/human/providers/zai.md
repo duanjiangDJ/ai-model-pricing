@@ -5,10 +5,10 @@
 - Homepage: https://docs.z.ai/guides/overview/pricing
 - Pricing page: https://docs.z.ai/guides/overview/pricing
 - Currency: USD
-- Data updated: 2026-08-21T13:21:07Z
+- Data updated: 2026-08-21T15:59:09Z
 - Verified: 2026-08-21T13:21:07Z
 
-**14** models in total.
+**16** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|---|
@@ -25,4 +25,6 @@
 | `glm-5-turbo` | — | reasoning | 200K | $1.2 | $4 | $0.24 | — | —/— | — |
 | `glm-5.1` | — | reasoning | 200K | $1.4 | $4.4 | $0.26 | — | —/— | — |
 | `glm-5.2` | — | reasoning | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — |
+| `glm-5.2-highspeed` | — | reasoning | 1M | — | — | — | — | —/— | — |
+| `glm-5.3` | — | reasoning | 1M | — | — | — | — | —/— | — |
 | `glm-5v-turbo` | — | reasoning | 200K | $1.2 | $4 | $0.24 | — | —/— | — |

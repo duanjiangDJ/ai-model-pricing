@@ -631,5 +631,6 @@
       },
       "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
     }
-  ]
+  ],
+  "api_base_url": "https://opencode.ai/go"
 }

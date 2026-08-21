@@ -9,5 +9,6 @@
   "currency": "USD",
   "updated_at": "2026-08-21T11:40:00Z",
   "verified_at": "2026-08-21T00:00:00Z",
-  "models": []
+  "models": [],
+  "api_base_url": null
 }

@@ -5,13 +5,17 @@
 - 官网: https://platform.moonshot.ai/docs/api/chat
 - 定价页: https://platform.moonshot.ai/docs/api/chat
 - 币种: USD
-- 数据更新时间: 2026-08-21T13:21:07Z
+- 数据更新时间: 2026-08-21T15:59:09Z
 - 核实时间: 2026-08-21T13:21:07Z
 
-共 **10** 个模型。
+共 **14** 个模型。
 
 | 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
 |---|---|---|---|---|---|---|---|---|---|
+| `k3` | — | reasoning | 1.04858M | — | — | — | — | —/— | — |
+| `k3-256k` | — | reasoning | 262.144K | — | — | — | — | —/— | — |
+| `kimi-for-coding` | — | reasoning | 262.144K | — | — | — | — | —/— | — |
+| `kimi-for-coding-highspeed` | — | reasoning | 262.144K | — | — | — | — | —/— | — |
 | `kimi-k2-0711-preview` | — | chat | 131.072K | $0.6 | $2.5 | $0.15 | — | —/— | — |
 | `kimi-k2-0905-preview` | — | chat | 262.144K | $0.6 | $2.5 | $0.15 | — | —/— | — |
 | `kimi-k2-thinking` | — | reasoning | 262.144K | $0.6 | $2.5 | $0.15 | — | —/— | — |

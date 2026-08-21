@@ -286,5 +286,6 @@
       },
       "notes": "models.dev official list price"
     }
-  ]
+  ],
+  "api_base_url": "https://api.clarifai.com/v2/ext/openai/v1"
 }

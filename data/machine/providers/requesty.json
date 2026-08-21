@@ -3207,5 +3207,6 @@
       },
       "notes": "models.dev official list price"
     }
-  ]
+  ],
+  "api_base_url": "https://router.requesty.ai/v1"
 }

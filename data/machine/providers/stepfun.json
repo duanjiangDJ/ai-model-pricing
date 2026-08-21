@@ -7,7 +7,7 @@
   "homepage": "https://platform.stepfun.com/docs/zh/overview/concept",
   "pricing_page": "https://platform.stepfun.com/docs/zh/overview/concept",
   "currency": "USD",
-  "updated_at": "2026-08-21T13:21:07Z",
+  "updated_at": "2026-08-21T15:59:09Z",
   "verified_at": "2026-08-21T13:21:07Z",
   "models": [
     {
@@ -194,5 +194,7 @@
       },
       "notes": "models.dev official list price"
     }
-  ]
+  ],
+  "api_base_url": "https://api.stepfun.com/v1",
+  "notes": "Merged from stepfun-ai (same api_base_url https://api.stepfun.com/v1) on 2026-08-21T15:59:09Z."
 }

@@ -5,7 +5,7 @@
 - Homepage: https://cloud.google.com/vertex-ai/generative-ai/docs/models
 - Pricing page: https://cloud.google.com/vertex-ai/generative-ai/docs/models
 - Currency: USD
-- Data updated: 2026-08-21T13:18:01Z
+- Data updated: 2026-08-21T15:59:09Z
 - Verified: 2026-08-21T13:18:01Z
 
 **42** models in total.

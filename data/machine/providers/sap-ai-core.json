@@ -1114,5 +1114,6 @@
       },
       "notes": "models.dev official list price | Free model (per_mtok = 0)."
     }
-  ]
+  ],
+  "api_base_url": "https://api.ai.prod.eu-central-1.aws.sap.corp"
 }

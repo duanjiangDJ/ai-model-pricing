@@ -5,10 +5,10 @@
 - Homepage: https://docs.z.ai/guides/overview/pricing
 - Pricing page: https://docs.z.ai/guides/overview/pricing
 - Currency: USD
-- Data updated: 2026-08-21T13:21:07Z
+- Data updated: 2026-08-21T15:59:09Z
 - Verified: 2026-08-21T13:21:07Z
 
-**13** models in total.
+**16** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|---|
@@ -22,6 +22,9 @@
 | `glm-4.7-flash` | — | reasoning | 200K | $0 | $0 | $0 | — | —/— | — |
 | `glm-4.7-flashx` | — | reasoning | 200K | $0.07 | $0.4 | $0.01 | — | —/— | — |
 | `glm-5` | — | reasoning | 204.8K | $1 | $3.2 | $0.2 | — | —/— | — |
+| `glm-5-turbo` | — | reasoning | 200K | — | — | — | — | —/— | — |
 | `glm-5.1` | — | reasoning | 200K | $1.4 | $4.4 | $0.26 | — | —/— | — |
 | `glm-5.2` | — | reasoning | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — |
+| `glm-5.2-highspeed` | — | reasoning | 1M | — | — | — | — | —/— | — |
+| `glm-5.3` | — | reasoning | 1M | — | — | — | — | —/— | — |
 | `glm-5v-turbo` | — | reasoning | 200K | $5 | $22 | $1.2 | — | —/— | — |

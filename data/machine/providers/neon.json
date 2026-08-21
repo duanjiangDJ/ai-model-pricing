@@ -976,5 +976,6 @@
       },
       "notes": "models.dev official list price"
     }
-  ]
+  ],
+  "api_base_url": "${NEON_AI_GATEWAY_BASE_URL}/v1"
 }

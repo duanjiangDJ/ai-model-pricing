@@ -585,5 +585,6 @@
       },
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     }
-  ]
+  ],
+  "api_base_url": "https://token-plan.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1"
 }
