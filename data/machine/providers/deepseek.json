@@ -5,14 +5,60 @@
   "category": "ai_vendor",
   "region": "global",
   "homepage": "https://api-docs.deepseek.com/quick_start/pricing",
-  "pricing_page": "https://api-docs.deepseek.com/quick_start/pricing",
+  "pricing_page": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
   "currency": "USD",
-  "updated_at": "2026-08-21T11:28:01Z",
-  "verified_at": "2026-08-21T11:28:01Z",
+  "updated_at": "2026-08-21T12:10:24Z",
+  "verified_at": "2026-08-21T00:00:00Z",
   "models": [
     {
       "id": "deepseek-chat",
-      "name": "DeepSeek Chat",
+      "name": "DeepSeek Chat (V3.2 era, superseded)",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": null,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "旧型号（V3.2 时代），已被 deepseek-v4-flash 取代；旧价 $0.28/$0.42 不再适用于当前官方在售模型，保留条目仅作历史参考。"
+    },
+    {
+      "id": "deepseek-reasoner",
+      "name": "DeepSeek Reasoner (R1 era, superseded)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": null,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "旧型号（R1 时代），已被 deepseek-v4-flash/pro 的思考模式取代；旧价 $0.55/$2.19 不再适用于当前官方在售模型，保留条目仅作历史参考。"
+    },
+    {
+      "id": "deepseek-v4-flash",
+      "name": "DeepSeek V4 Flash (V4-Flash-0731)",
       "category": "chat",
       "modalities": [
         "text"
@@ -21,9 +67,9 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0.14,
-          "output": 0.28,
-          "cache_read": 0.0028,
+          "input": 3.0,
+          "output": 9.0,
+          "cache_read": 0.1,
           "cache_write": null
         },
         "batch": null,
@@ -31,22 +77,19 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "官方价（CNY/百万tokens，2026-08-21 官方文档）：输入(缓存未命中) 高峰 ¥3.0 / 闲时 ¥1.5；输出 高峰 ¥9.0 / 闲时 ¥4.5；输入(缓存命中) 高峰 ¥0.10 / 闲时 ¥0.05。高峰=北京 9:00-12:00、14:00-18:00。上下文 1M，输出最大 384K。支持思考/非思考模式。"
     },
     {
-      "id": "deepseek-reasoner",
-      "name": "DeepSeek Reasoner",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
+      "id": "deepseek-v4-flash-vision-exp",
+      "name": "DeepSeek V4 Flash Vision (Exp)",
+      "category": "vision",
       "context_window": 1000000,
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0.14,
-          "output": 0.28,
-          "cache_read": 0.0028,
+          "input": 3.0,
+          "output": 9.0,
+          "cache_read": 0.1,
           "cache_write": null
         },
         "batch": null,
@@ -54,35 +97,12 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
-    },
-    {
-      "id": "deepseek-v4-flash",
-      "name": "DeepSeek V4 Flash",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 1000000,
-      "max_output": 384000,
-      "pricing": {
-        "per_mtok": {
-          "input": 0.14,
-          "output": 0.28,
-          "cache_read": 0.0028,
-          "cache_write": null
-        },
-        "batch": null,
-        "per_image": null,
-        "per_audio_second": null,
-        "per_request": null
-      },
-      "notes": "models.dev official list price"
+      "notes": "官方价（CNY/百万tokens）与 flash 相同：输入(未命中) 高峰 ¥3.0/闲时 ¥1.5；输出 ¥9.0/¥4.5；缓存命中 ¥0.10/¥0.05。图片按尺寸换算成 token 一并计费（Exp 实验版）。"
     },
     {
       "id": "deepseek-v4-pro",
-      "name": "DeepSeek V4 Pro",
-      "category": "reasoning",
+      "name": "DeepSeek V4 Pro (V4-Pro-0813)",
+      "category": "chat",
       "modalities": [
         "text"
       ],
@@ -90,9 +110,9 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0.435,
-          "output": 0.87,
-          "cache_read": 0.003625,
+          "input": 9.0,
+          "output": 27.0,
+          "cache_read": 0.3,
           "cache_write": null
         },
         "batch": null,
@@ -100,7 +120,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "官方价（CNY/百万tokens）：输入(缓存未命中) 高峰 ¥9.0 / 闲时 ¥4.5；输出 高峰 ¥27.0 / 闲时 ¥13.5；输入(缓存命中) 高峰 ¥0.30 / 闲时 ¥0.15。高峰=北京 9:00-12:00、14:00-18:00。上下文 1M，输出最大 384K。"
     }
   ]
 }

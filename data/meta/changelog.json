@@ -2,6 +2,19 @@
   "schema_version": "1.0.0",
   "entries": [
     {
+      "date": "2026-08-21T12:10:24Z",
+      "kind": "update",
+      "scope": "provider",
+      "provider_id": "deepseek",
+      "item_id": "deepseek",
+      "field": "catalog",
+      "new": {
+        "models": 5,
+        "research_models": 5
+      },
+      "source": "research-subagent"
+    },
+    {
       "date": "2026-08-21T11:40:00Z",
       "kind": "update",
       "scope": "provider",

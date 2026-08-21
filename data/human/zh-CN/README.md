@@ -3,9 +3,9 @@
 > 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/machine/`](../machine/)。
 > 更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。
 
-- 数据更新时间: 2026-08-21T11:40:00Z
+- 数据更新时间: 2026-08-21T12:10:24Z
 - 覆盖渠道: 204
-- 模型总数: 7296
+- 模型总数: 7297
 - 订阅计划数: 51
 
 ## 供应商列表
@@ -33,7 +33,7 @@
 | [Synthetic](providers/synthetic.md) | 推理托管 | 8 | `providers/synthetic.json` | 2026-08-21T11:28:01Z |
 | [Jalapeno Cloud](providers/jalapeno.md) | 推理托管 | 17 | `providers/jalapeno.json` | 2026-08-21T11:28:01Z |
 | [abliteration.ai](providers/abliteration-ai.md) | 推理托管 | 2 | `providers/abliteration-ai.json` | 2026-08-21T11:28:01Z |
-| [DeepSeek](providers/deepseek.md) | 官方直供 | 4 | `providers/deepseek.json` | 2026-08-21T11:28:01Z |
+| [DeepSeek](providers/deepseek.md) | 官方直供 | 5 | `providers/deepseek.json` | 2026-08-21T12:10:24Z |
 | [GreenPT](providers/greenpt.md) | 推理托管 | 37 | `providers/greenpt.json` | 2026-08-21T11:28:01Z |
 | [Xpersona](providers/xpersona.md) | 推理托管 | 13 | `providers/xpersona.json` | 2026-08-21T11:28:01Z |
 | [Tencent TokenHub](providers/tencent-tokenhub.md) | 推理托管 | 2 | `providers/tencent-tokenhub.json` | 2026-08-21T11:28:01Z |

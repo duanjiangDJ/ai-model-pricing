@@ -3,9 +3,9 @@
 > Data sources: official pricing pages & public APIs. Machine-readable version: [`data/machine/`](../machine/).
 > Auto-updated daily by GitHub Actions (see `.github/workflows/daily-check.yml`).
 
-- Generated: 2026-08-21T11:40:00Z
+- Generated: 2026-08-21T12:10:24Z
 - Providers: 204
-- Models total: 7296
+- Models total: 7297
 - Plans total: 51
 
 ## Providers
@@ -33,7 +33,7 @@
 | [Synthetic](providers/synthetic.md) | Inference host | 8 | `providers/synthetic.json` | 2026-08-21T11:28:01Z |
 | [Jalapeno Cloud](providers/jalapeno.md) | Inference host | 17 | `providers/jalapeno.json` | 2026-08-21T11:28:01Z |
 | [abliteration.ai](providers/abliteration-ai.md) | Inference host | 2 | `providers/abliteration-ai.json` | 2026-08-21T11:28:01Z |
-| [DeepSeek](providers/deepseek.md) | First-party | 4 | `providers/deepseek.json` | 2026-08-21T11:28:01Z |
+| [DeepSeek](providers/deepseek.md) | First-party | 5 | `providers/deepseek.json` | 2026-08-21T12:10:24Z |
 | [GreenPT](providers/greenpt.md) | Inference host | 37 | `providers/greenpt.json` | 2026-08-21T11:28:01Z |
 | [Xpersona](providers/xpersona.md) | Inference host | 13 | `providers/xpersona.json` | 2026-08-21T11:28:01Z |
 | [Tencent TokenHub](providers/tencent-tokenhub.md) | Inference host | 2 | `providers/tencent-tokenhub.json` | 2026-08-21T11:28:01Z |
