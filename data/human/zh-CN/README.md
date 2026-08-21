@@ -3,7 +3,7 @@
 > 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/machine/`](../machine/)。
 > 更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。
 
-- 数据更新时间: 2026-08-21T13:34:52Z
+- 数据更新时间: 2026-08-21T13:59:16Z
 - 覆盖渠道: 204
 - 模型总数: 7302
 - 订阅计划数: 51
@@ -33,7 +33,7 @@
 | [Synthetic](providers/synthetic.md) | 推理托管 | 8 | `providers/synthetic.json` | 2026-08-21T11:28:01Z |
 | [Jalapeno Cloud](providers/jalapeno.md) | 推理托管 | 17 | `providers/jalapeno.json` | 2026-08-21T11:28:01Z |
 | [abliteration.ai](providers/abliteration-ai.md) | 推理托管 | 2 | `providers/abliteration-ai.json` | 2026-08-21T11:28:01Z |
-| [DeepSeek](providers/deepseek.md) | 官方直供 | 5 | `providers/deepseek.json` | 2026-08-21T13:34:53Z |
+| [DeepSeek](providers/deepseek.md) | 官方直供 | 5 | `providers/deepseek.json` | 2026-08-21T13:59:17Z |
 | [GreenPT](providers/greenpt.md) | 推理托管 | 37 | `providers/greenpt.json` | 2026-08-21T13:18:01Z |
 | [Xpersona](providers/xpersona.md) | 推理托管 | 13 | `providers/xpersona.json` | 2026-08-21T13:18:01Z |
 | [Tencent TokenHub](providers/tencent-tokenhub.md) | 推理托管 | 2 | `providers/tencent-tokenhub.json` | 2026-08-21T13:18:01Z |
@@ -65,7 +65,7 @@
 | [Kenari](providers/kenari.md) | 推理托管 | 38 | `providers/kenari.json` | 2026-08-21T13:21:07Z |
 | [Clarifai](providers/clarifai.md) | 推理托管 | 12 | `providers/clarifai.json` | 2026-08-21T13:21:07Z |
 | [Snowflake Cortex](providers/snowflake-cortex.md) | 推理托管 | 25 | `providers/snowflake-cortex.json` | 2026-08-21T13:21:07Z |
-| [Anthropic](providers/anthropic.md) | 官方直供 | 16 | `providers/anthropic.json` | 2026-08-21T13:34:53Z |
+| [Anthropic](providers/anthropic.md) | 官方直供 | 16 | `providers/anthropic.json` | 2026-08-21T13:59:17Z |
 | [Cohere](providers/cohere.md) | 官方直供 | 14 | `providers/cohere.json` | 2026-08-21T13:21:07Z |
 | [Z.AI](providers/zai.md) | 推理托管 | 14 | `providers/zai.json` | 2026-08-21T13:21:07Z |
 | [routing.run](providers/routing-run.md) | 推理托管 | 15 | `providers/routing-run.json` | 2026-08-21T13:21:07Z |
@@ -208,14 +208,14 @@
 | [Cursor (Anysphere)](providers/cursor.md) | subscription | 0 | `providers/cursor.json` | 2026-08-21T11:36:36Z |
 | [Windsurf (Codeium)](providers/windsurf.md) | subscription | 0 | `providers/windsurf.json` | 2026-08-21T11:36:36Z |
 | [JetBrains](providers/jetbrains.md) | subscription | 0 | `providers/jetbrains.json` | 2026-08-21T11:36:36Z |
-| [百度智能云千帆 (Baidu Qianfan)](providers/baidu.md) | 官方直供 | 3 | `providers/baidu.json` | 2026-08-21T13:34:53Z |
+| [百度智能云千帆 (Baidu Qianfan)](providers/baidu.md) | 官方直供 | 3 | `providers/baidu.json` | 2026-08-21T13:59:17Z |
 | [腾讯混元 (Tencent Hunyuan)](providers/tencent.md) | 官方直供 | 1 | `providers/tencent.json` | 2026-08-21T11:38:22Z |
 | [火山引擎方舟 (Volcengine Ark / 豆包)](providers/volcengine.md) | 官方直供 | 2 | `providers/volcengine.json` | 2026-08-21T11:38:22Z |
 | [Devin (Cognition)](providers/devin.md) | subscription | 0 | `providers/devin.json` | 2026-08-21T11:39:14Z |
 | [Amazon Web Services](providers/aws.md) | 云平台托管 | 0 | `providers/aws.json` | 2026-08-21T11:39:14Z |
 | [Tabnine](providers/tabnine.md) | subscription | 0 | `providers/tabnine.json` | 2026-08-21T11:40:00Z |
 | [Replit](providers/replit.md) | subscription | 0 | `providers/replit.json` | 2026-08-21T11:40:00Z |
-| [OpenRouter](providers/openrouter.md) | 聚合站 | 420 | `providers/openrouter.json` | 2026-08-21T13:34:52Z |
+| [OpenRouter](providers/openrouter.md) | 聚合站 | 420 | `providers/openrouter.json` | 2026-08-21T13:59:16Z |
 
 ## 订阅计划
 
