@@ -22,6 +22,8 @@ API 按 token（输入/输出/缓存/批处理）、按图、按音频秒、按�
 - 长尾覆盖（国内中转站、企业定制价）有意保持部分收录；
 - **欢迎一切贡献**：发现错误或建议新的数据来源/获取策略请提 **issue**；修正价格或改进采集管线请提 **PR**（见 [CONTRIBUTING.md](CONTRIBUTING.md)）。所有变更一律走 PR + 自动校验（`pr-check.yml`：schema 校验、生成页面一致性、版本一致性）。
 
+**项目技术栈**：本仓库最初基于 [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness) 、使用 **deepseek-v4-flash-0731** 模型维护。数据获取结合官方定价页直采（`scripts/sync_official.py`）、公开目录（models.dev、OpenRouter）与人工/Agent 核实。
+
 ## 快速开始（机器读取）
 
 ```python
