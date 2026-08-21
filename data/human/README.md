@@ -3,10 +3,10 @@
 > Data sources: official pricing pages & public APIs. Machine-readable version: [`data/machine/`](../machine/).
 > Auto-updated daily by GitHub Actions (see `.github/workflows/daily-check.yml`).
 
-- Generated: 2026-08-21T13:34:52Z
+- Generated: 2026-08-21T13:19:20Z
 - Providers: 204
 - Models total: 7302
-- Plans total: 51
+- Plans total: 53
 
 ## Providers
 
@@ -219,7 +219,7 @@
 
 ## Plans
 
-[plans.md](plans.md) — **51** plans in total. Updated: —
+[plans.md](plans.md) — **53** plans in total. Updated: —
 
 ## Misc
 

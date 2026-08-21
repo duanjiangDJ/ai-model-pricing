@@ -2,15 +2,27 @@
 # AI Model Pricing — 全模型定价数据库
 
 [![Daily Price Check](https://github.com/duanjiangDJ/ai-model-pricing/actions/workflows/daily-check.yml/badge.svg)](https://github.com/duanjiangDJ/ai-model-pricing/actions/workflows/daily-check.yml)
+[![PR Check](https://github.com/duanjiangDJ/ai-model-pricing/actions/workflows/pr-check.yml/badge.svg)](https://github.com/duanjiangDJ/ai-model-pricing/actions/workflows/pr-check.yml)
 
 收集市面上**所有可获取的 AI 模型定价**的开源数据库，覆盖多种收费形式：
 API 按 token（输入/输出/缓存/批处理）、按图、按音频秒、按请求、点数制、GPU 秒、消费订阅、编码工具计划等。
 
 - **人类可读版**：`data/human/`（Markdown 表格，按供应商分页）— 默认英文，中文版见 `data/human/zh-CN/`
 - **机器可读版**：`data/machine/`（版本化 JSON + JSON Schema，供爬虫/程序消费）
-- **每日自动更新**：GitHub Actions 每天 01:23 UTC 检查上游价格并自动提交变更
+- **每日自动更新**：GitHub Actions 每天 01:23 UTC 检查上游价格并**创建 PR**（需人工 Review 后合并）
 
 > English version: [README.md](README.md)
+
+## ⚠️ 项目状态声明——请先阅读
+
+**本仓库仍在完善中，数据不保证完整与准确。**
+
+- 价格变动极快，部分条目可能**过时、有误或缺失**；
+- 部分收费模式（按请求、点数制、订阅包含用量）难以核实，可能存在标注错误；不确定的条目以 `null`/notes 标注并带 `verified_at`；
+- 长尾覆盖（国内中转站、企业定制价）有意保持部分收录；
+- **欢迎一切贡献**：发现错误或建议新的数据来源/获取策略请提 **issue**；修正价格或改进采集管线请提 **PR**（见 [CONTRIBUTING.md](CONTRIBUTING.md)）。所有变更一律走 PR + 自动校验（`pr-check.yml`：schema 校验、生成页面一致性、版本一致性）。
+
+**项目技术栈**：本仓库基于 [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness) 框架、使用 **deepseek-v4-flash-0731** 模型维护。数据获取结合官方定价页直采（`scripts/sync_official.py`）、公开目录（models.dev、OpenRouter）与人工/Agent 核实。
 
 ## 快速开始（机器读取）
 

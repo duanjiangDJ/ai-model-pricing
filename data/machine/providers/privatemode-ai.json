@@ -123,7 +123,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "voxtral-mini-3b",
@@ -146,7 +146,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "whisper-large-v3",
@@ -169,7 +169,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     }
   ]
 }

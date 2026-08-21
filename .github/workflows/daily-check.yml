@@ -9,11 +9,12 @@ on:
 permissions:
   contents: write
   issues: write
+  pull-requests: write
 
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -27,29 +28,41 @@ jobs:
         run: pip install jsonschema --quiet
 
       - name: Run daily check
-        run: python scripts/daily_check.py
+        run: python scripts/daily_check.py --stale-report /tmp/stale-plans.md
 
       - name: Validate data
         run: python scripts/validate.py
 
-      - name: Commit changes if any
-        run: |
-          git config user.name "price-sync-bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet; then
-            echo "No data changes today."
-          else
-            git add -A
-            git commit -m "chore: daily price sync [skip ci]"
-            git push
-            echo "Data changes committed."
-          fi
-
-      - name: Sync stale-plans issue
+      - name: Open or update PR with changes
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          STALE=reports/stale-plans.md
+          if git diff --quiet; then
+            echo "No data changes today; no PR needed."
+          else
+            BRANCH="bot/daily-sync-$(date +%Y%m%d)"
+            git config user.name "price-sync-bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git checkout -b "$BRANCH"
+            git add -A
+            git commit -m "chore: daily price sync [skip ci]"
+            git push -u origin "$BRANCH"
+            EXISTING=$(gh pr list --head "$BRANCH" --state open --json number -q '.[0].number' 2>/dev/null || true)
+            if [ -n "$EXISTING" ]; then
+              gh pr edit "$EXISTING" --title "chore: daily price sync" >/dev/null
+              echo "Updated existing PR #$EXISTING"
+            else
+              gh pr create --title "chore: daily price sync" --body "自动价格同步 PR，由 GitHub Actions 每日生成。请 Review 后合并。" >/dev/null
+              echo "Created PR for branch $BRANCH"
+            fi
+          fi
+
+      - name: Sync stale-plans issue
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          STALE=/tmp/stale-plans.md
           EXISTING=$(gh issue list --search "每日价格核实提醒" --state open --json number -q '.[0].number' 2>/dev/null || true)
           if grep -q "待人工核实" "$STALE" && ! grep -q "均在" "$STALE"; then
             BODY=$(cat "$STALE")

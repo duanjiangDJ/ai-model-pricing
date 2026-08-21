@@ -1,0 +1,51 @@
+name: PR Check
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: pip install jsonschema --quiet
+
+      - name: Validate machine data
+        run: python scripts/validate.py
+
+      - name: Repository audit
+        run: python scripts/audit.py
+
+      - name: Check generated pages are up to date
+        run: |
+          python scripts/build_human.py
+          if ! git diff --exit-code --quiet -- data/human/; then
+            echo "::error::data/human/ is out of sync. Run 'python scripts/build_human.py' and commit the regenerated pages."
+            exit 1
+          fi
+
+      - name: Check version files are consistent
+        run: |
+          V=$(cat VERSION | tr -d '[:space:]')
+          S=$(python -c "import json;print(json.load(open('data/machine/schema.json'))['version'])")
+          I=$(python -c "import json;print(json.load(open('data/machine/index.json'))['schema_version'])")
+          echo "VERSION=$V schema=$S index=$I"
+          if [ "$V" != "$S" ] || [ "$V" != "$I" ]; then
+            echo "::error::Version mismatch: VERSION($V) vs schema($S) vs index($I). Bump all three together."
+            exit 1
+          fi

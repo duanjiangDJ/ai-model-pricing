@@ -1,12 +1,12 @@
-> **Language: 中文（简体）(zh-CN)** — This document is written in zh only.
-# Research Subagent Contract / 调研子代理契约（research-contract）
+> **Language: English (en)** — This document is written in en only.
+# Research Subagent Contract (research-contract)
 
-> 本仓库的"人工核实"数据通过**调研子代理**批量采集。本文档定义子代理的输入要求与输出格式，
-> 保证输出可直接被 `scripts/merge_research.py` 合并入库。
+> The repository's "human-verified" data is collected in bulk by **research subagents**. This document defines the input requirements and output format for subagents,
+> guaranteeing that the output can be merged directly into the repository by `scripts/merge_research.py`.
 
-## 输出格式（子代理必须返回）
+## Output format (subagents must return)
 
-单个 JSON 对象（**不要** Markdown 代码块包裹，直接输出 JSON 文本）：
+A single JSON object (**not** wrapped in a Markdown code block — output raw JSON text):
 
 ```json
 {
@@ -19,7 +19,7 @@
       "region": "us",                    // global | cn | us | eu | other
       "homepage": "https://openai.com",
       "pricing_page": "https://platform.openai.com/docs/pricing",
-      "currency": "USD",                 // 默认 USD；国内厂商填 CNY 并加 currency_usd_note
+      "currency": "USD",                 // default USD; domestic vendors use CNY and add currency_usd_note
       "verified_at": "2026-08-21T00:00:00Z",
       "models": [
         {
@@ -36,7 +36,7 @@
             "per_request": null,
             "credits": null
           },
-          "notes": "任意需要说明的口径，如分档价格、促销期、退役状态"
+          "notes": "any definitions that need explanation, e.g. tiered pricing, promo periods, retirement status"
         }
       ],
       "plans": [
@@ -47,31 +47,31 @@
           "category": "consumer",        // consumer | coding | team | enterprise | student | api_credits | free
           "billing": "monthly",          // monthly | yearly | one_time
           "price_usd": 20,
-          "limits": "用量上限说明",
-          "includes": ["包含内容"],
+          "limits": "usage-cap description",
+          "includes": ["what's included"],
           "url": "https://openai.com/chatgpt/pricing/",
           "verified_at": "2026-08-21T00:00:00Z"
         }
       ]
     }
   ],
-  "sources": ["https://官方定价页", "https://二级来源"]
+  "sources": ["https://official-pricing-page", "https://secondary-source"]
 }
 ```
 
-## 硬性规则
+## Hard rules
 
-1. **只填能确认的数字**，拿不准填 `null`，绝不编造；`0` 仅表示免费。
-2. **至少一个二级来源**交叉核实（官方公告、评测站、第三方对比站）。
-3. `verified_at` 用**实际调研当天日期**（不要用任务描述里的过期日期）。
-4. 已退役/下线模型保留条目，`pricing` 全 null，`notes` 注明退役时间与替代模型。
-5. 价格有促销/分档/双档（如 Gemini ≤200K / >200K）在 `notes` 完整说明，主字段填标准档。
-6. 非 USD 计价（国内厂商）在 provider 顶层加 `"price_currency": "CNY"` 与 `"currency_usd_note"`。
-7. 输出末尾附一行 `SOURCES: url1, url2, ...`。
+1. **Only fill in numbers you can confirm**; when unsure fill `null`, never fabricate; `0` means free only.
+2. **At least one secondary source** for cross-verification (official announcements, review sites, third-party comparison sites).
+3. `verified_at` uses the **actual research date** (don't use stale dates from the task description).
+4. Retired/removed models keep their entries, `pricing` all `null`, with `notes` stating the retirement time and replacement model.
+5. Prices with promos/tiers/dual tiers (e.g., Gemini ≤200K / >200K) are fully described in `notes`; the main fields carry the standard tier.
+6. Non-USD pricing (domestic vendors) adds `"price_currency": "CNY"` and `"currency_usd_note"` at the provider top level.
+7. Append a line `SOURCES: url1, url2, ...` at the end of the output.
 
-## 消费端
+## Consumers
 
-`scripts/merge_research.py <research.json>`：
-- provider 按 `provider_id` 合并（调研数据覆盖同 id 模型的价格与元信息，保留 models.dev 独有模型）；
-- plans 按 `id` upsert 进 `data/machine/plans.json`；
-- 自动刷新 `index.json` 计数并写 changelog。
+`scripts/merge_research.py <research.json>`:
+- providers merged by `provider_id` (research data overwrites the price and metadata of models with the same id, keeping models.dev-exclusive models);
+- plans upserted into `data/machine/plans.json` by `id`;
+- `index.json` counts refreshed automatically and changelog written.

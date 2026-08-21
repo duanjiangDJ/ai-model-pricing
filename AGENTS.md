@@ -4,6 +4,22 @@
 This file tells AI agents (and humans) everything needed to read, validate, and update
 this repository correctly. Read it fully before making changes.
 
+## ⚠️ Project Status
+
+**This repository is a work in progress.** Data may be outdated, incomplete, or wrong;
+some billing modes are hard to verify. Treat every entry as "as-of" data:
+- check `verified_at` / `updated_at` and the `notes` (source) before trusting a number;
+- `null` means unknown/not offered — never invent a value, never use 0 for "unknown";
+- subscription-included models have `per_mtok: null` + a note (never 0);
+- deprecated/retired models carry `"status"` and remain as historical entries.
+
+Contributions are welcome via issues and PRs (see `CONTRIBUTING.md`); `main` is
+protected — all changes go through PRs checked by `.github/workflows/pr-check.yml`.
+
+**How this project is built**: maintained with
+[DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness) using the
+**deepseek-v4-flash-0731** model.
+
 ## What This Repository Is
 
 `ai-model-pricing` is an open database of **AI model pricing** covering every obtainable
@@ -28,7 +44,7 @@ data/meta/
 data/human/              # GENERATED. en: *.md, zh-CN: zh-CN/*.md
 docs/                    # providers.md (landscape), price-types.md, research-contract.md
 scripts/                 # sync/validate/build/merge (stdlib + jsonschema)
-reports/                 # daily check artifacts (e.g. stale-plans.md)
+CONTRIBUTING.md        # contribution guide (en + zh-CN)
 ```
 
 ## Reading Data (for agents building tools)
@@ -77,7 +93,7 @@ reports/                 # daily check artifacts (e.g. stale-plans.md)
 2. Fetches models.dev catalog → updates `per_mtok.input/output/cache_read` where they differ
    (never touches hand-maintained fields like `batch` or `cache_write`).
 3. Refreshes `index.json` counts; rebuilds human pages; updates `manifest.json`.
-4. Flags plans whose `verified_at` is older than 30 days → `reports/stale-plans.md` →
+4. Flags plans whose `verified_at` is older than 30 days → writes `--stale-report` markdown →
    syncs the "每日价格核实提醒" GitHub issue.
 5. Commits changes with bot identity (`[skip ci]`), or exits cleanly if nothing changed.
 

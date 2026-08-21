@@ -2,6 +2,7 @@
 # AI Model Pricing — Full Model Pricing Database
 
 [![Daily Price Check](https://github.com/duanjiangDJ/ai-model-pricing/actions/workflows/daily-check.yml/badge.svg)](https://github.com/duanjiangDJ/ai-model-pricing/actions/workflows/daily-check.yml)
+[![PR Check](https://github.com/duanjiangDJ/ai-model-pricing/actions/workflows/pr-check.yml/badge.svg)](https://github.com/duanjiangDJ/ai-model-pricing/actions/workflows/pr-check.yml)
 
 An open database collecting pricing for **every obtainable AI model** across all billing models:
 per-token API (input/output/cache/batch), per-image, per-audio-second, per-request, credit
@@ -9,9 +10,28 @@ systems, GPU-second pricing, consumer subscriptions, and coding-tool plans.
 
 - **Human-readable**: `data/human/` (Markdown tables, per provider) — English by default, 中文见 `data/human/zh-CN/`
 - **Machine-readable**: `data/machine/` (versioned JSON + JSON Schema, for crawlers/programs)
-- **Daily auto-update**: GitHub Actions at 01:23 UTC checks upstream prices and commits changes
+- **Daily auto-update**: GitHub Actions at 01:23 UTC checks upstream prices and opens a PR
 
 > Read this in Chinese? See [README.zh-CN.md](README.zh-CN.md).
+
+## ⚠️ Project Status — Please Read
+
+**This repository is a work in progress and NOT guaranteed to be complete or accurate.**
+
+- Pricing changes fast; some entries may be **outdated**, **wrong**, or **missing**.
+- Some billing modes (per-request, credit systems, subscription-included usage) are hard to
+  verify and may be mislabeled. When in doubt, entries carry `null`/notes and a `verified_at`.
+- Coverage of the long tail (CN resellers, enterprise custom pricing) is intentionally partial.
+- **We welcome every contribution**: open an **issue** to report errors or suggest new
+  sources/strategies, and submit a **PR** to fix prices or improve the acquisition pipeline
+  (see [CONTRIBUTING.md](CONTRIBUTING.md)). All changes go through PR + automated checks
+  (`pr-check.yml`): schema validation, generated-page consistency, and version consistency.
+
+**How this project is built**: the repository is maintained with
+[DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness) using the
+**deepseek-v4-flash-0731** model. Data acquisition combines official pricing pages
+(`scripts/sync_official.py`), public catalogs (models.dev, OpenRouter), and human/agent
+verification.
 
 ## Quick Start (machine reading)
 

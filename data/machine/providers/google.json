@@ -676,7 +676,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Text-only embedding model (gemini-embedding-001). Input billed at $0.15/1M tokens; no output token charge. Batch input $0.075. Used by file search tool."
+      "notes": "Text-only embedding model (gemini-embedding-001). Input billed at $0.15/1M tokens; no output token charge. Batch input $0.075. Used by file search tool. | Free model (per_mtok = 0)."
     },
     {
       "id": "gemini-embedding-2",
@@ -702,7 +702,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Multimodal embedding model (gemini-embedding-2, endpoint gemini-embedding-2-preview). Input per 1M tokens: text $0.20, image $0.45 (~$0.00012/image), audio $6.50 (~$0.00016/sec), video $12.00 (~$0.00079/frame). Batch: text $0.10, image $0.225, audio $3.25, video $6.00. Listed 'input' field is text price."
+      "notes": "Multimodal embedding model (gemini-embedding-2, endpoint gemini-embedding-2-preview). Input per 1M tokens: text $0.20, image $0.45 (~$0.00012/image), audio $6.50 (~$0.00016/sec), video $12.00 (~$0.00079/frame). Batch: text $0.10, image $0.225, audio $3.25, video $6.00. Listed 'input' field is text price. | Free model (per_mtok = 0)."
     },
     {
       "id": "gemini-flash-latest",
@@ -863,7 +863,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "lyria-3-pro-preview",
@@ -886,7 +886,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "veo-3.1-fast-generate-preview",

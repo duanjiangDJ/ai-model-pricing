@@ -1,6 +1,6 @@
 # Subscription & Coding Plans
 
-**51** plans in total. Updated: 2026-08-21T12:11:53Z
+**53** plans in total. Updated: 2026-08-21T12:11:53Z
 
 | Product | Plan | Pricing model | Category | Billing | Price (USD) | Limits | URL | Verified |
 |---|---|---|---|---|---|---|---|---|
@@ -33,9 +33,11 @@
 | JetBrains AI | Free | free | coding | monthly | $0 | 3 AI Credits/30 天 | [link](https://www.jetbrains.com/help/ai-assistant/2026.1/licensing-and-subscriptions.html) | 2026-08-21T00:00:00Z |
 | JetBrains AI | Pro | credits | coding | monthly | $10 | 10 AI Credits/30 天 | [link](https://www.jetbrains.com/help/ai-assistant/2026.1/licensing-and-subscriptions.html) | 2026-08-21T00:00:00Z |
 | JetBrains AI | Ultimate | credits | coding | monthly | $30 | 35 AI Credits/30 天 | [link](https://www.jetbrains.com/help/ai-assistant/2026.1/licensing-and-subscriptions.html) | 2026-08-21T00:00:00Z |
-| ChatGPT | Plus | flat_monthly | consumer | monthly | $20 | Standard usage limits | [link](https://openai.com/chatgpt/pricing/) | 2026-08-21T00:00:00Z |
-| ChatGPT | Pro $100 | flat_monthly | consumer | monthly | $100 | 5x Codex access vs Plus | [link](https://thenextweb.com/news/openais-new-100-chatgpt-pro-plan-targets-claude-max-with-five-times-the-codex-access) | 2026-08-21T00:00:00Z |
-| ChatGPT | Pro $200 | flat_monthly | consumer | monthly | $200 | Top tier | [link](https://openai.com/chatgpt/pricing/) | 2026-08-21T00:00:00Z |
+| ChatGPT | Go | flat_monthly | consumer | monthly | $8 | 官方未公布具体用量额度（含广告；约 10 倍于 Free 的处理量） | [link](https://chatgpt.com/plans/go/) | 2026-08-21T00:00:00Z |
+| ChatGPT | Plus | flat_monthly | consumer | monthly | $20 | Standard usage limits；官方未公布具体用量额度（2026 年多次调整限额政策） | [link](https://openai.com/chatgpt/pricing/) | 2026-08-21T00:00:00Z |
+| ChatGPT | Pro $100 | flat_monthly | consumer | monthly | $100 | 5x Codex access vs Plus；官方未公布具体用量额度（5x Codex 访问为官方口径） | [link](https://thenextweb.com/news/openais-new-100-chatgpt-pro-plan-targets-claude-max-with-five-times-the-codex-access) | 2026-08-21T00:00:00Z |
+| ChatGPT | Pro $200 | flat_monthly | consumer | monthly | $200 | Top tier；官方未公布具体用量额度 | [link](https://openai.com/chatgpt/pricing/) | 2026-08-21T00:00:00Z |
+| OpenCode Go | Go | credits | coding | monthly | $10 | 含 $60 美元用量额度（按模型消耗率折算请求数） | [link](https://opencode.ai/docs/go/) | 2026-08-21T00:00:00Z |
 | Perplexity | Education Pro | flat_monthly | student | monthly | $10 | 需学生验证 | [link](https://www.perplexity.ai/pricing) | 2026-08-21T00:00:00Z |
 | Perplexity | Enterprise Pro | per_seat_monthly | enterprise | monthly | $40 | 统一账单、seat 管理 | [link](https://www.perplexity.ai/pricing) | 2026-08-21T00:00:00Z |
 | Perplexity | Max | flat_monthly | consumer | monthly | $200 | 最高个人档：更高研究与 Comet 限额 | [link](https://www.perplexity.ai/pricing) | 2026-08-21T00:00:00Z |

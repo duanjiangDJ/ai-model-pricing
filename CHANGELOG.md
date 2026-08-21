@@ -1,34 +1,34 @@
-> **Language: 中文（简体）(zh-CN)** — This document is written in zh-CN only.
+> **Language: English (en)** — This document is written in en only.
 
-# Changelog / 变更日志
+# Changelog
 
-## 版本规则（Versioning）
+## Versioning Rules
 
-版本号格式：**`年份.功能更新.内容更新`**（如 `26.3.2` = 2026 年第 3 次功能更新、第 2 次内容更新）。
+Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd content update and the 3rd feature update of 2026).
 
-- **年份**：首次发布所在年份（两位数，如 2026 → `26`）；年份变化时重置后两段为 0。
-- **功能更新**（第二段）：除定价更新以外的所有仓库更新（数据结构、脚本、文档、机制等），每次 +1 并重置内容更新为 0。
-- **内容更新**（第三段）：**定价数据更新**（价格变化、模型新增/退役、计划变更），每次 +1。
-- 当前版本见 `VERSION` 文件；`data/machine/schema.json` 的 `version` 与各数据文件 `schema_version` 与之一致。
-- 版本递增由维护者/机器人按变更类型决定，记录于本文件条目。
+- **Year**: the year of first release (two digits, e.g. 2026 → `26`); when the year changes, the following two segments reset to 0.
+- **Content update** (second segment): **pricing data updates** (price changes, model additions/retirements, plan changes), each +1.
+- **Feature update** (third segment): every repository update other than pricing updates (data structure, scripts, docs, mechanisms, etc.), each +1.
+- The current version is in the `VERSION` file; `data/machine/schema.json`'s `version` and every data file's `schema_version` match it.
+- Version increments are decided by maintainers/bots based on the change type and recorded in this file's entries.
 
 ---
 
-## 26.0.0 — 2026-08-21（初始规范化版本）
+## 26.0.0 — 2026-08-21 (Initial Normalized Version)
 
-首个采用新版本规则的版本（内容为 2026-08-21 当天完成的所有工作）。
+The first version to adopt the new versioning rules (content covers all work completed on 2026-08-21).
 
-### 内容更新（定价数据）
-- **订阅计划独立定价结构**：`plans.json` 每个计划新增 `pricing_model` 字段（flat_monthly / flat_yearly / per_seat_monthly / per_seat_yearly / credits / free / custom），与模型 per-MTok 定价明确区分；51 个计划全部标注。
-- **修复 0 价歧义**：155 个"订阅/套餐包含"模型（coding-plan / token-plan / Copilot / Duo / Kimi-for-Coding 等 provider）的 per-MTok 价格由 `0` 改为 `null` + notes 说明"包含于订阅计划，无独立按 token 定价"，消除"0 = 免费"误读。
-- **模型状态结构化**：新增 `model.status` 字段（active / preview / deprecated / retired / superseded），41 个模型已标注（OpenAI 退役系列、xAI 退役系列、DeepSeek V3 旧系、Anthropic Mythos preview 等）；人类可读页面新增状态列（❌/⚠️/🔁/🧪 显著标记）。
-- 定价复核成果（DeepSeek V4、Anthropic Sonnet 5 永久价、OpenAI 5.6 系列、国内厂商官方价）随 26.0.0 一并归档。
+### Content Updates (pricing data)
+- **Independent pricing structure for subscription plans**: each plan in `plans.json` gains a `pricing_model` field (flat_monthly / flat_yearly / per_seat_monthly / per_seat_yearly / credits / free / custom), clearly distinguished from model per-MTok pricing; all 51 plans are tagged.
+- **Fixed the 0-price ambiguity**: 155 "included in subscription/plan" models (coding-plan / token-plan / Copilot / Duo / Kimi-for-Coding, etc. providers) changed their per-MTok price from `0` to `null` + a notes entry stating "included in the subscription plan, no standalone per-token pricing", eliminating the "0 = free" misreading.
+- **Structured model status**: new `model.status` field (active / preview / deprecated / retired / superseded); 41 models tagged (OpenAI retired series, xAI retired series, DeepSeek V3 old series, Anthropic Mythos preview, etc.); human-readable pages gain a status column (prominent ❌/⚠️/🔁/🧪 marks).
+- Pricing-review results (DeepSeek V4, Anthropic Sonnet 5 permanent pricing, OpenAI 5.6 series, domestic vendors' official prices) are archived together with 26.0.0.
 
-### 功能更新（仓库）
-- **官方价直采层**：`scripts/sync_official.py` + `scripts/official_sources.json`（DeepSeek / 百度 / Anthropic 官方页直抓，OpenAI Wayback 快照兜底）；每日检查按"官方 → models.dev → OpenRouter"顺序执行，官方当日已核实的 provider 免于第三方覆盖。
-- **中英严格分离**：README / 人类可读页面（`data/human/` + `zh-CN/`）双语；全部文档头部增加 `Language:` 标注；文档 H1 与文件名对齐。
-- **版本管理**：`VERSION` 文件 + `年份.功能.内容` 版本规则；schema 版本升级为 `26.0.0`。
-- AGENTS.md（agent 指南）、docs/verification.md（真实性机制）、docs/ego-browser-workflow.md（ego-lite 复核工作流）。
+### Feature Updates (repository)
+- **Official-price direct-sync layer**: `scripts/sync_official.py` + `scripts/official_sources.json` (direct scraping of DeepSeek / Baidu / Anthropic official pages, OpenAI Wayback snapshot as fallback); the daily check runs in "official → models.dev → OpenRouter" order, and providers already verified officially that day are exempt from third-party overwrites.
+- **Strict en/zh separation**: README / human-readable pages (`data/human/` + `zh-CN/`) are bilingual; all docs gain a `Language:` header annotation; doc H1s align with file names.
+- **Version management**: `VERSION` file + `year.feature.content` versioning rules; schema version upgraded to `26.0.0`.
+- AGENTS.md (agent guide), docs/verification.md (truthfulness mechanism), docs/ego-browser-workflow.md (ego-lite re-verification workflow).
 
-### 历史背景（26.0.0 之前的工作，归档于此）
-- 仓库建立：schema v1、OpenRouter（419 模型）+ models.dev（192 供应商）自动同步、双版本输出、每日检查 workflow、51 个订阅计划、全面定价复核（DeepSeek/Anthropic/OpenAI/国内厂商）。
+### Historical Background (work before 26.0.0, archived here)
+- Repository establishment: schema v1, OpenRouter (419 models) + models.dev (192 providers) auto-sync, dual-version output, daily-check workflow, 51 subscription plans, comprehensive pricing review (DeepSeek / Anthropic / OpenAI / domestic vendors).

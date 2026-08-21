@@ -141,6 +141,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--stale-days", type=int, default=30)
     ap.add_argument("--no-network", action="store_true", help="skip network fetches (stale check only)")
+    ap.add_argument("--stale-report", default=None, help="write stale-plans markdown to this path (e.g. /tmp/stale-plans.md)")
     args = ap.parse_args()
 
     now = now_iso()
@@ -212,20 +213,22 @@ def main():
     else:
         print("no-network mode: skipping fetches")
 
-    # stale plans report
+    # stale plans report — written to --stale-report path if given (no reports/ dir anymore)
     stale = check_stale_plans(args.stale_days)
     summary["stale_plans"] = len(stale)
-    os.makedirs(os.path.join(ROOT, "reports"), exist_ok=True)
+    stale_md = ""
     if stale:
         lines = ["# 待人工核实的订阅计划（超过 {} 天未核实）".format(args.stale_days), "",
                  "| 产品 | 计划 | 上次核实 | 定价页 |", "|---|---|---|---|"]
         for p in stale:
             lines.append(f"| {p['product']} {p['plan']} | {p['plan']} | {p.get('verified_at', '从未')} | {p.get('url', '—')} |")
-        with open(os.path.join(ROOT, "reports", "stale-plans.md"), "w", encoding="utf-8") as f:
-            f.write("\n".join(lines) + "\n")
+        stale_md = "\n".join(lines) + "\n"
     else:
-        with open(os.path.join(ROOT, "reports", "stale-plans.md"), "w", encoding="utf-8") as f:
-            f.write("所有订阅计划均在 {} 天内核实过。".format(args.stale_days))
+        stale_md = "所有订阅计划均在 {} 天内核实过。".format(args.stale_days)
+    if args.stale_report:
+        with open(args.stale_report, "w", encoding="utf-8") as f:
+            f.write(stale_md)
+    print("STALE_PLANS " + stale_md.replace("\n", " | ")[:300])
 
     # rebuild human pages
     import subprocess

@@ -499,13 +499,30 @@
       "pricing_model": "credits"
     },
     {
+      "id": "openai-chatgpt-go",
+      "provider_id": "openai",
+      "product": "ChatGPT",
+      "plan": "Go",
+      "category": "consumer",
+      "pricing_model": "flat_monthly",
+      "billing": "monthly",
+      "price_usd": 8,
+      "limits": "官方未公布具体用量额度（含广告；约 10 倍于 Free 的处理量）",
+      "includes": [
+        "标准模型访问",
+        "广告支持模式"
+      ],
+      "url": "https://chatgpt.com/plans/go/",
+      "verified_at": "2026-08-21T00:00:00Z"
+    },
+    {
       "id": "openai-chatgpt-plus",
       "product": "ChatGPT",
       "plan": "Plus",
       "category": "consumer",
       "billing": "monthly",
       "price_usd": 20,
-      "limits": "Standard usage limits",
+      "limits": "Standard usage limits；官方未公布具体用量额度（2026 年多次调整限额政策）",
       "includes": [
         "GPT-5 系列访问",
         "更高限额"
@@ -522,7 +539,7 @@
       "category": "consumer",
       "billing": "monthly",
       "price_usd": 100,
-      "limits": "5x Codex access vs Plus",
+      "limits": "5x Codex access vs Plus；官方未公布具体用量额度（5x Codex 访问为官方口径）",
       "includes": [
         "5 倍 Codex 用量",
         "更高模型限额"
@@ -539,7 +556,7 @@
       "category": "consumer",
       "billing": "monthly",
       "price_usd": 200,
-      "limits": "Top tier",
+      "limits": "Top tier；官方未公布具体用量额度",
       "includes": [
         "最高模型限额",
         "o 系列与 Codex 高额度"
@@ -548,6 +565,29 @@
       "verified_at": "2026-08-21T00:00:00Z",
       "provider_id": "openai",
       "pricing_model": "flat_monthly"
+    },
+    {
+      "id": "opencode-go-subscription",
+      "provider_id": "opencode-go",
+      "product": "OpenCode Go",
+      "plan": "Go",
+      "category": "coding",
+      "pricing_model": "credits",
+      "billing": "monthly",
+      "price_usd": 10,
+      "price_note": "首月 $5，之后 $10/月",
+      "limits": "含 $60 美元用量额度（按模型消耗率折算请求数）",
+      "credits_included": {
+        "unit_name": "USD usage",
+        "amount": 60,
+        "renewal": "monthly"
+      },
+      "includes": [
+        "流行开源编码模型访问",
+        "额度用尽后可继续按量"
+      ],
+      "url": "https://opencode.ai/docs/go/",
+      "verified_at": "2026-08-21T00:00:00Z"
     },
     {
       "id": "perplexity-edu-pro",

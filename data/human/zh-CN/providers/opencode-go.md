@@ -3,7 +3,7 @@
 - provider_id: `opencode-go`
 - 渠道: 推理托管
 - 官网: https://opencode.ai/docs/zen
-- 定价页: https://opencode.ai/docs/zen
+- 定价页: https://opencode.ai/docs/go/
 - 币种: USD
 - 数据更新时间: 2026-08-21T13:21:07Z
 - 核实时间: 2026-08-21T13:21:07Z

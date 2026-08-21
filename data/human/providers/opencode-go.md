@@ -3,7 +3,7 @@
 - provider_id: `opencode-go`
 - Channel: Inference host
 - Homepage: https://opencode.ai/docs/zen
-- Pricing page: https://opencode.ai/docs/zen
+- Pricing page: https://opencode.ai/docs/go/
 - Currency: USD
 - Data updated: 2026-08-21T13:21:07Z
 - Verified: 2026-08-21T13:21:07Z
