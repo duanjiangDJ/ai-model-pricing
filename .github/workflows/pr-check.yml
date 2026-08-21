@@ -54,6 +54,7 @@ jobs:
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
         run: |
+          git fetch --depth=1 origin "$BASE_SHA"
           CHANGED=$(git diff --name-only "$BASE_SHA"...HEAD)
           if echo "$CHANGED" | grep -qE '^(data/machine/|scripts/|VERSION|CHANGELOG)'; then
             NEWV=$(cat VERSION | tr -d '[:space:]')
