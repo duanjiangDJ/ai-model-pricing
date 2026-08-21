@@ -3,9 +3,9 @@
 > 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/machine/`](../machine/)。
 > 更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。
 
-- 数据更新时间: 2026-08-21T11:36:36Z
-- 覆盖渠道: 197 个（含 OpenRouter 聚合 419 个模型）
-- 模型总数: 7290
+- 数据更新时间: 2026-08-21T11:38:22Z
+- 覆盖渠道: 200 个（含 OpenRouter 聚合 419 个模型）
+- 模型总数: 7296
 - 订阅计划数: 33
 
 ## 供应商列表
@@ -208,6 +208,9 @@
 | [Cursor (Anysphere)](providers/cursor.md) | subscription | 0 | `providers/cursor.json` | 2026-08-21T11:36:36Z |
 | [Windsurf (Codeium)](providers/windsurf.md) | subscription | 0 | `providers/windsurf.json` | 2026-08-21T11:36:36Z |
 | [JetBrains](providers/jetbrains.md) | subscription | 0 | `providers/jetbrains.json` | 2026-08-21T11:36:36Z |
+| [百度智能云千帆 (Baidu Qianfan)](providers/baidu.md) | 官方直供 | 3 | `providers/baidu.json` | 2026-08-21T11:38:22Z |
+| [腾讯混元 (Tencent Hunyuan)](providers/tencent.md) | 官方直供 | 1 | `providers/tencent.json` | 2026-08-21T11:38:22Z |
+| [火山引擎方舟 (Volcengine Ark / 豆包)](providers/volcengine.md) | 官方直供 | 2 | `providers/volcengine.json` | 2026-08-21T11:38:22Z |
 | [OpenRouter](providers/openrouter.md) | 聚合站 | 419 | `providers/openrouter.json` | 2026-08-21T11:28:18Z |
 
 ## 订阅计划

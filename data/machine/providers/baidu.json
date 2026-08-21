@@ -1,0 +1,77 @@
+{
+  "provider_id": "baidu",
+  "name": "百度智能云千帆 (Baidu Qianfan)",
+  "channel": "first_party",
+  "category": "ai_vendor",
+  "region": "cn",
+  "homepage": "https://qianfan.cloud.baidu.com",
+  "pricing_page": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:38:22Z",
+  "verified_at": "2026-08-21T00:00:00Z",
+  "models": [
+    {
+      "id": "ernie-5.1",
+      "name": "ERNIE 5.1",
+      "category": "chat",
+      "context_window": 128000,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 4.0,
+          "output": 18.0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "官方价：输入≤32k ¥4/百万tokens、输出 ¥18/百万；32k<输入≤128k：¥6/¥22 每百万。CNY 计价。"
+    },
+    {
+      "id": "ernie-5.0",
+      "name": "ERNIE 5.0 / Thinking",
+      "category": "reasoning",
+      "context_window": 128000,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 6.0,
+          "output": 24.0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "官方价：输入 ¥6/百万、输出 ¥24/百万；32k+ 输入 ¥10/输出 ¥40 每百万。CNY 计价。"
+    },
+    {
+      "id": "ernie-4.5-turbo",
+      "name": "ERNIE 4.5 Turbo",
+      "category": "chat",
+      "context_window": 128000,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.8,
+          "output": 3.2,
+          "cache_read": 0.2,
+          "cache_write": null
+        },
+        "batch": {
+          "input": 0.32,
+          "output": 1.28
+        },
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "官方价：输入 ¥0.8/百万、命中缓存 ¥0.2/百万、输出 ¥3.2/百万；批量推理 ¥0.32/¥1.28。CNY 计价。"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "provider_id": "tencent",
+  "name": "腾讯混元 (Tencent Hunyuan)",
+  "channel": "first_party",
+  "category": "ai_vendor",
+  "region": "cn",
+  "homepage": "https://hunyuan.tencent.com",
+  "pricing_page": "https://cloud.tencent.com/document/product/1729",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:38:22Z",
+  "verified_at": "2026-08-21T00:00:00Z",
+  "models": [
+    {
+      "id": "hunyuan-hy3",
+      "name": "混元 Hy3",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.0,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "2026-07-06 发布并开源；官方新闻：输入低至 ¥1/百万tokens（输出价未在公开新闻中给出，待核实）。CNY 计价。"
+    }
+  ]
+}

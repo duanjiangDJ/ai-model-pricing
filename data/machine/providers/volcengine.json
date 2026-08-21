@@ -1,0 +1,54 @@
+{
+  "provider_id": "volcengine",
+  "name": "火山引擎方舟 (Volcengine Ark / 豆包)",
+  "channel": "first_party",
+  "category": "ai_vendor",
+  "region": "cn",
+  "homepage": "https://www.volcengine.com/product/ark",
+  "pricing_page": "https://www.volcengine.com/docs/82379",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:38:22Z",
+  "verified_at": "2026-08-21T00:00:00Z",
+  "models": [
+    {
+      "id": "doubao-2.1-pro",
+      "name": "豆包 2.1 Pro",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 6.0,
+          "output": 30.0,
+          "cache_read": 1.2,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "2026-06-23 发布；官方披露：输入 ¥6/百万、输出 ¥30/百万、缓存命中 ¥1.2/百万。CNY 计价。"
+    },
+    {
+      "id": "doubao-2.1-turbo",
+      "name": "豆包 2.1 Turbo",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 3.0,
+          "output": 15.0,
+          "cache_read": 0.6,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "官方称相对 2.1 Pro '价格再减半'，按 Pro 半价记录（待官方定价页精确核实）。CNY 计价。"
+    }
+  ]
+}

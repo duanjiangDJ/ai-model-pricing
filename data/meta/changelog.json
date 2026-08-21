@@ -2,6 +2,45 @@
   "schema_version": "1.0.0",
   "entries": [
     {
+      "date": "2026-08-21T11:38:22Z",
+      "kind": "update",
+      "scope": "provider",
+      "provider_id": "baidu",
+      "item_id": "baidu",
+      "field": "catalog",
+      "new": {
+        "models": 3,
+        "research_models": 3
+      },
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:38:22Z",
+      "kind": "update",
+      "scope": "provider",
+      "provider_id": "tencent",
+      "item_id": "tencent",
+      "field": "catalog",
+      "new": {
+        "models": 1,
+        "research_models": 1
+      },
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:38:22Z",
+      "kind": "update",
+      "scope": "provider",
+      "provider_id": "volcengine",
+      "item_id": "volcengine",
+      "field": "catalog",
+      "new": {
+        "models": 2,
+        "research_models": 2
+      },
+      "source": "research-subagent"
+    },
+    {
       "date": "2026-08-21T11:36:36Z",
       "kind": "update",
       "scope": "provider",

@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-08-21T11:36:36Z",
+  "generated_at": "2026-08-21T11:38:22Z",
   "currency": "USD",
-  "provider_count": 196,
-  "model_count": 7290,
+  "provider_count": 199,
+  "model_count": 7296,
   "plan_count": 33,
   "providers": [
     {
@@ -1573,6 +1573,30 @@
       "model_count": 0,
       "file": "providers/jetbrains.json",
       "updated_at": "2026-08-21T11:36:36Z"
+    },
+    {
+      "id": "baidu",
+      "name": "百度智能云千帆 (Baidu Qianfan)",
+      "channel": "first_party",
+      "model_count": 3,
+      "file": "providers/baidu.json",
+      "updated_at": "2026-08-21T11:38:22Z"
+    },
+    {
+      "id": "tencent",
+      "name": "腾讯混元 (Tencent Hunyuan)",
+      "channel": "first_party",
+      "model_count": 1,
+      "file": "providers/tencent.json",
+      "updated_at": "2026-08-21T11:38:22Z"
+    },
+    {
+      "id": "volcengine",
+      "name": "火山引擎方舟 (Volcengine Ark / 豆包)",
+      "channel": "first_party",
+      "model_count": 2,
+      "file": "providers/volcengine.json",
+      "updated_at": "2026-08-21T11:38:22Z"
     }
   ],
   "resellers": [
