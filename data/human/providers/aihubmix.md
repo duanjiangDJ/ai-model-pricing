@@ -1,16 +1,16 @@
 # AIHubMix
 
 - provider_id: `aihubmix`
-- 渠道: 推理托管
-- 官网: https://docs.aihubmix.com
-- 定价页: https://docs.aihubmix.com
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://docs.aihubmix.com
+- Pricing page: https://docs.aihubmix.com
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **70** 个模型。
+**70** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `alicloud-deepseek-v4-flash` | reasoning | 1M | $0.14 | $0.28 | $0.028 | — | —/— | — |
 | `alicloud-deepseek-v4-pro` | reasoning | 1M | $1.69 | $3.38 | $0.13 | — | —/— | — |

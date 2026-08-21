@@ -1,16 +1,16 @@
 # TrustedRouter
 
 - provider_id: `trustedrouter`
-- 渠道: 聚合站
-- 官网: https://trustedrouter.com/docs
-- 定价页: https://trustedrouter.com/docs
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Aggregator
+- Homepage: https://trustedrouter.com/docs
+- Pricing page: https://trustedrouter.com/docs
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **7** 个模型。
+**7** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `auto` | reasoning | 1M | — | — | — | — | —/— | — |
 | `cheap` | reasoning | 1M | — | — | — | — | —/— | — |

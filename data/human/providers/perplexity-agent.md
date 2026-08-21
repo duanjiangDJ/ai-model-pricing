@@ -1,16 +1,16 @@
 # Perplexity Agent
 
 - provider_id: `perplexity-agent`
-- 渠道: 推理托管
-- 官网: https://docs.perplexity.ai/docs/agent-api/models
-- 定价页: https://docs.perplexity.ai/docs/agent-api/models
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://docs.perplexity.ai/docs/agent-api/models
+- Pricing page: https://docs.perplexity.ai/docs/agent-api/models
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **22** 个模型。
+**22** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `anthropic/claude-haiku-4-5` | reasoning | 200K | $1 | $5 | $0.1 | — | —/— | — |
 | `anthropic/claude-opus-4-5` | reasoning | 200K | $5 | $25 | $0.5 | — | —/— | — |

@@ -1,16 +1,16 @@
 # Cortecs
 
 - provider_id: `cortecs`
-- 渠道: 推理托管
-- 官网: https://api.cortecs.ai/v1/models
-- 定价页: https://api.cortecs.ai/v1/models
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:27:12Z
-- 核实时间: 2026-08-21T11:27:12Z
+- Channel: Inference host
+- Homepage: https://api.cortecs.ai/v1/models
+- Pricing page: https://api.cortecs.ai/v1/models
+- Currency: USD
+- Data updated: 2026-08-21T11:27:12Z
+- Verified: 2026-08-21T11:27:12Z
 
-共 **108** 个模型。
+**108** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `apertus-70b` | reasoning | 65.536K | $1.393 | $2.228 | — | — | —/— | — |
 | `claude-4-5-sonnet` | reasoning | 200K | $2.989 | $14.945 | $0.326 | — | —/— | — |

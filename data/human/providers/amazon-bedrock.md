@@ -1,16 +1,16 @@
 # Amazon Bedrock
 
 - provider_id: `amazon-bedrock`
-- 渠道: 推理托管
-- 官网: https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html
-- 定价页: https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html
+- Pricing page: https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **120** 个模型。
+**120** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `amazon.nova-2-lite-v1:0` | reasoning | 128K | $0.33 | $2.75 | — | — | —/— | — |
 | `amazon.nova-lite-v1:0` | chat | 300K | $0.06 | $0.24 | $0.015 | — | —/— | — |

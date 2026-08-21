@@ -1,16 +1,16 @@
 # Venice AI
 
 - provider_id: `venice`
-- 渠道: 推理托管
-- 官网: https://docs.venice.ai
-- 定价页: https://docs.venice.ai
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://docs.venice.ai
+- Pricing page: https://docs.venice.ai
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **99** 个模型。
+**99** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `aion-labs-aion-3-0` | reasoning | 128K | $3.75 | $7.5 | $0.9375 | — | —/— | — |
 | `aion-labs-aion-3-0-mini` | reasoning | 128K | $0.875 | $1.75 | $0.225 | — | —/— | — |

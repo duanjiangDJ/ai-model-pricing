@@ -1,16 +1,16 @@
 # Cloudflare Workers AI
 
 - provider_id: `cloudflare-workers-ai`
-- 渠道: 推理托管
-- 官网: https://developers.cloudflare.com/workers-ai/models/
-- 定价页: https://developers.cloudflare.com/workers-ai/models/
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:27:12Z
-- 核实时间: 2026-08-21T11:27:12Z
+- Channel: Inference host
+- Homepage: https://developers.cloudflare.com/workers-ai/models/
+- Pricing page: https://developers.cloudflare.com/workers-ai/models/
+- Currency: USD
+- Data updated: 2026-08-21T11:27:12Z
+- Verified: 2026-08-21T11:27:12Z
 
-共 **25** 个模型。
+**25** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `@cf/aisingapore/gemma-sea-lion-v4-27b-it` | chat | 128K | $0.351 | $0.555 | — | — | —/— | — |
 | `@cf/deepseek-ai/deepseek-r1-distill-qwen-32b` | reasoning | 80K | $0.497 | $4.881 | — | — | —/— | — |

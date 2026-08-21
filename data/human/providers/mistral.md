@@ -1,16 +1,16 @@
 # Mistral
 
 - provider_id: `mistral`
-- 渠道: 官方直供
-- 官网: https://docs.mistral.ai/getting-started/models/
-- 定价页: https://docs.mistral.ai/getting-started/models/
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: First-party
+- Homepage: https://docs.mistral.ai/getting-started/models/
+- Pricing page: https://docs.mistral.ai/getting-started/models/
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **33** 个模型。
+**33** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `codestral-latest` | chat | 256K | $0.3 | $0.9 | — | — | —/— | — |
 | `devstral-2512` | chat | 262.144K | $0.4 | $2 | — | — | —/— | — |

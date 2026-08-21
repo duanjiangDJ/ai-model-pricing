@@ -1,16 +1,16 @@
 # DigitalOcean
 
 - provider_id: `digitalocean`
-- 渠道: 推理托管
-- 官网: https://docs.digitalocean.com/products/gradient-ai-platform/details/models/
-- 定价页: https://docs.digitalocean.com/products/gradient-ai-platform/details/models/
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://docs.digitalocean.com/products/gradient-ai-platform/details/models/
+- Pricing page: https://docs.digitalocean.com/products/gradient-ai-platform/details/models/
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **92** 个模型。
+**92** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `alibaba-qwen3-32b` | reasoning | 32.768K | $0.25 | $0.55 | — | — | —/— | — |
 | `all-mini-lm-l6-v2` | chat | 256 | $0.009 | $0 | — | — | —/— | — |

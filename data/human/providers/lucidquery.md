@@ -1,16 +1,16 @@
 # LucidQuery
 
 - provider_id: `lucidquery`
-- 渠道: 推理托管
-- 官网: https://lucidquery.com/docs
-- 定价页: https://lucidquery.com/docs
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://lucidquery.com/docs
+- Pricing page: https://lucidquery.com/docs
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **4** 个模型。
+**4** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `lucidnova-rf1-100b` | reasoning | 120K | $2 | $5 | — | — | —/— | — |
 | `lucidquery-agi-01-frontier` | reasoning | 300K | $4.5 | $22 | — | — | —/— | — |

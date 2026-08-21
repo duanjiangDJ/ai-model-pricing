@@ -1,16 +1,16 @@
 # Sarvam AI
 
 - provider_id: `sarvam`
-- 渠道: 推理托管
-- 官网: https://docs.sarvam.ai/api-reference-docs/getting-started/models
-- 定价页: https://docs.sarvam.ai/api-reference-docs/getting-started/models
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://docs.sarvam.ai/api-reference-docs/getting-started/models
+- Pricing page: https://docs.sarvam.ai/api-reference-docs/getting-started/models
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **2** 个模型。
+**2** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `sarvam-105b` | reasoning | 131.072K | — | — | — | — | —/— | — |
 | `sarvam-30b` | reasoning | 65.536K | — | — | — | — | —/— | — |

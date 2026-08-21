@@ -1,16 +1,16 @@
 # Moonshot AI
 
 - provider_id: `moonshotai`
-- 渠道: 推理托管
-- 官网: https://platform.moonshot.ai/docs/api/chat
-- 定价页: https://platform.moonshot.ai/docs/api/chat
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://platform.moonshot.ai/docs/api/chat
+- Pricing page: https://platform.moonshot.ai/docs/api/chat
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **10** 个模型。
+**10** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `kimi-k2-0711-preview` | chat | 131.072K | $0.6 | $2.5 | $0.15 | — | —/— | — |
 | `kimi-k2-0905-preview` | chat | 262.144K | $0.6 | $2.5 | $0.15 | — | —/— | — |

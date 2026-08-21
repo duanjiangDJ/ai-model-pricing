@@ -1,16 +1,16 @@
 # Infomaniak
 
 - provider_id: `infomaniak`
-- 渠道: 推理托管
-- 官网: https://www.infomaniak.com/en/hosting/ai-services/open-source-models
-- 定价页: https://www.infomaniak.com/en/hosting/ai-services/open-source-models
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:27:12Z
-- 核实时间: 2026-08-21T11:27:12Z
+- Channel: Inference host
+- Homepage: https://www.infomaniak.com/en/hosting/ai-services/open-source-models
+- Pricing page: https://www.infomaniak.com/en/hosting/ai-services/open-source-models
+- Currency: USD
+- Data updated: 2026-08-21T11:27:12Z
+- Verified: 2026-08-21T11:27:12Z
 
-共 **10** 个模型。
+**10** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `Qwen/Qwen3.5-122B-A10B-FP8` | reasoning | 200K | $0.5 | $3.97 | — | — | —/— | — |
 | `Qwen/Qwen3.5-397B-A17B-FP8` | reasoning | 200K | $0.99 | $4.46 | — | — | —/— | — |

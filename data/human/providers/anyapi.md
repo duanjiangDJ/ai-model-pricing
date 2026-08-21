@@ -1,16 +1,16 @@
 # AnyAPI
 
 - provider_id: `anyapi`
-- 渠道: 推理托管
-- 官网: https://docs.anyapi.ai
-- 定价页: https://docs.anyapi.ai
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://docs.anyapi.ai
+- Pricing page: https://docs.anyapi.ai
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **30** 个模型。
+**30** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `anthropic/claude-haiku-4-5` | reasoning | 200K | — | — | — | — | —/— | — |
 | `anthropic/claude-opus-4-6` | reasoning | 1M | — | — | — | — | —/— | — |

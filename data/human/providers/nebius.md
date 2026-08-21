@@ -1,16 +1,16 @@
 # Nebius Token Factory
 
 - provider_id: `nebius`
-- 渠道: 推理托管
-- 官网: https://docs.tokenfactory.nebius.com/
-- 定价页: https://docs.tokenfactory.nebius.com/
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://docs.tokenfactory.nebius.com/
+- Pricing page: https://docs.tokenfactory.nebius.com/
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **34** 个模型。
+**34** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `MiniMaxAI/MiniMax-M2.5` | reasoning | 196.608K | $0.3 | $1.2 | $0.03 | — | —/— | — |
 | `MiniMaxAI/MiniMax-M2.5-fast` | reasoning | 8K | $0.3 | $1.2 | $0.03 | — | —/— | — |

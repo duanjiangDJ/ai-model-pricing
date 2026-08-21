@@ -1,16 +1,16 @@
 # Scaleway
 
 - provider_id: `scaleway`
-- 渠道: 推理托管
-- 官网: https://www.scaleway.com/en/docs/generative-apis/
-- 定价页: https://www.scaleway.com/en/docs/generative-apis/
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://www.scaleway.com/en/docs/generative-apis/
+- Pricing page: https://www.scaleway.com/en/docs/generative-apis/
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **14** 个模型。
+**14** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `bge-multilingual-gemma2` | chat | 8.191K | $0.1 | $0 | — | — | —/— | — |
 | `gemma-4-26b-a4b-it` | reasoning | 256K | $0.25 | $0.5 | — | — | —/— | — |

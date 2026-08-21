@@ -1,16 +1,16 @@
 # Vultr
 
 - provider_id: `vultr`
-- 渠道: 推理托管
-- 官网: https://api.vultrinference.com/
-- 定价页: https://api.vultrinference.com/
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://api.vultrinference.com/
+- Pricing page: https://api.vultrinference.com/
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **10** 个模型。
+**10** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `MiniMaxAI/MiniMax-M2.7` | reasoning | 204.8K | $0.3 | $1.2 | — | — | —/— | — |
 | `Qwen/Qwen3.5-397B-A17B` | reasoning | 262.144K | $0.3 | $2 | — | — | —/— | — |

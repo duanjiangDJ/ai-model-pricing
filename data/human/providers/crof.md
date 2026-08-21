@@ -1,16 +1,16 @@
 # CrofAI
 
 - provider_id: `crof`
-- 渠道: 推理托管
-- 官网: https://crof.ai/docs
-- 定价页: https://crof.ai/docs
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://crof.ai/docs
+- Pricing page: https://crof.ai/docs
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **26** 个模型。
+**26** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `deepseek-v3.2` | chat | 163.84K | $0.18 | $0.35 | $0.04 | — | —/— | — |
 | `deepseek-v4-flash` | reasoning | 1M | $0.12 | $0.21 | $0.003 | — | —/— | — |

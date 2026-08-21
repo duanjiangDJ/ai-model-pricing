@@ -1,16 +1,16 @@
 # Eden AI
 
 - provider_id: `edenai`
-- 渠道: 推理托管
-- 官网: https://docs.edenai.co
-- 定价页: https://docs.edenai.co
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://docs.edenai.co
+- Pricing page: https://docs.edenai.co
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **232** 个模型。
+**232** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `amazon/moonshot.kimi-k2-thinking` | reasoning | 128K | $0.6 | $2.5 | — | — | —/— | — |
 | `amazon/moonshotai.kimi-k2.5` | reasoning | 262.144K | $0.6 | $3 | — | — | —/— | — |

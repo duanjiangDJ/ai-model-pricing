@@ -1,16 +1,16 @@
 # HPC-AI
 
 - provider_id: `hpc-ai`
-- 渠道: 推理托管
-- 官网: https://www.hpc-ai.com/doc/docs/quickstart/
-- 定价页: https://www.hpc-ai.com/doc/docs/quickstart/
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:27:12Z
-- 核实时间: 2026-08-21T11:27:12Z
+- Channel: Inference host
+- Homepage: https://www.hpc-ai.com/doc/docs/quickstart/
+- Pricing page: https://www.hpc-ai.com/doc/docs/quickstart/
+- Currency: USD
+- Data updated: 2026-08-21T11:27:12Z
+- Verified: 2026-08-21T11:27:12Z
 
-共 **9** 个模型。
+**9** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `anthropic/claude-opus-4.7` | reasoning | 1M | $5 | $25 | $0.5 | — | —/— | — |
 | `deepseek/deepseek-v4-flash` | reasoning | 1.04858M | $0.14 | $0.28 | $0.028 | — | —/— | — |

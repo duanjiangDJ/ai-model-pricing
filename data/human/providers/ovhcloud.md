@@ -1,16 +1,16 @@
 # OVHcloud AI Endpoints
 
 - provider_id: `ovhcloud`
-- 渠道: 推理托管
-- 官网: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog//
-- 定价页: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog//
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog//
+- Pricing page: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog//
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **14** 个模型。
+**14** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `gpt-oss-120b` | reasoning | 131.072K | $0.09 | $0.47 | — | — | —/— | — |
 | `gpt-oss-20b` | reasoning | 131.072K | $0.05 | $0.18 | — | — | —/— | — |

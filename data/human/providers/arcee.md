@@ -1,16 +1,16 @@
 # Arcee
 
 - provider_id: `arcee`
-- 渠道: 推理托管
-- 官网: https://docs.arcee.ai
-- 定价页: https://docs.arcee.ai
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://docs.arcee.ai
+- Pricing page: https://docs.arcee.ai
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **7** 个模型。
+**7** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `deepseek/deepseek-v4-flash-latest` | reasoning | 1.04858M | $0.14 | $0.28 | $0.028 | — | —/— | — |
 | `deepseek/deepseek-v4-pro` | reasoning | 512K | $1.74 | $3.48 | $0.2 | — | —/— | — |

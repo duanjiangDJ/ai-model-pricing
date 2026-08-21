@@ -1,16 +1,16 @@
 # abliteration.ai
 
 - provider_id: `abliteration-ai`
-- 渠道: 推理托管
-- 官网: https://docs.abliteration.ai/models
-- 定价页: https://docs.abliteration.ai/models
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:01Z
-- 核实时间: 2026-08-21T11:28:01Z
+- Channel: Inference host
+- Homepage: https://docs.abliteration.ai/models
+- Pricing page: https://docs.abliteration.ai/models
+- Currency: USD
+- Data updated: 2026-08-21T11:28:01Z
+- Verified: 2026-08-21T11:28:01Z
 
-共 **2** 个模型。
+**2** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `abliterated-model` | reasoning | 150K | $3 | $3 | $0.3 | — | —/— | — |
 | `abliterated-model-large` | reasoning | 1M | $5 | $5 | $0.5 | — | —/— | — |

@@ -1,16 +1,16 @@
 # ClinePass
 
 - provider_id: `cline-pass`
-- 渠道: 推理托管
-- 官网: https://docs.cline.bot/getting-started/clinepass
-- 定价页: https://docs.cline.bot/getting-started/clinepass
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://docs.cline.bot/getting-started/clinepass
+- Pricing page: https://docs.cline.bot/getting-started/clinepass
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **11** 个模型。
+**11** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `cline-pass/deepseek-v4-flash` | reasoning | 1M | $0.14 | $0.28 | $0.0028 | — | —/— | — |
 | `cline-pass/deepseek-v4-pro` | reasoning | 1M | $1.74 | $3.48 | $0.0145 | — | —/— | — |

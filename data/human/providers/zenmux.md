@@ -1,16 +1,16 @@
 # ZenMux
 
 - provider_id: `zenmux`
-- 渠道: 推理托管
-- 官网: https://docs.zenmux.ai
-- 定价页: https://docs.zenmux.ai
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://docs.zenmux.ai
+- Pricing page: https://docs.zenmux.ai
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **120** 个模型。
+**120** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `anthropic/claude-3.5-haiku` | chat | 200K | $0.8 | $4 | $0.08 | — | —/— | — |
 | `anthropic/claude-3.7-sonnet` | reasoning | 200K | $3 | $15 | $0.3 | — | —/— | — |

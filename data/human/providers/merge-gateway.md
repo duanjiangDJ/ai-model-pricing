@@ -1,16 +1,16 @@
 # Merge Gateway
 
 - provider_id: `merge-gateway`
-- 渠道: 聚合站
-- 官网: https://docs.merge.dev/merge-gateway
-- 定价页: https://docs.merge.dev/merge-gateway
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Aggregator
+- Homepage: https://docs.merge.dev/merge-gateway
+- Pricing page: https://docs.merge.dev/merge-gateway
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **174** 个模型。
+**174** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `anthropic/claude-3-7-sonnet-20250219` | reasoning | 200K | $3 | $15 | $0.3 | — | —/— | — |
 | `anthropic/claude-fable-5` | reasoning | 1M | $10 | $50 | $1 | — | —/— | — |

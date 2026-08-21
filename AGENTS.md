@@ -1,0 +1,104 @@
+# AGENTS.md — Guide for AI Agents Working in This Repository
+
+This file tells AI agents (and humans) everything needed to read, validate, and update
+this repository correctly. Read it fully before making changes.
+
+## What This Repository Is
+
+`ai-model-pricing` is an open database of **AI model pricing** covering every obtainable
+channel: first-party vendor APIs (per-MTok, cache, batch), image/audio pricing, credit
+systems, GPU-hour pricing, consumer subscriptions, and coding-tool plans.
+
+- Machine-readable data: `data/machine/` (versioned JSON + JSON Schema)
+- Human-readable pages: `data/human/` (Markdown, **generated** — never edit by hand)
+- Auto-updated daily by GitHub Actions: `.github/workflows/daily-check.yml`
+
+## Repository Layout
+
+```
+data/machine/
+  schema.json            # THE authoritative JSON Schema (v1.0.0)
+  index.json             # Entry point: providers/resellers lists, counts, timestamps
+  providers/*.json       # One file per provider (provider_id.json)
+  plans.json             # Subscription & coding-tool plans
+data/meta/
+  manifest.json          # Sync health: sources, last_ok/last_error
+  changelog.json         # Every change (add/update/remove/verify), newest first
+data/human/              # GENERATED. en: *.md, zh-CN: zh-CN/*.md
+docs/                    # providers.md (landscape), price-types.md, research-contract.md
+scripts/                 # sync/validate/build/merge (stdlib + jsonschema)
+reports/                 # daily check artifacts (e.g. stale-plans.md)
+```
+
+## Reading Data (for agents building tools)
+
+1. Fetch `data/machine/index.json` first. Check `schema_version` (major bump = breaking).
+2. Each `providers[]` / `resellers[]` entry has `file` (relative path), `model_count`, `updated_at`.
+3. Model shape: `{id, name, category, modalities, context_window, max_output, pricing, notes}`.
+4. `pricing` fields (all USD per 1M tokens unless `currency` says otherwise):
+   - `per_mtok.{input,output,cache_read,cache_write}`
+   - `batch.{input,output}` — 50% off batch APIs
+   - `per_image[]` — tiers for image models
+   - `per_audio_second`, `per_character`, `per_request`, `credits` (points systems),
+     `gpu[]` (per-second/hour SKUs), `neuron_second`, `finetune`, `provisioned`
+5. **`null` means "not offered / unknown" — never treat as zero.** `0` means free.
+6. Plans: `{id, provider_id, product, plan, category, billing, price_usd, limits, includes, url, verified_at}`.
+   Yearly plans store the **total yearly price** in `price_usd`.
+7. `channel` semantics: `first_party` | `cloud` | `hosted` | `aggregator` | `reseller` | `subscription`.
+   The same model may appear under several channels with different prices — that is correct.
+
+## Updating Data (rules you MUST follow)
+
+1. **Prices must come from official pricing pages / official APIs / official docs**, verified
+   via at least one secondary source where possible. Record `source` URLs and `verified_at`.
+2. Edit `data/machine/providers/<id>.json` or `plans.json` directly; **never edit `data/human/`**
+   (run `python scripts/build_human.py` instead — it regenerates both en and zh-CN pages).
+3. After any data change, run `python scripts/validate.py` (needs `pip install jsonschema`).
+   It checks schema conformance, index count consistency, and duplicate model ids.
+4. When prices change: update the value(s) AND `verified_at`/`updated_at`, then append a
+   `changelog.json` entry (`kind: update|add|remove`, `scope: model|plan|provider`, `old`/`new`).
+5. Deprecated/retired models stay in the file with `pricing` all `null` and a `notes`
+   explaining retirement + replacement model. Never silently delete them.
+6. Non-USD providers (CNY etc.): set `currency`/`price_currency` on the provider and explain
+   the conversion in `currency_usd_note`.
+7. Research-subagent output can be merged automatically:
+   `python scripts/merge_research.py <research.json>` (format contract: `docs/research-contract.md`).
+
+## Automation (daily check)
+
+`.github/workflows/daily-check.yml` (cron 01:23 UTC) runs `scripts/daily_check.py`:
+1. Fetches OpenRouter catalog → diffs `providers/openrouter.json` → updates changed prices + changelog.
+2. Fetches models.dev catalog → updates `per_mtok.input/output/cache_read` where they differ
+   (never touches hand-maintained fields like `batch` or `cache_write`).
+3. Refreshes `index.json` counts; rebuilds human pages; updates `manifest.json`.
+4. Flags plans whose `verified_at` is older than 30 days → `reports/stale-plans.md` →
+   syncs the "每日价格核实提醒" GitHub issue.
+5. Commits changes with bot identity (`[skip ci]`), or exits cleanly if nothing changed.
+
+**Truthfulness guarantees** (and their limits):
+- Auto-sync sources (OpenRouter, models.dev) refresh daily; they are republished prices from
+  those platforms, which are themselves aggregations — treat as "as-of" data.
+- Human-verified entries carry `verified_at` + `source` URLs; stale ones surface in the
+  stale-plans issue so a human can re-verify.
+- The repository cannot invent or guess prices: unknown values are `null` with `notes`,
+  never fabricated numbers.
+
+## Contribution Workflow
+
+1. Fork → edit machine data → `validate.py` → `build_human.py` → commit with a message
+   describing which provider/prices changed and the source.
+2. PRs must include the pricing-page URL used.
+3. For large additions (new vendor), follow `docs/research-contract.md` and merge via
+   `scripts/merge_research.py`.
+
+## Quick Commands
+
+```bash
+pip install jsonschema
+python scripts/sync_openrouter.py --write   # pull OpenRouter catalog (aggregator prices)
+python scripts/sync_modelsdev.py --write    # pull models.dev (official-ish list prices)
+python scripts/merge_research.py x.json     # merge subagent research output
+python scripts/daily_check.py               # full daily check (network)
+python scripts/build_human.py               # regenerate human pages (en + zh-CN)
+python scripts/validate.py                  # schema + consistency validation
+```

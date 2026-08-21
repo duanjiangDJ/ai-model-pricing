@@ -1,16 +1,16 @@
 # Kilo Gateway
 
 - provider_id: `kilo`
-- 渠道: 聚合站
-- 官网: https://kilo.ai
-- 定价页: https://kilo.ai
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Aggregator
+- Homepage: https://kilo.ai
+- Pricing page: https://kilo.ai
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **362** 个模型。
+**362** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `aion-labs/aion-2.0` | reasoning | 131.072K | $0.8 | $1.6 | $0.2 | — | —/— | — |
 | `aion-labs/aion-3.0` | reasoning | 131.072K | $3 | $6 | $0.75 | — | —/— | — |

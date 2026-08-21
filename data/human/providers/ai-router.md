@@ -1,16 +1,16 @@
 # AI-ROUTER
 
 - provider_id: `ai-router`
-- 渠道: 聚合站
-- 官网: https://ai-router.dev/openai-compatible-api-gateway/
-- 定价页: https://ai-router.dev/openai-compatible-api-gateway/
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:27:12Z
-- 核实时间: 2026-08-21T11:27:12Z
+- Channel: Aggregator
+- Homepage: https://ai-router.dev/openai-compatible-api-gateway/
+- Pricing page: https://ai-router.dev/openai-compatible-api-gateway/
+- Currency: USD
+- Data updated: 2026-08-21T11:27:12Z
+- Verified: 2026-08-21T11:27:12Z
 
-共 **5** 个模型。
+**5** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `gpt-5.4` | reasoning | 1.05M | $2.5 | $15 | $0.25 | — | —/— | — |
 | `gpt-5.5` | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — |

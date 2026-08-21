@@ -1,16 +1,16 @@
 # RunInfra
 
 - provider_id: `runinfra`
-- 渠道: 推理托管
-- 官网: https://runinfra.ai/docs
-- 定价页: https://runinfra.ai/docs
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://runinfra.ai/docs
+- Pricing page: https://runinfra.ai/docs
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **5** 个模型。
+**5** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `Inferact/Qwen3.8-2.4T-A95B-NVFP4` | reasoning | 262.144K | $2 | $6 | $0.2 | — | —/— | — |
 | `Qwen/Qwen3.8-27B` | reasoning | 262.144K | $0.1 | $0.4 | $0.01 | — | —/— | — |

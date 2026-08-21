@@ -1,16 +1,16 @@
 # Ambient
 
 - provider_id: `ambient`
-- 渠道: 推理托管
-- 官网: https://ambient.xyz
-- 定价页: https://ambient.xyz
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://ambient.xyz
+- Pricing page: https://ambient.xyz
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **10** 个模型。
+**10** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `ambient/large` | reasoning | 202.752K | $0.6 | $2 | $0.15 | — | —/— | — |
 | `deepseek/deepseek-v4-flash` | reasoning | 1.04858M | $0.14 | $0.28 | $0.028 | — | —/— | — |

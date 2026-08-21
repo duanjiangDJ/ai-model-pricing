@@ -1,16 +1,16 @@
 # Helicone
 
 - provider_id: `helicone`
-- 渠道: 推理托管
-- 官网: https://helicone.ai/models
-- 定价页: https://helicone.ai/models
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://helicone.ai/models
+- Pricing page: https://helicone.ai/models
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **90** 个模型。
+**90** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `chatgpt-4o-latest` | chat | 128K | $5 | $20 | $2.5 | — | —/— | — |
 | `claude-3-haiku-20240307` | chat | 200K | $0.25 | $1.25 | $0.03 | — | —/— | — |

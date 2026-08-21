@@ -1,16 +1,16 @@
 # Jalapeno Cloud
 
 - provider_id: `jalapeno`
-- 渠道: 推理托管
-- 官网: https://www.jalapeno-cloud.ai/docs/
-- 定价页: https://www.jalapeno-cloud.ai/docs/
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:01Z
-- 核实时间: 2026-08-21T11:28:01Z
+- Channel: Inference host
+- Homepage: https://www.jalapeno-cloud.ai/docs/
+- Pricing page: https://www.jalapeno-cloud.ai/docs/
+- Currency: USD
+- Data updated: 2026-08-21T11:28:01Z
+- Verified: 2026-08-21T11:28:01Z
 
-共 **17** 个模型。
+**17** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `DeepSeek-V4-Flash` | reasoning | 1.04858M | $0.14 | $0.28 | — | — | —/— | — |
 | `DeepSeek-V4-Pro` | reasoning | 1.04858M | $1.6 | $3.38 | — | — | —/— | — |

@@ -1,16 +1,16 @@
 # Google
 
 - provider_id: `google`
-- 渠道: 官方直供
-- 官网: https://ai.google.dev/gemini-api/docs/models
-- 定价页: https://ai.google.dev/gemini-api/docs/pricing
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:31:59Z
-- 核实时间: 2026-08-21T00:00:00Z
+- Channel: First-party
+- Homepage: https://ai.google.dev/gemini-api/docs/models
+- Pricing page: https://ai.google.dev/gemini-api/docs/pricing
+- Currency: USD
+- Data updated: 2026-08-21T11:31:59Z
+- Verified: 2026-08-21T00:00:00Z
 
-共 **40** 个模型。
+**40** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `deep-research-max-preview-04-2026` | reasoning | 131.072K | $2 | $12 | $0.2 | — | —/— | — |
 | `deep-research-preview-04-2026` | reasoning | 131.072K | $2 | $12 | $0.2 | — | —/— | — |

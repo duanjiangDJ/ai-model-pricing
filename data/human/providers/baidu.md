@@ -1,16 +1,16 @@
 # 百度智能云千帆 (Baidu Qianfan)
 
 - provider_id: `baidu`
-- 渠道: 官方直供
-- 官网: https://qianfan.cloud.baidu.com
-- 定价页: https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:38:22Z
-- 核实时间: 2026-08-21T00:00:00Z
+- Channel: First-party
+- Homepage: https://qianfan.cloud.baidu.com
+- Pricing page: https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya
+- Currency: USD
+- Data updated: 2026-08-21T11:38:22Z
+- Verified: 2026-08-21T00:00:00Z
 
-共 **3** 个模型。
+**3** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `ernie-5.1` | chat | 128K | $4 | $18 | — | — | —/— | — |
 | `ernie-5.0` | reasoning | 128K | $6 | $24 | — | — | —/— | — |

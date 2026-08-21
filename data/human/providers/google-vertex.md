@@ -1,16 +1,16 @@
 # Vertex
 
 - provider_id: `google-vertex`
-- 渠道: 推理托管
-- 官网: https://cloud.google.com/vertex-ai/generative-ai/docs/models
-- 定价页: https://cloud.google.com/vertex-ai/generative-ai/docs/models
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:01Z
-- 核实时间: 2026-08-21T11:28:01Z
+- Channel: Inference host
+- Homepage: https://cloud.google.com/vertex-ai/generative-ai/docs/models
+- Pricing page: https://cloud.google.com/vertex-ai/generative-ai/docs/models
+- Currency: USD
+- Data updated: 2026-08-21T11:28:01Z
+- Verified: 2026-08-21T11:28:01Z
 
-共 **42** 个模型。
+**42** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `claude-haiku-4-5@20251001` | reasoning | 200K | $1 | $5 | $0.1 | — | —/— | — |
 | `claude-opus-4-1@20250805` | reasoning | 200K | $15 | $75 | $1.5 | — | —/— | — |

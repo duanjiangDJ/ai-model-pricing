@@ -1,16 +1,16 @@
 # Upstage
 
 - provider_id: `upstage`
-- 渠道: 推理托管
-- 官网: https://developers.upstage.ai/docs/apis/chat
-- 定价页: https://developers.upstage.ai/docs/apis/chat
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://developers.upstage.ai/docs/apis/chat
+- Pricing page: https://developers.upstage.ai/docs/apis/chat
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **4** 个模型。
+**4** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `solar-mini` | chat | 32.768K | $0.15 | $0.15 | — | — | —/— | — |
 | `solar-pro2` | reasoning | 65.536K | $0.25 | $0.25 | — | — | —/— | — |

@@ -1,16 +1,16 @@
 # SCNet Token Plan
 
 - provider_id: `scnet-token-plan`
-- 渠道: 推理托管
-- 官网: https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html
-- 定价页: https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html
+- Pricing page: https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **16** 个模型。
+**16** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `DeepSeek-V3.2` | reasoning | 128K | $0 | $0 | $0 | — | —/— | — |
 | `DeepSeek-V4-Flash` | reasoning | 1M | $0 | $0 | $0 | — | —/— | — |

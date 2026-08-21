@@ -1,16 +1,16 @@
 # Neuralwatt
 
 - provider_id: `neuralwatt`
-- 渠道: 推理托管
-- 官网: https://portal.neuralwatt.com/docs
-- 定价页: https://portal.neuralwatt.com/docs
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:27:12Z
-- 核实时间: 2026-08-21T11:27:12Z
+- Channel: Inference host
+- Homepage: https://portal.neuralwatt.com/docs
+- Pricing page: https://portal.neuralwatt.com/docs
+- Currency: USD
+- Data updated: 2026-08-21T11:27:12Z
+- Verified: 2026-08-21T11:27:12Z
 
-共 **22** 个模型。
+**22** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `Qwen/Qwen3.5-397B-A17B-FP8` | reasoning | 262.128K | $0.69 | $4.14 | $0.1725 | — | —/— | — |
 | `Qwen/Qwen3.6-35B-A3B` | reasoning | 131.056K | $0.29 | $1.15 | $0.0725 | — | —/— | — |

@@ -1,16 +1,16 @@
 # Abacus
 
 - provider_id: `abacus`
-- 渠道: 推理托管
-- 官网: https://abacus.ai/help/api
-- 定价页: https://abacus.ai/help/api
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://abacus.ai/help/api
+- Pricing page: https://abacus.ai/help/api
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **108** 个模型。
+**108** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `MiniMaxAI/MiniMax-M2.7` | reasoning | 204.8K | $0.3 | $1.2 | — | — | —/— | — |
 | `MiniMaxAI/MiniMax-M3` | reasoning | 1M | $0.3 | $1.2 | — | — | —/— | — |

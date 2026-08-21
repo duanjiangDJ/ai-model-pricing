@@ -1,16 +1,16 @@
 # Xpersona
 
 - provider_id: `xpersona`
-- 渠道: 推理托管
-- 官网: https://www.xpersona.co/docs
-- 定价页: https://www.xpersona.co/docs
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:01Z
-- 核实时间: 2026-08-21T11:28:01Z
+- Channel: Inference host
+- Homepage: https://www.xpersona.co/docs
+- Pricing page: https://www.xpersona.co/docs
+- Currency: USD
+- Data updated: 2026-08-21T11:28:01Z
+- Verified: 2026-08-21T11:28:01Z
 
-共 **13** 个模型。
+**13** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `claude-fable-5` | reasoning | 1M | $3 | $18.5 | $0.3 | — | —/— | — |
 | `claude-haiku-4-5` | reasoning | 200K | $0.6 | $3.7 | $0.06 | — | —/— | — |

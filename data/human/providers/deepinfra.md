@@ -1,16 +1,16 @@
 # Deep Infra
 
 - provider_id: `deepinfra`
-- 渠道: 推理托管
-- 官网: https://deepinfra.com/models
-- 定价页: https://deepinfra.com/models
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:01Z
-- 核实时间: 2026-08-21T11:28:01Z
+- Channel: Inference host
+- Homepage: https://deepinfra.com/models
+- Pricing page: https://deepinfra.com/models
+- Currency: USD
+- Data updated: 2026-08-21T11:28:01Z
+- Verified: 2026-08-21T11:28:01Z
 
-共 **60** 个模型。
+**60** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `ByteDance/Seed-2.0-code` | reasoning | 256K | $0.5 | $3 | $0.1 | — | —/— | — |
 | `ByteDance/Seed-2.0-mini` | reasoning | 256K | $0.1 | $0.4 | $0.02 | — | —/— | — |

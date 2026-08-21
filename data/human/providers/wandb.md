@@ -1,16 +1,16 @@
 # Weights & Biases
 
 - provider_id: `wandb`
-- 渠道: 推理托管
-- 官网: https://docs.wandb.ai/guides/integrations/inference/
-- 定价页: https://docs.wandb.ai/guides/integrations/inference/
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://docs.wandb.ai/guides/integrations/inference/
+- Pricing page: https://docs.wandb.ai/guides/integrations/inference/
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **29** 个模型。
+**29** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `JetBrains/Mellum2-12B-A2.5B-Instruct` | chat | 131.072K | $0.05 | $0.1 | $0.05 | — | —/— | — |
 | `MiniMaxAI/MiniMax-M2.5` | reasoning | 196.608K | $0.3 | $1.2 | $0.3 | — | —/— | — |

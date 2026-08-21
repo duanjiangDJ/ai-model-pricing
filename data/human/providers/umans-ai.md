@@ -1,16 +1,16 @@
 # Umans AI
 
 - provider_id: `umans-ai`
-- 渠道: 推理托管
-- 官网: https://app.umans.ai/offers/code/docs/orgs
-- 定价页: https://app.umans.ai/offers/code/docs/orgs
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://app.umans.ai/offers/code/docs/orgs
+- Pricing page: https://app.umans.ai/offers/code/docs/orgs
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **7** 个模型。
+**7** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `umans-coder` | reasoning | 262.144K | $0.95 | $4 | $0.19 | — | —/— | — |
 | `umans-deepseek-v4-flash-0731` | reasoning | 1.04858M | $0.14 | $0.28 | $0.028 | — | —/— | — |

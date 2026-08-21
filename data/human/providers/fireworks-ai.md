@@ -1,16 +1,16 @@
 # Fireworks AI
 
 - provider_id: `fireworks-ai`
-- 渠道: 推理托管
-- 官网: https://fireworks.ai/docs/
-- 定价页: https://fireworks.ai/docs/
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://fireworks.ai/docs/
+- Pricing page: https://fireworks.ai/docs/
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **23** 个模型。
+**23** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `accounts/fireworks/models/deepseek-v4-flash` | reasoning | 1M | $0.14 | $0.28 | $0.028 | — | —/— | — |
 | `accounts/fireworks/models/deepseek-v4-flash-0731` | reasoning | 1M | $0.14 | $0.28 | $0.028 | — | —/— | — |

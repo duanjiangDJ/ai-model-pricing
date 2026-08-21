@@ -1,16 +1,16 @@
 # Vivgrid
 
 - provider_id: `vivgrid`
-- 渠道: 推理托管
-- 官网: https://docs.vivgrid.com/models
-- 定价页: https://docs.vivgrid.com/models
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://docs.vivgrid.com/models
+- Pricing page: https://docs.vivgrid.com/models
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **20** 个模型。
+**20** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `deepseek-v3.2` | reasoning | 128K | $0.28 | $0.42 | — | — | —/— | — |
 | `deepseek-v4-flash` | reasoning | 1M | $0.15 | $0.3 | $0.03 | — | —/— | — |

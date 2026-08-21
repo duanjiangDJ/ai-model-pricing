@@ -1,16 +1,16 @@
 # CoralBricks
 
 - provider_id: `coralbricks`
-- 渠道: 推理托管
-- 官网: https://www.coralbricks.ai/docs
-- 定价页: https://www.coralbricks.ai/docs
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://www.coralbricks.ai/docs
+- Pricing page: https://www.coralbricks.ai/docs
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **3** 个模型。
+**3** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `glm-5.2-fp4` | reasoning | 1.04858M | $1.12 | $4.4 | $0 | — | —/— | — |
 | `gpt-oss-120b` | reasoning | 131.072K | $0.12 | $0.6 | $0 | — | —/— | — |

@@ -1,16 +1,16 @@
 # Alibaba Token Plan (China)
 
 - provider_id: `alibaba-token-plan-cn`
-- 渠道: 推理托管
-- 官网: https://www.alibabacloud.com/help/zh/model-studio/token-plan-overview
-- 定价页: https://www.alibabacloud.com/help/zh/model-studio/token-plan-overview
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://www.alibabacloud.com/help/zh/model-studio/token-plan-overview
+- Pricing page: https://www.alibabacloud.com/help/zh/model-studio/token-plan-overview
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **25** 个模型。
+**25** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `MiniMax-M2.5` | reasoning | 196.608K | $0 | $0 | $0 | — | —/— | — |
 | `deepseek-v3.2` | reasoning | 131.072K | $0 | $0 | — | — | —/— | — |

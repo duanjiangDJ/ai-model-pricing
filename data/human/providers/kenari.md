@@ -1,16 +1,16 @@
 # Kenari
 
 - provider_id: `kenari`
-- 渠道: 推理托管
-- 官网: https://kenari.id/docs
-- 定价页: https://kenari.id/docs
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://kenari.id/docs
+- Pricing page: https://kenari.id/docs
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **38** 个模型。
+**38** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `claude-fable-5` | reasoning | 1M | $0 | $0 | — | — | —/— | — |
 | `claude-opus-4-7` | reasoning | 1M | $0 | $0 | — | — | —/— | — |

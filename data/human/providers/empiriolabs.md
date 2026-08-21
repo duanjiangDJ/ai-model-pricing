@@ -1,16 +1,16 @@
 # EmpirioLabs AI
 
 - provider_id: `empiriolabs`
-- 渠道: 推理托管
-- 官网: https://docs.empiriolabs.ai
-- 定价页: https://docs.empiriolabs.ai
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://docs.empiriolabs.ai
+- Pricing page: https://docs.empiriolabs.ai
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **55** 个模型。
+**55** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `deepseek-v3-2` | reasoning | 128K | $0.57 | $1.71 | $0.57 | — | —/— | — |
 | `deepseek-v4-flash` | reasoning | 1M | $0.14 | $0.28 | $0.14 | — | —/— | — |

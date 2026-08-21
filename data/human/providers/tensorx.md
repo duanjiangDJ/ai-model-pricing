@@ -1,16 +1,16 @@
 # TensorX
 
 - provider_id: `tensorx`
-- 渠道: 推理托管
-- 官网: https://docs.tensorx.ai/
-- 定价页: https://docs.tensorx.ai/
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://docs.tensorx.ai/
+- Pricing page: https://docs.tensorx.ai/
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **25** 个模型。
+**25** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `deepseek/deepseek-chat-v3.1` | reasoning | 164K | $0.2 | $0.8 | $0.05 | — | —/— | — |
 | `deepseek/deepseek-r1-0528` | reasoning | 164K | $0.66 | $2.6 | $0.165 | — | —/— | — |

@@ -1,16 +1,16 @@
 # Databricks
 
 - provider_id: `databricks`
-- 渠道: 推理托管
-- 官网: https://docs.databricks.com/aws/en/machine-learning/foundation-models/
-- 定价页: https://docs.databricks.com/aws/en/machine-learning/foundation-models/
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://docs.databricks.com/aws/en/machine-learning/foundation-models/
+- Pricing page: https://docs.databricks.com/aws/en/machine-learning/foundation-models/
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **30** 个模型。
+**30** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `databricks-claude-haiku-4-5` | reasoning | 200K | $1 | $5 | $0.1 | — | —/— | — |
 | `databricks-claude-opus-4-1` | reasoning | 200K | $15 | $75 | $1.5 | — | —/— | — |

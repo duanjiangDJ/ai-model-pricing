@@ -1,16 +1,16 @@
 # OpenAI
 
 - provider_id: `openai`
-- 渠道: 官方直供
-- 官网: https://platform.openai.com/docs/models
-- 定价页: https://openai.com/chatgpt/pricing/
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:34:52Z
-- 核实时间: 2026-08-21T00:00:00Z
+- Channel: First-party
+- Homepage: https://platform.openai.com/docs/models
+- Pricing page: https://openai.com/chatgpt/pricing/
+- Currency: USD
+- Data updated: 2026-08-21T11:34:52Z
+- Verified: 2026-08-21T00:00:00Z
 
-共 **47** 个模型。
+**47** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `chatgpt-image-latest` | chat | — | — | — | — | — | —/— | — |
 | `gpt-3.5-turbo` | chat | 16.385K | $0.5 | $1.5 | $0 | — | —/— | — |

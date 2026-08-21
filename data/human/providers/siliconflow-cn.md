@@ -1,16 +1,16 @@
 # SiliconFlow (China)
 
 - provider_id: `siliconflow-cn`
-- 渠道: 推理托管
-- 官网: https://cloud.siliconflow.com/models
-- 定价页: https://cloud.siliconflow.com/models
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://cloud.siliconflow.com/models
+- Pricing page: https://cloud.siliconflow.com/models
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **47** 个模型。
+**47** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `ByteDance-Seed/Seed-OSS-36B-Instruct` | chat | 262K | $0.21 | $0.57 | — | — | —/— | — |
 | `PaddlePaddle/PaddleOCR-VL-1.5` | chat | 16.384K | $0 | $0 | — | — | —/— | — |

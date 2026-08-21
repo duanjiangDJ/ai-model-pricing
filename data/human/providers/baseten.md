@@ -1,16 +1,16 @@
 # Baseten
 
 - provider_id: `baseten`
-- 渠道: 推理托管
-- 官网: https://docs.baseten.co/inference/model-apis/overview
-- 定价页: https://docs.baseten.co/inference/model-apis/overview
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://docs.baseten.co/inference/model-apis/overview
+- Pricing page: https://docs.baseten.co/inference/model-apis/overview
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **19** 个模型。
+**19** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `MiniMaxAI/MiniMax-M2.5` | reasoning | 204K | $0.3 | $1.2 | — | — | —/— | — |
 | `deepseek-ai/DeepSeek-V3.1` | reasoning | 164K | $0.5 | $1.5 | — | — | —/— | — |

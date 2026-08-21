@@ -1,16 +1,16 @@
 # watsonx.ai
 
 - provider_id: `watsonx`
-- 渠道: 推理托管
-- 官网: https://www.ibm.com/docs/en/watsonx/saas?topic=solutions-supported-foundation-models
-- 定价页: https://www.ibm.com/docs/en/watsonx/saas?topic=solutions-supported-foundation-models
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://www.ibm.com/docs/en/watsonx/saas?topic=solutions-supported-foundation-models
+- Pricing page: https://www.ibm.com/docs/en/watsonx/saas?topic=solutions-supported-foundation-models
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **5** 个模型。
+**5** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `ibm/granite-4-h-small` | chat | 131.072K | $0.0636 | $0.265 | — | — | —/— | — |
 | `meta-llama/llama-3-3-70b-instruct` | chat | 131.072K | $0.7526 | $0.7526 | — | — | —/— | — |

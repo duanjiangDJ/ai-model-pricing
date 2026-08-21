@@ -1,16 +1,16 @@
 # Groq
 
 - provider_id: `groq`
-- 渠道: 推理托管
-- 官网: https://console.groq.com/docs/models
-- 定价页: https://console.groq.com/docs/models
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://console.groq.com/docs/models
+- Pricing page: https://console.groq.com/docs/models
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **15** 个模型。
+**15** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `allam-2-7b` | chat | 4.096K | $0 | $0 | — | — | —/— | — |
 | `canopylabs/orpheus-arabic-saudi` | chat | 4K | — | — | — | — | —/— | — |

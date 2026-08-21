@@ -1,16 +1,16 @@
 # OpenRouter
 
 - provider_id: `openrouter`
-- 渠道: 聚合站
-- 官网: https://openrouter.ai
-- 定价页: https://openrouter.ai/models
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Aggregator
+- Homepage: https://openrouter.ai
+- Pricing page: https://openrouter.ai/models
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **419** 个模型。
+**419** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `aion-labs/aion-2.0` | reasoning | 131.072K | $0.8 | $1.6 | $0.2 | — | —/— | — |
 | `aion-labs/aion-3.0` | reasoning | 131.072K | $3 | $6 | $0.75 | — | —/— | — |
@@ -82,36 +82,36 @@
 | `deepseek/deepseek-v4-pro` | reasoning | 1.04858M | $1.6 | $3.2 | $0.135 | — | —/— | — |
 | `deepseek/deepseek-v4-pro-0813` | reasoning | 1.04858M | $1.188 | $3.564 | $0.0396 | — | —/— | — |
 | `dots-studio/dots-3-note-preview:free` | reasoning | 512K | $0 | $0 | — | — | —/— | — |
-| `google/gemini-2.5-flash` | reasoning | 1.04858M | $0.3 | $2.5 | $0.03 | $8.33333e-08 | —/— | 按张计费 |
-| `google/gemini-2.5-flash-image` | chat | 32.768K | $0.3 | $2.5 | $0.03 | $8.33333e-08 | —/— | 按张计费 |
-| `google/gemini-2.5-flash-lite` | reasoning | 1.04858M | $0.1 | $0.4 | $0.01 | $8.33333e-08 | —/— | 按张计费 |
-| `google/gemini-2.5-flash-lite:batch` | reasoning | 1.04858M | $5e-08 | $2e-07 | $1e-08 | — | —/— | 按张计费 |
-| `google/gemini-2.5-flash:batch` | reasoning | 1.04858M | $1.5e-07 | $1.25e-06 | $3e-08 | — | —/— | 按张计费 |
-| `google/gemini-2.5-pro` | reasoning | 1.04858M | $1.25 | $10 | $0.125 | $3.75e-07 | —/— | 按张计费 |
-| `google/gemini-2.5-pro-preview` | reasoning | 1.04858M | $1.25 | $10 | $0.125 | $3.75e-07 | —/— | 按张计费 |
-| `google/gemini-2.5-pro-preview-05-06` | reasoning | 1.04858M | $1.25 | $10 | $0.125 | $3.75e-07 | —/— | 按张计费 |
-| `google/gemini-2.5-pro:batch` | reasoning | 1.04858M | $6.25e-07 | $5e-06 | $1.25e-07 | — | —/— | 按张计费 |
-| `google/gemini-3-flash-preview` | reasoning | 1.04858M | $0.5 | $3 | $0.05 | $8.33333e-08 | —/— | 按张计费 |
-| `google/gemini-3-flash-preview:batch` | reasoning | 1.04858M | $2.5e-07 | $1.5e-06 | — | — | —/— | 按张计费 |
-| `google/gemini-3-pro-image` | reasoning | 131.072K | $2 | $12 | $0.2 | $3.75e-07 | —/— | 按张计费 |
-| `google/gemini-3-pro-image-preview` | reasoning | 65.536K | $2 | $12 | $0.2 | $3.75e-07 | —/— | 按张计费 |
+| `google/gemini-2.5-flash` | reasoning | 1.04858M | $0.3 | $2.5 | $0.03 | $8.33333e-08 | —/— | per-image |
+| `google/gemini-2.5-flash-image` | chat | 32.768K | $0.3 | $2.5 | $0.03 | $8.33333e-08 | —/— | per-image |
+| `google/gemini-2.5-flash-lite` | reasoning | 1.04858M | $0.1 | $0.4 | $0.01 | $8.33333e-08 | —/— | per-image |
+| `google/gemini-2.5-flash-lite:batch` | reasoning | 1.04858M | $5e-08 | $2e-07 | $1e-08 | — | —/— | per-image |
+| `google/gemini-2.5-flash:batch` | reasoning | 1.04858M | $1.5e-07 | $1.25e-06 | $3e-08 | — | —/— | per-image |
+| `google/gemini-2.5-pro` | reasoning | 1.04858M | $1.25 | $10 | $0.125 | $3.75e-07 | —/— | per-image |
+| `google/gemini-2.5-pro-preview` | reasoning | 1.04858M | $1.25 | $10 | $0.125 | $3.75e-07 | —/— | per-image |
+| `google/gemini-2.5-pro-preview-05-06` | reasoning | 1.04858M | $1.25 | $10 | $0.125 | $3.75e-07 | —/— | per-image |
+| `google/gemini-2.5-pro:batch` | reasoning | 1.04858M | $6.25e-07 | $5e-06 | $1.25e-07 | — | —/— | per-image |
+| `google/gemini-3-flash-preview` | reasoning | 1.04858M | $0.5 | $3 | $0.05 | $8.33333e-08 | —/— | per-image |
+| `google/gemini-3-flash-preview:batch` | reasoning | 1.04858M | $2.5e-07 | $1.5e-06 | — | — | —/— | per-image |
+| `google/gemini-3-pro-image` | reasoning | 131.072K | $2 | $12 | $0.2 | $3.75e-07 | —/— | per-image |
+| `google/gemini-3-pro-image-preview` | reasoning | 65.536K | $2 | $12 | $0.2 | $3.75e-07 | —/— | per-image |
 | `google/gemini-3.1-flash-image` | reasoning | 131.072K | $0.5 | $3 | — | — | —/— | — |
 | `google/gemini-3.1-flash-image-preview` | reasoning | 65.536K | $0.5 | $3 | — | — | —/— | — |
-| `google/gemini-3.1-flash-lite` | reasoning | 1.04858M | $0.25 | $1.5 | $0.025 | $8.33333e-08 | —/— | 按张计费 |
+| `google/gemini-3.1-flash-lite` | reasoning | 1.04858M | $0.25 | $1.5 | $0.025 | $8.33333e-08 | —/— | per-image |
 | `google/gemini-3.1-flash-lite-image` | reasoning | 65.536K | $0.25 | $1.5 | — | — | —/— | — |
-| `google/gemini-3.1-flash-lite-preview` | reasoning | 1.04858M | $0.25 | $1.5 | $0.025 | $8.33333e-08 | —/— | 按张计费 |
-| `google/gemini-3.1-flash-lite:batch` | reasoning | 1.04858M | $1.25e-07 | $7.5e-07 | $1.25e-08 | — | —/— | 按张计费 |
-| `google/gemini-3.1-pro-preview` | reasoning | 1.04858M | $2 | $12 | $0.2 | $3.75e-07 | —/— | 按张计费 |
-| `google/gemini-3.1-pro-preview-customtools` | reasoning | 1.04858M | $2 | $12 | $0.2 | $3.75e-07 | —/— | 按张计费 |
-| `google/gemini-3.1-pro-preview:batch` | reasoning | 1.04858M | $1e-06 | $6e-06 | — | — | —/— | 按张计费 |
-| `google/gemini-3.5-flash` | reasoning | 1.04858M | $1.5 | $9 | $0.15 | $8.33333e-08 | —/— | 按张计费 |
-| `google/gemini-3.5-flash-lite` | reasoning | 1.04858M | $0.3 | $2.5 | $0.03 | $8.33333e-08 | —/— | 按张计费 |
-| `google/gemini-3.5-flash-lite:batch` | reasoning | 1.04858M | $1.5e-07 | $1.25e-06 | $1.5e-08 | — | —/— | 按张计费 |
-| `google/gemini-3.5-flash:batch` | reasoning | 1.04858M | $7.5e-07 | $4.5e-06 | $7.5e-08 | — | —/— | 按张计费 |
-| `google/gemini-3.6-flash` | reasoning | 1.04858M | $0.75 | $3.75 | $0.075 | $4.16667e-08 | —/— | 按张计费 |
-| `google/gemini-3.6-flash:batch` | reasoning | 1.04858M | $3.75e-07 | $1.875e-06 | $3.75e-08 | $4.16667e-08 | —/— | 按张计费 |
-| `google/gemini-3.7-flash` | reasoning | 1.04858M | $0.375 | $1.875 | $0.0375 | $2.08333e-08 | —/— | 按张计费 |
-| `google/gemini-3.7-flash:batch` | reasoning | 1.04858M | $1.875e-07 | $9.375e-07 | $1.875e-08 | $2.08333e-08 | —/— | 按张计费 |
+| `google/gemini-3.1-flash-lite-preview` | reasoning | 1.04858M | $0.25 | $1.5 | $0.025 | $8.33333e-08 | —/— | per-image |
+| `google/gemini-3.1-flash-lite:batch` | reasoning | 1.04858M | $1.25e-07 | $7.5e-07 | $1.25e-08 | — | —/— | per-image |
+| `google/gemini-3.1-pro-preview` | reasoning | 1.04858M | $2 | $12 | $0.2 | $3.75e-07 | —/— | per-image |
+| `google/gemini-3.1-pro-preview-customtools` | reasoning | 1.04858M | $2 | $12 | $0.2 | $3.75e-07 | —/— | per-image |
+| `google/gemini-3.1-pro-preview:batch` | reasoning | 1.04858M | $1e-06 | $6e-06 | — | — | —/— | per-image |
+| `google/gemini-3.5-flash` | reasoning | 1.04858M | $1.5 | $9 | $0.15 | $8.33333e-08 | —/— | per-image |
+| `google/gemini-3.5-flash-lite` | reasoning | 1.04858M | $0.3 | $2.5 | $0.03 | $8.33333e-08 | —/— | per-image |
+| `google/gemini-3.5-flash-lite:batch` | reasoning | 1.04858M | $1.5e-07 | $1.25e-06 | $1.5e-08 | — | —/— | per-image |
+| `google/gemini-3.5-flash:batch` | reasoning | 1.04858M | $7.5e-07 | $4.5e-06 | $7.5e-08 | — | —/— | per-image |
+| `google/gemini-3.6-flash` | reasoning | 1.04858M | $0.75 | $3.75 | $0.075 | $4.16667e-08 | —/— | per-image |
+| `google/gemini-3.6-flash:batch` | reasoning | 1.04858M | $3.75e-07 | $1.875e-06 | $3.75e-08 | $4.16667e-08 | —/— | per-image |
+| `google/gemini-3.7-flash` | reasoning | 1.04858M | $0.375 | $1.875 | $0.0375 | $2.08333e-08 | —/— | per-image |
+| `google/gemini-3.7-flash:batch` | reasoning | 1.04858M | $1.875e-07 | $9.375e-07 | $1.875e-08 | $2.08333e-08 | —/— | per-image |
 | `google/gemma-2-27b-it` | chat | 8.192K | $0.65 | $0.65 | — | — | —/— | — |
 | `google/gemma-3-12b-it` | chat | 131.072K | $0.05 | $0.15 | — | — | —/— | — |
 | `google/gemma-3-27b-it` | chat | 262.144K | $0.08 | $0.45 | $0.04 | — | —/— | — |
@@ -424,33 +424,10 @@
 | `~anthropic/claude-opus-latest` | reasoning | 1M | $5 | $25 | $0.5 | $6.25e-06 | —/— | — |
 | `~anthropic/claude-sonnet-latest` | reasoning | 1M | $2 | $10 | $0.2 | $2.5e-06 | —/— | — |
 | `~deepseek/deepseek-v4-flash-latest` | reasoning | 1.31072M | $0.065 | $0.18 | $0.02 | — | —/— | — |
-| `~google/gemini-flash-latest` | reasoning | 1.04858M | $0.375 | $1.875 | $0.0375 | $2.08333e-08 | —/— | 按张计费 |
-| `~google/gemini-pro-latest` | reasoning | 1.04858M | $2 | $12 | $0.2 | $3.75e-07 | —/— | 按张计费 |
+| `~google/gemini-flash-latest` | reasoning | 1.04858M | $0.375 | $1.875 | $0.0375 | $2.08333e-08 | —/— | per-image |
+| `~google/gemini-pro-latest` | reasoning | 1.04858M | $2 | $12 | $0.2 | $3.75e-07 | —/— | per-image |
 | `~moonshotai/kimi-latest` | reasoning | 1.04858M | $2.6 | $13 | $0.29 | — | —/— | — |
 | `~openai/gpt-latest` | reasoning | 1.05M | $2.5 | $15 | $0.25 | $3.125e-06 | —/— | — |
 | `~openai/gpt-mini-latest` | reasoning | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — |
 | `~x-ai/grok-latest` | reasoning | 500K | $2 | $6 | $0.5 | — | —/— | — |
 | `~z-ai/glm-latest` | reasoning | 1.04858M | $1.4 | $4.4 | $0.26 | — | —/— | — |
-
-## 备注
-
-- aion-labs/aion-2.0: OpenRouter reseller price
-- aion-labs/aion-3.0: OpenRouter reseller price
-- aion-labs/aion-3.0-mini: OpenRouter reseller price
-- aion-labs/aion-rp-llama-3.1-8b: OpenRouter reseller price
-- allenai/olmo-3-32b-think: OpenRouter reseller price
-- amazon/nova-2-lite-v1: OpenRouter reseller price
-- amazon/nova-lite-v1: OpenRouter reseller price
-- amazon/nova-micro-v1: OpenRouter reseller price
-- amazon/nova-premier-v1: OpenRouter reseller price
-- amazon/nova-pro-v1: OpenRouter reseller price
-- anthracite-org/magnum-v4-72b: OpenRouter reseller price
-- anthropic/claude-3-haiku: OpenRouter reseller price
-- anthropic/claude-fable-5: OpenRouter reseller price
-- anthropic/claude-fable-5:batch: OpenRouter reseller price
-- anthropic/claude-haiku-4.5: OpenRouter reseller price
-- anthropic/claude-haiku-4.5:batch: OpenRouter reseller price
-- anthropic/claude-opus-4: OpenRouter reseller price
-- anthropic/claude-opus-4.1: OpenRouter reseller price
-- anthropic/claude-opus-4.1:batch: OpenRouter reseller price
-- anthropic/claude-opus-4.5: OpenRouter reseller price

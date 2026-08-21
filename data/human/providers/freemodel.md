@@ -1,16 +1,16 @@
 # FreeModel
 
 - provider_id: `freemodel`
-- 渠道: 推理托管
-- 官网: https://freemodel.dev
-- 定价页: https://freemodel.dev
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://freemodel.dev
+- Pricing page: https://freemodel.dev
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **10** 个模型。
+**10** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `claude-fable-5` | reasoning | 1M | $10 | $50 | $1 | — | —/— | — |
 | `claude-haiku-4-5-20251001` | reasoning | 200K | $1 | $5 | $0.1 | — | —/— | — |

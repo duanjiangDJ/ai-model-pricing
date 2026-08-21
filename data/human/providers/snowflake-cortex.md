@@ -1,16 +1,16 @@
 # Snowflake Cortex
 
 - provider_id: `snowflake-cortex`
-- 渠道: 推理托管
-- 官网: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-rest-api
-- 定价页: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-rest-api
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-rest-api
+- Pricing page: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-rest-api
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **25** 个模型。
+**25** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `claude-fable-5` | reasoning | 1M | — | — | — | — | —/— | — |
 | `claude-haiku-4-5` | reasoning | 200K | — | — | — | — | —/— | — |

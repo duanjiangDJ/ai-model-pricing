@@ -1,16 +1,16 @@
 # STACKIT
 
 - provider_id: `stackit`
-- 渠道: 推理托管
-- 官网: https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models
-- 定价页: https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models
+- Pricing page: https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **8** 个模型。
+**8** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `Qwen/Qwen3-VL-235B-A22B-Instruct-FP8` | chat | 218K | $1.76 | $2.05 | — | — | —/— | — |
 | `Qwen/Qwen3-VL-Embedding-8B` | embedding | 32K | $0.09 | $0.09 | — | — | —/— | — |

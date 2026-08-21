@@ -1,16 +1,16 @@
 # xAI
 
 - provider_id: `xai`
-- 渠道: 官方直供
-- 官网: https://docs.x.ai/docs/models
-- 定价页: https://docs.x.ai/developers/pricing
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:31:59Z
-- 核实时间: 2026-08-21T00:00:00Z
+- Channel: First-party
+- Homepage: https://docs.x.ai/docs/models
+- Pricing page: https://docs.x.ai/developers/pricing
+- Currency: USD
+- Data updated: 2026-08-21T11:31:59Z
+- Verified: 2026-08-21T00:00:00Z
 
-共 **17** 个模型。
+**17** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `grok-3` | chat | — | — | — | — | — | —/— | — |
 | `grok-4` | chat | — | — | — | — | — | —/— | — |

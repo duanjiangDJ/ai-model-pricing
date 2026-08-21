@@ -1,16 +1,16 @@
 # Regolo AI
 
 - provider_id: `regolo-ai`
-- 渠道: 推理托管
-- 官网: https://docs.regolo.ai/
-- 定价页: https://docs.regolo.ai/
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://docs.regolo.ai/
+- Pricing page: https://docs.regolo.ai/
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **18** 个模型。
+**18** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `apertus-70b` | chat | 30K | $0.46 | $2.42 | — | — | —/— | — |
 | `brick-complexity-pro` | chat | 100K | $0.12 | $0.46 | — | — | —/— | — |

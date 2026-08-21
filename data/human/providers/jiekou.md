@@ -1,16 +1,16 @@
 # Jiekou.AI
 
 - provider_id: `jiekou`
-- 渠道: 推理托管
-- 官网: https://docs.jiekou.ai/docs/support/quickstart?utm_source=github_models.dev
-- 定价页: https://docs.jiekou.ai/docs/support/quickstart?utm_source=github_models.dev
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:01Z
-- 核实时间: 2026-08-21T11:28:01Z
+- Channel: Inference host
+- Homepage: https://docs.jiekou.ai/docs/support/quickstart?utm_source=github_models.dev
+- Pricing page: https://docs.jiekou.ai/docs/support/quickstart?utm_source=github_models.dev
+- Currency: USD
+- Data updated: 2026-08-21T11:28:01Z
+- Verified: 2026-08-21T11:28:01Z
 
-共 **61** 个模型。
+**61** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `baidu/ernie-4.5-300b-a47b-paddle` | chat | 123K | $0.28 | $1.1 | — | — | —/— | — |
 | `baidu/ernie-4.5-vl-424b-a47b` | reasoning | 123K | $0.42 | $1.25 | — | — | —/— | — |

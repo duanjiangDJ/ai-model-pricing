@@ -1,16 +1,16 @@
 # GreenPT
 
 - provider_id: `greenpt`
-- 渠道: 推理托管
-- 官网: https://docs.greenpt.ai
-- 定价页: https://docs.greenpt.ai
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:01Z
-- 核实时间: 2026-08-21T11:28:01Z
+- Channel: Inference host
+- Homepage: https://docs.greenpt.ai
+- Pricing page: https://docs.greenpt.ai
+- Currency: USD
+- Data updated: 2026-08-21T11:28:01Z
+- Verified: 2026-08-21T11:28:01Z
 
-共 **37** 个模型。
+**37** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `deepseek-v4-flash-0731` | reasoning | 1M | $0.1596 | $0.399 | $0.0456 | — | —/— | — |
 | `devstral-2-123b-instruct-2512` | chat | 200K | $0.57 | $2.736 | — | — | —/— | — |

@@ -1,16 +1,16 @@
 # Friendli
 
 - provider_id: `friendli`
-- 渠道: 推理托管
-- 官网: https://friendli.ai/docs/guides/serverless_endpoints/introduction
-- 定价页: https://friendli.ai/docs/guides/serverless_endpoints/introduction
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://friendli.ai/docs/guides/serverless_endpoints/introduction
+- Pricing page: https://friendli.ai/docs/guides/serverless_endpoints/introduction
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **5** 个模型。
+**5** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `MiniMaxAI/MiniMax-M2.5` | reasoning | 196.608K | $0.3 | $1.2 | $0.06 | — | —/— | — |
 | `deepseek-ai/DeepSeek-V3.2` | reasoning | 163.84K | $0.5 | $1.5 | $0.25 | — | —/— | — |

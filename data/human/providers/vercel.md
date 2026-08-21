@@ -1,16 +1,16 @@
 # Vercel AI Gateway
 
 - provider_id: `vercel`
-- 渠道: 聚合站
-- 官网: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
-- 定价页: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Aggregator
+- Homepage: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
+- Pricing page: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **350** 个模型。
+**350** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `alibaba/qwen-3-14b` | reasoning | 40.96K | $0.12 | $0.24 | — | — | —/— | — |
 | `alibaba/qwen-3-235b` | reasoning | 262.144K | $0.22 | $0.88 | — | — | —/— | — |

@@ -1,16 +1,16 @@
 # Requesty
 
 - provider_id: `requesty`
-- 渠道: 推理托管
-- 官网: https://requesty.ai/solution/llm-routing/models
-- 定价页: https://requesty.ai/solution/llm-routing/models
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://requesty.ai/solution/llm-routing/models
+- Pricing page: https://requesty.ai/solution/llm-routing/models
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **139** 个模型。
+**139** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `claude-fable-5` | reasoning | 1M | $9 | $45 | $0.9 | — | —/— | — |
 | `claude-fable-5@eu` | reasoning | 1M | $9.9 | $49.5 | $0.99 | — | —/— | — |

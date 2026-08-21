@@ -1,16 +1,16 @@
 # GMI Cloud
 
 - provider_id: `gmicloud`
-- 渠道: 推理托管
-- 官网: https://docs.gmicloud.ai/inference-engine/api-reference/llm-api-reference
-- 定价页: https://docs.gmicloud.ai/inference-engine/api-reference/llm-api-reference
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://docs.gmicloud.ai/inference-engine/api-reference/llm-api-reference
+- Pricing page: https://docs.gmicloud.ai/inference-engine/api-reference/llm-api-reference
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **13** 个模型。
+**13** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `Qwen/Qwen3.7-Max` | reasoning | 1M | $2.5 | $7.5 | $0.25 | — | —/— | — |
 | `anthropic/claude-opus-4.6` | reasoning | 409.6K | $5 | $25 | $0.5 | — | —/— | — |

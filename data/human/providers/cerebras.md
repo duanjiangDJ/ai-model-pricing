@@ -1,16 +1,16 @@
 # Cerebras
 
 - provider_id: `cerebras`
-- 渠道: 推理托管
-- 官网: https://inference-docs.cerebras.ai/models/overview
-- 定价页: https://inference-docs.cerebras.ai/models/overview
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://inference-docs.cerebras.ai/models/overview
+- Pricing page: https://inference-docs.cerebras.ai/models/overview
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **2** 个模型。
+**2** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `gemma-4-31b` | reasoning | 131.072K | $0.99 | $1.49 | — | — | —/— | — |
 | `gpt-oss-120b` | reasoning | 131.072K | $0.35 | $0.75 | — | — | —/— | — |

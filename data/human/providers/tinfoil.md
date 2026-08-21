@@ -1,16 +1,16 @@
 # Tinfoil
 
 - provider_id: `tinfoil`
-- 渠道: 推理托管
-- 官网: https://docs.tinfoil.sh
-- 定价页: https://docs.tinfoil.sh
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://docs.tinfoil.sh
+- Pricing page: https://docs.tinfoil.sh
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **8** 个模型。
+**8** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `deepseek-v4-flash` | reasoning | 1.04858M | $0.3 | $0.7 | $0.06 | — | —/— | — |
 | `gemma4-31b` | reasoning | 262.144K | $0.4 | $1 | — | — | —/— | — |

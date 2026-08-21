@@ -1,16 +1,16 @@
 # SCX.ai
 
 - provider_id: `scx-ai`
-- 渠道: 推理托管
-- 官网: https://platform.scx.ai/docs
-- 定价页: https://platform.scx.ai/docs
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://platform.scx.ai/docs
+- Pricing page: https://platform.scx.ai/docs
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **4** 个模型。
+**4** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `GLM-5.2` | reasoning | 1M | $0.55 | $1.784 | $0.111 | — | —/— | — |
 | `MiniMax-M2.7` | reasoning | 196.608K | $0.48 | $1.79 | $0.05 | — | —/— | — |

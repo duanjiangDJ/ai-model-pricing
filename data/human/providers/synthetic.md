@@ -1,16 +1,16 @@
 # Synthetic
 
 - provider_id: `synthetic`
-- 渠道: 推理托管
-- 官网: https://synthetic.new/pricing
-- 定价页: https://synthetic.new/pricing
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:01Z
-- 核实时间: 2026-08-21T11:28:01Z
+- Channel: Inference host
+- Homepage: https://synthetic.new/pricing
+- Pricing page: https://synthetic.new/pricing
+- Currency: USD
+- Data updated: 2026-08-21T11:28:01Z
+- Verified: 2026-08-21T11:28:01Z
 
-共 **8** 个模型。
+**8** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `hf:MiniMaxAI/MiniMax-M3` | reasoning | 524.288K | $0.6 | $1.2 | $0.6 | — | —/— | — |
 | `hf:Qwen/Qwen3.6-27B` | reasoning | 262.144K | $0.45 | $3.6 | $0.45 | — | —/— | — |

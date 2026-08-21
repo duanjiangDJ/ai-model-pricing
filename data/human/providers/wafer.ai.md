@@ -1,16 +1,16 @@
 # Wafer
 
 - provider_id: `wafer.ai`
-- 渠道: 推理托管
-- 官网: https://docs.wafer.ai/wafer-pass
-- 定价页: https://docs.wafer.ai/wafer-pass
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://docs.wafer.ai/wafer-pass
+- Pricing page: https://docs.wafer.ai/wafer-pass
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **5** 个模型。
+**5** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `GLM-5.1` | reasoning | 202.752K | $1 | $3.2 | $0.1 | — | —/— | — |
 | `GLM-5.2` | reasoning | 1.04858M | $1.2 | $4.1 | $0.2 | — | —/— | — |

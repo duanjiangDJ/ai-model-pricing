@@ -1,16 +1,16 @@
 # InferX
 
 - provider_id: `inferx`
-- 渠道: 推理托管
-- 官网: https://model.inferx.net/endpoints
-- 定价页: https://model.inferx.net/endpoints
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://model.inferx.net/endpoints
+- Pricing page: https://model.inferx.net/endpoints
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **12** 个模型。
+**12** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `Agents-A1` | reasoning | 262K | $0 | $0 | — | — | —/— | — |
 | `Devstral-2-123B-Instruct-2512-int4-AutoRound` | chat | 128K | $0 | $0 | — | — | —/— | — |

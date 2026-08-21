@@ -1,16 +1,16 @@
 # NanoGPT
 
 - provider_id: `nano-gpt`
-- 渠道: 推理托管
-- 官网: https://docs.nano-gpt.com
-- 定价页: https://docs.nano-gpt.com
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:01Z
-- 核实时间: 2026-08-21T11:28:01Z
+- Channel: Inference host
+- Homepage: https://docs.nano-gpt.com
+- Pricing page: https://docs.nano-gpt.com
+- Currency: USD
+- Data updated: 2026-08-21T11:28:01Z
+- Verified: 2026-08-21T11:28:01Z
 
-共 **597** 个模型。
+**597** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `Baichuan-M2` | chat | 32.768K | $15.73 | $15.73 | $7.865 | — | —/— | — |
 | `Baichuan4-Air` | chat | 32.768K | $0.157 | $0.157 | $0.0785 | — | —/— | — |

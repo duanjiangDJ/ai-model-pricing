@@ -1,16 +1,16 @@
 # UnoRouter
 
 - provider_id: `unorouter`
-- 渠道: 聚合站
-- 官网: https://unorouter.com/models
-- 定价页: https://unorouter.com/models
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Aggregator
+- Homepage: https://unorouter.com/models
+- Pricing page: https://unorouter.com/models
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **23** 个模型。
+**23** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `claude-haiku-4-5-20251001` | reasoning | 200K | $1.2 | $6 | — | — | —/— | — |
 | `claude-opus-4-8` | reasoning | 1M | $0.425 | $2.125 | — | — | —/— | — |

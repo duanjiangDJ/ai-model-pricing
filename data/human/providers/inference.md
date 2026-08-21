@@ -1,16 +1,16 @@
 # Inference
 
 - provider_id: `inference`
-- 渠道: 推理托管
-- 官网: https://inference.net/models
-- 定价页: https://inference.net/models
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- Channel: Inference host
+- Homepage: https://inference.net/models
+- Pricing page: https://inference.net/models
+- Currency: USD
+- Data updated: 2026-08-21T11:28:18Z
+- Verified: 2026-08-21T11:28:18Z
 
-共 **9** 个模型。
+**9** models in total.
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
 | `google/gemma-3` | chat | 125K | $0.15 | $0.3 | — | — | —/— | — |
 | `meta/llama-3.1-8b-instruct` | chat | 16K | $0.025 | $0.025 | — | — | —/— | — |
