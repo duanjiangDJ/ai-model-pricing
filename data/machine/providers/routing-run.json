@@ -7,8 +7,8 @@
   "homepage": "https://docs.routing.run/api-reference/models",
   "pricing_page": "https://docs.routing.run/api-reference/models",
   "currency": "USD",
-  "updated_at": "2026-08-21T13:18:01Z",
-  "verified_at": "2026-08-21T13:18:01Z",
+  "updated_at": "2026-08-21T13:21:07Z",
+  "verified_at": "2026-08-21T13:21:07Z",
   "models": [
     {
       "id": "claude-opus-4-8",

@@ -5,8 +5,8 @@
 - 官网: https://friendli.ai/docs/guides/serverless_endpoints/introduction
 - 定价页: https://friendli.ai/docs/guides/serverless_endpoints/introduction
 - 币种: USD
-- 数据更新时间: 2026-08-21T13:18:01Z
-- 核实时间: 2026-08-21T13:18:01Z
+- 数据更新时间: 2026-08-21T13:21:07Z
+- 核实时间: 2026-08-21T13:21:07Z
 
 共 **5** 个模型。
 

@@ -5,8 +5,8 @@
 - 官网: https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html
 - 定价页: https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html
 - 币种: USD
-- 数据更新时间: 2026-08-21T13:18:01Z
-- 核实时间: 2026-08-21T13:18:01Z
+- 数据更新时间: 2026-08-21T13:21:07Z
+- 核实时间: 2026-08-21T13:21:07Z
 
 共 **16** 个模型。
 

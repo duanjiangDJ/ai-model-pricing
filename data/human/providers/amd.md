@@ -5,8 +5,8 @@
 - Homepage: https://developer.amd.com.cn/radeon/tokenfactory
 - Pricing page: https://developer.amd.com.cn/radeon/tokenfactory
 - Currency: USD
-- Data updated: 2026-08-21T13:18:01Z
-- Verified: 2026-08-21T13:18:01Z
+- Data updated: 2026-08-21T13:21:07Z
+- Verified: 2026-08-21T13:21:07Z
 
 **1** models in total.
 

@@ -5,8 +5,8 @@
 - Homepage: https://docs.wafer.ai/wafer-pass
 - Pricing page: https://docs.wafer.ai/wafer-pass
 - Currency: USD
-- Data updated: 2026-08-21T13:18:01Z
-- Verified: 2026-08-21T13:18:01Z
+- Data updated: 2026-08-21T13:21:07Z
+- Verified: 2026-08-21T13:21:07Z
 
 **5** models in total.
 

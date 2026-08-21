@@ -1,12 +1,12 @@
 # Poe
 
 - provider_id: `poe`
-- Channel: subscription
+- Channel: Inference host
 - Homepage: https://creator.poe.com/docs/external-applications/openai-compatible-api
-- Pricing page: https://poe.com/subscription
+- Pricing page: https://creator.poe.com/docs/external-applications/openai-compatible-api
 - Currency: USD
-- Data updated: 2026-08-21T13:18:01Z
-- Verified: 2026-08-21T13:18:01Z
+- Data updated: 2026-08-21T13:21:07Z
+- Verified: 2026-08-21T13:21:07Z
 
 **137** models in total.
 

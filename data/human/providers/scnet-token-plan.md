@@ -5,8 +5,8 @@
 - Homepage: https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html
 - Pricing page: https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html
 - Currency: USD
-- Data updated: 2026-08-21T13:18:01Z
-- Verified: 2026-08-21T13:18:01Z
+- Data updated: 2026-08-21T13:21:07Z
+- Verified: 2026-08-21T13:21:07Z
 
 **16** models in total.
 

@@ -5,8 +5,8 @@
 - Homepage: https://www.coralbricks.ai/docs
 - Pricing page: https://www.coralbricks.ai/docs
 - Currency: USD
-- Data updated: 2026-08-21T13:18:01Z
-- Verified: 2026-08-21T13:18:01Z
+- Data updated: 2026-08-21T13:21:07Z
+- Verified: 2026-08-21T13:21:07Z
 
 **3** models in total.
 

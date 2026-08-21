@@ -5,8 +5,8 @@
 - Homepage: https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html
 - Pricing page: https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html
 - Currency: USD
-- Data updated: 2026-08-21T13:18:01Z
-- Verified: 2026-08-21T13:18:01Z
+- Data updated: 2026-08-21T13:21:07Z
+- Verified: 2026-08-21T13:21:07Z
 
 **120** models in total.
 

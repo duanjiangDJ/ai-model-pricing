@@ -7,8 +7,8 @@
   "homepage": "https://novita.ai/docs/guides/introduction",
   "pricing_page": "https://novita.ai/docs/guides/introduction",
   "currency": "USD",
-  "updated_at": "2026-08-21T13:18:01Z",
-  "verified_at": "2026-08-21T13:18:01Z",
+  "updated_at": "2026-08-21T13:21:07Z",
+  "verified_at": "2026-08-21T13:21:07Z",
   "models": [
     {
       "id": "baichuan/baichuan-m2-32b",

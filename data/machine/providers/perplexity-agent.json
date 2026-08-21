@@ -7,8 +7,8 @@
   "homepage": "https://docs.perplexity.ai/docs/agent-api/models",
   "pricing_page": "https://docs.perplexity.ai/docs/agent-api/models",
   "currency": "USD",
-  "updated_at": "2026-08-21T13:18:01Z",
-  "verified_at": "2026-08-21T13:18:01Z",
+  "updated_at": "2026-08-21T13:21:07Z",
+  "verified_at": "2026-08-21T13:21:07Z",
   "models": [
     {
       "id": "anthropic/claude-haiku-4-5",

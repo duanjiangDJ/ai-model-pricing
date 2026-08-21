@@ -5,8 +5,8 @@
 - 官网: https://docs.gmicloud.ai/inference-engine/api-reference/llm-api-reference
 - 定价页: https://docs.gmicloud.ai/inference-engine/api-reference/llm-api-reference
 - 币种: USD
-- 数据更新时间: 2026-08-21T13:18:01Z
-- 核实时间: 2026-08-21T13:18:01Z
+- 数据更新时间: 2026-08-21T13:21:07Z
+- 核实时间: 2026-08-21T13:21:07Z
 
 共 **13** 个模型。
 

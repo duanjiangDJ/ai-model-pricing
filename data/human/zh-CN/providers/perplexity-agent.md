@@ -5,8 +5,8 @@
 - 官网: https://docs.perplexity.ai/docs/agent-api/models
 - 定价页: https://docs.perplexity.ai/docs/agent-api/models
 - 币种: USD
-- 数据更新时间: 2026-08-21T13:18:01Z
-- 核实时间: 2026-08-21T13:18:01Z
+- 数据更新时间: 2026-08-21T13:21:07Z
+- 核实时间: 2026-08-21T13:21:07Z
 
 共 **22** 个模型。
 

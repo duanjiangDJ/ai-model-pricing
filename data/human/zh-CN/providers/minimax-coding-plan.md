@@ -5,8 +5,8 @@
 - 官网: https://platform.minimax.io/docs/token-plan/intro
 - 定价页: https://platform.minimax.io/docs/token-plan/intro
 - 币种: USD
-- 数据更新时间: 2026-08-21T13:18:01Z
-- 核实时间: 2026-08-21T13:18:01Z
+- 数据更新时间: 2026-08-21T13:21:07Z
+- 核实时间: 2026-08-21T13:21:07Z
 
 共 **7** 个模型。
 

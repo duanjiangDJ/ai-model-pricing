@@ -5,8 +5,8 @@
 - Homepage: https://help.sap.com/docs/sap-ai-core
 - Pricing page: https://help.sap.com/docs/sap-ai-core
 - Currency: USD
-- Data updated: 2026-08-21T13:18:01Z
-- Verified: 2026-08-21T13:18:01Z
+- Data updated: 2026-08-21T13:21:07Z
+- Verified: 2026-08-21T13:21:07Z
 
 **48** models in total.
 

@@ -1,12 +1,12 @@
 # Perplexity
 
 - provider_id: `perplexity`
-- Channel: subscription
+- Channel: First-party
 - Homepage: https://docs.perplexity.ai
-- Pricing page: https://www.perplexity.ai/pricing
+- Pricing page: https://docs.perplexity.ai
 - Currency: USD
-- Data updated: 2026-08-21T13:18:01Z
-- Verified: 2026-08-21T13:18:01Z
+- Data updated: 2026-08-21T13:21:07Z
+- Verified: 2026-08-21T13:21:07Z
 
 **4** models in total.
 
