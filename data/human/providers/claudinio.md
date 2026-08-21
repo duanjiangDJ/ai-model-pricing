@@ -2,6 +2,7 @@
 
 - provider_id: `claudinio`
 - Channel: Inference host
+- API base URL: `https://api.claudin.io/v1`
 - Homepage: https://claudin.io
 - Pricing page: https://claudin.io
 - Currency: USD
@@ -10,7 +11,7 @@
 
 **2** models in total.
 
-| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|---|
-| `claudinio` | — | reasoning | 256K | $0.5 | $2 | $0.15 | — | —/— | — |
-| `claudius` | — | reasoning | 256K | $3 | $8 | $0.9 | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|
+| `claudinio` | — | reasoning | 256K | $0.5 | $2 | $0.15 | — | —/— | — | models.dev official list price |
+| `claudius` | — | reasoning | 256K | $3 | $8 | $0.9 | — | —/— | — | models.dev official list price |

@@ -2,6 +2,7 @@
 
 - provider_id: `databricks`
 - Channel: Inference host
+- API base URL: `https://${DATABRICKS_HOST}/ai-gateway/mlflow/v1`
 - Homepage: https://docs.databricks.com/aws/en/machine-learning/foundation-models/
 - Pricing page: https://docs.databricks.com/aws/en/machine-learning/foundation-models/
 - Currency: USD
@@ -10,35 +11,35 @@
 
 **30** models in total.
 
-| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|---|
-| `databricks-claude-haiku-4-5` | — | reasoning | 200K | $1 | $5 | $0.1 | — | —/— | — |
-| `databricks-claude-opus-4-1` | — | reasoning | 200K | $15 | $75 | $1.5 | — | —/— | — |
-| `databricks-claude-opus-4-5` | — | reasoning | 200K | $5 | $25 | $0.5 | — | —/— | — |
-| `databricks-claude-opus-4-6` | — | reasoning | 1M | $5 | $25 | $0.5 | — | —/— | — |
-| `databricks-claude-opus-4-7` | — | reasoning | 1M | $5 | $25 | $0.5 | — | —/— | — |
-| `databricks-claude-sonnet-4` | — | reasoning | 200K | $3 | $15 | $0.3 | — | —/— | — |
-| `databricks-claude-sonnet-4-5` | — | reasoning | 200K | $3 | $15 | $0.3 | — | —/— | — |
-| `databricks-claude-sonnet-4-6` | — | reasoning | 1M | $3 | $15 | $0.3 | — | —/— | — |
-| `databricks-gemini-2-5-flash` | — | reasoning | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — |
-| `databricks-gemini-2-5-pro` | — | reasoning | 1.04858M | $1.25 | $10 | $0.125 | — | —/— | — |
-| `databricks-gemini-3-1-flash-lite` | — | reasoning | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — |
-| `databricks-gemini-3-1-pro` | — | reasoning | 1.04858M | $2 | $12 | $0.2 | — | —/— | — |
-| `databricks-gemini-3-flash` | — | reasoning | 1.04858M | $0.5 | $3 | $0.05 | — | —/— | — |
-| `databricks-gemini-3-pro` | — | reasoning | 1.04858M | $2 | $12 | $0.2 | — | —/— | — |
-| `databricks-glm-5-2` | — | reasoning | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — |
-| `databricks-gpt-5` | — | reasoning | 400K | $1.25 | $10 | $0.125 | — | —/— | — |
-| `databricks-gpt-5-1` | — | reasoning | 400K | $1.25 | $10 | $0.125 | — | —/— | — |
-| `databricks-gpt-5-2` | — | reasoning | 400K | $1.75 | $14 | $0.175 | — | —/— | — |
-| `databricks-gpt-5-4` | — | reasoning | 1.05M | $2.5 | $15 | $0.25 | — | —/— | — |
-| `databricks-gpt-5-4-mini` | — | reasoning | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — |
-| `databricks-gpt-5-4-nano` | — | reasoning | 400K | $0.2 | $1.25 | $0.02 | — | —/— | — |
-| `databricks-gpt-5-5` | — | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — |
-| `databricks-gpt-5-6-luna` | — | reasoning | 400K | $1 | $6 | $0.1 | — | —/— | — |
-| `databricks-gpt-5-6-sol` | — | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — |
-| `databricks-gpt-5-6-terra` | — | reasoning | 1.05M | $2.5 | $15 | $0.25 | — | —/— | — |
-| `databricks-gpt-5-mini` | — | reasoning | 400K | $0.25 | $2 | $0.025 | — | —/— | — |
-| `databricks-gpt-5-nano` | — | reasoning | 400K | $0.05 | $0.4 | $0.005 | — | —/— | — |
-| `databricks-gpt-oss-120b` | — | reasoning | 131.072K | $0.072 | $0.28 | — | — | —/— | — |
-| `databricks-gpt-oss-20b` | — | reasoning | 131.072K | $0.05 | $0.2 | — | — | —/— | — |
-| `databricks-kimi-k2-7-code` | — | reasoning | 262.144K | $0.95 | $4 | $0.19 | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|
+| `databricks-claude-haiku-4-5` | — | reasoning | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
+| `databricks-claude-opus-4-1` | — | reasoning | 200K | $15 | $75 | $1.5 | — | —/— | — | models.dev official list price |
+| `databricks-claude-opus-4-5` | — | reasoning | 200K | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
+| `databricks-claude-opus-4-6` | — | reasoning | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
+| `databricks-claude-opus-4-7` | — | reasoning | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
+| `databricks-claude-sonnet-4` | — | reasoning | 200K | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
+| `databricks-claude-sonnet-4-5` | — | reasoning | 200K | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
+| `databricks-claude-sonnet-4-6` | — | reasoning | 1M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
+| `databricks-gemini-2-5-flash` | — | reasoning | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
+| `databricks-gemini-2-5-pro` | — | reasoning | 1.04858M | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |
+| `databricks-gemini-3-1-flash-lite` | — | reasoning | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |
+| `databricks-gemini-3-1-pro` | — | reasoning | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
+| `databricks-gemini-3-flash` | — | reasoning | 1.04858M | $0.5 | $3 | $0.05 | — | —/— | — | models.dev official list price |
+| `databricks-gemini-3-pro` | — | reasoning | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
+| `databricks-glm-5-2` | — | reasoning | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `databricks-gpt-5` | — | reasoning | 400K | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |
+| `databricks-gpt-5-1` | — | reasoning | 400K | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |
+| `databricks-gpt-5-2` | — | reasoning | 400K | $1.75 | $14 | $0.175 | — | —/— | — | models.dev official list price |
+| `databricks-gpt-5-4` | — | reasoning | 1.05M | $2.5 | $15 | $0.25 | — | —/— | — | models.dev official list price |
+| `databricks-gpt-5-4-mini` | — | reasoning | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | models.dev official list price |
+| `databricks-gpt-5-4-nano` | — | reasoning | 400K | $0.2 | $1.25 | $0.02 | — | —/— | — | models.dev official list price |
+| `databricks-gpt-5-5` | — | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
+| `databricks-gpt-5-6-luna` | — | reasoning | 400K | $1 | $6 | $0.1 | — | —/— | — | models.dev official list price |
+| `databricks-gpt-5-6-sol` | — | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
+| `databricks-gpt-5-6-terra` | — | reasoning | 1.05M | $2.5 | $15 | $0.25 | — | —/— | — | models.dev official list price |
+| `databricks-gpt-5-mini` | — | reasoning | 400K | $0.25 | $2 | $0.025 | — | —/— | — | models.dev official list price |
+| `databricks-gpt-5-nano` | — | reasoning | 400K | $0.05 | $0.4 | $0.005 | — | —/— | — | models.dev official list price |
+| `databricks-gpt-oss-120b` | — | reasoning | 131.072K | $0.072 | $0.28 | — | — | —/— | — | models.dev official list price |
+| `databricks-gpt-oss-20b` | — | reasoning | 131.072K | $0.05 | $0.2 | — | — | —/— | — | models.dev official list price |
+| `databricks-kimi-k2-7-code` | — | reasoning | 262.144K | $0.95 | $4 | $0.19 | — | —/— | — | models.dev official list price |

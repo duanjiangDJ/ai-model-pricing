@@ -43,6 +43,9 @@ jobs:
             BRANCH="bot/daily-sync-$(date +%Y%m%d)"
             git config user.name "price-sync-bot"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            # auto-bump version (content update) + changelog so pr-check passes
+            python scripts/bump_version.py --content --message "chore: daily price sync" --date "$(date +%Y-%m-%d)"
+            python scripts/build_human.py
             git checkout -b "$BRANCH"
             git add -A
             git commit -m "chore: daily price sync [skip ci]"

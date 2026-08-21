@@ -49,3 +49,28 @@ jobs:
             echo "::error::Version mismatch: VERSION($V) vs schema($S) vs index($I). Bump all three together."
             exit 1
           fi
+
+      - name: Require CHANGELOG + VERSION update for data/script changes
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          CHANGED=$(git diff --name-only "$BASE_SHA"...HEAD)
+          if echo "$CHANGED" | grep -qE '^(data/machine/|scripts/|VERSION|CHANGELOG)'; then
+            NEWV=$(cat VERSION | tr -d '[:space:]')
+            OLDV=$(git show "$BASE_SHA":VERSION | tr -d '[:space:]')
+            if [ "$NEWV" = "$OLDV" ]; then
+              echo "::error::data/machine/ or scripts/ changed but VERSION was NOT bumped. Run: python scripts/bump_version.py --content|--feature --message '...'"
+              exit 1
+            fi
+            if ! grep -q "^## $NEWV" CHANGELOG.md; then
+              echo "::error::VERSION bumped to $NEWV but CHANGELOG.md has no '## $NEWV' section. Add a changelog entry (or run bump_version.py)."
+              exit 1
+            fi
+            if ! grep -q "^## $NEWV" CHANGELOG.zh-CN.md; then
+              echo "::error::CHANGELOG.zh-CN.md has no '## $NEWV' section either. Keep both changelogs in sync."
+              exit 1
+            fi
+            echo "OK: VERSION bumped to $NEWV with changelog entries."
+          else
+            echo "No data/script changes; version bump not required."
+          fi
