@@ -5,8 +5,8 @@
 - 官网: https://docs.wandb.ai/guides/integrations/inference/
 - 定价页: https://docs.wandb.ai/guides/integrations/inference/
 - 币种: USD
-- 数据更新时间: 2026-08-21T11:27:12Z
-- 核实时间: 2026-08-21T11:27:12Z
+- 数据更新时间: 2026-08-21T11:28:18Z
+- 核实时间: 2026-08-21T11:28:18Z
 
 共 **29** 个模型。
 

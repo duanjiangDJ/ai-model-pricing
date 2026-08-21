@@ -5,8 +5,8 @@
 - 官网: https://modelscope.cn/docs/model-service/API-Inference/intro
 - 定价页: https://modelscope.cn/docs/model-service/API-Inference/intro
 - 币种: USD
-- 数据更新时间: 2026-08-21T11:27:12Z
-- 核实时间: 2026-08-21T11:27:12Z
+- 数据更新时间: 2026-08-21T11:28:01Z
+- 核实时间: 2026-08-21T11:28:01Z
 
 共 **7** 个模型。
 

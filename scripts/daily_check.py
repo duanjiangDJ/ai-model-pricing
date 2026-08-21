@@ -44,6 +44,76 @@ def diff_openrouter(local, remote, now):
     return added, removed, changed
 
 
+MODELSDEV_URL = "https://models.dev/api.json"
+
+
+def sync_modelsdev_diff(now):
+    """Diff models.dev catalog against local provider files. Only updates per_mtok
+    input/output/cache_read values (never touches hand-maintained fields)."""
+    from sync_modelsdev import build_model  # local import to avoid heavy init
+    data = fetch_json(MODELSDEV_URL)
+    stats = {"added_providers": 0, "changed_models": 0, "added_models": 0}
+    entries = []
+    for pid, pv in data.items():
+        models = pv.get("models") or {}
+        if not models:
+            continue
+        path = os.path.join(PROVIDERS, f"{pid}.json")
+        if not os.path.exists(path):
+            continue  # do not auto-create here; run scripts/sync_modelsdev.py --write for that
+        local = read_json(path)
+        local_by_id = {m["id"]: m for m in local["models"]}
+        remote_by_id = {m["id"]: build_model(mid, m) for mid, m in models.items()}
+        for mid in sorted(set(remote_by_id) - set(local_by_id)):
+            local["models"].append(remote_by_id[mid])
+            stats["added_models"] += 1
+            entries.append({"date": now, "kind": "add", "scope": "model", "provider_id": pid,
+                            "item_id": mid, "field": "catalog", "new": mid, "source": MODELSDEV_URL})
+        for mid in sorted(set(remote_by_id) & set(local_by_id)):
+            lp = local_by_id[mid].get("pricing", {}).get("per_mtok") or {}
+            rp = remote_by_id[mid].get("pricing", {}).get("per_mtok") or {}
+            changed_fields = {}
+            for k in ("input", "output", "cache_read"):
+                if rp.get(k) is not None and lp.get(k) != rp.get(k):
+                    changed_fields[k] = (lp.get(k), rp.get(k))
+            if changed_fields:
+                for k, (old_v, new_v) in changed_fields.items():
+                    local_by_id[mid]["pricing"]["per_mtok"][k] = new_v
+                stats["changed_models"] += 1
+                entries.append({"date": now, "kind": "update", "scope": "model", "provider_id": pid,
+                                "item_id": mid, "field": "pricing", "old": changed_fields,
+                                "new": {k: v[1] for k, v in changed_fields.items()}, "source": MODELSDEV_URL})
+        if stats["added_models"] or stats["changed_models"]:
+            local["updated_at"] = now
+            local["verified_at"] = now
+            local["models"].sort(key=lambda m: m["id"])
+            write_json(path, local)
+    if entries:
+        append_changelog(entries)
+    return stats
+
+
+def refresh_index_counts(now):
+    """Recompute index provider/reseller model counts from actual files."""
+    index = load_index()
+    changed = False
+    for lst in (index["providers"], index["resellers"]):
+        for entry in lst:
+            path = os.path.join(PROVIDERS, entry["file"].replace("providers/", ""))
+            if os.path.exists(path):
+                actual = len(read_json(path).get("models", []))
+                if actual != entry["model_count"]:
+                    entry["model_count"] = actual
+                    entry["updated_at"] = now
+                    changed = True
+    if changed:
+        index["generated_at"] = now
+        index["model_count"] = sum(e["model_count"] for e in index["providers"]) + sum(
+            e["model_count"] for e in index["resellers"])
+        save_index(index)
+    return changed
+
+
 def check_stale_plans(stale_days):
     plans = read_json(os.path.join(MACHINE, "plans.json")).get("plans", [])
     stale = []
@@ -70,7 +140,9 @@ def main():
     args = ap.parse_args()
 
     now = now_iso()
-    summary = {"openrouter": {"added": 0, "removed": 0, "changed": 0}, "stale_plans": 0, "network_ok": True}
+    summary = {"openrouter": {"added": 0, "removed": 0, "changed": 0},
+               "modelsdev": {"added_models": 0, "changed_models": 0},
+               "stale_plans": 0, "network_ok": True}
 
     if not args.no_network:
         try:
@@ -114,6 +186,13 @@ def main():
         except Exception as e:  # noqa: BLE001
             summary["network_ok"] = False
             print(f"WARN openrouter fetch failed: {e}")
+
+        try:
+            summary["modelsdev"] = sync_modelsdev_diff(now)
+        except Exception as e:  # noqa: BLE001
+            summary["network_ok"] = False
+            print(f"WARN models.dev fetch failed: {e}")
+        refresh_index_counts(now)
     else:
         print("no-network mode: skipping fetches")
 

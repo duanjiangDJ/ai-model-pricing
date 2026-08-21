@@ -5,8 +5,8 @@
 - 官网: https://docs.abliteration.ai/models
 - 定价页: https://docs.abliteration.ai/models
 - 币种: USD
-- 数据更新时间: 2026-08-21T11:27:12Z
-- 核实时间: 2026-08-21T11:27:12Z
+- 数据更新时间: 2026-08-21T11:28:01Z
+- 核实时间: 2026-08-21T11:28:01Z
 
 共 **2** 个模型。
 

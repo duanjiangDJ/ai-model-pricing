@@ -7,8 +7,8 @@
   "homepage": "https://llama.developer.meta.com/docs/models",
   "pricing_page": "https://llama.developer.meta.com/docs/models",
   "currency": "USD",
-  "updated_at": "2026-08-21T11:27:12Z",
-  "verified_at": "2026-08-21T11:27:12Z",
+  "updated_at": "2026-08-21T11:28:18Z",
+  "verified_at": "2026-08-21T11:28:18Z",
   "models": [
     {
       "id": "cerebras-llama-4-maverick-17b-128e-instruct",

@@ -5,10 +5,10 @@
 - 官网: https://docs.nano-gpt.com
 - 定价页: https://docs.nano-gpt.com
 - 币种: USD
-- 数据更新时间: 2026-08-21T11:27:12Z
-- 核实时间: 2026-08-21T11:27:12Z
+- 数据更新时间: 2026-08-21T11:28:01Z
+- 核实时间: 2026-08-21T11:28:01Z
 
-共 **595** 个模型。
+共 **597** 个模型。
 
 | 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
 |---|---|---|---|---|---|---|---|---|
@@ -286,9 +286,9 @@
 | `google/gemini-flash-latest` | reasoning | 1.04876M | $0.75 | $3.75 | $0.075 | — | —/— | — |
 | `google/gemini-flash-lite-latest` | reasoning | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — |
 | `google/gemini-pro-latest` | reasoning | 1.04876M | $2 | $12 | $0.2 | — | —/— | — |
-| `google/gemma-4-26b-a4b-it` | reasoning | 262.144K | $0.13 | $0.4 | $0.065 | — | —/— | — |
+| `google/gemma-4-26b-a4b-it` | reasoning | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — |
 | `google/gemma-4-26b-a4b-it:thinking` | reasoning | 262.144K | $0.13 | $0.4 | $0.065 | — | —/— | — |
-| `google/gemma-4-31b-it` | reasoning | 262.144K | $0.1 | $0.35 | $0.05 | — | —/— | — |
+| `google/gemma-4-31b-it` | reasoning | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — |
 | `google/gemma-4-31b-it:thinking` | reasoning | 262.144K | $0.1 | $0.35 | $0.05 | — | —/— | — |
 | `hermes-high` | reasoning | 1M | $5 | $25 | $2.5 | — | —/— | — |
 | `hermes-low` | reasoning | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — |
@@ -493,6 +493,8 @@
 | `qwen/qwen3.5-9b` | reasoning | 256K | $0.05 | $0.15 | $0.025 | — | —/— | — |
 | `qwen/qwen3.5-plus` | chat | 983.616K | $0.4 | $2.4 | $0.04 | — | —/— | — |
 | `qwen/qwen3.5-plus-thinking` | reasoning | 983.616K | $0.4 | $2.4 | $0.04 | — | —/— | — |
+| `qwen/qwen3.6-35b-a3b-uncensored` | chat | 65.536K | $0.15 | $0.5 | $0.075 | — | —/— | — |
+| `qwen/qwen3.8-27b-uncensored` | chat | 131.072K | $0.18 | $0.5 | $0.075 | — | —/— | — |
 | `qwen25-vl-72b-instruct` | chat | 32K | $0.69989 | $0.69989 | $0.349945 | — | —/— | — |
 | `qwen3-30b-a3b-instruct-2507` | chat | 256K | $0.2 | $0.5 | $0.1 | — | —/— | — |
 | `qwen3-coder-30b-a3b-instruct` | chat | 128K | $0.1 | $0.4 | $0.05 | — | —/— | — |

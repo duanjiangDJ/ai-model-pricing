@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-08-21T11:27:12Z",
+  "generated_at": "2026-08-21T11:28:18Z",
   "currency": "USD",
   "provider_count": 192,
-  "model_count": 7282,
+  "model_count": 7284,
   "plan_count": 0,
   "providers": [
     {
@@ -138,9 +138,9 @@
       "id": "nano-gpt",
       "name": "NanoGPT",
       "channel": "hosted",
-      "model_count": 595,
+      "model_count": 597,
       "file": "providers/nano-gpt.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-21T11:28:18Z"
     },
     {
       "id": "modelscope",
@@ -1550,7 +1550,7 @@
       "channel": "aggregator",
       "model_count": 419,
       "file": "providers/openrouter.json",
-      "updated_at": "2026-08-21T11:25:09Z"
+      "updated_at": "2026-08-21T11:28:18Z"
     }
   ]
 }

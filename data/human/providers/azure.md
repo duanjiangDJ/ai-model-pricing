@@ -5,8 +5,8 @@
 - 官网: https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models
 - 定价页: https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models
 - 币种: USD
-- 数据更新时间: 2026-08-21T11:27:12Z
-- 核实时间: 2026-08-21T11:27:12Z
+- 数据更新时间: 2026-08-21T11:28:18Z
+- 核实时间: 2026-08-21T11:28:18Z
 
 共 **84** 个模型。
 
