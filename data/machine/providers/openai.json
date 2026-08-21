@@ -31,7 +31,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "gpt-3.5-turbo",
@@ -77,7 +77,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "gpt-4-turbo",
@@ -100,7 +100,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "gpt-4.1",
@@ -169,7 +169,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "gpt-4o",
@@ -192,7 +192,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "gpt-4o-2024-05-13",
@@ -215,7 +215,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "gpt-4o-2024-08-06",
@@ -238,7 +238,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "gpt-4o-2024-11-20",
@@ -261,7 +261,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "gpt-4o-mini",
@@ -284,7 +284,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "gpt-5",
@@ -307,7 +307,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "gpt-5-mini",
@@ -399,7 +399,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "gpt-5.2",
@@ -422,7 +422,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "gpt-5.2-chat-latest",
@@ -445,7 +445,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "gpt-5.2-pro",
@@ -491,7 +491,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "gpt-5.3-codex",
@@ -514,7 +514,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "gpt-5.3-codex-spark",
@@ -560,7 +560,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "gpt-5.4-mini",
@@ -652,7 +652,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "gpt-5.5-pro",
@@ -802,7 +802,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "gpt-image-1-mini",
@@ -825,7 +825,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "gpt-image-1.5",
@@ -848,7 +848,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "gpt-image-2",
@@ -917,7 +917,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "o1-pro",
@@ -940,7 +940,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "o3",
@@ -963,7 +963,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "o3-mini",
@@ -986,7 +986,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "o3-pro",
@@ -1032,7 +1032,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "text-embedding-3-large",
@@ -1078,7 +1078,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use."
     },
     {
       "id": "text-embedding-ada-002",
