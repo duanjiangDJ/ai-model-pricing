@@ -1,5 +1,12 @@
 # Changelog
 
+## 进度（2026-08-21 第三轮）
+
+- **订阅计划扩充至 18 个**（第三方源核实，2026-08-21）：
+  - ChatGPT：Plus $20 / **Pro $100（2026-04 新增档）** / Pro $200
+  - Claude：Pro $20（年付 $17/月）/ Max 5x $100 / Max 20x $200 / Claude Code Pro $20
+- 关键事实：OpenAI 官方模型价（GPT-5.6 全系 47 模型）与 Anthropic（Fable 5/Opus 4.5-5/Sonnet 4.5-5/Haiku 4.5 共 13 模型）已由 models.dev 自动同步（first_party 渠道）
+
 ## 进度（2026-08-21 第二轮）
 
 - **已入库官方定价**（调研子代理核实，verified 2026-08-21）：
