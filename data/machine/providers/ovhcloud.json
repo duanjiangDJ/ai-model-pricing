@@ -332,5 +332,6 @@
       },
       "notes": "models.dev official list price"
     }
-  ]
+  ],
+  "api_base_url": "https://oai.endpoints.kepler.ai.cloud.ovh.net/v1"
 }

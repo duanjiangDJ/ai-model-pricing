@@ -1551,5 +1551,6 @@
       },
       "notes": "models.dev official list price"
     }
-  ]
+  ],
+  "api_base_url": "https://gateway.ai.cloudflare.com/v1/{account_id}/{gateway}"
 }

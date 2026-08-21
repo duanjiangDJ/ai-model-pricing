@@ -5,13 +5,17 @@
 - Homepage: https://platform.moonshot.ai/docs/api/chat
 - Pricing page: https://platform.moonshot.ai/docs/api/chat
 - Currency: USD
-- Data updated: 2026-08-21T13:21:07Z
+- Data updated: 2026-08-21T15:59:09Z
 - Verified: 2026-08-21T13:21:07Z
 
-**10** models in total.
+**14** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|---|
+| `k3` | — | reasoning | 1.04858M | — | — | — | — | —/— | — |
+| `k3-256k` | — | reasoning | 262.144K | — | — | — | — | —/— | — |
+| `kimi-for-coding` | — | reasoning | 262.144K | — | — | — | — | —/— | — |
+| `kimi-for-coding-highspeed` | — | reasoning | 262.144K | — | — | — | — | —/— | — |
 | `kimi-k2-0711-preview` | — | chat | 131.072K | $0.6 | $2.5 | $0.15 | — | —/— | — |
 | `kimi-k2-0905-preview` | — | chat | 262.144K | $0.6 | $2.5 | $0.15 | — | —/— | — |
 | `kimi-k2-thinking` | — | reasoning | 262.144K | $0.6 | $2.5 | $0.15 | — | —/— | — |

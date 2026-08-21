@@ -102,5 +102,6 @@
       },
       "notes": "models.dev official list price"
     }
-  ]
+  ],
+  "api_base_url": "https://api.lucidquery.com/v1"
 }

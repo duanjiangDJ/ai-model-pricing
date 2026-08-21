@@ -1,6 +1,6 @@
 # 订阅与编码工具计划（Plans）
 
-共 **53** 个计划。更新时间: 2026-08-21T12:11:53Z
+共 **64** 个计划。更新时间: 2026-08-21T12:11:53Z
 
 | 产品 | 计划 | 定价模型 | 类别 | 计费 | 价格(USD) | 用量限制 | 定价页 | 核实时间 |
 |---|---|---|---|---|---|---|---|---|
@@ -33,6 +33,13 @@
 | JetBrains AI | Free | free | coding | monthly | $0 | 3 AI Credits/30 天 | [link](https://www.jetbrains.com/help/ai-assistant/2026.1/licensing-and-subscriptions.html) | 2026-08-21T00:00:00Z |
 | JetBrains AI | Pro | credits | coding | monthly | $10 | 10 AI Credits/30 天 | [link](https://www.jetbrains.com/help/ai-assistant/2026.1/licensing-and-subscriptions.html) | 2026-08-21T00:00:00Z |
 | JetBrains AI | Ultimate | credits | coding | monthly | $30 | 35 AI Credits/30 天 | [link](https://www.jetbrains.com/help/ai-assistant/2026.1/licensing-and-subscriptions.html) | 2026-08-21T00:00:00Z |
+| MiniMax Token Plan | Max | flat_monthly | coding | monthly | $50 | Token Plan（原 Coding Plan 更名）；额度含模型调用量 | [link](https://platform.minimax.io/docs/token-plan/intro) | 2026-08-21T00:00:00Z |
+| MiniMax Token Plan | Plus | flat_monthly | coding | monthly | $20 | Token Plan（原 Coding Plan 更名）；额度含模型调用量 | [link](https://platform.minimax.io/docs/token-plan/intro) | 2026-08-21T00:00:00Z |
+| MiniMax Token Plan | Ultra | flat_monthly | coding | monthly | $120 | Token Plan（原 Coding Plan 更名）；额度含模型调用量 | [link](https://platform.minimax.io/docs/token-plan/intro) | 2026-08-21T00:00:00Z |
+| Kimi Code | Allegretto | flat_monthly | coding | monthly | $39 | Kimi Code 独立订阅（Kimi 会员亦含 Code 功能） | [link](https://kimi.com/code/docs/en/kimi-code/membership) | 2026-08-21T00:00:00Z |
+| Kimi Code | Allegro | flat_monthly | coding | monthly | $99 | Kimi Code 独立订阅（Kimi 会员亦含 Code 功能） | [link](https://kimi.com/code/docs/en/kimi-code/membership) | 2026-08-21T00:00:00Z |
+| Kimi Code | Moderato | flat_monthly | coding | monthly | $19 | Kimi Code 独立订阅（Kimi 会员亦含 Code 功能） | [link](https://kimi.com/code/docs/en/kimi-code/membership) | 2026-08-21T00:00:00Z |
+| Kimi Code | Vivace | flat_monthly | coding | monthly | $199 | Kimi Code 独立订阅（Kimi 会员亦含 Code 功能） | [link](https://kimi.com/code/docs/en/kimi-code/membership) | 2026-08-21T00:00:00Z |
 | ChatGPT | Go | flat_monthly | consumer | monthly | $8 | 官方未公布具体用量额度（含广告；约 10 倍于 Free 的处理量） | [link](https://chatgpt.com/plans/go/) | 2026-08-21T00:00:00Z |
 | ChatGPT | Plus | flat_monthly | consumer | monthly | $20 | Standard usage limits；官方未公布具体用量额度（2026 年多次调整限额政策） | [link](https://openai.com/chatgpt/pricing/) | 2026-08-21T00:00:00Z |
 | ChatGPT | Pro $100 | flat_monthly | consumer | monthly | $100 | 5x Codex access vs Plus；官方未公布具体用量额度（5x Codex 访问为官方口径） | [link](https://thenextweb.com/news/openais-new-100-chatgpt-pro-plan-targets-claude-max-with-five-times-the-codex-access) | 2026-08-21T00:00:00Z |
@@ -57,3 +64,7 @@
 | Windsurf | Max | flat_monthly | coding | monthly | $200 | 最高用量池 | [link](https://windsurf.com/pricing) | 2026-08-21T00:00:00Z |
 | Windsurf | Pro | flat_monthly | coding | monthly | $20 | 信用点数制（用量池） | [link](https://windsurf.com/pricing) | 2026-08-21T00:00:00Z |
 | Windsurf | Teams | per_seat_monthly | team | monthly | $40 | 每用户/月 | [link](https://windsurf.com/pricing) | 2026-08-21T00:00:00Z |
+| Xiaomi MiMo Token Plan | Lite | flat_monthly | coding | monthly | $6 | 编程场景 Token Plan 订阅（年付约 88 折） | [link](https://mimo.mi.com/docs/price/token-plan) | 2026-08-21T00:00:00Z |
+| Xiaomi MiMo Token Plan | Max | flat_monthly | coding | monthly | $100 | 编程场景 Token Plan 订阅（年付约 88 折） | [link](https://mimo.mi.com/docs/price/token-plan) | 2026-08-21T00:00:00Z |
+| Xiaomi MiMo Token Plan | Pro | flat_monthly | coding | monthly | $50 | 编程场景 Token Plan 订阅（年付约 88 折） | [link](https://mimo.mi.com/docs/price/token-plan) | 2026-08-21T00:00:00Z |
+| Xiaomi MiMo Token Plan | Standard | flat_monthly | coding | monthly | $16 | 编程场景 Token Plan 订阅（年付约 88 折） | [link](https://mimo.mi.com/docs/price/token-plan) | 2026-08-21T00:00:00Z |

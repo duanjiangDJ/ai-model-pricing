@@ -5,7 +5,7 @@
   "category": "ai_vendor",
   "region": "cn",
   "homepage": "https://hunyuan.tencent.com",
-  "pricing_page": "https://cloud.tencent.com/document/product/1729",
+  "pricing_page": "https://cloud.tencent.com/document/product/1759/127342",
   "currency": "USD",
   "updated_at": "2026-08-21T11:38:22Z",
   "verified_at": "2026-08-21T00:00:00Z",
@@ -19,8 +19,8 @@
       "pricing": {
         "per_mtok": {
           "input": 1.0,
-          "output": null,
-          "cache_read": null,
+          "output": 4.0,
+          "cache_read": 0.25,
           "cache_write": null
         },
         "batch": null,
@@ -28,7 +28,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "2026-07-06 发布并开源；官方新闻：输入低至 ¥1/百万tokens（输出价未在公开新闻中给出，待核实）。CNY 计价。"
+      "notes": "Official TokenHub billing (CNY/1M tokens): input ¥1, output ¥4, cache-hit ¥0.25. Model id on TokenHub: hy3. Verified 2026-08-21.",
+      "status": "active"
     }
-  ]
+  ],
+  "api_base_url": "https://api.hunyuan.cloud.tencent.com/v1",
+  "price_currency": "CNY",
+  "currency_usd_note": "官方按 CNY 计价；1 USD ≈ 7.1 CNY"
 }

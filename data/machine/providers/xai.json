@@ -404,5 +404,6 @@
       },
       "notes": "models.dev official list price"
     }
-  ]
+  ],
+  "api_base_url": "https://api.x.ai/v1"
 }

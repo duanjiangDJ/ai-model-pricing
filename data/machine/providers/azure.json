@@ -7,7 +7,7 @@
   "homepage": "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models",
   "pricing_page": "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models",
   "currency": "USD",
-  "updated_at": "2026-08-21T13:21:07Z",
+  "updated_at": "2026-08-21T15:59:09Z",
   "verified_at": "2026-08-21T13:21:07Z",
   "models": [
     {
@@ -1942,5 +1942,7 @@
       },
       "notes": "models.dev official list price | Free model (per_mtok = 0)."
     }
-  ]
+  ],
+  "api_base_url": "https://{resource}.openai.azure.com",
+  "notes": "Merged from azure-cognitive-services (same api_base_url https://{resource}.openai.azure.com) on 2026-08-21T15:59:09Z."
 }

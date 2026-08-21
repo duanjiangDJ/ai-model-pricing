@@ -1,24 +1,22 @@
 {
   "provider_id": "opencode-go",
   "name": "OpenCode Go",
-  "channel": "hosted",
-  "category": "inference_host",
+  "channel": "subscription",
+  "category": "aggregator",
   "region": "global",
-  "homepage": "https://opencode.ai/docs/zen",
+  "homepage": "https://opencode.ai/go",
   "pricing_page": "https://opencode.ai/docs/go/",
+  "api_base_url": "https://opencode.ai/zen/go/v1/models",
   "currency": "USD",
-  "updated_at": "2026-08-21T13:21:07Z",
-  "verified_at": "2026-08-21T13:21:07Z",
+  "updated_at": "2026-08-21T00:00:00Z",
+  "verified_at": "2026-08-21T00:00:00Z",
   "models": [
     {
       "id": "deepseek-v4-flash",
-      "name": "DeepSeek V4 Flash",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 1000000,
-      "max_output": 384000,
+      "name": "deepseek-v4-flash",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 0.22,
@@ -31,17 +29,34 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
+      "notes": null
+    },
+    {
+      "id": "deepseek-v4-flash-vision-exp",
+      "name": "deepseek-v4-flash-vision-exp",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.22,
+          "output": 0.66,
+          "cache_read": 0.007,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": null
     },
     {
       "id": "deepseek-v4-pro",
-      "name": "DeepSeek V4 Pro (New)",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 1000000,
-      "max_output": 384000,
+      "name": "deepseek-v4-pro",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 0.66,
@@ -54,40 +69,14 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
-    },
-    {
-      "id": "glm-5",
-      "name": "GLM-5",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 202752,
-      "max_output": 32768,
-      "pricing": {
-        "per_mtok": {
-          "input": 1,
-          "output": 3.2,
-          "cache_read": 0.2,
-          "cache_write": null
-        },
-        "batch": null,
-        "per_image": null,
-        "per_audio_second": null,
-        "per_request": null
-      },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
+      "notes": null
     },
     {
       "id": "glm-5.1",
-      "name": "GLM-5.1",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 202752,
-      "max_output": 32768,
+      "name": "glm-5.1",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 1.4,
@@ -100,17 +89,14 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
+      "notes": null
     },
     {
       "id": "glm-5.2",
-      "name": "GLM-5.2",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 1000000,
-      "max_output": 131072,
+      "name": "glm-5.2",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 1.4,
@@ -123,17 +109,14 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
+      "notes": null
     },
     {
       "id": "glm-5.3",
-      "name": "GLM-5.3",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 1000000,
-      "max_output": 131072,
+      "name": "glm-5.3",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 1.4,
@@ -146,45 +129,39 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
+      "notes": null
     },
     {
       "id": "gpt-5.6-luna",
-      "name": "GPT-5.6 Luna",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 1050000,
-      "max_output": 128000,
+      "name": "gpt-5.6-luna",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 0.2,
           "output": 1.2,
           "cache_read": 0.02,
-          "cache_write": null
+          "cache_write": 0.25
         },
         "batch": null,
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
+      "notes": null
     },
     {
       "id": "grok-4.5",
-      "name": "Grok 4.5",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 500000,
-      "max_output": 500000,
+      "name": "grok-4.5",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 2,
           "output": 6,
-          "cache_read": 0.5,
+          "cache_read": 0.3,
           "cache_write": null
         },
         "batch": null,
@@ -192,22 +169,19 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
+      "notes": null
     },
     {
       "id": "hy3",
-      "name": "Hy3 (8x usage)",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 256000,
-      "max_output": 64000,
+      "name": "hy3",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 0.0175,
-          "output": 0.0725,
-          "cache_read": 0.004375,
+          "input": 0.14,
+          "output": 0.58,
+          "cache_read": 0.035,
           "cache_write": null
         },
         "batch": null,
@@ -215,40 +189,14 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
-    },
-    {
-      "id": "kimi-k2.5",
-      "name": "Kimi K2.5",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 262144,
-      "max_output": 65536,
-      "pricing": {
-        "per_mtok": {
-          "input": 0.6,
-          "output": 3,
-          "cache_read": 0.1,
-          "cache_write": null
-        },
-        "batch": null,
-        "per_image": null,
-        "per_audio_second": null,
-        "per_request": null
-      },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
+      "notes": null
     },
     {
       "id": "kimi-k2.6",
-      "name": "Kimi K2.6",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 262144,
-      "max_output": 65536,
+      "name": "kimi-k2.6",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 0.95,
@@ -261,17 +209,14 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
+      "notes": null
     },
     {
       "id": "kimi-k2.7-code",
-      "name": "Kimi K2.7 Code",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 262144,
-      "max_output": 262144,
+      "name": "kimi-k2.7-code",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 0.95,
@@ -284,17 +229,14 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
+      "notes": null
     },
     {
       "id": "kimi-k3",
-      "name": "Kimi K3",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 1048576,
-      "max_output": 131072,
+      "name": "kimi-k3",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 3,
@@ -307,63 +249,14 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
-    },
-    {
-      "id": "mimo-v2-omni",
-      "name": "MiMo V2 Omni",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 262144,
-      "max_output": 128000,
-      "pricing": {
-        "per_mtok": {
-          "input": 0.4,
-          "output": 2,
-          "cache_read": 0.08,
-          "cache_write": null
-        },
-        "batch": null,
-        "per_image": null,
-        "per_audio_second": null,
-        "per_request": null
-      },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
-    },
-    {
-      "id": "mimo-v2-pro",
-      "name": "MiMo V2 Pro",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 1048576,
-      "max_output": 128000,
-      "pricing": {
-        "per_mtok": {
-          "input": 1,
-          "output": 3,
-          "cache_read": 0.2,
-          "cache_write": null
-        },
-        "batch": null,
-        "per_image": null,
-        "per_audio_second": null,
-        "per_request": null
-      },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
+      "notes": null
     },
     {
       "id": "mimo-v2.5",
-      "name": "MiMo V2.5",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 1000000,
-      "max_output": 128000,
+      "name": "mimo-v2.5",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 0.14,
@@ -376,17 +269,14 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
+      "notes": null
     },
     {
       "id": "mimo-v2.5-pro",
-      "name": "MiMo V2.5 Pro",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 1048576,
-      "max_output": 128000,
+      "name": "mimo-v2.5-pro",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 0.435,
@@ -399,63 +289,54 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
+      "notes": null
     },
     {
       "id": "minimax-m2.5",
-      "name": "MiniMax-M2.5",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 204800,
-      "max_output": 65536,
+      "name": "minimax-m2.5",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 0.3,
           "output": 1.2,
-          "cache_read": 0.03,
-          "cache_write": null
+          "cache_read": 0.06,
+          "cache_write": 0.375
         },
         "batch": null,
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
+      "notes": null
     },
     {
       "id": "minimax-m2.7",
-      "name": "MiniMax-M2.7",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 204800,
-      "max_output": 131072,
+      "name": "minimax-m2.7",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 0.3,
           "output": 1.2,
           "cache_read": 0.06,
-          "cache_write": null
+          "cache_write": 0.375
         },
         "batch": null,
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
+      "notes": null
     },
     {
       "id": "minimax-m3",
-      "name": "MiniMax-M3",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 1000000,
-      "max_output": 131072,
+      "name": "minimax-m3",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 0.3,
@@ -468,17 +349,14 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
+      "notes": null
     },
     {
       "id": "muse-spark-1.2-contributor",
-      "name": "Muse Spark 1.2 Contributor",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 1048576,
-      "max_output": 131072,
+      "name": "muse-spark-1.2-contributor",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 0.1,
@@ -491,22 +369,19 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
+      "notes": null
     },
     {
       "id": "ox-alpha-free",
-      "name": "Ox Alpha Free (Unlimited)",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 1000000,
-      "max_output": 131072,
+      "name": "ox-alpha-free",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 0,
           "output": 0,
-          "cache_read": 0,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -514,122 +389,88 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen. | Free model (per_mtok = 0)."
-    },
-    {
-      "id": "qwen3.5-plus",
-      "name": "Qwen3.5 Plus",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 262144,
-      "max_output": 65536,
-      "pricing": {
-        "per_mtok": {
-          "input": 0.2,
-          "output": 1.2,
-          "cache_read": 0.02,
-          "cache_write": null
-        },
-        "batch": null,
-        "per_image": null,
-        "per_audio_second": null,
-        "per_request": null
-      },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
+      "notes": null
     },
     {
       "id": "qwen3.6-plus",
-      "name": "Qwen3.6 Plus",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 1000000,
-      "max_output": 65536,
+      "name": "qwen3.6-plus",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 0.5,
           "output": 3,
           "cache_read": 0.05,
-          "cache_write": null
+          "cache_write": 0.625
         },
         "batch": null,
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
+      "notes": null
     },
     {
       "id": "qwen3.7-max",
-      "name": "Qwen3.7 Max",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 1000000,
-      "max_output": 65536,
+      "name": "qwen3.7-max",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 2.5,
           "output": 7.5,
           "cache_read": 0.5,
-          "cache_write": null
+          "cache_write": 3.125
         },
         "batch": null,
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
+      "notes": null
     },
     {
       "id": "qwen3.7-plus",
-      "name": "Qwen3.7 Plus",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 1000000,
-      "max_output": 65536,
+      "name": "qwen3.7-plus",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 0.4,
           "output": 1.6,
           "cache_read": 0.04,
-          "cache_write": null
+          "cache_write": 0.5
         },
         "batch": null,
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
+      "notes": null
     },
     {
       "id": "qwen3.8-max",
-      "name": "Qwen3.8 Max",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 1000000,
-      "max_output": 131072,
+      "name": "qwen3.8-max",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 2,
           "output": 6,
           "cache_read": 0.25,
-          "cache_write": null
+          "cache_write": 2.5
         },
         "batch": null,
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in OpenCode Go subscription (USD-allowance based): $5 first month, then $10/month, $60 usage allowance by dollar value. per_mtok values are the allowance burn rates from the official docs, not direct per-token charges. Actual request count depends on model chosen."
+      "notes": null
     }
-  ]
+  ],
+  "notes": "OpenCode Go: subscription ($5 first month, then $10/month), $60 monthly usage allowance by dollar value; tiers $12/5h, $30/week, $60/month. per_mtok = allowance burn rate."
 }

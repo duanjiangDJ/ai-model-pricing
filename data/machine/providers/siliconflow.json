@@ -7,7 +7,7 @@
   "homepage": "https://cloud.siliconflow.com/models",
   "pricing_page": "https://cloud.siliconflow.com/models",
   "currency": "USD",
-  "updated_at": "2026-08-21T13:21:07Z",
+  "updated_at": "2026-08-21T15:59:09Z",
   "verified_at": "2026-08-21T13:21:07Z",
   "models": [
     {
@@ -47,6 +47,236 @@
           "input": 0.3,
           "output": 1.2,
           "cache_read": 0.03,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "PaddlePaddle/PaddleOCR-VL-1.5",
+      "name": "PaddlePaddle/PaddleOCR-VL-1.5",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 16384,
+      "max_output": 16384,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+    },
+    {
+      "id": "Pro/MiniMaxAI/MiniMax-M2.5",
+      "name": "Pro/MiniMaxAI/MiniMax-M2.5",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 192000,
+      "max_output": 131000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.3,
+          "output": 1.22,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Pro/deepseek-ai/DeepSeek-R1",
+      "name": "Pro/deepseek-ai/DeepSeek-R1",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 164000,
+      "max_output": 164000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.5,
+          "output": 2.18,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Pro/deepseek-ai/DeepSeek-V3",
+      "name": "Pro/deepseek-ai/DeepSeek-V3",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 164000,
+      "max_output": 164000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.25,
+          "output": 1,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Pro/deepseek-ai/DeepSeek-V3.1-Terminus",
+      "name": "Pro/deepseek-ai/DeepSeek-V3.1-Terminus",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 164000,
+      "max_output": 164000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.27,
+          "output": 1,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Pro/deepseek-ai/DeepSeek-V3.2",
+      "name": "Pro/deepseek-ai/DeepSeek-V3.2",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 164000,
+      "max_output": 164000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.27,
+          "output": 0.42,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Pro/moonshotai/Kimi-K2.5",
+      "name": "Pro/moonshotai/Kimi-K2.5",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262000,
+      "max_output": 262000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.45,
+          "output": 2.25,
+          "cache_read": 0.07,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Pro/moonshotai/Kimi-K2.6",
+      "name": "Pro/moonshotai/Kimi-K2.6",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262000,
+      "max_output": 262000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.95,
+          "output": 4,
+          "cache_read": 0.16,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Pro/zai-org/GLM-5",
+      "name": "Pro/zai-org/GLM-5",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 205000,
+      "max_output": 205000,
+      "pricing": {
+        "per_mtok": {
+          "input": 1,
+          "output": 3.2,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Pro/zai-org/GLM-5.1",
+      "name": "Pro/zai-org/GLM-5.1",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 205000,
+      "max_output": 205000,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.4,
+          "output": 4.4,
+          "cache_read": 0.26,
           "cache_write": null
         },
         "batch": null,
@@ -517,6 +747,29 @@
       "notes": "models.dev official list price"
     },
     {
+      "id": "Qwen/Qwen3.5-4B",
+      "name": "Qwen/Qwen3.5-4B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+    },
+    {
       "id": "Qwen/Qwen3.5-9B",
       "name": "Qwen/Qwen3.5-9B",
       "category": "chat",
@@ -607,6 +860,29 @@
         "per_request": null
       },
       "notes": "models.dev official list price"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-OCR",
+      "name": "deepseek-ai/DeepSeek-OCR",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 8192,
+      "max_output": 8192,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "deepseek-ai/DeepSeek-R1",
@@ -1137,5 +1413,7 @@
       },
       "notes": "models.dev official list price"
     }
-  ]
+  ],
+  "api_base_url": "https://api.siliconflow.cn/v1",
+  "notes": "Merged from siliconflow-cn (same api_base_url https://api.siliconflow.cn/v1) on 2026-08-21T15:59:09Z."
 }

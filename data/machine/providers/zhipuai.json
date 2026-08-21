@@ -7,7 +7,7 @@
   "homepage": "https://docs.z.ai/guides/overview/pricing",
   "pricing_page": "https://docs.z.ai/guides/overview/pricing",
   "currency": "USD",
-  "updated_at": "2026-08-21T13:21:07Z",
+  "updated_at": "2026-08-21T15:59:09Z",
   "verified_at": "2026-08-21T13:21:07Z",
   "models": [
     {
@@ -241,6 +241,29 @@
       "notes": "models.dev official list price"
     },
     {
+      "id": "glm-5-turbo",
+      "name": "GLM-5-Turbo",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": null,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
+    },
+    {
       "id": "glm-5.1",
       "name": "GLM-5.1",
       "category": "reasoning",
@@ -287,6 +310,52 @@
       "notes": "models.dev official list price"
     },
     {
+      "id": "glm-5.2-highspeed",
+      "name": "GLM-5.2 Highspeed",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": null,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
+    },
+    {
+      "id": "glm-5.3",
+      "name": "GLM-5.3",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": null,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
+    },
+    {
       "id": "glm-5v-turbo",
       "name": "GLM-5V-Turbo",
       "category": "reasoning",
@@ -309,5 +378,7 @@
       },
       "notes": "models.dev official list price"
     }
-  ]
+  ],
+  "api_base_url": "https://open.bigmodel.cn/api/paas/v4",
+  "notes": "Merged from zhipuai-coding-plan (same api_base_url https://open.bigmodel.cn/api/paas/v4) on 2026-08-21T15:59:09Z."
 }

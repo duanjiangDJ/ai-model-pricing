@@ -539,5 +539,6 @@
       },
       "notes": "models.dev official list price"
     }
-  ]
+  ],
+  "api_base_url": "https://api.fireworks.ai/inference/v1/"
 }

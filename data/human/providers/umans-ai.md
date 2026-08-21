@@ -5,10 +5,10 @@
 - Homepage: https://app.umans.ai/offers/code/docs/orgs
 - Pricing page: https://app.umans.ai/offers/code/docs/orgs
 - Currency: USD
-- Data updated: 2026-08-21T13:21:07Z
+- Data updated: 2026-08-21T15:59:09Z
 - Verified: 2026-08-21T13:21:07Z
 
-**7** models in total.
+**8** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|---|
@@ -19,3 +19,4 @@
 | `umans-glm-5.2` | — | reasoning | 405.504K | $1.4 | $4.4 | $0.26 | — | —/— | — |
 | `umans-kimi-k2.7` | — | reasoning | 262.144K | $0.95 | $4 | $0.19 | — | —/— | — |
 | `umans-kimi-k3` | — | reasoning | 1.04858M | $3 | $15 | $0.3 | — | —/— | — |
+| `umans-qwen3.6-35b-a3b` | — | reasoning | 262.144K | — | — | — | — | —/— | — |

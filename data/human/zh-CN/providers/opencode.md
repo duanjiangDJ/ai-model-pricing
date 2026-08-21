@@ -1,107 +1,77 @@
 # OpenCode Zen
 
 - provider_id: `opencode`
-- 渠道: 推理托管
-- 官网: https://opencode.ai/docs/zen
-- 定价页: https://opencode.ai/docs/zen
+- 渠道: 聚合站
+- 官网: https://opencode.ai/zen
+- 定价页: https://opencode.ai/docs/zen/
 - 币种: USD
-- 数据更新时间: 2026-08-21T13:21:07Z
-- 核实时间: 2026-08-21T13:21:07Z
+- 数据更新时间: 2026-08-21T00:00:00Z
+- 核实时间: 2026-08-21T00:00:00Z
 
-共 **93** 个模型。
+共 **63** 个模型。
 
 | 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
 |---|---|---|---|---|---|---|---|---|---|
-| `big-pickle` | — | reasoning | 200K | $0 | $0 | $0 | — | —/— | — |
-| `claude-3-5-haiku` | — | chat | 200K | $0.8 | $4 | $0.08 | — | —/— | — |
-| `claude-fable-5` | — | reasoning | 1M | $10 | $50 | $1 | — | —/— | — |
-| `claude-haiku-4-5` | — | reasoning | 200K | $1 | $5 | $0.1 | — | —/— | — |
-| `claude-opus-4-1` | — | reasoning | 200K | $15 | $75 | $1.5 | — | —/— | — |
-| `claude-opus-4-5` | — | reasoning | 200K | $5 | $25 | $0.5 | — | —/— | — |
-| `claude-opus-4-6` | — | reasoning | 1M | $5 | $25 | $0.5 | — | —/— | — |
-| `claude-opus-4-7` | — | reasoning | 1M | $5 | $25 | $0.5 | — | —/— | — |
-| `claude-opus-4-8` | — | reasoning | 1M | $5 | $25 | $0.5 | — | —/— | — |
-| `claude-opus-5` | — | reasoning | 1M | $5 | $25 | $0.5 | — | —/— | — |
-| `claude-sonnet-4` | — | reasoning | 1M | $3 | $15 | $0.3 | — | —/— | — |
-| `claude-sonnet-4-5` | — | reasoning | 1M | $3 | $15 | $0.3 | — | —/— | — |
-| `claude-sonnet-4-6` | — | reasoning | 1M | $3 | $15 | $0.3 | — | —/— | — |
-| `claude-sonnet-5` | — | reasoning | 1M | $2 | $10 | $0.2 | — | —/— | — |
-| `deepseek-v4-flash` | — | reasoning | 1M | $0.14 | $0.28 | $0.028 | — | —/— | — |
-| `deepseek-v4-flash-free` | — | reasoning | 200K | $0 | $0 | $0 | — | —/— | — |
-| `deepseek-v4-pro` | — | reasoning | 1M | $1.74 | $3.84 | $0.145 | — | —/— | — |
-| `gemini-3-flash` | — | reasoning | 1.04858M | $0.5 | $3 | $0.05 | — | —/— | — |
-| `gemini-3-pro` | — | reasoning | 1.04858M | $2 | $12 | $0.2 | — | —/— | — |
-| `gemini-3.1-pro` | — | reasoning | 1.04858M | $2 | $12 | $0.2 | — | —/— | — |
-| `gemini-3.5-flash` | — | reasoning | 1.04858M | $1.5 | $9 | $0.15 | — | —/— | — |
-| `gemini-3.5-flash-lite` | — | reasoning | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — |
-| `gemini-3.6-flash` | — | reasoning | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — |
-| `gemini-3.7-flash` | — | reasoning | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — |
-| `glm-4.6` | — | reasoning | 204.8K | $0.6 | $2.2 | $0.1 | — | —/— | — |
-| `glm-4.7` | — | reasoning | 204.8K | $0.6 | $2.2 | $0.1 | — | —/— | — |
-| `glm-4.7-free` | — | reasoning | 204.8K | $0 | $0 | $0 | — | —/— | — |
-| `glm-5` | — | reasoning | 204.8K | $1 | $3.2 | $0.2 | — | —/— | — |
-| `glm-5-free` | — | reasoning | 204.8K | $0 | $0 | $0 | — | —/— | — |
-| `glm-5.1` | — | reasoning | 204.8K | $1.4 | $4.4 | $0.26 | — | —/— | — |
-| `glm-5.2` | — | reasoning | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — |
-| `gpt-5` | — | reasoning | 400K | $1.07 | $8.5 | $0.107 | — | —/— | — |
-| `gpt-5-codex` | — | reasoning | 400K | $1.07 | $8.5 | $0.107 | — | —/— | — |
-| `gpt-5-nano` | — | reasoning | 400K | $0.05 | $0.4 | $0.005 | — | —/— | — |
-| `gpt-5.1` | — | reasoning | 400K | $1.07 | $8.5 | $0.107 | — | —/— | — |
-| `gpt-5.1-codex` | — | reasoning | 400K | $1.07 | $8.5 | $0.107 | — | —/— | — |
-| `gpt-5.1-codex-max` | — | reasoning | 400K | $1.25 | $10 | $0.125 | — | —/— | — |
-| `gpt-5.1-codex-mini` | — | reasoning | 400K | $0.25 | $2 | $0.025 | — | —/— | — |
-| `gpt-5.2` | — | reasoning | 400K | $1.75 | $14 | $0.175 | — | —/— | — |
-| `gpt-5.2-codex` | — | reasoning | 400K | $1.75 | $14 | $0.175 | — | —/— | — |
-| `gpt-5.3-codex` | — | reasoning | 400K | $1.75 | $14 | $0.175 | — | —/— | — |
-| `gpt-5.3-codex-spark` | — | reasoning | 128K | $1.75 | $14 | $0.175 | — | —/— | — |
-| `gpt-5.4` | — | reasoning | 1.05M | $2.5 | $15 | $0.25 | — | —/— | — |
-| `gpt-5.4-mini` | — | reasoning | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — |
-| `gpt-5.4-nano` | — | reasoning | 400K | $0.2 | $1.25 | $0.02 | — | —/— | — |
-| `gpt-5.4-pro` | — | reasoning | 1.05M | $30 | $180 | $30 | — | —/— | — |
-| `gpt-5.5` | — | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — |
-| `gpt-5.5-pro` | — | reasoning | 1.05M | $30 | $180 | $30 | — | —/— | — |
-| `gpt-5.6-luna` | — | reasoning | 1.05M | $0.2 | $1.2 | $0.02 | — | —/— | — |
-| `gpt-5.6-sol` | — | reasoning | 1.05M | $2.5 | $15 | $0.25 | — | —/— | — |
-| `gpt-5.6-terra` | — | reasoning | 1.05M | $2.5 | $15 | $0.25 | — | —/— | — |
-| `grok-4.5` | — | reasoning | 500K | $2 | $6 | $0.5 | — | —/— | — |
-| `grok-4.6` | — | reasoning | 500K | $2 | $6 | $0.5 | — | —/— | — |
-| `grok-build-0.1` | — | reasoning | 256K | $1 | $2 | $0.2 | — | —/— | — |
-| `grok-code` | — | reasoning | 256K | $0 | $0 | $0 | — | —/— | — |
-| `hy3-free` | — | reasoning | 190K | $0 | $0 | $0 | — | —/— | — |
-| `hy3-preview-free` | — | reasoning | 256K | $0 | $0 | $0 | — | —/— | — |
-| `kimi-k2` | — | chat | 262.144K | $0.4 | $2.5 | $0.4 | — | —/— | — |
-| `kimi-k2-thinking` | — | reasoning | 262.144K | $0.4 | $2.5 | $0.4 | — | —/— | — |
-| `kimi-k2.5` | — | reasoning | 262.144K | $0.6 | $3 | $0.08 | — | —/— | — |
-| `kimi-k2.5-free` | — | reasoning | 262.144K | $0 | $0 | $0 | — | —/— | — |
-| `kimi-k2.6` | — | reasoning | 262.144K | $0.95 | $4 | $0.16 | — | —/— | — |
-| `kimi-k2.7-code` | — | reasoning | 262.144K | $0.95 | $4 | $0.19 | — | —/— | — |
-| `kimi-k3` | — | reasoning | 1.04858M | $3 | $15 | $0.3 | — | —/— | — |
-| `laguna-s-2.1-free` | — | reasoning | 256K | $0 | $0 | $0 | — | —/— | — |
-| `ling-2.6-flash-free` | — | chat | 262.1K | $0 | $0 | — | — | —/— | — |
-| `ling-3.0-flash-free` | — | reasoning | 262.144K | $0 | $0 | $0 | — | —/— | — |
-| `ling-3.0-tiny-free` | — | reasoning | 262.144K | $0 | $0 | — | — | —/— | — |
-| `longcat-2.0-free` | — | reasoning | 1M | $0 | $0 | $0 | — | —/— | — |
-| `mimo-v2-flash-free` | — | reasoning | 262.144K | $0 | $0 | $0 | — | —/— | — |
-| `mimo-v2-omni-free` | — | reasoning | 262.144K | $0 | $0 | $0 | — | —/— | — |
-| `mimo-v2-pro-free` | — | reasoning | 1.04858M | $0 | $0 | $0 | — | —/— | — |
-| `mimo-v2.5-free` | — | reasoning | 200K | $0 | $0 | $0 | — | —/— | — |
-| `minimax-m2.1` | — | reasoning | 204.8K | $0.3 | $1.2 | $0.1 | — | —/— | — |
-| `minimax-m2.1-free` | — | reasoning | 204.8K | $0 | $0 | $0 | — | —/— | — |
-| `minimax-m2.5` | — | reasoning | 204.8K | $0.3 | $1.2 | $0.06 | — | —/— | — |
-| `minimax-m2.5-free` | — | reasoning | 204.8K | $0 | $0 | $0 | — | —/— | — |
-| `minimax-m2.7` | — | reasoning | 204.8K | $0.3 | $1.2 | $0.06 | — | —/— | — |
-| `minimax-m3` | — | reasoning | 512K | $0.3 | $1.2 | $0.06 | — | —/— | — |
-| `minimax-m3-free` | — | reasoning | 200K | $0 | $0 | $0 | — | —/— | — |
-| `muse-spark-1.2` | — | reasoning | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — |
-| `muse-spark-1.2-contributor-free` | — | reasoning | 1.04858M | $0 | $0 | $0 | — | —/— | — |
-| `nemotron-3-super-free` | — | reasoning | 204.8K | $0 | $0 | $0 | — | —/— | — |
-| `nemotron-3-ultra-free` | — | reasoning | 1M | $0 | $0 | $0 | — | —/— | — |
-| `nemotron-3.5-lightning-free` | — | reasoning | 262.144K | $0 | $0 | $0 | — | —/— | — |
-| `north-mini-code-free` | — | reasoning | 256K | $0 | $0 | — | — | —/— | — |
-| `qwen3-coder` | — | chat | 262.144K | $0.45 | $1.8 | — | — | —/— | — |
-| `qwen3.5-plus` | — | reasoning | 262.144K | $0.2 | $1.2 | $0.02 | — | —/— | — |
-| `qwen3.6-plus` | — | reasoning | 262.144K | $0.5 | $3 | $0.05 | — | —/— | — |
-| `qwen3.6-plus-free` | — | reasoning | 262.144K | $0 | $0 | $0 | — | —/— | — |
-| `ring-2.6-1t-free` | — | reasoning | 262K | $0 | $0 | — | — | —/— | — |
-| `trinity-large-preview-free` | — | chat | 131.072K | $0 | $0 | — | — | —/— | — |
-| `x-preview-f-free` | — | reasoning | 1M | $0 | $0 | $0 | — | —/— | — |
+| `big-pickle` | — | chat | — | $0 | $0 | $0 | — | —/— | — |
+| `claude-fable-5` | — | chat | — | $10 | $50 | $1 | $12.5 | —/— | — |
+| `claude-haiku-4-5` | — | chat | — | $1 | $5 | $0.1 | $1.25 | —/— | — |
+| `claude-opus-4-5` | — | chat | — | $5 | $25 | $0.5 | $6.25 | —/— | — |
+| `claude-opus-4-6` | — | chat | — | $5 | $25 | $0.5 | $6.25 | —/— | — |
+| `claude-opus-4-7` | — | chat | — | $5 | $25 | $0.5 | $6.25 | —/— | — |
+| `claude-opus-4-8` | — | chat | — | $5 | $25 | $0.5 | $6.25 | —/— | — |
+| `claude-opus-5` | — | chat | — | $5 | $25 | $0.5 | $6.25 | —/— | — |
+| `claude-sonnet-4-5` | — | chat | — | $3 | $15 | $0.3 | $3.75 | —/— | — |
+| `claude-sonnet-4-6` | — | chat | — | $3 | $15 | $0.3 | $3.75 | —/— | — |
+| `claude-sonnet-5` | — | chat | — | $2 | $10 | $0.2 | $2.5 | —/— | — |
+| `deepseek-v4-flash` | — | chat | — | $0.22 | $0.66 | $0.007 | — | —/— | — |
+| `deepseek-v4-pro` | — | chat | — | $0.66 | $1.98 | $0.022 | — | —/— | — |
+| `gemini-3-flash` | — | chat | — | $0.5 | $3 | $0.05 | — | —/— | — |
+| `gemini-3.1-pro` | — | chat | — | $2 | $12 | $0.2 | — | —/— | — |
+| `gemini-3.5-flash` | — | chat | — | $1.5 | $9 | $0.15 | — | —/— | — |
+| `gemini-3.5-flash-lite` | — | chat | — | $0.3 | $2.5 | $0.03 | — | —/— | — |
+| `gemini-3.6-flash` | — | chat | — | $1.5 | $7.5 | $0.15 | — | —/— | — |
+| `gemini-3.7-flash` | — | chat | — | $1.5 | $7.5 | $0.15 | — | —/— | — |
+| `glm-5` | — | chat | — | $1 | $3.2 | $0.2 | — | —/— | — |
+| `glm-5.1` | — | chat | — | $1.4 | $4.4 | $0.26 | — | —/— | — |
+| `glm-5.2` | — | chat | — | $1.4 | $4.4 | $0.26 | — | —/— | — |
+| `gpt-5` | — | chat | — | $1.07 | $8.5 | $0.107 | — | —/— | — |
+| `gpt-5-codex` | — | chat | — | $1.07 | $8.5 | $0.107 | — | —/— | — |
+| `gpt-5-nano` | — | chat | — | $0.05 | $0.4 | $0.005 | — | —/— | — |
+| `gpt-5.1` | — | chat | — | $1.07 | $8.5 | $0.107 | — | —/— | — |
+| `gpt-5.1-codex` | — | chat | — | $1.07 | $8.5 | $0.107 | — | —/— | — |
+| `gpt-5.1-codex-max` | — | chat | — | $1.25 | $10 | $0.125 | — | —/— | — |
+| `gpt-5.1-codex-mini` | — | chat | — | $0.25 | $2 | $0.025 | — | —/— | — |
+| `gpt-5.2` | — | chat | — | $1.75 | $14 | $0.175 | — | —/— | — |
+| `gpt-5.2-codex` | — | chat | — | $1.75 | $14 | $0.175 | — | —/— | — |
+| `gpt-5.3-codex` | — | chat | — | $1.75 | $14 | $0.175 | — | —/— | — |
+| `gpt-5.3-codex-spark` | — | chat | — | $1.75 | $14 | $0.175 | — | —/— | — |
+| `gpt-5.4` | — | chat | — | $2.5 | $15 | $0.25 | — | —/— | — |
+| `gpt-5.4-mini` | — | chat | — | $0.75 | $4.5 | $0.075 | — | —/— | — |
+| `gpt-5.4-nano` | — | chat | — | $0.2 | $1.25 | $0.02 | — | —/— | — |
+| `gpt-5.4-pro` | — | chat | — | $30 | $180 | $30 | — | —/— | — |
+| `gpt-5.5` | — | chat | — | $5 | $30 | $0.5 | — | —/— | — |
+| `gpt-5.5-pro` | — | chat | — | $30 | $180 | $30 | — | —/— | — |
+| `gpt-5.6-luna` | — | chat | — | $0.2 | $1.2 | $0.02 | $0.25 | —/— | — |
+| `gpt-5.6-sol` | — | chat | — | $2.5 | $15 | $0.25 | $3.125 | —/— | — |
+| `gpt-5.6-terra` | — | chat | — | $2 | $12 | $0.2 | $2.5 | —/— | — |
+| `grok-4.5` | — | chat | — | $2 | $6 | $0.3 | — | —/— | — |
+| `grok-4.6` | — | chat | — | $2 | $6 | $0.5 | — | —/— | — |
+| `grok-build-0.1` | — | chat | — | $1 | $2 | $0.2 | — | —/— | — |
+| `hy3-free` | — | chat | — | $0 | $0 | $0 | — | —/— | — |
+| `kimi-k2.5` | — | chat | — | $0.6 | $3 | $0.1 | — | —/— | — |
+| `kimi-k2.6` | — | chat | — | $0.95 | $4 | $0.16 | — | —/— | — |
+| `kimi-k2.7-code` | — | chat | — | $0.95 | $4 | $0.19 | — | —/— | — |
+| `kimi-k3` | — | chat | — | $3 | $15 | $0.3 | — | —/— | — |
+| `mimo-v2.5-free` | — | chat | — | $0 | $0 | $0 | — | —/— | — |
+| `minimax-m2.5` | — | chat | — | $0.3 | $1.2 | $0.06 | — | —/— | — |
+| `minimax-m2.7` | — | chat | — | $0.3 | $1.2 | $0.06 | — | —/— | — |
+| `minimax-m3` | — | chat | — | $0.3 | $1.2 | $0.06 | — | —/— | — |
+| `muse-spark-1.2` | — | chat | — | $1.25 | $4.25 | $0.15 | — | —/— | — |
+| `muse-spark-1.2-contributor-free` | — | chat | — | $0 | $0 | $0 | — | —/— | — |
+| `nemotron-3-ultra-free` | — | chat | — | $0 | $0 | $0 | — | —/— | — |
+| `nemotron-3.5-lightning-free` | — | chat | — | $0 | $0 | $0 | — | —/— | — |
+| `qwen3.5-plus` | — | chat | — | $0.2 | $1.2 | $0.02 | $0.25 | —/— | — |
+| `qwen3.6-plus` | — | chat | — | $0.5 | $3 | $0.05 | $0.625 | —/— | — |
+| `qwen3.7-max` | — | chat | — | $2.5 | $7.5 | $0.5 | $3.125 | —/— | — |
+| `qwen3.7-plus` | — | chat | — | $0.4 | $1.6 | $0.04 | $0.5 | —/— | — |
+| `x-preview-f-free` | — | chat | — | $0 | $0 | $0 | — | —/— | — |

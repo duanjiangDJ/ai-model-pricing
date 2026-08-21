@@ -148,5 +148,6 @@
       },
       "notes": "models.dev official list price"
     }
-  ]
+  ],
+  "api_base_url": "https://aki.io/v1"
 }

@@ -2,9 +2,9 @@
   "schema_version": "26.0.0",
   "generated_at": "2026-08-21T13:59:16Z",
   "currency": "USD",
-  "provider_count": 203,
-  "model_count": 7302,
-  "plan_count": 53,
+  "provider_count": 184,
+  "model_count": 7077,
+  "plan_count": 64,
   "providers": [
     {
       "id": "hpc-ai",
@@ -44,14 +44,6 @@
       "channel": "hosted",
       "model_count": 22,
       "file": "providers/neuralwatt.json",
-      "updated_at": "2026-08-21T11:27:12Z"
-    },
-    {
-      "id": "umans-ai-coding-plan",
-      "name": "Umans AI Coding Plan",
-      "channel": "hosted",
-      "model_count": 8,
-      "file": "providers/umans-ai-coding-plan.json",
       "updated_at": "2026-08-21T11:27:12Z"
     },
     {
@@ -215,14 +207,6 @@
       "updated_at": "2026-08-21T11:27:12Z"
     },
     {
-      "id": "xiaomi-token-plan-sgp",
-      "name": "Xiaomi Token Plan (Singapore)",
-      "channel": "hosted",
-      "model_count": 7,
-      "file": "providers/xiaomi-token-plan-sgp.json",
-      "updated_at": "2026-08-21T11:27:12Z"
-    },
-    {
       "id": "the-grid-ai",
       "name": "The Grid AI",
       "channel": "hosted",
@@ -319,14 +303,6 @@
       "updated_at": "2026-08-21T11:27:12Z"
     },
     {
-      "id": "google-vertex-anthropic",
-      "name": "Vertex (Anthropic)",
-      "channel": "hosted",
-      "model_count": 12,
-      "file": "providers/google-vertex-anthropic.json",
-      "updated_at": "2026-08-21T11:27:12Z"
-    },
-    {
       "id": "poolside",
       "name": "Poolside",
       "channel": "hosted",
@@ -394,7 +370,7 @@
       "id": "moonshotai",
       "name": "Moonshot AI",
       "channel": "hosted",
-      "model_count": 10,
+      "model_count": 14,
       "file": "providers/moonshotai.json",
       "updated_at": "2026-08-21T11:27:12Z"
     },
@@ -450,7 +426,7 @@
       "id": "zai",
       "name": "Z.AI",
       "channel": "hosted",
-      "model_count": 14,
+      "model_count": 16,
       "file": "providers/zai.json",
       "updated_at": "2026-08-21T11:27:12Z"
     },
@@ -511,22 +487,6 @@
       "updated_at": "2026-08-21T11:27:12Z"
     },
     {
-      "id": "minimax-cn-coding-plan",
-      "name": "MiniMax Token Plan (minimaxi.com)",
-      "channel": "hosted",
-      "model_count": 7,
-      "file": "providers/minimax-cn-coding-plan.json",
-      "updated_at": "2026-08-21T11:27:12Z"
-    },
-    {
-      "id": "amazon-bedrock",
-      "name": "Amazon Bedrock",
-      "channel": "hosted",
-      "model_count": 120,
-      "file": "providers/amazon-bedrock.json",
-      "updated_at": "2026-08-21T11:27:12Z"
-    },
-    {
       "id": "unorouter",
       "name": "UnoRouter",
       "channel": "aggregator",
@@ -562,7 +522,7 @@
       "id": "opencode-go",
       "name": "OpenCode Go",
       "channel": "hosted",
-      "model_count": 27,
+      "model_count": 23,
       "file": "providers/opencode-go.json",
       "updated_at": "2026-08-21T11:27:12Z"
     },
@@ -573,14 +533,6 @@
       "model_count": 17,
       "file": "providers/xai.json",
       "updated_at": "2026-08-21T11:31:59Z"
-    },
-    {
-      "id": "stepfun-ai",
-      "name": "StepFun (Global)",
-      "channel": "hosted",
-      "model_count": 8,
-      "file": "providers/stepfun-ai.json",
-      "updated_at": "2026-08-21T11:27:12Z"
     },
     {
       "id": "lmstudio",
@@ -596,14 +548,6 @@
       "channel": "hosted",
       "model_count": 10,
       "file": "providers/ambient.json",
-      "updated_at": "2026-08-21T11:27:12Z"
-    },
-    {
-      "id": "llmgateway-providers",
-      "name": "LLM Gateway",
-      "channel": "aggregator",
-      "model_count": 367,
-      "file": "providers/llmgateway-providers.json",
       "updated_at": "2026-08-21T11:27:12Z"
     },
     {
@@ -647,27 +591,11 @@
       "updated_at": "2026-08-21T11:27:12Z"
     },
     {
-      "id": "xiaomi-token-plan-cn",
-      "name": "Xiaomi Token Plan (China)",
-      "channel": "hosted",
-      "model_count": 7,
-      "file": "providers/xiaomi-token-plan-cn.json",
-      "updated_at": "2026-08-21T11:27:12Z"
-    },
-    {
       "id": "tinfoil",
       "name": "Tinfoil",
       "channel": "hosted",
       "model_count": 8,
       "file": "providers/tinfoil.json",
-      "updated_at": "2026-08-21T11:27:12Z"
-    },
-    {
-      "id": "zhipuai-coding-plan",
-      "name": "Zhipu AI Coding Plan",
-      "channel": "hosted",
-      "model_count": 8,
-      "file": "providers/zhipuai-coding-plan.json",
       "updated_at": "2026-08-21T11:27:12Z"
     },
     {
@@ -826,24 +754,8 @@
       "id": "xiaomi",
       "name": "Xiaomi",
       "channel": "hosted",
-      "model_count": 6,
+      "model_count": 10,
       "file": "providers/xiaomi.json",
-      "updated_at": "2026-08-21T11:27:12Z"
-    },
-    {
-      "id": "minimax-coding-plan",
-      "name": "MiniMax Token Plan (minimax.io)",
-      "channel": "hosted",
-      "model_count": 7,
-      "file": "providers/minimax-coding-plan.json",
-      "updated_at": "2026-08-21T11:27:12Z"
-    },
-    {
-      "id": "zai-coding-plan",
-      "name": "Z.AI Coding Plan",
-      "channel": "hosted",
-      "model_count": 5,
-      "file": "providers/zai-coding-plan.json",
       "updated_at": "2026-08-21T11:27:12Z"
     },
     {
@@ -871,14 +783,6 @@
       "updated_at": "2026-08-21T11:27:12Z"
     },
     {
-      "id": "perplexity-agent",
-      "name": "Perplexity Agent",
-      "channel": "hosted",
-      "model_count": 22,
-      "file": "providers/perplexity-agent.json",
-      "updated_at": "2026-08-21T11:27:12Z"
-    },
-    {
       "id": "alibaba-coding-plan",
       "name": "Alibaba Coding Plan",
       "channel": "hosted",
@@ -898,7 +802,7 @@
       "id": "perplexity",
       "name": "Perplexity",
       "channel": "first_party",
-      "model_count": 4,
+      "model_count": 26,
       "file": "providers/perplexity.json",
       "updated_at": "2026-08-21T11:39:14Z"
     },
@@ -914,7 +818,7 @@
       "id": "umans-ai",
       "name": "Umans AI",
       "channel": "hosted",
-      "model_count": 7,
+      "model_count": 8,
       "file": "providers/umans-ai.json",
       "updated_at": "2026-08-21T11:27:12Z"
     },
@@ -1034,7 +938,7 @@
       "id": "zhipuai",
       "name": "Zhipu AI",
       "channel": "first_party",
-      "model_count": 13,
+      "model_count": 16,
       "file": "providers/zhipuai.json",
       "updated_at": "2026-08-21T11:27:12Z"
     },
@@ -1055,14 +959,6 @@
       "updated_at": "2026-08-21T11:27:12Z"
     },
     {
-      "id": "azure-cognitive-services",
-      "name": "Azure Cognitive Services",
-      "channel": "hosted",
-      "model_count": 73,
-      "file": "providers/azure-cognitive-services.json",
-      "updated_at": "2026-08-21T11:27:12Z"
-    },
-    {
       "id": "302ai",
       "name": "302.AI",
       "channel": "hosted",
@@ -1074,7 +970,7 @@
       "id": "opencode",
       "name": "OpenCode Zen",
       "channel": "hosted",
-      "model_count": 93,
+      "model_count": 63,
       "file": "providers/opencode.json",
       "updated_at": "2026-08-21T11:27:12Z"
     },
@@ -1090,7 +986,7 @@
       "id": "siliconflow",
       "name": "SiliconFlow",
       "channel": "hosted",
-      "model_count": 49,
+      "model_count": 61,
       "file": "providers/siliconflow.json",
       "updated_at": "2026-08-21T11:27:12Z"
     },
@@ -1167,22 +1063,6 @@
       "updated_at": "2026-08-21T11:27:12Z"
     },
     {
-      "id": "siliconflow-cn",
-      "name": "SiliconFlow (China)",
-      "channel": "hosted",
-      "model_count": 47,
-      "file": "providers/siliconflow-cn.json",
-      "updated_at": "2026-08-21T11:27:12Z"
-    },
-    {
-      "id": "minimax-cn",
-      "name": "MiniMax (minimaxi.com)",
-      "channel": "hosted",
-      "model_count": 7,
-      "file": "providers/minimax-cn.json",
-      "updated_at": "2026-08-21T11:27:12Z"
-    },
-    {
       "id": "poe",
       "name": "Poe",
       "channel": "hosted",
@@ -1244,14 +1124,6 @@
       "channel": "hosted",
       "model_count": 8,
       "file": "providers/tencent-coding-plan.json",
-      "updated_at": "2026-08-21T11:27:12Z"
-    },
-    {
-      "id": "xiaomi-token-plan-ams",
-      "name": "Xiaomi Token Plan (Europe)",
-      "channel": "hosted",
-      "model_count": 7,
-      "file": "providers/xiaomi-token-plan-ams.json",
       "updated_at": "2026-08-21T11:27:12Z"
     },
     {
@@ -1338,7 +1210,7 @@
       "id": "llmgateway",
       "name": "DevPass (LLM Gateway)",
       "channel": "aggregator",
-      "model_count": 189,
+      "model_count": 556,
       "file": "providers/llmgateway.json",
       "updated_at": "2026-08-21T11:27:12Z"
     },
@@ -1415,14 +1287,6 @@
       "updated_at": "2026-08-21T11:27:12Z"
     },
     {
-      "id": "github-copilot",
-      "name": "GitHub Copilot",
-      "channel": "hosted",
-      "model_count": 33,
-      "file": "providers/github-copilot.json",
-      "updated_at": "2026-08-21T11:27:12Z"
-    },
-    {
       "id": "wafer.ai",
       "name": "Wafer",
       "channel": "hosted",
@@ -1495,27 +1359,11 @@
       "updated_at": "2026-08-21T11:27:12Z"
     },
     {
-      "id": "moonshotai-cn",
-      "name": "Moonshot AI (China)",
-      "channel": "hosted",
-      "model_count": 10,
-      "file": "providers/moonshotai-cn.json",
-      "updated_at": "2026-08-21T11:27:12Z"
-    },
-    {
       "id": "wandb",
       "name": "Weights & Biases",
       "channel": "hosted",
       "model_count": 29,
       "file": "providers/wandb.json",
-      "updated_at": "2026-08-21T11:27:12Z"
-    },
-    {
-      "id": "kimi-for-coding",
-      "name": "Kimi For Coding",
-      "channel": "hosted",
-      "model_count": 4,
-      "file": "providers/kimi-for-coding.json",
       "updated_at": "2026-08-21T11:27:12Z"
     },
     {
@@ -1546,7 +1394,7 @@
       "id": "github",
       "name": "GitHub",
       "channel": "subscription",
-      "model_count": 0,
+      "model_count": 33,
       "file": "providers/github.json",
       "updated_at": "2026-08-21T11:36:36Z"
     },
@@ -1610,7 +1458,7 @@
       "id": "aws",
       "name": "Amazon Web Services",
       "channel": "cloud",
-      "model_count": 0,
+      "model_count": 120,
       "file": "providers/aws.json",
       "updated_at": "2026-08-21T11:39:14Z"
     },

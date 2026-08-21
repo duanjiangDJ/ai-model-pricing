@@ -14,6 +14,6 @@
 |---|---|---|---|---|---|---|---|---|---|
 | `deepseek-chat` | 🔁 superseded | chat | — | — | — | — | — | —/— | — |
 | `deepseek-reasoner` | 🔁 superseded | reasoning | — | — | — | — | — | —/— | — |
-| `deepseek-v4-flash` | — | chat | 1M | $3 | $9 | $0.1 | — | —/— | — |
-| `deepseek-v4-flash-vision-exp` | 🧪 preview | vision | 1M | $3 | $9 | $0.1 | — | —/— | — |
-| `deepseek-v4-pro` | — | chat | 1M | $9 | $27 | $0.3 | — | —/— | — |
+| `deepseek-v4-flash` | — | chat | 1M | $3 | $9 | $0.1 | — | —/— | ⚡ peak/off-peak |
+| `deepseek-v4-flash-vision-exp` | 🧪 preview | vision | 1M | $3 | $9 | $0.1 | — | —/— | ⚡ peak/off-peak |
+| `deepseek-v4-pro` | — | chat | 1M | $9 | $27 | $0.3 | — | —/— | ⚡ peak/off-peak |

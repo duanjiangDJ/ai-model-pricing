@@ -514,6 +514,13 @@
             "null"
           ]
         },
+        "api_base_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "The API endpoint this provider serves (e.g. https://api.deepseek.com). null = subscription product without a public API. Canonical identity for deduplication: providers sharing the same base URL expose the same API; their model entries must be merged."
+        },
         "currency": {
           "type": "string",
           "default": "USD"

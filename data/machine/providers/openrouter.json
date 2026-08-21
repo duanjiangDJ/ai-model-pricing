@@ -9328,5 +9328,6 @@
       },
       "notes": "OpenRouter reseller price"
     }
-  ]
+  ],
+  "api_base_url": "https://openrouter.ai/api/v1"
 }

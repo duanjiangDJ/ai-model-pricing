@@ -1252,5 +1252,6 @@
       },
       "notes": "models.dev official list price"
     }
-  ]
+  ],
+  "api_base_url": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
 }

@@ -14,6 +14,6 @@
 |---|---|---|---|---|---|---|---|---|---|
 | `deepseek-chat` | 🔁 已被取代 | chat | — | — | — | — | — | —/— | — |
 | `deepseek-reasoner` | 🔁 已被取代 | reasoning | — | — | — | — | — | —/— | — |
-| `deepseek-v4-flash` | — | chat | 1M | $3 | $9 | $0.1 | — | —/— | — |
-| `deepseek-v4-flash-vision-exp` | 🧪 预览 | vision | 1M | $3 | $9 | $0.1 | — | —/— | — |
-| `deepseek-v4-pro` | — | chat | 1M | $9 | $27 | $0.3 | — | —/— | — |
+| `deepseek-v4-flash` | — | chat | 1M | $3 | $9 | $0.1 | — | —/— | ⚡ 峰谷双档 |
+| `deepseek-v4-flash-vision-exp` | 🧪 预览 | vision | 1M | $3 | $9 | $0.1 | — | —/— | ⚡ 峰谷双档 |
+| `deepseek-v4-pro` | — | chat | 1M | $9 | $27 | $0.3 | — | —/— | ⚡ 峰谷双档 |

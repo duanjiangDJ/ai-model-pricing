@@ -105,6 +105,37 @@ for d in prose_docs:
         warn(f"missing zh-CN version for {d}")
 print(f"OK docs: {len(prose_docs)} prose docs checked")
 
+# 5. api_base_url completeness + dedup check
+by_url = {}
+for f in sorted(glob.glob("data/machine/providers/*.json")):
+    p = json.load(open(f, encoding="utf-8"))
+    pid = p["provider_id"]
+    if "api_base_url" not in p:
+        fail(f"provider {pid} missing api_base_url field")
+        continue
+    url = p.get("api_base_url")
+    if url is None:
+        if p.get("channel") != "subscription":
+            warn(f"provider {pid} has api_base_url=null but channel={p.get('channel')} (expected subscription)")
+        continue
+    # normalize template placeholders for grouping
+    norm = url.replace("{region}", "*").replace("{resource}", "*").replace("${ACCOUNT_ID}", "*")
+    by_url.setdefault(norm, []).append(pid)
+for url, pids in by_url.items():
+    if len(pids) < 2:
+        continue
+    # check model-id overlap between same-base-url providers (dedup requirement)
+    sets = {}
+    for pid in pids:
+        p = json.load(open(f"data/machine/providers/{pid}.json", encoding="utf-8"))
+        sets[pid] = {m["id"].lower() for m in p.get("models", [])}
+    for i, a in enumerate(pids):
+        for b in pids[i + 1:]:
+            common = sets[a] & sets[b]
+            if common:
+                fail(f"duplicate models between same api_base_url ({url}): {a} ∩ {b} = {len(common)} (e.g. {sorted(common)[:3]}); merge them")
+print(f"OK api_base_url: {len(by_url)} distinct endpoints, dup-groups checked")
+
 if failures:
     print(f"\nAUDIT FAILED: {len(failures)} failures, {len(warnings)} warnings")
     sys.exit(1)

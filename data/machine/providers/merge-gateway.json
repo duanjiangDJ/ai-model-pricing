@@ -4012,5 +4012,6 @@
       },
       "notes": "models.dev official list price"
     }
-  ]
+  ],
+  "api_base_url": "https://api-gateway.merge.dev/v1/ai-sdk"
 }

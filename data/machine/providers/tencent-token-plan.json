@@ -33,5 +33,6 @@
       },
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     }
-  ]
+  ],
+  "api_base_url": "https://api.lkeap.cloud.tencent.com/plan/v3"
 }
