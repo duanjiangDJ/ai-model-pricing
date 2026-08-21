@@ -3,7 +3,7 @@
 > Data sources: official pricing pages & public APIs. Machine-readable version: [`data/machine/`](../machine/).
 > Auto-updated daily by GitHub Actions (see `.github/workflows/daily-check.yml`).
 
-- Generated: 2026-08-21T13:19:20Z
+- Generated: 2026-08-21T13:34:52Z
 - Providers: 204
 - Models total: 7302
 - Plans total: 51
@@ -33,7 +33,7 @@
 | [Synthetic](providers/synthetic.md) | Inference host | 8 | `providers/synthetic.json` | 2026-08-21T11:28:01Z |
 | [Jalapeno Cloud](providers/jalapeno.md) | Inference host | 17 | `providers/jalapeno.json` | 2026-08-21T11:28:01Z |
 | [abliteration.ai](providers/abliteration-ai.md) | Inference host | 2 | `providers/abliteration-ai.json` | 2026-08-21T11:28:01Z |
-| [DeepSeek](providers/deepseek.md) | First-party | 5 | `providers/deepseek.json` | 2026-08-21T13:19:25Z |
+| [DeepSeek](providers/deepseek.md) | First-party | 5 | `providers/deepseek.json` | 2026-08-21T13:34:53Z |
 | [GreenPT](providers/greenpt.md) | Inference host | 37 | `providers/greenpt.json` | 2026-08-21T13:18:01Z |
 | [Xpersona](providers/xpersona.md) | Inference host | 13 | `providers/xpersona.json` | 2026-08-21T13:18:01Z |
 | [Tencent TokenHub](providers/tencent-tokenhub.md) | Inference host | 2 | `providers/tencent-tokenhub.json` | 2026-08-21T13:18:01Z |
@@ -65,7 +65,7 @@
 | [Kenari](providers/kenari.md) | Inference host | 38 | `providers/kenari.json` | 2026-08-21T13:21:07Z |
 | [Clarifai](providers/clarifai.md) | Inference host | 12 | `providers/clarifai.json` | 2026-08-21T13:21:07Z |
 | [Snowflake Cortex](providers/snowflake-cortex.md) | Inference host | 25 | `providers/snowflake-cortex.json` | 2026-08-21T13:21:07Z |
-| [Anthropic](providers/anthropic.md) | First-party | 16 | `providers/anthropic.json` | 2026-08-21T13:19:25Z |
+| [Anthropic](providers/anthropic.md) | First-party | 16 | `providers/anthropic.json` | 2026-08-21T13:34:53Z |
 | [Cohere](providers/cohere.md) | First-party | 14 | `providers/cohere.json` | 2026-08-21T13:21:07Z |
 | [Z.AI](providers/zai.md) | Inference host | 14 | `providers/zai.json` | 2026-08-21T13:21:07Z |
 | [routing.run](providers/routing-run.md) | Inference host | 15 | `providers/routing-run.json` | 2026-08-21T13:21:07Z |
@@ -208,14 +208,14 @@
 | [Cursor (Anysphere)](providers/cursor.md) | subscription | 0 | `providers/cursor.json` | 2026-08-21T11:36:36Z |
 | [Windsurf (Codeium)](providers/windsurf.md) | subscription | 0 | `providers/windsurf.json` | 2026-08-21T11:36:36Z |
 | [JetBrains](providers/jetbrains.md) | subscription | 0 | `providers/jetbrains.json` | 2026-08-21T11:36:36Z |
-| [百度智能云千帆 (Baidu Qianfan)](providers/baidu.md) | First-party | 3 | `providers/baidu.json` | 2026-08-21T13:19:25Z |
+| [百度智能云千帆 (Baidu Qianfan)](providers/baidu.md) | First-party | 3 | `providers/baidu.json` | 2026-08-21T13:34:53Z |
 | [腾讯混元 (Tencent Hunyuan)](providers/tencent.md) | First-party | 1 | `providers/tencent.json` | 2026-08-21T11:38:22Z |
 | [火山引擎方舟 (Volcengine Ark / 豆包)](providers/volcengine.md) | First-party | 2 | `providers/volcengine.json` | 2026-08-21T11:38:22Z |
 | [Devin (Cognition)](providers/devin.md) | subscription | 0 | `providers/devin.json` | 2026-08-21T11:39:14Z |
 | [Amazon Web Services](providers/aws.md) | Cloud-hosted | 0 | `providers/aws.json` | 2026-08-21T11:39:14Z |
 | [Tabnine](providers/tabnine.md) | subscription | 0 | `providers/tabnine.json` | 2026-08-21T11:40:00Z |
 | [Replit](providers/replit.md) | subscription | 0 | `providers/replit.json` | 2026-08-21T11:40:00Z |
-| [OpenRouter](providers/openrouter.md) | Aggregator | 420 | `providers/openrouter.json` | 2026-08-21T13:21:07Z |
+| [OpenRouter](providers/openrouter.md) | Aggregator | 420 | `providers/openrouter.json` | 2026-08-21T13:34:52Z |
 
 ## Plans
 
