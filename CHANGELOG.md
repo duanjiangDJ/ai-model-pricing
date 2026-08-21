@@ -1,5 +1,14 @@
 # Changelog
 
+## 进度（2026-08-21 第二轮）
+
+- **已入库官方定价**（调研子代理核实，verified 2026-08-21）：
+  - Google Gemini：Gemini 3.6/3.5 Flash（intro 价 $0.75/$3.75）、3.1 Pro Preview（$2/$12）、3 Flash Preview、2.5 Pro/Flash/Flash-Lite、Embedding 1/2；2.0 系列已退役标记
+  - xAI：Grok 4.6/4.5/4.3、4.20 系列、Grok Build 0.1；2025 时代模型退役标记（redirect 至 4.3）
+  - 订阅计划 11 个：Google AI Pro $19.99 / Ultra $99.99~$200 / Plus $7.99、Gemini Code Assist Free/Standard $19/Enterprise $45、SuperGrok $30/Heavy $300/Lite $10
+- **调研流水线**：`docs/research-contract.md`（子代理输出契约）+ `scripts/merge_research.py`（自动合并入库）
+- 其余调研（OpenAI、Anthropic、国内厂商、托管平台、编码计划）进行中
+
 ## v1.0.0 (2026-08-21)
 
 - **数据结构定稿**：`data/machine/schema.json` v1.0.0（JSON Schema draft 2020-12），覆盖 17 种收费形式枚举（per MTok / cache / batch / per image / per audio second / per character / per request / credits / GPU / neuron second / 订阅月费年费 / 免费额度 / 微调 / provisioned）。
