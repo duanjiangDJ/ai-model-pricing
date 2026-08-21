@@ -10,14 +10,14 @@
 
 **9** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `agent-max` | reasoning | 1M | — | — | — | — | —/— | — |
-| `agent-prime` | reasoning | 196.608K | — | — | — | — | —/— | — |
-| `agent-standard` | reasoning | 128K | — | — | — | — | —/— | — |
-| `code-max` | reasoning | 1M | — | — | — | — | —/— | — |
-| `code-prime` | reasoning | 196.608K | — | — | — | — | —/— | — |
-| `code-standard` | reasoning | 128K | — | — | — | — | —/— | — |
-| `text-max` | reasoning | 1M | — | — | — | — | —/— | — |
-| `text-prime` | reasoning | 196.608K | — | — | — | — | —/— | — |
-| `text-standard` | reasoning | 128K | — | — | — | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `agent-max` | — | reasoning | 1M | — | — | — | — | —/— | — |
+| `agent-prime` | — | reasoning | 196.608K | — | — | — | — | —/— | — |
+| `agent-standard` | — | reasoning | 128K | — | — | — | — | —/— | — |
+| `code-max` | — | reasoning | 1M | — | — | — | — | —/— | — |
+| `code-prime` | — | reasoning | 196.608K | — | — | — | — | —/— | — |
+| `code-standard` | — | reasoning | 128K | — | — | — | — | —/— | — |
+| `text-max` | — | reasoning | 1M | — | — | — | — | —/— | — |
+| `text-prime` | — | reasoning | 196.608K | — | — | — | — | —/— | — |
+| `text-standard` | — | reasoning | 128K | — | — | — | — | —/— | — |

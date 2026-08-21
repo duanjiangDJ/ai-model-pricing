@@ -31,7 +31,8 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "旧型号（V3.2 时代），已被 deepseek-v4-flash 取代；旧价 $0.28/$0.42 不再适用于当前官方在售模型，保留条目仅作历史参考。 SUPERSEDED by deepseek-v4 series; historical entry only."
+      "notes": "旧型号（V3.2 时代），已被 deepseek-v4-flash 取代；旧价 $0.28/$0.42 不再适用于当前官方在售模型，保留条目仅作历史参考。 SUPERSEDED by deepseek-v4 series; historical entry only.",
+      "status": "superseded"
     },
     {
       "id": "deepseek-reasoner",
@@ -54,7 +55,8 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "旧型号（R1 时代），已被 deepseek-v4-flash/pro 的思考模式取代；旧价 $0.55/$2.19 不再适用于当前官方在售模型，保留条目仅作历史参考。 SUPERSEDED by deepseek-v4 series; historical entry only."
+      "notes": "旧型号（R1 时代），已被 deepseek-v4-flash/pro 的思考模式取代；旧价 $0.55/$2.19 不再适用于当前官方在售模型，保留条目仅作历史参考。 SUPERSEDED by deepseek-v4 series; historical entry only.",
+      "status": "superseded"
     },
     {
       "id": "deepseek-v4-flash",
@@ -97,7 +99,8 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "官方价（CNY/百万tokens）与 flash 相同：输入(未命中) 高峰 ¥3.0/闲时 ¥1.5；输出 ¥9.0/¥4.5；缓存命中 ¥0.10/¥0.05。图片按尺寸换算成 token 一并计费（Exp 实验版）。 官方英文页 USD 价同 flash。"
+      "notes": "官方价（CNY/百万tokens）与 flash 相同：输入(未命中) 高峰 ¥3.0/闲时 ¥1.5；输出 ¥9.0/¥4.5；缓存命中 ¥0.10/¥0.05。图片按尺寸换算成 token 一并计费（Exp 实验版）。 官方英文页 USD 价同 flash。",
+      "status": "preview"
     },
     {
       "id": "deepseek-v4-pro",

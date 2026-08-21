@@ -10,9 +10,9 @@
 
 **4** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `DeepSeek-V4-Flash` | reasoning | 1M | $0.143 | $0.2857 | — | — | —/— | — |
-| `DeepSeek-V4-Pro` | reasoning | 1M | $0.4286 | $0.8571 | — | — | —/— | — |
-| `GLM-5.1` | reasoning | 200K | $0.8571 | $3.4286 | — | — | —/— | — |
-| `Kimi-K2.6` | reasoning | 262.144K | $0.9286 | $3.8571 | — | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `DeepSeek-V4-Flash` | — | reasoning | 1M | $0.143 | $0.2857 | — | — | —/— | — |
+| `DeepSeek-V4-Pro` | — | reasoning | 1M | $0.4286 | $0.8571 | — | — | —/— | — |
+| `GLM-5.1` | — | reasoning | 200K | $0.8571 | $3.4286 | — | — | —/— | — |
+| `Kimi-K2.6` | — | reasoning | 262.144K | $0.9286 | $3.8571 | — | — | —/— | — |

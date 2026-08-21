@@ -10,12 +10,12 @@
 
 **7** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `Qwen/Qwen3-235B-A22B-Instruct-2507` | chat | 262.144K | $0 | $0 | — | — | —/— | — |
-| `Qwen/Qwen3-235B-A22B-Thinking-2507` | reasoning | 262.144K | $0 | $0 | — | — | —/— | — |
-| `Qwen/Qwen3-30B-A3B-Instruct-2507` | chat | 262.144K | $0 | $0 | — | — | —/— | — |
-| `Qwen/Qwen3-30B-A3B-Thinking-2507` | reasoning | 262.144K | $0 | $0 | — | — | —/— | — |
-| `Qwen/Qwen3-Coder-30B-A3B-Instruct` | chat | 262.144K | $0 | $0 | — | — | —/— | — |
-| `ZhipuAI/GLM-4.5` | reasoning | 131.072K | $0 | $0 | — | — | —/— | — |
-| `ZhipuAI/GLM-4.6` | reasoning | 202.752K | $0 | $0 | — | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `Qwen/Qwen3-235B-A22B-Instruct-2507` | — | chat | 262.144K | $0 | $0 | — | — | —/— | — |
+| `Qwen/Qwen3-235B-A22B-Thinking-2507` | — | reasoning | 262.144K | $0 | $0 | — | — | —/— | — |
+| `Qwen/Qwen3-30B-A3B-Instruct-2507` | — | chat | 262.144K | $0 | $0 | — | — | —/— | — |
+| `Qwen/Qwen3-30B-A3B-Thinking-2507` | — | reasoning | 262.144K | $0 | $0 | — | — | —/— | — |
+| `Qwen/Qwen3-Coder-30B-A3B-Instruct` | — | chat | 262.144K | $0 | $0 | — | — | —/— | — |
+| `ZhipuAI/GLM-4.5` | — | reasoning | 131.072K | $0 | $0 | — | — | —/— | — |
+| `ZhipuAI/GLM-4.6` | — | reasoning | 202.752K | $0 | $0 | — | — | —/— | — |

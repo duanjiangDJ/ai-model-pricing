@@ -1,4 +1,5 @@
-# 机器可读格式规范（Machine-Readable Format Specification）
+> **Language: English (en)** — This document is written in en only.
+# Machine-Readable Format Specification (FORMAT)
 
 > 版本：**1.0.0**（由 `data/machine/schema.json` 的 `version` 字段与各文件 `schema_version` 字段声明）
 > 本格式专为爬虫/程序/工具链设计：稳定、版本化、可校验、可增量同步。
@@ -58,7 +59,15 @@ data/meta/
 ## 订阅计划（plans.json）
 
 每个计划：`id`、`provider_id`、`product`、`plan`、`category`（consumer/coding/team/enterprise/student/api_credits/free）、
-`billing`（monthly/yearly/one_time）、`price_usd`（年付记年总价）、`limits`、`includes[]`、`url`、`verified_at`。
+**`pricing_model`**（flat_monthly / flat_yearly / per_seat_monthly / per_seat_yearly / credits / free / custom —— 订阅的独立定价结构，与模型 per-MTok 定价严格区分）、
+`billing`（monthly/yearly/one_time）、`price_usd`（年付记年总价；per-seat 记每席位价）、`price_per_seat_usd`、`credits_included`、`included_models[]`（订阅内包含、无独立按 token 定价的模型）、`limits`、`includes[]`、`url`、`verified_at`。
+
+**订阅包含的模型**（如 coding-plan/token-plan 类）在 provider 文件中 `per_mtok` 一律为 `null` + notes 注明"包含于订阅计划"，**绝不用 0 表示**（0 仅表示真正免费的 API 模型）。
+
+## 模型状态（model.status）
+
+`active`（在售）/ `preview`（预览/受限）/ `deprecated`（宣布弃用，仍可用）/ `retired`（已停售）/ `superseded`（已被替代，保留作历史条目）。
+过时模型必须标注 `status`，人类可读页面以 ❌/⚠️/🔁/🧪 显著标记。
 
 ## 渠道语义（channel）
 
@@ -67,10 +76,13 @@ data/meta/
 
 同一模型在不同渠道价格不同属正常现象，各渠道分别记录、互不覆盖；`notes` 注明口径。
 
-## 版本策略
+## 版本策略（年份.功能更新.内容更新）
 
-- 新增可选字段：patch 版本（1.0.x），向后兼容。
-- 新增必填字段 / 重命名字段 / 改变单位：minor 或 major 版本，并在 `CHANGELOG.md`（仓库根）说明迁移。
+版本号格式：**`年份.功能更新.内容更新`**（如 `26.3.2`），规则见仓库根 `CHANGELOG.md`。
+
+- **内容更新**（第三段，+1）：定价数据变化（价格、模型新增/退役、计划变更）——数据文件 `schema_version` 同步更新。
+- **功能更新**（第二段，+1 并重置第三段）：数据结构/脚本/文档/机制等非定价变更——`schema.json` 的 `version` 与各文件 `schema_version` 同步更新。
+- 新增可选字段：内容更新即可；新增必填字段 / 重命名字段 / 改变单位：**功能更新**，并在 `CHANGELOG.md` 说明迁移。
 - 消费方应校验 `schema_version` 前缀是否匹配其支持的版本。
 
 ## 每日更新机制

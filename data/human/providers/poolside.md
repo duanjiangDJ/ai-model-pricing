@@ -10,8 +10,8 @@
 
 **3** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `poolside/laguna-m.1` | reasoning | 262.144K | $0 | $0 | $0 | — | —/— | — |
-| `poolside/laguna-s-2.1` | reasoning | 1.04858M | $0 | $0 | $0 | — | —/— | — |
-| `poolside/laguna-xs-2.1` | reasoning | 262.144K | $0 | $0 | $0 | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `poolside/laguna-m.1` | — | reasoning | 262.144K | $0 | $0 | $0 | — | —/— | — |
+| `poolside/laguna-s-2.1` | — | reasoning | 1.04858M | $0 | $0 | $0 | — | —/— | — |
+| `poolside/laguna-xs-2.1` | — | reasoning | 262.144K | $0 | $0 | $0 | — | —/— | — |

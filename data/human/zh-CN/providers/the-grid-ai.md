@@ -10,14 +10,14 @@
 
 共 **9** 个模型。
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
-|---|---|---|---|---|---|---|---|---|
-| `agent-max` | reasoning | 1M | — | — | — | — | —/— | — |
-| `agent-prime` | reasoning | 196.608K | — | — | — | — | —/— | — |
-| `agent-standard` | reasoning | 128K | — | — | — | — | —/— | — |
-| `code-max` | reasoning | 1M | — | — | — | — | —/— | — |
-| `code-prime` | reasoning | 196.608K | — | — | — | — | —/— | — |
-| `code-standard` | reasoning | 128K | — | — | — | — | —/— | — |
-| `text-max` | reasoning | 1M | — | — | — | — | —/— | — |
-| `text-prime` | reasoning | 196.608K | — | — | — | — | —/— | — |
-| `text-standard` | reasoning | 128K | — | — | — | — | —/— | — |
+| 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+|---|---|---|---|---|---|---|---|---|---|
+| `agent-max` | — | reasoning | 1M | — | — | — | — | —/— | — |
+| `agent-prime` | — | reasoning | 196.608K | — | — | — | — | —/— | — |
+| `agent-standard` | — | reasoning | 128K | — | — | — | — | —/— | — |
+| `code-max` | — | reasoning | 1M | — | — | — | — | —/— | — |
+| `code-prime` | — | reasoning | 196.608K | — | — | — | — | —/— | — |
+| `code-standard` | — | reasoning | 128K | — | — | — | — | —/— | — |
+| `text-max` | — | reasoning | 1M | — | — | — | — | —/— | — |
+| `text-prime` | — | reasoning | 196.608K | — | — | — | — | —/— | — |
+| `text-standard` | — | reasoning | 128K | — | — | — | — | —/— | — |

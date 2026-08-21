@@ -37,6 +37,7 @@ L10N = {
         "verified": "Verified",
         "models_count": "**{}** models in total.",
         "model": "Model",
+        "status": "Status",
         "category": "Category",
         "context": "Context",
         "input": "Input $/MTok",
@@ -51,6 +52,7 @@ L10N = {
         "plans_count": "**{}** plans in total. Updated: {}",
         "product": "Product",
         "plan": "Plan",
+        "pricing_model": "Pricing model",
         "billing": "Billing",
         "price": "Price (USD)",
         "limits": "Limits",
@@ -81,6 +83,7 @@ L10N = {
         "verified": "核实时间",
         "models_count": "共 **{}** 个模型。",
         "model": "模型",
+        "status": "状态",
         "category": "类别",
         "context": "上下文",
         "input": "输入 $/MTok",
@@ -95,6 +98,7 @@ L10N = {
         "plans_count": "共 **{}** 个计划。更新时间: {}",
         "product": "产品",
         "plan": "计划",
+        "pricing_model": "定价模型",
         "billing": "计费",
         "price": "价格(USD)",
         "limits": "用量限制",
@@ -115,6 +119,22 @@ L10N = {
         "docs_files": ["../docs/providers.md", "../docs/price-types.md", "../FORMAT.md", "../AGENTS.md"],
         "misc": "其他",
     },
+}
+
+
+STATUS_LABEL = {
+    "active": "",
+    "preview": "🧪 preview",
+    "deprecated": "⚠️ deprecated",
+    "retired": "❌ retired",
+    "superseded": "🔁 superseded",
+}
+STATUS_LABEL_ZH = {
+    "active": "",
+    "preview": "🧪 预览",
+    "deprecated": "⚠️ 弃用",
+    "retired": "❌ 已退役",
+    "superseded": "🔁 已被取代",
 }
 
 
@@ -139,6 +159,7 @@ def num_fmt(v):
 def build_provider_md(provider, lang, channel_labels):
     t = L10N[lang]
     cur = provider.get("currency", "USD")
+    status_label = STATUS_LABEL if lang == "en" else STATUS_LABEL_ZH
     lines = [
         f"# {provider['name']}",
         "",
@@ -152,8 +173,8 @@ def build_provider_md(provider, lang, channel_labels):
         "",
         t["models_count"].format(len(provider["models"])),
         "",
-        f"| {t['model']} | {t['category']} | {t['context']} | {t['input']} | {t['output']} | {t['cache_read']} | {t['cache_write']} | {t['batch']} | {t['other']} |",
-        "|---|---|---|---|---|---|---|---|---|",
+        f"| {t['model']} | {t['status']} | {t['category']} | {t['context']} | {t['input']} | {t['output']} | {t['cache_read']} | {t['cache_write']} | {t['batch']} | {t['other']} |",
+        "|---|---|---|---|---|---|---|---|---|---|",
     ]
     for m in provider["models"]:
         p = m.get("pricing") or {}
@@ -174,9 +195,11 @@ def build_provider_md(provider, lang, channel_labels):
             other.append("finetune")
         if p.get("neuron_second"):
             other.append("neuron-sec")
+        st = status_label.get(m.get("status"), "")
         lines.append(
-            "| {} | {} | {} | {} | {} | {} | {} | {} | {} |".format(
+            "| {} | {} | {} | {} | {} | {} | {} | {} | {} | {} |".format(
                 f"`{m['id']}`",
+                st or "—",
                 m.get("category", "—"),
                 num_fmt(m.get("context_window")),
                 fmt(mt.get("input"), cur),
@@ -198,7 +221,7 @@ def build_plans_md(plans_data, lang):
         "",
         t["plans_count"].format(len(plans), plans_data.get("updated_at", "—")),
         "",
-        f"| {t['product']} | {t['plan']} | {t['category']} | {t['billing']} | {t['price']} | {t['limits']} | {t['includes']} | {t['url']} | {t['verified_at']} |",
+        f"| {t['product']} | {t['plan']} | {t['pricing_model']} | {t['category']} | {t['billing']} | {t['price']} | {t['limits']} | {t['url']} | {t['verified_at']} |",
         "|---|---|---|---|---|---|---|---|---|",
     ]
     for p in plans:
@@ -206,11 +229,11 @@ def build_plans_md(plans_data, lang):
             "| {} | {} | {} | {} | {} | {} | {} | {} | {} |".format(
                 p["product"],
                 p["plan"],
+                p.get("pricing_model") or "—",
                 p["category"],
                 p.get("billing") or "—",
                 fmt(p.get("price_usd")),
                 (p.get("limits") or "—").replace("|", "\\|"),
-                "; ".join(p.get("includes") or []).replace("|", "\\|") or "—",
                 f"[link]({p['url']})" if p.get("url") else "—",
                 p.get("verified_at", "—"),
             )

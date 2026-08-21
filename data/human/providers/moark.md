@@ -10,7 +10,7 @@
 
 **2** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `GLM-4.7` | reasoning | 204.8K | $3.5 | $14 | — | — | —/— | — |
-| `MiniMax-M2.1` | reasoning | 204.8K | $2.1 | $8.4 | $2.1 | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `GLM-4.7` | — | reasoning | 204.8K | $3.5 | $14 | — | — | —/— | — |
+| `MiniMax-M2.1` | — | reasoning | 204.8K | $2.1 | $8.4 | $2.1 | — | —/— | — |

@@ -10,12 +10,12 @@
 
 共 **7** 个模型。
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
-|---|---|---|---|---|---|---|---|---|
-| `MiniMax-M2` | reasoning | 196.608K | $0 | $0 | — | — | —/— | — |
-| `MiniMax-M2.1` | reasoning | 204.8K | $0 | $0 | $0 | — | —/— | — |
-| `MiniMax-M2.5` | reasoning | 204.8K | $0 | $0 | $0 | — | —/— | — |
-| `MiniMax-M2.5-highspeed` | reasoning | 204.8K | $0 | $0 | $0 | — | —/— | — |
-| `MiniMax-M2.7` | reasoning | 204.8K | $0 | $0 | $0 | — | —/— | — |
-| `MiniMax-M2.7-highspeed` | reasoning | 204.8K | $0 | $0 | $0 | — | —/— | — |
-| `MiniMax-M3` | reasoning | 1M | $0 | $0 | $0 | — | —/— | — |
+| 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+|---|---|---|---|---|---|---|---|---|---|
+| `MiniMax-M2` | — | reasoning | 196.608K | — | — | — | — | —/— | — |
+| `MiniMax-M2.1` | — | reasoning | 204.8K | — | — | — | — | —/— | — |
+| `MiniMax-M2.5` | — | reasoning | 204.8K | — | — | — | — | —/— | — |
+| `MiniMax-M2.5-highspeed` | — | reasoning | 204.8K | — | — | — | — | —/— | — |
+| `MiniMax-M2.7` | — | reasoning | 204.8K | — | — | — | — | —/— | — |
+| `MiniMax-M2.7-highspeed` | — | reasoning | 204.8K | — | — | — | — | —/— | — |
+| `MiniMax-M3` | — | reasoning | 1M | — | — | — | — | —/— | — |

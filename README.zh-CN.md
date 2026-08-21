@@ -1,3 +1,4 @@
+> **Language: 中文（简体）(zh-CN)** — This document is written in zh only.
 # AI Model Pricing — 全模型定价数据库
 
 [![Daily Price Check](https://github.com/duanjiangDJ/ai-model-pricing/actions/workflows/daily-check.yml/badge.svg)](https://github.com/duanjiangDJ/ai-model-pricing/actions/workflows/daily-check.yml)

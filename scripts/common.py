@@ -10,7 +10,7 @@ PROVIDERS = os.path.join(MACHINE, "providers")
 HUMAN = os.path.join(ROOT, "data", "human")
 META = os.path.join(ROOT, "data", "meta")
 
-SCHEMA_VERSION = "1.0.0"
+SCHEMA_VERSION = "26.0.0"
 UA = "ai-model-pricing-sync/1.0 (+https://github.com/duanjiangDJ/ai-model-pricing)"
 
 

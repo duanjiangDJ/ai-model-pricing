@@ -10,6 +10,6 @@
 
 **1** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `hy3` | reasoning | 256K | $0 | $0 | $0 | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `hy3` | — | reasoning | 256K | — | — | — | — | —/— | — |

@@ -10,7 +10,7 @@
 
 **2** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `Qwen/Qwen3.6-35B-A3B-FP8` | reasoning | 131.072K | — | — | — | — | —/— | — |
-| `Qwen3.6-27B` | reasoning | 196.608K | — | — | — | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `Qwen/Qwen3.6-35B-A3B-FP8` | — | reasoning | 131.072K | — | — | — | — | —/— | — |
+| `Qwen3.6-27B` | — | reasoning | 196.608K | — | — | — | — | —/— | — |

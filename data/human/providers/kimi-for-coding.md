@@ -10,9 +10,9 @@
 
 **4** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `k3` | reasoning | 1.04858M | $0 | $0 | $0 | — | —/— | — |
-| `k3-256k` | reasoning | 262.144K | $0 | $0 | $0 | — | —/— | — |
-| `kimi-for-coding` | reasoning | 262.144K | $0 | $0 | $0 | — | —/— | — |
-| `kimi-for-coding-highspeed` | reasoning | 262.144K | $0 | $0 | $0 | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `k3` | — | reasoning | 1.04858M | — | — | — | — | —/— | — |
+| `k3-256k` | — | reasoning | 262.144K | — | — | — | — | —/— | — |
+| `kimi-for-coding` | — | reasoning | 262.144K | — | — | — | — | —/— | — |
+| `kimi-for-coding-highspeed` | — | reasoning | 262.144K | — | — | — | — | —/— | — |

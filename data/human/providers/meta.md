@@ -10,8 +10,8 @@
 
 **3** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `muse-spark-1.1` | reasoning | 1M | $1.25 | $4.25 | $0.15 | — | —/— | — |
-| `muse-spark-1.2` | reasoning | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — |
-| `muse-spark-1.2-contributor` | reasoning | 1.04858M | $0.1 | $0.2 | $0.002 | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `muse-spark-1.1` | — | reasoning | 1M | $1.25 | $4.25 | $0.15 | — | —/— | — |
+| `muse-spark-1.2` | — | reasoning | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — |
+| `muse-spark-1.2-contributor` | — | reasoning | 1.04858M | $0.1 | $0.2 | $0.002 | — | —/— | — |

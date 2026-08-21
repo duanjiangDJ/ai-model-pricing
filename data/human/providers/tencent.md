@@ -10,6 +10,6 @@
 
 **1** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `hunyuan-hy3` | chat | — | $1 | — | — | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `hunyuan-hy3` | — | chat | — | $1 | — | — | — | —/— | — |

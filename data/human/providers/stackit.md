@@ -10,13 +10,13 @@
 
 **8** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `Qwen/Qwen3-VL-235B-A22B-Instruct-FP8` | chat | 218K | $1.76 | $2.05 | — | — | —/— | — |
-| `Qwen/Qwen3-VL-Embedding-8B` | embedding | 32K | $0.09 | $0.09 | — | — | —/— | — |
-| `Qwen/Qwen3.6-27B` | chat | 262.144K | $0.53 | $0.76 | — | — | —/— | — |
-| `cortecs/Llama-3.3-70B-Instruct-FP8-Dynamic` | chat | 128K | $0.53 | $0.76 | — | — | —/— | — |
-| `google/gemma-3-27b-it` | chat | 37K | $0.53 | $0.76 | — | — | —/— | — |
-| `intfloat/e5-mistral-7b-instruct` | chat | 4.096K | $0.02 | $0.02 | — | — | —/— | — |
-| `openai/gpt-oss-120b` | reasoning | 131K | $0.53 | $0.76 | — | — | —/— | — |
-| `openai/gpt-oss-20b` | reasoning | 131.072K | $0.18 | $0.29 | — | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `Qwen/Qwen3-VL-235B-A22B-Instruct-FP8` | — | chat | 218K | $1.76 | $2.05 | — | — | —/— | — |
+| `Qwen/Qwen3-VL-Embedding-8B` | — | embedding | 32K | $0.09 | $0.09 | — | — | —/— | — |
+| `Qwen/Qwen3.6-27B` | — | chat | 262.144K | $0.53 | $0.76 | — | — | —/— | — |
+| `cortecs/Llama-3.3-70B-Instruct-FP8-Dynamic` | — | chat | 128K | $0.53 | $0.76 | — | — | —/— | — |
+| `google/gemma-3-27b-it` | — | chat | 37K | $0.53 | $0.76 | — | — | —/— | — |
+| `intfloat/e5-mistral-7b-instruct` | — | chat | 4.096K | $0.02 | $0.02 | — | — | —/— | — |
+| `openai/gpt-oss-120b` | — | reasoning | 131K | $0.53 | $0.76 | — | — | —/— | — |
+| `openai/gpt-oss-20b` | — | reasoning | 131.072K | $0.18 | $0.29 | — | — | —/— | — |

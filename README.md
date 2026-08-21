@@ -1,3 +1,4 @@
+> **Language: English (en)** — This document is written in en only.
 # AI Model Pricing — Full Model Pricing Database
 
 [![Daily Price Check](https://github.com/duanjiangDJ/ai-model-pricing/actions/workflows/daily-check.yml/badge.svg)](https://github.com/duanjiangDJ/ai-model-pricing/actions/workflows/daily-check.yml)

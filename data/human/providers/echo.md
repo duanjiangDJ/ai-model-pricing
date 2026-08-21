@@ -10,6 +10,6 @@
 
 **1** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `echo` | reasoning | 262.144K | $10 | $50 | — | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `echo` | — | reasoning | 262.144K | $10 | $50 | — | — | —/— | — |

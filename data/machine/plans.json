@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "26.0.0",
   "updated_at": "2026-08-21T12:11:53Z",
   "plans": [
     {
@@ -16,7 +16,8 @@
       ],
       "url": "https://aws.amazon.com/q/developer/",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "aws"
+      "provider_id": "aws",
+      "pricing_model": "free"
     },
     {
       "id": "amazon-q-dev-pro",
@@ -33,7 +34,8 @@
       ],
       "url": "https://aws.amazon.com/q/developer/",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "aws"
+      "provider_id": "aws",
+      "pricing_model": "per_seat_monthly"
     },
     {
       "id": "anthropic-claude-code-pro",
@@ -49,7 +51,8 @@
       ],
       "url": "https://www.anthropic.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "anthropic"
+      "provider_id": "anthropic",
+      "pricing_model": "flat_monthly"
     },
     {
       "id": "anthropic-claude-max-20x",
@@ -65,7 +68,8 @@
       ],
       "url": "https://www.anthropic.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "anthropic"
+      "provider_id": "anthropic",
+      "pricing_model": "flat_monthly"
     },
     {
       "id": "anthropic-claude-max-5x",
@@ -81,7 +85,8 @@
       ],
       "url": "https://www.anthropic.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "anthropic"
+      "provider_id": "anthropic",
+      "pricing_model": "flat_monthly"
     },
     {
       "id": "anthropic-claude-pro",
@@ -98,7 +103,8 @@
       ],
       "url": "https://www.anthropic.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "anthropic"
+      "provider_id": "anthropic",
+      "pricing_model": "flat_monthly"
     },
     {
       "id": "cursor-hobby",
@@ -114,7 +120,8 @@
       ],
       "url": "https://cursor.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "cursor"
+      "provider_id": "cursor",
+      "pricing_model": "free"
     },
     {
       "id": "cursor-pro",
@@ -131,7 +138,8 @@
       ],
       "url": "https://cursor.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "cursor"
+      "provider_id": "cursor",
+      "pricing_model": "credits"
     },
     {
       "id": "cursor-pro-plus",
@@ -147,7 +155,8 @@
       ],
       "url": "https://cursor.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "cursor"
+      "provider_id": "cursor",
+      "pricing_model": "credits"
     },
     {
       "id": "cursor-teams",
@@ -163,7 +172,8 @@
       ],
       "url": "https://cursor.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "cursor"
+      "provider_id": "cursor",
+      "pricing_model": "per_seat_monthly"
     },
     {
       "id": "cursor-ultra",
@@ -179,7 +189,8 @@
       ],
       "url": "https://cursor.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "cursor"
+      "provider_id": "cursor",
+      "pricing_model": "credits"
     },
     {
       "id": "devin-free",
@@ -194,7 +205,8 @@
       ],
       "url": "https://docs.devin.ai/admin/billing/self-serve",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "devin"
+      "provider_id": "devin",
+      "pricing_model": "free"
     },
     {
       "id": "devin-max",
@@ -209,7 +221,8 @@
       ],
       "url": "https://docs.devin.ai/admin/billing/self-serve",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "devin"
+      "provider_id": "devin",
+      "pricing_model": "flat_monthly"
     },
     {
       "id": "devin-pro",
@@ -224,7 +237,8 @@
       ],
       "url": "https://docs.devin.ai/admin/billing/self-serve",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "devin"
+      "provider_id": "devin",
+      "pricing_model": "flat_monthly"
     },
     {
       "id": "devin-teams",
@@ -241,7 +255,8 @@
       ],
       "url": "https://docs.devin.ai/admin/billing/self-serve",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "devin"
+      "provider_id": "devin",
+      "pricing_model": "per_seat_monthly"
     },
     {
       "id": "gemini-api-free-tier",
@@ -258,7 +273,8 @@
       ],
       "url": "https://ai.google.dev/gemini-api/docs/rate-limits",
       "provider_id": "google",
-      "verified_at": "2026-08-21T00:00:00Z"
+      "verified_at": "2026-08-21T00:00:00Z",
+      "pricing_model": "free"
     },
     {
       "id": "gemini-code-assist-enterprise",
@@ -273,7 +289,8 @@
       ],
       "url": "https://codeassist.google/",
       "provider_id": "google",
-      "verified_at": "2026-08-21T00:00:00Z"
+      "verified_at": "2026-08-21T00:00:00Z",
+      "pricing_model": "per_seat_monthly"
     },
     {
       "id": "gemini-code-assist-free",
@@ -288,7 +305,8 @@
       ],
       "url": "https://codeassist.google/",
       "provider_id": "google",
-      "verified_at": "2026-08-21T00:00:00Z"
+      "verified_at": "2026-08-21T00:00:00Z",
+      "pricing_model": "free"
     },
     {
       "id": "gemini-code-assist-standard",
@@ -303,7 +321,8 @@
       ],
       "url": "https://codeassist.google/",
       "provider_id": "google",
-      "verified_at": "2026-08-21T00:00:00Z"
+      "verified_at": "2026-08-21T00:00:00Z",
+      "pricing_model": "per_seat_monthly"
     },
     {
       "id": "github-copilot-max",
@@ -320,7 +339,8 @@
       ],
       "url": "https://github.blog/news-insights/company-news/github-copilot-individual-plans-introducing-flex-allotments-in-pro-and-pro-and-a-new-max-plan/",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "github"
+      "provider_id": "github",
+      "pricing_model": "credits"
     },
     {
       "id": "github-copilot-pro",
@@ -338,7 +358,8 @@
       ],
       "url": "https://github.com/features/copilot/plans",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "github"
+      "provider_id": "github",
+      "pricing_model": "credits"
     },
     {
       "id": "github-copilot-pro-plus",
@@ -355,7 +376,8 @@
       ],
       "url": "https://github.com/features/copilot/plans",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "github"
+      "provider_id": "github",
+      "pricing_model": "credits"
     },
     {
       "id": "google-ai-plus",
@@ -368,7 +390,8 @@
       "includes": [],
       "url": "https://one.google.com/about/google-ai-plans/",
       "provider_id": "google",
-      "verified_at": "2026-08-21T00:00:00Z"
+      "verified_at": "2026-08-21T00:00:00Z",
+      "pricing_model": "flat_monthly"
     },
     {
       "id": "google-ai-pro",
@@ -384,7 +407,8 @@
       ],
       "url": "https://one.google.com/about/google-ai-plans/",
       "provider_id": "google",
-      "verified_at": "2026-08-21T00:00:00Z"
+      "verified_at": "2026-08-21T00:00:00Z",
+      "pricing_model": "flat_monthly"
     },
     {
       "id": "google-ai-ultra",
@@ -403,7 +427,8 @@
       ],
       "url": "https://one.google.com/about/google-ai-plans/",
       "provider_id": "google",
-      "verified_at": "2026-08-21T00:00:00Z"
+      "verified_at": "2026-08-21T00:00:00Z",
+      "pricing_model": "flat_monthly"
     },
     {
       "id": "google-ai-ultra-premium",
@@ -418,7 +443,8 @@
       ],
       "url": "https://one.google.com/about/google-ai-plans/",
       "provider_id": "google",
-      "verified_at": "2026-08-21T00:00:00Z"
+      "verified_at": "2026-08-21T00:00:00Z",
+      "pricing_model": "flat_monthly"
     },
     {
       "id": "jetbrains-ai-free",
@@ -433,7 +459,8 @@
       ],
       "url": "https://www.jetbrains.com/help/ai-assistant/2026.1/licensing-and-subscriptions.html",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "jetbrains"
+      "provider_id": "jetbrains",
+      "pricing_model": "free"
     },
     {
       "id": "jetbrains-ai-pro",
@@ -450,7 +477,8 @@
       ],
       "url": "https://www.jetbrains.com/help/ai-assistant/2026.1/licensing-and-subscriptions.html",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "jetbrains"
+      "provider_id": "jetbrains",
+      "pricing_model": "credits"
     },
     {
       "id": "jetbrains-ai-ultimate",
@@ -467,7 +495,8 @@
       ],
       "url": "https://www.jetbrains.com/help/ai-assistant/2026.1/licensing-and-subscriptions.html",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "jetbrains"
+      "provider_id": "jetbrains",
+      "pricing_model": "credits"
     },
     {
       "id": "openai-chatgpt-plus",
@@ -483,7 +512,8 @@
       ],
       "url": "https://openai.com/chatgpt/pricing/",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "openai"
+      "provider_id": "openai",
+      "pricing_model": "flat_monthly"
     },
     {
       "id": "openai-chatgpt-pro-100",
@@ -499,7 +529,8 @@
       ],
       "url": "https://thenextweb.com/news/openais-new-100-chatgpt-pro-plan-targets-claude-max-with-five-times-the-codex-access",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "openai"
+      "provider_id": "openai",
+      "pricing_model": "flat_monthly"
     },
     {
       "id": "openai-chatgpt-pro-200",
@@ -515,7 +546,8 @@
       ],
       "url": "https://openai.com/chatgpt/pricing/",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "openai"
+      "provider_id": "openai",
+      "pricing_model": "flat_monthly"
     },
     {
       "id": "perplexity-edu-pro",
@@ -530,7 +562,8 @@
       ],
       "url": "https://www.perplexity.ai/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "perplexity"
+      "provider_id": "perplexity",
+      "pricing_model": "flat_monthly"
     },
     {
       "id": "perplexity-enterprise-pro",
@@ -549,7 +582,8 @@
       ],
       "url": "https://www.perplexity.ai/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "perplexity"
+      "provider_id": "perplexity",
+      "pricing_model": "per_seat_monthly"
     },
     {
       "id": "perplexity-max",
@@ -565,7 +599,8 @@
       ],
       "url": "https://www.perplexity.ai/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "perplexity"
+      "provider_id": "perplexity",
+      "pricing_model": "flat_monthly"
     },
     {
       "id": "perplexity-pro",
@@ -583,7 +618,8 @@
       ],
       "url": "https://www.perplexity.ai/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "perplexity"
+      "provider_id": "perplexity",
+      "pricing_model": "flat_monthly"
     },
     {
       "id": "poe-lite",
@@ -598,7 +634,8 @@
       ],
       "url": "https://poe.com/subscription",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "poe"
+      "provider_id": "poe",
+      "pricing_model": "credits"
     },
     {
       "id": "poe-standard",
@@ -614,7 +651,8 @@
       ],
       "url": "https://poe.com/subscription",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "poe"
+      "provider_id": "poe",
+      "pricing_model": "credits"
     },
     {
       "id": "poe-yearly",
@@ -630,7 +668,8 @@
       ],
       "url": "https://poe.com/subscription",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "poe"
+      "provider_id": "poe",
+      "pricing_model": "credits"
     },
     {
       "id": "replit-core",
@@ -649,7 +688,8 @@
       ],
       "url": "https://replit.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "replit"
+      "provider_id": "replit",
+      "pricing_model": "credits"
     },
     {
       "id": "replit-pro",
@@ -667,7 +707,8 @@
       ],
       "url": "https://replit.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "replit"
+      "provider_id": "replit",
+      "pricing_model": "credits"
     },
     {
       "id": "replit-starter",
@@ -683,7 +724,8 @@
       ],
       "url": "https://replit.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "replit"
+      "provider_id": "replit",
+      "pricing_model": "free"
     },
     {
       "id": "supergrok",
@@ -701,7 +743,8 @@
       ],
       "url": "https://grok.com",
       "provider_id": "xai",
-      "verified_at": "2026-08-21T00:00:00Z"
+      "verified_at": "2026-08-21T00:00:00Z",
+      "pricing_model": "flat_monthly"
     },
     {
       "id": "supergrok-heavy",
@@ -718,7 +761,8 @@
       ],
       "url": "https://grok.com",
       "provider_id": "xai",
-      "verified_at": "2026-08-21T00:00:00Z"
+      "verified_at": "2026-08-21T00:00:00Z",
+      "pricing_model": "flat_monthly"
     },
     {
       "id": "supergrok-lite",
@@ -731,7 +775,8 @@
       "includes": [],
       "url": "",
       "provider_id": "xai",
-      "verified_at": "2026-08-21T00:00:00Z"
+      "verified_at": "2026-08-21T00:00:00Z",
+      "pricing_model": "flat_monthly"
     },
     {
       "id": "tabnine-code",
@@ -748,7 +793,8 @@
       ],
       "url": "https://www.tabnine.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "tabnine"
+      "provider_id": "tabnine",
+      "pricing_model": "per_seat_yearly"
     },
     {
       "id": "tabnine-enterprise",
@@ -766,7 +812,8 @@
       ],
       "url": "https://www.tabnine.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "tabnine"
+      "provider_id": "tabnine",
+      "pricing_model": "per_seat_yearly"
     },
     {
       "id": "windsurf-free",
@@ -781,7 +828,8 @@
       ],
       "url": "https://windsurf.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "windsurf"
+      "provider_id": "windsurf",
+      "pricing_model": "free"
     },
     {
       "id": "windsurf-max",
@@ -797,7 +845,8 @@
       ],
       "url": "https://windsurf.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "windsurf"
+      "provider_id": "windsurf",
+      "pricing_model": "flat_monthly"
     },
     {
       "id": "windsurf-pro",
@@ -813,7 +862,8 @@
       ],
       "url": "https://windsurf.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "windsurf"
+      "provider_id": "windsurf",
+      "pricing_model": "flat_monthly"
     },
     {
       "id": "windsurf-teams",
@@ -829,7 +879,8 @@
       ],
       "url": "https://windsurf.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
-      "provider_id": "windsurf"
+      "provider_id": "windsurf",
+      "pricing_model": "per_seat_monthly"
     }
   ]
 }

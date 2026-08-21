@@ -10,10 +10,10 @@
 
 共 **5** 个模型。
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
-|---|---|---|---|---|---|---|---|---|
-| `deepseek-chat` | chat | — | $0.14 | $0.28 | $0.0028 | — | —/— | — |
-| `deepseek-reasoner` | reasoning | — | $0.14 | $0.28 | $0.0028 | — | —/— | — |
-| `deepseek-v4-flash` | chat | 1M | $3 | $9 | $0.1 | — | —/— | — |
-| `deepseek-v4-flash-vision-exp` | vision | 1M | $3 | $9 | $0.1 | — | —/— | — |
-| `deepseek-v4-pro` | chat | 1M | $9 | $27 | $0.3 | — | —/— | — |
+| 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+|---|---|---|---|---|---|---|---|---|---|
+| `deepseek-chat` | 🔁 已被取代 | chat | — | — | — | — | — | —/— | — |
+| `deepseek-reasoner` | 🔁 已被取代 | reasoning | — | — | — | — | — | —/— | — |
+| `deepseek-v4-flash` | — | chat | 1M | $3 | $9 | $0.1 | — | —/— | — |
+| `deepseek-v4-flash-vision-exp` | 🧪 预览 | vision | 1M | $3 | $9 | $0.1 | — | —/— | — |
+| `deepseek-v4-pro` | — | chat | 1M | $9 | $27 | $0.3 | — | —/— | — |

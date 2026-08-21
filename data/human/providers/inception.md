@@ -10,7 +10,7 @@
 
 **2** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `mercury-2` | reasoning | 128K | $0.25 | $0.75 | $0.025 | — | —/— | — |
-| `mercury-edit-2` | reasoning | 128K | $0.25 | $0.75 | $0.025 | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `mercury-2` | — | reasoning | 128K | $0.25 | $0.75 | $0.025 | — | —/— | — |
+| `mercury-edit-2` | — | reasoning | 128K | $0.25 | $0.75 | $0.025 | — | —/— | — |

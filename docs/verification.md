@@ -1,3 +1,4 @@
+> **Language: English (en)** — This document is written in en only.
 # Verification & Truthfulness Model
 
 How the daily check works, and what guarantees (and does not guarantee) the accuracy

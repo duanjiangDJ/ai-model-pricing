@@ -10,237 +10,237 @@
 
 共 **232** 个模型。
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
-|---|---|---|---|---|---|---|---|---|
-| `amazon/moonshot.kimi-k2-thinking` | reasoning | 128K | $0.6 | $2.5 | — | — | —/— | — |
-| `amazon/moonshotai.kimi-k2.5` | reasoning | 262.144K | $0.6 | $3 | — | — | —/— | — |
-| `amazon/nvidia.nemotron-nano-9b-v2` | reasoning | 128K | $0.06 | $0.23 | — | — | —/— | — |
-| `amazon/nvidia.nemotron-nano-9b-v2@us` | reasoning | 128K | $0.06 | $0.23 | — | — | —/— | — |
-| `amazon/zai.glm-4.7-flash` | reasoning | 200K | $0.07 | $0.4 | — | — | —/— | — |
-| `amazon/zai.glm-4.7-flash@us` | reasoning | 200K | $0.07 | $0.4 | — | — | —/— | — |
-| `anthropic/claude-fable-5` | reasoning | 1M | $10 | $50 | $1 | — | —/— | — |
-| `anthropic/claude-fable-latest` | reasoning | 1M | $10 | $50 | $1 | — | —/— | — |
-| `anthropic/claude-opus-4-5` | reasoning | 200K | $5 | $25 | $0.5 | — | —/— | — |
-| `anthropic/claude-opus-4-5-20251101` | reasoning | 200K | $5 | $25 | $0.5 | — | —/— | — |
-| `anthropic/claude-opus-4-6` | reasoning | 1M | $5 | $25 | $0.5 | — | —/— | — |
-| `anthropic/claude-opus-4-7` | reasoning | 1M | $5 | $25 | $0.5 | — | —/— | — |
-| `anthropic/claude-opus-4-8` | reasoning | 1M | $5 | $25 | $0.5 | — | —/— | — |
-| `anthropic/claude-opus-5` | reasoning | 1M | $5 | $25 | $0.5 | — | —/— | — |
-| `anthropic/claude-opus-latest` | reasoning | 1M | $5 | $25 | $0.5 | — | —/— | — |
-| `anthropic/claude-sonnet-4-6` | reasoning | 1M | $3 | $15 | $0.3 | — | —/— | — |
-| `anthropic/claude-sonnet-5` | reasoning | 1M | $2 | $10 | $0.2 | — | —/— | — |
-| `anthropic/claude-sonnet-latest` | reasoning | 1M | $2 | $10 | $0.2 | — | —/— | — |
-| `azure/gpt-5.1-codex` | reasoning | 272K | $1.25 | $10 | $0.125 | — | —/— | — |
-| `azure/gpt-5.1-codex-max` | reasoning | 272K | $1.25 | $10 | $0.125 | — | —/— | — |
-| `azure/gpt-5.1-codex-mini` | reasoning | 272K | $0.25 | $2 | $0.025 | — | —/— | — |
-| `azure/gpt-5.2-codex` | reasoning | 272K | $1.75 | $14 | $0.175 | — | —/— | — |
-| `cerebras/gpt-oss-120b` | reasoning | 131.072K | $0.35 | $0.75 | $0.35 | — | —/— | — |
-| `cloudflare/@cf/aisingapore/gemma-sea-lion-v4-27b-it` | chat | 128K | $0.351 | $0.555 | — | — | —/— | — |
-| `cloudflare/@cf/deepseek-ai/deepseek-v4-flash-0731` | reasoning | 1.31072M | $0.44 | $1.32 | $0.014 | — | —/— | — |
-| `cloudflare/@cf/deepseek-ai/deepseek-v4-pro-0813` | reasoning | 1.04858M | $1.32 | $3.96 | $0.044 | — | —/— | — |
-| `cloudflare/@cf/meta/llama-guard-3-8b` | chat | 131.072K | $0.484 | $0.03 | — | — | —/— | — |
-| `cloudflare/@cf/openai/gpt-oss-120b` | reasoning | 128K | $0.35 | $0.75 | — | — | —/— | — |
-| `cloudflare/@cf/openai/gpt-oss-20b` | reasoning | 128K | $0.2 | $0.3 | — | — | —/— | — |
-| `cloudflare/@cf/qwen/qwen2.5-coder-32b-instruct` | chat | 32.768K | $0.66 | $1 | — | — | —/— | — |
-| `cloudflare/@cf/zai-org/glm-4.7-flash` | reasoning | 131.072K | $0.0605 | $0.4 | — | — | —/— | — |
-| `cohere/command-a-03-2025` | chat | 288K | $2.5 | $10 | — | — | —/— | — |
-| `cohere/command-r-08-2024` | chat | 128K | $0.15 | $0.6 | — | — | —/— | — |
-| `cohere/command-r-plus-08-2024` | chat | 128K | $2.5 | $10 | — | — | —/— | — |
-| `cohere/command-r7b-12-2024` | chat | 132K | $0.0375 | $0.15 | — | — | —/— | — |
-| `databricks/databricks-gpt-oss-120b` | reasoning | 131.072K | $0.15001 | $0.59997 | — | — | —/— | — |
-| `databricks/databricks-gpt-oss-20b` | reasoning | 131.072K | $0.07 | $0.30002 | — | — | —/— | — |
-| `deepinfra/ByteDance/Seed-2.0-code` | reasoning | 256K | $0.5 | $3 | $0.1 | — | —/— | — |
-| `deepinfra/ByteDance/Seed-2.0-mini` | reasoning | 256K | $0.1 | $0.4 | $0.02 | — | —/— | — |
-| `deepinfra/deepseek-ai/DeepSeek-R1` | reasoning | 163.84K | $0.7 | $2.4 | — | — | —/— | — |
-| `deepinfra/deepseek-ai/DeepSeek-V3` | chat | 163.84K | $0.32 | $0.89 | — | — | —/— | — |
-| `deepinfra/deepseek-ai/DeepSeek-V3-0324` | chat | 163.84K | $0.24 | $0.9 | $0.135 | — | —/— | — |
-| `deepinfra/deepseek-ai/DeepSeek-V4-Flash-0731` | reasoning | 1.04858M | $0.08 | $0.18 | $0.016 | — | —/— | — |
-| `deepinfra/deepseek-ai/DeepSeek-V4-Pro-0813` | reasoning | 1.04858M | $1.3 | $2.6 | $0.1 | — | —/— | — |
-| `deepinfra/meta-llama/Llama-3.2-11B-Vision-Instruct` | chat | 131.072K | $0.345 | $0.345 | — | — | —/— | — |
-| `deepinfra/meta-llama/Llama-3.3-70B-Instruct` | chat | 131.072K | $0.1 | $0.32 | — | — | —/— | — |
-| `deepinfra/meta-llama/Llama-Guard-3-8B` | chat | 131.072K | $0.055 | $0.055 | — | — | —/— | — |
-| `deepinfra/meta-models/Muse-Glimmer-30B` | reasoning | 131.072K | $0.3 | $1.2 | $0.04 | — | —/— | — |
-| `deepinfra/moonshotai/Kimi-K2.5` | reasoning | 262.144K | $0.45 | $2.25 | $0.07 | — | —/— | — |
-| `deepinfra/nemotron-3-ultra-550b-a55b` | reasoning | 262.144K | $0.5 | $2.2 | $0.1 | — | —/— | — |
-| `deepinfra/nvidia/Llama-3.1-Nemotron-70B-Instruct` | chat | 131.072K | $0.6 | $0.6 | — | — | —/— | — |
-| `deepinfra/nvidia/Nemotron-3-Nano-30B-A3B` | reasoning | 262.144K | $0.05 | $0.2 | $0.025 | — | —/— | — |
-| `deepinfra/openai/gpt-oss-120b` | reasoning | 131.072K | $0.037 | $0.17 | — | — | —/— | — |
-| `deepinfra/openai/gpt-oss-20b` | reasoning | 131.072K | $0.03 | $0.14 | — | — | —/— | — |
-| `deepinfra/stepfun-ai/Step-3.5-Flash` | reasoning | 262.144K | $0.09 | $0.3 | $0.02 | — | —/— | — |
-| `deepinfra/stepfun-ai/Step-3.7-Flash` | reasoning | 262.144K | $0.2 | $1.15 | $0.04 | — | —/— | — |
-| `deepinfra/thinkingmachines/Inkling` | reasoning | 524.288K | $0.95 | $4.05 | $0.16 | — | —/— | — |
-| `deepinfra/thinkingmachines/Inkling-Small` | reasoning | 524.288K | $0.45 | $1.2 | $0.1 | — | —/— | — |
-| `deepinfra/zai-org/GLM-4.7-Flash` | reasoning | 202.752K | $0.06 | $0.4 | $0.01 | — | —/— | — |
-| `deepseek/deepseek-chat` | chat | 131.072K | $0.28 | $0.42 | $0.028 | — | —/— | — |
-| `deepseek/deepseek-reasoner` | reasoning | 131.072K | $0.28 | $0.42 | $0.028 | — | —/— | — |
-| `deepseek/deepseek-v4-flash` | reasoning | 1.04858M | $0.44 | $1.32 | $0.014 | — | —/— | — |
-| `deepseek/deepseek-v4-pro` | reasoning | 1.04858M | $1.32 | $3.96 | $0.044 | — | —/— | — |
-| `fireworks_ai/accounts/fireworks/models/deepseek-v4-flash-0731` | reasoning | 1.04858M | $0.14 | $0.28 | $0.028 | — | —/— | — |
-| `fireworks_ai/accounts/fireworks/models/deepseek-v4-pro-0813` | reasoning | 1.04858M | $1.32 | $3.96 | $0.044 | — | —/— | — |
-| `fireworks_ai/accounts/fireworks/models/gpt-oss-120b` | reasoning | 131.072K | $0.15 | $0.6 | $0.015 | — | —/— | — |
-| `fireworks_ai/accounts/fireworks/models/gpt-oss-20b` | reasoning | 131.072K | $0.07 | $0.3 | $0.035 | — | —/— | — |
-| `fireworks_ai/accounts/fireworks/models/muse-glimmer-30b` | reasoning | 131.072K | $0.35 | $1.5 | $0.04 | — | —/— | — |
-| `fireworks_ai/gpt-oss-120b` | reasoning | 131.072K | $0.15 | $0.6 | $0.014 | — | —/— | — |
-| `fireworks_ai/gpt-oss-20b` | reasoning | 131.072K | $0.07 | $0.3 | $0.035 | — | —/— | — |
-| `flexai/DeepSeek-V4-Flash-0731` | reasoning | 1M | $0.08 | $0.18 | — | — | —/— | — |
-| `flexai/Muse-Glimmer-30B` | reasoning | 131.072K | $0.3 | $1.2 | — | — | —/— | — |
-| `flexai/Nemotron-3-Super-120B-A12B` | reasoning | 262.144K | $0.085 | $0.4 | — | — | —/— | — |
-| `flexai/deepseek-v4-flash-0731` | reasoning | 1M | $0.08 | $0.18 | — | — | —/— | — |
-| `flexai/gpt-oss-120b` | reasoning | 131.072K | $0.039 | $0.1 | — | — | —/— | — |
-| `flexai/gpt-oss-20b` | reasoning | 131.072K | $0.03 | $0.13 | — | — | —/— | — |
-| `google/gemini-2.5-flash-image` | reasoning | 32.768K | $0.3 | $2.5 | $0.03 | — | —/— | — |
-| `google/gemini-3-flash-preview` | reasoning | 1.04858M | $0.5 | $3 | $0.05 | — | —/— | — |
-| `google/gemini-3-pro-image` | reasoning | 65.536K | $2 | $12 | $0.2 | — | —/— | — |
-| `google/gemini-3-pro-image-preview` | reasoning | 65.536K | $2 | $12 | $0.2 | — | —/— | — |
-| `google/gemini-3.1-flash-image` | reasoning | 65.536K | $0.5 | $3 | — | — | —/— | — |
-| `google/gemini-3.1-flash-image-preview` | reasoning | 65.536K | $0.5 | $3 | — | — | —/— | — |
-| `google/gemini-3.1-flash-lite` | reasoning | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — |
-| `google/gemini-3.1-flash-lite-image` | reasoning | 65.536K | $0.25 | $1.5 | — | — | —/— | — |
-| `google/gemini-3.1-flash-lite-preview` | reasoning | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — |
-| `google/gemini-3.1-pro-preview` | reasoning | 1.04858M | $2 | $12 | $0.2 | — | —/— | — |
-| `google/gemini-3.1-pro-preview-customtools` | reasoning | 1.04858M | $2 | $12 | $0.2 | — | —/— | — |
-| `google/gemini-3.5-flash` | reasoning | 1.04858M | $1.5 | $9 | $0.15 | — | —/— | — |
-| `google/gemini-3.5-flash-lite` | reasoning | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — |
-| `google/gemini-3.6-flash` | reasoning | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — |
-| `google/gemini-3.7-flash` | reasoning | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — |
-| `google/gemini-flash-latest` | reasoning | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — |
-| `google/gemini-pro-latest` | reasoning | 1.04858M | $2 | $12 | $0.2 | — | —/— | — |
-| `google/lyria-3-clip-preview` | chat | 1.04858M | $0 | $0 | — | — | —/— | — |
-| `groq/openai/gpt-oss-120b` | reasoning | 131.072K | $0.15 | $0.6 | $0.075 | — | —/— | — |
-| `groq/openai/gpt-oss-20b` | reasoning | 131.072K | $0.075 | $0.3 | $0.0375 | — | —/— | — |
-| `ionos/meta-llama/Llama-3.3-70B-Instruct` | chat | 128K | $0.759265 | $0.759265 | — | — | —/— | — |
-| `ionos/openai/gpt-oss-120b` | reasoning | 131.072K | $0.175215 | $0.759265 | — | — | —/— | — |
-| `minimax/MiniMax-M2` | reasoning | 204.8K | $0.3 | $1.2 | — | — | —/— | — |
-| `minimax/MiniMax-M2.1` | reasoning | 204.8K | $0.3 | $1.2 | $0.03 | — | —/— | — |
-| `minimax/MiniMax-M2.5` | reasoning | 204.8K | $0.3 | $1.2 | $0.03 | — | —/— | — |
-| `minimax/MiniMax-M2.7` | reasoning | 204.8K | $0.3 | $1.2 | $0.06 | — | —/— | — |
-| `minimax/MiniMax-M3` | reasoning | 524.288K | $0.3 | $1.2 | $0.06 | — | —/— | — |
-| `mistral/codestral-latest` | chat | 256K | $0.3 | $0.9 | — | — | —/— | — |
-| `mistral/devstral-2512` | chat | 262.144K | $0.4 | $2 | — | — | —/— | — |
-| `mistral/devstral-medium-latest` | chat | 262.144K | $0.4 | $2 | — | — | —/— | — |
-| `mistral/magistral-medium-latest` | reasoning | 262.144K | $2 | $5 | — | — | —/— | — |
-| `mistral/mistral-large-2512` | chat | 262.144K | $0.5 | $1.5 | $0.05 | — | —/— | — |
-| `mistral/mistral-large-latest` | chat | 262.144K | $2 | $6 | $0.2 | — | —/— | — |
-| `mistral/mistral-medium-2505` | chat | 131.072K | $0.4 | $2 | — | — | —/— | — |
-| `mistral/mistral-medium-2604` | reasoning | 262.144K | $1.5 | $7.5 | — | — | —/— | — |
-| `mistral/mistral-medium-latest` | reasoning | 262.144K | $1.5 | $7.5 | — | — | —/— | — |
-| `mistral/mistral-small-2603` | reasoning | 262.144K | $0.15 | $0.6 | $0.015 | — | —/— | — |
-| `mistral/mistral-small-latest` | reasoning | 262.144K | $0.15 | $0.6 | — | — | —/— | — |
-| `moonshot/kimi-k2.6` | reasoning | 262.144K | $0.95 | $4 | $0.16 | — | —/— | — |
-| `moonshot/kimi-k2.7-code` | reasoning | 262.144K | $0.95 | $4 | $0.19 | — | —/— | — |
-| `moonshot/kimi-k3` | reasoning | 1.04858M | $3 | $15 | $0.3 | — | —/— | — |
-| `nebius/meta-llama/Llama-3.3-70B-Instruct` | chat | 131.072K | $0.13 | $0.4 | $0.13 | — | —/— | — |
-| `nebius/nvidia/Nemotron-3-Ultra-550b-a55b` | reasoning | 1.04858M | $1 | $3 | $1 | — | —/— | — |
-| `nebius/nvidia/nemotron-3-super-120b-a12b` | reasoning | 8K | $0.3 | $0.9 | $0.3 | — | —/— | — |
-| `nebius/openai/gpt-oss-120b` | reasoning | 131.072K | $0.15 | $0.6 | $0.15 | — | —/— | — |
-| `openai/gpt-3.5-turbo` | chat | 16.385K | $0.5 | $1.5 | — | — | —/— | — |
-| `openai/gpt-4` | chat | 8.191K | $30 | $60 | — | — | —/— | — |
-| `openai/gpt-4-turbo` | chat | 128K | $10 | $30 | — | — | —/— | — |
-| `openai/gpt-4.1` | chat | 1.04758M | $2 | $8 | $0.5 | — | —/— | — |
-| `openai/gpt-4.1-mini` | chat | 1.04758M | $0.4 | $1.6 | $0.1 | — | —/— | — |
-| `openai/gpt-4.1-nano` | chat | 1.04758M | $0.1 | $0.4 | $0.025 | — | —/— | — |
-| `openai/gpt-4o` | chat | 128K | $2.5 | $10 | $1.25 | — | —/— | — |
-| `openai/gpt-4o-2024-08-06` | chat | 128K | $2.5 | $10 | $1.25 | — | —/— | — |
-| `openai/gpt-4o-2024-11-20` | chat | 128K | $2.5 | $10 | $1.25 | — | —/— | — |
-| `openai/gpt-4o-mini` | chat | 128K | $0.15 | $0.6 | $0.075 | — | —/— | — |
-| `openai/gpt-5` | reasoning | 400K | $1.25 | $10 | $0.125 | — | —/— | — |
-| `openai/gpt-5-mini` | reasoning | 400K | $0.25 | $2 | $0.025 | — | —/— | — |
-| `openai/gpt-5-nano` | reasoning | 400K | $0.05 | $0.4 | $0.005 | — | —/— | — |
-| `openai/gpt-5-pro` | reasoning | 400K | $15 | $120 | — | — | —/— | — |
-| `openai/gpt-5.1` | reasoning | 400K | $1.25 | $10 | $0.125 | — | —/— | — |
-| `openai/gpt-5.2` | reasoning | 400K | $1.75 | $14 | $0.175 | — | —/— | — |
-| `openai/gpt-5.2-pro` | reasoning | 400K | $21 | $168 | — | — | —/— | — |
-| `openai/gpt-5.3-codex` | reasoning | 400K | $1.75 | $14 | $0.175 | — | —/— | — |
-| `openai/gpt-5.4` | reasoning | 1.05M | $2.5 | $15 | $0.25 | — | —/— | — |
-| `openai/gpt-5.4-mini` | reasoning | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — |
-| `openai/gpt-5.4-nano` | reasoning | 400K | $0.2 | $1.25 | $0.02 | — | —/— | — |
-| `openai/gpt-5.4-pro` | reasoning | 1.05M | $30 | $180 | $3 | — | —/— | — |
-| `openai/gpt-5.5` | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — |
-| `openai/gpt-5.5-pro` | reasoning | 1.05M | $30 | $180 | $3 | — | —/— | — |
-| `openai/gpt-5.6-luna` | reasoning | 1.05M | $0.2 | $1.2 | $0.02 | — | —/— | — |
-| `openai/gpt-5.6-sol` | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — |
-| `openai/gpt-5.6-terra` | reasoning | 1.05M | $2 | $12 | $0.2 | — | —/— | — |
-| `openai/gpt-latest` | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — |
-| `openai/gpt-mini-latest` | reasoning | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — |
-| `openai/gpt-pro-latest` | reasoning | 1.05M | $30 | $180 | $3 | — | —/— | — |
-| `openai/o1` | reasoning | 200K | $15 | $60 | $7.5 | — | —/— | — |
-| `openai/o1-pro` | reasoning | 200K | $150 | $600 | — | — | —/— | — |
-| `openai/o3` | reasoning | 200K | $2 | $8 | $0.5 | — | —/— | — |
-| `openai/o3-mini` | reasoning | 200K | $1.1 | $4.4 | $0.55 | — | —/— | — |
-| `openai/o3-pro` | reasoning | 200K | $20 | $80 | — | — | —/— | — |
-| `openai/o4-mini` | reasoning | 200K | $1.1 | $4.4 | $0.275 | — | —/— | — |
-| `ovhcloud/gpt-oss-120b` | reasoning | 131.072K | $0.09 | $0.47 | — | — | —/— | — |
-| `ovhcloud/gpt-oss-20b` | reasoning | 131.072K | $0.05 | $0.18 | — | — | —/— | — |
-| `perplexityai/sonar` | chat | 127.072K | $1 | $1 | — | — | —/— | — |
-| `perplexityai/sonar-deep-research` | reasoning | 128K | $2 | $8 | — | — | —/— | — |
-| `perplexityai/sonar-pro` | chat | 200K | $3 | $15 | — | — | —/— | — |
-| `perplexityai/sonar-reasoning-pro` | reasoning | 128K | $2 | $8 | — | — | —/— | — |
-| `qwen/deepseek-v4-flash-0731` | reasoning | 1M | $0.40172 | $1.20516 | — | — | —/— | — |
-| `qwen/deepseek-v4-pro-0813` | reasoning | 1M | $1.20516 | $3.61548 | — | — | —/— | — |
-| `qwen/qwen-max` | chat | 32.768K | $1.6 | $6.4 | $0.32 | — | —/— | — |
-| `qwen/qwen-vl-max` | chat | 131.072K | $0.8 | $3.2 | $0.16 | — | —/— | — |
-| `qwen/qwen-vl-plus` | chat | 131.072K | $0.21 | $0.63 | $0.042 | — | —/— | — |
-| `qwen/qwen3-235b-a22b-instruct-2507` | chat | 131.072K | $0.23 | $0.92 | — | — | —/— | — |
-| `qwen/qwen3-coder-30b-a3b-instruct` | chat | 262.144K | $0.45 | $2.25 | — | — | —/— | — |
-| `qwen/qwen3-coder-480b-a35b-instruct` | chat | 262.144K | $1.5 | $7.5 | — | — | —/— | — |
-| `qwen/qwen3-coder-flash` | chat | 1M | $0.3 | $1.5 | $0.06 | — | —/— | — |
-| `qwen/qwen3-coder-next` | chat | 262.144K | $0.3 | $1.5 | — | — | —/— | — |
-| `qwen/qwen3-coder-plus` | chat | 1M | $1 | $5 | $0.2 | — | —/— | — |
-| `qwen/qwen3-max` | chat | 262.144K | $1.2 | $6 | $0.24 | — | —/— | — |
-| `qwen/qwen3-next-80b-a3b-instruct` | chat | 131.072K | $0.15 | $1.2 | — | — | —/— | — |
-| `qwen/qwen3-next-80b-a3b-thinking` | reasoning | 131.072K | $0.15 | $1.2 | — | — | —/— | — |
-| `qwen/qwen3-vl-235b-a22b-instruct` | chat | 131.072K | $0.4 | $1.6 | — | — | —/— | — |
-| `qwen/qwen3-vl-235b-a22b-thinking` | reasoning | 131.072K | $0.4 | $4 | — | — | —/— | — |
-| `qwen/qwen3.8-2.4t-a95b` | reasoning | 1M | $2 | $6 | $0.25 | — | —/— | — |
-| `qwen/qwen3.8-27b` | reasoning | 1M | $0.5 | $3 | $0.1 | — | —/— | — |
-| `qwen/qwen3.8-max` | reasoning | 1M | $2 | $6 | $0.25 | — | —/— | — |
-| `qwen/qwq-plus` | reasoning | 131.072K | $0.8 | $2.4 | — | — | —/— | — |
-| `scaleway/deepseek-v4-flash-0731` | reasoning | 256K | $0.46724 | $0.93448 | — | — | —/— | — |
-| `scaleway/gpt-oss-120b` | reasoning | 128K | $0.175215 | $0.70086 | — | — | —/— | — |
-| `scaleway/llama-3.3-70b-instruct` | chat | 128K | $1.05129 | $1.05129 | — | — | —/— | — |
-| `tensorx/deepseek/deepseek-v4-flash-0731` | reasoning | 1.04858M | $0.25 | $0.3 | $0.0625 | — | —/— | — |
-| `tensorx/moonshotai/kimi-k2.5` | reasoning | 262.144K | $0.5 | $2.8 | $0.125 | — | —/— | — |
-| `together_ai/deepseek-ai/DeepSeek-V4-Flash-0731` | reasoning | 1.04858M | $0.14 | $0.28 | $0.03 | — | —/— | — |
-| `together_ai/deepseek-ai/DeepSeek-V4-Pro-0813` | reasoning | 1.04858M | $1.32 | $3.96 | $0.13 | — | —/— | — |
-| `together_ai/meta-models/Muse-Glimmer-30B` | reasoning | 131.072K | $0.35 | $1.5 | $0.04 | — | —/— | — |
-| `together_ai/nvidia/nemotron-3-ultra-550b-a55b` | reasoning | 512.288K | $0.6 | $3.6 | $0.2 | — | —/— | — |
-| `together_ai/openai/gpt-oss-120b` | reasoning | 131.072K | $0.15 | $0.6 | — | — | —/— | — |
-| `together_ai/openai/gpt-oss-20b` | reasoning | 131.072K | $0.05 | $0.2 | — | — | —/— | — |
-| `together_ai/thinkingmachines/Inkling` | reasoning | 524.288K | $1 | $4.05 | $0.17 | — | —/— | — |
-| `together_ai/thinkingmachines/Inkling-Small` | reasoning | 524.288K | $0.5 | $1.2 | $0.1 | — | —/— | — |
-| `vertex/gemini-2.5-flash-image` | reasoning | 32.768K | $0.3 | $2.5 | $0.03 | — | —/— | — |
-| `vertex/gemini-3-flash-preview` | reasoning | 1.04858M | $0.5 | $3 | $0.05 | — | —/— | — |
-| `vertex/gemini-3-pro-image` | reasoning | 65.536K | $2 | $12 | $0.2 | — | —/— | — |
-| `vertex/gemini-3.1-flash-image` | reasoning | 131.072K | $0.5 | $3 | — | — | —/— | — |
-| `vertex/gemini-3.1-flash-lite-image` | reasoning | 65.536K | $0.25 | $1.5 | — | — | —/— | — |
-| `vertex/gemini-3.1-pro-preview` | reasoning | 1.04858M | $2 | $12 | $0.2 | — | —/— | — |
-| `vertex/gemini-3.5-flash` | reasoning | 1.04858M | $1.5 | $9 | $0.15 | — | —/— | — |
-| `vertex/gemini-3.5-flash-lite` | reasoning | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — |
-| `vertex/gemini-3.5-flash-lite@eu` | reasoning | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — |
-| `vertex/gemini-3.5-flash-lite@us` | reasoning | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — |
-| `vertex/gemini-3.5-flash@eu` | reasoning | 1.04858M | $1.5 | $9 | $0.15 | — | —/— | — |
-| `vertex/gemini-3.5-flash@us` | reasoning | 1.04858M | $1.5 | $9 | $0.15 | — | —/— | — |
-| `vertex/gemini-3.6-flash` | reasoning | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — |
-| `vertex/gemini-3.6-flash@eu` | reasoning | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — |
-| `vertex/gemini-3.6-flash@us` | reasoning | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — |
-| `vertex/gemini-3.7-flash` | reasoning | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — |
-| `vertex/gemini-3.7-flash@eu` | reasoning | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — |
-| `vertex/gemini-3.7-flash@us` | reasoning | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — |
-| `vertex/gemini-flash-latest` | reasoning | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — |
-| `vertex/gemini-pro-latest` | reasoning | 1.04858M | $2 | $12 | $0.2 | — | —/— | — |
-| `xai/grok-4.20-0309-non-reasoning` | chat | 1M | $1.25 | $2.5 | $0.2 | — | —/— | — |
-| `xai/grok-4.20-0309-reasoning` | reasoning | 1M | $1.25 | $2.5 | $0.2 | — | —/— | — |
-| `xai/grok-4.3` | reasoning | 1M | $1.25 | $2.5 | $0.2 | — | —/— | — |
-| `xai/grok-4.5` | reasoning | 500K | $2 | $6 | $0.3 | — | —/— | — |
-| `xai/grok-4.6` | reasoning | 500K | $2 | $6 | $0.5 | — | —/— | — |
-| `xai/grok-build-0.1` | reasoning | 256K | $1 | $2 | $0.2 | — | —/— | — |
-| `xai/grok-latest` | reasoning | 500K | $2 | $6 | $0.5 | — | —/— | — |
-| `zai/glm-4.6` | reasoning | 202.752K | $0.6 | $2.2 | $0.11 | — | —/— | — |
-| `zai/glm-4.6v` | reasoning | 131.072K | $0.3 | $0.9 | $0.05 | — | —/— | — |
-| `zai/glm-4.7` | reasoning | 202.752K | $0.6 | $2.2 | $0.11 | — | —/— | — |
-| `zai/glm-5` | reasoning | 202.752K | $1 | $3.2 | $0.2 | — | —/— | — |
-| `zai/glm-5-turbo` | reasoning | 202.752K | $1.2 | $4 | $0.24 | — | —/— | — |
-| `zai/glm-5.1` | reasoning | 202.752K | $1.4 | $4.4 | $0.26 | — | —/— | — |
-| `zai/glm-5.2` | reasoning | 1.04858M | $1.4 | $4.4 | $0.26 | — | —/— | — |
-| `zai/glm-5.3` | reasoning | 1.04858M | $1.4 | $4.4 | $0.26 | — | —/— | — |
-| `zai/glm-5v-turbo` | reasoning | 202.752K | $1.2 | $4 | $0.24 | — | —/— | — |
+| 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+|---|---|---|---|---|---|---|---|---|---|
+| `amazon/moonshot.kimi-k2-thinking` | — | reasoning | 128K | $0.6 | $2.5 | — | — | —/— | — |
+| `amazon/moonshotai.kimi-k2.5` | — | reasoning | 262.144K | $0.6 | $3 | — | — | —/— | — |
+| `amazon/nvidia.nemotron-nano-9b-v2` | — | reasoning | 128K | $0.06 | $0.23 | — | — | —/— | — |
+| `amazon/nvidia.nemotron-nano-9b-v2@us` | — | reasoning | 128K | $0.06 | $0.23 | — | — | —/— | — |
+| `amazon/zai.glm-4.7-flash` | — | reasoning | 200K | $0.07 | $0.4 | — | — | —/— | — |
+| `amazon/zai.glm-4.7-flash@us` | — | reasoning | 200K | $0.07 | $0.4 | — | — | —/— | — |
+| `anthropic/claude-fable-5` | — | reasoning | 1M | $10 | $50 | $1 | — | —/— | — |
+| `anthropic/claude-fable-latest` | — | reasoning | 1M | $10 | $50 | $1 | — | —/— | — |
+| `anthropic/claude-opus-4-5` | — | reasoning | 200K | $5 | $25 | $0.5 | — | —/— | — |
+| `anthropic/claude-opus-4-5-20251101` | — | reasoning | 200K | $5 | $25 | $0.5 | — | —/— | — |
+| `anthropic/claude-opus-4-6` | — | reasoning | 1M | $5 | $25 | $0.5 | — | —/— | — |
+| `anthropic/claude-opus-4-7` | — | reasoning | 1M | $5 | $25 | $0.5 | — | —/— | — |
+| `anthropic/claude-opus-4-8` | — | reasoning | 1M | $5 | $25 | $0.5 | — | —/— | — |
+| `anthropic/claude-opus-5` | — | reasoning | 1M | $5 | $25 | $0.5 | — | —/— | — |
+| `anthropic/claude-opus-latest` | — | reasoning | 1M | $5 | $25 | $0.5 | — | —/— | — |
+| `anthropic/claude-sonnet-4-6` | — | reasoning | 1M | $3 | $15 | $0.3 | — | —/— | — |
+| `anthropic/claude-sonnet-5` | — | reasoning | 1M | $2 | $10 | $0.2 | — | —/— | — |
+| `anthropic/claude-sonnet-latest` | — | reasoning | 1M | $2 | $10 | $0.2 | — | —/— | — |
+| `azure/gpt-5.1-codex` | — | reasoning | 272K | $1.25 | $10 | $0.125 | — | —/— | — |
+| `azure/gpt-5.1-codex-max` | — | reasoning | 272K | $1.25 | $10 | $0.125 | — | —/— | — |
+| `azure/gpt-5.1-codex-mini` | — | reasoning | 272K | $0.25 | $2 | $0.025 | — | —/— | — |
+| `azure/gpt-5.2-codex` | — | reasoning | 272K | $1.75 | $14 | $0.175 | — | —/— | — |
+| `cerebras/gpt-oss-120b` | — | reasoning | 131.072K | $0.35 | $0.75 | $0.35 | — | —/— | — |
+| `cloudflare/@cf/aisingapore/gemma-sea-lion-v4-27b-it` | — | chat | 128K | $0.351 | $0.555 | — | — | —/— | — |
+| `cloudflare/@cf/deepseek-ai/deepseek-v4-flash-0731` | — | reasoning | 1.31072M | $0.44 | $1.32 | $0.014 | — | —/— | — |
+| `cloudflare/@cf/deepseek-ai/deepseek-v4-pro-0813` | — | reasoning | 1.04858M | $1.32 | $3.96 | $0.044 | — | —/— | — |
+| `cloudflare/@cf/meta/llama-guard-3-8b` | — | chat | 131.072K | $0.484 | $0.03 | — | — | —/— | — |
+| `cloudflare/@cf/openai/gpt-oss-120b` | — | reasoning | 128K | $0.35 | $0.75 | — | — | —/— | — |
+| `cloudflare/@cf/openai/gpt-oss-20b` | — | reasoning | 128K | $0.2 | $0.3 | — | — | —/— | — |
+| `cloudflare/@cf/qwen/qwen2.5-coder-32b-instruct` | — | chat | 32.768K | $0.66 | $1 | — | — | —/— | — |
+| `cloudflare/@cf/zai-org/glm-4.7-flash` | — | reasoning | 131.072K | $0.0605 | $0.4 | — | — | —/— | — |
+| `cohere/command-a-03-2025` | — | chat | 288K | $2.5 | $10 | — | — | —/— | — |
+| `cohere/command-r-08-2024` | — | chat | 128K | $0.15 | $0.6 | — | — | —/— | — |
+| `cohere/command-r-plus-08-2024` | — | chat | 128K | $2.5 | $10 | — | — | —/— | — |
+| `cohere/command-r7b-12-2024` | — | chat | 132K | $0.0375 | $0.15 | — | — | —/— | — |
+| `databricks/databricks-gpt-oss-120b` | — | reasoning | 131.072K | $0.15001 | $0.59997 | — | — | —/— | — |
+| `databricks/databricks-gpt-oss-20b` | — | reasoning | 131.072K | $0.07 | $0.30002 | — | — | —/— | — |
+| `deepinfra/ByteDance/Seed-2.0-code` | — | reasoning | 256K | $0.5 | $3 | $0.1 | — | —/— | — |
+| `deepinfra/ByteDance/Seed-2.0-mini` | — | reasoning | 256K | $0.1 | $0.4 | $0.02 | — | —/— | — |
+| `deepinfra/deepseek-ai/DeepSeek-R1` | — | reasoning | 163.84K | $0.7 | $2.4 | — | — | —/— | — |
+| `deepinfra/deepseek-ai/DeepSeek-V3` | — | chat | 163.84K | $0.32 | $0.89 | — | — | —/— | — |
+| `deepinfra/deepseek-ai/DeepSeek-V3-0324` | — | chat | 163.84K | $0.24 | $0.9 | $0.135 | — | —/— | — |
+| `deepinfra/deepseek-ai/DeepSeek-V4-Flash-0731` | — | reasoning | 1.04858M | $0.08 | $0.18 | $0.016 | — | —/— | — |
+| `deepinfra/deepseek-ai/DeepSeek-V4-Pro-0813` | — | reasoning | 1.04858M | $1.3 | $2.6 | $0.1 | — | —/— | — |
+| `deepinfra/meta-llama/Llama-3.2-11B-Vision-Instruct` | — | chat | 131.072K | $0.345 | $0.345 | — | — | —/— | — |
+| `deepinfra/meta-llama/Llama-3.3-70B-Instruct` | — | chat | 131.072K | $0.1 | $0.32 | — | — | —/— | — |
+| `deepinfra/meta-llama/Llama-Guard-3-8B` | — | chat | 131.072K | $0.055 | $0.055 | — | — | —/— | — |
+| `deepinfra/meta-models/Muse-Glimmer-30B` | — | reasoning | 131.072K | $0.3 | $1.2 | $0.04 | — | —/— | — |
+| `deepinfra/moonshotai/Kimi-K2.5` | — | reasoning | 262.144K | $0.45 | $2.25 | $0.07 | — | —/— | — |
+| `deepinfra/nemotron-3-ultra-550b-a55b` | — | reasoning | 262.144K | $0.5 | $2.2 | $0.1 | — | —/— | — |
+| `deepinfra/nvidia/Llama-3.1-Nemotron-70B-Instruct` | — | chat | 131.072K | $0.6 | $0.6 | — | — | —/— | — |
+| `deepinfra/nvidia/Nemotron-3-Nano-30B-A3B` | — | reasoning | 262.144K | $0.05 | $0.2 | $0.025 | — | —/— | — |
+| `deepinfra/openai/gpt-oss-120b` | — | reasoning | 131.072K | $0.037 | $0.17 | — | — | —/— | — |
+| `deepinfra/openai/gpt-oss-20b` | — | reasoning | 131.072K | $0.03 | $0.14 | — | — | —/— | — |
+| `deepinfra/stepfun-ai/Step-3.5-Flash` | — | reasoning | 262.144K | $0.09 | $0.3 | $0.02 | — | —/— | — |
+| `deepinfra/stepfun-ai/Step-3.7-Flash` | — | reasoning | 262.144K | $0.2 | $1.15 | $0.04 | — | —/— | — |
+| `deepinfra/thinkingmachines/Inkling` | — | reasoning | 524.288K | $0.95 | $4.05 | $0.16 | — | —/— | — |
+| `deepinfra/thinkingmachines/Inkling-Small` | — | reasoning | 524.288K | $0.45 | $1.2 | $0.1 | — | —/— | — |
+| `deepinfra/zai-org/GLM-4.7-Flash` | — | reasoning | 202.752K | $0.06 | $0.4 | $0.01 | — | —/— | — |
+| `deepseek/deepseek-chat` | — | chat | 131.072K | $0.28 | $0.42 | $0.028 | — | —/— | — |
+| `deepseek/deepseek-reasoner` | — | reasoning | 131.072K | $0.28 | $0.42 | $0.028 | — | —/— | — |
+| `deepseek/deepseek-v4-flash` | — | reasoning | 1.04858M | $0.44 | $1.32 | $0.014 | — | —/— | — |
+| `deepseek/deepseek-v4-pro` | — | reasoning | 1.04858M | $1.32 | $3.96 | $0.044 | — | —/— | — |
+| `fireworks_ai/accounts/fireworks/models/deepseek-v4-flash-0731` | — | reasoning | 1.04858M | $0.14 | $0.28 | $0.028 | — | —/— | — |
+| `fireworks_ai/accounts/fireworks/models/deepseek-v4-pro-0813` | — | reasoning | 1.04858M | $1.32 | $3.96 | $0.044 | — | —/— | — |
+| `fireworks_ai/accounts/fireworks/models/gpt-oss-120b` | — | reasoning | 131.072K | $0.15 | $0.6 | $0.015 | — | —/— | — |
+| `fireworks_ai/accounts/fireworks/models/gpt-oss-20b` | — | reasoning | 131.072K | $0.07 | $0.3 | $0.035 | — | —/— | — |
+| `fireworks_ai/accounts/fireworks/models/muse-glimmer-30b` | — | reasoning | 131.072K | $0.35 | $1.5 | $0.04 | — | —/— | — |
+| `fireworks_ai/gpt-oss-120b` | — | reasoning | 131.072K | $0.15 | $0.6 | $0.014 | — | —/— | — |
+| `fireworks_ai/gpt-oss-20b` | — | reasoning | 131.072K | $0.07 | $0.3 | $0.035 | — | —/— | — |
+| `flexai/DeepSeek-V4-Flash-0731` | — | reasoning | 1M | $0.08 | $0.18 | — | — | —/— | — |
+| `flexai/Muse-Glimmer-30B` | — | reasoning | 131.072K | $0.3 | $1.2 | — | — | —/— | — |
+| `flexai/Nemotron-3-Super-120B-A12B` | — | reasoning | 262.144K | $0.085 | $0.4 | — | — | —/— | — |
+| `flexai/deepseek-v4-flash-0731` | — | reasoning | 1M | $0.08 | $0.18 | — | — | —/— | — |
+| `flexai/gpt-oss-120b` | — | reasoning | 131.072K | $0.039 | $0.1 | — | — | —/— | — |
+| `flexai/gpt-oss-20b` | — | reasoning | 131.072K | $0.03 | $0.13 | — | — | —/— | — |
+| `google/gemini-2.5-flash-image` | — | reasoning | 32.768K | $0.3 | $2.5 | $0.03 | — | —/— | — |
+| `google/gemini-3-flash-preview` | — | reasoning | 1.04858M | $0.5 | $3 | $0.05 | — | —/— | — |
+| `google/gemini-3-pro-image` | — | reasoning | 65.536K | $2 | $12 | $0.2 | — | —/— | — |
+| `google/gemini-3-pro-image-preview` | — | reasoning | 65.536K | $2 | $12 | $0.2 | — | —/— | — |
+| `google/gemini-3.1-flash-image` | — | reasoning | 65.536K | $0.5 | $3 | — | — | —/— | — |
+| `google/gemini-3.1-flash-image-preview` | — | reasoning | 65.536K | $0.5 | $3 | — | — | —/— | — |
+| `google/gemini-3.1-flash-lite` | — | reasoning | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — |
+| `google/gemini-3.1-flash-lite-image` | — | reasoning | 65.536K | $0.25 | $1.5 | — | — | —/— | — |
+| `google/gemini-3.1-flash-lite-preview` | — | reasoning | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — |
+| `google/gemini-3.1-pro-preview` | — | reasoning | 1.04858M | $2 | $12 | $0.2 | — | —/— | — |
+| `google/gemini-3.1-pro-preview-customtools` | — | reasoning | 1.04858M | $2 | $12 | $0.2 | — | —/— | — |
+| `google/gemini-3.5-flash` | — | reasoning | 1.04858M | $1.5 | $9 | $0.15 | — | —/— | — |
+| `google/gemini-3.5-flash-lite` | — | reasoning | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — |
+| `google/gemini-3.6-flash` | — | reasoning | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — |
+| `google/gemini-3.7-flash` | — | reasoning | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — |
+| `google/gemini-flash-latest` | — | reasoning | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — |
+| `google/gemini-pro-latest` | — | reasoning | 1.04858M | $2 | $12 | $0.2 | — | —/— | — |
+| `google/lyria-3-clip-preview` | — | chat | 1.04858M | $0 | $0 | — | — | —/— | — |
+| `groq/openai/gpt-oss-120b` | — | reasoning | 131.072K | $0.15 | $0.6 | $0.075 | — | —/— | — |
+| `groq/openai/gpt-oss-20b` | — | reasoning | 131.072K | $0.075 | $0.3 | $0.0375 | — | —/— | — |
+| `ionos/meta-llama/Llama-3.3-70B-Instruct` | — | chat | 128K | $0.759265 | $0.759265 | — | — | —/— | — |
+| `ionos/openai/gpt-oss-120b` | — | reasoning | 131.072K | $0.175215 | $0.759265 | — | — | —/— | — |
+| `minimax/MiniMax-M2` | — | reasoning | 204.8K | $0.3 | $1.2 | — | — | —/— | — |
+| `minimax/MiniMax-M2.1` | — | reasoning | 204.8K | $0.3 | $1.2 | $0.03 | — | —/— | — |
+| `minimax/MiniMax-M2.5` | — | reasoning | 204.8K | $0.3 | $1.2 | $0.03 | — | —/— | — |
+| `minimax/MiniMax-M2.7` | — | reasoning | 204.8K | $0.3 | $1.2 | $0.06 | — | —/— | — |
+| `minimax/MiniMax-M3` | — | reasoning | 524.288K | $0.3 | $1.2 | $0.06 | — | —/— | — |
+| `mistral/codestral-latest` | — | chat | 256K | $0.3 | $0.9 | — | — | —/— | — |
+| `mistral/devstral-2512` | — | chat | 262.144K | $0.4 | $2 | — | — | —/— | — |
+| `mistral/devstral-medium-latest` | — | chat | 262.144K | $0.4 | $2 | — | — | —/— | — |
+| `mistral/magistral-medium-latest` | — | reasoning | 262.144K | $2 | $5 | — | — | —/— | — |
+| `mistral/mistral-large-2512` | — | chat | 262.144K | $0.5 | $1.5 | $0.05 | — | —/— | — |
+| `mistral/mistral-large-latest` | — | chat | 262.144K | $2 | $6 | $0.2 | — | —/— | — |
+| `mistral/mistral-medium-2505` | — | chat | 131.072K | $0.4 | $2 | — | — | —/— | — |
+| `mistral/mistral-medium-2604` | — | reasoning | 262.144K | $1.5 | $7.5 | — | — | —/— | — |
+| `mistral/mistral-medium-latest` | — | reasoning | 262.144K | $1.5 | $7.5 | — | — | —/— | — |
+| `mistral/mistral-small-2603` | — | reasoning | 262.144K | $0.15 | $0.6 | $0.015 | — | —/— | — |
+| `mistral/mistral-small-latest` | — | reasoning | 262.144K | $0.15 | $0.6 | — | — | —/— | — |
+| `moonshot/kimi-k2.6` | — | reasoning | 262.144K | $0.95 | $4 | $0.16 | — | —/— | — |
+| `moonshot/kimi-k2.7-code` | — | reasoning | 262.144K | $0.95 | $4 | $0.19 | — | —/— | — |
+| `moonshot/kimi-k3` | — | reasoning | 1.04858M | $3 | $15 | $0.3 | — | —/— | — |
+| `nebius/meta-llama/Llama-3.3-70B-Instruct` | — | chat | 131.072K | $0.13 | $0.4 | $0.13 | — | —/— | — |
+| `nebius/nvidia/Nemotron-3-Ultra-550b-a55b` | — | reasoning | 1.04858M | $1 | $3 | $1 | — | —/— | — |
+| `nebius/nvidia/nemotron-3-super-120b-a12b` | — | reasoning | 8K | $0.3 | $0.9 | $0.3 | — | —/— | — |
+| `nebius/openai/gpt-oss-120b` | — | reasoning | 131.072K | $0.15 | $0.6 | $0.15 | — | —/— | — |
+| `openai/gpt-3.5-turbo` | — | chat | 16.385K | $0.5 | $1.5 | — | — | —/— | — |
+| `openai/gpt-4` | — | chat | 8.191K | $30 | $60 | — | — | —/— | — |
+| `openai/gpt-4-turbo` | — | chat | 128K | $10 | $30 | — | — | —/— | — |
+| `openai/gpt-4.1` | — | chat | 1.04758M | $2 | $8 | $0.5 | — | —/— | — |
+| `openai/gpt-4.1-mini` | — | chat | 1.04758M | $0.4 | $1.6 | $0.1 | — | —/— | — |
+| `openai/gpt-4.1-nano` | — | chat | 1.04758M | $0.1 | $0.4 | $0.025 | — | —/— | — |
+| `openai/gpt-4o` | — | chat | 128K | $2.5 | $10 | $1.25 | — | —/— | — |
+| `openai/gpt-4o-2024-08-06` | — | chat | 128K | $2.5 | $10 | $1.25 | — | —/— | — |
+| `openai/gpt-4o-2024-11-20` | — | chat | 128K | $2.5 | $10 | $1.25 | — | —/— | — |
+| `openai/gpt-4o-mini` | — | chat | 128K | $0.15 | $0.6 | $0.075 | — | —/— | — |
+| `openai/gpt-5` | — | reasoning | 400K | $1.25 | $10 | $0.125 | — | —/— | — |
+| `openai/gpt-5-mini` | — | reasoning | 400K | $0.25 | $2 | $0.025 | — | —/— | — |
+| `openai/gpt-5-nano` | — | reasoning | 400K | $0.05 | $0.4 | $0.005 | — | —/— | — |
+| `openai/gpt-5-pro` | — | reasoning | 400K | $15 | $120 | — | — | —/— | — |
+| `openai/gpt-5.1` | — | reasoning | 400K | $1.25 | $10 | $0.125 | — | —/— | — |
+| `openai/gpt-5.2` | — | reasoning | 400K | $1.75 | $14 | $0.175 | — | —/— | — |
+| `openai/gpt-5.2-pro` | — | reasoning | 400K | $21 | $168 | — | — | —/— | — |
+| `openai/gpt-5.3-codex` | — | reasoning | 400K | $1.75 | $14 | $0.175 | — | —/— | — |
+| `openai/gpt-5.4` | — | reasoning | 1.05M | $2.5 | $15 | $0.25 | — | —/— | — |
+| `openai/gpt-5.4-mini` | — | reasoning | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — |
+| `openai/gpt-5.4-nano` | — | reasoning | 400K | $0.2 | $1.25 | $0.02 | — | —/— | — |
+| `openai/gpt-5.4-pro` | — | reasoning | 1.05M | $30 | $180 | $3 | — | —/— | — |
+| `openai/gpt-5.5` | — | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — |
+| `openai/gpt-5.5-pro` | — | reasoning | 1.05M | $30 | $180 | $3 | — | —/— | — |
+| `openai/gpt-5.6-luna` | — | reasoning | 1.05M | $0.2 | $1.2 | $0.02 | — | —/— | — |
+| `openai/gpt-5.6-sol` | — | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — |
+| `openai/gpt-5.6-terra` | — | reasoning | 1.05M | $2 | $12 | $0.2 | — | —/— | — |
+| `openai/gpt-latest` | — | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — |
+| `openai/gpt-mini-latest` | — | reasoning | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — |
+| `openai/gpt-pro-latest` | — | reasoning | 1.05M | $30 | $180 | $3 | — | —/— | — |
+| `openai/o1` | — | reasoning | 200K | $15 | $60 | $7.5 | — | —/— | — |
+| `openai/o1-pro` | — | reasoning | 200K | $150 | $600 | — | — | —/— | — |
+| `openai/o3` | — | reasoning | 200K | $2 | $8 | $0.5 | — | —/— | — |
+| `openai/o3-mini` | — | reasoning | 200K | $1.1 | $4.4 | $0.55 | — | —/— | — |
+| `openai/o3-pro` | — | reasoning | 200K | $20 | $80 | — | — | —/— | — |
+| `openai/o4-mini` | — | reasoning | 200K | $1.1 | $4.4 | $0.275 | — | —/— | — |
+| `ovhcloud/gpt-oss-120b` | — | reasoning | 131.072K | $0.09 | $0.47 | — | — | —/— | — |
+| `ovhcloud/gpt-oss-20b` | — | reasoning | 131.072K | $0.05 | $0.18 | — | — | —/— | — |
+| `perplexityai/sonar` | — | chat | 127.072K | $1 | $1 | — | — | —/— | — |
+| `perplexityai/sonar-deep-research` | — | reasoning | 128K | $2 | $8 | — | — | —/— | — |
+| `perplexityai/sonar-pro` | — | chat | 200K | $3 | $15 | — | — | —/— | — |
+| `perplexityai/sonar-reasoning-pro` | — | reasoning | 128K | $2 | $8 | — | — | —/— | — |
+| `qwen/deepseek-v4-flash-0731` | — | reasoning | 1M | $0.40172 | $1.20516 | — | — | —/— | — |
+| `qwen/deepseek-v4-pro-0813` | — | reasoning | 1M | $1.20516 | $3.61548 | — | — | —/— | — |
+| `qwen/qwen-max` | — | chat | 32.768K | $1.6 | $6.4 | $0.32 | — | —/— | — |
+| `qwen/qwen-vl-max` | — | chat | 131.072K | $0.8 | $3.2 | $0.16 | — | —/— | — |
+| `qwen/qwen-vl-plus` | — | chat | 131.072K | $0.21 | $0.63 | $0.042 | — | —/— | — |
+| `qwen/qwen3-235b-a22b-instruct-2507` | — | chat | 131.072K | $0.23 | $0.92 | — | — | —/— | — |
+| `qwen/qwen3-coder-30b-a3b-instruct` | — | chat | 262.144K | $0.45 | $2.25 | — | — | —/— | — |
+| `qwen/qwen3-coder-480b-a35b-instruct` | — | chat | 262.144K | $1.5 | $7.5 | — | — | —/— | — |
+| `qwen/qwen3-coder-flash` | — | chat | 1M | $0.3 | $1.5 | $0.06 | — | —/— | — |
+| `qwen/qwen3-coder-next` | — | chat | 262.144K | $0.3 | $1.5 | — | — | —/— | — |
+| `qwen/qwen3-coder-plus` | — | chat | 1M | $1 | $5 | $0.2 | — | —/— | — |
+| `qwen/qwen3-max` | — | chat | 262.144K | $1.2 | $6 | $0.24 | — | —/— | — |
+| `qwen/qwen3-next-80b-a3b-instruct` | — | chat | 131.072K | $0.15 | $1.2 | — | — | —/— | — |
+| `qwen/qwen3-next-80b-a3b-thinking` | — | reasoning | 131.072K | $0.15 | $1.2 | — | — | —/— | — |
+| `qwen/qwen3-vl-235b-a22b-instruct` | — | chat | 131.072K | $0.4 | $1.6 | — | — | —/— | — |
+| `qwen/qwen3-vl-235b-a22b-thinking` | — | reasoning | 131.072K | $0.4 | $4 | — | — | —/— | — |
+| `qwen/qwen3.8-2.4t-a95b` | — | reasoning | 1M | $2 | $6 | $0.25 | — | —/— | — |
+| `qwen/qwen3.8-27b` | — | reasoning | 1M | $0.5 | $3 | $0.1 | — | —/— | — |
+| `qwen/qwen3.8-max` | — | reasoning | 1M | $2 | $6 | $0.25 | — | —/— | — |
+| `qwen/qwq-plus` | — | reasoning | 131.072K | $0.8 | $2.4 | — | — | —/— | — |
+| `scaleway/deepseek-v4-flash-0731` | — | reasoning | 256K | $0.46724 | $0.93448 | — | — | —/— | — |
+| `scaleway/gpt-oss-120b` | — | reasoning | 128K | $0.175215 | $0.70086 | — | — | —/— | — |
+| `scaleway/llama-3.3-70b-instruct` | — | chat | 128K | $1.05129 | $1.05129 | — | — | —/— | — |
+| `tensorx/deepseek/deepseek-v4-flash-0731` | — | reasoning | 1.04858M | $0.25 | $0.3 | $0.0625 | — | —/— | — |
+| `tensorx/moonshotai/kimi-k2.5` | — | reasoning | 262.144K | $0.5 | $2.8 | $0.125 | — | —/— | — |
+| `together_ai/deepseek-ai/DeepSeek-V4-Flash-0731` | — | reasoning | 1.04858M | $0.14 | $0.28 | $0.03 | — | —/— | — |
+| `together_ai/deepseek-ai/DeepSeek-V4-Pro-0813` | — | reasoning | 1.04858M | $1.32 | $3.96 | $0.13 | — | —/— | — |
+| `together_ai/meta-models/Muse-Glimmer-30B` | — | reasoning | 131.072K | $0.35 | $1.5 | $0.04 | — | —/— | — |
+| `together_ai/nvidia/nemotron-3-ultra-550b-a55b` | — | reasoning | 512.288K | $0.6 | $3.6 | $0.2 | — | —/— | — |
+| `together_ai/openai/gpt-oss-120b` | — | reasoning | 131.072K | $0.15 | $0.6 | — | — | —/— | — |
+| `together_ai/openai/gpt-oss-20b` | — | reasoning | 131.072K | $0.05 | $0.2 | — | — | —/— | — |
+| `together_ai/thinkingmachines/Inkling` | — | reasoning | 524.288K | $1 | $4.05 | $0.17 | — | —/— | — |
+| `together_ai/thinkingmachines/Inkling-Small` | — | reasoning | 524.288K | $0.5 | $1.2 | $0.1 | — | —/— | — |
+| `vertex/gemini-2.5-flash-image` | — | reasoning | 32.768K | $0.3 | $2.5 | $0.03 | — | —/— | — |
+| `vertex/gemini-3-flash-preview` | — | reasoning | 1.04858M | $0.5 | $3 | $0.05 | — | —/— | — |
+| `vertex/gemini-3-pro-image` | — | reasoning | 65.536K | $2 | $12 | $0.2 | — | —/— | — |
+| `vertex/gemini-3.1-flash-image` | — | reasoning | 131.072K | $0.5 | $3 | — | — | —/— | — |
+| `vertex/gemini-3.1-flash-lite-image` | — | reasoning | 65.536K | $0.25 | $1.5 | — | — | —/— | — |
+| `vertex/gemini-3.1-pro-preview` | — | reasoning | 1.04858M | $2 | $12 | $0.2 | — | —/— | — |
+| `vertex/gemini-3.5-flash` | — | reasoning | 1.04858M | $1.5 | $9 | $0.15 | — | —/— | — |
+| `vertex/gemini-3.5-flash-lite` | — | reasoning | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — |
+| `vertex/gemini-3.5-flash-lite@eu` | — | reasoning | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — |
+| `vertex/gemini-3.5-flash-lite@us` | — | reasoning | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — |
+| `vertex/gemini-3.5-flash@eu` | — | reasoning | 1.04858M | $1.5 | $9 | $0.15 | — | —/— | — |
+| `vertex/gemini-3.5-flash@us` | — | reasoning | 1.04858M | $1.5 | $9 | $0.15 | — | —/— | — |
+| `vertex/gemini-3.6-flash` | — | reasoning | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — |
+| `vertex/gemini-3.6-flash@eu` | — | reasoning | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — |
+| `vertex/gemini-3.6-flash@us` | — | reasoning | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — |
+| `vertex/gemini-3.7-flash` | — | reasoning | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — |
+| `vertex/gemini-3.7-flash@eu` | — | reasoning | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — |
+| `vertex/gemini-3.7-flash@us` | — | reasoning | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — |
+| `vertex/gemini-flash-latest` | — | reasoning | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — |
+| `vertex/gemini-pro-latest` | — | reasoning | 1.04858M | $2 | $12 | $0.2 | — | —/— | — |
+| `xai/grok-4.20-0309-non-reasoning` | — | chat | 1M | $1.25 | $2.5 | $0.2 | — | —/— | — |
+| `xai/grok-4.20-0309-reasoning` | — | reasoning | 1M | $1.25 | $2.5 | $0.2 | — | —/— | — |
+| `xai/grok-4.3` | — | reasoning | 1M | $1.25 | $2.5 | $0.2 | — | —/— | — |
+| `xai/grok-4.5` | — | reasoning | 500K | $2 | $6 | $0.3 | — | —/— | — |
+| `xai/grok-4.6` | — | reasoning | 500K | $2 | $6 | $0.5 | — | —/— | — |
+| `xai/grok-build-0.1` | — | reasoning | 256K | $1 | $2 | $0.2 | — | —/— | — |
+| `xai/grok-latest` | — | reasoning | 500K | $2 | $6 | $0.5 | — | —/— | — |
+| `zai/glm-4.6` | — | reasoning | 202.752K | $0.6 | $2.2 | $0.11 | — | —/— | — |
+| `zai/glm-4.6v` | — | reasoning | 131.072K | $0.3 | $0.9 | $0.05 | — | —/— | — |
+| `zai/glm-4.7` | — | reasoning | 202.752K | $0.6 | $2.2 | $0.11 | — | —/— | — |
+| `zai/glm-5` | — | reasoning | 202.752K | $1 | $3.2 | $0.2 | — | —/— | — |
+| `zai/glm-5-turbo` | — | reasoning | 202.752K | $1.2 | $4 | $0.24 | — | —/— | — |
+| `zai/glm-5.1` | — | reasoning | 202.752K | $1.4 | $4.4 | $0.26 | — | —/— | — |
+| `zai/glm-5.2` | — | reasoning | 1.04858M | $1.4 | $4.4 | $0.26 | — | —/— | — |
+| `zai/glm-5.3` | — | reasoning | 1.04858M | $1.4 | $4.4 | $0.26 | — | —/— | — |
+| `zai/glm-5v-turbo` | — | reasoning | 202.752K | $1.2 | $4 | $0.24 | — | —/— | — |

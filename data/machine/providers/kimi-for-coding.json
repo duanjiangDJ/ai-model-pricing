@@ -21,9 +21,9 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -31,7 +31,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "k3-256k",
@@ -44,9 +44,9 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -54,7 +54,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "kimi-for-coding",
@@ -67,9 +67,9 @@
       "max_output": 32768,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -77,7 +77,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "kimi-for-coding-highspeed",
@@ -90,9 +90,9 @@
       "max_output": 32768,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -100,7 +100,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     }
   ]
 }

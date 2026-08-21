@@ -10,7 +10,7 @@
 
 **2** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `thinkingmachines/Inkling` | reasoning | 65.536K | $1.87 | $4.68 | $0.374 | — | —/— | — |
-| `thinkingmachines/Inkling:peft:262144` | reasoning | 262.144K | $3.74 | $9.36 | $0.748 | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `thinkingmachines/Inkling` | — | reasoning | 65.536K | $1.87 | $4.68 | $0.374 | — | —/— | — |
+| `thinkingmachines/Inkling:peft:262144` | — | reasoning | 262.144K | $3.74 | $9.36 | $0.748 | — | —/— | — |

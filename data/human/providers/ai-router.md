@@ -10,10 +10,10 @@
 
 **5** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `gpt-5.4` | reasoning | 1.05M | $2.5 | $15 | $0.25 | — | —/— | — |
-| `gpt-5.5` | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — |
-| `gpt-5.6-luna` | reasoning | 1.05M | $1 | $6 | $0.1 | — | —/— | — |
-| `gpt-5.6-sol` | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — |
-| `gpt-5.6-terra` | reasoning | 1.05M | $2.5 | $15 | $0.25 | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `gpt-5.4` | — | reasoning | 1.05M | $2.5 | $15 | $0.25 | — | —/— | — |
+| `gpt-5.5` | — | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — |
+| `gpt-5.6-luna` | — | reasoning | 1.05M | $1 | $6 | $0.1 | — | —/— | — |
+| `gpt-5.6-sol` | — | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — |
+| `gpt-5.6-terra` | — | reasoning | 1.05M | $2.5 | $15 | $0.25 | — | —/— | — |

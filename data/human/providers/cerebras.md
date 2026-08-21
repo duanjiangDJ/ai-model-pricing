@@ -10,7 +10,7 @@
 
 **2** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `gemma-4-31b` | reasoning | 131.072K | $0.99 | $1.49 | — | — | —/— | — |
-| `gpt-oss-120b` | reasoning | 131.072K | $0.35 | $0.75 | — | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `gemma-4-31b` | — | reasoning | 131.072K | $0.99 | $1.49 | — | — | —/— | — |
+| `gpt-oss-120b` | — | reasoning | 131.072K | $0.35 | $0.75 | — | — | —/— | — |

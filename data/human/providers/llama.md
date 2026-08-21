@@ -10,12 +10,12 @@
 
 **7** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `cerebras-llama-4-maverick-17b-128e-instruct` | chat | 128K | $0 | $0 | — | — | —/— | — |
-| `cerebras-llama-4-scout-17b-16e-instruct` | chat | 128K | $0 | $0 | — | — | —/— | — |
-| `groq-llama-4-maverick-17b-128e-instruct` | chat | 128K | $0 | $0 | — | — | —/— | — |
-| `llama-3.3-70b-instruct` | chat | 128K | $0 | $0 | — | — | —/— | — |
-| `llama-3.3-8b-instruct` | chat | 128K | $0 | $0 | — | — | —/— | — |
-| `llama-4-maverick-17b-128e-instruct-fp8` | chat | 128K | $0 | $0 | — | — | —/— | — |
-| `llama-4-scout-17b-16e-instruct-fp8` | chat | 128K | $0 | $0 | — | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `cerebras-llama-4-maverick-17b-128e-instruct` | — | chat | 128K | $0 | $0 | — | — | —/— | — |
+| `cerebras-llama-4-scout-17b-16e-instruct` | — | chat | 128K | $0 | $0 | — | — | —/— | — |
+| `groq-llama-4-maverick-17b-128e-instruct` | — | chat | 128K | $0 | $0 | — | — | —/— | — |
+| `llama-3.3-70b-instruct` | — | chat | 128K | $0 | $0 | — | — | —/— | — |
+| `llama-3.3-8b-instruct` | — | chat | 128K | $0 | $0 | — | — | —/— | — |
+| `llama-4-maverick-17b-128e-instruct-fp8` | — | chat | 128K | $0 | $0 | — | — | —/— | — |
+| `llama-4-scout-17b-16e-instruct-fp8` | — | chat | 128K | $0 | $0 | — | — | —/— | — |

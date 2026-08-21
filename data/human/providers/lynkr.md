@@ -10,6 +10,6 @@
 
 **1** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `lynkr-auto` | chat | 128K | $0 | $0 | — | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `lynkr-auto` | — | chat | 128K | $0 | $0 | — | — | —/— | — |

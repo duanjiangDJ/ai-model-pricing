@@ -10,7 +10,7 @@
 
 **2** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `sarvam-105b` | reasoning | 131.072K | — | — | — | — | —/— | — |
-| `sarvam-30b` | reasoning | 65.536K | — | — | — | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `sarvam-105b` | — | reasoning | 131.072K | — | — | — | — | —/— | — |
+| `sarvam-30b` | — | reasoning | 65.536K | — | — | — | — | —/— | — |

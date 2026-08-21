@@ -10,6 +10,6 @@
 
 **1** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `DeepSeek-V4-Flash` | reasoning | 1M | $0.14 | $0.28 | $0.0028 | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `DeepSeek-V4-Flash` | — | reasoning | 1M | $0.14 | $0.28 | $0.0028 | — | —/— | — |

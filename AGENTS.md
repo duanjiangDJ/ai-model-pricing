@@ -1,3 +1,4 @@
+> **Language: English (en)** — This document is written in en only.
 # AGENTS.md — Guide for AI Agents Working in This Repository
 
 This file tells AI agents (and humans) everything needed to read, validate, and update
@@ -17,7 +18,7 @@ systems, GPU-hour pricing, consumer subscriptions, and coding-tool plans.
 
 ```
 data/machine/
-  schema.json            # THE authoritative JSON Schema (v1.0.0)
+  schema.json            # THE authoritative JSON Schema (26.0.0)
   index.json             # Entry point: providers/resellers lists, counts, timestamps
   providers/*.json       # One file per provider (provider_id.json)
   plans.json             # Subscription & coding-tool plans
@@ -34,7 +35,9 @@ reports/                 # daily check artifacts (e.g. stale-plans.md)
 
 1. Fetch `data/machine/index.json` first. Check `schema_version` (major bump = breaking).
 2. Each `providers[]` / `resellers[]` entry has `file` (relative path), `model_count`, `updated_at`.
-3. Model shape: `{id, name, category, modalities, context_window, max_output, pricing, notes}`.
+3. Model shape: `{id, name, category, status, modalities, context_window, max_output, pricing, notes}`.
+   `status` = active | preview | deprecated | retired | superseded — deprecated/retired/superseded models
+   are historical entries with a prominent status mark in the human pages.
 4. `pricing` fields (all USD per 1M tokens unless `currency` says otherwise):
    - `per_mtok.{input,output,cache_read,cache_write}`
    - `batch.{input,output}` — 50% off batch APIs
@@ -42,8 +45,11 @@ reports/                 # daily check artifacts (e.g. stale-plans.md)
    - `per_audio_second`, `per_character`, `per_request`, `credits` (points systems),
      `gpu[]` (per-second/hour SKUs), `neuron_second`, `finetune`, `provisioned`
 5. **`null` means "not offered / unknown" — never treat as zero.** `0` means free.
-6. Plans: `{id, provider_id, product, plan, category, billing, price_usd, limits, includes, url, verified_at}`.
-   Yearly plans store the **total yearly price** in `price_usd`.
+6. Plans: `{id, provider_id, product, plan, category, pricing_model, billing, price_usd, limits, includes, url, verified_at}`.
+   `pricing_model` (flat_monthly / flat_yearly / per_seat_monthly / per_seat_yearly / credits / free / custom) is the
+   subscription pricing structure — distinct from per-token model pricing. Yearly plans store the **total yearly price**
+   in `price_usd`; per-seat plans store the price per seat.
+   Models included in a subscription plan have `per_mtok` = null (never 0) with an explanatory note.
 7. `channel` semantics: `first_party` | `cloud` | `hosted` | `aggregator` | `reseller` | `subscription`.
    The same model may appear under several channels with different prices — that is correct.
 

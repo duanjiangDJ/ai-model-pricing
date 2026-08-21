@@ -10,8 +10,8 @@
 
 **3** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `glm-5.2-fp4` | reasoning | 1.04858M | $1.12 | $4.4 | $0 | — | —/— | — |
-| `gpt-oss-120b` | reasoning | 131.072K | $0.12 | $0.6 | $0 | — | —/— | — |
-| `kimi-k3` | reasoning | 1.04858M | $3 | $15 | $0 | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `glm-5.2-fp4` | — | reasoning | 1.04858M | $1.12 | $4.4 | $0 | — | —/— | — |
+| `gpt-oss-120b` | — | reasoning | 131.072K | $0.12 | $0.6 | $0 | — | —/— | — |
+| `kimi-k3` | — | reasoning | 1.04858M | $3 | $15 | $0 | — | —/— | — |

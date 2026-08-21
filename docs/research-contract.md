@@ -1,4 +1,5 @@
-# 调研子代理契约（Research Subagent Contract）
+> **Language: 中文（简体）(zh-CN)** — This document is written in zh only.
+# Research Subagent Contract / 调研子代理契约（research-contract）
 
 > 本仓库的"人工核实"数据通过**调研子代理**批量采集。本文档定义子代理的输入要求与输出格式，
 > 保证输出可直接被 `scripts/merge_research.py` 合并入库。

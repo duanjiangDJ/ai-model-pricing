@@ -21,9 +21,9 @@
       "max_output": 32768,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -31,7 +31,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "deepseek-v3.2",
@@ -44,8 +44,8 @@
       "max_output": 65536,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
+          "input": null,
+          "output": null,
           "cache_read": null,
           "cache_write": null
         },
@@ -54,7 +54,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "deepseek-v4-flash",
@@ -67,9 +67,9 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -77,7 +77,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "deepseek-v4-flash-0731",
@@ -90,9 +90,9 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -100,7 +100,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "deepseek-v4-pro",
@@ -113,9 +113,9 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -123,7 +123,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "deepseek-v4-pro-0813",
@@ -136,9 +136,9 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -146,7 +146,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "glm-5",
@@ -159,9 +159,9 @@
       "max_output": 16384,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -169,7 +169,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "glm-5.1",
@@ -182,9 +182,9 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -192,7 +192,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "glm-5.2",
@@ -205,9 +205,9 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -215,7 +215,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "happyhorse-1.1-i2v",
@@ -228,8 +228,8 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
+          "input": null,
+          "output": null,
           "cache_read": null,
           "cache_write": null
         },
@@ -238,7 +238,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "happyhorse-1.1-r2v",
@@ -251,8 +251,8 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
+          "input": null,
+          "output": null,
           "cache_read": null,
           "cache_write": null
         },
@@ -261,7 +261,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "happyhorse-1.1-t2v",
@@ -274,8 +274,8 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
+          "input": null,
+          "output": null,
           "cache_read": null,
           "cache_write": null
         },
@@ -284,7 +284,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "kimi-k2.5",
@@ -297,9 +297,9 @@
       "max_output": 98304,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -307,7 +307,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "kimi-k2.6",
@@ -320,9 +320,9 @@
       "max_output": 262144,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -330,7 +330,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "kimi-k2.7-code",
@@ -343,9 +343,9 @@
       "max_output": 262144,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -353,7 +353,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "qwen-image-2.0",
@@ -366,8 +366,8 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
+          "input": null,
+          "output": null,
           "cache_read": null,
           "cache_write": null
         },
@@ -376,7 +376,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "qwen-image-2.0-pro",
@@ -389,8 +389,8 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
+          "input": null,
+          "output": null,
           "cache_read": null,
           "cache_write": null
         },
@@ -399,7 +399,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "qwen3.6-flash",
@@ -412,9 +412,9 @@
       "max_output": 65536,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -422,7 +422,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "qwen3.6-plus",
@@ -435,9 +435,9 @@
       "max_output": 65536,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -445,7 +445,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "qwen3.7-max",
@@ -458,9 +458,9 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -468,7 +468,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "qwen3.7-plus",
@@ -481,9 +481,9 @@
       "max_output": 65536,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -491,7 +491,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "qwen3.8-max",
@@ -504,9 +504,9 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -514,7 +514,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "qwen3.8-max-preview",
@@ -527,9 +527,9 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -537,7 +537,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "wan2.7-image",
@@ -550,8 +550,8 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
+          "input": null,
+          "output": null,
           "cache_read": null,
           "cache_write": null
         },
@@ -560,7 +560,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     },
     {
       "id": "wan2.7-image-pro",
@@ -573,8 +573,8 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
+          "input": null,
+          "output": null,
           "cache_read": null,
           "cache_write": null
         },
@@ -583,7 +583,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
     }
   ]
 }

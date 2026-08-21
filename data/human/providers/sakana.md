@@ -10,9 +10,9 @@
 
 **4** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `fugu` | reasoning | 1M | — | — | — | — | —/— | — |
-| `fugu-ultra` | reasoning | 1M | $5 | $30 | $0.5 | — | —/— | — |
-| `fugu-ultra-20260615` | reasoning | 1M | $5 | $30 | $0.5 | — | —/— | — |
-| `sakana-namazu` | reasoning | 262.144K | $0.95 | $4 | $0.15 | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `fugu` | — | reasoning | 1M | — | — | — | — | —/— | — |
+| `fugu-ultra` | — | reasoning | 1M | $5 | $30 | $0.5 | — | —/— | — |
+| `fugu-ultra-20260615` | — | reasoning | 1M | $5 | $30 | $0.5 | — | —/— | — |
+| `sakana-namazu` | — | reasoning | 262.144K | $0.95 | $4 | $0.15 | — | —/— | — |

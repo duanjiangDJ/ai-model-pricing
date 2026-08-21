@@ -10,7 +10,7 @@
 
 **2** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `Ling-1T` | chat | 128K | $0.57 | $2.29 | — | — | —/— | — |
-| `Ring-1T` | reasoning | 128K | $0.57 | $2.29 | — | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `Ling-1T` | — | chat | 128K | $0.57 | $2.29 | — | — | —/— | — |
+| `Ring-1T` | — | reasoning | 128K | $0.57 | $2.29 | — | — | —/— | — |

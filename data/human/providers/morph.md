@@ -10,8 +10,8 @@
 
 **3** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `auto` | chat | 32K | $0.85 | $1.55 | — | — | —/— | — |
-| `morph-v3-fast` | chat | 16K | $0.8 | $1.2 | — | — | —/— | — |
-| `morph-v3-large` | chat | 32K | $0.9 | $1.9 | — | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `auto` | — | chat | 32K | $0.85 | $1.55 | — | — | —/— | — |
+| `morph-v3-fast` | — | chat | 16K | $0.8 | $1.2 | — | — | —/— | — |
+| `morph-v3-large` | — | chat | 32K | $0.9 | $1.9 | — | — | —/— | — |

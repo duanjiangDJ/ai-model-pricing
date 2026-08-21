@@ -10,12 +10,12 @@
 
 共 **7** 个模型。
 
-| 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
-|---|---|---|---|---|---|---|---|---|
-| `cerebras-llama-4-maverick-17b-128e-instruct` | chat | 128K | $0 | $0 | — | — | —/— | — |
-| `cerebras-llama-4-scout-17b-16e-instruct` | chat | 128K | $0 | $0 | — | — | —/— | — |
-| `groq-llama-4-maverick-17b-128e-instruct` | chat | 128K | $0 | $0 | — | — | —/— | — |
-| `llama-3.3-70b-instruct` | chat | 128K | $0 | $0 | — | — | —/— | — |
-| `llama-3.3-8b-instruct` | chat | 128K | $0 | $0 | — | — | —/— | — |
-| `llama-4-maverick-17b-128e-instruct-fp8` | chat | 128K | $0 | $0 | — | — | —/— | — |
-| `llama-4-scout-17b-16e-instruct-fp8` | chat | 128K | $0 | $0 | — | — | —/— | — |
+| 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
+|---|---|---|---|---|---|---|---|---|---|
+| `cerebras-llama-4-maverick-17b-128e-instruct` | — | chat | 128K | $0 | $0 | — | — | —/— | — |
+| `cerebras-llama-4-scout-17b-16e-instruct` | — | chat | 128K | $0 | $0 | — | — | —/— | — |
+| `groq-llama-4-maverick-17b-128e-instruct` | — | chat | 128K | $0 | $0 | — | — | —/— | — |
+| `llama-3.3-70b-instruct` | — | chat | 128K | $0 | $0 | — | — | —/— | — |
+| `llama-3.3-8b-instruct` | — | chat | 128K | $0 | $0 | — | — | —/— | — |
+| `llama-4-maverick-17b-128e-instruct-fp8` | — | chat | 128K | $0 | $0 | — | — | —/— | — |
+| `llama-4-scout-17b-16e-instruct-fp8` | — | chat | 128K | $0 | $0 | — | — | —/— | — |

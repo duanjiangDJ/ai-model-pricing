@@ -10,8 +10,8 @@
 
 **3** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `step-3.5-flash` | reasoning | 256K | — | — | — | — | —/— | — |
-| `step-3.5-flash-2603` | reasoning | 256K | — | — | — | — | —/— | — |
-| `step-3.7-flash` | reasoning | 256K | — | — | — | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `step-3.5-flash` | — | reasoning | 256K | — | — | — | — | —/— | — |
+| `step-3.5-flash-2603` | — | reasoning | 256K | — | — | — | — | —/— | — |
+| `step-3.7-flash` | — | reasoning | 256K | — | — | — | — | —/— | — |

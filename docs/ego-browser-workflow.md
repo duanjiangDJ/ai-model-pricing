@@ -1,3 +1,4 @@
+> **Language: English (en)** — This document is written in en only.
 # Official-Price Re-verification with Ego (Lite) Browser
 
 > Tier-A data collection for this repo: **official pricing pages, read by an AI agent

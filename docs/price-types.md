@@ -1,4 +1,5 @@
-# 收费形式口径（Price Types & Units）
+> **Language: 中文（简体）(zh-CN)** — This document is written in zh only.
+# Price Types & Units / 收费形式口径（price-types）
 
 > 本文件定义每种收费形式的**精确口径**，是数据采集和机器读取的基准。枚举值在
 > `data/machine/schema.json` 中定义为 `priceType` / `planBilling` 的 enum，此处为人类可读解释。

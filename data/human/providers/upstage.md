@@ -10,9 +10,9 @@
 
 **4** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `solar-mini` | chat | 32.768K | $0.15 | $0.15 | — | — | —/— | — |
-| `solar-pro2` | reasoning | 65.536K | $0.25 | $0.25 | — | — | —/— | — |
-| `solar-pro3` | reasoning | 131.072K | $0.25 | $0.25 | — | — | —/— | — |
-| `solar-pro4` | reasoning | 524.288K | $0.3 | $1.2 | $0.06 | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `solar-mini` | — | chat | 32.768K | $0.15 | $0.15 | — | — | —/— | — |
+| `solar-pro2` | — | reasoning | 65.536K | $0.25 | $0.25 | — | — | —/— | — |
+| `solar-pro3` | — | reasoning | 131.072K | $0.25 | $0.25 | — | — | —/— | — |
+| `solar-pro4` | — | reasoning | 524.288K | $0.3 | $1.2 | $0.06 | — | —/— | — |

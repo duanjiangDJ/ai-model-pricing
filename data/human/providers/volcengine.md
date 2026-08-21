@@ -10,7 +10,7 @@
 
 **2** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `doubao-2.1-pro` | chat | — | $6 | $30 | $1.2 | — | —/— | — |
-| `doubao-2.1-turbo` | chat | — | $3 | $15 | $0.6 | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `doubao-2.1-pro` | — | chat | — | $6 | $30 | $1.2 | — | —/— | — |
+| `doubao-2.1-turbo` | — | chat | — | $3 | $15 | $0.6 | — | —/— | — |

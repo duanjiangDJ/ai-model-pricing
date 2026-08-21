@@ -10,13 +10,13 @@
 
 **8** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `glm-5` | reasoning | 202.752K | $0 | $0 | $0 | — | —/— | — |
-| `hunyuan-2.0-instruct` | chat | 131.072K | $0 | $0 | $0 | — | —/— | — |
-| `hunyuan-2.0-thinking` | reasoning | 131.072K | $0 | $0 | $0 | — | —/— | — |
-| `hunyuan-t1` | reasoning | 131.072K | $0 | $0 | $0 | — | —/— | — |
-| `hunyuan-turbos` | chat | 131.072K | $0 | $0 | $0 | — | —/— | — |
-| `kimi-k2.5` | reasoning | 262.144K | $0 | $0 | $0 | — | —/— | — |
-| `minimax-m2.5` | reasoning | 204.8K | $0 | $0 | $0 | — | —/— | — |
-| `tc-code-latest` | chat | 131.072K | $0 | $0 | $0 | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `glm-5` | — | reasoning | 202.752K | — | — | — | — | —/— | — |
+| `hunyuan-2.0-instruct` | — | chat | 131.072K | — | — | — | — | —/— | — |
+| `hunyuan-2.0-thinking` | — | reasoning | 131.072K | — | — | — | — | —/— | — |
+| `hunyuan-t1` | — | reasoning | 131.072K | — | — | — | — | —/— | — |
+| `hunyuan-turbos` | — | chat | 131.072K | — | — | — | — | —/— | — |
+| `kimi-k2.5` | — | reasoning | 262.144K | — | — | — | — | —/— | — |
+| `minimax-m2.5` | — | reasoning | 204.8K | — | — | — | — | —/— | — |
+| `tc-code-latest` | — | chat | 131.072K | — | — | — | — | —/— | — |

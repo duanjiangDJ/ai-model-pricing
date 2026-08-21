@@ -10,7 +10,7 @@
 
 **2** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `abliterated-model` | reasoning | 150K | $3 | $3 | $0.3 | — | —/— | — |
-| `abliterated-model-large` | reasoning | 1M | $5 | $5 | $0.5 | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `abliterated-model` | — | reasoning | 150K | $3 | $3 | $0.3 | — | —/— | — |
+| `abliterated-model-large` | — | reasoning | 1M | $5 | $5 | $0.5 | — | —/— | — |

@@ -77,7 +77,8 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "DEPRECATED and shut down 2026-06-01 (migrate to newer models). Input $0.10 text/image/video, $0.70 audio; cache $0.025 text/image/video, $0.175 audio; cache storage $1.00/1M tokens/hr. Batch $0.05/$0.20."
+      "notes": "DEPRECATED and shut down 2026-06-01 (migrate to newer models). Input $0.10 text/image/video, $0.70 audio; cache $0.025 text/image/video, $0.175 audio; cache storage $1.00/1M tokens/hr. Batch $0.05/$0.20.",
+      "status": "retired"
     },
     {
       "id": "gemini-2.5-computer-use-preview-10-2025",
@@ -273,7 +274,8 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Preview model. Input $0.50 text/image/video, $1.00 audio; cache $0.05 text/image/video, $0.10 audio. No standalone 'Gemini 3' or 'Gemini 3 Pro' chat model exists on the API (Gemini 3 Pro Preview shut down; see gemini-3.1-pro-preview / gemini-3-pro-image)."
+      "notes": "Preview model. Input $0.50 text/image/video, $1.00 audio; cache $0.05 text/image/video, $0.10 audio. No standalone 'Gemini 3' or 'Gemini 3 Pro' chat model exists on the API (Gemini 3 Pro Preview shut down; see gemini-3.1-pro-preview / gemini-3-pro-image).",
+      "status": "retired"
     },
     {
       "id": "gemini-3-pro-image",
@@ -506,7 +508,8 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Two-tier pricing at 200k prompt tokens. <=200k: input $2.00 / output $12.00 / cache $0.20; >200k: input $4.00 / output $18.00 / cache $0.40 (cache storage $4.50/1M tokens/hr). Batch/Flex <=200k: $1.00/$6.00, >200k: $2.00/$9.00. Priority <=200k: $3.60/$21.60, >200k: $7.20/$32.40. Preview model (gemini-3.1-pro-preview and -customtools)."
+      "notes": "Two-tier pricing at 200k prompt tokens. <=200k: input $2.00 / output $12.00 / cache $0.20; >200k: input $4.00 / output $18.00 / cache $0.40 (cache storage $4.50/1M tokens/hr). Batch/Flex <=200k: $1.00/$6.00, >200k: $2.00/$9.00. Priority <=200k: $3.60/$21.60, >200k: $7.20/$32.40. Preview model (gemini-3.1-pro-preview and -customtools).",
+      "status": "preview"
     },
     {
       "id": "gemini-3.1-pro-preview-customtools",

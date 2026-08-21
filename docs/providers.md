@@ -1,4 +1,5 @@
-# 供应商全景清单（Provider Landscape）
+> **Language: 中文（简体）(zh-CN)** — This document is written in zh only.
+# Provider Landscape / 供应商全景（providers）
 
 > 本文件是"市面上可获取模型定价"的供应商地图。所有可获取模型的途径被分为 **7 大类**。
 > 机器可读版本见 `data/machine/providers/*.json` 与 `data/machine/plans.json`。

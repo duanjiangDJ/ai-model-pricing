@@ -10,12 +10,12 @@
 
 **7** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `auto` | reasoning | 1M | — | — | — | — | —/— | — |
-| `cheap` | reasoning | 1M | — | — | — | — | —/— | — |
-| `e2e` | reasoning | 1M | — | — | — | — | —/— | — |
-| `fast` | reasoning | 1M | — | — | — | — | —/— | — |
-| `synth` | reasoning | 1M | — | — | — | — | —/— | — |
-| `synth-code` | reasoning | 1M | — | — | — | — | —/— | — |
-| `zdr` | reasoning | 1M | — | — | — | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `auto` | — | reasoning | 1M | — | — | — | — | —/— | — |
+| `cheap` | — | reasoning | 1M | — | — | — | — | —/— | — |
+| `e2e` | — | reasoning | 1M | — | — | — | — | —/— | — |
+| `fast` | — | reasoning | 1M | — | — | — | — | —/— | — |
+| `synth` | — | reasoning | 1M | — | — | — | — | —/— | — |
+| `synth-code` | — | reasoning | 1M | — | — | — | — | —/— | — |
+| `zdr` | — | reasoning | 1M | — | — | — | — | —/— | — |

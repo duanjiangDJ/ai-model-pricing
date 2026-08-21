@@ -10,7 +10,7 @@
 
 **2** models in total.
 
-| Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
-|---|---|---|---|---|---|---|---|---|
-| `nova-2-lite-v1` | reasoning | 1M | $0 | $0 | — | — | —/— | — |
-| `nova-2-pro-v1` | reasoning | 1M | $0 | $0 | — | — | —/— | — |
+| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
+|---|---|---|---|---|---|---|---|---|---|
+| `nova-2-lite-v1` | — | reasoning | 1M | $0 | $0 | — | — | —/— | — |
+| `nova-2-pro-v1` | — | reasoning | 1M | $0 | $0 | — | — | —/— | — |
