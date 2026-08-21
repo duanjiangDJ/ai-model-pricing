@@ -5,8 +5,8 @@
 - Homepage: https://openrouter.ai
 - Pricing page: https://openrouter.ai/models
 - Currency: USD
-- Data updated: 2026-08-21T13:34:52Z
-- Verified: 2026-08-21T13:34:52Z
+- Data updated: 2026-08-21T13:59:16Z
+- Verified: 2026-08-21T13:59:16Z
 
 **420** models in total.
 
@@ -183,7 +183,7 @@
 | `moonshotai/kimi-k2-0905` | — | chat | 262.144K | $6e-07 | $2.5e-06 | — | — | —/— | — |
 | `moonshotai/kimi-k2-thinking` | — | reasoning | 262.144K | $6e-07 | $2.5e-06 | $1.5e-07 | — | —/— | — |
 | `moonshotai/kimi-k2.5` | — | reasoning | 262.144K | $4.5e-07 | $2.25e-06 | $7e-08 | — | —/— | — |
-| `moonshotai/kimi-k2.6` | — | reasoning | 262.144K | $9.405e-07 | $3.96e-06 | $1.584e-07 | — | —/— | — |
+| `moonshotai/kimi-k2.6` | — | reasoning | 262.144K | $5.795e-07 | $2.44e-06 | $9.76e-08 | — | —/— | — |
 | `moonshotai/kimi-k2.7-code` | — | reasoning | 262.144K | $6.7e-07 | $3.4e-06 | $1.7e-07 | — | —/— | — |
 | `moonshotai/kimi-k2.7-code:batch` | — | reasoning | 262.144K | $9.5e-07 | $4e-06 | $1.9e-07 | — | —/— | — |
 | `moonshotai/kimi-k3` | — | reasoning | 1.04858M | $3e-06 | $1.5e-05 | $3e-07 | — | —/— | — |
