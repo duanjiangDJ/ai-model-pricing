@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-08-21T12:10:24Z",
+  "generated_at": "2026-08-21T12:11:53Z",
   "currency": "USD",
   "provider_count": 203,
-  "model_count": 7297,
+  "model_count": 7300,
   "plan_count": 51,
   "providers": [
     {
@@ -434,9 +434,9 @@
       "id": "anthropic",
       "name": "Anthropic",
       "channel": "first_party",
-      "model_count": 13,
+      "model_count": 16,
       "file": "providers/anthropic.json",
-      "updated_at": "2026-08-21T11:34:52Z"
+      "updated_at": "2026-08-21T12:11:53Z"
     },
     {
       "id": "cohere",

@@ -2,6 +2,19 @@
   "schema_version": "1.0.0",
   "entries": [
     {
+      "date": "2026-08-21T12:11:53Z",
+      "kind": "update",
+      "scope": "provider",
+      "provider_id": "anthropic",
+      "item_id": "anthropic",
+      "field": "catalog",
+      "new": {
+        "models": 16,
+        "research_models": 13
+      },
+      "source": "research-subagent"
+    },
+    {
       "date": "2026-08-21T12:10:24Z",
       "kind": "update",
       "scope": "provider",

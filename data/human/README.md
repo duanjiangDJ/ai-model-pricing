@@ -3,9 +3,9 @@
 > Data sources: official pricing pages & public APIs. Machine-readable version: [`data/machine/`](../machine/).
 > Auto-updated daily by GitHub Actions (see `.github/workflows/daily-check.yml`).
 
-- Generated: 2026-08-21T12:10:24Z
+- Generated: 2026-08-21T12:11:53Z
 - Providers: 204
-- Models total: 7297
+- Models total: 7300
 - Plans total: 51
 
 ## Providers
@@ -65,7 +65,7 @@
 | [Kenari](providers/kenari.md) | Inference host | 38 | `providers/kenari.json` | 2026-08-21T11:28:18Z |
 | [Clarifai](providers/clarifai.md) | Inference host | 12 | `providers/clarifai.json` | 2026-08-21T11:28:18Z |
 | [Snowflake Cortex](providers/snowflake-cortex.md) | Inference host | 25 | `providers/snowflake-cortex.json` | 2026-08-21T11:28:18Z |
-| [Anthropic](providers/anthropic.md) | First-party | 13 | `providers/anthropic.json` | 2026-08-21T11:34:52Z |
+| [Anthropic](providers/anthropic.md) | First-party | 16 | `providers/anthropic.json` | 2026-08-21T12:11:53Z |
 | [Cohere](providers/cohere.md) | First-party | 14 | `providers/cohere.json` | 2026-08-21T11:28:18Z |
 | [Z.AI](providers/zai.md) | Inference host | 14 | `providers/zai.json` | 2026-08-21T11:28:18Z |
 | [routing.run](providers/routing-run.md) | Inference host | 15 | `providers/routing-run.json` | 2026-08-21T11:28:18Z |

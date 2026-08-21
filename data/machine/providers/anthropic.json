@@ -7,54 +7,60 @@
   "homepage": "https://docs.anthropic.com/en/docs/about-claude/models",
   "pricing_page": "https://www.anthropic.com/pricing",
   "currency": "USD",
-  "updated_at": "2026-08-21T11:34:52Z",
+  "updated_at": "2026-08-21T12:11:53Z",
   "verified_at": "2026-08-21T00:00:00Z",
   "models": [
     {
       "id": "claude-fable-5",
       "name": "Claude Fable 5",
-      "category": "reasoning",
+      "category": "chat",
       "modalities": [
         "text"
       ],
       "context_window": 1000000,
-      "max_output": 128000,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 10,
           "output": 50,
           "cache_read": 1,
-          "cache_write": null
+          "cache_write": 12.5
         },
-        "batch": null,
+        "batch": {
+          "input": 5,
+          "output": 25
+        },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "GA since 2026-06-09; Mythos-class model made safe for general use. 1M context at standard rates (no long-context surcharge). US-only inference (Claude 4.6 and later) adds 1.1x on input/output. Cache write is 1.25x input (5-min TTL; 1-hr extended caching is 2x input). Batch API is 50% off."
     },
     {
       "id": "claude-haiku-4-5",
-      "name": "Claude Haiku 4.5 (latest)",
-      "category": "reasoning",
+      "name": "Claude Haiku 4.5",
+      "category": "chat",
       "modalities": [
         "text"
       ],
       "context_window": 200000,
-      "max_output": 64000,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 1,
           "output": 5,
           "cache_read": 0.1,
-          "cache_write": null
+          "cache_write": 1.25
         },
-        "batch": null,
+        "batch": {
+          "input": 0.5,
+          "output": 2.5
+        },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Full API model ID claude-haiku-4-5-20251001 (dated; released 2025-10-01). 200K context. Current fast/cheap tier."
     },
     {
       "id": "claude-haiku-4-5-20251001",
@@ -80,27 +86,99 @@
       "notes": "models.dev official list price"
     },
     {
+      "id": "claude-mythos-5",
+      "name": "Claude Mythos 5",
+      "category": "chat",
+      "context_window": 1000000,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 10,
+          "output": 50,
+          "cache_read": 1,
+          "cache_write": 12.5
+        },
+        "batch": {
+          "input": 5,
+          "output": 25
+        },
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "NEW / restricted access: not self-serve; available only to approved Project Glasswing partners. Same underlying model and identical rates as Fable 5 (launched 2026-06-09). Predecessor claude-mythos-preview (2026-04, $25/$125) is deprecated/superseded."
+    },
+    {
+      "id": "claude-mythos-preview",
+      "name": "Claude Mythos Preview",
+      "category": "chat",
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 25,
+          "output": 125,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": {
+          "input": 12.5,
+          "output": 62.5
+        },
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "DEPRECATED limited-access preview (2026-04-07, Project Glasswing, $25/$125). Superseded by claude-mythos-5 at $10/$50 on 2026-06-09. Cache figures not published."
+    },
+    {
+      "id": "claude-opus-4-1",
+      "name": "Claude Opus 4.1",
+      "category": "chat",
+      "context_window": 200000,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 15,
+          "output": 75,
+          "cache_read": 1.5,
+          "cache_write": 18.75
+        },
+        "batch": {
+          "input": 7.5,
+          "output": 37.5
+        },
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Legacy, still listed on official pricing page; third-party sources report it as now retired/decommissioned (superseded by the $5/$25 Opus generation)."
+    },
+    {
       "id": "claude-opus-4-5",
-      "name": "Claude Opus 4.5 (latest)",
-      "category": "reasoning",
+      "name": "Claude Opus 4.5",
+      "category": "chat",
       "modalities": [
         "text"
       ],
       "context_window": 200000,
-      "max_output": 64000,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 5,
           "output": 25,
           "cache_read": 0.5,
-          "cache_write": null
+          "cache_write": 6.25
         },
-        "batch": null,
+        "batch": {
+          "input": 2.5,
+          "output": 12.5
+        },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Legacy/previous generation, still on official pricing page. 200K context (pre-4.6)."
     },
     {
       "id": "claude-opus-4-5-20251101",
@@ -128,76 +206,85 @@
     {
       "id": "claude-opus-4-6",
       "name": "Claude Opus 4.6",
-      "category": "reasoning",
+      "category": "chat",
       "modalities": [
         "text"
       ],
       "context_window": 1000000,
-      "max_output": 128000,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 5,
           "output": 25,
           "cache_read": 0.5,
-          "cache_write": null
+          "cache_write": 6.25
         },
-        "batch": null,
+        "batch": {
+          "input": 2.5,
+          "output": 12.5
+        },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Legacy/previous generation, still on official pricing page."
     },
     {
       "id": "claude-opus-4-7",
       "name": "Claude Opus 4.7",
-      "category": "reasoning",
+      "category": "chat",
       "modalities": [
         "text"
       ],
       "context_window": 1000000,
-      "max_output": 128000,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 5,
           "output": 25,
           "cache_read": 0.5,
-          "cache_write": null
+          "cache_write": 6.25
         },
-        "batch": null,
+        "batch": {
+          "input": 2.5,
+          "output": 12.5
+        },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Legacy/previous generation, still on official pricing page."
     },
     {
       "id": "claude-opus-4-8",
       "name": "Claude Opus 4.8",
-      "category": "reasoning",
+      "category": "chat",
       "modalities": [
         "text"
       ],
       "context_window": 1000000,
-      "max_output": 128000,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 5,
           "output": 25,
           "cache_read": 0.5,
-          "cache_write": null
+          "cache_write": 6.25
         },
-        "batch": null,
+        "batch": {
+          "input": 2.5,
+          "output": 12.5
+        },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Legacy/previous generation, still on official pricing page. Opus tier pricing unchanged at $5/$25 across 4.5-4.8 and 5."
     },
     {
       "id": "claude-opus-5",
       "name": "Claude Opus 5",
-      "category": "reasoning",
+      "category": "chat",
       "modalities": [
         "text"
       ],
@@ -208,37 +295,43 @@
           "input": 5,
           "output": 25,
           "cache_read": 0.5,
-          "cache_write": null
+          "cache_write": 6.25
         },
-        "batch": null,
+        "batch": {
+          "input": 2.5,
+          "output": 12.5
+        },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Released 2026-07-24. Max output 128K tokens on Messages API; 300K on Batch API with output-300k-2026-03-24 beta header (apidog). Fast mode (research preview) runs Opus 5 at 2x standard rates ($10/$50). US-only inference 1.1x."
     },
     {
       "id": "claude-sonnet-4-5",
-      "name": "Claude Sonnet 4.5 (latest)",
-      "category": "reasoning",
+      "name": "Claude Sonnet 4.5",
+      "category": "chat",
       "modalities": [
         "text"
       ],
-      "context_window": 1000000,
-      "max_output": 64000,
+      "context_window": 200000,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 3,
           "output": 15,
           "cache_read": 0.3,
-          "cache_write": null
+          "cache_write": 3.75
         },
-        "batch": null,
+        "batch": {
+          "input": 1.5,
+          "output": 7.5
+        },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Legacy/previous generation, still on official pricing page."
     },
     {
       "id": "claude-sonnet-4-5-20250929",
@@ -266,48 +359,54 @@
     {
       "id": "claude-sonnet-4-6",
       "name": "Claude Sonnet 4.6",
-      "category": "reasoning",
+      "category": "chat",
       "modalities": [
         "text"
       ],
-      "context_window": 1000000,
-      "max_output": 128000,
+      "context_window": 200000,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 3,
           "output": 15,
           "cache_read": 0.3,
-          "cache_write": null
+          "cache_write": 3.75
         },
-        "batch": null,
+        "batch": {
+          "input": 1.5,
+          "output": 7.5
+        },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Legacy/previous generation, still on official pricing page. Reference rate for Sonnet 5's cancelled $3/$15 standard price."
     },
     {
       "id": "claude-sonnet-5",
       "name": "Claude Sonnet 5",
-      "category": "reasoning",
+      "category": "chat",
       "modalities": [
         "text"
       ],
       "context_window": 1000000,
-      "max_output": 128000,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 2,
           "output": 10,
           "cache_read": 0.2,
-          "cache_write": null
+          "cache_write": 2.5
         },
-        "batch": null,
+        "batch": {
+          "input": 1,
+          "output": 5
+        },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Launched 2026-06-30. PRICE NOTE: intro rate $2/$10 (originally through 2026-08-31, reverting to $3/$15 on 2026-09-01) was made PERMANENT on 2026-08-11; the September 1 increase to $3/$15 was cancelled. $2/$10 is now the standard rate, not a promo. Standard rate would have equaled Sonnet 4.6 ($3/$15)."
     }
   ]
 }
