@@ -2,6 +2,208 @@
   "schema_version": "1.0.0",
   "entries": [
     {
+      "date": "2026-08-21T11:36:36Z",
+      "kind": "update",
+      "scope": "provider",
+      "provider_id": "github",
+      "item_id": "github",
+      "field": "catalog",
+      "new": {
+        "models": 0,
+        "research_models": 0
+      },
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:36:36Z",
+      "kind": "update",
+      "scope": "provider",
+      "provider_id": "cursor",
+      "item_id": "cursor",
+      "field": "catalog",
+      "new": {
+        "models": 0,
+        "research_models": 0
+      },
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:36:36Z",
+      "kind": "update",
+      "scope": "provider",
+      "provider_id": "windsurf",
+      "item_id": "windsurf",
+      "field": "catalog",
+      "new": {
+        "models": 0,
+        "research_models": 0
+      },
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:36:36Z",
+      "kind": "update",
+      "scope": "provider",
+      "provider_id": "jetbrains",
+      "item_id": "jetbrains",
+      "field": "catalog",
+      "new": {
+        "models": 0,
+        "research_models": 0
+      },
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:36:36Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "github",
+      "item_id": "github-copilot-pro",
+      "field": "price",
+      "new": 10,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:36:36Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "github",
+      "item_id": "github-copilot-pro-plus",
+      "field": "price",
+      "new": 39,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:36:36Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "github",
+      "item_id": "github-copilot-max",
+      "field": "price",
+      "new": 100,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:36:36Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "cursor",
+      "item_id": "cursor-hobby",
+      "field": "price",
+      "new": 0,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:36:36Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "cursor",
+      "item_id": "cursor-pro",
+      "field": "price",
+      "new": 20,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:36:36Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "cursor",
+      "item_id": "cursor-pro-plus",
+      "field": "price",
+      "new": 60,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:36:36Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "cursor",
+      "item_id": "cursor-ultra",
+      "field": "price",
+      "new": 200,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:36:36Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "cursor",
+      "item_id": "cursor-teams",
+      "field": "price",
+      "new": 40,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:36:36Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "windsurf",
+      "item_id": "windsurf-free",
+      "field": "price",
+      "new": 0,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:36:36Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "windsurf",
+      "item_id": "windsurf-pro",
+      "field": "price",
+      "new": 20,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:36:36Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "windsurf",
+      "item_id": "windsurf-max",
+      "field": "price",
+      "new": 200,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:36:36Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "windsurf",
+      "item_id": "windsurf-teams",
+      "field": "price",
+      "new": 40,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:36:36Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "jetbrains",
+      "item_id": "jetbrains-ai-free",
+      "field": "price",
+      "new": 0,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:36:36Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "jetbrains",
+      "item_id": "jetbrains-ai-pro",
+      "field": "price",
+      "new": 10,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:36:36Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "jetbrains",
+      "item_id": "jetbrains-ai-ultimate",
+      "field": "price",
+      "new": 30,
+      "source": "research-subagent"
+    },
+    {
       "date": "2026-08-21T11:34:52Z",
       "kind": "update",
       "scope": "provider",

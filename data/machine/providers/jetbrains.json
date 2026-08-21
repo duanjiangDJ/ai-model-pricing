@@ -1,0 +1,13 @@
+{
+  "provider_id": "jetbrains",
+  "name": "JetBrains",
+  "channel": "subscription",
+  "category": "ai_vendor",
+  "region": "us",
+  "homepage": "https://www.jetbrains.com",
+  "pricing_page": "https://www.jetbrains.com/help/ai-assistant/2026.1/licensing-and-subscriptions.html",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:36:36Z",
+  "verified_at": "2026-08-21T00:00:00Z",
+  "models": []
+}

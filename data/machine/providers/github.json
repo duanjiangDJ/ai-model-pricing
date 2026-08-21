@@ -1,0 +1,13 @@
+{
+  "provider_id": "github",
+  "name": "GitHub",
+  "channel": "subscription",
+  "category": "ai_vendor",
+  "region": "us",
+  "homepage": "https://github.com",
+  "pricing_page": "https://github.com/features/copilot/plans",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:36:36Z",
+  "verified_at": "2026-08-21T00:00:00Z",
+  "models": []
+}

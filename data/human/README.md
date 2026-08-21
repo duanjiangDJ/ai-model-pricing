@@ -3,10 +3,10 @@
 > 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/machine/`](../machine/)。
 > 更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。
 
-- 数据更新时间: 2026-08-21T11:34:52Z
-- 覆盖渠道: 193 个（含 OpenRouter 聚合 419 个模型）
+- 数据更新时间: 2026-08-21T11:36:36Z
+- 覆盖渠道: 197 个（含 OpenRouter 聚合 419 个模型）
 - 模型总数: 7290
-- 订阅计划数: 18
+- 订阅计划数: 33
 
 ## 供应商列表
 
@@ -204,11 +204,15 @@
 | [Abacus](providers/abacus.md) | 推理托管 | 108 | `providers/abacus.json` | 2026-08-21T11:28:18Z |
 | [MiniMax (minimax.io)](providers/minimax.md) | 官方直供 | 7 | `providers/minimax.json` | 2026-08-21T11:28:18Z |
 | [Vultr](providers/vultr.md) | 推理托管 | 10 | `providers/vultr.json` | 2026-08-21T11:28:18Z |
+| [GitHub](providers/github.md) | subscription | 0 | `providers/github.json` | 2026-08-21T11:36:36Z |
+| [Cursor (Anysphere)](providers/cursor.md) | subscription | 0 | `providers/cursor.json` | 2026-08-21T11:36:36Z |
+| [Windsurf (Codeium)](providers/windsurf.md) | subscription | 0 | `providers/windsurf.json` | 2026-08-21T11:36:36Z |
+| [JetBrains](providers/jetbrains.md) | subscription | 0 | `providers/jetbrains.json` | 2026-08-21T11:36:36Z |
 | [OpenRouter](providers/openrouter.md) | 聚合站 | 419 | `providers/openrouter.json` | 2026-08-21T11:28:18Z |
 
 ## 订阅计划
 
-[plans.md](plans.md) — 共 18 个计划
+[plans.md](plans.md) — 共 33 个计划
 
 ## 其他文档
 

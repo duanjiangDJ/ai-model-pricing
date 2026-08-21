@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-21T11:34:52Z",
+  "updated_at": "2026-08-21T11:36:36Z",
   "plans": [
     {
       "id": "anthropic-claude-code-pro",
@@ -68,6 +68,87 @@
       "provider_id": "anthropic"
     },
     {
+      "id": "cursor-hobby",
+      "product": "Cursor",
+      "plan": "Hobby",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 0,
+      "limits": "有限 Agent 请求与 Tab 补全",
+      "includes": [
+        "免费永久",
+        "1 周 Pro 试用"
+      ],
+      "url": "https://cursor.com/pricing",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "cursor"
+    },
+    {
+      "id": "cursor-pro",
+      "product": "Cursor",
+      "plan": "Pro",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 20,
+      "limits": "~$20 前沿模型用量 credits/月",
+      "includes": [
+        "Unlimited Tab",
+        "扩展 Agent 限制",
+        "Unlimited Auto 模式"
+      ],
+      "url": "https://cursor.com/pricing",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "cursor"
+    },
+    {
+      "id": "cursor-pro-plus",
+      "product": "Cursor",
+      "plan": "Pro+",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 60,
+      "limits": "更高 credits 池",
+      "includes": [
+        "Pro 全部功能",
+        "更多前沿模型用量"
+      ],
+      "url": "https://cursor.com/pricing",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "cursor"
+    },
+    {
+      "id": "cursor-teams",
+      "product": "Cursor",
+      "plan": "Teams",
+      "category": "team",
+      "billing": "monthly",
+      "price_usd": 40,
+      "limits": "每用户/月",
+      "includes": [
+        "团队管理",
+        "共享用量池"
+      ],
+      "url": "https://cursor.com/pricing",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "cursor"
+    },
+    {
+      "id": "cursor-ultra",
+      "product": "Cursor",
+      "plan": "Ultra",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 200,
+      "limits": "最高 credits 池",
+      "includes": [
+        "无限高级模型",
+        "最高优先级"
+      ],
+      "url": "https://cursor.com/pricing",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "cursor"
+    },
+    {
       "id": "gemini-api-free-tier",
       "product": "Gemini API",
       "plan": "Free tier",
@@ -128,6 +209,58 @@
       "url": "https://codeassist.google/",
       "provider_id": "google",
       "verified_at": "2026-08-21T00:00:00Z"
+    },
+    {
+      "id": "github-copilot-max",
+      "product": "GitHub Copilot",
+      "plan": "Max",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 100,
+      "price_note": "base $100 + flex $100 = 每月 $200 总用量；新增计划",
+      "limits": "最高 AI Credits 配额",
+      "includes": [
+        "Pro+ 全部功能",
+        "最高模型用量"
+      ],
+      "url": "https://github.blog/news-insights/company-news/github-copilot-individual-plans-introducing-flex-allotments-in-pro-and-pro-and-a-new-max-plan/",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "github"
+    },
+    {
+      "id": "github-copilot-pro",
+      "product": "GitHub Copilot",
+      "plan": "Pro",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 10,
+      "price_note": "2026-06-01 起 AI Credits 计费：base $10 + flex $5 = 每月 $15 总用量",
+      "limits": "AI Credits 制（base + flex 用量）",
+      "includes": [
+        "Copilot 编码代理",
+        "ChatGPT 集成",
+        "IDE 补全与聊天"
+      ],
+      "url": "https://github.com/features/copilot/plans",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "github"
+    },
+    {
+      "id": "github-copilot-pro-plus",
+      "product": "GitHub Copilot",
+      "plan": "Pro+",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 39,
+      "price_note": "base $39 + flex $31 = 每月 $70 总用量",
+      "limits": "更高 AI Credits 配额",
+      "includes": [
+        "Pro 全部功能",
+        "更多代理/模型访问"
+      ],
+      "url": "https://github.com/features/copilot/plans",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "github"
     },
     {
       "id": "google-ai-plus",
@@ -191,6 +324,55 @@
       "url": "https://one.google.com/about/google-ai-plans/",
       "provider_id": "google",
       "verified_at": "2026-08-21T00:00:00Z"
+    },
+    {
+      "id": "jetbrains-ai-free",
+      "product": "JetBrains AI",
+      "plan": "Free",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 0,
+      "limits": "3 AI Credits/30 天",
+      "includes": [
+        "AI Assistant 基础功能"
+      ],
+      "url": "https://www.jetbrains.com/help/ai-assistant/2026.1/licensing-and-subscriptions.html",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "jetbrains"
+    },
+    {
+      "id": "jetbrains-ai-pro",
+      "product": "JetBrains AI",
+      "plan": "Pro",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 10,
+      "price_note": "All Products Pack 用户 $20/月（20 credits）",
+      "limits": "10 AI Credits/30 天",
+      "includes": [
+        "AI Assistant",
+        "AI Credits 用量池"
+      ],
+      "url": "https://www.jetbrains.com/help/ai-assistant/2026.1/licensing-and-subscriptions.html",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "jetbrains"
+    },
+    {
+      "id": "jetbrains-ai-ultimate",
+      "product": "JetBrains AI",
+      "plan": "Ultimate",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 30,
+      "price_note": "All Products Pack 用户 $60/月（70 credits）",
+      "limits": "35 AI Credits/30 天",
+      "includes": [
+        "最高模型访问",
+        "更高配额"
+      ],
+      "url": "https://www.jetbrains.com/help/ai-assistant/2026.1/licensing-and-subscriptions.html",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "jetbrains"
     },
     {
       "id": "openai-chatgpt-plus",
@@ -287,6 +469,69 @@
       "url": "",
       "provider_id": "xai",
       "verified_at": "2026-08-21T00:00:00Z"
+    },
+    {
+      "id": "windsurf-free",
+      "product": "Windsurf",
+      "plan": "Free",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 0,
+      "limits": "基础用量",
+      "includes": [
+        "基础模型访问"
+      ],
+      "url": "https://windsurf.com/pricing",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "windsurf"
+    },
+    {
+      "id": "windsurf-max",
+      "product": "Windsurf",
+      "plan": "Max",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 200,
+      "limits": "最高用量池",
+      "includes": [
+        "无限 Agent",
+        "全部模型"
+      ],
+      "url": "https://windsurf.com/pricing",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "windsurf"
+    },
+    {
+      "id": "windsurf-pro",
+      "product": "Windsurf",
+      "plan": "Pro",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 20,
+      "limits": "信用点数制（用量池）",
+      "includes": [
+        "前沿模型",
+        "Agent 功能"
+      ],
+      "url": "https://windsurf.com/pricing",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "windsurf"
+    },
+    {
+      "id": "windsurf-teams",
+      "product": "Windsurf",
+      "plan": "Teams",
+      "category": "team",
+      "billing": "monthly",
+      "price_usd": 40,
+      "limits": "每用户/月",
+      "includes": [
+        "团队管理",
+        "共享用量"
+      ],
+      "url": "https://windsurf.com/pricing",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "windsurf"
     }
   ]
 }

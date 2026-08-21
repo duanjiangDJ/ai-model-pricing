@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-08-21T11:34:52Z",
+  "generated_at": "2026-08-21T11:36:36Z",
   "currency": "USD",
-  "provider_count": 192,
+  "provider_count": 196,
   "model_count": 7290,
-  "plan_count": 18,
+  "plan_count": 33,
   "providers": [
     {
       "id": "hpc-ai",
@@ -1541,6 +1541,38 @@
       "model_count": 10,
       "file": "providers/vultr.json",
       "updated_at": "2026-08-21T11:27:12Z"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "channel": "subscription",
+      "model_count": 0,
+      "file": "providers/github.json",
+      "updated_at": "2026-08-21T11:36:36Z"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor (Anysphere)",
+      "channel": "subscription",
+      "model_count": 0,
+      "file": "providers/cursor.json",
+      "updated_at": "2026-08-21T11:36:36Z"
+    },
+    {
+      "id": "windsurf",
+      "name": "Windsurf (Codeium)",
+      "channel": "subscription",
+      "model_count": 0,
+      "file": "providers/windsurf.json",
+      "updated_at": "2026-08-21T11:36:36Z"
+    },
+    {
+      "id": "jetbrains",
+      "name": "JetBrains",
+      "channel": "subscription",
+      "model_count": 0,
+      "file": "providers/jetbrains.json",
+      "updated_at": "2026-08-21T11:36:36Z"
     }
   ],
   "resellers": [

@@ -1,0 +1,13 @@
+{
+  "provider_id": "windsurf",
+  "name": "Windsurf (Codeium)",
+  "channel": "subscription",
+  "category": "ai_vendor",
+  "region": "us",
+  "homepage": "https://windsurf.com",
+  "pricing_page": "https://windsurf.com/pricing",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:36:36Z",
+  "verified_at": "2026-08-21T00:00:00Z",
+  "models": []
+}
