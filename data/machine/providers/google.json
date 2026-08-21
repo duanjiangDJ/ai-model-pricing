@@ -5,10 +5,10 @@
   "category": "ai_vendor",
   "region": "global",
   "homepage": "https://ai.google.dev/gemini-api/docs/models",
-  "pricing_page": "https://ai.google.dev/gemini-api/docs/models",
+  "pricing_page": "https://ai.google.dev/gemini-api/docs/pricing",
   "currency": "USD",
-  "updated_at": "2026-08-21T11:28:01Z",
-  "verified_at": "2026-08-21T11:28:01Z",
+  "updated_at": "2026-08-21T11:31:59Z",
+  "verified_at": "2026-08-21T00:00:00Z",
   "models": [
     {
       "id": "deep-research-max-preview-04-2026",
@@ -57,6 +57,29 @@
       "notes": "models.dev official list price"
     },
     {
+      "id": "gemini-2.0-flash",
+      "name": "Gemini 2.0 Flash",
+      "category": "chat",
+      "context_window": 1048576,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.1,
+          "output": 0.4,
+          "cache_read": 0.025,
+          "cache_write": null
+        },
+        "batch": {
+          "input": 0.05,
+          "output": 0.2
+        },
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "DEPRECATED and shut down 2026-06-01 (migrate to newer models). Input $0.10 text/image/video, $0.70 audio; cache $0.025 text/image/video, $0.175 audio; cache storage $1.00/1M tokens/hr. Batch $0.05/$0.20."
+    },
+    {
       "id": "gemini-2.5-computer-use-preview-10-2025",
       "name": "Gemini 2.5 Computer Use Preview 10-2025",
       "category": "reasoning",
@@ -82,7 +105,7 @@
     {
       "id": "gemini-2.5-flash",
       "name": "Gemini 2.5 Flash",
-      "category": "reasoning",
+      "category": "chat",
       "modalities": [
         "text"
       ],
@@ -95,12 +118,15 @@
           "cache_read": 0.03,
           "cache_write": null
         },
-        "batch": null,
+        "batch": {
+          "input": 0.15,
+          "output": 1.25
+        },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Input $0.30 text/image/video, $1.00 audio; cache $0.03 text/image/video, $0.10 audio; storage $1.00/1M tokens/hr. Batch/Flex $0.15/$1.25. Priority input $0.54 (text/image/video) / $1.80 (audio), output $4.50. 1M token context, hybrid reasoning model."
     },
     {
       "id": "gemini-2.5-flash-image",
@@ -128,7 +154,7 @@
     {
       "id": "gemini-2.5-flash-lite",
       "name": "Gemini 2.5 Flash-Lite",
-      "category": "reasoning",
+      "category": "chat",
       "modalities": [
         "text"
       ],
@@ -141,12 +167,15 @@
           "cache_read": 0.01,
           "cache_write": null
         },
-        "batch": null,
+        "batch": {
+          "input": 0.05,
+          "output": 0.2
+        },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Input $0.10 text/image/video, $0.30 audio; cache $0.01 text/image/video, $0.03 audio; storage $1.00/1M tokens/hr. Batch/Flex $0.05/$0.20. Priority input $0.18 (text/image/video) / $0.54 (audio), output $0.72."
     },
     {
       "id": "gemini-2.5-flash-preview-tts",
@@ -174,7 +203,7 @@
     {
       "id": "gemini-2.5-pro",
       "name": "Gemini 2.5 Pro",
-      "category": "reasoning",
+      "category": "chat",
       "modalities": [
         "text"
       ],
@@ -183,16 +212,19 @@
       "pricing": {
         "per_mtok": {
           "input": 1.25,
-          "output": 10,
+          "output": 10.0,
           "cache_read": 0.125,
           "cache_write": null
         },
-        "batch": null,
+        "batch": {
+          "input": 0.625,
+          "output": 5.0
+        },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Two-tier pricing at 200k prompt tokens. <=200k: input $1.25 / output $10.00 / cache $0.125; >200k: input $2.50 / output $15.00 / cache $0.25 (cache storage $4.50/1M tokens/hr). Batch/Flex <=200k: $0.625/$5.00, >200k: $1.25/$7.50. Priority <=200k: $2.25/$18.00, >200k: $4.50/$27.00. Cross-checked with Vertex AI pricing page."
     },
     {
       "id": "gemini-2.5-pro-preview-tts",
@@ -220,7 +252,7 @@
     {
       "id": "gemini-3-flash-preview",
       "name": "Gemini 3 Flash Preview",
-      "category": "reasoning",
+      "category": "chat",
       "modalities": [
         "text"
       ],
@@ -229,16 +261,19 @@
       "pricing": {
         "per_mtok": {
           "input": 0.5,
-          "output": 3,
+          "output": 3.0,
           "cache_read": 0.05,
           "cache_write": null
         },
-        "batch": null,
+        "batch": {
+          "input": 0.25,
+          "output": 1.5
+        },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Preview model. Input $0.50 text/image/video, $1.00 audio; cache $0.05 text/image/video, $0.10 audio. No standalone 'Gemini 3' or 'Gemini 3 Pro' chat model exists on the API (Gemini 3 Pro Preview shut down; see gemini-3.1-pro-preview / gemini-3-pro-image)."
     },
     {
       "id": "gemini-3-pro-image",
@@ -450,7 +485,7 @@
     {
       "id": "gemini-3.1-pro-preview",
       "name": "Gemini 3.1 Pro Preview",
-      "category": "reasoning",
+      "category": "chat",
       "modalities": [
         "text"
       ],
@@ -458,17 +493,20 @@
       "max_output": 65536,
       "pricing": {
         "per_mtok": {
-          "input": 2,
-          "output": 12,
+          "input": 2.0,
+          "output": 12.0,
           "cache_read": 0.2,
           "cache_write": null
         },
-        "batch": null,
+        "batch": {
+          "input": 1.0,
+          "output": 6.0
+        },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Two-tier pricing at 200k prompt tokens. <=200k: input $2.00 / output $12.00 / cache $0.20; >200k: input $4.00 / output $18.00 / cache $0.40 (cache storage $4.50/1M tokens/hr). Batch/Flex <=200k: $1.00/$6.00, >200k: $2.00/$9.00. Priority <=200k: $3.60/$21.60, >200k: $7.20/$32.40. Preview model (gemini-3.1-pro-preview and -customtools)."
     },
     {
       "id": "gemini-3.1-pro-preview-customtools",
@@ -565,7 +603,7 @@
     {
       "id": "gemini-3.6-flash",
       "name": "Gemini 3.6 Flash",
-      "category": "reasoning",
+      "category": "chat",
       "modalities": [
         "text"
       ],
@@ -578,12 +616,15 @@
           "cache_read": 0.075,
           "cache_write": null
         },
-        "batch": null,
+        "batch": {
+          "input": 0.375,
+          "output": 1.875
+        },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Introductory pricing through 2026-12-31: input $0.75 / output $3.75 / cache $0.075 per 1M tokens. From 2027-01-01: input $1.50 / output $7.50 / cache $0.15. Context cache storage $0.50/1M tokens/hr (intro), then $1.00. Flex = Batch price; Priority = input $1.35 / output $6.75 (intro)."
     },
     {
       "id": "gemini-3.7-flash",
@@ -610,26 +651,29 @@
     },
     {
       "id": "gemini-embedding-001",
-      "name": "Gemini Embedding 001",
+      "name": "Gemini Embedding",
       "category": "embedding",
       "modalities": [
         "text"
       ],
-      "context_window": 2048,
-      "max_output": 1,
+      "context_window": null,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 0.15,
-          "output": 0,
+          "output": null,
           "cache_read": null,
           "cache_write": null
         },
-        "batch": null,
+        "batch": {
+          "input": 0.075,
+          "output": null
+        },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Text-only embedding model (gemini-embedding-001). Input billed at $0.15/1M tokens; no output token charge. Batch input $0.075. Used by file search tool."
     },
     {
       "id": "gemini-embedding-2",
@@ -638,21 +682,24 @@
       "modalities": [
         "text"
       ],
-      "context_window": 8192,
-      "max_output": 1,
+      "context_window": null,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": 0.2,
-          "output": 0,
+          "output": null,
           "cache_read": null,
           "cache_write": null
         },
-        "batch": null,
+        "batch": {
+          "input": 0.1,
+          "output": null
+        },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Multimodal embedding model (gemini-embedding-2, endpoint gemini-embedding-2-preview). Input per 1M tokens: text $0.20, image $0.45 (~$0.00012/image), audio $6.50 (~$0.00016/sec), video $12.00 (~$0.00079/frame). Batch: text $0.10, image $0.225, audio $3.25, video $6.00. Listed 'input' field is text price."
     },
     {
       "id": "gemini-flash-latest",

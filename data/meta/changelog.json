@@ -2,6 +2,142 @@
   "schema_version": "1.0.0",
   "entries": [
     {
+      "date": "2026-08-21T11:31:59Z",
+      "kind": "update",
+      "scope": "provider",
+      "provider_id": "google",
+      "item_id": "google",
+      "field": "catalog",
+      "new": {
+        "models": 40,
+        "research_models": 9
+      },
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:31:59Z",
+      "kind": "update",
+      "scope": "provider",
+      "provider_id": "xai",
+      "item_id": "xai",
+      "field": "catalog",
+      "new": {
+        "models": 17,
+        "research_models": 12
+      },
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:31:59Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "google",
+      "item_id": "google-ai-pro",
+      "field": "price",
+      "new": 19.99,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:31:59Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "google",
+      "item_id": "google-ai-ultra",
+      "field": "price",
+      "new": 99.99,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:31:59Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "google",
+      "item_id": "google-ai-ultra-premium",
+      "field": "price",
+      "new": 200.0,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:31:59Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "google",
+      "item_id": "google-ai-plus",
+      "field": "price",
+      "new": 7.99,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:31:59Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "google",
+      "item_id": "gemini-code-assist-free",
+      "field": "price",
+      "new": 0.0,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:31:59Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "google",
+      "item_id": "gemini-code-assist-standard",
+      "field": "price",
+      "new": 19.0,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:31:59Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "google",
+      "item_id": "gemini-code-assist-enterprise",
+      "field": "price",
+      "new": 45.0,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:31:59Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "google",
+      "item_id": "gemini-api-free-tier",
+      "field": "price",
+      "new": 0.0,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:31:59Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "xai",
+      "item_id": "supergrok",
+      "field": "price",
+      "new": 30.0,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:31:59Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "xai",
+      "item_id": "supergrok-heavy",
+      "field": "price",
+      "new": 300.0,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:31:59Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "xai",
+      "item_id": "supergrok-lite",
+      "field": "price",
+      "new": 10.0,
+      "source": "research-subagent"
+    },
+    {
       "date": "2026-08-21T11:28:18Z",
       "kind": "update",
       "scope": "model",

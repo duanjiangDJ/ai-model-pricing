@@ -3,10 +3,10 @@
 > 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/machine/`](../machine/)。
 > 更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。
 
-- 数据更新时间: 2026-08-21T11:28:18Z
+- 数据更新时间: 2026-08-21T11:31:59Z
 - 覆盖渠道: 193 个（含 OpenRouter 聚合 419 个模型）
-- 模型总数: 7284
-- 订阅计划数: 0
+- 模型总数: 7290
+- 订阅计划数: 11
 
 ## 供应商列表
 
@@ -42,7 +42,7 @@
 | [The Grid AI](providers/the-grid-ai.md) | 推理托管 | 9 | `providers/the-grid-ai.json` | 2026-08-21T11:28:01Z |
 | [Vertex](providers/google-vertex.md) | 推理托管 | 42 | `providers/google-vertex.json` | 2026-08-21T11:28:01Z |
 | [Alibaba Token Plan](providers/alibaba-token-plan.md) | 推理托管 | 25 | `providers/alibaba-token-plan.json` | 2026-08-21T11:28:01Z |
-| [Google](providers/google.md) | 官方直供 | 39 | `providers/google.json` | 2026-08-21T11:28:01Z |
+| [Google](providers/google.md) | 官方直供 | 40 | `providers/google.json` | 2026-08-21T11:31:59Z |
 | [Model Oracle AI](providers/model-oracle-ai.md) | 推理托管 | 15 | `providers/model-oracle-ai.json` | 2026-08-21T11:28:01Z |
 | [Deep Infra](providers/deepinfra.md) | 推理托管 | 60 | `providers/deepinfra.json` | 2026-08-21T11:28:01Z |
 | [Meta](providers/meta.md) | 推理托管 | 3 | `providers/meta.json` | 2026-08-21T11:28:01Z |
@@ -82,7 +82,7 @@
 | [DInference](providers/dinference.md) | 推理托管 | 6 | `providers/dinference.json` | 2026-08-21T11:28:18Z |
 | [OpenAI](providers/openai.md) | 官方直供 | 47 | `providers/openai.json` | 2026-08-21T11:28:18Z |
 | [OpenCode Go](providers/opencode-go.md) | 推理托管 | 27 | `providers/opencode-go.json` | 2026-08-21T11:28:18Z |
-| [xAI](providers/xai.md) | 官方直供 | 12 | `providers/xai.json` | 2026-08-21T11:28:18Z |
+| [xAI](providers/xai.md) | 官方直供 | 17 | `providers/xai.json` | 2026-08-21T11:31:59Z |
 | [StepFun (Global)](providers/stepfun-ai.md) | 推理托管 | 8 | `providers/stepfun-ai.json` | 2026-08-21T11:28:18Z |
 | [LMStudio](providers/lmstudio.md) | 推理托管 | 3 | `providers/lmstudio.json` | 2026-08-21T11:28:18Z |
 | [Ambient](providers/ambient.md) | 推理托管 | 10 | `providers/ambient.json` | 2026-08-21T11:28:18Z |
@@ -208,7 +208,7 @@
 
 ## 订阅计划
 
-[plans.md](plans.md) — 共 0 个计划
+[plans.md](plans.md) — 共 11 个计划
 
 ## 其他文档
 
