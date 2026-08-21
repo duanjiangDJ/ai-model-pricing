@@ -13,5 +13,5 @@
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
-| `doubao-2.1-pro` | — | chat | — | $6 | $30 | $1.2 | — | —/— | — | 2026-06-23 发布；官方披露：输入 ¥6/百万、输出 ¥30/百万、缓存命中 ¥1.2/百万。CNY 计价。 |
-| `doubao-2.1-turbo` | — | chat | — | $3 | $15 | $0.6 | — | —/— | — | 官方称相对 2.1 Pro '价格再减半'，按 Pro 半价记录（待官方定价页精确核实）。CNY 计价。 |
+| `doubao-2.1-pro` | — | chat | — | $6 | $30 | $1.2 | — | —/— | — | Released 2026-06-23; official disclosure: input ¥6/1M, output ¥30/1M, cache h… |
+| `doubao-2.1-turbo` | — | chat | — | $3 | $15 | $0.6 | — | —/— | — | Officially stated as 'price halved again' relative to 2.1 Pro; recorded at ha… |
