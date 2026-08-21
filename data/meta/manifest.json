@@ -5,7 +5,7 @@
       "name": "OpenRouter API",
       "url": "https://openrouter.ai/api/v1/models",
       "auto_sync": true,
-      "last_ok": "2026-08-21T13:21:07Z",
+      "last_ok": "2026-08-21T13:34:52Z",
       "last_error": null
     },
     {
@@ -14,8 +14,40 @@
       "auto_sync": true,
       "last_ok": "2026-08-21T11:27:12Z",
       "last_error": null
+    },
+    {
+      "name": "DeepSeek official pricing",
+      "url": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
+      "auto_sync": true,
+      "official": true,
+      "last_ok": "2026-08-21T13:34:53Z",
+      "last_error": null
+    },
+    {
+      "name": "Baidu Qianfan official pricing",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya",
+      "auto_sync": true,
+      "official": true,
+      "last_ok": "2026-08-21T13:34:53Z",
+      "last_error": null
+    },
+    {
+      "name": "Anthropic official pricing",
+      "url": "https://www.anthropic.com/pricing",
+      "auto_sync": true,
+      "official": true,
+      "last_ok": "2026-08-21T13:34:53Z",
+      "last_error": null
+    },
+    {
+      "name": "OpenAI official pricing (Wayback snapshot)",
+      "url": "https://platform.openai.com/docs/pricing",
+      "auto_sync": true,
+      "official": true,
+      "last_ok": "2026-08-21T13:34:53Z",
+      "last_error": "parsed 0 models"
     }
   ],
   "coverage": {},
-  "last_daily_check": "2026-08-21T13:21:07Z"
+  "last_daily_check": "2026-08-21T13:34:52Z"
 }

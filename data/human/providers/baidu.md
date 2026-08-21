@@ -5,8 +5,8 @@
 - Homepage: https://qianfan.cloud.baidu.com
 - Pricing page: https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya
 - Currency: USD
-- Data updated: 2026-08-21T13:19:25Z
-- Verified: 2026-08-21T13:19:25Z
+- Data updated: 2026-08-21T13:34:53Z
+- Verified: 2026-08-21T13:34:53Z
 
 **3** models in total.
 
