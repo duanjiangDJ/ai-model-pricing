@@ -52,6 +52,10 @@ def bump():
     # schema
     s = json.load(open(SCHEMA, encoding="utf-8"))
     s["version"] = new
+    txt = json.dumps(s, ensure_ascii=False, indent=2)
+    # sync const schema_version inside the schema definition
+    txt = txt.replace(f'"const": "{old}"', f'"const": "{new}"')
+    s = json.loads(txt)
     json.dump(s, open(SCHEMA, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     open(SCHEMA, "a", encoding="utf-8").write("\n")
     # data files schema_version

@@ -784,7 +784,7 @@
     "properties": {
       "schema_version": {
         "type": "string",
-        "const": "26.0.0"
+        "const": "26.0.1"
       },
       "updated_at": {
         "type": "string",
@@ -808,7 +808,7 @@
     "properties": {
       "schema_version": {
         "type": "string",
-        "const": "26.0.0"
+        "const": "26.0.1"
       },
       "generated_at": {
         "type": "string",
@@ -856,7 +856,7 @@
     "properties": {
       "schema_version": {
         "type": "string",
-        "const": "26.0.0"
+        "const": "26.0.1"
       },
       "last_full_sync": {
         "type": "string",
@@ -919,7 +919,7 @@
     "properties": {
       "schema_version": {
         "type": "string",
-        "const": "26.0.0"
+        "const": "26.0.1"
       },
       "entries": {
         "type": "array",
