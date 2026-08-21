@@ -2,6 +2,74 @@
   "schema_version": "26.0.0",
   "entries": [
     {
+      "date": "2026-08-21T13:59:17Z",
+      "kind": "verify",
+      "scope": "provider",
+      "provider_id": "anthropic",
+      "item_id": "anthropic",
+      "field": "official_sync",
+      "new": {
+        "verified": true,
+        "source": "https://www.anthropic.com/pricing"
+      },
+      "source": "https://www.anthropic.com/pricing"
+    },
+    {
+      "date": "2026-08-21T13:59:17Z",
+      "kind": "verify",
+      "scope": "provider",
+      "provider_id": "baidu",
+      "item_id": "baidu",
+      "field": "official_sync",
+      "new": {
+        "verified": true,
+        "source": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya"
+      },
+      "source": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya"
+    },
+    {
+      "date": "2026-08-21T13:59:17Z",
+      "kind": "verify",
+      "scope": "provider",
+      "provider_id": "deepseek",
+      "item_id": "deepseek",
+      "field": "official_sync",
+      "new": {
+        "verified": true,
+        "source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing"
+      },
+      "source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing"
+    },
+    {
+      "date": "2026-08-21T13:59:16Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "moonshotai/kimi-k2.6",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": 9.405e-07,
+          "output": 3.96e-06,
+          "cache_read": 1.584e-07,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": 5.795e-07,
+          "output": 2.44e-06,
+          "cache_read": 9.76e-08,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
       "date": "2026-08-21T13:34:53Z",
       "kind": "verify",
       "scope": "provider",
