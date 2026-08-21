@@ -14,6 +14,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.0.1 — 2026-08-22 (feature update)
+
+- feature: api_base_url + Notes column in human pages, dedup checks, pr-check enforces CHANGELOG/VERSION, bump_version.py, README star badge + exact stats, all machine notes localized to English
+
 ## 26.1.0 — 2026-08-21 (feature update)
 
 - **Billing-mode fixes** (content): OpenCode Go recorded as subscription (USD-allowance

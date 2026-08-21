@@ -51,7 +51,7 @@
 | Perplexity | Pro | flat_monthly | consumer | monthly | $20 | Higher Pro Search limits | [link](https://www.perplexity.ai/pricing) | 2026-08-21T00:00:00Z |
 | Poe | Lite | credits | consumer | monthly | $10 | Basic unlimited access | [link](https://poe.com/subscription) | 2026-08-21T00:00:00Z |
 | Poe | Standard | credits | consumer | monthly | $19.99 | Points-based usage | [link](https://poe.com/subscription) | 2026-08-21T00:00:00Z |
-| Poe | Standard (年付) | credits | consumer | yearly | $199.99 | Same as Standard | [link](https://poe.com/subscription) | 2026-08-21T00:00:00Z |
+| Poe | Standard (annual) | credits | consumer | yearly | $199.99 | Same as Standard | [link](https://poe.com/subscription) | 2026-08-21T00:00:00Z |
 | Replit | Core | credits | coding | monthly | $20 | $20 monthly credits; 5 collaborators; no credit rollover | [link](https://replit.com/pricing) | 2026-08-21T00:00:00Z |
 | Replit | Pro | credits | coding | monthly | $100 | $100 monthly credits; 15 collaborators; 10 parallel agents; 1 month credit rollover | [link](https://replit.com/pricing) | 2026-08-21T00:00:00Z |
 | Replit | Starter | free | coding | monthly | $0 | Daily Agent credits; 1 published app; ~1200 development minutes/month | [link](https://replit.com/pricing) | 2026-08-21T00:00:00Z |

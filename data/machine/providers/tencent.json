@@ -34,5 +34,5 @@
   ],
   "api_base_url": "https://api.hunyuan.cloud.tencent.com/v1",
   "price_currency": "CNY",
-  "currency_usd_note": "官方按 CNY 计价；1 USD ≈ 7.1 CNY"
+  "currency_usd_note": "Officially priced in CNY; 1 USD ≈ 7.1 CNY"
 }
