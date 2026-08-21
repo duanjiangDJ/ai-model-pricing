@@ -1,5 +1,11 @@
 # Changelog
 
+## 进度（2026-08-21 第四轮）
+
+- **订阅/编码计划扩充至 51 个**：GitHub Copilot Pro $10/Pro+ $39/Max $100（AI Credits 制）、Cursor Hobby/Pro $20/Pro+ $60/Ultra $200/Teams $40、Windsurf Free/Pro $20/Max $200/Teams $40、JetBrains AI Free/Pro $10/Ultimate $30、Perplexity Pro $20/Max $200、Poe Lite $10/Standard $19.99、Devin Free/Pro $20/Max $200/Teams $80、Amazon Q Free/Pro $19、Tabnine $39/$59、Replit Starter/Core $20/Pro $100
+- **国内厂商补录**：百度千帆 ERNIE 5.1/5.0/4.5 Turbo（官方计费文档）、腾讯混元 Hy3（输入 ¥1/百万）、火山方舟豆包 2.1 Pro（¥6/¥30 每百万）——均为 CNY 计价并附汇率说明
+- **子代理调研策略调整**：5 个后台调研子代理运行超时无产出（仅 Google/xAI 完成），已中断并改为直接抓取权威第三方聚合页 + 官方文档核实，效率更高
+
 ## 进度（2026-08-21 第三轮）
 
 - **订阅计划扩充至 18 个**（第三方源核实，2026-08-21）：

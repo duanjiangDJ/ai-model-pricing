@@ -30,13 +30,16 @@ provider = json.load(urllib.request.urlopen(
 
 | 渠道 | 说明 | 状态 |
 |---|---|---|
-| 官方 AI 厂商（国际） | OpenAI、Anthropic、Google、xAI、Mistral、Cohere 等 | 采集中 |
-| 官方 AI 厂商（国内） | DeepSeek、Qwen、豆包、GLM、Kimi、MiniMax、阶跃、零一、百度、腾讯、讯飞 | 采集中 |
-| 云平台托管 | Azure、AWS Bedrock、Vertex AI 等 | 待采集 |
-| 推理托管平台 | OpenRouter（419 模型，自动同步）、Together、Groq、Cerebras、SiliconFlow 等 | OpenRouter 已自动同步，其余采集中 |
-| 聚合/中转站 | OpenRouter（自动）、Poe、AIMLAPI、国内中转站（样本） | 部分 |
-| 消费级订阅 | ChatGPT、Claude、Gemini、Perplexity、Poe 等 | 采集中 |
-| 编码工具计划 | Copilot、Cursor、Windsurf、Claude Code、JetBrains AI 等 | 采集中 |
+| 官方 AI 厂商（国际） | OpenAI（GPT-5.6 全系 47 模型）、Anthropic（Fable/Opus/Sonnet/Haiku 13 模型）、Google Gemini 3.x/2.5、xAI Grok 4.x、Mistral、Cohere 等 | ✅ 已入库 |
+| 官方 AI 厂商（国内） | DeepSeek、Qwen/阿里、豆包 2.1、GLM/智谱、Kimi、MiniMax、阶跃、百度 ERNIE 5.x、腾讯混元 Hy3 等 | ✅ 主要已入库 |
+| 云平台托管 | AWS Bedrock、Azure、Vertex 等（models.dev 收录部分） | 部分 |
+| 推理托管平台 | OpenRouter（419 模型自动同步）、Together、Groq、Cerebras、SiliconFlow、DeepInfra、Novita、Nebius 等 | ✅ 已入库 |
+| 聚合/中转站 | OpenRouter（自动）、Poe、orcarouter、aihubmix 等；国内长尾中转站按文档策略收录样本 | 部分 |
+| 消费级订阅 | ChatGPT Plus/Pro、Claude Pro/Max、Gemini AI、Perplexity、SuperGrok、Poe 等 | ✅ 已入库 |
+| 编码工具计划 | Copilot、Cursor、Windsurf、Claude Code、JetBrains AI、Devin、Amazon Q、Replit、Tabnine 等 | ✅ 已入库 |
+
+**当前规模**：204 个供应商、7,700+ 模型（含 OpenRouter 419 个聚合转售价）、51 个订阅计划，
+数据每日自动同步（OpenRouter + models.dev），人工核实条目带 `verified_at` 与来源。
 
 > 诚实声明：**没有任何单一来源覆盖全部定价**（已核实 OpenRouter / models.dev / LiteLLM 等仅覆盖 API token 定价）。
 > 本仓库以「官方定价页 + 公开 API 自动同步 + 人工核实」组合方式尽量逼近全集；
