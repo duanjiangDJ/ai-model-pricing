@@ -5,8 +5,8 @@
 - Homepage: https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models
 - Pricing page: https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models
 - Currency: USD
-- Data updated: 2026-08-21T11:28:18Z
-- Verified: 2026-08-21T11:28:18Z
+- Data updated: 2026-08-21T13:18:01Z
+- Verified: 2026-08-21T13:18:01Z
 
 **8** models in total.
 

@@ -5,8 +5,8 @@
 - Homepage: https://kenari.id/docs
 - Pricing page: https://kenari.id/docs
 - Currency: USD
-- Data updated: 2026-08-21T11:28:18Z
-- Verified: 2026-08-21T11:28:18Z
+- Data updated: 2026-08-21T13:18:01Z
+- Verified: 2026-08-21T13:18:01Z
 
 **38** models in total.
 

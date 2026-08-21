@@ -5,8 +5,8 @@
 - Homepage: https://docs.perplexity.ai
 - Pricing page: https://www.perplexity.ai/pricing
 - Currency: USD
-- Data updated: 2026-08-21T11:39:14Z
-- Verified: 2026-08-21T00:00:00Z
+- Data updated: 2026-08-21T13:18:01Z
+- Verified: 2026-08-21T13:18:01Z
 
 **4** models in total.
 

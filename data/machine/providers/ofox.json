@@ -7,8 +7,8 @@
   "homepage": "https://ofox.ai/docs",
   "pricing_page": "https://ofox.ai/docs",
   "currency": "USD",
-  "updated_at": "2026-08-21T11:28:18Z",
-  "verified_at": "2026-08-21T11:28:18Z",
+  "updated_at": "2026-08-21T13:18:01Z",
+  "verified_at": "2026-08-21T13:18:01Z",
   "models": [
     {
       "id": "anthropic/claude-fable-5",

@@ -5,8 +5,8 @@
 - 官网: https://qianfan.cloud.baidu.com
 - 定价页: https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya
 - 币种: USD
-- 数据更新时间: 2026-08-21T11:38:22Z
-- 核实时间: 2026-08-21T00:00:00Z
+- 数据更新时间: 2026-08-21T13:19:25Z
+- 核实时间: 2026-08-21T13:19:25Z
 
 共 **3** 个模型。
 

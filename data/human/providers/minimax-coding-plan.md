@@ -5,8 +5,8 @@
 - Homepage: https://platform.minimax.io/docs/token-plan/intro
 - Pricing page: https://platform.minimax.io/docs/token-plan/intro
 - Currency: USD
-- Data updated: 2026-08-21T11:28:18Z
-- Verified: 2026-08-21T11:28:18Z
+- Data updated: 2026-08-21T13:18:01Z
+- Verified: 2026-08-21T13:18:01Z
 
 **7** models in total.
 

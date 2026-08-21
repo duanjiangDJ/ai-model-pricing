@@ -5,8 +5,8 @@
 - Homepage: https://www.alibabacloud.com/help/en/model-studio/token-plan-overview
 - Pricing page: https://www.alibabacloud.com/help/en/model-studio/token-plan-overview
 - Currency: USD
-- Data updated: 2026-08-21T11:28:01Z
-- Verified: 2026-08-21T11:28:01Z
+- Data updated: 2026-08-21T13:18:01Z
+- Verified: 2026-08-21T13:18:01Z
 
 **25** models in total.
 

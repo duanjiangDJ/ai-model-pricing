@@ -5,8 +5,8 @@
 - Homepage: https://docs.wandb.ai/guides/integrations/inference/
 - Pricing page: https://docs.wandb.ai/guides/integrations/inference/
 - Currency: USD
-- Data updated: 2026-08-21T11:28:18Z
-- Verified: 2026-08-21T11:28:18Z
+- Data updated: 2026-08-21T13:18:01Z
+- Verified: 2026-08-21T13:18:01Z
 
 **29** models in total.
 

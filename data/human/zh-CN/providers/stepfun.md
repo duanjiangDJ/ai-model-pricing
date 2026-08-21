@@ -5,8 +5,8 @@
 - 官网: https://platform.stepfun.com/docs/zh/overview/concept
 - 定价页: https://platform.stepfun.com/docs/zh/overview/concept
 - 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- 数据更新时间: 2026-08-21T13:18:01Z
+- 核实时间: 2026-08-21T13:18:01Z
 
 共 **8** 个模型。
 

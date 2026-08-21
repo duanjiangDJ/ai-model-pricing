@@ -7,8 +7,8 @@
   "homepage": "https://docs.edenai.co",
   "pricing_page": "https://docs.edenai.co",
   "currency": "USD",
-  "updated_at": "2026-08-21T11:28:18Z",
-  "verified_at": "2026-08-21T11:28:18Z",
+  "updated_at": "2026-08-21T13:18:01Z",
+  "verified_at": "2026-08-21T13:18:01Z",
   "models": [
     {
       "id": "amazon/moonshot.kimi-k2-thinking",

@@ -5,8 +5,8 @@
 - Homepage: https://docs.mthreads.com/kuaecloud/kuaecloud-doc-online/coding_plan/
 - Pricing page: https://docs.mthreads.com/kuaecloud/kuaecloud-doc-online/coding_plan/
 - Currency: USD
-- Data updated: 2026-08-21T11:28:18Z
-- Verified: 2026-08-21T11:28:18Z
+- Data updated: 2026-08-21T13:18:01Z
+- Verified: 2026-08-21T13:18:01Z
 
 **1** models in total.
 

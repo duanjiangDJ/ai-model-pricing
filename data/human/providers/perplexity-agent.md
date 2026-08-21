@@ -5,8 +5,8 @@
 - Homepage: https://docs.perplexity.ai/docs/agent-api/models
 - Pricing page: https://docs.perplexity.ai/docs/agent-api/models
 - Currency: USD
-- Data updated: 2026-08-21T11:28:18Z
-- Verified: 2026-08-21T11:28:18Z
+- Data updated: 2026-08-21T13:18:01Z
+- Verified: 2026-08-21T13:18:01Z
 
 **22** models in total.
 

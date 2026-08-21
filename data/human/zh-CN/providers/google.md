@@ -5,8 +5,8 @@
 - 官网: https://ai.google.dev/gemini-api/docs/models
 - 定价页: https://ai.google.dev/gemini-api/docs/pricing
 - 币种: USD
-- 数据更新时间: 2026-08-21T11:31:59Z
-- 核实时间: 2026-08-21T00:00:00Z
+- 数据更新时间: 2026-08-21T13:18:01Z
+- 核实时间: 2026-08-21T13:18:01Z
 
 共 **40** 个模型。
 
@@ -39,8 +39,8 @@
 | `gemini-3.5-live-translate-preview` | chat | 16.384K | $3.5 | $21 | — | — | —/— | — |
 | `gemini-3.6-flash` | chat | 1.04858M | $0.75 | $3.75 | $0.075 | — | $0.375/$1.875 | — |
 | `gemini-3.7-flash` | reasoning | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — |
-| `gemini-embedding-001` | embedding | — | $0.15 | — | — | — | $0.075/— | — |
-| `gemini-embedding-2` | embedding | — | $0.2 | — | — | — | $0.1/— | — |
+| `gemini-embedding-001` | embedding | — | $0.15 | $0 | — | — | $0.075/— | — |
+| `gemini-embedding-2` | embedding | — | $0.2 | $0 | — | — | $0.1/— | — |
 | `gemini-flash-latest` | reasoning | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — |
 | `gemini-flash-lite-latest` | reasoning | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — |
 | `gemini-omni-flash-preview` | reasoning | 131.072K | $1.5 | $17.5 | — | — | —/— | — |

@@ -7,8 +7,8 @@
   "homepage": "https://platform.openai.com/docs/models",
   "pricing_page": "https://openai.com/chatgpt/pricing/",
   "currency": "USD",
-  "updated_at": "2026-08-21T11:34:52Z",
-  "verified_at": "2026-08-21T00:00:00Z",
+  "updated_at": "2026-08-21T13:19:25Z",
+  "verified_at": "2026-08-21T13:19:25Z",
   "models": [
     {
       "id": "chatgpt-image-latest",
@@ -714,10 +714,10 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 5.0,
-          "output": 30.0,
-          "cache_read": 0.5,
-          "cache_write": 6.25
+          "input": 0.2,
+          "output": 1.2,
+          "cache_read": 0.02,
+          "cache_write": 0.25
         },
         "batch": {
           "input": 2.5,
@@ -727,7 +727,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30; long context $10/$1/$12.50/$45; batch $2.5/$0.25/$3.125/$15; flex $2.5/$15. Data-residency regions +10% (models released on/after 2026-03-05)."
+      "notes": "Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30; long context $10/$1/$12.50/$45; batch $2.5/$0.25/$3.125/$15; flex $2.5/$15. Data-residency regions +10% (models released on/after 2026-03-05). | Official platform.openai.com/docs/pricing (Wayback snapshot, USD/1M, standard tier). Parsed by sync_official.py."
     },
     {
       "id": "gpt-5.6-sol",
@@ -766,10 +766,10 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 5.0,
-          "output": 30.0,
-          "cache_read": 0.5,
-          "cache_write": 6.25
+          "input": 2.0,
+          "output": 12.0,
+          "cache_read": 0.2,
+          "cache_write": 2.5
         },
         "batch": {
           "input": 2.5,
@@ -779,7 +779,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30; long context $10/$1/$12.50/$45; batch $2.5/$0.25/$3.125/$15; flex $2.5/$15. Data-residency regions +10% (models released on/after 2026-03-05)."
+      "notes": "Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30; long context $10/$1/$12.50/$45; batch $2.5/$0.25/$3.125/$15; flex $2.5/$15. Data-residency regions +10% (models released on/after 2026-03-05). | Official platform.openai.com/docs/pricing (Wayback snapshot, USD/1M, standard tier). Parsed by sync_official.py."
     },
     {
       "id": "gpt-image-1",

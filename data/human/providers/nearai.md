@@ -5,8 +5,8 @@
 - Homepage: https://docs.near.ai/
 - Pricing page: https://docs.near.ai/
 - Currency: USD
-- Data updated: 2026-08-21T11:28:18Z
-- Verified: 2026-08-21T11:28:18Z
+- Data updated: 2026-08-21T13:18:01Z
+- Verified: 2026-08-21T13:18:01Z
 
 **37** models in total.
 

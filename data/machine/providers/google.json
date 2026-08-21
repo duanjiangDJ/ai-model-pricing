@@ -7,8 +7,8 @@
   "homepage": "https://ai.google.dev/gemini-api/docs/models",
   "pricing_page": "https://ai.google.dev/gemini-api/docs/pricing",
   "currency": "USD",
-  "updated_at": "2026-08-21T11:31:59Z",
-  "verified_at": "2026-08-21T00:00:00Z",
+  "updated_at": "2026-08-21T13:18:01Z",
+  "verified_at": "2026-08-21T13:18:01Z",
   "models": [
     {
       "id": "deep-research-max-preview-04-2026",
@@ -661,7 +661,7 @@
       "pricing": {
         "per_mtok": {
           "input": 0.15,
-          "output": null,
+          "output": 0,
           "cache_read": null,
           "cache_write": null
         },
@@ -687,7 +687,7 @@
       "pricing": {
         "per_mtok": {
           "input": 0.2,
-          "output": null,
+          "output": 0,
           "cache_read": null,
           "cache_write": null
         },

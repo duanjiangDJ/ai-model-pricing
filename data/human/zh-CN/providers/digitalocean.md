@@ -5,8 +5,8 @@
 - 官网: https://docs.digitalocean.com/products/gradient-ai-platform/details/models/
 - 定价页: https://docs.digitalocean.com/products/gradient-ai-platform/details/models/
 - 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- 数据更新时间: 2026-08-21T13:18:01Z
+- 核实时间: 2026-08-21T13:18:01Z
 
 共 **92** 个模型。
 

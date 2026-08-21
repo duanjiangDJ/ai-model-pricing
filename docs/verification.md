@@ -7,6 +7,13 @@ of the data in this repository.
 
 `scripts/daily_check.py` runs the following steps every day:
 
+0. **Official-price layer** — `scripts/sync_official.py` fetches **official pricing pages
+   directly** (source registry: `scripts/official_sources.json`):
+   - direct fetch + parse: DeepSeek, Baidu Qianfan, Anthropic (static/SSR pages);
+   - Wayback-snapshot fallback: OpenAI (JS-rendered), Google (disabled pending better parser);
+   - parsed values update `per_mtok.{input,output,cache_read,cache_write}`/`batch`, refresh
+     `verified_at` even when prices are unchanged ("checked today"), and record per-source
+     `last_ok`/`last_error` in the manifest.
 1. **OpenRouter diff** — fetch `https://openrouter.ai/api/v1/models` (the full catalog),
    compare every model's pricing against `data/machine/providers/openrouter.json`:
    - new model → `kind: add` changelog entry
@@ -15,7 +22,9 @@ of the data in this repository.
 2. **models.dev diff** — fetch `https://models.dev/api.json` (192+ providers) and update
    the three per-MTok fields (`input`, `output`, `cache_read`) wherever they differ.
    It deliberately does **not** overwrite hand-maintained fields (`batch`, `cache_write`,
-   notes, plans) so human work is never clobbered.
+   notes, plans) so human work is never clobbered. **Providers whose `verified_at` is
+   today (just verified by the official layer) are skipped entirely** — third-party
+   republication must not overwrite an official check.
 3. **Index refresh** — recompute `index.json` model counts per provider.
 4. **Stale-plan check** — any plan whose `verified_at` is older than 30 days is listed in
    `reports/stale-plans.md` and synced to the "每日价格核实提醒" GitHub issue, so a human
@@ -32,8 +41,9 @@ duplicate-id checks) on every run; a validation failure fails the workflow run.
 
 | Tier | Source | Update cadence | Trust level |
 |---|---|---|---|
-| A. Official pages/docs | pricing pages, official docs (human-verified research) | on demand, flagged when >30 days old | Highest — direct from vendor |
-| B. models.dev | republished official list prices, maintained by a third party | daily auto-sync | High for first-party entries; it is still a third-party republication |
+| A+. Official page (agent via ego-browser) | live JS-rendered official pages read by an AI agent with the ego-lite browser | on demand, per re-verification campaign | Highest — current official page, rendered |
+| A. Official pages (direct parse) | static/SSR official pages parsed in-repo (DeepSeek, Baidu, Anthropic) + Wayback snapshots for JS pages | daily auto-sync (`sync_official.py`) | High — direct from vendor (snapshots may lag) |
+| B. models.dev | republished official list prices, maintained by a third party | daily auto-sync (skipped when A/A+ verified today) | High for first-party entries; still third-party republication |
 | C. OpenRouter API | reseller/aggregator prices (the price OpenRouter charges) | daily auto-sync | Correct *as OpenRouter's price*; differs from official prices by design |
 
 Guarantees we do make:

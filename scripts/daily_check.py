@@ -62,6 +62,10 @@ def sync_modelsdev_diff(now):
         if not os.path.exists(path):
             continue  # do not auto-create here; run scripts/sync_modelsdev.py --write for that
         local = read_json(path)
+        # If the official-price layer verified this provider today, models.dev
+        # (third-party republication) must not overwrite it.
+        if str(local.get("verified_at", ""))[:10] == now[:10]:
+            continue
         local_by_id = {m["id"]: m for m in local["models"]}
         remote_by_id = {m["id"]: build_model(mid, m) for mid, m in models.items()}
         for mid in sorted(set(remote_by_id) - set(local_by_id)):
@@ -193,6 +197,18 @@ def main():
             summary["network_ok"] = False
             print(f"WARN models.dev fetch failed: {e}")
         refresh_index_counts(now)
+
+        # Official pricing pages (direct fetch + wayback fallback) — the
+        # "official-price-first" layer. Failures are recorded in manifest, not fatal.
+        import subprocess
+        r = subprocess.run(
+            [sys.executable, os.path.join(ROOT, "scripts", "sync_official.py")],
+            capture_output=True, text=True, timeout=600,
+        )
+        summary["official"] = r.returncode == 0
+        print(r.stdout[-2000:] if r.stdout else "")
+        if r.returncode != 0:
+            print("WARN sync_official failed:", r.stderr[-500:] if r.stderr else "no stderr")
     else:
         print("no-network mode: skipping fetches")
 

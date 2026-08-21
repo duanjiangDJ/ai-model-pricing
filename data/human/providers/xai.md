@@ -5,8 +5,8 @@
 - Homepage: https://docs.x.ai/docs/models
 - Pricing page: https://docs.x.ai/developers/pricing
 - Currency: USD
-- Data updated: 2026-08-21T11:31:59Z
-- Verified: 2026-08-21T00:00:00Z
+- Data updated: 2026-08-21T13:18:01Z
+- Verified: 2026-08-21T13:18:01Z
 
 **17** models in total.
 

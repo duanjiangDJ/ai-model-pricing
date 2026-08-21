@@ -5,8 +5,8 @@
 - Homepage: https://dev.meta.ai/docs
 - Pricing page: https://dev.meta.ai/docs
 - Currency: USD
-- Data updated: 2026-08-21T11:28:01Z
-- Verified: 2026-08-21T11:28:01Z
+- Data updated: 2026-08-21T13:18:01Z
+- Verified: 2026-08-21T13:18:01Z
 
 **3** models in total.
 

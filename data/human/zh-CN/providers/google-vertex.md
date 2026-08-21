@@ -5,8 +5,8 @@
 - 官网: https://cloud.google.com/vertex-ai/generative-ai/docs/models
 - 定价页: https://cloud.google.com/vertex-ai/generative-ai/docs/models
 - 币种: USD
-- 数据更新时间: 2026-08-21T11:28:01Z
-- 核实时间: 2026-08-21T11:28:01Z
+- 数据更新时间: 2026-08-21T13:18:01Z
+- 核实时间: 2026-08-21T13:18:01Z
 
 共 **42** 个模型。
 

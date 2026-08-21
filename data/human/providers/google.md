@@ -5,8 +5,8 @@
 - Homepage: https://ai.google.dev/gemini-api/docs/models
 - Pricing page: https://ai.google.dev/gemini-api/docs/pricing
 - Currency: USD
-- Data updated: 2026-08-21T11:31:59Z
-- Verified: 2026-08-21T00:00:00Z
+- Data updated: 2026-08-21T13:18:01Z
+- Verified: 2026-08-21T13:18:01Z
 
 **40** models in total.
 
@@ -39,8 +39,8 @@
 | `gemini-3.5-live-translate-preview` | chat | 16.384K | $3.5 | $21 | — | — | —/— | — |
 | `gemini-3.6-flash` | chat | 1.04858M | $0.75 | $3.75 | $0.075 | — | $0.375/$1.875 | — |
 | `gemini-3.7-flash` | reasoning | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — |
-| `gemini-embedding-001` | embedding | — | $0.15 | — | — | — | $0.075/— | — |
-| `gemini-embedding-2` | embedding | — | $0.2 | — | — | — | $0.1/— | — |
+| `gemini-embedding-001` | embedding | — | $0.15 | $0 | — | — | $0.075/— | — |
+| `gemini-embedding-2` | embedding | — | $0.2 | $0 | — | — | $0.1/— | — |
 | `gemini-flash-latest` | reasoning | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — |
 | `gemini-flash-lite-latest` | reasoning | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — |
 | `gemini-omni-flash-preview` | reasoning | 131.072K | $1.5 | $17.5 | — | — | —/— | — |

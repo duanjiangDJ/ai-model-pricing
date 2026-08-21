@@ -5,10 +5,10 @@
 - Homepage: https://kilo.ai
 - Pricing page: https://kilo.ai
 - Currency: USD
-- Data updated: 2026-08-21T11:28:18Z
-- Verified: 2026-08-21T11:28:18Z
+- Data updated: 2026-08-21T13:18:01Z
+- Verified: 2026-08-21T13:18:01Z
 
-**362** models in total.
+**363** models in total.
 
 | Model | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing |
 |---|---|---|---|---|---|---|---|---|
@@ -68,6 +68,7 @@
 | `deepseek/deepseek-v3.2-exp` | reasoning | 163.84K | $0.27 | $0.41 | — | — | —/— | — |
 | `deepseek/deepseek-v4-flash` | reasoning | 1.024M | $0.14 | $0.28 | $0.028 | — | —/— | — |
 | `deepseek/deepseek-v4-flash-0731` | reasoning | 1.04858M | $0.14 | $0.28 | $0.028 | — | —/— | — |
+| `deepseek/deepseek-v4-flash-vision-exp` | reasoning | 1.04858M | $0.22 | $0.66 | $0.007 | — | —/— | — |
 | `deepseek/deepseek-v4-pro` | reasoning | 1.04858M | $1.6 | $3.2 | $0.135 | — | —/— | — |
 | `deepseek/deepseek-v4-pro-0813` | reasoning | 1.04858M | $1.32 | $3.96 | $0.132 | — | —/— | — |
 | `dots-studio/dots-3-note-preview:free` | reasoning | 512K | $0 | $0 | — | — | —/— | — |

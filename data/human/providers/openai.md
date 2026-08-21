@@ -5,8 +5,8 @@
 - Homepage: https://platform.openai.com/docs/models
 - Pricing page: https://openai.com/chatgpt/pricing/
 - Currency: USD
-- Data updated: 2026-08-21T11:34:52Z
-- Verified: 2026-08-21T00:00:00Z
+- Data updated: 2026-08-21T13:19:25Z
+- Verified: 2026-08-21T13:19:25Z
 
 **47** models in total.
 
@@ -42,9 +42,9 @@
 | `gpt-5.5` | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — |
 | `gpt-5.5-pro` | reasoning | 1.05M | $30 | $180 | — | — | —/— | — |
 | `gpt-5.6` | reasoning | 1.05M | $5 | $30 | $0.5 | $6.25 | $2.5/$15 | — |
-| `gpt-5.6-luna` | reasoning | 1.05M | $5 | $30 | $0.5 | $6.25 | $2.5/$15 | — |
+| `gpt-5.6-luna` | reasoning | 1.05M | $0.2 | $1.2 | $0.02 | $0.25 | $2.5/$15 | — |
 | `gpt-5.6-sol` | reasoning | 1.05M | $5 | $30 | $0.5 | $6.25 | $2.5/$15 | — |
-| `gpt-5.6-terra` | reasoning | 1.05M | $5 | $30 | $0.5 | $6.25 | $2.5/$15 | — |
+| `gpt-5.6-terra` | reasoning | 1.05M | $2 | $12 | $0.2 | $2.5 | $2.5/$15 | — |
 | `gpt-image-1` | chat | — | — | — | — | — | —/— | — |
 | `gpt-image-1-mini` | chat | — | — | — | — | — | —/— | — |
 | `gpt-image-1.5` | chat | — | — | — | — | — | —/— | — |

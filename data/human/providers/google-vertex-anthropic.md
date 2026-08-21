@@ -5,8 +5,8 @@
 - Homepage: https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/claude
 - Pricing page: https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/claude
 - Currency: USD
-- Data updated: 2026-08-21T11:28:18Z
-- Verified: 2026-08-21T11:28:18Z
+- Data updated: 2026-08-21T13:18:01Z
+- Verified: 2026-08-21T13:18:01Z
 
 **12** models in total.
 

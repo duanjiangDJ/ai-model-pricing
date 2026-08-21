@@ -1,0 +1,50 @@
+{
+  "official_sources": [
+    {
+      "provider_id": "deepseek",
+      "name": "DeepSeek official pricing",
+      "strategy": "direct",
+      "url": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
+      "parser": "deepseek",
+      "enabled": true,
+      "note": "Docusaurus static page; CNY pricing with peak/off-peak tiers"
+    },
+    {
+      "provider_id": "baidu",
+      "name": "Baidu Qianfan official pricing",
+      "strategy": "direct",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya",
+      "parser": "baidu",
+      "enabled": true,
+      "note": "Static doc page; CNY per 1K tokens"
+    },
+    {
+      "provider_id": "anthropic",
+      "name": "Anthropic official pricing",
+      "strategy": "direct",
+      "url": "https://www.anthropic.com/pricing",
+      "parser": "anthropic",
+      "enabled": true,
+      "note": "SSR page with 'Input $X / MTok Output $Y / MTok ... Write $W / MTok Read $R / MTok' patterns"
+    },
+    {
+      "provider_id": "openai",
+      "name": "OpenAI official pricing (Wayback snapshot)",
+      "strategy": "wayback",
+      "url": "https://platform.openai.com/docs/pricing",
+      "parser": "openai",
+      "enabled": true,
+      "fallback_snapshots": ["20260812013303"],
+      "note": "JS-rendered; parsed from recent Wayback Machine capture (fallback to known-good 2026-08-12 capture)"
+    },
+    {
+      "provider_id": "google",
+      "name": "Google Gemini API pricing (Wayback snapshot)",
+      "strategy": "wayback",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "parser": "google",
+      "enabled": false,
+      "note": "Complex nested tables incl. promo pricing; parser unreliable — disabled until improved"
+    }
+  ]
+}
