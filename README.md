@@ -1,5 +1,7 @@
 # AI Model Pricing — 全模型定价数据库
 
+[![Daily Price Check](https://github.com/duanjiangDJ/ai-model-pricing/actions/workflows/daily-check.yml/badge.svg)](https://github.com/duanjiangDJ/ai-model-pricing/actions/workflows/daily-check.yml)
+
 收集市面上**所有可获取的 AI 模型定价**的开源数据库，覆盖多种收费形式：
 API 按 token / 缓存 / 批处理 / 按图 / 按音频秒 / 按请求 / 点数制 / GPU 秒 / 订阅月费 等。
 
