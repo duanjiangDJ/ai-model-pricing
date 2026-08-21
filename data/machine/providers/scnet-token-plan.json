@@ -7,8 +7,8 @@
   "homepage": "https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html",
   "pricing_page": "https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html",
   "currency": "USD",
-  "updated_at": "2026-08-21T11:29:38Z",
-  "verified_at": "2026-08-21T11:29:38Z",
+  "updated_at": "2026-08-21T13:21:07Z",
+  "verified_at": "2026-08-21T13:21:07Z",
   "models": [
     {
       "id": "DeepSeek-V3.2",

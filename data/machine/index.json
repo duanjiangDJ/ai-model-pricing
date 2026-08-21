@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-08-21T11:29:38Z",
+  "generated_at": "2026-08-21T13:21:07Z",
   "currency": "USD",
   "provider_count": 192,
-  "model_count": 7284,
+  "model_count": 7286,
   "plan_count": 0,
   "providers": [
     {
@@ -1466,9 +1466,9 @@
       "id": "kilo",
       "name": "Kilo Gateway",
       "channel": "aggregator",
-      "model_count": 362,
+      "model_count": 363,
       "file": "providers/kilo.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-21T13:21:07Z"
     },
     {
       "id": "pioneer",
@@ -1548,9 +1548,9 @@
       "id": "openrouter",
       "name": "OpenRouter",
       "channel": "aggregator",
-      "model_count": 419,
+      "model_count": 420,
       "file": "providers/openrouter.json",
-      "updated_at": "2026-08-21T11:29:38Z"
+      "updated_at": "2026-08-21T13:21:07Z"
     }
   ]
 }

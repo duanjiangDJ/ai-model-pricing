@@ -7,8 +7,8 @@
   "homepage": "https://docs.together.ai/docs/serverless-models",
   "pricing_page": "https://docs.together.ai/docs/serverless-models",
   "currency": "USD",
-  "updated_at": "2026-08-21T11:29:38Z",
-  "verified_at": "2026-08-21T11:29:38Z",
+  "updated_at": "2026-08-21T13:21:07Z",
+  "verified_at": "2026-08-21T13:21:07Z",
   "models": [
     {
       "id": "LiquidAI/LFM2-24B-A2B",

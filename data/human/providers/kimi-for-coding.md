@@ -5,8 +5,8 @@
 - 官网: https://www.kimi.com/code/docs/en/third-party-tools/other-coding-agents.html
 - 定价页: https://www.kimi.com/code/docs/en/third-party-tools/other-coding-agents.html
 - 币种: USD
-- 数据更新时间: 2026-08-21T11:29:38Z
-- 核实时间: 2026-08-21T11:29:38Z
+- 数据更新时间: 2026-08-21T13:21:07Z
+- 核实时间: 2026-08-21T13:21:07Z
 
 共 **4** 个模型。
 

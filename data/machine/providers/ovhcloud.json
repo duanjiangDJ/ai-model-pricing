@@ -7,8 +7,8 @@
   "homepage": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog//",
   "pricing_page": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog//",
   "currency": "USD",
-  "updated_at": "2026-08-21T11:29:38Z",
-  "verified_at": "2026-08-21T11:29:38Z",
+  "updated_at": "2026-08-21T13:21:07Z",
+  "verified_at": "2026-08-21T13:21:07Z",
   "models": [
     {
       "id": "gpt-oss-120b",

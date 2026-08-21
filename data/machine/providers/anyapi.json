@@ -7,8 +7,8 @@
   "homepage": "https://docs.anyapi.ai",
   "pricing_page": "https://docs.anyapi.ai",
   "currency": "USD",
-  "updated_at": "2026-08-21T11:29:38Z",
-  "verified_at": "2026-08-21T11:29:38Z",
+  "updated_at": "2026-08-21T13:21:07Z",
+  "verified_at": "2026-08-21T13:21:07Z",
   "models": [
     {
       "id": "anthropic/claude-haiku-4-5",

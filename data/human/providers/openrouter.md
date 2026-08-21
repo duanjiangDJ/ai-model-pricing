@@ -5,10 +5,10 @@
 - 官网: https://openrouter.ai
 - 定价页: https://openrouter.ai/models
 - 币种: USD
-- 数据更新时间: 2026-08-21T11:29:38Z
-- 核实时间: 2026-08-21T11:29:38Z
+- 数据更新时间: 2026-08-21T13:21:07Z
+- 核实时间: 2026-08-21T13:21:07Z
 
-共 **419** 个模型。
+共 **420** 个模型。
 
 | 模型 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 |
 |---|---|---|---|---|---|---|---|---|
@@ -79,6 +79,7 @@
 | `deepseek/deepseek-v3.2-exp` | reasoning | 163.84K | $0.27 | $0.41 | — | — | —/— | — |
 | `deepseek/deepseek-v4-flash` | reasoning | 1.04858M | $0.0826 | $0.1652 | $0.01652 | — | —/— | — |
 | `deepseek/deepseek-v4-flash-0731` | reasoning | 1.31072M | $0.08 | $0.18 | $0.016 | — | —/— | — |
+| `deepseek/deepseek-v4-flash-vision-exp` | reasoning | 1.04858M | $0.22 | $0.66 | $0.007 | — | —/— | — |
 | `deepseek/deepseek-v4-pro` | reasoning | 1.04858M | $1.6 | $3.2 | $0.135 | — | —/— | — |
 | `deepseek/deepseek-v4-pro-0813` | reasoning | 1.04858M | $1.188 | $3.564 | $0.0396 | — | —/— | — |
 | `dots-studio/dots-3-note-preview:free` | reasoning | 512K | $0 | $0 | — | — | —/— | — |

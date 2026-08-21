@@ -5,7 +5,7 @@
       "name": "OpenRouter API",
       "url": "https://openrouter.ai/api/v1/models",
       "auto_sync": true,
-      "last_ok": "2026-08-21T11:29:38Z",
+      "last_ok": "2026-08-21T13:21:07Z",
       "last_error": null
     },
     {
@@ -17,5 +17,5 @@
     }
   ],
   "coverage": {},
-  "last_daily_check": "2026-08-21T11:29:38Z"
+  "last_daily_check": "2026-08-21T13:21:07Z"
 }

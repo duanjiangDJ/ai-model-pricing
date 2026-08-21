@@ -7,8 +7,8 @@
   "homepage": "https://openrouter.ai",
   "pricing_page": "https://openrouter.ai/models",
   "currency": "USD",
-  "updated_at": "2026-08-21T11:29:38Z",
-  "verified_at": "2026-08-21T11:29:38Z",
+  "updated_at": "2026-08-21T13:21:07Z",
+  "verified_at": "2026-08-21T13:21:07Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1457,6 +1457,28 @@
           "input": 0.08,
           "output": 0.18,
           "cache_read": 0.016,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 1048576,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.22,
+          "output": 0.66,
+          "cache_read": 0.007,
           "cache_write": null
         },
         "per_image": null,

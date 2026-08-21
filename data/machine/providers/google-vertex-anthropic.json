@@ -7,8 +7,8 @@
   "homepage": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/claude",
   "pricing_page": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/claude",
   "currency": "USD",
-  "updated_at": "2026-08-21T11:29:38Z",
-  "verified_at": "2026-08-21T11:29:38Z",
+  "updated_at": "2026-08-21T13:21:07Z",
+  "verified_at": "2026-08-21T13:21:07Z",
   "models": [
     {
       "id": "claude-haiku-4-5@20251001",

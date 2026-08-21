@@ -7,8 +7,8 @@
   "homepage": "https://docs.salad.com/ai-gateway/explanation/overview",
   "pricing_page": "https://docs.salad.com/ai-gateway/explanation/overview",
   "currency": "USD",
-  "updated_at": "2026-08-21T11:29:38Z",
-  "verified_at": "2026-08-21T11:29:38Z",
+  "updated_at": "2026-08-21T13:21:07Z",
+  "verified_at": "2026-08-21T13:21:07Z",
   "models": [
     {
       "id": "qwen3.6-35b-a3b",
