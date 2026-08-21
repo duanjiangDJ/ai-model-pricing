@@ -3,10 +3,10 @@
 > 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/machine/`](../machine/)。
 > 更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。
 
-- 数据更新时间: 2026-08-21T11:38:22Z
-- 覆盖渠道: 200 个（含 OpenRouter 聚合 419 个模型）
+- 数据更新时间: 2026-08-21T11:39:14Z
+- 覆盖渠道: 202 个（含 OpenRouter 聚合 419 个模型）
 - 模型总数: 7296
-- 订阅计划数: 33
+- 订阅计划数: 46
 
 ## 供应商列表
 
@@ -123,7 +123,7 @@
 | [Perplexity Agent](providers/perplexity-agent.md) | 推理托管 | 22 | `providers/perplexity-agent.json` | 2026-08-21T11:28:18Z |
 | [Alibaba Coding Plan](providers/alibaba-coding-plan.md) | 推理托管 | 12 | `providers/alibaba-coding-plan.json` | 2026-08-21T11:28:18Z |
 | [Ollama Cloud](providers/ollama-cloud.md) | 推理托管 | 20 | `providers/ollama-cloud.json` | 2026-08-21T11:28:18Z |
-| [Perplexity](providers/perplexity.md) | 官方直供 | 4 | `providers/perplexity.json` | 2026-08-21T11:28:18Z |
+| [Perplexity](providers/perplexity.md) | subscription | 4 | `providers/perplexity.json` | 2026-08-21T11:39:14Z |
 | [GMI Cloud](providers/gmicloud.md) | 推理托管 | 13 | `providers/gmicloud.json` | 2026-08-21T11:28:18Z |
 | [Umans AI](providers/umans-ai.md) | 推理托管 | 7 | `providers/umans-ai.json` | 2026-08-21T11:28:18Z |
 | [SAP AI Core](providers/sap-ai-core.md) | 推理托管 | 48 | `providers/sap-ai-core.json` | 2026-08-21T11:28:18Z |
@@ -159,7 +159,7 @@
 | [Baseten](providers/baseten.md) | 推理托管 | 19 | `providers/baseten.json` | 2026-08-21T11:28:18Z |
 | [SiliconFlow (China)](providers/siliconflow-cn.md) | 推理托管 | 47 | `providers/siliconflow-cn.json` | 2026-08-21T11:28:18Z |
 | [MiniMax (minimaxi.com)](providers/minimax-cn.md) | 推理托管 | 7 | `providers/minimax-cn.json` | 2026-08-21T11:28:18Z |
-| [Poe](providers/poe.md) | 推理托管 | 137 | `providers/poe.json` | 2026-08-21T11:28:18Z |
+| [Poe](providers/poe.md) | subscription | 137 | `providers/poe.json` | 2026-08-21T11:39:14Z |
 | [Mistral](providers/mistral.md) | 官方直供 | 33 | `providers/mistral.json` | 2026-08-21T11:28:18Z |
 | [Modal](providers/modal.md) | 推理托管 | 2 | `providers/modal.json` | 2026-08-21T11:28:18Z |
 | [AIHubMix](providers/aihubmix.md) | 推理托管 | 70 | `providers/aihubmix.json` | 2026-08-21T11:28:18Z |
@@ -211,11 +211,13 @@
 | [百度智能云千帆 (Baidu Qianfan)](providers/baidu.md) | 官方直供 | 3 | `providers/baidu.json` | 2026-08-21T11:38:22Z |
 | [腾讯混元 (Tencent Hunyuan)](providers/tencent.md) | 官方直供 | 1 | `providers/tencent.json` | 2026-08-21T11:38:22Z |
 | [火山引擎方舟 (Volcengine Ark / 豆包)](providers/volcengine.md) | 官方直供 | 2 | `providers/volcengine.json` | 2026-08-21T11:38:22Z |
+| [Devin (Cognition)](providers/devin.md) | subscription | 0 | `providers/devin.json` | 2026-08-21T11:39:14Z |
+| [Amazon Web Services](providers/aws.md) | 云平台托管 | 0 | `providers/aws.json` | 2026-08-21T11:39:14Z |
 | [OpenRouter](providers/openrouter.md) | 聚合站 | 419 | `providers/openrouter.json` | 2026-08-21T11:28:18Z |
 
 ## 订阅计划
 
-[plans.md](plans.md) — 共 33 个计划
+[plans.md](plans.md) — 共 46 个计划
 
 ## 其他文档
 

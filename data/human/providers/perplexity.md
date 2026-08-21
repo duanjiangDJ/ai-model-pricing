@@ -1,12 +1,12 @@
 # Perplexity
 
 - provider_id: `perplexity`
-- 渠道: 官方直供
+- 渠道: subscription
 - 官网: https://docs.perplexity.ai
-- 定价页: https://docs.perplexity.ai
+- 定价页: https://www.perplexity.ai/pricing
 - 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- 数据更新时间: 2026-08-21T11:39:14Z
+- 核实时间: 2026-08-21T00:00:00Z
 
 共 **4** 个模型。
 

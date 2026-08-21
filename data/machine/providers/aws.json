@@ -1,0 +1,13 @@
+{
+  "provider_id": "aws",
+  "name": "Amazon Web Services",
+  "channel": "cloud",
+  "category": "cloud_platform",
+  "region": "us",
+  "homepage": "https://aws.amazon.com",
+  "pricing_page": "https://aws.amazon.com/q/developer/",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:39:14Z",
+  "verified_at": "2026-08-21T00:00:00Z",
+  "models": []
+}

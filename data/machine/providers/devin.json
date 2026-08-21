@@ -1,0 +1,13 @@
+{
+  "provider_id": "devin",
+  "name": "Devin (Cognition)",
+  "channel": "subscription",
+  "category": "ai_vendor",
+  "region": "us",
+  "homepage": "https://devin.ai",
+  "pricing_page": "https://docs.devin.ai/admin/billing/self-serve",
+  "currency": "USD",
+  "updated_at": "2026-08-21T11:39:14Z",
+  "verified_at": "2026-08-21T00:00:00Z",
+  "models": []
+}

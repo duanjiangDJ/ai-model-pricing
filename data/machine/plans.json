@@ -1,7 +1,40 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-21T11:38:22Z",
+  "updated_at": "2026-08-21T11:39:14Z",
   "plans": [
+    {
+      "id": "amazon-q-dev-free",
+      "product": "Amazon Q Developer",
+      "plan": "Free",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 0,
+      "limits": "50 agentic requests/月，1000 行 Java 转换/月",
+      "includes": [
+        "IDE 与 CLI 访问",
+        "最新 Claude 模型"
+      ],
+      "url": "https://aws.amazon.com/q/developer/",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "aws"
+    },
+    {
+      "id": "amazon-q-dev-pro",
+      "product": "Amazon Q Developer",
+      "plan": "Pro",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 19,
+      "limits": "每用户/月，扩展 agentic 额度",
+      "includes": [
+        "Free 全部功能",
+        "更高请求额度",
+        "AWS 服务深度集成"
+      ],
+      "url": "https://aws.amazon.com/q/developer/",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "aws"
+    },
     {
       "id": "anthropic-claude-code-pro",
       "product": "Claude Code",
@@ -147,6 +180,68 @@
       "url": "https://cursor.com/pricing",
       "verified_at": "2026-08-21T00:00:00Z",
       "provider_id": "cursor"
+    },
+    {
+      "id": "devin-free",
+      "product": "Devin",
+      "plan": "Free",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 0,
+      "limits": "1 成员",
+      "includes": [
+        "试用 Devin"
+      ],
+      "url": "https://docs.devin.ai/admin/billing/self-serve",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "devin"
+    },
+    {
+      "id": "devin-max",
+      "product": "Devin",
+      "plan": "Max",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 200,
+      "limits": "更高配额，个人计划",
+      "includes": [
+        "大量 Agent 用量"
+      ],
+      "url": "https://docs.devin.ai/admin/billing/self-serve",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "devin"
+    },
+    {
+      "id": "devin-pro",
+      "product": "Devin",
+      "plan": "Pro",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 20,
+      "limits": "1 成员，个人计划",
+      "includes": [
+        "Devin Agent 用量"
+      ],
+      "url": "https://docs.devin.ai/admin/billing/self-serve",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "devin"
+    },
+    {
+      "id": "devin-teams",
+      "product": "Devin",
+      "plan": "Teams",
+      "category": "team",
+      "billing": "monthly",
+      "price_usd": 80,
+      "price_note": "$80/月最低，成员无限",
+      "limits": "full seat / flex seat 模式",
+      "includes": [
+        "团队协作",
+        "共享配额"
+      ],
+      "url": "https://docs.devin.ai/admin/billing/self-serve",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "devin"
     },
     {
       "id": "gemini-api-free-tier",
@@ -421,6 +516,121 @@
       "url": "https://openai.com/chatgpt/pricing/",
       "verified_at": "2026-08-21T00:00:00Z",
       "provider_id": "openai"
+    },
+    {
+      "id": "perplexity-edu-pro",
+      "product": "Perplexity",
+      "plan": "Education Pro",
+      "category": "student",
+      "billing": "monthly",
+      "price_usd": 10,
+      "limits": "需学生验证",
+      "includes": [
+        "Pro 功能折扣价"
+      ],
+      "url": "https://www.perplexity.ai/pricing",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "perplexity"
+    },
+    {
+      "id": "perplexity-enterprise-pro",
+      "product": "Perplexity",
+      "plan": "Enterprise Pro",
+      "category": "enterprise",
+      "billing": "monthly",
+      "price_usd": 40,
+      "price_note": "每 seat/月起",
+      "limits": "统一账单、seat 管理",
+      "includes": [
+        "Pro 全部功能",
+        "组织级文件库",
+        "内部知识搜索",
+        "SOC 2 等合规"
+      ],
+      "url": "https://www.perplexity.ai/pricing",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "perplexity"
+    },
+    {
+      "id": "perplexity-max",
+      "product": "Perplexity",
+      "plan": "Max",
+      "category": "consumer",
+      "billing": "monthly",
+      "price_usd": 200,
+      "limits": "最高个人档：更高研究与 Comet 限额",
+      "includes": [
+        "顶级模型访问",
+        "高级功能"
+      ],
+      "url": "https://www.perplexity.ai/pricing",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "perplexity"
+    },
+    {
+      "id": "perplexity-pro",
+      "product": "Perplexity",
+      "plan": "Pro",
+      "category": "consumer",
+      "billing": "monthly",
+      "price_usd": 20,
+      "limits": "更高 Pro Search 限额",
+      "includes": [
+        "前沿模型访问 (GPT-5, Claude Opus)",
+        "文件上传",
+        "图像/视频生成",
+        "每日 Deep Research 额度"
+      ],
+      "url": "https://www.perplexity.ai/pricing",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "perplexity"
+    },
+    {
+      "id": "poe-lite",
+      "product": "Poe",
+      "plan": "Lite",
+      "category": "consumer",
+      "billing": "monthly",
+      "price_usd": 10,
+      "limits": "基础无限访问",
+      "includes": [
+        "多模型聊天聚合"
+      ],
+      "url": "https://poe.com/subscription",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "poe"
+    },
+    {
+      "id": "poe-standard",
+      "product": "Poe",
+      "plan": "Standard",
+      "category": "consumer",
+      "billing": "monthly",
+      "price_usd": 19.99,
+      "limits": "点数制用量",
+      "includes": [
+        "全部模型访问",
+        "更高点数"
+      ],
+      "url": "https://poe.com/subscription",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "poe"
+    },
+    {
+      "id": "poe-yearly",
+      "product": "Poe",
+      "plan": "Standard (年付)",
+      "category": "consumer",
+      "billing": "yearly",
+      "price_usd": 199.99,
+      "price_note": "平均 $16.67/月，省 17%",
+      "limits": "同 Standard",
+      "includes": [
+        "同 Standard"
+      ],
+      "url": "https://poe.com/subscription",
+      "verified_at": "2026-08-21T00:00:00Z",
+      "provider_id": "poe"
     },
     {
       "id": "supergrok",

@@ -1,12 +1,12 @@
 # Poe
 
 - provider_id: `poe`
-- 渠道: 推理托管
+- 渠道: subscription
 - 官网: https://creator.poe.com/docs/external-applications/openai-compatible-api
-- 定价页: https://creator.poe.com/docs/external-applications/openai-compatible-api
+- 定价页: https://poe.com/subscription
 - 币种: USD
-- 数据更新时间: 2026-08-21T11:28:18Z
-- 核实时间: 2026-08-21T11:28:18Z
+- 数据更新时间: 2026-08-21T11:39:14Z
+- 核实时间: 2026-08-21T00:00:00Z
 
 共 **137** 个模型。
 

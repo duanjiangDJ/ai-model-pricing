@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-08-21T11:38:22Z",
+  "generated_at": "2026-08-21T11:39:14Z",
   "currency": "USD",
-  "provider_count": 199,
+  "provider_count": 201,
   "model_count": 7296,
-  "plan_count": 33,
+  "plan_count": 46,
   "providers": [
     {
       "id": "hpc-ai",
@@ -900,7 +900,7 @@
       "channel": "first_party",
       "model_count": 4,
       "file": "providers/perplexity.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-21T11:39:14Z"
     },
     {
       "id": "gmicloud",
@@ -1188,7 +1188,7 @@
       "channel": "hosted",
       "model_count": 137,
       "file": "providers/poe.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-21T11:39:14Z"
     },
     {
       "id": "mistral",
@@ -1597,6 +1597,22 @@
       "model_count": 2,
       "file": "providers/volcengine.json",
       "updated_at": "2026-08-21T11:38:22Z"
+    },
+    {
+      "id": "devin",
+      "name": "Devin (Cognition)",
+      "channel": "subscription",
+      "model_count": 0,
+      "file": "providers/devin.json",
+      "updated_at": "2026-08-21T11:39:14Z"
+    },
+    {
+      "id": "aws",
+      "name": "Amazon Web Services",
+      "channel": "cloud",
+      "model_count": 0,
+      "file": "providers/aws.json",
+      "updated_at": "2026-08-21T11:39:14Z"
     }
   ],
   "resellers": [

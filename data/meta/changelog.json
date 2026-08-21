@@ -2,6 +2,188 @@
   "schema_version": "1.0.0",
   "entries": [
     {
+      "date": "2026-08-21T11:39:14Z",
+      "kind": "update",
+      "scope": "provider",
+      "provider_id": "perplexity",
+      "item_id": "perplexity",
+      "field": "catalog",
+      "new": {
+        "models": 4,
+        "research_models": 0
+      },
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:39:14Z",
+      "kind": "update",
+      "scope": "provider",
+      "provider_id": "poe",
+      "item_id": "poe",
+      "field": "catalog",
+      "new": {
+        "models": 137,
+        "research_models": 0
+      },
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:39:14Z",
+      "kind": "update",
+      "scope": "provider",
+      "provider_id": "devin",
+      "item_id": "devin",
+      "field": "catalog",
+      "new": {
+        "models": 0,
+        "research_models": 0
+      },
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:39:14Z",
+      "kind": "update",
+      "scope": "provider",
+      "provider_id": "aws",
+      "item_id": "aws",
+      "field": "catalog",
+      "new": {
+        "models": 0,
+        "research_models": 0
+      },
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:39:14Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "perplexity",
+      "item_id": "perplexity-pro",
+      "field": "price",
+      "new": 20,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:39:14Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "perplexity",
+      "item_id": "perplexity-max",
+      "field": "price",
+      "new": 200,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:39:14Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "perplexity",
+      "item_id": "perplexity-enterprise-pro",
+      "field": "price",
+      "new": 40,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:39:14Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "perplexity",
+      "item_id": "perplexity-edu-pro",
+      "field": "price",
+      "new": 10,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:39:14Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "poe",
+      "item_id": "poe-lite",
+      "field": "price",
+      "new": 10,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:39:14Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "poe",
+      "item_id": "poe-standard",
+      "field": "price",
+      "new": 19.99,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:39:14Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "poe",
+      "item_id": "poe-yearly",
+      "field": "price",
+      "new": 199.99,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:39:14Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "devin",
+      "item_id": "devin-free",
+      "field": "price",
+      "new": 0,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:39:14Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "devin",
+      "item_id": "devin-pro",
+      "field": "price",
+      "new": 20,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:39:14Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "devin",
+      "item_id": "devin-max",
+      "field": "price",
+      "new": 200,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:39:14Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "devin",
+      "item_id": "devin-teams",
+      "field": "price",
+      "new": 80,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:39:14Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "aws",
+      "item_id": "amazon-q-dev-free",
+      "field": "price",
+      "new": 0,
+      "source": "research-subagent"
+    },
+    {
+      "date": "2026-08-21T11:39:14Z",
+      "kind": "update",
+      "scope": "plan",
+      "provider_id": "aws",
+      "item_id": "amazon-q-dev-pro",
+      "field": "price",
+      "new": 19,
+      "source": "research-subagent"
+    },
+    {
       "date": "2026-08-21T11:38:22Z",
       "kind": "update",
       "scope": "provider",
