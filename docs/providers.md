@@ -22,17 +22,17 @@ Every provider in the database, its status, and its automation. The table below 
 
 | Provider | Name | Models | API base URL | Check script | Status |
 |---|---|---|---|---|---|
-| `alibaba` | Alibaba | 54 | `https://dashscope-intl.aliyuncs.com/c…` | `—` | 🟡 manual |
+| `alibaba` | Alibaba | 54 | `https://dashscope-intl.aliyuncs.com/c…` | `tier0_alibaba.py` | 🟢 automated |
 | `anthropic` | Anthropic | 16 | `https://api.anthropic.com/v1` | `tier0_anthropic.py` | 🟢 automated |
 | `deepseek` | DeepSeek | 5 | `https://api.deepseek.com` | `tier0_deepseek.py` | 🟢 automated |
-| `google` | Google | 40 | `https://generativelanguage.googleapis…` | `—` | 🟡 manual |
-| `meta` | Meta | 3 | `https://api.meta.ai/v1` | `—` | 🟡 manual |
-| `minimax` | MiniMax (minimax.io) | 7 | `https://api.minimax.chat/v1` | `—` | 🟡 manual |
-| `mistral` | Mistral | 33 | `https://api.mistral.ai/v1` | `—` | 🟡 manual |
-| `moonshotai` | Moonshot AI | 14 | `https://api.moonshot.cn/v1` | `—` | 🟡 manual |
+| `google` | Google | 40 | `https://generativelanguage.googleapis…` | `tier0_google.py` | 🟢 automated |
+| `meta` | Meta | 3 | `https://api.meta.ai/v1` | `tier0_meta.py` | 🟢 automated |
+| `minimax` | MiniMax (minimax.io) | 7 | `https://api.minimax.chat/v1` | `tier0_minimax.py` | 🟢 automated |
+| `mistral` | Mistral | 33 | `https://api.mistral.ai/v1` | `tier0_mistral.py` | 🟢 automated |
+| `moonshotai` | Moonshot AI | 14 | `https://api.moonshot.cn/v1` | `tier0_moonshotai.py` | 🟢 automated |
 | `openai` | OpenAI | 47 | `https://api.openai.com/v1` | `tier0_openai.py` | 🟢 automated |
-| `xai` | xAI | 17 | `https://api.x.ai/v1` | `—` | 🟡 manual |
-| `zai` | Z.AI | 16 | `https://api.z.ai/api/paas/v4` | `—` | 🟡 manual |
+| `xai` | xAI | 17 | `https://api.x.ai/v1` | `tier0_xai.py` | 🟢 automated |
+| `zai` | Z.AI | 16 | `https://api.z.ai/api/paas/v4` | `tier0_zai.py` | 🟢 automated |
 
 ### Tier 1 — Other major LLM R&D vendors
 

@@ -40,7 +40,7 @@
 | [The Grid AI](providers/the-grid-ai.md) | 推理托管 | 9 | `providers/the-grid-ai.json` | 2026-08-22T09:32:50Z |
 | [Vertex](providers/google-vertex.md) | 推理托管 | 43 | `providers/google-vertex.json` | 2026-08-22T09:32:50Z |
 | [Alibaba Token Plan](providers/alibaba-token-plan.md) | 推理托管 | 25 | `providers/alibaba-token-plan.json` | 2026-08-22T09:32:50Z |
-| [Google](providers/google.md) | 官方直供 | 40 | `providers/google.json` | 2026-08-22T09:32:50Z |
+| [Google](providers/google.md) | 官方直供 | 40 | `providers/google.json` | 2026-08-22T11:20:52Z |
 | [Model Oracle AI](providers/model-oracle-ai.md) | 推理托管 | 15 | `providers/model-oracle-ai.json` | 2026-08-22T09:32:50Z |
 | [Deep Infra](providers/deepinfra.md) | 推理托管 | 60 | `providers/deepinfra.json` | 2026-08-22T09:32:50Z |
 | [Meta](providers/meta.md) | 推理托管 | 3 | `providers/meta.json` | 2026-08-22T09:32:50Z |
@@ -57,14 +57,14 @@
 | [Blue Claw](providers/blueclaw.md) | 推理托管 | 2 | `providers/blueclaw.json` | 2026-08-22T09:32:50Z |
 | [Auriko](providers/auriko.md) | 推理托管 | 15 | `providers/auriko.json` | 2026-08-22T09:32:50Z |
 | [DaoXE](providers/daoxe.md) | 推理托管 | 9 | `providers/daoxe.json` | 2026-08-22T09:32:50Z |
-| [Moonshot AI](providers/moonshotai.md) | 推理托管 | 14 | `providers/moonshotai.json` | 2026-08-22T09:32:50Z |
+| [Moonshot AI](providers/moonshotai.md) | 推理托管 | 14 | `providers/moonshotai.json` | 2026-08-22T11:31:32Z |
 | [CrossModel](providers/crossmodel.md) | 推理托管 | 53 | `providers/crossmodel.json` | 2026-08-22T09:32:50Z |
 | [Kenari](providers/kenari.md) | 推理托管 | 38 | `providers/kenari.json` | 2026-08-22T09:32:50Z |
 | [Clarifai](providers/clarifai.md) | 推理托管 | 12 | `providers/clarifai.json` | 2026-08-22T09:32:50Z |
 | [Snowflake Cortex](providers/snowflake-cortex.md) | 推理托管 | 25 | `providers/snowflake-cortex.json` | 2026-08-22T09:32:50Z |
 | [Anthropic](providers/anthropic.md) | 官方直供 | 16 | `providers/anthropic.json` | 2026-08-22T09:32:50Z |
 | [Cohere](providers/cohere.md) | 官方直供 | 14 | `providers/cohere.json` | 2026-08-22T09:32:50Z |
-| [Z.AI](providers/zai.md) | 推理托管 | 16 | `providers/zai.json` | 2026-08-22T09:32:50Z |
+| [Z.AI](providers/zai.md) | 推理托管 | 16 | `providers/zai.json` | 2026-08-22T11:33:33Z |
 | [routing.run](providers/routing-run.md) | 推理托管 | 15 | `providers/routing-run.json` | 2026-08-22T09:32:50Z |
 | [STACKIT](providers/stackit.md) | 推理托管 | 8 | `providers/stackit.json` | 2026-08-22T09:32:50Z |
 | [Databricks](providers/databricks.md) | 推理托管 | 30 | `providers/databricks.json` | 2026-08-22T09:32:50Z |
@@ -106,7 +106,7 @@
 | [IO.NET](providers/io-net.md) | 推理托管 | 17 | `providers/io-net.json` | 2026-08-22T09:32:50Z |
 | [Berget.AI](providers/berget.md) | 推理托管 | 9 | `providers/berget.json` | 2026-08-22T09:32:50Z |
 | [Xiaomi](providers/xiaomi.md) | 推理托管 | 10 | `providers/xiaomi.json` | 2026-08-22T09:32:50Z |
-| [Alibaba](providers/alibaba.md) | 官方直供 | 54 | `providers/alibaba.json` | 2026-08-22T09:32:50Z |
+| [Alibaba](providers/alibaba.md) | 官方直供 | 54 | `providers/alibaba.json` | 2026-08-22T11:41:20Z |
 | [Sakana AI](providers/sakana.md) | 推理托管 | 4 | `providers/sakana.json` | 2026-08-22T09:32:50Z |
 | [ZenMux](providers/zenmux.md) | 推理托管 | 120 | `providers/zenmux.json` | 2026-08-22T09:32:50Z |
 | [Alibaba Coding Plan](providers/alibaba-coding-plan.md) | 推理托管 | 12 | `providers/alibaba-coding-plan.json` | 2026-08-22T09:32:50Z |
@@ -145,7 +145,7 @@
 | [Thinking Machines](providers/thinkingmachines.md) | 推理托管 | 2 | `providers/thinkingmachines.json` | 2026-08-22T09:32:50Z |
 | [Baseten](providers/baseten.md) | 推理托管 | 19 | `providers/baseten.json` | 2026-08-22T09:32:50Z |
 | [Poe](providers/poe.md) | 推理托管 | 137 | `providers/poe.json` | 2026-08-22T09:32:50Z |
-| [Mistral](providers/mistral.md) | 官方直供 | 33 | `providers/mistral.json` | 2026-08-22T09:32:50Z |
+| [Mistral](providers/mistral.md) | 官方直供 | 33 | `providers/mistral.json` | 2026-08-22T11:29:17Z |
 | [Modal](providers/modal.md) | 推理托管 | 2 | `providers/modal.json` | 2026-08-22T09:32:50Z |
 | [AIHubMix](providers/aihubmix.md) | 推理托管 | 70 | `providers/aihubmix.json` | 2026-08-22T09:32:50Z |
 | [ClinePass](providers/cline-pass.md) | 推理托管 | 11 | `providers/cline-pass.json` | 2026-08-22T09:32:50Z |
@@ -183,7 +183,7 @@
 | [Fireworks AI](providers/fireworks-ai.md) | 推理托管 | 23 | `providers/fireworks-ai.json` | 2026-08-22T09:32:50Z |
 | [Weights & Biases](providers/wandb.md) | 推理托管 | 29 | `providers/wandb.json` | 2026-08-22T09:32:50Z |
 | [Abacus](providers/abacus.md) | 推理托管 | 108 | `providers/abacus.json` | 2026-08-22T09:32:50Z |
-| [MiniMax (minimax.io)](providers/minimax.md) | 官方直供 | 7 | `providers/minimax.json` | 2026-08-22T09:32:50Z |
+| [MiniMax (minimax.io)](providers/minimax.md) | 官方直供 | 7 | `providers/minimax.json` | 2026-08-22T11:35:13Z |
 | [Vultr](providers/vultr.md) | 推理托管 | 10 | `providers/vultr.json` | 2026-08-22T09:32:50Z |
 | [GitHub](providers/github.md) | subscription | 33 | `providers/github.json` | 2026-08-21T15:59:09Z |
 | [Cursor (Anysphere)](providers/cursor.md) | subscription | 0 | `providers/cursor.json` | 2026-08-21T11:36:36Z |

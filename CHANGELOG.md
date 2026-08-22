@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.2.6 — 2026-08-22T11:46Z (feature update)
+
+- feature: T0 automation for alibaba/google/meta/minimax/mistral/moonshotai/xai/zai (official-page checks); 14 models price-corrected (alibaba 7, ministral 2, minimax cache-write 8, moonshot batch 3, zai cache 2, google batch 9)
+
 ## 26.2.5 — 2026-08-22T11:10Z (feature update)
 
 - feature: ByteDance visible in provider name/status table, fix 38 broken cross-doc links, add broken-link check to audit

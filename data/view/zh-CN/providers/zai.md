@@ -6,8 +6,8 @@
 - 官网: https://docs.z.ai/guides/overview/pricing
 - 定价页: https://docs.z.ai/guides/overview/pricing
 - 币种: USD
-- 数据更新时间: 2026-08-22T09:32:50Z
-- 核实时间: 2026-08-22T09:32:50Z
+- 数据更新时间: 2026-08-22T11:33:33Z
+- 核实时间: 2026-08-22T11:33:33Z
 
 共 **16** 个模型。
 
@@ -16,9 +16,9 @@
 | `glm-4.5` | — | reasoning | 131.072K | $0.6 | $2.2 | $0.11 | — | —/— | — | models.dev official list price |
 | `glm-4.5-air` | — | reasoning | 131.072K | $0.2 | $1.1 | $0.03 | — | —/— | — | models.dev official list price |
 | `glm-4.5-flash` | — | reasoning | 131.072K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `glm-4.5v` | — | reasoning | 64K | $0.6 | $1.8 | — | — | —/— | — | models.dev official list price |
+| `glm-4.5v` | — | reasoning | 64K | $0.6 | $1.8 | $0.11 | — | —/— | — | Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; Free = 0). Par… |
 | `glm-4.6` | — | reasoning | 204.8K | $0.6 | $2.2 | $0.11 | — | —/— | — | models.dev official list price |
-| `glm-4.6v` | — | reasoning | 128K | $0.3 | $0.9 | — | — | —/— | — | models.dev official list price |
+| `glm-4.6v` | — | reasoning | 128K | $0.3 | $0.9 | $0.05 | — | —/— | — | Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; Free = 0). Par… |
 | `glm-4.7` | — | reasoning | 204.8K | $0.6 | $2.2 | $0.11 | — | —/— | — | models.dev official list price |
 | `glm-4.7-flash` | — | reasoning | 200K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `glm-4.7-flashx` | — | reasoning | 200K | $0.07 | $0.4 | $0.01 | — | —/— | — | models.dev official list price |

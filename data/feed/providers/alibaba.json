@@ -7,8 +7,8 @@
   "homepage": "https://www.alibabacloud.com/help/en/model-studio/models",
   "pricing_page": "https://www.alibabacloud.com/help/en/model-studio/models",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
-  "verified_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-22T11:41:20Z",
+  "verified_at": "2026-08-22T11:41:20Z",
   "models": [
     {
       "id": "deepseek-v4-flash-0731",
@@ -320,8 +320,8 @@
       "max_output": 4096,
       "pricing": {
         "per_mtok": {
-          "input": 0.72,
-          "output": 0.72,
+          "input": 0.07,
+          "output": 0.16,
           "cache_read": null,
           "cache_write": null
         },
@@ -330,7 +330,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba."
     },
     {
       "id": "qwen-vl-plus",
@@ -573,8 +573,8 @@
       "max_output": 16384,
       "pricing": {
         "per_mtok": {
-          "input": 0.7,
-          "output": 2.8,
+          "input": 0.16,
+          "output": 0.64,
           "cache_read": null,
           "cache_write": null
         },
@@ -583,7 +583,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba."
     },
     {
       "id": "qwen3-8b",
@@ -780,8 +780,8 @@
       "max_output": 32768,
       "pricing": {
         "per_mtok": {
-          "input": 0.5,
-          "output": 2,
+          "input": 0.15,
+          "output": 1.2,
           "cache_read": null,
           "cache_write": null
         },
@@ -790,7 +790,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba."
     },
     {
       "id": "qwen3-next-80b-a3b-thinking",
@@ -803,8 +803,8 @@
       "max_output": 32768,
       "pricing": {
         "per_mtok": {
-          "input": 0.5,
-          "output": 6,
+          "input": 0.15,
+          "output": 1.2,
           "cache_read": null,
           "cache_write": null
         },
@@ -813,7 +813,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba."
     },
     {
       "id": "qwen3-omni-flash",
@@ -1079,8 +1079,8 @@
       "max_output": 65536,
       "pricing": {
         "per_mtok": {
-          "input": 0.248,
-          "output": 1.485,
+          "input": 0.375,
+          "output": 2.25,
           "cache_read": null,
           "cache_write": null
         },
@@ -1089,7 +1089,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba."
     },
     {
       "id": "qwen3.6-flash",
@@ -1102,8 +1102,8 @@
       "max_output": 65536,
       "pricing": {
         "per_mtok": {
-          "input": 0.1875,
-          "output": 1.125,
+          "input": 0.25,
+          "output": 1.5,
           "cache_read": null,
           "cache_write": null
         },
@@ -1112,7 +1112,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba."
     },
     {
       "id": "qwen3.6-max-preview",
@@ -1194,8 +1194,8 @@
       "max_output": 65536,
       "pricing": {
         "per_mtok": {
-          "input": 0.5,
-          "output": 3,
+          "input": 0.4,
+          "output": 1.6,
           "cache_read": 0.05,
           "cache_write": null
         },
@@ -1204,7 +1204,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba."
     },
     {
       "id": "qwen3.8-max",
