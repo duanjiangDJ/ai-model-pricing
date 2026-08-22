@@ -49,7 +49,7 @@ jobs:
             git checkout -b "$BRANCH"
             git add -A
             git commit -m "chore: daily price sync [skip ci]"
-            git push -u origin "$BRANCH"
+            git push -u origin "$BRANCH" 2>/dev/null || git push -u origin "$BRANCH" --force
             EXISTING=$(gh pr list --head "$BRANCH" --state open --json number -q '.[0].number' 2>/dev/null || true)
             if [ -n "$EXISTING" ]; then
               gh pr edit "$EXISTING" --title "chore: daily price sync" >/dev/null
