@@ -76,10 +76,9 @@
 
 ## Related docs
 
-- [README](README.md) — overview & exact stats
-- [AGENTS.md](AGENTS.md) — guide for AI agents
-- [FORMAT.md](FORMAT.md) — machine format spec
-- [docs/providers.md](docs/providers.md) — provider landscape & status
-- [docs/price-types.md](docs/price-types.md) — price types
-- [docs/verification.md](docs/verification.md) — verification model
-- [CONTRIBUTING.md](CONTRIBUTING.md) — how to contribute
+- [README](../README.md) — overview & exact stats
+- [AGENTS.md](../AGENTS.md) — guide for AI agents
+- [FORMAT.md](../FORMAT.md) — machine format spec
+- [providers.md](providers.md) — provider landscape & status
+- [verification.md](verification.md) — verification model
+- [CONTRIBUTING.md](../CONTRIBUTING.md) — how to contribute

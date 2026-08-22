@@ -123,8 +123,8 @@ def table_block(lang):
     for t in sorted(groups):
         lines.append(f"### {names[t]}")
         lines.append("")
-        lines.append("| Provider | Models | API base URL | Check script | Status |")
-        lines.append("|---|---|---|---|---|")
+        lines.append("| Provider | Name | Models | API base URL | Check script | Status |")
+        lines.append("|---|---|---|---|---|---|")
         for p in sorted(groups[t], key=lambda x: x["provider_id"]):
             api = p.get("api_base_url") or "—"
             if api and len(api) > 40:
@@ -134,11 +134,11 @@ def table_block(lang):
                 st = "🟢 automated"
             else:
                 st = "🟡 manual"
-            lines.append(f"| `{p['provider_id']}` | {len(p.get('models', []))} | `{api}` | `{ck or '—'}` | {st} |")
+            lines.append(f"| `{p['provider_id']}` | {p.get('name') or '—'} | {len(p.get('models', []))} | `{api}` | `{ck or '—'}` | {st} |")
         # pending vendors that belong to this tier (not in DB yet)
         pend = [(pid, info) for pid, info in sorted(PENDING.items()) if info[2] == t]
         for pid, (name, api, _t) in pend:
-            lines.append(f"| `{pid}` ({name}) | — | `{api}` | `—` | ⚪ pending |")
+            lines.append(f"| `{pid}` | {name} | — | `{api}` | `—` | ⚪ pending |")
         lines.append("")
 
     # legend

@@ -7,6 +7,7 @@ Checks:
   - subscription-included providers (coding-plan/token-plan/...) have no 0 prices
   - docs bilingual completeness: every prose doc has en + zh-CN pair
   - version scheme format: year.content.feature (e.g. 26.2.3)
+  - broken relative links in markdown docs (generated data/view included)
 
 Usage: python scripts/audit.py  (exit 1 on failures, 0 with warnings ok)
 """
@@ -140,6 +141,27 @@ for url, pids in by_url.items():
             if common:
                 fail(f"duplicate models between same api_base_url ({url}): {a} ∩ {b} = {len(common)} (e.g. {sorted(common)[:3]}); merge them")
 print(f"OK api_base_url: {len(by_url)} distinct endpoints, dup-groups checked")
+
+# 6. broken relative links in markdown docs
+LINK_RE = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
+md_files = [os.path.relpath(f, ROOT).replace("\\", "/")
+            for f in glob.glob("*.md") + glob.glob("docs/*.md") +
+            glob.glob("data/view/**/*.md", recursive=True)]
+broken_links = 0
+for f in sorted(md_files):
+    txt = open(f, encoding="utf-8", errors="ignore").read()
+    for m in LINK_RE.finditer(txt):
+        target = m.group(1).strip()
+        if target.startswith(("http://", "https://", "mailto:", "#")):
+            continue
+        target = target.split("#")[0].strip()
+        if not target:
+            continue
+        p = os.path.normpath(os.path.join(os.path.dirname(f), target))
+        if not os.path.exists(p):
+            broken_links += 1
+            fail(f"broken relative link in {f}: [{m.group(1)}] (resolves to {p})")
+print(f"OK links: {len(md_files)} markdown files checked, {broken_links} broken")
 
 if failures:
     print(f"\nAUDIT FAILED: {len(failures)} failures, {len(warnings)} warnings")

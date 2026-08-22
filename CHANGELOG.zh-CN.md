@@ -16,6 +16,10 @@
 
 ---
 
+## 26.2.5 — 2026-08-22T11:10Z（功能更新）
+
+- 功能：字节跳动（volcengine）在厂商状态表中显示中文名，便于识别；修复 38 处文档间失效链接；audit 新增失效链接检查
+
 ## 26.2.4 — 2026-08-22T10:57Z（功能更新）
 
 - feature: data dirs renamed (data/feed + data/view/en|zh-CN), branch cleanup + branch policy, changelog boundaries + zh translations, core-file update rules documented, pending vendors merged into tiers, opencode-go same tier

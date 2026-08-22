@@ -1,4 +1,4 @@
-# 火山引擎方舟 (Volcengine Ark / 豆包)
+# 字节跳动·火山引擎方舟 (ByteDance Volcengine Ark / 豆包)
 
 - provider_id: `volcengine`
 - Channel: First-party
