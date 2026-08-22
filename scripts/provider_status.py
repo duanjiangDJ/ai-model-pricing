@@ -1,7 +1,15 @@
 """Generate the provider status table (tier, models, api_base_url, check script, status)
 into docs/providers.md / docs/providers.zh-CN.md (between PROVIDERS:BEGIN/END markers).
 
-Usage: python scripts/provider_status.py
+Tiers (by R&D leadership, not geography):
+  T0 = the world's leading model R&D vendors (headline labs)
+  T1 = other major LLM R&D vendors
+  T2 = all remaining model R&D vendors (any model type)
+  T3 = core inference hosts / resellers / aggregator gateways
+  T4 = all other service providers (subscription products, long-tail services)
+Within each tier providers are sorted alphabetically, deduplicated.
+
+Status: 🟢 automated (has a check script) / 🟡 manual (in DB, no check) / ⚪ pending (not in DB yet).
 """
 import glob
 import json
@@ -12,71 +20,82 @@ import sys
 sys.stdout.reconfigure(encoding="utf-8")
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-# tier assignment: from checks/ modules (TIER attr), default 6 (long tail)
-tier_of = {}
-for f in glob.glob("scripts/checks/tier*_*.py"):
-    name = os.path.basename(f)[:-3]
-    try:
-        txt = open(f, encoding="utf-8").read()
-        m = re.search(r"TIER\s*=\s*(\d+)", txt)
-        pid_m = re.search(r'PROVIDER_ID\s*=\s*"([^"]+)"', txt)
-        if m and pid_m:
-            tier_of[pid_m.group(1)] = int(m.group(1))
-    except Exception:  # noqa: BLE001
-        pass
+# --- Tier 0: the world's leading model R&D vendors (headline labs) ---
+TIER0 = ["alibaba", "anthropic", "deepseek", "google", "meta", "minimax",
+         "mistral", "moonshotai", "openai", "xai", "zai"]
 
-providers = []
-for f in sorted(glob.glob("data/machine/providers/*.json")):
-    p = json.load(open(f, encoding="utf-8"))
-    providers.append(p)
+# --- Tier 1: other major LLM R&D vendors ---
+TIER1 = ["baidu", "cohere", "nvidia", "perplexity", "stepfun", "tencent",
+         "upstage", "volcengine", "xiaomi", "zhipuai", "aws"]
+
+# --- Tier 2: all remaining model R&D vendors (any model type) ---
+TIER2 = ["arcee", "inception", "lilac", "morph", "nova", "poolside",
+         "sakana", "sarvam", "submodel", "thinkingmachines"]
+
+# --- Tier 3: core inference hosts / resellers / aggregator gateways ---
+TIER3 = [
+    # inference hosts
+    "baseten", "cerebras", "cloudflare-workers-ai", "crusoe", "databricks",
+    "deepinfra", "digitalocean", "fireworks-ai", "friendli", "groq",
+    "hetzner", "huggingface", "modal", "nebius", "novita-ai", "ollama-cloud",
+    "ovhcloud", "runinfra", "salad-cloud", "sap-ai-core", "scaleway",
+    "siliconflow", "snowflake-cortex", "stackit", "togetherai", "vultr",
+    "watsonx",
+    # aggregators / gateways
+    "302ai", "ai-router", "aihubmix", "anyapi", "cloudflare-ai-gateway",
+    "edenai", "fastrouter", "helicone", "jiekou", "kilo", "llmgateway",
+    "merge-gateway", "nano-gpt", "opencode", "openrouter", "orcarouter",
+    "poe", "requesty", "trustedrouter", "unorouter", "vercel", "zenmux",
+]
+
+# --- Tier 4: subscription products (explicit) ---
+TIER4_SUB = ["cursor", "devin", "github", "jetbrains", "opencode-go",
+             "replit", "tabnine", "v0", "windsurf"]
+
+# --- Pending: well-known vendors not yet in the DB (待添加) ---
+PENDING = [
+    ("ai21", "AI21 Labs", "https://api.ai21.com/studio/v1"),
+    ("lingyiwanwu", "01.AI (Lingyiwanwu)", "https://api.lingyiwanwu.com/v1"),
+    ("iflytek", "iFlytek Spark", "https://spark-api-open.xf-yun.com/v1"),
+    ("baichuan", "Baichuan AI", "https://api.baichuan-ai.com/v1"),
+    ("stability", "Stability AI", "https://api.stability.ai/v1"),
+    ("elevenlabs", "ElevenLabs", "https://api.elevenlabs.io/v1"),
+    ("deepgram", "Deepgram", "https://api.deepgram.com/v1"),
+    ("assemblyai", "AssemblyAI", "https://api.assemblyai.com/v2"),
+    ("cartesia", "Cartesia", "https://api.cartesia.ai/v1"),
+    ("playai", "PlayAI", "https://api.play.ai/v1"),
+    ("runpod", "RunPod", "https://api.runpod.ai/v2"),
+    ("vast", "Vast.ai", "https://console.vast.ai/api/v0"),
+]
 
 TIER_NAMES = {
-    0: "Tier 0 — Core model R&D vendors (global)",
-    1: "Tier 1 — Core model R&D vendors (China)",
-    2: "Tier 2 — Cloud platforms",
-    3: "Tier 3 — Inference hosting",
-    4: "Tier 4 — Aggregators & gateways",
-    5: "Tier 5 — Subscription & coding products",
-    6: "Tier 6 — Long tail",
+    0: "Tier 0 — World's leading model R&D vendors",
+    1: "Tier 1 — Other major LLM R&D vendors",
+    2: "Tier 2 — Other model R&D vendors",
+    3: "Tier 3 — Core inference hosts / resellers / aggregator gateways",
+    4: "Tier 4 — Other service providers (subscriptions, long-tail)",
 }
 TIER_NAMES_ZH = {
-    0: "Tier 0 — 全球核心模型研发厂商",
-    1: "Tier 1 — 中国核心模型研发厂商",
-    2: "Tier 2 — 云平台托管",
-    3: "Tier 3 — 推理托管平台",
-    4: "Tier 4 — 聚合/网关",
-    5: "Tier 5 — 订阅与编码产品",
-    6: "Tier 6 — 长尾",
+    0: "Tier 0 — 全球最头部模型研发厂商",
+    1: "Tier 1 — 其他大语言模型研发大厂",
+    2: "Tier 2 — 其他模型研发厂商",
+    3: "Tier 3 — 核心模型中转/托管/聚合网关",
+    4: "Tier 4 — 其他服务提供商（订阅、长尾）",
 }
 
-# manual tier overrides for known core providers without checks yet
-MANUAL_TIER = {
-    "openai": 0, "anthropic": 0, "google": 0, "xai": 0, "deepseek": 0, "meta": 0,
-    "mistral": 0, "cohere": 0, "aws": 0, "nvidia": 0, "perplexity": 0,
-    "alibaba": 1, "alibaba-cn": 1, "zhipuai": 1, "zai": 1, "moonshotai": 1,
-    "volcengine": 1, "minimax": 1, "baidu": 1, "tencent": 1, "tencent-tokenhub": 1,
-    "stepfun": 1, "xiaomi": 1,
-    "azure": 2, "google-vertex": 2,
-    "togetherai": 3, "groq": 3, "cerebras": 3, "deepinfra": 3, "siliconflow": 3,
-    "fireworks-ai": 3, "novita-ai": 3, "nebius": 3, "baseten": 3, "modal": 3,
-    "huggingface": 3, "cloudflare-workers-ai": 3, "scaleway": 3, "ovhcloud": 3,
-    "vultr": 3, "digitalocean": 3, "databricks": 3, "snowflake-cortex": 3,
-    "watsonx": 3, "sap-ai-core": 3,
-    "openrouter": 4, "opencode": 4, "opencode-go": 4, "poe": 4, "vercel": 4,
-    "llmgateway": 4, "kilo": 4, "orcarouter": 4, "cloudflare-ai-gateway": 4,
-    "merge-gateway": 4, "fastrouter": 4, "unorouter": 4, "302ai": 4, "aihubmix": 4,
-    "requesty": 4, "anyapi": 4, "nano-gpt": 4, "edenai": 4, "zenmux": 4,
-    "github": 5, "cursor": 5, "windsurf": 5, "jetbrains": 5, "devin": 5,
-    "replit": 5, "tabnine": 5, "v0": 5,
-}
+MANUAL_TIER = {}
+for _t, _lst in ((0, TIER0), (1, TIER1), (2, TIER2), (3, TIER3)):
+    for pid in _lst:
+        MANUAL_TIER[pid] = _t
+for pid in TIER4_SUB:
+    MANUAL_TIER[pid] = 4
 
 
 def tier_of_provider(pid):
-    return tier_of.get(pid) or MANUAL_TIER.get(pid, 6)
+    return MANUAL_TIER.get(pid, 4)  # anything unclassified lands in T4 (other services)
 
 
 def check_for(pid):
-    """Return the check module filename if one exists."""
     for f in sorted(glob.glob("scripts/checks/*.py")):
         txt = open(f, encoding="utf-8", errors="ignore").read()
         if f'PROVIDER_ID = "{pid}"' in txt:
@@ -84,32 +103,49 @@ def check_for(pid):
     return ""
 
 
-def status_of(p):
-    # a provider is 'verified' if it has a check script OR verified_at is recent
-    if check_for(p["provider_id"]):
-        return "🟢 automated"
-    return "🟡 manual"
-
-
 def table_block(lang):
+    names = TIER_NAMES if lang == "en" else TIER_NAMES_ZH
     lines = []
+
+    # group DB providers by tier
     groups = {}
+    providers = []
+    for f in sorted(glob.glob("data/machine/providers/*.json")):
+        p = json.load(open(f, encoding="utf-8"))
+        providers.append(p)
     for p in providers:
         t = tier_of_provider(p["provider_id"])
         groups.setdefault(t, []).append(p)
-    names = TIER_NAMES if lang == "en" else TIER_NAMES_ZH
+
     for t in sorted(groups):
         lines.append(f"### {names[t]}")
         lines.append("")
-        lines.append("| # | Provider | Models | API base URL | Check script | Status |")
-        lines.append("|---|---|---|---|---|---|")
-        for i, p in enumerate(sorted(groups[t], key=lambda x: -len(x.get("models", []))), 1):
+        lines.append("| Provider | Models | API base URL | Check script | Status |")
+        lines.append("|---|---|---|---|---|")
+        for p in sorted(groups[t], key=lambda x: x["provider_id"]):
             api = p.get("api_base_url") or "—"
-            if api and len(api) > 42:
-                api = api[:39] + "…"
-            ck = check_for(p["provider_id"]) or "—"
-            lines.append(f"| {i} | {p['provider_id']} | {len(p.get('models', []))} | `{api}` | `{ck}` | {status_of(p)} |")
+            if api and len(api) > 40:
+                api = api[:37] + "…"
+            ck = check_for(p["provider_id"])
+            if ck:
+                st = "🟢 automated"
+            else:
+                st = "🟡 manual"
+            lines.append(f"| `{p['provider_id']}` | {len(p.get('models', []))} | `{api}` | `{ck or '—'}` | {st} |")
         lines.append("")
+
+    # pending vendors (not in DB)
+    pending_title = "Pending vendors (not in DB yet)" if lang == "en" else "待添加厂商（尚未收录）"
+    lines.append(f"### {pending_title}")
+    lines.append("")
+    lines.append("| Provider | API base URL | Status |")
+    lines.append("|---|---|---|")
+    for pid, name, api in sorted(PENDING):
+        lines.append(f"| `{pid}` ({name}) | `{api}` | ⚪ pending |")
+    lines.append("")
+
+    # legend
+    lines.append("Legend: 🟢 automated (check script) · 🟡 manual (in DB, no check) · ⚪ pending (not added yet)")
     return "\n".join(lines)
 
 

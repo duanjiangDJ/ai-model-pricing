@@ -14,6 +14,10 @@
 
 ---
 
+## 26.0.4 — 2026-08-22T16:00Z（功能更新）
+
+- feature: UTC version timestamps, refined branch protection (bot-PAT auto-merge only) + pr-check security review, provider tiers reorganized (T0-T4 by R&D leadership, alphabetical, dedup) with automated/manual/pending status
+
 ## 26.0.3 — 2026-08-22T15:30（功能更新）
 
 - feature: status simplified to online/offline, 3-hourly auto-check with direct merge to main, version increment logic fixed (content/feature independent) with minute-precision timestamps, AGENTS zh-CN removed, docs dedup (ego removed, providers+roadmap merged into generated status doc), cross-linked documentation

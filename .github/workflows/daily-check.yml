@@ -10,6 +10,9 @@ permissions:
   contents: write
   issues: write
 
+env:
+  GH_PAT: ${{ secrets.GH_PAT }}
+
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -41,15 +44,33 @@ jobs:
           else
             git config user.name "price-sync-bot"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            # auto-bump version (content update) + changelog (minute precision)
+            # auto-bump version (content update) + changelog (UTC minute precision)
             python scripts/bump_version.py --content --message "chore: price sync" --date "$(date -u +%Y-%m-%dT%H:%M)"
             python scripts/build_human.py
             python scripts/validate.py
             git add -A
             git commit -m "chore: price sync [skip ci]"
-            git pull --rebase origin main
-            git push origin main
-            echo "Changes auto-merged into main."
+            if [ -n "$GH_PAT" ]; then
+              # bot uses a PAT (repo admin) to bypass branch protection for price syncs only
+              git remote set-url origin "https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git"
+              git pull --rebase origin main
+              git push origin main
+              echo "Changes auto-merged into main via bot PAT."
+            else
+              # no PAT: fall back to opening a PR
+              BRANCH="bot/price-sync-$(date -u +%Y%m%dT%H%M)"
+              git checkout -b "$BRANCH"
+              git push -u origin "$BRANCH" 2>/dev/null || git push -u origin "$BRANCH" --force
+              EXISTING=$(gh pr list --head "$BRANCH" --state open --json number -q '.[0].number' 2>/dev/null || true)
+              if [ -n "$EXISTING" ]; then
+                echo "Updated existing PR #$EXISTING"
+              else
+                gh api -X POST "repos/${{ github.repository }}/pulls" \
+                  -f "title=chore: price sync" -f "head=$BRANCH" -f "base=main" \
+                  -f "body=Automated price sync PR. Add a GH_PAT repo secret (admin) to enable direct auto-merge." \
+                  --jq '.html_url' 2>/dev/null || echo "PR create failed"
+              fi
+            fi
           fi
 
       - name: Sync stale-plans issue

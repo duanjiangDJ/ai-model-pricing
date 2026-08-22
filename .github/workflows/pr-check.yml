@@ -50,6 +50,55 @@ jobs:
             exit 1
           fi
 
+      - name: Security sanity check (no repo-breaking changes)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          PR_NUM=${{ github.event.pull_request.number }}
+          FILES=$(gh api "repos/${{ github.repository }}/pulls/$PR_NUM/files" --jq '.[].filename')
+          echo "changed files:"; echo "$FILES"
+          # 1. core files must not be deleted
+          for core in scripts/validate.py scripts/audit.py scripts/router.py scripts/toolbox.py scripts/build_human.py scripts/daily_check.py data/machine/schema.json data/machine/index.json; do
+            if echo "$FILES" | grep -qx "$core"; then
+              ST=$(gh api "repos/${{ github.repository }}/pulls/$PR_NUM/files" --jq ".[] | select(.filename==\"$core\") | .status")
+              if [ "$ST" = "removed" ]; then
+                echo "::error::PR removes core file $core. Not allowed."
+                exit 1
+              fi
+            fi
+          done
+          # 2. dangerous patterns in python files (scan head version)
+          BAD=""
+          for f in $(echo "$FILES" | grep -E '\.py$'); do
+            CONTENT=$(gh api "repos/${{ github.repository }}/contents/$f?ref=$HEAD_SHA" --jq '.content' 2>/dev/null | base64 -d 2>/dev/null)
+            HIT=$(echo "$CONTENT" | grep -nE 'eval\s*\(|exec\s*\(|os\.system|shell\s*=\s*True|pickle\.loads|base64\.b64decode|ctypes\.|__import__\(' || true)
+            if [ -n "$HIT" ]; then
+              BAD="$BAD\n$f: $HIT"
+            fi
+          done
+          if [ -n "$BAD" ]; then
+            echo "::error::Suspicious code patterns:$BAD"
+            exit 1
+          fi
+          # 3. python syntax check for added/renamed .py files
+          for f in $(echo "$FILES" | grep -E '\.py$'); do
+            gh api "repos/${{ github.repository }}/contents/$f?ref=$HEAD_SHA" --jq '.content' 2>/dev/null | base64 -d > /tmp/check.py 2>/dev/null
+            if [ -s /tmp/check.py ]; then
+              python -m py_compile /tmp/check.py || { echo "::error::Python syntax error in $f"; exit 1; }
+            fi
+          done
+          # 4. workflows must not be deleted
+          for wf in $(echo "$FILES" | grep -E '^\.github/workflows/.*\.yml$'); do
+            ST=$(gh api "repos/${{ github.repository }}/pulls/$PR_NUM/files" --jq ".[] | select(.filename==\"$wf\") | .status")
+            if [ "$ST" = "removed" ]; then
+              echo "::error::PR removes workflow $wf. Not allowed."
+              exit 1
+            fi
+          done
+          echo "Security sanity check passed."
+
       - name: Require CHANGELOG + VERSION update for data/script changes
         env:
           GH_TOKEN: ${{ github.token }}

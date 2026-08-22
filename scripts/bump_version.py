@@ -31,7 +31,7 @@ def bump():
     ap.add_argument("--content", action="store_true", help="content update (pricing data) -> content segment +1")
     ap.add_argument("--feature", action="store_true", help="feature update -> feature segment +1")
     ap.add_argument("--message", required=True, help="short change description for CHANGELOG")
-    ap.add_argument("--date", default=None, help="YYYY-MM-DD or YYYY-MM-DDTHH:MM (UTC, minute precision; default: now)")
+    ap.add_argument("--date", default=None, help="UTC timestamp YYYY-MM-DDTHH:MM[Z] (default: now, UTC, minute precision)")
     args = ap.parse_args()
 
     old = open(VERSION_FILE, encoding="utf-8").read().strip()
@@ -43,8 +43,14 @@ def bump():
     else:
         sys.exit("specify --content or --feature")
     new = f"{y}.{c}.{f}"
-    stamp = args.date or datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M")
-    date = stamp if "T" in stamp else stamp + "T00:00"
+    if args.date:
+        stamp = args.date.strip()
+    else:
+        stamp = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M")
+    # normalize to UTC with Z suffix (all timestamps are UTC)
+    date = (stamp if "T" in stamp else stamp + "T00:00")
+    if not date.endswith("Z"):
+        date += "Z"
 
     # VERSION
     open(VERSION_FILE, "w", encoding="utf-8").write(new + "\n")
