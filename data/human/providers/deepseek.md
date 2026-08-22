@@ -13,8 +13,8 @@
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
-| `deepseek-chat` | 🔁 superseded | chat | — | — | — | — | — | —/— | — | Legacy model (V3.2 era), superseded by deepseek-v4-flash; old prices $0.28/$0… |
-| `deepseek-reasoner` | 🔁 superseded | reasoning | — | — | — | — | — | —/— | — | Legacy model (R1 era), superseded by deepseek-v4-flash/pro thinking mode; old… |
+| `deepseek-chat` | ❌ offline | chat | — | — | — | — | — | —/— | — | Legacy model (V3.2 era), superseded by deepseek-v4-flash; old prices $0.28/$0… |
+| `deepseek-reasoner` | ❌ offline | reasoning | — | — | — | — | — | —/— | — | Legacy model (R1 era), superseded by deepseek-v4-flash/pro thinking mode; old… |
 | `deepseek-v4-flash` | — | chat | 1M | $3 | $9 | $0.1 | — | —/— | ⚡ peak/off-peak | Official price (CNY/1M tokens, official docs 2026-08-21): input (cache miss) … |
-| `deepseek-v4-flash-vision-exp` | 🧪 preview | vision | 1M | $3 | $9 | $0.1 | — | —/— | ⚡ peak/off-peak | Official price (CNY/1M tokens) same as flash: input (cache miss) peak ¥3.0/of… |
+| `deepseek-v4-flash-vision-exp` | ✅ online | vision | 1M | $3 | $9 | $0.1 | — | —/— | ⚡ peak/off-peak | Official price (CNY/1M tokens) same as flash: input (cache miss) peak ¥3.0/of… |
 | `deepseek-v4-pro` | — | chat | 1M | $9 | $27 | $0.3 | — | —/— | ⚡ peak/off-peak | Official price (CNY/1M tokens): input (cache miss) peak ¥9.0 / off-peak ¥4.5;… |

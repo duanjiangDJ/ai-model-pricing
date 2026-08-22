@@ -70,3 +70,16 @@
 3. **数据缺失**用 `null`，**不适用**用 `null` + `notes` 说明，**不要用 0 表示缺失**。
 4. 价格变动：每日检查脚本对比上次 `verified_at`；变化超过 1% 或任一价格字段变化，写 `changelog.json` 并生成报告。
 5. 订阅计划价格以官方定价页为准；每日检查对超过 30 天未核实的计划生成"待人工核实"清单。
+
+
+---
+
+## 相关文档
+
+- [README.zh-CN.md](README.zh-CN.md) — 总览与精确统计
+- [FORMAT.zh-CN.md](FORMAT.zh-CN.md) — 机器格式规范
+- [docs/providers.zh-CN.md](docs/providers.zh-CN.md) — 供应商全景与状态
+- [docs/price-types.zh-CN.md](docs/price-types.zh-CN.md) — 收费形式口径
+- [docs/verification.zh-CN.md](docs/verification.zh-CN.md) — 核实与真实性机制
+- [CONTRIBUTING.zh-CN.md](CONTRIBUTING.zh-CN.md) — 如何贡献
+- [AGENTS.md](AGENTS.md) — AI Agent 指南（英文）

@@ -127,18 +127,12 @@ L10N = {
 
 
 STATUS_LABEL = {
-    "active": "",
-    "preview": "🧪 preview",
-    "deprecated": "⚠️ deprecated",
-    "retired": "❌ retired",
-    "superseded": "🔁 superseded",
+    "online": "✅ online",
+    "offline": "❌ offline",
 }
 STATUS_LABEL_ZH = {
-    "active": "",
-    "preview": "🧪 预览",
-    "deprecated": "⚠️ 弃用",
-    "retired": "❌ 已退役",
-    "superseded": "🔁 已被取代",
+    "online": "✅ 在线",
+    "offline": "❌ 下线",
 }
 
 

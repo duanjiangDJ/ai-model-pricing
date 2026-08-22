@@ -66,11 +66,8 @@ verification.
 
 | Status | Models |
 |---|---|
-| retired | 39 |
-| active | 3 |
-| deprecated | 2 |
-| superseded | 2 |
-| preview | 2 |
+| offline | 43 |
+| online | 5 |
 | (unmarked) | 7029 |
 
 ### Top providers by model count
@@ -100,6 +97,19 @@ verification.
 | USD | 185 |
 
 <!-- STATS:END -->
+
+## Documentation
+
+| Doc | Content |
+|---|---|
+| [README.zh-CN.md](README.zh-CN.md) | 中文版说明 |
+| [AGENTS.md](AGENTS.md) | Guide for AI agents working in this repo |
+| [FORMAT.md](FORMAT.md) | Machine-readable format spec |
+| [CHANGELOG.md](CHANGELOG.md) | Version history (year.content.feature) |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Contribution guide |
+| [docs/providers.md](docs/providers.md) | Provider landscape & status (generated table) |
+| [docs/price-types.md](docs/price-types.md) | Price types & units |
+| [docs/verification.md](docs/verification.md) | Daily check & truthfulness model |
 
 ## Quick Start (machine reading)
 

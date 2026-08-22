@@ -14,6 +14,10 @@
 
 ---
 
+## 26.0.3 — 2026-08-22T15:30（功能更新）
+
+- feature: status simplified to online/offline, 3-hourly auto-check with direct merge to main, version increment logic fixed (content/feature independent) with minute-precision timestamps, AGENTS zh-CN removed, docs dedup (ego removed, providers+roadmap merged into generated status doc), cross-linked documentation
+
 ## 26.0.2 — 2026-08-22（功能更新）
 
 - feature: core check router (scripts/router.py) + toolbox (scripts/toolbox.py) + per-provider checks (scripts/checks/), CONTRIBUTING guide expanded, daily-check PR fix
@@ -48,3 +52,16 @@
 
 ### 历史背景（26.0.0 之前的工作，归档于此）
 - 仓库建立：schema v1、OpenRouter（419 模型）+ models.dev（192 供应商）自动同步、双版本输出、每日检查 workflow、51 个订阅计划、全面定价复核（DeepSeek/Anthropic/OpenAI/国内厂商）。
+
+
+---
+
+## 相关文档
+
+- [README.zh-CN.md](README.zh-CN.md) — 总览与精确统计
+- [FORMAT.zh-CN.md](FORMAT.zh-CN.md) — 机器格式规范
+- [docs/providers.zh-CN.md](docs/providers.zh-CN.md) — 供应商全景与状态
+- [docs/price-types.zh-CN.md](docs/price-types.zh-CN.md) — 收费形式口径
+- [docs/verification.zh-CN.md](docs/verification.zh-CN.md) — 核实与真实性机制
+- [CONTRIBUTING.zh-CN.md](CONTRIBUTING.zh-CN.md) — 如何贡献
+- [AGENTS.md](AGENTS.md) — AI Agent 指南（英文）

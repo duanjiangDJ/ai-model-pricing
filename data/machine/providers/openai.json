@@ -32,7 +32,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "gpt-3.5-turbo",
@@ -79,7 +79,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "gpt-4-turbo",
@@ -103,7 +103,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "gpt-4.1",
@@ -173,7 +173,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "gpt-4o",
@@ -197,7 +197,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "gpt-4o-2024-05-13",
@@ -221,7 +221,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "gpt-4o-2024-08-06",
@@ -245,7 +245,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "gpt-4o-2024-11-20",
@@ -269,7 +269,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "gpt-4o-mini",
@@ -293,7 +293,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "gpt-5",
@@ -317,7 +317,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "gpt-5-mini",
@@ -410,7 +410,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "gpt-5.2",
@@ -434,7 +434,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "gpt-5.2-chat-latest",
@@ -458,7 +458,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "gpt-5.2-pro",
@@ -505,7 +505,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "gpt-5.3-codex",
@@ -529,7 +529,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "gpt-5.3-codex-spark",
@@ -576,7 +576,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "gpt-5.4-mini",
@@ -669,7 +669,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "gpt-5.5-pro",
@@ -820,7 +820,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "gpt-image-1-mini",
@@ -844,7 +844,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "gpt-image-1.5",
@@ -868,7 +868,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "gpt-image-2",
@@ -938,7 +938,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "o1-pro",
@@ -962,7 +962,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "o3",
@@ -986,7 +986,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "o3-mini",
@@ -1010,7 +1010,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "o3-pro",
@@ -1057,7 +1057,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "text-embedding-3-large",
@@ -1104,7 +1104,7 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use. | Free model (per_mtok = 0).",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "text-embedding-ada-002",

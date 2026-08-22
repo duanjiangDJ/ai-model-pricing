@@ -28,24 +28,23 @@ def now_iso():
 
 def bump():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--content", action="store_true", help="content update (pricing data) -> second segment +1")
-    ap.add_argument("--feature", action="store_true", help="feature update -> third segment +1")
+    ap.add_argument("--content", action="store_true", help="content update (pricing data) -> content segment +1")
+    ap.add_argument("--feature", action="store_true", help="feature update -> feature segment +1")
     ap.add_argument("--message", required=True, help="short change description for CHANGELOG")
-    ap.add_argument("--date", default=None, help="YYYY-MM-DD (default: today UTC)")
+    ap.add_argument("--date", default=None, help="YYYY-MM-DD or YYYY-MM-DDTHH:MM (UTC, minute precision; default: now)")
     args = ap.parse_args()
 
     old = open(VERSION_FILE, encoding="utf-8").read().strip()
     y, c, f = (int(x) for x in old.split("."))
     if args.content:
-        c += 1
-        f = 0
+        c += 1                      # content updates only advance the content segment
     elif args.feature:
-        f += 1
-        c = 0
+        f += 1                      # feature updates only advance the feature segment
     else:
         sys.exit("specify --content or --feature")
     new = f"{y}.{c}.{f}"
-    date = args.date or datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    stamp = args.date or datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M")
+    date = stamp if "T" in stamp else stamp + "T00:00"
 
     # VERSION
     open(VERSION_FILE, "w", encoding="utf-8").write(new + "\n")

@@ -13,4 +13,4 @@
 
 | 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| `hunyuan-hy3` | — | chat | — | $1 | $4 | $0.25 | — | —/— | — | Official TokenHub billing (CNY/1M tokens): input ¥1, output ¥4, cache-hit ¥0.… |
+| `hunyuan-hy3` | ✅ 在线 | chat | — | $1 | $4 | $0.25 | — | —/— | — | Official TokenHub billing (CNY/1M tokens): input ¥1, output ¥4, cache-hit ¥0.… |
