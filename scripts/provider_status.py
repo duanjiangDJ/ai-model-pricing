@@ -110,7 +110,7 @@ def table_block(lang):
     # group DB providers by tier
     groups = {}
     providers = []
-    for f in sorted(glob.glob("data/machine/providers/*.json")):
+    for f in sorted(glob.glob("data/feed/providers/*.json")):
         p = json.load(open(f, encoding="utf-8"))
         providers.append(p)
     for p in providers:

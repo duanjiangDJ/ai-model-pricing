@@ -11,7 +11,7 @@
    - 直接抓取并解析：DeepSeek、百度千帆、Anthropic（静态/SSR 页面）；
    - Wayback 快照兜底：OpenAI（JS 渲染）、Google（暂禁用，待更好的解析器）；
    - 解析得到的值更新 `per_mtok.{input,output,cache_read,cache_write}`/`batch`，即使价格未变也刷新 `verified_at`（"今日已检查"），并在 manifest 中记录每个来源的 `last_ok`/`last_error`。
-1. **OpenRouter 差异比对** — 抓取 `https://openrouter.ai/api/v1/models`（完整目录），将每个模型的定价与 `data/machine/providers/openrouter.json` 对比：
+1. **OpenRouter 差异比对** — 抓取 `https://openrouter.ai/api/v1/models`（完整目录），将每个模型的定价与 `data/feed/providers/openrouter.json` 对比：
    - 新模型 → `kind: add` changelog 条目
    - 移除的模型 → `kind: remove`
    - 价格变化 → 更新并追加 `kind: update` 条目，含 `old`/`new` 值
@@ -19,7 +19,7 @@
    它刻意**不**覆盖人工维护的字段（`batch`、`cache_write`、notes、plans），以免人工工作被覆盖。**`verified_at` 为今天（刚被官方层核实过）的提供商会整段跳过** —— 第三方转载不得覆盖官方检查结果。
 3. **索引刷新** — 按提供商重新计算 `index.json` 的模型数量。
 4. **过期计划检查** — 任何 `verified_at` 早于 30 天的计划都会列在 `reports/stale-plans.md` 中，并同步到 "每日价格核实提醒" GitHub issue，从而请求人工重新核实。
-5. **人工页面重建** — 由机器数据重新生成 `data/human/`（en + zh-CN）。
+5. **人工页面重建** — 由机器数据重新生成 `data/view/`（en + zh-CN）。
 6. **Manifest 更新** — 记录 `last_daily_check`、各来源的 `last_ok` / `last_error`。
 7. **提交** — 若有任何变更，以机器人身份提交（`[skip ci]`）并推送。若无变更，则干净退出，不产生提交。
 
@@ -53,7 +53,7 @@
 
 ## 4. 如何自行核对某个具体数字
 
-1. 读取条目：`data/machine/providers/<id>.json` → model → `pricing` + `notes`。
+1. 读取条目：`data/feed/providers/<id>.json` → model → `pricing` + `notes`。
 2. 记下 `verified_at`（人工）或 `updated_at`（自动同步）以及 `source` URL。
 3. 对自动同步的值，`data/meta/changelog.json` 显示其最后变更时间。
 4. 打开来源 URL 并对比。如有出入，请修正或提出 issue。

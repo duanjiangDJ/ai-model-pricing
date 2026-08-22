@@ -1,4 +1,4 @@
-"""Fetch OpenRouter model catalog (aggregator prices) into data/machine/providers/openrouter.json.
+"""Fetch OpenRouter model catalog (aggregator prices) into data/feed/providers/openrouter.json.
 
 OpenRouter pricing fields (USD, string decimals):
   prompt, completion, image, request, web_search, input_cache_read, input_cache_write, internal_reasoning
@@ -12,7 +12,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (  # noqa: E402
-    PROVIDERS, MACHINE, SCHEMA_VERSION, append_changelog, fetch_json, load_index,
+    PROVIDERS, FEED, SCHEMA_VERSION, append_changelog, fetch_json, load_index,
     load_manifest, now_iso, save_index, save_manifest, to_float_or_none, write_json,
 )
 

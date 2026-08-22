@@ -1,6 +1,6 @@
 # AI Model Pricing — Human-Readable Index
 
-> Data sources: official pricing pages & public APIs. Machine-readable version: [`data/machine/`](../machine/).
+> Data sources: official pricing pages & public APIs. Machine-readable version: [`data/feed/`](../feed/).
 > Auto-updated daily by GitHub Actions (see `.github/workflows/daily-check.yml`).
 
 - Generated: 2026-08-22T09:32:50Z

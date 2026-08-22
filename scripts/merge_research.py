@@ -19,7 +19,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (  # noqa: E402
-    MACHINE, PROVIDERS, SCHEMA_VERSION, append_changelog, load_index, now_iso, read_json,
+    FEED, PROVIDERS, SCHEMA_VERSION, append_changelog, load_index, now_iso, read_json,
     save_index, write_json,
 )
 
@@ -117,7 +117,7 @@ def main():
         changed = True
 
     # plans upsert
-    plans_path = os.path.join(MACHINE, "plans.json")
+    plans_path = os.path.join(FEED, "plans.json")
     plans_data = read_json(plans_path)
     existing_plans = {p["id"]: p for p in plans_data["plans"]}
     fallback = data.get("providers", [{}])[0].get("verified_at") or now

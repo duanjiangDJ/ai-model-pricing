@@ -18,7 +18,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (  # noqa: E402
-    MACHINE, META, PROVIDERS, ROOT, append_changelog, fetch_json, load_changelog,
+    FEED, META, PROVIDERS, ROOT, append_changelog, fetch_json, load_changelog,
     load_index, load_manifest, now_iso, read_json, save_index, save_manifest, write_json,
 )
 from sync_openrouter import build_model  # noqa: E402
@@ -125,7 +125,7 @@ def refresh_index_counts(now):
 
 
 def check_stale_plans(stale_days):
-    plans = read_json(os.path.join(MACHINE, "plans.json")).get("plans", [])
+    plans = read_json(os.path.join(FEED, "plans.json")).get("plans", [])
     stale = []
     for p in plans:
         v = p.get("verified_at")

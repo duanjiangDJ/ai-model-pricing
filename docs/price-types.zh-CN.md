@@ -2,7 +2,7 @@
 # Price Types & Units / 收费形式口径（price-types）
 
 > 本文件定义每种收费形式的**精确口径**，是数据采集和机器读取的基准。枚举值在
-> `data/machine/schema.json` 中定义为 `priceType` / `planBilling` 的 enum，此处为人类可读解释。
+> `data/feed/schema.json` 中定义为 `priceType` / `planBilling` 的 enum，此处为人类可读解释。
 > 所有价格默认 **USD**（`index.json` 中 `currency` 字段声明；非 USD 的条目必须带 `currency` 覆盖字段）。
 
 ## 1. per_mtok —— 每百万 token

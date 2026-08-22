@@ -39,9 +39,9 @@ try:
     version = open("VERSION", encoding="utf-8").read().strip()
     if not re.fullmatch(r"\d+\.\d+\.\d+", version):
         fail(f"VERSION format invalid: {version}")
-    schema_v = json.load(open("data/machine/schema.json", encoding="utf-8"))["version"]
-    index_v = json.load(open("data/machine/index.json", encoding="utf-8"))["schema_version"]
-    plans_v = json.load(open("data/machine/plans.json", encoding="utf-8"))["schema_version"]
+    schema_v = json.load(open("data/feed/schema.json", encoding="utf-8"))["version"]
+    index_v = json.load(open("data/feed/index.json", encoding="utf-8"))["schema_version"]
+    plans_v = json.load(open("data/feed/plans.json", encoding="utf-8"))["schema_version"]
     manifest_v = json.load(open("data/meta/manifest.json", encoding="utf-8"))["schema_version"]
     changelog_v = json.load(open("data/meta/changelog.json", encoding="utf-8"))["schema_version"]
     for name, v in (("schema", schema_v), ("index", index_v), ("plans", plans_v),
@@ -56,17 +56,17 @@ except Exception as e:  # noqa: BLE001
     fail(f"version check error: {e}")
 
 # 2. index counts
-idx = json.load(open("data/machine/index.json", encoding="utf-8"))
+idx = json.load(open("data/feed/index.json", encoding="utf-8"))
 for lst in (idx.get("providers", []), idx.get("resellers", [])):
     for e in lst:
-        f = os.path.join("data/machine", e["file"])
+        f = os.path.join("data/feed", e["file"])
         if not os.path.exists(f):
             fail(f"index references missing file {e['file']}")
             continue
         actual = len(json.load(open(f, encoding="utf-8")).get("models", []))
         if actual != e["model_count"]:
             fail(f"index count mismatch {e['id']}: index={e['model_count']} file={actual}")
-plans_count = len(json.load(open("data/machine/plans.json", encoding="utf-8")).get("plans", []))
+plans_count = len(json.load(open("data/feed/plans.json", encoding="utf-8")).get("plans", []))
 if plans_count != idx.get("plan_count"):
     fail(f"plan_count mismatch: index={idx.get('plan_count')} plans.json={plans_count}")
 print(f"OK index counts: {idx.get('provider_count')} providers, {idx.get('model_count')} models, {plans_count} plans")
@@ -76,7 +76,7 @@ SUB_HINTS = ("coding-plan", "token-plan", "copilot", "kimi-for-coding")
 zero_free = 0
 zero_suspect = 0
 bad_status = 0
-for f in sorted(glob.glob("data/machine/providers/*.json")):
+for f in sorted(glob.glob("data/feed/providers/*.json")):
     p = json.load(open(f, encoding="utf-8"))
     is_sub = any(h in p["provider_id"] for h in SUB_HINTS)
     for m in p.get("models", []):
@@ -112,7 +112,7 @@ print(f"OK docs: {len(prose_docs)} prose docs checked")
 
 # 5. api_base_url completeness + dedup check
 by_url = {}
-for f in sorted(glob.glob("data/machine/providers/*.json")):
+for f in sorted(glob.glob("data/feed/providers/*.json")):
     p = json.load(open(f, encoding="utf-8"))
     pid = p["provider_id"]
     if "api_base_url" not in p:
@@ -132,7 +132,7 @@ for url, pids in by_url.items():
     # check model-id overlap between same-base-url providers (dedup requirement)
     sets = {}
     for pid in pids:
-        p = json.load(open(f"data/machine/providers/{pid}.json", encoding="utf-8"))
+        p = json.load(open(f"data/feed/providers/{pid}.json", encoding="utf-8"))
         sets[pid] = {m["id"].lower() for m in p.get("models", [])}
     for i, a in enumerate(pids):
         for b in pids[i + 1:]:

@@ -11,9 +11,9 @@ import urllib.request
 from datetime import datetime, timezone
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MACHINE = os.path.join(ROOT, "data", "machine")
-PROVIDERS = os.path.join(MACHINE, "providers")
-HUMAN = os.path.join(ROOT, "data", "human")
+FEED = os.path.join(ROOT, "data", "feed")
+PROVIDERS = os.path.join(FEED, "providers")
+VIEW = os.path.join(ROOT, "data", "view")
 META = os.path.join(ROOT, "data", "meta")
 
 SCHEMA_VERSION = "26.0.1"
@@ -162,12 +162,12 @@ def append_changelog(entries):
 # ---------------------------------------------------------------- index/manifest
 
 def load_index():
-    p = os.path.join(MACHINE, "index.json")
+    p = os.path.join(FEED, "index.json")
     return read_json(p) if os.path.exists(p) else None
 
 
 def save_index(index):
-    write_json(os.path.join(MACHINE, "index.json"), index)
+    write_json(os.path.join(FEED, "index.json"), index)
 
 
 def load_manifest():
@@ -185,7 +185,7 @@ def refresh_index_counts(now=None):
     changed = False
     for lst in (index["providers"], index["resellers"]):
         for entry in lst:
-            path = os.path.join(MACHINE, entry["file"])
+            path = os.path.join(FEED, entry["file"])
             if os.path.exists(path):
                 actual = len(read_json(path).get("models", []))
                 if actual != entry["model_count"]:

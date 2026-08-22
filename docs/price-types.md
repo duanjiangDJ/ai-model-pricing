@@ -2,7 +2,7 @@
 # Price Types & Units (price-types)
 
 > This document defines the **precise definition** of every billing type and serves as the baseline for data collection and machine reading. The enum values are defined as
-> the `priceType` / `planBilling` enums in `data/machine/schema.json`; this document is the human-readable explanation.
+> the `priceType` / `planBilling` enums in `data/feed/schema.json`; this document is the human-readable explanation.
 > All prices default to **USD** (declared by the `currency` field in `index.json`; non-USD entries must carry a `currency` override field).
 
 ## 1. per_mtok — per million tokens

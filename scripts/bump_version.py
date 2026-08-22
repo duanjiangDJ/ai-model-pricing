@@ -15,8 +15,8 @@ sys.stdout.reconfigure(encoding="utf-8")
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 VERSION_FILE = "VERSION"
-SCHEMA = "data/machine/schema.json"
-DATA_FILES = ["data/machine/index.json", "data/machine/plans.json",
+SCHEMA = "data/feed/schema.json"
+DATA_FILES = ["data/feed/index.json", "data/feed/plans.json",
               "data/meta/manifest.json", "data/meta/changelog.json"]
 CHANGELOG = "CHANGELOG.md"
 CHANGELOG_ZH = "CHANGELOG.zh-CN.md"

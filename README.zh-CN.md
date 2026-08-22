@@ -8,8 +8,8 @@
 收集市面上**所有可获取的 AI 模型定价**的开源数据库，覆盖多种收费形式：
 API 按 token（输入/输出/缓存/批处理）、按图、按音频秒、按请求、点数制、GPU 秒、消费订阅、编码工具计划等。
 
-- **人类可读版**：`data/human/`（Markdown 表格，按供应商分页）— 默认英文，中文版见 `data/human/zh-CN/`
-- **机器可读版**：`data/machine/`（版本化 JSON + JSON Schema，供爬虫/程序消费）
+- **人类可读版**：`data/view/`（Markdown 表格，按供应商分页）— 默认英文，中文版见 `data/view/zh-CN/`
+- **机器可读版**：`data/feed/`（版本化 JSON + JSON Schema，供爬虫/程序消费）
 - **每日自动更新**：GitHub Actions 每天 01:23 UTC 检查上游价格并**创建 PR**（需人工 Review 后合并）
 
 > English version: [README.md](README.md)
@@ -30,10 +30,10 @@ API 按 token（输入/输出/缓存/批处理）、按图、按音频秒、按�
 ## 数据统计（精确值）
 
 - **供应商数**：185
-- **模型数**：7077
+- **模型数**：7132
 - **订阅计划数**：64
 - **去重后的 API 端点数**：178
-- **免费模型数**：407
+- **免费模型数**：434
 
 ### 按渠道
 
@@ -59,26 +59,26 @@ API 按 token（输入/输出/缓存/批处理）、按图、按音频秒、按�
 |---|---|
 | offline | 43 |
 | online | 5 |
-| （未标注） | 7029 |
+| （未标注） | 7084 |
 
 ### 模型数 Top 15 供应商
 
 | 供应商 | 模型数 |
 |---|---|
-| NanoGPT（`nano-gpt`） | 597 |
+| NanoGPT（`nano-gpt`） | 599 |
 | DevPass (LLM Gateway)（`llmgateway`） | 556 |
-| OpenRouter（`openrouter`） | 420 |
-| Kilo Gateway（`kilo`） | 363 |
-| Vercel AI Gateway（`vercel`） | 350 |
-| Eden AI（`edenai`） | 232 |
-| Merge Gateway（`merge-gateway`） | 174 |
+| OpenRouter（`openrouter`） | 421 |
+| Kilo Gateway（`kilo`） | 367 |
+| Vercel AI Gateway（`vercel`） | 351 |
+| Eden AI（`edenai`） | 234 |
+| Merge Gateway（`merge-gateway`） | 175 |
 | Requesty（`requesty`） | 139 |
 | Poe（`poe`） | 137 |
 | ZenMux（`zenmux`） | 120 |
 | Amazon Web Services（`aws`） | 120 |
+| Ofox（`ofox`） | 110 |
 | Cortecs（`cortecs`） | 108 |
 | Abacus（`abacus`） | 108 |
-| Ofox（`ofox`） | 107 |
 | NovitaAI（`novita-ai`） | 107 |
 
 ### 按计价币种
@@ -108,16 +108,16 @@ API 按 token（输入/输出/缓存/批处理）、按图、按音频秒、按�
 import json, urllib.request
 
 index = json.load(urllib.request.urlopen(
-    "https://raw.githubusercontent.com/duanjiangDJ/ai-model-pricing/main/data/machine/index.json"))
+    "https://raw.githubusercontent.com/duanjiangDJ/ai-model-pricing/main/data/feed/index.json"))
 print(f"{index['model_count']} models, {index['plan_count']} plans, schema v{index['schema_version']}")
 
 # 抓取第一个供应商
 entry = index["providers"][0]
 provider = json.load(urllib.request.urlopen(
-    "https://raw.githubusercontent.com/duanjiangDJ/ai-model-pricing/main/data/machine/" + entry["file"]))
+    "https://raw.githubusercontent.com/duanjiangDJ/ai-model-pricing/main/data/feed/" + entry["file"]))
 ```
 
-格式规范见 [FORMAT.md](FORMAT.md)，权威 schema 见 `data/machine/schema.json`，
+格式规范见 [FORMAT.md](FORMAT.md)，权威 schema 见 `data/feed/schema.json`，
 给 AI agent 的读写指南见 [AGENTS.md](AGENTS.md)。
 
 ## 覆盖范围
@@ -186,8 +186,8 @@ python scripts/validate.py                  # 全量校验
 
 ## 贡献
 
-- 修正价格：直接改 `data/machine/providers/<id>.json` 或 `plans.json`，更新 `verified_at` 并附 `source`（定价页 URL）；
-- 新增供应商：按 `schema.json` 结构新建 `data/machine/providers/<id>.json`，再跑 `validate.py`；
+- 修正价格：直接改 `data/feed/providers/<id>.json` 或 `plans.json`，更新 `verified_at` 并附 `source`（定价页 URL）；
+- 新增供应商：按 `schema.json` 结构新建 `data/feed/providers/<id>.json`，再跑 `validate.py`；
 - 数据错误请提 issue（注明定价页链接）。
 
 ## 免责声明

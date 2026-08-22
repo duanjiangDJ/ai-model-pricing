@@ -9,7 +9,7 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 - **Year**: the year of first release (two digits, e.g. 2026 → `26`); when the year changes, the following two segments reset to 0.
 - **Content update** (second segment): **pricing data updates** (price changes, model additions/retirements, plan changes), each +1.
 - **Feature update** (third segment): every repository update other than pricing updates (data structure, scripts, docs, mechanisms, etc.), each +1.
-- The current version is in the `VERSION` file; `data/machine/schema.json`'s `version` and every data file's `schema_version` match it.
+- The current version is in the `VERSION` file; `data/feed/schema.json`'s `version` and every data file's `schema_version` match it.
 - Version increments are decided by maintainers/bots based on the change type and recorded in this file's entries.
 
 ---
@@ -61,7 +61,7 @@ The first version to adopt the new versioning rules (content covers all work com
 
 ### Feature Updates (repository)
 - **Official-price direct-sync layer**: `scripts/sync_official.py` + `scripts/official_sources.json` (direct scraping of DeepSeek / Baidu / Anthropic official pages, OpenAI Wayback snapshot as fallback); the daily check runs in "official → models.dev → OpenRouter" order, and providers already verified officially that day are exempt from third-party overwrites.
-- **Strict en/zh separation**: README / human-readable pages (`data/human/` + `zh-CN/`) are bilingual; all docs gain a `Language:` header annotation; doc H1s align with file names.
+- **Strict en/zh separation**: README / human-readable pages (`data/view/` + `zh-CN/`) are bilingual; all docs gain a `Language:` header annotation; doc H1s align with file names.
 - **Version management**: `VERSION` file + `year.feature.content` versioning rules; schema version upgraded to `26.0.0`.
 - AGENTS.md (agent guide), docs/verification.md (truthfulness mechanism), docs/ego-browser-workflow.md (ego-lite re-verification workflow).
 

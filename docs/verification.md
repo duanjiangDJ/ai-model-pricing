@@ -16,7 +16,7 @@ of the data in this repository.
      `verified_at` even when prices are unchanged ("checked today"), and record per-source
      `last_ok`/`last_error` in the manifest.
 1. **OpenRouter diff** — fetch `https://openrouter.ai/api/v1/models` (the full catalog),
-   compare every model's pricing against `data/machine/providers/openrouter.json`:
+   compare every model's pricing against `data/feed/providers/openrouter.json`:
    - new model → `kind: add` changelog entry
    - removed model → `kind: remove`
    - price changed → update + `kind: update` entry with `old`/`new` values
@@ -30,7 +30,7 @@ of the data in this repository.
 4. **Stale-plan check** — any plan whose `verified_at` is older than 30 days is listed in
    `reports/stale-plans.md` and synced to the "每日价格核实提醒" GitHub issue, so a human
    is asked to re-verify.
-5. **Human pages rebuild** — regenerate `data/human/` (en + zh-CN) from machine data.
+5. **Human pages rebuild** — regenerate `data/view/` (en + zh-CN) from machine data.
 6. **Manifest update** — record `last_daily_check`, per-source `last_ok` / `last_error`.
 7. **Commit** — if anything changed, commit with bot identity (`[skip ci]`) and push.
    If nothing changed, the run exits cleanly with no commit.
@@ -79,7 +79,7 @@ documented in `docs/research-contract.md`.
 
 ## 4. How to Check a Specific Number Yourself
 
-1. Read the entry: `data/machine/providers/<id>.json` → model → `pricing` + `notes`.
+1. Read the entry: `data/feed/providers/<id>.json` → model → `pricing` + `notes`.
 2. Note `verified_at` (human) or `updated_at` (auto-sync) and the `source` URL.
 3. For auto-synced values, `data/meta/changelog.json` shows when it last changed.
 4. Open the source URL and compare. If it differs, fix it or open an issue.

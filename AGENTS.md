@@ -26,14 +26,14 @@ through PRs checked by `.github/workflows/pr-check.yml`. Bot syncs merge straigh
 channel: first-party vendor APIs (per-MTok, cache, batch), image/audio pricing, credit
 systems, GPU-hour pricing, consumer subscriptions, and coding-tool plans.
 
-- Machine-readable data: `data/machine/` (versioned JSON + JSON Schema)
-- Human-readable pages: `data/human/` (Markdown, **generated** — never edit by hand)
+- Machine-readable data: `data/feed/` (versioned JSON + JSON Schema)
+- Human-readable pages: `data/view/` (Markdown, **generated** — never edit by hand)
 - Auto-updated every 3 hours by GitHub Actions: `.github/workflows/daily-check.yml` (changes merge straight into `main`; no review needed for bot syncs)
 
 ## Repository Layout
 
 ```
-data/machine/
+data/feed/
   schema.json            # THE authoritative JSON Schema (26.0.1)
   index.json             # Entry point: providers/resellers lists, counts, timestamps
   providers/*.json       # One file per provider (provider_id.json)
@@ -41,7 +41,7 @@ data/machine/
 data/meta/
   manifest.json          # Sync health: sources, last_ok/last_error
   changelog.json         # Every change (add/update/remove/verify), newest first
-data/human/              # GENERATED. en: *.md, zh-CN: zh-CN/*.md
+data/view/              # GENERATED (never edit): en/*.md + zh-CN/*.md
 docs/                    # providers.md (landscape & status, generated), price-types.md,
                          # research-contract.md, verification.md
 scripts/
@@ -63,7 +63,7 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
 
 ## Reading Data (for agents building tools)
 
-1. Fetch `data/machine/index.json` first. Check `schema_version` (major bump = breaking).
+1. Fetch `data/feed/index.json` first. Check `schema_version` (major bump = breaking).
 2. Each `providers[]` / `resellers[]` entry has `file` (relative path), `model_count`, `updated_at`.
 3. Model shape: `{id, name, category, status, modalities, context_window, max_output, pricing, notes}`.
    `status` = **online | offline** only. Offline models keep the reason (retired/deprecated/superseded)
@@ -87,7 +87,7 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
 
 1. **Prices must come from official pricing pages / official APIs / official docs**, verified
    via at least one secondary source where possible. Record `source` URLs and `verified_at`.
-2. Edit `data/machine/providers/<id>.json` or `plans.json` directly; **never edit `data/human/`**
+2. Edit `data/feed/providers/<id>.json` or `plans.json` directly; **never edit `data/view/`**
    (run `python scripts/build_human.py` instead — it regenerates both en and zh-CN pages).
 3. After any data change, run `python scripts/validate.py` (needs `pip install jsonschema`).
    It checks schema conformance, index count consistency, and duplicate model ids.

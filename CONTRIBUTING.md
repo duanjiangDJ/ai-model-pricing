@@ -24,7 +24,7 @@ consistency, version/CHANGELOG enforcement).
 
 ### 1. Fix a price / add a plan (easiest)
 
-1. Edit `data/machine/providers/<id>.json` (model pricing/status) or `data/machine/plans.json`.
+1. Edit `data/feed/providers/<id>.json` (model pricing/status) or `data/feed/plans.json`.
 2. Rules:
    - prices must come from official pages/APIs; put the source URL in `notes` and refresh `verified_at`;
    - unknown values are `null` (never 0, never invented); `0` means genuinely free;
@@ -45,7 +45,7 @@ consistency, version/CHANGELOG enforcement).
 
 1. Pick the roadmap tier (see `docs/optimization-roadmap.md`).
 2. Collect official pricing data (official page URL, per-MTok prices, plans).
-3. Create `data/machine/providers/<id>.json` following `data/machine/schema.json`
+3. Create `data/feed/providers/<id>.json` following `data/feed/schema.json`
    (include `api_base_url`!).
 4. If you researched it via a subagent, output per `docs/research-contract.md` and merge:
    ```bash

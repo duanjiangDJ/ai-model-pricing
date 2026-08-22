@@ -4,7 +4,7 @@ models.dev api.json: {provider_id: {id, name, models: {model_id: {id, name, limi
 Costs are USD per 1M tokens (official list prices, not reseller prices).
 
 Policy:
-  - If data/machine/providers/{id}.json already exists -> SKIP (keep existing richer data).
+  - If data/feed/providers/{id}.json already exists -> SKIP (keep existing richer data).
   - Otherwise write a provider file with channel inferred (first_party / hosted / aggregator).
 
 Usage: python scripts/sync_modelsdev.py [--write] [--force]

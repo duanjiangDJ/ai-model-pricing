@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/duanjiangDJ/ai-model-pricing/main/data/machine/schema.json",
+  "$id": "https://raw.githubusercontent.com/duanjiangDJ/ai-model-pricing/main/data/feed/schema.json",
   "title": "AI Model Pricing Database Schema",
   "description": "Versioned machine-readable schema for the ai-model-pricing database. Validates: index.json, providers/*.json, plans.json, resellers.json, manifest.json, changelog.json",
   "version": "26.2.3",

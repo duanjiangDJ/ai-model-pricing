@@ -9,7 +9,7 @@
 - **年份**：首次发布所在年份（两位数，如 2026 → `26`）；年份变化时重置后两段为 0。
 - **内容更新**（第二段）：**定价数据更新**（价格变化、模型新增/退役、计划变更），每次 +1。
 - **功能更新**（第三段）：除定价更新以外的所有仓库更新（数据结构、脚本、文档、机制等），每次 +1。
-- 当前版本见 `VERSION` 文件；`data/machine/schema.json` 的 `version` 与各数据文件 `schema_version` 与之一致。
+- 当前版本见 `VERSION` 文件；`data/feed/schema.json` 的 `version` 与各数据文件 `schema_version` 与之一致。
 - 版本递增由维护者/机器人按变更类型决定，记录于本文件条目。
 
 ---
@@ -54,7 +54,7 @@
 
 ### 功能更新（仓库）
 - **官方价直采层**：`scripts/sync_official.py` + `scripts/official_sources.json`（DeepSeek / 百度 / Anthropic 官方页直抓，OpenAI Wayback 快照兜底）；每日检查按"官方 → models.dev → OpenRouter"顺序执行，官方当日已核实的 provider 免于第三方覆盖。
-- **中英严格分离**：README / 人类可读页面（`data/human/` + `zh-CN/`）双语；全部文档头部增加 `Language:` 标注；文档 H1 与文件名对齐。
+- **中英严格分离**：README / 人类可读页面（`data/view/` + `zh-CN/`）双语；全部文档头部增加 `Language:` 标注；文档 H1 与文件名对齐。
 - **版本管理**：`VERSION` 文件 + `年份.功能.内容` 版本规则；schema 版本升级为 `26.0.0`。
 - AGENTS.md（agent 指南）、docs/verification.md（真实性机制）、docs/ego-browser-workflow.md（ego-lite 复核工作流）。
 

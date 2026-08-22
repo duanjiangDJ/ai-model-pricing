@@ -1,6 +1,6 @@
 # AI Model Pricing — 人类可读索引
 
-> 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/machine/`](../machine/)。
+> 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/feed/`](../feed/)。
 > 更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。
 
 - 数据更新时间: 2026-08-22T09:32:50Z
