@@ -13,4 +13,4 @@
 
 | 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| `GLM-4.7` | — | reasoning | 204.8K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `GLM-4.7` | — | reasoning | 204.8K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |

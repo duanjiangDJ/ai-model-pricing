@@ -14,6 +14,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.2.3 — 2026-08-22T10:29Z (content update)
+
+- fix: models.dev sync skips subscription-included providers (per_mtok stays null); re-fix 96 zero prices
+
 ## 26.1.3 — 2026-08-22T09:33 (content update)
 
 - chore: price sync

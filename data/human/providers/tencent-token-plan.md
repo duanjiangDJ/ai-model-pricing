@@ -13,4 +13,4 @@
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
-| `hy3` | — | reasoning | 256K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `hy3` | — | reasoning | 256K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
