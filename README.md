@@ -11,7 +11,7 @@ systems, GPU-second pricing, consumer subscriptions, and coding-tool plans.
 
 - **Human-readable**: `data/view/` (Markdown tables, per provider) — English in `data/view/en/`, 中文见 `data/view/zh-CN/`
 - **Machine-readable**: `data/feed/` (versioned JSON + JSON Schema, for crawlers/programs)
-- **Daily auto-update**: GitHub Actions at 01:23 UTC checks upstream prices and opens a PR
+- **Auto-update**: GitHub Actions every 3 hours (cron `0 */3 * * *`) checks upstream prices and auto-merges changes into `main`
 
 > Read this in Chinese? See [README.zh-CN.md](README.zh-CN.md).
 
@@ -25,8 +25,9 @@ systems, GPU-second pricing, consumer subscriptions, and coding-tool plans.
 - Coverage of the long tail (CN resellers, enterprise custom pricing) is intentionally partial.
 - **We welcome every contribution**: open an **issue** to report errors or suggest new
   sources/strategies, and submit a **PR** to fix prices or improve the acquisition pipeline
-  (see [CONTRIBUTING.md](CONTRIBUTING.md)). All changes go through PR + automated checks
-  (`pr-check.yml`): schema validation, generated-page consistency, and version consistency.
+  (see [CONTRIBUTING.md](CONTRIBUTING.md)). Human changes go through PR + automated checks
+  (`pr-check.yml`): schema validation, generated-page consistency, version consistency,
+  and a security review; bot price-syncs merge directly into `main`.
 
 **How this project is built**: the repository is maintained with
 [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness) using the

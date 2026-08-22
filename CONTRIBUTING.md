@@ -91,6 +91,17 @@ changelog, index/manifest, dedup helpers). Don't duplicate them in checks.
   `> **Language:**` banner as the first line.
 - Keep `CHANGELOG.md` and `CHANGELOG.zh-CN.md` in sync (same version sections).
 
+## Updating core files (security review)
+
+pr-check's security review **allows modifying** core files but **forbids deleting** them.
+Core files: `scripts/{validate,audit,router,toolbox,build_human,daily_check}.py`,
+`data/feed/schema.json`, `data/feed/index.json`, and all `.github/workflows/*.yml`.
+
+To update a core file (e.g. improve `validate.py` or extend `toolbox.py`):
+1. Modify it in your PR branch — normal PR flow applies (version bump + CHANGELOG + checks).
+2. Do **not** delete it, and do not remove workflow files (that is what the security check blocks).
+3. If you believe a core file should be removed/renamed, open an issue first to discuss.
+
 ## PR checklist (pr-check enforces most of this)
 
 - [ ] `python scripts/validate.py` passes

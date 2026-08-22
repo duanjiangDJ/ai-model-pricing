@@ -49,6 +49,10 @@ Every provider in the database, its status, and its automation. The table below 
 | `volcengine` | 2 | `https://ark.cn-beijing.volces.com/api/v3` | `—` | 🟡 manual |
 | `xiaomi` | 10 | `https://api.xiaomimimo.com/v1` | `tier1_xiaomi.py` | 🟢 automated |
 | `zhipuai` | 16 | `https://open.bigmodel.cn/api/paas/v4` | `—` | 🟡 manual |
+| `ai21` (AI21 Labs) | — | `https://api.ai21.com/studio/v1` | `—` | ⚪ pending |
+| `baichuan` (Baichuan AI) | — | `https://api.baichuan-ai.com/v1` | `—` | ⚪ pending |
+| `iflytek` (iFlytek Spark) | — | `https://spark-api-open.xf-yun.com/v1` | `—` | ⚪ pending |
+| `lingyiwanwu` (01.AI (Lingyiwanwu)) | — | `https://api.lingyiwanwu.com/v1` | `—` | ⚪ pending |
 
 ### Tier 2 — Other model R&D vendors
 
@@ -64,6 +68,12 @@ Every provider in the database, its status, and its automation. The table below 
 | `sarvam` | 2 | `https://api.sarvam.ai/v1` | `—` | 🟡 manual |
 | `submodel` | 9 | `https://llm.submodel.ai/v1` | `—` | 🟡 manual |
 | `thinkingmachines` | 2 | `https://tinker.thinkingmachines.dev/s…` | `—` | 🟡 manual |
+| `assemblyai` (AssemblyAI) | — | `https://api.assemblyai.com/v2` | `—` | ⚪ pending |
+| `cartesia` (Cartesia) | — | `https://api.cartesia.ai/v1` | `—` | ⚪ pending |
+| `deepgram` (Deepgram) | — | `https://api.deepgram.com/v1` | `—` | ⚪ pending |
+| `elevenlabs` (ElevenLabs) | — | `https://api.elevenlabs.io/v1` | `—` | ⚪ pending |
+| `playai` (PlayAI) | — | `https://api.play.ai/v1` | `—` | ⚪ pending |
+| `stability` (Stability AI) | — | `https://api.stability.ai/v1` | `—` | ⚪ pending |
 
 ### Tier 3 — Core inference hosts / resellers / aggregator gateways
 
@@ -99,6 +109,7 @@ Every provider in the database, its status, and its automation. The table below 
 | `novita-ai` | 107 | `https://api.novita.ai/v3/openai` | `—` | 🟡 manual |
 | `ollama-cloud` | 20 | `https://ollama.com/api` | `—` | 🟡 manual |
 | `opencode` | 95 | `https://opencode.ai/zen/v1/models` | `—` | 🟡 manual |
+| `opencode-go` | 28 | `https://opencode.ai/zen/go/v1/models` | `—` | 🟡 manual |
 | `openrouter` | 421 | `https://openrouter.ai/api/v1` | `—` | 🟡 manual |
 | `orcarouter` | 81 | `https://api.orcarouter.ai/v1` | `—` | 🟡 manual |
 | `ovhcloud` | 14 | `https://oai.endpoints.kepler.ai.cloud…` | `—` | 🟡 manual |
@@ -118,8 +129,10 @@ Every provider in the database, its status, and its automation. The table below 
 | `vultr` | 10 | `https://api.vultrinference.com/v1` | `—` | 🟡 manual |
 | `watsonx` | 5 | `https://{region}.ml.cloud.ibm.com` | `—` | 🟡 manual |
 | `zenmux` | 120 | `https://zenmux.ai/api/v1` | `—` | 🟡 manual |
+| `runpod` (RunPod) | — | `https://api.runpod.ai/v2` | `—` | ⚪ pending |
+| `vast` (Vast.ai) | — | `https://console.vast.ai/api/v0` | `—` | ⚪ pending |
 
-### Tier 4 — Other service providers (subscriptions, long-tail)
+### Tier 4 — Other service providers (long-tail)
 
 | Provider | Models | API base URL | Check script | Status |
 |---|---|---|---|---|
@@ -195,7 +208,6 @@ Every provider in the database, its status, and its automation. The table below 
 | `neon` | 42 | `${NEON_AI_GATEWAY_BASE_URL}/v1` | `—` | 🟡 manual |
 | `neuralwatt` | 22 | `https://api.neuralwatt.com/v1` | `—` | 🟡 manual |
 | `ofox` | 110 | `https://api.ofox.ai/v1` | `—` | 🟡 manual |
-| `opencode-go` | 28 | `https://opencode.ai/zen/go/v1/models` | `—` | 🟡 manual |
 | `pioneer` | 103 | `https://api.pioneer.ai/v1` | `—` | 🟡 manual |
 | `privatemode-ai` | 7 | `http://localhost:8080/v1` | `—` | 🟡 manual |
 | `qihang-ai` | 9 | `https://api.qhaigc.net/v1` | `—` | 🟡 manual |
@@ -227,23 +239,6 @@ Every provider in the database, its status, and its automation. The table below 
 | `xpersona` | 13 | `https://www.xpersona.co/v1` | `—` | 🟡 manual |
 | `zeldoc` | 1 | `https://api.zeldoc.ai/v1` | `—` | 🟡 manual |
 | `zenifra` | 1 | `https://ai.zenifra.com/v1` | `—` | 🟡 manual |
-
-### Pending vendors (not in DB yet)
-
-| Provider | API base URL | Status |
-|---|---|---|
-| `ai21` (AI21 Labs) | `https://api.ai21.com/studio/v1` | ⚪ pending |
-| `assemblyai` (AssemblyAI) | `https://api.assemblyai.com/v2` | ⚪ pending |
-| `baichuan` (Baichuan AI) | `https://api.baichuan-ai.com/v1` | ⚪ pending |
-| `cartesia` (Cartesia) | `https://api.cartesia.ai/v1` | ⚪ pending |
-| `deepgram` (Deepgram) | `https://api.deepgram.com/v1` | ⚪ pending |
-| `elevenlabs` (ElevenLabs) | `https://api.elevenlabs.io/v1` | ⚪ pending |
-| `iflytek` (iFlytek Spark) | `https://spark-api-open.xf-yun.com/v1` | ⚪ pending |
-| `lingyiwanwu` (01.AI (Lingyiwanwu)) | `https://api.lingyiwanwu.com/v1` | ⚪ pending |
-| `playai` (PlayAI) | `https://api.play.ai/v1` | ⚪ pending |
-| `runpod` (RunPod) | `https://api.runpod.ai/v2` | ⚪ pending |
-| `stability` (Stability AI) | `https://api.stability.ai/v1` | ⚪ pending |
-| `vast` (Vast.ai) | `https://console.vast.ai/api/v0` | ⚪ pending |
 
 Legend: 🟢 automated (check script) · 🟡 manual (in DB, no check) · ⚪ pending (not added yet)
 

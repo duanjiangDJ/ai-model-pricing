@@ -10,7 +10,7 @@ API 按 token（输入/输出/缓存/批处理）、按图、按音频秒、按�
 
 - **人类可读版**：`data/view/`（Markdown 表格，按供应商分页）— 默认英文，中文版见 `data/view/zh-CN/`
 - **机器可读版**：`data/feed/`（版本化 JSON + JSON Schema，供爬虫/程序消费）
-- **每日自动更新**：GitHub Actions 每天 01:23 UTC 检查上游价格并**创建 PR**（需人工 Review 后合并）
+- **自动更新**：GitHub Actions 每 3 小时（cron 0 */3 * * *）检查上游价格并**自动合入 main**
 
 > English version: [README.md](README.md)
 
@@ -21,7 +21,7 @@ API 按 token（输入/输出/缓存/批处理）、按图、按音频秒、按�
 - 价格变动极快，部分条目可能**过时、有误或缺失**；
 - 部分收费模式（按请求、点数制、订阅包含用量）难以核实，可能存在标注错误；不确定的条目以 `null`/notes 标注并带 `verified_at`；
 - 长尾覆盖（国内中转站、企业定制价）有意保持部分收录；
-- **欢迎一切贡献**：发现错误或建议新的数据来源/获取策略请提 **issue**；修正价格或改进采集管线请提 **PR**（见 [CONTRIBUTING.md](CONTRIBUTING.md)）。所有变更一律走 PR + 自动校验（`pr-check.yml`：schema 校验、生成页面一致性、版本一致性）。
+- **欢迎一切贡献**：发现错误或建议新的数据来源/获取策略请提 **issue**；修正价格或改进采集管线请提 **PR**（见 [CONTRIBUTING.md](CONTRIBUTING.md)）。人工更改一律走 PR + 自动校验（含安全审查）；bot 价格同步直接合入 main。（`pr-check.yml`：schema 校验、生成页面一致性、版本一致性）。
 
 **项目技术栈**：本仓库最初基于 [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness) 、使用 **deepseek-v4-flash-0731** 模型维护。数据获取结合官方定价页直采（`scripts/sync_official.py`）、公开目录（models.dev、OpenRouter）与人工/Agent 核实。
 

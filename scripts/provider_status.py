@@ -24,13 +24,15 @@ os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 TIER0 = ["alibaba", "anthropic", "deepseek", "google", "meta", "minimax",
          "mistral", "moonshotai", "openai", "xai", "zai"]
 
-# --- Tier 1: other major LLM R&D vendors ---
-TIER1 = ["baidu", "cohere", "nvidia", "perplexity", "stepfun", "tencent",
-         "upstage", "volcengine", "xiaomi", "zhipuai", "aws"]
+# --- Tier 1: other major LLM R&D vendors (incl. pending-to-add) ---
+TIER1 = ["ai21", "baidu", "baichuan", "cohere", "iflytek", "lingyiwanwu",
+         "nvidia", "perplexity", "stepfun", "tencent", "upstage",
+         "volcengine", "xiaomi", "zhipuai", "aws"]
 
-# --- Tier 2: all remaining model R&D vendors (any model type) ---
-TIER2 = ["arcee", "inception", "lilac", "morph", "nova", "poolside",
-         "sakana", "sarvam", "submodel", "thinkingmachines"]
+# --- Tier 2: all remaining model R&D vendors (any model type, incl. pending-to-add) ---
+TIER2 = ["arcee", "assemblyai", "cartesia", "deepgram", "elevenlabs",
+         "inception", "lilac", "morph", "nova", "playai", "poolside",
+         "sakana", "sarvam", "stability", "submodel", "thinkingmachines"]
 
 # --- Tier 3: core inference hosts / resellers / aggregator gateways ---
 TIER3 = [
@@ -38,49 +40,50 @@ TIER3 = [
     "baseten", "cerebras", "cloudflare-workers-ai", "crusoe", "databricks",
     "deepinfra", "digitalocean", "fireworks-ai", "friendli", "groq",
     "hetzner", "huggingface", "modal", "nebius", "novita-ai", "ollama-cloud",
-    "ovhcloud", "runinfra", "salad-cloud", "sap-ai-core", "scaleway",
-    "siliconflow", "snowflake-cortex", "stackit", "togetherai", "vultr",
-    "watsonx",
+    "ovhcloud", "runinfra", "runpod", "salad-cloud", "sap-ai-core",
+    "scaleway", "siliconflow", "snowflake-cortex", "stackit", "togetherai",
+    "vast", "vultr", "watsonx",
     # aggregators / gateways
     "302ai", "ai-router", "aihubmix", "anyapi", "cloudflare-ai-gateway",
     "edenai", "fastrouter", "helicone", "jiekou", "kilo", "llmgateway",
-    "merge-gateway", "nano-gpt", "opencode", "openrouter", "orcarouter",
-    "poe", "requesty", "trustedrouter", "unorouter", "vercel", "zenmux",
+    "merge-gateway", "nano-gpt", "opencode", "opencode-go", "openrouter",
+    "orcarouter", "poe", "requesty", "trustedrouter", "unorouter", "vercel",
+    "zenmux",
 ]
 
-# --- Tier 4: subscription products (explicit) ---
-TIER4_SUB = ["cursor", "devin", "github", "jetbrains", "opencode-go",
+# --- Tier 4: other service providers (subscription products, long-tail services) ---
+TIER4_SUB = ["cursor", "devin", "github", "jetbrains",
              "replit", "tabnine", "v0", "windsurf"]
 
-# --- Pending: well-known vendors not yet in the DB (待添加) ---
-PENDING = [
-    ("ai21", "AI21 Labs", "https://api.ai21.com/studio/v1"),
-    ("lingyiwanwu", "01.AI (Lingyiwanwu)", "https://api.lingyiwanwu.com/v1"),
-    ("iflytek", "iFlytek Spark", "https://spark-api-open.xf-yun.com/v1"),
-    ("baichuan", "Baichuan AI", "https://api.baichuan-ai.com/v1"),
-    ("stability", "Stability AI", "https://api.stability.ai/v1"),
-    ("elevenlabs", "ElevenLabs", "https://api.elevenlabs.io/v1"),
-    ("deepgram", "Deepgram", "https://api.deepgram.com/v1"),
-    ("assemblyai", "AssemblyAI", "https://api.assemblyai.com/v2"),
-    ("cartesia", "Cartesia", "https://api.cartesia.ai/v1"),
-    ("playai", "PlayAI", "https://api.play.ai/v1"),
-    ("runpod", "RunPod", "https://api.runpod.ai/v2"),
-    ("vast", "Vast.ai", "https://console.vast.ai/api/v0"),
-]
+# --- Pending: well-known vendors not yet in the DB (⚪ pending status, shown inside their tier) ---
+PENDING = {
+    "ai21": ("AI21 Labs", "https://api.ai21.com/studio/v1", 1),
+    "lingyiwanwu": ("01.AI (Lingyiwanwu)", "https://api.lingyiwanwu.com/v1", 1),
+    "iflytek": ("iFlytek Spark", "https://spark-api-open.xf-yun.com/v1", 1),
+    "baichuan": ("Baichuan AI", "https://api.baichuan-ai.com/v1", 1),
+    "stability": ("Stability AI", "https://api.stability.ai/v1", 2),
+    "elevenlabs": ("ElevenLabs", "https://api.elevenlabs.io/v1", 2),
+    "deepgram": ("Deepgram", "https://api.deepgram.com/v1", 2),
+    "assemblyai": ("AssemblyAI", "https://api.assemblyai.com/v2", 2),
+    "cartesia": ("Cartesia", "https://api.cartesia.ai/v1", 2),
+    "playai": ("PlayAI", "https://api.play.ai/v1", 2),
+    "runpod": ("RunPod", "https://api.runpod.ai/v2", 3),
+    "vast": ("Vast.ai", "https://console.vast.ai/api/v0", 3),
+}
 
 TIER_NAMES = {
     0: "Tier 0 — World's leading model R&D vendors",
     1: "Tier 1 — Other major LLM R&D vendors",
     2: "Tier 2 — Other model R&D vendors",
     3: "Tier 3 — Core inference hosts / resellers / aggregator gateways",
-    4: "Tier 4 — Other service providers (subscriptions, long-tail)",
+    4: "Tier 4 — Other service providers (long-tail)",
 }
 TIER_NAMES_ZH = {
     0: "Tier 0 — 全球最头部模型研发厂商",
     1: "Tier 1 — 其他大语言模型研发大厂",
     2: "Tier 2 — 其他模型研发厂商",
     3: "Tier 3 — 核心模型中转/托管/聚合网关",
-    4: "Tier 4 — 其他服务提供商（订阅、长尾）",
+    4: "Tier 4 — 其他服务提供商（长尾）",
 }
 
 MANUAL_TIER = {}
@@ -132,17 +135,11 @@ def table_block(lang):
             else:
                 st = "🟡 manual"
             lines.append(f"| `{p['provider_id']}` | {len(p.get('models', []))} | `{api}` | `{ck or '—'}` | {st} |")
+        # pending vendors that belong to this tier (not in DB yet)
+        pend = [(pid, info) for pid, info in sorted(PENDING.items()) if info[2] == t]
+        for pid, (name, api, _t) in pend:
+            lines.append(f"| `{pid}` ({name}) | — | `{api}` | `—` | ⚪ pending |")
         lines.append("")
-
-    # pending vendors (not in DB)
-    pending_title = "Pending vendors (not in DB yet)" if lang == "en" else "待添加厂商（尚未收录）"
-    lines.append(f"### {pending_title}")
-    lines.append("")
-    lines.append("| Provider | API base URL | Status |")
-    lines.append("|---|---|---|")
-    for pid, name, api in sorted(PENDING):
-        lines.append(f"| `{pid}` ({name}) | `{api}` | ⚪ pending |")
-    lines.append("")
 
     # legend
     lines.append("Legend: 🟢 automated (check script) · 🟡 manual (in DB, no check) · ⚪ pending (not added yet)")

@@ -141,6 +141,20 @@ python scripts/validate.py                  # schema + consistency validation
 
 ---
 
+## Branch Policy
+
+| Branch | Purpose | Rules |
+|---|---|---|
+| `main` | Production | Protected. Only two write paths: (1) the price-check bot (GH_PAT) auto-merges syncs; (2) PRs that pass `pr-check.yml`. Never push directly otherwise. |
+| `bot/<topic>` | Automated/bot work (price syncs, scripts) | Short-lived; created by workflows, force-push allowed on same-day reruns, deleted after merge or when stale (>7 days without a PR). |
+| `feat/<topic>` | New features (new provider, new script) | Created from `main`, must pass pr-check, delete after merge. |
+| `fix/<topic>` | Bug/data fixes | Same as `feat/`. |
+| `docs/<topic>` | Documentation only | Same as `feat/`. |
+
+Rules: lowercase kebab-case names; always work from a fresh `main`; PRs must pass
+pr-check (validate + audit + generated pages + version/CHANGELOG + security review);
+delete the branch after merge. Stale branches (no PR, >7 days) are removed by maintainers.
+
 ## Related Docs
 
 - [README.md](README.md) — overview & exact stats
