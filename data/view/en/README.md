@@ -3,7 +3,7 @@
 > Data sources: official pricing pages & public APIs. Machine-readable version: [`data/feed/`](../../../data/feed/).
 > Auto-updated daily by GitHub Actions (see `.github/workflows/daily-check.yml`).
 
-- Generated: 2026-08-22T09:32:50Z
+- Generated: 2026-08-22T12:50:49Z
 - Providers: 185
 - Models total: 7132
 - Plans total: 64
@@ -196,7 +196,7 @@
 | [Amazon Web Services](providers/aws.md) | Cloud-hosted | 120 | `providers/aws.json` | 2026-08-21T15:59:09Z |
 | [Tabnine](providers/tabnine.md) | subscription | 0 | `providers/tabnine.json` | 2026-08-21T11:40:00Z |
 | [Replit](providers/replit.md) | subscription | 0 | `providers/replit.json` | 2026-08-21T11:40:00Z |
-| [OpenRouter](providers/openrouter.md) | Aggregator | 421 | `providers/openrouter.json` | 2026-08-22T09:32:50Z |
+| [OpenRouter](providers/openrouter.md) | Aggregator | 421 | `providers/openrouter.json` | 2026-08-22T12:50:49Z |
 
 ## Plans
 

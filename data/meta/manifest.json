@@ -1,11 +1,11 @@
 {
-  "schema_version": "26.2.6",
+  "schema_version": "26.3.6",
   "sources": [
     {
       "name": "OpenRouter API",
       "url": "https://openrouter.ai/api/v1/models",
       "auto_sync": true,
-      "last_ok": "2026-08-22T10:53:42Z",
+      "last_ok": "2026-08-22T12:50:49Z",
       "last_error": null
     },
     {
@@ -53,7 +53,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-22T11:45:28Z",
+      "last_ok": "2026-08-22T12:50:49Z",
       "last_error": null
     },
     {
@@ -62,7 +62,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-22T11:45:28Z",
+      "last_ok": "2026-08-22T12:50:49Z",
       "last_error": null
     },
     {
@@ -71,7 +71,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-22T11:45:28Z",
+      "last_ok": "2026-08-22T12:50:49Z",
       "last_error": null
     },
     {
@@ -80,7 +80,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-22T11:45:28Z",
+      "last_ok": "2026-08-22T12:50:49Z",
       "last_error": null
     },
     {
@@ -89,7 +89,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-22T11:45:28Z",
+      "last_ok": "2026-08-22T12:50:49Z",
       "last_error": null
     },
     {
@@ -98,7 +98,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-22T11:45:28Z",
+      "last_ok": "2026-08-22T12:50:49Z",
       "last_error": null
     },
     {
@@ -107,7 +107,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-22T11:45:28Z",
+      "last_ok": "2026-08-22T12:50:49Z",
       "last_error": null
     },
     {
@@ -116,7 +116,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-22T11:45:28Z",
+      "last_ok": "2026-08-22T12:50:49Z",
       "last_error": null
     },
     {
@@ -125,7 +125,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-22T11:45:28Z",
+      "last_ok": "2026-08-22T12:50:49Z",
       "last_error": null
     },
     {
@@ -134,7 +134,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-22T11:45:28Z",
+      "last_ok": "2026-08-22T12:50:49Z",
       "last_error": null
     },
     {
@@ -143,7 +143,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-22T11:45:28Z",
+      "last_ok": "2026-08-22T12:50:49Z",
       "last_error": null
     },
     {
@@ -152,7 +152,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-22T11:45:28Z",
+      "last_ok": "2026-08-22T12:50:49Z",
       "last_error": null
     },
     {
@@ -161,10 +161,10 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-22T11:45:28Z",
+      "last_ok": "2026-08-22T12:50:49Z",
       "last_error": null
     }
   ],
   "coverage": {},
-  "last_daily_check": "2026-08-22T11:45:28Z"
+  "last_daily_check": "2026-08-22T12:50:49Z"
 }
