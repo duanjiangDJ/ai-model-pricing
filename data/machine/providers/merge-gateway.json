@@ -7,8 +7,8 @@
   "homepage": "https://docs.merge.dev/merge-gateway",
   "pricing_page": "https://docs.merge.dev/merge-gateway",
   "currency": "USD",
-  "updated_at": "2026-08-21T13:21:07Z",
-  "verified_at": "2026-08-21T13:21:07Z",
+  "updated_at": "2026-08-22T09:32:50Z",
+  "verified_at": "2026-08-22T09:32:50Z",
   "models": [
     {
       "id": "anthropic/claude-3-7-sonnet-20250219",
@@ -691,6 +691,29 @@
           "input": 0.66,
           "output": 1.98,
           "cache_read": 0.022,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro-0423",
+      "name": "DeepSeek V4 Pro 0423",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 393216,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.65,
+          "output": 3.3,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -2551,8 +2574,8 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 5,
-          "output": 30,
+          "input": 4,
+          "output": 24,
           "cache_read": 0.5,
           "cache_write": null
         },

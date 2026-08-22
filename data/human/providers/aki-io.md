@@ -6,8 +6,8 @@
 - Homepage: https://aki.io/docs/
 - Pricing page: https://aki.io/docs/
 - Currency: USD
-- Data updated: 2026-08-21T13:21:07Z
-- Verified: 2026-08-21T13:21:07Z
+- Data updated: 2026-08-22T09:32:50Z
+- Verified: 2026-08-22T09:32:50Z
 
 **6** models in total.
 

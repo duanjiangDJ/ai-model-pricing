@@ -6,10 +6,10 @@
 - 官网: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - 定价页: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - 币种: USD
-- 数据更新时间: 2026-08-21T13:21:07Z
-- 核实时间: 2026-08-21T13:21:07Z
+- 数据更新时间: 2026-08-22T09:32:50Z
+- 核实时间: 2026-08-22T09:32:50Z
 
-共 **350** 个模型。
+共 **351** 个模型。
 
 | 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -109,7 +109,8 @@
 | `deepseek/deepseek-v3.2` | — | chat | 128K | $0.28 | $0.42 | $0.028 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v3.2-thinking` | — | reasoning | 128K | $0.62 | $1.85 | — | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash` | — | reasoning | 1M | $0.13 | $0.26 | $0.028 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-flash-0731` | — | reasoning | 1M | $0.13 | $0.26 | $0.028 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash-0731` | — | reasoning | 1M | $0.076 | $0.153 | $0.014 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 1M | $0.22 | $0.66 | $0.007 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | 1.0486M | $1.74 | $3.48 | $0.14 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | 1M | $1.32 | $3.96 | $0.132 | — | —/— | — | models.dev official list price |
 | `fish-audio/s1` | — | chat | — | — | — | — | — | —/— | — | models.dev official list price |
@@ -257,8 +258,8 @@
 | `openai/gpt-5.5-pro` | — | reasoning | 1M | $30 | $180 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.6-luna` | — | reasoning | 1.05M | $0.2 | $1.2 | $0.02 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.6-luna-fast` | — | reasoning | 1.05M | $0.4 | $2.4 | $0.04 | — | —/— | — | models.dev official list price |
-| `openai/gpt-5.6-sol` | — | reasoning | 1.05M | $2.5 | $15 | $0.25 | — | —/— | — | models.dev official list price |
-| `openai/gpt-5.6-sol-fast` | — | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
+| `openai/gpt-5.6-sol` | — | reasoning | 1.05M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
+| `openai/gpt-5.6-sol-fast` | — | reasoning | 1.05M | $4 | $20 | $0.4 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.6-terra` | — | reasoning | 1.05M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.6-terra-fast` | — | reasoning | 1.05M | $4 | $24 | $0.4 | — | —/— | — | models.dev official list price |
 | `openai/gpt-image-1` | — | chat | — | $5 | $40 | $1.25 | — | —/— | — | models.dev official list price |

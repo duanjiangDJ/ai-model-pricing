@@ -1,6 +1,4711 @@
 {
-  "schema_version": "26.0.4",
+  "schema_version": "26.1.3",
   "entries": [
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "deepseek",
+      "item_id": "deepseek-v4-flash,deepseek-v4-flash,deepseek-v4-flash,deepseek-v4-pro,deepseek-v4-pro,deepseek-v4-pro,deepseek-v4-flash-vision-exp,deepseek-v4-flash-vision-exp,deepseek-v4-flash-vision-exp",
+      "field": "pricing",
+      "new": {
+        "models": 9
+      },
+      "source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "deepseek/deepseek-v4-flash-vision-exp",
+      "field": "catalog",
+      "new": "deepseek/deepseek-v4-flash-vision-exp",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "stealth/ox-alpha",
+      "field": "catalog",
+      "new": "stealth/ox-alpha",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "deepseek",
+      "item_id": "deepseek-chat",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0.14
+        ],
+        "output": [
+          null,
+          0.28
+        ],
+        "cache_read": [
+          null,
+          0.0028
+        ]
+      },
+      "new": {
+        "input": 0.14,
+        "output": 0.28,
+        "cache_read": 0.0028
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "deepseek",
+      "item_id": "deepseek-reasoner",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0.14
+        ],
+        "output": [
+          null,
+          0.28
+        ],
+        "cache_read": [
+          null,
+          0.0028
+        ]
+      },
+      "new": {
+        "input": 0.14,
+        "output": 0.28,
+        "cache_read": 0.0028
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "deepseek",
+      "item_id": "deepseek-v4-flash",
+      "field": "pricing",
+      "old": {
+        "input": [
+          3.0,
+          0.14
+        ],
+        "output": [
+          9.0,
+          0.28
+        ],
+        "cache_read": [
+          0.1,
+          0.0028
+        ]
+      },
+      "new": {
+        "input": 0.14,
+        "output": 0.28,
+        "cache_read": 0.0028
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "deepseek",
+      "item_id": "deepseek-v4-flash-vision-exp",
+      "field": "pricing",
+      "old": {
+        "input": [
+          3.0,
+          0.14
+        ],
+        "output": [
+          9.0,
+          0.28
+        ],
+        "cache_read": [
+          0.1,
+          0.0028
+        ]
+      },
+      "new": {
+        "input": 0.14,
+        "output": 0.28,
+        "cache_read": 0.0028
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "deepseek",
+      "item_id": "deepseek-v4-pro",
+      "field": "pricing",
+      "old": {
+        "input": [
+          9.0,
+          0.435
+        ],
+        "output": [
+          27.0,
+          0.87
+        ],
+        "cache_read": [
+          0.3,
+          0.003625
+        ]
+      },
+      "new": {
+        "input": 0.435,
+        "output": 0.87,
+        "cache_read": 0.003625
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "google-vertex",
+      "item_id": "claude-fable-5@default",
+      "field": "catalog",
+      "new": "claude-fable-5@default",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "MiniMax-M2.5",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "deepseek-v3.2",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "deepseek-v4-flash",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "deepseek-v4-flash-0731",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "deepseek-v4-pro",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "deepseek-v4-pro-0813",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "glm-5",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "glm-5.1",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "glm-5.2",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "happyhorse-1.1-i2v",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "happyhorse-1.1-r2v",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "happyhorse-1.1-t2v",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "kimi-k2.5",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "kimi-k2.6",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "kimi-k2.7-code",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "qwen-image-2.0",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "qwen-image-2.0-pro",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "qwen3.6-flash",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "qwen3.6-plus",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "qwen3.7-max",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "qwen3.7-plus",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "qwen3.8-max",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "qwen3.8-max-preview",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "wan2.7-image",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "wan2.7-image-pro",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "crossmodel",
+      "item_id": "deepseek/deepseek-v4-flash-vision-exp",
+      "field": "catalog",
+      "new": "deepseek/deepseek-v4-flash-vision-exp",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode-go",
+      "item_id": "glm-5",
+      "field": "catalog",
+      "new": "glm-5",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode-go",
+      "item_id": "kimi-k2.5",
+      "field": "catalog",
+      "new": "kimi-k2.5",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode-go",
+      "item_id": "mimo-v2-omni",
+      "field": "catalog",
+      "new": "mimo-v2-omni",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode-go",
+      "item_id": "mimo-v2-pro",
+      "field": "catalog",
+      "new": "mimo-v2-pro",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode-go",
+      "item_id": "qwen3.5-plus",
+      "field": "catalog",
+      "new": "qwen3.5-plus",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "opencode-go",
+      "item_id": "grok-4.5",
+      "field": "pricing",
+      "old": {
+        "cache_read": [
+          0.3,
+          0.5
+        ]
+      },
+      "new": {
+        "cache_read": 0.5
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "opencode-go",
+      "item_id": "hy3",
+      "field": "pricing",
+      "old": {
+        "input": [
+          0.14,
+          0.0175
+        ],
+        "output": [
+          0.58,
+          0.0725
+        ],
+        "cache_read": [
+          0.035,
+          0.004375
+        ]
+      },
+      "new": {
+        "input": 0.0175,
+        "output": 0.0725,
+        "cache_read": 0.004375
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "opencode-go",
+      "item_id": "minimax-m2.5",
+      "field": "pricing",
+      "old": {
+        "cache_read": [
+          0.06,
+          0.03
+        ]
+      },
+      "new": {
+        "cache_read": 0.03
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "opencode-go",
+      "item_id": "ox-alpha-free",
+      "field": "pricing",
+      "old": {
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "merge-gateway",
+      "item_id": "deepseek/deepseek-v4-pro-0423",
+      "field": "catalog",
+      "new": "deepseek/deepseek-v4-pro-0423",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "merge-gateway",
+      "item_id": "openai/gpt-5.6-sol",
+      "field": "pricing",
+      "old": {
+        "input": [
+          5,
+          4
+        ],
+        "output": [
+          30,
+          24
+        ]
+      },
+      "new": {
+        "input": 4,
+        "output": 24
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-coding-plan-cn",
+      "item_id": "MiniMax-M2.5",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-coding-plan-cn",
+      "item_id": "glm-4.7",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-coding-plan-cn",
+      "item_id": "glm-5",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-coding-plan-cn",
+      "item_id": "kimi-k2.5",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-coding-plan-cn",
+      "item_id": "qwen3-coder-next",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-coding-plan-cn",
+      "item_id": "qwen3-coder-plus",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-coding-plan-cn",
+      "item_id": "qwen3-max-2026-01-23",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-coding-plan-cn",
+      "item_id": "qwen3.5-plus",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-coding-plan-cn",
+      "item_id": "qwen3.6-plus",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-coding-plan-cn",
+      "item_id": "qwen3.7-plus",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "xiaomi",
+      "item_id": "mimo-v2-flash",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0.14
+        ],
+        "output": [
+          null,
+          0.28
+        ],
+        "cache_read": [
+          null,
+          0.0028
+        ]
+      },
+      "new": {
+        "input": 0.14,
+        "output": 0.28,
+        "cache_read": 0.0028
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "xiaomi",
+      "item_id": "mimo-v2-omni",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0.14
+        ],
+        "output": [
+          null,
+          0.28
+        ],
+        "cache_read": [
+          null,
+          0.0028
+        ]
+      },
+      "new": {
+        "input": 0.14,
+        "output": 0.28,
+        "cache_read": 0.0028
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "xiaomi",
+      "item_id": "mimo-v2-pro",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0.435
+        ],
+        "output": [
+          null,
+          0.87
+        ],
+        "cache_read": [
+          null,
+          0.0036
+        ]
+      },
+      "new": {
+        "input": 0.435,
+        "output": 0.87,
+        "cache_read": 0.0036
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-coding-plan",
+      "item_id": "MiniMax-M2.5",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-coding-plan",
+      "item_id": "glm-4.7",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-coding-plan",
+      "item_id": "glm-5",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-coding-plan",
+      "item_id": "kimi-k2.5",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-coding-plan",
+      "item_id": "qwen3-coder-next",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-coding-plan",
+      "item_id": "qwen3-coder-plus",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-coding-plan",
+      "item_id": "qwen3-max-2026-01-23",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-coding-plan",
+      "item_id": "qwen3.5-plus",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-coding-plan",
+      "item_id": "qwen3.6-plus",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-coding-plan",
+      "item_id": "qwen3.7-plus",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "kuae-cloud-coding-plan",
+      "item_id": "GLM-4.7",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "ofox",
+      "item_id": "bailian/qwen3.8-27b",
+      "field": "catalog",
+      "new": "bailian/qwen3.8-27b",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "ofox",
+      "item_id": "deepseek/deepseek-v4-flash-vision-exp",
+      "field": "catalog",
+      "new": "deepseek/deepseek-v4-flash-vision-exp",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "ofox",
+      "item_id": "deepseek/deepseek-v4-pro-0423",
+      "field": "catalog",
+      "new": "deepseek/deepseek-v4-pro-0423",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "claude-3-5-haiku",
+      "field": "catalog",
+      "new": "claude-3-5-haiku",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "claude-opus-4-1",
+      "field": "catalog",
+      "new": "claude-opus-4-1",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "claude-sonnet-4",
+      "field": "catalog",
+      "new": "claude-sonnet-4",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "deepseek-v4-flash-free",
+      "field": "catalog",
+      "new": "deepseek-v4-flash-free",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "gemini-3-pro",
+      "field": "catalog",
+      "new": "gemini-3-pro",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "glm-4.6",
+      "field": "catalog",
+      "new": "glm-4.6",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "glm-4.7",
+      "field": "catalog",
+      "new": "glm-4.7",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "glm-4.7-free",
+      "field": "catalog",
+      "new": "glm-4.7-free",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "glm-5-free",
+      "field": "catalog",
+      "new": "glm-5-free",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "grok-code",
+      "field": "catalog",
+      "new": "grok-code",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "hy3-preview-free",
+      "field": "catalog",
+      "new": "hy3-preview-free",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "kimi-k2",
+      "field": "catalog",
+      "new": "kimi-k2",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "kimi-k2-thinking",
+      "field": "catalog",
+      "new": "kimi-k2-thinking",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "kimi-k2.5-free",
+      "field": "catalog",
+      "new": "kimi-k2.5-free",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "laguna-s-2.1-free",
+      "field": "catalog",
+      "new": "laguna-s-2.1-free",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "ling-2.6-flash-free",
+      "field": "catalog",
+      "new": "ling-2.6-flash-free",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "ling-3.0-flash-free",
+      "field": "catalog",
+      "new": "ling-3.0-flash-free",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "ling-3.0-tiny-free",
+      "field": "catalog",
+      "new": "ling-3.0-tiny-free",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "longcat-2.0-free",
+      "field": "catalog",
+      "new": "longcat-2.0-free",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "mimo-v2-flash-free",
+      "field": "catalog",
+      "new": "mimo-v2-flash-free",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "mimo-v2-omni-free",
+      "field": "catalog",
+      "new": "mimo-v2-omni-free",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "mimo-v2-pro-free",
+      "field": "catalog",
+      "new": "mimo-v2-pro-free",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "minimax-m2.1",
+      "field": "catalog",
+      "new": "minimax-m2.1",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "minimax-m2.1-free",
+      "field": "catalog",
+      "new": "minimax-m2.1-free",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "minimax-m2.5-free",
+      "field": "catalog",
+      "new": "minimax-m2.5-free",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "minimax-m3-free",
+      "field": "catalog",
+      "new": "minimax-m3-free",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "nemotron-3-super-free",
+      "field": "catalog",
+      "new": "nemotron-3-super-free",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "north-mini-code-free",
+      "field": "catalog",
+      "new": "north-mini-code-free",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "qwen3-coder",
+      "field": "catalog",
+      "new": "qwen3-coder",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "qwen3.6-plus-free",
+      "field": "catalog",
+      "new": "qwen3.6-plus-free",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "ring-2.6-1t-free",
+      "field": "catalog",
+      "new": "ring-2.6-1t-free",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "trinity-large-preview-free",
+      "field": "catalog",
+      "new": "trinity-large-preview-free",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "deepseek-v4-flash",
+      "field": "pricing",
+      "old": {
+        "input": [
+          0.22,
+          0.14
+        ],
+        "output": [
+          0.66,
+          0.28
+        ],
+        "cache_read": [
+          0.007,
+          0.028
+        ]
+      },
+      "new": {
+        "input": 0.14,
+        "output": 0.28,
+        "cache_read": 0.028
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "deepseek-v4-pro",
+      "field": "pricing",
+      "old": {
+        "input": [
+          0.66,
+          1.74
+        ],
+        "output": [
+          1.98,
+          3.84
+        ],
+        "cache_read": [
+          0.022,
+          0.145
+        ]
+      },
+      "new": {
+        "input": 1.74,
+        "output": 3.84,
+        "cache_read": 0.145
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "gpt-5.6-sol",
+      "field": "pricing",
+      "old": {
+        "input": [
+          2.5,
+          2
+        ],
+        "output": [
+          15,
+          10
+        ],
+        "cache_read": [
+          0.25,
+          0.2
+        ]
+      },
+      "new": {
+        "input": 2,
+        "output": 10,
+        "cache_read": 0.2
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "gpt-5.6-terra",
+      "field": "pricing",
+      "old": {
+        "input": [
+          2,
+          2.5
+        ],
+        "output": [
+          12,
+          15
+        ],
+        "cache_read": [
+          0.2,
+          0.25
+        ]
+      },
+      "new": {
+        "input": 2.5,
+        "output": 15,
+        "cache_read": 0.25
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "grok-4.5",
+      "field": "pricing",
+      "old": {
+        "cache_read": [
+          0.3,
+          0.5
+        ]
+      },
+      "new": {
+        "cache_read": 0.5
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "kimi-k2.5",
+      "field": "pricing",
+      "old": {
+        "cache_read": [
+          0.1,
+          0.08
+        ]
+      },
+      "new": {
+        "cache_read": 0.08
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "hyper",
+      "item_id": "gemma-4-26b-a4b-it",
+      "field": "pricing",
+      "old": {
+        "input": [
+          0.12,
+          0.11
+        ],
+        "output": [
+          0.42,
+          0.408
+        ]
+      },
+      "new": {
+        "input": 0.11,
+        "output": 0.408
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "hyper",
+      "item_id": "glm-5",
+      "field": "pricing",
+      "old": {
+        "input": [
+          0.83,
+          0.91
+        ],
+        "output": [
+          2.558,
+          2.934
+        ]
+      },
+      "new": {
+        "input": 0.91,
+        "output": 2.934
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "hyper",
+      "item_id": "kimi-k2.5",
+      "field": "pricing",
+      "old": {
+        "input": [
+          0.5504,
+          0.5444
+        ],
+        "output": [
+          2.885,
+          2.855
+        ]
+      },
+      "new": {
+        "input": 0.5444,
+        "output": 2.855
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "scaleway",
+      "item_id": "deepseek-v4-flash-0731",
+      "field": "catalog",
+      "new": "deepseek-v4-flash-0731",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "tencent-coding-plan",
+      "item_id": "glm-5",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "tencent-coding-plan",
+      "item_id": "hunyuan-2.0-instruct",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "tencent-coding-plan",
+      "item_id": "hunyuan-2.0-thinking",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "tencent-coding-plan",
+      "item_id": "hunyuan-t1",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "tencent-coding-plan",
+      "item_id": "hunyuan-turbos",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "tencent-coding-plan",
+      "item_id": "kimi-k2.5",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "tencent-coding-plan",
+      "item_id": "minimax-m2.5",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "tencent-coding-plan",
+      "item_id": "tc-code-latest",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "scnet-token-plan",
+      "item_id": "DeepSeek-V3.2",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "scnet-token-plan",
+      "item_id": "DeepSeek-V4-Flash",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "scnet-token-plan",
+      "item_id": "DeepSeek-V4-Flash-0731",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "scnet-token-plan",
+      "item_id": "DeepSeek-V4-Pro",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "scnet-token-plan",
+      "item_id": "GLM-5",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "scnet-token-plan",
+      "item_id": "GLM-5.1",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "scnet-token-plan",
+      "item_id": "GLM-5.2",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "scnet-token-plan",
+      "item_id": "Kimi-K2.5",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "scnet-token-plan",
+      "item_id": "Kimi-K2.6",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "scnet-token-plan",
+      "item_id": "Kimi-K2.7-Code",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "scnet-token-plan",
+      "item_id": "Kimi-K3",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "scnet-token-plan",
+      "item_id": "MiMo-V2.5-Pro",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "scnet-token-plan",
+      "item_id": "MiniMax-M2.5",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "scnet-token-plan",
+      "item_id": "MiniMax-M2.7",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "scnet-token-plan",
+      "item_id": "MiniMax-M3",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "scnet-token-plan",
+      "item_id": "Qwen3.8-Max",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "vercel",
+      "item_id": "deepseek/deepseek-v4-flash-vision-exp",
+      "field": "catalog",
+      "new": "deepseek/deepseek-v4-flash-vision-exp",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "vercel",
+      "item_id": "deepseek/deepseek-v4-flash-0731",
+      "field": "pricing",
+      "old": {
+        "input": [
+          0.13,
+          0.076
+        ],
+        "output": [
+          0.26,
+          0.153
+        ],
+        "cache_read": [
+          0.028,
+          0.014
+        ]
+      },
+      "new": {
+        "input": 0.076,
+        "output": 0.153,
+        "cache_read": 0.014
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "vercel",
+      "item_id": "openai/gpt-5.6-sol",
+      "field": "pricing",
+      "old": {
+        "input": [
+          2.5,
+          2
+        ],
+        "output": [
+          15,
+          10
+        ],
+        "cache_read": [
+          0.25,
+          0.2
+        ]
+      },
+      "new": {
+        "input": 2,
+        "output": 10,
+        "cache_read": 0.2
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "vercel",
+      "item_id": "openai/gpt-5.6-sol-fast",
+      "field": "pricing",
+      "old": {
+        "input": [
+          5,
+          4
+        ],
+        "output": [
+          30,
+          20
+        ],
+        "cache_read": [
+          0.5,
+          0.4
+        ]
+      },
+      "new": {
+        "input": 4,
+        "output": 20,
+        "cache_read": 0.4
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "edenai",
+      "item_id": "deepseek/deepseek-v4-flash-vision-exp",
+      "field": "catalog",
+      "new": "deepseek/deepseek-v4-flash-vision-exp",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "edenai",
+      "item_id": "nebius/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "field": "catalog",
+      "new": "nebius/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "edenai",
+      "item_id": "fireworks_ai/accounts/fireworks/models/deepseek-v4-flash-0731",
+      "field": "pricing",
+      "old": {
+        "input": [
+          0.14,
+          0.22
+        ],
+        "output": [
+          0.28,
+          0.66
+        ],
+        "cache_read": [
+          0.028,
+          0.007
+        ]
+      },
+      "new": {
+        "input": 0.22,
+        "output": 0.66,
+        "cache_read": 0.007
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "edenai",
+      "item_id": "ionos/meta-llama/Llama-3.3-70B-Instruct",
+      "field": "pricing",
+      "old": {
+        "input": [
+          0.759265,
+          0.760435
+        ],
+        "output": [
+          0.759265,
+          0.760435
+        ]
+      },
+      "new": {
+        "input": 0.760435,
+        "output": 0.760435
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "edenai",
+      "item_id": "ionos/openai/gpt-oss-120b",
+      "field": "pricing",
+      "old": {
+        "input": [
+          0.175215,
+          0.175485
+        ],
+        "output": [
+          0.759265,
+          0.760435
+        ]
+      },
+      "new": {
+        "input": 0.175485,
+        "output": 0.760435
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "edenai",
+      "item_id": "openai/gpt-5.6-sol",
+      "field": "pricing",
+      "old": {
+        "input": [
+          5,
+          4
+        ],
+        "output": [
+          30,
+          20
+        ],
+        "cache_read": [
+          0.5,
+          0.4
+        ]
+      },
+      "new": {
+        "input": 4,
+        "output": 20,
+        "cache_read": 0.4
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "edenai",
+      "item_id": "openai/gpt-latest",
+      "field": "pricing",
+      "old": {
+        "input": [
+          5,
+          4
+        ],
+        "output": [
+          30,
+          20
+        ],
+        "cache_read": [
+          0.5,
+          0.4
+        ]
+      },
+      "new": {
+        "input": 4,
+        "output": 20,
+        "cache_read": 0.4
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "edenai",
+      "item_id": "qwen/deepseek-v4-flash-0731",
+      "field": "pricing",
+      "old": {
+        "input": [
+          0.40172,
+          0.352
+        ],
+        "output": [
+          1.20516,
+          1.056
+        ]
+      },
+      "new": {
+        "input": 0.352,
+        "output": 1.056
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "edenai",
+      "item_id": "qwen/deepseek-v4-pro-0813",
+      "field": "pricing",
+      "old": {
+        "input": [
+          1.20516,
+          1.1616
+        ],
+        "output": [
+          3.61548,
+          3.4848
+        ]
+      },
+      "new": {
+        "input": 1.1616,
+        "output": 3.4848
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "edenai",
+      "item_id": "scaleway/deepseek-v4-flash-0731",
+      "field": "pricing",
+      "old": {
+        "input": [
+          0.46724,
+          0.46796
+        ],
+        "output": [
+          0.93448,
+          0.93592
+        ]
+      },
+      "new": {
+        "input": 0.46796,
+        "output": 0.93592
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "edenai",
+      "item_id": "scaleway/gpt-oss-120b",
+      "field": "pricing",
+      "old": {
+        "input": [
+          0.175215,
+          0.175485
+        ],
+        "output": [
+          0.70086,
+          0.70194
+        ]
+      },
+      "new": {
+        "input": 0.175485,
+        "output": 0.70194
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "edenai",
+      "item_id": "scaleway/llama-3.3-70b-instruct",
+      "field": "pricing",
+      "old": {
+        "input": [
+          1.05129,
+          1.05291
+        ],
+        "output": [
+          1.05129,
+          1.05291
+        ]
+      },
+      "new": {
+        "input": 1.05291,
+        "output": 1.05291
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "MiniMax-M2.5",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "deepseek-v3.2",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "deepseek-v4-flash",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "deepseek-v4-flash-0731",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "deepseek-v4-pro",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "deepseek-v4-pro-0813",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "glm-5",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "glm-5.1",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "glm-5.2",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "happyhorse-1.1-i2v",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "happyhorse-1.1-r2v",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "happyhorse-1.1-t2v",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "kimi-k2.5",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "kimi-k2.6",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "kimi-k2.7-code",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "qwen-image-2.0",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "qwen-image-2.0-pro",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "qwen3.6-flash",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "qwen3.6-plus",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "qwen3.7-max",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "qwen3.7-plus",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "qwen3.8-max",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "qwen3.8-max-preview",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "wan2.7-image",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "wan2.7-image-pro",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "tencent-token-plan",
+      "item_id": "hy3",
+      "field": "pricing",
+      "old": {
+        "input": [
+          null,
+          0
+        ],
+        "output": [
+          null,
+          0
+        ],
+        "cache_read": [
+          null,
+          0
+        ]
+      },
+      "new": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "kilo",
+      "item_id": "meituan/longcat-2.0-free",
+      "field": "catalog",
+      "new": "meituan/longcat-2.0-free",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "kilo",
+      "item_id": "meta/muse-spark-1.2-contributor",
+      "field": "catalog",
+      "new": "meta/muse-spark-1.2-contributor",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "kilo",
+      "item_id": "thinkingmachines/inkling-small:free",
+      "field": "catalog",
+      "new": "thinkingmachines/inkling-small:free",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "kilo",
+      "item_id": "thinkingmachines/inkling:free",
+      "field": "catalog",
+      "new": "thinkingmachines/inkling:free",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "kilo",
+      "item_id": "deepseek/deepseek-v4-flash-0731",
+      "field": "pricing",
+      "old": {
+        "input": [
+          0.14,
+          0.44
+        ],
+        "output": [
+          0.28,
+          1.32
+        ]
+      },
+      "new": {
+        "input": 0.44,
+        "output": 1.32
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "kilo",
+      "item_id": "deepseek/deepseek-v4-flash-vision-exp",
+      "field": "pricing",
+      "old": {
+        "input": [
+          0.22,
+          0.44
+        ],
+        "output": [
+          0.66,
+          1.32
+        ],
+        "cache_read": [
+          0.007,
+          0.014
+        ]
+      },
+      "new": {
+        "input": 0.44,
+        "output": 1.32,
+        "cache_read": 0.014
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "kilo",
+      "item_id": "mistralai/mistral-small-3.2-24b-instruct",
+      "field": "pricing",
+      "old": {
+        "input": [
+          0.09375,
+          0.075
+        ],
+        "output": [
+          0.25,
+          0.2
+        ]
+      },
+      "new": {
+        "input": 0.075,
+        "output": 0.2
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "kilo",
+      "item_id": "openai/gpt-5.6-sol",
+      "field": "pricing",
+      "old": {
+        "input": [
+          5,
+          4
+        ],
+        "output": [
+          30,
+          20
+        ],
+        "cache_read": [
+          0.5,
+          0.4
+        ]
+      },
+      "new": {
+        "input": 4,
+        "output": 20,
+        "cache_read": 0.4
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "kilo",
+      "item_id": "openai/gpt-5.6-sol-pro",
+      "field": "pricing",
+      "old": {
+        "input": [
+          5,
+          4
+        ],
+        "output": [
+          30,
+          20
+        ],
+        "cache_read": [
+          0.5,
+          0.4
+        ]
+      },
+      "new": {
+        "input": 4,
+        "output": 20,
+        "cache_read": 0.4
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "kilo",
+      "item_id": "qwen/qwen3.8-27b",
+      "field": "pricing",
+      "old": {
+        "input": [
+          0.575,
+          0.5
+        ],
+        "output": [
+          3.45,
+          3
+        ],
+        "cache_read": [
+          0.115,
+          0.1
+        ]
+      },
+      "new": {
+        "input": 0.5,
+        "output": 3,
+        "cache_read": 0.1
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "kilo",
+      "item_id": "tencent/hy3",
+      "field": "pricing",
+      "old": {
+        "input": [
+          0.14,
+          0.132
+        ],
+        "output": [
+          0.58,
+          0.528
+        ],
+        "cache_read": [
+          0.035,
+          0.033
+        ]
+      },
+      "new": {
+        "input": 0.132,
+        "output": 0.528,
+        "cache_read": 0.033
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "kilo",
+      "item_id": "~openai/gpt-latest",
+      "field": "pricing",
+      "old": {
+        "input": [
+          2.5,
+          2
+        ],
+        "output": [
+          15,
+          10
+        ],
+        "cache_read": [
+          0.25,
+          0.2
+        ]
+      },
+      "new": {
+        "input": 2,
+        "output": 10,
+        "cache_read": 0.2
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "venice",
+      "item_id": "stealth-ox-alpha",
+      "field": "catalog",
+      "new": "stealth-ox-alpha",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "meta/muse-spark-1.2-contributor",
+      "field": "catalog",
+      "new": "meta/muse-spark-1.2-contributor",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "thinkingmachines/inkling-small:free",
+      "field": "catalog",
+      "new": "thinkingmachines/inkling-small:free",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "thinkingmachines/inkling:free",
+      "field": "catalog",
+      "new": "thinkingmachines/inkling:free",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "remove",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepcogito/cogito-v2.1-671b",
+      "field": "catalog",
+      "old": "deepcogito/cogito-v2.1-671b",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "remove",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-oss-20b:free",
+      "field": "catalog",
+      "old": "openai/gpt-oss-20b:free",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-chat-v3.1",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": 2.5e-07,
+          "output": 9.5e-07,
+          "cache_read": 1.3e-07,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": 5.5e-07,
+          "output": 1.65e-06,
+          "cache_read": 5.5e-07,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v3.2",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": 2.69e-07,
+          "output": 4e-07,
+          "cache_read": 1.345e-07,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": 2.6e-07,
+          "output": 3.8e-07,
+          "cache_read": 1.3e-07,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-flash",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": 7.98e-08,
+          "output": 1.596e-07,
+          "cache_read": 1.596e-08,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": 6.846e-08,
+          "output": 1.3692e-07,
+          "cache_read": 1.3692e-08,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-flash-vision-exp",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": 2.2e-07,
+          "output": 6.6e-07,
+          "cache_read": 7e-09,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": 4.4e-07,
+          "output": 1.32e-06,
+          "cache_read": 1.4e-08,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-pro",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": 1.6e-06,
+          "output": 3.2e-06,
+          "cache_read": 1.35e-07,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": 4.3065e-07,
+          "output": 8.613e-07,
+          "cache_read": 3.58875e-08,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "minimax/minimax-m2.5",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": 2.7e-07,
+          "output": 9.5e-07,
+          "cache_read": 3e-08,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": 2.7e-07,
+          "output": 1.08e-06,
+          "cache_read": 2.7e-08,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "mistralai/mistral-small-3.2-24b-instruct",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": 9.375e-08,
+          "output": 2.5e-07,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": 7.5e-08,
+          "output": 2e-07,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "moonshotai/kimi-k2.6",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": 5.795e-07,
+          "output": 2.44e-06,
+          "cache_read": 9.76e-08,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": 5.415e-07,
+          "output": 2.28e-06,
+          "cache_read": 9.12e-08,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-5.6-sol",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": 2.5e-06,
+          "output": 1.5e-05,
+          "cache_read": 2.5e-07,
+          "cache_write": 3.125e-06
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": 2e-06,
+          "output": 1e-05,
+          "cache_read": 2e-07,
+          "cache_write": 2.5e-06
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-5.6-sol-pro",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": 2.5e-06,
+          "output": 1.5e-05,
+          "cache_read": 2.5e-07,
+          "cache_write": 3.125e-06
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": 2e-06,
+          "output": 1e-05,
+          "cache_read": 2e-07,
+          "cache_write": 2.5e-06
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-5.6-sol-pro:batch",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": 1.25e-06,
+          "output": 7.5e-06,
+          "cache_read": 1.25e-07,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": 1e-06,
+          "output": 5e-06,
+          "cache_read": 1e-07,
+          "cache_write": 1.25e-06
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-5.6-sol:batch",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": 1.25e-06,
+          "output": 7.5e-06,
+          "cache_read": 1.25e-07,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": 1e-06,
+          "output": 5e-06,
+          "cache_read": 1e-07,
+          "cache_write": 1.25e-06
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "qwen/qwen3-next-80b-a3b-instruct",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": 9e-08,
+          "output": 1.1e-06,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": 1e-07,
+          "output": 1.1e-06,
+          "cache_read": 7e-08,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-22T09:32:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~openai/gpt-latest",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": 2.5e-06,
+          "output": 1.5e-05,
+          "cache_read": 2.5e-07,
+          "cache_write": 3.125e-06
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": 2e-06,
+          "output": 1e-05,
+          "cache_read": 2e-07,
+          "cache_write": 2.5e-06
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-08-21T13:59:17Z",
       "kind": "verify",

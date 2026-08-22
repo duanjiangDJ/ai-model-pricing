@@ -6,13 +6,14 @@
 - Homepage: https://cloud.google.com/vertex-ai/generative-ai/docs/models
 - Pricing page: https://cloud.google.com/vertex-ai/generative-ai/docs/models
 - Currency: USD
-- Data updated: 2026-08-21T15:59:09Z
-- Verified: 2026-08-21T13:18:01Z
+- Data updated: 2026-08-22T09:32:50Z
+- Verified: 2026-08-22T09:32:50Z
 
-**42** models in total.
+**43** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
+| `claude-fable-5@default` | — | reasoning | 1M | $10 | $50 | $1 | — | —/— | — | models.dev official list price |
 | `claude-haiku-4-5@20251001` | — | reasoning | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `claude-opus-4-1@20250805` | — | reasoning | 200K | $15 | $75 | $1.5 | — | —/— | — | models.dev official list price |
 | `claude-opus-4-5@20251101` | — | reasoning | 200K | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |

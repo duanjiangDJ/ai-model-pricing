@@ -6,8 +6,8 @@
 - Homepage: https://docs.cline.bot/getting-started/clinepass
 - Pricing page: https://docs.cline.bot/getting-started/clinepass
 - Currency: USD
-- Data updated: 2026-08-21T13:21:07Z
-- Verified: 2026-08-21T13:21:07Z
+- Data updated: 2026-08-22T09:32:50Z
+- Verified: 2026-08-22T09:32:50Z
 
 **11** models in total.
 

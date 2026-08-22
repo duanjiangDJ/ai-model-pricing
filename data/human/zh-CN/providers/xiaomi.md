@@ -6,16 +6,16 @@
 - 官网: https://platform.xiaomimimo.com/#/docs
 - 定价页: https://mimo.mi.com/docs/price/pay-as-you-go
 - 币种: USD
-- 数据更新时间: 2026-08-21T15:59:09Z
-- 核实时间: 2026-08-21T00:00:00Z
+- 数据更新时间: 2026-08-22T09:32:50Z
+- 核实时间: 2026-08-22T09:32:50Z
 
 共 **10** 个模型。
 
 | 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| `mimo-v2-flash` | ❌ 下线 | reasoning | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Officially deprecated 2026-06-30 (MiMo-V2 s… |
-| `mimo-v2-omni` | ❌ 下线 | reasoning | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Officially deprecated 2026-06-30 (MiMo-V2 s… |
-| `mimo-v2-pro` | ❌ 下线 | reasoning | 1.04858M | — | — | — | — | —/— | — | models.dev official list price \| Officially deprecated 2026-06-30 (MiMo-V2 s… |
+| `mimo-v2-flash` | ❌ 下线 | reasoning | 262.144K | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price \| Officially deprecated 2026-06-30 (MiMo-V2 s… |
+| `mimo-v2-omni` | ❌ 下线 | reasoning | 262.144K | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price \| Officially deprecated 2026-06-30 (MiMo-V2 s… |
+| `mimo-v2-pro` | ❌ 下线 | reasoning | 1.04858M | $0.435 | $0.87 | $0.0036 | — | —/— | — | models.dev official list price \| Officially deprecated 2026-06-30 (MiMo-V2 s… |
 | `mimo-v2-tts` | ❌ 下线 | chat | 8.192K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
 | `mimo-v2.5` | ✅ 在线 | reasoning | 1.04858M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price \| Official pay-as-you-go (USD/1M tokens, mimo… |
 | `mimo-v2.5-pro` | ✅ 在线 | reasoning | 1.04858M | $0.435 | $0.87 | $0.0036 | — | —/— | — | models.dev official list price \| Official pay-as-you-go (USD/1M tokens, mimo… |

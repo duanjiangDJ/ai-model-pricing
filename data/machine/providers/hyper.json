@@ -7,8 +7,8 @@
   "homepage": "https://hyper.charm.land",
   "pricing_page": "https://hyper.charm.land",
   "currency": "USD",
-  "updated_at": "2026-08-21T13:21:07Z",
-  "verified_at": "2026-08-21T13:21:07Z",
+  "updated_at": "2026-08-22T09:32:50Z",
+  "verified_at": "2026-08-22T09:32:50Z",
   "models": [
     {
       "id": "deepseek-v4-flash",
@@ -113,8 +113,8 @@
       "max_output": 25600,
       "pricing": {
         "per_mtok": {
-          "input": 0.12,
-          "output": 0.42,
+          "input": 0.11,
+          "output": 0.408,
           "cache_read": null,
           "cache_write": null
         },
@@ -136,8 +136,8 @@
       "max_output": 20275,
       "pricing": {
         "per_mtok": {
-          "input": 0.83,
-          "output": 2.558,
+          "input": 0.91,
+          "output": 2.934,
           "cache_read": null,
           "cache_write": null
         },
@@ -228,8 +228,8 @@
       "max_output": 26214,
       "pricing": {
         "per_mtok": {
-          "input": 0.5504,
-          "output": 2.885,
+          "input": 0.5444,
+          "output": 2.855,
           "cache_read": null,
           "cache_write": null
         },

@@ -14,9 +14,9 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
-## 26.0.4 — 2026-08-22T16:00Z (feature update)
+## 26.1.3 — 2026-08-22T09:33 (content update)
 
-- feature: UTC version timestamps, refined branch protection (bot-PAT auto-merge only) + pr-check security review, provider tiers reorganized (T0-T4 by R&D leadership, alphabetical, dedup) with automated/manual/pending status
+- chore: price sync
 
 ## 26.0.3 — 2026-08-22T15:30 (feature update)
 

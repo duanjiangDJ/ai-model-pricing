@@ -7,8 +7,8 @@
   "homepage": "https://docs.nano-gpt.com",
   "pricing_page": "https://docs.nano-gpt.com",
   "currency": "USD",
-  "updated_at": "2026-08-21T11:28:01Z",
-  "verified_at": "2026-08-21T11:28:01Z",
+  "updated_at": "2026-08-22T09:32:50Z",
+  "verified_at": "2026-08-22T09:32:50Z",
   "models": [
     {
       "id": "Baichuan-M2",
@@ -4554,6 +4554,29 @@
         "per_mtok": {
           "input": 0.14,
           "output": 0.28,
+          "cache_read": 0.014,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "name": "DeepSeek V4 Flash Vision Exp",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 384000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.44,
+          "output": 1.32,
           "cache_read": 0.014,
           "cache_write": null
         },
@@ -12099,6 +12122,29 @@
           "input": 0.3,
           "output": 0.3,
           "cache_read": 0.15,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "stealth/ox-alpha",
+      "name": "Ox Alpha",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 32768,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.05,
+          "output": 0.05,
+          "cache_read": 0.025,
           "cache_write": null
         },
         "batch": null,

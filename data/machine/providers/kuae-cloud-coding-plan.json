@@ -7,8 +7,8 @@
   "homepage": "https://docs.mthreads.com/kuaecloud/kuaecloud-doc-online/coding_plan/",
   "pricing_page": "https://docs.mthreads.com/kuaecloud/kuaecloud-doc-online/coding_plan/",
   "currency": "USD",
-  "updated_at": "2026-08-21T13:21:07Z",
-  "verified_at": "2026-08-21T13:21:07Z",
+  "updated_at": "2026-08-22T09:32:50Z",
+  "verified_at": "2026-08-22T09:32:50Z",
   "models": [
     {
       "id": "GLM-4.7",
@@ -21,9 +21,9 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
           "cache_write": null
         },
         "batch": null,

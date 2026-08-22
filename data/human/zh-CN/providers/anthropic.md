@@ -6,8 +6,8 @@
 - 官网: https://docs.anthropic.com/en/docs/about-claude/models
 - 定价页: https://www.anthropic.com/pricing
 - 币种: USD
-- 数据更新时间: 2026-08-21T13:59:17Z
-- 核实时间: 2026-08-21T13:59:17Z
+- 数据更新时间: 2026-08-22T09:32:50Z
+- 核实时间: 2026-08-22T09:32:50Z
 
 共 **16** 个模型。
 

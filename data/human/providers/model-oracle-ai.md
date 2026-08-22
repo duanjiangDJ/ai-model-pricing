@@ -6,8 +6,8 @@
 - Homepage: https://modeloracle.com/setup/
 - Pricing page: https://modeloracle.com/setup/
 - Currency: USD
-- Data updated: 2026-08-21T13:18:01Z
-- Verified: 2026-08-21T13:18:01Z
+- Data updated: 2026-08-22T09:32:50Z
+- Verified: 2026-08-22T09:32:50Z
 
 **15** models in total.
 

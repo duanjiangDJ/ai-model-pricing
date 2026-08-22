@@ -6,8 +6,8 @@
 - Homepage: https://submodel.gitbook.io
 - Pricing page: https://submodel.gitbook.io
 - Currency: USD
-- Data updated: 2026-08-21T13:21:07Z
-- Verified: 2026-08-21T13:21:07Z
+- Data updated: 2026-08-22T09:32:50Z
+- Verified: 2026-08-22T09:32:50Z
 
 **9** models in total.
 

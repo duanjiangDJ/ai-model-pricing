@@ -6,8 +6,8 @@
 - Homepage: https://www.jalapeno-cloud.ai/docs/
 - Pricing page: https://www.jalapeno-cloud.ai/docs/
 - Currency: USD
-- Data updated: 2026-08-21T11:28:01Z
-- Verified: 2026-08-21T11:28:01Z
+- Data updated: 2026-08-22T09:32:50Z
+- Verified: 2026-08-22T09:32:50Z
 
 **17** models in total.
 

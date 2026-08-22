@@ -6,10 +6,10 @@
 - Homepage: https://ofox.ai/docs
 - Pricing page: https://ofox.ai/docs
 - Currency: USD
-- Data updated: 2026-08-21T13:21:07Z
-- Verified: 2026-08-21T13:21:07Z
+- Data updated: 2026-08-22T09:32:50Z
+- Verified: 2026-08-22T09:32:50Z
 
-**107** models in total.
+**110** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -44,10 +44,13 @@
 | `bailian/qwen3.6-plus` | — | reasoning | 1M | $0.5 | $3 | $0.05 | — | —/— | — | models.dev official list price |
 | `bailian/qwen3.7-max` | — | reasoning | 1M | $2.5 | $7.5 | $0.5 | — | —/— | — | models.dev official list price |
 | `bailian/qwen3.7-plus` | — | reasoning | 1M | $0.4 | $1.6 | $0.08 | — | —/— | — | models.dev official list price |
+| `bailian/qwen3.8-27b` | — | reasoning | 1.13107M | $0.45 | $3.2 | $0.05 | — | —/— | — | models.dev official list price |
 | `bailian/qwen3.8-max` | — | reasoning | 1M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v3.2` | — | reasoning | 128K | $0.29 | $0.43 | $0.06 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash` | — | reasoning | 1M | $0.44 | $1.32 | $0.014 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 1M | $0.44 | $1.32 | $0.014 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | 1M | $1.32 | $3.96 | $0.044 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-pro-0423` | — | reasoning | 1M | $1.32 | $3.96 | $0.044 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | 1M | $1.32 | $3.96 | $0.044 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-flash` | — | reasoning | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-flash-lite` | — | reasoning | 1.04858M | $0.1 | $0.4 | $0.025 | — | —/— | — | models.dev official list price |

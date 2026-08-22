@@ -6,8 +6,8 @@
 - Homepage: https://lucidquery.com/docs
 - Pricing page: https://lucidquery.com/docs
 - Currency: USD
-- Data updated: 2026-08-21T13:21:07Z
-- Verified: 2026-08-21T13:21:07Z
+- Data updated: 2026-08-22T09:32:50Z
+- Verified: 2026-08-22T09:32:50Z
 
 **4** models in total.
 

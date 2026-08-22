@@ -6,8 +6,8 @@
 - 官网: https://llama.developer.meta.com/docs/models
 - 定价页: https://llama.developer.meta.com/docs/models
 - 币种: USD
-- 数据更新时间: 2026-08-21T13:21:07Z
-- 核实时间: 2026-08-21T13:21:07Z
+- 数据更新时间: 2026-08-22T09:32:50Z
+- 核实时间: 2026-08-22T09:32:50Z
 
 共 **7** 个模型。
 

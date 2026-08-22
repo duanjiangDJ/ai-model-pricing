@@ -6,8 +6,8 @@
 - 官网: https://hyper.charm.land
 - 定价页: https://hyper.charm.land
 - 币种: USD
-- 数据更新时间: 2026-08-21T13:21:07Z
-- 核实时间: 2026-08-21T13:21:07Z
+- 数据更新时间: 2026-08-22T09:32:50Z
+- 核实时间: 2026-08-22T09:32:50Z
 
 共 **26** 个模型。
 
@@ -17,12 +17,12 @@
 | `deepseek-v4-flash-0731` | — | reasoning | 1.04858M | $0.479072 | $1.43722 | $0.015243 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-pro` | — | reasoning | 1M | $2.4 | $4.8 | $0.2 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-pro-0813` | — | reasoning | 1.04858M | $1.43722 | $4.31165 | $0.047907 | — | —/— | — | models.dev official list price |
-| `gemma-4-26b-a4b-it` | — | reasoning | 256K | $0.12 | $0.42 | — | — | —/— | — | models.dev official list price |
-| `glm-5` | — | reasoning | 202.752K | $0.83 | $2.558 | — | — | —/— | — | models.dev official list price |
+| `gemma-4-26b-a4b-it` | — | reasoning | 256K | $0.11 | $0.408 | — | — | —/— | — | models.dev official list price |
+| `glm-5` | — | reasoning | 202.752K | $0.91 | $2.934 | — | — | —/— | — | models.dev official list price |
 | `glm-5.1` | — | reasoning | 202.75K | $1.36 | $4.4 | — | — | —/— | — | models.dev official list price |
 | `glm-5.2` | — | reasoning | 1.04858M | $1.52432 | $4.79072 | $0.152432 | — | —/— | — | models.dev official list price |
 | `gpt-oss-120b` | — | reasoning | 131.072K | $0.188 | $0.7 | — | — | —/— | — | models.dev official list price |
-| `kimi-k2.5` | — | reasoning | 262.144K | $0.5504 | $2.885 | — | — | —/— | — | models.dev official list price |
+| `kimi-k2.5` | — | reasoning | 262.144K | $0.5444 | $2.855 | — | — | —/— | — | models.dev official list price |
 | `kimi-k2.6` | — | reasoning | 262K | $1.03436 | $4.3552 | $0.174208 | — | —/— | — | models.dev official list price |
 | `kimi-k2.7-code` | — | reasoning | 256K | $1.03436 | $4.3552 | $0.206872 | — | —/— | — | models.dev official list price |
 | `kimi-k3` | — | reasoning | 1.04858M | $3.2664 | $16.332 | $0.32664 | — | —/— | — | models.dev official list price |

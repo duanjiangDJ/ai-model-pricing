@@ -7,8 +7,8 @@
   "homepage": "https://docs.edenai.co",
   "pricing_page": "https://docs.edenai.co",
   "currency": "USD",
-  "updated_at": "2026-08-21T13:21:07Z",
-  "verified_at": "2026-08-21T13:21:07Z",
+  "updated_at": "2026-08-22T09:32:50Z",
+  "verified_at": "2026-08-22T09:32:50Z",
   "models": [
     {
       "id": "amazon/moonshot.kimi-k2-thinking",
@@ -1437,6 +1437,29 @@
       "notes": "models.dev official list price"
     },
     {
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "name": "DeepSeek V4 Flash Vision Exp",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 384000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.22,
+          "output": 0.66,
+          "cache_read": 0.007,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "deepseek/deepseek-v4-pro",
       "name": "DeepSeek V4 Pro",
       "category": "reasoning",
@@ -1470,9 +1493,9 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0.14,
-          "output": 0.28,
-          "cache_read": 0.028,
+          "input": 0.22,
+          "output": 0.66,
+          "cache_read": 0.007,
           "cache_write": null
         },
         "batch": null,
@@ -2229,8 +2252,8 @@
       "max_output": 4096,
       "pricing": {
         "per_mtok": {
-          "input": 0.759265,
-          "output": 0.759265,
+          "input": 0.760435,
+          "output": 0.760435,
           "cache_read": null,
           "cache_write": null
         },
@@ -2252,8 +2275,8 @@
       "max_output": 32768,
       "pricing": {
         "per_mtok": {
-          "input": 0.175215,
-          "output": 0.759265,
+          "input": 0.175485,
+          "output": 0.760435,
           "cache_read": null,
           "cache_write": null
         },
@@ -2692,6 +2715,29 @@
           "input": 3,
           "output": 15,
           "cache_read": 0.3,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "nebius/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "name": "DeepSeek V4 Flash 0731",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 384000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.14,
+          "output": 0.28,
+          "cache_read": 0.14,
           "cache_write": null
         },
         "batch": null,
@@ -3379,9 +3425,9 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 5,
-          "output": 30,
-          "cache_read": 0.5,
+          "input": 4,
+          "output": 20,
+          "cache_read": 0.4,
           "cache_write": null
         },
         "batch": null,
@@ -3425,9 +3471,9 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 5,
-          "output": 30,
-          "cache_read": 0.5,
+          "input": 4,
+          "output": 20,
+          "cache_read": 0.4,
           "cache_write": null
         },
         "batch": null,
@@ -3770,8 +3816,8 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0.40172,
-          "output": 1.20516,
+          "input": 0.352,
+          "output": 1.056,
           "cache_read": null,
           "cache_write": null
         },
@@ -3793,8 +3839,8 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 1.20516,
-          "output": 3.61548,
+          "input": 1.1616,
+          "output": 3.4848,
           "cache_read": null,
           "cache_write": null
         },
@@ -4230,8 +4276,8 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0.46724,
-          "output": 0.93448,
+          "input": 0.46796,
+          "output": 0.93592,
           "cache_read": null,
           "cache_write": null
         },
@@ -4253,8 +4299,8 @@
       "max_output": 32768,
       "pricing": {
         "per_mtok": {
-          "input": 0.175215,
-          "output": 0.70086,
+          "input": 0.175485,
+          "output": 0.70194,
           "cache_read": null,
           "cache_write": null
         },
@@ -4276,8 +4322,8 @@
       "max_output": 4096,
       "pricing": {
         "per_mtok": {
-          "input": 1.05129,
-          "output": 1.05129,
+          "input": 1.05291,
+          "output": 1.05291,
           "cache_read": null,
           "cache_write": null
         },

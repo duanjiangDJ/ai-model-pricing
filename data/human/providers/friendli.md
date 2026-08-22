@@ -6,8 +6,8 @@
 - Homepage: https://friendli.ai/docs/guides/serverless_endpoints/introduction
 - Pricing page: https://friendli.ai/docs/guides/serverless_endpoints/introduction
 - Currency: USD
-- Data updated: 2026-08-21T13:21:07Z
-- Verified: 2026-08-21T13:21:07Z
+- Data updated: 2026-08-22T09:32:50Z
+- Verified: 2026-08-22T09:32:50Z
 
 **5** models in total.
 

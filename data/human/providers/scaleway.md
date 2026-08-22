@@ -6,14 +6,15 @@
 - Homepage: https://www.scaleway.com/en/docs/generative-apis/
 - Pricing page: https://www.scaleway.com/en/docs/generative-apis/
 - Currency: USD
-- Data updated: 2026-08-21T13:21:07Z
-- Verified: 2026-08-21T13:21:07Z
+- Data updated: 2026-08-22T09:32:50Z
+- Verified: 2026-08-22T09:32:50Z
 
-**14** models in total.
+**15** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
 | `bge-multilingual-gemma2` | — | chat | 8.191K | $0.1 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `deepseek-v4-flash-0731` | — | reasoning | 256K | $0.468 | $0.936 | $0.0936 | — | —/— | — | models.dev official list price |
 | `gemma-4-26b-a4b-it` | — | reasoning | 256K | $0.25 | $0.5 | — | — | —/— | — | models.dev official list price |
 | `glm-5.2` | — | reasoning | 256K | $1.8 | $5.5 | — | — | —/— | — | models.dev official list price |
 | `gpt-oss-120b` | — | reasoning | 128K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
