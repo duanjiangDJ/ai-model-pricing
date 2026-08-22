@@ -7,8 +7,8 @@
   "homepage": "https://api-docs.deepseek.com/quick_start/pricing",
   "pricing_page": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
   "currency": "USD",
-  "updated_at": "2026-08-21T13:59:17Z",
-  "verified_at": "2026-08-21T13:59:17Z",
+  "updated_at": "2026-08-22T09:32:50Z",
+  "verified_at": "2026-08-22T09:32:50Z",
   "models": [
     {
       "id": "deepseek-chat",
@@ -21,9 +21,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": 0.14,
+          "output": 0.28,
+          "cache_read": 0.0028,
           "cache_write": null
         },
         "batch": null,
@@ -45,9 +45,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": 0.14,
+          "output": 0.28,
+          "cache_read": 0.0028,
           "cache_write": null
         },
         "batch": null,
@@ -79,7 +79,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official price (CNY/1M tokens, official docs 2026-08-21): input (cache miss) peak ¥3.0 / off-peak ¥1.5; output peak ¥9.0 / off-peak ¥4.5; input (cache hit) peak ¥0.10 / off-peak ¥0.05. Peak = Beijing time 9:00-12:00, 14:00-18:00. Context 1M, max output 384K. Supports thinking/non-thinking modes. Official English page USD price: off-peak \\.22/\\.66/\\.007, peak \\.44/\\.32/\\.014 (per 1M tokens). | Official page (CNY/1M tokens, peak tier; off-peak = 50%, peak = BJT 9-12/14-18). Parsed by sync_official.py."
+      "notes": "Official page (CNY/1M tokens, peak tier; off-peak = 50%, peak = Beijing 9:00-12:00 / 14:00-18:00). Parsed by check deepseek."
     },
     {
       "id": "deepseek-v4-flash-vision-exp",
@@ -99,7 +99,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official price (CNY/1M tokens) same as flash: input (cache miss) peak ¥3.0/off-peak ¥1.5; output ¥9.0/¥4.5; cache hit ¥0.10/¥0.05. Images are converted to tokens by size and billed together (Exp experimental version). Official English page USD price same as flash.",
+      "notes": "Official page (CNY/1M tokens, peak tier; off-peak = 50%, peak = Beijing 9:00-12:00 / 14:00-18:00). Parsed by check deepseek.",
       "status": "online"
     },
     {
@@ -123,7 +123,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official price (CNY/1M tokens): input (cache miss) peak ¥9.0 / off-peak ¥4.5; output peak ¥27.0 / off-peak ¥13.5; input (cache hit) peak ¥0.30 / off-peak ¥0.15. Peak = Beijing time 9:00-12:00, 14:00-18:00. Context 1M, max output 384K. Official English page USD price: off-peak \\.66/\\.98/\\.022, peak \\.32/\\.96/\\.044. | Official page (CNY/1M tokens, peak tier; off-peak = 50%, peak = BJT 9-12/14-18). Parsed by sync_official.py."
+      "notes": "Official page (CNY/1M tokens, peak tier; off-peak = 50%, peak = Beijing 9:00-12:00 / 14:00-18:00). Parsed by check deepseek."
     }
   ],
   "api_base_url": "https://api.deepseek.com"

@@ -7,8 +7,8 @@
   "homepage": "https://kilo.ai",
   "pricing_page": "https://kilo.ai",
   "currency": "USD",
-  "updated_at": "2026-08-21T13:21:07Z",
-  "verified_at": "2026-08-21T13:21:07Z",
+  "updated_at": "2026-08-22T09:32:50Z",
+  "verified_at": "2026-08-22T09:32:50Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1286,8 +1286,8 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0.14,
-          "output": 0.28,
+          "input": 0.44,
+          "output": 1.32,
           "cache_read": 0.028,
           "cache_write": null
         },
@@ -1309,9 +1309,9 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0.22,
-          "output": 0.66,
-          "cache_read": 0.007,
+          "input": 0.44,
+          "output": 1.32,
+          "cache_read": 0.014,
           "cache_write": null
         },
         "batch": null,
@@ -2495,6 +2495,29 @@
       "notes": "models.dev official list price"
     },
     {
+      "id": "meituan/longcat-2.0-free",
+      "name": "Meituan: LongCat 2.0 (free)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048756,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "meta-llama/llama-3.1-70b-instruct",
       "name": "Meta: Llama 3.1 70B Instruct",
       "category": "chat",
@@ -2738,6 +2761,29 @@
           "input": 1.25,
           "output": 4.25,
           "cache_read": 0.15,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "meta/muse-spark-1.2-contributor",
+      "name": "Meta: Muse Spark 1.2 Contributor",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 1048576,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.1,
+          "output": 0.2,
+          "cache_read": 0.002,
           "cache_write": null
         },
         "batch": null,
@@ -3356,8 +3402,8 @@
       "max_output": 16384,
       "pricing": {
         "per_mtok": {
-          "input": 0.09375,
-          "output": 0.25,
+          "input": 0.075,
+          "output": 0.2,
           "cache_read": null,
           "cache_write": null
         },
@@ -4897,9 +4943,9 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 5,
-          "output": 30,
-          "cache_read": 0.5,
+          "input": 4,
+          "output": 20,
+          "cache_read": 0.4,
           "cache_write": null
         },
         "batch": null,
@@ -4943,9 +4989,9 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 5,
-          "output": 30,
-          "cache_read": 0.5,
+          "input": 4,
+          "output": 20,
+          "cache_read": 0.4,
           "cache_write": null
         },
         "batch": null,
@@ -6783,9 +6829,9 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0.575,
-          "output": 3.45,
-          "cache_read": 0.115,
+          "input": 0.5,
+          "output": 3,
+          "cache_read": 0.1,
           "cache_write": null
         },
         "batch": null,
@@ -7312,9 +7358,9 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 0.14,
-          "output": 0.58,
-          "cache_read": 0.035,
+          "input": 0.132,
+          "output": 0.528,
+          "cache_read": 0.033,
           "cache_write": null
         },
         "batch": null,
@@ -7499,6 +7545,52 @@
           "input": 0.45,
           "output": 1.2,
           "cache_read": 0.1,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "thinkingmachines/inkling-small:free",
+      "name": "Thinking Machines: Inkling Small (free)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 262144,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "thinkingmachines/inkling:free",
+      "name": "Thinking Machines: Inkling (free)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 262144,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -8278,9 +8370,9 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 2.5,
-          "output": 15,
-          "cache_read": 0.25,
+          "input": 2,
+          "output": 10,
+          "cache_read": 0.2,
           "cache_write": null
         },
         "batch": null,

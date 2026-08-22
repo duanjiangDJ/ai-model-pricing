@@ -7,8 +7,8 @@
   "homepage": "https://platform.xiaomimimo.com/#/docs",
   "pricing_page": "https://mimo.mi.com/docs/price/pay-as-you-go",
   "currency": "USD",
-  "updated_at": "2026-08-21T15:59:09Z",
-  "verified_at": "2026-08-21T00:00:00Z",
+  "updated_at": "2026-08-22T09:32:50Z",
+  "verified_at": "2026-08-22T09:32:50Z",
   "models": [
     {
       "id": "mimo-v2-flash",
@@ -21,9 +21,9 @@
       "max_output": 65536,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": 0.14,
+          "output": 0.28,
+          "cache_read": 0.0028,
           "cache_write": null
         },
         "batch": null,
@@ -45,9 +45,9 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": 0.14,
+          "output": 0.28,
+          "cache_read": 0.0028,
           "cache_write": null
         },
         "batch": null,
@@ -69,9 +69,9 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": 0.435,
+          "output": 0.87,
+          "cache_read": 0.0036,
           "cache_write": null
         },
         "batch": null,

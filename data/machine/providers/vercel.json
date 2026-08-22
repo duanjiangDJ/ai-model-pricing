@@ -7,8 +7,8 @@
   "homepage": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
   "pricing_page": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
   "currency": "USD",
-  "updated_at": "2026-08-21T13:21:07Z",
-  "verified_at": "2026-08-21T13:21:07Z",
+  "updated_at": "2026-08-22T09:32:50Z",
+  "verified_at": "2026-08-22T09:32:50Z",
   "models": [
     {
       "id": "alibaba/qwen-3-14b",
@@ -2229,9 +2229,32 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0.13,
-          "output": 0.26,
-          "cache_read": 0.028,
+          "input": 0.076,
+          "output": 0.153,
+          "cache_read": 0.014,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "name": "DeepSeek V4 Flash Vision Exp",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 384000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.22,
+          "output": 0.66,
+          "cache_read": 0.007,
           "cache_write": null
         },
         "batch": null,
@@ -5633,9 +5656,9 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 2.5,
-          "output": 15,
-          "cache_read": 0.25,
+          "input": 2,
+          "output": 10,
+          "cache_read": 0.2,
           "cache_write": null
         },
         "batch": null,
@@ -5656,9 +5679,9 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 5,
-          "output": 30,
-          "cache_read": 0.5,
+          "input": 4,
+          "output": 20,
+          "cache_read": 0.4,
           "cache_write": null
         },
         "batch": null,

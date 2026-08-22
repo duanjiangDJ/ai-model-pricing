@@ -6,10 +6,10 @@
 - Homepage: https://docs.venice.ai
 - Pricing page: https://docs.venice.ai
 - Currency: USD
-- Data updated: 2026-08-21T13:21:07Z
-- Verified: 2026-08-21T13:21:07Z
+- Data updated: 2026-08-22T09:32:50Z
+- Verified: 2026-08-22T09:32:50Z
 
-**99** models in total.
+**100** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -100,6 +100,7 @@
 | `qwen3-next-80b` | — | chat | 256K | $0.35 | $1.9 | — | — | —/— | — | models.dev official list price |
 | `qwen3-vl-235b-a22b` | — | chat | 128K | $0.21 | $1.9 | $0.1 | — | —/— | — | models.dev official list price |
 | `seed-2-1-turbo` | — | reasoning | 256K | $0.625 | $3.125 | $0.125 | — | —/— | — | models.dev official list price |
+| `stealth-ox-alpha` | — | reasoning | 1.04858M | $0 | $0 | $0 | — | —/— | — | models.dev official list price |
 | `venice-uncensored-1-2` | — | chat | 128K | $0.2 | $0.9 | — | — | —/— | — | models.dev official list price |
 | `venice-uncensored-role-play` | — | chat | 128K | $0.5 | $2 | — | — | —/— | — | models.dev official list price |
 | `xiaomi-mimo-v2-5` | — | reasoning | 1M | $0.4 | $2 | $0.08 | — | —/— | — | models.dev official list price |

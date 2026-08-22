@@ -14,6 +14,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.1.3 — 2026-08-22T09:33 (content update)
+
+- chore: price sync
+
 ## 26.0.3 — 2026-08-22T15:30 (feature update)
 
 - feature: status simplified to online/offline, 3-hourly auto-check with direct merge to main, version increment logic fixed (content/feature independent) with minute-precision timestamps, AGENTS zh-CN removed, docs dedup (ego removed, providers+roadmap merged into generated status doc), cross-linked documentation

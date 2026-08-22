@@ -14,6 +14,10 @@
 
 ---
 
+## 26.1.3 — 2026-08-22T09:33（内容更新）
+
+- chore: price sync
+
 ## 26.0.3 — 2026-08-22T15:30（功能更新）
 
 - feature: status simplified to online/offline, 3-hourly auto-check with direct merge to main, version increment logic fixed (content/feature independent) with minute-precision timestamps, AGENTS zh-CN removed, docs dedup (ego removed, providers+roadmap merged into generated status doc), cross-linked documentation

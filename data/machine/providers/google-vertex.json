@@ -7,9 +7,32 @@
   "homepage": "https://cloud.google.com/vertex-ai/generative-ai/docs/models",
   "pricing_page": "https://cloud.google.com/vertex-ai/generative-ai/docs/models",
   "currency": "USD",
-  "updated_at": "2026-08-21T15:59:09Z",
-  "verified_at": "2026-08-21T13:18:01Z",
+  "updated_at": "2026-08-22T09:32:50Z",
+  "verified_at": "2026-08-22T09:32:50Z",
   "models": [
+    {
+      "id": "claude-fable-5@default",
+      "name": "Claude Fable 5",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 10,
+          "output": 50,
+          "cache_read": 1,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
     {
       "id": "claude-haiku-4-5@20251001",
       "name": "Claude Haiku 4.5",

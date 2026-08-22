@@ -6,8 +6,8 @@
 - 官网: https://nova.amazon.com/dev/documentation
 - 定价页: https://nova.amazon.com/dev/documentation
 - 币种: USD
-- 数据更新时间: 2026-08-21T13:21:07Z
-- 核实时间: 2026-08-21T13:21:07Z
+- 数据更新时间: 2026-08-22T09:32:50Z
+- 核实时间: 2026-08-22T09:32:50Z
 
 共 **2** 个模型。
 

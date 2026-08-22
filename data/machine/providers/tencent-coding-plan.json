@@ -7,8 +7,8 @@
   "homepage": "https://cloud.tencent.com/document/product/1772/128947",
   "pricing_page": "https://cloud.tencent.com/document/product/1772/128947",
   "currency": "USD",
-  "updated_at": "2026-08-21T13:21:07Z",
-  "verified_at": "2026-08-21T13:21:07Z",
+  "updated_at": "2026-08-22T09:32:50Z",
+  "verified_at": "2026-08-22T09:32:50Z",
   "models": [
     {
       "id": "glm-5",
@@ -21,9 +21,9 @@
       "max_output": 16384,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
           "cache_write": null
         },
         "batch": null,
@@ -44,9 +44,9 @@
       "max_output": 16384,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
           "cache_write": null
         },
         "batch": null,
@@ -67,9 +67,9 @@
       "max_output": 16384,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
           "cache_write": null
         },
         "batch": null,
@@ -90,9 +90,9 @@
       "max_output": 16384,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
           "cache_write": null
         },
         "batch": null,
@@ -113,9 +113,9 @@
       "max_output": 16384,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
           "cache_write": null
         },
         "batch": null,
@@ -136,9 +136,9 @@
       "max_output": 32768,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
           "cache_write": null
         },
         "batch": null,
@@ -159,9 +159,9 @@
       "max_output": 32768,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
           "cache_write": null
         },
         "batch": null,
@@ -182,9 +182,9 @@
       "max_output": 16384,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
           "cache_write": null
         },
         "batch": null,

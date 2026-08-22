@@ -6,10 +6,10 @@
 - 官网: https://www.crossmodel.ai/docs
 - 定价页: https://www.crossmodel.ai/docs
 - 币种: USD
-- 数据更新时间: 2026-08-21T13:21:07Z
-- 核实时间: 2026-08-21T13:21:07Z
+- 数据更新时间: 2026-08-22T09:32:50Z
+- 核实时间: 2026-08-22T09:32:50Z
 
-共 **52** 个模型。
+共 **53** 个模型。
 
 | 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -21,6 +21,7 @@
 | `anthropic/claude-sonnet-4-6` | — | reasoning | 1M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-sonnet-5` | — | reasoning | 1M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash` | — | reasoning | 1M | $0.405 | $1.215 | $0.0135 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 1M | $0.405 | $1.215 | $0.0135 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | 1M | $1.215 | $3.645 | $0.0405 | — | —/— | — | models.dev official list price |
 | `gemini/gemini-2.5-flash` | — | reasoning | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `gemini/gemini-2.5-flash-lite` | — | reasoning | 1.04858M | $0.1 | $0.4 | $0.01 | — | —/— | — | models.dev official list price |

@@ -1,9 +1,9 @@
 {
-  "schema_version": "26.0.3",
-  "generated_at": "2026-08-21T13:59:16Z",
+  "schema_version": "26.1.3",
+  "generated_at": "2026-08-22T09:32:50Z",
   "currency": "USD",
   "provider_count": 184,
-  "model_count": 7077,
+  "model_count": 7132,
   "plan_count": 64,
   "providers": [
     {
@@ -130,9 +130,9 @@
       "id": "nano-gpt",
       "name": "NanoGPT",
       "channel": "hosted",
-      "model_count": 597,
+      "model_count": 599,
       "file": "providers/nano-gpt.json",
-      "updated_at": "2026-08-21T11:28:18Z"
+      "updated_at": "2026-08-22T09:32:50Z"
     },
     {
       "id": "modelscope",
@@ -218,9 +218,9 @@
       "id": "google-vertex",
       "name": "Vertex",
       "channel": "hosted",
-      "model_count": 42,
+      "model_count": 43,
       "file": "providers/google-vertex.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-22T09:32:50Z"
     },
     {
       "id": "alibaba-token-plan",
@@ -378,9 +378,9 @@
       "id": "crossmodel",
       "name": "CrossModel",
       "channel": "hosted",
-      "model_count": 52,
+      "model_count": 53,
       "file": "providers/crossmodel.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-22T09:32:50Z"
     },
     {
       "id": "kenari",
@@ -522,9 +522,9 @@
       "id": "opencode-go",
       "name": "OpenCode Go",
       "channel": "hosted",
-      "model_count": 23,
+      "model_count": 28,
       "file": "providers/opencode-go.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-22T09:32:50Z"
     },
     {
       "id": "xai",
@@ -610,9 +610,9 @@
       "id": "merge-gateway",
       "name": "Merge Gateway",
       "channel": "aggregator",
-      "model_count": 174,
+      "model_count": 175,
       "file": "providers/merge-gateway.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-22T09:32:50Z"
     },
     {
       "id": "inceptron",
@@ -906,9 +906,9 @@
       "id": "ofox",
       "name": "Ofox",
       "channel": "hosted",
-      "model_count": 107,
+      "model_count": 110,
       "file": "providers/ofox.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-22T09:32:50Z"
     },
     {
       "id": "friendli",
@@ -970,9 +970,9 @@
       "id": "opencode",
       "name": "OpenCode Zen",
       "channel": "hosted",
-      "model_count": 63,
+      "model_count": 95,
       "file": "providers/opencode.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-22T09:32:50Z"
     },
     {
       "id": "requesty",
@@ -1034,9 +1034,9 @@
       "id": "scaleway",
       "name": "Scaleway",
       "channel": "hosted",
-      "model_count": 14,
+      "model_count": 15,
       "file": "providers/scaleway.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-22T09:32:50Z"
     },
     {
       "id": "frogbot",
@@ -1178,17 +1178,17 @@
       "id": "vercel",
       "name": "Vercel AI Gateway",
       "channel": "aggregator",
-      "model_count": 350,
+      "model_count": 351,
       "file": "providers/vercel.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-22T09:32:50Z"
     },
     {
       "id": "edenai",
       "name": "Eden AI",
       "channel": "hosted",
-      "model_count": 232,
+      "model_count": 234,
       "file": "providers/edenai.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-22T09:32:50Z"
     },
     {
       "id": "novita-ai",
@@ -1330,9 +1330,9 @@
       "id": "kilo",
       "name": "Kilo Gateway",
       "channel": "aggregator",
-      "model_count": 363,
+      "model_count": 367,
       "file": "providers/kilo.json",
-      "updated_at": "2026-08-21T13:18:01Z"
+      "updated_at": "2026-08-22T09:32:50Z"
     },
     {
       "id": "pioneer",
@@ -1346,9 +1346,9 @@
       "id": "venice",
       "name": "Venice AI",
       "channel": "hosted",
-      "model_count": 99,
+      "model_count": 100,
       "file": "providers/venice.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-22T09:32:50Z"
     },
     {
       "id": "fireworks-ai",
@@ -1484,9 +1484,9 @@
       "id": "openrouter",
       "name": "OpenRouter",
       "channel": "aggregator",
-      "model_count": 420,
+      "model_count": 421,
       "file": "providers/openrouter.json",
-      "updated_at": "2026-08-21T13:59:16Z"
+      "updated_at": "2026-08-22T09:32:50Z"
     }
   ]
 }

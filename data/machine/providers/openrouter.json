@@ -7,8 +7,8 @@
   "homepage": "https://openrouter.ai",
   "pricing_page": "https://openrouter.ai/models",
   "currency": "USD",
-  "updated_at": "2026-08-21T13:59:16Z",
-  "verified_at": "2026-08-21T13:59:16Z",
+  "updated_at": "2026-08-22T09:32:50Z",
+  "verified_at": "2026-08-22T09:32:50Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1210,27 +1210,6 @@
         "per_image": null,
         "per_request": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
-    },
-    {
-      "id": "deepcogito/cogito-v2.1-671b",
-      "name": "Deep Cogito: Cogito v2.1 671B",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 128000,
-      "max_output": null,
-      "pricing": {
-        "per_mtok": {
-          "input": 1.25e-06,
-          "output": 1.25e-06,
-          "cache_read": null,
-          "cache_write": null
-        },
-        "per_image": null,
-        "per_request": null
-      },
       "notes": "OpenRouter reseller price"
     },
     {
@@ -1286,9 +1265,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-07,
-          "output": 9.5e-07,
-          "cache_read": 1.3e-07,
+          "input": 5.5e-07,
+          "output": 1.65e-06,
+          "cache_read": 5.5e-07,
           "cache_write": null
         },
         "per_image": null,
@@ -1391,9 +1370,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 2.69e-07,
-          "output": 4e-07,
-          "cache_read": 1.345e-07,
+          "input": 2.6e-07,
+          "output": 3.8e-07,
+          "cache_read": 1.3e-07,
           "cache_write": null
         },
         "per_image": null,
@@ -1433,9 +1412,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 7.98e-08,
-          "output": 1.596e-07,
-          "cache_read": 1.596e-08,
+          "input": 6.846e-08,
+          "output": 1.3692e-07,
+          "cache_read": 1.3692e-08,
           "cache_write": null
         },
         "per_image": null,
@@ -1476,9 +1455,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 2.2e-07,
-          "output": 6.6e-07,
-          "cache_read": 7e-09,
+          "input": 4.4e-07,
+          "output": 1.32e-06,
+          "cache_read": 1.4e-08,
           "cache_write": null
         },
         "per_image": null,
@@ -1497,9 +1476,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 1.6e-06,
-          "output": 3.2e-06,
-          "cache_read": 1.35e-07,
+          "input": 4.3065e-07,
+          "output": 8.613e-07,
+          "cache_read": 3.58875e-08,
           "cache_write": null
         },
         "per_image": null,
@@ -1548,7 +1527,7 @@
         "per_image": null,
         "per_request": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "google/gemini-2.5-flash",
@@ -2544,7 +2523,7 @@
         "per_image": null,
         "per_request": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "google/gemma-4-31b-it",
@@ -2590,7 +2569,7 @@
         "per_image": null,
         "per_request": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "google/lyria-3-clip-preview",
@@ -2612,7 +2591,7 @@
         "per_image": null,
         "per_request": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "google/lyria-3-pro-preview",
@@ -2634,7 +2613,7 @@
         "per_image": null,
         "per_request": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "gryphe/mythomax-l2-13b",
@@ -2886,7 +2865,7 @@
         "per_image": null,
         "per_request": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "mancer/weaver",
@@ -3172,6 +3151,30 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "meta/muse-spark-1.2-contributor",
+      "name": "Meta: Muse Spark 1.2 Contributor",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in",
+        "video_in",
+        "audio_in"
+      ],
+      "context_window": 1048576,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 1e-07,
+          "output": 2e-07,
+          "cache_read": 2e-09,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "microsoft/phi-4",
       "name": "Microsoft: Phi 4",
       "category": "chat",
@@ -3331,8 +3334,8 @@
       "pricing": {
         "per_mtok": {
           "input": 2.7e-07,
-          "output": 9.5e-07,
-          "cache_read": 3e-08,
+          "output": 1.08e-06,
+          "cache_read": 2.7e-08,
           "cache_write": null
         },
         "per_image": null,
@@ -3760,12 +3763,12 @@
         "image_in",
         "text"
       ],
-      "context_window": 256000,
+      "context_window": 131072,
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 9.375e-08,
-          "output": 2.5e-07,
+          "input": 7.5e-08,
+          "output": 2e-07,
           "cache_read": null,
           "cache_write": null
         },
@@ -3914,9 +3917,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 5.795e-07,
-          "output": 2.44e-06,
-          "cache_read": 9.76e-08,
+          "input": 5.415e-07,
+          "output": 2.28e-06,
+          "cache_read": 9.12e-08,
           "cache_write": null
         },
         "per_image": null,
@@ -4201,7 +4204,7 @@
         "per_image": null,
         "per_request": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
@@ -4225,7 +4228,7 @@
         "per_image": null,
         "per_request": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "nvidia/nemotron-3-super-120b-a12b",
@@ -4267,7 +4270,7 @@
         "per_image": null,
         "per_request": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "nvidia/nemotron-3-ultra-550b-a55b",
@@ -4330,7 +4333,7 @@
         "per_image": null,
         "per_request": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "nvidia/nemotron-3.5-content-safety:free",
@@ -4352,7 +4355,7 @@
         "per_image": null,
         "per_request": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "nvidia/nemotron-3.5-lightning",
@@ -4394,7 +4397,7 @@
         "per_image": null,
         "per_request": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "nvidia/nemotron-nano-12b-v2-vl:free",
@@ -4417,7 +4420,7 @@
         "per_image": null,
         "per_request": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "nvidia/nemotron-nano-9b-v2:free",
@@ -4438,7 +4441,7 @@
         "per_image": null,
         "per_request": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "openai/gpt-3.5-turbo",
@@ -5809,10 +5812,10 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-06,
-          "output": 1.5e-05,
-          "cache_read": 2.5e-07,
-          "cache_write": 3.125e-06
+          "input": 2e-06,
+          "output": 1e-05,
+          "cache_read": 2e-07,
+          "cache_write": 2.5e-06
         },
         "per_image": null,
         "per_request": null
@@ -5831,10 +5834,10 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-06,
-          "output": 1.5e-05,
-          "cache_read": 2.5e-07,
-          "cache_write": 3.125e-06
+          "input": 2e-06,
+          "output": 1e-05,
+          "cache_read": 2e-07,
+          "cache_write": 2.5e-06
         },
         "per_image": null,
         "per_request": null
@@ -5853,10 +5856,10 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 1.25e-06,
-          "output": 7.5e-06,
-          "cache_read": 1.25e-07,
-          "cache_write": null
+          "input": 1e-06,
+          "output": 5e-06,
+          "cache_read": 1e-07,
+          "cache_write": 1.25e-06
         },
         "per_image": null,
         "per_request": null
@@ -5875,10 +5878,10 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 1.25e-06,
-          "output": 7.5e-06,
-          "cache_read": 1.25e-07,
-          "cache_write": null
+          "input": 1e-06,
+          "output": 5e-06,
+          "cache_read": 1e-07,
+          "cache_write": 1.25e-06
         },
         "per_image": null,
         "per_request": null
@@ -6102,27 +6105,6 @@
         "per_request": null
       },
       "notes": "OpenRouter reseller price"
-    },
-    {
-      "id": "openai/gpt-oss-20b:free",
-      "name": "OpenAI: gpt-oss-20b (free)",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 131072,
-      "max_output": null,
-      "pricing": {
-        "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
-          "cache_read": null,
-          "cache_write": null
-        },
-        "per_image": null,
-        "per_request": null
-      },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "openai/gpt-oss-safeguard-20b",
@@ -6582,7 +6564,7 @@
         "per_image": null,
         "per_request": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "openrouter/fusion",
@@ -6798,7 +6780,7 @@
         "per_image": null,
         "per_request": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "poolside/laguna-xs-2.1",
@@ -6840,7 +6822,7 @@
         "per_image": null,
         "per_request": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "qwen/qwen-2.5-72b-instruct",
@@ -7337,9 +7319,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 9e-08,
+          "input": 1e-07,
           "output": 1.1e-06,
-          "cache_read": null,
+          "cache_read": 7e-08,
           "cache_write": null
         },
         "per_image": null,
@@ -8166,7 +8148,7 @@
         "per_image": null,
         "per_request": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "stepfun/step-3.5-flash",
@@ -8448,6 +8430,29 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "thinkingmachines/inkling-small:free",
+      "name": "Thinking Machines: Inkling Small (free)",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in",
+        "audio_in"
+      ],
+      "context_window": 262144,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.0,
+          "output": 0.0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "thinkingmachines/inkling:batch",
       "name": "Thinking Machines: Inkling (batch)",
       "category": "reasoning",
@@ -8463,6 +8468,29 @@
           "input": 1e-06,
           "output": 4.05e-06,
           "cache_read": 1.7e-07,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "thinkingmachines/inkling:free",
+      "name": "Thinking Machines: Inkling (free)",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in",
+        "audio_in"
+      ],
+      "context_window": 262144,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.0,
+          "output": 0.0,
+          "cache_read": null,
           "cache_write": null
         },
         "per_image": null,
@@ -9005,7 +9033,7 @@
         "per_image": null,
         "per_request": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "z-ai/glm-5.3",
@@ -9253,10 +9281,10 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-06,
-          "output": 1.5e-05,
-          "cache_read": 2.5e-07,
-          "cache_write": 3.125e-06
+          "input": 2e-06,
+          "output": 1e-05,
+          "cache_read": 2e-07,
+          "cache_write": 2.5e-06
         },
         "per_image": null,
         "per_request": null

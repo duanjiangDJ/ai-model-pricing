@@ -6,8 +6,8 @@
 - Homepage: https://cloud.tencent.com/document/product/1823/130050
 - Pricing page: https://cloud.tencent.com/document/product/1823/130050
 - Currency: USD
-- Data updated: 2026-08-21T13:18:01Z
-- Verified: 2026-08-21T13:18:01Z
+- Data updated: 2026-08-22T09:32:50Z
+- Verified: 2026-08-22T09:32:50Z
 
 **2** models in total.
 

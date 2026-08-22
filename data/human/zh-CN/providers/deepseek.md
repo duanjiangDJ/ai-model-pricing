@@ -6,15 +6,15 @@
 - 官网: https://api-docs.deepseek.com/quick_start/pricing
 - 定价页: https://api-docs.deepseek.com/zh-cn/quick_start/pricing
 - 币种: USD
-- 数据更新时间: 2026-08-21T13:59:17Z
-- 核实时间: 2026-08-21T13:59:17Z
+- 数据更新时间: 2026-08-22T09:32:50Z
+- 核实时间: 2026-08-22T09:32:50Z
 
 共 **5** 个模型。
 
 | 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| `deepseek-chat` | ❌ 下线 | chat | — | — | — | — | — | —/— | — | Legacy model (V3.2 era), superseded by deepseek-v4-flash; old prices $0.28/$0… |
-| `deepseek-reasoner` | ❌ 下线 | reasoning | — | — | — | — | — | —/— | — | Legacy model (R1 era), superseded by deepseek-v4-flash/pro thinking mode; old… |
-| `deepseek-v4-flash` | — | chat | 1M | $3 | $9 | $0.1 | — | —/— | ⚡ 峰谷双档 | Official price (CNY/1M tokens, official docs 2026-08-21): input (cache miss) … |
-| `deepseek-v4-flash-vision-exp` | ✅ 在线 | vision | 1M | $3 | $9 | $0.1 | — | —/— | ⚡ 峰谷双档 | Official price (CNY/1M tokens) same as flash: input (cache miss) peak ¥3.0/of… |
-| `deepseek-v4-pro` | — | chat | 1M | $9 | $27 | $0.3 | — | —/— | ⚡ 峰谷双档 | Official price (CNY/1M tokens): input (cache miss) peak ¥9.0 / off-peak ¥4.5;… |
+| `deepseek-chat` | ❌ 下线 | chat | — | $0.14 | $0.28 | $0.0028 | — | —/— | — | Legacy model (V3.2 era), superseded by deepseek-v4-flash; old prices $0.28/$0… |
+| `deepseek-reasoner` | ❌ 下线 | reasoning | — | $0.14 | $0.28 | $0.0028 | — | —/— | — | Legacy model (R1 era), superseded by deepseek-v4-flash/pro thinking mode; old… |
+| `deepseek-v4-flash` | — | chat | 1M | $3 | $9 | $0.1 | — | —/— | ⚡ 峰谷双档 | Official page (CNY/1M tokens, peak tier; off-peak = 50%, peak = Beijing 9:00-… |
+| `deepseek-v4-flash-vision-exp` | ✅ 在线 | vision | 1M | $3 | $9 | $0.1 | — | —/— | ⚡ 峰谷双档 | Official page (CNY/1M tokens, peak tier; off-peak = 50%, peak = Beijing 9:00-… |
+| `deepseek-v4-pro` | — | chat | 1M | $9 | $27 | $0.3 | — | —/— | ⚡ 峰谷双档 | Official page (CNY/1M tokens, peak tier; off-peak = 50%, peak = Beijing 9:00-… |

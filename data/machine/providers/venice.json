@@ -7,8 +7,8 @@
   "homepage": "https://docs.venice.ai",
   "pricing_page": "https://docs.venice.ai",
   "currency": "USD",
-  "updated_at": "2026-08-21T13:21:07Z",
-  "verified_at": "2026-08-21T13:21:07Z",
+  "updated_at": "2026-08-22T09:32:50Z",
+  "verified_at": "2026-08-22T09:32:50Z",
   "models": [
     {
       "id": "aion-labs-aion-3-0",
@@ -2002,6 +2002,29 @@
           "input": 0.625,
           "output": 3.125,
           "cache_read": 0.125,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "stealth-ox-alpha",
+      "name": "Ox Alpha",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
           "cache_write": null
         },
         "batch": null,

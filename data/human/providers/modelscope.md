@@ -6,8 +6,8 @@
 - Homepage: https://modelscope.cn/docs/model-service/API-Inference/intro
 - Pricing page: https://modelscope.cn/docs/model-service/API-Inference/intro
 - Currency: USD
-- Data updated: 2026-08-21T11:28:01Z
-- Verified: 2026-08-21T11:28:01Z
+- Data updated: 2026-08-22T09:32:50Z
+- Verified: 2026-08-22T09:32:50Z
 
 **7** models in total.
 

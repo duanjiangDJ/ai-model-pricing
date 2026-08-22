@@ -6,10 +6,10 @@
 - Homepage: https://docs.nano-gpt.com
 - Pricing page: https://docs.nano-gpt.com
 - Currency: USD
-- Data updated: 2026-08-21T11:28:01Z
-- Verified: 2026-08-21T11:28:01Z
+- Data updated: 2026-08-22T09:32:50Z
+- Verified: 2026-08-22T09:32:50Z
 
-**597** models in total.
+**599** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -211,6 +211,7 @@
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | 1M | $0.14 | $0.28 | $0.014 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash-0731:thinking` | — | reasoning | 1M | $0.14 | $0.28 | $0.014 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash-latest` | — | reasoning | 1.04858M | $0.14 | $0.28 | $0.014 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 1.04858M | $0.44 | $1.32 | $0.014 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash:thinking` | — | reasoning | 1.04858M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | 1.04858M | $1.1 | $2.2 | $0.11 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | 1.04858M | $1.1 | $2.5 | $0.04 | — | —/— | — | models.dev official list price |
@@ -539,6 +540,7 @@
 | `soob3123/GrayLine-Qwen3-8B` | — | chat | 16.384K | $0.3 | $0.3 | $0.15 | — | —/— | — | models.dev official list price |
 | `soob3123/Veiled-Calla-12B` | — | chat | 32.768K | $0.3 | $0.3 | $0.15 | — | —/— | — | models.dev official list price |
 | `soob3123/amoral-gemma3-27B-v2` | — | chat | 32.768K | $0.3 | $0.3 | $0.15 | — | —/— | — | models.dev official list price |
+| `stealth/ox-alpha` | — | reasoning | 1M | $0.05 | $0.05 | $0.025 | — | —/— | — | models.dev official list price |
 | `step-r1-v-mini` | — | chat | 128K | $2.5 | $11 | $1.25 | — | —/— | — | models.dev official list price |
 | `stepfun-ai/step-3.5-flash` | — | reasoning | 256K | $0.1 | $0.3 | $0.05 | — | —/— | — | models.dev official list price |
 | `stepfun-ai/step-3.5-flash-2603` | — | reasoning | 256K | $0.1 | $0.3 | $0.05 | — | —/— | — | models.dev official list price |

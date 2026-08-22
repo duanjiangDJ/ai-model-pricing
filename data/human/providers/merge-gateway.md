@@ -6,10 +6,10 @@
 - Homepage: https://docs.merge.dev/merge-gateway
 - Pricing page: https://docs.merge.dev/merge-gateway
 - Currency: USD
-- Data updated: 2026-08-21T13:21:07Z
-- Verified: 2026-08-21T13:21:07Z
+- Data updated: 2026-08-22T09:32:50Z
+- Verified: 2026-08-22T09:32:50Z
 
-**174** models in total.
+**175** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -43,6 +43,7 @@
 | `deepseek/deepseek-v4-flash` | — | reasoning | 1M | $0.22 | $0.66 | $0.007 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | 1M | $0.22 | $0.66 | $0.007 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | 1M | $0.66 | $1.98 | $0.022 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-pro-0423` | — | reasoning | 1M | $1.65 | $3.3 | — | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | 1M | $0.66 | $1.98 | $0.022 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-computer-use-preview-10-2025` | — | reasoning | 128K | $1.25 | $10 | — | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-flash` | — | reasoning | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
@@ -123,7 +124,7 @@
 | `openai/gpt-5.4-nano` | — | reasoning | 400K | $0.2 | $1.25 | $0.02 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.5` | — | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.6-luna` | — | reasoning | 1.05M | $0.2 | $1.2 | $0.02 | — | —/— | — | models.dev official list price |
-| `openai/gpt-5.6-sol` | — | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
+| `openai/gpt-5.6-sol` | — | reasoning | 1.05M | $4 | $24 | $0.5 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.6-terra` | — | reasoning | 1.05M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-120b` | — | reasoning | 131.072K | $0.09 | $0.36 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-20b` | — | reasoning | 131.072K | $0.04 | $0.2 | $0.02 | — | —/— | — | models.dev official list price |
