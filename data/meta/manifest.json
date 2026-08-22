@@ -1,5 +1,5 @@
 {
-  "schema_version": "26.2.5",
+  "schema_version": "26.2.6",
   "sources": [
     {
       "name": "OpenRouter API",
@@ -48,12 +48,21 @@
       "last_error": "parsed 0 models"
     },
     {
+      "name": "check:alibaba",
+      "url": "scripts/checks/alibaba.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-22T11:45:28Z",
+      "last_error": null
+    },
+    {
       "name": "check:anthropic",
       "url": "scripts/checks/anthropic.py",
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-22T09:32:50Z",
+      "last_ok": "2026-08-22T11:45:28Z",
       "last_error": null
     },
     {
@@ -62,7 +71,52 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-22T09:32:50Z",
+      "last_ok": "2026-08-22T11:45:28Z",
+      "last_error": null
+    },
+    {
+      "name": "check:google",
+      "url": "scripts/checks/google.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-22T11:45:28Z",
+      "last_error": null
+    },
+    {
+      "name": "check:meta",
+      "url": "scripts/checks/meta.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-22T11:45:28Z",
+      "last_error": null
+    },
+    {
+      "name": "check:minimax",
+      "url": "scripts/checks/minimax.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-22T11:45:28Z",
+      "last_error": null
+    },
+    {
+      "name": "check:mistral",
+      "url": "scripts/checks/mistral.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-22T11:45:28Z",
+      "last_error": null
+    },
+    {
+      "name": "check:moonshotai",
+      "url": "scripts/checks/moonshotai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-22T11:45:28Z",
       "last_error": null
     },
     {
@@ -71,7 +125,25 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-22T09:32:50Z",
+      "last_ok": "2026-08-22T11:45:28Z",
+      "last_error": null
+    },
+    {
+      "name": "check:xai",
+      "url": "scripts/checks/xai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-22T11:45:28Z",
+      "last_error": null
+    },
+    {
+      "name": "check:zai",
+      "url": "scripts/checks/zai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-22T11:45:28Z",
       "last_error": null
     },
     {
@@ -80,7 +152,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-22T09:32:50Z",
+      "last_ok": "2026-08-22T11:45:28Z",
       "last_error": null
     },
     {
@@ -89,10 +161,10 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-22T09:32:50Z",
+      "last_ok": "2026-08-22T11:45:28Z",
       "last_error": null
     }
   ],
   "coverage": {},
-  "last_daily_check": "2026-08-22T10:53:42Z"
+  "last_daily_check": "2026-08-22T11:45:28Z"
 }

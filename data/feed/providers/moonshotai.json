@@ -7,7 +7,7 @@
   "homepage": "https://platform.moonshot.ai/docs/api/chat",
   "pricing_page": "https://platform.moonshot.ai/docs/api/chat",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-22T11:31:32Z",
   "verified_at": "2026-08-22T09:32:50Z",
   "models": [
     {
@@ -233,7 +233,10 @@
           "cache_read": 0.1,
           "cache_write": null
         },
-        "batch": null,
+        "batch": {
+          "input": 0.36,
+          "output": 1.8
+        },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
@@ -256,7 +259,10 @@
           "cache_read": 0.16,
           "cache_write": null
         },
-        "batch": null,
+        "batch": {
+          "input": 0.57,
+          "output": 2.4
+        },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
@@ -279,7 +285,10 @@
           "cache_read": 0.19,
           "cache_write": null
         },
-        "batch": null,
+        "batch": {
+          "input": 0.57,
+          "output": 2.4
+        },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null

@@ -7,8 +7,8 @@
   "homepage": "https://platform.minimax.io/docs/guides/quickstart",
   "pricing_page": "https://platform.minimax.io/docs/guides/quickstart",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
-  "verified_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-22T11:35:13Z",
+  "verified_at": "2026-08-22T11:35:13Z",
   "models": [
     {
       "id": "MiniMax-M2",
@@ -23,15 +23,15 @@
         "per_mtok": {
           "input": 0.3,
           "output": 1.2,
-          "cache_read": null,
-          "cache_write": null
+          "cache_read": 0.03,
+          "cache_write": 0.375
         },
         "batch": null,
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, effective price after any promo; M3 ≤512k tier; cache-write where listed). Parsed by check minimax."
     },
     {
       "id": "MiniMax-M2.1",
@@ -47,14 +47,14 @@
           "input": 0.3,
           "output": 1.2,
           "cache_read": 0.03,
-          "cache_write": null
+          "cache_write": 0.375
         },
         "batch": null,
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, effective price after any promo; M3 ≤512k tier; cache-write where listed). Parsed by check minimax."
     },
     {
       "id": "MiniMax-M2.5",
@@ -70,14 +70,14 @@
           "input": 0.3,
           "output": 1.2,
           "cache_read": 0.03,
-          "cache_write": null
+          "cache_write": 0.375
         },
         "batch": null,
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, effective price after any promo; M3 ≤512k tier; cache-write where listed). Parsed by check minimax."
     },
     {
       "id": "MiniMax-M2.5-highspeed",
@@ -92,15 +92,15 @@
         "per_mtok": {
           "input": 0.6,
           "output": 2.4,
-          "cache_read": 0.06,
-          "cache_write": null
+          "cache_read": 0.03,
+          "cache_write": 0.375
         },
         "batch": null,
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, effective price after any promo; M3 ≤512k tier; cache-write where listed). Parsed by check minimax."
     },
     {
       "id": "MiniMax-M2.7",
@@ -116,14 +116,14 @@
           "input": 0.3,
           "output": 1.2,
           "cache_read": 0.06,
-          "cache_write": null
+          "cache_write": 0.375
         },
         "batch": null,
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, effective price after any promo; M3 ≤512k tier; cache-write where listed). Parsed by check minimax."
     },
     {
       "id": "MiniMax-M2.7-highspeed",
@@ -139,14 +139,14 @@
           "input": 0.6,
           "output": 2.4,
           "cache_read": 0.06,
-          "cache_write": null
+          "cache_write": 0.375
         },
         "batch": null,
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, effective price after any promo; M3 ≤512k tier; cache-write where listed). Parsed by check minimax."
     },
     {
       "id": "MiniMax-M3",

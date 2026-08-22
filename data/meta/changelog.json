@@ -1,6 +1,79 @@
 {
-  "schema_version": "26.2.5",
+  "schema_version": "26.2.6",
   "entries": [
+    {
+      "date": "2026-08-22T11:41:20Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba",
+      "item_id": "qwen3.7-plus,qwen3.7-plus,qwen3.6-flash,qwen3.6-flash,qwen-vl-ocr,qwen-vl-ocr,qwen3.6-35b-a3b,qwen3.6-35b-a3b,qwen3-next-80b-a3b-thinking,qwen3-next-80b-a3b-thinking,qwen3-next-80b-a3b-instruct,qwen3-next-80b-a3b-instruct,qwen3-32b,qwen3-32b",
+      "field": "pricing",
+      "new": {
+        "models": 14
+      },
+      "source": "https://www.alibabacloud.com/help/en/model-studio/billing"
+    },
+    {
+      "date": "2026-08-22T11:35:13Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "minimax",
+      "item_id": "MiniMax-M2.7,MiniMax-M2.7-highspeed,MiniMax-M2.5,MiniMax-M2.5-highspeed,MiniMax-M2.5-highspeed,MiniMax-M2.1,MiniMax-M2,MiniMax-M2",
+      "field": "pricing",
+      "new": {
+        "models": 8
+      },
+      "source": "https://platform.minimax.io/docs/guides/pricing-paygo.md"
+    },
+    {
+      "date": "2026-08-22T11:33:33Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "zai",
+      "item_id": "glm-4.6v,glm-4.5v",
+      "field": "pricing",
+      "new": {
+        "models": 2
+      },
+      "source": "https://docs.z.ai/guides/overview/pricing.md"
+    },
+    {
+      "date": "2026-08-22T11:31:32Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "moonshotai",
+      "item_id": "kimi-k2.7-code,kimi-k2.6,kimi-k2.5",
+      "field": "pricing",
+      "new": {
+        "models": 3,
+        "batch": true
+      },
+      "source": "https://platform.kimi.ai/docs/pricing/batch.md"
+    },
+    {
+      "date": "2026-08-22T11:29:17Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "mistral",
+      "item_id": "ministral-3b-latest,ministral-3b-latest,ministral-8b-latest,ministral-8b-latest",
+      "field": "pricing",
+      "new": {
+        "models": 4
+      },
+      "source": "https://mistral.ai/pricing/api"
+    },
+    {
+      "date": "2026-08-22T11:20:52Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "google",
+      "item_id": "gemini-3.7-flash,gemini-3.5-flash,gemini-3.5-flash-lite,gemini-3.1-flash-lite,gemini-3.1-pro-preview-customtools,gemini-3.1-flash-tts-preview,gemini-2.5-flash-preview-tts,gemini-2.5-pro-preview-tts,gemini-robotics-er-1.6-preview",
+      "field": "pricing",
+      "new": {
+        "models": 9
+      },
+      "source": "https://ai.google.dev/gemini-api/docs/pricing"
+    },
     {
       "date": "2026-08-22T09:32:50Z",
       "kind": "update",
