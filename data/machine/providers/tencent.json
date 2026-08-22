@@ -29,7 +29,7 @@
         "per_request": null
       },
       "notes": "Official TokenHub billing (CNY/1M tokens): input ¥1, output ¥4, cache-hit ¥0.25. Model id on TokenHub: hy3. Verified 2026-08-21.",
-      "status": "active"
+      "status": "online"
     }
   ],
   "api_base_url": "https://api.hunyuan.cloud.tencent.com/v1",

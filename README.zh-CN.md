@@ -57,11 +57,8 @@ API 按 token（输入/输出/缓存/批处理）、按图、按音频秒、按�
 
 | 状态 | 模型数 |
 |---|---|
-| retired | 39 |
-| active | 3 |
-| deprecated | 2 |
-| superseded | 2 |
-| preview | 2 |
+| offline | 43 |
+| online | 5 |
 | （未标注） | 7029 |
 
 ### 模型数 Top 15 供应商
@@ -91,6 +88,19 @@ API 按 token（输入/输出/缓存/批处理）、按图、按音频秒、按�
 | USD | 185 |
 
 <!-- STATS:END -->
+
+## 文档索引
+
+| 文档 | 内容 |
+|---|---|
+| [README.md](README.md) | English version |
+| [FORMAT.zh-CN.md](FORMAT.zh-CN.md) | 机器可读格式规范 |
+| [CHANGELOG.zh-CN.md](CHANGELOG.zh-CN.md) | 版本历史（年份.内容.功能） |
+| [CONTRIBUTING.zh-CN.md](CONTRIBUTING.zh-CN.md) | 贡献指南 |
+| [docs/providers.zh-CN.md](docs/providers.zh-CN.md) | 供应商全景与状态（自动生成表） |
+| [docs/price-types.zh-CN.md](docs/price-types.zh-CN.md) | 收费形式口径 |
+| [docs/verification.zh-CN.md](docs/verification.zh-CN.md) | 每日检查与真实性机制 |
+| [AGENTS.md](AGENTS.md) | AI Agent 指南（英文） |
 
 ## 快速开始（机器读取）
 

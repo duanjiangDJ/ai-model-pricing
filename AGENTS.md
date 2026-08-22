@@ -13,8 +13,8 @@ some billing modes are hard to verify. Treat every entry as "as-of" data:
 - subscription-included models have `per_mtok: null` + a note (never 0);
 - deprecated/retired models carry `"status"` and remain as historical entries.
 
-Contributions are welcome via issues and PRs (see `CONTRIBUTING.md`); `main` is
-protected — all changes go through PRs checked by `.github/workflows/pr-check.yml`.
+Contributions are welcome via issues and PRs (see `CONTRIBUTING.md`); human changes go
+through PRs checked by `.github/workflows/pr-check.yml`. Bot syncs merge straight into `main`.
 
 **How this project is built**: maintained with
 [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness) using the
@@ -28,7 +28,7 @@ systems, GPU-hour pricing, consumer subscriptions, and coding-tool plans.
 
 - Machine-readable data: `data/machine/` (versioned JSON + JSON Schema)
 - Human-readable pages: `data/human/` (Markdown, **generated** — never edit by hand)
-- Auto-updated daily by GitHub Actions: `.github/workflows/daily-check.yml`
+- Auto-updated every 3 hours by GitHub Actions: `.github/workflows/daily-check.yml` (changes merge straight into `main`; no review needed for bot syncs)
 
 ## Repository Layout
 
@@ -42,8 +42,8 @@ data/meta/
   manifest.json          # Sync health: sources, last_ok/last_error
   changelog.json         # Every change (add/update/remove/verify), newest first
 data/human/              # GENERATED. en: *.md, zh-CN: zh-CN/*.md
-docs/                    # providers.md (landscape), price-types.md, research-contract.md,
-                         # optimization-roadmap.md, verification.md
+docs/                    # providers.md (landscape & status, generated), price-types.md,
+                         # research-contract.md, verification.md
 scripts/
   router.py              # Core check router: discovers checks/, runs in tier order
   toolbox.py             # Shared utilities (http, JSON, changelog, manifest, dedup)
@@ -66,8 +66,8 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
 1. Fetch `data/machine/index.json` first. Check `schema_version` (major bump = breaking).
 2. Each `providers[]` / `resellers[]` entry has `file` (relative path), `model_count`, `updated_at`.
 3. Model shape: `{id, name, category, status, modalities, context_window, max_output, pricing, notes}`.
-   `status` = active | preview | deprecated | retired | superseded — deprecated/retired/superseded models
-   are historical entries with a prominent status mark in the human pages.
+   `status` = **online | offline** only. Offline models keep the reason (retired/deprecated/superseded)
+   in `notes` and stay as historical entries with a ❌ mark in the human pages.
 4. `pricing` fields (all USD per 1M tokens unless `currency` says otherwise):
    - `per_mtok.{input,output,cache_read,cache_write}`
    - `batch.{input,output}` — 50% off batch APIs
@@ -102,14 +102,14 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
 
 ## Automation (daily check)
 
-`.github/workflows/daily-check.yml` (cron 01:23 UTC) runs `scripts/daily_check.py`:
+`.github/workflows/daily-check.yml` (cron `0 */3 * * *`, every 3 hours) runs `scripts/daily_check.py`:
 1. Fetches OpenRouter catalog → diffs `providers/openrouter.json` → updates changed prices + changelog.
 2. Fetches models.dev catalog → updates `per_mtok.input/output/cache_read` where they differ
    (never touches hand-maintained fields like `batch` or `cache_write`).
 3. Refreshes `index.json` counts; rebuilds human pages; updates `manifest.json`.
 4. Flags plans whose `verified_at` is older than 30 days → writes `--stale-report` markdown →
    syncs the "每日价格核实提醒" GitHub issue.
-5. Commits changes with bot identity (`[skip ci]`), or exits cleanly if nothing changed.
+5. Auto-merges changes into `main` with bot identity (bump_version.py first, `[skip ci]`), or exits cleanly if nothing changed.
 
 **Truthfulness guarantees** (and their limits):
 - Auto-sync sources (OpenRouter, models.dev) refresh daily; they are republished prices from
@@ -138,3 +138,14 @@ python scripts/daily_check.py               # full daily check (network)
 python scripts/build_human.py               # regenerate human pages (en + zh-CN)
 python scripts/validate.py                  # schema + consistency validation
 ```
+
+---
+
+## Related Docs
+
+- [README.md](README.md) — overview & exact stats
+- [FORMAT.md](FORMAT.md) — machine format spec
+- [docs/providers.md](docs/providers.md) — provider landscape & status
+- [docs/price-types.md](docs/price-types.md) — price types
+- [docs/verification.md](docs/verification.md) — verification model
+- [CONTRIBUTING.md](CONTRIBUTING.md) — how to contribute

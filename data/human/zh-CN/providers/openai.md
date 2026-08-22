@@ -13,50 +13,50 @@
 
 | 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| `chatgpt-image-latest` | ❌ 已退役 | chat | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `chatgpt-image-latest` | ❌ 下线 | chat | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `gpt-3.5-turbo` | — | chat | 16.385K | $0.5 | $1.5 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `gpt-4` | ❌ 已退役 | chat | 8.192K | $30 | $60 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `gpt-4-turbo` | ❌ 已退役 | chat | 128K | $10 | $30 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-4` | ❌ 下线 | chat | 8.192K | $30 | $60 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-4-turbo` | ❌ 下线 | chat | 128K | $10 | $30 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `gpt-4.1` | — | chat | 1.04758M | $2 | $8 | $0.5 | — | —/— | — | models.dev official list price |
 | `gpt-4.1-mini` | — | chat | 1.04758M | $0.4 | $1.6 | $0.1 | — | —/— | — | models.dev official list price |
-| `gpt-4.1-nano` | ❌ 已退役 | chat | 1.04758M | $0.1 | $0.4 | $0.025 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `gpt-4o` | ❌ 已退役 | chat | 128K | $2.5 | $10 | $1.25 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `gpt-4o-2024-05-13` | ❌ 已退役 | chat | 128K | $5 | $15 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `gpt-4o-2024-08-06` | ❌ 已退役 | chat | 128K | $2.5 | $10 | $1.25 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `gpt-4o-2024-11-20` | ❌ 已退役 | chat | 128K | $2.5 | $10 | $1.25 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `gpt-4o-mini` | ❌ 已退役 | chat | 128K | $0.15 | $0.6 | $0.075 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `gpt-5` | ❌ 已退役 | reasoning | 400K | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-4.1-nano` | ❌ 下线 | chat | 1.04758M | $0.1 | $0.4 | $0.025 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-4o` | ❌ 下线 | chat | 128K | $2.5 | $10 | $1.25 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-4o-2024-05-13` | ❌ 下线 | chat | 128K | $5 | $15 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-4o-2024-08-06` | ❌ 下线 | chat | 128K | $2.5 | $10 | $1.25 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-4o-2024-11-20` | ❌ 下线 | chat | 128K | $2.5 | $10 | $1.25 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-4o-mini` | ❌ 下线 | chat | 128K | $0.15 | $0.6 | $0.075 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-5` | ❌ 下线 | reasoning | 400K | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `gpt-5-mini` | — | reasoning | 400K | $0.25 | $2 | $0.025 | — | —/— | — | models.dev official list price |
 | `gpt-5-nano` | — | reasoning | 400K | $0.05 | $0.4 | $0.005 | — | —/— | — | models.dev official list price |
 | `gpt-5-pro` | — | reasoning | 400K | $15 | $120 | — | — | —/— | — | models.dev official list price |
-| `gpt-5.1` | ❌ 已退役 | reasoning | 400K | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `gpt-5.2` | ❌ 已退役 | reasoning | 400K | $1.75 | $14 | $0.175 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `gpt-5.2-chat-latest` | ❌ 已退役 | reasoning | 128K | $1.75 | $14 | $0.175 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-5.1` | ❌ 下线 | reasoning | 400K | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-5.2` | ❌ 下线 | reasoning | 400K | $1.75 | $14 | $0.175 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-5.2-chat-latest` | ❌ 下线 | reasoning | 128K | $1.75 | $14 | $0.175 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `gpt-5.2-pro` | — | reasoning | 400K | $21 | $168 | — | — | —/— | — | models.dev official list price |
-| `gpt-5.3-chat-latest` | ❌ 已退役 | chat | 128K | $1.75 | $14 | $0.175 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `gpt-5.3-codex` | ❌ 已退役 | reasoning | 400K | $1.75 | $14 | $0.175 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-5.3-chat-latest` | ❌ 下线 | chat | 128K | $1.75 | $14 | $0.175 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-5.3-codex` | ❌ 下线 | reasoning | 400K | $1.75 | $14 | $0.175 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `gpt-5.3-codex-spark` | — | reasoning | 128K | $1.75 | $14 | $0.175 | — | —/— | — | models.dev official list price |
-| `gpt-5.4` | ❌ 已退役 | reasoning | 1.05M | $2.5 | $15 | $0.25 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-5.4` | ❌ 下线 | reasoning | 1.05M | $2.5 | $15 | $0.25 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `gpt-5.4-mini` | — | reasoning | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | models.dev official list price |
 | `gpt-5.4-nano` | — | reasoning | 400K | $0.2 | $1.25 | $0.02 | — | —/— | — | models.dev official list price |
 | `gpt-5.4-pro` | — | reasoning | 1.05M | $30 | $180 | — | — | —/— | — | models.dev official list price |
-| `gpt-5.5` | ❌ 已退役 | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-5.5` | ❌ 下线 | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `gpt-5.5-pro` | — | reasoning | 1.05M | $30 | $180 | — | — | —/— | — | models.dev official list price |
 | `gpt-5.6` | — | reasoning | 1.05M | $5 | $30 | $0.5 | $6.25 | $2.5/$15 | — | Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30… |
 | `gpt-5.6-luna` | — | reasoning | 1.05M | $0.2 | $1.2 | $0.02 | $0.25 | $2.5/$15 | — | Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30… |
 | `gpt-5.6-sol` | — | reasoning | 1.05M | $5 | $30 | $0.5 | $6.25 | $2.5/$15 | — | Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30… |
 | `gpt-5.6-terra` | — | reasoning | 1.05M | $2 | $12 | $0.2 | $2.5 | $2.5/$15 | — | Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30… |
-| `gpt-image-1` | ❌ 已退役 | chat | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `gpt-image-1-mini` | ❌ 已退役 | chat | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `gpt-image-1.5` | ❌ 已退役 | chat | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-image-1` | ❌ 下线 | chat | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-image-1-mini` | ❌ 下线 | chat | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-image-1.5` | ❌ 下线 | chat | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `gpt-image-2` | — | chat | — | $5 | $30 | $1.25 | — | —/— | — | models.dev official list price |
 | `gpt-realtime-2.1` | — | reasoning | 128K | $4 | $24 | $0.4 | — | —/— | — | models.dev official list price |
-| `o1` | ❌ 已退役 | reasoning | 200K | $15 | $60 | $7.5 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `o1-pro` | ❌ 已退役 | reasoning | 200K | $150 | $600 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `o3` | ❌ 已退役 | reasoning | 200K | $2 | $8 | $0.5 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `o3-mini` | ❌ 已退役 | reasoning | 200K | $1.1 | $4.4 | $0.55 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `o1` | ❌ 下线 | reasoning | 200K | $15 | $60 | $7.5 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `o1-pro` | ❌ 下线 | reasoning | 200K | $150 | $600 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `o3` | ❌ 下线 | reasoning | 200K | $2 | $8 | $0.5 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `o3-mini` | ❌ 下线 | reasoning | 200K | $1.1 | $4.4 | $0.55 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `o3-pro` | — | reasoning | 200K | $20 | $80 | — | — | —/— | — | models.dev official list price |
-| `o4-mini` | ❌ 已退役 | reasoning | 200K | $1.1 | $4.4 | $0.275 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `o4-mini` | ❌ 下线 | reasoning | 200K | $1.1 | $4.4 | $0.275 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `text-embedding-3-large` | — | embedding | 8.191K | $0.13 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `text-embedding-3-small` | ❌ 已退役 | embedding | 8.191K | $0.02 | $0 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `text-embedding-3-small` | ❌ 下线 | embedding | 8.191K | $0.02 | $0 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `text-embedding-ada-002` | — | embedding | 8.192K | $0.1 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

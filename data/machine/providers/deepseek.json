@@ -32,7 +32,7 @@
         "per_request": null
       },
       "notes": "Legacy model (V3.2 era), superseded by deepseek-v4-flash; old prices $0.28/$0.42 no longer apply to current official models on sale; entry kept for historical reference only. SUPERSEDED by deepseek-v4 series; historical entry only.",
-      "status": "superseded"
+      "status": "offline"
     },
     {
       "id": "deepseek-reasoner",
@@ -56,7 +56,7 @@
         "per_request": null
       },
       "notes": "Legacy model (R1 era), superseded by deepseek-v4-flash/pro thinking mode; old prices $0.55/$2.19 no longer apply to current official models on sale; entry kept for historical reference only. SUPERSEDED by deepseek-v4 series; historical entry only.",
-      "status": "superseded"
+      "status": "offline"
     },
     {
       "id": "deepseek-v4-flash",
@@ -100,7 +100,7 @@
         "per_request": null
       },
       "notes": "Official price (CNY/1M tokens) same as flash: input (cache miss) peak ¥3.0/off-peak ¥1.5; output ¥9.0/¥4.5; cache hit ¥0.10/¥0.05. Images are converted to tokens by size and billed together (Exp experimental version). Official English page USD price same as flash.",
-      "status": "preview"
+      "status": "online"
     },
     {
       "id": "deepseek-v4-pro",

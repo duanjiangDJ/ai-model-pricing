@@ -75,10 +75,15 @@ print(f"OK index counts: {idx.get('provider_count')} providers, {idx.get('model_
 SUB_HINTS = ("coding-plan", "token-plan", "copilot", "kimi-for-coding")
 zero_free = 0
 zero_suspect = 0
+bad_status = 0
 for f in sorted(glob.glob("data/machine/providers/*.json")):
     p = json.load(open(f, encoding="utf-8"))
     is_sub = any(h in p["provider_id"] for h in SUB_HINTS)
     for m in p.get("models", []):
+        st = m.get("status")
+        if st is not None and st not in ("online", "offline"):
+            bad_status += 1
+            fail(f"invalid model status '{st}' in {p['provider_id']} :: {m['id']} (only online/offline allowed)")
         pm = (m.get("pricing") or {}).get("per_mtok") or {}
         vals = [pm.get(k) for k in ("input", "output", "cache_read")]
         if vals and any(v == 0 for v in vals if v is not None):
@@ -94,9 +99,9 @@ for f in sorted(glob.glob("data/machine/providers/*.json")):
                     zero_free += 1
 print(f"OK zero-price: {zero_free} free-flagged, {zero_suspect} suspect")
 
-# 4. docs bilingual completeness
-prose_docs = ["README.md", "AGENTS.md", "FORMAT.md", "CHANGELOG.md", "CONTRIBUTING.md"] + \
-    [os.path.relpath(f, ROOT).replace("\\", "/") for f in glob.glob("docs/*.md")]
+# 4. docs bilingual completeness (AGENTS is English-only by design)
+prose_docs = ["README.md", "FORMAT.md", "CHANGELOG.md", "CONTRIBUTING.md"] + \
+    [os.path.relpath(f, ROOT).replace("\\", "/") for f in glob.glob("docs/*.md") if "ego" not in f]
 for d in prose_docs:
     if d.endswith(".zh-CN.md") or d.endswith(".en.md"):
         continue

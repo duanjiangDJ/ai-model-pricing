@@ -48,8 +48,7 @@ CHANNEL_LABEL = {"first_party": "First-party", "cloud": "Cloud-hosted", "hosted"
 CHANNEL_LABEL_ZH = {"first_party": "官方直供", "cloud": "云平台托管", "hosted": "推理托管",
                     "aggregator": "聚合站", "reseller": "中转站", "subscription": "订阅产品"}
 REGION_LABEL = {"global": "Global", "cn": "China", "us": "US", "eu": "EU", "other": "Other"}
-STATUS_LABEL = {"active": "active", "preview": "preview", "deprecated": "deprecated",
-                "retired": "retired", "superseded": "superseded"}
+STATUS_LABEL = {"online": "online", "offline": "offline"}
 
 
 def stats_block(lang):

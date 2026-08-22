@@ -42,7 +42,6 @@ duplicate-id checks) on every run; a validation failure fails the workflow run.
 
 | Tier | Source | Update cadence | Trust level |
 |---|---|---|---|
-| A+. Official page (agent via ego-browser) | live JS-rendered official pages read by an AI agent with the ego-lite browser | on demand, per re-verification campaign | Highest — current official page, rendered |
 | A. Official pages (direct parse) | static/SSR official pages parsed in-repo (DeepSeek, Baidu, Anthropic) + Wayback snapshots for JS pages | daily auto-sync (`sync_official.py`) | High — direct from vendor (snapshots may lag) |
 | B. models.dev | republished official list prices, maintained by a third party | daily auto-sync (skipped when A/A+ verified today) | High for first-party entries; still third-party republication |
 | C. OpenRouter API | reseller/aggregator prices (the price OpenRouter charges) | daily auto-sync | Correct *as OpenRouter's price*; differs from official prices by design |
@@ -84,3 +83,16 @@ documented in `docs/research-contract.md`.
 2. Note `verified_at` (human) or `updated_at` (auto-sync) and the `source` URL.
 3. For auto-synced values, `data/meta/changelog.json` shows when it last changed.
 4. Open the source URL and compare. If it differs, fix it or open an issue.
+
+
+---
+
+## Related docs
+
+- [README](README.md) — overview & exact stats
+- [AGENTS.md](AGENTS.md) — guide for AI agents
+- [FORMAT.md](FORMAT.md) — machine format spec
+- [docs/providers.md](docs/providers.md) — provider landscape & status
+- [docs/price-types.md](docs/price-types.md) — price types
+- [docs/verification.md](docs/verification.md) — verification model
+- [CONTRIBUTING.md](CONTRIBUTING.md) — how to contribute

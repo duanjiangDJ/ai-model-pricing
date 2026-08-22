@@ -70,3 +70,16 @@
 3. **Missing data** uses `null`; **not applicable** uses `null` + `notes` explanation; **never use 0 for missing**.
 4. Price changes: the daily check script compares against the previous `verified_at`; if a change exceeds 1% or any price field changes, write `changelog.json` and generate a report.
 5. Subscription plan prices follow the official pricing pages; the daily check generates a "needs manual verification" list for plans not verified for more than 30 days.
+
+
+---
+
+## Related docs
+
+- [README](README.md) — overview & exact stats
+- [AGENTS.md](AGENTS.md) — guide for AI agents
+- [FORMAT.md](FORMAT.md) — machine format spec
+- [docs/providers.md](docs/providers.md) — provider landscape & status
+- [docs/price-types.md](docs/price-types.md) — price types
+- [docs/verification.md](docs/verification.md) — verification model
+- [CONTRIBUTING.md](CONTRIBUTING.md) — how to contribute

@@ -3,7 +3,7 @@
   "$id": "https://raw.githubusercontent.com/duanjiangDJ/ai-model-pricing/main/data/machine/schema.json",
   "title": "AI Model Pricing Database Schema",
   "description": "Versioned machine-readable schema for the ai-model-pricing database. Validates: index.json, providers/*.json, plans.json, resellers.json, manifest.json, changelog.json",
-  "version": "26.0.2",
+  "version": "26.0.3",
   "$defs": {
     "channel": {
       "type": "string",
@@ -409,13 +409,10 @@
     "modelStatus": {
       "type": "string",
       "enum": [
-        "active",
-        "preview",
-        "deprecated",
-        "retired",
-        "superseded"
+        "online",
+        "offline"
       ],
-      "description": "active = currently sold; preview = limited/beta access; deprecated = announced end-of-life, still available; retired = removed from sale; superseded = replaced by a newer model (keep as historical entry)."
+      "description": "online = currently sold/available; offline = not available (retired/deprecated/superseded — the reason stays in notes)."
     },
     "model": {
       "type": "object",
@@ -784,7 +781,7 @@
     "properties": {
       "schema_version": {
         "type": "string",
-        "const": "26.0.2"
+        "const": "26.0.3"
       },
       "updated_at": {
         "type": "string",
@@ -808,7 +805,7 @@
     "properties": {
       "schema_version": {
         "type": "string",
-        "const": "26.0.2"
+        "const": "26.0.3"
       },
       "generated_at": {
         "type": "string",
@@ -856,7 +853,7 @@
     "properties": {
       "schema_version": {
         "type": "string",
-        "const": "26.0.2"
+        "const": "26.0.3"
       },
       "last_full_sync": {
         "type": "string",
@@ -919,7 +916,7 @@
     "properties": {
       "schema_version": {
         "type": "string",
-        "const": "26.0.2"
+        "const": "26.0.3"
       },
       "entries": {
         "type": "array",

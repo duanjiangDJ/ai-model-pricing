@@ -104,3 +104,16 @@ changelog、index/manifest、去重辅助）。检查脚本不要重复造轮子
 在 `docs/optimization-roadmap.md` 中任选标记 ⬜ 的供应商（优先 Tier 0/1），按清单执行：
 官方页 → 收费模式 → 模型清单/状态 → notes → 人类页面 → 版本提升。
 或者认领标记了 `good first issue` 的 issue。
+
+
+---
+
+## 相关文档
+
+- [README.zh-CN.md](README.zh-CN.md) — 总览与精确统计
+- [FORMAT.zh-CN.md](FORMAT.zh-CN.md) — 机器格式规范
+- [docs/providers.zh-CN.md](docs/providers.zh-CN.md) — 供应商全景与状态
+- [docs/price-types.zh-CN.md](docs/price-types.zh-CN.md) — 收费形式口径
+- [docs/verification.zh-CN.md](docs/verification.zh-CN.md) — 核实与真实性机制
+- [CONTRIBUTING.zh-CN.md](CONTRIBUTING.zh-CN.md) — 如何贡献
+- [AGENTS.md](AGENTS.md) — AI Agent 指南（英文）

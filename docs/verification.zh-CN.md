@@ -57,3 +57,16 @@
 2. 记下 `verified_at`（人工）或 `updated_at`（自动同步）以及 `source` URL。
 3. 对自动同步的值，`data/meta/changelog.json` 显示其最后变更时间。
 4. 打开来源 URL 并对比。如有出入，请修正或提出 issue。
+
+
+---
+
+## 相关文档
+
+- [README.zh-CN.md](README.zh-CN.md) — 总览与精确统计
+- [FORMAT.zh-CN.md](FORMAT.zh-CN.md) — 机器格式规范
+- [docs/providers.zh-CN.md](docs/providers.zh-CN.md) — 供应商全景与状态
+- [docs/price-types.zh-CN.md](docs/price-types.zh-CN.md) — 收费形式口径
+- [docs/verification.zh-CN.md](docs/verification.zh-CN.md) — 核实与真实性机制
+- [CONTRIBUTING.zh-CN.md](CONTRIBUTING.zh-CN.md) — 如何贡献
+- [AGENTS.md](AGENTS.md) — AI Agent 指南（英文）

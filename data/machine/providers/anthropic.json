@@ -107,7 +107,7 @@
         "per_request": null
       },
       "notes": "NEW / restricted access: not self-serve; available only to approved Project Glasswing partners. Same underlying model and identical rates as Fable 5 (launched 2026-06-09). Predecessor claude-mythos-preview (2026-04, $25/$125) is deprecated/superseded.",
-      "status": "deprecated"
+      "status": "offline"
     },
     {
       "id": "claude-mythos-preview",
@@ -131,7 +131,7 @@
         "per_request": null
       },
       "notes": "DEPRECATED limited-access preview (2026-04-07, Project Glasswing, $25/$125). Superseded by claude-mythos-5 at $10/$50 on 2026-06-09. Cache figures not published.",
-      "status": "deprecated"
+      "status": "offline"
     },
     {
       "id": "claude-opus-4-1",
@@ -155,7 +155,7 @@
         "per_request": null
       },
       "notes": "Legacy, still listed on official pricing page; third-party sources report it as now retired/decommissioned (superseded by the $5/$25 Opus generation).",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "claude-opus-4-5",

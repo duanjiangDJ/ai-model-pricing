@@ -95,3 +95,16 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3`); the rules are
 4. Auto commit & push if there are changes (bot identity, `[skip ci]`).
 
 Manual trigger: Repository Actions page → Daily Price Check → Run workflow.
+
+
+---
+
+## Related docs
+
+- [README](README.md) — overview & exact stats
+- [AGENTS.md](AGENTS.md) — guide for AI agents
+- [FORMAT.md](FORMAT.md) — machine format spec
+- [docs/providers.md](docs/providers.md) — provider landscape & status
+- [docs/price-types.md](docs/price-types.md) — price types
+- [docs/verification.md](docs/verification.md) — verification model
+- [CONTRIBUTING.md](CONTRIBUTING.md) — how to contribute

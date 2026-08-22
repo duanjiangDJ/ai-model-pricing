@@ -16,9 +16,9 @@
 | `claude-fable-5` | — | chat | 1M | $10 | $50 | $1 | $12.5 | $5/$25 | — | GA since 2026-06-09; Mythos-class model made safe for general use. 1M context… |
 | `claude-haiku-4-5` | — | chat | 200K | $1 | $5 | $0.1 | $1.25 | $0.5/$2.5 | — | Full API model ID claude-haiku-4-5-20251001 (dated; released 2025-10-01). 200… |
 | `claude-haiku-4-5-20251001` | — | reasoning | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
-| `claude-mythos-5` | ⚠️ 弃用 | chat | 1M | $10 | $50 | $1 | $12.5 | $5/$25 | — | NEW / restricted access: not self-serve; available only to approved Project G… |
-| `claude-mythos-preview` | ⚠️ 弃用 | chat | — | $25 | $125 | — | — | $12.5/$62.5 | — | DEPRECATED limited-access preview (2026-04-07, Project Glasswing, $25/$125). … |
-| `claude-opus-4-1` | ❌ 已退役 | chat | 200K | $15 | $75 | $1.5 | $18.75 | $7.5/$37.5 | — | Legacy, still listed on official pricing page; third-party sources report it … |
+| `claude-mythos-5` | ❌ 下线 | chat | 1M | $10 | $50 | $1 | $12.5 | $5/$25 | — | NEW / restricted access: not self-serve; available only to approved Project G… |
+| `claude-mythos-preview` | ❌ 下线 | chat | — | $25 | $125 | — | — | $12.5/$62.5 | — | DEPRECATED limited-access preview (2026-04-07, Project Glasswing, $25/$125). … |
+| `claude-opus-4-1` | ❌ 下线 | chat | 200K | $15 | $75 | $1.5 | $18.75 | $7.5/$37.5 | — | Legacy, still listed on official pricing page; third-party sources report it … |
 | `claude-opus-4-5` | — | chat | 200K | $5 | $25 | $0.5 | $6.25 | $2.5/$12.5 | — | Legacy/previous generation, still on official pricing page. 200K context (pre… |
 | `claude-opus-4-5-20251101` | — | reasoning | 200K | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
 | `claude-opus-4-6` | — | chat | 1M | $5 | $25 | $0.5 | $6.25 | $2.5/$12.5 | — | Legacy/previous generation, still on official pricing page. |

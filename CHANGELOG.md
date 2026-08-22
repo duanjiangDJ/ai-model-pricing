@@ -14,6 +14,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.0.3 — 2026-08-22T15:30 (feature update)
+
+- feature: status simplified to online/offline, 3-hourly auto-check with direct merge to main, version increment logic fixed (content/feature independent) with minute-precision timestamps, AGENTS zh-CN removed, docs dedup (ego removed, providers+roadmap merged into generated status doc), cross-linked documentation
+
 ## 26.0.2 — 2026-08-22 (feature update)
 
 - feature: core check router (scripts/router.py) + toolbox (scripts/toolbox.py) + per-provider checks (scripts/checks/), CONTRIBUTING guide expanded, daily-check PR fix
@@ -55,3 +59,16 @@ The first version to adopt the new versioning rules (content covers all work com
 
 ### Historical Background (work before 26.0.0, archived here)
 - Repository establishment: schema v1, OpenRouter (419 models) + models.dev (192 providers) auto-sync, dual-version output, daily-check workflow, 51 subscription plans, comprehensive pricing review (DeepSeek / Anthropic / OpenAI / domestic vendors).
+
+
+---
+
+## Related docs
+
+- [README](README.md) — overview & exact stats
+- [AGENTS.md](AGENTS.md) — guide for AI agents
+- [FORMAT.md](FORMAT.md) — machine format spec
+- [docs/providers.md](docs/providers.md) — provider landscape & status
+- [docs/price-types.md](docs/price-types.md) — price types
+- [docs/verification.md](docs/verification.md) — verification model
+- [CONTRIBUTING.md](CONTRIBUTING.md) — how to contribute

@@ -13,12 +13,12 @@
 
 | 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| `mimo-v2-flash` | ❌ 已退役 | reasoning | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Officially deprecated 2026-06-30 (MiMo-V2 s… |
-| `mimo-v2-omni` | ❌ 已退役 | reasoning | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Officially deprecated 2026-06-30 (MiMo-V2 s… |
-| `mimo-v2-pro` | ❌ 已退役 | reasoning | 1.04858M | — | — | — | — | —/— | — | models.dev official list price \| Officially deprecated 2026-06-30 (MiMo-V2 s… |
-| `mimo-v2-tts` | ❌ 已退役 | chat | 8.192K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `mimo-v2.5` | — | reasoning | 1.04858M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price \| Official pay-as-you-go (USD/1M tokens, mimo… |
-| `mimo-v2.5-pro` | — | reasoning | 1.04858M | $0.435 | $0.87 | $0.0036 | — | —/— | — | models.dev official list price \| Official pay-as-you-go (USD/1M tokens, mimo… |
+| `mimo-v2-flash` | ❌ 下线 | reasoning | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Officially deprecated 2026-06-30 (MiMo-V2 s… |
+| `mimo-v2-omni` | ❌ 下线 | reasoning | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Officially deprecated 2026-06-30 (MiMo-V2 s… |
+| `mimo-v2-pro` | ❌ 下线 | reasoning | 1.04858M | — | — | — | — | —/— | — | models.dev official list price \| Officially deprecated 2026-06-30 (MiMo-V2 s… |
+| `mimo-v2-tts` | ❌ 下线 | chat | 8.192K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `mimo-v2.5` | ✅ 在线 | reasoning | 1.04858M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price \| Official pay-as-you-go (USD/1M tokens, mimo… |
+| `mimo-v2.5-pro` | ✅ 在线 | reasoning | 1.04858M | $0.435 | $0.87 | $0.0036 | — | —/— | — | models.dev official list price \| Official pay-as-you-go (USD/1M tokens, mimo… |
 | `mimo-v2.5-pro-ultraspeed` | — | reasoning | 1.04858M | $1.305 | $2.61 | $0.0108 | — | —/— | — | models.dev official list price |
 | `mimo-v2.5-tts` | — | chat | 8.192K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
 | `mimo-v2.5-tts-voiceclone` | — | chat | 8.192K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |

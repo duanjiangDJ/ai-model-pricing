@@ -112,3 +112,16 @@ changelog, index/manifest, dedup helpers). Don't duplicate them in checks.
 Pick any provider marked ⬜ in `docs/optimization-roadmap.md` (Tier 0/1 first) and run its
 checklist: official page → billing mode → model list/status → notes → human page → version bump.
 Or pick an open issue labeled `good first issue`.
+
+
+---
+
+## Related docs
+
+- [README](README.md) — overview & exact stats
+- [AGENTS.md](AGENTS.md) — guide for AI agents
+- [FORMAT.md](FORMAT.md) — machine format spec
+- [docs/providers.md](docs/providers.md) — provider landscape & status
+- [docs/price-types.md](docs/price-types.md) — price types
+- [docs/verification.md](docs/verification.md) — verification model
+- [CONTRIBUTING.md](CONTRIBUTING.md) — how to contribute

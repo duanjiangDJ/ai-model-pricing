@@ -29,7 +29,7 @@
         "per_request": null
       },
       "notes": "grok-3 retired from xAI API 2026-05-15; redirects to grok-4.3 with 'none' reasoning effort, billed at grok-4.3 rates ($1.25 input / $2.50 output per 1M tokens). Historical 2025 pricing not published on current official page.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "grok-4",
@@ -50,7 +50,7 @@
         "per_request": null
       },
       "notes": "2025-era Grok 4 family (grok-4-0709, grok-4-fast-reasoning, grok-4-fast-non-reasoning, grok-4-1-fast-reasoning, grok-4-1-fast-non-reasoning) RETIRED from xAI API on 2026-05-15; slugs redirect to grok-4.3 (billed at grok-4.3 rates $1.25/$2.50 per 1M tokens). No standalone pricing on official page as of 2026-08-21.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "grok-4-fast",
@@ -71,7 +71,7 @@
         "per_request": null
       },
       "notes": "grok-4-fast-reasoning and grok-4-fast-non-reasoning retired 2026-05-15; redirect to grok-4.3 (low/none reasoning effort) billed at grok-4.3 rates. Historical 2025 prices not published on current official page.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "grok-4.20-0309-non-reasoning",
@@ -176,7 +176,7 @@
         "per_request": null
       },
       "notes": "Two-tier long-context pricing. <200k: input $1.25 / cached $0.20 / output $2.50; >=200k: $2.50 / $0.40 / $5.00. Batch API = 20% off standard rates for all token types (computed values shown: 1.25*0.8, 2.5*0.8). 4 reasoning effort levels. Redirect target for retired grok-3/grok-4-fast/grok-4-0709 slugs since 2026-05-15.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "grok-4.5",
@@ -246,7 +246,7 @@
         "per_request": null
       },
       "notes": "Agentic coding model. Two-tier pricing at 200k: <200k input $1.00 / cached $0.20 / output $2.00; >=200k $2.00 / $0.40 / $4.00. No batch discount. Recommended replacement for retired grok-code-fast-1.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "grok-code-fast-1",
@@ -267,7 +267,7 @@
         "per_request": null
       },
       "notes": "Retired from xAI API 2026-05-15; redirects to grok-build-0.1 (recommended replacement, priced $1.00 input / $2.00 output per 1M tokens). Historical 2025 price (launched Aug 2025) not listed on current official pricing page.",
-      "status": "retired"
+      "status": "offline"
     },
     {
       "id": "grok-embedding",

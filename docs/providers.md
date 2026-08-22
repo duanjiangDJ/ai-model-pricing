@@ -1,178 +1,252 @@
 > **Language: English (en)** — This document is written in en only.
-# Provider Landscape (providers)
 
-> This file is the provider map of "prices for all obtainable AI models". All channels through which models can be obtained are grouped into **7 major categories**.
-> Machine-readable versions: `data/machine/providers/*.json` and `data/machine/plans.json`.
+# Provider Landscape & Status (providers)
 
-## Category Overview
+Every provider in the database, its status, and its automation. The table below is
+**generated** by `python scripts/provider_status.py` — never edit it by hand.
 
-| Category | Definition | Billing Characteristics | Examples |
-|---|---|---|---|
-| A. First-party AI vendors | Direct API from model originators | per MTok (incl. cache/batch), per image, per audio second, subscription | OpenAI, Anthropic, Google, DeepSeek, Zhipu (智谱)… |
-| B. Cloud platform hosting | Official models hosted by cloud vendors (same model, different prices) | per MTok, provisioned capacity per hour | Azure, AWS Bedrock, Vertex, Alibaba Cloud Bailian… |
-| C. Inference hosting platforms | Third-party hosting (open-source/commercial models) with own GPUs | per MTok, per GPU second | Together, Groq, Cerebras, SiliconFlow, Replicate… |
-| D. Aggregators / relay stations | Resell multiple models, prices float with upstream | per MTok markup, credits, top-up multipliers | OpenRouter, Poe API, AIMLAPI, domestic relay stations… |
-| E. Consumer subscriptions | Subscription plans for end users | Monthly/yearly fees, usage caps | ChatGPT Plus/Pro, Claude Pro/Max, Gemini AI… |
-| F. Coding tool plans | Coding-assistant subscriptions for developers | Monthly fee, quotas (some include API usage) | Copilot, Cursor, Windsurf, Claude Code… |
-| G. GPU compute platforms | Rent GPU compute to self-host models | Per GPU hour/second | RunPod, Vast.ai, Lambda, Modal… |
+- **Check script**: a `scripts/checks/tierN_<provider>.py` module that fetches the official
+  pricing page automatically (run by the core router every 3 hours).
+- **Status**: 🟢 automated (has a check script) / 🟡 manual (verified by hand or third-party sync).
+- Optimization order = table order: core model R&D vendors (Tier 0/1) first, periphery last.
+  Per-provider checklist: official page → billing mode → model list/status → notes → human page.
 
----
+<!-- PROVIDERS:BEGIN -->
 
-## A. First-party AI vendors (official API direct)
+### Tier 0 — Core model R&D vendors (global)
 
-### International
-| Vendor | Main model lines | Pricing page |
-|---|---|---|
-| OpenAI | GPT-4.1 / GPT-4o / o-series reasoning / GPT-5 / embeddings / DALL·E image / Whisper·TTS / Realtime | platform.openai.com/docs/pricing |
-| Anthropic | Claude Opus / Sonnet / Haiku (incl. caching, batch) | anthropic.com/pricing |
-| Google DeepMind | Gemini 2.0/2.5 series (Flash/Pro), Imagen, Veo, Chirp audio | ai.google.dev/pricing |
-| xAI | Grok series, Grok Code Fast, grok-embedding | x.ai/api |
-| Mistral AI | Mistral Large/Medium/Small, Codestral, Pixtral, Ministral, Embed | mistral.ai/pricing |
-| Cohere | Command A / R+, Embed, Rerank, Classify | cohere.com/pricing |
-| AI21 | Jamba series | ai21.com/pricing |
-| Stability AI | Stable Image / Video series | stability.ai |
-| Perplexity | Sonar API (online models) | docs.perplexity.ai |
-| ElevenLabs | TTS/STT audio models | elevenlabs.io/pricing |
-| Deepgram | STT/TTS audio models | deepgram.com/pricing |
-| AssemblyAI | STT/audio understanding | assemblyai.com/pricing |
-| Cartesia | Low-latency TTS | cartesia.ai/pricing |
-| Luma AI | Dream Machine video | lumalabs.ai |
-| Runway | Gen series video | runwayml.com/pricing |
-| Pika | Video generation | pika.art |
-| NVIDIA (NIM) | Self-hosted inference containers (GPU-licensed) | build.nvidia.com |
+| # | Provider | Models | API base URL | Check script | Status |
+|---|---|---|---|---|---|
+| 1 | aws | 120 | `https://bedrock-runtime.{region}.amazon…` | `—` | 🟡 manual |
+| 2 | nvidia | 100 | `https://integrate.api.nvidia.com/v1` | `—` | 🟡 manual |
+| 3 | openai | 47 | `https://api.openai.com/v1` | `tier0_openai.py` | 🟢 automated |
+| 4 | google | 40 | `https://generativelanguage.googleapis.c…` | `—` | 🟡 manual |
+| 5 | mistral | 33 | `https://api.mistral.ai/v1` | `—` | 🟡 manual |
+| 6 | perplexity | 26 | `https://api.perplexity.ai` | `—` | 🟡 manual |
+| 7 | xai | 17 | `https://api.x.ai/v1` | `—` | 🟡 manual |
+| 8 | anthropic | 16 | `https://api.anthropic.com/v1` | `tier0_anthropic.py` | 🟢 automated |
+| 9 | cohere | 14 | `https://api.cohere.com/v1` | `—` | 🟡 manual |
+| 10 | deepseek | 5 | `https://api.deepseek.com` | `tier0_deepseek.py` | 🟢 automated |
+| 11 | meta | 3 | `https://api.meta.ai/v1` | `—` | 🟡 manual |
 
-### Domestic (China)
-| Vendor | Main model lines | Platform |
-|---|---|---|
-| DeepSeek | deepseek-chat / deepseek-reasoner (V3/R1 series) | platform.deepseek.com |
-| Alibaba Cloud | Qwen (Tongyi Qianwen) full lineup, open-source model hosting | Bailian Model Studio |
-| ByteDance | Doubao series, Jimeng (image/video), speech | Volcano Ark |
-| Baidu | ERNIE (Wenxin) series | Qianfan ModelBuilder |
-| Tencent | Hunyuan series | Tencent Cloud TI / Hunyuan |
-| Zhipu AI | GLM-4.5/4.6, GLM-Z1, CogView, CogVideoX, speech | open.bigmodel.cn |
-| Moonshot AI | Kimi K2, kimi-thinking, moonshot-v1 | platform.moonshot.cn |
-| MiniMax | MiniMax-Text / VL / Speech / Music / Video | platform.minimaxi.com |
-| StepFun | Step series (text/image/video) | platform.stepfun.com |
-| 01.AI | Yi series | platform.lingyiwanwu.com |
-| iFlytek | Spark (Xinghuo) series | xfyun.cn |
-| Baichuan | Baichuan series | platform.baichuan-ai.com |
-| Kunlun Wanwei | Skywork (Tiangong) series | platform.tiangong.cn |
+### Tier 1 — Core model R&D vendors (China)
 
-> Meta (Llama) has no official API and is distributed through B/C-class platforms; open-source models such as Shanghai AI Lab (InternLM) follow the same rule and fall under C-class hosted platform pricing.
+| # | Provider | Models | API base URL | Check script | Status |
+|---|---|---|---|---|---|
+| 1 | alibaba-cn | 86 | `https://dashscope.aliyuncs.com/compatib…` | `—` | 🟡 manual |
+| 2 | alibaba | 54 | `https://dashscope-intl.aliyuncs.com/com…` | `—` | 🟡 manual |
+| 3 | zai | 16 | `https://api.z.ai/api/paas/v4` | `—` | 🟡 manual |
+| 4 | zhipuai | 16 | `https://open.bigmodel.cn/api/paas/v4` | `—` | 🟡 manual |
+| 5 | moonshotai | 14 | `https://api.moonshot.cn/v1` | `—` | 🟡 manual |
+| 6 | xiaomi | 10 | `https://api.xiaomimimo.com/v1` | `tier1_xiaomi.py` | 🟢 automated |
+| 7 | stepfun | 8 | `https://api.stepfun.com/v1` | `—` | 🟡 manual |
+| 8 | minimax | 7 | `https://api.minimax.chat/v1` | `—` | 🟡 manual |
+| 9 | baidu | 3 | `https://qianfan.baidubce.com/v2` | `—` | 🟡 manual |
+| 10 | tencent-tokenhub | 2 | `https://tokenhub.tencentmaas.com/v1` | `—` | 🟡 manual |
+| 11 | volcengine | 2 | `https://ark.cn-beijing.volces.com/api/v3` | `—` | 🟡 manual |
+| 12 | tencent | 1 | `https://api.hunyuan.cloud.tencent.com/v1` | `tier1_tencent.py` | 🟢 automated |
 
----
+### Tier 2 — Cloud platforms
 
-## B. Cloud platform hosting (official model hosting, independent prices)
+| # | Provider | Models | API base URL | Check script | Status |
+|---|---|---|---|---|---|
+| 1 | azure | 84 | `https://{resource}.openai.azure.com` | `—` | 🟡 manual |
+| 2 | google-vertex | 42 | `https://{region}-aiplatform.googleapis.com` | `—` | 🟡 manual |
 
-| Platform | Hosted official models | Notes |
-|---|---|---|
-| Microsoft Azure AI Foundry | OpenAI GPT, o-series, Meta, Mistral, etc. | Enterprise contract pricing, plus provisioned per hour |
-| AWS Bedrock | Claude, Llama, Mistral, Cohere, Titan, Nova | Pay-as-you-go, region differences |
-| Google Vertex AI | Gemini, Imagen, Veo, open-source models | Pay-as-you-go |
-| Alibaba Cloud Bailian (international) | Qwen series | Prices differ from the domestic version |
-| IBM watsonx | Granite, Llama, Mistral | Enterprise-focused |
-| Oracle OCI / Tencent Cloud / Huawei Cloud | Their own hosted models | Mostly enterprise contracts |
+### Tier 3 — Inference hosting
 
----
+| # | Provider | Models | API base URL | Check script | Status |
+|---|---|---|---|---|---|
+| 1 | novita-ai | 107 | `https://api.novita.ai/v3/openai` | `—` | 🟡 manual |
+| 2 | digitalocean | 92 | `https://inference.do-ai.run/v1` | `—` | 🟡 manual |
+| 3 | huggingface | 69 | `https://router.huggingface.co/v1` | `—` | 🟡 manual |
+| 4 | siliconflow | 61 | `https://api.siliconflow.cn/v1` | `—` | 🟡 manual |
+| 5 | deepinfra | 60 | `https://api.deepinfra.com/v1/openai` | `—` | 🟡 manual |
+| 6 | sap-ai-core | 48 | `https://api.ai.prod.eu-central-1.aws.sa…` | `—` | 🟡 manual |
+| 7 | togetherai | 36 | `https://api.together.xyz/v1` | `—` | 🟡 manual |
+| 8 | nebius | 34 | `https://api.studio.nebius.ai/v1` | `—` | 🟡 manual |
+| 9 | databricks | 30 | `https://${DATABRICKS_HOST}/ai-gateway/m…` | `—` | 🟡 manual |
+| 10 | cloudflare-workers-ai | 25 | `https://api.cloudflare.com/client/v4/ac…` | `—` | 🟡 manual |
+| 11 | snowflake-cortex | 25 | `https://${SNOWFLAKE_ACCOUNT}.snowflakec…` | `—` | 🟡 manual |
+| 12 | fireworks-ai | 23 | `https://api.fireworks.ai/inference/v1/` | `—` | 🟡 manual |
+| 13 | baseten | 19 | `https://inference.baseten.co/v1` | `—` | 🟡 manual |
+| 14 | groq | 15 | `https://api.groq.com/openai/v1` | `—` | 🟡 manual |
+| 15 | ovhcloud | 14 | `https://oai.endpoints.kepler.ai.cloud.o…` | `—` | 🟡 manual |
+| 16 | scaleway | 14 | `https://api.scaleway.ai/v1` | `—` | 🟡 manual |
+| 17 | vultr | 10 | `https://api.vultrinference.com/v1` | `—` | 🟡 manual |
+| 18 | watsonx | 5 | `https://{region}.ml.cloud.ibm.com` | `—` | 🟡 manual |
+| 19 | cerebras | 2 | `https://api.cerebras.ai/v1` | `—` | 🟡 manual |
+| 20 | modal | 2 | `https://inference.us-west.modal.direct/v1` | `—` | 🟡 manual |
 
-## C. Inference hosting platforms (third-party hosting, own compute)
+### Tier 4 — Aggregators & gateways
 
-| Platform | Model coverage | Billing |
-|---|---|---|
-| OpenRouter | 400+ models (aggregator, resale prices) | per MTok (incl. cache), per image, per request |
-| Together AI | Full open-source lineup: Llama/Qwen/DeepSeek etc. | per MTok |
-| Fireworks AI | Open-source models + proprietary function models | per MTok |
-| Groq | Llama, DeepSeek, Qwen etc. (LPU ultra-fast) | per MTok |
-| Cerebras | Llama, DeepSeek etc. (fastest inference) | per MTok |
-| SambaNova | Llama etc. | per MTok |
-| DeepInfra | Full open-source lineup | per MTok |
-| Novita AI | Full open-source lineup + image/video | per MTok, per image |
-| SiliconFlow | Full open-source lineup (domestic) | per MTok (top-up bonus) |
-| Replicate | Full image/video/audio/text lineup | Per GPU second + per request |
-| Hugging Face Inference | Full open-source lineup | Per second/request + Pro subscription credits |
-| Nebius AI Studio | Full open-source lineup | per MTok |
-| Baseten | Full open-source lineup | Per GPU second |
-| Modal | Full open-source lineup | Per GPU second |
-| Cloudflare Workers AI | Some open-source models | Per neuron second |
-| GitHub Models | Mainstream models (Microsoft account quota) | Free within subscription quota |
-| FAL.ai | Image/video models | Per second/per image |
-| Pollinations | Free image/text | Free |
+| # | Provider | Models | API base URL | Check script | Status |
+|---|---|---|---|---|---|
+| 1 | nano-gpt | 597 | `https://api.nano-gpt.com/v1` | `—` | 🟡 manual |
+| 2 | llmgateway | 556 | `https://api.llmgateway.io/v1` | `—` | 🟡 manual |
+| 3 | openrouter | 420 | `https://openrouter.ai/api/v1` | `—` | 🟡 manual |
+| 4 | kilo | 363 | `https://api.kilo.ai/api/gateway` | `—` | 🟡 manual |
+| 5 | vercel | 350 | `https://api.vercel.com/v1/ai` | `—` | 🟡 manual |
+| 6 | edenai | 232 | `https://api.edenai.run/v3` | `—` | 🟡 manual |
+| 7 | merge-gateway | 174 | `https://api-gateway.merge.dev/v1/ai-sdk` | `—` | 🟡 manual |
+| 8 | requesty | 139 | `https://router.requesty.ai/v1` | `—` | 🟡 manual |
+| 9 | poe | 137 | `https://api.poe.com/v1` | `—` | 🟡 manual |
+| 10 | zenmux | 120 | `https://zenmux.ai/api/v1` | `—` | 🟡 manual |
+| 11 | 302ai | 97 | `https://api.302.ai/v1` | `—` | 🟡 manual |
+| 12 | orcarouter | 81 | `https://api.orcarouter.ai/v1` | `—` | 🟡 manual |
+| 13 | aihubmix | 70 | `https://aihubmix.com/v1` | `—` | 🟡 manual |
+| 14 | cloudflare-ai-gateway | 67 | `https://gateway.ai.cloudflare.com/v1/{a…` | `—` | 🟡 manual |
+| 15 | opencode | 63 | `https://opencode.ai/zen/v1/models` | `—` | 🟡 manual |
+| 16 | fastrouter | 47 | `https://go.fastrouter.ai/api/v1` | `—` | 🟡 manual |
+| 17 | anyapi | 30 | `https://api.anyapi.ai/v1` | `—` | 🟡 manual |
+| 18 | opencode-go | 23 | `https://opencode.ai/zen/go/v1/models` | `—` | 🟡 manual |
+| 19 | unorouter | 23 | `https://api.unorouter.com/v1` | `—` | 🟡 manual |
 
----
+### Tier 5 — Subscription & coding products
 
-## D. Aggregators / relay stations (resellers and proxies)
+| # | Provider | Models | API base URL | Check script | Status |
+|---|---|---|---|---|---|
+| 1 | github | 33 | `https://api.githubcopilot.com` | `—` | 🟡 manual |
+| 2 | v0 | 3 | `—` | `—` | 🟡 manual |
+| 3 | cursor | 0 | `—` | `—` | 🟡 manual |
+| 4 | devin | 0 | `—` | `—` | 🟡 manual |
+| 5 | jetbrains | 0 | `—` | `—` | 🟡 manual |
+| 6 | replit | 0 | `—` | `—` | 🟡 manual |
+| 7 | tabnine | 0 | `—` | `—` | 🟡 manual |
+| 8 | windsurf | 0 | `—` | `—` | 🟡 manual |
 
-| Type | Representatives | Billing |
-|---|---|---|
-| International aggregators | OpenRouter, Poe API, AIMLAPI, Martian, Unify | per MTok markup / subscription points |
-| Domestic relay stations | API2D, CloseAI, OhMyGPT, AiHubMix, GPT-API, uni-api, V3 API, Panda API, etc. | Usually official price × multiplier or credits, top-up discounts |
-| Self-hosted relays (OneAPI/NewAPI family) | Many personal/small-team instances | Arbitrary, unstable pricing |
+### Tier 6 — Long tail
 
-> There are thousands of relay stations; prices fluctuate at any time and operators may vanish anytime. This repository's policy on relay stations:
-> 1) Include major relay stations that **have public pricing pages** (viability marked by daily checks);
-> 2) For the long tail that cannot be crawled one by one, provide **pricing-pattern documentation** (generally = official price × multiplier or credit coefficient), with the daily check reporting pricing-page drift.
-> The long tail of relay stations is not exhaustively covered (technically infeasible); the README honestly states this coverage boundary.
+| # | Provider | Models | API base URL | Check script | Status |
+|---|---|---|---|---|---|
+| 1 | abacus | 108 | `https://routellm.abacus.ai/v1` | `—` | 🟡 manual |
+| 2 | cortecs | 108 | `https://api.cortecs.ai/v1` | `—` | 🟡 manual |
+| 3 | ofox | 107 | `https://api.ofox.ai/v1` | `—` | 🟡 manual |
+| 4 | pioneer | 103 | `https://api.pioneer.ai/v1` | `—` | 🟡 manual |
+| 5 | venice | 99 | `https://api.venice.ai/api/v1` | `—` | 🟡 manual |
+| 6 | qiniu-ai | 91 | `https://api.qnaigc.com/v1` | `—` | 🟡 manual |
+| 7 | helicone | 90 | `https://ai-gateway.helicone.ai/v1` | `—` | 🟡 manual |
+| 8 | impossibl | 76 | `https://api.impossibl.com/v1` | `—` | 🟡 manual |
+| 9 | jiekou | 61 | `https://api.jiekou.ai/openai` | `—` | 🟡 manual |
+| 10 | empiriolabs | 55 | `https://api.empiriolabs.ai/v1` | `—` | 🟡 manual |
+| 11 | crossmodel | 52 | `https://api.crossmodel.ai/v1` | `—` | 🟡 manual |
+| 12 | neon | 42 | `${NEON_AI_GATEWAY_BASE_URL}/v1` | `—` | 🟡 manual |
+| 13 | kenari | 38 | `https://kenari.id/v1` | `—` | 🟡 manual |
+| 14 | greenpt | 37 | `https://api.greenpt.ai/v1` | `—` | 🟡 manual |
+| 15 | nearai | 37 | `https://cloud-api.near.ai/v1` | `—` | 🟡 manual |
+| 16 | llmtr | 32 | `https://llmtr.com/v1` | `—` | 🟡 manual |
+| 17 | wandb | 29 | `https://api.inference.wandb.ai/v1` | `—` | 🟡 manual |
+| 18 | crof | 26 | `https://crof.ai/v1` | `—` | 🟡 manual |
+| 19 | frogbot | 26 | `https://app.frogbot.ai/api/v1` | `—` | 🟡 manual |
+| 20 | hyper | 26 | `https://hyper.charm.land/v1` | `—` | 🟡 manual |
+| 21 | alibaba-token-plan-cn | 25 | `https://token-plan.cn-beijing.maas.aliy…` | `—` | 🟡 manual |
+| 22 | alibaba-token-plan | 25 | `https://token-plan.ap-southeast-1.maas.…` | `—` | 🟡 manual |
+| 23 | tensorx | 25 | `https://api.tensorx.ai/v1` | `—` | 🟡 manual |
+| 24 | gitlab | 23 | `https://gitlab.com/api/v4/duo` | `—` | 🟡 manual |
+| 25 | neuralwatt | 22 | `https://api.neuralwatt.com/v1` | `—` | 🟡 manual |
+| 26 | ollama-cloud | 20 | `https://ollama.com/api` | `—` | 🟡 manual |
+| 27 | vivgrid | 20 | `https://api.vivgrid.com/v1` | `—` | 🟡 manual |
+| 28 | meganova | 19 | `https://api.meganova.ai/v1` | `—` | 🟡 manual |
+| 29 | regolo-ai | 18 | `https://api.regolo.ai/v1` | `—` | 🟡 manual |
+| 30 | io-net | 17 | `https://api.intelligence.io.solutions/a…` | `—` | 🟡 manual |
+| 31 | jalapeno | 17 | `https://api.jalapeno-cloud.ai/v1` | `—` | 🟡 manual |
+| 32 | scnet-token-plan | 16 | `https://api.scnet.cn/api/llm/v1` | `—` | 🟡 manual |
+| 33 | auriko | 15 | `https://api.auriko.ai/v1` | `—` | 🟡 manual |
+| 34 | evroc | 15 | `https://models.think.evroc.com/v1` | `—` | 🟡 manual |
+| 35 | model-oracle-ai | 15 | `https://api.modeloracle.com/api/v1` | `—` | 🟡 manual |
+| 36 | routing-run | 15 | `https://api.routing.run/v1` | `—` | 🟡 manual |
+| 37 | chutes | 14 | `https://llm.chutes.ai/v1` | `—` | 🟡 manual |
+| 38 | iflowcn | 14 | `https://api.iflow.cn/v1` | `—` | 🟡 manual |
+| 39 | gmicloud | 13 | `https://api.gmi-serving.com/v1` | `—` | 🟡 manual |
+| 40 | xpersona | 13 | `https://www.xpersona.co/v1` | `—` | 🟡 manual |
+| 41 | alibaba-coding-plan-cn | 12 | `https://coding.dashscope.aliyuncs.com/v1` | `—` | 🟡 manual |
+| 42 | alibaba-coding-plan | 12 | `https://coding-intl.dashscope.aliyuncs.…` | `—` | 🟡 manual |
+| 43 | clarifai | 12 | `https://api.clarifai.com/v2/ext/openai/v1` | `—` | 🟡 manual |
+| 44 | inferx | 12 | `https://model.inferx.net/endpoints/v1` | `—` | 🟡 manual |
+| 45 | cline-pass | 11 | `https://api.cline.bot/api/v1` | `—` | 🟡 manual |
+| 46 | ambient | 10 | `https://api.ambient.xyz/v1` | `—` | 🟡 manual |
+| 47 | freemodel | 10 | `https://cc.freemodel.dev/v1` | `—` | 🟡 manual |
+| 48 | infomaniak | 10 | `https://api.infomaniak.com/2/ai/${INFOM…` | `—` | 🟡 manual |
+| 49 | aiand | 9 | `https://api.aiand.com/v1` | `—` | 🟡 manual |
+| 50 | berget | 9 | `https://api.berget.ai/v1` | `—` | 🟡 manual |
+| 51 | daoxe | 9 | `https://daoxe.com/v1` | `—` | 🟡 manual |
+| 52 | hpc-ai | 9 | `https://api.hpc-ai.com/inference/v1` | `—` | 🟡 manual |
+| 53 | inference | 9 | `https://inference.net/v1` | `—` | 🟡 manual |
+| 54 | modelis | 9 | `https://modelishub.com/v1` | `—` | 🟡 manual |
+| 55 | qihang-ai | 9 | `https://api.qhaigc.net/v1` | `—` | 🟡 manual |
+| 56 | qvac | 9 | `http://localhost:{port}/v1` | `—` | 🟡 manual |
+| 57 | submodel | 9 | `https://llm.submodel.ai/v1` | `—` | 🟡 manual |
+| 58 | the-grid-ai | 9 | `https://api.thegrid.ai/v1` | `—` | 🟡 manual |
+| 59 | crusoe | 8 | `https://api.inference.crusoecloud.com/v1` | `—` | 🟡 manual |
+| 60 | stackit | 8 | `https://api.openai-compat.model-serving…` | `—` | 🟡 manual |
+| 61 | synthetic | 8 | `https://api.synthetic.new/openai/v1` | `—` | 🟡 manual |
+| 62 | tencent-coding-plan | 8 | `https://api.lkeap.cloud.tencent.com/cod…` | `—` | 🟡 manual |
+| 63 | tinfoil | 8 | `https://inference.tinfoil.sh/v1` | `—` | 🟡 manual |
+| 64 | umans-ai | 8 | `https://api.code.umans.ai/v1` | `—` | 🟡 manual |
+| 65 | arcee | 7 | `https://api.arcee.ai/api/v1` | `—` | 🟡 manual |
+| 66 | llama | 7 | `https://api.llama.com/compat/v1/` | `—` | 🟡 manual |
+| 67 | modelscope | 7 | `https://api-inference.modelscope.cn/v1` | `—` | 🟡 manual |
+| 68 | privatemode-ai | 7 | `http://localhost:8080/v1` | `—` | 🟡 manual |
+| 69 | trustedrouter | 7 | `https://api.trustedrouter.com/v1` | `—` | 🟡 manual |
+| 70 | aki-io | 6 | `https://aki.io/v1` | `—` | 🟡 manual |
+| 71 | dinference | 6 | `https://api.dinference.com/v1` | `—` | 🟡 manual |
+| 72 | ai-router | 5 | `https://api.ai-router.dev/v1` | `—` | 🟡 manual |
+| 73 | atomic-chat | 5 | `http://127.0.0.1:1337/v1` | `—` | 🟡 manual |
+| 74 | cloudferro-sherlock | 5 | `https://api-sherlock.cloudferro.com/ope…` | `—` | 🟡 manual |
+| 75 | friendli | 5 | `https://api.friendli.ai/serverless/v1` | `—` | 🟡 manual |
+| 76 | mixlayer | 5 | `https://models.mixlayer.ai/v1` | `—` | 🟡 manual |
+| 77 | runinfra | 5 | `https://api.runinfra.ai/v1` | `—` | 🟡 manual |
+| 78 | wafer.ai | 5 | `https://pass.wafer.ai/v1` | `—` | 🟡 manual |
+| 79 | ebcloud | 4 | `https://maas-api.ebcloud.com/v1` | `—` | 🟡 manual |
+| 80 | inceptron | 4 | `https://api.inceptron.io/v1` | `—` | 🟡 manual |
+| 81 | lilac | 4 | `https://api.getlilac.com/v1` | `—` | 🟡 manual |
+| 82 | lucidquery | 4 | `https://api.lucidquery.com/v1` | `—` | 🟡 manual |
+| 83 | sakana | 4 | `https://api.sakana.ai/v1` | `—` | 🟡 manual |
+| 84 | scx-ai | 4 | `https://api.scx.ai/v1` | `—` | 🟡 manual |
+| 85 | stepfun-step-plan | 4 | `https://api.stepfun.com/step_plan/v1` | `—` | 🟡 manual |
+| 86 | upstage | 4 | `https://api.upstage.ai/v1/solar` | `—` | 🟡 manual |
+| 87 | coralbricks | 3 | `https://inference.coralbricks.ai/v1` | `—` | 🟡 manual |
+| 88 | drun | 3 | `https://chat.d.run/v1` | `—` | 🟡 manual |
+| 89 | lmstudio | 3 | `http://localhost:1234/v1` | `—` | 🟡 manual |
+| 90 | morph | 3 | `https://api.morphllm.com/v1` | `—` | 🟡 manual |
+| 91 | poolside | 3 | `https://inference.poolside.ai/v1` | `—` | 🟡 manual |
+| 92 | stepfun-ai-step-plan | 3 | `https://api.stepfun.ai/step_plan/v1` | `—` | 🟡 manual |
+| 93 | abliteration-ai | 2 | `https://api.abliteration.ai/v1` | `—` | 🟡 manual |
+| 94 | bailing | 2 | `https://api.tbox.cn/api/llm/v1/chat/com…` | `—` | 🟡 manual |
+| 95 | blueclaw | 2 | `https://openai.blueclaw.network/v1` | `—` | 🟡 manual |
+| 96 | claudinio | 2 | `https://api.claudin.io/v1` | `—` | 🟡 manual |
+| 97 | hetzner | 2 | `https://inference.hetzner.com/api/v1` | `—` | 🟡 manual |
+| 98 | inception | 2 | `https://api.inceptionlabs.ai/v1/` | `—` | 🟡 manual |
+| 99 | moark | 2 | `https://moark.com/v1` | `—` | 🟡 manual |
+| 100 | nova | 2 | `https://api.nova.amazon.com/v1` | `—` | 🟡 manual |
+| 101 | sarvam | 2 | `https://api.sarvam.ai/v1` | `—` | 🟡 manual |
+| 102 | subconscious | 2 | `https://api.subconscious.dev/v1` | `—` | 🟡 manual |
+| 103 | thinkingmachines | 2 | `https://tinker.thinkingmachines.dev/ser…` | `—` | 🟡 manual |
+| 104 | amd | 1 | `https://developer.amd.com.cn/radeon/api/v1` | `—` | 🟡 manual |
+| 105 | echo | 1 | `https://echo.tracerml.ai/v1` | `—` | 🟡 manual |
+| 106 | kosmik | 1 | `https://api.koscompute.com/v1` | `—` | 🟡 manual |
+| 107 | kuae-cloud-coding-plan | 1 | `https://coding-plan-endpoint.kuaecloud.…` | `—` | 🟡 manual |
+| 108 | longcat | 1 | `https://api.longcat.chat/openai` | `—` | 🟡 manual |
+| 109 | lynkr | 1 | `http://127.0.0.1:8081/v1` | `—` | 🟡 manual |
+| 110 | salad-cloud | 1 | `https://api.salad.com/v1` | `—` | 🟡 manual |
+| 111 | tencent-token-plan | 1 | `https://api.lkeap.cloud.tencent.com/pla…` | `—` | 🟡 manual |
+| 112 | zeldoc | 1 | `https://api.zeldoc.ai/v1` | `—` | 🟡 manual |
+| 113 | zenifra | 1 | `https://ai.zenifra.com/v1` | `—` | 🟡 manual |
 
----
 
-## E. Consumer subscriptions
+<!-- PROVIDERS:END -->
 
-| Product | Plans | Notes |
-|---|---|---|
-| ChatGPT | Plus / Pro / Team / Business / Enterprise | Pro includes high-quota o-series |
-| Claude | Pro / Max 5x / Max 20x / Team / Enterprise | Max includes Claude Code |
-| Gemini | AI Pro / AI Ultra / Google One AI | Free tier exists |
-| Perplexity | Pro / Enterprise | Includes Sonar API usage |
-| Poe | Premium / Pro | Subscription points billing |
-| Kimi (Moonshot) | Membership | Domestic consumer subscription |
-| Doubao / Tongyi / Wenxin | Membership | Domestic consumer subscription |
+## Billing modes covered
 
----
+per-MTok (input/output/cache/batch) · per-image · per-audio-second · per-request ·
+credits/points · GPU second/hour · neuron-second · subscription monthly/yearly ·
+per-seat · free tier · finetune · provisioned — see `docs/price-types.md`.
 
-## F. Coding tool plans
+## Related docs
 
-| Tool | Plans | Notes |
-|---|---|---|
-| GitHub Copilot | Pro / Business / Enterprise | Pro includes ChatGPT integration |
-| Cursor | Free / Pro / Ultra / Teams | Ultra includes unlimited premium models |
-| Windsurf | Free / Pro / Ultra / Teams | |
-| Claude Code | Free / Pro / Max (incl. 5x/20x) | Max includes API credit |
-| JetBrains AI | Pro / Ultimate | |
-| Amazon Q Developer | Free / Pro | |
-| Google Gemini Code Assist | Free / Enterprise | |
-| Tabnine | Pro / Enterprise | |
-| Replit | Core / Teams | |
-| Augment Code | Pro / Enterprise | |
-| Devin | Team / Enterprise | ~$500/month level |
-| Cline / Aider / Continue | BYOK or open source | No subscription or free |
-
----
-
-## G. GPU compute platforms (self-deployment cost dimension, optional)
-
-RunPod, Vast.ai, Lambda, TensorDock, Salad, Modal, Baseten, Replicate (all billed per GPU hour/second).
-> This belongs to "deployment cost" rather than "model pricing"; the repository records it as an additional dimension with the field `price_type: gpu_hour`.
-
----
-
-## Price Types Overview
-
-| Billing type | Field enum value | Typical scenarios |
-|---|---|---|
-| Per million tokens (input/output) | `per_mtok` | Most text LLM APIs |
-| Cache read (input) | `cache_read` | Automatic caching at OpenAI/Anthropic/DeepSeek etc. |
-| Cache write | `cache_write` | Same as above |
-| Batch discount | `batch` | OpenAI/Anthropic etc. (usually 50% off) |
-| Per image | `per_image` | DALL·E, Imagen, FLUX |
-| Per audio second | `per_audio_second` | TTS/STT, Realtime audio |
-| Per character | `per_character` | Some TTS/translation |
-| Per request/call | `per_request` | Image APIs, relay stations |
-| Points/credits | `credits` | Poe, HF Pro, top-up platforms |
-| GPU second/hour | `gpu_second` / `gpu_hour` | Replicate, Modal, RunPod |
-| Neuron second | `neuron_second` | Cloudflare Workers AI |
-| Monthly subscription | `subscription_monthly` | Consumer/coding subscriptions |
-| Yearly subscription | `subscription_yearly` | Annual-payment discounts |
-| Free tier | `free_tier` | Free tiers across platforms |
-| Finetuning | `finetune` | Billed per training token |
-
-> Detailed, item-by-item verified definitions in `docs/price-types.md`; machine-readable enum definitions in `data/machine/schema.json`.
+- [Data statistics (README)](../README.md) — exact counts
+- [Price types & units](price-types.md)
+- [Verification & truthfulness](verification.md)
+- [Machine format spec](../FORMAT.md)
+- [Contribution guide](../CONTRIBUTING.md)
+- [Guide for AI agents](../AGENTS.md)
