@@ -13,4 +13,4 @@
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
-| `GLM-4.7` | — | reasoning | 204.8K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `GLM-4.7` | — | reasoning | 204.8K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |

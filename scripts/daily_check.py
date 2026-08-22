@@ -46,6 +46,10 @@ def diff_openrouter(local, remote, now):
 
 MODELSDEV_URL = "https://models.dev/api.json"
 
+# subscription-included providers: models.dev lists their models at 0, but these are
+# "included in a plan" (per_mtok must stay null, never 0)
+SUB_PROVIDER_HINTS = ("coding-plan", "token-plan", "copilot", "kimi-for-coding")
+
 
 def sync_modelsdev_diff(now):
     """Diff models.dev catalog against local provider files. Only updates per_mtok
@@ -55,6 +59,8 @@ def sync_modelsdev_diff(now):
     stats = {"added_providers": 0, "changed_models": 0, "added_models": 0}
     entries = []
     for pid, pv in data.items():
+        if any(h in pid for h in SUB_PROVIDER_HINTS):
+            continue  # subscription-included providers keep per_mtok = null
         models = pv.get("models") or {}
         if not models:
             continue
