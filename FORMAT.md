@@ -1,13 +1,13 @@
 > **Language: English (en)** — This document is written in en only.
 # Machine-Readable Format Specification (FORMAT)
 
-> Version: **1.0.0** (declared by the `version` field of `data/machine/schema.json` and the `schema_version` field of each file)
+> Version: **1.0.0** (declared by the `version` field of `data/feed/schema.json` and the `schema_version` field of each file)
 > This format is designed for crawlers / programs / toolchains: stable, versioned, validatable, and incrementally syncable.
 
 ## Directory Structure
 
 ```
-data/machine/
+data/feed/
 ├── schema.json          # JSON Schema（draft 2020-12），本格式的唯一权威定义
 ├── index.json           # 入口文件：先读它，再按需抓取
 ├── providers/           # 每个供应商一个文件
@@ -24,7 +24,7 @@ data/meta/
 
 ## Reading Protocol (for Crawlers / Programs)
 
-1. Fixed entry point: `https://raw.githubusercontent.com/duanjiangDJ/ai-model-pricing/main/data/machine/index.json`
+1. Fixed entry point: `https://raw.githubusercontent.com/duanjiangDJ/ai-model-pricing/main/data/feed/index.json`
 2. `index.json` provides:
    - `schema_version` (incompatible changes bump the major version; consumers MUST check it)
    - `generated_at` (time of this full generation)
@@ -91,7 +91,7 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3`); the rules are
 
 1. Pull the OpenRouter catalog and diff against local data → update if changed and write a changelog entry;
 2. Check `plans.json` for entries unverified for more than 30 days → generate `reports/stale-plans.md` and sync the GitHub issue「每日价格核实提醒」(Daily Price Verification Reminder);
-3. Rebuild human-readable pages (`data/human/`);
+3. Rebuild human-readable pages (`data/view/`);
 4. Auto commit & push if there are changes (bot identity, `[skip ci]`).
 
 Manual trigger: Repository Actions page → Daily Price Check → Run workflow.

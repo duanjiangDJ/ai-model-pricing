@@ -73,5 +73,5 @@
 
 `scripts/merge_research.py <research.json>`：
 - provider 按 `provider_id` 合并（调研数据覆盖同 id 模型的价格与元信息，保留 models.dev 独有模型）；
-- plans 按 `id` upsert 进 `data/machine/plans.json`；
+- plans 按 `id` upsert 进 `data/feed/plans.json`；
 - 自动刷新 `index.json` 计数并写 changelog。

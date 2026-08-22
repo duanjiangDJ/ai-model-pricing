@@ -13,9 +13,9 @@ sys.stdout.reconfigure(encoding="utf-8")
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 providers = []
-for f in sorted(glob.glob("data/machine/providers/*.json")):
+for f in sorted(glob.glob("data/feed/providers/*.json")):
     providers.append(json.load(open(f, encoding="utf-8")))
-plans = json.load(open("data/machine/plans.json", encoding="utf-8")).get("plans", [])
+plans = json.load(open("data/feed/plans.json", encoding="utf-8")).get("plans", [])
 
 total_models = sum(len(p.get("models", [])) for p in providers)
 chan_p = Counter(p.get("channel") for p in providers)

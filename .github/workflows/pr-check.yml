@@ -34,16 +34,16 @@ jobs:
       - name: Check generated pages are up to date
         run: |
           python scripts/build_human.py
-          if ! git diff --exit-code --quiet -- data/human/; then
-            echo "::error::data/human/ is out of sync. Run 'python scripts/build_human.py' and commit the regenerated pages."
+          if ! git diff --exit-code --quiet -- data/view/; then
+            echo "::error::data/view/ is out of sync. Run 'python scripts/build_human.py' and commit the regenerated pages."
             exit 1
           fi
 
       - name: Check version files are consistent
         run: |
           V=$(cat VERSION | tr -d '[:space:]')
-          S=$(python -c "import json;print(json.load(open('data/machine/schema.json'))['version'])")
-          I=$(python -c "import json;print(json.load(open('data/machine/index.json'))['schema_version'])")
+          S=$(python -c "import json;print(json.load(open('data/feed/schema.json'))['version'])")
+          I=$(python -c "import json;print(json.load(open('data/feed/index.json'))['schema_version'])")
           echo "VERSION=$V schema=$S index=$I"
           if [ "$V" != "$S" ] || [ "$V" != "$I" ]; then
             echo "::error::Version mismatch: VERSION($V) vs schema($S) vs index($I). Bump all three together."

@@ -1,13 +1,13 @@
 > **Language: 中文（简体）(zh-CN)** — This document is written in zh-CN only.
 # Machine-Readable Format Specification (FORMAT)
 
-> 版本：**1.0.0**（由 `data/machine/schema.json` 的 `version` 字段与各文件 `schema_version` 字段声明）
+> 版本：**1.0.0**（由 `data/feed/schema.json` 的 `version` 字段与各文件 `schema_version` 字段声明）
 > 本格式专为爬虫/程序/工具链设计：稳定、版本化、可校验、可增量同步。
 
 ## 目录结构
 
 ```
-data/machine/
+data/feed/
 ├── schema.json          # JSON Schema（draft 2020-12），本格式的唯一权威定义
 ├── index.json           # 入口文件：先读它，再按需抓取
 ├── providers/           # 每个供应商一个文件
@@ -24,7 +24,7 @@ data/meta/
 
 ## 读取协议（给爬虫/程序）
 
-1. 固定入口：`https://raw.githubusercontent.com/duanjiangDJ/ai-model-pricing/main/data/machine/index.json`
+1. 固定入口：`https://raw.githubusercontent.com/duanjiangDJ/ai-model-pricing/main/data/feed/index.json`
 2. `index.json` 给出：
    - `schema_version`（不兼容变更会 bump 主版本，消费方必须检查）
    - `generated_at`（本次全量生成时间）
@@ -91,7 +91,7 @@ data/meta/
 
 1. 拉取 OpenRouter 目录并 diff 本地数据 → 有变化则更新 + 写入 changelog；
 2. 检查 `plans.json` 中超过 30 天未核实的条目 → 生成 `reports/stale-plans.md`，并同步 GitHub issue「每日价格核实提醒」；
-3. 重建人类可读页面（`data/human/`）；
+3. 重建人类可读页面（`data/view/`）；
 4. 有变更则自动 commit & push（bot 身份，`[skip ci]`）。
 
 手动触发：仓库 Actions 页面 → Daily Price Check → Run workflow。

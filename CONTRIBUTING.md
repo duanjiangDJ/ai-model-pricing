@@ -24,7 +24,7 @@ consistency, version/CHANGELOG enforcement).
 
 ### 1. Fix a price / add a plan (easiest)
 
-1. Edit `data/machine/providers/<id>.json` (model pricing/status) or `data/machine/plans.json`.
+1. Edit `data/feed/providers/<id>.json` (model pricing/status) or `data/feed/plans.json`.
 2. Rules:
    - prices must come from official pages/APIs; put the source URL in `notes` and refresh `verified_at`;
    - unknown values are `null` (never 0, never invented); `0` means genuinely free;
@@ -45,7 +45,7 @@ consistency, version/CHANGELOG enforcement).
 
 1. Pick the roadmap tier (see `docs/optimization-roadmap.md`).
 2. Collect official pricing data (official page URL, per-MTok prices, plans).
-3. Create `data/machine/providers/<id>.json` following `data/machine/schema.json`
+3. Create `data/feed/providers/<id>.json` following `data/feed/schema.json`
    (include `api_base_url`!).
 4. If you researched it via a subagent, output per `docs/research-contract.md` and merge:
    ```bash
@@ -90,6 +90,17 @@ changelog, index/manifest, dedup helpers). Don't duplicate them in checks.
 - Every prose document needs an English default + a `*.zh-CN.md` version, each with the
   `> **Language:**` banner as the first line.
 - Keep `CHANGELOG.md` and `CHANGELOG.zh-CN.md` in sync (same version sections).
+
+## Updating core files (security review)
+
+pr-check's security review **allows modifying** core files but **forbids deleting** them.
+Core files: `scripts/{validate,audit,router,toolbox,build_human,daily_check}.py`,
+`data/feed/schema.json`, `data/feed/index.json`, and all `.github/workflows/*.yml`.
+
+To update a core file (e.g. improve `validate.py` or extend `toolbox.py`):
+1. Modify it in your PR branch — normal PR flow applies (version bump + CHANGELOG + checks).
+2. Do **not** delete it, and do not remove workflow files (that is what the security check blocks).
+3. If you believe a core file should be removed/renamed, open an issue first to discuss.
 
 ## PR checklist (pr-check enforces most of this)
 

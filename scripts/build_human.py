@@ -2,14 +2,14 @@
 
 Usage: python scripts/build_human.py
 Output:
-  data/human/README.md, data/human/providers/*.md, data/human/plans.md   (English, default)
-  data/human/zh-CN/README.md, data/human/zh-CN/providers/*.md, data/human/zh-CN/plans.md (中文)
+  data/view/README.md, data/view/providers/*.md, data/view/plans.md   (English, default)
+  data/view/zh-CN/README.md, data/view/zh-CN/providers/*.md, data/view/zh-CN/plans.md (中文)
 """
 import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import HUMAN, MACHINE, PROVIDERS, read_json  # noqa: E402
+from toolbox import FEED, PROVIDERS, VIEW, read_json  # noqa: E402
 
 CHANNEL_LABEL = {
     "first_party": "First-party",
@@ -62,7 +62,7 @@ L10N = {
         "url": "URL",
         "verified_at": "Verified",
         "index_title": "AI Model Pricing — Human-Readable Index",
-        "index_note1": "Data sources: official pricing pages & public APIs. Machine-readable version: [`data/machine/`](../machine/).",
+        "index_note1": "Data sources: official pricing pages & public APIs. Machine-readable version: [`data/feed/`](../feed/).",
         "index_note2": "Auto-updated daily by GitHub Actions (see `.github/workflows/daily-check.yml`).",
         "index_updated": "Generated",
         "index_models": "Models total",
@@ -110,7 +110,7 @@ L10N = {
         "url": "定价页",
         "verified_at": "核实时间",
         "index_title": "AI Model Pricing — 人类可读索引",
-        "index_note1": "数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/machine/`](../machine/)。",
+        "index_note1": "数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/feed/`](../feed/)。",
         "index_note2": "更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。",
         "index_updated": "数据更新时间",
         "index_models": "模型总数",
@@ -289,18 +289,18 @@ def build_index_md(index, entries, plans_count, lang, channel_labels):
 
 
 def main():
-    index = read_json(os.path.join(MACHINE, "index.json"))
-    plans_data = read_json(os.path.join(MACHINE, "plans.json"))
+    index = read_json(os.path.join(FEED, "index.json"))
+    plans_data = read_json(os.path.join(FEED, "plans.json"))
     plans = plans_data.get("plans", [])
 
     for lang in ("en", "zh-CN"):
         labels = CHANNEL_LABEL if lang == "en" else CHANNEL_LABEL_ZH
-        out_root = os.path.join(HUMAN, "" if lang == "en" else lang)
+        out_root = os.path.join(VIEW, "en" if lang == "en" else "zh-CN")
         os.makedirs(os.path.join(out_root, "providers"), exist_ok=True)
 
         entries = []
         for entry in index["providers"] + index["resellers"]:
-            fpath = os.path.join(MACHINE, entry["file"])
+            fpath = os.path.join(FEED, entry["file"])
             if not os.path.exists(fpath):
                 continue
             provider = read_json(fpath)

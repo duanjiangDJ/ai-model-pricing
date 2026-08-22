@@ -21,7 +21,7 @@
 
 ### 1. 修正价格 / 新增计划（最简单）
 
-1. 编辑 `data/machine/providers/<id>.json`（模型价格/状态）或 `data/machine/plans.json`。
+1. 编辑 `data/feed/providers/<id>.json`（模型价格/状态）或 `data/feed/plans.json`。
 2. 规则：
    - 价格必须来自官方定价页/API；来源 URL 写入 `notes` 并刷新 `verified_at`；
    - 未知值填 `null`（绝不用 0、绝不编造）；`0` 仅表示真正免费；
@@ -42,7 +42,7 @@
 
 1. 在 `docs/optimization-roadmap.md` 中选定层级。
 2. 收集官方定价数据（官方定价页 URL、per-MTok 价格、订阅计划）。
-3. 按 `data/machine/schema.json` 创建 `data/machine/providers/<id>.json`（**必须包含 `api_base_url`**）。
+3. 按 `data/feed/schema.json` 创建 `data/feed/providers/<id>.json`（**必须包含 `api_base_url`**）。
 4. 若通过子代理调研，按 `docs/research-contract.md` 输出并用以下命令合并：
    ```bash
    python scripts/merge_research.py <research.json>

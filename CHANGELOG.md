@@ -7,12 +7,18 @@
 Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd content update and the 3rd feature update of 2026).
 
 - **Year**: the year of first release (two digits, e.g. 2026 → `26`); when the year changes, the following two segments reset to 0.
-- **Content update** (second segment): **pricing data updates** (price changes, model additions/retirements, plan changes), each +1.
-- **Feature update** (third segment): every repository update other than pricing updates (data structure, scripts, docs, mechanisms, etc.), each +1.
-- The current version is in the `VERSION` file; `data/machine/schema.json`'s `version` and every data file's `schema_version` match it.
+- **Content update** (second segment, +1): **pricing data ONLY** — price changes, model add/retire (status change), plan add/price change. E.g. fixing a model's input/output, adding the ChatGPT Go plan, marking a model offline.
+- **Feature update** (third segment, +1): **everything else** — data structure (schema/format), scripts (router/checks/toolbox), workflows, docs, translations, directory renames, CI mechanics. E.g. adding a check script, renaming a directory, updating AGENTS.
+- Boundary: when a PR mixes pricing and feature changes, bump only ONE segment by the dominant type (pricing -> content; otherwise -> feature).
+- Each rule advances only its own segment; they never reset each other.
+- The current version is in the `VERSION` file; `data/feed/schema.json`'s `version` and every data file's `schema_version` match it.
 - Version increments are decided by maintainers/bots based on the change type and recorded in this file's entries.
 
 ---
+
+## 26.2.4 — 2026-08-22T10:57Z (feature update)
+
+- feature: data dirs renamed (data/feed + data/view/en|zh-CN), branch cleanup + branch policy, changelog boundaries + zh translations, core-file update rules documented, pending vendors merged into tiers, opencode-go same tier
 
 ## 26.2.3 — 2026-08-22T10:29Z (content update)
 
@@ -61,7 +67,7 @@ The first version to adopt the new versioning rules (content covers all work com
 
 ### Feature Updates (repository)
 - **Official-price direct-sync layer**: `scripts/sync_official.py` + `scripts/official_sources.json` (direct scraping of DeepSeek / Baidu / Anthropic official pages, OpenAI Wayback snapshot as fallback); the daily check runs in "official → models.dev → OpenRouter" order, and providers already verified officially that day are exempt from third-party overwrites.
-- **Strict en/zh separation**: README / human-readable pages (`data/human/` + `zh-CN/`) are bilingual; all docs gain a `Language:` header annotation; doc H1s align with file names.
+- **Strict en/zh separation**: README / human-readable pages (`data/view/` + `zh-CN/`) are bilingual; all docs gain a `Language:` header annotation; doc H1s align with file names.
 - **Version management**: `VERSION` file + `year.feature.content` versioning rules; schema version upgraded to `26.0.0`.
 - AGENTS.md (agent guide), docs/verification.md (truthfulness mechanism), docs/ego-browser-workflow.md (ego-lite re-verification workflow).
 

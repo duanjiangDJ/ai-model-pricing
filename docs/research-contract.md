@@ -73,5 +73,5 @@ A single JSON object (**not** wrapped in a Markdown code block — output raw JS
 
 `scripts/merge_research.py <research.json>`:
 - providers merged by `provider_id` (research data overwrites the price and metadata of models with the same id, keeping models.dev-exclusive models);
-- plans upserted into `data/machine/plans.json` by `id`;
+- plans upserted into `data/feed/plans.json` by `id`;
 - `index.json` counts refreshed automatically and changelog written.

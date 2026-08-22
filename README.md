@@ -9,9 +9,9 @@ An open database collecting pricing for **every obtainable AI model** across all
 per-token API (input/output/cache/batch), per-image, per-audio-second, per-request, credit
 systems, GPU-second pricing, consumer subscriptions, and coding-tool plans.
 
-- **Human-readable**: `data/human/` (Markdown tables, per provider) — English by default, 中文见 `data/human/zh-CN/`
-- **Machine-readable**: `data/machine/` (versioned JSON + JSON Schema, for crawlers/programs)
-- **Daily auto-update**: GitHub Actions at 01:23 UTC checks upstream prices and opens a PR
+- **Human-readable**: `data/view/` (Markdown tables, per provider) — English in `data/view/en/`, 中文见 `data/view/zh-CN/`
+- **Machine-readable**: `data/feed/` (versioned JSON + JSON Schema, for crawlers/programs)
+- **Auto-update**: GitHub Actions every 3 hours (cron `0 */3 * * *`) checks upstream prices and auto-merges changes into `main`
 
 > Read this in Chinese? See [README.zh-CN.md](README.zh-CN.md).
 
@@ -25,8 +25,9 @@ systems, GPU-second pricing, consumer subscriptions, and coding-tool plans.
 - Coverage of the long tail (CN resellers, enterprise custom pricing) is intentionally partial.
 - **We welcome every contribution**: open an **issue** to report errors or suggest new
   sources/strategies, and submit a **PR** to fix prices or improve the acquisition pipeline
-  (see [CONTRIBUTING.md](CONTRIBUTING.md)). All changes go through PR + automated checks
-  (`pr-check.yml`): schema validation, generated-page consistency, and version consistency.
+  (see [CONTRIBUTING.md](CONTRIBUTING.md)). Human changes go through PR + automated checks
+  (`pr-check.yml`): schema validation, generated-page consistency, version consistency,
+  and a security review; bot price-syncs merge directly into `main`.
 
 **How this project is built**: the repository is maintained with
 [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness) using the
@@ -39,10 +40,10 @@ verification.
 ## Data Statistics (exact)
 
 - **Providers**: 185
-- **Models**: 7077
+- **Models**: 7132
 - **Subscription plans**: 64
 - **Distinct API endpoints**: 178
-- **Free models**: 407
+- **Free models**: 434
 
 ### By channel
 
@@ -68,26 +69,26 @@ verification.
 |---|---|
 | offline | 43 |
 | online | 5 |
-| (unmarked) | 7029 |
+| (unmarked) | 7084 |
 
 ### Top providers by model count
 
 | Provider | Models |
 |---|---|
-| NanoGPT (`nano-gpt`) | 597 |
+| NanoGPT (`nano-gpt`) | 599 |
 | DevPass (LLM Gateway) (`llmgateway`) | 556 |
-| OpenRouter (`openrouter`) | 420 |
-| Kilo Gateway (`kilo`) | 363 |
-| Vercel AI Gateway (`vercel`) | 350 |
-| Eden AI (`edenai`) | 232 |
-| Merge Gateway (`merge-gateway`) | 174 |
+| OpenRouter (`openrouter`) | 421 |
+| Kilo Gateway (`kilo`) | 367 |
+| Vercel AI Gateway (`vercel`) | 351 |
+| Eden AI (`edenai`) | 234 |
+| Merge Gateway (`merge-gateway`) | 175 |
 | Requesty (`requesty`) | 139 |
 | Poe (`poe`) | 137 |
 | ZenMux (`zenmux`) | 120 |
 | Amazon Web Services (`aws`) | 120 |
+| Ofox (`ofox`) | 110 |
 | Cortecs (`cortecs`) | 108 |
 | Abacus (`abacus`) | 108 |
-| Ofox (`ofox`) | 107 |
 | NovitaAI (`novita-ai`) | 107 |
 
 ### By currency
@@ -117,16 +118,16 @@ verification.
 import json, urllib.request
 
 index = json.load(urllib.request.urlopen(
-    "https://raw.githubusercontent.com/duanjiangDJ/ai-model-pricing/main/data/machine/index.json"))
+    "https://raw.githubusercontent.com/duanjiangDJ/ai-model-pricing/main/data/feed/index.json"))
 print(f"{index['model_count']} models, {index['plan_count']} plans, schema v{index['schema_version']}")
 
 # fetch the first provider
 entry = index["providers"][0]
 provider = json.load(urllib.request.urlopen(
-    "https://raw.githubusercontent.com/duanjiangDJ/ai-model-pricing/main/data/machine/" + entry["file"]))
+    "https://raw.githubusercontent.com/duanjiangDJ/ai-model-pricing/main/data/feed/" + entry["file"]))
 ```
 
-Format spec: [FORMAT.md](FORMAT.md). Authoritative schema: `data/machine/schema.json`.
+Format spec: [FORMAT.md](FORMAT.md). Authoritative schema: `data/feed/schema.json`.
 Reading/updating rules for AI agents: [AGENTS.md](AGENTS.md).
 
 ## Coverage
@@ -197,9 +198,9 @@ python scripts/validate.py                  # full validation
 
 ## Contributing
 
-- Fix a price: edit `data/machine/providers/<id>.json` or `plans.json`, update `verified_at`
+- Fix a price: edit `data/feed/providers/<id>.json` or `plans.json`, update `verified_at`
   and include the source (pricing-page URL).
-- Add a provider: create `data/machine/providers/<id>.json` following `schema.json`, run `validate.py`.
+- Add a provider: create `data/feed/providers/<id>.json` following `schema.json`, run `validate.py`.
 - Report errors via issues (include the pricing-page link).
 
 ## Disclaimer

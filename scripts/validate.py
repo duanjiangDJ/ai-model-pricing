@@ -1,4 +1,4 @@
-"""Validate all machine-readable data files against data/machine/schema.json.
+"""Validate all machine-readable data files against data/feed/schema.json.
 
 Usage: python scripts/validate.py [--strict]
   --strict: fail on any unknown-provider reference or non-UTF8 issues (default: only schema errors fail)
@@ -10,7 +10,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import MACHINE, PROVIDERS, META, read_json  # noqa: E402
+from common import FEED, PROVIDERS, META, read_json  # noqa: E402
 
 try:
     from jsonschema import Draft202012Validator, FormatChecker
@@ -23,7 +23,7 @@ def main():
     ap.add_argument("--strict", action="store_true")
     args = ap.parse_args()
 
-    schema = read_json(os.path.join(MACHINE, "schema.json"))
+    schema = read_json(os.path.join(FEED, "schema.json"))
     checker = FormatChecker()
     errors = []
 
@@ -49,17 +49,17 @@ def main():
         if f.endswith(".json"):
             validate(os.path.join(PROVIDERS, f), "providerFile", f"provider {f}")
 
-    validate(os.path.join(MACHINE, "index.json"), "indexFile", "index.json")
-    validate(os.path.join(MACHINE, "plans.json"), "plansFile", "plans.json")
-    if os.path.exists(os.path.join(MACHINE, "resellers.json")):
-        validate(os.path.join(MACHINE, "resellers.json"), "plansFile", "resellers.json")
+    validate(os.path.join(FEED, "index.json"), "indexFile", "index.json")
+    validate(os.path.join(FEED, "plans.json"), "plansFile", "plans.json")
+    if os.path.exists(os.path.join(FEED, "resellers.json")):
+        validate(os.path.join(FEED, "resellers.json"), "plansFile", "resellers.json")
     validate(os.path.join(META, "manifest.json"), "manifestFile", "manifest.json")
     validate(os.path.join(META, "changelog.json"), "changelogFile", "changelog.json")
 
     # cross-file consistency: index model counts vs provider files
-    index = read_json(os.path.join(MACHINE, "index.json"))
+    index = read_json(os.path.join(FEED, "index.json"))
     for entry in index.get("providers", []) + index.get("resellers", []):
-        fpath = os.path.join(MACHINE, entry["file"])
+        fpath = os.path.join(FEED, entry["file"])
         if not os.path.exists(fpath):
             errors.append(f"index references missing file: {entry['file']}")
             continue

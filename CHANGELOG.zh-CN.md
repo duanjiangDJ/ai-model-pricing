@@ -7,32 +7,38 @@
 版本号格式：**`年份.内容更新.功能更新`**（如 `26.2.3` = 2026 年第 2 次内容更新、第 3 次功能更新）。
 
 - **年份**：首次发布所在年份（两位数，如 2026 → `26`）；年份变化时重置后两段为 0。
-- **内容更新**（第二段）：**定价数据更新**（价格变化、模型新增/退役、计划变更），每次 +1。
-- **功能更新**（第三段）：除定价更新以外的所有仓库更新（数据结构、脚本、文档、机制等），每次 +1。
-- 当前版本见 `VERSION` 文件；`data/machine/schema.json` 的 `version` 与各数据文件 `schema_version` 与之一致。
+- **内容更新**（第二段，+1）：**仅限定价数据**——价格变化、模型新增/退役（status 变更）、订阅计划新增/改价。示例：修正某模型 input/output、新增 ChatGPT Go 计划、标记模型下线。
+- **功能更新**（第三段，+1）：**除定价以外的所有变更**——数据结构（schema/格式）、脚本（router/checks/toolbox）、工作流、文档、翻译、目录重组、CI 机制。示例：新增检查脚本、重命名目录、更新 AGENTS。
+- 边界判定：一个 PR 同时含定价与功能变更时，按**主要变更类型**只 bump 一段（定价为主→内容更新；其余→功能更新）。
+- 两条规则都只 +1 自身段位，**互不重置**。
+- 当前版本见 `VERSION` 文件；`data/feed/schema.json` 的 `version` 与各数据文件 `schema_version` 与之一致。
 - 版本递增由维护者/机器人按变更类型决定，记录于本文件条目。
 
 ---
 
+## 26.2.4 — 2026-08-22T10:57Z（功能更新）
+
+- feature: data dirs renamed (data/feed + data/view/en|zh-CN), branch cleanup + branch policy, changelog boundaries + zh translations, core-file update rules documented, pending vendors merged into tiers, opencode-go same tier
+
 ## 26.2.3 — 2026-08-22T10:29Z（内容更新）
 
-- fix: models.dev sync skips subscription-included providers (per_mtok stays null); re-fix 96 zero prices
+- 修复：models.dev 同步跳过订阅类供应商（per_mtok 保持 null）；重新修正 96 个 0 价条目
 
 ## 26.1.3 — 2026-08-22T09:33（内容更新）
 
-- chore: price sync
+- 例行：价格自动同步
 
 ## 26.0.3 — 2026-08-22T15:30（功能更新）
 
-- feature: status simplified to online/offline, 3-hourly auto-check with direct merge to main, version increment logic fixed (content/feature independent) with minute-precision timestamps, AGENTS zh-CN removed, docs dedup (ego removed, providers+roadmap merged into generated status doc), cross-linked documentation
+- 功能：status 简化为 online/offline；改为每 3 小时自动检查并直接合入 main；版本递增逻辑修复（内容/功能段独立）且时间精确到分钟；删除 AGENTS 中文版；文档去重（移除 ego 文档，供应商清单与路线图合并为生成式状态文档）；文档全互链
 
 ## 26.0.2 — 2026-08-22（功能更新）
 
-- feature: core check router (scripts/router.py) + toolbox (scripts/toolbox.py) + per-provider checks (scripts/checks/), CONTRIBUTING guide expanded, daily-check PR fix
+- 功能：核心检查路由（router.py）+ 工具库（toolbox.py）+ 各供应商检查脚本（checks/）；扩充贡献指南；修复每日检查 PR 创建
 
 ## 26.0.1 — 2026-08-22（功能更新）
 
-- feature: api_base_url + Notes column in human pages, dedup checks, pr-check enforces CHANGELOG/VERSION, bump_version.py, README star badge + exact stats, all machine notes localized to English
+- 功能：人类页面新增 API 地址与 Notes 列；去重检查；pr-check 强制 CHANGELOG/VERSION 更新；bump_version.py；README 星标徽章与精确统计；机器数据全英文
 
 ## 26.1.0 — 2026-08-21（功能更新）
 
@@ -54,7 +60,7 @@
 
 ### 功能更新（仓库）
 - **官方价直采层**：`scripts/sync_official.py` + `scripts/official_sources.json`（DeepSeek / 百度 / Anthropic 官方页直抓，OpenAI Wayback 快照兜底）；每日检查按"官方 → models.dev → OpenRouter"顺序执行，官方当日已核实的 provider 免于第三方覆盖。
-- **中英严格分离**：README / 人类可读页面（`data/human/` + `zh-CN/`）双语；全部文档头部增加 `Language:` 标注；文档 H1 与文件名对齐。
+- **中英严格分离**：README / 人类可读页面（`data/view/` + `zh-CN/`）双语；全部文档头部增加 `Language:` 标注；文档 H1 与文件名对齐。
 - **版本管理**：`VERSION` 文件 + `年份.功能.内容` 版本规则；schema 版本升级为 `26.0.0`。
 - AGENTS.md（agent 指南）、docs/verification.md（真实性机制）、docs/ego-browser-workflow.md（ego-lite 复核工作流）。
 

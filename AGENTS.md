@@ -26,14 +26,14 @@ through PRs checked by `.github/workflows/pr-check.yml`. Bot syncs merge straigh
 channel: first-party vendor APIs (per-MTok, cache, batch), image/audio pricing, credit
 systems, GPU-hour pricing, consumer subscriptions, and coding-tool plans.
 
-- Machine-readable data: `data/machine/` (versioned JSON + JSON Schema)
-- Human-readable pages: `data/human/` (Markdown, **generated** — never edit by hand)
+- Machine-readable data: `data/feed/` (versioned JSON + JSON Schema)
+- Human-readable pages: `data/view/` (Markdown, **generated** — never edit by hand)
 - Auto-updated every 3 hours by GitHub Actions: `.github/workflows/daily-check.yml` (changes merge straight into `main`; no review needed for bot syncs)
 
 ## Repository Layout
 
 ```
-data/machine/
+data/feed/
   schema.json            # THE authoritative JSON Schema (26.0.1)
   index.json             # Entry point: providers/resellers lists, counts, timestamps
   providers/*.json       # One file per provider (provider_id.json)
@@ -41,7 +41,7 @@ data/machine/
 data/meta/
   manifest.json          # Sync health: sources, last_ok/last_error
   changelog.json         # Every change (add/update/remove/verify), newest first
-data/human/              # GENERATED. en: *.md, zh-CN: zh-CN/*.md
+data/view/              # GENERATED (never edit): en/*.md + zh-CN/*.md
 docs/                    # providers.md (landscape & status, generated), price-types.md,
                          # research-contract.md, verification.md
 scripts/
@@ -63,7 +63,7 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
 
 ## Reading Data (for agents building tools)
 
-1. Fetch `data/machine/index.json` first. Check `schema_version` (major bump = breaking).
+1. Fetch `data/feed/index.json` first. Check `schema_version` (major bump = breaking).
 2. Each `providers[]` / `resellers[]` entry has `file` (relative path), `model_count`, `updated_at`.
 3. Model shape: `{id, name, category, status, modalities, context_window, max_output, pricing, notes}`.
    `status` = **online | offline** only. Offline models keep the reason (retired/deprecated/superseded)
@@ -87,7 +87,7 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
 
 1. **Prices must come from official pricing pages / official APIs / official docs**, verified
    via at least one secondary source where possible. Record `source` URLs and `verified_at`.
-2. Edit `data/machine/providers/<id>.json` or `plans.json` directly; **never edit `data/human/`**
+2. Edit `data/feed/providers/<id>.json` or `plans.json` directly; **never edit `data/view/`**
    (run `python scripts/build_human.py` instead — it regenerates both en and zh-CN pages).
 3. After any data change, run `python scripts/validate.py` (needs `pip install jsonschema`).
    It checks schema conformance, index count consistency, and duplicate model ids.
@@ -140,6 +140,20 @@ python scripts/validate.py                  # schema + consistency validation
 ```
 
 ---
+
+## Branch Policy
+
+| Branch | Purpose | Rules |
+|---|---|---|
+| `main` | Production | Protected. Only two write paths: (1) the price-check bot (GH_PAT) auto-merges syncs; (2) PRs that pass `pr-check.yml`. Never push directly otherwise. |
+| `bot/<topic>` | Automated/bot work (price syncs, scripts) | Short-lived; created by workflows, force-push allowed on same-day reruns, deleted after merge or when stale (>7 days without a PR). |
+| `feat/<topic>` | New features (new provider, new script) | Created from `main`, must pass pr-check, delete after merge. |
+| `fix/<topic>` | Bug/data fixes | Same as `feat/`. |
+| `docs/<topic>` | Documentation only | Same as `feat/`. |
+
+Rules: lowercase kebab-case names; always work from a fresh `main`; PRs must pass
+pr-check (validate + audit + generated pages + version/CHANGELOG + security review);
+delete the branch after merge. Stale branches (no PR, >7 days) are removed by maintainers.
 
 ## Related Docs
 
