@@ -76,10 +76,9 @@
 
 ## 相关文档
 
-- [README.zh-CN.md](README.zh-CN.md) — 总览与精确统计
-- [FORMAT.zh-CN.md](FORMAT.zh-CN.md) — 机器格式规范
-- [docs/providers.zh-CN.md](docs/providers.zh-CN.md) — 供应商全景与状态
-- [docs/price-types.zh-CN.md](docs/price-types.zh-CN.md) — 收费形式口径
-- [docs/verification.zh-CN.md](docs/verification.zh-CN.md) — 核实与真实性机制
-- [CONTRIBUTING.zh-CN.md](CONTRIBUTING.zh-CN.md) — 如何贡献
-- [AGENTS.md](AGENTS.md) — AI Agent 指南（英文）
+- [README.zh-CN.md](../README.zh-CN.md) — 总览与精确统计
+- [FORMAT.zh-CN.md](../FORMAT.zh-CN.md) — 机器格式规范
+- [providers.zh-CN.md](providers.zh-CN.md) — 供应商全景与状态
+- [verification.zh-CN.md](verification.zh-CN.md) — 核实与真实性机制
+- [CONTRIBUTING.zh-CN.md](../CONTRIBUTING.zh-CN.md) — 如何贡献
+- [AGENTS.md](../AGENTS.md) — AI Agent 指南（英文）

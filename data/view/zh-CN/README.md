@@ -1,6 +1,6 @@
 # AI Model Pricing — 人类可读索引
 
-> 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/feed/`](../feed/)。
+> 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/feed/`](../../../data/feed/)。
 > 更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。
 
 - 数据更新时间: 2026-08-22T09:32:50Z
@@ -191,7 +191,7 @@
 | [JetBrains](providers/jetbrains.md) | subscription | 0 | `providers/jetbrains.json` | 2026-08-21T11:36:36Z |
 | [百度智能云千帆 (Baidu Qianfan)](providers/baidu.md) | 官方直供 | 3 | `providers/baidu.json` | 2026-08-21T13:59:17Z |
 | [腾讯混元 (Tencent Hunyuan)](providers/tencent.md) | 官方直供 | 1 | `providers/tencent.json` | 2026-08-21T11:38:22Z |
-| [火山引擎方舟 (Volcengine Ark / 豆包)](providers/volcengine.md) | 官方直供 | 2 | `providers/volcengine.json` | 2026-08-21T11:38:22Z |
+| [字节跳动·火山引擎方舟 (ByteDance Volcengine Ark / 豆包)](providers/volcengine.md) | 官方直供 | 2 | `providers/volcengine.json` | 2026-08-21T11:38:22Z |
 | [Devin (Cognition)](providers/devin.md) | subscription | 0 | `providers/devin.json` | 2026-08-21T11:39:14Z |
 | [Amazon Web Services](providers/aws.md) | 云平台托管 | 120 | `providers/aws.json` | 2026-08-21T15:59:09Z |
 | [Tabnine](providers/tabnine.md) | subscription | 0 | `providers/tabnine.json` | 2026-08-21T11:40:00Z |
@@ -204,7 +204,7 @@
 
 ## 其他
 
-- [其他文档](../docs/providers.md)
-- [供应商全景](../docs/price-types.md)
-- [收费形式口径](../FORMAT.md)
-- [机器格式规范](../AGENTS.md)
+- [其他文档](../../../docs/providers.md)
+- [供应商全景](../../../docs/price-types.md)
+- [收费形式口径](../../../FORMAT.md)
+- [机器格式规范](../../../AGENTS.md)

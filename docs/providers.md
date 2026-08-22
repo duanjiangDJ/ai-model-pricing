@@ -20,225 +20,225 @@ Every provider in the database, its status, and its automation. The table below 
 
 ### Tier 0 — World's leading model R&D vendors
 
-| Provider | Models | API base URL | Check script | Status |
-|---|---|---|---|---|
-| `alibaba` | 54 | `https://dashscope-intl.aliyuncs.com/c…` | `—` | 🟡 manual |
-| `anthropic` | 16 | `https://api.anthropic.com/v1` | `tier0_anthropic.py` | 🟢 automated |
-| `deepseek` | 5 | `https://api.deepseek.com` | `tier0_deepseek.py` | 🟢 automated |
-| `google` | 40 | `https://generativelanguage.googleapis…` | `—` | 🟡 manual |
-| `meta` | 3 | `https://api.meta.ai/v1` | `—` | 🟡 manual |
-| `minimax` | 7 | `https://api.minimax.chat/v1` | `—` | 🟡 manual |
-| `mistral` | 33 | `https://api.mistral.ai/v1` | `—` | 🟡 manual |
-| `moonshotai` | 14 | `https://api.moonshot.cn/v1` | `—` | 🟡 manual |
-| `openai` | 47 | `https://api.openai.com/v1` | `tier0_openai.py` | 🟢 automated |
-| `xai` | 17 | `https://api.x.ai/v1` | `—` | 🟡 manual |
-| `zai` | 16 | `https://api.z.ai/api/paas/v4` | `—` | 🟡 manual |
+| Provider | Name | Models | API base URL | Check script | Status |
+|---|---|---|---|---|---|
+| `alibaba` | Alibaba | 54 | `https://dashscope-intl.aliyuncs.com/c…` | `—` | 🟡 manual |
+| `anthropic` | Anthropic | 16 | `https://api.anthropic.com/v1` | `tier0_anthropic.py` | 🟢 automated |
+| `deepseek` | DeepSeek | 5 | `https://api.deepseek.com` | `tier0_deepseek.py` | 🟢 automated |
+| `google` | Google | 40 | `https://generativelanguage.googleapis…` | `—` | 🟡 manual |
+| `meta` | Meta | 3 | `https://api.meta.ai/v1` | `—` | 🟡 manual |
+| `minimax` | MiniMax (minimax.io) | 7 | `https://api.minimax.chat/v1` | `—` | 🟡 manual |
+| `mistral` | Mistral | 33 | `https://api.mistral.ai/v1` | `—` | 🟡 manual |
+| `moonshotai` | Moonshot AI | 14 | `https://api.moonshot.cn/v1` | `—` | 🟡 manual |
+| `openai` | OpenAI | 47 | `https://api.openai.com/v1` | `tier0_openai.py` | 🟢 automated |
+| `xai` | xAI | 17 | `https://api.x.ai/v1` | `—` | 🟡 manual |
+| `zai` | Z.AI | 16 | `https://api.z.ai/api/paas/v4` | `—` | 🟡 manual |
 
 ### Tier 1 — Other major LLM R&D vendors
 
-| Provider | Models | API base URL | Check script | Status |
-|---|---|---|---|---|
-| `aws` | 120 | `https://bedrock-runtime.{region}.amaz…` | `—` | 🟡 manual |
-| `baidu` | 3 | `https://qianfan.baidubce.com/v2` | `—` | 🟡 manual |
-| `cohere` | 14 | `https://api.cohere.com/v1` | `—` | 🟡 manual |
-| `nvidia` | 100 | `https://integrate.api.nvidia.com/v1` | `—` | 🟡 manual |
-| `perplexity` | 26 | `https://api.perplexity.ai` | `—` | 🟡 manual |
-| `stepfun` | 8 | `https://api.stepfun.com/v1` | `—` | 🟡 manual |
-| `tencent` | 1 | `https://api.hunyuan.cloud.tencent.com/v1` | `tier1_tencent.py` | 🟢 automated |
-| `upstage` | 4 | `https://api.upstage.ai/v1/solar` | `—` | 🟡 manual |
-| `volcengine` | 2 | `https://ark.cn-beijing.volces.com/api/v3` | `—` | 🟡 manual |
-| `xiaomi` | 10 | `https://api.xiaomimimo.com/v1` | `tier1_xiaomi.py` | 🟢 automated |
-| `zhipuai` | 16 | `https://open.bigmodel.cn/api/paas/v4` | `—` | 🟡 manual |
-| `ai21` (AI21 Labs) | — | `https://api.ai21.com/studio/v1` | `—` | ⚪ pending |
-| `baichuan` (Baichuan AI) | — | `https://api.baichuan-ai.com/v1` | `—` | ⚪ pending |
-| `iflytek` (iFlytek Spark) | — | `https://spark-api-open.xf-yun.com/v1` | `—` | ⚪ pending |
-| `lingyiwanwu` (01.AI (Lingyiwanwu)) | — | `https://api.lingyiwanwu.com/v1` | `—` | ⚪ pending |
+| Provider | Name | Models | API base URL | Check script | Status |
+|---|---|---|---|---|---|
+| `aws` | Amazon Web Services | 120 | `https://bedrock-runtime.{region}.amaz…` | `—` | 🟡 manual |
+| `baidu` | 百度智能云千帆 (Baidu Qianfan) | 3 | `https://qianfan.baidubce.com/v2` | `—` | 🟡 manual |
+| `cohere` | Cohere | 14 | `https://api.cohere.com/v1` | `—` | 🟡 manual |
+| `nvidia` | Nvidia | 100 | `https://integrate.api.nvidia.com/v1` | `—` | 🟡 manual |
+| `perplexity` | Perplexity | 26 | `https://api.perplexity.ai` | `—` | 🟡 manual |
+| `stepfun` | StepFun (China) | 8 | `https://api.stepfun.com/v1` | `—` | 🟡 manual |
+| `tencent` | 腾讯混元 (Tencent Hunyuan) | 1 | `https://api.hunyuan.cloud.tencent.com/v1` | `tier1_tencent.py` | 🟢 automated |
+| `upstage` | Upstage | 4 | `https://api.upstage.ai/v1/solar` | `—` | 🟡 manual |
+| `volcengine` | 字节跳动·火山引擎方舟 (ByteDance Volcengine Ark / 豆包) | 2 | `https://ark.cn-beijing.volces.com/api/v3` | `—` | 🟡 manual |
+| `xiaomi` | Xiaomi | 10 | `https://api.xiaomimimo.com/v1` | `tier1_xiaomi.py` | 🟢 automated |
+| `zhipuai` | Zhipu AI | 16 | `https://open.bigmodel.cn/api/paas/v4` | `—` | 🟡 manual |
+| `ai21` | AI21 Labs | — | `https://api.ai21.com/studio/v1` | `—` | ⚪ pending |
+| `baichuan` | Baichuan AI | — | `https://api.baichuan-ai.com/v1` | `—` | ⚪ pending |
+| `iflytek` | iFlytek Spark | — | `https://spark-api-open.xf-yun.com/v1` | `—` | ⚪ pending |
+| `lingyiwanwu` | 01.AI (Lingyiwanwu) | — | `https://api.lingyiwanwu.com/v1` | `—` | ⚪ pending |
 
 ### Tier 2 — Other model R&D vendors
 
-| Provider | Models | API base URL | Check script | Status |
-|---|---|---|---|---|
-| `arcee` | 7 | `https://api.arcee.ai/api/v1` | `—` | 🟡 manual |
-| `inception` | 2 | `https://api.inceptionlabs.ai/v1/` | `—` | 🟡 manual |
-| `lilac` | 4 | `https://api.getlilac.com/v1` | `—` | 🟡 manual |
-| `morph` | 3 | `https://api.morphllm.com/v1` | `—` | 🟡 manual |
-| `nova` | 2 | `https://api.nova.amazon.com/v1` | `—` | 🟡 manual |
-| `poolside` | 3 | `https://inference.poolside.ai/v1` | `—` | 🟡 manual |
-| `sakana` | 4 | `https://api.sakana.ai/v1` | `—` | 🟡 manual |
-| `sarvam` | 2 | `https://api.sarvam.ai/v1` | `—` | 🟡 manual |
-| `submodel` | 9 | `https://llm.submodel.ai/v1` | `—` | 🟡 manual |
-| `thinkingmachines` | 2 | `https://tinker.thinkingmachines.dev/s…` | `—` | 🟡 manual |
-| `assemblyai` (AssemblyAI) | — | `https://api.assemblyai.com/v2` | `—` | ⚪ pending |
-| `cartesia` (Cartesia) | — | `https://api.cartesia.ai/v1` | `—` | ⚪ pending |
-| `deepgram` (Deepgram) | — | `https://api.deepgram.com/v1` | `—` | ⚪ pending |
-| `elevenlabs` (ElevenLabs) | — | `https://api.elevenlabs.io/v1` | `—` | ⚪ pending |
-| `playai` (PlayAI) | — | `https://api.play.ai/v1` | `—` | ⚪ pending |
-| `stability` (Stability AI) | — | `https://api.stability.ai/v1` | `—` | ⚪ pending |
+| Provider | Name | Models | API base URL | Check script | Status |
+|---|---|---|---|---|---|
+| `arcee` | Arcee | 7 | `https://api.arcee.ai/api/v1` | `—` | 🟡 manual |
+| `inception` | Inception | 2 | `https://api.inceptionlabs.ai/v1/` | `—` | 🟡 manual |
+| `lilac` | Lilac | 4 | `https://api.getlilac.com/v1` | `—` | 🟡 manual |
+| `morph` | Morph | 3 | `https://api.morphllm.com/v1` | `—` | 🟡 manual |
+| `nova` | Nova | 2 | `https://api.nova.amazon.com/v1` | `—` | 🟡 manual |
+| `poolside` | Poolside | 3 | `https://inference.poolside.ai/v1` | `—` | 🟡 manual |
+| `sakana` | Sakana AI | 4 | `https://api.sakana.ai/v1` | `—` | 🟡 manual |
+| `sarvam` | Sarvam AI | 2 | `https://api.sarvam.ai/v1` | `—` | 🟡 manual |
+| `submodel` | submodel | 9 | `https://llm.submodel.ai/v1` | `—` | 🟡 manual |
+| `thinkingmachines` | Thinking Machines | 2 | `https://tinker.thinkingmachines.dev/s…` | `—` | 🟡 manual |
+| `assemblyai` | AssemblyAI | — | `https://api.assemblyai.com/v2` | `—` | ⚪ pending |
+| `cartesia` | Cartesia | — | `https://api.cartesia.ai/v1` | `—` | ⚪ pending |
+| `deepgram` | Deepgram | — | `https://api.deepgram.com/v1` | `—` | ⚪ pending |
+| `elevenlabs` | ElevenLabs | — | `https://api.elevenlabs.io/v1` | `—` | ⚪ pending |
+| `playai` | PlayAI | — | `https://api.play.ai/v1` | `—` | ⚪ pending |
+| `stability` | Stability AI | — | `https://api.stability.ai/v1` | `—` | ⚪ pending |
 
 ### Tier 3 — Core inference hosts / resellers / aggregator gateways
 
-| Provider | Models | API base URL | Check script | Status |
-|---|---|---|---|---|
-| `302ai` | 97 | `https://api.302.ai/v1` | `—` | 🟡 manual |
-| `ai-router` | 5 | `https://api.ai-router.dev/v1` | `—` | 🟡 manual |
-| `aihubmix` | 70 | `https://aihubmix.com/v1` | `—` | 🟡 manual |
-| `anyapi` | 30 | `https://api.anyapi.ai/v1` | `—` | 🟡 manual |
-| `baseten` | 19 | `https://inference.baseten.co/v1` | `—` | 🟡 manual |
-| `cerebras` | 2 | `https://api.cerebras.ai/v1` | `—` | 🟡 manual |
-| `cloudflare-ai-gateway` | 67 | `https://gateway.ai.cloudflare.com/v1/…` | `—` | 🟡 manual |
-| `cloudflare-workers-ai` | 25 | `https://api.cloudflare.com/client/v4/…` | `—` | 🟡 manual |
-| `crusoe` | 8 | `https://api.inference.crusoecloud.com/v1` | `—` | 🟡 manual |
-| `databricks` | 30 | `https://${DATABRICKS_HOST}/ai-gateway…` | `—` | 🟡 manual |
-| `deepinfra` | 60 | `https://api.deepinfra.com/v1/openai` | `—` | 🟡 manual |
-| `digitalocean` | 92 | `https://inference.do-ai.run/v1` | `—` | 🟡 manual |
-| `edenai` | 234 | `https://api.edenai.run/v3` | `—` | 🟡 manual |
-| `fastrouter` | 47 | `https://go.fastrouter.ai/api/v1` | `—` | 🟡 manual |
-| `fireworks-ai` | 23 | `https://api.fireworks.ai/inference/v1/` | `—` | 🟡 manual |
-| `friendli` | 5 | `https://api.friendli.ai/serverless/v1` | `—` | 🟡 manual |
-| `groq` | 15 | `https://api.groq.com/openai/v1` | `—` | 🟡 manual |
-| `helicone` | 90 | `https://ai-gateway.helicone.ai/v1` | `—` | 🟡 manual |
-| `hetzner` | 2 | `https://inference.hetzner.com/api/v1` | `—` | 🟡 manual |
-| `huggingface` | 69 | `https://router.huggingface.co/v1` | `—` | 🟡 manual |
-| `jiekou` | 61 | `https://api.jiekou.ai/openai` | `—` | 🟡 manual |
-| `kilo` | 367 | `https://api.kilo.ai/api/gateway` | `—` | 🟡 manual |
-| `llmgateway` | 556 | `https://api.llmgateway.io/v1` | `—` | 🟡 manual |
-| `merge-gateway` | 175 | `https://api-gateway.merge.dev/v1/ai-sdk` | `—` | 🟡 manual |
-| `modal` | 2 | `https://inference.us-west.modal.direc…` | `—` | 🟡 manual |
-| `nano-gpt` | 599 | `https://api.nano-gpt.com/v1` | `—` | 🟡 manual |
-| `nebius` | 34 | `https://api.studio.nebius.ai/v1` | `—` | 🟡 manual |
-| `novita-ai` | 107 | `https://api.novita.ai/v3/openai` | `—` | 🟡 manual |
-| `ollama-cloud` | 20 | `https://ollama.com/api` | `—` | 🟡 manual |
-| `opencode` | 95 | `https://opencode.ai/zen/v1/models` | `—` | 🟡 manual |
-| `opencode-go` | 28 | `https://opencode.ai/zen/go/v1/models` | `—` | 🟡 manual |
-| `openrouter` | 421 | `https://openrouter.ai/api/v1` | `—` | 🟡 manual |
-| `orcarouter` | 81 | `https://api.orcarouter.ai/v1` | `—` | 🟡 manual |
-| `ovhcloud` | 14 | `https://oai.endpoints.kepler.ai.cloud…` | `—` | 🟡 manual |
-| `poe` | 137 | `https://api.poe.com/v1` | `—` | 🟡 manual |
-| `requesty` | 139 | `https://router.requesty.ai/v1` | `—` | 🟡 manual |
-| `runinfra` | 5 | `https://api.runinfra.ai/v1` | `—` | 🟡 manual |
-| `salad-cloud` | 1 | `https://api.salad.com/v1` | `—` | 🟡 manual |
-| `sap-ai-core` | 48 | `https://api.ai.prod.eu-central-1.aws.…` | `—` | 🟡 manual |
-| `scaleway` | 15 | `https://api.scaleway.ai/v1` | `—` | 🟡 manual |
-| `siliconflow` | 61 | `https://api.siliconflow.cn/v1` | `—` | 🟡 manual |
-| `snowflake-cortex` | 25 | `https://${SNOWFLAKE_ACCOUNT}.snowflak…` | `—` | 🟡 manual |
-| `stackit` | 8 | `https://api.openai-compat.model-servi…` | `—` | 🟡 manual |
-| `togetherai` | 36 | `https://api.together.xyz/v1` | `—` | 🟡 manual |
-| `trustedrouter` | 7 | `https://api.trustedrouter.com/v1` | `—` | 🟡 manual |
-| `unorouter` | 23 | `https://api.unorouter.com/v1` | `—` | 🟡 manual |
-| `vercel` | 351 | `https://api.vercel.com/v1/ai` | `—` | 🟡 manual |
-| `vultr` | 10 | `https://api.vultrinference.com/v1` | `—` | 🟡 manual |
-| `watsonx` | 5 | `https://{region}.ml.cloud.ibm.com` | `—` | 🟡 manual |
-| `zenmux` | 120 | `https://zenmux.ai/api/v1` | `—` | 🟡 manual |
-| `runpod` (RunPod) | — | `https://api.runpod.ai/v2` | `—` | ⚪ pending |
-| `vast` (Vast.ai) | — | `https://console.vast.ai/api/v0` | `—` | ⚪ pending |
+| Provider | Name | Models | API base URL | Check script | Status |
+|---|---|---|---|---|---|
+| `302ai` | 302.AI | 97 | `https://api.302.ai/v1` | `—` | 🟡 manual |
+| `ai-router` | AI-ROUTER | 5 | `https://api.ai-router.dev/v1` | `—` | 🟡 manual |
+| `aihubmix` | AIHubMix | 70 | `https://aihubmix.com/v1` | `—` | 🟡 manual |
+| `anyapi` | AnyAPI | 30 | `https://api.anyapi.ai/v1` | `—` | 🟡 manual |
+| `baseten` | Baseten | 19 | `https://inference.baseten.co/v1` | `—` | 🟡 manual |
+| `cerebras` | Cerebras | 2 | `https://api.cerebras.ai/v1` | `—` | 🟡 manual |
+| `cloudflare-ai-gateway` | Cloudflare AI Gateway | 67 | `https://gateway.ai.cloudflare.com/v1/…` | `—` | 🟡 manual |
+| `cloudflare-workers-ai` | Cloudflare Workers AI | 25 | `https://api.cloudflare.com/client/v4/…` | `—` | 🟡 manual |
+| `crusoe` | Crusoe | 8 | `https://api.inference.crusoecloud.com/v1` | `—` | 🟡 manual |
+| `databricks` | Databricks | 30 | `https://${DATABRICKS_HOST}/ai-gateway…` | `—` | 🟡 manual |
+| `deepinfra` | Deep Infra | 60 | `https://api.deepinfra.com/v1/openai` | `—` | 🟡 manual |
+| `digitalocean` | DigitalOcean | 92 | `https://inference.do-ai.run/v1` | `—` | 🟡 manual |
+| `edenai` | Eden AI | 234 | `https://api.edenai.run/v3` | `—` | 🟡 manual |
+| `fastrouter` | FastRouter | 47 | `https://go.fastrouter.ai/api/v1` | `—` | 🟡 manual |
+| `fireworks-ai` | Fireworks AI | 23 | `https://api.fireworks.ai/inference/v1/` | `—` | 🟡 manual |
+| `friendli` | Friendli | 5 | `https://api.friendli.ai/serverless/v1` | `—` | 🟡 manual |
+| `groq` | Groq | 15 | `https://api.groq.com/openai/v1` | `—` | 🟡 manual |
+| `helicone` | Helicone | 90 | `https://ai-gateway.helicone.ai/v1` | `—` | 🟡 manual |
+| `hetzner` | Hetzner | 2 | `https://inference.hetzner.com/api/v1` | `—` | 🟡 manual |
+| `huggingface` | Hugging Face | 69 | `https://router.huggingface.co/v1` | `—` | 🟡 manual |
+| `jiekou` | Jiekou.AI | 61 | `https://api.jiekou.ai/openai` | `—` | 🟡 manual |
+| `kilo` | Kilo Gateway | 367 | `https://api.kilo.ai/api/gateway` | `—` | 🟡 manual |
+| `llmgateway` | DevPass (LLM Gateway) | 556 | `https://api.llmgateway.io/v1` | `—` | 🟡 manual |
+| `merge-gateway` | Merge Gateway | 175 | `https://api-gateway.merge.dev/v1/ai-sdk` | `—` | 🟡 manual |
+| `modal` | Modal | 2 | `https://inference.us-west.modal.direc…` | `—` | 🟡 manual |
+| `nano-gpt` | NanoGPT | 599 | `https://api.nano-gpt.com/v1` | `—` | 🟡 manual |
+| `nebius` | Nebius Token Factory | 34 | `https://api.studio.nebius.ai/v1` | `—` | 🟡 manual |
+| `novita-ai` | NovitaAI | 107 | `https://api.novita.ai/v3/openai` | `—` | 🟡 manual |
+| `ollama-cloud` | Ollama Cloud | 20 | `https://ollama.com/api` | `—` | 🟡 manual |
+| `opencode` | OpenCode Zen | 95 | `https://opencode.ai/zen/v1/models` | `—` | 🟡 manual |
+| `opencode-go` | OpenCode Go | 28 | `https://opencode.ai/zen/go/v1/models` | `—` | 🟡 manual |
+| `openrouter` | OpenRouter | 421 | `https://openrouter.ai/api/v1` | `—` | 🟡 manual |
+| `orcarouter` | OrcaRouter | 81 | `https://api.orcarouter.ai/v1` | `—` | 🟡 manual |
+| `ovhcloud` | OVHcloud AI Endpoints | 14 | `https://oai.endpoints.kepler.ai.cloud…` | `—` | 🟡 manual |
+| `poe` | Poe | 137 | `https://api.poe.com/v1` | `—` | 🟡 manual |
+| `requesty` | Requesty | 139 | `https://router.requesty.ai/v1` | `—` | 🟡 manual |
+| `runinfra` | RunInfra | 5 | `https://api.runinfra.ai/v1` | `—` | 🟡 manual |
+| `salad-cloud` | SaladCloud AI Gateway | 1 | `https://api.salad.com/v1` | `—` | 🟡 manual |
+| `sap-ai-core` | SAP AI Core | 48 | `https://api.ai.prod.eu-central-1.aws.…` | `—` | 🟡 manual |
+| `scaleway` | Scaleway | 15 | `https://api.scaleway.ai/v1` | `—` | 🟡 manual |
+| `siliconflow` | SiliconFlow | 61 | `https://api.siliconflow.cn/v1` | `—` | 🟡 manual |
+| `snowflake-cortex` | Snowflake Cortex | 25 | `https://${SNOWFLAKE_ACCOUNT}.snowflak…` | `—` | 🟡 manual |
+| `stackit` | STACKIT | 8 | `https://api.openai-compat.model-servi…` | `—` | 🟡 manual |
+| `togetherai` | Together AI | 36 | `https://api.together.xyz/v1` | `—` | 🟡 manual |
+| `trustedrouter` | TrustedRouter | 7 | `https://api.trustedrouter.com/v1` | `—` | 🟡 manual |
+| `unorouter` | UnoRouter | 23 | `https://api.unorouter.com/v1` | `—` | 🟡 manual |
+| `vercel` | Vercel AI Gateway | 351 | `https://api.vercel.com/v1/ai` | `—` | 🟡 manual |
+| `vultr` | Vultr | 10 | `https://api.vultrinference.com/v1` | `—` | 🟡 manual |
+| `watsonx` | watsonx.ai | 5 | `https://{region}.ml.cloud.ibm.com` | `—` | 🟡 manual |
+| `zenmux` | ZenMux | 120 | `https://zenmux.ai/api/v1` | `—` | 🟡 manual |
+| `runpod` | RunPod | — | `https://api.runpod.ai/v2` | `—` | ⚪ pending |
+| `vast` | Vast.ai | — | `https://console.vast.ai/api/v0` | `—` | ⚪ pending |
 
 ### Tier 4 — Other service providers (long-tail)
 
-| Provider | Models | API base URL | Check script | Status |
-|---|---|---|---|---|
-| `abacus` | 108 | `https://routellm.abacus.ai/v1` | `—` | 🟡 manual |
-| `abliteration-ai` | 2 | `https://api.abliteration.ai/v1` | `—` | 🟡 manual |
-| `aiand` | 9 | `https://api.aiand.com/v1` | `—` | 🟡 manual |
-| `aki-io` | 6 | `https://aki.io/v1` | `—` | 🟡 manual |
-| `alibaba-cn` | 86 | `https://dashscope.aliyuncs.com/compat…` | `—` | 🟡 manual |
-| `alibaba-coding-plan` | 12 | `https://coding-intl.dashscope.aliyunc…` | `—` | 🟡 manual |
-| `alibaba-coding-plan-cn` | 12 | `https://coding.dashscope.aliyuncs.com/v1` | `—` | 🟡 manual |
-| `alibaba-token-plan` | 25 | `https://token-plan.ap-southeast-1.maa…` | `—` | 🟡 manual |
-| `alibaba-token-plan-cn` | 25 | `https://token-plan.cn-beijing.maas.al…` | `—` | 🟡 manual |
-| `ambient` | 10 | `https://api.ambient.xyz/v1` | `—` | 🟡 manual |
-| `amd` | 1 | `https://developer.amd.com.cn/radeon/a…` | `—` | 🟡 manual |
-| `atomic-chat` | 5 | `http://127.0.0.1:1337/v1` | `—` | 🟡 manual |
-| `auriko` | 15 | `https://api.auriko.ai/v1` | `—` | 🟡 manual |
-| `azure` | 84 | `https://{resource}.openai.azure.com` | `—` | 🟡 manual |
-| `bailing` | 2 | `https://api.tbox.cn/api/llm/v1/chat/c…` | `—` | 🟡 manual |
-| `berget` | 9 | `https://api.berget.ai/v1` | `—` | 🟡 manual |
-| `blueclaw` | 2 | `https://openai.blueclaw.network/v1` | `—` | 🟡 manual |
-| `chutes` | 14 | `https://llm.chutes.ai/v1` | `—` | 🟡 manual |
-| `clarifai` | 12 | `https://api.clarifai.com/v2/ext/opena…` | `—` | 🟡 manual |
-| `claudinio` | 2 | `https://api.claudin.io/v1` | `—` | 🟡 manual |
-| `cline-pass` | 11 | `https://api.cline.bot/api/v1` | `—` | 🟡 manual |
-| `cloudferro-sherlock` | 5 | `https://api-sherlock.cloudferro.com/o…` | `—` | 🟡 manual |
-| `coralbricks` | 3 | `https://inference.coralbricks.ai/v1` | `—` | 🟡 manual |
-| `cortecs` | 108 | `https://api.cortecs.ai/v1` | `—` | 🟡 manual |
-| `crof` | 26 | `https://crof.ai/v1` | `—` | 🟡 manual |
-| `crossmodel` | 53 | `https://api.crossmodel.ai/v1` | `—` | 🟡 manual |
-| `cursor` | 0 | `—` | `—` | 🟡 manual |
-| `daoxe` | 9 | `https://daoxe.com/v1` | `—` | 🟡 manual |
-| `devin` | 0 | `—` | `—` | 🟡 manual |
-| `dinference` | 6 | `https://api.dinference.com/v1` | `—` | 🟡 manual |
-| `drun` | 3 | `https://chat.d.run/v1` | `—` | 🟡 manual |
-| `ebcloud` | 4 | `https://maas-api.ebcloud.com/v1` | `—` | 🟡 manual |
-| `echo` | 1 | `https://echo.tracerml.ai/v1` | `—` | 🟡 manual |
-| `empiriolabs` | 55 | `https://api.empiriolabs.ai/v1` | `—` | 🟡 manual |
-| `evroc` | 15 | `https://models.think.evroc.com/v1` | `—` | 🟡 manual |
-| `freemodel` | 10 | `https://cc.freemodel.dev/v1` | `—` | 🟡 manual |
-| `frogbot` | 26 | `https://app.frogbot.ai/api/v1` | `—` | 🟡 manual |
-| `github` | 33 | `https://api.githubcopilot.com` | `—` | 🟡 manual |
-| `gitlab` | 23 | `https://gitlab.com/api/v4/duo` | `—` | 🟡 manual |
-| `gmicloud` | 13 | `https://api.gmi-serving.com/v1` | `—` | 🟡 manual |
-| `google-vertex` | 43 | `https://{region}-aiplatform.googleapi…` | `—` | 🟡 manual |
-| `greenpt` | 37 | `https://api.greenpt.ai/v1` | `—` | 🟡 manual |
-| `hpc-ai` | 9 | `https://api.hpc-ai.com/inference/v1` | `—` | 🟡 manual |
-| `hyper` | 26 | `https://hyper.charm.land/v1` | `—` | 🟡 manual |
-| `iflowcn` | 14 | `https://api.iflow.cn/v1` | `—` | 🟡 manual |
-| `impossibl` | 76 | `https://api.impossibl.com/v1` | `—` | 🟡 manual |
-| `inceptron` | 4 | `https://api.inceptron.io/v1` | `—` | 🟡 manual |
-| `inference` | 9 | `https://inference.net/v1` | `—` | 🟡 manual |
-| `inferx` | 12 | `https://model.inferx.net/endpoints/v1` | `—` | 🟡 manual |
-| `infomaniak` | 10 | `https://api.infomaniak.com/2/ai/${INF…` | `—` | 🟡 manual |
-| `io-net` | 17 | `https://api.intelligence.io.solutions…` | `—` | 🟡 manual |
-| `jalapeno` | 17 | `https://api.jalapeno-cloud.ai/v1` | `—` | 🟡 manual |
-| `jetbrains` | 0 | `—` | `—` | 🟡 manual |
-| `kenari` | 38 | `https://kenari.id/v1` | `—` | 🟡 manual |
-| `kosmik` | 1 | `https://api.koscompute.com/v1` | `—` | 🟡 manual |
-| `kuae-cloud-coding-plan` | 1 | `https://coding-plan-endpoint.kuaeclou…` | `—` | 🟡 manual |
-| `llama` | 7 | `https://api.llama.com/compat/v1/` | `—` | 🟡 manual |
-| `llmtr` | 32 | `https://llmtr.com/v1` | `—` | 🟡 manual |
-| `lmstudio` | 3 | `http://localhost:1234/v1` | `—` | 🟡 manual |
-| `longcat` | 1 | `https://api.longcat.chat/openai` | `—` | 🟡 manual |
-| `lucidquery` | 4 | `https://api.lucidquery.com/v1` | `—` | 🟡 manual |
-| `lynkr` | 1 | `http://127.0.0.1:8081/v1` | `—` | 🟡 manual |
-| `meganova` | 19 | `https://api.meganova.ai/v1` | `—` | 🟡 manual |
-| `mixlayer` | 5 | `https://models.mixlayer.ai/v1` | `—` | 🟡 manual |
-| `moark` | 2 | `https://moark.com/v1` | `—` | 🟡 manual |
-| `model-oracle-ai` | 15 | `https://api.modeloracle.com/api/v1` | `—` | 🟡 manual |
-| `modelis` | 9 | `https://modelishub.com/v1` | `—` | 🟡 manual |
-| `modelscope` | 7 | `https://api-inference.modelscope.cn/v1` | `—` | 🟡 manual |
-| `nearai` | 37 | `https://cloud-api.near.ai/v1` | `—` | 🟡 manual |
-| `neon` | 42 | `${NEON_AI_GATEWAY_BASE_URL}/v1` | `—` | 🟡 manual |
-| `neuralwatt` | 22 | `https://api.neuralwatt.com/v1` | `—` | 🟡 manual |
-| `ofox` | 110 | `https://api.ofox.ai/v1` | `—` | 🟡 manual |
-| `pioneer` | 103 | `https://api.pioneer.ai/v1` | `—` | 🟡 manual |
-| `privatemode-ai` | 7 | `http://localhost:8080/v1` | `—` | 🟡 manual |
-| `qihang-ai` | 9 | `https://api.qhaigc.net/v1` | `—` | 🟡 manual |
-| `qiniu-ai` | 91 | `https://api.qnaigc.com/v1` | `—` | 🟡 manual |
-| `qvac` | 9 | `http://localhost:{port}/v1` | `—` | 🟡 manual |
-| `regolo-ai` | 18 | `https://api.regolo.ai/v1` | `—` | 🟡 manual |
-| `replit` | 0 | `—` | `—` | 🟡 manual |
-| `routing-run` | 15 | `https://api.routing.run/v1` | `—` | 🟡 manual |
-| `scnet-token-plan` | 16 | `https://api.scnet.cn/api/llm/v1` | `—` | 🟡 manual |
-| `scx-ai` | 4 | `https://api.scx.ai/v1` | `—` | 🟡 manual |
-| `stepfun-ai-step-plan` | 3 | `https://api.stepfun.ai/step_plan/v1` | `—` | 🟡 manual |
-| `stepfun-step-plan` | 4 | `https://api.stepfun.com/step_plan/v1` | `—` | 🟡 manual |
-| `subconscious` | 2 | `https://api.subconscious.dev/v1` | `—` | 🟡 manual |
-| `synthetic` | 8 | `https://api.synthetic.new/openai/v1` | `—` | 🟡 manual |
-| `tabnine` | 0 | `—` | `—` | 🟡 manual |
-| `tencent-coding-plan` | 8 | `https://api.lkeap.cloud.tencent.com/c…` | `—` | 🟡 manual |
-| `tencent-token-plan` | 1 | `https://api.lkeap.cloud.tencent.com/p…` | `—` | 🟡 manual |
-| `tencent-tokenhub` | 2 | `https://tokenhub.tencentmaas.com/v1` | `—` | 🟡 manual |
-| `tensorx` | 25 | `https://api.tensorx.ai/v1` | `—` | 🟡 manual |
-| `the-grid-ai` | 9 | `https://api.thegrid.ai/v1` | `—` | 🟡 manual |
-| `tinfoil` | 8 | `https://inference.tinfoil.sh/v1` | `—` | 🟡 manual |
-| `umans-ai` | 8 | `https://api.code.umans.ai/v1` | `—` | 🟡 manual |
-| `v0` | 3 | `—` | `—` | 🟡 manual |
-| `venice` | 100 | `https://api.venice.ai/api/v1` | `—` | 🟡 manual |
-| `vivgrid` | 20 | `https://api.vivgrid.com/v1` | `—` | 🟡 manual |
-| `wafer.ai` | 5 | `https://pass.wafer.ai/v1` | `—` | 🟡 manual |
-| `wandb` | 29 | `https://api.inference.wandb.ai/v1` | `—` | 🟡 manual |
-| `windsurf` | 0 | `—` | `—` | 🟡 manual |
-| `xpersona` | 13 | `https://www.xpersona.co/v1` | `—` | 🟡 manual |
-| `zeldoc` | 1 | `https://api.zeldoc.ai/v1` | `—` | 🟡 manual |
-| `zenifra` | 1 | `https://ai.zenifra.com/v1` | `—` | 🟡 manual |
+| Provider | Name | Models | API base URL | Check script | Status |
+|---|---|---|---|---|---|
+| `abacus` | Abacus | 108 | `https://routellm.abacus.ai/v1` | `—` | 🟡 manual |
+| `abliteration-ai` | abliteration.ai | 2 | `https://api.abliteration.ai/v1` | `—` | 🟡 manual |
+| `aiand` | ai& | 9 | `https://api.aiand.com/v1` | `—` | 🟡 manual |
+| `aki-io` | AKI.IO | 6 | `https://aki.io/v1` | `—` | 🟡 manual |
+| `alibaba-cn` | Alibaba (China) | 86 | `https://dashscope.aliyuncs.com/compat…` | `—` | 🟡 manual |
+| `alibaba-coding-plan` | Alibaba Coding Plan | 12 | `https://coding-intl.dashscope.aliyunc…` | `—` | 🟡 manual |
+| `alibaba-coding-plan-cn` | Alibaba Coding Plan (China) | 12 | `https://coding.dashscope.aliyuncs.com/v1` | `—` | 🟡 manual |
+| `alibaba-token-plan` | Alibaba Token Plan | 25 | `https://token-plan.ap-southeast-1.maa…` | `—` | 🟡 manual |
+| `alibaba-token-plan-cn` | Alibaba Token Plan (China) | 25 | `https://token-plan.cn-beijing.maas.al…` | `—` | 🟡 manual |
+| `ambient` | Ambient | 10 | `https://api.ambient.xyz/v1` | `—` | 🟡 manual |
+| `amd` | AMD | 1 | `https://developer.amd.com.cn/radeon/a…` | `—` | 🟡 manual |
+| `atomic-chat` | Atomic Chat | 5 | `http://127.0.0.1:1337/v1` | `—` | 🟡 manual |
+| `auriko` | Auriko | 15 | `https://api.auriko.ai/v1` | `—` | 🟡 manual |
+| `azure` | Azure | 84 | `https://{resource}.openai.azure.com` | `—` | 🟡 manual |
+| `bailing` | Bailing | 2 | `https://api.tbox.cn/api/llm/v1/chat/c…` | `—` | 🟡 manual |
+| `berget` | Berget.AI | 9 | `https://api.berget.ai/v1` | `—` | 🟡 manual |
+| `blueclaw` | Blue Claw | 2 | `https://openai.blueclaw.network/v1` | `—` | 🟡 manual |
+| `chutes` | Chutes | 14 | `https://llm.chutes.ai/v1` | `—` | 🟡 manual |
+| `clarifai` | Clarifai | 12 | `https://api.clarifai.com/v2/ext/opena…` | `—` | 🟡 manual |
+| `claudinio` | Claudinio | 2 | `https://api.claudin.io/v1` | `—` | 🟡 manual |
+| `cline-pass` | ClinePass | 11 | `https://api.cline.bot/api/v1` | `—` | 🟡 manual |
+| `cloudferro-sherlock` | CloudFerro Sherlock | 5 | `https://api-sherlock.cloudferro.com/o…` | `—` | 🟡 manual |
+| `coralbricks` | CoralBricks | 3 | `https://inference.coralbricks.ai/v1` | `—` | 🟡 manual |
+| `cortecs` | Cortecs | 108 | `https://api.cortecs.ai/v1` | `—` | 🟡 manual |
+| `crof` | CrofAI | 26 | `https://crof.ai/v1` | `—` | 🟡 manual |
+| `crossmodel` | CrossModel | 53 | `https://api.crossmodel.ai/v1` | `—` | 🟡 manual |
+| `cursor` | Cursor (Anysphere) | 0 | `—` | `—` | 🟡 manual |
+| `daoxe` | DaoXE | 9 | `https://daoxe.com/v1` | `—` | 🟡 manual |
+| `devin` | Devin (Cognition) | 0 | `—` | `—` | 🟡 manual |
+| `dinference` | DInference | 6 | `https://api.dinference.com/v1` | `—` | 🟡 manual |
+| `drun` | D.Run (China) | 3 | `https://chat.d.run/v1` | `—` | 🟡 manual |
+| `ebcloud` | EBCloud | 4 | `https://maas-api.ebcloud.com/v1` | `—` | 🟡 manual |
+| `echo` | Echo | 1 | `https://echo.tracerml.ai/v1` | `—` | 🟡 manual |
+| `empiriolabs` | EmpirioLabs AI | 55 | `https://api.empiriolabs.ai/v1` | `—` | 🟡 manual |
+| `evroc` | evroc | 15 | `https://models.think.evroc.com/v1` | `—` | 🟡 manual |
+| `freemodel` | FreeModel | 10 | `https://cc.freemodel.dev/v1` | `—` | 🟡 manual |
+| `frogbot` | FrogBot | 26 | `https://app.frogbot.ai/api/v1` | `—` | 🟡 manual |
+| `github` | GitHub | 33 | `https://api.githubcopilot.com` | `—` | 🟡 manual |
+| `gitlab` | GitLab Duo | 23 | `https://gitlab.com/api/v4/duo` | `—` | 🟡 manual |
+| `gmicloud` | GMI Cloud | 13 | `https://api.gmi-serving.com/v1` | `—` | 🟡 manual |
+| `google-vertex` | Vertex | 43 | `https://{region}-aiplatform.googleapi…` | `—` | 🟡 manual |
+| `greenpt` | GreenPT | 37 | `https://api.greenpt.ai/v1` | `—` | 🟡 manual |
+| `hpc-ai` | HPC-AI | 9 | `https://api.hpc-ai.com/inference/v1` | `—` | 🟡 manual |
+| `hyper` | Charm Hyper | 26 | `https://hyper.charm.land/v1` | `—` | 🟡 manual |
+| `iflowcn` | iFlow | 14 | `https://api.iflow.cn/v1` | `—` | 🟡 manual |
+| `impossibl` | Impossibl | 76 | `https://api.impossibl.com/v1` | `—` | 🟡 manual |
+| `inceptron` | Inceptron | 4 | `https://api.inceptron.io/v1` | `—` | 🟡 manual |
+| `inference` | Inference | 9 | `https://inference.net/v1` | `—` | 🟡 manual |
+| `inferx` | InferX | 12 | `https://model.inferx.net/endpoints/v1` | `—` | 🟡 manual |
+| `infomaniak` | Infomaniak | 10 | `https://api.infomaniak.com/2/ai/${INF…` | `—` | 🟡 manual |
+| `io-net` | IO.NET | 17 | `https://api.intelligence.io.solutions…` | `—` | 🟡 manual |
+| `jalapeno` | Jalapeno Cloud | 17 | `https://api.jalapeno-cloud.ai/v1` | `—` | 🟡 manual |
+| `jetbrains` | JetBrains | 0 | `—` | `—` | 🟡 manual |
+| `kenari` | Kenari | 38 | `https://kenari.id/v1` | `—` | 🟡 manual |
+| `kosmik` | Kosmik Compute | 1 | `https://api.koscompute.com/v1` | `—` | 🟡 manual |
+| `kuae-cloud-coding-plan` | KUAE Cloud Coding Plan | 1 | `https://coding-plan-endpoint.kuaeclou…` | `—` | 🟡 manual |
+| `llama` | Llama | 7 | `https://api.llama.com/compat/v1/` | `—` | 🟡 manual |
+| `llmtr` | LLMTR | 32 | `https://llmtr.com/v1` | `—` | 🟡 manual |
+| `lmstudio` | LMStudio | 3 | `http://localhost:1234/v1` | `—` | 🟡 manual |
+| `longcat` | LongCat | 1 | `https://api.longcat.chat/openai` | `—` | 🟡 manual |
+| `lucidquery` | LucidQuery | 4 | `https://api.lucidquery.com/v1` | `—` | 🟡 manual |
+| `lynkr` | Lynkr | 1 | `http://127.0.0.1:8081/v1` | `—` | 🟡 manual |
+| `meganova` | Meganova | 19 | `https://api.meganova.ai/v1` | `—` | 🟡 manual |
+| `mixlayer` | Mixlayer | 5 | `https://models.mixlayer.ai/v1` | `—` | 🟡 manual |
+| `moark` | Moark | 2 | `https://moark.com/v1` | `—` | 🟡 manual |
+| `model-oracle-ai` | Model Oracle AI | 15 | `https://api.modeloracle.com/api/v1` | `—` | 🟡 manual |
+| `modelis` | Modelis | 9 | `https://modelishub.com/v1` | `—` | 🟡 manual |
+| `modelscope` | ModelScope | 7 | `https://api-inference.modelscope.cn/v1` | `—` | 🟡 manual |
+| `nearai` | NEAR AI Cloud | 37 | `https://cloud-api.near.ai/v1` | `—` | 🟡 manual |
+| `neon` | Neon | 42 | `${NEON_AI_GATEWAY_BASE_URL}/v1` | `—` | 🟡 manual |
+| `neuralwatt` | Neuralwatt | 22 | `https://api.neuralwatt.com/v1` | `—` | 🟡 manual |
+| `ofox` | Ofox | 110 | `https://api.ofox.ai/v1` | `—` | 🟡 manual |
+| `pioneer` | Pioneer | 103 | `https://api.pioneer.ai/v1` | `—` | 🟡 manual |
+| `privatemode-ai` | Privatemode AI | 7 | `http://localhost:8080/v1` | `—` | 🟡 manual |
+| `qihang-ai` | QiHang | 9 | `https://api.qhaigc.net/v1` | `—` | 🟡 manual |
+| `qiniu-ai` | Qiniu | 91 | `https://api.qnaigc.com/v1` | `—` | 🟡 manual |
+| `qvac` | QVAC | 9 | `http://localhost:{port}/v1` | `—` | 🟡 manual |
+| `regolo-ai` | Regolo AI | 18 | `https://api.regolo.ai/v1` | `—` | 🟡 manual |
+| `replit` | Replit | 0 | `—` | `—` | 🟡 manual |
+| `routing-run` | routing.run | 15 | `https://api.routing.run/v1` | `—` | 🟡 manual |
+| `scnet-token-plan` | SCNet Token Plan | 16 | `https://api.scnet.cn/api/llm/v1` | `—` | 🟡 manual |
+| `scx-ai` | SCX.ai | 4 | `https://api.scx.ai/v1` | `—` | 🟡 manual |
+| `stepfun-ai-step-plan` | StepFun Step Plan (Global) | 3 | `https://api.stepfun.ai/step_plan/v1` | `—` | 🟡 manual |
+| `stepfun-step-plan` | StepFun Step Plan (China) | 4 | `https://api.stepfun.com/step_plan/v1` | `—` | 🟡 manual |
+| `subconscious` | Subconscious | 2 | `https://api.subconscious.dev/v1` | `—` | 🟡 manual |
+| `synthetic` | Synthetic | 8 | `https://api.synthetic.new/openai/v1` | `—` | 🟡 manual |
+| `tabnine` | Tabnine | 0 | `—` | `—` | 🟡 manual |
+| `tencent-coding-plan` | Tencent Coding Plan (China) | 8 | `https://api.lkeap.cloud.tencent.com/c…` | `—` | 🟡 manual |
+| `tencent-token-plan` | Tencent Token Plan | 1 | `https://api.lkeap.cloud.tencent.com/p…` | `—` | 🟡 manual |
+| `tencent-tokenhub` | Tencent TokenHub | 2 | `https://tokenhub.tencentmaas.com/v1` | `—` | 🟡 manual |
+| `tensorx` | TensorX | 25 | `https://api.tensorx.ai/v1` | `—` | 🟡 manual |
+| `the-grid-ai` | The Grid AI | 9 | `https://api.thegrid.ai/v1` | `—` | 🟡 manual |
+| `tinfoil` | Tinfoil | 8 | `https://inference.tinfoil.sh/v1` | `—` | 🟡 manual |
+| `umans-ai` | Umans AI | 8 | `https://api.code.umans.ai/v1` | `—` | 🟡 manual |
+| `v0` | v0 | 3 | `—` | `—` | 🟡 manual |
+| `venice` | Venice AI | 100 | `https://api.venice.ai/api/v1` | `—` | 🟡 manual |
+| `vivgrid` | Vivgrid | 20 | `https://api.vivgrid.com/v1` | `—` | 🟡 manual |
+| `wafer.ai` | Wafer | 5 | `https://pass.wafer.ai/v1` | `—` | 🟡 manual |
+| `wandb` | Weights & Biases | 29 | `https://api.inference.wandb.ai/v1` | `—` | 🟡 manual |
+| `windsurf` | Windsurf (Codeium) | 0 | `—` | `—` | 🟡 manual |
+| `xpersona` | Xpersona | 13 | `https://www.xpersona.co/v1` | `—` | 🟡 manual |
+| `zeldoc` | Zeldoc | 1 | `https://api.zeldoc.ai/v1` | `—` | 🟡 manual |
+| `zenifra` | Zenifra | 1 | `https://ai.zenifra.com/v1` | `—` | 🟡 manual |
 
 Legend: 🟢 automated (check script) · 🟡 manual (in DB, no check) · ⚪ pending (not added yet)
 
@@ -248,7 +248,7 @@ Legend: 🟢 automated (check script) · 🟡 manual (in DB, no check) · ⚪ pe
 
 per-MTok (input/output/cache/batch) · per-image · per-audio-second · per-request ·
 credits/points · GPU second/hour · neuron-second · subscription monthly/yearly ·
-per-seat · free tier · finetune · provisioned — see `docs/price-types.md`.
+per-seat · free tier · finetune · provisioned — see `price-types.md`.
 
 ## Related docs
 

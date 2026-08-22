@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.2.5 — 2026-08-22T11:10Z (feature update)
+
+- feature: ByteDance visible in provider name/status table, fix 38 broken cross-doc links, add broken-link check to audit
+
 ## 26.2.4 — 2026-08-22T10:57Z (feature update)
 
 - feature: data dirs renamed (data/feed + data/view/en|zh-CN), branch cleanup + branch policy, changelog boundaries + zh translations, core-file update rules documented, pending vendors merged into tiers, opencode-go same tier
