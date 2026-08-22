@@ -6,8 +6,8 @@
 - Homepage: https://openrouter.ai
 - Pricing page: https://openrouter.ai/models
 - Currency: USD
-- Data updated: 2026-08-22T09:32:50Z
-- Verified: 2026-08-22T09:32:50Z
+- Data updated: 2026-08-22T15:27:29Z
+- Verified: 2026-08-22T15:27:29Z
 
 **421** models in total.
 
@@ -77,10 +77,10 @@
 | `deepseek/deepseek-v3.1-terminus` | — | reasoning | 163.84K | $2.7e-07 | $1e-06 | $1.35e-07 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2` | — | reasoning | 163.84K | $2.6e-07 | $3.8e-07 | $1.3e-07 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2-exp` | — | reasoning | 163.84K | $2.7e-07 | $4.1e-07 | — | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-flash` | — | reasoning | 1.04858M | $6.846e-08 | $1.3692e-07 | $1.3692e-08 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-flash` | — | reasoning | 1.04858M | $6.006e-08 | $1.2012e-07 | $1.2012e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | 1.31072M | $8e-08 | $1.8e-07 | $1.6e-08 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 1.04858M | $4.4e-07 | $1.32e-06 | $1.4e-08 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-pro` | — | reasoning | 1.04858M | $4.3065e-07 | $8.613e-07 | $3.58875e-08 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 1.04858M | $2.2e-07 | $6.6e-07 | $7e-09 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-pro` | — | reasoning | 1.04858M | $4.13772e-07 | $8.27544e-07 | $3.4481e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | 1.04858M | $1.188e-06 | $3.564e-06 | $3.96e-08 | — | —/— | — | OpenRouter reseller price |
 | `dots-studio/dots-3-note-preview:free` | — | reasoning | 512K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price |
 | `google/gemini-2.5-flash` | — | reasoning | 1.04858M | $3e-07 | $2.5e-06 | $3e-08 | $8.33333e-08 | —/— | per-image | OpenRouter reseller price |

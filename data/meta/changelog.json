@@ -1,6 +1,93 @@
 {
-  "schema_version": "26.2.6",
+  "schema_version": "26.3.6",
   "entries": [
+    {
+      "date": "2026-08-22T15:27:29Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-flash",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": 6.846e-08,
+          "output": 1.3692e-07,
+          "cache_read": 1.3692e-08,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": 6.006e-08,
+          "output": 1.2012e-07,
+          "cache_read": 1.2012e-08,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-22T15:27:29Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-flash-vision-exp",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": 4.4e-07,
+          "output": 1.32e-06,
+          "cache_read": 1.4e-08,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": 2.2e-07,
+          "output": 6.6e-07,
+          "cache_read": 7e-09,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-22T15:27:29Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-pro",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": 4.3065e-07,
+          "output": 8.613e-07,
+          "cache_read": 3.58875e-08,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": 4.13772e-07,
+          "output": 8.27544e-07,
+          "cache_read": 3.4481e-08,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-08-22T11:41:20Z",
       "kind": "update",

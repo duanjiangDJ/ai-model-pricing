@@ -3,7 +3,7 @@
 > 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/feed/`](../../../data/feed/)。
 > 更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。
 
-- 数据更新时间: 2026-08-22T09:32:50Z
+- 数据更新时间: 2026-08-22T15:27:29Z
 - 覆盖渠道: 185
 - 模型总数: 7132
 - 订阅计划数: 64
@@ -196,7 +196,7 @@
 | [Amazon Web Services](providers/aws.md) | 云平台托管 | 120 | `providers/aws.json` | 2026-08-21T15:59:09Z |
 | [Tabnine](providers/tabnine.md) | subscription | 0 | `providers/tabnine.json` | 2026-08-21T11:40:00Z |
 | [Replit](providers/replit.md) | subscription | 0 | `providers/replit.json` | 2026-08-21T11:40:00Z |
-| [OpenRouter](providers/openrouter.md) | 聚合站 | 421 | `providers/openrouter.json` | 2026-08-22T09:32:50Z |
+| [OpenRouter](providers/openrouter.md) | 聚合站 | 421 | `providers/openrouter.json` | 2026-08-22T15:27:29Z |
 
 ## 订阅计划
 
