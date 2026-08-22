@@ -199,17 +199,16 @@ def main():
             print(f"WARN models.dev fetch failed: {e}")
         refresh_index_counts(now)
 
-        # Official pricing pages (direct fetch + wayback fallback) — the
-        # "official-price-first" layer. Failures are recorded in manifest, not fatal.
-        import subprocess
-        r = subprocess.run(
-            [sys.executable, os.path.join(ROOT, "scripts", "sync_official.py")],
-            capture_output=True, text=True, timeout=600,
-        )
-        summary["official"] = r.returncode == 0
-        print(r.stdout[-2000:] if r.stdout else "")
-        if r.returncode != 0:
-            print("WARN sync_official failed:", r.stderr[-500:] if r.stderr else "no stderr")
+        # Official pricing pages via the core check router (checks/ per provider).
+        # Failures are isolated per provider and recorded in manifest, not fatal.
+        try:
+            from router import run_router
+            results = run_router()
+            summary["official"] = {"ok": sum(1 for r in results if r["status"] == "ok"),
+                                   "total": len(results)}
+        except Exception as e:  # noqa: BLE001
+            summary["official"] = False
+            print(f"WARN router failed: {e}")
     else:
         print("no-network mode: skipping fetches")
 
