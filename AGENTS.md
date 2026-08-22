@@ -34,7 +34,7 @@ systems, GPU-hour pricing, consumer subscriptions, and coding-tool plans.
 
 ```
 data/machine/
-  schema.json            # THE authoritative JSON Schema (26.0.0)
+  schema.json            # THE authoritative JSON Schema (26.0.1)
   index.json             # Entry point: providers/resellers lists, counts, timestamps
   providers/*.json       # One file per provider (provider_id.json)
   plans.json             # Subscription & coding-tool plans
@@ -42,9 +42,23 @@ data/meta/
   manifest.json          # Sync health: sources, last_ok/last_error
   changelog.json         # Every change (add/update/remove/verify), newest first
 data/human/              # GENERATED. en: *.md, zh-CN: zh-CN/*.md
-docs/                    # providers.md (landscape), price-types.md, research-contract.md
-scripts/                 # sync/validate/build/merge (stdlib + jsonschema)
-CONTRIBUTING.md        # contribution guide (en + zh-CN)
+docs/                    # providers.md (landscape), price-types.md, research-contract.md,
+                         # optimization-roadmap.md, verification.md
+scripts/
+  router.py              # Core check router: discovers checks/, runs in tier order
+  toolbox.py             # Shared utilities (http, JSON, changelog, manifest, dedup)
+  checks/                # Per-provider official-price checks (tierN_<provider>.py)
+  daily_check.py         # Daily entry: router (official) -> models.dev -> OpenRouter
+  sync_official.py       # Standalone official-source sync (official_sources.json registry)
+  sync_openrouter.py     # OpenRouter catalog sync (aggregator prices)
+  sync_modelsdev.py      # models.dev catalog sync
+  validate.py            # Schema + consistency validation
+  audit.py               # Repo-wide audit (version, counts, zero-price, docs bilingual)
+  build_human.py         # Generate human pages (en + zh-CN)
+  stats.py               # Exact data statistics for README
+  bump_version.py        # Version bump (year.content.feature) + changelog entries
+  merge_research.py      # Merge research-subagent JSON output
+CONTRIBUTING.md          # contribution guide (en + zh-CN)
 ```
 
 ## Reading Data (for agents building tools)

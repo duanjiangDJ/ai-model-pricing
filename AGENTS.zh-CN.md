@@ -35,8 +35,22 @@ data/meta/
   manifest.json          # Sync health: sources, last_ok/last_error
   changelog.json         # Every change (add/update/remove/verify), newest first
 data/human/              # GENERATED. en: *.md, zh-CN: zh-CN/*.md
-docs/                    # providers.md (landscape), price-types.md, research-contract.md
-scripts/                 # sync/validate/build/merge (stdlib + jsonschema)
+docs/                    # providers.md (landscape), price-types.md, research-contract.md,
+                         # optimization-roadmap.md, verification.md
+scripts/
+  router.py              # 核心检查路由：发现 checks/，按层级顺序执行
+  toolbox.py             # 共享工具库（http、JSON、changelog、manifest、去重）
+  checks/                # 各厂商官方价检查脚本（tierN_<供应商>.py）
+  daily_check.py         # 每日入口：router（官方）-> models.dev -> OpenRouter
+  sync_official.py       # 独立官方源同步（official_sources.json 注册表）
+  sync_openrouter.py     # OpenRouter 目录同步（聚合转售价）
+  sync_modelsdev.py      # models.dev 目录同步
+  validate.py            # schema + 一致性校验
+  audit.py               # 仓库审计（版本、计数、0 价策略、文档双语）
+  build_human.py         # 生成人类页面（en + zh-CN）
+  stats.py               # README 精确统计
+  bump_version.py        # 版本提升（年份.内容.功能）+ changelog
+  merge_research.py      # 合并调研子代理 JSON 输出
 CONTRIBUTING.md        # contribution guide (en + zh-CN)
 ```
 

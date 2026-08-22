@@ -14,6 +14,10 @@
 
 ---
 
+## 26.0.2 — 2026-08-22（功能更新）
+
+- feature: core check router (scripts/router.py) + toolbox (scripts/toolbox.py) + per-provider checks (scripts/checks/), CONTRIBUTING guide expanded, daily-check PR fix
+
 ## 26.0.1 — 2026-08-22（功能更新）
 
 - feature: api_base_url + Notes column in human pages, dedup checks, pr-check enforces CHANGELOG/VERSION, bump_version.py, README star badge + exact stats, all machine notes localized to English

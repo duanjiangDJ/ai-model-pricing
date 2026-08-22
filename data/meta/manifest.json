@@ -1,11 +1,11 @@
 {
-  "schema_version": "26.0.1",
+  "schema_version": "26.0.2",
   "sources": [
     {
       "name": "OpenRouter API",
       "url": "https://openrouter.ai/api/v1/models",
       "auto_sync": true,
-      "last_ok": "2026-08-21T13:59:16Z",
+      "last_ok": "2026-08-22T07:06:18Z",
       "last_error": null
     },
     {
@@ -46,8 +46,53 @@
       "official": true,
       "last_ok": "2026-08-21T13:59:17Z",
       "last_error": "parsed 0 models"
+    },
+    {
+      "name": "check:anthropic",
+      "url": "scripts/checks/anthropic.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-22T07:06:01Z",
+      "last_error": null
+    },
+    {
+      "name": "check:deepseek",
+      "url": "scripts/checks/deepseek.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-22T07:06:01Z",
+      "last_error": null
+    },
+    {
+      "name": "check:openai",
+      "url": "scripts/checks/openai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-22T07:06:01Z",
+      "last_error": null
+    },
+    {
+      "name": "check:tencent",
+      "url": "scripts/checks/tencent.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-22T07:06:01Z",
+      "last_error": null
+    },
+    {
+      "name": "check:xiaomi",
+      "url": "scripts/checks/xiaomi.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-22T07:06:01Z",
+      "last_error": null
     }
   ],
   "coverage": {},
-  "last_daily_check": "2026-08-21T13:59:16Z"
+  "last_daily_check": "2026-08-22T07:06:18Z"
 }
