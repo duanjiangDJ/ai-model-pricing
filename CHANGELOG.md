@@ -16,6 +16,15 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.5.11 — 2026-08-27T17:38Z (feature update)
+
+- **fix(regression, HIGH)**: `sync_openrouter.py` / `sync_modelsdev.py` did not emit the new required `billing_model` field — the next daily auto-sync would have STRIPPED billing_model from every OpenRouter/models.dev model and tripped the audit "missing billing_model" fail, breaking the auto-merge workflow. Both `build_model` functions now classify billing (pay_per_token / pay_per_image / free / unknown) and no longer write the removed `per_request`/`per_audio_second` fields (schema-dead). Verified by running a real sync: all 417 OpenRouter models annotated correctly (388 pay_per_token, 29 pay_per_image+pay_per_token).
+- **fix(stats)**: "By channel" model counts were always 0 (`chan_m` was declared but never populated); README/zh-CN stats now show real counts (e.g. Inference host 4,316 / Subscription 173 / Aggregator 2,222).
+- **fix(audit)**: aggregated the 235 per-model "pay_per_token but per_mtok all null" warnings into one summary line per provider (these are reseller models billed per-token whose price is simply not published); audit warnings 248 → 14.
+- **feat(ui)**: view pages now mark models with a live `promo` as 🔥 promo (en) / 🔥 促销 (zh-CN); Z.ai GLM-5.3-Flash shows the badge.
+- **feat(tests)**: 2 new surge-guard tests (normal change applies, >5x surge skipped) via mocked save; test suite now 7 tests.
+- **refactor(schema)**: `providerFile` simplified to a pure `$ref` of `$defs.provider`.
+
 ## 26.5.10 — 2026-08-27T17:16Z (feature update)
 
 - **feat(billing_model)**: every model now carries a required `billing_model` array (pay_per_token / pay_per_image / subscription_included / credits / free / unknown) — machine-readable "how is this billed" instead of inferring from null/0/notes. 7,239 models annotated via `scripts/annotate_billing.py` (6467 pay_per_token, 384 free, 114 subscription_included, 55 free+pay_per_token, 219 unknown needing review — those have no price in models.dev, honestly marked). Mixed billing supported (e.g. Gemini free tier + paid).

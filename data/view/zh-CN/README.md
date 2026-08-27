@@ -3,7 +3,7 @@
 > 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/feed/`](../../../data/feed/)。
 > 更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。
 
-- 数据更新时间: 2026-08-27T15:38:33.587025Z
+- 数据更新时间: 2026-08-27T17:37:17Z
 - 覆盖渠道: 186
 - 模型总数: 7239
 - 订阅计划数: 67
@@ -197,7 +197,7 @@
 | [Tabnine](providers/tabnine.md) | 订阅制 | 0 | `providers/tabnine.json` | 2026-08-27T17:11:11Z |
 | [Replit](providers/replit.md) | 订阅制 | 0 | `providers/replit.json` | 2026-08-27T17:11:11Z |
 | [Z.AI Coding Plan](providers/zai-coding-plan.md) | 订阅制 | 6 | `providers/zai-coding-plan.json` | 2026-08-27T17:11:11Z |
-| [OpenRouter](providers/openrouter.md) | 聚合站 | 417 | `providers/openrouter.json` | 2026-08-27T17:11:11Z |
+| [OpenRouter](providers/openrouter.md) | 聚合站 | 417 | `providers/openrouter.json` | 2026-08-27T17:37:17Z |
 
 ## 订阅计划
 

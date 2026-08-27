@@ -72,5 +72,32 @@ class TestBaiduParser(unittest.TestCase):
         self.assertNotIn("ernie-4.5-turbo", r)
 
 
+class TestSurgeGuard(unittest.TestCase):
+    """Price-surge guard: a >5x relative change must be treated as a parsing error
+    and skipped, never silently written."""
+
+    def _mk(self):
+        return {"provider_id": "test-prov", "models": [{"id": "m1", "pricing": {"per_mtok": {"input": 0.5, "output": 1.0}}}]}
+
+    def test_normal_change_applies(self):
+        from unittest import mock
+        from toolbox import update_model_prices
+        p = self._mk()
+        with mock.patch("toolbox.save_provider"):
+            changes = update_model_prices(p, {"m1": {"per_mtok": {"input": 0.55}}}, "2026-08-28T00:00:00Z", "test")
+        self.assertEqual(p["models"][0]["pricing"]["per_mtok"]["input"], 0.55)
+        self.assertTrue(changes)
+
+    def test_surge_skipped(self):
+        from unittest import mock
+        from toolbox import update_model_prices
+        p = self._mk()
+        with mock.patch("toolbox.save_provider"):
+            changes = update_model_prices(p, {"m1": {"per_mtok": {"input": 5.0}}}, "2026-08-28T00:00:00Z", "test")
+        self.assertEqual(p["models"][0]["pricing"]["per_mtok"]["input"], 0.5,
+                         ">5x surge must be skipped, not written")
+        self.assertFalse(changes)
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -10,6 +10,7 @@ Policy:
 Usage: python scripts/sync_modelsdev.py [--write] [--force]
 """
 import argparse
+import json
 import os
 import re
 import sys
@@ -55,6 +56,14 @@ def infer_category(mid, m):
 def build_model(mid, m):
     cost = m.get("cost") or {}
     limit = m.get("limit") or {}
+    token_vals = [cost.get("input"), cost.get("output"), cost.get("cache_read")]
+    has_token_price = any(v is not None and v != 0 for v in token_vals)
+    if has_token_price:
+        billing = ["pay_per_token"]
+    elif any(v == 0 for v in token_vals if v is not None):
+        billing = ["free"]
+    else:
+        billing = ["unknown"]
     return {
         "id": mid,
         "name": m.get("name", mid),
@@ -62,6 +71,7 @@ def build_model(mid, m):
         "modalities": ["text"],
         "context_window": limit.get("context") or None,
         "max_output": limit.get("output") or None,
+        "billing_model": billing,
         "pricing": {
             "per_mtok": {
                 "input": cost.get("input"),
@@ -71,8 +81,7 @@ def build_model(mid, m):
             },
             "batch": None,
             "per_image": None,
-            "per_audio_second": None,
-            "per_request": None,
+            "promo": None,
         },
         "notes": "models.dev official list price",
     }
@@ -129,7 +138,7 @@ def main():
     for pid in written:
         if pid in existing_ids:
             continue
-        p = __import__("json").load(open(os.path.join(PROVIDERS, f"{pid}.json"), encoding="utf-8"))
+        p = json.load(open(os.path.join(PROVIDERS, f"{pid}.json"), encoding="utf-8"))
         index["providers"].append({
             "id": pid, "name": p["name"], "channel": p["channel"],
             "model_count": len(p["models"]), "file": f"providers/{pid}.json", "updated_at": now,

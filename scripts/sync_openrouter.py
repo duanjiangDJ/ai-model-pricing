@@ -31,6 +31,20 @@ def map_modalities(m):
 
 def build_model(entry):
     p = entry.get("pricing") or {}
+    token_vals = [p.get("prompt"), p.get("completion"),
+                  p.get("input_cache_read"), p.get("input_cache_write")]
+    img = to_float_or_none(p.get("image"))
+    has_token_price = any(v is not None and v != 0 for v in token_vals)
+    if img is not None and has_token_price:
+        billing = ["pay_per_image", "pay_per_token"]
+    elif img is not None:
+        billing = ["pay_per_image"]
+    elif has_token_price:
+        billing = ["pay_per_token"]
+    elif entry["id"].lower().endswith(":free") or all(v == 0 for v in token_vals if v is not None):
+        billing = ["free"]
+    else:
+        billing = ["unknown"]
     pricing = {
         "per_mtok": {
             "input": to_float_or_none(p.get("prompt")),
@@ -38,12 +52,9 @@ def build_model(entry):
             "cache_read": to_float_or_none(p.get("input_cache_read")),
             "cache_write": to_float_or_none(p.get("input_cache_write")),
         },
-        "per_image": None,
-        "per_request": to_float_or_none(p.get("request")),
+        "per_image": [{"name": "default", "price": img}] if img is not None else None,
+        "promo": None,
     }
-    img = to_float_or_none(p.get("image"))
-    if img is not None:
-        pricing["per_image"] = [{"name": "default", "price": img}]
     arch = entry.get("architecture") or {}
     tp = entry.get("top_provider")
     if isinstance(tp, dict):
@@ -55,6 +66,7 @@ def build_model(entry):
         "modalities": map_modalities(arch.get("input_modalities")),
         "context_window": entry.get("context_length") or None,
         "max_output": None,
+        "billing_model": billing,
         "pricing": pricing,
         "notes": f"OpenRouter reseller price; top provider: {tp}" if tp else "OpenRouter reseller price",
     }

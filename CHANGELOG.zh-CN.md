@@ -16,6 +16,15 @@
 
 ---
 
+## 26.5.11 — 2026-08-27T17:38Z（功能更新）
+
+- **fix(回归, HIGH)**：`sync_openrouter.py` / `sync_modelsdev.py` 未生成新增必填字段 `billing_model`——下次每日自动同步会**清空所有 OpenRouter/models.dev 模型的 billing_model** 并触发 audit「missing billing_model」失败，导致自动合并 workflow 挂掉。两个 `build_model` 现已正确分类计费方式（pay_per_token / pay_per_image / free / unknown），且不再写入已删除的 `per_request`/`per_audio_second` 字段。已实测真实同步：417 个 OpenRouter 模型全部正确标注（388 按量、29 按图+按量）。
+- **fix(stats)**："By channel" 模型数恒为 0（`chan_m` 声明后从未填充）；README/中文统计现已显示真实数量（如 Inference host 4,316 / Subscription 173 / Aggregator 2,222）。
+- **fix(audit)**：235 条逐模型的「pay_per_token 但 per_mtok 全 null」警告聚合为每 provider 一行（这些是按量转售模型、价格未公开）；audit 警告 248 → 14。
+- **feat(ui)**：view 页面对有 `promo` 的模型标记 🔥 promo（en）/ 🔥 促销（zh-CN）；Z.ai GLM-5.3-Flash 已显示徽标。
+- **feat(tests)**：新增 2 个突变护栏测试（正常变更生效、>5x 突变跳过，mock 保存）；测试套件现共 7 个。
+- **refactor(schema)**：`providerFile` 简化为 `$defs.provider` 的纯 `$ref`。
+
 ## 26.5.10 — 2026-08-27T17:16Z（功能更新）
 
 - **feat(billing_model)**：每个模型新增必填 `billing_model` 数组（pay_per_token / pay_per_image / subscription_included / credits / free / unknown）——用机器可读字段直接回答"这模型怎么收费"，不再靠 null/0/notes 推断。全库 7,239 个模型经 `scripts/annotate_billing.py` 标注（6467 按量、384 免费、114 订阅包含、55 免费+按量混合、219 未知待人工——这些在 models.dev 无价，如实标记）。支持多收费方式（如 Gemini 免费额度+付费）。
