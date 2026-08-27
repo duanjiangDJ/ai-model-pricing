@@ -68,9 +68,14 @@ jobs:
                 BRANCH="bot/price-sync-$(date -u +%Y%m%dT%H%M)"
                 git checkout -b "$BRANCH"
                 git push -u origin "$BRANCH" 2>/dev/null || git push -u origin "$BRANCH" --force
-                gh issue create --title "⚠️ 价格同步未能合并到 main（PAT 被分支保护拒绝）" \
-                  --body "价格同步数据已推送到分支 $BRANCH，但 GH_PAT 推送 main 被分支保护拒绝（GH006）。原因：Fine-grained PAT 无法绕过分支保护。请改用 Tokens (classic) 重新生成（勾选 repo scope），并在 Settings → Secrets and variables → Actions 更新 GH_PAT secret。" \
-                  --label "bot" 2>/dev/null || true
+                EXISTING_ISSUE=$(gh issue list --search "价格同步" --state open --json number -q '.[0].number' 2>/dev/null || true)
+                if [ -n "$EXISTING_ISSUE" ]; then
+                  echo "Alert issue #$EXISTING_ISSUE already open; skipping."
+                else
+                  gh issue create --title "⚠️ 价格同步未能合并到 main（PAT 被分支保护拒绝）" \
+                    --body "价格同步数据已推送到分支 $BRANCH，但 GH_PAT 推送 main 被分支保护拒绝（GH006）。原因：Fine-grained PAT 无法绕过分支保护。请改用 Tokens (classic) 重新生成（勾选 repo scope），并在 Settings → Secrets and variables → Actions 更新 GH_PAT secret。" \
+                    --label "bot" 2>/dev/null || true
+                fi
                 exit 1
               fi
             else
@@ -90,13 +95,18 @@ jobs:
                   echo "Created PR: $PR_URL"
                 else
                   echo "::error::PR creation failed. Branch $BRANCH was pushed but main is NOT updated. Add a GH_PAT secret (repo admin) to enable auto-merge, or enable 'Allow GitHub Actions to create and approve pull requests' in Settings -> Actions -> General."
-                  gh issue create --title "⚠️ 价格同步 PR 创建失败（main 未更新）" \
-                    --body "本次价格同步检测到数据变化并已推送到分支 \`$BRANCH\`，但 GitHub Actions 没有权限创建 PR（仓库未开启 'Allow GitHub Actions to create and approve pull requests'，且未配置 \`GH_PAT\` secret），因此 **main 未更新**。
-                    
-                    修复方式（任选其一）：
-                    1. 在仓库 Settings → Secrets and variables → Actions 添加 \`GH_PAT\`（仓库 admin 权限的 Personal Access Token）→ 之后自动合并到 main；
-                    2. 或 Settings → Actions → General → 勾选 *Allow GitHub Actions to create and approve pull requests* → 之后会改为创建 PR 等待合并。"
-                    --label "bot" 2>/dev/null || true
+                  EXISTING_ISSUE=$(gh issue list --search "价格同步" --state open --json number -q '.[0].number' 2>/dev/null || true)
+                  if [ -n "$EXISTING_ISSUE" ]; then
+                    echo "Alert issue #$EXISTING_ISSUE already open; skipping."
+                  else
+                    gh issue create --title "⚠️ 价格同步 PR 创建失败（main 未更新）" \
+                      --body "本次价格同步检测到数据变化并已推送到分支 \`$BRANCH\`，但 GitHub Actions 没有权限创建 PR（仓库未开启 'Allow GitHub Actions to create and approve pull requests'，且未配置 \`GH_PAT\` secret），因此 **main 未更新**。
+                      
+                      修复方式（任选其一）：
+                      1. 在仓库 Settings → Secrets and variables → Actions 添加 \`GH_PAT\`（仓库 admin 权限的 Personal Access Token）→ 之后自动合并到 main；
+                      2. 或 Settings → Actions → General → 勾选 *Allow GitHub Actions to create and approve pull requests* → 之后会改为创建 PR 等待合并。"
+                      --label "bot" 2>/dev/null || true
+                  fi
                   exit 1
                 fi
               fi
