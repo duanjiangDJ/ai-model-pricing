@@ -10,6 +10,7 @@ Policy:
 Usage: python scripts/sync_modelsdev.py [--write] [--force]
 """
 import argparse
+import json
 import os
 import re
 import sys
@@ -137,7 +138,7 @@ def main():
     for pid in written:
         if pid in existing_ids:
             continue
-        p = __import__("json").load(open(os.path.join(PROVIDERS, f"{pid}.json"), encoding="utf-8"))
+        p = json.load(open(os.path.join(PROVIDERS, f"{pid}.json"), encoding="utf-8"))
         index["providers"].append({
             "id": pid, "name": p["name"], "channel": p["channel"],
             "model_count": len(p["models"]), "file": f"providers/{pid}.json", "updated_at": now,
