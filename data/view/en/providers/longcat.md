@@ -6,11 +6,11 @@
 - Homepage: https://longcat.chat/platform/docs/
 - Pricing page: https://longcat.chat/platform/docs/
 - Currency: USD
-- Data updated: 2026-08-27T00:36:47Z
+- Data updated: 2026-08-27T17:11:11Z
 - Verified: 2026-08-27T00:36:47Z
 
 **1** models in total.
 
-| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| `LongCat-2.0` | — | reasoning | 1M | $0.75 | $2.95 | $0.015 | — | —/— | — | models.dev official list price |
+| Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| `LongCat-2.0` | — | reasoning | per-token | 1M | $0.75 | $2.95 | $0.015 | — | —/— | — | models.dev official list price |

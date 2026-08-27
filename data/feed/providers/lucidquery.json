@@ -7,7 +7,7 @@
   "homepage": "https://lucidquery.com/docs",
   "pricing_page": "https://lucidquery.com/docs",
   "currency": "USD",
-  "updated_at": "2026-08-27T00:36:47Z",
+  "updated_at": "2026-08-27T17:11:11Z",
   "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
@@ -31,7 +31,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "lucidquery-agi-01-frontier",
@@ -54,7 +57,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "lucidquery-agi-01-swift",
@@ -77,7 +83,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "lucidquery-nexus-coder",
@@ -100,7 +109,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     }
   ],
   "api_base_url": "https://api.lucidquery.com/v1"

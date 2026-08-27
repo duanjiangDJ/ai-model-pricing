@@ -7,7 +7,7 @@
   "homepage": "https://www.alibabacloud.com/help/en/model-studio/models",
   "pricing_page": "https://www.alibabacloud.com/help/en/model-studio/models",
   "currency": "USD",
-  "updated_at": "2026-08-27T00:36:48Z",
+  "updated_at": "2026-08-27T17:11:11Z",
   "verified_at": "2026-08-27T00:36:48Z",
   "models": [
     {
@@ -31,7 +31,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "glm-5.2",
@@ -54,7 +57,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qvq-max",
@@ -77,7 +83,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen-flash",
@@ -100,7 +109,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen-max",
@@ -123,7 +135,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen-mt-plus",
@@ -146,7 +161,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen-mt-turbo",
@@ -169,7 +187,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen-omni-turbo",
@@ -192,7 +213,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen-omni-turbo-realtime",
@@ -215,7 +239,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen-plus",
@@ -238,7 +265,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen-plus-character-ja",
@@ -261,7 +291,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen-turbo",
@@ -284,7 +317,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen-vl-max",
@@ -307,7 +343,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen-vl-ocr",
@@ -330,7 +369,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba."
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen-vl-plus",
@@ -353,7 +395,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen2-5-14b-instruct",
@@ -376,7 +421,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen2-5-32b-instruct",
@@ -399,7 +447,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen2-5-72b-instruct",
@@ -422,7 +473,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen2-5-7b-instruct",
@@ -445,7 +499,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen2-5-omni-7b",
@@ -468,7 +525,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen2-5-vl-72b-instruct",
@@ -491,7 +551,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen2-5-vl-7b-instruct",
@@ -514,7 +577,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3-14b",
@@ -537,7 +603,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3-235b-a22b",
@@ -560,7 +629,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3-32b",
@@ -583,7 +655,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba."
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3-8b",
@@ -606,7 +681,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3-asr-flash",
@@ -629,7 +707,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3-coder-30b-a3b-instruct",
@@ -652,7 +733,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3-coder-480b-a35b-instruct",
@@ -675,7 +759,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3-coder-flash",
@@ -698,7 +785,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3-coder-plus",
@@ -721,7 +811,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3-livetranslate-flash-realtime",
@@ -744,7 +837,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3-max",
@@ -767,7 +863,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3-next-80b-a3b-instruct",
@@ -790,7 +889,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba."
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3-next-80b-a3b-thinking",
@@ -813,7 +915,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba."
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3-omni-flash",
@@ -836,7 +941,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3-omni-flash-realtime",
@@ -859,7 +967,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3-vl-235b-a22b",
@@ -882,7 +993,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3-vl-30b-a3b",
@@ -905,7 +1019,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3-vl-plus",
@@ -928,7 +1045,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3.5-122b-a10b",
@@ -951,7 +1071,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3.5-27b",
@@ -974,7 +1097,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3.5-35b-a3b",
@@ -997,7 +1123,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3.5-397b-a17b",
@@ -1020,7 +1149,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3.5-plus",
@@ -1043,7 +1175,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3.6-27b",
@@ -1066,7 +1201,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3.6-35b-a3b",
@@ -1089,7 +1227,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba."
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3.6-flash",
@@ -1112,7 +1253,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba."
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3.6-max-preview",
@@ -1135,7 +1279,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3.6-plus",
@@ -1158,7 +1305,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3.7-max",
@@ -1181,7 +1331,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3.7-plus",
@@ -1204,7 +1357,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba."
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3.8-max",
@@ -1227,7 +1383,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwq-plus",
@@ -1250,7 +1409,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     }
   ],
   "api_base_url": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1"

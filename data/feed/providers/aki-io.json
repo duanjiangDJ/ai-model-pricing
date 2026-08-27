@@ -7,7 +7,7 @@
   "homepage": "https://aki.io/docs/",
   "pricing_page": "https://aki.io/docs/",
   "currency": "USD",
-  "updated_at": "2026-08-27T00:36:47Z",
+  "updated_at": "2026-08-27T17:11:11Z",
   "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
@@ -31,7 +31,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemma4-26b",
@@ -54,7 +57,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-oss-120b",
@@ -77,7 +83,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "kimi-k2.7-code-1100b",
@@ -100,7 +109,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "minimax-m2.5-230b",
@@ -123,7 +135,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "mistral4-119b",
@@ -146,7 +161,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3.6-35b",
@@ -169,7 +187,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3.8-27b",
@@ -192,7 +213,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     }
   ],
   "api_base_url": "https://aki.io/v1"

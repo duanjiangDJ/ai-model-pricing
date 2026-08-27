@@ -7,7 +7,7 @@
   "homepage": "https://api-docs.deepseek.com/quick_start/pricing",
   "pricing_page": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
   "currency": "USD",
-  "updated_at": "2026-08-27T15:37:35.738047Z",
+  "updated_at": "2026-08-27T17:11:11Z",
   "verified_at": "2026-08-27T15:37:35.738047Z",
   "models": [
     {
@@ -32,7 +32,10 @@
         "per_request": null
       },
       "notes": "Legacy model (V3.2 era), superseded by deepseek-v4-flash; old prices $0.28/$0.42 no longer apply to current official models on sale; entry kept for historical reference only. SUPERSEDED by deepseek-v4 series; historical entry only.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "deepseek-reasoner",
@@ -56,7 +59,10 @@
         "per_request": null
       },
       "notes": "Legacy model (R1 era), superseded by deepseek-v4-flash/pro thinking mode; old prices $0.55/$2.19 no longer apply to current official models on sale; entry kept for historical reference only. SUPERSEDED by deepseek-v4 series; historical entry only.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "deepseek-v4-flash",
@@ -79,7 +85,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00/06:00-10:00 UTC). Corrected from CNY to official USD EN pricing on 2026-08-27."
+      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00/06:00-10:00 UTC). Corrected from CNY to official USD EN pricing on 2026-08-27.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "deepseek-v4-flash-vision-exp",
@@ -100,7 +109,10 @@
         "per_request": null
       },
       "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00/06:00-10:00 UTC). Corrected from CNY to official USD EN pricing on 2026-08-27.",
-      "status": "online"
+      "status": "online",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "deepseek-v4-pro",
@@ -123,7 +135,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00/06:00-10:00 UTC). Corrected from CNY to official USD EN pricing on 2026-08-27."
+      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00/06:00-10:00 UTC). Corrected from CNY to official USD EN pricing on 2026-08-27.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     }
   ],
   "api_base_url": "https://api.deepseek.com"

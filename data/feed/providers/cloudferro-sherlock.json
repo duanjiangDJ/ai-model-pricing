@@ -7,7 +7,7 @@
   "homepage": "https://docs.sherlock.cloudferro.com/",
   "pricing_page": "https://docs.sherlock.cloudferro.com/",
   "currency": "USD",
-  "updated_at": "2026-08-27T00:36:47Z",
+  "updated_at": "2026-08-27T17:11:11Z",
   "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
@@ -31,7 +31,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "meta-llama/Llama-3.3-70B-Instruct",
@@ -54,7 +57,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-oss-120b",
@@ -77,7 +83,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "speakleash/Bielik-11B-v2.6-Instruct",
@@ -100,7 +109,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "speakleash/Bielik-11B-v3.0-Instruct",
@@ -123,7 +135,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     }
   ],
   "api_base_url": "https://api-sherlock.cloudferro.com/openai/v1/"

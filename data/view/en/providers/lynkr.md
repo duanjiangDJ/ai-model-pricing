@@ -6,11 +6,11 @@
 - Homepage: https://github.com/Fast-Editor/Lynkr
 - Pricing page: https://github.com/Fast-Editor/Lynkr
 - Currency: USD
-- Data updated: 2026-08-27T00:36:47Z
+- Data updated: 2026-08-27T17:11:11Z
 - Verified: 2026-08-27T00:36:47Z
 
 **1** models in total.
 
-| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| `lynkr-auto` | — | chat | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| `lynkr-auto` | — | chat | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

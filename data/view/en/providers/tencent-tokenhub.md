@@ -6,12 +6,12 @@
 - Homepage: https://cloud.tencent.com/document/product/1823/130050
 - Pricing page: https://cloud.tencent.com/document/product/1823/130050
 - Currency: USD
-- Data updated: 2026-08-27T00:36:47Z
+- Data updated: 2026-08-27T17:11:11Z
 - Verified: 2026-08-27T00:36:47Z
 
 **2** models in total.
 
-| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| `hy3` | — | reasoning | 256K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `hy3-preview` | — | reasoning | 256K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| `hy3` | — | reasoning | free | 256K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `hy3-preview` | — | reasoning | free | 256K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

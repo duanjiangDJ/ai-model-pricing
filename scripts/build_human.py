@@ -17,6 +17,7 @@ CHANNEL_LABEL = {
     "hosted": "Inference host",
     "aggregator": "Aggregator",
     "reseller": "Reseller",
+    "subscription": "Subscription",
 }
 CHANNEL_LABEL_ZH = {
     "first_party": "官方直供",
@@ -24,6 +25,7 @@ CHANNEL_LABEL_ZH = {
     "hosted": "推理托管",
     "aggregator": "聚合站",
     "reseller": "中转站",
+    "subscription": "订阅制",
 }
 
 L10N = {
@@ -41,6 +43,7 @@ L10N = {
         "model": "Model",
         "status": "Status",
         "category": "Category",
+        "billing": "Billing",
         "context": "Context",
         "input": "Input $/MTok",
         "output": "Output $/MTok",
@@ -89,6 +92,7 @@ L10N = {
         "model": "模型",
         "status": "状态",
         "category": "类别",
+        "billing": "收费方式",
         "context": "上下文",
         "input": "输入 $/MTok",
         "output": "输出 $/MTok",
@@ -135,6 +139,23 @@ STATUS_LABEL_ZH = {
     "offline": "❌ 下线",
 }
 
+BILLING_LABEL = {
+    "pay_per_token": "per-token",
+    "pay_per_image": "per-image",
+    "subscription_included": "sub-included",
+    "credits": "credits",
+    "free": "free",
+    "unknown": "?",
+}
+BILLING_LABEL_ZH = {
+    "pay_per_token": "按量",
+    "pay_per_image": "按图",
+    "subscription_included": "订阅包含",
+    "credits": "积分",
+    "free": "免费",
+    "unknown": "未知",
+}
+
 
 def fmt(v, currency="USD", suffix=""):
     if v is None:
@@ -158,6 +179,7 @@ def build_provider_md(provider, lang, channel_labels):
     t = L10N[lang]
     cur = provider.get("currency", "USD")
     status_label = STATUS_LABEL if lang == "en" else STATUS_LABEL_ZH
+    billing_label = BILLING_LABEL if lang == "en" else BILLING_LABEL_ZH
     api = provider.get("api_base_url")
     lines = [
         f"# {provider['name']}",
@@ -173,8 +195,8 @@ def build_provider_md(provider, lang, channel_labels):
         "",
         t["models_count"].format(len(provider["models"])),
         "",
-        f"| {t['model']} | {t['status']} | {t['category']} | {t['context']} | {t['input']} | {t['output']} | {t['cache_read']} | {t['cache_write']} | {t['batch']} | {t['other']} | {t['notes']} |",
-        "|---|---|---|---|---|---|---|---|---|---|---|",
+        f"| {t['model']} | {t['status']} | {t['category']} | {t['billing']} | {t['context']} | {t['input']} | {t['output']} | {t['cache_read']} | {t['cache_write']} | {t['batch']} | {t['other']} | {t['notes']} |",
+        "|---|---|---|---|---|---|---|---|---|---|---|---|",
     ]
     for m in provider["models"]:
         p = m.get("pricing") or {}
@@ -183,30 +205,20 @@ def build_provider_md(provider, lang, channel_labels):
         other = []
         if p.get("per_image"):
             other.append("per-image")
-        if p.get("per_request"):
-            other.append(f"per-request ${p['per_request']:g}")
-        if p.get("per_audio_second"):
-            other.append("per-audio-sec")
-        if p.get("credits"):
-            other.append(f"credits({p['credits'].get('unit_name', 'credits')})")
-        if p.get("gpu"):
-            other.append("GPU-based")
-        if p.get("finetune"):
-            other.append("finetune")
-        if p.get("neuron_second"):
-            other.append("neuron-sec")
         st = status_label.get(m.get("status"), "")
         note_low = (m.get("notes") or "").lower()
         if any(k in note_low for k in ("peak/off-peak", "峰谷", "高峰", "off-peak", "peak tier")):
             other.append("⚡ peak/off-peak" if lang == "en" else "⚡ 峰谷双档")
+        billing = " + ".join(billing_label.get(b, b) for b in (m.get("billing_model") or ["unknown"]))
         notes_disp = (m.get("notes") or "").replace("|", "\\|")
         if len(notes_disp) > 80:
             notes_disp = notes_disp[:77] + "…"
         lines.append(
-            "| {} | {} | {} | {} | {} | {} | {} | {} | {} | {} | {} |".format(
+            "| {} | {} | {} | {} | {} | {} | {} | {} | {} | {} | {} | {} |".format(
                 f"`{m['id']}`",
                 st or "—",
                 m.get("category", "—"),
+                billing,
                 num_fmt(m.get("context_window")),
                 fmt(mt.get("input"), cur),
                 fmt(mt.get("output"), cur),

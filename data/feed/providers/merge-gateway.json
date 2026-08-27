@@ -7,7 +7,7 @@
   "homepage": "https://docs.merge.dev/merge-gateway",
   "pricing_page": "https://docs.merge.dev/merge-gateway",
   "currency": "USD",
-  "updated_at": "2026-08-27T00:36:47Z",
+  "updated_at": "2026-08-27T17:11:11Z",
   "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
@@ -31,7 +31,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "anthropic/claude-fable-5",
@@ -54,7 +57,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "anthropic/claude-haiku-4-5-20251001",
@@ -77,7 +83,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "anthropic/claude-opus-4-1-20250805",
@@ -100,7 +109,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "anthropic/claude-opus-4-20250514",
@@ -123,7 +135,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "anthropic/claude-opus-4-5-20251101",
@@ -146,7 +161,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "anthropic/claude-opus-4-6",
@@ -169,7 +187,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "anthropic/claude-opus-4-7",
@@ -192,7 +213,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "anthropic/claude-opus-4-8",
@@ -215,7 +239,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "anthropic/claude-opus-5",
@@ -238,7 +265,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "anthropic/claude-sonnet-4-20250514",
@@ -261,7 +291,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "anthropic/claude-sonnet-4-5-20250929",
@@ -284,7 +317,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "anthropic/claude-sonnet-4-6",
@@ -307,7 +343,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "anthropic/claude-sonnet-5",
@@ -330,7 +369,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "bytedance/dola-seed-2.0-code",
@@ -353,7 +395,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "bytedance/dola-seed-2.0-code-preview",
@@ -376,7 +421,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "bytedance/dola-seed-2.0-lite",
@@ -399,7 +447,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "bytedance/dola-seed-2.0-mini",
@@ -422,7 +473,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "bytedance/dola-seed-2.0-pro",
@@ -445,7 +499,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "cohere/command-a-03-2025",
@@ -468,7 +525,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "cohere/command-r-08-2024",
@@ -491,7 +551,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "cohere/command-r-plus-08-2024",
@@ -514,7 +577,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "cohere/command-r7b-12-2024",
@@ -537,7 +603,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "deepseek/deepseek-r1",
@@ -560,7 +629,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "deepseek/deepseek-v3",
@@ -583,7 +655,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "deepseek/deepseek-v3.1",
@@ -606,7 +681,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "deepseek/deepseek-v3.2",
@@ -629,7 +707,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "deepseek/deepseek-v4-flash",
@@ -652,7 +733,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "deepseek/deepseek-v4-flash-0731",
@@ -675,7 +759,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "deepseek/deepseek-v4-pro",
@@ -698,7 +785,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "deepseek/deepseek-v4-pro-0423",
@@ -721,7 +811,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "deepseek/deepseek-v4-pro-0813",
@@ -744,7 +837,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "google/gemini-2.5-computer-use-preview-10-2025",
@@ -767,7 +863,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "google/gemini-2.5-flash",
@@ -790,7 +889,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "google/gemini-2.5-flash-image",
@@ -813,7 +915,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "google/gemini-2.5-flash-lite",
@@ -836,7 +941,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "google/gemini-2.5-pro",
@@ -859,7 +967,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "google/gemini-3-flash-preview",
@@ -882,7 +993,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "google/gemini-3-pro-image",
@@ -905,7 +1019,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "google/gemini-3-pro-preview",
@@ -928,7 +1045,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "google/gemini-3.1-flash-image",
@@ -951,7 +1071,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "google/gemini-3.1-flash-lite",
@@ -974,7 +1097,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "google/gemini-3.1-flash-lite-preview",
@@ -997,7 +1123,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "google/gemini-3.1-pro-preview",
@@ -1020,7 +1149,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "google/gemini-3.1-pro-preview-customtools",
@@ -1043,7 +1175,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "google/gemini-3.5-flash",
@@ -1066,7 +1201,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "google/gemini-3.5-flash-lite",
@@ -1089,7 +1227,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "google/gemini-3.6-flash",
@@ -1112,7 +1253,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "google/gemini-3.7-flash",
@@ -1135,7 +1279,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "google/gemini-embedding-001",
@@ -1158,7 +1305,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "pay_per_token",
+        "free"
+      ]
     },
     {
       "id": "google/gemini-flash-latest",
@@ -1181,7 +1332,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "google/gemini-flash-lite-latest",
@@ -1204,7 +1358,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "google/gemma-4-26b-a4b-it",
@@ -1227,7 +1384,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "google/gemma-4-31b-it",
@@ -1250,7 +1410,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "meta/llama-3.1-8b-instruct",
@@ -1273,7 +1436,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "meta/llama-3.3-70b-instruct",
@@ -1296,7 +1462,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "meta/muse-spark-1.1",
@@ -1319,7 +1488,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "meta/muse-spark-1.2",
@@ -1342,7 +1514,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "minimax/minimax-m2",
@@ -1365,7 +1540,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "minimax/minimax-m2.1",
@@ -1388,7 +1566,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "minimax/minimax-m2.5",
@@ -1411,7 +1592,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "minimax/minimax-m2.5-highspeed",
@@ -1434,7 +1618,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "minimax/minimax-m2.7",
@@ -1457,7 +1644,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "minimax/minimax-m2.7-highspeed",
@@ -1480,7 +1670,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "minimax/minimax-m3",
@@ -1503,7 +1696,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "mistral/codestral-latest",
@@ -1526,7 +1722,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "mistral/devstral-2512",
@@ -1549,7 +1748,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "mistral/devstral-medium-2507",
@@ -1572,7 +1774,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "mistral/devstral-medium-latest",
@@ -1595,7 +1800,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "mistral/devstral-small-2507",
@@ -1618,7 +1826,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "mistral/magistral-medium-latest",
@@ -1641,7 +1852,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "mistral/mistral-large-2411",
@@ -1664,7 +1878,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "mistral/mistral-large-2512",
@@ -1687,7 +1904,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "mistral/mistral-large-latest",
@@ -1710,7 +1930,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "mistral/mistral-medium-2505",
@@ -1733,7 +1956,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "mistral/mistral-medium-latest",
@@ -1756,7 +1982,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "mistral/mistral-small-latest",
@@ -1779,7 +2008,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "mistral/pixtral-large-latest",
@@ -1802,7 +2034,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "moonshot/kimi-k2.5",
@@ -1825,7 +2060,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "moonshot/kimi-k2.6",
@@ -1848,7 +2086,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "moonshot/kimi-k2.7-code",
@@ -1871,7 +2112,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "moonshot/kimi-k2.7-code-highspeed",
@@ -1894,7 +2138,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "moonshot/kimi-k3",
@@ -1917,7 +2164,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "moonshotai/kimi-k2-thinking",
@@ -1940,7 +2190,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "nvidia/nemotron-3.5-lightning-30b-a3b",
@@ -1963,7 +2216,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     },
     {
       "id": "nvidia/nemotron-nano-9b-v2",
@@ -1986,7 +2242,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-3.5-turbo",
@@ -2009,7 +2268,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-4",
@@ -2032,7 +2294,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-4-turbo",
@@ -2055,7 +2320,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-4.1",
@@ -2078,7 +2346,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-4.1-mini",
@@ -2101,7 +2372,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-4.1-nano",
@@ -2124,7 +2398,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-4o",
@@ -2147,7 +2424,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-4o-2024-05-13",
@@ -2170,7 +2450,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-4o-2024-08-06",
@@ -2193,7 +2476,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-4o-2024-11-20",
@@ -2216,7 +2502,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-4o-mini",
@@ -2239,7 +2528,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-5",
@@ -2262,7 +2554,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-5-chat-latest",
@@ -2285,7 +2580,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-5-mini",
@@ -2308,7 +2606,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-5-nano",
@@ -2331,7 +2632,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-5.1",
@@ -2354,7 +2658,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-5.1-chat-latest",
@@ -2377,7 +2684,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-5.2",
@@ -2400,7 +2710,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-5.2-chat-latest",
@@ -2423,7 +2736,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-5.3-chat-latest",
@@ -2446,7 +2762,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-5.4",
@@ -2469,7 +2788,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-5.4-mini",
@@ -2492,7 +2814,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-5.4-nano",
@@ -2515,7 +2840,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-5.5",
@@ -2538,7 +2866,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-5.6-luna",
@@ -2561,7 +2892,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-5.6-sol",
@@ -2584,7 +2918,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-5.6-terra",
@@ -2607,7 +2944,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-oss-120b",
@@ -2630,7 +2970,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-oss-20b",
@@ -2653,7 +2996,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/gpt-oss-safeguard-120b",
@@ -2676,7 +3022,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/o1",
@@ -2699,7 +3048,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/o3",
@@ -2722,7 +3074,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/o3-mini",
@@ -2745,7 +3100,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "openai/o4-mini",
@@ -2768,7 +3126,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen-flash",
@@ -2791,7 +3152,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen-plus",
@@ -2814,7 +3178,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3-235b-a22b",
@@ -2837,7 +3204,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3-235b-a22b-instruct-2507",
@@ -2860,7 +3230,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3-30b-a3b",
@@ -2883,7 +3256,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3-32b",
@@ -2906,7 +3282,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3-coder-480b-a35b-instruct",
@@ -2929,7 +3308,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3-coder-flash",
@@ -2952,7 +3334,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3-coder-next",
@@ -2975,7 +3360,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3-coder-plus",
@@ -2998,7 +3386,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3-max",
@@ -3021,7 +3412,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3-next-80b-a3b-instruct",
@@ -3044,7 +3438,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3-next-80b-a3b-thinking",
@@ -3067,7 +3464,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3-vl-235b-a22b-instruct",
@@ -3090,7 +3490,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3-vl-235b-a22b-thinking",
@@ -3113,7 +3516,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3-vl-plus",
@@ -3136,7 +3542,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3.5-122b-a10b",
@@ -3159,7 +3568,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3.5-27b",
@@ -3182,7 +3594,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3.5-35b-a3b",
@@ -3205,7 +3620,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3.5-397b-a17b",
@@ -3228,7 +3646,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3.5-9b",
@@ -3251,7 +3672,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3.5-flash",
@@ -3274,7 +3698,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3.5-plus",
@@ -3297,7 +3724,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3.6-27b",
@@ -3320,7 +3750,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3.6-35b-a3b",
@@ -3343,7 +3776,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3.6-flash",
@@ -3366,7 +3802,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3.6-max-preview",
@@ -3389,7 +3828,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3.6-plus",
@@ -3412,7 +3854,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3.7-max",
@@ -3435,7 +3880,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3.7-plus",
@@ -3458,7 +3906,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3.8-2.4t-a95b",
@@ -3481,7 +3932,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen/qwen3.8-max",
@@ -3504,7 +3958,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "sakana/fugu-ultra",
@@ -3527,7 +3984,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "sakana/sakana-namazu",
@@ -3550,7 +4010,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "thinkingmachines/inkling",
@@ -3573,7 +4036,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "writer/palmyra-x4",
@@ -3596,7 +4062,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "writer/palmyra-x5",
@@ -3619,7 +4088,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "xai/grok-4.20-0309-non-reasoning",
@@ -3642,7 +4114,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "xai/grok-4.20-0309-reasoning",
@@ -3665,7 +4140,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "xai/grok-4.3",
@@ -3688,7 +4166,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "xai/grok-4.5",
@@ -3711,7 +4192,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "xai/grok-4.6",
@@ -3734,7 +4218,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "xai/grok-build-0.1",
@@ -3757,7 +4244,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "zai/glm-4.5",
@@ -3780,7 +4270,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "zai/glm-4.5-air",
@@ -3803,7 +4296,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "zai/glm-4.5v",
@@ -3826,7 +4322,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "zai/glm-4.6",
@@ -3849,7 +4348,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "zai/glm-4.7",
@@ -3872,7 +4374,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "zai/glm-4.7-flash",
@@ -3895,7 +4400,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "zai/glm-4.7-flashx",
@@ -3918,7 +4426,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "zai/glm-5",
@@ -3941,7 +4452,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "zai/glm-5-turbo",
@@ -3964,7 +4478,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "zai/glm-5.1",
@@ -3987,7 +4504,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "zai/glm-5.2",
@@ -4010,7 +4530,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "zai/glm-5.3",
@@ -4033,7 +4556,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "zai/glm-5.3-flash",
@@ -4056,7 +4582,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     }
   ],
   "api_base_url": "https://api-gateway.merge.dev/v1/ai-sdk"

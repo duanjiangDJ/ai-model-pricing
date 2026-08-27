@@ -7,7 +7,7 @@
   "homepage": "https://modelscope.cn/docs/model-service/API-Inference/intro",
   "pricing_page": "https://modelscope.cn/docs/model-service/API-Inference/intro",
   "currency": "USD",
-  "updated_at": "2026-08-27T00:36:47Z",
+  "updated_at": "2026-08-27T17:11:11Z",
   "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
@@ -31,7 +31,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     },
     {
       "id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
@@ -54,7 +57,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     },
     {
       "id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
@@ -77,7 +83,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     },
     {
       "id": "Qwen/Qwen3-30B-A3B-Thinking-2507",
@@ -100,7 +109,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     },
     {
       "id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
@@ -123,7 +135,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     },
     {
       "id": "ZhipuAI/GLM-4.5",
@@ -146,7 +161,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     },
     {
       "id": "ZhipuAI/GLM-4.6",
@@ -169,7 +187,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     }
   ],
   "api_base_url": "https://api-inference.modelscope.cn/v1"

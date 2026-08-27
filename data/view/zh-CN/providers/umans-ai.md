@@ -6,18 +6,18 @@
 - 官网: https://app.umans.ai/offers/code/docs/orgs
 - 定价页: https://app.umans.ai/offers/code/docs/orgs
 - 币种: USD
-- 数据更新时间: 2026-08-27T00:36:47Z
+- 数据更新时间: 2026-08-27T17:11:11Z
 - 核实时间: 2026-08-27T00:36:47Z
 
 共 **8** 个模型。
 
-| 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
-|---|---|---|---|---|---|---|---|---|---|---|
-| `umans-coder` | — | reasoning | 262.144K | $0.95 | $4 | $0.19 | — | —/— | — | models.dev official list price |
-| `umans-deepseek-v4-flash-0731` | — | reasoning | 1.04858M | $0.14 | $0.28 | $0.028 | — | —/— | — | models.dev official list price |
-| `umans-deepseek-v4-pro-0813` | — | reasoning | 1.04858M | $1.32 | $3.96 | $0.044 | — | —/— | — | models.dev official list price |
-| `umans-flash` | — | reasoning | 262.144K | $0.15 | $1 | $0.05 | — | —/— | — | models.dev official list price |
-| `umans-glm-5.2` | — | reasoning | 405.504K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
-| `umans-kimi-k2.7` | — | reasoning | 262.144K | $0.95 | $4 | $0.19 | — | —/— | — | models.dev official list price |
-| `umans-kimi-k3` | — | reasoning | 1.04858M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
-| `umans-qwen3.6-35b-a3b` | — | reasoning | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| `umans-coder` | — | reasoning | 按量 | 262.144K | $0.95 | $4 | $0.19 | — | —/— | — | models.dev official list price |
+| `umans-deepseek-v4-flash-0731` | — | reasoning | 按量 | 1.04858M | $0.14 | $0.28 | $0.028 | — | —/— | — | models.dev official list price |
+| `umans-deepseek-v4-pro-0813` | — | reasoning | 按量 | 1.04858M | $1.32 | $3.96 | $0.044 | — | —/— | — | models.dev official list price |
+| `umans-flash` | — | reasoning | 按量 | 262.144K | $0.15 | $1 | $0.05 | — | —/— | — | models.dev official list price |
+| `umans-glm-5.2` | — | reasoning | 按量 | 405.504K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `umans-kimi-k2.7` | — | reasoning | 按量 | 262.144K | $0.95 | $4 | $0.19 | — | —/— | — | models.dev official list price |
+| `umans-kimi-k3` | — | reasoning | 按量 | 1.04858M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
+| `umans-qwen3.6-35b-a3b` | — | reasoning | 订阅包含 | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |

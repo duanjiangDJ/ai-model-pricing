@@ -29,27 +29,27 @@ API 按 token（输入/输出/缓存/批处理）、按图、按音频秒、按�
 
 ## 数据统计（精确值）
 
-- **供应商数**：185
-- **模型数**：7132
-- **订阅计划数**：64
-- **去重后的 API 端点数**：178
-- **免费模型数**：434
+- **供应商数**：186
+- **模型数**：7239
+- **订阅计划数**：67
+- **去重后的 API 端点数**：179
+- **免费模型数**：439
 
 ### 按渠道
 
 | 渠道 | 供应商 | 模型 |
 |---|---|---|
-| 推理托管 | 146 | 0 |
+| 推理托管 | 138 | 0 |
+| 订阅产品 | 18 | 0 |
 | 官方直供 | 16 | 0 |
 | 聚合站 | 13 | 0 |
-| 订阅产品 | 9 | 0 |
 | 云平台托管 | 1 | 0 |
 
 ### 按地区
 
 | 地区 | 供应商 |
 |---|---|
-| Global | 174 |
+| Global | 175 |
 | US | 8 |
 | China | 3 |
 
@@ -58,25 +58,25 @@ API 按 token（输入/输出/缓存/批处理）、按图、按音频秒、按�
 | 状态 | 模型数 |
 |---|---|
 | offline | 43 |
-| online | 5 |
-| （未标注） | 7084 |
+| online | 11 |
+| （未标注） | 7185 |
 
 ### 模型数 Top 15 供应商
 
 | 供应商 | 模型数 |
 |---|---|
-| NanoGPT（`nano-gpt`） | 599 |
-| DevPass (LLM Gateway)（`llmgateway`） | 556 |
-| OpenRouter（`openrouter`） | 421 |
-| Kilo Gateway（`kilo`） | 367 |
-| Vercel AI Gateway（`vercel`） | 351 |
-| Eden AI（`edenai`） | 234 |
-| Merge Gateway（`merge-gateway`） | 175 |
+| NanoGPT（`nano-gpt`） | 617 |
+| DevPass (LLM Gateway)（`llmgateway`） | 557 |
+| OpenRouter（`openrouter`） | 417 |
+| Kilo Gateway（`kilo`） | 373 |
+| Vercel AI Gateway（`vercel`） | 361 |
+| Eden AI（`edenai`） | 237 |
+| Merge Gateway（`merge-gateway`） | 176 |
 | Requesty（`requesty`） | 139 |
 | Poe（`poe`） | 137 |
 | ZenMux（`zenmux`） | 120 |
 | Amazon Web Services（`aws`） | 120 |
-| Ofox（`ofox`） | 110 |
+| Ofox（`ofox`） | 111 |
 | Cortecs（`cortecs`） | 108 |
 | Abacus（`abacus`） | 108 |
 | NovitaAI（`novita-ai`） | 107 |
@@ -86,6 +86,7 @@ API 按 token（输入/输出/缓存/批处理）、按图、按音频秒、按�
 | 币种 | 供应商 |
 |---|---|
 | USD | 185 |
+| CNY | 1 |
 
 <!-- STATS:END -->
 

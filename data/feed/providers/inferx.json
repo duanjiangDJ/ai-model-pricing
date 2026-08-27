@@ -7,7 +7,7 @@
   "homepage": "https://model.inferx.net/endpoints",
   "pricing_page": "https://model.inferx.net/endpoints",
   "currency": "USD",
-  "updated_at": "2026-08-27T00:36:47Z",
+  "updated_at": "2026-08-27T17:11:11Z",
   "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
@@ -31,7 +31,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     },
     {
       "id": "Devstral-2-123B-Instruct-2512-int4-AutoRound",
@@ -54,7 +57,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     },
     {
       "id": "Ornith-1.0-35B-FP8",
@@ -77,7 +83,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     },
     {
       "id": "Qwen3-Coder-Next-FP8",
@@ -100,7 +109,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     },
     {
       "id": "Qwen3-Coder-Next-FP8-no-thinking",
@@ -123,7 +135,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     },
     {
       "id": "Qwen3-Embedding-8B",
@@ -146,7 +161,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     },
     {
       "id": "Qwen3.6-27B-FP8",
@@ -169,7 +187,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     },
     {
       "id": "Qwen3.6-35B-A3B-FP8",
@@ -192,7 +213,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     },
     {
       "id": "Qwen3.6-35B-A3B-fp8-no-thinking",
@@ -215,7 +239,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     },
     {
       "id": "deepseek-v4-flash",
@@ -238,7 +265,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     },
     {
       "id": "gemma-4-31B-it-fp8",
@@ -261,7 +291,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     },
     {
       "id": "mimo-v25",
@@ -284,7 +317,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     }
   ],
   "api_base_url": "https://model.inferx.net/endpoints/v1"

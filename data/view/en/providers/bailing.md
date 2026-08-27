@@ -6,12 +6,12 @@
 - Homepage: https://alipaytbox.yuque.com/sxs0ba/ling/intro
 - Pricing page: https://alipaytbox.yuque.com/sxs0ba/ling/intro
 - Currency: USD
-- Data updated: 2026-08-27T00:36:47Z
+- Data updated: 2026-08-27T17:11:11Z
 - Verified: 2026-08-27T00:36:47Z
 
 **2** models in total.
 
-| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| `Ling-1T` | — | chat | 128K | $0.57 | $2.29 | — | — | —/— | — | models.dev official list price |
-| `Ring-1T` | — | reasoning | 128K | $0.57 | $2.29 | — | — | —/— | — | models.dev official list price |
+| Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| `Ling-1T` | — | chat | per-token | 128K | $0.57 | $2.29 | — | — | —/— | — | models.dev official list price |
+| `Ring-1T` | — | reasoning | per-token | 128K | $0.57 | $2.29 | — | — | —/— | — | models.dev official list price |

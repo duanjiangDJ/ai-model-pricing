@@ -1,11 +1,11 @@
 {
-  "schema_version": "26.5.9",
+  "schema_version": "26.5.10",
   "sources": [
     {
       "name": "OpenRouter API",
       "url": "https://openrouter.ai/api/v1/models",
       "auto_sync": true,
-      "last_ok": "2026-08-27T08:12:48Z",
+      "last_ok": "2026-08-27T17:14:35Z",
       "last_error": null
     },
     {
@@ -166,5 +166,5 @@
     }
   ],
   "coverage": {},
-  "last_daily_check": "2026-08-27T08:12:48Z"
+  "last_daily_check": "2026-08-27T17:14:35Z"
 }

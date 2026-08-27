@@ -1,13 +1,13 @@
 {
   "provider_id": "kuae-cloud-coding-plan",
   "name": "KUAE Cloud Coding Plan",
-  "channel": "hosted",
+  "channel": "subscription",
   "category": "inference_host",
   "region": "global",
   "homepage": "https://docs.mthreads.com/kuaecloud/kuaecloud-doc-online/coding_plan/",
   "pricing_page": "https://docs.mthreads.com/kuaecloud/kuaecloud-doc-online/coding_plan/",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-27T17:11:11Z",
   "verified_at": "2026-08-22T09:32:50Z",
   "models": [
     {
@@ -31,7 +31,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing)."
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "billing_model": [
+        "subscription_included"
+      ]
     }
   ],
   "api_base_url": "https://coding-plan-endpoint.kuaecloud.net/v1"

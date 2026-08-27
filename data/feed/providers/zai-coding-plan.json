@@ -7,7 +7,7 @@
   "homepage": "https://z.ai/subscribe",
   "pricing_page": "https://docs.z.ai/devpack/overview",
   "currency": "USD",
-  "updated_at": "2026-08-27T15:38:33.587025Z",
+  "updated_at": "2026-08-27T17:11:11Z",
   "verified_at": "2026-08-27T15:38:33.587025Z",
   "models": [
     {
@@ -31,7 +31,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Included in GLM Coding Plan (credits-based). Credit multipliers: input 2.3, cached input 0.56, output 8 (per 10k credits). Off-peak (Mon-Fri 14:00-18:00 UTC+8 excluded, weekends all day) consumes 50% credits. 3x quota of GLM-5.3."
+      "notes": "Included in GLM Coding Plan (credits-based). Credit multipliers: input 2.3, cached input 0.56, output 8 (per 10k credits). Off-peak (Mon-Fri 14:00-18:00 UTC+8 excluded, weekends all day) consumes 50% credits. 3x quota of GLM-5.3.",
+      "billing_model": [
+        "subscription_included"
+      ]
     },
     {
       "id": "glm-5.3",
@@ -54,7 +57,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Included in GLM Coding Plan (credits-based). Credit multipliers: input 6.9, cached input 1.7, output 24. Off-peak consumes 50% credits."
+      "notes": "Included in GLM Coding Plan (credits-based). Credit multipliers: input 6.9, cached input 1.7, output 24. Off-peak consumes 50% credits.",
+      "billing_model": [
+        "subscription_included"
+      ]
     },
     {
       "id": "glm-5.2",
@@ -77,7 +83,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Included in GLM Coding Plan; requests to glm-5.2 are routed to glm-5.3 (flagship)."
+      "notes": "Included in GLM Coding Plan; requests to glm-5.2 are routed to glm-5.3 (flagship).",
+      "billing_model": [
+        "subscription_included"
+      ]
     },
     {
       "id": "glm-5.2-highspeed",
@@ -100,7 +109,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Included in GLM Coding Plan (high-speed lane)."
+      "notes": "Included in GLM Coding Plan (high-speed lane).",
+      "billing_model": [
+        "subscription_included"
+      ]
     },
     {
       "id": "glm-5-turbo",
@@ -123,7 +135,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Included in GLM Coding Plan; requests to glm-5-turbo are routed to glm-5.3-flash."
+      "notes": "Included in GLM Coding Plan; requests to glm-5-turbo are routed to glm-5.3-flash.",
+      "billing_model": [
+        "subscription_included"
+      ]
     },
     {
       "id": "glm-4.7",
@@ -146,7 +161,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Included in GLM Coding Plan; requests to glm-4.7 are routed to glm-5.3-flash."
+      "notes": "Included in GLM Coding Plan; requests to glm-4.7 are routed to glm-5.3-flash.",
+      "billing_model": [
+        "subscription_included"
+      ]
     }
   ],
   "api_base_url": "https://api.z.ai/api/coding/paas/v4",

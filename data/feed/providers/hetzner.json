@@ -7,7 +7,7 @@
   "homepage": "https://experiments.hetzner.com/docs/inference",
   "pricing_page": "https://experiments.hetzner.com/docs/inference",
   "currency": "USD",
-  "updated_at": "2026-08-27T00:36:47Z",
+  "updated_at": "2026-08-27T17:11:11Z",
   "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
@@ -31,7 +31,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     },
     {
       "id": "Qwen3.8-27B",
@@ -54,7 +57,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     }
   ],
   "api_base_url": "https://inference.hetzner.com/api/v1"

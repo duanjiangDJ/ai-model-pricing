@@ -1,16 +1,16 @@
 # Tencent Token Plan
 
 - provider_id: `tencent-token-plan`
-- 渠道: 推理托管
+- 渠道: 订阅制
 - API 地址: `https://api.lkeap.cloud.tencent.com/plan/v3`
 - 官网: https://cloud.tencent.com/document/product/1823/130060
 - 定价页: https://cloud.tencent.com/document/product/1823/130060
 - 币种: USD
-- 数据更新时间: 2026-08-22T09:32:50Z
+- 数据更新时间: 2026-08-27T17:11:11Z
 - 核实时间: 2026-08-22T09:32:50Z
 
 共 **1** 个模型。
 
-| 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
-|---|---|---|---|---|---|---|---|---|---|---|
-| `hy3` | — | reasoning | 256K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| `hy3` | — | reasoning | 订阅包含 | 256K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |

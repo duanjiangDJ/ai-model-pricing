@@ -1,6 +1,16 @@
 {
-  "schema_version": "26.5.9",
+  "schema_version": "26.5.10",
   "entries": [
+    {
+      "date": "2026-08-27T17:11:11Z",
+      "kind": "update",
+      "scope": "model",
+      "item_id": "7239 models",
+      "field": "billing_model",
+      "new": "annotated billing_model across all providers",
+      "source": "scripts/annotate_billing.py",
+      "provider_id": "all"
+    },
     {
       "date": "2026-08-27T15:40Z",
       "kind": "update",

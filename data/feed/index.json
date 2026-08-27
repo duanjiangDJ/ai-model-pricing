@@ -1,5 +1,5 @@
 {
-  "schema_version": "26.5.9",
+  "schema_version": "26.5.10",
   "generated_at": "2026-08-27T15:38:33.587025Z",
   "currency": "USD",
   "provider_count": 185,
@@ -225,7 +225,7 @@
     {
       "id": "alibaba-token-plan",
       "name": "Alibaba Token Plan",
-      "channel": "hosted",
+      "channel": "subscription",
       "model_count": 25,
       "file": "providers/alibaba-token-plan.json",
       "updated_at": "2026-08-21T11:27:12Z"
@@ -689,7 +689,7 @@
     {
       "id": "alibaba-coding-plan-cn",
       "name": "Alibaba Coding Plan (China)",
-      "channel": "hosted",
+      "channel": "subscription",
       "model_count": 12,
       "file": "providers/alibaba-coding-plan-cn.json",
       "updated_at": "2026-08-21T11:27:12Z"
@@ -785,7 +785,7 @@
     {
       "id": "alibaba-coding-plan",
       "name": "Alibaba Coding Plan",
-      "channel": "hosted",
+      "channel": "subscription",
       "model_count": 12,
       "file": "providers/alibaba-coding-plan.json",
       "updated_at": "2026-08-21T11:27:12Z"
@@ -857,7 +857,7 @@
     {
       "id": "kuae-cloud-coding-plan",
       "name": "KUAE Cloud Coding Plan",
-      "channel": "hosted",
+      "channel": "subscription",
       "model_count": 1,
       "file": "providers/kuae-cloud-coding-plan.json",
       "updated_at": "2026-08-21T11:27:12Z"
@@ -1121,7 +1121,7 @@
     {
       "id": "tencent-coding-plan",
       "name": "Tencent Coding Plan (China)",
-      "channel": "hosted",
+      "channel": "subscription",
       "model_count": 8,
       "file": "providers/tencent-coding-plan.json",
       "updated_at": "2026-08-21T11:27:12Z"
@@ -1129,7 +1129,7 @@
     {
       "id": "scnet-token-plan",
       "name": "SCNet Token Plan",
-      "channel": "hosted",
+      "channel": "subscription",
       "model_count": 16,
       "file": "providers/scnet-token-plan.json",
       "updated_at": "2026-08-21T11:27:12Z"
@@ -1265,7 +1265,7 @@
     {
       "id": "alibaba-token-plan-cn",
       "name": "Alibaba Token Plan (China)",
-      "channel": "hosted",
+      "channel": "subscription",
       "model_count": 25,
       "file": "providers/alibaba-token-plan-cn.json",
       "updated_at": "2026-08-21T11:27:12Z"
@@ -1321,7 +1321,7 @@
     {
       "id": "tencent-token-plan",
       "name": "Tencent Token Plan",
-      "channel": "hosted",
+      "channel": "subscription",
       "model_count": 1,
       "file": "providers/tencent-token-plan.json",
       "updated_at": "2026-08-21T11:27:12Z"

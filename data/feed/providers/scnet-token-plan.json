@@ -1,13 +1,13 @@
 {
   "provider_id": "scnet-token-plan",
   "name": "SCNet Token Plan",
-  "channel": "hosted",
+  "channel": "subscription",
   "category": "inference_host",
   "region": "global",
   "homepage": "https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html",
   "pricing_page": "https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-27T17:11:11Z",
   "verified_at": "2026-08-22T09:32:50Z",
   "models": [
     {
@@ -31,7 +31,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing)."
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "billing_model": [
+        "subscription_included"
+      ]
     },
     {
       "id": "DeepSeek-V4-Flash",
@@ -54,7 +57,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing)."
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "billing_model": [
+        "subscription_included"
+      ]
     },
     {
       "id": "DeepSeek-V4-Flash-0731",
@@ -77,7 +83,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing)."
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "billing_model": [
+        "subscription_included"
+      ]
     },
     {
       "id": "DeepSeek-V4-Pro",
@@ -100,7 +109,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing)."
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "billing_model": [
+        "subscription_included"
+      ]
     },
     {
       "id": "GLM-5",
@@ -123,7 +135,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing)."
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "billing_model": [
+        "subscription_included"
+      ]
     },
     {
       "id": "GLM-5.1",
@@ -146,7 +161,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing)."
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "billing_model": [
+        "subscription_included"
+      ]
     },
     {
       "id": "GLM-5.2",
@@ -169,7 +187,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing)."
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "billing_model": [
+        "subscription_included"
+      ]
     },
     {
       "id": "Kimi-K2.5",
@@ -192,7 +213,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing)."
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "billing_model": [
+        "subscription_included"
+      ]
     },
     {
       "id": "Kimi-K2.6",
@@ -215,7 +239,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing)."
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "billing_model": [
+        "subscription_included"
+      ]
     },
     {
       "id": "Kimi-K2.7-Code",
@@ -238,7 +265,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing)."
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "billing_model": [
+        "subscription_included"
+      ]
     },
     {
       "id": "Kimi-K3",
@@ -261,7 +291,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing)."
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "billing_model": [
+        "subscription_included"
+      ]
     },
     {
       "id": "MiMo-V2.5-Pro",
@@ -284,7 +317,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing)."
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "billing_model": [
+        "subscription_included"
+      ]
     },
     {
       "id": "MiniMax-M2.5",
@@ -307,7 +343,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing)."
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "billing_model": [
+        "subscription_included"
+      ]
     },
     {
       "id": "MiniMax-M2.7",
@@ -330,7 +369,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing)."
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "billing_model": [
+        "subscription_included"
+      ]
     },
     {
       "id": "MiniMax-M3",
@@ -353,7 +395,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing)."
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "billing_model": [
+        "subscription_included"
+      ]
     },
     {
       "id": "Qwen3.8-Max",
@@ -376,7 +421,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing)."
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "billing_model": [
+        "subscription_included"
+      ]
     }
   ],
   "api_base_url": "https://api.scnet.cn/api/llm/v1"

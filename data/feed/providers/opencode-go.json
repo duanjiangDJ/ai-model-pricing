@@ -8,7 +8,7 @@
   "pricing_page": "https://opencode.ai/docs/go/",
   "api_base_url": "https://opencode.ai/zen/go/v1/models",
   "currency": "USD",
-  "updated_at": "2026-08-27T00:36:47Z",
+  "updated_at": "2026-08-27T17:11:11Z",
   "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
@@ -29,7 +29,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null
+      "notes": null,
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "deepseek-v4-flash-vision-exp",
@@ -49,7 +52,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null
+      "notes": null,
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "deepseek-v4-pro",
@@ -69,7 +75,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null
+      "notes": null,
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "glm-5",
@@ -92,7 +101,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "glm-5.1",
@@ -112,7 +124,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null
+      "notes": null,
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "glm-5.2",
@@ -132,7 +147,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null
+      "notes": null,
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "glm-5.3",
@@ -152,7 +170,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null
+      "notes": null,
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "glm-5.3-flash",
@@ -175,7 +196,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-5.6-luna",
@@ -195,7 +219,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null
+      "notes": null,
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "grok-4.5",
@@ -215,7 +242,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null
+      "notes": null,
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "grok-4.6",
@@ -238,7 +268,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "hy3",
@@ -258,7 +291,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null
+      "notes": null,
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "kimi-k2.5",
@@ -281,7 +317,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "kimi-k2.6",
@@ -301,7 +340,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null
+      "notes": null,
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "kimi-k2.7-code",
@@ -321,7 +363,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null
+      "notes": null,
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "kimi-k3",
@@ -341,7 +386,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null
+      "notes": null,
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "longcat-2.0",
@@ -364,7 +412,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "mimo-v2-omni",
@@ -387,7 +438,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "mimo-v2-pro",
@@ -410,7 +464,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "mimo-v2.5",
@@ -430,7 +487,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null
+      "notes": null,
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "mimo-v2.5-pro",
@@ -450,7 +510,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null
+      "notes": null,
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "minimax-m2.5",
@@ -470,7 +533,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null
+      "notes": null,
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "minimax-m2.7",
@@ -490,7 +556,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null
+      "notes": null,
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "minimax-m3",
@@ -510,7 +579,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null
+      "notes": null,
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "muse-spark-1.2-contributor",
@@ -530,7 +602,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null
+      "notes": null,
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "ox-alpha-free",
@@ -550,7 +625,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null
+      "notes": null,
+      "billing_model": [
+        "free"
+      ]
     },
     {
       "id": "qwen3.5-plus",
@@ -573,7 +651,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3.6-plus",
@@ -593,7 +674,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null
+      "notes": null,
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3.7-max",
@@ -613,7 +697,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null
+      "notes": null,
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3.7-plus",
@@ -633,7 +720,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null
+      "notes": null,
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "qwen3.8-max",
@@ -653,7 +743,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null
+      "notes": null,
+      "billing_model": [
+        "pay_per_token"
+      ]
     }
   ],
   "notes": "OpenCode Go: subscription ($5 first month, then $10/month), $60 monthly usage allowance by dollar value; tiers $12/5h, $30/week, $60/month. per_mtok = allowance burn rate."

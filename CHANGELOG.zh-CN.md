@@ -16,6 +16,18 @@
 
 ---
 
+## 26.5.10 — 2026-08-27T17:16Z（功能更新）
+
+- **feat(billing_model)**：每个模型新增必填 `billing_model` 数组（pay_per_token / pay_per_image / subscription_included / credits / free / unknown）——用机器可读字段直接回答"这模型怎么收费"，不再靠 null/0/notes 推断。全库 7,239 个模型经 `scripts/annotate_billing.py` 标注（6467 按量、384 免费、114 订阅包含、55 免费+按量混合、219 未知待人工——这些在 models.dev 无价，如实标记）。支持多收费方式（如 Gemini 免费额度+付费）。
+- **feat(schema)**：删除 8 个未使用计费字段（per_audio_second、per_character、per_request、credits、gpu、neuron_second、finetune、provisioned——0 使用）；新增 `promo.{list_price, ends_at}`；新增 `billingModel` 枚举；priceType 枚举 17→8。修复 `providerFile` 空 schema 问题（此前 provider 数据实际未被校验）。新增计费方式回添流程（AGENTS.md，字段只在有数据支撑时存在）。
+- **feat(channel)**：coding-plan/token-plan provider 统一为 `channel: subscription`（此前 9 个 provider hosted/subscription 混标）。
+- **feat(promo)**：Z.ai GLM-5.3-Flash 五折促销入档（原价 $0.15/$0.50/$0.03，9/9 截止）。
+- **feat(audit)**：新校验——billing_model 存在性/枚举/与 pricing 一致性、USD 文件内 CNY 标注检测、`:free` 后缀豁免零价格警告。
+- **feat(ui)**：view 页面新增"收费方式"列（中英）；订阅渠道标签补齐。
+- **feat(tests)**：`tests/test_parsers.py` + HTML fixture（deepseek 英文页、百度国际站）；pr-check.yml 纳入测试步骤。
+- **feat(ci)**：daily-check 输出详细 `SYNC_SUMMARY`（provider/模型/old→new），作为 CHANGELOG 消息，替代笼统的 "chore: price sync"。
+- **docs**：AGENTS.md（billing_model、计费字段添加流程、注释全英文规则、channel 语义）、FORMAT.md（中英，含 model.status online/offline 修正）、docs/price-types.md（中英重写为现行计费类型）、README 统计刷新（186 供应商、7,239 模型、67 计划）。
+
 ## 26.5.9 — 2026-08-27T15:40Z（内容更新）
 
 - **fix(货币)**: deepseek.json v4 系列由 CNY 数值修正为官方英文页 USD 价格（flash $0.44/$1.32、pro $1.32/$3.96，峰值档）。baidu.json ernie-5.0 → 国际站 USD（$1.4/$5.6）；ernie-5.1/4.5-turbo → null + CNY 说明（仅国内提供）。tencent.json currency → CNY（混元 ¥1/¥4，官方仅 CNY 定价）。volcengine.json doubao-2.1-pro/turbo → null + CNY 说明（无官方 USD 页）。

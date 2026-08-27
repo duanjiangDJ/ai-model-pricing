@@ -39,27 +39,27 @@ verification.
 
 ## Data Statistics (exact)
 
-- **Providers**: 185
-- **Models**: 7132
-- **Subscription plans**: 64
-- **Distinct API endpoints**: 178
-- **Free models**: 434
+- **Providers**: 186
+- **Models**: 7239
+- **Subscription plans**: 67
+- **Distinct API endpoints**: 179
+- **Free models**: 439
 
 ### By channel
 
 | Channel | Providers | Models |
 |---|---|---|
-| Inference host | 146 | 0 |
+| Inference host | 138 | 0 |
+| Subscription | 18 | 0 |
 | First-party | 16 | 0 |
 | Aggregator | 13 | 0 |
-| Subscription | 9 | 0 |
 | Cloud-hosted | 1 | 0 |
 
 ### By region
 
 | Region | Providers |
 |---|---|
-| Global | 174 |
+| Global | 175 |
 | US | 8 |
 | China | 3 |
 
@@ -68,25 +68,25 @@ verification.
 | Status | Models |
 |---|---|
 | offline | 43 |
-| online | 5 |
-| (unmarked) | 7084 |
+| online | 11 |
+| (unmarked) | 7185 |
 
 ### Top providers by model count
 
 | Provider | Models |
 |---|---|
-| NanoGPT (`nano-gpt`) | 599 |
-| DevPass (LLM Gateway) (`llmgateway`) | 556 |
-| OpenRouter (`openrouter`) | 421 |
-| Kilo Gateway (`kilo`) | 367 |
-| Vercel AI Gateway (`vercel`) | 351 |
-| Eden AI (`edenai`) | 234 |
-| Merge Gateway (`merge-gateway`) | 175 |
+| NanoGPT (`nano-gpt`) | 617 |
+| DevPass (LLM Gateway) (`llmgateway`) | 557 |
+| OpenRouter (`openrouter`) | 417 |
+| Kilo Gateway (`kilo`) | 373 |
+| Vercel AI Gateway (`vercel`) | 361 |
+| Eden AI (`edenai`) | 237 |
+| Merge Gateway (`merge-gateway`) | 176 |
 | Requesty (`requesty`) | 139 |
 | Poe (`poe`) | 137 |
 | ZenMux (`zenmux`) | 120 |
 | Amazon Web Services (`aws`) | 120 |
-| Ofox (`ofox`) | 110 |
+| Ofox (`ofox`) | 111 |
 | Cortecs (`cortecs`) | 108 |
 | Abacus (`abacus`) | 108 |
 | NovitaAI (`novita-ai`) | 107 |
@@ -96,6 +96,7 @@ verification.
 | Currency | Providers |
 |---|---|
 | USD | 185 |
+| CNY | 1 |
 
 <!-- STATS:END -->
 
@@ -142,7 +143,7 @@ Reading/updating rules for AI agents: [AGENTS.md](AGENTS.md).
 | Consumer subscriptions | ChatGPT Plus/Pro, Claude Pro/Max, Gemini AI, Perplexity, SuperGrok, Poe etc. | ✅ in DB |
 | Coding plans | Copilot, Cursor, Windsurf, Claude Code, JetBrains AI, Devin, Amazon Q, Replit, Tabnine etc. | ✅ in DB |
 
-**Current scale**: 204 providers, 7,700+ models (incl. 419 OpenRouter reseller prices), 51 plans.
+**Current scale**: 186 providers, 7,239 models (incl. OpenRouter reseller prices), 67 subscription plans. Exact numbers in the [Data Statistics](#data-statistics-exact) section above.
 Data is auto-synced daily (OpenRouter + models.dev); human-verified entries carry `verified_at` + source URLs.
 
 > Honest scope statement: **no single source covers all pricing** (verified: OpenRouter / models.dev /

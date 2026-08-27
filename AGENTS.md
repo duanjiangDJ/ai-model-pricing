@@ -65,23 +65,45 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
 
 1. Fetch `data/feed/index.json` first. Check `schema_version` (major bump = breaking).
 2. Each `providers[]` / `resellers[]` entry has `file` (relative path), `model_count`, `updated_at`.
-3. Model shape: `{id, name, category, status, modalities, context_window, max_output, pricing, notes}`.
+3. Model shape: `{id, name, category, status, modalities, context_window, max_output, billing_model, pricing, notes}`.
    `status` = **online | offline** only. Offline models keep the reason (retired/deprecated/superseded)
    in `notes` and stay as historical entries with a ❌ mark in the human pages.
+   `billing_model` (required, array) = how the model is billed; one model can have several:
+   `pay_per_token` (per-token API, incl. cache/batch), `pay_per_image`, `subscription_included`
+   (included in a subscription/coding plan), `credits` (points-based), `free`, `unknown` (needs review).
+   Use `python scripts/annotate_billing.py` to (re-)annotate; audit flags unknown/pay-per-token inconsistencies.
 4. `pricing` fields (all USD per 1M tokens unless `currency` says otherwise):
-   - `per_mtok.{input,output,cache_read,cache_write}`
+   - `per_mtok.{input,output,cache_read,cache_write}` — per-token API prices
    - `batch.{input,output}` — 50% off batch APIs
    - `per_image[]` — tiers for image models
-   - `per_audio_second`, `per_character`, `per_request`, `credits` (points systems),
-     `gpu[]` (per-second/hour SKUs), `neuron_second`, `finetune`, `provisioned`
+   - `promo.{list_price, ends_at}` — temporary discount; current `per_mtok` is the promo price,
+     `list_price` holds the pre-promo value and `ends_at` the expiry (UTC ISO)
+   Other billing fields (per_audio_second, per_character, per_request, credits, gpu, neuron_second,
+   finetune, provisioned) were REMOVED from the schema on 2026-08-28 because nothing used them.
+   **To add a billing mode back**: (a) add the field to `schema.json#/$defs/modelPricing.properties`,
+   (b) add its value to `$defs.priceType.enum` and `$defs.billingModel.items.enum`, (c) populate real
+   data for at least one model, (d) add a renderer in `scripts/build_human.py`, (e) add a parser test
+   fixture if a page parse is involved, (f) bump VERSION as a feature update. Do not add schema fields
+   speculatively — fields only exist when backed by data.
 5. **`null` means "not offered / unknown" — never treat as zero.** `0` means free.
 6. Plans: `{id, provider_id, product, plan, category, pricing_model, billing, price_usd, limits, includes, url, verified_at}`.
    `pricing_model` (flat_monthly / flat_yearly / per_seat_monthly / per_seat_yearly / credits / free / custom) is the
    subscription pricing structure — distinct from per-token model pricing. Yearly plans store the **total yearly price**
    in `price_usd`; per-seat plans store the price per seat.
-   Models included in a subscription plan have `per_mtok` = null (never 0) with an explanatory note.
+   Models included in a subscription plan have `per_mtok` = null (never 0), `billing_model: ["subscription_included"]`,
+   and an explanatory note.
 7. `channel` semantics: `first_party` | `cloud` | `hosted` | `aggregator` | `reseller` | `subscription`.
-   The same model may appear under several channels with different prices — that is correct.
+   - `subscription`: coding-plan / token-plan products (credits-based or flat subscription with API access)
+   - `hosted`: third-party inference hosts serving models per-token
+   - The same model may appear under several channels with different prices — that is correct.
+
+## Coding Style
+
+- **Code comments and docstrings MUST be English.** Chinese text is allowed only in:
+  (a) zh-CN documentation files (explicitly declared "written in zh-CN only"),
+  (b) UI/labels for the generated zh-CN pages (`scripts/build_human.py`, `scripts/stats.py`), and
+  (c) Chinese-language issue/report text generated for GitHub issues (e.g. stale-plans reports).
+  A mixed-language source file is a bug — fix it before committing.
 
 ## Updating Data (rules you MUST follow)
 

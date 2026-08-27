@@ -7,7 +7,7 @@
   "homepage": "https://qianfan.cloud.baidu.com",
   "pricing_page": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya",
   "currency": "USD",
-  "updated_at": "2026-08-27T15:37:35.738047Z",
+  "updated_at": "2026-08-27T17:11:11Z",
   "verified_at": "2026-08-27T15:37:35.738047Z",
   "models": [
     {
@@ -28,7 +28,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Domestic-only model on Baidu Qianfan (CNY pricing: ¥4/1M input, ¥18/1M output (≤32k); ¥6/¥22 (32k-128k)); no official USD price on the INT'L page — left null."
+      "notes": "Domestic-only model on Baidu Qianfan (CNY pricing: ¥4/1M input, ¥18/1M output (≤32k); ¥6/¥22 (32k-128k)); no official USD price on the INT'L page — left null.",
+      "billing_model": [
+        "unknown"
+      ]
     },
     {
       "id": "ernie-5.0",
@@ -48,7 +51,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official Baidu Qianfan INT'L pricing page (USD/1M tokens): input $1.4, output $5.6 (pay-as-you-go)."
+      "notes": "Official Baidu Qianfan INT'L pricing page (USD/1M tokens): input $1.4, output $5.6 (pay-as-you-go).",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "ernie-4.5-turbo",
@@ -71,7 +77,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Domestic-only model on Baidu Qianfan (CNY pricing: ¥0.8/1M input, ¥3.2/1M output, cache-hit ¥0.2/1M); no official USD price on the INT'L page — left null."
+      "notes": "Domestic-only model on Baidu Qianfan (CNY pricing: ¥0.8/1M input, ¥3.2/1M output, cache-hit ¥0.2/1M); no official USD price on the INT'L page — left null.",
+      "billing_model": [
+        "unknown"
+      ]
     }
   ],
   "api_base_url": "https://qianfan.baidubce.com/v2"

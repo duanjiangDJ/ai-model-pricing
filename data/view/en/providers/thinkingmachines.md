@@ -6,12 +6,12 @@
 - Homepage: https://tinker-docs.thinkingmachines.ai/tinker/compatible-apis/anthropic/
 - Pricing page: https://tinker-docs.thinkingmachines.ai/tinker/compatible-apis/anthropic/
 - Currency: USD
-- Data updated: 2026-08-27T00:36:47Z
+- Data updated: 2026-08-27T17:11:11Z
 - Verified: 2026-08-27T00:36:47Z
 
 **2** models in total.
 
-| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| `thinkingmachines/Inkling` | — | reasoning | 65.536K | $1.87 | $4.68 | $0.374 | — | —/— | — | models.dev official list price |
-| `thinkingmachines/Inkling:peft:262144` | — | reasoning | 262.144K | $3.74 | $9.36 | $0.748 | — | —/— | — | models.dev official list price |
+| Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| `thinkingmachines/Inkling` | — | reasoning | per-token | 65.536K | $1.87 | $4.68 | $0.374 | — | —/— | — | models.dev official list price |
+| `thinkingmachines/Inkling:peft:262144` | — | reasoning | per-token | 262.144K | $3.74 | $9.36 | $0.748 | — | —/— | — | models.dev official list price |

@@ -7,7 +7,7 @@
   "homepage": "https://hunyuan.tencent.com",
   "pricing_page": "https://cloud.tencent.com/document/product/1759/127342",
   "currency": "CNY",
-  "updated_at": "2026-08-27T15:37:35.738047Z",
+  "updated_at": "2026-08-27T17:11:11Z",
   "verified_at": "2026-08-27T15:37:35.738047Z",
   "models": [
     {
@@ -29,7 +29,10 @@
         "per_request": null
       },
       "notes": "Official TokenHub billing (CNY/1M tokens): input ¥1, output ¥4, cache-hit ¥0.25. Model id on TokenHub: hy3. Verified 2026-08-21.",
-      "status": "online"
+      "status": "online",
+      "billing_model": [
+        "pay_per_token"
+      ]
     }
   ],
   "api_base_url": "https://api.hunyuan.cloud.tencent.com/v1",

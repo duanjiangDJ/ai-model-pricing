@@ -45,14 +45,16 @@ data/meta/
 | `per_mtok.reasoning_effort[]` | array | 按推理强度分档定价（如 OpenAI o 系列） |
 | `batch.input` / `.output` | number\|null | 批处理 API 价（通常 50%） |
 | `per_image[]` | array | 图像生成按张：`[{name, price}]` 分档 |
-| `per_audio_second.input/.output` | object | TTS/STT 按秒/分钟 |
-| `per_character.price` | object | 按字符（含 `unit: per_char|per_1k_char`） |
-| `per_request` | number\|null | 按请求次数 |
-| `credits` | object | 点数制：`topup{amount_usd, credits}`、`model_rate{per_mtok_input, ...}`、`convertible` |
-| `gpu[]` | array | GPU 计费：`[{sku, price, unit: per_second|per_hour}]` |
-| `neuron_second` | object | Cloudflare 神经元秒 |
-| `finetune` | object | 微调：`training_input/output/hosting` |
-| `provisioned` | "contact_sales"\|null | 预留容量（企业定制） |
+| `promo.list_price` | object | 促销前原价，`per_mtok` 结构（`{input, output, cache_read}`） |
+| `promo.ends_at` | string\|null | 促销截止（UTC ISO）；促销期间当前 `per_mtok` 即折扣价 |
+
+**`billing_model`**（每个模型必填，数组）：收费方式——一个模型可有多种。
+取值：`pay_per_token` / `pay_per_image` / `subscription_included` / `credits` / `free` / `unknown`。
+须与 `pricing` 保持一致；可用 `scripts/annotate_billing.py` 重新标注。
+
+> 2026-08-28 移除（无实际使用）：`per_audio_second`、`per_character`、`per_request`、
+> `credits`、`gpu[]`、`neuron_second`、`finetune`、`provisioned`。如需恢复某种计费方式，
+> 按 AGENTS.md「To add a billing mode back」流程执行——schema 字段只有在有数据支撑时才存在。
 
 **规则**：`null` = 无此计费方式或未知；缺失**绝不**用 0 表示。免费模型价格为 `0`。
 
@@ -66,8 +68,8 @@ data/meta/
 
 ## 模型状态（model.status）
 
-`active`（在售）/ `preview`（预览/受限）/ `deprecated`（宣布弃用，仍可用）/ `retired`（已停售）/ `superseded`（已被替代，保留作历史条目）。
-过时模型必须标注 `status`，人类可读页面以 ❌/⚠️/🔁/🧪 显著标记。
+`online`（可用）/ `offline`（不再提供服务——已停售/弃用/被替代，原因写入 `notes`）。
+人类可读页面以 ❌ 标记下线模型。
 
 ## 渠道语义（channel）
 
