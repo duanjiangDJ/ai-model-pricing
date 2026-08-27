@@ -4,7 +4,7 @@
       "provider_id": "deepseek",
       "name": "DeepSeek official pricing",
       "strategy": "direct",
-      "url": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
+      "url": "https://api-docs.deepseek.com/quick_start/pricing",
       "parser": "deepseek",
       "enabled": true,
       "note": "Docusaurus static page; CNY pricing with peak/off-peak tiers"
@@ -13,7 +13,7 @@
       "provider_id": "baidu",
       "name": "Baidu Qianfan official pricing",
       "strategy": "direct",
-      "url": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya",
+      "url": "https://intl.cloud.baidu.com/en/doc/qianfan/s/Jm8r1826a-intl-en",
       "parser": "baidu",
       "enabled": true,
       "note": "Static doc page; CNY per 1K tokens"
@@ -34,7 +34,9 @@
       "url": "https://platform.openai.com/docs/pricing",
       "parser": "openai",
       "enabled": true,
-      "fallback_snapshots": ["20260812013303"],
+      "fallback_snapshots": [
+        "20260812013303"
+      ],
       "note": "JS-rendered; parsed from recent Wayback Machine capture (fallback to known-good 2026-08-12 capture)"
     },
     {

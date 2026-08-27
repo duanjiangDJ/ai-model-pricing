@@ -5,9 +5,9 @@
 - API base URL: `https://api.hunyuan.cloud.tencent.com/v1`
 - Homepage: https://hunyuan.tencent.com
 - Pricing page: https://cloud.tencent.com/document/product/1759/127342
-- Currency: USD
-- Data updated: 2026-08-21T11:38:22Z
-- Verified: 2026-08-21T00:00:00Z
+- Currency: CNY (non-USD, see notes)
+- Data updated: 2026-08-27T15:37:35.738047Z
+- Verified: 2026-08-27T15:37:35.738047Z
 
 **1** models in total.
 

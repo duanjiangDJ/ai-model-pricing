@@ -3,10 +3,10 @@
 > Data sources: official pricing pages & public APIs. Machine-readable version: [`data/feed/`](../../../data/feed/).
 > Auto-updated daily by GitHub Actions (see `.github/workflows/daily-check.yml`).
 
-- Generated: 2026-08-27T08:12:48Z
-- Providers: 185
-- Models total: 7233
-- Plans total: 64
+- Generated: 2026-08-27T15:38:33.587025Z
+- Providers: 186
+- Models total: 7239
+- Plans total: 67
 
 ## Providers
 
@@ -32,7 +32,7 @@
 | [Synthetic](providers/synthetic.md) | Inference host | 8 | `providers/synthetic.json` | 2026-08-27T00:36:47Z |
 | [Jalapeno Cloud](providers/jalapeno.md) | Inference host | 17 | `providers/jalapeno.json` | 2026-08-27T00:36:47Z |
 | [abliteration.ai](providers/abliteration-ai.md) | Inference host | 2 | `providers/abliteration-ai.json` | 2026-08-27T00:36:47Z |
-| [DeepSeek](providers/deepseek.md) | First-party | 5 | `providers/deepseek.json` | 2026-08-27T00:36:48Z |
+| [DeepSeek](providers/deepseek.md) | First-party | 5 | `providers/deepseek.json` | 2026-08-27T15:37:35.738047Z |
 | [GreenPT](providers/greenpt.md) | Inference host | 37 | `providers/greenpt.json` | 2026-08-27T00:36:47Z |
 | [Xpersona](providers/xpersona.md) | Inference host | 13 | `providers/xpersona.json` | 2026-08-27T00:36:47Z |
 | [Tencent TokenHub](providers/tencent-tokenhub.md) | Inference host | 2 | `providers/tencent-tokenhub.json` | 2026-08-27T00:36:47Z |
@@ -189,18 +189,19 @@
 | [Cursor (Anysphere)](providers/cursor.md) | subscription | 0 | `providers/cursor.json` | 2026-08-21T11:36:36Z |
 | [Windsurf (Codeium)](providers/windsurf.md) | subscription | 0 | `providers/windsurf.json` | 2026-08-21T11:36:36Z |
 | [JetBrains](providers/jetbrains.md) | subscription | 0 | `providers/jetbrains.json` | 2026-08-21T11:36:36Z |
-| [百度智能云千帆 (Baidu Qianfan)](providers/baidu.md) | First-party | 3 | `providers/baidu.json` | 2026-08-21T13:59:17Z |
-| [腾讯混元 (Tencent Hunyuan)](providers/tencent.md) | First-party | 1 | `providers/tencent.json` | 2026-08-21T11:38:22Z |
-| [字节跳动·火山引擎方舟 (ByteDance Volcengine Ark / 豆包)](providers/volcengine.md) | First-party | 17 | `providers/volcengine.json` | 2026-08-27T00:36:47Z |
+| [百度智能云千帆 (Baidu Qianfan)](providers/baidu.md) | First-party | 3 | `providers/baidu.json` | 2026-08-27T15:37:35.738047Z |
+| [腾讯混元 (Tencent Hunyuan)](providers/tencent.md) | First-party | 1 | `providers/tencent.json` | 2026-08-27T15:37:35.738047Z |
+| [字节跳动·火山引擎方舟 (ByteDance Volcengine Ark / 豆包)](providers/volcengine.md) | First-party | 17 | `providers/volcengine.json` | 2026-08-27T15:37:35.738047Z |
 | [Devin (Cognition)](providers/devin.md) | subscription | 0 | `providers/devin.json` | 2026-08-21T11:39:14Z |
 | [Amazon Web Services](providers/aws.md) | Cloud-hosted | 120 | `providers/aws.json` | 2026-08-21T15:59:09Z |
 | [Tabnine](providers/tabnine.md) | subscription | 0 | `providers/tabnine.json` | 2026-08-21T11:40:00Z |
 | [Replit](providers/replit.md) | subscription | 0 | `providers/replit.json` | 2026-08-21T11:40:00Z |
+| [Z.AI Coding Plan](providers/zai-coding-plan.md) | subscription | 6 | `providers/zai-coding-plan.json` | 2026-08-27T15:38:33.587025Z |
 | [OpenRouter](providers/openrouter.md) | Aggregator | 417 | `providers/openrouter.json` | 2026-08-27T08:12:48Z |
 
 ## Plans
 
-[plans.md](plans.md) — **64** plans in total. Updated: —
+[plans.md](plans.md) — **67** plans in total. Updated: —
 
 ## Misc
 

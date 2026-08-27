@@ -6,9 +6,9 @@
   "region": "cn",
   "homepage": "https://hunyuan.tencent.com",
   "pricing_page": "https://cloud.tencent.com/document/product/1759/127342",
-  "currency": "USD",
-  "updated_at": "2026-08-21T11:38:22Z",
-  "verified_at": "2026-08-21T00:00:00Z",
+  "currency": "CNY",
+  "updated_at": "2026-08-27T15:37:35.738047Z",
+  "verified_at": "2026-08-27T15:37:35.738047Z",
   "models": [
     {
       "id": "hunyuan-hy3",
@@ -34,5 +34,5 @@
   ],
   "api_base_url": "https://api.hunyuan.cloud.tencent.com/v1",
   "price_currency": "CNY",
-  "currency_usd_note": "Officially priced in CNY; 1 USD ≈ 7.1 CNY"
+  "currency_usd_note": "Tencent hunyuan official pricing is CNY-only (cloud.tencent.com). Values are CNY per 1M tokens; not converted to USD (no official USD price page as of 2026-08-27)."
 }

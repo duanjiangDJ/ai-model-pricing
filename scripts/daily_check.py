@@ -160,10 +160,19 @@ def main():
             remote = fetch_json(OPENROUTER_URL)
             local_path = os.path.join(PROVIDERS, "openrouter.json")
             local = read_json(local_path)
-            added, removed, changed = diff_openrouter(local, [build_model(m) for m in remote["data"]], now)
+            remote_models = [build_model(m) for m in remote["data"]]
+            # Guard: a healthy OpenRouter catalog is large. If the remote catalog
+            # shrank below half the local size, treat it as an upstream anomaly and
+            # do NOT rewrite the local file (prevents mass deletion on API glitches).
+            if len(local["models"]) > 100 and len(remote_models) < len(local["models"]) / 2:
+                raise RuntimeError(
+                    f"openrouter catalog anomaly: remote {len(remote_models)} models vs local "
+                    f"{len(local['models'])}; refusing to overwrite"
+                )
+            added, removed, changed = diff_openrouter(local, remote_models, now)
 
             if added or removed or changed:
-                local["models"] = [build_model(m) for m in remote["data"]]
+                local["models"] = remote_models
                 local["models"].sort(key=lambda m: m["id"])
                 local["updated_at"] = now
                 local["verified_at"] = now

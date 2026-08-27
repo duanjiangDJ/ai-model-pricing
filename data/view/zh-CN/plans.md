@@ -1,6 +1,6 @@
 # 订阅与编码工具计划（Plans）
 
-共 **64** 个计划。更新时间: 2026-08-21T12:11:53Z
+共 **67** 个计划。更新时间: 2026-08-21T12:11:53Z
 
 | 产品 | 计划 | 定价模型 | 类别 | 计费 | 价格(USD) | 用量限制 | 定价页 | 核实时间 |
 |---|---|---|---|---|---|---|---|---|
@@ -68,3 +68,6 @@
 | Xiaomi MiMo Token Plan | Max | flat_monthly | coding | monthly | $100 | Token Plan subscription for coding scenarios (annual billing approx. 12% off) | [link](https://mimo.mi.com/docs/price/token-plan) | 2026-08-21T00:00:00Z |
 | Xiaomi MiMo Token Plan | Pro | flat_monthly | coding | monthly | $50 | Token Plan subscription for coding scenarios (annual billing approx. 12% off) | [link](https://mimo.mi.com/docs/price/token-plan) | 2026-08-21T00:00:00Z |
 | Xiaomi MiMo Token Plan | Standard | flat_monthly | coding | monthly | $16 | Token Plan subscription for coding scenarios (annual billing approx. 12% off) | [link](https://mimo.mi.com/docs/price/token-plan) | 2026-08-21T00:00:00Z |
+| GLM Coding Plan | Lite | credits | coding | monthly | $18 | 2,000 credits/5h rolling window; 10,000 credits/week. Credits: (input*2.3 + cached*0.56 + output*8)/10000 for GLM-5.3-Flash (GLM-5.3: 6.9/1.7/24). Off-peak = 50% credit consumption. | [link](https://z.ai/subscribe) | 2026-08-27T15:38:33.587025Z |
+| GLM Coding Plan | Pro | credits | coding | monthly | $72 | 12,000 credits/5h rolling window; 60,000 credits/week. Yearly billing: $50.4/mo (~30% off). | [link](https://z.ai/subscribe) | 2026-08-27T15:38:33.587025Z |
+| GLM Coding Plan | Max | credits | coding | monthly | $160 | 28,000 credits/5h rolling window; 140,000 credits/week. Yearly billing: $117.6/mo (~30% off). | [link](https://z.ai/subscribe) | 2026-08-27T15:38:33.587025Z |

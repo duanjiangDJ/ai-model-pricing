@@ -1,5 +1,5 @@
 {
-  "schema_version": "26.4.9",
+  "schema_version": "26.5.9",
   "updated_at": "2026-08-21T12:11:53Z",
   "plans": [
     {
@@ -1088,6 +1088,63 @@
       "includes": [],
       "url": "https://mimo.mi.com/docs/price/token-plan",
       "verified_at": "2026-08-21T00:00:00Z"
+    },
+    {
+      "id": "zai-glm-coding-lite",
+      "product": "GLM Coding Plan",
+      "plan": "Lite",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 18,
+      "pricing_model": "credits",
+      "limits": "2,000 credits/5h rolling window; 10,000 credits/week. Credits: (input*2.3 + cached*0.56 + output*8)/10000 for GLM-5.3-Flash (GLM-5.3: 6.9/1.7/24). Off-peak = 50% credit consumption.",
+      "includes": [
+        "GLM-5.3-Flash (3x quota of GLM-5.3)",
+        "GLM-5.3",
+        "Vision/Web Search/Web Reader MCP",
+        "Claude Code, Codex, ZCode, Cline, OpenCode, Hermes Agent"
+      ],
+      "url": "https://z.ai/subscribe",
+      "verified_at": "2026-08-27T15:38:33.587025Z",
+      "provider_id": "zai-coding-plan"
+    },
+    {
+      "id": "zai-glm-coding-pro",
+      "product": "GLM Coding Plan",
+      "plan": "Pro",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 72,
+      "pricing_model": "credits",
+      "limits": "12,000 credits/5h rolling window; 60,000 credits/week. Yearly billing: $50.4/mo (~30% off).",
+      "includes": [
+        "GLM-5.3-Flash (3x quota)",
+        "GLM-5.3",
+        "Vision/Web Search/Web Reader MCP",
+        "1-2 concurrent projects"
+      ],
+      "url": "https://z.ai/subscribe",
+      "verified_at": "2026-08-27T15:38:33.587025Z",
+      "provider_id": "zai-coding-plan"
+    },
+    {
+      "id": "zai-glm-coding-max",
+      "product": "GLM Coding Plan",
+      "plan": "Max",
+      "category": "coding",
+      "billing": "monthly",
+      "price_usd": 160,
+      "pricing_model": "credits",
+      "limits": "28,000 credits/5h rolling window; 140,000 credits/week. Yearly billing: $117.6/mo (~30% off).",
+      "includes": [
+        "GLM-5.3-Flash (3x quota)",
+        "GLM-5.3",
+        "Vision/Web Search/Web Reader MCP",
+        "2+ concurrent projects"
+      ],
+      "url": "https://z.ai/subscribe",
+      "verified_at": "2026-08-27T15:38:33.587025Z",
+      "provider_id": "zai-coding-plan"
     }
   ]
 }

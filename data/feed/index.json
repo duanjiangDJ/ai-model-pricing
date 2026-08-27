@@ -1,10 +1,10 @@
 {
-  "schema_version": "26.4.9",
-  "generated_at": "2026-08-27T08:12:48Z",
+  "schema_version": "26.5.9",
+  "generated_at": "2026-08-27T15:38:33.587025Z",
   "currency": "USD",
-  "provider_count": 184,
-  "model_count": 7233,
-  "plan_count": 64,
+  "provider_count": 185,
+  "model_count": 7239,
+  "plan_count": 67,
   "providers": [
     {
       "id": "hpc-ai",
@@ -1477,6 +1477,14 @@
       "model_count": 0,
       "file": "providers/replit.json",
       "updated_at": "2026-08-21T11:40:00Z"
+    },
+    {
+      "id": "zai-coding-plan",
+      "name": "Z.AI Coding Plan",
+      "channel": "subscription",
+      "model_count": 6,
+      "file": "providers/zai-coding-plan.json",
+      "updated_at": "2026-08-27T15:38:33.587025Z"
     }
   ],
   "resellers": [

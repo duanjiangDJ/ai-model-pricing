@@ -60,7 +60,7 @@ jobs:
           FILES=$(gh api "repos/${{ github.repository }}/pulls/$PR_NUM/files" --jq '.[].filename')
           echo "changed files:"; echo "$FILES"
           # 1. core files must not be deleted
-          for core in scripts/validate.py scripts/audit.py scripts/router.py scripts/toolbox.py scripts/build_human.py scripts/daily_check.py data/machine/schema.json data/machine/index.json; do
+          for core in scripts/validate.py scripts/audit.py scripts/router.py scripts/toolbox.py scripts/build_human.py scripts/daily_check.py data/feed/schema.json data/feed/index.json; do
             if echo "$FILES" | grep -qx "$core"; then
               ST=$(gh api "repos/${{ github.repository }}/pulls/$PR_NUM/files" --jq ".[] | select(.filename==\"$core\") | .status")
               if [ "$ST" = "removed" ]; then
