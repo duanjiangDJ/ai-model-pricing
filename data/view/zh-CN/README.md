@@ -5,7 +5,7 @@
 
 - 数据更新时间: 2026-08-27T00:36:47Z
 - 覆盖渠道: 185
-- 模型总数: 7224
+- 模型总数: 7230
 - 订阅计划数: 64
 
 ## 供应商列表
@@ -64,7 +64,7 @@
 | [Snowflake Cortex](providers/snowflake-cortex.md) | 推理托管 | 25 | `providers/snowflake-cortex.json` | 2026-08-27T00:36:47Z |
 | [Anthropic](providers/anthropic.md) | 官方直供 | 16 | `providers/anthropic.json` | 2026-08-27T00:36:47Z |
 | [Cohere](providers/cohere.md) | 官方直供 | 14 | `providers/cohere.json` | 2026-08-27T00:36:47Z |
-| [Z.AI](providers/zai.md) | 推理托管 | 17 | `providers/zai.json` | 2026-08-27T00:36:47Z |
+| [Z.AI](providers/zai.md) | 推理托管 | 23 | `providers/zai.json` | 2026-08-27T07:21:33Z |
 | [routing.run](providers/routing-run.md) | 推理托管 | 15 | `providers/routing-run.json` | 2026-08-27T00:36:47Z |
 | [STACKIT](providers/stackit.md) | 推理托管 | 8 | `providers/stackit.json` | 2026-08-27T00:36:47Z |
 | [Databricks](providers/databricks.md) | 推理托管 | 30 | `providers/databricks.json` | 2026-08-27T00:36:47Z |

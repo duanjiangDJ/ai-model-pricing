@@ -6,10 +6,10 @@
 - 官网: https://docs.z.ai/guides/overview/pricing
 - 定价页: https://docs.z.ai/guides/overview/pricing
 - 币种: USD
-- 数据更新时间: 2026-08-27T00:36:47Z
-- 核实时间: 2026-08-27T00:36:47Z
+- 数据更新时间: 2026-08-27T07:21:33Z
+- 核实时间: 2026-08-27T07:21:33Z
 
-共 **17** 个模型。
+共 **23** 个模型。
 
 | 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -30,3 +30,9 @@
 | `glm-5.3` | — | reasoning | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
 | `glm-5.3-flash` | — | reasoning | 1M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |
 | `glm-5v-turbo` | — | reasoning | 200K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |
+| `glm-4.5-x` | ✅ 在线 | chat | — | $2.2 | $8.9 | $0.45 | — | —/— | — | Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; effective pric… |
+| `glm-4.5-airx` | ✅ 在线 | chat | — | $1.1 | $4.5 | $0.22 | — | —/— | — | Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; effective pric… |
+| `glm-4-32b-0414-128k` | ✅ 在线 | chat | — | $0.1 | $0.1 | — | — | —/— | — | Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; effective pric… |
+| `glm-ocr` | ✅ 在线 | chat | — | $0.03 | $0.03 | — | — | —/— | — | Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; effective pric… |
+| `glm-4.6v-flashx` | ✅ 在线 | chat | — | $0.04 | $0.4 | $0.004 | — | —/— | — | Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; effective pric… |
+| `glm-4.6v-flash` | ✅ 在线 | chat | — | $0 | $0 | $0 | — | —/— | — | Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; effective pric… |

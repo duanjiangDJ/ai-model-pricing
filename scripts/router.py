@@ -70,6 +70,10 @@ def run_router(provider_filter=None, dry_run=False):
     manifest["last_daily_check"] = now
     save_manifest(manifest)
 
+    # checks may add brand-new models; keep index counts in sync so validate passes
+    from toolbox import refresh_index_counts  # noqa: PLC0415
+    refresh_index_counts(now)
+
     ok = sum(1 for r in results if r["status"] == "ok")
     print(f"ROUTER SUMMARY: {ok}/{len(results)} checks ok")
     return results

@@ -5,7 +5,7 @@
 
 - Generated: 2026-08-27T00:36:47Z
 - Providers: 185
-- Models total: 7224
+- Models total: 7230
 - Plans total: 64
 
 ## Providers
@@ -64,7 +64,7 @@
 | [Snowflake Cortex](providers/snowflake-cortex.md) | Inference host | 25 | `providers/snowflake-cortex.json` | 2026-08-27T00:36:47Z |
 | [Anthropic](providers/anthropic.md) | First-party | 16 | `providers/anthropic.json` | 2026-08-27T00:36:47Z |
 | [Cohere](providers/cohere.md) | First-party | 14 | `providers/cohere.json` | 2026-08-27T00:36:47Z |
-| [Z.AI](providers/zai.md) | Inference host | 17 | `providers/zai.json` | 2026-08-27T00:36:47Z |
+| [Z.AI](providers/zai.md) | Inference host | 23 | `providers/zai.json` | 2026-08-27T07:21:33Z |
 | [routing.run](providers/routing-run.md) | Inference host | 15 | `providers/routing-run.json` | 2026-08-27T00:36:47Z |
 | [STACKIT](providers/stackit.md) | Inference host | 8 | `providers/stackit.json` | 2026-08-27T00:36:47Z |
 | [Databricks](providers/databricks.md) | Inference host | 30 | `providers/databricks.json` | 2026-08-27T00:36:47Z |

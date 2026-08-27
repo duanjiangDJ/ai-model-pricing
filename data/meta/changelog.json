@@ -1,6 +1,18 @@
 {
-  "schema_version": "26.3.6",
+  "schema_version": "26.3.7",
   "entries": [
+    {
+      "date": "2026-08-27T07:21:33Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "zai",
+      "item_id": "glm-4.5-x,glm-4.5-airx,glm-4-32b-0414-128k,glm-ocr,glm-4.6v-flashx,glm-4.6v-flash",
+      "field": "catalog",
+      "new": {
+        "models": 6
+      },
+      "source": "https://docs.z.ai/guides/overview/pricing.md"
+    },
     {
       "date": "2026-08-27T00:36:48Z",
       "kind": "update",
