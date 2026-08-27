@@ -7,8 +7,8 @@
   "homepage": "https://platform.openai.com/docs/models",
   "pricing_page": "https://openai.com/chatgpt/pricing/",
   "currency": "USD",
-  "updated_at": "2026-08-27T00:36:47Z",
-  "verified_at": "2026-08-27T00:36:47Z",
+  "updated_at": "2026-08-27T08:12:49Z",
+  "verified_at": "2026-08-27T08:12:49Z",
   "models": [
     {
       "id": "chatgpt-image-latest",
@@ -757,9 +757,9 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 4,
-          "output": 20,
-          "cache_read": 0.4,
+          "input": 5.0,
+          "output": 30.0,
+          "cache_read": 0.5,
           "cache_write": 6.25
         },
         "batch": {
@@ -770,7 +770,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30; long context $10/$1/$12.50/$45; batch $2.5/$0.25/$3.125/$15; flex $2.5/$15. Data-residency regions +10% (models released on/after 2026-03-05)."
+      "notes": "Official platform.openai.com/docs/pricing (Wayback snapshot, USD/1M, standard tier). Parsed by check openai."
     },
     {
       "id": "gpt-5.6-terra",

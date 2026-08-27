@@ -3,9 +3,9 @@
 > Data sources: official pricing pages & public APIs. Machine-readable version: [`data/feed/`](../../../data/feed/).
 > Auto-updated daily by GitHub Actions (see `.github/workflows/daily-check.yml`).
 
-- Generated: 2026-08-27T00:36:47Z
+- Generated: 2026-08-27T08:12:48Z
 - Providers: 185
-- Models total: 7230
+- Models total: 7233
 - Plans total: 64
 
 ## Providers
@@ -16,7 +16,7 @@
 | [AI-ROUTER](providers/ai-router.md) | Aggregator | 5 | `providers/ai-router.json` | 2026-08-21T11:27:12Z |
 | [Mixlayer](providers/mixlayer.md) | Inference host | 5 | `providers/mixlayer.json` | 2026-08-21T11:27:12Z |
 | [Qiniu](providers/qiniu-ai.md) | Inference host | 91 | `providers/qiniu-ai.json` | 2026-08-21T11:27:12Z |
-| [Neuralwatt](providers/neuralwatt.md) | Inference host | 22 | `providers/neuralwatt.json` | 2026-08-21T11:27:12Z |
+| [Neuralwatt](providers/neuralwatt.md) | Inference host | 25 | `providers/neuralwatt.json` | 2026-08-27T08:12:48Z |
 | [Cloudflare Workers AI](providers/cloudflare-workers-ai.md) | Inference host | 26 | `providers/cloudflare-workers-ai.json` | 2026-08-27T00:36:47Z |
 | [Meganova](providers/meganova.md) | Inference host | 19 | `providers/meganova.json` | 2026-08-27T00:36:47Z |
 | [Infomaniak](providers/infomaniak.md) | Inference host | 10 | `providers/infomaniak.json` | 2026-08-27T00:36:47Z |
@@ -75,7 +75,7 @@
 | [UnoRouter](providers/unorouter.md) | Aggregator | 23 | `providers/unorouter.json` | 2026-08-27T00:36:47Z |
 | [Crusoe](providers/crusoe.md) | Inference host | 8 | `providers/crusoe.json` | 2026-08-27T00:36:47Z |
 | [DInference](providers/dinference.md) | Inference host | 6 | `providers/dinference.json` | 2026-08-27T00:36:47Z |
-| [OpenAI](providers/openai.md) | First-party | 47 | `providers/openai.json` | 2026-08-27T00:36:47Z |
+| [OpenAI](providers/openai.md) | First-party | 47 | `providers/openai.json` | 2026-08-27T08:12:49Z |
 | [OpenCode Go](providers/opencode-go.md) | subscription | 31 | `providers/opencode-go.json` | 2026-08-27T00:36:47Z |
 | [xAI](providers/xai.md) | First-party | 17 | `providers/xai.json` | 2026-08-27T00:36:47Z |
 | [LMStudio](providers/lmstudio.md) | Inference host | 3 | `providers/lmstudio.json` | 2026-08-27T00:36:47Z |
@@ -196,7 +196,7 @@
 | [Amazon Web Services](providers/aws.md) | Cloud-hosted | 120 | `providers/aws.json` | 2026-08-21T15:59:09Z |
 | [Tabnine](providers/tabnine.md) | subscription | 0 | `providers/tabnine.json` | 2026-08-21T11:40:00Z |
 | [Replit](providers/replit.md) | subscription | 0 | `providers/replit.json` | 2026-08-21T11:40:00Z |
-| [OpenRouter](providers/openrouter.md) | Aggregator | 417 | `providers/openrouter.json` | 2026-08-27T00:36:47Z |
+| [OpenRouter](providers/openrouter.md) | Aggregator | 417 | `providers/openrouter.json` | 2026-08-27T08:12:48Z |
 
 ## Plans
 

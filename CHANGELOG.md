@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.4.9 — 2026-08-27T08:13Z (content update)
+
+- chore: price sync
+
 ## 26.3.9 — 2026-08-27T07:56Z (feature update)
 
 - fix: daily-check falls back to branch + alert issue when PAT push is rejected by branch protection (fine-grained PAT cannot bypass)

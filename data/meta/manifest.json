@@ -1,11 +1,11 @@
 {
-  "schema_version": "26.3.9",
+  "schema_version": "26.4.9",
   "sources": [
     {
       "name": "OpenRouter API",
       "url": "https://openrouter.ai/api/v1/models",
       "auto_sync": true,
-      "last_ok": "2026-08-27T00:36:47Z",
+      "last_ok": "2026-08-27T08:12:48Z",
       "last_error": null
     },
     {
@@ -48,15 +48,123 @@
       "last_error": "parsed 0 models"
     },
     {
+      "name": "check:alibaba",
+      "url": "scripts/checks/alibaba.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-27T08:12:49Z",
+      "last_error": null
+    },
+    {
+      "name": "check:anthropic",
+      "url": "scripts/checks/anthropic.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-27T08:12:49Z",
+      "last_error": null
+    },
+    {
+      "name": "check:deepseek",
+      "url": "scripts/checks/deepseek.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-27T08:12:49Z",
+      "last_error": null
+    },
+    {
+      "name": "check:google",
+      "url": "scripts/checks/google.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-27T08:12:49Z",
+      "last_error": null
+    },
+    {
+      "name": "check:meta",
+      "url": "scripts/checks/meta.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-27T08:12:49Z",
+      "last_error": null
+    },
+    {
+      "name": "check:minimax",
+      "url": "scripts/checks/minimax.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-27T08:12:49Z",
+      "last_error": null
+    },
+    {
+      "name": "check:mistral",
+      "url": "scripts/checks/mistral.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-27T08:12:49Z",
+      "last_error": null
+    },
+    {
+      "name": "check:moonshotai",
+      "url": "scripts/checks/moonshotai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-27T08:12:49Z",
+      "last_error": null
+    },
+    {
+      "name": "check:openai",
+      "url": "scripts/checks/openai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-27T08:12:49Z",
+      "last_error": null
+    },
+    {
+      "name": "check:xai",
+      "url": "scripts/checks/xai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-27T08:12:49Z",
+      "last_error": null
+    },
+    {
       "name": "check:zai",
       "url": "scripts/checks/zai.py",
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-27T07:22:12Z",
+      "last_ok": "2026-08-27T08:12:49Z",
+      "last_error": null
+    },
+    {
+      "name": "check:tencent",
+      "url": "scripts/checks/tencent.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-27T08:12:49Z",
+      "last_error": null
+    },
+    {
+      "name": "check:xiaomi",
+      "url": "scripts/checks/xiaomi.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-08-27T08:12:49Z",
       "last_error": null
     }
   ],
   "coverage": {},
-  "last_daily_check": "2026-08-27T07:22:12Z"
+  "last_daily_check": "2026-08-27T08:12:48Z"
 }

@@ -3,9 +3,9 @@
 > 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/feed/`](../../../data/feed/)。
 > 更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。
 
-- 数据更新时间: 2026-08-27T00:36:47Z
+- 数据更新时间: 2026-08-27T08:12:48Z
 - 覆盖渠道: 185
-- 模型总数: 7230
+- 模型总数: 7233
 - 订阅计划数: 64
 
 ## 供应商列表
@@ -16,7 +16,7 @@
 | [AI-ROUTER](providers/ai-router.md) | 聚合站 | 5 | `providers/ai-router.json` | 2026-08-21T11:27:12Z |
 | [Mixlayer](providers/mixlayer.md) | 推理托管 | 5 | `providers/mixlayer.json` | 2026-08-21T11:27:12Z |
 | [Qiniu](providers/qiniu-ai.md) | 推理托管 | 91 | `providers/qiniu-ai.json` | 2026-08-21T11:27:12Z |
-| [Neuralwatt](providers/neuralwatt.md) | 推理托管 | 22 | `providers/neuralwatt.json` | 2026-08-21T11:27:12Z |
+| [Neuralwatt](providers/neuralwatt.md) | 推理托管 | 25 | `providers/neuralwatt.json` | 2026-08-27T08:12:48Z |
 | [Cloudflare Workers AI](providers/cloudflare-workers-ai.md) | 推理托管 | 26 | `providers/cloudflare-workers-ai.json` | 2026-08-27T00:36:47Z |
 | [Meganova](providers/meganova.md) | 推理托管 | 19 | `providers/meganova.json` | 2026-08-27T00:36:47Z |
 | [Infomaniak](providers/infomaniak.md) | 推理托管 | 10 | `providers/infomaniak.json` | 2026-08-27T00:36:47Z |
@@ -75,7 +75,7 @@
 | [UnoRouter](providers/unorouter.md) | 聚合站 | 23 | `providers/unorouter.json` | 2026-08-27T00:36:47Z |
 | [Crusoe](providers/crusoe.md) | 推理托管 | 8 | `providers/crusoe.json` | 2026-08-27T00:36:47Z |
 | [DInference](providers/dinference.md) | 推理托管 | 6 | `providers/dinference.json` | 2026-08-27T00:36:47Z |
-| [OpenAI](providers/openai.md) | 官方直供 | 47 | `providers/openai.json` | 2026-08-27T00:36:47Z |
+| [OpenAI](providers/openai.md) | 官方直供 | 47 | `providers/openai.json` | 2026-08-27T08:12:49Z |
 | [OpenCode Go](providers/opencode-go.md) | subscription | 31 | `providers/opencode-go.json` | 2026-08-27T00:36:47Z |
 | [xAI](providers/xai.md) | 官方直供 | 17 | `providers/xai.json` | 2026-08-27T00:36:47Z |
 | [LMStudio](providers/lmstudio.md) | 推理托管 | 3 | `providers/lmstudio.json` | 2026-08-27T00:36:47Z |
@@ -196,7 +196,7 @@
 | [Amazon Web Services](providers/aws.md) | 云平台托管 | 120 | `providers/aws.json` | 2026-08-21T15:59:09Z |
 | [Tabnine](providers/tabnine.md) | subscription | 0 | `providers/tabnine.json` | 2026-08-21T11:40:00Z |
 | [Replit](providers/replit.md) | subscription | 0 | `providers/replit.json` | 2026-08-21T11:40:00Z |
-| [OpenRouter](providers/openrouter.md) | 聚合站 | 417 | `providers/openrouter.json` | 2026-08-27T00:36:47Z |
+| [OpenRouter](providers/openrouter.md) | 聚合站 | 417 | `providers/openrouter.json` | 2026-08-27T08:12:48Z |
 
 ## 订阅计划
 

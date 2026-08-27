@@ -6,8 +6,8 @@
 - 官网: https://openrouter.ai
 - 定价页: https://openrouter.ai/models
 - 币种: USD
-- 数据更新时间: 2026-08-27T00:36:47Z
-- 核实时间: 2026-08-27T00:36:47Z
+- 数据更新时间: 2026-08-27T08:12:48Z
+- 核实时间: 2026-08-27T08:12:48Z
 
 共 **417** 个模型。
 
@@ -79,7 +79,7 @@
 | `deepseek/deepseek-v3.2-exp` | — | reasoning | 163.84K | $2.7e-07 | $4.1e-07 | — | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash` | — | reasoning | 1.04858M | $7.952e-08 | $1.5904e-07 | $1.5904e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | 1.31072M | $6e-08 | $1.2e-07 | $1.2e-08 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 1.04858M | $2.2e-07 | $6.6e-07 | $7e-09 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 1.04858M | $4.4e-07 | $1.32e-06 | $1.4e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | 1.04858M | $8.7e-07 | $1.74e-06 | $7.25e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | 1.04858M | $1.122e-06 | $3.366e-06 | $3.74e-08 | — | —/— | — | OpenRouter reseller price |
 | `dots-studio/dots-3-note-preview:free` | — | reasoning | 512K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price |
@@ -182,7 +182,7 @@
 | `moonshotai/kimi-k2` | — | chat | 131.072K | $5.7e-07 | $2.3e-06 | — | — | —/— | — | OpenRouter reseller price |
 | `moonshotai/kimi-k2-0905` | — | chat | 262.144K | $6e-07 | $2.5e-06 | — | — | —/— | — | OpenRouter reseller price |
 | `moonshotai/kimi-k2-thinking` | — | reasoning | 262.144K | $6e-07 | $2.5e-06 | $1.5e-07 | — | —/— | — | OpenRouter reseller price |
-| `moonshotai/kimi-k2.5` | — | reasoning | 262.144K | $4.5e-07 | $2.25e-06 | $7e-08 | — | —/— | — | OpenRouter reseller price |
+| `moonshotai/kimi-k2.5` | — | reasoning | 262.144K | $6e-07 | $3e-06 | $1e-07 | — | —/— | — | OpenRouter reseller price |
 | `moonshotai/kimi-k2.6` | — | reasoning | 262.144K | $9.5e-07 | $4e-06 | $1.6e-07 | — | —/— | — | OpenRouter reseller price |
 | `moonshotai/kimi-k2.7-code` | — | reasoning | 262.144K | $6.7e-07 | $3.4e-06 | $1.9e-07 | — | —/— | — | OpenRouter reseller price |
 | `moonshotai/kimi-k2.7-code:batch` | — | reasoning | 262.144K | $9.5e-07 | $4e-06 | $1.9e-07 | — | —/— | — | OpenRouter reseller price |
@@ -319,7 +319,7 @@
 | `qwen/qwen-2.5-coder-32b-instruct` | — | chat | 32.768K | $6.6e-07 | $1e-06 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen-plus` | — | chat | 1M | $2.6e-07 | $7.8e-07 | $5.2e-08 | $3.25e-07 | —/— | — | OpenRouter reseller price |
 | `qwen/qwen-plus-2025-07-28` | — | reasoning | 1M | $2.6e-07 | $7.8e-07 | — | — | —/— | — | OpenRouter reseller price |
-| `qwen/qwen2.5-vl-72b-instruct` | — | chat | 128K | $8e-07 | $1e-06 | $4e-07 | — | —/— | — | OpenRouter reseller price |
+| `qwen/qwen2.5-vl-72b-instruct` | — | chat | 128K | $2.5e-07 | $7.5e-07 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-14b` | — | reasoning | 131.072K | $1.2e-07 | $2.4e-07 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-235b-a22b` | — | reasoning | 131.072K | $4.55e-07 | $1.82e-06 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-235b-a22b-2507` | — | chat | 262.144K | $8.75e-08 | $3.5e-07 | $1.75e-08 | — | —/— | — | OpenRouter reseller price |
@@ -347,13 +347,13 @@
 | `qwen/qwen3-vl-8b-thinking` | — | reasoning | 131.072K | $1.8e-07 | $2.1e-06 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.5-122b-a10b` | — | reasoning | 262.144K | $2.6e-07 | $2.08e-06 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.5-27b` | — | reasoning | 262.144K | $1.95e-07 | $1.56e-06 | — | — | —/— | — | OpenRouter reseller price |
-| `qwen/qwen3.5-35b-a3b` | — | reasoning | 262.144K | $2.25e-07 | $1.8e-06 | $2.25e-07 | — | —/— | — | OpenRouter reseller price |
+| `qwen/qwen3.5-35b-a3b` | — | reasoning | 262.144K | $2.5e-07 | $1.25e-06 | $2.5e-07 | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.5-397b-a17b` | — | reasoning | 262.144K | $3.9e-07 | $2.34e-06 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.5-9b` | — | reasoning | 262.144K | $1e-07 | $1.5e-07 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.5-flash-02-23` | — | reasoning | 1M | $6.5e-08 | $2.6e-07 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.5-plus-02-15` | — | reasoning | 1M | $2.6e-07 | $1.56e-06 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.5-plus-20260420` | — | reasoning | 1M | $3e-07 | $1.8e-06 | — | $3.75e-07 | —/— | — | OpenRouter reseller price |
-| `qwen/qwen3.6-27b` | — | reasoning | 262.144K | $3.2e-07 | $3.2e-06 | — | — | —/— | — | OpenRouter reseller price |
+| `qwen/qwen3.6-27b` | — | reasoning | 262.144K | $6e-07 | $3.6e-06 | $1.2e-07 | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.6-35b-a3b` | — | reasoning | 262.144K | $1.4e-07 | $1e-06 | $5e-08 | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.6-flash` | — | reasoning | 1M | $1.875e-07 | $1.125e-06 | — | $2.34375e-07 | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.6-max-preview` | — | reasoning | 262.144K | $1.027e-06 | $6.162e-06 | — | $1.28375e-06 | —/— | — | OpenRouter reseller price |
@@ -363,7 +363,7 @@
 | `qwen/qwen3.7-plus` | — | reasoning | 1M | $3.2e-07 | $1.28e-06 | $6.4e-08 | $4e-07 | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.8-2.4t-a95b` | — | reasoning | 1.04858M | $2e-06 | $6e-06 | $2.5e-07 | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.8-27b` | — | reasoning | 1M | $4.25e-07 | $2.55e-06 | $8.5e-08 | $5.3125e-07 | —/— | — | OpenRouter reseller price |
-| `qwen/qwen3.8-flash` | — | reasoning | 1M | $1.6e-07 | $4.7e-07 | $1.6e-08 | $2e-07 | —/— | — | OpenRouter reseller price |
+| `qwen/qwen3.8-flash` | — | reasoning | 1M | $1.5e-07 | $4.7e-07 | $1.6e-08 | $2e-07 | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.8-max` | — | reasoning | 1M | $2e-06 | $6e-06 | $2.5e-07 | $2.5e-06 | —/— | — | OpenRouter reseller price |
 | `rekaai/reka-edge` | — | reasoning | 16.384K | $1e-07 | $1e-07 | — | — | —/— | — | OpenRouter reseller price |
 | `rekaai/reka-flash-3` | — | reasoning | 65.536K | $1e-07 | $2e-07 | — | — | —/— | — | OpenRouter reseller price |
@@ -422,7 +422,7 @@
 | `~anthropic/claude-haiku-latest` | — | reasoning | 200K | $1e-06 | $5e-06 | $1e-07 | $1.25e-06 | —/— | — | OpenRouter reseller price |
 | `~anthropic/claude-opus-latest` | — | reasoning | 1M | $5e-06 | $2.5e-05 | $5e-07 | $6.25e-06 | —/— | — | OpenRouter reseller price |
 | `~anthropic/claude-sonnet-latest` | — | reasoning | 1M | $2e-06 | $1e-05 | $2e-07 | $2.5e-06 | —/— | — | OpenRouter reseller price |
-| `~deepseek/deepseek-v4-flash-latest` | — | reasoning | 1.31072M | $3e-08 | $7.5e-08 | $7e-09 | — | —/— | — | OpenRouter reseller price |
+| `~deepseek/deepseek-v4-flash-latest` | — | reasoning | 1.31072M | $3e-08 | $1e-07 | $7e-09 | — | —/— | — | OpenRouter reseller price |
 | `~google/gemini-flash-latest` | — | reasoning | 1.04858M | $3.75e-07 | $1.875e-06 | $3.75e-08 | $2.08333e-08 | —/— | per-image | OpenRouter reseller price |
 | `~google/gemini-pro-latest` | — | reasoning | 1.04858M | $2e-06 | $1.2e-05 | $2e-07 | $3.75e-07 | —/— | per-image | OpenRouter reseller price |
 | `~moonshotai/kimi-latest` | — | reasoning | 1.04858M | $2.55e-06 | $1.275e-05 | $2.56e-07 | — | —/— | — | OpenRouter reseller price |

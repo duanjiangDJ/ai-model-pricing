@@ -7,8 +7,8 @@
   "homepage": "https://portal.neuralwatt.com/docs",
   "pricing_page": "https://portal.neuralwatt.com/docs",
   "currency": "USD",
-  "updated_at": "2026-08-21T11:27:12Z",
-  "verified_at": "2026-08-21T11:27:12Z",
+  "updated_at": "2026-08-27T08:12:48Z",
+  "verified_at": "2026-08-27T08:12:48Z",
   "models": [
     {
       "id": "Qwen/Qwen3.5-397B-A17B-FP8",
@@ -67,9 +67,55 @@
       "max_output": 65536,
       "pricing": {
         "per_mtok": {
-          "input": 0.104,
-          "output": 0.207,
-          "cache_read": 0.026,
+          "input": 0.14,
+          "output": 0.28,
+          "cache_read": 0.028,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "deepseek-v4-flash-flex",
+      "name": "DeepSeek V4 Flash Flex",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048560,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.091,
+          "output": 0.182,
+          "cache_read": 0.0182,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "name": "DeepSeek V4 Pro",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048560,
+      "max_output": 393216,
+      "pricing": {
+        "per_mtok": {
+          "input": 1,
+          "output": 3,
+          "cache_read": 0.1,
           "cache_write": null
         },
         "batch": null,
@@ -461,6 +507,29 @@
           "input": 0.95,
           "output": 4,
           "cache_read": 0.2375,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen-3.8-27b",
+      "name": "Qwen3.8 27B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262128,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.45,
+          "output": 3.2,
+          "cache_read": 0.25,
           "cache_write": null
         },
         "batch": null,
