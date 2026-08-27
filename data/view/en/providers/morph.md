@@ -6,13 +6,13 @@
 - Homepage: https://docs.morphllm.com/api-reference/introduction
 - Pricing page: https://docs.morphllm.com/api-reference/introduction
 - Currency: USD
-- Data updated: 2026-08-27T00:36:47Z
+- Data updated: 2026-08-27T17:11:11Z
 - Verified: 2026-08-27T00:36:47Z
 
 **3** models in total.
 
-| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| `auto` | — | chat | 32K | $0.85 | $1.55 | — | — | —/— | — | models.dev official list price |
-| `morph-v3-fast` | — | chat | 16K | $0.8 | $1.2 | — | — | —/— | — | models.dev official list price |
-| `morph-v3-large` | — | chat | 32K | $0.9 | $1.9 | — | — | —/— | — | models.dev official list price |
+| Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| `auto` | — | chat | per-token | 32K | $0.85 | $1.55 | — | — | —/— | — | models.dev official list price |
+| `morph-v3-fast` | — | chat | per-token | 16K | $0.8 | $1.2 | — | — | —/— | — | models.dev official list price |
+| `morph-v3-large` | — | chat | per-token | 32K | $0.9 | $1.9 | — | — | —/— | — | models.dev official list price |

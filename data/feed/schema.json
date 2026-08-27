@@ -3,7 +3,7 @@
   "$id": "https://raw.githubusercontent.com/duanjiangDJ/ai-model-pricing/main/data/feed/schema.json",
   "title": "AI Model Pricing Database Schema",
   "description": "Versioned machine-readable schema for the ai-model-pricing database. Validates: index.json, providers/*.json, plans.json, resellers.json, manifest.json, changelog.json",
-  "version": "26.5.9",
+  "version": "26.5.10",
   "$defs": {
     "channel": {
       "type": "string",
@@ -56,18 +56,9 @@
         "cache_write",
         "batch",
         "per_image",
-        "per_audio_second",
-        "per_character",
-        "per_request",
-        "credits",
-        "gpu_second",
-        "gpu_hour",
-        "neuron_second",
         "subscription_monthly",
         "subscription_yearly",
-        "free_tier",
-        "finetune",
-        "provisioned"
+        "free_tier"
       ]
     },
     "planCategory": {
@@ -202,206 +193,25 @@
             ]
           }
         },
-        "per_audio_second": {
+        "promo": {
           "type": [
             "object",
             "null"
           ],
           "properties": {
-            "input": {
-              "type": [
-                "number",
-                "null"
-              ]
-            },
-            "output": {
-              "type": [
-                "number",
-                "null"
-              ]
-            },
-            "unit": {
-              "type": "string",
-              "enum": [
-                "per_second",
-                "per_minute"
-              ]
-            }
-          }
-        },
-        "per_character": {
-          "type": [
-            "object",
-            "null"
-          ],
-          "properties": {
-            "price": {
-              "type": [
-                "number",
-                "null"
-              ]
-            },
-            "unit": {
-              "type": "string",
-              "enum": [
-                "per_char",
-                "per_1k_char"
-              ]
-            }
-          }
-        },
-        "per_request": {
-          "type": [
-            "number",
-            "null"
-          ],
-          "minimum": 0
-        },
-        "credits": {
-          "type": [
-            "object",
-            "null"
-          ],
-          "description": "Credit/points based pricing. Keep original units; convertible flag tells machines whether USD equivalence exists.",
-          "properties": {
-            "unit_name": {
-              "type": "string",
-              "description": "e.g. 'points', 'credits', 'diamonds'"
-            },
-            "topup": {
+            "list_price": {
               "type": "object",
-              "properties": {
-                "amount_usd": {
-                  "type": "number"
-                },
-                "credits": {
-                  "type": "number"
-                }
-              }
+              "description": "Strikethrough/list price before the promo discount (per_mtok shape: {input, output, cache_read})."
             },
-            "model_rate": {
-              "type": "object",
-              "description": "Rate in credit units.",
-              "properties": {
-                "per_mtok_input": {
-                  "type": [
-                    "number",
-                    "null"
-                  ]
-                },
-                "per_mtok_output": {
-                  "type": [
-                    "number",
-                    "null"
-                  ]
-                },
-                "per_request": {
-                  "type": [
-                    "number",
-                    "null"
-                  ]
-                },
-                "per_image": {
-                  "type": [
-                    "number",
-                    "null"
-                  ]
-                }
-              }
-            },
-            "convertible": {
-              "type": "boolean"
-            }
-          }
-        },
-        "gpu": {
-          "type": [
-            "array",
-            "null"
-          ],
-          "items": {
-            "type": "object",
-            "properties": {
-              "sku": {
-                "type": "string"
-              },
-              "price": {
-                "type": "number",
-                "minimum": 0
-              },
-              "unit": {
-                "type": "string",
-                "enum": [
-                  "per_second",
-                  "per_hour"
-                ]
-              }
-            },
-            "required": [
-              "sku",
-              "price",
-              "unit"
-            ]
-          }
-        },
-        "neuron_second": {
-          "type": [
-            "object",
-            "null"
-          ],
-          "properties": {
-            "price_per_m": {
-              "type": "number",
-              "description": "USD per 1M neuron-seconds"
-            },
-            "notes": {
-              "type": "string"
-            }
-          }
-        },
-        "finetune": {
-          "type": [
-            "object",
-            "null"
-          ],
-          "properties": {
-            "training_input": {
+            "ends_at": {
               "type": [
-                "number",
+                "string",
                 "null"
-              ]
-            },
-            "training_output": {
-              "type": [
-                "number",
-                "null"
-              ]
-            },
-            "hosting": {
-              "type": [
-                "number",
-                "null"
-              ]
-            },
-            "unit": {
-              "type": "string",
-              "enum": [
-                "per_mtok",
-                "per_hour"
-              ]
+              ],
+              "description": "Promo expiry timestamp (UTC ISO)."
             }
-          }
-        },
-        "provisioned": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "Typically 'contact_sales' or an hourly USD figure as string.",
-          "enum": [
-            "contact_sales",
-            null
-          ]
+          },
+          "description": "Temporary promotion: the current per_mtok values are the discounted price; list_price holds the pre-promo price."
         }
       },
       "minProperties": 1
@@ -467,6 +277,9 @@
             "string",
             "null"
           ]
+        },
+        "billing_model": {
+          "$ref": "#/$defs/billingModel"
         }
       },
       "required": [
@@ -771,17 +584,45 @@
         "provider_id",
         "item_id"
       ]
+    },
+    "billingModel": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "pay_per_token",
+          "pay_per_image",
+          "subscription_included",
+          "credits",
+          "free",
+          "unknown"
+        ]
+      },
+      "minItems": 1,
+      "description": "How this model is billed. An array because one model can have multiple billing methods (e.g. free tier + pay-per-token). Values: pay_per_token (per-token API incl. cache/batch), pay_per_image, subscription_included (included in a subscription/coding plan), credits (points-based systems), free (no cost), unknown (not yet determined)."
     }
   },
   "providerFile": {
-    "$ref": "#/$defs/provider"
+    "$ref": "#/$defs/provider",
+    "type": "object",
+    "required": [
+      "provider_id",
+      "name",
+      "channel",
+      "category",
+      "currency",
+      "updated_at",
+      "models"
+    ],
+    "properties": {
+      "$ref": "#/$defs/provider"
+    }
   },
   "plansFile": {
     "type": "object",
     "properties": {
       "schema_version": {
         "type": "string",
-        "const": "26.5.9"
+        "const": "26.5.10"
       },
       "updated_at": {
         "type": "string",
@@ -805,7 +646,7 @@
     "properties": {
       "schema_version": {
         "type": "string",
-        "const": "26.5.9"
+        "const": "26.5.10"
       },
       "generated_at": {
         "type": "string",
@@ -853,7 +694,7 @@
     "properties": {
       "schema_version": {
         "type": "string",
-        "const": "26.5.9"
+        "const": "26.5.10"
       },
       "last_full_sync": {
         "type": "string",
@@ -916,7 +757,7 @@
     "properties": {
       "schema_version": {
         "type": "string",
-        "const": "26.5.9"
+        "const": "26.5.10"
       },
       "entries": {
         "type": "array",

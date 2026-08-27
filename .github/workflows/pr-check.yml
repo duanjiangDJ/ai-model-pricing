@@ -25,8 +25,11 @@ jobs:
       - name: Install deps
         run: pip install jsonschema --quiet
 
-      - name: Validate machine data
+      - name: Validate data
         run: python scripts/validate.py
+
+      - name: Run parser tests
+        run: python -m unittest discover -s tests -v
 
       - name: Repository audit
         run: python scripts/audit.py

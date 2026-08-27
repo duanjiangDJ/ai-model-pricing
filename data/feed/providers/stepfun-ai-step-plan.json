@@ -7,7 +7,7 @@
   "homepage": "https://platform.stepfun.ai/docs/en/step-plan/integrations/reasoning-api",
   "pricing_page": "https://platform.stepfun.ai/docs/en/step-plan/integrations/reasoning-api",
   "currency": "USD",
-  "updated_at": "2026-08-27T00:36:47Z",
+  "updated_at": "2026-08-27T17:11:11Z",
   "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
@@ -31,7 +31,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "unknown"
+      ]
     },
     {
       "id": "step-3.5-flash-2603",
@@ -54,7 +57,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "unknown"
+      ]
     },
     {
       "id": "step-3.7-flash",
@@ -77,7 +83,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "unknown"
+      ]
     }
   ],
   "api_base_url": "https://api.stepfun.ai/step_plan/v1"

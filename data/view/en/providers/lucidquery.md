@@ -6,14 +6,14 @@
 - Homepage: https://lucidquery.com/docs
 - Pricing page: https://lucidquery.com/docs
 - Currency: USD
-- Data updated: 2026-08-27T00:36:47Z
+- Data updated: 2026-08-27T17:11:11Z
 - Verified: 2026-08-27T00:36:47Z
 
 **4** models in total.
 
-| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| `lucidnova-rf1-100b` | — | reasoning | 120K | $2 | $5 | — | — | —/— | — | models.dev official list price |
-| `lucidquery-agi-01-frontier` | — | reasoning | 300K | $4.5 | $22 | — | — | —/— | — | models.dev official list price |
-| `lucidquery-agi-01-swift` | — | reasoning | 300K | $2.5 | $15 | — | — | —/— | — | models.dev official list price |
-| `lucidquery-nexus-coder` | — | reasoning | 250K | $2 | $5 | — | — | —/— | — | models.dev official list price |
+| Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| `lucidnova-rf1-100b` | — | reasoning | per-token | 120K | $2 | $5 | — | — | —/— | — | models.dev official list price |
+| `lucidquery-agi-01-frontier` | — | reasoning | per-token | 300K | $4.5 | $22 | — | — | —/— | — | models.dev official list price |
+| `lucidquery-agi-01-swift` | — | reasoning | per-token | 300K | $2.5 | $15 | — | — | —/— | — | models.dev official list price |
+| `lucidquery-nexus-coder` | — | reasoning | per-token | 250K | $2 | $5 | — | — | —/— | — | models.dev official list price |

@@ -45,14 +45,16 @@ data/meta/
 | `per_mtok.reasoning_effort[]` | array | Tiered pricing by reasoning effort (e.g. OpenAI o-series) |
 | `batch.input` / `.output` | number\|null | Batch API price (usually 50%) |
 | `per_image[]` | array | Per-image generation: `[{name, price}]` tiers |
-| `per_audio_second.input/.output` | object | TTS/STT per second/minute |
-| `per_character.price` | object | Per character (with `unit: per_char\|per_1k_char`) |
-| `per_request` | number\|null | Per request |
-| `credits` | object | Points system: `topup{amount_usd, credits}`, `model_rate{per_mtok_input, ...}`, `convertible` |
-| `gpu[]` | array | GPU billing: `[{sku, price, unit: per_second\|per_hour}]` |
-| `neuron_second` | object | Cloudflare neuron seconds |
-| `finetune` | object | Fine-tuning: `training_input/output/hosting` |
-| `provisioned` | "contact_sales"\|null | Provisioned capacity (enterprise custom) |
+| `promo.list_price` | object | Pre-promo price in `per_mtok` shape (`{input, output, cache_read}`) |
+| `promo.ends_at` | string\|null | Promo expiry (UTC ISO); current `per_mtok` values are the discounted price while the promo is live |
+
+**`billing_model`** (on every model, required array): how the model is billed — one model can have
+several methods. Values: `pay_per_token` / `pay_per_image` / `subscription_included` / `credits` /
+`free` / `unknown`. Keep it in sync with `pricing`; run `scripts/annotate_billing.py` to re-annotate.
+
+> Removed on 2026-08-28 (nothing used them): `per_audio_second`, `per_character`, `per_request`,
+> `credits`, `gpu[]`, `neuron_second`, `finetune`, `provisioned`. To add a billing mode back, follow
+> the procedure in AGENTS.md ("To add a billing mode back") — schema fields only exist when backed by data.
 
 **Rules**: `null` = billing method not offered or unknown; missing is **never** represented as `0`. Free models have price `0`.
 
@@ -66,8 +68,8 @@ Each plan has: `id`, `provider_id`, `product`, `plan`, `category` (consumer/codi
 
 ## Model Status (model.status)
 
-`active` (on sale) / `preview` (preview/restricted) / `deprecated` (announced deprecation, still usable) / `retired` (no longer sold) / `superseded` (replaced, kept as a historical entry).
-Outdated models must carry a `status`; human-readable pages mark them prominently with ❌/⚠️/🔁/🧪.
+`online` (available) / `offline` (no longer served — retired/deprecated/superseded; the reason goes in `notes`).
+Human-readable pages mark offline models with ❌.
 
 ## Channel Semantics (channel)
 

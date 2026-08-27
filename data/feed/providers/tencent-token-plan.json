@@ -1,13 +1,13 @@
 {
   "provider_id": "tencent-token-plan",
   "name": "Tencent Token Plan",
-  "channel": "hosted",
+  "channel": "subscription",
   "category": "inference_host",
   "region": "global",
   "homepage": "https://cloud.tencent.com/document/product/1823/130060",
   "pricing_page": "https://cloud.tencent.com/document/product/1823/130060",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-27T17:11:11Z",
   "verified_at": "2026-08-22T09:32:50Z",
   "models": [
     {
@@ -31,7 +31,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing)."
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "billing_model": [
+        "subscription_included"
+      ]
     }
   ],
   "api_base_url": "https://api.lkeap.cloud.tencent.com/plan/v3"

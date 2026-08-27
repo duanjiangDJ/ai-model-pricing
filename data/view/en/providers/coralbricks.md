@@ -6,13 +6,13 @@
 - Homepage: https://www.coralbricks.ai/docs
 - Pricing page: https://www.coralbricks.ai/docs
 - Currency: USD
-- Data updated: 2026-08-27T00:36:47Z
+- Data updated: 2026-08-27T17:11:11Z
 - Verified: 2026-08-27T00:36:47Z
 
 **3** models in total.
 
-| Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| `glm-5.2-fp4` | — | reasoning | 1.04858M | $1.12 | $4.4 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `gpt-oss-120b` | — | reasoning | 131.072K | $0.12 | $0.6 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `kimi-k3` | — | reasoning | 1.04858M | $3 | $15 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| `glm-5.2-fp4` | — | reasoning | per-token + free | 1.04858M | $1.12 | $4.4 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `gpt-oss-120b` | — | reasoning | per-token + free | 131.072K | $0.12 | $0.6 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `kimi-k3` | — | reasoning | per-token + free | 1.04858M | $3 | $15 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

@@ -7,7 +7,7 @@
   "homepage": "https://platform.openai.com/docs/models",
   "pricing_page": "https://openai.com/chatgpt/pricing/",
   "currency": "USD",
-  "updated_at": "2026-08-27T08:12:49Z",
+  "updated_at": "2026-08-27T17:11:11Z",
   "verified_at": "2026-08-27T08:12:49Z",
   "models": [
     {
@@ -32,7 +32,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-3.5-turbo",
@@ -55,7 +58,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "pay_per_token",
+        "free"
+      ]
     },
     {
       "id": "gpt-4",
@@ -79,7 +86,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-4-turbo",
@@ -103,7 +113,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-4.1",
@@ -126,7 +139,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-4.1-mini",
@@ -149,7 +165,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-4.1-nano",
@@ -173,7 +192,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-4o",
@@ -197,7 +219,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-4o-2024-05-13",
@@ -221,7 +246,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-4o-2024-08-06",
@@ -245,7 +273,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-4o-2024-11-20",
@@ -269,7 +300,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-4o-mini",
@@ -293,7 +327,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-5",
@@ -317,7 +354,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-5-mini",
@@ -340,7 +380,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-5-nano",
@@ -363,7 +406,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-5-pro",
@@ -386,7 +432,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-5.1",
@@ -410,7 +459,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-5.2",
@@ -434,7 +486,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-5.2-chat-latest",
@@ -458,7 +513,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-5.2-pro",
@@ -481,7 +539,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-5.3-chat-latest",
@@ -505,7 +566,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-5.3-codex",
@@ -529,7 +593,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-5.3-codex-spark",
@@ -552,7 +619,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-5.4",
@@ -576,7 +646,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-5.4-mini",
@@ -599,7 +672,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-5.4-nano",
@@ -622,7 +698,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-5.4-pro",
@@ -645,7 +724,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-5.5",
@@ -669,7 +751,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-5.5-pro",
@@ -692,7 +777,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-5.6",
@@ -718,7 +806,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30; long context $10/$1/$12.50/$45; batch $2.5/$0.25/$3.125/$15; flex $2.5/$15. Data-residency regions +10% (models released on/after 2026-03-05)."
+      "notes": "Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30; long context $10/$1/$12.50/$45; batch $2.5/$0.25/$3.125/$15; flex $2.5/$15. Data-residency regions +10% (models released on/after 2026-03-05).",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-5.6-luna",
@@ -744,7 +835,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30; long context $10/$1/$12.50/$45; batch $2.5/$0.25/$3.125/$15; flex $2.5/$15. Data-residency regions +10% (models released on/after 2026-03-05). | Official platform.openai.com/docs/pricing (Wayback snapshot, USD/1M, standard tier). Parsed by sync_official.py."
+      "notes": "Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30; long context $10/$1/$12.50/$45; batch $2.5/$0.25/$3.125/$15; flex $2.5/$15. Data-residency regions +10% (models released on/after 2026-03-05). | Official platform.openai.com/docs/pricing (Wayback snapshot, USD/1M, standard tier). Parsed by sync_official.py.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-5.6-sol",
@@ -770,7 +864,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official platform.openai.com/docs/pricing (Wayback snapshot, USD/1M, standard tier). Parsed by check openai."
+      "notes": "Official platform.openai.com/docs/pricing (Wayback snapshot, USD/1M, standard tier). Parsed by check openai.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-5.6-terra",
@@ -796,7 +893,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30; long context $10/$1/$12.50/$45; batch $2.5/$0.25/$3.125/$15; flex $2.5/$15. Data-residency regions +10% (models released on/after 2026-03-05). | Official platform.openai.com/docs/pricing (Wayback snapshot, USD/1M, standard tier). Parsed by sync_official.py."
+      "notes": "Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30; long context $10/$1/$12.50/$45; batch $2.5/$0.25/$3.125/$15; flex $2.5/$15. Data-residency regions +10% (models released on/after 2026-03-05). | Official platform.openai.com/docs/pricing (Wayback snapshot, USD/1M, standard tier). Parsed by sync_official.py.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-image-1",
@@ -820,7 +920,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-image-1-mini",
@@ -844,7 +947,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-image-1.5",
@@ -868,7 +974,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-image-2",
@@ -891,7 +1000,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gpt-realtime-2.1",
@@ -914,7 +1026,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "o1",
@@ -938,7 +1053,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "o1-pro",
@@ -962,7 +1080,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "o3",
@@ -986,7 +1107,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "o3-mini",
@@ -1010,7 +1134,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "o3-pro",
@@ -1033,7 +1160,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "o4-mini",
@@ -1057,7 +1187,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "text-embedding-3-large",
@@ -1080,7 +1213,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "pay_per_token",
+        "free"
+      ]
     },
     {
       "id": "text-embedding-3-small",
@@ -1104,7 +1241,11 @@
         "per_request": null
       },
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use. | Free model (per_mtok = 0).",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token",
+        "free"
+      ]
     },
     {
       "id": "text-embedding-ada-002",
@@ -1127,7 +1268,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "pay_per_token",
+        "free"
+      ]
     }
   ],
   "api_base_url": "https://api.openai.com/v1"

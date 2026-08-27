@@ -7,7 +7,7 @@
   "homepage": "https://docs.zeldoc.ai",
   "pricing_page": "https://docs.zeldoc.ai",
   "currency": "USD",
-  "updated_at": "2026-08-27T00:36:47Z",
+  "updated_at": "2026-08-27T17:11:11Z",
   "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
@@ -31,7 +31,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     }
   ],
   "api_base_url": "https://api.zeldoc.ai/v1"

@@ -16,6 +16,18 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.5.10 — 2026-08-27T17:16Z (feature update)
+
+- **feat(billing_model)**: every model now carries a required `billing_model` array (pay_per_token / pay_per_image / subscription_included / credits / free / unknown) — machine-readable "how is this billed" instead of inferring from null/0/notes. 7,239 models annotated via `scripts/annotate_billing.py` (6467 pay_per_token, 384 free, 114 subscription_included, 55 free+pay_per_token, 219 unknown needing review — those have no price in models.dev, honestly marked). Mixed billing supported (e.g. Gemini free tier + paid).
+- **feat(schema)**: removed 8 unused pricing fields (per_audio_second, per_character, per_request, credits, gpu, neuron_second, finetune, provisioned — 0 usage); added `promo.{list_price, ends_at}`; `billingModel` enum added; priceType enum trimmed 17→8. Fixed `providerFile` being an empty schema (provider data was previously NOT actually validated). Re-added a billing mode procedure documented in AGENTS.md (fields exist only when backed by data).
+- **feat(channel)**: coding-plan/token-plan providers unified to `channel: subscription` (was mixed hosted/subscription across 9 providers).
+- **feat(promo)**: Z.ai GLM-5.3-Flash 50% promo recorded (list $0.15/$0.50/$0.03, ends 2026-09-09).
+- **feat(audit)**: new checks — billing_model presence/enum/pricing-consistency, currency-vs-CNY notes detection, `:free` id suffix exemption for zero-price warnings.
+- **feat(ui)**: view pages gain a "Billing" column (en + zh-CN); subscription channel labels added.
+- **feat(tests)**: `tests/test_parsers.py` with HTML fixtures (deepseek EN page, baidu INT'L page); pr-check.yml now runs them.
+- **feat(ci)**: daily-check now emits a detailed `SYNC_SUMMARY` (provider/model/old→new) used as the CHANGELOG message instead of bare "chore: price sync".
+- **docs**: AGENTS.md (billing_model, add-a-billing-mode procedure, English-comments rule, channel semantics), FORMAT.md (en+zh-CN, incl. model.status online/offline correction), docs/price-types.md (en+zh-CN rewritten to current billing types), README stats refreshed (186 providers, 7,239 models, 67 plans).
+
 ## 26.5.9 — 2026-08-27T15:40Z (content update)
 
 - **fix(currency)**: deepseek.json v4 series corrected from CNY values to official EN-page USD prices (flash $0.44/$1.32, pro $1.32/$3.96, peak tier). baidu.json ernie-5.0 → INT'L page USD ($1.4/$5.6); ernie-5.1/4.5-turbo → null + CNY notes (domestic-only). tencent.json currency → CNY (hunyuan ¥1/¥4, official CNY-only). volcengine.json doubao-2.1-pro/turbo → null + CNY notes (no official USD page).

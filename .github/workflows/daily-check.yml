@@ -30,7 +30,7 @@ jobs:
         run: pip install jsonschema --quiet
 
       - name: Run check
-        run: python scripts/daily_check.py --stale-report /tmp/stale-plans.md
+        run: python scripts/daily_check.py --stale-report /tmp/stale-plans.md | tee /tmp/daily-check.log
 
       - name: Validate data
         run: python scripts/validate.py
@@ -49,8 +49,12 @@ jobs:
           if git diff --quiet; then
             echo "No data changes this run; nothing to merge."
           else
-            # auto-bump version (content update) + changelog (UTC minute precision)
-            python scripts/bump_version.py --content --message "chore: price sync" --date "$(date -u +%Y-%m-%dT%H:%M)"
+            # auto-bump version (content update) with a DETAILED changelog message
+            # summarizing exactly what changed this run (provider/model/old->new),
+            # instead of a bare "chore: price sync".
+            SUMMARY=$(sed -n '/SYNC_SUMMARY_BEGIN/,/SYNC_SUMMARY_END/p' /tmp/daily-check.log | sed '1d;$d' | head -25)
+            [ -z "$SUMMARY" ] && SUMMARY="chore: price sync"
+            python scripts/bump_version.py --content --message "$SUMMARY" --date "$(date -u +%Y-%m-%dT%H:%M)"
             python scripts/build_human.py
             python scripts/validate.py
             git add -A

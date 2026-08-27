@@ -6,12 +6,12 @@
 - 官网: https://inference-docs.cerebras.ai/models/overview
 - 定价页: https://inference-docs.cerebras.ai/models/overview
 - 币种: USD
-- 数据更新时间: 2026-08-27T00:36:47Z
+- 数据更新时间: 2026-08-27T17:11:11Z
 - 核实时间: 2026-08-27T00:36:47Z
 
 共 **2** 个模型。
 
-| 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
-|---|---|---|---|---|---|---|---|---|---|---|
-| `gemma-4-31b` | — | reasoning | 131.072K | $0.99 | $1.49 | — | — | —/— | — | models.dev official list price |
-| `gpt-oss-120b` | — | reasoning | 131.072K | $0.35 | $0.75 | — | — | —/— | — | models.dev official list price |
+| 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| `gemma-4-31b` | — | reasoning | 按量 | 131.072K | $0.99 | $1.49 | — | — | —/— | — | models.dev official list price |
+| `gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.35 | $0.75 | — | — | —/— | — | models.dev official list price |

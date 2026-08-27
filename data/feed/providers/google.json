@@ -7,7 +7,7 @@
   "homepage": "https://ai.google.dev/gemini-api/docs/models",
   "pricing_page": "https://ai.google.dev/gemini-api/docs/pricing",
   "currency": "USD",
-  "updated_at": "2026-08-27T00:36:47Z",
+  "updated_at": "2026-08-27T17:11:11Z",
   "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
@@ -31,7 +31,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "deep-research-preview-04-2026",
@@ -54,7 +57,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-2.0-flash",
@@ -78,7 +84,10 @@
         "per_request": null
       },
       "notes": "DEPRECATED and shut down 2026-06-01 (migrate to newer models). Input $0.10 text/image/video, $0.70 audio; cache $0.025 text/image/video, $0.175 audio; cache storage $1.00/1M tokens/hr. Batch $0.05/$0.20. | Status: retired (offline).",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-2.5-computer-use-preview-10-2025",
@@ -101,7 +110,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-2.5-flash",
@@ -127,7 +139,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Input $0.30 text/image/video, $1.00 audio; cache $0.03 text/image/video, $0.10 audio; storage $1.00/1M tokens/hr. Batch/Flex $0.15/$1.25. Priority input $0.54 (text/image/video) / $1.80 (audio), output $4.50. 1M token context, hybrid reasoning model."
+      "notes": "Input $0.30 text/image/video, $1.00 audio; cache $0.03 text/image/video, $0.10 audio; storage $1.00/1M tokens/hr. Batch/Flex $0.15/$1.25. Priority input $0.54 (text/image/video) / $1.80 (audio), output $4.50. 1M token context, hybrid reasoning model.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-2.5-flash-image",
@@ -150,7 +165,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-2.5-flash-lite",
@@ -176,7 +194,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Input $0.10 text/image/video, $0.30 audio; cache $0.01 text/image/video, $0.03 audio; storage $1.00/1M tokens/hr. Batch/Flex $0.05/$0.20. Priority input $0.18 (text/image/video) / $0.54 (audio), output $0.72."
+      "notes": "Input $0.10 text/image/video, $0.30 audio; cache $0.01 text/image/video, $0.03 audio; storage $1.00/1M tokens/hr. Batch/Flex $0.05/$0.20. Priority input $0.18 (text/image/video) / $0.54 (audio), output $0.72.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-2.5-flash-preview-tts",
@@ -202,7 +223,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier; two-tier models recorded at the <200k tier; audio inputs recorded at text price; image/video models recorded at the images/video token rate). Parsed by check google."
+      "notes": "Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier; two-tier models recorded at the <200k tier; audio inputs recorded at text price; image/video models recorded at the images/video token rate). Parsed by check google.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-2.5-pro",
@@ -228,7 +252,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Two-tier pricing at 200k prompt tokens. <=200k: input $1.25 / output $10.00 / cache $0.125; >200k: input $2.50 / output $15.00 / cache $0.25 (cache storage $4.50/1M tokens/hr). Batch/Flex <=200k: $0.625/$5.00, >200k: $1.25/$7.50. Priority <=200k: $2.25/$18.00, >200k: $4.50/$27.00. Cross-checked with Vertex AI pricing page."
+      "notes": "Two-tier pricing at 200k prompt tokens. <=200k: input $1.25 / output $10.00 / cache $0.125; >200k: input $2.50 / output $15.00 / cache $0.25 (cache storage $4.50/1M tokens/hr). Batch/Flex <=200k: $0.625/$5.00, >200k: $1.25/$7.50. Priority <=200k: $2.25/$18.00, >200k: $4.50/$27.00. Cross-checked with Vertex AI pricing page.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-2.5-pro-preview-tts",
@@ -254,7 +281,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier; two-tier models recorded at the <200k tier; audio inputs recorded at text price; image/video models recorded at the images/video token rate). Parsed by check google."
+      "notes": "Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier; two-tier models recorded at the <200k tier; audio inputs recorded at text price; image/video models recorded at the images/video token rate). Parsed by check google.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-3-flash-preview",
@@ -281,7 +311,10 @@
         "per_request": null
       },
       "notes": "Preview model. Input $0.50 text/image/video, $1.00 audio; cache $0.05 text/image/video, $0.10 audio. No standalone 'Gemini 3' or 'Gemini 3 Pro' chat model exists on the API (Gemini 3 Pro Preview shut down; see gemini-3.1-pro-preview / gemini-3-pro-image). | Status: retired (offline).",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-3-pro-image",
@@ -304,7 +337,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-3-pro-image-preview",
@@ -327,7 +363,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-3.1-flash-image",
@@ -350,7 +389,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-3.1-flash-image-preview",
@@ -373,7 +415,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-3.1-flash-lite",
@@ -399,7 +444,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier; two-tier models recorded at the <200k tier; audio inputs recorded at text price; image/video models recorded at the images/video token rate). Parsed by check google."
+      "notes": "Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier; two-tier models recorded at the <200k tier; audio inputs recorded at text price; image/video models recorded at the images/video token rate). Parsed by check google.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-3.1-flash-lite-image",
@@ -422,7 +470,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-3.1-flash-lite-preview",
@@ -445,7 +496,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-3.1-flash-live-preview",
@@ -468,7 +522,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-3.1-flash-tts-preview",
@@ -494,7 +551,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier; two-tier models recorded at the <200k tier; audio inputs recorded at text price; image/video models recorded at the images/video token rate). Parsed by check google."
+      "notes": "Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier; two-tier models recorded at the <200k tier; audio inputs recorded at text price; image/video models recorded at the images/video token rate). Parsed by check google.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-3.1-pro-preview",
@@ -521,7 +581,10 @@
         "per_request": null
       },
       "notes": "Two-tier pricing at 200k prompt tokens. <=200k: input $2.00 / output $12.00 / cache $0.20; >200k: input $4.00 / output $18.00 / cache $0.40 (cache storage $4.50/1M tokens/hr). Batch/Flex <=200k: $1.00/$6.00, >200k: $2.00/$9.00. Priority <=200k: $3.60/$21.60, >200k: $7.20/$32.40. Preview model (gemini-3.1-pro-preview and -customtools).",
-      "status": "online"
+      "status": "online",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-3.1-pro-preview-customtools",
@@ -547,7 +610,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier; two-tier models recorded at the <200k tier; audio inputs recorded at text price; image/video models recorded at the images/video token rate). Parsed by check google."
+      "notes": "Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier; two-tier models recorded at the <200k tier; audio inputs recorded at text price; image/video models recorded at the images/video token rate). Parsed by check google.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-3.5-flash",
@@ -573,7 +639,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier; two-tier models recorded at the <200k tier; audio inputs recorded at text price; image/video models recorded at the images/video token rate). Parsed by check google."
+      "notes": "Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier; two-tier models recorded at the <200k tier; audio inputs recorded at text price; image/video models recorded at the images/video token rate). Parsed by check google.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-3.5-flash-lite",
@@ -599,7 +668,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier; two-tier models recorded at the <200k tier; audio inputs recorded at text price; image/video models recorded at the images/video token rate). Parsed by check google."
+      "notes": "Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier; two-tier models recorded at the <200k tier; audio inputs recorded at text price; image/video models recorded at the images/video token rate). Parsed by check google.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-3.5-live-translate-preview",
@@ -622,7 +694,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-3.6-flash",
@@ -648,7 +723,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Introductory pricing through 2026-12-31: input $0.75 / output $3.75 / cache $0.075 per 1M tokens. From 2027-01-01: input $1.50 / output $7.50 / cache $0.15. Context cache storage $0.50/1M tokens/hr (intro), then $1.00. Flex = Batch price; Priority = input $1.35 / output $6.75 (intro)."
+      "notes": "Introductory pricing through 2026-12-31: input $0.75 / output $3.75 / cache $0.075 per 1M tokens. From 2027-01-01: input $1.50 / output $7.50 / cache $0.15. Context cache storage $0.50/1M tokens/hr (intro), then $1.00. Flex = Batch price; Priority = input $1.35 / output $6.75 (intro).",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-3.7-flash",
@@ -674,7 +752,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier; two-tier models recorded at the <200k tier; audio inputs recorded at text price; image/video models recorded at the images/video token rate). Parsed by check google."
+      "notes": "Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier; two-tier models recorded at the <200k tier; audio inputs recorded at text price; image/video models recorded at the images/video token rate). Parsed by check google.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-embedding-001",
@@ -700,7 +781,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Text-only embedding model (gemini-embedding-001). Input billed at $0.15/1M tokens; no output token charge. Batch input $0.075. Used by file search tool. | Free model (per_mtok = 0)."
+      "notes": "Text-only embedding model (gemini-embedding-001). Input billed at $0.15/1M tokens; no output token charge. Batch input $0.075. Used by file search tool. | Free model (per_mtok = 0).",
+      "billing_model": [
+        "pay_per_token",
+        "free"
+      ]
     },
     {
       "id": "gemini-embedding-2",
@@ -726,7 +811,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Multimodal embedding model (gemini-embedding-2, endpoint gemini-embedding-2-preview). Input per 1M tokens: text $0.20, image $0.45 (~$0.00012/image), audio $6.50 (~$0.00016/sec), video $12.00 (~$0.00079/frame). Batch: text $0.10, image $0.225, audio $3.25, video $6.00. Listed 'input' field is text price. | Free model (per_mtok = 0)."
+      "notes": "Multimodal embedding model (gemini-embedding-2, endpoint gemini-embedding-2-preview). Input per 1M tokens: text $0.20, image $0.45 (~$0.00012/image), audio $6.50 (~$0.00016/sec), video $12.00 (~$0.00079/frame). Batch: text $0.10, image $0.225, audio $3.25, video $6.00. Listed 'input' field is text price. | Free model (per_mtok = 0).",
+      "billing_model": [
+        "pay_per_token",
+        "free"
+      ]
     },
     {
       "id": "gemini-flash-latest",
@@ -749,7 +838,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-flash-lite-latest",
@@ -772,7 +864,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-omni-flash-preview",
@@ -795,7 +890,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemini-robotics-er-1.6-preview",
@@ -821,7 +919,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier; two-tier models recorded at the <200k tier; audio inputs recorded at text price; image/video models recorded at the images/video token rate). Parsed by check google."
+      "notes": "Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier; two-tier models recorded at the <200k tier; audio inputs recorded at text price; image/video models recorded at the images/video token rate). Parsed by check google.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemma-4-26b-a4b-it",
@@ -844,7 +945,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "gemma-4-31b-it",
@@ -867,7 +971,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "lyria-3-clip-preview",
@@ -890,7 +997,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     },
     {
       "id": "lyria-3-pro-preview",
@@ -913,7 +1023,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "billing_model": [
+        "free"
+      ]
     },
     {
       "id": "veo-3.1-fast-generate-preview",
@@ -936,7 +1049,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "veo-3.1-generate-preview",
@@ -959,7 +1075,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "veo-3.1-lite-generate-preview",
@@ -982,7 +1101,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     }
   ],
   "api_base_url": "https://generativelanguage.googleapis.com/v1beta"

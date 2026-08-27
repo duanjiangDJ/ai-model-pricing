@@ -15,6 +15,7 @@ import argparse
 import json
 import os
 import sys
+from datetime import datetime, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (  # noqa: E402
@@ -22,6 +23,9 @@ from common import (  # noqa: E402
     load_index, load_manifest, now_iso, read_json, save_index, save_manifest, write_json,
 )
 from sync_openrouter import build_model  # noqa: E402
+
+# Run-start marker (UTC, minute precision) used to detect entries created by THIS run.
+_RUN_STARTED_ISO = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M")
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/models"
 
@@ -264,7 +268,40 @@ def main():
     save_manifest(manifest)
 
     print("SUMMARY " + json.dumps(summary, ensure_ascii=False))
+    print_sync_summary()
     return 0
+
+
+def print_sync_summary():
+    """Print a machine-extractable, human-readable summary of changes made by THIS
+    run (entries prepended to changelog.json since the run started), so the CI
+    workflow can use it as the CHANGELOG message instead of a bare 'chore: price sync'."""
+    cl = load_changelog()
+    entries = cl if isinstance(cl, list) else cl.get("entries", [])
+    fresh = [e for e in entries if e.get("date", "")[:16] >= _RUN_STARTED_ISO]
+    if not fresh:
+        print("SYNC_SUMMARY_BEGIN")
+        print("No data changes this run.")
+        print("SYNC_SUMMARY_END")
+        return
+    lines = ["price sync ({} change{}):".format(len(fresh), "" if len(fresh) == 1 else "s")]
+    by_scope = {}
+    for e in fresh:
+        key = f"{e.get('provider_id', '?')} {e.get('kind', '?')}"
+        by_scope.setdefault(key, []).append(e)
+    for key in sorted(by_scope):
+        items = by_scope[key]
+        detail = "; ".join(
+            "{}: {}->{}".format(i.get("item_id", "?"), i.get("old", "?"), i.get("new", "?"))[:90]
+            for i in items[:5]
+        )
+        lines.append(f"- {key} x{len(items)}: {detail}")
+    if len(fresh) > 30:
+        lines.append(f"- ... and {len(fresh) - 30} more")
+    print("SYNC_SUMMARY_BEGIN")
+    for l in lines:
+        print(l)
+    print("SYNC_SUMMARY_END")
 
 
 if __name__ == "__main__":

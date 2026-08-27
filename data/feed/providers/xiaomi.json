@@ -7,7 +7,7 @@
   "homepage": "https://platform.xiaomimimo.com/#/docs",
   "pricing_page": "https://mimo.mi.com/docs/price/pay-as-you-go",
   "currency": "USD",
-  "updated_at": "2026-08-27T00:36:47Z",
+  "updated_at": "2026-08-27T17:11:11Z",
   "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
@@ -32,7 +32,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price | Officially deprecated 2026-06-30 (MiMo-V2 series retired); prices invalid.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "mimo-v2-omni",
@@ -56,7 +59,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price | Officially deprecated 2026-06-30 (MiMo-V2 series retired); prices invalid.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "mimo-v2-pro",
@@ -80,7 +86,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price | Officially deprecated 2026-06-30 (MiMo-V2 series retired); prices invalid.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "mimo-v2-tts",
@@ -104,7 +113,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Officially deprecated 2026-06-30 (MiMo-V2 series retired); prices invalid.",
-      "status": "offline"
+      "status": "offline",
+      "billing_model": [
+        "subscription_included"
+      ]
     },
     {
       "id": "mimo-v2.5",
@@ -128,7 +140,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price | Official pay-as-you-go (USD/1M tokens, mimo.mi.com/docs/price/pay-as-you-go).",
-      "status": "online"
+      "status": "online",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "mimo-v2.5-pro",
@@ -152,7 +167,10 @@
         "per_request": null
       },
       "notes": "models.dev official list price | Official pay-as-you-go (USD/1M tokens, mimo.mi.com/docs/price/pay-as-you-go).",
-      "status": "online"
+      "status": "online",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "mimo-v2.5-pro-ultraspeed",
@@ -175,7 +193,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "mimo-v2.5-tts",
@@ -198,7 +219,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "billing_model": [
+        "subscription_included"
+      ]
     },
     {
       "id": "mimo-v2.5-tts-voiceclone",
@@ -221,7 +245,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "billing_model": [
+        "subscription_included"
+      ]
     },
     {
       "id": "mimo-v2.5-tts-voicedesign",
@@ -244,7 +271,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing)."
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "billing_model": [
+        "subscription_included"
+      ]
     }
   ],
   "api_base_url": "https://api.xiaomimimo.com/v1",

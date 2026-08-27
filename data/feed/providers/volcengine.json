@@ -7,7 +7,7 @@
   "homepage": "https://www.volcengine.com/product/ark",
   "pricing_page": "https://www.volcengine.com/docs/82379",
   "currency": "USD",
-  "updated_at": "2026-08-27T15:37:35.738047Z",
+  "updated_at": "2026-08-27T17:11:11Z",
   "verified_at": "2026-08-27T15:37:35.738047Z",
   "models": [
     {
@@ -31,7 +31,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "deepseek-v4-pro-ga-260813",
@@ -54,7 +57,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "doubao-2.1-pro",
@@ -74,7 +80,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Volcengine domestic CNY pricing only (input ¥6/1M, output ¥30/1M, cache-hit ¥1.2/1M); no official USD price page — left null (was previously mislabeled as USD)."
+      "notes": "Volcengine domestic CNY pricing only (input ¥6/1M, output ¥30/1M, cache-hit ¥1.2/1M); no official USD price page — left null (was previously mislabeled as USD).",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "doubao-2.1-turbo",
@@ -94,7 +103,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Volcengine domestic CNY pricing only (input ¥3/1M, output ¥15/1M, cache-hit ¥0.6/1M (half of 2.1 Pro)); no official USD price page — left null (was previously mislabeled as USD)."
+      "notes": "Volcengine domestic CNY pricing only (input ¥3/1M, output ¥15/1M, cache-hit ¥0.6/1M (half of 2.1 Pro)); no official USD price page — left null (was previously mislabeled as USD).",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "doubao-seed-1-6-251015",
@@ -117,7 +129,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "doubao-seed-1-6-flash-250828",
@@ -140,7 +155,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "doubao-seed-1-6-vision-250815",
@@ -163,7 +181,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "doubao-seed-1-8-251228",
@@ -186,7 +207,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "doubao-seed-2-0-code-preview-260215",
@@ -209,7 +233,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "doubao-seed-2-0-lite-260428",
@@ -232,7 +259,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "doubao-seed-2-0-mini-260428",
@@ -255,7 +285,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "doubao-seed-2-0-pro-260215",
@@ -278,7 +311,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "doubao-seed-2-1-pro-260628",
@@ -301,7 +337,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "doubao-seed-2-1-turbo-260628",
@@ -324,7 +363,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "doubao-seed-character-260628",
@@ -347,7 +389,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "doubao-seed-evolving",
@@ -370,7 +415,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     },
     {
       "id": "glm-5-2-260617",
@@ -393,7 +441,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ]
     }
   ],
   "api_base_url": "https://ark.cn-beijing.volces.com/api/v3"

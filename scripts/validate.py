@@ -51,8 +51,6 @@ def main():
 
     validate(os.path.join(FEED, "index.json"), "indexFile", "index.json")
     validate(os.path.join(FEED, "plans.json"), "plansFile", "plans.json")
-    if os.path.exists(os.path.join(FEED, "resellers.json")):
-        validate(os.path.join(FEED, "resellers.json"), "plansFile", "resellers.json")
     validate(os.path.join(META, "manifest.json"), "manifestFile", "manifest.json")
     validate(os.path.join(META, "changelog.json"), "changelogFile", "changelog.json")
 
