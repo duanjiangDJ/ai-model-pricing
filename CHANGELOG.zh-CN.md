@@ -16,6 +16,10 @@
 
 ---
 
+## 26.3.8 — 2026-08-27T07:39Z（功能更新）
+
+- 修复：daily-check 工作流 YAML 语法错误（issue 正文缩进）；自动合并前先对齐最新 main（stash → rebase → stash pop），避免基于旧基线的 rebase 冲突；GH_PAT 自动合并路径已验证可用
+
 ## 26.3.7 — 2026-08-27T07:22Z（功能更新）
 
 - 修复：zai 官方检查现可解析 "Latest Models" 章节并自动添加官方新模型（如 GLM-5.3-Flash 促销价直取）；router 自动刷新 index 计数；daily-check 在无法创建 PR 时改为发 issue 告警并使步骤失败（不再静默丢弃，main 不再静默停更）

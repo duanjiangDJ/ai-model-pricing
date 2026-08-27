@@ -39,11 +39,16 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          git config user.name "price-sync-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # The checkout runs on the trigger-time SHA; align the base with the latest main
+          # first (check results are stashed, then reapplied on top of the fresh base).
+          git stash -u 2>/dev/null || true
+          git pull --rebase origin main 2>/dev/null || git reset --hard origin/main
+          git stash pop 2>/dev/null || true
           if git diff --quiet; then
             echo "No data changes this run; nothing to merge."
           else
-            git config user.name "price-sync-bot"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             # auto-bump version (content update) + changelog (UTC minute precision)
             python scripts/bump_version.py --content --message "chore: price sync" --date "$(date -u +%Y-%m-%dT%H:%M)"
             python scripts/build_human.py
@@ -75,10 +80,10 @@ jobs:
                   echo "::error::PR creation failed. Branch $BRANCH was pushed but main is NOT updated. Add a GH_PAT secret (repo admin) to enable auto-merge, or enable 'Allow GitHub Actions to create and approve pull requests' in Settings -> Actions -> General."
                   gh issue create --title "⚠️ 价格同步 PR 创建失败（main 未更新）" \
                     --body "本次价格同步检测到数据变化并已推送到分支 \`$BRANCH\`，但 GitHub Actions 没有权限创建 PR（仓库未开启 'Allow GitHub Actions to create and approve pull requests'，且未配置 \`GH_PAT\` secret），因此 **main 未更新**。
-
-修复方式（任选其一）：
-1. 在仓库 Settings → Secrets and variables → Actions 添加 \`GH_PAT\`（仓库 admin 权限的 Personal Access Token）→ 之后自动合并到 main；
-2. 或 Settings → Actions → General → 勾选 *Allow GitHub Actions to create and approve pull requests* → 之后会改为创建 PR 等待合并。"
+                    
+                    修复方式（任选其一）：
+                    1. 在仓库 Settings → Secrets and variables → Actions 添加 \`GH_PAT\`（仓库 admin 权限的 Personal Access Token）→ 之后自动合并到 main；
+                    2. 或 Settings → Actions → General → 勾选 *Allow GitHub Actions to create and approve pull requests* → 之后会改为创建 PR 等待合并。"
                     --label "bot" 2>/dev/null || true
                   exit 1
                 fi

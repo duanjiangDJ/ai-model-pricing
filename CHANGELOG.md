@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.3.8 — 2026-08-27T07:39Z (feature update)
+
+- fix: daily-check workflow YAML fix (issue-body indentation) + auto-merge aligns base with latest main before commit (stash/rebase/stash-pop) to avoid rebase conflicts; GH_PAT auto-merge verified working
+
 ## 26.3.7 — 2026-08-27T07:22Z (feature update)
 
 - fix: zai check parses Latest Models section + auto-adds new official models; router refreshes index counts; daily-check PR-failure now alerts via issue and fails loudly
