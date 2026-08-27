@@ -7,8 +7,8 @@
   "homepage": "https://api-docs.deepseek.com/quick_start/pricing",
   "pricing_page": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
   "currency": "USD",
-  "updated_at": "2026-08-27T00:36:48Z",
-  "verified_at": "2026-08-27T00:36:48Z",
+  "updated_at": "2026-08-27T15:37:35.738047Z",
+  "verified_at": "2026-08-27T15:37:35.738047Z",
   "models": [
     {
       "id": "deepseek-chat",
@@ -69,9 +69,9 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 3.0,
-          "output": 9.0,
-          "cache_read": 0.1,
+          "input": 0.44,
+          "output": 1.32,
+          "cache_read": 0.014,
           "cache_write": null
         },
         "batch": null,
@@ -79,7 +79,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official page (CNY/1M tokens, peak tier; off-peak = 50%, peak = Beijing 9:00-12:00 / 14:00-18:00). Parsed by check deepseek."
+      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00/06:00-10:00 UTC). Corrected from CNY to official USD EN pricing on 2026-08-27."
     },
     {
       "id": "deepseek-v4-flash-vision-exp",
@@ -89,9 +89,9 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 3.0,
-          "output": 9.0,
-          "cache_read": 0.1,
+          "input": 0.44,
+          "output": 1.32,
+          "cache_read": 0.014,
           "cache_write": null
         },
         "batch": null,
@@ -99,7 +99,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official page (CNY/1M tokens, peak tier; off-peak = 50%, peak = Beijing 9:00-12:00 / 14:00-18:00). Parsed by check deepseek.",
+      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00/06:00-10:00 UTC). Corrected from CNY to official USD EN pricing on 2026-08-27.",
       "status": "online"
     },
     {
@@ -113,9 +113,9 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 9.0,
-          "output": 27.0,
-          "cache_read": 0.3,
+          "input": 1.32,
+          "output": 3.96,
+          "cache_read": 0.044,
           "cache_write": null
         },
         "batch": null,
@@ -123,7 +123,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official page (CNY/1M tokens, peak tier; off-peak = 50%, peak = Beijing 9:00-12:00 / 14:00-18:00). Parsed by check deepseek."
+      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00/06:00-10:00 UTC). Corrected from CNY to official USD EN pricing on 2026-08-27."
     }
   ],
   "api_base_url": "https://api.deepseek.com"

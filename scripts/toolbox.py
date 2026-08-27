@@ -109,9 +109,12 @@ def save_provider(provider):
     write_json(os.path.join(PROVIDERS, f"{provider['provider_id']}.json"), provider)
 
 
-def update_model_prices(provider, updates, now, source):
+def update_model_prices(provider, updates, now, source, surge_factor=5.0):
     """Apply {model_id: {per_mtok: {...}, batch: {...}, notes: str}} updates.
-    Only non-None values overwrite. Returns list of changed model ids."""
+    Only non-None values overwrite. Returns list of changed model ids.
+    A price change of more than surge_factor relative to the stored value is treated
+    as a likely parsing/layout error: the field is skipped with a warning.
+    """
     by_id = model_map(provider)
     changed = []
     for mid, data in updates.items():
@@ -121,9 +124,13 @@ def update_model_prices(provider, updates, now, source):
         per = data.get("per_mtok") or {}
         pm = m.setdefault("pricing", {}).setdefault("per_mtok", {})
         for k in ("input", "output", "cache_read", "cache_write"):
-            if per.get(k) is not None and pm.get(k) != per[k]:
-                pm[k] = per[k]
-                changed.append(mid)
+            if per.get(k) is None or pm.get(k) == per[k]:
+                continue
+            if pm.get(k) and per[k] and abs(per[k] - pm[k]) / max(abs(pm[k]), 1e-9) > surge_factor:
+                print(f"  SKIP {mid}.{k}: {pm.get(k)} -> {per[k]} looks like a parsing error (>{surge_factor}x surge); keeping old value")
+                continue
+            pm[k] = per[k]
+            changed.append(mid)
         if data.get("batch"):
             if m["pricing"].get("batch") != data["batch"]:
                 m["pricing"]["batch"] = data["batch"]

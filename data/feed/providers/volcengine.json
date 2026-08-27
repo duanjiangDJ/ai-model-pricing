@@ -7,8 +7,8 @@
   "homepage": "https://www.volcengine.com/product/ark",
   "pricing_page": "https://www.volcengine.com/docs/82379",
   "currency": "USD",
-  "updated_at": "2026-08-27T00:36:47Z",
-  "verified_at": "2026-08-27T00:36:47Z",
+  "updated_at": "2026-08-27T15:37:35.738047Z",
+  "verified_at": "2026-08-27T15:37:35.738047Z",
   "models": [
     {
       "id": "deepseek-v4-flash-ga-260731",
@@ -64,9 +64,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 6.0,
-          "output": 30.0,
-          "cache_read": 1.2,
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -74,7 +74,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Released 2026-06-23; official disclosure: input ¥6/1M, output ¥30/1M, cache hit ¥1.2/1M. Priced in CNY."
+      "notes": "Volcengine domestic CNY pricing only (input ¥6/1M, output ¥30/1M, cache-hit ¥1.2/1M); no official USD price page — left null (was previously mislabeled as USD)."
     },
     {
       "id": "doubao-2.1-turbo",
@@ -84,9 +84,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 3.0,
-          "output": 15.0,
-          "cache_read": 0.6,
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -94,7 +94,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Officially stated as 'price halved again' relative to 2.1 Pro; recorded at half of Pro price (pending precise verification on the official pricing page). Priced in CNY."
+      "notes": "Volcengine domestic CNY pricing only (input ¥3/1M, output ¥15/1M, cache-hit ¥0.6/1M (half of 2.1 Pro)); no official USD price page — left null (was previously mislabeled as USD)."
     },
     {
       "id": "doubao-seed-1-6-251015",

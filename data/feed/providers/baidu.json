@@ -7,8 +7,8 @@
   "homepage": "https://qianfan.cloud.baidu.com",
   "pricing_page": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya",
   "currency": "USD",
-  "updated_at": "2026-08-21T13:59:17Z",
-  "verified_at": "2026-08-21T13:59:17Z",
+  "updated_at": "2026-08-27T15:37:35.738047Z",
+  "verified_at": "2026-08-27T15:37:35.738047Z",
   "models": [
     {
       "id": "ernie-5.1",
@@ -18,8 +18,8 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 4.0,
-          "output": 18.0,
+          "input": null,
+          "output": null,
           "cache_read": null,
           "cache_write": null
         },
@@ -28,7 +28,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official price: input ≤32k ¥4/1M tokens, output ¥18/1M; 32k<input≤128k: ¥6/¥22 per 1M. Priced in CNY."
+      "notes": "Domestic-only model on Baidu Qianfan (CNY pricing: ¥4/1M input, ¥18/1M output (≤32k); ¥6/¥22 (32k-128k)); no official USD price on the INT'L page — left null."
     },
     {
       "id": "ernie-5.0",
@@ -38,8 +38,8 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 6.0,
-          "output": 24.0,
+          "input": 1.4,
+          "output": 5.6,
           "cache_read": null,
           "cache_write": null
         },
@@ -48,7 +48,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official price: input ¥6/1M, output ¥24/1M; 32k+ input ¥10/output ¥40 per 1M. Priced in CNY."
+      "notes": "Official Baidu Qianfan INT'L pricing page (USD/1M tokens): input $1.4, output $5.6 (pay-as-you-go)."
     },
     {
       "id": "ernie-4.5-turbo",
@@ -58,9 +58,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 0.8,
-          "output": 3.2,
-          "cache_read": 0.2,
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": {
@@ -71,7 +71,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official price: input ¥0.8/1M, cache hit ¥0.2/1M, output ¥3.2/1M; batch inference ¥0.32/¥1.28. Priced in CNY."
+      "notes": "Domestic-only model on Baidu Qianfan (CNY pricing: ¥0.8/1M input, ¥3.2/1M output, cache-hit ¥0.2/1M); no official USD price on the INT'L page — left null."
     }
   ],
   "api_base_url": "https://qianfan.baidubce.com/v2"

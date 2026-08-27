@@ -1,6 +1,60 @@
 {
-  "schema_version": "26.4.9",
+  "schema_version": "26.5.9",
   "entries": [
+    {
+      "date": "2026-08-27T15:40Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "deepseek",
+      "item_id": "deepseek-v4-flash,deepseek-v4-pro,deepseek-v4-flash-vision-exp",
+      "field": "pricing",
+      "old": "CNY values mislabeled as USD",
+      "new": "USD from official EN pricing page (peak tier)",
+      "source": "https://api-docs.deepseek.com/quick_start/pricing"
+    },
+    {
+      "date": "2026-08-27T15:40Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "baidu",
+      "item_id": "ernie-5.0",
+      "field": "pricing",
+      "old": "CNY ¥6/¥24",
+      "new": "USD $1.4/$5.6 from Qianfan INT'L page",
+      "source": "https://intl.cloud.baidu.com/en/doc/qianfan/s/Jm8r1826a-intl-en"
+    },
+    {
+      "date": "2026-08-27T15:40Z",
+      "kind": "update",
+      "scope": "provider",
+      "provider_id": "tencent",
+      "item_id": "tencent",
+      "field": "currency",
+      "old": "USD",
+      "new": "CNY + currency_usd_note (official CNY-only pricing)",
+      "source": "manual review 2026-08-27"
+    },
+    {
+      "date": "2026-08-27T15:40Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "volcengine",
+      "item_id": "doubao-2.1-pro,doubao-2.1-turbo",
+      "field": "pricing",
+      "old": "CNY values mislabeled as USD",
+      "new": "null + CNY notes (no official USD price)",
+      "source": "manual review 2026-08-27"
+    },
+    {
+      "date": "2026-08-27T15:40Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "zai-coding-plan",
+      "item_id": "zai-coding-plan",
+      "field": "catalog",
+      "new": "GLM Coding Plan provider with glm-5.3-flash + credit multipliers",
+      "source": "https://docs.z.ai/devpack/overview"
+    },
     {
       "date": "2026-08-27T08:12:49Z",
       "kind": "update",

@@ -16,6 +16,14 @@
 
 ---
 
+## 26.5.9 — 2026-08-27T15:40Z（内容更新）
+
+- **fix(货币)**: deepseek.json v4 系列由 CNY 数值修正为官方英文页 USD 价格（flash $0.44/$1.32、pro $1.32/$3.96，峰值档）。baidu.json ernie-5.0 → 国际站 USD（$1.4/$5.6）；ernie-5.1/4.5-turbo → null + CNY 说明（仅国内提供）。tencent.json currency → CNY（混元 ¥1/¥4，官方仅 CNY 定价）。volcengine.json doubao-2.1-pro/turbo → null + CNY 说明（无官方 USD 页）。
+- **fix(解析器)**: deepseek 解析器改抓官方英文定价页（USD），加结构断言（必须 18 个 $价格，否则报错拒绝写入部分数据）。baidu 解析器重写适配千帆国际站（USD, $/M tokens）。
+- **feat(护栏)**: 价格突变护栏（变化 >5x 视为解析错误，跳过该字段并告警）接入 toolbox.update_model_prices 与 sync_official.apply_to_provider。OpenRouter 目录重写加保护（远端 < 本地 50% 拒绝覆盖）。
+- **fix(CI)**: pr-check.yml 核心文件保护路径由 data/machine/ 修正为 data/feed/。
+- **feat(数据)**: 新增 provider zai-coding-plan（GLM-5.3-Flash + GLM-5.3 + 路由规则、积分倍率、非高峰 50% 规则）+ 3 个订阅计划条目（Lite/Pro/Max，积分制，$18/$72/$160）。
+
 ## 26.4.9 — 2026-08-27T08:13Z（内容更新）
 
 - chore: price sync

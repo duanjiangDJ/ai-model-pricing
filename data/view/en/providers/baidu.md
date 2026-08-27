@@ -6,13 +6,13 @@
 - Homepage: https://qianfan.cloud.baidu.com
 - Pricing page: https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya
 - Currency: USD
-- Data updated: 2026-08-21T13:59:17Z
-- Verified: 2026-08-21T13:59:17Z
+- Data updated: 2026-08-27T15:37:35.738047Z
+- Verified: 2026-08-27T15:37:35.738047Z
 
 **3** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
-| `ernie-5.1` | — | chat | 128K | $4 | $18 | — | — | —/— | — | Official price: input ≤32k ¥4/1M tokens, output ¥18/1M; 32k<input≤128k: ¥6/¥2… |
-| `ernie-5.0` | — | reasoning | 128K | $6 | $24 | — | — | —/— | — | Official price: input ¥6/1M, output ¥24/1M; 32k+ input ¥10/output ¥40 per 1M.… |
-| `ernie-4.5-turbo` | — | chat | 128K | $0.8 | $3.2 | $0.2 | — | $0.32/$1.28 | — | Official price: input ¥0.8/1M, cache hit ¥0.2/1M, output ¥3.2/1M; batch infer… |
+| `ernie-5.1` | — | chat | 128K | — | — | — | — | —/— | — | Domestic-only model on Baidu Qianfan (CNY pricing: ¥4/1M input, ¥18/1M output… |
+| `ernie-5.0` | — | reasoning | 128K | $1.4 | $5.6 | — | — | —/— | — | Official Baidu Qianfan INT'L pricing page (USD/1M tokens): input $1.4, output… |
+| `ernie-4.5-turbo` | — | chat | 128K | — | — | — | — | $0.32/$1.28 | — | Domestic-only model on Baidu Qianfan (CNY pricing: ¥0.8/1M input, ¥3.2/1M out… |

@@ -5,9 +5,9 @@
 - API 地址: `https://api.hunyuan.cloud.tencent.com/v1`
 - 官网: https://hunyuan.tencent.com
 - 定价页: https://cloud.tencent.com/document/product/1759/127342
-- 币种: USD
-- 数据更新时间: 2026-08-21T11:38:22Z
-- 核实时间: 2026-08-21T00:00:00Z
+- 币种: CNY（非 USD，注意换算）
+- 数据更新时间: 2026-08-27T15:37:35.738047Z
+- 核实时间: 2026-08-27T15:37:35.738047Z
 
 共 **1** 个模型。
 

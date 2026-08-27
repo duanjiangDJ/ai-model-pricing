@@ -16,6 +16,14 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.5.9 — 2026-08-27T15:40Z (content update)
+
+- **fix(currency)**: deepseek.json v4 series corrected from CNY values to official EN-page USD prices (flash $0.44/$1.32, pro $1.32/$3.96, peak tier). baidu.json ernie-5.0 → INT'L page USD ($1.4/$5.6); ernie-5.1/4.5-turbo → null + CNY notes (domestic-only). tencent.json currency → CNY (hunyuan ¥1/¥4, official CNY-only). volcengine.json doubao-2.1-pro/turbo → null + CNY notes (no official USD page).
+- **fix(parsers)**: deepseek parser now fetches the official EN pricing page (USD) with a structure assertion (18 $prices required — fails loudly instead of writing partial data). baidu parser rewritten for the Qianfan INT'L page (USD, $/M tokens).
+- **feat(guardrails)**: price-surge guard (>5x change treated as parsing error, field skipped with warning) in both toolbox.update_model_prices and sync_official.apply_to_provider. OpenRouter catalog rewrite guarded (remote < 50% of local size → refuse overwrite).
+- **fix(ci)**: pr-check.yml core-file protection paths corrected from data/machine/ to data/feed/.
+- **feat(data)**: new provider zai-coding-plan (GLM-5.3-Flash + GLM-5.3 + routing rules, credit multipliers, off-peak 50% rule) + 3 plan entries (Lite/Pro/Max, credits-based, $18/$72/$160).
+
 ## 26.4.9 — 2026-08-27T08:13Z (content update)
 
 - chore: price sync

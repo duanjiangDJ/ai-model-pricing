@@ -6,8 +6,8 @@
 - Homepage: https://www.volcengine.com/product/ark
 - Pricing page: https://www.volcengine.com/docs/82379
 - Currency: USD
-- Data updated: 2026-08-27T00:36:47Z
-- Verified: 2026-08-27T00:36:47Z
+- Data updated: 2026-08-27T15:37:35.738047Z
+- Verified: 2026-08-27T15:37:35.738047Z
 
 **17** models in total.
 
@@ -15,8 +15,8 @@
 |---|---|---|---|---|---|---|---|---|---|---|
 | `deepseek-v4-flash-ga-260731` | — | reasoning | 1M | $0.4453 | $1.3359 | $0.01484 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-pro-ga-260813` | — | reasoning | 1M | $1.3359 | $4.00771 | $0.04453 | — | —/— | — | models.dev official list price |
-| `doubao-2.1-pro` | — | chat | — | $6 | $30 | $1.2 | — | —/— | — | Released 2026-06-23; official disclosure: input ¥6/1M, output ¥30/1M, cache h… |
-| `doubao-2.1-turbo` | — | chat | — | $3 | $15 | $0.6 | — | —/— | — | Officially stated as 'price halved again' relative to 2.1 Pro; recorded at ha… |
+| `doubao-2.1-pro` | — | chat | — | — | — | — | — | —/— | — | Volcengine domestic CNY pricing only (input ¥6/1M, output ¥30/1M, cache-hit ¥… |
+| `doubao-2.1-turbo` | — | chat | — | — | — | — | — | —/— | — | Volcengine domestic CNY pricing only (input ¥3/1M, output ¥15/1M, cache-hit ¥… |
 | `doubao-seed-1-6-251015` | — | reasoning | 256K | $0.11875 | $1.18747 | $0.02375 | — | —/— | — | models.dev official list price |
 | `doubao-seed-1-6-flash-250828` | — | chat | 256K | $0.02227 | $0.22265 | $0.00445 | — | —/— | — | models.dev official list price |
 | `doubao-seed-1-6-vision-250815` | — | chat | 256K | $0.11875 | $1.18747 | $0.02375 | — | —/— | — | models.dev official list price |
