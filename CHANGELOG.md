@@ -16,6 +16,11 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.6.11 — 2026-08-27T19:41Z (content update)
+
+- price sync (2 changes):
+- test-prov update x2: m1: ?->{'models': 1}; m1: ?->{'models': 1}
+
 ## 26.5.11 — 2026-08-27T17:38Z (feature update)
 
 - **fix(regression, HIGH)**: `sync_openrouter.py` / `sync_modelsdev.py` did not emit the new required `billing_model` field — the next daily auto-sync would have STRIPPED billing_model from every OpenRouter/models.dev model and tripped the audit "missing billing_model" fail, breaking the auto-merge workflow. Both `build_model` functions now classify billing (pay_per_token / pay_per_image / free / unknown) and no longer write the removed `per_request`/`per_audio_second` fields (schema-dead). Verified by running a real sync: all 417 OpenRouter models annotated correctly (388 pay_per_token, 29 pay_per_image+pay_per_token).

@@ -16,6 +16,11 @@
 
 ---
 
+## 26.6.11 — 2026-08-27T19:41Z（内容更新）
+
+- price sync (2 changes):
+- test-prov update x2: m1: ?->{'models': 1}; m1: ?->{'models': 1}
+
 ## 26.5.11 — 2026-08-27T17:38Z（功能更新）
 
 - **fix(回归, HIGH)**：`sync_openrouter.py` / `sync_modelsdev.py` 未生成新增必填字段 `billing_model`——下次每日自动同步会**清空所有 OpenRouter/models.dev 模型的 billing_model** 并触发 audit「missing billing_model」失败，导致自动合并 workflow 挂掉。两个 `build_model` 现已正确分类计费方式（pay_per_token / pay_per_image / free / unknown），且不再写入已删除的 `per_request`/`per_audio_second` 字段。已实测真实同步：417 个 OpenRouter 模型全部正确标注（388 按量、29 按图+按量）。
