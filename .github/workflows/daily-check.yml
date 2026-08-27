@@ -60,6 +60,11 @@ jobs:
               # NOTE: only *classic* PATs inherit the admin bypass; fine-grained PATs get
               # rejected by branch protection (GH006) — then we fall back to a branch + issue.
               git remote set-url origin "https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git"
+              # actions/checkout sets http.https://github.com/.extraheader with the
+              # GITHUB_TOKEN; that header would override the PAT in the remote URL and
+              # the push would be rejected by branch protection (GH006). Remove it so
+              # the PAT is actually used for the push.
+              git config --unset-all http.https://github.com/.extraheader 2>/dev/null || true
               git pull --rebase origin main
               if git push origin main; then
                 echo "Changes auto-merged into main via bot PAT."
