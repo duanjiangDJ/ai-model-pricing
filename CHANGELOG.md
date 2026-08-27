@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.3.9 — 2026-08-27T07:56Z (feature update)
+
+- fix: daily-check falls back to branch + alert issue when PAT push is rejected by branch protection (fine-grained PAT cannot bypass)
+
 ## 26.3.8 — 2026-08-27T07:39Z (feature update)
 
 - fix: daily-check workflow YAML fix (issue-body indentation) + auto-merge aligns base with latest main before commit (stash/rebase/stash-pop) to avoid rebase conflicts; GH_PAT auto-merge verified working

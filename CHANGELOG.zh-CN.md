@@ -16,6 +16,10 @@
 
 ---
 
+## 26.3.9 — 2026-08-27T07:56Z（功能更新）
+
+- 修复：PAT 推送 main 被分支保护拒绝（GH006，fine-grained PAT 无法绕过）时，改为推送到分支并发 issue 告警，数据不再丢失
+
 ## 26.3.8 — 2026-08-27T07:39Z（功能更新）
 
 - 修复：daily-check 工作流 YAML 语法错误（issue 正文缩进）；自动合并前先对齐最新 main（stash → rebase → stash pop），避免基于旧基线的 rebase 冲突；GH_PAT 自动合并路径已验证可用
