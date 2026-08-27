@@ -7,8 +7,8 @@
   "homepage": "https://crof.ai/docs",
   "pricing_page": "https://crof.ai/docs",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
-  "verified_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-27T00:36:47Z",
+  "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
       "id": "deepseek-v3.2",
@@ -599,6 +599,29 @@
           "input": 0.2,
           "output": 1.5,
           "cache_read": 0.04,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen3.8-27b",
+      "name": "Qwen3.8 27B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 262144,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.25,
+          "output": 2.1,
+          "cache_read": 0.06,
           "cache_write": null
         },
         "batch": null,

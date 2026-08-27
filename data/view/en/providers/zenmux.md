@@ -6,8 +6,8 @@
 - Homepage: https://docs.zenmux.ai
 - Pricing page: https://docs.zenmux.ai
 - Currency: USD
-- Data updated: 2026-08-22T09:32:50Z
-- Verified: 2026-08-22T09:32:50Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
 **120** models in total.
 

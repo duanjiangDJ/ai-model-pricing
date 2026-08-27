@@ -7,8 +7,8 @@
   "homepage": "https://docs.api.nvidia.com/nim/",
   "pricing_page": "https://docs.api.nvidia.com/nim/",
   "currency": "USD",
-  "updated_at": "2026-08-21T11:27:12Z",
-  "verified_at": "2026-08-21T11:27:12Z",
+  "updated_at": "2026-08-27T00:36:47Z",
+  "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
       "id": "abacusai/dracarys-llama-3.1-70b-instruct",
@@ -185,6 +185,29 @@
           "input": 0.14,
           "output": 0.28,
           "cache_read": 0.0028,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "deepseek-ai/deepseek-v4-flash-0731",
+      "name": "DeepSeek V4 Flash 0731",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 384000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -1021,6 +1044,29 @@
         "per_request": null
       },
       "notes": "models.dev official list price | Free model (per_mtok = 0)."
+    },
+    {
+      "id": "moonshotai/kimi-k3",
+      "name": "Kimi K3",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "nvidia/active-speaker-detection",

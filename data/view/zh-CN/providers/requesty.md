@@ -6,8 +6,8 @@
 - 官网: https://requesty.ai/solution/llm-routing/models
 - 定价页: https://requesty.ai/solution/llm-routing/models
 - 币种: USD
-- 数据更新时间: 2026-08-22T09:32:50Z
-- 核实时间: 2026-08-22T09:32:50Z
+- 数据更新时间: 2026-08-27T00:36:47Z
+- 核实时间: 2026-08-27T00:36:47Z
 
 共 **139** 个模型。
 
@@ -84,7 +84,7 @@
 | `gpt-5.5@eu` | — | reasoning | 1.05M | $4.5 | $27 | $0.45 | — | —/— | — | models.dev official list price |
 | `gpt-5.6-luna` | — | reasoning | 1.05M | $0.18 | $1.08 | $0.018 | — | —/— | — | models.dev official list price |
 | `gpt-5.6-luna@eu` | — | reasoning | 1.05M | $0.198 | $1.188 | $0.0198 | — | —/— | — | models.dev official list price |
-| `gpt-5.6-sol` | — | reasoning | 1.05M | $4.5 | $27 | $0.45 | — | —/— | — | models.dev official list price |
+| `gpt-5.6-sol` | — | reasoning | 1.05M | $3.6 | $18 | $0.36 | — | —/— | — | models.dev official list price |
 | `gpt-5.6-sol@eu` | — | reasoning | 1.05M | $4.95 | $29.7 | $0.495 | — | —/— | — | models.dev official list price |
 | `gpt-5.6-terra` | — | reasoning | 1.05M | $1.8 | $10.8 | $0.18 | — | —/— | — | models.dev official list price |
 | `gpt-5.6-terra@eu` | — | reasoning | 1.05M | $1.98 | $11.88 | $0.198 | — | —/— | — | models.dev official list price |

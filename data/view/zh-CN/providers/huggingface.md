@@ -6,10 +6,10 @@
 - 官网: https://huggingface.co/docs/inference-providers
 - 定价页: https://huggingface.co/docs/inference-providers
 - 币种: USD
-- 数据更新时间: 2026-08-22T09:32:50Z
-- 核实时间: 2026-08-22T09:32:50Z
+- 数据更新时间: 2026-08-27T00:36:47Z
+- 核实时间: 2026-08-27T00:36:47Z
 
-共 **69** 个模型。
+共 **71** 个模型。
 
 | 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -41,6 +41,7 @@
 | `Qwen/Qwen3.6-27B` | — | reasoning | 262.144K | $0.47 | $3.19 | — | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3.6-35B-A3B` | — | reasoning | 262.144K | $0.15 | $0.95 | — | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3.8-2.4T-A95B` | — | reasoning | 262.144K | $2.5 | $6.25 | — | — | —/— | — | models.dev official list price |
+| `Qwen/Qwen3.8-27B` | — | reasoning | 262.144K | $0.4 | $3 | — | — | —/— | — | models.dev official list price |
 | `XiaomiMiMo/MiMo-V2-Flash` | — | reasoning | 262.144K | $0.1 | $0.3 | — | — | —/— | — | models.dev official list price |
 | `XiaomiMiMo/MiMo-V2.5` | — | reasoning | 262.144K | $0.4 | $2 | — | — | —/— | — | models.dev official list price |
 | `XiaomiMiMo/MiMo-V2.5-Pro` | — | reasoning | 1.04858M | $1 | $3 | — | — | —/— | — | models.dev official list price |
@@ -82,3 +83,4 @@
 | `zai-org/GLM-5` | — | reasoning | 202.752K | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.1` | — | reasoning | 202.752K | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.2` | — | reasoning | 262.144K | $1.4 | $4.4 | — | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.3-Flash` | — | reasoning | 1.04858M | $0.15 | $0.5 | — | — | —/— | — | models.dev official list price |

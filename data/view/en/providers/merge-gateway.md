@@ -6,10 +6,10 @@
 - Homepage: https://docs.merge.dev/merge-gateway
 - Pricing page: https://docs.merge.dev/merge-gateway
 - Currency: USD
-- Data updated: 2026-08-22T09:32:50Z
-- Verified: 2026-08-22T09:32:50Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
-**175** models in total.
+**176** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -124,7 +124,7 @@
 | `openai/gpt-5.4-nano` | — | reasoning | 400K | $0.2 | $1.25 | $0.02 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.5` | — | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.6-luna` | — | reasoning | 1.05M | $0.2 | $1.2 | $0.02 | — | —/— | — | models.dev official list price |
-| `openai/gpt-5.6-sol` | — | reasoning | 1.05M | $4 | $24 | $0.5 | — | —/— | — | models.dev official list price |
+| `openai/gpt-5.6-sol` | — | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.6-terra` | — | reasoning | 1.05M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-120b` | — | reasoning | 131.072K | $0.09 | $0.36 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-20b` | — | reasoning | 131.072K | $0.04 | $0.2 | $0.02 | — | —/— | — | models.dev official list price |
@@ -188,3 +188,4 @@
 | `zai/glm-5.1` | — | reasoning | 200K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `zai/glm-5.2` | — | reasoning | 1M | $1.05 | $3.3 | $0.195 | — | —/— | — | models.dev official list price |
 | `zai/glm-5.3` | — | reasoning | 1M | $0.7 | $2.2 | $0.13 | — | —/— | — | models.dev official list price |
+| `zai/glm-5.3-flash` | — | reasoning | 1M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |

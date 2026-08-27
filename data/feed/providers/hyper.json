@@ -7,8 +7,8 @@
   "homepage": "https://hyper.charm.land",
   "pricing_page": "https://hyper.charm.land",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
-  "verified_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-27T00:36:47Z",
+  "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
       "id": "deepseek-v4-flash",
@@ -44,9 +44,9 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0.479072,
-          "output": 1.437216,
-          "cache_read": 0.015243,
+          "input": 0.44,
+          "output": 1.32,
+          "cache_read": 0.044,
           "cache_write": null
         },
         "batch": null,
@@ -113,8 +113,8 @@
       "max_output": 25600,
       "pricing": {
         "per_mtok": {
-          "input": 0.11,
-          "output": 0.408,
+          "input": 0.12,
+          "output": 0.42,
           "cache_read": null,
           "cache_write": null
         },
@@ -136,8 +136,8 @@
       "max_output": 20275,
       "pricing": {
         "per_mtok": {
-          "input": 0.91,
-          "output": 2.934,
+          "input": 0.92,
+          "output": 2.976,
           "cache_read": null,
           "cache_write": null
         },
@@ -159,8 +159,8 @@
       "max_output": 3276,
       "pricing": {
         "per_mtok": {
-          "input": 1.36,
-          "output": 4.4,
+          "input": 1.29,
+          "output": 4.22,
           "cache_read": null,
           "cache_write": null
         },
@@ -205,8 +205,8 @@
       "max_output": 13107,
       "pricing": {
         "per_mtok": {
-          "input": 0.188,
-          "output": 0.7,
+          "input": 0.178,
+          "output": 0.68,
           "cache_read": null,
           "cache_write": null
         },
@@ -228,8 +228,8 @@
       "max_output": 26214,
       "pricing": {
         "per_mtok": {
-          "input": 0.5444,
-          "output": 2.855,
+          "input": 0.544,
+          "output": 2.76,
           "cache_read": null,
           "cache_write": null
         },
@@ -366,8 +366,8 @@
       "max_output": 6553,
       "pricing": {
         "per_mtok": {
-          "input": 0.408,
-          "output": 1.512,
+          "input": 0.424,
+          "output": 1.612,
           "cache_read": null,
           "cache_write": null
         },
@@ -576,6 +576,75 @@
           "input": 1.2,
           "output": 4.8,
           "cache_read": 0.24,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen3.8-2.4t-a95b",
+      "name": "Qwen3.8 2.4T A95B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 2,
+          "output": 6,
+          "cache_read": 0.25,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen3.8-27b",
+      "name": "Qwen3.8 27B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.5,
+          "output": 3,
+          "cache_read": 0.1,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen3.8-flash",
+      "name": "Qwen3.8 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.16,
+          "output": 0.47,
+          "cache_read": 0.016,
           "cache_write": null
         },
         "batch": null,

@@ -6,10 +6,10 @@
 - Homepage: https://docs.wandb.ai/guides/integrations/inference/
 - Pricing page: https://docs.wandb.ai/guides/integrations/inference/
 - Currency: USD
-- Data updated: 2026-08-22T09:32:50Z
-- Verified: 2026-08-22T09:32:50Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
-**29** models in total.
+**30** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -29,6 +29,7 @@
 | `deepseek-ai/DeepSeek-V4-Pro` | — | reasoning | 1.04858M | $1.15 | $2.55 | $0.2 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-31B-it` | — | reasoning | 262.144K | $0.1 | $0.34 | $0.1 | — | —/— | — | models.dev official list price |
 | `ibm-granite/granite-4.1-8b` | — | chat | 131.072K | $0.05 | $0.1 | $0.05 | — | —/— | — | models.dev official list price |
+| `ibm-granite/granite-4.2-8b` | — | reasoning | 131.072K | $0.1 | $0.15 | $0.05 | — | —/— | — | models.dev official list price |
 | `meta-llama/Llama-3.1-70B-Instruct` | — | chat | 128K | $0.8 | $0.8 | $0.8 | — | —/— | — | models.dev official list price |
 | `meta-llama/Llama-3.1-8B-Instruct` | — | chat | 128K | $0.22 | $0.22 | $0.22 | — | —/— | — | models.dev official list price |
 | `meta-llama/Llama-3.3-70B-Instruct` | — | chat | 128K | $0.71 | $0.71 | $0.71 | — | —/— | — | models.dev official list price |

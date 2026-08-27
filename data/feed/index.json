@@ -1,9 +1,9 @@
 {
-  "schema_version": "26.2.6",
-  "generated_at": "2026-08-22T09:32:50Z",
+  "schema_version": "26.3.6",
+  "generated_at": "2026-08-27T00:36:47Z",
   "currency": "USD",
   "provider_count": 184,
-  "model_count": 7132,
+  "model_count": 7224,
   "plan_count": 64,
   "providers": [
     {
@@ -50,9 +50,9 @@
       "id": "cloudflare-workers-ai",
       "name": "Cloudflare Workers AI",
       "channel": "hosted",
-      "model_count": 25,
+      "model_count": 26,
       "file": "providers/cloudflare-workers-ai.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "meganova",
@@ -90,9 +90,9 @@
       "id": "nvidia",
       "name": "Nvidia",
       "channel": "first_party",
-      "model_count": 100,
+      "model_count": 102,
       "file": "providers/nvidia.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "qvac",
@@ -130,9 +130,9 @@
       "id": "nano-gpt",
       "name": "NanoGPT",
       "channel": "hosted",
-      "model_count": 599,
+      "model_count": 617,
       "file": "providers/nano-gpt.json",
-      "updated_at": "2026-08-22T09:32:50Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "modelscope",
@@ -250,9 +250,9 @@
       "id": "deepinfra",
       "name": "Deep Infra",
       "channel": "hosted",
-      "model_count": 60,
+      "model_count": 61,
       "file": "providers/deepinfra.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "meta",
@@ -266,9 +266,9 @@
       "id": "huggingface",
       "name": "Hugging Face",
       "channel": "hosted",
-      "model_count": 69,
+      "model_count": 71,
       "file": "providers/huggingface.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "impossibl",
@@ -426,9 +426,9 @@
       "id": "zai",
       "name": "Z.AI",
       "channel": "hosted",
-      "model_count": 16,
+      "model_count": 17,
       "file": "providers/zai.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "routing-run",
@@ -522,9 +522,9 @@
       "id": "opencode-go",
       "name": "OpenCode Go",
       "channel": "hosted",
-      "model_count": 28,
+      "model_count": 31,
       "file": "providers/opencode-go.json",
-      "updated_at": "2026-08-22T09:32:50Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "xai",
@@ -554,9 +554,9 @@
       "id": "vivgrid",
       "name": "Vivgrid",
       "channel": "hosted",
-      "model_count": 20,
+      "model_count": 21,
       "file": "providers/vivgrid.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "nebius",
@@ -610,9 +610,9 @@
       "id": "merge-gateway",
       "name": "Merge Gateway",
       "channel": "aggregator",
-      "model_count": 175,
+      "model_count": 176,
       "file": "providers/merge-gateway.json",
-      "updated_at": "2026-08-22T09:32:50Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "inceptron",
@@ -634,9 +634,9 @@
       "id": "aki-io",
       "name": "AKI.IO",
       "channel": "hosted",
-      "model_count": 6,
+      "model_count": 8,
       "file": "providers/aki-io.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "stepfun",
@@ -658,9 +658,9 @@
       "id": "cloudflare-ai-gateway",
       "name": "Cloudflare AI Gateway",
       "channel": "aggregator",
-      "model_count": 67,
+      "model_count": 79,
       "file": "providers/cloudflare-ai-gateway.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "drun",
@@ -810,9 +810,9 @@
       "id": "gmicloud",
       "name": "GMI Cloud",
       "channel": "hosted",
-      "model_count": 13,
+      "model_count": 15,
       "file": "providers/gmicloud.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "umans-ai",
@@ -906,9 +906,9 @@
       "id": "ofox",
       "name": "Ofox",
       "channel": "hosted",
-      "model_count": 110,
+      "model_count": 111,
       "file": "providers/ofox.json",
-      "updated_at": "2026-08-22T09:32:50Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "friendli",
@@ -938,9 +938,9 @@
       "id": "zhipuai",
       "name": "Zhipu AI",
       "channel": "first_party",
-      "model_count": 16,
+      "model_count": 17,
       "file": "providers/zhipuai.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "neon",
@@ -954,9 +954,9 @@
       "id": "evroc",
       "name": "evroc",
       "channel": "hosted",
-      "model_count": 15,
+      "model_count": 17,
       "file": "providers/evroc.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "302ai",
@@ -1002,9 +1002,9 @@
       "id": "hyper",
       "name": "Charm Hyper",
       "channel": "hosted",
-      "model_count": 26,
+      "model_count": 29,
       "file": "providers/hyper.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "subconscious",
@@ -1074,9 +1074,9 @@
       "id": "mistral",
       "name": "Mistral",
       "channel": "first_party",
-      "model_count": 33,
+      "model_count": 34,
       "file": "providers/mistral.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "modal",
@@ -1098,17 +1098,17 @@
       "id": "cline-pass",
       "name": "ClinePass",
       "channel": "hosted",
-      "model_count": 11,
+      "model_count": 13,
       "file": "providers/cline-pass.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "empiriolabs",
       "name": "EmpirioLabs AI",
       "channel": "hosted",
-      "model_count": 55,
+      "model_count": 57,
       "file": "providers/empiriolabs.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "morph",
@@ -1178,17 +1178,17 @@
       "id": "vercel",
       "name": "Vercel AI Gateway",
       "channel": "aggregator",
-      "model_count": 351,
+      "model_count": 361,
       "file": "providers/vercel.json",
-      "updated_at": "2026-08-22T09:32:50Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "edenai",
       "name": "Eden AI",
       "channel": "hosted",
-      "model_count": 234,
+      "model_count": 237,
       "file": "providers/edenai.json",
-      "updated_at": "2026-08-22T09:32:50Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "novita-ai",
@@ -1210,9 +1210,9 @@
       "id": "llmgateway",
       "name": "DevPass (LLM Gateway)",
       "channel": "aggregator",
-      "model_count": 556,
+      "model_count": 557,
       "file": "providers/llmgateway.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "chutes",
@@ -1226,9 +1226,9 @@
       "id": "crof",
       "name": "CrofAI",
       "channel": "hosted",
-      "model_count": 26,
+      "model_count": 27,
       "file": "providers/crof.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "v0",
@@ -1330,9 +1330,9 @@
       "id": "kilo",
       "name": "Kilo Gateway",
       "channel": "aggregator",
-      "model_count": 367,
+      "model_count": 373,
       "file": "providers/kilo.json",
-      "updated_at": "2026-08-22T09:32:50Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "pioneer",
@@ -1346,9 +1346,9 @@
       "id": "venice",
       "name": "Venice AI",
       "channel": "hosted",
-      "model_count": 100,
+      "model_count": 101,
       "file": "providers/venice.json",
-      "updated_at": "2026-08-22T09:32:50Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "fireworks-ai",
@@ -1362,9 +1362,9 @@
       "id": "wandb",
       "name": "Weights & Biases",
       "channel": "hosted",
-      "model_count": 29,
+      "model_count": 30,
       "file": "providers/wandb.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "abacus",
@@ -1442,9 +1442,9 @@
       "id": "volcengine",
       "name": "火山引擎方舟 (Volcengine Ark / 豆包)",
       "channel": "first_party",
-      "model_count": 2,
+      "model_count": 17,
       "file": "providers/volcengine.json",
-      "updated_at": "2026-08-21T11:38:22Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     },
     {
       "id": "devin",
@@ -1484,9 +1484,9 @@
       "id": "openrouter",
       "name": "OpenRouter",
       "channel": "aggregator",
-      "model_count": 421,
+      "model_count": 417,
       "file": "providers/openrouter.json",
-      "updated_at": "2026-08-22T09:32:50Z"
+      "updated_at": "2026-08-27T00:36:47Z"
     }
   ]
 }

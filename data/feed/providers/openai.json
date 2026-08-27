@@ -7,8 +7,8 @@
   "homepage": "https://platform.openai.com/docs/models",
   "pricing_page": "https://openai.com/chatgpt/pricing/",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
-  "verified_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-27T00:36:47Z",
+  "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
       "id": "chatgpt-image-latest",
@@ -705,9 +705,9 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 5.0,
-          "output": 30.0,
-          "cache_read": 0.5,
+          "input": 4,
+          "output": 20,
+          "cache_read": 0.4,
           "cache_write": 6.25
         },
         "batch": {
@@ -757,9 +757,9 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 5.0,
-          "output": 30.0,
-          "cache_read": 0.5,
+          "input": 4,
+          "output": 20,
+          "cache_read": 0.4,
           "cache_write": 6.25
         },
         "batch": {

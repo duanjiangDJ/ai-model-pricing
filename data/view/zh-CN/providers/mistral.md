@@ -6,10 +6,10 @@
 - 官网: https://docs.mistral.ai/getting-started/models/
 - 定价页: https://docs.mistral.ai/getting-started/models/
 - 币种: USD
-- 数据更新时间: 2026-08-22T11:29:17Z
-- 核实时间: 2026-08-22T11:29:17Z
+- 数据更新时间: 2026-08-27T00:36:48Z
+- 核实时间: 2026-08-27T00:36:48Z
 
-共 **33** 个模型。
+共 **34** 个模型。
 
 | 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -46,3 +46,4 @@
 | `voxtral-mini-latest` | — | chat | — | — | — | — | — | —/— | — | models.dev official list price |
 | `voxtral-mini-tts-latest` | — | chat | — | — | — | — | — | —/— | — | models.dev official list price |
 | `voxtral-small-latest` | — | chat | 32K | $0.1 | $0.3 | — | — | —/— | — | models.dev official list price |
+| `zai-glm-5-2` | — | reasoning | 1M | $1.4 | $4.4 | $0.14 | — | —/— | — | models.dev official list price |

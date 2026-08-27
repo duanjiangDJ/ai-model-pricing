@@ -6,10 +6,10 @@
 - Homepage: https://developers.cloudflare.com/workers-ai/models/
 - Pricing page: https://developers.cloudflare.com/workers-ai/models/
 - Currency: USD
-- Data updated: 2026-08-21T11:27:12Z
-- Verified: 2026-08-21T11:27:12Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
-**25** models in total.
+**26** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -38,3 +38,4 @@
 | `@cf/qwen/qwq-32b` | — | reasoning | 24K | $0.66 | $1 | — | — | —/— | — | models.dev official list price |
 | `@cf/zai-org/glm-4.7-flash` | — | reasoning | 131.072K | $0.0605 | $0.4 | — | — | —/— | — | models.dev official list price |
 | `@cf/zai-org/glm-5.2` | — | reasoning | 262.144K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `@cf/zai-org/glm-5.3-flash` | — | reasoning | 1.31072M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |

@@ -7,8 +7,8 @@
   "homepage": "https://docs.wandb.ai/guides/integrations/inference/",
   "pricing_page": "https://docs.wandb.ai/guides/integrations/inference/",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
-  "verified_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-27T00:36:47Z",
+  "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
       "id": "JetBrains/Mellum2-12B-A2.5B-Instruct",
@@ -368,6 +368,29 @@
         "per_mtok": {
           "input": 0.05,
           "output": 0.1,
+          "cache_read": 0.05,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "ibm-granite/granite-4.2-8b",
+      "name": "Granite 4.2 8B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131072,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.1,
+          "output": 0.15,
           "cache_read": 0.05,
           "cache_write": null
         },

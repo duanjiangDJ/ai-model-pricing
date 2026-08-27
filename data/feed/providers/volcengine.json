@@ -7,9 +7,55 @@
   "homepage": "https://www.volcengine.com/product/ark",
   "pricing_page": "https://www.volcengine.com/docs/82379",
   "currency": "USD",
-  "updated_at": "2026-08-21T11:38:22Z",
-  "verified_at": "2026-08-21T00:00:00Z",
+  "updated_at": "2026-08-27T00:36:47Z",
+  "verified_at": "2026-08-27T00:36:47Z",
   "models": [
+    {
+      "id": "deepseek-v4-flash-ga-260731",
+      "name": "DeepSeek V4 Flash 0731",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 384000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.4453,
+          "output": 1.3359,
+          "cache_read": 0.01484,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "deepseek-v4-pro-ga-260813",
+      "name": "DeepSeek V4 Pro 0813",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 384000,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.3359,
+          "output": 4.00771,
+          "cache_read": 0.04453,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
     {
       "id": "doubao-2.1-pro",
       "name": "豆包 2.1 Pro",
@@ -49,6 +95,305 @@
         "per_request": null
       },
       "notes": "Officially stated as 'price halved again' relative to 2.1 Pro; recorded at half of Pro price (pending precise verification on the official pricing page). Priced in CNY."
+    },
+    {
+      "id": "doubao-seed-1-6-251015",
+      "name": "Seed 1.6",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": 64000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.11875,
+          "output": 1.18747,
+          "cache_read": 0.02375,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "doubao-seed-1-6-flash-250828",
+      "name": "Seed 1.6 Flash",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": 32000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.02227,
+          "output": 0.22265,
+          "cache_read": 0.00445,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "doubao-seed-1-6-vision-250815",
+      "name": "Seed 1.6 Vision",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": 32000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.11875,
+          "output": 1.18747,
+          "cache_read": 0.02375,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "doubao-seed-1-8-251228",
+      "name": "Seed 1.8",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": 64000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.11875,
+          "output": 1.18747,
+          "cache_read": 0.02375,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "doubao-seed-2-0-code-preview-260215",
+      "name": "Seed 2.0 Code",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.47499,
+          "output": 2.37494,
+          "cache_read": 0.095,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "doubao-seed-2-0-lite-260428",
+      "name": "Seed 2.0 Lite",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": 32000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.08906,
+          "output": 0.53436,
+          "cache_read": 0.01781,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "doubao-seed-2-0-mini-260428",
+      "name": "Seed 2.0 Mini",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": 32000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.02969,
+          "output": 0.29687,
+          "cache_read": 0.00594,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "doubao-seed-2-0-pro-260215",
+      "name": "Seed 2.0 Pro",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": 128000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.47499,
+          "output": 2.37494,
+          "cache_read": 0.095,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "doubao-seed-2-1-pro-260628",
+      "name": "Seed 2.1 Pro",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": 256000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.8906,
+          "output": 4.45301,
+          "cache_read": 0.17812,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "doubao-seed-2-1-turbo-260628",
+      "name": "Seed 2.1 Turbo",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": 256000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.4453,
+          "output": 2.22651,
+          "cache_read": 0.08906,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "doubao-seed-character-260628",
+      "name": "Seed Character",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": 256000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.11875,
+          "output": 0.29687,
+          "cache_read": 0.02375,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "doubao-seed-evolving",
+      "name": "Seed Evolving",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": 256000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.8906,
+          "output": 4.45301,
+          "cache_read": 0.17812,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "glm-5-2-260617",
+      "name": "GLM-5.2",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.18747,
+          "output": 4.15615,
+          "cache_read": 0.29687,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
     }
   ],
   "api_base_url": "https://ark.cn-beijing.volces.com/api/v3"

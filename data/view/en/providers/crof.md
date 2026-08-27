@@ -6,10 +6,10 @@
 - Homepage: https://crof.ai/docs
 - Pricing page: https://crof.ai/docs
 - Currency: USD
-- Data updated: 2026-08-22T09:32:50Z
-- Verified: 2026-08-22T09:32:50Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
-**26** models in total.
+**27** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -39,3 +39,4 @@
 | `qwen3.5-397b-a17b` | — | reasoning | 262.144K | $0.35 | $1.75 | $0.07 | — | —/— | — | models.dev official list price |
 | `qwen3.5-9b` | — | reasoning | 262.144K | $0.04 | $0.15 | $0.008 | — | —/— | — | models.dev official list price |
 | `qwen3.6-27b` | — | reasoning | 262.144K | $0.2 | $1.5 | $0.04 | — | —/— | — | models.dev official list price |
+| `qwen3.8-27b` | — | reasoning | 262.144K | $0.25 | $2.1 | $0.06 | — | —/— | — | models.dev official list price |

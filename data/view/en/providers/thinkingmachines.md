@@ -6,8 +6,8 @@
 - Homepage: https://tinker-docs.thinkingmachines.ai/tinker/compatible-apis/anthropic/
 - Pricing page: https://tinker-docs.thinkingmachines.ai/tinker/compatible-apis/anthropic/
 - Currency: USD
-- Data updated: 2026-08-22T09:32:50Z
-- Verified: 2026-08-22T09:32:50Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
 **2** models in total.
 

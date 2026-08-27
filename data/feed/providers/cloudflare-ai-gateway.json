@@ -7,9 +7,124 @@
   "homepage": "https://developers.cloudflare.com/ai-gateway/",
   "pricing_page": "https://developers.cloudflare.com/ai-gateway/",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
-  "verified_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-27T00:36:47Z",
+  "verified_at": "2026-08-27T00:36:47Z",
   "models": [
+    {
+      "id": "alibaba/qwen3-max",
+      "name": "Qwen3 Max",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.2,
+          "output": 6,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "alibaba/qwen3.5-397b-a17b",
+      "name": "Qwen3.5 397B-A17B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.6,
+          "output": 3.6,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "alibaba/qwen3.7-max",
+      "name": "Qwen3.7 Max",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.25,
+          "output": 3.75,
+          "cache_read": 0.25,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "alibaba/qwen3.7-plus",
+      "name": "Qwen3.7 Plus",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 64000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.32,
+          "output": 1.28,
+          "cache_read": 0.064,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "alibaba/qwen3.8-max",
+      "name": "Qwen3.8 Max",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": 2,
+          "output": 6,
+          "cache_read": 0.25,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
     {
       "id": "anthropic/claude-fable-5",
       "name": "Claude Fable 5",
@@ -231,6 +346,52 @@
           "input": 2,
           "output": 10,
           "cache_read": 0.2,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek V4 Pro",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131072,
+      "max_output": 384000,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.74,
+          "output": 3.48,
+          "cache_read": 0.145,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "moonshotai/kimi-k3",
+      "name": "Kimi K3",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": 3,
+          "output": 15,
+          "cache_read": 0.3,
           "cache_write": null
         },
         "batch": null,
@@ -872,9 +1033,9 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 5,
-          "output": 30,
-          "cache_read": 0.5,
+          "input": 2,
+          "output": 10,
+          "cache_read": 0.25,
           "cache_write": null
         },
         "batch": null,
@@ -1542,6 +1703,121 @@
           "input": 1.4,
           "output": 4.4,
           "cache_read": 0.26,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "xai/grok-4.20-0309-non-reasoning",
+      "name": "Grok 4.20 (Non-Reasoning)",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 2000000,
+      "max_output": 30000,
+      "pricing": {
+        "per_mtok": {
+          "input": 2,
+          "output": 6,
+          "cache_read": 0.2,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "xai/grok-4.20-0309-reasoning",
+      "name": "Grok 4.20 (Reasoning)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 2000000,
+      "max_output": 30000,
+      "pricing": {
+        "per_mtok": {
+          "input": 2,
+          "output": 6,
+          "cache_read": 0.2,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "xai/grok-4.3",
+      "name": "Grok 4.3",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 30000,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.25,
+          "output": 2.5,
+          "cache_read": 0.2,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "xai/grok-4.5",
+      "name": "Grok 4.5",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 500000,
+      "max_output": 500000,
+      "pricing": {
+        "per_mtok": {
+          "input": 2,
+          "output": 6,
+          "cache_read": 0.3,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "xai/grok-4.6",
+      "name": "Grok 4.6",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 500000,
+      "max_output": 500000,
+      "pricing": {
+        "per_mtok": {
+          "input": 2,
+          "output": 6,
+          "cache_read": 0.5,
           "cache_write": null
         },
         "batch": null,

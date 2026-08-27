@@ -6,8 +6,8 @@
 - Homepage: https://opencode.ai/zen
 - Pricing page: https://opencode.ai/docs/zen/
 - Currency: USD
-- Data updated: 2026-08-22T09:32:50Z
-- Verified: 2026-08-22T09:32:50Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
 **95** models in total.
 
@@ -64,7 +64,7 @@
 | `gpt-5.6-luna` | — | chat | — | $0.2 | $1.2 | $0.02 | $0.25 | —/— | — | — |
 | `gpt-5.6-sol` | — | chat | — | $2 | $10 | $0.2 | $3.125 | —/— | — | — |
 | `gpt-5.6-terra` | — | chat | — | $2.5 | $15 | $0.25 | $2.5 | —/— | — | — |
-| `grok-4.5` | — | chat | — | $2 | $6 | $0.5 | — | —/— | — | — |
+| `grok-4.5` | — | chat | — | $2 | $6 | $0.3 | — | —/— | — | — |
 | `grok-4.6` | — | chat | — | $2 | $6 | $0.5 | — | —/— | — | — |
 | `grok-build-0.1` | — | chat | — | $1 | $2 | $0.2 | — | —/— | — | — |
 | `grok-code` | — | reasoning | 256K | $0 | $0 | $0 | — | —/— | — | models.dev official list price |

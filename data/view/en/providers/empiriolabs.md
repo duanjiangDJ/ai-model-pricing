@@ -6,10 +6,10 @@
 - Homepage: https://docs.empiriolabs.ai
 - Pricing page: https://docs.empiriolabs.ai
 - Currency: USD
-- Data updated: 2026-08-22T09:32:50Z
-- Verified: 2026-08-22T09:32:50Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
-**55** models in total.
+**57** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -27,6 +27,7 @@
 | `glm-5-1` | — | reasoning | 202K | $0.825 | $3.301 | $0.165 | — | —/— | — | models.dev official list price |
 | `glm-5-2` | — | reasoning | 1M | $1.4 | $4.4 | $1.4 | — | —/— | — | models.dev official list price |
 | `glm-5-3` | — | reasoning | 1M | $1.4 | $4.4 | $1.4 | — | —/— | — | models.dev official list price |
+| `glm-5-3-flash` | — | reasoning | 1M | $0.075 | $0.25 | $0.075 | — | —/— | — | models.dev official list price |
 | `kimi-k2-6` | — | reasoning | 256K | $0.8939 | $3.7131 | $0.1788 | — | —/— | — | models.dev official list price |
 | `kimi-k2-7-code` | — | reasoning | 256K | $0.95 | $4 | $0.95 | — | —/— | — | models.dev official list price |
 | `kimi-k2-7-code-highspeed` | — | reasoning | 256K | $1.9 | $8 | $1.9 | — | —/— | — | models.dev official list price |
@@ -58,6 +59,7 @@
 | `qwen3-7-max` | — | reasoning | 1M | $2.5 | $7.5 | $2.5 | — | —/— | — | models.dev official list price |
 | `qwen3-7-plus` | — | reasoning | 1M | $0.4 | $1.6 | $0.4 | — | —/— | — | models.dev official list price |
 | `qwen3-8-27b` | — | reasoning | 262.144K | $0.17 | $0.5 | $0.08 | — | —/— | — | models.dev official list price |
+| `qwen3-8-flash` | — | reasoning | 1M | $0.16 | $0.47 | $0.16 | — | —/— | — | models.dev official list price |
 | `qwen3-8-max` | — | reasoning | 1M | $2 | $6 | $2 | — | —/— | — | models.dev official list price |
 | `qwen3-max` | — | reasoning | 256K | $1.08 | $5.52 | $1.08 | — | —/— | — | models.dev official list price |
 | `seed-2-0-code` | — | reasoning | 256K | $0.4 | $2.4 | $0.4 | — | —/— | — | models.dev official list price |

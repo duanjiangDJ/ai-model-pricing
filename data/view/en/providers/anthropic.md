@@ -6,8 +6,8 @@
 - Homepage: https://docs.anthropic.com/en/docs/about-claude/models
 - Pricing page: https://www.anthropic.com/pricing
 - Currency: USD
-- Data updated: 2026-08-22T09:32:50Z
-- Verified: 2026-08-22T09:32:50Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
 **16** models in total.
 

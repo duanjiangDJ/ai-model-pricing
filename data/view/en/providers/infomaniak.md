@@ -6,8 +6,8 @@
 - Homepage: https://www.infomaniak.com/en/hosting/ai-services/open-source-models
 - Pricing page: https://www.infomaniak.com/en/hosting/ai-services/open-source-models
 - Currency: USD
-- Data updated: 2026-08-21T11:27:12Z
-- Verified: 2026-08-21T11:27:12Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
 **10** models in total.
 

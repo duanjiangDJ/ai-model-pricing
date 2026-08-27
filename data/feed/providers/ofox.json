@@ -7,8 +7,8 @@
   "homepage": "https://ofox.ai/docs",
   "pricing_page": "https://ofox.ai/docs",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
-  "verified_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-27T00:36:47Z",
+  "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
       "id": "anthropic/claude-fable-5",
@@ -795,6 +795,29 @@
     {
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek V4 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 384000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.44,
+          "output": 1.32,
+          "cache_read": 0.014,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "name": "DeepSeek V4 Flash 0731",
       "category": "reasoning",
       "modalities": [
         "text"

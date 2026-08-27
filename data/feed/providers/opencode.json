@@ -8,8 +8,8 @@
   "pricing_page": "https://opencode.ai/docs/zen/",
   "api_base_url": "https://opencode.ai/zen/v1/models",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
-  "verified_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-27T00:36:47Z",
+  "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
       "id": "big-pickle",
@@ -1068,7 +1068,7 @@
         "per_mtok": {
           "input": 2,
           "output": 6,
-          "cache_read": 0.5,
+          "cache_read": 0.3,
           "cache_write": null
         },
         "batch": null,

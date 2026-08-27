@@ -7,8 +7,8 @@
   "homepage": "https://developers.cloudflare.com/workers-ai/models/",
   "pricing_page": "https://developers.cloudflare.com/workers-ai/models/",
   "currency": "USD",
-  "updated_at": "2026-08-21T11:27:12Z",
-  "verified_at": "2026-08-21T11:27:12Z",
+  "updated_at": "2026-08-27T00:36:47Z",
+  "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
       "id": "@cf/aisingapore/gemma-sea-lion-v4-27b-it",
@@ -576,6 +576,29 @@
           "input": 1.4,
           "output": 4.4,
           "cache_read": 0.26,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "@cf/zai-org/glm-5.3-flash",
+      "name": "Glm 5.3 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1310720,
+      "max_output": 1310720,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.15,
+          "output": 0.5,
+          "cache_read": 0.03,
           "cache_write": null
         },
         "batch": null,

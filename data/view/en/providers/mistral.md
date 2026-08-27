@@ -6,10 +6,10 @@
 - Homepage: https://docs.mistral.ai/getting-started/models/
 - Pricing page: https://docs.mistral.ai/getting-started/models/
 - Currency: USD
-- Data updated: 2026-08-22T11:29:17Z
-- Verified: 2026-08-22T11:29:17Z
+- Data updated: 2026-08-27T00:36:48Z
+- Verified: 2026-08-27T00:36:48Z
 
-**33** models in total.
+**34** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -46,3 +46,4 @@
 | `voxtral-mini-latest` | — | chat | — | — | — | — | — | —/— | — | models.dev official list price |
 | `voxtral-mini-tts-latest` | — | chat | — | — | — | — | — | —/— | — | models.dev official list price |
 | `voxtral-small-latest` | — | chat | 32K | $0.1 | $0.3 | — | — | —/— | — | models.dev official list price |
+| `zai-glm-5-2` | — | reasoning | 1M | $1.4 | $4.4 | $0.14 | — | —/— | — | models.dev official list price |

@@ -6,10 +6,10 @@
 - Homepage: https://docs.venice.ai
 - Pricing page: https://docs.venice.ai
 - Currency: USD
-- Data updated: 2026-08-22T09:32:50Z
-- Verified: 2026-08-22T09:32:50Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
-**100** models in total.
+**101** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -25,7 +25,7 @@
 | `claude-opus-5-fast` | — | reasoning | 1M | $12 | $60 | $1.2 | — | —/— | — | models.dev official list price |
 | `claude-sonnet-4-5` | — | reasoning | 198K | $3.75 | $18.75 | $0.375 | — | —/— | — | models.dev official list price |
 | `claude-sonnet-4-6` | — | reasoning | 1M | $3.6 | $18 | $0.36 | — | —/— | — | models.dev official list price |
-| `claude-sonnet-5` | — | reasoning | 1M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
+| `claude-sonnet-5` | — | reasoning | 1M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
 | `deepseek-v3.2` | — | reasoning | 160K | $0.33 | $0.48 | $0.16 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-flash` | — | reasoning | 1M | $0.138 | $0.275 | $0.028 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-flash-0731` | — | reasoning | 1M | $0.175 | $0.35 | $0.035 | — | —/— | — | models.dev official list price |
@@ -35,8 +35,8 @@
 | `gemini-3-1-pro-preview` | — | reasoning | 1M | $2.5 | $15 | $0.5 | — | —/— | — | models.dev official list price |
 | `gemini-3-5-flash` | — | reasoning | 1M | $1.55 | $9.45 | $0.155 | — | —/— | — | models.dev official list price |
 | `gemini-3-5-flash-lite` | — | reasoning | 1M | $0.375 | $3.125 | $0.0375 | — | —/— | — | models.dev official list price |
-| `gemini-3-6-flash` | — | reasoning | 1M | $1.875 | $9.375 | $0.1875 | — | —/— | — | models.dev official list price |
-| `gemini-3-7-flash` | — | reasoning | 1M | $1.875 | $9.375 | $0.1875 | — | —/— | — | models.dev official list price |
+| `gemini-3-6-flash` | — | reasoning | 1M | $0.9375 | $4.6875 | $0.09375 | — | —/— | — | models.dev official list price |
+| `gemini-3-7-flash` | — | reasoning | 1M | $0.9375 | $4.6875 | $0.09375 | — | —/— | — | models.dev official list price |
 | `gemini-3-flash-preview` | — | reasoning | 256K | $0.7 | $3.75 | $0.07 | — | —/— | — | models.dev official list price |
 | `gemma-4-uncensored` | — | chat | 256K | $0.1625 | $0.5 | — | — | —/— | — | models.dev official list price |
 | `google-gemma-3-27b-it` | — | chat | 198K | $0.12 | $0.2 | — | — | —/— | — | models.dev official list price |
@@ -105,6 +105,7 @@
 | `venice-uncensored-role-play` | — | chat | 128K | $0.5 | $2 | — | — | —/— | — | models.dev official list price |
 | `xiaomi-mimo-v2-5` | — | reasoning | 1M | $0.4 | $2 | $0.08 | — | —/— | — | models.dev official list price |
 | `z-ai-glm-5-3` | — | reasoning | 1M | $1.75 | $5.5 | $0.325 | — | —/— | — | models.dev official list price |
+| `z-ai-glm-5-3-flash` | — | reasoning | 1.04858M | $0.09375 | $0.3125 | $0.01875 | — | —/— | — | models.dev official list price |
 | `z-ai-glm-5-turbo` | — | reasoning | 200K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |
 | `z-ai-glm-5v-turbo` | — | reasoning | 200K | $1.5 | $5 | $0.3 | — | —/— | — | models.dev official list price |
 | `zai-org-glm-4.6` | — | reasoning | 198K | $0.43 | $1.75 | $0.08 | — | —/— | — | models.dev official list price |

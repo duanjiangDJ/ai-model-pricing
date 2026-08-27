@@ -7,8 +7,8 @@
   "homepage": "https://www.scaleway.com/en/docs/generative-apis/",
   "pricing_page": "https://www.scaleway.com/en/docs/generative-apis/",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
-  "verified_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-27T00:36:47Z",
+  "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
       "id": "bge-multilingual-gemma2",

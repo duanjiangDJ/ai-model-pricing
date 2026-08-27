@@ -7,8 +7,8 @@
   "homepage": "https://deepinfra.com/models",
   "pricing_page": "https://deepinfra.com/models",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
-  "verified_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-27T00:36:47Z",
+  "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
       "id": "ByteDance/Seed-2.0-code",
@@ -1381,6 +1381,29 @@
           "input": 0.75,
           "output": 2.4,
           "cache_read": 0.14,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "zai-org/GLM-5.3-Flash",
+      "name": "GLM-5.3-Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.15,
+          "output": 0.5,
+          "cache_read": 0.03,
           "cache_write": null
         },
         "batch": null,

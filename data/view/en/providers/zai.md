@@ -6,10 +6,10 @@
 - Homepage: https://docs.z.ai/guides/overview/pricing
 - Pricing page: https://docs.z.ai/guides/overview/pricing
 - Currency: USD
-- Data updated: 2026-08-22T11:33:33Z
-- Verified: 2026-08-22T11:33:33Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
-**16** models in total.
+**17** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -27,5 +27,6 @@
 | `glm-5.1` | — | reasoning | 200K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `glm-5.2` | — | reasoning | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `glm-5.2-highspeed` | — | reasoning | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `glm-5.3` | — | reasoning | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `glm-5.3` | — | reasoning | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `glm-5.3-flash` | — | reasoning | 1M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |
 | `glm-5v-turbo` | — | reasoning | 200K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |

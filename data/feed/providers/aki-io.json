@@ -7,9 +7,32 @@
   "homepage": "https://aki.io/docs/",
   "pricing_page": "https://aki.io/docs/",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
-  "verified_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-27T00:36:47Z",
+  "verified_at": "2026-08-27T00:36:47Z",
   "models": [
+    {
+      "id": "deepseek-v4-flash-0731-284b",
+      "name": "DeepSeek V4 Flash 0731",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 81920,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.2,
+          "output": 0.5,
+          "cache_read": 0.1,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
     {
       "id": "gemma4-26b",
       "name": "Gemma 4 26B A4B IT",
@@ -69,7 +92,7 @@
         "per_mtok": {
           "input": 0.86,
           "output": 3,
-          "cache_read": null,
+          "cache_read": 0.18,
           "cache_write": null
         },
         "batch": null,
@@ -139,6 +162,29 @@
           "input": 0.15,
           "output": 0.5,
           "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen3.8-27b",
+      "name": "Qwen3.8 27B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.3,
+          "output": 2.2,
+          "cache_read": 0.1,
           "cache_write": null
         },
         "batch": null,

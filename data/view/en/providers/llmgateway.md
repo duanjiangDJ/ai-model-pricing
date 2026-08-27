@@ -6,10 +6,10 @@
 - Homepage: https://llmgateway.io/docs
 - Pricing page: https://llmgateway.io/docs
 - Currency: USD
-- Data updated: 2026-08-22T09:32:50Z
-- Verified: 2026-08-22T09:32:50Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
-**556** models in total.
+**557** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -161,7 +161,7 @@
 | `deepinfra/qwen3-vl-30b-a3b-instruct` | — | chat | 262.144K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
 | `deepinfra/qwen3.5-9b` | — | reasoning | 262.144K | $0.1 | $0.15 | — | — | —/— | — | models.dev official list price |
 | `deepseek-v3.2` | — | reasoning | 163.84K | $0.26 | $0.38 | $0.13 | — | —/— | — | models.dev official list price |
-| `deepseek-v4-flash` | — | reasoning | 1.05M | $0.076 | $0.153 | $0.014 | — | —/— | — | models.dev official list price |
+| `deepseek-v4-flash` | — | reasoning | 1.05M | $0.051 | $0.104 | $0.0097 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-pro` | — | reasoning | 1.05M | $0.435 | $0.87 | $0.003625 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash` | — | reasoning | 1.05M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | 1.05M | $0.435 | $0.87 | $0.003625 | — | —/— | — | models.dev official list price |
@@ -212,6 +212,7 @@
 | `glm-5.2` | — | reasoning | 1.04858M | $0.55 | $1.784 | $0.111 | — | —/— | — | models.dev official list price |
 | `glm-5.2-fast` | — | reasoning | 1M | $1.99 | $6.16 | $0.4 | — | —/— | — | models.dev official list price |
 | `glm-5.3` | — | reasoning | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `glm-5.3-flash` | — | reasoning | 1.04858M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `gonka24/deepseek-v4-flash` | — | reasoning | 390K | $0.075 | $0.175 | $0.0155 | — | —/— | — | models.dev official list price |
 | `gonka24/kimi-k2.6` | — | reasoning | 262.144K | $0.22 | $1.137 | $0.048 | — | —/— | — | models.dev official list price |
 | `gonka24/minimax-m2.7` | — | reasoning | 204.8K | $0.08 | $0.32 | $0.017 | — | —/— | — | models.dev official list price |
@@ -478,7 +479,7 @@
 | `qwen3-coder-480b-a35b-instruct` | — | chat | 262.144K | $0.38 | $1.55 | — | — | —/— | — | models.dev official list price |
 | `qwen3-coder-flash` | — | chat | 1M | $0.3 | $1.5 | $0.06 | — | —/— | — | models.dev official list price |
 | `qwen3-coder-next` | — | reasoning | 262.144K | $0.108 | $0.675 | $0.06 | — | —/— | — | models.dev official list price |
-| `qwen3-coder-plus` | — | chat | 1M | $6 | $60 | $1.2 | — | —/— | — | models.dev official list price |
+| `qwen3-coder-plus` | — | chat | 1M | $1 | $5 | $0.2 | — | —/— | — | models.dev official list price |
 | `qwen3-max` | — | chat | 262.144K | $0.845 | $3.38 | $0.6 | — | —/— | — | models.dev official list price |
 | `qwen3-next-80b-a3b-instruct` | — | chat | 131.072K | $0.15 | $1.2 | — | — | —/— | — | models.dev official list price |
 | `qwen3-next-80b-a3b-thinking` | — | reasoning | 131.072K | $0.15 | $1.2 | — | — | —/— | — | models.dev official list price |

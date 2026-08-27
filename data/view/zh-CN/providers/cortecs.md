@@ -6,8 +6,8 @@
 - 官网: https://api.cortecs.ai/v1/models
 - 定价页: https://api.cortecs.ai/v1/models
 - 币种: USD
-- 数据更新时间: 2026-08-21T11:27:12Z
-- 核实时间: 2026-08-21T11:27:12Z
+- 数据更新时间: 2026-08-27T00:36:47Z
+- 核实时间: 2026-08-27T00:36:47Z
 
 共 **108** 个模型。
 
@@ -88,7 +88,7 @@
 | `mistral-large-2402` | — | reasoning | 32K | $4.284 | $12.952 | — | — | —/— | — | models.dev official list price |
 | `mistral-large-2512` | — | chat | 256K | $0.557 | $1.671 | $0.056 | — | —/— | — | models.dev official list price |
 | `mistral-medium-2508` | — | reasoning | 128K | $0.446 | $2.228 | $0.045 | — | —/— | — | models.dev official list price |
-| `mistral-medium-3.5` | — | reasoning | 256K | $1.671 | $5.57 | — | — | —/— | — | models.dev official list price |
+| `mistral-medium-3.5` | — | reasoning | 256K | $1.393 | $7.13 | $0.139 | — | —/— | — | models.dev official list price |
 | `mistral-nemo-instruct-2407` | — | chat | 128K | $0.145 | $0.145 | $0.014 | — | —/— | — | models.dev official list price |
 | `mistral-small-2503` | — | chat | 128K | $0.111 | $0.334 | — | — | —/— | — | models.dev official list price |
 | `mistral-small-2603` | — | reasoning | 262.144K | $0.143 | $0.568 | $0.014 | — | —/— | — | models.dev official list price |

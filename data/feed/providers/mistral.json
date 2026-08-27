@@ -7,8 +7,8 @@
   "homepage": "https://docs.mistral.ai/getting-started/models/",
   "pricing_page": "https://docs.mistral.ai/getting-started/models/",
   "currency": "USD",
-  "updated_at": "2026-08-22T11:29:17Z",
-  "verified_at": "2026-08-22T11:29:17Z",
+  "updated_at": "2026-08-27T00:36:48Z",
+  "verified_at": "2026-08-27T00:36:48Z",
   "models": [
     {
       "id": "codestral-latest",
@@ -760,6 +760,29 @@
           "input": 0.1,
           "output": 0.3,
           "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "zai-glm-5-2",
+      "name": "GLM-5.2",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.4,
+          "output": 4.4,
+          "cache_read": 0.14,
           "cache_write": null
         },
         "batch": null,

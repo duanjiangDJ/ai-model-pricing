@@ -6,10 +6,10 @@
 - Homepage: https://docs.api.nvidia.com/nim/
 - Pricing page: https://docs.api.nvidia.com/nim/
 - Currency: USD
-- Data updated: 2026-08-21T11:27:12Z
-- Verified: 2026-08-21T11:27:12Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
-**100** models in total.
+**102** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -21,6 +21,7 @@
 | `black-forest-labs/flux_2-klein-4b` | — | chat | 40.96K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `bytedance/seed-oss-36b-instruct` | — | chat | 262K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `deepseek-ai/deepseek-v4-flash` | — | reasoning | 1.04858M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price |
+| `deepseek-ai/deepseek-v4-flash-0731` | — | reasoning | 1M | $0 | $0 | — | — | —/— | — | models.dev official list price |
 | `deepseek-ai/deepseek-v4-pro` | — | reasoning | 1.04858M | $0.435 | $0.87 | $0.003625 | — | —/— | — | models.dev official list price |
 | `google/gemma-2-2b-it` | — | chat | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `google/gemma-3-12b-it` | — | chat | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
@@ -57,6 +58,7 @@
 | `mistralai/mixtral-8x7b-instruct` | — | chat | 32.768K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `moonshotai/kimi-k2-instruct-0905` | — | chat | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `moonshotai/kimi-k2.6` | — | reasoning | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `moonshotai/kimi-k3` | — | reasoning | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price |
 | `nvidia/active-speaker-detection` | — | chat | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/bevformer` | — | chat | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/cosmos-predict1-5b` | — | chat | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

@@ -6,8 +6,8 @@
 - Homepage: https://docs.greenpt.ai
 - Pricing page: https://docs.greenpt.ai
 - Currency: USD
-- Data updated: 2026-08-22T09:32:50Z
-- Verified: 2026-08-22T09:32:50Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
 **37** models in total.
 

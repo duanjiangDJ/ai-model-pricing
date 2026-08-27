@@ -6,8 +6,8 @@
 - Homepage: https://creator.poe.com/docs/external-applications/openai-compatible-api
 - Pricing page: https://creator.poe.com/docs/external-applications/openai-compatible-api
 - Currency: USD
-- Data updated: 2026-08-22T09:32:50Z
-- Verified: 2026-08-22T09:32:50Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
 **137** models in total.
 

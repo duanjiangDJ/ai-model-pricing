@@ -6,17 +6,19 @@
 - Homepage: https://docs.evroc.com/products/think/overview.html
 - Pricing page: https://docs.evroc.com/products/think/overview.html
 - Currency: USD
-- Data updated: 2026-08-22T09:32:50Z
-- Verified: 2026-08-22T09:32:50Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
-**15** models in total.
+**17** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
 | `KBLab/kb-whisper-large` | — | chat | 448 | $0.0023 | $0.0023 | — | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3-Embedding-8B` | — | embedding | 40.96K | $0.115 | $0.115 | — | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3-Reranker-4B` | — | rerank | 32K | $0.0575 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `Qwen/Qwen3.6-35B-A3B` | — | reasoning | 262.144K | $0.345 | $1.38 | — | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3.6-35B-A3B-FP8` | — | reasoning | 262.144K | $0.345 | $1.38 | — | — | —/— | — | models.dev official list price |
+| `Qwen/Qwen3.8-27B` | — | reasoning | 262.144K | $0.87 | $3.5 | — | — | —/— | — | models.dev official list price |
 | `evroc/roc` | — | reasoning | 262.144K | $2.875 | $11.516 | — | — | —/— | — | models.dev official list price |
 | `google/gemma-4-26B-A4B-it` | — | reasoning | 262.144K | $0.144 | $0.575 | — | — | —/— | — | models.dev official list price |
 | `intfloat/multilingual-e5-large-instruct` | — | chat | 512 | $0.114 | $0.114 | — | — | —/— | — | models.dev official list price |

@@ -6,8 +6,8 @@
 - Homepage: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog//
 - Pricing page: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog//
 - Currency: USD
-- Data updated: 2026-08-22T09:32:50Z
-- Verified: 2026-08-22T09:32:50Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
 **14** models in total.
 

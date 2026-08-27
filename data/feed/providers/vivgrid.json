@@ -7,8 +7,8 @@
   "homepage": "https://docs.vivgrid.com/models",
   "pricing_page": "https://docs.vivgrid.com/models",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
-  "verified_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-27T00:36:47Z",
+  "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
       "id": "deepseek-v3.2",
@@ -116,6 +116,29 @@
           "input": 2,
           "output": 12,
           "cache_read": 0.2,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gemini-3.7-flash",
+      "name": "Gemini 3.7 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.75,
+          "output": 3.75,
+          "cache_read": 0.075,
           "cache_write": null
         },
         "batch": null,

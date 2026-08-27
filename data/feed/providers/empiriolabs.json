@@ -7,8 +7,8 @@
   "homepage": "https://docs.empiriolabs.ai",
   "pricing_page": "https://docs.empiriolabs.ai",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
-  "verified_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-27T00:36:47Z",
+  "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
       "id": "deepseek-v3-2",
@@ -323,6 +323,29 @@
           "input": 1.4,
           "output": 4.4,
           "cache_read": 1.4,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "glm-5-3-flash",
+      "name": "GLM 5.3 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.075,
+          "output": 0.25,
+          "cache_read": 0.075,
           "cache_write": null
         },
         "batch": null,
@@ -1036,6 +1059,29 @@
           "input": 0.17,
           "output": 0.5,
           "cache_read": 0.08,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen3-8-flash",
+      "name": "Qwen3.8 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.16,
+          "output": 0.47,
+          "cache_read": 0.16,
           "cache_write": null
         },
         "batch": null,

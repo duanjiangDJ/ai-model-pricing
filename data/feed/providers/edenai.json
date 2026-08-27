@@ -7,8 +7,8 @@
   "homepage": "https://docs.edenai.co",
   "pricing_page": "https://docs.edenai.co",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
-  "verified_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-27T00:36:47Z",
+  "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
       "id": "amazon/moonshot.kimi-k2-thinking",
@@ -828,7 +828,7 @@
         "per_mtok": {
           "input": 0.15001,
           "output": 0.59997,
-          "cache_read": null,
+          "cache_read": 0.15001,
           "cache_write": null
         },
         "batch": null,
@@ -851,7 +851,7 @@
         "per_mtok": {
           "input": 0.07,
           "output": 0.30002,
-          "cache_read": null,
+          "cache_read": 0.07,
           "cache_write": null
         },
         "batch": null,
@@ -2252,8 +2252,8 @@
       "max_output": 4096,
       "pricing": {
         "per_mtok": {
-          "input": 0.760435,
-          "output": 0.760435,
+          "input": 0.758485,
+          "output": 0.758485,
           "cache_read": null,
           "cache_write": null
         },
@@ -2275,8 +2275,8 @@
       "max_output": 32768,
       "pricing": {
         "per_mtok": {
-          "input": 0.175485,
-          "output": 0.760435,
+          "input": 0.175035,
+          "output": 0.758485,
           "cache_read": null,
           "cache_write": null
         },
@@ -2436,9 +2436,9 @@
       "max_output": 262144,
       "pricing": {
         "per_mtok": {
-          "input": 0.4,
-          "output": 2,
-          "cache_read": null,
+          "input": 0.44,
+          "output": 2.2,
+          "cache_read": 0.044,
           "cache_write": null
         },
         "batch": null,
@@ -3816,8 +3816,8 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0.352,
-          "output": 1.056,
+          "input": 0.176,
+          "output": 0.528,
           "cache_read": null,
           "cache_write": null
         },
@@ -3839,8 +3839,8 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 1.1616,
-          "output": 3.4848,
+          "input": 0.5808,
+          "output": 1.7424,
           "cache_read": null,
           "cache_write": null
         },
@@ -4036,6 +4036,29 @@
       "notes": "models.dev official list price"
     },
     {
+      "id": "qwen/qwen3-coder-next@eu",
+      "name": "Qwen3 Coder Next (EU)",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.3,
+          "output": 1.5,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "qwen/qwen3-coder-plus",
       "name": "Qwen3 Coder Plus",
       "category": "chat",
@@ -4061,6 +4084,29 @@
     {
       "id": "qwen/qwen3-max",
       "name": "Qwen3 Max",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.2,
+          "output": 6,
+          "cache_read": 0.24,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen/qwen3-max@eu",
+      "name": "Qwen3 Max (EU)",
       "category": "chat",
       "modalities": [
         "text"
@@ -4276,8 +4322,8 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0.46796,
-          "output": 0.93592,
+          "input": 0.46676,
+          "output": 0.933521,
           "cache_read": null,
           "cache_write": null
         },
@@ -4299,8 +4345,8 @@
       "max_output": 32768,
       "pricing": {
         "per_mtok": {
-          "input": 0.175485,
-          "output": 0.70194,
+          "input": 0.175035,
+          "output": 0.70014,
           "cache_read": null,
           "cache_write": null
         },
@@ -4322,8 +4368,8 @@
       "max_output": 4096,
       "pricing": {
         "per_mtok": {
-          "input": 1.05291,
-          "output": 1.05291,
+          "input": 1.050211,
+          "output": 1.050211,
           "cache_read": null,
           "cache_write": null
         },
@@ -5360,6 +5406,29 @@
           "input": 1.4,
           "output": 4.4,
           "cache_read": 0.26,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "zai/glm-5.3-flash",
+      "name": "GLM-5.3-Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.15,
+          "output": 0.5,
+          "cache_read": 0.03,
           "cache_write": null
         },
         "batch": null,

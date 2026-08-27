@@ -6,10 +6,10 @@
 - 官网: https://crof.ai/docs
 - 定价页: https://crof.ai/docs
 - 币种: USD
-- 数据更新时间: 2026-08-22T09:32:50Z
-- 核实时间: 2026-08-22T09:32:50Z
+- 数据更新时间: 2026-08-27T00:36:47Z
+- 核实时间: 2026-08-27T00:36:47Z
 
-共 **26** 个模型。
+共 **27** 个模型。
 
 | 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -39,3 +39,4 @@
 | `qwen3.5-397b-a17b` | — | reasoning | 262.144K | $0.35 | $1.75 | $0.07 | — | —/— | — | models.dev official list price |
 | `qwen3.5-9b` | — | reasoning | 262.144K | $0.04 | $0.15 | $0.008 | — | —/— | — | models.dev official list price |
 | `qwen3.6-27b` | — | reasoning | 262.144K | $0.2 | $1.5 | $0.04 | — | —/— | — | models.dev official list price |
+| `qwen3.8-27b` | — | reasoning | 262.144K | $0.25 | $2.1 | $0.06 | — | —/— | — | models.dev official list price |

@@ -6,13 +6,18 @@
 - 官网: https://developers.cloudflare.com/ai-gateway/
 - 定价页: https://developers.cloudflare.com/ai-gateway/
 - 币种: USD
-- 数据更新时间: 2026-08-22T09:32:50Z
-- 核实时间: 2026-08-22T09:32:50Z
+- 数据更新时间: 2026-08-27T00:36:47Z
+- 核实时间: 2026-08-27T00:36:47Z
 
-共 **67** 个模型。
+共 **79** 个模型。
 
 | 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|
+| `alibaba/qwen3-max` | — | chat | 262.144K | $1.2 | $6 | — | — | —/— | — | models.dev official list price |
+| `alibaba/qwen3.5-397b-a17b` | — | reasoning | 262.144K | $0.6 | $3.6 | — | — | —/— | — | models.dev official list price |
+| `alibaba/qwen3.7-max` | — | reasoning | 1M | $1.25 | $3.75 | $0.25 | — | —/— | — | models.dev official list price |
+| `alibaba/qwen3.7-plus` | — | reasoning | 1M | $0.32 | $1.28 | $0.064 | — | —/— | — | models.dev official list price |
+| `alibaba/qwen3.8-max` | — | reasoning | 1M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-fable-5` | — | reasoning | 1M | $10 | $50 | $1 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-haiku-4.5` | — | reasoning | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-opus-4.5` | — | reasoning | 200K | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
@@ -23,6 +28,8 @@
 | `anthropic/claude-sonnet-4.5` | — | reasoning | 1M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-sonnet-4.6` | — | reasoning | 1M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-sonnet-5` | — | reasoning | 1M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-pro` | — | reasoning | 131.072K | $1.74 | $3.48 | $0.145 | — | —/— | — | models.dev official list price |
+| `moonshotai/kimi-k3` | — | reasoning | 1.04858M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `openai/gpt-3.5-turbo` | — | chat | 16.385K | $0.5 | $1.5 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `openai/gpt-4` | — | chat | 8.192K | $30 | $60 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-4-turbo` | — | chat | 128K | $10 | $30 | — | — | —/— | — | models.dev official list price |
@@ -50,7 +57,7 @@
 | `openai/gpt-5.5-pro` | — | reasoning | 1.05M | $30 | $180 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.6` | — | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.6-luna` | — | reasoning | 1.05M | $0.2 | $1.2 | $0.02 | — | —/— | — | models.dev official list price |
-| `openai/gpt-5.6-sol` | — | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
+| `openai/gpt-5.6-sol` | — | reasoning | 1.05M | $2 | $10 | $0.25 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.6-terra` | — | reasoning | 1.05M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `openai/o1` | — | reasoning | 200K | $15 | $60 | $7.5 | — | —/— | — | models.dev official list price |
 | `openai/o1-pro` | — | reasoning | 200K | $150 | $600 | — | — | —/— | — | models.dev official list price |
@@ -80,3 +87,8 @@
 | `workers-ai/@cf/qwen/qwq-32b` | — | reasoning | 24K | $0.66 | $1 | — | — | —/— | — | models.dev official list price |
 | `workers-ai/@cf/zai-org/glm-4.7-flash` | — | reasoning | 131.072K | $0.0605 | $0.4 | — | — | —/— | — | models.dev official list price |
 | `workers-ai/@cf/zai-org/glm-5.2` | — | reasoning | 262.144K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `xai/grok-4.20-0309-non-reasoning` | — | chat | 2M | $2 | $6 | $0.2 | — | —/— | — | models.dev official list price |
+| `xai/grok-4.20-0309-reasoning` | — | reasoning | 2M | $2 | $6 | $0.2 | — | —/— | — | models.dev official list price |
+| `xai/grok-4.3` | — | reasoning | 1M | $1.25 | $2.5 | $0.2 | — | —/— | — | models.dev official list price |
+| `xai/grok-4.5` | — | reasoning | 500K | $2 | $6 | $0.3 | — | —/— | — | models.dev official list price |
+| `xai/grok-4.6` | — | reasoning | 500K | $2 | $6 | $0.5 | — | —/— | — | models.dev official list price |

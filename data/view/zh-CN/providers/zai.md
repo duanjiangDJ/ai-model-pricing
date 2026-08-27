@@ -6,10 +6,10 @@
 - 官网: https://docs.z.ai/guides/overview/pricing
 - 定价页: https://docs.z.ai/guides/overview/pricing
 - 币种: USD
-- 数据更新时间: 2026-08-22T11:33:33Z
-- 核实时间: 2026-08-22T11:33:33Z
+- 数据更新时间: 2026-08-27T00:36:47Z
+- 核实时间: 2026-08-27T00:36:47Z
 
-共 **16** 个模型。
+共 **17** 个模型。
 
 | 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -27,5 +27,6 @@
 | `glm-5.1` | — | reasoning | 200K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `glm-5.2` | — | reasoning | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `glm-5.2-highspeed` | — | reasoning | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `glm-5.3` | — | reasoning | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `glm-5.3` | — | reasoning | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `glm-5.3-flash` | — | reasoning | 1M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |
 | `glm-5v-turbo` | — | reasoning | 200K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |

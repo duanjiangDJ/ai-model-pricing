@@ -7,8 +7,8 @@
   "homepage": "https://requesty.ai/solution/llm-routing/models",
   "pricing_page": "https://requesty.ai/solution/llm-routing/models",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
-  "verified_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-27T00:36:47Z",
+  "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
       "id": "claude-fable-5",
@@ -1654,9 +1654,9 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 4.5,
-          "output": 27,
-          "cache_read": 0.45,
+          "input": 3.6,
+          "output": 18,
+          "cache_read": 0.36,
           "cache_write": null
         },
         "batch": null,

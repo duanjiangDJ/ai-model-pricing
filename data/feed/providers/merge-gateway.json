@@ -7,8 +7,8 @@
   "homepage": "https://docs.merge.dev/merge-gateway",
   "pricing_page": "https://docs.merge.dev/merge-gateway",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
-  "verified_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-27T00:36:47Z",
+  "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
       "id": "anthropic/claude-3-7-sonnet-20250219",
@@ -2574,8 +2574,8 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 4,
-          "output": 24,
+          "input": 5,
+          "output": 30,
           "cache_read": 0.5,
           "cache_write": null
         },
@@ -4026,6 +4026,29 @@
           "input": 0.7,
           "output": 2.2,
           "cache_read": 0.13,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "zai/glm-5.3-flash",
+      "name": "GLM-5.3 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.075,
+          "output": 0.25,
+          "cache_read": 0.015,
           "cache_write": null
         },
         "batch": null,

@@ -6,8 +6,8 @@
 - Homepage: https://platform.openai.com/docs/models
 - Pricing page: https://openai.com/chatgpt/pricing/
 - Currency: USD
-- Data updated: 2026-08-22T09:32:50Z
-- Verified: 2026-08-22T09:32:50Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
 **47** models in total.
 
@@ -42,9 +42,9 @@
 | `gpt-5.4-pro` | — | reasoning | 1.05M | $30 | $180 | — | — | —/— | — | models.dev official list price |
 | `gpt-5.5` | ❌ offline | reasoning | 1.05M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `gpt-5.5-pro` | — | reasoning | 1.05M | $30 | $180 | — | — | —/— | — | models.dev official list price |
-| `gpt-5.6` | — | reasoning | 1.05M | $5 | $30 | $0.5 | $6.25 | $2.5/$15 | — | Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30… |
+| `gpt-5.6` | — | reasoning | 1.05M | $4 | $20 | $0.4 | $6.25 | $2.5/$15 | — | Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30… |
 | `gpt-5.6-luna` | — | reasoning | 1.05M | $0.2 | $1.2 | $0.02 | $0.25 | $2.5/$15 | — | Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30… |
-| `gpt-5.6-sol` | — | reasoning | 1.05M | $5 | $30 | $0.5 | $6.25 | $2.5/$15 | — | Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30… |
+| `gpt-5.6-sol` | — | reasoning | 1.05M | $4 | $20 | $0.4 | $6.25 | $2.5/$15 | — | Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30… |
 | `gpt-5.6-terra` | — | reasoning | 1.05M | $2 | $12 | $0.2 | $2.5 | $2.5/$15 | — | Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30… |
 | `gpt-image-1` | ❌ offline | chat | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `gpt-image-1-mini` | ❌ offline | chat | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |

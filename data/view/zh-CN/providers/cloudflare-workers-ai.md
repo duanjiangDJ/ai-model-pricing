@@ -6,10 +6,10 @@
 - 官网: https://developers.cloudflare.com/workers-ai/models/
 - 定价页: https://developers.cloudflare.com/workers-ai/models/
 - 币种: USD
-- 数据更新时间: 2026-08-21T11:27:12Z
-- 核实时间: 2026-08-21T11:27:12Z
+- 数据更新时间: 2026-08-27T00:36:47Z
+- 核实时间: 2026-08-27T00:36:47Z
 
-共 **25** 个模型。
+共 **26** 个模型。
 
 | 模型 | 状态 | 类别 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -38,3 +38,4 @@
 | `@cf/qwen/qwq-32b` | — | reasoning | 24K | $0.66 | $1 | — | — | —/— | — | models.dev official list price |
 | `@cf/zai-org/glm-4.7-flash` | — | reasoning | 131.072K | $0.0605 | $0.4 | — | — | —/— | — | models.dev official list price |
 | `@cf/zai-org/glm-5.2` | — | reasoning | 262.144K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `@cf/zai-org/glm-5.3-flash` | — | reasoning | 1.31072M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |

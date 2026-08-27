@@ -7,9 +7,55 @@
   "homepage": "https://docs.gmicloud.ai/inference-engine/api-reference/llm-api-reference",
   "pricing_page": "https://docs.gmicloud.ai/inference-engine/api-reference/llm-api-reference",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
-  "verified_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-27T00:36:47Z",
+  "verified_at": "2026-08-27T00:36:47Z",
   "models": [
+    {
+      "id": "MiniMaxAI/MiniMax-M2.7",
+      "name": "MiniMax-M2.7",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 196608,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.3,
+          "output": 1.2,
+          "cache_read": 0.06,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "MiniMaxAI/MiniMax-M3",
+      "name": "MiniMax-M3",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 512000,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.6,
+          "output": 2.4,
+          "cache_read": 0.12,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
     {
       "id": "Qwen/Qwen3.7-Max",
       "name": "Qwen3.7 Max",

@@ -6,10 +6,10 @@
 - Homepage: https://opencode.ai/go
 - Pricing page: https://opencode.ai/docs/go/
 - Currency: USD
-- Data updated: 2026-08-22T09:32:50Z
-- Verified: 2026-08-22T09:32:50Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
-**28** models in total.
+**31** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -20,13 +20,16 @@
 | `glm-5.1` | — | chat | — | $1.4 | $4.4 | $0.26 | — | —/— | — | — |
 | `glm-5.2` | — | chat | — | $1.4 | $4.4 | $0.26 | — | —/— | — | — |
 | `glm-5.3` | — | chat | — | $1.4 | $4.4 | $0.26 | — | —/— | — | — |
+| `glm-5.3-flash` | — | reasoning | 1M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |
 | `gpt-5.6-luna` | — | chat | — | $0.2 | $1.2 | $0.02 | $0.25 | —/— | — | — |
-| `grok-4.5` | — | chat | — | $2 | $6 | $0.5 | — | —/— | — | — |
+| `grok-4.5` | — | chat | — | $2 | $6 | $0.3 | — | —/— | — | — |
+| `grok-4.6` | — | reasoning | 500K | $2 | $6 | $0.5 | — | —/— | — | models.dev official list price |
 | `hy3` | — | chat | — | $0.0175 | $0.0725 | $0.004375 | — | —/— | — | — |
 | `kimi-k2.5` | — | reasoning | 262.144K | $0.6 | $3 | $0.1 | — | —/— | — | models.dev official list price |
 | `kimi-k2.6` | — | chat | — | $0.95 | $4 | $0.16 | — | —/— | — | — |
 | `kimi-k2.7-code` | — | chat | — | $0.95 | $4 | $0.19 | — | —/— | — | — |
 | `kimi-k3` | — | chat | — | $3 | $15 | $0.3 | — | —/— | — | — |
+| `longcat-2.0` | — | reasoning | 1M | $0.3 | $1.2 | $0.006 | — | —/— | — | models.dev official list price |
 | `mimo-v2-omni` | — | reasoning | 262.144K | $0.4 | $2 | $0.08 | — | —/— | — | models.dev official list price |
 | `mimo-v2-pro` | — | reasoning | 1.04858M | $1 | $3 | $0.2 | — | —/— | — | models.dev official list price |
 | `mimo-v2.5` | — | chat | — | $0.14 | $0.28 | $0.0028 | — | —/— | — | — |

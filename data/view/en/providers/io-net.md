@@ -6,8 +6,8 @@
 - Homepage: https://io.net/docs/guides/intelligence/io-intelligence
 - Pricing page: https://io.net/docs/guides/intelligence/io-intelligence
 - Currency: USD
-- Data updated: 2026-08-22T09:32:50Z
-- Verified: 2026-08-22T09:32:50Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
 **17** models in total.
 

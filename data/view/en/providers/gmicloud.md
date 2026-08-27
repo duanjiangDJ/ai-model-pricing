@@ -6,13 +6,15 @@
 - Homepage: https://docs.gmicloud.ai/inference-engine/api-reference/llm-api-reference
 - Pricing page: https://docs.gmicloud.ai/inference-engine/api-reference/llm-api-reference
 - Currency: USD
-- Data updated: 2026-08-22T09:32:50Z
-- Verified: 2026-08-22T09:32:50Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
-**13** models in total.
+**15** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
+| `MiniMaxAI/MiniMax-M2.7` | — | reasoning | 196.608K | $0.3 | $1.2 | $0.06 | — | —/— | — | models.dev official list price |
+| `MiniMaxAI/MiniMax-M3` | — | reasoning | 1.04858M | $0.6 | $2.4 | $0.12 | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3.7-Max` | — | reasoning | 1M | $2.5 | $7.5 | $0.25 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-opus-4.6` | — | reasoning | 409.6K | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-opus-4.7` | — | reasoning | 409.6K | $4.5 | $22.5 | $0.45 | — | —/— | — | models.dev official list price |

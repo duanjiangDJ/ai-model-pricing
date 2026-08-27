@@ -7,8 +7,8 @@
   "homepage": "https://docs.cline.bot/getting-started/clinepass",
   "pricing_page": "https://docs.cline.bot/getting-started/clinepass",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
-  "verified_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-27T00:36:47Z",
+  "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
       "id": "cline-pass/deepseek-v4-flash",
@@ -59,6 +59,29 @@
     {
       "id": "cline-pass/glm-5.2",
       "name": "GLM-5.2",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.4,
+          "output": 4.4,
+          "cache_read": 0.26,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "cline-pass/glm-5.3",
+      "name": "GLM-5.3",
       "category": "reasoning",
       "modalities": [
         "text"
@@ -254,6 +277,29 @@
           "input": 0.4,
           "output": 1.6,
           "cache_read": 0.04,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "cline-pass/qwen3.8-max",
+      "name": "Qwen3.8 Max",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": 2,
+          "output": 6,
+          "cache_read": 0.25,
           "cache_write": null
         },
         "batch": null,

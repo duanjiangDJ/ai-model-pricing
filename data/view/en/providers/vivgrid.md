@@ -6,10 +6,10 @@
 - Homepage: https://docs.vivgrid.com/models
 - Pricing page: https://docs.vivgrid.com/models
 - Currency: USD
-- Data updated: 2026-08-22T09:32:50Z
-- Verified: 2026-08-22T09:32:50Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
-**20** models in total.
+**21** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -18,6 +18,7 @@
 | `deepseek-v4-pro` | — | reasoning | 1M | $0.435 | $0.87 | $0.003625 | — | —/— | — | models.dev official list price |
 | `gemini-3.1-flash-lite-preview` | — | reasoning | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |
 | `gemini-3.1-pro-preview` | — | reasoning | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
+| `gemini-3.7-flash` | — | reasoning | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `glm-5.2` | — | reasoning | 1M | $1.2 | $4.2 | $0.3 | — | —/— | — | models.dev official list price |
 | `glm-5.3` | — | reasoning | 1M | $1.2 | $4.2 | $0.26 | — | —/— | — | models.dev official list price |
 | `gpt-5-mini` | — | reasoning | 272K | $0.25 | $2 | $0.03 | — | —/— | — | models.dev official list price |

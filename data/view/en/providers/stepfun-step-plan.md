@@ -6,8 +6,8 @@
 - Homepage: https://platform.stepfun.com/docs/zh/step-plan/integrations/reasoning-api
 - Pricing page: https://platform.stepfun.com/docs/zh/step-plan/integrations/reasoning-api
 - Currency: USD
-- Data updated: 2026-08-22T09:32:50Z
-- Verified: 2026-08-22T09:32:50Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
 **4** models in total.
 

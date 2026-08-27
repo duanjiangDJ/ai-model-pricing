@@ -7,8 +7,8 @@
   "homepage": "https://docs.nano-gpt.com",
   "pricing_page": "https://docs.nano-gpt.com",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
-  "verified_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-27T00:36:47Z",
+  "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
       "id": "Baichuan-M2",
@@ -287,6 +287,52 @@
       "notes": "models.dev official list price"
     },
     {
+      "id": "Gemma-4-26B-A4B-MeroMero",
+      "name": "Gemma 4 26B A4B MeroMero",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.08,
+          "output": 0.33,
+          "cache_read": 0.04,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Gemma-4-26B-A4B-MeroMero:thinking",
+      "name": "Gemma 4 26B A4B MeroMero Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.08,
+          "output": 0.33,
+          "cache_read": 0.04,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "Gemma-4-31B-Claude-4.6-Opus-Reasoning-Distilled",
       "name": "Gemma 4 31B Claude 4.6 Opus Reasoning Distilled",
       "category": "reasoning",
@@ -369,6 +415,52 @@
           "input": 0.306,
           "output": 0.306,
           "cache_read": 0.153,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Gemma-4-31B-MeroMero-v2",
+      "name": "Gemma 4 31B MeroMero v2",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.08,
+          "output": 0.33,
+          "cache_read": 0.04,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "Gemma-4-31B-MeroMero-v2:thinking",
+      "name": "Gemma 4 31B MeroMero v2 Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.08,
+          "output": 0.33,
+          "cache_read": 0.04,
           "cache_write": null
         },
         "batch": null,
@@ -1621,6 +1713,29 @@
       "notes": "models.dev official list price"
     },
     {
+      "id": "TEE/qwen3.8-27b",
+      "name": "Qwen3.8 27B TEE",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 262144,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.4,
+          "output": 3,
+          "cache_read": 0.15,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "THUDM/GLM-4-32B-0414",
       "name": "GLM 4 32B 0414",
       "category": "chat",
@@ -2140,6 +2255,29 @@
           "input": 0.19,
           "output": 1.16,
           "cache_read": 0.02,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "alibaba/qwen3.8-flash",
+      "name": "Qwen3.8 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 991808,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.16,
+          "output": 0.47,
+          "cache_read": 0.016,
           "cache_write": null
         },
         "batch": null,
@@ -3816,9 +3954,9 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 5,
-          "output": 25,
-          "cache_read": 2.5,
+          "input": 1.4,
+          "output": 4.4,
+          "cache_read": 0.26,
           "cache_write": null
         },
         "batch": null,
@@ -3839,9 +3977,9 @@
       "max_output": 65536,
       "pricing": {
         "per_mtok": {
-          "input": 0.25,
-          "output": 1.5,
-          "cache_read": 0.025,
+          "input": 1.4,
+          "output": 4.4,
+          "cache_read": 0.26,
           "cache_write": null
         },
         "batch": null,
@@ -3862,9 +4000,9 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0.315,
-          "output": 1.26,
-          "cache_read": 0.1575,
+          "input": 1.4,
+          "output": 4.4,
+          "cache_read": 0.26,
           "cache_write": null
         },
         "batch": null,
@@ -4575,9 +4713,9 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0.44,
-          "output": 1.32,
-          "cache_read": 0.014,
+          "input": 0.22,
+          "output": 0.66,
+          "cache_read": 0.007,
           "cache_write": null
         },
         "batch": null,
@@ -6277,9 +6415,9 @@
       "max_output": 65536,
       "pricing": {
         "per_mtok": {
-          "input": 0.75,
-          "output": 3.75,
-          "cache_read": 0.075,
+          "input": 0.375,
+          "output": 1.875,
+          "cache_read": 0.0375,
           "cache_write": null
         },
         "batch": null,
@@ -6382,6 +6520,52 @@
       "notes": "models.dev official list price"
     },
     {
+      "id": "google/gemma-4-26b-a4b-uncensored",
+      "name": "Gemma 4 26B A4B Uncensored",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.08,
+          "output": 0.33,
+          "cache_read": 0.04,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-uncensored:thinking",
+      "name": "Gemma 4 26B A4B Uncensored Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.08,
+          "output": 0.33,
+          "cache_read": 0.04,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "google/gemma-4-31b-it",
       "name": "Gemma 4 31B",
       "category": "reasoning",
@@ -6438,9 +6622,9 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 5,
-          "output": 25,
-          "cache_read": 2.5,
+          "input": 1.4,
+          "output": 4.4,
+          "cache_read": 0.26,
           "cache_write": null
         },
         "batch": null,
@@ -6461,9 +6645,9 @@
       "max_output": 65536,
       "pricing": {
         "per_mtok": {
-          "input": 0.25,
-          "output": 1.5,
-          "cache_read": 0.025,
+          "input": 1.4,
+          "output": 4.4,
+          "cache_read": 0.26,
           "cache_write": null
         },
         "batch": null,
@@ -6484,9 +6668,9 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0.315,
-          "output": 1.26,
-          "cache_read": 0.1575,
+          "input": 1.4,
+          "output": 4.4,
+          "cache_read": 0.26,
           "cache_write": null
         },
         "batch": null,
@@ -9681,9 +9865,9 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 2.5,
-          "output": 15,
-          "cache_read": 0.25,
+          "input": 2,
+          "output": 10,
+          "cache_read": 0.2,
           "cache_write": null
         },
         "batch": null,
@@ -9704,9 +9888,9 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 2.5,
-          "output": 15,
-          "cache_read": 0.25,
+          "input": 2,
+          "output": 10,
+          "cache_read": 0.2,
           "cache_write": null
         },
         "batch": null,
@@ -9773,9 +9957,9 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 2.5,
-          "output": 15,
-          "cache_read": 0.25,
+          "input": 2,
+          "output": 10,
+          "cache_read": 0.2,
           "cache_write": null
         },
         "batch": null,
@@ -9796,9 +9980,9 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 2.5,
-          "output": 15,
-          "cache_read": 0.25,
+          "input": 2,
+          "output": 10,
+          "cache_read": 0.2,
           "cache_write": null
         },
         "batch": null,
@@ -10166,7 +10350,7 @@
         "per_mtok": {
           "input": 0.1,
           "output": 0.4,
-          "cache_read": 0.01,
+          "cache_read": 0.05,
           "cache_write": null
         },
         "batch": null,
@@ -10189,7 +10373,99 @@
         "per_mtok": {
           "input": 0.1,
           "output": 0.4,
-          "cache_read": 0.01,
+          "cache_read": 0.05,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "ornith-ai/ornith-1.5-397b",
+      "name": "Ornith 1.5 397B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.9,
+          "output": 3.6,
+          "cache_read": 0.045,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "ornith-ai/ornith-1.5-397b:thinking",
+      "name": "Ornith 1.5 397B Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.9,
+          "output": 3.6,
+          "cache_read": 0.045,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "ornith-ai/ornith-1.5-9b",
+      "name": "Ornith 1.5 9B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.05,
+          "output": 0.1,
+          "cache_read": 0.025,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "ornith-ai/ornith-1.5-9b:thinking",
+      "name": "Ornith 1.5 9B Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.05,
+          "output": 0.1,
+          "cache_read": 0.025,
           "cache_write": null
         },
         "batch": null,
@@ -11120,6 +11396,98 @@
       "notes": "models.dev official list price"
     },
     {
+      "id": "qwen/qwen3.6-35b-a3b-uncensored:thinking",
+      "name": "Qwen 3.6 35B A3B Uncensored Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.15,
+          "output": 0.5,
+          "cache_read": 0.075,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen/qwen3.8-2.4t-a95b",
+      "name": "Qwen3.8 2.4T A95B (Max)",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 991000,
+      "max_output": 65536,
+      "pricing": {
+        "per_mtok": {
+          "input": 2,
+          "output": 6,
+          "cache_read": 0.25,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen/qwen3.8-27b-obliterated",
+      "name": "Qwen 3.8 27B Obliterated",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.18,
+          "output": 0.5,
+          "cache_read": 0.075,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen/qwen3.8-27b-obliterated:thinking",
+      "name": "Qwen 3.8 27B Obliterated Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.18,
+          "output": 0.5,
+          "cache_read": 0.075,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "qwen/qwen3.8-27b-uncensored",
       "name": "Qwen 3.8 27B Uncensored",
       "category": "chat",
@@ -11127,6 +11495,29 @@
         "text"
       ],
       "context_window": 131072,
+      "max_output": 32768,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.18,
+          "output": 0.5,
+          "cache_read": 0.075,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen/qwen3.8-27b-uncensored:thinking",
+      "name": "Qwen 3.8 27B Uncensored Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
       "max_output": 32768,
       "pricing": {
         "per_mtok": {
@@ -12580,8 +12971,8 @@
       "pricing": {
         "per_mtok": {
           "input": 0.4,
-          "output": 0.4,
-          "cache_read": 0.2,
+          "output": 1.8,
+          "cache_read": 0.4,
           "cache_write": null
         },
         "batch": null,
@@ -13065,6 +13456,29 @@
           "input": 1.2,
           "output": 4,
           "cache_read": 0.24,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/glm-5.3-flash",
+      "name": "GLM 5.3 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.075,
+          "output": 0.25,
+          "cache_read": 0.015,
           "cache_write": null
         },
         "batch": null,

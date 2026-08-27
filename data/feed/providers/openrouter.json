@@ -7,8 +7,8 @@
   "homepage": "https://openrouter.ai",
   "pricing_page": "https://openrouter.ai/models",
   "currency": "USD",
-  "updated_at": "2026-08-22T09:32:50Z",
-  "verified_at": "2026-08-22T09:32:50Z",
+  "updated_at": "2026-08-27T00:36:47Z",
+  "verified_at": "2026-08-27T00:36:47Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1412,9 +1412,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 6.846e-08,
-          "output": 1.3692e-07,
-          "cache_read": 1.3692e-08,
+          "input": 7.952e-08,
+          "output": 1.5904e-07,
+          "cache_read": 1.5904e-08,
           "cache_write": null
         },
         "per_image": null,
@@ -1433,9 +1433,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 8e-08,
-          "output": 1.8e-07,
-          "cache_read": 1.6e-08,
+          "input": 6e-08,
+          "output": 1.2e-07,
+          "cache_read": 1.2e-08,
           "cache_write": null
         },
         "per_image": null,
@@ -1455,9 +1455,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 4.4e-07,
-          "output": 1.32e-06,
-          "cache_read": 1.4e-08,
+          "input": 2.2e-07,
+          "output": 6.6e-07,
+          "cache_read": 7e-09,
           "cache_write": null
         },
         "per_image": null,
@@ -1476,9 +1476,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 4.3065e-07,
-          "output": 8.613e-07,
-          "cache_read": 3.58875e-08,
+          "input": 8.7e-07,
+          "output": 1.74e-06,
+          "cache_read": 7.25e-08,
           "cache_write": null
         },
         "per_image": null,
@@ -1497,9 +1497,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 1.188e-06,
-          "output": 3.564e-06,
-          "cache_read": 3.96e-08,
+          "input": 1.122e-06,
+          "output": 3.366e-06,
+          "cache_read": 3.74e-08,
           "cache_write": null
         },
         "per_image": null,
@@ -2459,27 +2459,6 @@
       "notes": "OpenRouter reseller price"
     },
     {
-      "id": "google/gemma-3n-e4b-it",
-      "name": "Google: Gemma 3n 4B",
-      "category": "chat",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 32768,
-      "max_output": null,
-      "pricing": {
-        "per_mtok": {
-          "input": 6e-08,
-          "output": 1.2e-07,
-          "cache_read": null,
-          "cache_write": null
-        },
-        "per_image": null,
-        "per_request": null
-      },
-      "notes": "OpenRouter reseller price"
-    },
-    {
       "id": "google/gemma-4-26b-a4b-it",
       "name": "Google: Gemma 4 26B A4B ",
       "category": "reasoning",
@@ -2538,9 +2517,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 1e-07,
+          "input": 9e-08,
           "output": 3.4e-07,
-          "cache_read": 1e-07,
+          "cache_read": 5e-08,
           "cache_write": null
         },
         "per_image": null,
@@ -2700,48 +2679,6 @@
       "notes": "OpenRouter reseller price"
     },
     {
-      "id": "inclusionai/ling-2.6-1t",
-      "name": "inclusionAI: Ling-2.6-1T",
-      "category": "chat",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 262144,
-      "max_output": null,
-      "pricing": {
-        "per_mtok": {
-          "input": 7.5e-08,
-          "output": 6.25e-07,
-          "cache_read": 1.5e-08,
-          "cache_write": null
-        },
-        "per_image": null,
-        "per_request": null
-      },
-      "notes": "OpenRouter reseller price"
-    },
-    {
-      "id": "inclusionai/ling-2.6-flash",
-      "name": "inclusionAI: Ling-2.6-flash",
-      "category": "chat",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 262144,
-      "max_output": null,
-      "pricing": {
-        "per_mtok": {
-          "input": 1e-08,
-          "output": 3e-08,
-          "cache_read": 2e-09,
-          "cache_write": null
-        },
-        "per_image": null,
-        "per_request": null
-      },
-      "notes": "OpenRouter reseller price"
-    },
-    {
       "id": "inclusionai/ling-3.0-flash",
       "name": "Ling-3.0-flash",
       "category": "reasoning",
@@ -2755,27 +2692,6 @@
           "input": 2.1e-08,
           "output": 6.3e-08,
           "cache_read": 4.2e-09,
-          "cache_write": null
-        },
-        "per_image": null,
-        "per_request": null
-      },
-      "notes": "OpenRouter reseller price"
-    },
-    {
-      "id": "inclusionai/ring-2.6-1t",
-      "name": "inclusionAI: Ring-2.6-1T",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 262144,
-      "max_output": null,
-      "pricing": {
-        "per_mtok": {
-          "input": 7.5e-08,
-          "output": 6.25e-07,
-          "cache_read": 1.5e-08,
           "cache_write": null
         },
         "per_image": null,
@@ -3004,9 +2920,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 1e-07,
-          "output": 3.2e-07,
-          "cache_read": null,
+          "input": 7.1e-07,
+          "output": 7.1e-07,
+          "cache_read": 7.1e-07,
           "cache_write": null
         },
         "per_image": null,
@@ -3048,9 +2964,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 1e-07,
-          "output": 3e-07,
-          "cache_read": null,
+          "input": 1.1e-07,
+          "output": 3.4e-07,
+          "cache_read": 5.5e-08,
           "cache_write": null
         },
         "per_image": null,
@@ -3066,7 +2982,7 @@
         "image_in",
         "text"
       ],
-      "context_window": 1048576,
+      "context_window": 163840,
       "max_output": null,
       "pricing": {
         "per_mtok": {
@@ -3092,8 +3008,8 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 3e-07,
-          "output": 1.1e-06,
+          "input": 3.5e-07,
+          "output": 1.5e-06,
           "cache_read": 4e-08,
           "cache_write": null
         },
@@ -3365,6 +3281,27 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "minimax/minimax-m2.7:free",
+      "name": "MiniMax: MiniMax M2.7 (free)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 196608,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.0,
+          "output": 0.0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "minimax/minimax-m3",
       "name": "MiniMax: MiniMax M3",
       "category": "reasoning",
@@ -3411,6 +3348,29 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "minimax/minimax-m3:free",
+      "name": "MiniMax: MiniMax M3 (free)",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in",
+        "video_in"
+      ],
+      "context_window": 1048576,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.0,
+          "output": 0.0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "mistralai/codestral-2508",
       "name": "Mistral: Codestral 2508",
       "category": "chat",
@@ -3424,6 +3384,27 @@
           "input": 3e-07,
           "output": 9e-07,
           "cache_read": 3e-08,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "mistralai/devstral-2512",
+      "name": "Mistral: Devstral 2 2512",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 4.4e-07,
+          "output": 2.2e-06,
+          "cache_read": 4.4e-08,
           "cache_write": null
         },
         "per_image": null,
@@ -3917,9 +3898,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 5.415e-07,
-          "output": 2.28e-06,
-          "cache_read": 9.12e-08,
+          "input": 9.5e-07,
+          "output": 4e-06,
+          "cache_read": 1.6e-07,
           "cache_write": null
         },
         "per_image": null,
@@ -3941,7 +3922,7 @@
         "per_mtok": {
           "input": 6.7e-07,
           "output": 3.4e-06,
-          "cache_read": 1.7e-07,
+          "cache_read": 1.9e-07,
           "cache_write": null
         },
         "per_image": null,
@@ -4177,28 +4158,7 @@
         "per_mtok": {
           "input": 5e-08,
           "output": 2e-07,
-          "cache_read": 3e-08,
-          "cache_write": null
-        },
-        "per_image": null,
-        "per_request": null
-      },
-      "notes": "OpenRouter reseller price"
-    },
-    {
-      "id": "nvidia/nemotron-3-nano-30b-a3b:free",
-      "name": "NVIDIA: Nemotron 3 Nano 30B A3B (free)",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 256000,
-      "max_output": null,
-      "pricing": {
-        "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
-          "cache_read": null,
+          "cache_read": 2.5e-08,
           "cache_write": null
         },
         "per_image": null,
@@ -4386,50 +4346,6 @@
         "text"
       ],
       "context_window": 1000000,
-      "max_output": null,
-      "pricing": {
-        "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
-          "cache_read": null,
-          "cache_write": null
-        },
-        "per_image": null,
-        "per_request": null
-      },
-      "notes": "OpenRouter reseller price"
-    },
-    {
-      "id": "nvidia/nemotron-nano-12b-v2-vl:free",
-      "name": "NVIDIA: Nemotron Nano 12B 2 VL (free)",
-      "category": "reasoning",
-      "modalities": [
-        "image_in",
-        "text",
-        "video_in"
-      ],
-      "context_window": 128000,
-      "max_output": null,
-      "pricing": {
-        "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
-          "cache_read": null,
-          "cache_write": null
-        },
-        "per_image": null,
-        "per_request": null
-      },
-      "notes": "OpenRouter reseller price"
-    },
-    {
-      "id": "nvidia/nemotron-nano-9b-v2:free",
-      "name": "NVIDIA: Nemotron Nano 9B V2 (free)",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 128000,
       "max_output": null,
       "pricing": {
         "per_mtok": {
@@ -6075,9 +5991,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 3e-08,
+          "input": 3.7e-08,
           "output": 1.7e-07,
-          "cache_read": 3e-08,
+          "cache_read": null,
           "cache_write": null
         },
         "per_image": null,
@@ -6930,27 +6846,6 @@
       "notes": "OpenRouter reseller price"
     },
     {
-      "id": "qwen/qwen-plus-2025-07-28:thinking",
-      "name": "Qwen: Qwen Plus 0728 (thinking)",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 1000000,
-      "max_output": null,
-      "pricing": {
-        "per_mtok": {
-          "input": 2.6e-07,
-          "output": 7.8e-07,
-          "cache_read": null,
-          "cache_write": null
-        },
-        "per_image": null,
-        "per_request": null
-      },
-      "notes": "OpenRouter reseller price"
-    },
-    {
       "id": "qwen/qwen2.5-vl-72b-instruct",
       "name": "Qwen: Qwen2.5 VL 72B Instruct",
       "category": "chat",
@@ -7025,9 +6920,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 9e-08,
-          "output": 5.5e-07,
-          "cache_read": null,
+          "input": 8.75e-08,
+          "output": 3.5e-07,
+          "cache_read": 1.75e-08,
           "cache_write": null
         },
         "per_image": null,
@@ -7042,7 +6937,7 @@
       "modalities": [
         "text"
       ],
-      "context_window": 262144,
+      "context_window": 131072,
       "max_output": null,
       "pricing": {
         "per_mtok": {
@@ -7067,8 +6962,8 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 1.3e-07,
-          "output": 5.2e-07,
+          "input": 1.2e-07,
+          "output": 5e-07,
           "cache_read": null,
           "cache_write": null
         },
@@ -7563,9 +7458,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-07,
-          "output": 1.25e-06,
-          "cache_read": 2.5e-07,
+          "input": 2.25e-07,
+          "output": 1.8e-06,
+          "cache_read": 2.25e-07,
           "cache_write": null
         },
         "per_image": null,
@@ -7701,9 +7596,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 6e-07,
-          "output": 3.6e-06,
-          "cache_read": 1.2e-07,
+          "input": 3.2e-07,
+          "output": 3.2e-06,
+          "cache_read": null,
           "cache_write": null
         },
         "per_image": null,
@@ -7901,10 +7796,33 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 4.5e-07,
-          "output": 3.2e-06,
-          "cache_read": 5e-08,
-          "cache_write": null
+          "input": 4.25e-07,
+          "output": 2.55e-06,
+          "cache_read": 8.5e-08,
+          "cache_write": 5.3125e-07
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "qwen/qwen3.8-flash",
+      "name": "Qwen: Qwen3.8 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in",
+        "video_in"
+      ],
+      "context_window": 1000000,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.6e-07,
+          "output": 4.7e-07,
+          "cache_read": 1.6e-08,
+          "cache_write": 2e-07
         },
         "per_image": null,
         "per_request": null
@@ -8128,29 +8046,6 @@
       "notes": "OpenRouter reseller price"
     },
     {
-      "id": "stealth/ox-alpha",
-      "name": "Ox Alpha",
-      "category": "reasoning",
-      "modalities": [
-        "text",
-        "image_in",
-        "video_in"
-      ],
-      "context_window": 1048576,
-      "max_output": null,
-      "pricing": {
-        "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
-          "cache_read": null,
-          "cache_write": null
-        },
-        "per_image": null,
-        "per_request": null
-      },
-      "notes": "OpenRouter reseller price"
-    },
-    {
       "id": "stepfun/step-3.5-flash",
       "name": "StepFun: Step 3.5 Flash",
       "category": "reasoning",
@@ -8239,6 +8134,27 @@
     {
       "id": "tencent/hy-mt2-30b-a3b",
       "name": "Tencent: Hy-MT2-30B-A3B",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 8192,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 7.4e-08,
+          "output": 2.95e-07,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "tencent/hy-mt2-7b",
+      "name": "Tencent: Hy-MT2-7B",
       "category": "chat",
       "modalities": [
         "text"
@@ -8438,7 +8354,7 @@
         "image_in",
         "audio_in"
       ],
-      "context_window": 262144,
+      "context_window": 1048576,
       "max_output": null,
       "pricing": {
         "per_mtok": {
@@ -8484,7 +8400,7 @@
         "image_in",
         "audio_in"
       ],
-      "context_window": 262144,
+      "context_window": 1048576,
       "max_output": null,
       "pricing": {
         "per_mtok": {
@@ -8834,9 +8750,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 5e-07,
-          "output": 2e-06,
-          "cache_read": 1e-07,
+          "input": 4.3e-07,
+          "output": 1.75e-06,
+          "cache_read": 8e-08,
           "cache_write": null
         },
         "per_image": null,
@@ -8962,9 +8878,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 9.66e-07,
-          "output": 3.036e-06,
-          "cache_read": 1.794e-07,
+          "input": 1.26e-06,
+          "output": 3.96e-06,
+          "cache_read": 2.34e-07,
           "cache_write": null
         },
         "per_image": null,
@@ -8983,30 +8899,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 9.66e-07,
-          "output": 3.036e-06,
-          "cache_read": 1.932e-07,
-          "cache_write": null
-        },
-        "per_image": null,
-        "per_request": null
-      },
-      "notes": "OpenRouter reseller price"
-    },
-    {
-      "id": "z-ai/glm-5.2:batch",
-      "name": "Z.ai: GLM 5.2 (batch)",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 1048575,
-      "max_output": null,
-      "pricing": {
-        "per_mtok": {
-          "input": 1.4e-06,
-          "output": 4.4e-06,
-          "cache_read": 2.6e-07,
+          "input": 1.19e-06,
+          "output": 3.74e-06,
+          "cache_read": 2.21e-07,
           "cache_write": null
         },
         "per_image": null,
@@ -9049,6 +8944,29 @@
           "input": 1.4e-06,
           "output": 4.4e-06,
           "cache_read": 2.6e-07,
+          "cache_write": null
+        },
+        "per_image": null,
+        "per_request": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "z-ai/glm-5.3-flash",
+      "name": "Z.ai: GLM 5.3 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in",
+        "video_in"
+      ],
+      "context_window": 1310720,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 7.5e-08,
+          "output": 2.5e-07,
+          "cache_read": 1.5e-08,
           "cache_write": null
         },
         "per_image": null,
@@ -9178,9 +9096,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 6.5e-08,
-          "output": 1.8e-07,
-          "cache_read": 2e-08,
+          "input": 3e-08,
+          "output": 7.5e-08,
+          "cache_read": 7e-09,
           "cache_write": null
         },
         "per_image": null,
@@ -9259,9 +9177,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 2.6e-06,
-          "output": 1.3e-05,
-          "cache_read": 2.9e-07,
+          "input": 2.55e-06,
+          "output": 1.275e-05,
+          "cache_read": 2.5599999e-07,
           "cache_write": null
         },
         "per_image": null,

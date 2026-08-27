@@ -6,8 +6,8 @@
 - 官网: https://docs.baseten.co/inference/model-apis/overview
 - 定价页: https://docs.baseten.co/inference/model-apis/overview
 - 币种: USD
-- 数据更新时间: 2026-08-22T09:32:50Z
-- 核实时间: 2026-08-22T09:32:50Z
+- 数据更新时间: 2026-08-27T00:36:47Z
+- 核实时间: 2026-08-27T00:36:47Z
 
 共 **19** 个模型。
 

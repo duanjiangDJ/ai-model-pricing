@@ -6,8 +6,8 @@
 - Homepage: https://nova.amazon.com/dev/documentation
 - Pricing page: https://nova.amazon.com/dev/documentation
 - Currency: USD
-- Data updated: 2026-08-22T09:32:50Z
-- Verified: 2026-08-22T09:32:50Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
 **2** models in total.
 

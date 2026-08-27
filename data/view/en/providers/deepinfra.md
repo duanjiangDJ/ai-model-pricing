@@ -6,10 +6,10 @@
 - Homepage: https://deepinfra.com/models
 - Pricing page: https://deepinfra.com/models
 - Currency: USD
-- Data updated: 2026-08-22T09:32:50Z
-- Verified: 2026-08-22T09:32:50Z
+- Data updated: 2026-08-27T00:36:47Z
+- Verified: 2026-08-27T00:36:47Z
 
-**60** models in total.
+**61** models in total.
 
 | Model | Status | Category | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -73,3 +73,4 @@
 | `zai-org/GLM-5` | — | reasoning | 202.752K | $0.6 | $2.08 | $0.12 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.1` | — | reasoning | 202.752K | $1.05 | $3.5 | $0.205 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.2` | — | reasoning | 1.04858M | $0.75 | $2.4 | $0.14 | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.3-Flash` | — | reasoning | 1.04858M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |

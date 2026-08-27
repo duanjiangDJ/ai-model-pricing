@@ -6,8 +6,8 @@
 - 官网: https://www.alibabacloud.com/help/en/model-studio/models
 - 定价页: https://www.alibabacloud.com/help/en/model-studio/models
 - 币种: USD
-- 数据更新时间: 2026-08-22T09:32:50Z
-- 核实时间: 2026-08-22T09:32:50Z
+- 数据更新时间: 2026-08-27T00:36:47Z
+- 核实时间: 2026-08-27T00:36:47Z
 
 共 **86** 个模型。
 
@@ -48,7 +48,7 @@
 | `qwen-mt-turbo` | — | chat | 16.384K | $0.101 | $0.28 | — | — | —/— | — | models.dev official list price |
 | `qwen-omni-turbo` | — | chat | 32.768K | $0.058 | $0.23 | — | — | —/— | — | models.dev official list price |
 | `qwen-omni-turbo-realtime` | — | chat | 32.768K | $0.23 | $0.918 | — | — | —/— | — | models.dev official list price |
-| `qwen-plus` | — | reasoning | 1M | $0.115 | $0.287 | — | — | —/— | — | models.dev official list price |
+| `qwen-plus` | — | reasoning | 1M | $0.115 | $0.287 | $0.012 | — | —/— | — | models.dev official list price |
 | `qwen-plus-character` | — | chat | 32.768K | $0.115 | $0.287 | — | — | —/— | — | models.dev official list price |
 | `qwen-turbo` | — | reasoning | 1M | $0.044 | $0.087 | — | — | —/— | — | models.dev official list price |
 | `qwen-vl-max` | — | chat | 131.072K | $0.23 | $0.574 | — | — | —/— | — | models.dev official list price |
