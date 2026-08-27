@@ -28,6 +28,7 @@ free_models = 0
 sub_included = 0
 no_status = 0
 for p in providers:
+    chan_m[p["channel"]] += len(p.get("models", []))
     for m in p.get("models", []):
         pm = (m.get("pricing") or {}).get("per_mtok") or {}
         st = m.get("status")

@@ -43,17 +43,17 @@ verification.
 - **Models**: 7239
 - **Subscription plans**: 67
 - **Distinct API endpoints**: 179
-- **Free models**: 439
+- **Free models**: 440
 
 ### By channel
 
 | Channel | Providers | Models |
 |---|---|---|
-| Inference host | 138 | 0 |
-| Subscription | 18 | 0 |
-| First-party | 16 | 0 |
-| Aggregator | 13 | 0 |
-| Cloud-hosted | 1 | 0 |
+| Inference host | 138 | 4316 |
+| Subscription | 18 | 173 |
+| First-party | 16 | 408 |
+| Aggregator | 13 | 2222 |
+| Cloud-hosted | 1 | 120 |
 
 ### By region
 

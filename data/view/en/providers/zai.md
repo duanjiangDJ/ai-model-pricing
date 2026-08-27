@@ -28,7 +28,7 @@
 | `glm-5.2` | — | reasoning | per-token | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `glm-5.2-highspeed` | — | reasoning | sub-included | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
 | `glm-5.3` | — | reasoning | per-token | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `glm-5.3-flash` | — | reasoning | per-token | 1M | $0.075 | $0.25 | $0.015 | — | —/— | — | Official docs.z.ai/guides/overview/pricing (USD per 1M tokens). PROMO: 50% of… |
+| `glm-5.3-flash` | — | reasoning | per-token | 1M | $0.075 | $0.25 | $0.015 | — | —/— | 🔥 promo | Official docs.z.ai/guides/overview/pricing (USD per 1M tokens). PROMO: 50% of… |
 | `glm-5v-turbo` | — | reasoning | per-token | 200K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |
 | `glm-4.5-x` | ✅ online | chat | per-token | — | $2.2 | $8.9 | $0.45 | — | —/— | — | Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; effective pric… |
 | `glm-4.5-airx` | ✅ online | chat | per-token | — | $1.1 | $4.5 | $0.22 | — | —/— | — | Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; effective pric… |

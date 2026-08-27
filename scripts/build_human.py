@@ -205,6 +205,8 @@ def build_provider_md(provider, lang, channel_labels):
         other = []
         if p.get("per_image"):
             other.append("per-image")
+        if p.get("promo"):
+            other.append("🔥 promo" if lang == "en" else "🔥 促销")
         st = status_label.get(m.get("status"), "")
         note_low = (m.get("notes") or "").lower()
         if any(k in note_low for k in ("peak/off-peak", "峰谷", "高峰", "off-peak", "peak tier")):

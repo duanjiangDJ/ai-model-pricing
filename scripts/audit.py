@@ -79,6 +79,7 @@ zero_suspect = 0
 bad_status = 0
 BILLING_ENUM = ("pay_per_token", "pay_per_image", "subscription_included", "credits", "free", "unknown")
 unknown_models = []
+no_price_models = []
 for f in sorted(glob.glob("data/feed/providers/*.json")):
     p = json.load(open(f, encoding="utf-8"))
     is_sub = any(h in p["provider_id"] for h in SUB_HINTS)
@@ -115,7 +116,7 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
         if has_val and "pay_per_token" not in bm:
             fail(f"per_mtok has prices but billing_model {bm} lacks pay_per_token: {p['provider_id']} :: {m['id']}")
         if "pay_per_token" in bm and not has_val and not pm.get("per_image"):
-            warn(f"billing_model=pay_per_token but per_mtok all null: {p['provider_id']} :: {m['id']}")
+            no_price_models.append(f"{p['provider_id']} :: {m['id']}")
         if bm == ["unknown"] and (m.get("notes") or ""):
             unknown_models.append(f"{p['provider_id']} :: {m['id']}")
         # currency consistency: USD-declared files must not carry CNY amounts
@@ -128,6 +129,11 @@ if unknown_models:
     from collections import Counter as _C
     by_pid = _C(u.split(" :: ")[0] for u in unknown_models)
     warn(f"billing_model=unknown, needs human review ({len(unknown_models)} models): "
+         + ", ".join(f"{pid} x{c}" for pid, c in by_pid.most_common(12)))
+if no_price_models:
+    from collections import Counter as _C
+    by_pid = _C(u.split(" :: ")[0] for u in no_price_models)
+    warn(f"billing_model=pay_per_token but per_mtok all null (price not published, {len(no_price_models)} models): "
          + ", ".join(f"{pid} x{c}" for pid, c in by_pid.most_common(12)))
 print(f"OK zero-price: {zero_free} free-flagged, {zero_suspect} suspect")
 

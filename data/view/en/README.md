@@ -3,7 +3,7 @@
 > Data sources: official pricing pages & public APIs. Machine-readable version: [`data/feed/`](../../../data/feed/).
 > Auto-updated daily by GitHub Actions (see `.github/workflows/daily-check.yml`).
 
-- Generated: 2026-08-27T15:38:33.587025Z
+- Generated: 2026-08-27T17:37:17Z
 - Providers: 186
 - Models total: 7239
 - Plans total: 67
@@ -197,7 +197,7 @@
 | [Tabnine](providers/tabnine.md) | Subscription | 0 | `providers/tabnine.json` | 2026-08-27T17:11:11Z |
 | [Replit](providers/replit.md) | Subscription | 0 | `providers/replit.json` | 2026-08-27T17:11:11Z |
 | [Z.AI Coding Plan](providers/zai-coding-plan.md) | Subscription | 6 | `providers/zai-coding-plan.json` | 2026-08-27T17:11:11Z |
-| [OpenRouter](providers/openrouter.md) | Aggregator | 417 | `providers/openrouter.json` | 2026-08-27T17:11:11Z |
+| [OpenRouter](providers/openrouter.md) | Aggregator | 417 | `providers/openrouter.json` | 2026-08-27T17:37:17Z |
 
 ## Plans
 
