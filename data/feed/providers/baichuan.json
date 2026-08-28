@@ -1,0 +1,45 @@
+{
+  "provider_id": "baichuan",
+  "name": "百川智能 (Baichuan)",
+  "channel": "first_party",
+  "category": "ai_vendor",
+  "region": "cn",
+  "homepage": "https://www.baichuan-ai.com",
+  "pricing_page": "https://platform.baichuan-ai.com/prices",
+  "currency": "CNY",
+  "updated_at": "2026-08-28T10:02:16.380334Z",
+  "verified_at": "2026-08-28T10:02:16.380334Z",
+  "price_currency": "CNY",
+  "currency_usd_note": "Baichuan official pricing is CNY-only (platform.baichuan-ai.com/prices); no official USD page.",
+  "api_base_url": "https://api.baichuan-ai.com/v1",
+  "models": [
+    {
+      "id": "baichuan4",
+      "name": "Baichuan 4",
+      "category": "chat",
+      "context_window": 128000,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "cny": 100.0
+          },
+          "output": {
+            "cny": 100.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official Baichuan (CNY/1M tokens): in ¥100, out ¥100. baichuan4. Verified 2026-08-28.",
+      "status": "online",
+      "billing_model": [
+        "pay_per_token"
+      ]
+    }
+  ]
+}

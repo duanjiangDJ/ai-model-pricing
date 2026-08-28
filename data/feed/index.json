@@ -1,9 +1,9 @@
 {
-  "schema_version": "26.7.16",
-  "generated_at": "2026-08-28T05:09:26Z",
+  "schema_version": "26.7.17",
+  "generated_at": "2026-08-28T10:02:37.202960Z",
   "currency": "USD",
-  "provider_count": 185,
-  "model_count": 7294,
+  "provider_count": 189,
+  "model_count": 6921,
   "plan_count": 67,
   "providers": [
     {
@@ -1485,6 +1485,38 @@
       "model_count": 6,
       "file": "providers/zai-coding-plan.json",
       "updated_at": "2026-08-27T15:38:33.587025Z"
+    },
+    {
+      "id": "ai21",
+      "name": "AI21 Labs",
+      "channel": "first_party",
+      "model_count": 2,
+      "file": "providers/ai21.json",
+      "updated_at": "2026-08-28T10:02:37.202960Z"
+    },
+    {
+      "id": "baichuan",
+      "name": "百川智能 (Baichuan)",
+      "channel": "first_party",
+      "model_count": 1,
+      "file": "providers/baichuan.json",
+      "updated_at": "2026-08-28T10:02:37.202960Z"
+    },
+    {
+      "id": "iflytek",
+      "name": "科大讯飞星火 (iFlytek Spark)",
+      "channel": "first_party",
+      "model_count": 2,
+      "file": "providers/iflytek.json",
+      "updated_at": "2026-08-28T10:02:37.202960Z"
+    },
+    {
+      "id": "lingyiwanwu",
+      "name": "零一万物 (01.AI)",
+      "channel": "first_party",
+      "model_count": 2,
+      "file": "providers/lingyiwanwu.json",
+      "updated_at": "2026-08-28T10:02:37.202960Z"
     }
   ],
   "resellers": [

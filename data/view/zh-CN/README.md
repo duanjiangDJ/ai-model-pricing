@@ -3,9 +3,9 @@
 > 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/feed/`](../../../data/feed/)。
 > 更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。
 
-- 数据更新时间: 2026-08-28T05:09:26Z
-- 覆盖渠道: 186
-- 模型总数: 7294
+- 数据更新时间: 2026-08-28T10:02:37.202960Z
+- 覆盖渠道: 190
+- 模型总数: 7301
 - 订阅计划数: 67
 
 ## 供应商列表
@@ -197,6 +197,10 @@
 | [Tabnine](providers/tabnine.md) | 订阅制 | 0 | `providers/tabnine.json` | 2026-08-27T17:11:11Z |
 | [Replit](providers/replit.md) | 订阅制 | 0 | `providers/replit.json` | 2026-08-27T17:11:11Z |
 | [Z.AI Coding Plan](providers/zai-coding-plan.md) | 订阅制 | 6 | `providers/zai-coding-plan.json` | 2026-08-27T17:11:11Z |
+| [AI21 Labs](providers/ai21.md) | 官方直供 | 2 | `providers/ai21.json` | 2026-08-28T10:02:16.380334Z |
+| [百川智能 (Baichuan)](providers/baichuan.md) | 官方直供 | 1 | `providers/baichuan.json` | 2026-08-28T10:02:16.380334Z |
+| [科大讯飞星火 (iFlytek Spark)](providers/iflytek.md) | 官方直供 | 2 | `providers/iflytek.json` | 2026-08-28T10:02:16.380334Z |
+| [零一万物 (01.AI)](providers/lingyiwanwu.md) | 官方直供 | 2 | `providers/lingyiwanwu.json` | 2026-08-28T10:02:16.380334Z |
 | [OpenRouter](providers/openrouter.md) | 聚合站 | 380 | `providers/openrouter.json` | 2026-08-28T08:54:00Z |
 
 ## 订阅计划

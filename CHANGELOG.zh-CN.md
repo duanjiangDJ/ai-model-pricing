@@ -16,6 +16,14 @@
 
 ---
 
+## 26.7.17 — 2026-08-28T10:50Z（功能更新）
+
+## 26.7.17 — 2026-08-28T10:50Z（功能更新）
+
+- **feat(新增 T1 数据)**：补齐 4 家此前无数据文件的 T1 厂商——`ai21`（美元：jamba-1.6-large $2/$8、jamba-1.5-large $0.6/$2.4）、`baichuan`（人民币：baichuan4 ¥100/¥100）、`iflytek`（人民币：spark-4.0-ultra ¥21/¥21、spark-lite 免费）、`lingyiwanwu`（人民币：yi-lightning ¥0.99/¥0.99）。各家按官方清单为单币种（ai21 仅美元；国内三家为人民币）。已在 index.json 注册（186→190 家）。
+- **feat(T1 检测覆盖)**：为剩余所有 T1 厂商新增 best-effort `tier1_*` 检测——baichuan/iflytek/lingyiwanwu（新增）+ cohere/nvidia/perplexity/upstage/aws（仅美元，无 CNY 分支——正确）。记录抓取状态，解析器待补。
+- T1 双币进度：zhipuai/deepseek/baidu/stepfun/volcengine 已双币；ai21/tencent/xiaomi/cohere/nvidia/perplexity/upstage/aws 单币（按官方）；baichuan/iflytek/lingyiwanwu 人民币。
+
 ## 26.7.16 — 2026-08-28T10:20Z（功能更新）
 
 ## 26.7.16 — 2026-08-28T10:20Z（功能更新）

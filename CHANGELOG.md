@@ -16,6 +16,14 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.7.17 — 2026-08-28T10:50Z (feature update)
+
+## 26.7.17 — 2026-08-28T10:50Z (feature update)
+
+- **feat(new T1 providers)**: added the 4 TIER-1 vendors that had no data file — `ai21` (USD: jamba-1.6-large $2/$8, jamba-1.5-large $0.6/$2.4), `baichuan` (CNY: baichuan4 ¥100/¥100), `iflytek` (CNY: spark-4.0-ultra ¥21/¥21, spark-lite free), `lingyiwanwu` (CNY: yi-lightning ¥0.99/¥0.99). Each is single-currency per official vendor list (ai21 USD-only; the domestic ones CNY-only for now). Registered in index.json (186→190 providers).
+- **feat(T1 check coverage)**: added best-effort `tier1_*` checks for all the remaining T1 vendors so every one of the 15 TIER-1 providers now has a check module — baichuan/iflytek/lingyiwanwu (new) + cohere/nvidia/perplexity/upstage/aws (USD-only, no CNY branch — correct). They record fetch-status and defer parsers.
+- T1 dual-currency rollout: zhipuai/deepseek/baidu/stepfun/volcengine now dual-currency; ai21/tencent/xiaomi/cohere/nvidia/perplexity/upstage/aws single-currency (per official); baichuan/iflytek/lingyiwanwu CNY.
+
 ## 26.7.16 — 2026-08-28T10:20Z (feature update)
 
 ## 26.7.16 — 2026-08-28T10:20Z (feature update)

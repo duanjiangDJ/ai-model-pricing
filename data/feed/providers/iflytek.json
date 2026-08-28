@@ -1,0 +1,73 @@
+{
+  "provider_id": "iflytek",
+  "name": "科大讯飞星火 (iFlytek Spark)",
+  "channel": "first_party",
+  "category": "ai_vendor",
+  "region": "cn",
+  "homepage": "https://www.xfyun.cn",
+  "pricing_page": "https://www.xfyun.cn/doc/spark/price.html",
+  "currency": "CNY",
+  "updated_at": "2026-08-28T10:02:16.380334Z",
+  "verified_at": "2026-08-28T10:02:16.380334Z",
+  "price_currency": "CNY",
+  "currency_usd_note": "iFlytek Spark official pricing is CNY-only (xfyun.cn); no official USD page.",
+  "api_base_url": "https://spark-api-open.xf-yun.com/v1",
+  "models": [
+    {
+      "id": "spark-4-0-ultra",
+      "name": "Spark 4.0 Ultra",
+      "category": "chat",
+      "context_window": 128000,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "cny": 21.0
+          },
+          "output": {
+            "cny": 21.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official iFlytek Spark (CNY/1M tokens): in ¥21, out ¥21. Spark-4.0-Ultra. Verified 2026-08-28.",
+      "status": "online",
+      "billing_model": [
+        "pay_per_token"
+      ]
+    },
+    {
+      "id": "spark-lite",
+      "name": "Spark Lite",
+      "category": "chat",
+      "context_window": 32768,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "cny": 0.0
+          },
+          "output": {
+            "cny": 0.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "iFlytek Spark Lite is permanently free (CNY 0/1M). Verified 2026-08-28.",
+      "status": "online",
+      "billing_model": [
+        "free"
+      ]
+    }
+  ]
+}
