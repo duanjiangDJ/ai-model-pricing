@@ -6,7 +6,7 @@
 - Homepage: https://aws.amazon.com
 - Pricing page: https://aws.amazon.com/q/developer/
 - Currency: USD
-- Data updated: 2026-08-27T17:11:11Z
+- Data updated: 2026-08-28T08:54:00Z
 - Verified: 2026-08-21T00:00:00Z
 
 **120** models in total.

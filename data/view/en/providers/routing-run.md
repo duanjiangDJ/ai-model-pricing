@@ -6,7 +6,7 @@
 - Homepage: https://docs.routing.run/api-reference/models
 - Pricing page: https://docs.routing.run/api-reference/models
 - Currency: USD
-- Data updated: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-28T08:54:00Z
 - Verified: 2026-08-28T05:09:26Z
 
 **15** models in total.

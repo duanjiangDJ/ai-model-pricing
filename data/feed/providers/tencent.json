@@ -7,7 +7,7 @@
   "homepage": "https://hunyuan.tencent.com",
   "pricing_page": "https://cloud.tencent.com/document/product/1759/127342",
   "currency": "CNY",
-  "updated_at": "2026-08-27T17:11:11Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-27T15:37:35.738047Z",
   "models": [
     {
@@ -18,9 +18,15 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 1.0,
-          "output": 4.0,
-          "cache_read": 0.25,
+          "input": {
+            "cny": 1.0
+          },
+          "output": {
+            "cny": 4.0
+          },
+          "cache_read": {
+            "cny": 0.25
+          },
           "cache_write": null
         },
         "batch": null,

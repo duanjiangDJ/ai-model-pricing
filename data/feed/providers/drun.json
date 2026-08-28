@@ -7,7 +7,7 @@
   "homepage": "https://www.d.run",
   "pricing_page": "https://www.d.run",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -21,8 +21,12 @@
       "max_output": 32000,
       "pricing": {
         "per_mtok": {
-          "input": 0.55,
-          "output": 2.2,
+          "input": {
+            "usd": 0.55
+          },
+          "output": {
+            "usd": 2.2
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -47,8 +51,12 @@
       "max_output": 8192,
       "pricing": {
         "per_mtok": {
-          "input": 0.28,
-          "output": 1.1,
+          "input": {
+            "usd": 0.28
+          },
+          "output": {
+            "usd": 1.1
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -73,8 +81,12 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0.29,
-          "output": 1.16,
+          "input": {
+            "usd": 0.29
+          },
+          "output": {
+            "usd": 1.16
+          },
           "cache_read": null,
           "cache_write": null
         },

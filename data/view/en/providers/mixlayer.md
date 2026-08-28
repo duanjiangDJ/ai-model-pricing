@@ -6,7 +6,7 @@
 - Homepage: https://docs.mixlayer.com
 - Pricing page: https://docs.mixlayer.com
 - Currency: USD
-- Data updated: 2026-08-27T17:11:11Z
+- Data updated: 2026-08-28T08:54:00Z
 - Verified: 2026-08-21T11:27:12Z
 
 **5** models in total.

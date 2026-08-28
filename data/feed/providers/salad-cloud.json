@@ -7,7 +7,7 @@
   "homepage": "https://docs.salad.com/ai-gateway/explanation/overview",
   "pricing_page": "https://docs.salad.com/ai-gateway/explanation/overview",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -21,8 +21,12 @@
       "max_output": 262144,
       "pricing": {
         "per_mtok": {
-          "input": 0.09,
-          "output": 0.6,
+          "input": {
+            "usd": 0.09
+          },
+          "output": {
+            "usd": 0.6
+          },
           "cache_read": null,
           "cache_write": null
         },

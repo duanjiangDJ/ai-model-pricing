@@ -7,7 +7,7 @@
   "homepage": "https://docs.inceptron.io",
   "pricing_page": "https://docs.inceptron.io",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -21,9 +21,15 @@
       "max_output": 1048576,
       "pricing": {
         "per_mtok": {
-          "input": 0.13,
-          "output": 0.28,
-          "cache_read": 0.03,
+          "input": {
+            "usd": 0.13
+          },
+          "output": {
+            "usd": 0.28
+          },
+          "cache_read": {
+            "usd": 0.03
+          },
           "cache_write": null
         },
         "batch": null,
@@ -47,9 +53,15 @@
       "max_output": 262144,
       "pricing": {
         "per_mtok": {
-          "input": 0.54,
-          "output": 3.39,
-          "cache_read": 0.15,
+          "input": {
+            "usd": 0.54
+          },
+          "output": {
+            "usd": 3.39
+          },
+          "cache_read": {
+            "usd": 0.15
+          },
           "cache_write": null
         },
         "batch": null,
@@ -73,9 +85,15 @@
       "max_output": 262144,
       "pricing": {
         "per_mtok": {
-          "input": 0.66,
-          "output": 3.4,
-          "cache_read": 0.18,
+          "input": {
+            "usd": 0.66
+          },
+          "output": {
+            "usd": 3.4
+          },
+          "cache_read": {
+            "usd": 0.18
+          },
           "cache_write": null
         },
         "batch": null,
@@ -99,9 +117,15 @@
       "max_output": 1048576,
       "pricing": {
         "per_mtok": {
-          "input": 0.75,
-          "output": 2.4,
-          "cache_read": 0.17,
+          "input": {
+            "usd": 0.75
+          },
+          "output": {
+            "usd": 2.4
+          },
+          "cache_read": {
+            "usd": 0.17
+          },
           "cache_write": null
         },
         "batch": null,

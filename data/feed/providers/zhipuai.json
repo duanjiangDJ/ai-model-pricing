@@ -7,8 +7,8 @@
   "homepage": "https://docs.z.ai/guides/overview/pricing",
   "pricing_page": "https://docs.z.ai/guides/overview/pricing",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
-  "verified_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T09:01:26.678130Z",
+  "verified_at": "2026-08-28T09:00:33Z",
   "models": [
     {
       "id": "glm-4.5",
@@ -21,9 +21,15 @@
       "max_output": 98304,
       "pricing": {
         "per_mtok": {
-          "input": 0.6,
-          "output": 2.2,
-          "cache_read": 0.11,
+          "input": {
+            "usd": 0.6
+          },
+          "output": {
+            "usd": 2.2
+          },
+          "cache_read": {
+            "usd": 0.11
+          },
           "cache_write": null
         },
         "batch": null,
@@ -47,9 +53,17 @@
       "max_output": 98304,
       "pricing": {
         "per_mtok": {
-          "input": 0.2,
-          "output": 1.1,
-          "cache_read": 0.03,
+          "input": {
+            "usd": 0.2,
+            "cny": 0.8
+          },
+          "output": {
+            "usd": 1.1,
+            "cny": 2.0
+          },
+          "cache_read": {
+            "usd": 0.03
+          },
           "cache_write": null
         },
         "batch": null,
@@ -57,7 +71,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.8, output ¥2. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -73,9 +87,15 @@
       "max_output": 98304,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": {
+            "usd": 0
+          },
+          "output": {
+            "usd": 0
+          },
+          "cache_read": {
+            "usd": 0
+          },
           "cache_write": null
         },
         "batch": null,
@@ -99,8 +119,12 @@
       "max_output": 16384,
       "pricing": {
         "per_mtok": {
-          "input": 0.6,
-          "output": 1.8,
+          "input": {
+            "usd": 0.6
+          },
+          "output": {
+            "usd": 1.8
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -125,9 +149,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0.6,
-          "output": 2.2,
-          "cache_read": 0.11,
+          "input": {
+            "usd": 0.6
+          },
+          "output": {
+            "usd": 2.2
+          },
+          "cache_read": {
+            "usd": 0.11
+          },
           "cache_write": null
         },
         "batch": null,
@@ -151,8 +181,12 @@
       "max_output": 32768,
       "pricing": {
         "per_mtok": {
-          "input": 0.3,
-          "output": 0.9,
+          "input": {
+            "usd": 0.3
+          },
+          "output": {
+            "usd": 0.9
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -177,9 +211,17 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0.6,
-          "output": 2.2,
-          "cache_read": 0.11,
+          "input": {
+            "usd": 0.6,
+            "cny": 2.0
+          },
+          "output": {
+            "usd": 2.2,
+            "cny": 8.0
+          },
+          "cache_read": {
+            "usd": 0.11
+          },
           "cache_write": null
         },
         "batch": null,
@@ -187,7 +229,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥2, output ¥8. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -203,9 +245,17 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": {
+            "usd": 0,
+            "cny": 0.15
+          },
+          "output": {
+            "usd": 0,
+            "cny": 1.5
+          },
+          "cache_read": {
+            "usd": 0
+          },
           "cache_write": null
         },
         "batch": null,
@@ -213,9 +263,9 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.15, output ¥1.5. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion. | Billed per-token (CNY, domestic). models.dev USD label unreliable.",
       "billing_model": [
-        "free"
+        "pay_per_token"
       ]
     },
     {
@@ -229,9 +279,17 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0.07,
-          "output": 0.4,
-          "cache_read": 0.01,
+          "input": {
+            "usd": 0.07,
+            "cny": 0.5
+          },
+          "output": {
+            "usd": 0.4,
+            "cny": 3.0
+          },
+          "cache_read": {
+            "usd": 0.01
+          },
           "cache_write": null
         },
         "batch": null,
@@ -239,7 +297,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.5, output ¥3. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -255,9 +313,17 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 1,
-          "output": 3.2,
-          "cache_read": 0.2,
+          "input": {
+            "usd": 1,
+            "cny": 4.0
+          },
+          "output": {
+            "usd": 3.2,
+            "cny": 18.0
+          },
+          "cache_read": {
+            "usd": 0.2
+          },
           "cache_write": null
         },
         "batch": null,
@@ -265,7 +331,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥4, output ¥18. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -281,8 +347,12 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
+          "input": {
+            "cny": 5.0
+          },
+          "output": {
+            "cny": 22.0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -291,9 +361,9 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥5, output ¥22. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion. | Billed per-token (CNY, domestic). models.dev USD label unreliable.",
       "billing_model": [
-        "subscription_included"
+        "pay_per_token"
       ]
     },
     {
@@ -307,9 +377,17 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 1.4,
-          "output": 4.4,
-          "cache_read": 0.26,
+          "input": {
+            "usd": 1.4,
+            "cny": 6.0
+          },
+          "output": {
+            "usd": 4.4,
+            "cny": 24.0
+          },
+          "cache_read": {
+            "usd": 0.26
+          },
           "cache_write": null
         },
         "batch": null,
@@ -317,7 +395,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥6, output ¥24. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -333,9 +411,17 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 1.4,
-          "output": 4.4,
-          "cache_read": 0.26,
+          "input": {
+            "usd": 1.4,
+            "cny": 8.0
+          },
+          "output": {
+            "usd": 4.4,
+            "cny": 28.0
+          },
+          "cache_read": {
+            "usd": 0.26
+          },
           "cache_write": null
         },
         "batch": null,
@@ -343,7 +429,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥8, output ¥28. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -385,9 +471,17 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 1.4,
-          "output": 4.4,
-          "cache_read": 0.26,
+          "input": {
+            "usd": 1.4,
+            "cny": 8.0
+          },
+          "output": {
+            "usd": 4.4,
+            "cny": 28.0
+          },
+          "cache_read": {
+            "usd": 0.26
+          },
           "cache_write": null
         },
         "batch": null,
@@ -395,7 +489,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥8, output ¥28. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -411,9 +505,17 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0.075,
-          "output": 0.25,
-          "cache_read": 0.015,
+          "input": {
+            "usd": 0.075,
+            "cny": 0.4
+          },
+          "output": {
+            "usd": 0.25,
+            "cny": 0.8
+          },
+          "cache_read": {
+            "usd": 0.015
+          },
           "cache_write": null
         },
         "batch": null,
@@ -421,7 +523,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.4, output ¥0.8. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -437,9 +539,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 5,
-          "output": 22,
-          "cache_read": 1.2,
+          "input": {
+            "usd": 5
+          },
+          "output": {
+            "usd": 22
+          },
+          "cache_read": {
+            "usd": 1.2
+          },
           "cache_write": null
         },
         "batch": null,

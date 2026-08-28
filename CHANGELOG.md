@@ -16,6 +16,17 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.7.14 — 2026-08-28T09:05Z (feature update)
+
+## 26.7.14 — 2026-08-28T09:05Z (feature update)
+
+- **feat(dual-currency schema)**: every model price can now carry BOTH `usd` and `cny` in a single field (`per_mtok.input = {"usd": 0.44, "cny": 3.0}`). A model only needs one currency (minProperties: 1). Covers per_mtok, batch, per_image, reasoning_effort, and promo.list_price.
+- **feat(migration)**: `scripts/migrate_dual_currency.py` rewrapped 18,038 scalar prices across all 186 providers into dual-currency objects (USD->usd, CNY->cny), idempotent.
+- **feat(js_fetch)**: `toolbox.js_fetch()` fetches client-side-rendered pricing pages via headless Chrome (dump-dom + virtual-time-budget) — for vendors whose pages curl can't render (e.g. open.bigmodel.cn).
+- **feat(tier1_zhipuai)**: new check fetches bigmodel.cn (JS) and parses the CNY list prices (GLM-5.3 ¥8/¥28 etc.), adding the `cny` branch while keeping the z.ai `usd` list. Confirms domestic CN pricing is INDEPENDENT of the z.ai USD list (not a currency conversion).
+- **fix(audit)**: CNY-in-USD warning now exempts models that carry a structured `cny` price (dual-currency is by-design); billing_model consistency now sees the cny branch (domestic paid models are pay_per_token even if models.dev labeled them free/subscription).
+- **adapt scripts**: toolbox (update_model_prices dual-currency + surge per-currency), sync_openrouter/sync_modelsdev (build_model emits {usd}), sync_official (apply_to_provider), daily_check (models.dev diff updates per-currency, preserving cny), audit/annotate_billing/stats/build_human (read via price_of/set_price), tests (dual-currency assertions + second-currency-preserved case).
+
 ## 26.7.13 — 2026-08-28T08:18Z (feature update)
 
 - **feat(changelog readability)**: auto-sync CHANGELOG entries were raw Python dict dumps (`{'input': [0.07, 0.72], ...}->{...}`) — unreadable and truncated. `print_sync_summary` now emits human-readable, per-provider summaries with model lists and price changes formatted as `in $0.44 out $1.32 cache $0.014 → in $0.14 out $0.28 cache $0.0028`, plus add/remove markers (+N / -N).

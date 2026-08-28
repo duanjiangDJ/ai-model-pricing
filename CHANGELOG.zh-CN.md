@@ -16,6 +16,17 @@
 
 ---
 
+## 26.7.14 — 2026-08-28T09:05Z（功能更新）
+
+## 26.7.14 — 2026-08-28T09:05Z（功能更新）
+
+- **feat(双币 schema)**：每个模型价格字段可同时含 `usd` 和 `cny`（`per_mtok.input = {"usd": 0.44, "cny": 3.0}`），至少一个币种（minProperties: 1）。覆盖 per_mtok、batch、per_image、reasoning_effort、promo.list_price。
+- **feat(迁移)**：`scripts/migrate_dual_currency.py` 将全部 186 个 provider 的 18,038 个标量价格重包装为双币对象（USD→usd，CNY→cny），幂等。
+- **feat(js_fetch)**：`toolbox.js_fetch()` 用 headless Chrome（dump-dom + virtual-time-budget）抓取客户端渲染的定价页——针对 curl 无法渲染的厂商（如 open.bigmodel.cn）。
+- **feat(tier1_zhipuai)**：新增检测脚本抓取 bigmodel.cn（JS）并解析 CNY 国内价（GLM-5.3 ¥8/¥28 等），补充 `cny` 分支同时保留 z.ai `usd` 参考价。确认国内 CNY 定价与 z.ai USD 定价相互独立（非汇率换算）。
+- **fix(audit)**：USD 文件内 CNY 检测豁免含结构化 `cny` 价格的模型（双币为设计）；billing_model 一致性现感知 cny 分支（国内付费模型即使 models.dev 标免费/订阅也按 pay_per_token）。
+- **适配脚本**：toolbox（update_model_prices 双币 + 分币种 surge）、sync_openrouter/sync_modelsdev（build_model 生成 {usd}）、sync_official（apply_to_provider）、daily_check（models.dev 按币种 diff，保留 cny）、audit/annotate_billing/stats/build_human（用 price_of/set_price 读取）、测试（双币断言 + 保留第二币种用例）。
+
 ## 26.7.13 — 2026-08-28T08:18Z（功能更新）
 
 - **feat(changelog 可读性)**：自动同步的 CHANGELOG 条目此前是原始 Python dict 序列化（`{'input': [0.07, 0.72], ...}->{...}`）——不可读且被截断。`print_sync_summary` 现输出人类可读的按供应商摘要：模型列表 + 价格变化格式化为 `入 $0.44 出 $1.32 缓存 $0.014 → 入 $0.14 出 $0.28 缓存 $0.0028`，并标注新增/下架（+N / -N）。

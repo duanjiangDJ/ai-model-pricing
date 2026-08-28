@@ -7,7 +7,7 @@
   "homepage": "https://platform.xiaomimimo.com/#/docs",
   "pricing_page": "https://mimo.mi.com/docs/price/pay-as-you-go",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -21,9 +21,15 @@
       "max_output": 65536,
       "pricing": {
         "per_mtok": {
-          "input": 0.14,
-          "output": 0.28,
-          "cache_read": 0.0028,
+          "input": {
+            "usd": 0.14
+          },
+          "output": {
+            "usd": 0.28
+          },
+          "cache_read": {
+            "usd": 0.0028
+          },
           "cache_write": null
         },
         "batch": null,
@@ -48,9 +54,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0.14,
-          "output": 0.28,
-          "cache_read": 0.0028,
+          "input": {
+            "usd": 0.14
+          },
+          "output": {
+            "usd": 0.28
+          },
+          "cache_read": {
+            "usd": 0.0028
+          },
           "cache_write": null
         },
         "batch": null,
@@ -75,9 +87,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0.435,
-          "output": 0.87,
-          "cache_read": 0.0036,
+          "input": {
+            "usd": 0.435
+          },
+          "output": {
+            "usd": 0.87
+          },
+          "cache_read": {
+            "usd": 0.0036
+          },
           "cache_write": null
         },
         "batch": null,
@@ -129,9 +147,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0.14,
-          "output": 0.28,
-          "cache_read": 0.0028,
+          "input": {
+            "usd": 0.14
+          },
+          "output": {
+            "usd": 0.28
+          },
+          "cache_read": {
+            "usd": 0.0028
+          },
           "cache_write": null
         },
         "batch": null,
@@ -156,9 +180,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0.435,
-          "output": 0.87,
-          "cache_read": 0.0036,
+          "input": {
+            "usd": 0.435
+          },
+          "output": {
+            "usd": 0.87
+          },
+          "cache_read": {
+            "usd": 0.0036
+          },
           "cache_write": null
         },
         "batch": null,
@@ -183,9 +213,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 1.305,
-          "output": 2.61,
-          "cache_read": 0.0108,
+          "input": {
+            "usd": 1.305
+          },
+          "output": {
+            "usd": 2.61
+          },
+          "cache_read": {
+            "usd": 0.0108
+          },
           "cache_write": null
         },
         "batch": null,

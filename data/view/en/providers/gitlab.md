@@ -6,7 +6,7 @@
 - Homepage: https://docs.gitlab.com/user/duo_agent_platform/
 - Pricing page: https://docs.gitlab.com/user/duo_agent_platform/
 - Currency: USD
-- Data updated: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-28T08:54:00Z
 - Verified: 2026-08-28T05:09:26Z
 
 **23** models in total.

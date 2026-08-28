@@ -66,6 +66,35 @@ def to_text(raw):
     return raw.decode("utf-8", "ignore")
 
 
+def default_chrome():
+    """Locate the locally-installed Chrome for Testing (headless browser) binary."""
+    import glob as _g
+    candidates = _g.glob(os.path.expanduser("~/.cache/puppeteer-chrome/chrome/*/chrome-linux64/chrome"))
+    return candidates[0] if candidates else None
+
+
+def js_fetch(url, timeout=60, virtual_time=10000, chrome=None):
+    """Fetch a JS-rendered page using headless Chrome (dump-dom + virtual-time budget).
+
+    Returns the rendered HTML as text. Returns '' if Chrome is unavailable or the fetch
+    fails. Use this for vendor pricing pages that are client-side rendered (curl/urllib
+    only get the empty shell, e.g. open.bigmodel.cn/pricing). Chrome path is taken from
+    CHROME_BIN env, the default_chrome() cache location, or the `chrome` argument.
+    """
+    import subprocess
+    chrome_path = chrome or os.environ.get("CHROME_BIN") or default_chrome()
+    if not chrome_path or not os.path.exists(chrome_path):
+        return ""
+    cmd = [chrome_path, "--headless=new", "--no-sandbox", "--disable-gpu",
+           "--enable-unsafe-swiftshader", f"--virtual-time-budget={virtual_time}",
+           "--dump-dom", url]
+    try:
+        r = subprocess.run(cmd, capture_output=True, timeout=timeout, text=True)
+        return r.stdout or ""
+    except Exception:  # noqa: BLE001
+        return ""
+
+
 def wayback_snapshot_candidates(url, n=3):
     """Up to n recent Wayback captures (id_ raw mode), newest first."""
     cdx = ("http://web.archive.org/cdx/search/cdx?url={}&output=json&limit=15"
@@ -96,6 +125,67 @@ def has_chinese(text):
     return bool(_HAN_RE.search(text or ""))
 
 
+# ---------------------------------------------------------------- dual-currency helpers
+# Since schema 26.8, per_mtok/batch/per_image prices are objects {usd, cny} (a price may
+# be expressed in just one currency). These helpers read/write them uniformly.
+
+def price_of(pm, key, currency="usd"):
+    """Get a price field's value for a currency from a dual-price object.
+    Falls back to the raw value if the field is still a scalar (pre-migration)."""
+    v = (pm or {}).get(key)
+    if isinstance(v, dict):
+        return v.get(currency)
+    return v
+
+
+def set_price(pm, key, currency, value):
+    """Set a price field's value for a currency (creates the dual-price object if needed)."""
+    v = pm.get(key)
+    if not isinstance(v, dict):
+        v = {}
+        pm[key] = v
+    v[currency] = value
+
+
+def any_price_positive(pm, keys=("input", "output", "cache_read")):
+    """True if any of the given per_mtok keys has a positive price in any currency."""
+    for k in keys:
+        v = (pm or {}).get(k)
+        if isinstance(v, dict):
+            if any((x or 0) > 0 for x in v.values()):
+                return True
+        elif v and v > 0:
+            return True
+    return False
+
+
+def price_all_zero(pm, keys=("input", "output", "cache_read")):
+    """True if the given per_mtok keys all resolve to 0 (free) across the present currency."""
+    vals = []
+    for k in keys:
+        v = (pm or {}).get(k)
+        if v is None:
+            continue
+        if isinstance(v, dict):
+            vals.extend(x for x in v.values() if x is not None)
+        else:
+            vals.append(v)
+    return bool(vals) and all(x == 0 for x in vals)
+
+
+def has_zero_price(pm, keys=("input", "output", "cache_read")):
+    """True if any of the given per_mtok keys is 0 in some currency (free tier present,
+    possibly alongside a paid tier, e.g. Gemini free+paid)."""
+    for k in keys:
+        v = (pm or {}).get(k)
+        if isinstance(v, dict):
+            if any(x == 0 for x in v.values() if x is not None):
+                return True
+        elif v == 0:
+            return True
+    return False
+
+
 def model_map(provider):
     return {m["id"]: m for m in provider.get("models", [])}
 
@@ -123,14 +213,27 @@ def update_model_prices(provider, updates, now, source, surge_factor=5.0):
             continue
         per = data.get("per_mtok") or {}
         pm = m.setdefault("pricing", {}).setdefault("per_mtok", {})
+        # per_mtok values are dual-price objects {usd, cny} (schema 26.8); scalars accepted for back-compat.
         for k in ("input", "output", "cache_read", "cache_write"):
-            if per.get(k) is None or pm.get(k) == per[k]:
+            cur_new = per.get(k)
+            if cur_new is None:
                 continue
-            if pm.get(k) and per[k] and abs(per[k] - pm[k]) / max(abs(pm[k]), 1e-9) > surge_factor:
-                print(f"  SKIP {mid}.{k}: {pm.get(k)} -> {per[k]} looks like a parsing error (>{surge_factor}x surge); keeping old value")
-                continue
-            pm[k] = per[k]
-            changed.append(mid)
+            if not isinstance(cur_new, dict):
+                cur_new = {"usd": cur_new}
+            cur_old = pm.get(k)
+            cur_old = dict(cur_old) if isinstance(cur_old, dict) else ({"usd": cur_old} if cur_old is not None else {})
+            for currency, nv in cur_new.items():
+                if nv is None:
+                    continue
+                ov = cur_old.get(currency)
+                if ov == nv:
+                    continue
+                if ov and nv and abs(nv - ov) / max(abs(ov), 1e-9) > surge_factor:
+                    print(f"  SKIP {mid}.{k}.{currency}: {ov} -> {nv} looks like a parsing error (>{surge_factor}x surge); keeping old value")
+                    continue
+                cur_old[currency] = nv
+                changed.append(mid)
+            pm[k] = cur_old if cur_old else None
         if data.get("batch"):
             if m["pricing"].get("batch") != data["batch"]:
                 m["pricing"]["batch"] = data["batch"]

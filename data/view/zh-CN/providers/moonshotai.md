@@ -6,7 +6,7 @@
 - 官网: https://platform.moonshot.ai/docs/api/chat
 - 定价页: https://platform.moonshot.ai/docs/api/chat
 - 币种: USD
-- 数据更新时间: 2026-08-28T05:09:26Z
+- 数据更新时间: 2026-08-28T08:54:00Z
 - 核实时间: 2026-08-28T05:09:26Z
 
 共 **14** 个模型。

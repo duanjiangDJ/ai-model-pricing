@@ -7,7 +7,7 @@
   "homepage": "https://platform.scx.ai/docs",
   "pricing_page": "https://platform.scx.ai/docs",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -21,9 +21,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0.55,
-          "output": 1.784,
-          "cache_read": 0.111,
+          "input": {
+            "usd": 0.55
+          },
+          "output": {
+            "usd": 1.784
+          },
+          "cache_read": {
+            "usd": 0.111
+          },
           "cache_write": null
         },
         "batch": null,
@@ -47,9 +53,15 @@
       "max_output": 196608,
       "pricing": {
         "per_mtok": {
-          "input": 0.48,
-          "output": 1.79,
-          "cache_read": 0.05,
+          "input": {
+            "usd": 0.48
+          },
+          "output": {
+            "usd": 1.79
+          },
+          "cache_read": {
+            "usd": 0.05
+          },
           "cache_write": null
         },
         "batch": null,
@@ -73,9 +85,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 1.815,
-          "output": 5.4461,
-          "cache_read": 0.17,
+          "input": {
+            "usd": 1.815
+          },
+          "output": {
+            "usd": 5.4461
+          },
+          "cache_read": {
+            "usd": 0.17
+          },
           "cache_write": null
         },
         "batch": null,
@@ -99,8 +117,12 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0.17,
-          "output": 0.55,
+          "input": {
+            "usd": 0.17
+          },
+          "output": {
+            "usd": 0.55
+          },
           "cache_read": null,
           "cache_write": null
         },

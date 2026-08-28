@@ -7,7 +7,7 @@
   "homepage": "https://sdk.vercel.ai/providers/ai-sdk-providers/vercel",
   "pricing_page": "https://sdk.vercel.ai/providers/ai-sdk-providers/vercel",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -21,8 +21,12 @@
       "max_output": 32000,
       "pricing": {
         "per_mtok": {
-          "input": 3,
-          "output": 15,
+          "input": {
+            "usd": 3
+          },
+          "output": {
+            "usd": 15
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -47,8 +51,12 @@
       "max_output": 32000,
       "pricing": {
         "per_mtok": {
-          "input": 15,
-          "output": 75,
+          "input": {
+            "usd": 15
+          },
+          "output": {
+            "usd": 75
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -73,8 +81,12 @@
       "max_output": 32000,
       "pricing": {
         "per_mtok": {
-          "input": 3,
-          "output": 15,
+          "input": {
+            "usd": 3
+          },
+          "output": {
+            "usd": 15
+          },
           "cache_read": null,
           "cache_write": null
         },

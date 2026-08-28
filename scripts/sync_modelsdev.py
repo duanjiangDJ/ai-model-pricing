@@ -53,6 +53,11 @@ def infer_category(mid, m):
     return "chat"
 
 
+def _u(v):
+    """Wrap a numeric price into a dual-currency object (usd key); None stays None."""
+    return {"usd": v} if v is not None else None
+
+
 def build_model(mid, m):
     cost = m.get("cost") or {}
     limit = m.get("limit") or {}
@@ -77,9 +82,9 @@ def build_model(mid, m):
         "billing_model": billing,
         "pricing": {
             "per_mtok": {
-                "input": cost.get("input"),
-                "output": cost.get("output"),
-                "cache_read": cost.get("cache_read"),
+                "input": _u(cost.get("input")),
+                "output": _u(cost.get("output")),
+                "cache_read": _u(cost.get("cache_read")),
                 "cache_write": None,
             },
             "batch": None,
