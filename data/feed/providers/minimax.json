@@ -7,7 +7,7 @@
   "homepage": "https://platform.minimax.io/docs/guides/quickstart",
   "pricing_page": "https://platform.minimax.io/docs/guides/quickstart",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
+  "updated_at": "2026-08-28T10:31:29.910988Z",
   "verified_at": "2026-08-28T05:09:27Z",
   "models": [
     {
@@ -39,7 +39,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, effective price after any promo; M3 ≤512k tier; cache-write where listed). Parsed by check minimax.",
+      "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, effective price after any promo; M3 ≤512k tier; cache-write where listed). Parsed by check minimax. | Legacy model (MiniMax historical pricing section); no current standard CNY list.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -73,7 +73,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, effective price after any promo; M3 ≤512k tier; cache-write where listed). Parsed by check minimax.",
+      "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, effective price after any promo; M3 ≤512k tier; cache-write where listed). Parsed by check minimax. | Legacy model (MiniMax historical pricing section); no current standard CNY list.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -107,7 +107,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, effective price after any promo; M3 ≤512k tier; cache-write where listed). Parsed by check minimax.",
+      "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, effective price after any promo; M3 ≤512k tier; cache-write where listed). Parsed by check minimax. | Legacy model (MiniMax historical pricing section); no current standard CNY list.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -141,7 +141,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, effective price after any promo; M3 ≤512k tier; cache-write where listed). Parsed by check minimax.",
+      "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, effective price after any promo; M3 ≤512k tier; cache-write where listed). Parsed by check minimax. | Legacy model (MiniMax historical pricing section); no current standard CNY list.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -158,10 +158,12 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.3
+            "usd": 0.3,
+            "cny": 2.1
           },
           "output": {
-            "usd": 1.2
+            "usd": 1.2,
+            "cny": 8.4
           },
           "cache_read": {
             "usd": 0.06
@@ -175,7 +177,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, effective price after any promo; M3 ≤512k tier; cache-write where listed). Parsed by check minimax.",
+      "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, effective price after any promo; M3 ≤512k tier; cache-write where listed). Parsed by check minimax. | MiniMax official CNY (¥/1M tokens, standard): MiniMax-M2.7. Verified 2026-08-28.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -192,10 +194,12 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.6
+            "usd": 0.6,
+            "cny": 4.2
           },
           "output": {
-            "usd": 2.4
+            "usd": 2.4,
+            "cny": 16.8
           },
           "cache_read": {
             "usd": 0.06
@@ -209,7 +213,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, effective price after any promo; M3 ≤512k tier; cache-write where listed). Parsed by check minimax.",
+      "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, effective price after any promo; M3 ≤512k tier; cache-write where listed). Parsed by check minimax. | MiniMax official CNY (¥/1M tokens, standard): MiniMax-M2.7-highspeed. Verified 2026-08-28.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -226,10 +230,12 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.3
+            "usd": 0.3,
+            "cny": 4.2
           },
           "output": {
-            "usd": 1.2
+            "usd": 1.2,
+            "cny": 16.8
           },
           "cache_read": {
             "usd": 0.06
@@ -241,7 +247,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | MiniMax official CNY (¥/1M tokens, standard): MiniMax-M3 ≤512k/输入 (permanent 50% promo -> 2.10/8.40). Verified 2026-08-28.",
       "billing_model": [
         "pay_per_token"
       ]

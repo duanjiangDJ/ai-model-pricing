@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.7.20 — 2026-08-28T11:40Z (feature update)
+
+## 26.7.20 — 2026-08-28T11:40Z (feature update)
+
+- **feat(minimax CNY)**: reconciled the MiniMax open-platform billing doc (platform.minimaxi.com, ¥/1M standard): MiniMax-M3 ¥4.2/¥16.8 (≤512k; 50% promo → 2.10/8.40), M2.7 ¥2.1/¥8.4, M2.7-highspeed ¥4.2/¥16.8. M2/M2.1/M2.5 marked legacy. New tier1_minimax.py records fetch status (browser-rendered page).
+
 ## 26.7.19 — 2026-08-28T11:20Z (feature update)
 
 ## 26.7.19 — 2026-08-28T11:20Z (feature update)
