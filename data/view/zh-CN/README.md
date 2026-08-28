@@ -15,14 +15,14 @@
 | [HPC-AI](providers/hpc-ai.md) | 推理托管 | 9 | `providers/hpc-ai.json` | 2026-08-27T17:11:11Z |
 | [AI-ROUTER](providers/ai-router.md) | 聚合站 | 5 | `providers/ai-router.json` | 2026-08-27T17:11:10Z |
 | [Mixlayer](providers/mixlayer.md) | 推理托管 | 5 | `providers/mixlayer.json` | 2026-08-27T17:11:11Z |
-| [Qiniu](providers/qiniu-ai.md) | 推理托管 | 91 | `providers/qiniu-ai.json` | 2026-08-27T17:11:11Z |
+| [Qiniu](providers/qiniu-ai.md) | 推理托管 | 91 | `providers/qiniu-ai.json` | 2026-08-28T08:18:12.812923Z |
 | [Neuralwatt](providers/neuralwatt.md) | 推理托管 | 29 | `providers/neuralwatt.json` | 2026-08-28T05:09:26Z |
 | [Cloudflare Workers AI](providers/cloudflare-workers-ai.md) | 推理托管 | 26 | `providers/cloudflare-workers-ai.json` | 2026-08-28T05:09:26Z |
 | [Meganova](providers/meganova.md) | 推理托管 | 19 | `providers/meganova.json` | 2026-08-28T05:09:26Z |
 | [Infomaniak](providers/infomaniak.md) | 推理托管 | 10 | `providers/infomaniak.json` | 2026-08-28T05:09:26Z |
 | [OrcaRouter](providers/orcarouter.md) | 聚合站 | 123 | `providers/orcarouter.json` | 2026-08-28T08:09:20.424261Z |
 | [Zenifra](providers/zenifra.md) | 推理托管 | 1 | `providers/zenifra.json` | 2026-08-28T05:09:26Z |
-| [Nvidia](providers/nvidia.md) | 官方直供 | 103 | `providers/nvidia.json` | 2026-08-28T08:09:20.424261Z |
+| [Nvidia](providers/nvidia.md) | 官方直供 | 103 | `providers/nvidia.json` | 2026-08-28T08:18:12.812923Z |
 | [QVAC](providers/qvac.md) | 推理托管 | 9 | `providers/qvac.json` | 2026-08-28T05:09:26Z |
 | [iFlow](providers/iflowcn.md) | 推理托管 | 14 | `providers/iflowcn.json` | 2026-08-28T05:09:26Z |
 | [Claudinio](providers/claudinio.md) | 推理托管 | 2 | `providers/claudinio.json` | 2026-08-28T05:09:26Z |

@@ -30,7 +30,8 @@ def bump():
     ap = argparse.ArgumentParser()
     ap.add_argument("--content", action="store_true", help="content update (pricing data) -> content segment +1")
     ap.add_argument("--feature", action="store_true", help="feature update -> feature segment +1")
-    ap.add_argument("--message", required=True, help="short change description for CHANGELOG")
+    ap.add_argument("--message", required=True, help="short change description for CHANGELOG (en)")
+    ap.add_argument("--message-zh", default=None, help="Chinese change description for CHANGELOG.zh-CN.md (falls back to --message)")
     ap.add_argument("--date", default=None, help="UTC timestamp YYYY-MM-DDTHH:MM[Z] (default: now, UTC, minute precision)")
     args = ap.parse_args()
 
@@ -70,10 +71,11 @@ def bump():
             d["schema_version"] = new
             json.dump(d, open(f, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
             open(f, "a", encoding="utf-8").write("\n")
-    # CHANGELOG entries
+    # CHANGELOG entries (bilingual: en + zh-CN, each file keeps its own language)
     kind = "content update" if args.content else "feature update"
+    msg_zh = args.message_zh or args.message
     en_entry = f"## {new} — {date} ({kind})\n\n- {args.message}\n"
-    zh_entry = f"## {new} — {date}（{'内容更新' if args.content else '功能更新'}）\n\n- {args.message}\n"
+    zh_entry = f"## {new} — {date}（{'内容更新' if args.content else '功能更新'}）\n\n- {msg_zh}\n"
     for f, entry in ((CHANGELOG, en_entry), (CHANGELOG_ZH, zh_entry)):
         t = open(f, encoding="utf-8").read()
         m = re.search(r"^(---\n\n)## \d+\.\d+\.\d+", t, re.M)

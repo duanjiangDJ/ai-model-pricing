@@ -16,6 +16,13 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.7.13 — 2026-08-28T08:18Z (feature update)
+
+- **feat(changelog readability)**: auto-sync CHANGELOG entries were raw Python dict dumps (`{'input': [0.07, 0.72], ...}->{...}`) — unreadable and truncated. `print_sync_summary` now emits human-readable, per-provider summaries with model lists and price changes formatted as `in $0.44 out $1.32 cache $0.014 → in $0.14 out $0.28 cache $0.0028`, plus add/remove markers (+N / -N).
+- **feat(changelog zh-CN)**: sync summaries are now BILINGUAL — `SYNC_SUMMARY_EN`/`SYNC_SUMMARY_ZH` blocks; `bump_version.py` gained `--message-zh`; daily-check.yml extracts both and writes a proper Chinese entry into CHANGELOG.zh-CN.md (previously zh-CN got the untranslated English dump). Rewrote the 26.7.11 entry (both languages) to the new readable format.
+- **fix(data)**: placeholder context_windows — qiniu-ai kling-v2-6 (99,999,999) and nvidia flux_1-schnell (77) set to null with notes (video/image models have no token context); grok-4.1-fast-reasoning (20M) kept pending review.
+- **feat(audit)**: reverse index check (every provider file must be referenced in index.json providers/resellers); suspicious context_window check (>10M or <100).
+
 ## 26.7.12 — 2026-08-28T08:10Z (feature update)
 
 - **fix(test pollution)**: surge-guard unit tests only mocked `save_provider`, but `update_model_prices` also calls `append_changelog` — every test run wrote fake "test-prov" entries into the production `changelog.json`, and one such entry reached CHANGELOG.md (26.6.11). Tests now mock both; the 2 polluted changelog entries were removed and the 26.6.11 entry rewritten to explain it had no real changes.
@@ -24,31 +31,46 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ## 26.7.11 — 2026-08-28T05:09Z (content update)
 
-- price sync (341 changes):
-- alibaba update x8: qwen3.7-plus,qwen3.7-plus,qwen3.6-flash,qwen3.6-flash,qwen-vl-ocr,qwen-vl-ocr,qwen3.6-35b-; qwen-vl-ocr: {'input': [0.07, 0.72], 'output': [0.16, 0.72]}->{'input': 0.72, 'output': 0.; qwen3-32b: {'input': [0.16, 0.7], 'output': [0.64, 2.8]}->{'input': 0.7, 'output': 2.8}; qwen3-next-80b-a3b-instruct: {'input': [0.15, 0.5], 'output': [1.2, 2]}->{'input': 0.5, 'o; qwen3-next-80b-a3b-thinking: {'input': [0.15, 0.5], 'output': [1.2, 6]}->{'input': 0.5, 'o
-- alibaba-cn update x3: glm-5: {'input': [0.86, 0.573], 'output': [3.15, 2.58]}->{'input': 0.573, 'output': 2.58}; glm-5.1: {'input': [0.87, 0.825], 'output': [3.48, 3.301]}->{'input': 0.825, 'output': 3.3; qwen3.5-397b-a17b: {'input': [0.43, 0.172], 'output': [2.58, 1.032]}->{'input': 0.172, 'ou
-- baseten add x1: zai-org/GLM-5.3-Flash: ?->zai-org/GLM-5.3-Flash
-- crossmodel add x1: z-ai/glm-5.3-flash: ?->z-ai/glm-5.3-flash
-- deepseek update x4: deepseek-v4-flash,deepseek-v4-flash,deepseek-v4-flash,deepseek-v4-pro,deepseek-v4-pro,deep; deepseek-v4-flash: {'input': [0.44, 0.14], 'output': [1.32, 0.28], 'cache_read': [0.014, 0; deepseek-v4-flash-vision-exp: {'input': [0.44, 0.14], 'output': [1.32, 0.28], 'cache_read'; deepseek-v4-pro: {'input': [1.32, 0.435], 'output': [3.96, 0.87], 'cache_read': [0.044, 0.
-- digitalocean add x1: glm-5.3-flash: ?->glm-5.3-flash
-- digitalocean update x9: deepseek-3.2: {'input': [0.25, 0.5], 'output': [0.8, 1.6], 'cache_read': [0.075, 0.15]}->{; deepseek-4-flash: {'input': [0.0679, 0.14], 'output': [0.168, 0.28], 'cache_read': [0.0168; deepseek-v4-flash-0731: {'input': [0.08, 0.14], 'output': [0.252, 0.28], 'cache_read': [0.; deepseek-v4-pro: {'input': [0.87, 1.74], 'output': [1.74, 3.48], 'cache_read': [0.174, 0.3; glm-5.2: {'input': [0.7, 1.4], 'output': [2.2, 4.4], 'cache_read': [0.105, 0.21]}->{'input
-- edenai add x5: databricks/databricks-gpt-oss-120b@eu: ?->databricks/databricks-gpt-oss-120b@eu; databricks/databricks-gpt-oss-20b@eu: ?->databricks/databricks-gpt-oss-20b@eu; vertex/gemini-3.1-flash-lite: ?->vertex/gemini-3.1-flash-lite; vertex/gemini-3.1-flash-lite@eu: ?->vertex/gemini-3.1-flash-lite@eu; vertex/gemini-3.1-flash-lite@us: ?->vertex/gemini-3.1-flash-lite@us
-- edenai update x5: ionos/meta-llama/Llama-3.3-70B-Instruct: {'input': [0.758485, 0.756925], 'output': [0.7584; ionos/openai/gpt-oss-120b: {'input': [0.175035, 0.174675], 'output': [0.758485, 0.756925]}; scaleway/deepseek-v4-flash-0731: {'input': [0.46676, 0.4658], 'output': [0.933521, 0.9316]; scaleway/gpt-oss-120b: {'input': [0.175035, 0.174675], 'output': [0.70014, 0.6987]}->{'inp; scaleway/llama-3.3-70b-instruct: {'input': [1.050211, 1.04805], 'output': [1.050211, 1.048
-- hyper update x5: glm-5: {'input': [0.92, 0.9], 'output': [2.976, 2.804]}->{'input': 0.9, 'output': 2.804}; kimi-k2.5: {'input': [0.544, 0.5444], 'output': [2.76, 2.855]}->{'input': 0.5444, 'output'; llama-3.3-70b-instruct: {'input': [0.638, 0.6066], 'output': [0.768, 1.0386]}->{'input': 0; minimax-m2.7: {'input': [0.424, 0.408], 'output': [1.612, 1.512]}->{'input': 0.408, 'outpu; qwen3.8-flash: {'input': [0.16, 0.15]}->{'input': 0.15}
-- inceptron update x2: moonshotai/Kimi-K2.6: {'cache_read': [0.13, 0.15]}->{'cache_read': 0.15}; moonshotai/Kimi-K2.7-Code: {'input': [0.67, 0.66], 'cache_read': [0.19, 0.18]}->{'input': 
-- kenari add x21: claude-opus-5: ?->claude-opus-5; claude-sonnet-4-6: ?->claude-sonnet-4-6; gemini-3-1-flash-tts: ?->gemini-3-1-flash-tts; gemini-3-1-pro: ?->gemini-3-1-pro; gemini-3-5-flash: ?->gemini-3-5-flash
-- kilo add x1: inclusionai/ling-3.0-flash-fin:free: ?->inclusionai/ling-3.0-flash-fin:free
-- kilo update x9: google/gemma-4-31b-it: {'input': [0.09, 0.08], 'output': [0.34, 0.35], 'cache_read': [0.05; meta-llama/llama-4-maverick: {'output': [0.696, 0.8]}->{'output': 0.8}; minimax/minimax-m2.7:free: {'cache_read': [None, 0]}->{'cache_read': 0}; minimax/minimax-m3:free: {'cache_read': [None, 0]}->{'cache_read': 0}; qwen/qwen3.6-35b-a3b: {'input': [0.14, 0.1], 'output': [1, 0.9]}->{'input': 0.1, 'output':
-- llmgateway add x1: deepseek-v4-flash-vision-exp: ?->deepseek-v4-flash-vision-exp
-- merge-gateway update x1: zai/glm-5.3-flash: {'input': [0.075, 0.015], 'output': [0.25, 0.05], 'cache_read': [0.015,
-- minimax update x2: MiniMax-M2.5-highspeed: ?->{'models': 1}; MiniMax-M2.5-highspeed: {'cache_read': [0.03, 0.06]}->{'cache_read': 0.06}
-- mistral update x3: ministral-3b-latest,ministral-3b-latest,ministral-8b-latest,ministral-8b-latest: ?->{'mode; ministral-3b-latest: {'input': [0.1, 0.04], 'output': [0.1, 0.04]}->{'input': 0.04, 'outpu; ministral-8b-latest: {'input': [0.15, 0.1], 'output': [0.15, 0.1]}->{'input': 0.1, 'output
-- modal add x2: Qwen/Qwen3.8-2.4T-A95B: ?->Qwen/Qwen3.8-2.4T-A95B; zai-org/GLM-5.3-Flash: ?->zai-org/GLM-5.3-Flash
-- nano-gpt add x1: z-ai/glm-5.3-flash-uncensored: ?->z-ai/glm-5.3-flash-uncensored
-- neuralwatt add x4: kimi-k2.7-code: ?->kimi-k2.7-code; kimi-k2.7-code-fast: ?->kimi-k2.7-code-fast; kimi-k3-flex: ?->kimi-k3-flex; qwen3.6-35b: ?->qwen3.6-35b
-- neuralwatt update x10: gemma-4-31b: {'cache_read': [0.036, 0.0144]}->{'cache_read': 0.0144}; glm-5.2: {'cache_read': [0.3625, 0.145]}->{'cache_read': 0.145}; glm-5.2-fast: {'cache_read': [0.3625, 0.145]}->{'cache_read': 0.145}; glm-5.2-flex: {'input': [0.725, 0.9425], 'output': [2.25, 2.925], 'cache_read': [0.18125, ; glm-5.2-short: {'cache_read': [0.3625, 0.145]}->{'cache_read': 0.145}
-- nvidia add x1: deepseek-ai/deepseek-v4-pro-0813: ?->deepseek-ai/deepseek-v4-pro-0813
-- ofox add x1: z-ai/glm-5.3-flash: ?->z-ai/glm-5.3-flash
+price sync (341 changes):
+- **alibaba** (updated 14): `qwen3.7-plus`, `qwen3.6-flash`, `qwen-vl-ocr`, `qwen3.6-35b-a3b`, `qwen3-next-80b-a3b-thinking` … +2
+- **alibaba-cn** (updated 3): `glm-5`, `glm-5.1`, `qwen3.5-397b-a17b` — in $0.86 out $3.15 → in $0.573 out $2.58; in $0.87 out $3.48 → in $0.825 out $3.301; in $0.43 out $2.58 → in $0.172 out $1.032
+- **baseten** (+1): `zai-org/GLM-5.3-Flash`
+- **crossmodel** (+1): `z-ai/glm-5.3-flash`
+- **deepseek** (updated 6): `deepseek-v4-flash`, `deepseek-v4-pro`, `deepseek-v4-flash-vision-exp` — in $0.44 out $1.32 cache $0.014 → in $0.14 out $0.28 cache $0.0028; in $1.32 out $3.96 cache $0.044
+- **digitalocean** (+1): `glm-5.3-flash`
+- **digitalocean** (updated 9): `deepseek-3.2`, `deepseek-4-flash`, `deepseek-v4-flash-0731`, `deepseek-v4-pro`, `glm-5.2` … +4
+- **edenai** (+5): `databricks/databricks-gpt-oss-120b@eu`, `databricks/databricks-gpt-oss-20b@eu`, `vertex/gemini-3.1-flash-lite`, `vertex/gemini-3.1-flash-lite@eu`, `vertex/gemini-3.1-flash-lite@us`
+- **edenai** (updated 5): `ionos/meta-llama/Llama-3.3-70B-Instruct`, `ionos/openai/gpt-oss-120b`, `scaleway/deepseek-v4-flash-0731`, `scaleway/gpt-oss-120b`, `scaleway/llama-3.3-70b-instruct`
+- **hyper** (updated 5): `glm-5`, `kimi-k2.5`, `llama-3.3-70b-instruct`, `minimax-m2.7`, `qwen3.8-flash`
+- **inceptron** (updated 2): `moonshotai/Kimi-K2.6`, `moonshotai/Kimi-K2.7-Code` — cache $0.13 → cache $0.15; in $0.67 cache $0.19 → in $0.66 cache $0.18
+- **kenari** (+21): `claude-opus-5`, `claude-sonnet-4-6`, `gemini-3-1-flash-tts`, `gemini-3-1-pro`, `gemini-3-5-flash` … +16
+- **kilo** (+1): `inclusionai/ling-3.0-flash-fin:free`
+- **kilo** (updated 9): `google/gemma-4-31b-it`, `meta-llama/llama-4-maverick`, `minimax/minimax-m2.7:free`, `minimax/minimax-m3:free`, `qwen/qwen3.6-35b-a3b` … +4
+- **llmgateway** (+1): `deepseek-v4-flash-vision-exp`
+- **merge-gateway** (updated 1): `zai/glm-5.3-flash` — in $0.075 out $0.25 cache $0.015 → in $0.015 out $0.05 cache $0.003
+- **minimax** (updated 2): `MiniMax-M2.5-highspeed` — cache $0.03 → cache $0.06
+- **mistral** (updated 4): `ministral-3b-latest`, `ministral-8b-latest` — in $0.1 out $0.1 → in $0.04 out $0.04; in $0.15 out $0.15 → in $0.1 out $0.1
+- **modal** (+2): `Qwen/Qwen3.8-2.4T-A95B`, `zai-org/GLM-5.3-Flash`
+- **nano-gpt** (+1): `z-ai/glm-5.3-flash-uncensored`
+- **neuralwatt** (+4): `kimi-k2.7-code`, `kimi-k2.7-code-fast`, `kimi-k3-flex`, `qwen3.6-35b`
+- **neuralwatt** (updated 10): `gemma-4-31b`, `glm-5.2`, `glm-5.2-fast`, `glm-5.2-flex`, `glm-5.2-short` … +5
+- **nvidia** (+1): `deepseek-ai/deepseek-v4-pro-0813`
+- **ofox** (+1): `z-ai/glm-5.3-flash`
+- **ollama-cloud** (+1): `glm-5.3-flash`
+- **openai** (updated 1): `gpt-5.6-sol` — in $5 out $30 cache $0.5 → in $4 out $20 cache $0.4
+- **openrouter** (-37): `moonshotai/kimi-k2.7-code:batch`, `openai/gpt-3.5-turbo:batch`, `openai/gpt-4-turbo:batch`, `openai/gpt-4.1-mini:batch`, `openai/gpt-4.1-nano:batch` … +32
+- **openrouter** (updated 7): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-flash-0731`, `deepseek/deepseek-v4-pro-0813`, `nvidia/nemotron-3-ultra-550b-a55b`, `nvidia/nemotron-3.5-lightning` … +
+- **orcarouter** (+42): `anthropic/claude-fable-5`, `anthropic/claude-opus-4.8`, `anthropic/claude-opus-5`, `anthropic/claude-sonnet-5`, `deepseek/deepseek-v4-flash-0731` … +37
+- **orcarouter** (updated 14): `deepseek/deepseek-chat`, `deepseek/deepseek-reasoner`, `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `google/gemini-2.5-pro` … +9
+- **requesty** (+2): `glm-5.3-flash`, `glm-5.3-flash@eu`
+- **requesty** (updated 127): `claude-fable-5`, `claude-fable-5@eu`, `claude-haiku-4-5`, `claude-haiku-4-5@eu`, `claude-opus-4-1` … +122
+- **runinfra** (+2): `ornith-ai/Ornith-1.5-35B-A3B`, `zai-org/GLM-5.3-Flash`
+- **runinfra** (updated 1): `nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16` — cache $0.01
+- **togetherai** (+1): `zai-org/GLM-5.3-Flash`
+- **venice** (updated 1): `z-ai-glm-5-3-flash` — in $0.09375 out $0.3125 cache $0.01875 → in $0.15 out $0.5 cache $0.03
+- **vercel** (+2): `inclusionai/ling-3.0-flash-fin`, `inclusionai/ling-3.0-flash-fin-free`
+- **vivgrid** (+1): `glm-5.3-flash`
+- **wandb** (+1): `zai-org/GLM-5.3-Flash`
 
 ## 26.6.11 — 2026-08-27T19:41Z (content update)
 

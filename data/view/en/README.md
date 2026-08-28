@@ -15,14 +15,14 @@
 | [HPC-AI](providers/hpc-ai.md) | Inference host | 9 | `providers/hpc-ai.json` | 2026-08-27T17:11:11Z |
 | [AI-ROUTER](providers/ai-router.md) | Aggregator | 5 | `providers/ai-router.json` | 2026-08-27T17:11:10Z |
 | [Mixlayer](providers/mixlayer.md) | Inference host | 5 | `providers/mixlayer.json` | 2026-08-27T17:11:11Z |
-| [Qiniu](providers/qiniu-ai.md) | Inference host | 91 | `providers/qiniu-ai.json` | 2026-08-27T17:11:11Z |
+| [Qiniu](providers/qiniu-ai.md) | Inference host | 91 | `providers/qiniu-ai.json` | 2026-08-28T08:18:12.812923Z |
 | [Neuralwatt](providers/neuralwatt.md) | Inference host | 29 | `providers/neuralwatt.json` | 2026-08-28T05:09:26Z |
 | [Cloudflare Workers AI](providers/cloudflare-workers-ai.md) | Inference host | 26 | `providers/cloudflare-workers-ai.json` | 2026-08-28T05:09:26Z |
 | [Meganova](providers/meganova.md) | Inference host | 19 | `providers/meganova.json` | 2026-08-28T05:09:26Z |
 | [Infomaniak](providers/infomaniak.md) | Inference host | 10 | `providers/infomaniak.json` | 2026-08-28T05:09:26Z |
 | [OrcaRouter](providers/orcarouter.md) | Aggregator | 123 | `providers/orcarouter.json` | 2026-08-28T08:09:20.424261Z |
 | [Zenifra](providers/zenifra.md) | Inference host | 1 | `providers/zenifra.json` | 2026-08-28T05:09:26Z |
-| [Nvidia](providers/nvidia.md) | First-party | 103 | `providers/nvidia.json` | 2026-08-28T08:09:20.424261Z |
+| [Nvidia](providers/nvidia.md) | First-party | 103 | `providers/nvidia.json` | 2026-08-28T08:18:12.812923Z |
 | [QVAC](providers/qvac.md) | Inference host | 9 | `providers/qvac.json` | 2026-08-28T05:09:26Z |
 | [iFlow](providers/iflowcn.md) | Inference host | 14 | `providers/iflowcn.json` | 2026-08-28T05:09:26Z |
 | [Claudinio](providers/claudinio.md) | Inference host | 2 | `providers/claudinio.json` | 2026-08-28T05:09:26Z |

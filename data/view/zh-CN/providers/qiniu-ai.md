@@ -6,7 +6,7 @@
 - 官网: https://developer.qiniu.com/aitokenapi
 - 定价页: https://developer.qiniu.com/aitokenapi
 - 币种: USD
-- 数据更新时间: 2026-08-27T17:11:11Z
+- 数据更新时间: 2026-08-28T08:18:12.812923Z
 - 核实时间: 2026-08-21T11:27:12Z
 
 共 **91** 个模型。
@@ -58,7 +58,7 @@
 | `gpt-oss-120b` | — | reasoning | 未知 | 128K | — | — | — | — | —/— | — | models.dev official list price |
 | `gpt-oss-20b` | — | reasoning | 未知 | 128K | — | — | — | — | —/— | — | models.dev official list price |
 | `kimi-k2` | — | chat | 未知 | 128K | — | — | — | — | —/— | — | models.dev official list price |
-| `kling-v2-6` | — | chat | 未知 | 100M | — | — | — | — | —/— | — | models.dev official list price |
+| `kling-v2-6` | — | chat | 未知 | — | — | — | — | — | —/— | — | models.dev official list price \| context_window corrected from placeholder 9… |
 | `meituan/longcat-flash-chat` | — | chat | 未知 | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
 | `meituan/longcat-flash-lite` | — | chat | 未知 | 256K | — | — | — | — | —/— | — | models.dev official list price |
 | `mimo-v2-flash` | — | reasoning | 按量 | 256K | $0.1 | $0.3 | $0.01 | — | —/— | — | models.dev official list price |

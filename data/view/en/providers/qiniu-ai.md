@@ -6,7 +6,7 @@
 - Homepage: https://developer.qiniu.com/aitokenapi
 - Pricing page: https://developer.qiniu.com/aitokenapi
 - Currency: USD
-- Data updated: 2026-08-27T17:11:11Z
+- Data updated: 2026-08-28T08:18:12.812923Z
 - Verified: 2026-08-21T11:27:12Z
 
 **91** models in total.
@@ -58,7 +58,7 @@
 | `gpt-oss-120b` | — | reasoning | ? | 128K | — | — | — | — | —/— | — | models.dev official list price |
 | `gpt-oss-20b` | — | reasoning | ? | 128K | — | — | — | — | —/— | — | models.dev official list price |
 | `kimi-k2` | — | chat | ? | 128K | — | — | — | — | —/— | — | models.dev official list price |
-| `kling-v2-6` | — | chat | ? | 100M | — | — | — | — | —/— | — | models.dev official list price |
+| `kling-v2-6` | — | chat | ? | — | — | — | — | — | —/— | — | models.dev official list price \| context_window corrected from placeholder 9… |
 | `meituan/longcat-flash-chat` | — | chat | ? | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
 | `meituan/longcat-flash-lite` | — | chat | ? | 256K | — | — | — | — | —/— | — | models.dev official list price |
 | `mimo-v2-flash` | — | reasoning | per-token | 256K | $0.1 | $0.3 | $0.01 | — | —/— | — | models.dev official list price |
