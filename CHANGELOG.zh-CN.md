@@ -16,6 +16,10 @@
 
 ---
 
+## 26.7.22 — 2026-08-28T10:47Z（功能更新）
+
+- feat: 移除 changelog 同步摘要的模型省略限制（完整列出）
+
 ## 26.7.21 — 2026-08-28T12:05Z（功能更新）
 
 - **feat(moonshot kimi 全 CNY)**：从 platform.kimi.com 为完整 Kimi 当前系列补充 CNY 分支（元/百万）：k3 ¥20/¥100（缓存 ¥2）、k2.7-code 与 k2.6 ¥6.5/¥27、k2.7-code-highspeed ¥13/¥54、k2.5 ¥4/¥21（缓存 ¥0.7）。旧 K2 preview/thinking 模型标记为历史。CNY 补全新增正价的模型 billing_model 修正为 pay_per_token。

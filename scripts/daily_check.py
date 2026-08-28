@@ -312,11 +312,11 @@ def _fmt_prices(v, labels=None):
     return " ".join(parts)
 
 
-def _model_list(item_id, limit=5):
+def _model_list(item_id, limit=None):
     ids = [x for x in dict.fromkeys(str(item_id or "?").split(",")) if x]
-    shown = ", ".join(f"`{x}`" for x in ids[:limit])
-    if len(ids) > limit:
-        shown += f" … +{len(ids) - limit}"
+    # Print the FULL model list — no truncation (asked by user; content updates must
+    # list every model even when there are many).
+    shown = ", ".join(f"`{x}`" for x in ids)
     return shown, len(ids)
 
 
@@ -357,19 +357,18 @@ def print_sync_summary():
         elif kind == "remove":
             en.append(f"- **{pid}** (-{n}): {shown}")
             zh.append(f"- **{pid}**（下架 {n}）：{shown}")
-        else:  # update
+        else:  # update — always show price detail, no count-based truncation
             detail = ""
-            if len(items) <= 4:
-                dparts = []
-                for i in items:
-                    old, new = i.get("old"), i.get("new")
-                    fo, fn_ = _fmt_prices(old, labels), _fmt_prices(new, labels)
-                    if fo and fn_:
-                        dparts.append(f"{fo} → {fn_}")
-                    elif fn_:
-                        dparts.append(fn_)
-                if dparts:
-                    detail = " — " + "; ".join(dict.fromkeys(dparts))
+            dparts = []
+            for i in items:
+                old, new = i.get("old"), i.get("new")
+                fo, fn_ = _fmt_prices(old, labels), _fmt_prices(new, labels)
+                if fo and fn_:
+                    dparts.append(f"{fo} → {fn_}")
+                elif fn_:
+                    dparts.append(fn_)
+            if dparts:
+                detail = " — " + "; ".join(dict.fromkeys(dparts))
             en.append(f"- **{pid}** (updated {n}): {shown}{detail}")
             zh_detail = detail
             if detail:
@@ -383,9 +382,9 @@ def print_sync_summary():
 
     en_lines, zh_lines = [], []
     for l in en:
-        en_lines.append(l[:200])
+        en_lines.append(l)  # full line, no truncation (user asked to lift the limit)
     for l in zh:
-        zh_lines.append(l[:200])
+        zh_lines.append(l)
     print("SYNC_SUMMARY_EN_BEGIN")
     for l in en_lines:
         print(l)
