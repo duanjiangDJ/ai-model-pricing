@@ -57,7 +57,7 @@
 | [Blue Claw](providers/blueclaw.md) | 推理托管 | 2 | `providers/blueclaw.json` | 2026-08-28T05:09:26Z |
 | [Auriko](providers/auriko.md) | 推理托管 | 15 | `providers/auriko.json` | 2026-08-28T08:54:00Z |
 | [DaoXE](providers/daoxe.md) | 推理托管 | 9 | `providers/daoxe.json` | 2026-08-28T08:54:00Z |
-| [Moonshot AI](providers/moonshotai.md) | 推理托管 | 14 | `providers/moonshotai.json` | 2026-08-28T10:21:27.508629Z |
+| [Moonshot AI](providers/moonshotai.md) | 推理托管 | 14 | `providers/moonshotai.json` | 2026-08-28T10:35:02.224722Z |
 | [CrossModel](providers/crossmodel.md) | 推理托管 | 54 | `providers/crossmodel.json` | 2026-08-28T08:54:00Z |
 | [Kenari](providers/kenari.md) | 推理托管 | 59 | `providers/kenari.json` | 2026-08-28T08:54:00Z |
 | [Clarifai](providers/clarifai.md) | 推理托管 | 12 | `providers/clarifai.json` | 2026-08-28T08:54:00Z |
