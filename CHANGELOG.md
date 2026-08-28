@@ -16,6 +16,15 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.7.15 — 2026-08-28T09:40Z (feature update)
+
+## 26.7.15 — 2026-08-28T09:40Z (feature update)
+
+- **feat(deepseek dual-currency)**: `tier0_deepseek.py` now also pulls the Chinese pricing page (api-docs.deepseek.com/zh-cn, JS-rendered) and adds the `cny` branch alongside the `usd` one — deepseek-v4-flash ¥3/¥9, pro ¥9/¥27. Domestic CNY is independent of the USD list (not a conversion). Fixed the pro `cache_read.usd` historical bad value (0.003625 → 0.044).
+- **feat(baidu dual-currency)**: new `tier1_baidu.py` pulls the Qianfan ModelBuilder page (headless Chrome), converts ¥/1k tokens → ¥/1M (x1000): ernie-5.0 ¥6/¥24 (dual), ernie-5.1 ¥4/¥18, ernie-4.5-turbo ¥0.8/¥3.2 (CNY-only). Domestic prices independent of the int'l USD list.
+- **feat(billing_model auto-sync)**: `update_model_prices` corrects a model's `billing_model` to `pay_per_token` once it has a real positive token price in any currency — no more stale free/subscription/unknown labels surfacing as audit failures after a CNY backfill.
+- 13 models now carry both currencies (zhipuai + deepseek + baidu).
+
 ## 26.7.14 — 2026-08-28T09:05Z (feature update)
 
 ## 26.7.14 — 2026-08-28T09:05Z (feature update)

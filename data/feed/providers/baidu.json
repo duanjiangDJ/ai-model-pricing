@@ -7,8 +7,8 @@
   "homepage": "https://qianfan.cloud.baidu.com",
   "pricing_page": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
-  "verified_at": "2026-08-27T15:37:35.738047Z",
+  "updated_at": "2026-08-28T09:39:37Z",
+  "verified_at": "2026-08-28T09:39:37Z",
   "models": [
     {
       "id": "ernie-5.1",
@@ -18,8 +18,12 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
+          "input": {
+            "cny": 4.0
+          },
+          "output": {
+            "cny": 18.0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -28,9 +32,9 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Domestic-only model on Baidu Qianfan (CNY pricing: ¥4/1M input, ¥18/1M output (≤32k); ¥6/¥22 (32k-128k)); no official USD price on the INT'L page — left null.",
+      "notes": "Qianfan domestic pricing (¥/1M tokens): input ¥4, output ¥18 (<=32k tier). Verified 2026-08-28T09:39:48Z (CNY). Independent of the int'l USD list — not a currency conversion.",
       "billing_model": [
-        "unknown"
+        "pay_per_token"
       ]
     },
     {
@@ -42,10 +46,12 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.4
+            "usd": 1.4,
+            "cny": 6.0
           },
           "output": {
-            "usd": 5.6
+            "usd": 5.6,
+            "cny": 24.0
           },
           "cache_read": null,
           "cache_write": null
@@ -55,7 +61,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official Baidu Qianfan INT'L pricing page (USD/1M tokens): input $1.4, output $5.6 (pay-as-you-go).",
+      "notes": "Qianfan domestic pricing (¥/1M tokens): input ¥6, output ¥24 (<=32k tier). Verified 2026-08-28T09:39:48Z (CNY). Independent of the int'l USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -68,8 +74,12 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
+          "input": {
+            "cny": 0.8
+          },
+          "output": {
+            "cny": 3.2
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -85,9 +95,9 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Domestic-only model on Baidu Qianfan (CNY pricing: ¥0.8/1M input, ¥3.2/1M output, cache-hit ¥0.2/1M); no official USD price on the INT'L page — left null.",
+      "notes": "Qianfan domestic pricing (¥/1M tokens): input ¥0.8, output ¥3.2 (<=32k tier). Verified 2026-08-28T09:39:48Z (CNY). Independent of the int'l USD list — not a currency conversion.",
       "billing_model": [
-        "unknown"
+        "pay_per_token"
       ]
     }
   ],

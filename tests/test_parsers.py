@@ -33,11 +33,12 @@ class TestDeepSeekParser(unittest.TestCase):
         self.assertIn("deepseek-v4-flash", r)
         pm = r["deepseek-v4-flash"]["per_mtok"]
         # Official EN page peak prices (USD): flash in $0.44, out $1.32, cache-hit $0.014
-        self.assertEqual(pm["input"], 0.44)
-        self.assertEqual(pm["output"], 1.32)
-        self.assertEqual(pm["cache_read"], 0.014)
-        self.assertEqual(r["deepseek-v4-pro"]["per_mtok"]["input"], 1.32)
-        self.assertEqual(r["deepseek-v4-flash-vision-exp"]["per_mtok"]["output"], 1.32)
+        # Prices are dual-currency objects {usd, cny} since schema 26.8.
+        self.assertEqual(pm["input"], {"usd": 0.44})
+        self.assertEqual(pm["output"], {"usd": 1.32})
+        self.assertEqual(pm["cache_read"], {"usd": 0.014})
+        self.assertEqual(r["deepseek-v4-pro"]["per_mtok"]["input"], {"usd": 1.32})
+        self.assertEqual(r["deepseek-v4-flash-vision-exp"]["per_mtok"]["output"], {"usd": 1.32})
 
     def test_structure_change_fails_loudly(self):
         # Simulate a page layout change: only a few prices present -> must raise,

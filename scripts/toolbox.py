@@ -234,6 +234,12 @@ def update_model_prices(provider, updates, now, source, surge_factor=5.0):
                 cur_old[currency] = nv
                 changed.append(mid)
             pm[k] = cur_old if cur_old else None
+        # billing_model sync: once a model has a real (positive) token price in ANY currency,
+        # it is billed per token — correct stale free/subscription/unknown labels.
+        if changed and any_price_positive(pm):
+            bm = m.get("billing_model") or []
+            if "pay_per_token" not in bm:
+                m["billing_model"] = ["pay_per_token"]
         if data.get("batch"):
             if m["pricing"].get("batch") != data["batch"]:
                 m["pricing"]["batch"] = data["batch"]
