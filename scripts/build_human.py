@@ -9,7 +9,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from toolbox import FEED, PROVIDERS, VIEW, read_json  # noqa: E402
+from toolbox import FEED, PROVIDERS, VIEW, read_json, price_of  # noqa: E402
 
 CHANNEL_LABEL = {
     "first_party": "First-party",
@@ -162,6 +162,16 @@ def fmt(v, currency="USD", suffix=""):
         return "—"
     if isinstance(v, str):
         return v
+    if isinstance(v, dict):
+        # dual-price object {usd, cny} (schema 26.8): show both currencies when present
+        usd = v.get("usd")
+        cny = v.get("cny")
+        parts = []
+        if usd is not None:
+            parts.append(f"${usd:g}")
+        if cny is not None:
+            parts.append(f"¥{cny:g}")
+        return " / ".join(parts) if parts else "—"
     return f"${v:g}{suffix}"
 
 

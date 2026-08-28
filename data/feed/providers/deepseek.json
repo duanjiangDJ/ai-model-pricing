@@ -7,7 +7,7 @@
   "homepage": "https://api-docs.deepseek.com/quick_start/pricing",
   "pricing_page": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:27Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:27Z",
   "models": [
     {
@@ -21,9 +21,15 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 0.14,
-          "output": 0.28,
-          "cache_read": 0.0028,
+          "input": {
+            "usd": 0.14
+          },
+          "output": {
+            "usd": 0.28
+          },
+          "cache_read": {
+            "usd": 0.0028
+          },
           "cache_write": null
         },
         "batch": null,
@@ -48,9 +54,15 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 0.14,
-          "output": 0.28,
-          "cache_read": 0.0028,
+          "input": {
+            "usd": 0.14
+          },
+          "output": {
+            "usd": 0.28
+          },
+          "cache_read": {
+            "usd": 0.0028
+          },
           "cache_write": null
         },
         "batch": null,
@@ -75,9 +87,15 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0.44,
-          "output": 1.32,
-          "cache_read": 0.014,
+          "input": {
+            "usd": 0.44
+          },
+          "output": {
+            "usd": 1.32
+          },
+          "cache_read": {
+            "usd": 0.014
+          },
           "cache_write": null
         },
         "batch": null,
@@ -98,9 +116,15 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0.44,
-          "output": 1.32,
-          "cache_read": 0.014,
+          "input": {
+            "usd": 0.44
+          },
+          "output": {
+            "usd": 1.32
+          },
+          "cache_read": {
+            "usd": 0.014
+          },
           "cache_write": null
         },
         "batch": null,
@@ -125,9 +149,15 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 1.32,
-          "output": 3.96,
-          "cache_read": 0.003625,
+          "input": {
+            "usd": 1.32
+          },
+          "output": {
+            "usd": 3.96
+          },
+          "cache_read": {
+            "usd": 0.003625
+          },
           "cache_write": null
         },
         "batch": null,

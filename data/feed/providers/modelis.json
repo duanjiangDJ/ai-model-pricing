@@ -7,7 +7,7 @@
   "homepage": "https://modelishub.com/pricing",
   "pricing_page": "https://modelishub.com/pricing",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -21,8 +21,12 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 10,
-          "output": 50,
+          "input": {
+            "usd": 10
+          },
+          "output": {
+            "usd": 50
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -47,8 +51,12 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 5,
-          "output": 25,
+          "input": {
+            "usd": 5
+          },
+          "output": {
+            "usd": 25
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -73,8 +81,12 @@
       "max_output": 64000,
       "pricing": {
         "per_mtok": {
-          "input": 3,
-          "output": 15,
+          "input": {
+            "usd": 3
+          },
+          "output": {
+            "usd": 15
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -99,8 +111,12 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0.0983,
-          "output": 0.1966,
+          "input": {
+            "usd": 0.0983
+          },
+          "output": {
+            "usd": 0.1966
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -125,8 +141,12 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0.435,
-          "output": 0.87,
+          "input": {
+            "usd": 0.435
+          },
+          "output": {
+            "usd": 0.87
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -151,8 +171,12 @@
       "max_output": 65536,
       "pricing": {
         "per_mtok": {
-          "input": 0.3,
-          "output": 2.5,
+          "input": {
+            "usd": 0.3
+          },
+          "output": {
+            "usd": 2.5
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -177,8 +201,12 @@
       "max_output": 65536,
       "pricing": {
         "per_mtok": {
-          "input": 1.25,
-          "output": 10,
+          "input": {
+            "usd": 1.25
+          },
+          "output": {
+            "usd": 10
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -203,8 +231,12 @@
       "max_output": 65536,
       "pricing": {
         "per_mtok": {
-          "input": 3,
-          "output": 9,
+          "input": {
+            "usd": 3
+          },
+          "output": {
+            "usd": 9
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -229,8 +261,12 @@
       "max_output": 64000,
       "pricing": {
         "per_mtok": {
-          "input": 0.768,
-          "output": 3.072,
+          "input": {
+            "usd": 0.768
+          },
+          "output": {
+            "usd": 3.072
+          },
           "cache_read": null,
           "cache_write": null
         },

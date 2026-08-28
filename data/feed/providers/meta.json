@@ -7,7 +7,7 @@
   "homepage": "https://dev.meta.ai/docs",
   "pricing_page": "https://dev.meta.ai/docs",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -21,9 +21,15 @@
       "max_output": 32000,
       "pricing": {
         "per_mtok": {
-          "input": 1.25,
-          "output": 4.25,
-          "cache_read": 0.15,
+          "input": {
+            "usd": 1.25
+          },
+          "output": {
+            "usd": 4.25
+          },
+          "cache_read": {
+            "usd": 0.15
+          },
           "cache_write": null
         },
         "batch": null,
@@ -47,9 +53,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 1.25,
-          "output": 4.25,
-          "cache_read": 0.15,
+          "input": {
+            "usd": 1.25
+          },
+          "output": {
+            "usd": 4.25
+          },
+          "cache_read": {
+            "usd": 0.15
+          },
           "cache_write": null
         },
         "batch": null,
@@ -73,9 +85,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0.1,
-          "output": 0.2,
-          "cache_read": 0.002,
+          "input": {
+            "usd": 0.1
+          },
+          "output": {
+            "usd": 0.2
+          },
+          "cache_read": {
+            "usd": 0.002
+          },
           "cache_write": null
         },
         "batch": null,

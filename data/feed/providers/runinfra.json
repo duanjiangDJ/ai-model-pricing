@@ -7,7 +7,7 @@
   "homepage": "https://runinfra.ai/docs",
   "pricing_page": "https://runinfra.ai/docs",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -21,9 +21,15 @@
       "max_output": 32768,
       "pricing": {
         "per_mtok": {
-          "input": 2,
-          "output": 6,
-          "cache_read": 0.2,
+          "input": {
+            "usd": 2
+          },
+          "output": {
+            "usd": 6
+          },
+          "cache_read": {
+            "usd": 0.2
+          },
           "cache_write": null
         },
         "batch": null,
@@ -47,9 +53,15 @@
       "max_output": 32768,
       "pricing": {
         "per_mtok": {
-          "input": 0.1,
-          "output": 0.4,
-          "cache_read": 0.01,
+          "input": {
+            "usd": 0.1
+          },
+          "output": {
+            "usd": 0.4
+          },
+          "cache_read": {
+            "usd": 0.01
+          },
           "cache_write": null
         },
         "batch": null,
@@ -73,9 +85,15 @@
       "max_output": 32768,
       "pricing": {
         "per_mtok": {
-          "input": 0.13,
-          "output": 0.27,
-          "cache_read": 0.01,
+          "input": {
+            "usd": 0.13
+          },
+          "output": {
+            "usd": 0.27
+          },
+          "cache_read": {
+            "usd": 0.01
+          },
           "cache_write": null
         },
         "batch": null,
@@ -99,9 +117,15 @@
       "max_output": 32768,
       "pricing": {
         "per_mtok": {
-          "input": 0.6,
-          "output": 1.9,
-          "cache_read": 0.03,
+          "input": {
+            "usd": 0.6
+          },
+          "output": {
+            "usd": 1.9
+          },
+          "cache_read": {
+            "usd": 0.03
+          },
           "cache_write": null
         },
         "batch": null,
@@ -125,9 +149,15 @@
       "max_output": 32768,
       "pricing": {
         "per_mtok": {
-          "input": 0.05,
-          "output": 0.15,
-          "cache_read": 0.01,
+          "input": {
+            "usd": 0.05
+          },
+          "output": {
+            "usd": 0.15
+          },
+          "cache_read": {
+            "usd": 0.01
+          },
           "cache_write": null
         },
         "batch": null,
@@ -154,9 +184,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 0.1,
-          "output": 0.4,
-          "cache_read": 0.01,
+          "input": {
+            "usd": 0.1
+          },
+          "output": {
+            "usd": 0.4
+          },
+          "cache_read": {
+            "usd": 0.01
+          },
           "cache_write": null
         },
         "batch": null,
@@ -179,9 +215,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 0.1,
-          "output": 0.4,
-          "cache_read": 0.01,
+          "input": {
+            "usd": 0.1
+          },
+          "output": {
+            "usd": 0.4
+          },
+          "cache_read": {
+            "usd": 0.01
+          },
           "cache_write": null
         },
         "batch": null,

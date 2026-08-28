@@ -7,7 +7,7 @@
   "homepage": "https://docs.arcee.ai",
   "pricing_page": "https://docs.arcee.ai",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -21,9 +21,15 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0.14,
-          "output": 0.28,
-          "cache_read": 0.028,
+          "input": {
+            "usd": 0.14
+          },
+          "output": {
+            "usd": 0.28
+          },
+          "cache_read": {
+            "usd": 0.028
+          },
           "cache_write": null
         },
         "batch": null,
@@ -47,9 +53,15 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 1.74,
-          "output": 3.48,
-          "cache_read": 0.2,
+          "input": {
+            "usd": 1.74
+          },
+          "output": {
+            "usd": 3.48
+          },
+          "cache_read": {
+            "usd": 0.2
+          },
           "cache_write": null
         },
         "batch": null,
@@ -73,9 +85,15 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 1.32,
-          "output": 3.96,
-          "cache_read": 0.044,
+          "input": {
+            "usd": 1.32
+          },
+          "output": {
+            "usd": 3.96
+          },
+          "cache_read": {
+            "usd": 0.044
+          },
           "cache_write": null
         },
         "batch": null,
@@ -99,9 +117,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 3,
-          "output": 15,
-          "cache_read": 0.3,
+          "input": {
+            "usd": 3
+          },
+          "output": {
+            "usd": 15
+          },
+          "cache_read": {
+            "usd": 0.3
+          },
           "cache_write": null
         },
         "batch": null,
@@ -125,9 +149,15 @@
       "max_output": 262144,
       "pricing": {
         "per_mtok": {
-          "input": 0.5,
-          "output": 1.2,
-          "cache_read": 0.1,
+          "input": {
+            "usd": 0.5
+          },
+          "output": {
+            "usd": 1.2
+          },
+          "cache_read": {
+            "usd": 0.1
+          },
           "cache_write": null
         },
         "batch": null,
@@ -151,9 +181,15 @@
       "max_output": 262144,
       "pricing": {
         "per_mtok": {
-          "input": 0.25,
-          "output": 0.8,
-          "cache_read": 0.06,
+          "input": {
+            "usd": 0.25
+          },
+          "output": {
+            "usd": 0.8
+          },
+          "cache_read": {
+            "usd": 0.06
+          },
           "cache_write": null
         },
         "batch": null,
@@ -177,9 +213,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 1.4,
-          "output": 4.4,
-          "cache_read": 0.26,
+          "input": {
+            "usd": 1.4
+          },
+          "output": {
+            "usd": 4.4
+          },
+          "cache_read": {
+            "usd": 0.26
+          },
           "cache_write": null
         },
         "batch": null,

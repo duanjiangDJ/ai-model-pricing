@@ -6,7 +6,7 @@
 - 官网: https://platform.xiaomimimo.com/#/docs
 - 定价页: https://mimo.mi.com/docs/price/pay-as-you-go
 - 币种: USD
-- 数据更新时间: 2026-08-28T05:09:26Z
+- 数据更新时间: 2026-08-28T08:54:00Z
 - 核实时间: 2026-08-28T05:09:26Z
 
 共 **10** 个模型。

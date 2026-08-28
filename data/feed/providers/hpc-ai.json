@@ -7,7 +7,7 @@
   "homepage": "https://www.hpc-ai.com/doc/docs/quickstart/",
   "pricing_page": "https://www.hpc-ai.com/doc/docs/quickstart/",
   "currency": "USD",
-  "updated_at": "2026-08-27T17:11:11Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-21T11:27:12Z",
   "models": [
     {
@@ -21,9 +21,15 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 5,
-          "output": 25,
-          "cache_read": 0.5,
+          "input": {
+            "usd": 5
+          },
+          "output": {
+            "usd": 25
+          },
+          "cache_read": {
+            "usd": 0.5
+          },
           "cache_write": null
         },
         "batch": null,
@@ -47,9 +53,15 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 0.14,
-          "output": 0.28,
-          "cache_read": 0.028,
+          "input": {
+            "usd": 0.14
+          },
+          "output": {
+            "usd": 0.28
+          },
+          "cache_read": {
+            "usd": 0.028
+          },
           "cache_write": null
         },
         "batch": null,
@@ -73,9 +85,15 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 1.74,
-          "output": 3.48,
-          "cache_read": 0.145,
+          "input": {
+            "usd": 1.74
+          },
+          "output": {
+            "usd": 3.48
+          },
+          "cache_read": {
+            "usd": 0.145
+          },
           "cache_write": null
         },
         "batch": null,
@@ -99,9 +117,15 @@
       "max_output": 195000,
       "pricing": {
         "per_mtok": {
-          "input": 0.3,
-          "output": 1.2,
-          "cache_read": 0.03,
+          "input": {
+            "usd": 0.3
+          },
+          "output": {
+            "usd": 1.2
+          },
+          "cache_read": {
+            "usd": 0.03
+          },
           "cache_write": null
         },
         "batch": null,
@@ -125,9 +149,15 @@
       "max_output": 256000,
       "pricing": {
         "per_mtok": {
-          "input": 0.6,
-          "output": 3,
-          "cache_read": 0.1,
+          "input": {
+            "usd": 0.6
+          },
+          "output": {
+            "usd": 3
+          },
+          "cache_read": {
+            "usd": 0.1
+          },
           "cache_write": null
         },
         "batch": null,
@@ -151,9 +181,15 @@
       "max_output": 256000,
       "pricing": {
         "per_mtok": {
-          "input": 0.95,
-          "output": 4,
-          "cache_read": 0.19,
+          "input": {
+            "usd": 0.95
+          },
+          "output": {
+            "usd": 4
+          },
+          "cache_read": {
+            "usd": 0.19
+          },
           "cache_write": null
         },
         "batch": null,
@@ -177,9 +213,15 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 5,
-          "output": 30,
-          "cache_read": 0.5,
+          "input": {
+            "usd": 5
+          },
+          "output": {
+            "usd": 30
+          },
+          "cache_read": {
+            "usd": 0.5
+          },
           "cache_write": null
         },
         "batch": null,
@@ -203,9 +245,15 @@
       "max_output": 202000,
       "pricing": {
         "per_mtok": {
-          "input": 0.615,
-          "output": 2.46,
-          "cache_read": 0.133,
+          "input": {
+            "usd": 0.615
+          },
+          "output": {
+            "usd": 2.46
+          },
+          "cache_read": {
+            "usd": 0.133
+          },
           "cache_write": null
         },
         "batch": null,
@@ -229,9 +277,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 1.4,
-          "output": 4.4,
-          "cache_read": 0.26,
+          "input": {
+            "usd": 1.4
+          },
+          "output": {
+            "usd": 4.4
+          },
+          "cache_read": {
+            "usd": 0.26
+          },
           "cache_write": null
         },
         "batch": null,

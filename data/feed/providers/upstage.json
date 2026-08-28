@@ -7,7 +7,7 @@
   "homepage": "https://developers.upstage.ai/docs/apis/chat",
   "pricing_page": "https://developers.upstage.ai/docs/apis/chat",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -21,8 +21,12 @@
       "max_output": 4096,
       "pricing": {
         "per_mtok": {
-          "input": 0.15,
-          "output": 0.15,
+          "input": {
+            "usd": 0.15
+          },
+          "output": {
+            "usd": 0.15
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -47,8 +51,12 @@
       "max_output": 8192,
       "pricing": {
         "per_mtok": {
-          "input": 0.25,
-          "output": 0.25,
+          "input": {
+            "usd": 0.25
+          },
+          "output": {
+            "usd": 0.25
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -73,8 +81,12 @@
       "max_output": 8192,
       "pricing": {
         "per_mtok": {
-          "input": 0.25,
-          "output": 0.25,
+          "input": {
+            "usd": 0.25
+          },
+          "output": {
+            "usd": 0.25
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -99,9 +111,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0.3,
-          "output": 1.2,
-          "cache_read": 0.06,
+          "input": {
+            "usd": 0.3
+          },
+          "output": {
+            "usd": 1.2
+          },
+          "cache_read": {
+            "usd": 0.06
+          },
           "cache_write": null
         },
         "batch": null,

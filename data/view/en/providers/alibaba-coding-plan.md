@@ -6,7 +6,7 @@
 - Homepage: https://www.alibabacloud.com/help/en/model-studio/coding-plan
 - Pricing page: https://www.alibabacloud.com/help/en/model-studio/coding-plan
 - Currency: USD
-- Data updated: 2026-08-27T17:11:11Z
+- Data updated: 2026-08-28T08:54:00Z
 - Verified: 2026-08-22T09:32:50Z
 
 **12** models in total.

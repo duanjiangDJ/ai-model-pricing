@@ -7,7 +7,7 @@
   "homepage": "https://platform.stepfun.com/docs/zh/overview/concept",
   "pricing_page": "https://platform.stepfun.com/docs/zh/overview/concept",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -21,9 +21,15 @@
       "max_output": 32768,
       "pricing": {
         "per_mtok": {
-          "input": 2.05,
-          "output": 9.59,
-          "cache_read": 0.41,
+          "input": {
+            "usd": 2.05
+          },
+          "output": {
+            "usd": 9.59
+          },
+          "cache_read": {
+            "usd": 0.41
+          },
           "cache_write": null
         },
         "batch": null,
@@ -47,9 +53,15 @@
       "max_output": 8192,
       "pricing": {
         "per_mtok": {
-          "input": 5.21,
-          "output": 16.44,
-          "cache_read": 1.04,
+          "input": {
+            "usd": 5.21
+          },
+          "output": {
+            "usd": 16.44
+          },
+          "cache_read": {
+            "usd": 1.04
+          },
           "cache_write": null
         },
         "batch": null,
@@ -73,9 +85,15 @@
       "max_output": 256000,
       "pricing": {
         "per_mtok": {
-          "input": 0.1,
-          "output": 0.3,
-          "cache_read": 0.02,
+          "input": {
+            "usd": 0.1
+          },
+          "output": {
+            "usd": 0.3
+          },
+          "cache_read": {
+            "usd": 0.02
+          },
           "cache_write": null
         },
         "batch": null,
@@ -99,9 +117,15 @@
       "max_output": 256000,
       "pricing": {
         "per_mtok": {
-          "input": 0.1,
-          "output": 0.3,
-          "cache_read": 0.02,
+          "input": {
+            "usd": 0.1
+          },
+          "output": {
+            "usd": 0.3
+          },
+          "cache_read": {
+            "usd": 0.02
+          },
           "cache_write": null
         },
         "batch": null,
@@ -125,9 +149,15 @@
       "max_output": 256000,
       "pricing": {
         "per_mtok": {
-          "input": 0.185,
-          "output": 1.11,
-          "cache_read": 0.037,
+          "input": {
+            "usd": 0.185
+          },
+          "output": {
+            "usd": 1.11
+          },
+          "cache_read": {
+            "usd": 0.037
+          },
           "cache_write": null
         },
         "batch": null,

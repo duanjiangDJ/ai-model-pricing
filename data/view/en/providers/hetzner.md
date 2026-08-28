@@ -6,7 +6,7 @@
 - Homepage: https://experiments.hetzner.com/docs/inference
 - Pricing page: https://experiments.hetzner.com/docs/inference
 - Currency: USD
-- Data updated: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-28T08:54:00Z
 - Verified: 2026-08-28T05:09:26Z
 
 **2** models in total.

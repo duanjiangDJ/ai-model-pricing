@@ -7,7 +7,7 @@
   "homepage": "https://inference-docs.cerebras.ai/models/overview",
   "pricing_page": "https://inference-docs.cerebras.ai/models/overview",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -21,8 +21,12 @@
       "max_output": 40960,
       "pricing": {
         "per_mtok": {
-          "input": 0.99,
-          "output": 1.49,
+          "input": {
+            "usd": 0.99
+          },
+          "output": {
+            "usd": 1.49
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -47,8 +51,12 @@
       "max_output": 40960,
       "pricing": {
         "per_mtok": {
-          "input": 0.35,
-          "output": 0.75,
+          "input": {
+            "usd": 0.35
+          },
+          "output": {
+            "usd": 0.75
+          },
           "cache_read": null,
           "cache_write": null
         },

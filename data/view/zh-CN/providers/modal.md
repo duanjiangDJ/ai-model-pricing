@@ -6,7 +6,7 @@
 - 官网: https://modal.com/docs/guide/endpoints
 - 定价页: https://modal.com/docs/guide/endpoints
 - 币种: USD
-- 数据更新时间: 2026-08-28T05:09:26Z
+- 数据更新时间: 2026-08-28T08:54:00Z
 - 核实时间: 2026-08-28T05:09:26Z
 
 共 **4** 个模型。

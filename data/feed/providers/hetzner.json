@@ -7,7 +7,7 @@
   "homepage": "https://experiments.hetzner.com/docs/inference",
   "pricing_page": "https://experiments.hetzner.com/docs/inference",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -21,9 +21,15 @@
       "max_output": 262144,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": {
+            "usd": 0
+          },
+          "output": {
+            "usd": 0
+          },
+          "cache_read": {
+            "usd": 0
+          },
           "cache_write": null
         },
         "batch": null,
@@ -47,9 +53,15 @@
       "max_output": 262144,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0,
+          "input": {
+            "usd": 0
+          },
+          "output": {
+            "usd": 0
+          },
+          "cache_read": {
+            "usd": 0
+          },
           "cache_write": null
         },
         "batch": null,

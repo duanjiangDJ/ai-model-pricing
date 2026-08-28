@@ -7,7 +7,7 @@
   "homepage": "https://docs.x.ai/docs/models",
   "pricing_page": "https://docs.x.ai/developers/pricing",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -93,14 +93,24 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 1.25,
-          "output": 2.5,
-          "cache_read": 0.2,
+          "input": {
+            "usd": 1.25
+          },
+          "output": {
+            "usd": 2.5
+          },
+          "cache_read": {
+            "usd": 0.2
+          },
           "cache_write": null
         },
         "batch": {
-          "input": 1.0,
-          "output": 2.0
+          "input": {
+            "usd": 1.0
+          },
+          "output": {
+            "usd": 2.0
+          }
         },
         "per_image": null,
         "per_audio_second": null,
@@ -122,14 +132,24 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 1.25,
-          "output": 2.5,
-          "cache_read": 0.2,
+          "input": {
+            "usd": 1.25
+          },
+          "output": {
+            "usd": 2.5
+          },
+          "cache_read": {
+            "usd": 0.2
+          },
           "cache_write": null
         },
         "batch": {
-          "input": 1.0,
-          "output": 2.0
+          "input": {
+            "usd": 1.0
+          },
+          "output": {
+            "usd": 2.0
+          }
         },
         "per_image": null,
         "per_audio_second": null,
@@ -151,14 +171,24 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 1.25,
-          "output": 2.5,
-          "cache_read": 0.2,
+          "input": {
+            "usd": 1.25
+          },
+          "output": {
+            "usd": 2.5
+          },
+          "cache_read": {
+            "usd": 0.2
+          },
           "cache_write": null
         },
         "batch": {
-          "input": 1.0,
-          "output": 2.0
+          "input": {
+            "usd": 1.0
+          },
+          "output": {
+            "usd": 2.0
+          }
         },
         "per_image": null,
         "per_audio_second": null,
@@ -180,14 +210,24 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 1.25,
-          "output": 2.5,
-          "cache_read": 0.2,
+          "input": {
+            "usd": 1.25
+          },
+          "output": {
+            "usd": 2.5
+          },
+          "cache_read": {
+            "usd": 0.2
+          },
           "cache_write": null
         },
         "batch": {
-          "input": 1.0,
-          "output": 2.0
+          "input": {
+            "usd": 1.0
+          },
+          "output": {
+            "usd": 2.0
+          }
         },
         "per_image": null,
         "per_audio_second": null,
@@ -210,9 +250,15 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 2.0,
-          "output": 6.0,
-          "cache_read": 0.3,
+          "input": {
+            "usd": 2.0
+          },
+          "output": {
+            "usd": 6.0
+          },
+          "cache_read": {
+            "usd": 0.3
+          },
           "cache_write": null
         },
         "batch": null,
@@ -236,9 +282,15 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 2.0,
-          "output": 6.0,
-          "cache_read": 0.5,
+          "input": {
+            "usd": 2.0
+          },
+          "output": {
+            "usd": 6.0
+          },
+          "cache_read": {
+            "usd": 0.5
+          },
           "cache_write": null
         },
         "batch": null,
@@ -262,9 +314,15 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 1.0,
-          "output": 2.0,
-          "cache_read": 0.2,
+          "input": {
+            "usd": 1.0
+          },
+          "output": {
+            "usd": 2.0
+          },
+          "cache_read": {
+            "usd": 0.2
+          },
           "cache_write": null
         },
         "batch": null,

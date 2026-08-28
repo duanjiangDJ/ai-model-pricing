@@ -7,7 +7,7 @@
   "homepage": "https://docs.sherlock.cloudferro.com/",
   "pricing_page": "https://docs.sherlock.cloudferro.com/",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -21,8 +21,12 @@
       "max_output": 16000,
       "pricing": {
         "per_mtok": {
-          "input": 0.3,
-          "output": 1.2,
+          "input": {
+            "usd": 0.3
+          },
+          "output": {
+            "usd": 1.2
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -47,8 +51,12 @@
       "max_output": 70000,
       "pricing": {
         "per_mtok": {
-          "input": 2.92,
-          "output": 2.92,
+          "input": {
+            "usd": 2.92
+          },
+          "output": {
+            "usd": 2.92
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -73,8 +81,12 @@
       "max_output": 131000,
       "pricing": {
         "per_mtok": {
-          "input": 2.92,
-          "output": 2.92,
+          "input": {
+            "usd": 2.92
+          },
+          "output": {
+            "usd": 2.92
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -99,8 +111,12 @@
       "max_output": 32000,
       "pricing": {
         "per_mtok": {
-          "input": 0.67,
-          "output": 0.67,
+          "input": {
+            "usd": 0.67
+          },
+          "output": {
+            "usd": 0.67
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -125,8 +141,12 @@
       "max_output": 32000,
       "pricing": {
         "per_mtok": {
-          "input": 0.67,
-          "output": 0.67,
+          "input": {
+            "usd": 0.67
+          },
+          "output": {
+            "usd": 0.67
+          },
           "cache_read": null,
           "cache_write": null
         },

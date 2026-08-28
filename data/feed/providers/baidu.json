@@ -7,7 +7,7 @@
   "homepage": "https://qianfan.cloud.baidu.com",
   "pricing_page": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya",
   "currency": "USD",
-  "updated_at": "2026-08-27T17:11:11Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-27T15:37:35.738047Z",
   "models": [
     {
@@ -41,8 +41,12 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": 1.4,
-          "output": 5.6,
+          "input": {
+            "usd": 1.4
+          },
+          "output": {
+            "usd": 5.6
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -70,8 +74,12 @@
           "cache_write": null
         },
         "batch": {
-          "input": 0.32,
-          "output": 1.28
+          "input": {
+            "usd": 0.32
+          },
+          "output": {
+            "usd": 1.28
+          }
         },
         "per_image": null,
         "per_audio_second": null,

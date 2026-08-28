@@ -7,7 +7,7 @@
   "homepage": "https://docs.wafer.ai/wafer-pass",
   "pricing_page": "https://docs.wafer.ai/wafer-pass",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -21,9 +21,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 1,
-          "output": 3.2,
-          "cache_read": 0.1,
+          "input": {
+            "usd": 1
+          },
+          "output": {
+            "usd": 3.2
+          },
+          "cache_read": {
+            "usd": 0.1
+          },
           "cache_write": null
         },
         "batch": null,
@@ -47,9 +53,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 1.2,
-          "output": 4.1,
-          "cache_read": 0.2,
+          "input": {
+            "usd": 1.2
+          },
+          "output": {
+            "usd": 4.1
+          },
+          "cache_read": {
+            "usd": 0.2
+          },
           "cache_write": null
         },
         "batch": null,
@@ -73,9 +85,15 @@
       "max_output": 65536,
       "pricing": {
         "per_mtok": {
-          "input": 1.14,
-          "output": 4.8,
-          "cache_read": 0.19,
+          "input": {
+            "usd": 1.14
+          },
+          "output": {
+            "usd": 4.8
+          },
+          "cache_read": {
+            "usd": 0.19
+          },
           "cache_write": null
         },
         "batch": null,
@@ -99,9 +117,15 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 0.33,
-          "output": 1.32,
-          "cache_read": 0.07,
+          "input": {
+            "usd": 0.33
+          },
+          "output": {
+            "usd": 1.32
+          },
+          "cache_read": {
+            "usd": 0.07
+          },
           "cache_write": null
         },
         "batch": null,
@@ -125,9 +149,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 3,
-          "output": 10.25,
-          "cache_read": 0.5,
+          "input": {
+            "usd": 3
+          },
+          "output": {
+            "usd": 10.25
+          },
+          "cache_read": {
+            "usd": 0.5
+          },
           "cache_write": null
         },
         "batch": null,

@@ -29,6 +29,11 @@ def map_modalities(m):
     return out
 
 
+def _u(v):
+    """Wrap a numeric price into a dual-currency object (usd key); None stays None."""
+    return {"usd": v} if v is not None else None
+
+
 def build_model(entry):
     p = entry.get("pricing") or {}
     token_vals = [p.get("prompt"), p.get("completion"),
@@ -54,12 +59,12 @@ def build_model(entry):
         note += " | Free model (per_mtok = 0)."
     pricing = {
         "per_mtok": {
-            "input": to_float_or_none(p.get("prompt")),
-            "output": to_float_or_none(p.get("completion")),
-            "cache_read": to_float_or_none(p.get("input_cache_read")),
-            "cache_write": to_float_or_none(p.get("input_cache_write")),
+            "input": _u(to_float_or_none(p.get("prompt"))),
+            "output": _u(to_float_or_none(p.get("completion"))),
+            "cache_read": _u(to_float_or_none(p.get("input_cache_read"))),
+            "cache_write": _u(to_float_or_none(p.get("input_cache_write"))),
         },
-        "per_image": [{"name": "default", "price": img}] if img is not None else None,
+        "per_image": [{"name": "default", "price": _u(img)}] if img is not None else None,
         "promo": None,
     }
     return {

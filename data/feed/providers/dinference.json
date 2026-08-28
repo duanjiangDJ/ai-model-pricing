@@ -7,7 +7,7 @@
   "homepage": "https://dinference.com",
   "pricing_page": "https://dinference.com",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -21,8 +21,12 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 0.45,
-          "output": 1.65,
+          "input": {
+            "usd": 0.45
+          },
+          "output": {
+            "usd": 1.65
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -47,8 +51,12 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 0.75,
-          "output": 2.4,
+          "input": {
+            "usd": 0.75
+          },
+          "output": {
+            "usd": 2.4
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -73,8 +81,12 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 1.25,
-          "output": 3.89,
+          "input": {
+            "usd": 1.25
+          },
+          "output": {
+            "usd": 3.89
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -99,8 +111,12 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 1.25,
-          "output": 3.89,
+          "input": {
+            "usd": 1.25
+          },
+          "output": {
+            "usd": 3.89
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -125,8 +141,12 @@
       "max_output": 32768,
       "pricing": {
         "per_mtok": {
-          "input": 0.0675,
-          "output": 0.27,
+          "input": {
+            "usd": 0.0675
+          },
+          "output": {
+            "usd": 0.27
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -151,8 +171,12 @@
       "max_output": 32000,
       "pricing": {
         "per_mtok": {
-          "input": 0.22,
-          "output": 0.88,
+          "input": {
+            "usd": 0.22
+          },
+          "output": {
+            "usd": 0.88
+          },
           "cache_read": null,
           "cache_write": null
         },

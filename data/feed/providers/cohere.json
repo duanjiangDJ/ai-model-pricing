@@ -7,7 +7,7 @@
   "homepage": "https://docs.cohere.com/docs/models",
   "pricing_page": "https://docs.cohere.com/docs/models",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -125,8 +125,12 @@
       "max_output": 8000,
       "pricing": {
         "per_mtok": {
-          "input": 2.5,
-          "output": 10,
+          "input": {
+            "usd": 2.5
+          },
+          "output": {
+            "usd": 10
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -151,8 +155,12 @@
       "max_output": 64000,
       "pricing": {
         "per_mtok": {
-          "input": 2.5,
-          "output": 10,
+          "input": {
+            "usd": 2.5
+          },
+          "output": {
+            "usd": 10
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -177,8 +185,12 @@
       "max_output": 32000,
       "pricing": {
         "per_mtok": {
-          "input": 2.5,
-          "output": 10,
+          "input": {
+            "usd": 2.5
+          },
+          "output": {
+            "usd": 10
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -203,8 +215,12 @@
       "max_output": 8000,
       "pricing": {
         "per_mtok": {
-          "input": 2.5,
-          "output": 10,
+          "input": {
+            "usd": 2.5
+          },
+          "output": {
+            "usd": 10
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -229,8 +245,12 @@
       "max_output": 8000,
       "pricing": {
         "per_mtok": {
-          "input": 2.5,
-          "output": 10,
+          "input": {
+            "usd": 2.5
+          },
+          "output": {
+            "usd": 10
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -255,8 +275,12 @@
       "max_output": 4000,
       "pricing": {
         "per_mtok": {
-          "input": 0.15,
-          "output": 0.6,
+          "input": {
+            "usd": 0.15
+          },
+          "output": {
+            "usd": 0.6
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -281,8 +305,12 @@
       "max_output": 4000,
       "pricing": {
         "per_mtok": {
-          "input": 2.5,
-          "output": 10,
+          "input": {
+            "usd": 2.5
+          },
+          "output": {
+            "usd": 10
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -307,8 +335,12 @@
       "max_output": 4000,
       "pricing": {
         "per_mtok": {
-          "input": 0.0375,
-          "output": 0.15,
+          "input": {
+            "usd": 0.0375
+          },
+          "output": {
+            "usd": 0.15
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -333,8 +365,12 @@
       "max_output": 4000,
       "pricing": {
         "per_mtok": {
-          "input": 0.0375,
-          "output": 0.15,
+          "input": {
+            "usd": 0.0375
+          },
+          "output": {
+            "usd": 0.15
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -359,8 +395,12 @@
       "max_output": 64000,
       "pricing": {
         "per_mtok": {
-          "input": 0,
-          "output": 0,
+          "input": {
+            "usd": 0
+          },
+          "output": {
+            "usd": 0
+          },
           "cache_read": null,
           "cache_write": null
         },

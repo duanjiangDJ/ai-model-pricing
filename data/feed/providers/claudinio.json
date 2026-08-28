@@ -7,7 +7,7 @@
   "homepage": "https://claudin.io",
   "pricing_page": "https://claudin.io",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -21,9 +21,15 @@
       "max_output": 64000,
       "pricing": {
         "per_mtok": {
-          "input": 0.5,
-          "output": 2,
-          "cache_read": 0.15,
+          "input": {
+            "usd": 0.5
+          },
+          "output": {
+            "usd": 2
+          },
+          "cache_read": {
+            "usd": 0.15
+          },
           "cache_write": null
         },
         "batch": null,
@@ -47,9 +53,15 @@
       "max_output": 64000,
       "pricing": {
         "per_mtok": {
-          "input": 3,
-          "output": 8,
-          "cache_read": 0.9,
+          "input": {
+            "usd": 3
+          },
+          "output": {
+            "usd": 8
+          },
+          "cache_read": {
+            "usd": 0.9
+          },
           "cache_write": null
         },
         "batch": null,
