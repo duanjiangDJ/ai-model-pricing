@@ -7,7 +7,7 @@
   "homepage": "https://platform.moonshot.ai/docs/api/chat",
   "pricing_page": "https://platform.moonshot.ai/docs/api/chat",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
+  "updated_at": "2026-08-28T10:21:27.508629Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -21,9 +21,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": {
+            "cny": 20.0
+          },
+          "output": {
+            "cny": 100.0
+          },
+          "cache_read": {
+            "cny": 2.0
+          },
           "cache_write": null
         },
         "batch": null,
@@ -31,9 +37,9 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Kimi K3 official CNY (¥/1M tokens: cache-miss input ¥20, cache-hit ¥2, output ¥100). Verified 2026-08-28.",
       "billing_model": [
-        "subscription_included"
+        "pay_per_token"
       ]
     },
     {
@@ -47,9 +53,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": {
+            "cny": 20.0
+          },
+          "output": {
+            "cny": 100.0
+          },
+          "cache_read": {
+            "cny": 2.0
+          },
           "cache_write": null
         },
         "batch": null,
@@ -57,9 +69,9 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing).",
+      "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Kimi K3 official CNY (¥/1M tokens: cache-miss input ¥20, cache-hit ¥2, output ¥100). Verified 2026-08-28.",
       "billing_model": [
-        "subscription_included"
+        "pay_per_token"
       ]
     },
     {
@@ -435,13 +447,16 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 3
+            "usd": 3,
+            "cny": 20.0
           },
           "output": {
-            "usd": 15
+            "usd": 15,
+            "cny": 100.0
           },
           "cache_read": {
-            "usd": 0.3
+            "usd": 0.3,
+            "cny": 2.0
           },
           "cache_write": null
         },
@@ -450,7 +465,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Kimi K3 official CNY (¥/1M tokens: cache-miss input ¥20, cache-hit ¥2, output ¥100). Verified 2026-08-28.",
       "billing_model": [
         "pay_per_token"
       ]

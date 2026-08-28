@@ -57,7 +57,7 @@
 | [Blue Claw](providers/blueclaw.md) | Inference host | 2 | `providers/blueclaw.json` | 2026-08-28T05:09:26Z |
 | [Auriko](providers/auriko.md) | Inference host | 15 | `providers/auriko.json` | 2026-08-28T08:54:00Z |
 | [DaoXE](providers/daoxe.md) | Inference host | 9 | `providers/daoxe.json` | 2026-08-28T08:54:00Z |
-| [Moonshot AI](providers/moonshotai.md) | Inference host | 14 | `providers/moonshotai.json` | 2026-08-28T08:54:00Z |
+| [Moonshot AI](providers/moonshotai.md) | Inference host | 14 | `providers/moonshotai.json` | 2026-08-28T10:21:27.508629Z |
 | [CrossModel](providers/crossmodel.md) | Inference host | 54 | `providers/crossmodel.json` | 2026-08-28T08:54:00Z |
 | [Kenari](providers/kenari.md) | Inference host | 59 | `providers/kenari.json` | 2026-08-28T08:54:00Z |
 | [Clarifai](providers/clarifai.md) | Inference host | 12 | `providers/clarifai.json` | 2026-08-28T08:54:00Z |
