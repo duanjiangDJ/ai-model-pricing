@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.7.22 — 2026-08-28T10:47Z (feature update)
+
+- feat: lift changelog sync-summary truncation (full model list)
+
 ## 26.7.21 — 2026-08-28T12:05Z (feature update)
 
 - **feat(moonshot kimi full CNY)**: added the CNY branch for the full current Kimi lineup from platform.kimi.com (¥/1M): k3 ¥20/¥100 (cache ¥2), k2.7-code & k2.6 ¥6.5/¥27, k2.7-code-highspeed ¥13/¥54, k2.5 ¥4/¥21 (cache ¥0.7). Legacy K2 preview/thinking models marked historical. billing_model corrected to pay_per_token where the CNY backfill added a positive price.
