@@ -16,6 +16,14 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.7.16 — 2026-08-28T10:20Z (feature update)
+
+## 26.7.16 — 2026-08-28T10:20Z (feature update)
+
+- **feat(stepfun dual-currency)**: new `tier1_stepfun.py` pulls the StepFun pricing page (platform.stepfun.com/docs/zh/guides/pricing/details) via headless Chrome and adds the CNY branch (step-3.7-flash ¥1.35/¥8.1, step-3.5-flash ¥0.7/¥2.1). Domestic CNY independent of the int'l USD list.
+- **feat(volcengine dual-currency)**: reconciled the Volcano Ark model-price page (docs.volcengine.com/docs/82379/1544106) — deepseek-v4-flash ¥3/¥9, v4-pro ¥9/¥27, glm-5.2 ¥8/¥28, doubao-seed-2.1-pro ¥3/¥15 etc. The page is bot-protected (dump-dom 0 bytes) so `tier1_volcengine.py` records this and cannot auto-refresh yet (CNY is from the manually-verified official page).
+- 26 models across stepfun/volcengine now carry a CNY branch.
+
 ## 26.7.15 — 2026-08-28T09:40Z (feature update)
 
 ## 26.7.15 — 2026-08-28T09:40Z (feature update)

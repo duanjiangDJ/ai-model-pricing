@@ -16,6 +16,14 @@
 
 ---
 
+## 26.7.16 — 2026-08-28T10:20Z（功能更新）
+
+## 26.7.16 — 2026-08-28T10:20Z（功能更新）
+
+- **feat(stepfun 双币)**：新增 `tier1_stepfun.py` 用 headless Chrome 抓取 stagefun 定价页（platform.stepfun.com/docs/zh/guides/pricing/details）并补充 CNY 分支（step-3.7-flash ¥1.35/¥8.1、step-3.5-flash ¥0.7/¥2.1）。国内 CNY 与国际 USD 列表相互独立。
+- **feat(volcengine 双币)**：核对火山方舟模型价格页（docs.volcengine.com/docs/82379/1544106）——deepseek-v4-flash ¥3/¥9、v4-pro ¥9/¥27、glm-5.2 ¥8/¥28、doubao-seed-2.1-pro ¥3/¥15 等。该页有反爬（dump-dom 0 字节），`tier1_volcengine.py` 记录此情况暂无法自动刷新（CNY 来自人工核对的官方页）。
+- stepfun/volcengine 共 26 个模型新增 CNY 分支。
+
 ## 26.7.15 — 2026-08-28T09:40Z（功能更新）
 
 ## 26.7.15 — 2026-08-28T09:40Z（功能更新）
