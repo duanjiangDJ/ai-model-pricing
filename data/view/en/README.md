@@ -183,7 +183,7 @@
 | [Fireworks AI](providers/fireworks-ai.md) | Inference host | 23 | `providers/fireworks-ai.json` | 2026-08-28T08:54:00Z |
 | [Weights & Biases](providers/wandb.md) | Inference host | 31 | `providers/wandb.json` | 2026-08-28T08:54:00Z |
 | [Abacus](providers/abacus.md) | Inference host | 108 | `providers/abacus.json` | 2026-08-28T08:54:00Z |
-| [MiniMax (minimax.io)](providers/minimax.md) | First-party | 7 | `providers/minimax.json` | 2026-08-28T08:54:00Z |
+| [MiniMax (minimax.io)](providers/minimax.md) | First-party | 7 | `providers/minimax.json` | 2026-08-28T10:31:29.910988Z |
 | [Vultr](providers/vultr.md) | Inference host | 10 | `providers/vultr.json` | 2026-08-28T08:54:00Z |
 | [GitHub](providers/github.md) | Subscription | 33 | `providers/github.json` | 2026-08-28T08:54:00Z |
 | [Cursor (Anysphere)](providers/cursor.md) | Subscription | 0 | `providers/cursor.json` | 2026-08-27T17:11:11Z |

@@ -6,7 +6,7 @@
 - Homepage: https://platform.minimax.io/docs/guides/quickstart
 - Pricing page: https://platform.minimax.io/docs/guides/quickstart
 - Currency: USD
-- Data updated: 2026-08-28T08:54:00Z
+- Data updated: 2026-08-28T10:31:29.910988Z
 - Verified: 2026-08-28T05:09:27Z
 
 **7** models in total.
@@ -17,6 +17,6 @@
 | `MiniMax-M2.1` | — | reasoning | per-token | 204.8K | $0.3 | $1.2 | $0.03 | $0.375 | —/— | — | Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, ef… |
 | `MiniMax-M2.5` | — | reasoning | per-token | 204.8K | $0.3 | $1.2 | $0.03 | $0.375 | —/— | — | Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, ef… |
 | `MiniMax-M2.5-highspeed` | — | reasoning | per-token | 204.8K | $0.6 | $2.4 | $0.03 | $0.375 | —/— | — | Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, ef… |
-| `MiniMax-M2.7` | — | reasoning | per-token | 204.8K | $0.3 | $1.2 | $0.06 | $0.375 | —/— | — | Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, ef… |
-| `MiniMax-M2.7-highspeed` | — | reasoning | per-token | 204.8K | $0.6 | $2.4 | $0.06 | $0.375 | —/— | — | Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, ef… |
-| `MiniMax-M3` | — | reasoning | per-token | 1M | $0.3 | $1.2 | $0.06 | — | —/— | — | models.dev official list price |
+| `MiniMax-M2.7` | — | reasoning | per-token | 204.8K | $0.3 / ¥2.1 | $1.2 / ¥8.4 | $0.06 | $0.375 | —/— | — | Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, ef… |
+| `MiniMax-M2.7-highspeed` | — | reasoning | per-token | 204.8K | $0.6 / ¥4.2 | $2.4 / ¥16.8 | $0.06 | $0.375 | —/— | — | Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, ef… |
+| `MiniMax-M3` | — | reasoning | per-token | 1M | $0.3 / ¥4.2 | $1.2 / ¥16.8 | $0.06 | — | —/— | — | models.dev official list price \| MiniMax official CNY (¥/1M tokens, standard… |
