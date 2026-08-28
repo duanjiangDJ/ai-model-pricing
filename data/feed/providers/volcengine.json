@@ -7,7 +7,7 @@
   "homepage": "https://www.volcengine.com/product/ark",
   "pricing_page": "https://www.volcengine.com/docs/82379",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -21,9 +21,15 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0.4453,
-          "output": 1.3359,
-          "cache_read": 0.01484,
+          "input": {
+            "usd": 0.4453
+          },
+          "output": {
+            "usd": 1.3359
+          },
+          "cache_read": {
+            "usd": 0.01484
+          },
           "cache_write": null
         },
         "batch": null,
@@ -47,9 +53,15 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 1.3359,
-          "output": 4.00771,
-          "cache_read": 0.04453,
+          "input": {
+            "usd": 1.3359
+          },
+          "output": {
+            "usd": 4.00771
+          },
+          "cache_read": {
+            "usd": 0.04453
+          },
           "cache_write": null
         },
         "batch": null,
@@ -119,9 +131,15 @@
       "max_output": 64000,
       "pricing": {
         "per_mtok": {
-          "input": 0.11875,
-          "output": 1.18747,
-          "cache_read": 0.02375,
+          "input": {
+            "usd": 0.11875
+          },
+          "output": {
+            "usd": 1.18747
+          },
+          "cache_read": {
+            "usd": 0.02375
+          },
           "cache_write": null
         },
         "batch": null,
@@ -145,9 +163,15 @@
       "max_output": 32000,
       "pricing": {
         "per_mtok": {
-          "input": 0.02227,
-          "output": 0.22265,
-          "cache_read": 0.00445,
+          "input": {
+            "usd": 0.02227
+          },
+          "output": {
+            "usd": 0.22265
+          },
+          "cache_read": {
+            "usd": 0.00445
+          },
           "cache_write": null
         },
         "batch": null,
@@ -171,9 +195,15 @@
       "max_output": 32000,
       "pricing": {
         "per_mtok": {
-          "input": 0.11875,
-          "output": 1.18747,
-          "cache_read": 0.02375,
+          "input": {
+            "usd": 0.11875
+          },
+          "output": {
+            "usd": 1.18747
+          },
+          "cache_read": {
+            "usd": 0.02375
+          },
           "cache_write": null
         },
         "batch": null,
@@ -197,9 +227,15 @@
       "max_output": 64000,
       "pricing": {
         "per_mtok": {
-          "input": 0.11875,
-          "output": 1.18747,
-          "cache_read": 0.02375,
+          "input": {
+            "usd": 0.11875
+          },
+          "output": {
+            "usd": 1.18747
+          },
+          "cache_read": {
+            "usd": 0.02375
+          },
           "cache_write": null
         },
         "batch": null,
@@ -223,9 +259,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0.47499,
-          "output": 2.37494,
-          "cache_read": 0.095,
+          "input": {
+            "usd": 0.47499
+          },
+          "output": {
+            "usd": 2.37494
+          },
+          "cache_read": {
+            "usd": 0.095
+          },
           "cache_write": null
         },
         "batch": null,
@@ -249,9 +291,15 @@
       "max_output": 32000,
       "pricing": {
         "per_mtok": {
-          "input": 0.08906,
-          "output": 0.53436,
-          "cache_read": 0.01781,
+          "input": {
+            "usd": 0.08906
+          },
+          "output": {
+            "usd": 0.53436
+          },
+          "cache_read": {
+            "usd": 0.01781
+          },
           "cache_write": null
         },
         "batch": null,
@@ -275,9 +323,15 @@
       "max_output": 32000,
       "pricing": {
         "per_mtok": {
-          "input": 0.02969,
-          "output": 0.29687,
-          "cache_read": 0.00594,
+          "input": {
+            "usd": 0.02969
+          },
+          "output": {
+            "usd": 0.29687
+          },
+          "cache_read": {
+            "usd": 0.00594
+          },
           "cache_write": null
         },
         "batch": null,
@@ -301,9 +355,15 @@
       "max_output": 128000,
       "pricing": {
         "per_mtok": {
-          "input": 0.47499,
-          "output": 2.37494,
-          "cache_read": 0.095,
+          "input": {
+            "usd": 0.47499
+          },
+          "output": {
+            "usd": 2.37494
+          },
+          "cache_read": {
+            "usd": 0.095
+          },
           "cache_write": null
         },
         "batch": null,
@@ -327,9 +387,15 @@
       "max_output": 256000,
       "pricing": {
         "per_mtok": {
-          "input": 0.8906,
-          "output": 4.45301,
-          "cache_read": 0.17812,
+          "input": {
+            "usd": 0.8906
+          },
+          "output": {
+            "usd": 4.45301
+          },
+          "cache_read": {
+            "usd": 0.17812
+          },
           "cache_write": null
         },
         "batch": null,
@@ -353,9 +419,15 @@
       "max_output": 256000,
       "pricing": {
         "per_mtok": {
-          "input": 0.4453,
-          "output": 2.22651,
-          "cache_read": 0.08906,
+          "input": {
+            "usd": 0.4453
+          },
+          "output": {
+            "usd": 2.22651
+          },
+          "cache_read": {
+            "usd": 0.08906
+          },
           "cache_write": null
         },
         "batch": null,
@@ -379,9 +451,15 @@
       "max_output": 256000,
       "pricing": {
         "per_mtok": {
-          "input": 0.11875,
-          "output": 0.29687,
-          "cache_read": 0.02375,
+          "input": {
+            "usd": 0.11875
+          },
+          "output": {
+            "usd": 0.29687
+          },
+          "cache_read": {
+            "usd": 0.02375
+          },
           "cache_write": null
         },
         "batch": null,
@@ -405,9 +483,15 @@
       "max_output": 256000,
       "pricing": {
         "per_mtok": {
-          "input": 0.8906,
-          "output": 4.45301,
-          "cache_read": 0.17812,
+          "input": {
+            "usd": 0.8906
+          },
+          "output": {
+            "usd": 4.45301
+          },
+          "cache_read": {
+            "usd": 0.17812
+          },
           "cache_write": null
         },
         "batch": null,
@@ -431,9 +515,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 1.18747,
-          "output": 4.15615,
-          "cache_read": 0.29687,
+          "input": {
+            "usd": 1.18747
+          },
+          "output": {
+            "usd": 4.15615
+          },
+          "cache_read": {
+            "usd": 0.29687
+          },
           "cache_write": null
         },
         "batch": null,

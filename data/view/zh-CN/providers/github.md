@@ -6,7 +6,7 @@
 - 官网: https://github.com
 - 定价页: https://github.com/features/copilot/plans
 - 币种: USD
-- 数据更新时间: 2026-08-27T17:11:11Z
+- 数据更新时间: 2026-08-28T08:54:00Z
 - 核实时间: 2026-08-21T00:00:00Z
 
 共 **33** 个模型。

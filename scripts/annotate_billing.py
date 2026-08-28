@@ -29,14 +29,13 @@ SUB_HINTS = ("included in a subscription", "coding plan", "token plan", "subscri
 def classify(m):
     p = m.get("pricing") or {}
     pm = p.get("per_mtok") or {}
-    vals = [pm.get(k) for k in ("input", "output", "cache_read") if pm.get(k) is not None]
     note = (m.get("notes") or "").lower()
-    if any((v or 0) > 0 for v in vals):
+    if any_price_positive(pm):
         billing = ["pay_per_token"]
-        if any(v == 0 for v in vals):
+        if has_zero_price(pm):
             billing.append("free")
         return billing
-    if vals and all(v == 0 for v in vals):
+    if price_all_zero(pm):
         return ["free"]
     if p.get("per_image"):
         return ["pay_per_image"]

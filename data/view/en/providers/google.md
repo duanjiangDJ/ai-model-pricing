@@ -6,7 +6,7 @@
 - Homepage: https://ai.google.dev/gemini-api/docs/models
 - Pricing page: https://ai.google.dev/gemini-api/docs/pricing
 - Currency: USD
-- Data updated: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-28T08:54:00Z
 - Verified: 2026-08-28T05:09:26Z
 
 **40** models in total.

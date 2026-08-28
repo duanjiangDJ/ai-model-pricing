@@ -6,7 +6,7 @@
 - 官网: https://developer.qiniu.com/aitokenapi
 - 定价页: https://developer.qiniu.com/aitokenapi
 - 币种: USD
-- 数据更新时间: 2026-08-28T08:18:12.812923Z
+- 数据更新时间: 2026-08-28T08:54:00Z
 - 核实时间: 2026-08-21T11:27:12Z
 
 共 **91** 个模型。

@@ -7,7 +7,7 @@
   "homepage": "https://developer.qiniu.com/aitokenapi",
   "pricing_page": "https://developer.qiniu.com/aitokenapi",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:18:12.812923Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-21T11:27:12Z",
   "models": [
     {
@@ -1269,9 +1269,15 @@
       "max_output": 256000,
       "pricing": {
         "per_mtok": {
-          "input": 0.1,
-          "output": 0.3,
-          "cache_read": 0.01,
+          "input": {
+            "usd": 0.1
+          },
+          "output": {
+            "usd": 0.3
+          },
+          "cache_read": {
+            "usd": 0.01
+          },
           "cache_write": null
         },
         "batch": null,
@@ -2257,9 +2263,15 @@
       "max_output": 256000,
       "pricing": {
         "per_mtok": {
-          "input": 0.1,
-          "output": 0.3,
-          "cache_read": 0.01,
+          "input": {
+            "usd": 0.1
+          },
+          "output": {
+            "usd": 0.3
+          },
+          "cache_read": {
+            "usd": 0.01
+          },
           "cache_write": null
         },
         "batch": null,

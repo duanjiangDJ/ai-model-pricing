@@ -7,7 +7,7 @@
   "homepage": "https://lucidquery.com/docs",
   "pricing_page": "https://lucidquery.com/docs",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -21,8 +21,12 @@
       "max_output": 8000,
       "pricing": {
         "per_mtok": {
-          "input": 2,
-          "output": 5,
+          "input": {
+            "usd": 2
+          },
+          "output": {
+            "usd": 5
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -47,8 +51,12 @@
       "max_output": 120000,
       "pricing": {
         "per_mtok": {
-          "input": 4.5,
-          "output": 22,
+          "input": {
+            "usd": 4.5
+          },
+          "output": {
+            "usd": 22
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -73,8 +81,12 @@
       "max_output": 120000,
       "pricing": {
         "per_mtok": {
-          "input": 2.5,
-          "output": 15,
+          "input": {
+            "usd": 2.5
+          },
+          "output": {
+            "usd": 15
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -99,8 +111,12 @@
       "max_output": 60000,
       "pricing": {
         "per_mtok": {
-          "input": 2,
-          "output": 5,
+          "input": {
+            "usd": 2
+          },
+          "output": {
+            "usd": 5
+          },
           "cache_read": null,
           "cache_write": null
         },

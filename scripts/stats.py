@@ -9,6 +9,8 @@ import os
 import sys
 from collections import Counter, defaultdict
 
+from toolbox import has_zero_price, price_of  # noqa: E402
+
 sys.stdout.reconfigure(encoding="utf-8")
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -36,10 +38,9 @@ for p in providers:
             status_m[st] += 1
         else:
             no_status += 1
-        vals = [pm.get(k) for k in ("input", "output", "cache_read")]
-        if vals and any(v == 0 for v in vals if v is not None):
+        if has_zero_price(pm):
             free_models += 1
-        if any(v is None for v in (pm.get("input"), pm.get("output"))) and "subscription" in str(m.get("notes", "")).lower():
+        if (price_of(pm, "input") is None or price_of(pm, "output") is None) and "subscription" in str(m.get("notes", "")).lower():
             sub_included += 1
 
 endpoints = {p.get("api_base_url") for p in providers if p.get("api_base_url")}

@@ -6,7 +6,7 @@
 - Homepage: https://docs.together.ai/docs/serverless-models
 - Pricing page: https://docs.together.ai/docs/serverless-models
 - Currency: USD
-- Data updated: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-28T08:54:00Z
 - Verified: 2026-08-28T05:09:26Z
 
 **37** models in total.

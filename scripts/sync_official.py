@@ -287,15 +287,28 @@ def apply_to_provider(provider_id, parsed, source_url, now, dry_run, parsed_ok=T
         per = data.get("per_mtok") or {}
         pm = m.setdefault("pricing", {}).setdefault("per_mtok", {})
         diffs = []
+        # per_mtok values are dual-price objects {usd, cny} (schema 26.8); scalars accepted for back-compat.
         for k in ("input", "output", "cache_read", "cache_write"):
-            if per.get(k) is None or pm.get(k) == per[k]:
+            cur_new = per.get(k)
+            if cur_new is None:
                 continue
-            if pm.get(k) and per[k] and abs(per[k] - pm[k]) / max(abs(pm[k]), 1e-9) > SURGE_FACTOR:
-                print(f"  SKIP {mid}.{k}: {pm.get(k)} -> {per[k]} looks like a parsing error (>{SURGE_FACTOR}x surge); keeping old value")
-                continue
-            diffs.append(f"{k}: {pm.get(k)} -> {per[k]}")
-            if not dry_run:
-                pm[k] = per[k]
+            if not isinstance(cur_new, dict):
+                cur_new = {"usd": cur_new}
+            cur_old = pm.get(k)
+            cur_old = dict(cur_old) if isinstance(cur_old, dict) else ({"usd": cur_old} if cur_old is not None else {})
+            for currency, nv in cur_new.items():
+                if nv is None:
+                    continue
+                ov = cur_old.get(currency)
+                if ov == nv:
+                    continue
+                if ov and nv and abs(nv - ov) / max(abs(ov), 1e-9) > SURGE_FACTOR:
+                    print(f"  SKIP {mid}.{k}.{currency}: {ov} -> {nv} looks like a parsing error (>{SURGE_FACTOR}x surge); keeping old value")
+                    continue
+                diffs.append(f"{k}.{currency}: {ov} -> {nv}")
+                if not dry_run:
+                    cur_old[currency] = nv
+            pm[k] = cur_old if cur_old else None
         if data.get("batch"):
             old_b = m["pricing"].get("batch")
             if old_b != data["batch"]:

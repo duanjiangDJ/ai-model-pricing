@@ -17,6 +17,8 @@ import os
 import re
 import sys
 
+from toolbox import any_price_positive, price_all_zero  # noqa: E402
+
 sys.stdout.reconfigure(encoding="utf-8")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
@@ -95,8 +97,8 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
             bad_status += 1
             fail(f"invalid model status '{st}' in {p['provider_id']} :: {m['id']} (only online/offline allowed)")
         pm = (m.get("pricing") or {}).get("per_mtok") or {}
-        vals = [pm.get(k) for k in ("input", "output", "cache_read")]
-        if vals and any(v == 0 for v in vals if v is not None):
+        # zero-price policy (free): every present currency value is 0
+        if price_all_zero(pm):
             if is_sub:
                 zero_suspect += 1
                 fail(f"zero price in subscription-included provider {p['provider_id']} :: {m['id']}")
@@ -122,18 +124,23 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
         for b in bm:
             if b not in BILLING_ENUM:
                 fail(f"invalid billing_model value '{b}' in {p['provider_id']} :: {m['id']}")
-        has_val = any(v is not None and v != 0 for v in vals)
+        has_val = any_price_positive(pm)
         if has_val and "pay_per_token" not in bm:
             fail(f"per_mtok has prices but billing_model {bm} lacks pay_per_token: {p['provider_id']} :: {m['id']}")
         if "pay_per_token" in bm and not has_val and not pm.get("per_image"):
             no_price_models.append(f"{p['provider_id']} :: {m['id']}")
         if bm == ["unknown"] and (m.get("notes") or ""):
             unknown_models.append(f"{p['provider_id']} :: {m['id']}")
-        # currency consistency: USD-declared files must not carry CNY amounts
-        # (exempt: notes that explicitly say "no official USD" — honest CNY-only annotation)
+        # currency consistency: an item that carries a structured cny price (dual-currency
+        # model, schema 26.8) legitimately mentions CNY in notes — never warn on those.
+        # Warn only when a USD-declared model mentions CNY but has NO cny price field.
         if p.get("currency") == "USD":
+            has_cny_field = any(
+                isinstance((pm or {}).get(k), dict) and (pm.get(k) or {}).get("cny") is not None
+                for k in ("input", "output", "cache_read")
+            )
             note_cn = (m.get("notes") or "")
-            if ("¥" in note_cn or "Priced in CNY" in note_cn or "CNY/1M" in note_cn) \
+            if not has_cny_field and ("¥" in note_cn or "Priced in CNY" in note_cn or "CNY/1M" in note_cn) \
                     and "no official USD" not in note_cn:
                 warn(f"CNY amount mentioned in USD-declared provider {p['provider_id']} :: {m['id']} (check currency/notes)")
 # aggregate unknown warnings per provider (one line per provider, not per model)

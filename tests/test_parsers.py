@@ -85,7 +85,8 @@ class TestSurgeGuard(unittest.TestCase):
         p = self._mk()
         with mock.patch("toolbox.save_provider"), mock.patch("toolbox.append_changelog"):
             changes = update_model_prices(p, {"m1": {"per_mtok": {"input": 0.55}}}, "2026-08-28T00:00:00Z", "test")
-        self.assertEqual(p["models"][0]["pricing"]["per_mtok"]["input"], 0.55)
+        # per_mtok prices are dual-currency objects {usd, cny} since schema 26.8
+        self.assertEqual(p["models"][0]["pricing"]["per_mtok"]["input"], {"usd": 0.55})
         self.assertTrue(changes)
 
     def test_surge_skipped(self):
@@ -94,9 +95,18 @@ class TestSurgeGuard(unittest.TestCase):
         p = self._mk()
         with mock.patch("toolbox.save_provider"), mock.patch("toolbox.append_changelog"):
             changes = update_model_prices(p, {"m1": {"per_mtok": {"input": 5.0}}}, "2026-08-28T00:00:00Z", "test")
-        self.assertEqual(p["models"][0]["pricing"]["per_mtok"]["input"], 0.5,
+        self.assertEqual(p["models"][0]["pricing"]["per_mtok"]["input"], {"usd": 0.5},
                          ">5x surge must be skipped, not written")
         self.assertFalse(changes)
+
+    def test_second_currency_preserved(self):
+        from unittest import mock
+        from toolbox import update_model_prices
+        p = self._mk()
+        p["models"][0]["pricing"]["per_mtok"]["input"] = {"usd": 0.44, "cny": 3.0}
+        with mock.patch("toolbox.save_provider"), mock.patch("toolbox.append_changelog"):
+            update_model_prices(p, {"m1": {"per_mtok": {"input": {"usd": 0.5, "cny": 3.5}}}}, "2026-08-28T00:00:00Z", "test")
+        self.assertEqual(p["models"][0]["pricing"]["per_mtok"]["input"], {"usd": 0.5, "cny": 3.5})
 
 
 if __name__ == "__main__":

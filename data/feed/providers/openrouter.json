@@ -7,7 +7,7 @@
   "homepage": "https://openrouter.ai",
   "pricing_page": "https://openrouter.ai/models",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:09:20.424261Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -24,9 +24,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 8e-07,
-          "output": 1.6e-06,
-          "cache_read": 2e-07,
+          "input": {
+            "usd": 8e-07
+          },
+          "output": {
+            "usd": 1.6e-06
+          },
+          "cache_read": {
+            "usd": 2e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -48,9 +54,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-06,
-          "output": 6e-06,
-          "cache_read": 7.5e-07,
+          "input": {
+            "usd": 3e-06
+          },
+          "output": {
+            "usd": 6e-06
+          },
+          "cache_read": {
+            "usd": 7.5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -72,9 +84,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 7e-07,
-          "output": 1.4e-06,
-          "cache_read": 1.8e-07,
+          "input": {
+            "usd": 7e-07
+          },
+          "output": {
+            "usd": 1.4e-06
+          },
+          "cache_read": {
+            "usd": 1.8e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -96,8 +114,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 8e-07,
-          "output": 1.6e-06,
+          "input": {
+            "usd": 8e-07
+          },
+          "output": {
+            "usd": 1.6e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -120,8 +142,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.5e-07,
-          "output": 5e-07,
+          "input": {
+            "usd": 1.5e-07
+          },
+          "output": {
+            "usd": 5e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -146,8 +172,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-07,
-          "output": 2.5e-06,
+          "input": {
+            "usd": 3e-07
+          },
+          "output": {
+            "usd": 2.5e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -171,8 +201,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 6e-08,
-          "output": 2.4e-07,
+          "input": {
+            "usd": 6e-08
+          },
+          "output": {
+            "usd": 2.4e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -195,8 +229,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3.5e-08,
-          "output": 1.4e-07,
+          "input": {
+            "usd": 3.5e-08
+          },
+          "output": {
+            "usd": 1.4e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -220,9 +258,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-06,
-          "output": 1.25e-05,
-          "cache_read": 6.25e-07,
+          "input": {
+            "usd": 2.5e-06
+          },
+          "output": {
+            "usd": 1.25e-05
+          },
+          "cache_read": {
+            "usd": 6.25e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -245,8 +289,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 8e-07,
-          "output": 3.2e-06,
+          "input": {
+            "usd": 8e-07
+          },
+          "output": {
+            "usd": 3.2e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -269,8 +317,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-06,
-          "output": 5e-06,
+          "input": {
+            "usd": 3e-06
+          },
+          "output": {
+            "usd": 5e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -294,10 +346,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-07,
-          "output": 1.25e-06,
-          "cache_read": 3e-08,
-          "cache_write": 3e-07
+          "input": {
+            "usd": 2.5e-07
+          },
+          "output": {
+            "usd": 1.25e-06
+          },
+          "cache_read": {
+            "usd": 3e-08
+          },
+          "cache_write": {
+            "usd": 3e-07
+          }
         },
         "per_image": null,
         "promo": null
@@ -319,10 +379,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-05,
-          "output": 5e-05,
-          "cache_read": 1e-06,
-          "cache_write": 1.25e-05
+          "input": {
+            "usd": 1e-05
+          },
+          "output": {
+            "usd": 5e-05
+          },
+          "cache_read": {
+            "usd": 1e-06
+          },
+          "cache_write": {
+            "usd": 1.25e-05
+          }
         },
         "per_image": null,
         "promo": null
@@ -344,10 +412,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-06,
-          "output": 2.5e-05,
-          "cache_read": 5e-07,
-          "cache_write": 6.25e-06
+          "input": {
+            "usd": 5e-06
+          },
+          "output": {
+            "usd": 2.5e-05
+          },
+          "cache_read": {
+            "usd": 5e-07
+          },
+          "cache_write": {
+            "usd": 6.25e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -369,10 +445,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-06,
-          "output": 5e-06,
-          "cache_read": 1e-07,
-          "cache_write": 1.25e-06
+          "input": {
+            "usd": 1e-06
+          },
+          "output": {
+            "usd": 5e-06
+          },
+          "cache_read": {
+            "usd": 1e-07
+          },
+          "cache_write": {
+            "usd": 1.25e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -394,10 +478,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-07,
-          "output": 2.5e-06,
-          "cache_read": 5e-08,
-          "cache_write": 6.25e-07
+          "input": {
+            "usd": 5e-07
+          },
+          "output": {
+            "usd": 2.5e-06
+          },
+          "cache_read": {
+            "usd": 5e-08
+          },
+          "cache_write": {
+            "usd": 6.25e-07
+          }
         },
         "per_image": null,
         "promo": null
@@ -419,10 +511,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.5e-05,
-          "output": 7.5e-05,
-          "cache_read": 1.5e-06,
-          "cache_write": 1.875e-05
+          "input": {
+            "usd": 1.5e-05
+          },
+          "output": {
+            "usd": 7.5e-05
+          },
+          "cache_read": {
+            "usd": 1.5e-06
+          },
+          "cache_write": {
+            "usd": 1.875e-05
+          }
         },
         "per_image": null,
         "promo": null
@@ -444,10 +544,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.5e-05,
-          "output": 7.5e-05,
-          "cache_read": 1.5e-06,
-          "cache_write": 1.875e-05
+          "input": {
+            "usd": 1.5e-05
+          },
+          "output": {
+            "usd": 7.5e-05
+          },
+          "cache_read": {
+            "usd": 1.5e-06
+          },
+          "cache_write": {
+            "usd": 1.875e-05
+          }
         },
         "per_image": null,
         "promo": null
@@ -469,10 +577,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 7.5e-06,
-          "output": 3.75e-05,
-          "cache_read": 7.5e-07,
-          "cache_write": 9.375e-06
+          "input": {
+            "usd": 7.5e-06
+          },
+          "output": {
+            "usd": 3.75e-05
+          },
+          "cache_read": {
+            "usd": 7.5e-07
+          },
+          "cache_write": {
+            "usd": 9.375e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -494,10 +610,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-06,
-          "output": 2.5e-05,
-          "cache_read": 5e-07,
-          "cache_write": 6.25e-06
+          "input": {
+            "usd": 5e-06
+          },
+          "output": {
+            "usd": 2.5e-05
+          },
+          "cache_read": {
+            "usd": 5e-07
+          },
+          "cache_write": {
+            "usd": 6.25e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -519,10 +643,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-06,
-          "output": 1.25e-05,
-          "cache_read": 2.5e-07,
-          "cache_write": 3.125e-06
+          "input": {
+            "usd": 2.5e-06
+          },
+          "output": {
+            "usd": 1.25e-05
+          },
+          "cache_read": {
+            "usd": 2.5e-07
+          },
+          "cache_write": {
+            "usd": 3.125e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -544,10 +676,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-06,
-          "output": 2.5e-05,
-          "cache_read": 5e-07,
-          "cache_write": 6.25e-06
+          "input": {
+            "usd": 5e-06
+          },
+          "output": {
+            "usd": 2.5e-05
+          },
+          "cache_read": {
+            "usd": 5e-07
+          },
+          "cache_write": {
+            "usd": 6.25e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -569,10 +709,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-06,
-          "output": 1.25e-05,
-          "cache_read": 2.5e-07,
-          "cache_write": 3.125e-06
+          "input": {
+            "usd": 2.5e-06
+          },
+          "output": {
+            "usd": 1.25e-05
+          },
+          "cache_read": {
+            "usd": 2.5e-07
+          },
+          "cache_write": {
+            "usd": 3.125e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -594,10 +742,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-06,
-          "output": 2.5e-05,
-          "cache_read": 5e-07,
-          "cache_write": 6.25e-06
+          "input": {
+            "usd": 5e-06
+          },
+          "output": {
+            "usd": 2.5e-05
+          },
+          "cache_read": {
+            "usd": 5e-07
+          },
+          "cache_write": {
+            "usd": 6.25e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -619,10 +775,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-05,
-          "output": 0.00015,
-          "cache_read": 3e-06,
-          "cache_write": 3.75e-05
+          "input": {
+            "usd": 3e-05
+          },
+          "output": {
+            "usd": 0.00015
+          },
+          "cache_read": {
+            "usd": 3e-06
+          },
+          "cache_write": {
+            "usd": 3.75e-05
+          }
         },
         "per_image": null,
         "promo": null
@@ -644,10 +808,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-06,
-          "output": 1.25e-05,
-          "cache_read": 2.5e-07,
-          "cache_write": 3.125e-06
+          "input": {
+            "usd": 2.5e-06
+          },
+          "output": {
+            "usd": 1.25e-05
+          },
+          "cache_read": {
+            "usd": 2.5e-07
+          },
+          "cache_write": {
+            "usd": 3.125e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -669,10 +841,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-06,
-          "output": 2.5e-05,
-          "cache_read": 5e-07,
-          "cache_write": 6.25e-06
+          "input": {
+            "usd": 5e-06
+          },
+          "output": {
+            "usd": 2.5e-05
+          },
+          "cache_read": {
+            "usd": 5e-07
+          },
+          "cache_write": {
+            "usd": 6.25e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -694,10 +874,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-05,
-          "output": 5e-05,
-          "cache_read": 1e-06,
-          "cache_write": 1.25e-05
+          "input": {
+            "usd": 1e-05
+          },
+          "output": {
+            "usd": 5e-05
+          },
+          "cache_read": {
+            "usd": 1e-06
+          },
+          "cache_write": {
+            "usd": 1.25e-05
+          }
         },
         "per_image": null,
         "promo": null
@@ -719,10 +907,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-06,
-          "output": 1.25e-05,
-          "cache_read": 2.5e-07,
-          "cache_write": 3.125e-06
+          "input": {
+            "usd": 2.5e-06
+          },
+          "output": {
+            "usd": 1.25e-05
+          },
+          "cache_read": {
+            "usd": 2.5e-07
+          },
+          "cache_write": {
+            "usd": 3.125e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -744,10 +940,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-06,
-          "output": 2.5e-05,
-          "cache_read": 5e-07,
-          "cache_write": 6.25e-06
+          "input": {
+            "usd": 5e-06
+          },
+          "output": {
+            "usd": 2.5e-05
+          },
+          "cache_read": {
+            "usd": 5e-07
+          },
+          "cache_write": {
+            "usd": 6.25e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -769,10 +973,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-05,
-          "output": 5e-05,
-          "cache_read": 1e-06,
-          "cache_write": 1.25e-05
+          "input": {
+            "usd": 1e-05
+          },
+          "output": {
+            "usd": 5e-05
+          },
+          "cache_read": {
+            "usd": 1e-06
+          },
+          "cache_write": {
+            "usd": 1.25e-05
+          }
         },
         "per_image": null,
         "promo": null
@@ -794,10 +1006,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-06,
-          "output": 1.25e-05,
-          "cache_read": 2.5e-07,
-          "cache_write": 3.125e-06
+          "input": {
+            "usd": 2.5e-06
+          },
+          "output": {
+            "usd": 1.25e-05
+          },
+          "cache_read": {
+            "usd": 2.5e-07
+          },
+          "cache_write": {
+            "usd": 3.125e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -819,10 +1039,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-06,
-          "output": 1.5e-05,
-          "cache_read": 3e-07,
-          "cache_write": 3.75e-06
+          "input": {
+            "usd": 3e-06
+          },
+          "output": {
+            "usd": 1.5e-05
+          },
+          "cache_read": {
+            "usd": 3e-07
+          },
+          "cache_write": {
+            "usd": 3.75e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -844,10 +1072,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-06,
-          "output": 1.5e-05,
-          "cache_read": 3e-07,
-          "cache_write": 3.75e-06
+          "input": {
+            "usd": 3e-06
+          },
+          "output": {
+            "usd": 1.5e-05
+          },
+          "cache_read": {
+            "usd": 3e-07
+          },
+          "cache_write": {
+            "usd": 3.75e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -869,10 +1105,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.5e-06,
-          "output": 7.5e-06,
-          "cache_read": 1.5e-07,
-          "cache_write": 1.875e-06
+          "input": {
+            "usd": 1.5e-06
+          },
+          "output": {
+            "usd": 7.5e-06
+          },
+          "cache_read": {
+            "usd": 1.5e-07
+          },
+          "cache_write": {
+            "usd": 1.875e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -894,10 +1138,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-06,
-          "output": 1.5e-05,
-          "cache_read": 3e-07,
-          "cache_write": 3.75e-06
+          "input": {
+            "usd": 3e-06
+          },
+          "output": {
+            "usd": 1.5e-05
+          },
+          "cache_read": {
+            "usd": 3e-07
+          },
+          "cache_write": {
+            "usd": 3.75e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -919,10 +1171,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.5e-06,
-          "output": 7.5e-06,
-          "cache_read": 1.5e-07,
-          "cache_write": 1.875e-06
+          "input": {
+            "usd": 1.5e-06
+          },
+          "output": {
+            "usd": 7.5e-06
+          },
+          "cache_read": {
+            "usd": 1.5e-07
+          },
+          "cache_write": {
+            "usd": 1.875e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -944,10 +1204,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-06,
-          "output": 1e-05,
-          "cache_read": 2e-07,
-          "cache_write": 2.5e-06
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 1e-05
+          },
+          "cache_read": {
+            "usd": 2e-07
+          },
+          "cache_write": {
+            "usd": 2.5e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -969,10 +1237,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-06,
-          "output": 5e-06,
-          "cache_read": 1e-07,
-          "cache_write": 1.25e-06
+          "input": {
+            "usd": 1e-06
+          },
+          "output": {
+            "usd": 5e-06
+          },
+          "cache_read": {
+            "usd": 1e-07
+          },
+          "cache_write": {
+            "usd": 1.25e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -993,9 +1269,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.2e-07,
-          "output": 8.5e-07,
-          "cache_read": 6e-08,
+          "input": {
+            "usd": 2.2e-07
+          },
+          "output": {
+            "usd": 8.5e-07
+          },
+          "cache_read": {
+            "usd": 6e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -1017,8 +1299,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 7.5e-07,
-          "output": 1.2e-06,
+          "input": {
+            "usd": 7.5e-07
+          },
+          "output": {
+            "usd": 1.2e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -1042,8 +1328,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 4.2e-07,
-          "output": 1.25e-06,
+          "input": {
+            "usd": 4.2e-07
+          },
+          "output": {
+            "usd": 1.25e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -1068,8 +1358,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-07,
-          "output": 2e-06,
+          "input": {
+            "usd": 2.5e-07
+          },
+          "output": {
+            "usd": 2e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -1094,8 +1388,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 7.5e-08,
-          "output": 3e-07,
+          "input": {
+            "usd": 7.5e-08
+          },
+          "output": {
+            "usd": 3e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -1120,8 +1418,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-07,
-          "output": 2.5e-06,
+          "input": {
+            "usd": 5e-07
+          },
+          "output": {
+            "usd": 2.5e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -1146,8 +1448,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-07,
-          "output": 3e-06,
+          "input": {
+            "usd": 5e-07
+          },
+          "output": {
+            "usd": 3e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -1172,8 +1478,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-07,
-          "output": 2e-06,
+          "input": {
+            "usd": 2.5e-07
+          },
+          "output": {
+            "usd": 2e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -1198,8 +1508,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-07,
-          "output": 4e-07,
+          "input": {
+            "usd": 1e-07
+          },
+          "output": {
+            "usd": 4e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -1223,9 +1537,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-07,
-          "output": 2e-07,
-          "cache_read": 1e-07,
+          "input": {
+            "usd": 1e-07
+          },
+          "output": {
+            "usd": 2e-07
+          },
+          "cache_read": {
+            "usd": 1e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -1247,8 +1567,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-07,
-          "output": 9e-07,
+          "input": {
+            "usd": 2e-07
+          },
+          "output": {
+            "usd": 9e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -1271,8 +1595,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-06,
-          "output": 1e-05,
+          "input": {
+            "usd": 2.5e-06
+          },
+          "output": {
+            "usd": 1e-05
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -1295,8 +1623,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.5e-07,
-          "output": 6e-07,
+          "input": {
+            "usd": 1.5e-07
+          },
+          "output": {
+            "usd": 6e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -1319,8 +1651,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-06,
-          "output": 1e-05,
+          "input": {
+            "usd": 2.5e-06
+          },
+          "output": {
+            "usd": 1e-05
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -1343,8 +1679,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3.75e-08,
-          "output": 1.5e-07,
+          "input": {
+            "usd": 3.75e-08
+          },
+          "output": {
+            "usd": 1.5e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -1367,8 +1707,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
+          "input": {
+            "usd": 0.0
+          },
+          "output": {
+            "usd": 0.0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -1391,8 +1735,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.574e-07,
-          "output": 1.0287e-06,
+          "input": {
+            "usd": 2.574e-07
+          },
+          "output": {
+            "usd": 1.0287e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -1415,8 +1763,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-07,
-          "output": 1e-06,
+          "input": {
+            "usd": 2.5e-07
+          },
+          "output": {
+            "usd": 1e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -1439,9 +1791,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5.5e-07,
-          "output": 1.65e-06,
-          "cache_read": 5.5e-07,
+          "input": {
+            "usd": 5.5e-07
+          },
+          "output": {
+            "usd": 1.65e-06
+          },
+          "cache_read": {
+            "usd": 5.5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -1463,8 +1821,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 7e-07,
-          "output": 2.5e-06,
+          "input": {
+            "usd": 7e-07
+          },
+          "output": {
+            "usd": 2.5e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -1487,9 +1849,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-07,
-          "output": 2.15e-06,
-          "cache_read": 3.5e-07,
+          "input": {
+            "usd": 5e-07
+          },
+          "output": {
+            "usd": 2.15e-06
+          },
+          "cache_read": {
+            "usd": 3.5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -1511,8 +1879,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 8e-07,
-          "output": 8e-07,
+          "input": {
+            "usd": 8e-07
+          },
+          "output": {
+            "usd": 8e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -1535,9 +1907,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.7e-07,
-          "output": 1e-06,
-          "cache_read": 1.35e-07,
+          "input": {
+            "usd": 2.7e-07
+          },
+          "output": {
+            "usd": 1e-06
+          },
+          "cache_read": {
+            "usd": 1.35e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -1559,9 +1937,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.6e-07,
-          "output": 3.8e-07,
-          "cache_read": 1.3e-07,
+          "input": {
+            "usd": 2.6e-07
+          },
+          "output": {
+            "usd": 3.8e-07
+          },
+          "cache_read": {
+            "usd": 1.3e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -1583,8 +1967,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.7e-07,
-          "output": 4.1e-07,
+          "input": {
+            "usd": 2.7e-07
+          },
+          "output": {
+            "usd": 4.1e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -1607,9 +1995,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 8.8606e-08,
-          "output": 1.77212e-07,
-          "cache_read": 1.77212e-08,
+          "input": {
+            "usd": 8.8606e-08
+          },
+          "output": {
+            "usd": 1.77212e-07
+          },
+          "cache_read": {
+            "usd": 1.77212e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -1631,9 +2025,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 6e-08,
-          "output": 1.2e-07,
-          "cache_read": 1.2e-08,
+          "input": {
+            "usd": 6e-08
+          },
+          "output": {
+            "usd": 1.2e-07
+          },
+          "cache_read": {
+            "usd": 1.2e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -1656,9 +2056,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.2e-07,
-          "output": 6.6e-07,
-          "cache_read": 7e-09,
+          "input": {
+            "usd": 2.2e-07
+          },
+          "output": {
+            "usd": 6.6e-07
+          },
+          "cache_read": {
+            "usd": 7e-09
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -1680,9 +2086,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 8.7e-07,
-          "output": 1.74e-06,
-          "cache_read": 7.25e-08,
+          "input": {
+            "usd": 8.7e-07
+          },
+          "output": {
+            "usd": 1.74e-06
+          },
+          "cache_read": {
+            "usd": 7.25e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -1704,9 +2116,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 6.6e-07,
-          "output": 1.98e-06,
-          "cache_read": 2.2e-08,
+          "input": {
+            "usd": 6.6e-07
+          },
+          "output": {
+            "usd": 1.98e-06
+          },
+          "cache_read": {
+            "usd": 2.2e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -1729,8 +2147,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
+          "input": {
+            "usd": 0.0
+          },
+          "output": {
+            "usd": 0.0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -1757,15 +2179,25 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-07,
-          "output": 2.5e-06,
-          "cache_read": 3e-08,
-          "cache_write": 8.33333333333333e-08
+          "input": {
+            "usd": 3e-07
+          },
+          "output": {
+            "usd": 2.5e-06
+          },
+          "cache_read": {
+            "usd": 3e-08
+          },
+          "cache_write": {
+            "usd": 8.33333333333333e-08
+          }
         },
         "per_image": [
           {
             "name": "default",
-            "price": 3e-07
+            "price": {
+              "usd": 3e-07
+            }
           }
         ],
         "promo": null
@@ -1788,15 +2220,25 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-07,
-          "output": 2.5e-06,
-          "cache_read": 3e-08,
-          "cache_write": 8.33333333333333e-08
+          "input": {
+            "usd": 3e-07
+          },
+          "output": {
+            "usd": 2.5e-06
+          },
+          "cache_read": {
+            "usd": 3e-08
+          },
+          "cache_write": {
+            "usd": 8.33333333333333e-08
+          }
         },
         "per_image": [
           {
             "name": "default",
-            "price": 3e-07
+            "price": {
+              "usd": 3e-07
+            }
           }
         ],
         "promo": null
@@ -1821,15 +2263,25 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-07,
-          "output": 4e-07,
-          "cache_read": 1e-08,
-          "cache_write": 8.33333333333333e-08
+          "input": {
+            "usd": 1e-07
+          },
+          "output": {
+            "usd": 4e-07
+          },
+          "cache_read": {
+            "usd": 1e-08
+          },
+          "cache_write": {
+            "usd": 8.33333333333333e-08
+          }
         },
         "per_image": [
           {
             "name": "default",
-            "price": 1e-07
+            "price": {
+              "usd": 1e-07
+            }
           }
         ],
         "promo": null
@@ -1854,15 +2306,23 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-08,
-          "output": 2e-07,
-          "cache_read": 1e-08,
+          "input": {
+            "usd": 5e-08
+          },
+          "output": {
+            "usd": 2e-07
+          },
+          "cache_read": {
+            "usd": 1e-08
+          },
           "cache_write": null
         },
         "per_image": [
           {
             "name": "default",
-            "price": 5e-08
+            "price": {
+              "usd": 5e-08
+            }
           }
         ],
         "promo": null
@@ -1887,15 +2347,23 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.5e-07,
-          "output": 1.25e-06,
-          "cache_read": 3e-08,
+          "input": {
+            "usd": 1.5e-07
+          },
+          "output": {
+            "usd": 1.25e-06
+          },
+          "cache_read": {
+            "usd": 3e-08
+          },
           "cache_write": null
         },
         "per_image": [
           {
             "name": "default",
-            "price": 1.5e-07
+            "price": {
+              "usd": 1.5e-07
+            }
           }
         ],
         "promo": null
@@ -1920,15 +2388,25 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.25e-06,
-          "output": 1e-05,
-          "cache_read": 1.25e-07,
-          "cache_write": 3.75e-07
+          "input": {
+            "usd": 1.25e-06
+          },
+          "output": {
+            "usd": 1e-05
+          },
+          "cache_read": {
+            "usd": 1.25e-07
+          },
+          "cache_write": {
+            "usd": 3.75e-07
+          }
         },
         "per_image": [
           {
             "name": "default",
-            "price": 1.25e-06
+            "price": {
+              "usd": 1.25e-06
+            }
           }
         ],
         "promo": null
@@ -1952,15 +2430,25 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.25e-06,
-          "output": 1e-05,
-          "cache_read": 1.25e-07,
-          "cache_write": 3.75e-07
+          "input": {
+            "usd": 1.25e-06
+          },
+          "output": {
+            "usd": 1e-05
+          },
+          "cache_read": {
+            "usd": 1.25e-07
+          },
+          "cache_write": {
+            "usd": 3.75e-07
+          }
         },
         "per_image": [
           {
             "name": "default",
-            "price": 1.25e-06
+            "price": {
+              "usd": 1.25e-06
+            }
           }
         ],
         "promo": null
@@ -1985,15 +2473,25 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.25e-06,
-          "output": 1e-05,
-          "cache_read": 1.25e-07,
-          "cache_write": 3.75e-07
+          "input": {
+            "usd": 1.25e-06
+          },
+          "output": {
+            "usd": 1e-05
+          },
+          "cache_read": {
+            "usd": 1.25e-07
+          },
+          "cache_write": {
+            "usd": 3.75e-07
+          }
         },
         "per_image": [
           {
             "name": "default",
-            "price": 1.25e-06
+            "price": {
+              "usd": 1.25e-06
+            }
           }
         ],
         "promo": null
@@ -2018,15 +2516,23 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 6.25e-07,
-          "output": 5e-06,
-          "cache_read": 1.25e-07,
+          "input": {
+            "usd": 6.25e-07
+          },
+          "output": {
+            "usd": 5e-06
+          },
+          "cache_read": {
+            "usd": 1.25e-07
+          },
           "cache_write": null
         },
         "per_image": [
           {
             "name": "default",
-            "price": 6.25e-07
+            "price": {
+              "usd": 6.25e-07
+            }
           }
         ],
         "promo": null
@@ -2051,15 +2557,25 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-07,
-          "output": 3e-06,
-          "cache_read": 5e-08,
-          "cache_write": 8.33333333333333e-08
+          "input": {
+            "usd": 5e-07
+          },
+          "output": {
+            "usd": 3e-06
+          },
+          "cache_read": {
+            "usd": 5e-08
+          },
+          "cache_write": {
+            "usd": 8.33333333333333e-08
+          }
         },
         "per_image": [
           {
             "name": "default",
-            "price": 5e-07
+            "price": {
+              "usd": 5e-07
+            }
           }
         ],
         "promo": null
@@ -2084,15 +2600,21 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-07,
-          "output": 1.5e-06,
+          "input": {
+            "usd": 2.5e-07
+          },
+          "output": {
+            "usd": 1.5e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
         "per_image": [
           {
             "name": "default",
-            "price": 2.5e-07
+            "price": {
+              "usd": 2.5e-07
+            }
           }
         ],
         "promo": null
@@ -2115,15 +2637,25 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-06,
-          "output": 1.2e-05,
-          "cache_read": 2e-07,
-          "cache_write": 3.75e-07
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 1.2e-05
+          },
+          "cache_read": {
+            "usd": 2e-07
+          },
+          "cache_write": {
+            "usd": 3.75e-07
+          }
         },
         "per_image": [
           {
             "name": "default",
-            "price": 2e-06
+            "price": {
+              "usd": 2e-06
+            }
           }
         ],
         "promo": null
@@ -2146,15 +2678,25 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-06,
-          "output": 1.2e-05,
-          "cache_read": 2e-07,
-          "cache_write": 3.75e-07
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 1.2e-05
+          },
+          "cache_read": {
+            "usd": 2e-07
+          },
+          "cache_write": {
+            "usd": 3.75e-07
+          }
         },
         "per_image": [
           {
             "name": "default",
-            "price": 2e-06
+            "price": {
+              "usd": 2e-06
+            }
           }
         ],
         "promo": null
@@ -2176,8 +2718,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-07,
-          "output": 3e-06,
+          "input": {
+            "usd": 5e-07
+          },
+          "output": {
+            "usd": 3e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -2201,8 +2747,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-07,
-          "output": 3e-06,
+          "input": {
+            "usd": 5e-07
+          },
+          "output": {
+            "usd": 3e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -2229,15 +2779,25 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-07,
-          "output": 1.5e-06,
-          "cache_read": 2.5e-08,
-          "cache_write": 8.33333333333333e-08
+          "input": {
+            "usd": 2.5e-07
+          },
+          "output": {
+            "usd": 1.5e-06
+          },
+          "cache_read": {
+            "usd": 2.5e-08
+          },
+          "cache_write": {
+            "usd": 8.33333333333333e-08
+          }
         },
         "per_image": [
           {
             "name": "default",
-            "price": 2.5e-07
+            "price": {
+              "usd": 2.5e-07
+            }
           }
         ],
         "promo": null
@@ -2259,8 +2819,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-07,
-          "output": 1.5e-06,
+          "input": {
+            "usd": 2.5e-07
+          },
+          "output": {
+            "usd": 1.5e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -2287,15 +2851,25 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-07,
-          "output": 1.5e-06,
-          "cache_read": 2.5e-08,
-          "cache_write": 8.33333333333333e-08
+          "input": {
+            "usd": 2.5e-07
+          },
+          "output": {
+            "usd": 1.5e-06
+          },
+          "cache_read": {
+            "usd": 2.5e-08
+          },
+          "cache_write": {
+            "usd": 8.33333333333333e-08
+          }
         },
         "per_image": [
           {
             "name": "default",
-            "price": 2.5e-07
+            "price": {
+              "usd": 2.5e-07
+            }
           }
         ],
         "promo": null
@@ -2320,15 +2894,23 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.25e-07,
-          "output": 7.5e-07,
-          "cache_read": 1.25e-08,
+          "input": {
+            "usd": 1.25e-07
+          },
+          "output": {
+            "usd": 7.5e-07
+          },
+          "cache_read": {
+            "usd": 1.25e-08
+          },
           "cache_write": null
         },
         "per_image": [
           {
             "name": "default",
-            "price": 1.25e-07
+            "price": {
+              "usd": 1.25e-07
+            }
           }
         ],
         "promo": null
@@ -2353,15 +2935,25 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-06,
-          "output": 1.2e-05,
-          "cache_read": 2e-07,
-          "cache_write": 3.75e-07
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 1.2e-05
+          },
+          "cache_read": {
+            "usd": 2e-07
+          },
+          "cache_write": {
+            "usd": 3.75e-07
+          }
         },
         "per_image": [
           {
             "name": "default",
-            "price": 2e-06
+            "price": {
+              "usd": 2e-06
+            }
           }
         ],
         "promo": null
@@ -2386,15 +2978,25 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-06,
-          "output": 1.2e-05,
-          "cache_read": 2e-07,
-          "cache_write": 3.75e-07
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 1.2e-05
+          },
+          "cache_read": {
+            "usd": 2e-07
+          },
+          "cache_write": {
+            "usd": 3.75e-07
+          }
         },
         "per_image": [
           {
             "name": "default",
-            "price": 2e-06
+            "price": {
+              "usd": 2e-06
+            }
           }
         ],
         "promo": null
@@ -2419,15 +3021,21 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-06,
-          "output": 6e-06,
+          "input": {
+            "usd": 1e-06
+          },
+          "output": {
+            "usd": 6e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
         "per_image": [
           {
             "name": "default",
-            "price": 1e-06
+            "price": {
+              "usd": 1e-06
+            }
           }
         ],
         "promo": null
@@ -2452,15 +3060,25 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.5e-06,
-          "output": 9e-06,
-          "cache_read": 1.5e-07,
-          "cache_write": 8.33333333333333e-08
+          "input": {
+            "usd": 1.5e-06
+          },
+          "output": {
+            "usd": 9e-06
+          },
+          "cache_read": {
+            "usd": 1.5e-07
+          },
+          "cache_write": {
+            "usd": 8.33333333333333e-08
+          }
         },
         "per_image": [
           {
             "name": "default",
-            "price": 1.5e-06
+            "price": {
+              "usd": 1.5e-06
+            }
           }
         ],
         "promo": null
@@ -2485,15 +3103,25 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-07,
-          "output": 2.5e-06,
-          "cache_read": 3e-08,
-          "cache_write": 8.33333333333333e-08
+          "input": {
+            "usd": 3e-07
+          },
+          "output": {
+            "usd": 2.5e-06
+          },
+          "cache_read": {
+            "usd": 3e-08
+          },
+          "cache_write": {
+            "usd": 8.33333333333333e-08
+          }
         },
         "per_image": [
           {
             "name": "default",
-            "price": 3e-07
+            "price": {
+              "usd": 3e-07
+            }
           }
         ],
         "promo": null
@@ -2518,15 +3146,23 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.5e-07,
-          "output": 1.25e-06,
-          "cache_read": 1.5e-08,
+          "input": {
+            "usd": 1.5e-07
+          },
+          "output": {
+            "usd": 1.25e-06
+          },
+          "cache_read": {
+            "usd": 1.5e-08
+          },
           "cache_write": null
         },
         "per_image": [
           {
             "name": "default",
-            "price": 1.5e-07
+            "price": {
+              "usd": 1.5e-07
+            }
           }
         ],
         "promo": null
@@ -2551,15 +3187,23 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 7.5e-07,
-          "output": 4.5e-06,
-          "cache_read": 7.5e-08,
+          "input": {
+            "usd": 7.5e-07
+          },
+          "output": {
+            "usd": 4.5e-06
+          },
+          "cache_read": {
+            "usd": 7.5e-08
+          },
           "cache_write": null
         },
         "per_image": [
           {
             "name": "default",
-            "price": 7.5e-07
+            "price": {
+              "usd": 7.5e-07
+            }
           }
         ],
         "promo": null
@@ -2584,15 +3228,25 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 7.5e-07,
-          "output": 3.75e-06,
-          "cache_read": 7.5e-08,
-          "cache_write": 4.16666666666667e-08
+          "input": {
+            "usd": 7.5e-07
+          },
+          "output": {
+            "usd": 3.75e-06
+          },
+          "cache_read": {
+            "usd": 7.5e-08
+          },
+          "cache_write": {
+            "usd": 4.16666666666667e-08
+          }
         },
         "per_image": [
           {
             "name": "default",
-            "price": 7.5e-07
+            "price": {
+              "usd": 7.5e-07
+            }
           }
         ],
         "promo": null
@@ -2617,15 +3271,25 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3.75e-07,
-          "output": 1.875e-06,
-          "cache_read": 3.75e-08,
-          "cache_write": 4.16666666666667e-08
+          "input": {
+            "usd": 3.75e-07
+          },
+          "output": {
+            "usd": 1.875e-06
+          },
+          "cache_read": {
+            "usd": 3.75e-08
+          },
+          "cache_write": {
+            "usd": 4.16666666666667e-08
+          }
         },
         "per_image": [
           {
             "name": "default",
-            "price": 3.75e-07
+            "price": {
+              "usd": 3.75e-07
+            }
           }
         ],
         "promo": null
@@ -2650,15 +3314,25 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3.75e-07,
-          "output": 1.875e-06,
-          "cache_read": 3.75e-08,
-          "cache_write": 2.08333333333333e-08
+          "input": {
+            "usd": 3.75e-07
+          },
+          "output": {
+            "usd": 1.875e-06
+          },
+          "cache_read": {
+            "usd": 3.75e-08
+          },
+          "cache_write": {
+            "usd": 2.08333333333333e-08
+          }
         },
         "per_image": [
           {
             "name": "default",
-            "price": 3.75e-07
+            "price": {
+              "usd": 3.75e-07
+            }
           }
         ],
         "promo": null
@@ -2683,15 +3357,25 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.875e-07,
-          "output": 9.375e-07,
-          "cache_read": 1.875e-08,
-          "cache_write": 2.08333333333333e-08
+          "input": {
+            "usd": 1.875e-07
+          },
+          "output": {
+            "usd": 9.375e-07
+          },
+          "cache_read": {
+            "usd": 1.875e-08
+          },
+          "cache_write": {
+            "usd": 2.08333333333333e-08
+          }
         },
         "per_image": [
           {
             "name": "default",
-            "price": 1.875e-07
+            "price": {
+              "usd": 1.875e-07
+            }
           }
         ],
         "promo": null
@@ -2712,8 +3396,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 6.5e-07,
-          "output": 6.5e-07,
+          "input": {
+            "usd": 6.5e-07
+          },
+          "output": {
+            "usd": 6.5e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -2737,8 +3425,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-08,
-          "output": 1.5e-07,
+          "input": {
+            "usd": 5e-08
+          },
+          "output": {
+            "usd": 1.5e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -2762,9 +3454,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 8e-08,
-          "output": 4.5e-07,
-          "cache_read": 4e-08,
+          "input": {
+            "usd": 8e-08
+          },
+          "output": {
+            "usd": 4.5e-07
+          },
+          "cache_read": {
+            "usd": 4e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -2787,8 +3485,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-08,
-          "output": 1e-07,
+          "input": {
+            "usd": 5e-08
+          },
+          "output": {
+            "usd": 1e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -2813,8 +3515,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 7e-08,
-          "output": 3.4e-07,
+          "input": {
+            "usd": 7e-08
+          },
+          "output": {
+            "usd": 3.4e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -2839,8 +3545,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
+          "input": {
+            "usd": 0.0
+          },
+          "output": {
+            "usd": 0.0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -2865,9 +3575,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 9e-08,
-          "output": 3.4e-07,
-          "cache_read": 5e-08,
+          "input": {
+            "usd": 9e-08
+          },
+          "output": {
+            "usd": 3.4e-07
+          },
+          "cache_read": {
+            "usd": 5e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -2891,8 +3607,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
+          "input": {
+            "usd": 0.0
+          },
+          "output": {
+            "usd": 0.0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -2916,8 +3636,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
+          "input": {
+            "usd": 0.0
+          },
+          "output": {
+            "usd": 0.0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -2941,8 +3665,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
+          "input": {
+            "usd": 0.0
+          },
+          "output": {
+            "usd": 0.0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -2965,8 +3693,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 6e-08,
-          "output": 6e-08,
+          "input": {
+            "usd": 6e-08
+          },
+          "output": {
+            "usd": 6e-08
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -2989,8 +3721,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.7e-08,
-          "output": 1.12e-07,
+          "input": {
+            "usd": 1.7e-08
+          },
+          "output": {
+            "usd": 1.12e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -3013,9 +3749,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-08,
-          "output": 1e-07,
-          "cache_read": 5e-08,
+          "input": {
+            "usd": 5e-08
+          },
+          "output": {
+            "usd": 1e-07
+          },
+          "cache_read": {
+            "usd": 5e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3037,9 +3779,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-07,
-          "output": 7.5e-07,
-          "cache_read": 2.5e-08,
+          "input": {
+            "usd": 2.5e-07
+          },
+          "output": {
+            "usd": 7.5e-07
+          },
+          "cache_read": {
+            "usd": 2.5e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3061,9 +3809,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.1e-08,
-          "output": 6.3e-08,
-          "cache_read": 4.2e-09,
+          "input": {
+            "usd": 2.1e-08
+          },
+          "output": {
+            "usd": 6.3e-08
+          },
+          "cache_read": {
+            "usd": 4.2e-09
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3085,8 +3839,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
+          "input": {
+            "usd": 0.0
+          },
+          "output": {
+            "usd": 0.0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -3109,9 +3867,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.5e-07,
-          "output": 6e-07,
-          "cache_read": 3e-08,
+          "input": {
+            "usd": 1.5e-07
+          },
+          "output": {
+            "usd": 6e-07
+          },
+          "cache_read": {
+            "usd": 3e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3133,9 +3897,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-07,
-          "output": 1.2e-06,
-          "cache_read": 6e-08,
+          "input": {
+            "usd": 3e-07
+          },
+          "output": {
+            "usd": 1.2e-06
+          },
+          "cache_read": {
+            "usd": 6e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3157,9 +3927,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 7.4e-07,
-          "output": 2.96e-06,
-          "cache_read": 1.5e-07,
+          "input": {
+            "usd": 7.4e-07
+          },
+          "output": {
+            "usd": 2.96e-06
+          },
+          "cache_read": {
+            "usd": 1.5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3181,8 +3957,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
+          "input": {
+            "usd": 0.0
+          },
+          "output": {
+            "usd": 0.0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -3205,8 +3985,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-07,
-          "output": 7.5e-07,
+          "input": {
+            "usd": 5e-07
+          },
+          "output": {
+            "usd": 7.5e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -3229,9 +4013,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-07,
-          "output": 1.2e-06,
-          "cache_read": 6e-09,
+          "input": {
+            "usd": 3e-07
+          },
+          "output": {
+            "usd": 1.2e-06
+          },
+          "cache_read": {
+            "usd": 6e-09
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3253,8 +4043,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 4e-07,
-          "output": 4e-07,
+          "input": {
+            "usd": 4e-07
+          },
+          "output": {
+            "usd": 4e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -3277,9 +4071,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-08,
-          "output": 8e-08,
-          "cache_read": 2.5e-08,
+          "input": {
+            "usd": 5e-08
+          },
+          "output": {
+            "usd": 8e-08
+          },
+          "cache_read": {
+            "usd": 2.5e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3301,8 +4101,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.7e-08,
-          "output": 2.01e-07,
+          "input": {
+            "usd": 2.7e-08
+          },
+          "output": {
+            "usd": 2.01e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -3325,8 +4129,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-08,
-          "output": 3.3e-07,
+          "input": {
+            "usd": 5e-08
+          },
+          "output": {
+            "usd": 3.3e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -3349,9 +4157,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 7.1e-07,
-          "output": 7.1e-07,
-          "cache_read": 7.1e-07,
+          "input": {
+            "usd": 7.1e-07
+          },
+          "output": {
+            "usd": 7.1e-07
+          },
+          "cache_read": {
+            "usd": 7.1e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3374,8 +4188,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-07,
-          "output": 8e-07,
+          "input": {
+            "usd": 2e-07
+          },
+          "output": {
+            "usd": 8e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -3399,9 +4217,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.1e-07,
-          "output": 3.4e-07,
-          "cache_read": 5.5e-08,
+          "input": {
+            "usd": 1.1e-07
+          },
+          "output": {
+            "usd": 3.4e-07
+          },
+          "cache_read": {
+            "usd": 5.5e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3424,8 +4248,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.8e-07,
-          "output": 1.8e-07,
+          "input": {
+            "usd": 1.8e-07
+          },
+          "output": {
+            "usd": 1.8e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -3449,9 +4277,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3.5e-07,
-          "output": 1.5e-06,
-          "cache_read": 4e-08,
+          "input": {
+            "usd": 3.5e-07
+          },
+          "output": {
+            "usd": 1.5e-06
+          },
+          "cache_read": {
+            "usd": 4e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3476,9 +4310,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.25e-06,
-          "output": 4.25e-06,
-          "cache_read": 1.5e-07,
+          "input": {
+            "usd": 1.25e-06
+          },
+          "output": {
+            "usd": 4.25e-06
+          },
+          "cache_read": {
+            "usd": 1.5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3503,9 +4343,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.25e-06,
-          "output": 4.25e-06,
-          "cache_read": 1.5e-07,
+          "input": {
+            "usd": 1.25e-06
+          },
+          "output": {
+            "usd": 4.25e-06
+          },
+          "cache_read": {
+            "usd": 1.5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3530,9 +4376,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-07,
-          "output": 2e-07,
-          "cache_read": 2e-09,
+          "input": {
+            "usd": 1e-07
+          },
+          "output": {
+            "usd": 2e-07
+          },
+          "cache_read": {
+            "usd": 2e-09
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3554,8 +4406,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 7e-08,
-          "output": 1.4e-07,
+          "input": {
+            "usd": 7e-08
+          },
+          "output": {
+            "usd": 1.4e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -3578,8 +4434,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 6.2e-07,
-          "output": 6.2e-07,
+          "input": {
+            "usd": 6.2e-07
+          },
+          "output": {
+            "usd": 6.2e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -3603,8 +4463,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-07,
-          "output": 1.1e-06,
+          "input": {
+            "usd": 2e-07
+          },
+          "output": {
+            "usd": 1.1e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -3627,8 +4491,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5.5e-07,
-          "output": 2.2e-06,
+          "input": {
+            "usd": 5.5e-07
+          },
+          "output": {
+            "usd": 2.2e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -3651,8 +4519,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.55e-07,
-          "output": 1.02e-06,
+          "input": {
+            "usd": 2.55e-07
+          },
+          "output": {
+            "usd": 1.02e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -3675,9 +4547,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-07,
-          "output": 1.2e-06,
-          "cache_read": 3e-08,
+          "input": {
+            "usd": 3e-07
+          },
+          "output": {
+            "usd": 1.2e-06
+          },
+          "cache_read": {
+            "usd": 3e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3699,9 +4577,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-07,
-          "output": 1.2e-06,
-          "cache_read": 3e-08,
+          "input": {
+            "usd": 3e-07
+          },
+          "output": {
+            "usd": 1.2e-06
+          },
+          "cache_read": {
+            "usd": 3e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3723,9 +4607,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.7e-07,
-          "output": 1.08e-06,
-          "cache_read": 2.7e-08,
+          "input": {
+            "usd": 2.7e-07
+          },
+          "output": {
+            "usd": 1.08e-06
+          },
+          "cache_read": {
+            "usd": 2.7e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3747,9 +4637,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-07,
-          "output": 1.2e-06,
-          "cache_read": 6e-08,
+          "input": {
+            "usd": 3e-07
+          },
+          "output": {
+            "usd": 1.2e-06
+          },
+          "cache_read": {
+            "usd": 6e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3771,8 +4667,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
+          "input": {
+            "usd": 0.0
+          },
+          "output": {
+            "usd": 0.0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -3797,9 +4697,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-07,
-          "output": 1.2e-06,
-          "cache_read": 6e-08,
+          "input": {
+            "usd": 3e-07
+          },
+          "output": {
+            "usd": 1.2e-06
+          },
+          "cache_read": {
+            "usd": 6e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3823,9 +4729,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-07,
-          "output": 1.2e-06,
-          "cache_read": 6e-08,
+          "input": {
+            "usd": 3e-07
+          },
+          "output": {
+            "usd": 1.2e-06
+          },
+          "cache_read": {
+            "usd": 6e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3849,8 +4761,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
+          "input": {
+            "usd": 0.0
+          },
+          "output": {
+            "usd": 0.0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -3873,9 +4789,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-07,
-          "output": 9e-07,
-          "cache_read": 3e-08,
+          "input": {
+            "usd": 3e-07
+          },
+          "output": {
+            "usd": 9e-07
+          },
+          "cache_read": {
+            "usd": 3e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3897,9 +4819,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 4.4e-07,
-          "output": 2.2e-06,
-          "cache_read": 4.4e-08,
+          "input": {
+            "usd": 4.4e-07
+          },
+          "output": {
+            "usd": 2.2e-06
+          },
+          "cache_read": {
+            "usd": 4.4e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3922,9 +4850,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-07,
-          "output": 2e-07,
-          "cache_read": 2e-08,
+          "input": {
+            "usd": 2e-07
+          },
+          "output": {
+            "usd": 2e-07
+          },
+          "cache_read": {
+            "usd": 2e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3947,9 +4881,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-07,
-          "output": 1e-07,
-          "cache_read": 1e-08,
+          "input": {
+            "usd": 1e-07
+          },
+          "output": {
+            "usd": 1e-07
+          },
+          "cache_read": {
+            "usd": 1e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3972,9 +4912,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.5e-07,
-          "output": 1.5e-07,
-          "cache_read": 1.5e-08,
+          "input": {
+            "usd": 1.5e-07
+          },
+          "output": {
+            "usd": 1.5e-07
+          },
+          "cache_read": {
+            "usd": 1.5e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -3996,9 +4942,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-06,
-          "output": 6e-06,
-          "cache_read": 2e-07,
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 6e-06
+          },
+          "cache_read": {
+            "usd": 2e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -4020,9 +4972,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-06,
-          "output": 6e-06,
-          "cache_read": 2e-07,
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 6e-06
+          },
+          "cache_read": {
+            "usd": 2e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -4045,9 +5003,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-07,
-          "output": 1.5e-06,
-          "cache_read": 5e-08,
+          "input": {
+            "usd": 5e-07
+          },
+          "output": {
+            "usd": 1.5e-06
+          },
+          "cache_read": {
+            "usd": 5e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -4070,9 +5034,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 4e-07,
-          "output": 2e-06,
-          "cache_read": 4e-08,
+          "input": {
+            "usd": 4e-07
+          },
+          "output": {
+            "usd": 2e-06
+          },
+          "cache_read": {
+            "usd": 4e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -4095,8 +5065,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.5e-06,
-          "output": 7.5e-06,
+          "input": {
+            "usd": 1.5e-06
+          },
+          "output": {
+            "usd": 7.5e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -4120,9 +5094,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 4e-07,
-          "output": 2e-06,
-          "cache_read": 4e-08,
+          "input": {
+            "usd": 4e-07
+          },
+          "output": {
+            "usd": 2e-06
+          },
+          "cache_read": {
+            "usd": 4e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -4144,8 +5124,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.9e-08,
-          "output": 3e-08,
+          "input": {
+            "usd": 1.9e-08
+          },
+          "output": {
+            "usd": 3e-08
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -4168,9 +5152,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-07,
-          "output": 6e-07,
-          "cache_read": 2e-08,
+          "input": {
+            "usd": 2e-07
+          },
+          "output": {
+            "usd": 6e-07
+          },
+          "cache_read": {
+            "usd": 2e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -4192,8 +5182,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-08,
-          "output": 8e-08,
+          "input": {
+            "usd": 5e-08
+          },
+          "output": {
+            "usd": 8e-08
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -4217,9 +5211,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.5e-07,
-          "output": 6e-07,
-          "cache_read": 1.5e-08,
+          "input": {
+            "usd": 1.5e-07
+          },
+          "output": {
+            "usd": 6e-07
+          },
+          "cache_read": {
+            "usd": 1.5e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -4242,8 +5242,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3.51e-07,
-          "output": 5.55e-07,
+          "input": {
+            "usd": 3.51e-07
+          },
+          "output": {
+            "usd": 5.55e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -4267,8 +5271,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 7.5e-08,
-          "output": 2e-07,
+          "input": {
+            "usd": 7.5e-08
+          },
+          "output": {
+            "usd": 2e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -4291,9 +5299,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-06,
-          "output": 6e-06,
-          "cache_read": 2e-07,
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 6e-06
+          },
+          "cache_read": {
+            "usd": 2e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -4316,9 +5330,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-07,
-          "output": 3e-07,
-          "cache_read": 1e-08,
+          "input": {
+            "usd": 1e-07
+          },
+          "output": {
+            "usd": 3e-07
+          },
+          "cache_read": {
+            "usd": 1e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -4340,8 +5360,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5.7e-07,
-          "output": 2.3e-06,
+          "input": {
+            "usd": 5.7e-07
+          },
+          "output": {
+            "usd": 2.3e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -4364,8 +5388,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 6e-07,
-          "output": 2.5e-06,
+          "input": {
+            "usd": 6e-07
+          },
+          "output": {
+            "usd": 2.5e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -4388,9 +5416,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 6e-07,
-          "output": 2.5e-06,
-          "cache_read": 1.5e-07,
+          "input": {
+            "usd": 6e-07
+          },
+          "output": {
+            "usd": 2.5e-06
+          },
+          "cache_read": {
+            "usd": 1.5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -4413,9 +5447,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 6e-07,
-          "output": 3e-06,
-          "cache_read": 1e-07,
+          "input": {
+            "usd": 6e-07
+          },
+          "output": {
+            "usd": 3e-06
+          },
+          "cache_read": {
+            "usd": 1e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -4438,9 +5478,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 9.5e-07,
-          "output": 4e-06,
-          "cache_read": 1.6e-07,
+          "input": {
+            "usd": 9.5e-07
+          },
+          "output": {
+            "usd": 4e-06
+          },
+          "cache_read": {
+            "usd": 1.6e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -4463,9 +5509,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 6.6e-07,
-          "output": 3.4e-06,
-          "cache_read": 1.8e-07,
+          "input": {
+            "usd": 6.6e-07
+          },
+          "output": {
+            "usd": 3.4e-06
+          },
+          "cache_read": {
+            "usd": 1.8e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -4489,9 +5541,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-06,
-          "output": 1.5e-05,
-          "cache_read": 3e-07,
+          "input": {
+            "usd": 3e-06
+          },
+          "output": {
+            "usd": 1.5e-05
+          },
+          "cache_read": {
+            "usd": 3e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -4513,8 +5571,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 8e-07,
-          "output": 1.2e-06,
+          "input": {
+            "usd": 8e-07
+          },
+          "output": {
+            "usd": 1.2e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -4537,8 +5599,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 9e-07,
-          "output": 1.9e-06,
+          "input": {
+            "usd": 9e-07
+          },
+          "output": {
+            "usd": 1.9e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -4562,9 +5628,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-08,
-          "output": 1e-07,
-          "cache_read": 2.5e-09,
+          "input": {
+            "usd": 2.5e-08
+          },
+          "output": {
+            "usd": 1e-07
+          },
+          "cache_read": {
+            "usd": 2.5e-09
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -4587,9 +5659,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-07,
-          "output": 1e-06,
-          "cache_read": 2.5e-08,
+          "input": {
+            "usd": 2.5e-07
+          },
+          "output": {
+            "usd": 1e-06
+          },
+          "cache_read": {
+            "usd": 2.5e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -4611,8 +5689,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-06,
-          "output": 1e-06,
+          "input": {
+            "usd": 1e-06
+          },
+          "output": {
+            "usd": 1e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -4635,8 +5717,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 7e-07,
-          "output": 7e-07,
+          "input": {
+            "usd": 7e-07
+          },
+          "output": {
+            "usd": 7e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -4659,8 +5745,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-06,
-          "output": 3e-06,
+          "input": {
+            "usd": 1e-06
+          },
+          "output": {
+            "usd": 3e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -4683,8 +5773,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.3e-07,
-          "output": 4e-07,
+          "input": {
+            "usd": 1.3e-07
+          },
+          "output": {
+            "usd": 4e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -4707,9 +5801,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-08,
-          "output": 2e-07,
-          "cache_read": 2.5e-08,
+          "input": {
+            "usd": 5e-08
+          },
+          "output": {
+            "usd": 2e-07
+          },
+          "cache_read": {
+            "usd": 2.5e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -4734,8 +5834,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
+          "input": {
+            "usd": 0.0
+          },
+          "output": {
+            "usd": 0.0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -4758,8 +5862,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 8.5e-08,
-          "output": 4e-07,
+          "input": {
+            "usd": 8.5e-08
+          },
+          "output": {
+            "usd": 4e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -4782,8 +5890,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
+          "input": {
+            "usd": 0.0
+          },
+          "output": {
+            "usd": 0.0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -4806,9 +5918,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-07,
-          "output": 2.2e-06,
-          "cache_read": 1e-07,
+          "input": {
+            "usd": 5e-07
+          },
+          "output": {
+            "usd": 2.2e-06
+          },
+          "cache_read": {
+            "usd": 1e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -4830,9 +5948,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 6e-07,
-          "output": 3.6e-06,
-          "cache_read": 2e-07,
+          "input": {
+            "usd": 6e-07
+          },
+          "output": {
+            "usd": 3.6e-06
+          },
+          "cache_read": {
+            "usd": 2e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -4854,8 +5978,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
+          "input": {
+            "usd": 0.0
+          },
+          "output": {
+            "usd": 0.0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -4879,8 +6007,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
+          "input": {
+            "usd": 0.0
+          },
+          "output": {
+            "usd": 0.0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -4903,9 +6035,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-07,
-          "output": 2.5e-07,
-          "cache_read": 5e-08,
+          "input": {
+            "usd": 1e-07
+          },
+          "output": {
+            "usd": 2.5e-07
+          },
+          "cache_read": {
+            "usd": 5e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -4927,8 +6065,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
+          "input": {
+            "usd": 0.0
+          },
+          "output": {
+            "usd": 0.0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -4951,8 +6093,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-07,
-          "output": 1.5e-06,
+          "input": {
+            "usd": 5e-07
+          },
+          "output": {
+            "usd": 1.5e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -4975,8 +6121,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-06,
-          "output": 2e-06,
+          "input": {
+            "usd": 1e-06
+          },
+          "output": {
+            "usd": 2e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -4999,8 +6149,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-06,
-          "output": 4e-06,
+          "input": {
+            "usd": 3e-06
+          },
+          "output": {
+            "usd": 4e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -5023,8 +6177,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.5e-06,
-          "output": 2e-06,
+          "input": {
+            "usd": 1.5e-06
+          },
+          "output": {
+            "usd": 2e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -5047,8 +6205,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-05,
-          "output": 6e-05,
+          "input": {
+            "usd": 3e-05
+          },
+          "output": {
+            "usd": 6e-05
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -5072,8 +6234,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-05,
-          "output": 3e-05,
+          "input": {
+            "usd": 1e-05
+          },
+          "output": {
+            "usd": 3e-05
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -5096,8 +6262,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-05,
-          "output": 3e-05,
+          "input": {
+            "usd": 1e-05
+          },
+          "output": {
+            "usd": 3e-05
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -5121,9 +6291,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-06,
-          "output": 8e-06,
-          "cache_read": 5e-07,
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 8e-06
+          },
+          "cache_read": {
+            "usd": 5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5146,9 +6322,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 4e-07,
-          "output": 1.6e-06,
-          "cache_read": 1e-07,
+          "input": {
+            "usd": 4e-07
+          },
+          "output": {
+            "usd": 1.6e-06
+          },
+          "cache_read": {
+            "usd": 1e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5171,9 +6353,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-07,
-          "output": 4e-07,
-          "cache_read": 2.5e-08,
+          "input": {
+            "usd": 1e-07
+          },
+          "output": {
+            "usd": 4e-07
+          },
+          "cache_read": {
+            "usd": 2.5e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5196,9 +6384,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-06,
-          "output": 1e-05,
-          "cache_read": 1.25e-06,
+          "input": {
+            "usd": 2.5e-06
+          },
+          "output": {
+            "usd": 1e-05
+          },
+          "cache_read": {
+            "usd": 1.25e-06
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5221,8 +6415,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-06,
-          "output": 1.5e-05,
+          "input": {
+            "usd": 5e-06
+          },
+          "output": {
+            "usd": 1.5e-05
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -5246,9 +6444,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-06,
-          "output": 1e-05,
-          "cache_read": 1.25e-06,
+          "input": {
+            "usd": 2.5e-06
+          },
+          "output": {
+            "usd": 1e-05
+          },
+          "cache_read": {
+            "usd": 1.25e-06
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5271,9 +6475,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-06,
-          "output": 1e-05,
-          "cache_read": 1.25e-06,
+          "input": {
+            "usd": 2.5e-06
+          },
+          "output": {
+            "usd": 1e-05
+          },
+          "cache_read": {
+            "usd": 1.25e-06
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5296,9 +6506,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.5e-07,
-          "output": 6e-07,
-          "cache_read": 7.5e-08,
+          "input": {
+            "usd": 1.5e-07
+          },
+          "output": {
+            "usd": 6e-07
+          },
+          "cache_read": {
+            "usd": 7.5e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5321,9 +6537,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.5e-07,
-          "output": 6e-07,
-          "cache_read": 7.5e-08,
+          "input": {
+            "usd": 1.5e-07
+          },
+          "output": {
+            "usd": 6e-07
+          },
+          "cache_read": {
+            "usd": 7.5e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5346,9 +6568,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.25e-06,
-          "output": 1e-05,
-          "cache_read": 1.25e-07,
+          "input": {
+            "usd": 1.25e-06
+          },
+          "output": {
+            "usd": 1e-05
+          },
+          "cache_read": {
+            "usd": 1.25e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5371,9 +6599,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-05,
-          "output": 1e-05,
-          "cache_read": 1.25e-06,
+          "input": {
+            "usd": 1e-05
+          },
+          "output": {
+            "usd": 1e-05
+          },
+          "cache_read": {
+            "usd": 1.25e-06
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5396,9 +6630,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-06,
-          "output": 2e-06,
-          "cache_read": 2.5e-07,
+          "input": {
+            "usd": 2.5e-06
+          },
+          "output": {
+            "usd": 2e-06
+          },
+          "cache_read": {
+            "usd": 2.5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5421,9 +6661,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-07,
-          "output": 2e-06,
-          "cache_read": 2.5e-08,
+          "input": {
+            "usd": 2.5e-07
+          },
+          "output": {
+            "usd": 2e-06
+          },
+          "cache_read": {
+            "usd": 2.5e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5446,9 +6692,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-08,
-          "output": 4e-07,
-          "cache_read": 5e-09,
+          "input": {
+            "usd": 5e-08
+          },
+          "output": {
+            "usd": 4e-07
+          },
+          "cache_read": {
+            "usd": 5e-09
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5471,8 +6723,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.5e-05,
-          "output": 0.00012,
+          "input": {
+            "usd": 1.5e-05
+          },
+          "output": {
+            "usd": 0.00012
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -5496,9 +6752,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.25e-06,
-          "output": 1e-05,
-          "cache_read": 1.25e-07,
+          "input": {
+            "usd": 1.25e-06
+          },
+          "output": {
+            "usd": 1e-05
+          },
+          "cache_read": {
+            "usd": 1.25e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5521,9 +6783,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.25e-06,
-          "output": 1e-05,
-          "cache_read": 1.3e-07,
+          "input": {
+            "usd": 1.25e-06
+          },
+          "output": {
+            "usd": 1e-05
+          },
+          "cache_read": {
+            "usd": 1.3e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5546,9 +6814,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.25e-06,
-          "output": 1e-05,
-          "cache_read": 1.25e-07,
+          "input": {
+            "usd": 1.25e-06
+          },
+          "output": {
+            "usd": 1e-05
+          },
+          "cache_read": {
+            "usd": 1.25e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5571,9 +6845,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-07,
-          "output": 2e-06,
-          "cache_read": 3e-08,
+          "input": {
+            "usd": 2.5e-07
+          },
+          "output": {
+            "usd": 2e-06
+          },
+          "cache_read": {
+            "usd": 3e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5596,9 +6876,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.75e-06,
-          "output": 1.4e-05,
-          "cache_read": 1.75e-07,
+          "input": {
+            "usd": 1.75e-06
+          },
+          "output": {
+            "usd": 1.4e-05
+          },
+          "cache_read": {
+            "usd": 1.75e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5621,9 +6907,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.75e-06,
-          "output": 1.4e-05,
-          "cache_read": 1.75e-07,
+          "input": {
+            "usd": 1.75e-06
+          },
+          "output": {
+            "usd": 1.4e-05
+          },
+          "cache_read": {
+            "usd": 1.75e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5646,9 +6938,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.75e-06,
-          "output": 1.4e-05,
-          "cache_read": 1.75e-07,
+          "input": {
+            "usd": 1.75e-06
+          },
+          "output": {
+            "usd": 1.4e-05
+          },
+          "cache_read": {
+            "usd": 1.75e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5671,8 +6969,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.1e-05,
-          "output": 0.000168,
+          "input": {
+            "usd": 2.1e-05
+          },
+          "output": {
+            "usd": 0.000168
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -5696,9 +6998,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.75e-06,
-          "output": 1.4e-05,
-          "cache_read": 1.75e-07,
+          "input": {
+            "usd": 1.75e-06
+          },
+          "output": {
+            "usd": 1.4e-05
+          },
+          "cache_read": {
+            "usd": 1.75e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5721,9 +7029,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-06,
-          "output": 1.5e-05,
-          "cache_read": 2.5e-07,
+          "input": {
+            "usd": 2.5e-06
+          },
+          "output": {
+            "usd": 1.5e-05
+          },
+          "cache_read": {
+            "usd": 2.5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5746,9 +7060,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 8e-06,
-          "output": 1.5e-05,
-          "cache_read": 2e-06,
+          "input": {
+            "usd": 8e-06
+          },
+          "output": {
+            "usd": 1.5e-05
+          },
+          "cache_read": {
+            "usd": 2e-06
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5771,9 +7091,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 7.5e-07,
-          "output": 4.5e-06,
-          "cache_read": 7.5e-08,
+          "input": {
+            "usd": 7.5e-07
+          },
+          "output": {
+            "usd": 4.5e-06
+          },
+          "cache_read": {
+            "usd": 7.5e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5796,9 +7122,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-07,
-          "output": 1.25e-06,
-          "cache_read": 2e-08,
+          "input": {
+            "usd": 2e-07
+          },
+          "output": {
+            "usd": 1.25e-06
+          },
+          "cache_read": {
+            "usd": 2e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5821,8 +7153,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-05,
-          "output": 0.00018,
+          "input": {
+            "usd": 3e-05
+          },
+          "output": {
+            "usd": 0.00018
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -5846,9 +7182,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-06,
-          "output": 3e-05,
-          "cache_read": 5e-07,
+          "input": {
+            "usd": 5e-06
+          },
+          "output": {
+            "usd": 3e-05
+          },
+          "cache_read": {
+            "usd": 5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -5871,8 +7213,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-05,
-          "output": 0.00018,
+          "input": {
+            "usd": 3e-05
+          },
+          "output": {
+            "usd": 0.00018
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -5896,10 +7242,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-07,
-          "output": 1.2e-06,
-          "cache_read": 2e-08,
-          "cache_write": 2.5e-07
+          "input": {
+            "usd": 2e-07
+          },
+          "output": {
+            "usd": 1.2e-06
+          },
+          "cache_read": {
+            "usd": 2e-08
+          },
+          "cache_write": {
+            "usd": 2.5e-07
+          }
         },
         "per_image": null,
         "promo": null
@@ -5921,10 +7275,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-07,
-          "output": 1.2e-06,
-          "cache_read": 2e-08,
-          "cache_write": 2.5e-07
+          "input": {
+            "usd": 2e-07
+          },
+          "output": {
+            "usd": 1.2e-06
+          },
+          "cache_read": {
+            "usd": 2e-08
+          },
+          "cache_write": {
+            "usd": 2.5e-07
+          }
         },
         "per_image": null,
         "promo": null
@@ -5946,10 +7308,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-06,
-          "output": 1e-05,
-          "cache_read": 2e-07,
-          "cache_write": 2.5e-06
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 1e-05
+          },
+          "cache_read": {
+            "usd": 2e-07
+          },
+          "cache_write": {
+            "usd": 2.5e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -5971,10 +7341,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-06,
-          "output": 1e-05,
-          "cache_read": 2e-07,
-          "cache_write": 2.5e-06
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 1e-05
+          },
+          "cache_read": {
+            "usd": 2e-07
+          },
+          "cache_write": {
+            "usd": 2.5e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -5996,10 +7374,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-06,
-          "output": 1.2e-05,
-          "cache_read": 2e-07,
-          "cache_write": 2.5e-06
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 1.2e-05
+          },
+          "cache_read": {
+            "usd": 2e-07
+          },
+          "cache_write": {
+            "usd": 2.5e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -6021,10 +7407,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-06,
-          "output": 1.2e-05,
-          "cache_read": 2e-07,
-          "cache_write": 2.5e-06
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 1.2e-05
+          },
+          "cache_read": {
+            "usd": 2e-07
+          },
+          "cache_write": {
+            "usd": 2.5e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -6046,8 +7440,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-06,
-          "output": 1e-05,
+          "input": {
+            "usd": 2.5e-06
+          },
+          "output": {
+            "usd": 1e-05
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -6071,8 +7469,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 6e-07,
-          "output": 2.4e-06,
+          "input": {
+            "usd": 6e-07
+          },
+          "output": {
+            "usd": 2.4e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -6096,9 +7498,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-06,
-          "output": 3e-05,
-          "cache_read": 5e-07,
+          "input": {
+            "usd": 5e-06
+          },
+          "output": {
+            "usd": 3e-05
+          },
+          "cache_read": {
+            "usd": 5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -6120,8 +7528,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3.7e-08,
-          "output": 1.7e-07,
+          "input": {
+            "usd": 3.7e-08
+          },
+          "output": {
+            "usd": 1.7e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -6144,9 +7556,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-08,
-          "output": 1.3e-07,
-          "cache_read": 3e-08,
+          "input": {
+            "usd": 3e-08
+          },
+          "output": {
+            "usd": 1.3e-07
+          },
+          "cache_read": {
+            "usd": 3e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -6168,9 +7586,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 7.5e-08,
-          "output": 3e-07,
-          "cache_read": 3.75e-08,
+          "input": {
+            "usd": 7.5e-08
+          },
+          "output": {
+            "usd": 3e-07
+          },
+          "cache_read": {
+            "usd": 3.75e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -6193,9 +7617,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.5e-05,
-          "output": 6e-05,
-          "cache_read": 7.5e-06,
+          "input": {
+            "usd": 1.5e-05
+          },
+          "output": {
+            "usd": 6e-05
+          },
+          "cache_read": {
+            "usd": 7.5e-06
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -6218,8 +7648,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 0.00015,
-          "output": 0.0006,
+          "input": {
+            "usd": 0.00015
+          },
+          "output": {
+            "usd": 0.0006
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -6243,9 +7677,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-06,
-          "output": 8e-06,
-          "cache_read": 5e-07,
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 8e-06
+          },
+          "cache_read": {
+            "usd": 5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -6267,9 +7707,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.1e-06,
-          "output": 4.4e-06,
-          "cache_read": 5.5e-07,
+          "input": {
+            "usd": 1.1e-06
+          },
+          "output": {
+            "usd": 4.4e-06
+          },
+          "cache_read": {
+            "usd": 5.5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -6291,9 +7737,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.1e-06,
-          "output": 4.4e-06,
-          "cache_read": 5.5e-07,
+          "input": {
+            "usd": 1.1e-06
+          },
+          "output": {
+            "usd": 4.4e-06
+          },
+          "cache_read": {
+            "usd": 5.5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -6316,8 +7768,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-05,
-          "output": 8e-05,
+          "input": {
+            "usd": 2e-05
+          },
+          "output": {
+            "usd": 8e-05
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -6341,9 +7797,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.1e-06,
-          "output": 4.4e-06,
-          "cache_read": 2.75e-07,
+          "input": {
+            "usd": 1.1e-06
+          },
+          "output": {
+            "usd": 4.4e-06
+          },
+          "cache_read": {
+            "usd": 2.75e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -6366,9 +7828,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.1e-06,
-          "output": 4.4e-06,
-          "cache_read": 2.75e-07,
+          "input": {
+            "usd": 1.1e-06
+          },
+          "output": {
+            "usd": 4.4e-06
+          },
+          "cache_read": {
+            "usd": 2.75e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -6469,8 +7937,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
+          "input": {
+            "usd": 0.0
+          },
+          "output": {
+            "usd": 0.0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -6543,8 +8015,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.5e-07,
-          "output": 1.5e-06,
+          "input": {
+            "usd": 1.5e-07
+          },
+          "output": {
+            "usd": 1.5e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -6568,8 +8044,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-06,
-          "output": 1e-06,
+          "input": {
+            "usd": 1e-06
+          },
+          "output": {
+            "usd": 1e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -6592,8 +8072,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-06,
-          "output": 8e-06,
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 8e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -6617,8 +8101,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-06,
-          "output": 1.5e-05,
+          "input": {
+            "usd": 3e-06
+          },
+          "output": {
+            "usd": 1.5e-05
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -6642,8 +8130,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-06,
-          "output": 1.5e-05,
+          "input": {
+            "usd": 3e-06
+          },
+          "output": {
+            "usd": 1.5e-05
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -6667,8 +8159,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-06,
-          "output": 8e-06,
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 8e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -6691,9 +8187,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 9e-08,
-          "output": 1.8e-07,
-          "cache_read": 9e-09,
+          "input": {
+            "usd": 9e-08
+          },
+          "output": {
+            "usd": 1.8e-07
+          },
+          "cache_read": {
+            "usd": 9e-09
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -6715,8 +8217,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
+          "input": {
+            "usd": 0.0
+          },
+          "output": {
+            "usd": 0.0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -6739,9 +8245,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 6e-08,
-          "output": 1.2e-07,
-          "cache_read": 3e-08,
+          "input": {
+            "usd": 6e-08
+          },
+          "output": {
+            "usd": 1.2e-07
+          },
+          "cache_read": {
+            "usd": 3e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -6763,8 +8275,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
+          "input": {
+            "usd": 0.0
+          },
+          "output": {
+            "usd": 0.0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -6787,8 +8303,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3.6e-07,
-          "output": 4e-07,
+          "input": {
+            "usd": 3.6e-07
+          },
+          "output": {
+            "usd": 4e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -6811,8 +8331,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-07,
-          "output": 2e-07,
+          "input": {
+            "usd": 1e-07
+          },
+          "output": {
+            "usd": 2e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -6835,8 +8359,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 6.6e-07,
-          "output": 1e-06,
+          "input": {
+            "usd": 6.6e-07
+          },
+          "output": {
+            "usd": 1e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -6859,10 +8387,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.6e-07,
-          "output": 7.8e-07,
-          "cache_read": 5.2e-08,
-          "cache_write": 3.25e-07
+          "input": {
+            "usd": 2.6e-07
+          },
+          "output": {
+            "usd": 7.8e-07
+          },
+          "cache_read": {
+            "usd": 5.2e-08
+          },
+          "cache_write": {
+            "usd": 3.25e-07
+          }
         },
         "per_image": null,
         "promo": null
@@ -6883,8 +8419,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.6e-07,
-          "output": 7.8e-07,
+          "input": {
+            "usd": 2.6e-07
+          },
+          "output": {
+            "usd": 7.8e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -6908,8 +8448,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-07,
-          "output": 7.5e-07,
+          "input": {
+            "usd": 2.5e-07
+          },
+          "output": {
+            "usd": 7.5e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -6932,8 +8476,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.2e-07,
-          "output": 2.4e-07,
+          "input": {
+            "usd": 1.2e-07
+          },
+          "output": {
+            "usd": 2.4e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -6956,8 +8504,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 4.55e-07,
-          "output": 1.82e-06,
+          "input": {
+            "usd": 4.55e-07
+          },
+          "output": {
+            "usd": 1.82e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -6980,9 +8532,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 8.75e-08,
-          "output": 3.5e-07,
-          "cache_read": 1.75e-08,
+          "input": {
+            "usd": 8.75e-08
+          },
+          "output": {
+            "usd": 3.5e-07
+          },
+          "cache_read": {
+            "usd": 1.75e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -7004,8 +8562,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.3e-07,
-          "output": 2.3e-06,
+          "input": {
+            "usd": 2.3e-07
+          },
+          "output": {
+            "usd": 2.3e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -7028,8 +8590,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.2e-07,
-          "output": 5e-07,
+          "input": {
+            "usd": 1.2e-07
+          },
+          "output": {
+            "usd": 5e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -7052,8 +8618,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 4.815e-08,
-          "output": 1.9305e-07,
+          "input": {
+            "usd": 4.815e-08
+          },
+          "output": {
+            "usd": 1.9305e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -7076,8 +8646,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-07,
-          "output": 2.4e-06,
+          "input": {
+            "usd": 2e-07
+          },
+          "output": {
+            "usd": 2.4e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -7100,8 +8674,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 8e-08,
-          "output": 2.8e-07,
+          "input": {
+            "usd": 8e-08
+          },
+          "output": {
+            "usd": 2.8e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -7124,8 +8702,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.17e-07,
-          "output": 4.55e-07,
+          "input": {
+            "usd": 1.17e-07
+          },
+          "output": {
+            "usd": 4.55e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -7148,9 +8730,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-07,
-          "output": 1e-06,
-          "cache_read": 1e-07,
+          "input": {
+            "usd": 3e-07
+          },
+          "output": {
+            "usd": 1e-06
+          },
+          "cache_read": {
+            "usd": 1e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -7172,8 +8760,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 7e-08,
-          "output": 2.8e-07,
+          "input": {
+            "usd": 7e-08
+          },
+          "output": {
+            "usd": 2.8e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -7196,10 +8788,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.95e-07,
-          "output": 9.75e-07,
-          "cache_read": 3.9e-08,
-          "cache_write": 2.4375e-07
+          "input": {
+            "usd": 1.95e-07
+          },
+          "output": {
+            "usd": 9.75e-07
+          },
+          "cache_read": {
+            "usd": 3.9e-08
+          },
+          "cache_write": {
+            "usd": 2.4375e-07
+          }
         },
         "per_image": null,
         "promo": null
@@ -7220,9 +8820,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.2e-07,
-          "output": 8e-07,
-          "cache_read": 7e-08,
+          "input": {
+            "usd": 1.2e-07
+          },
+          "output": {
+            "usd": 8e-07
+          },
+          "cache_read": {
+            "usd": 7e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -7244,10 +8850,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 6.5e-07,
-          "output": 3.25e-06,
-          "cache_read": 1.3e-07,
-          "cache_write": 8.125e-07
+          "input": {
+            "usd": 6.5e-07
+          },
+          "output": {
+            "usd": 3.25e-06
+          },
+          "cache_read": {
+            "usd": 1.3e-07
+          },
+          "cache_write": {
+            "usd": 8.125e-07
+          }
         },
         "per_image": null,
         "promo": null
@@ -7268,10 +8882,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 7.8e-07,
-          "output": 3.9e-06,
-          "cache_read": 1.56e-07,
-          "cache_write": 9.75e-07
+          "input": {
+            "usd": 7.8e-07
+          },
+          "output": {
+            "usd": 3.9e-06
+          },
+          "cache_read": {
+            "usd": 1.56e-07
+          },
+          "cache_write": {
+            "usd": 9.75e-07
+          }
         },
         "per_image": null,
         "promo": null
@@ -7292,8 +8914,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 7.8e-07,
-          "output": 3.9e-06,
+          "input": {
+            "usd": 7.8e-07
+          },
+          "output": {
+            "usd": 3.9e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -7316,9 +8942,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-07,
-          "output": 1.1e-06,
-          "cache_read": 7e-08,
+          "input": {
+            "usd": 1e-07
+          },
+          "output": {
+            "usd": 1.1e-06
+          },
+          "cache_read": {
+            "usd": 7e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -7340,8 +8972,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.5e-07,
-          "output": 1.2e-06,
+          "input": {
+            "usd": 1.5e-07
+          },
+          "output": {
+            "usd": 1.2e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -7365,9 +9001,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.1e-07,
-          "output": 1.9e-06,
-          "cache_read": 1e-07,
+          "input": {
+            "usd": 2.1e-07
+          },
+          "output": {
+            "usd": 1.9e-06
+          },
+          "cache_read": {
+            "usd": 1e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -7390,8 +9032,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 4e-07,
-          "output": 4e-06,
+          "input": {
+            "usd": 4e-07
+          },
+          "output": {
+            "usd": 4e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -7415,8 +9061,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.3e-07,
-          "output": 5.2e-07,
+          "input": {
+            "usd": 1.3e-07
+          },
+          "output": {
+            "usd": 5.2e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -7440,8 +9090,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-07,
-          "output": 2.4e-06,
+          "input": {
+            "usd": 2e-07
+          },
+          "output": {
+            "usd": 2.4e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -7465,8 +9119,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.04e-07,
-          "output": 4.16e-07,
+          "input": {
+            "usd": 1.04e-07
+          },
+          "output": {
+            "usd": 4.16e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -7490,8 +9148,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.17e-07,
-          "output": 4.55e-07,
+          "input": {
+            "usd": 1.17e-07
+          },
+          "output": {
+            "usd": 4.55e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -7515,8 +9177,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.8e-07,
-          "output": 2.1e-06,
+          "input": {
+            "usd": 1.8e-07
+          },
+          "output": {
+            "usd": 2.1e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -7541,8 +9207,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.6e-07,
-          "output": 2.08e-06,
+          "input": {
+            "usd": 2.6e-07
+          },
+          "output": {
+            "usd": 2.08e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -7567,8 +9237,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.95e-07,
-          "output": 1.56e-06,
+          "input": {
+            "usd": 1.95e-07
+          },
+          "output": {
+            "usd": 1.56e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -7593,9 +9267,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.5e-07,
-          "output": 1.25e-06,
-          "cache_read": 2.5e-07,
+          "input": {
+            "usd": 2.5e-07
+          },
+          "output": {
+            "usd": 1.25e-06
+          },
+          "cache_read": {
+            "usd": 2.5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -7619,8 +9299,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3.9e-07,
-          "output": 2.34e-06,
+          "input": {
+            "usd": 3.9e-07
+          },
+          "output": {
+            "usd": 2.34e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -7645,8 +9329,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-07,
-          "output": 1.5e-07,
+          "input": {
+            "usd": 1e-07
+          },
+          "output": {
+            "usd": 1.5e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -7671,8 +9359,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 6.5e-08,
-          "output": 2.6e-07,
+          "input": {
+            "usd": 6.5e-08
+          },
+          "output": {
+            "usd": 2.6e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -7697,8 +9389,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.6e-07,
-          "output": 1.56e-06,
+          "input": {
+            "usd": 2.6e-07
+          },
+          "output": {
+            "usd": 1.56e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -7723,10 +9419,16 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-07,
-          "output": 1.8e-06,
+          "input": {
+            "usd": 3e-07
+          },
+          "output": {
+            "usd": 1.8e-06
+          },
           "cache_read": null,
-          "cache_write": 3.75e-07
+          "cache_write": {
+            "usd": 3.75e-07
+          }
         },
         "per_image": null,
         "promo": null
@@ -7749,8 +9451,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3.2e-07,
-          "output": 3.2e-06,
+          "input": {
+            "usd": 3.2e-07
+          },
+          "output": {
+            "usd": 3.2e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -7775,9 +9481,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-07,
-          "output": 9e-07,
-          "cache_read": 5e-08,
+          "input": {
+            "usd": 1e-07
+          },
+          "output": {
+            "usd": 9e-07
+          },
+          "cache_read": {
+            "usd": 5e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -7801,10 +9513,16 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.875e-07,
-          "output": 1.125e-06,
+          "input": {
+            "usd": 1.875e-07
+          },
+          "output": {
+            "usd": 1.125e-06
+          },
           "cache_read": null,
-          "cache_write": 2.34375e-07
+          "cache_write": {
+            "usd": 2.34375e-07
+          }
         },
         "per_image": null,
         "promo": null
@@ -7825,10 +9543,16 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.027e-06,
-          "output": 6.162e-06,
+          "input": {
+            "usd": 1.027e-06
+          },
+          "output": {
+            "usd": 6.162e-06
+          },
           "cache_read": null,
-          "cache_write": 1.28375e-06
+          "cache_write": {
+            "usd": 1.28375e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -7851,10 +9575,16 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3.25e-07,
-          "output": 1.95e-06,
+          "input": {
+            "usd": 3.25e-07
+          },
+          "output": {
+            "usd": 1.95e-06
+          },
           "cache_read": null,
-          "cache_write": 4.0625e-07
+          "cache_write": {
+            "usd": 4.0625e-07
+          }
         },
         "per_image": null,
         "promo": null
@@ -7877,10 +9607,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-08,
-          "output": 1.3e-07,
-          "cache_read": 6e-09,
-          "cache_write": 3.8e-08
+          "input": {
+            "usd": 3e-08
+          },
+          "output": {
+            "usd": 1.3e-07
+          },
+          "cache_read": {
+            "usd": 6e-09
+          },
+          "cache_write": {
+            "usd": 3.8e-08
+          }
         },
         "per_image": null,
         "promo": null
@@ -7901,10 +9639,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.475e-06,
-          "output": 4.425e-06,
-          "cache_read": 2.95e-07,
-          "cache_write": 1.84375e-06
+          "input": {
+            "usd": 1.475e-06
+          },
+          "output": {
+            "usd": 4.425e-06
+          },
+          "cache_read": {
+            "usd": 2.95e-07
+          },
+          "cache_write": {
+            "usd": 1.84375e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -7926,10 +9672,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3.2e-07,
-          "output": 1.28e-06,
-          "cache_read": 6.4e-08,
-          "cache_write": 4e-07
+          "input": {
+            "usd": 3.2e-07
+          },
+          "output": {
+            "usd": 1.28e-06
+          },
+          "cache_read": {
+            "usd": 6.4e-08
+          },
+          "cache_write": {
+            "usd": 4e-07
+          }
         },
         "per_image": null,
         "promo": null
@@ -7950,9 +9704,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-06,
-          "output": 6e-06,
-          "cache_read": 2.5e-07,
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 6e-06
+          },
+          "cache_read": {
+            "usd": 2.5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -7976,10 +9736,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 4.25e-07,
-          "output": 2.55e-06,
-          "cache_read": 8.5e-08,
-          "cache_write": 5.3125e-07
+          "input": {
+            "usd": 4.25e-07
+          },
+          "output": {
+            "usd": 2.55e-06
+          },
+          "cache_read": {
+            "usd": 8.5e-08
+          },
+          "cache_write": {
+            "usd": 5.3125e-07
+          }
         },
         "per_image": null,
         "promo": null
@@ -8002,10 +9770,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.5e-07,
-          "output": 4.7e-07,
-          "cache_read": 1.6e-08,
-          "cache_write": 2e-07
+          "input": {
+            "usd": 1.5e-07
+          },
+          "output": {
+            "usd": 4.7e-07
+          },
+          "cache_read": {
+            "usd": 1.6e-08
+          },
+          "cache_write": {
+            "usd": 2e-07
+          }
         },
         "per_image": null,
         "promo": null
@@ -8028,10 +9804,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-06,
-          "output": 6e-06,
-          "cache_read": 2.5e-07,
-          "cache_write": 2.5e-06
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 6e-06
+          },
+          "cache_read": {
+            "usd": 2.5e-07
+          },
+          "cache_write": {
+            "usd": 2.5e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -8054,8 +9838,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-07,
-          "output": 1e-07,
+          "input": {
+            "usd": 1e-07
+          },
+          "output": {
+            "usd": 1e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -8078,8 +9866,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-07,
-          "output": 2e-07,
+          "input": {
+            "usd": 1e-07
+          },
+          "output": {
+            "usd": 2e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -8102,8 +9894,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 8.5e-07,
-          "output": 1.25e-06,
+          "input": {
+            "usd": 8.5e-07
+          },
+          "output": {
+            "usd": 1.25e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -8126,8 +9922,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-06,
-          "output": 3e-06,
+          "input": {
+            "usd": 1e-06
+          },
+          "output": {
+            "usd": 3e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -8151,9 +9951,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-06,
-          "output": 3e-05,
-          "cache_read": 5e-07,
+          "input": {
+            "usd": 5e-06
+          },
+          "output": {
+            "usd": 3e-05
+          },
+          "cache_read": {
+            "usd": 5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -8176,9 +9982,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 9.5e-07,
-          "output": 4e-06,
-          "cache_read": 1.5e-07,
+          "input": {
+            "usd": 9.5e-07
+          },
+          "output": {
+            "usd": 4e-06
+          },
+          "cache_read": {
+            "usd": 1.5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -8200,8 +10012,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 4e-08,
-          "output": 5e-08,
+          "input": {
+            "usd": 4e-08
+          },
+          "output": {
+            "usd": 5e-08
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -8224,8 +10040,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 8.5e-07,
-          "output": 8.5e-07,
+          "input": {
+            "usd": 8.5e-07
+          },
+          "output": {
+            "usd": 8.5e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -8248,8 +10068,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 6.5e-07,
-          "output": 7.5e-07,
+          "input": {
+            "usd": 6.5e-07
+          },
+          "output": {
+            "usd": 7.5e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -8272,8 +10096,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-07,
-          "output": 3e-07,
+          "input": {
+            "usd": 1e-07
+          },
+          "output": {
+            "usd": 3e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -8298,9 +10126,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-07,
-          "output": 1.15e-06,
-          "cache_read": 4e-08,
+          "input": {
+            "usd": 2e-07
+          },
+          "output": {
+            "usd": 1.15e-06
+          },
+          "cache_read": {
+            "usd": 4e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -8322,8 +10156,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.4e-07,
-          "output": 5.7e-07,
+          "input": {
+            "usd": 1.4e-07
+          },
+          "output": {
+            "usd": 5.7e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -8346,8 +10184,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 4.4e-08,
-          "output": 1.77e-07,
+          "input": {
+            "usd": 4.4e-08
+          },
+          "output": {
+            "usd": 1.77e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -8370,8 +10212,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 7.4e-08,
-          "output": 2.95e-07,
+          "input": {
+            "usd": 7.4e-08
+          },
+          "output": {
+            "usd": 2.95e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -8394,8 +10240,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 7.4e-08,
-          "output": 2.95e-07,
+          "input": {
+            "usd": 7.4e-08
+          },
+          "output": {
+            "usd": 2.95e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -8418,9 +10268,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.32e-07,
-          "output": 5.28e-07,
-          "cache_read": 3.3e-08,
+          "input": {
+            "usd": 1.32e-07
+          },
+          "output": {
+            "usd": 5.28e-07
+          },
+          "cache_read": {
+            "usd": 3.3e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -8442,9 +10298,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.8e-07,
-          "output": 6e-07,
-          "cache_read": 6e-08,
+          "input": {
+            "usd": 1.8e-07
+          },
+          "output": {
+            "usd": 6e-07
+          },
+          "cache_read": {
+            "usd": 6e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -8466,9 +10328,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-07,
-          "output": 5e-07,
-          "cache_read": 1.5e-07,
+          "input": {
+            "usd": 3e-07
+          },
+          "output": {
+            "usd": 5e-07
+          },
+          "cache_read": {
+            "usd": 1.5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -8490,9 +10358,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5.5e-07,
-          "output": 8e-07,
-          "cache_read": 2.5e-07,
+          "input": {
+            "usd": 5.5e-07
+          },
+          "output": {
+            "usd": 8e-07
+          },
+          "cache_read": {
+            "usd": 2.5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -8514,8 +10388,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 4e-07,
-          "output": 4e-07,
+          "input": {
+            "usd": 4e-07
+          },
+          "output": {
+            "usd": 4e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -8540,9 +10418,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 9.5e-07,
-          "output": 4.05e-06,
-          "cache_read": 1.6e-07,
+          "input": {
+            "usd": 9.5e-07
+          },
+          "output": {
+            "usd": 4.05e-06
+          },
+          "cache_read": {
+            "usd": 1.6e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -8566,9 +10450,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 4.5e-07,
-          "output": 1.2e-06,
-          "cache_read": 1e-07,
+          "input": {
+            "usd": 4.5e-07
+          },
+          "output": {
+            "usd": 1.2e-06
+          },
+          "cache_read": {
+            "usd": 1e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -8592,8 +10482,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
+          "input": {
+            "usd": 0.0
+          },
+          "output": {
+            "usd": 0.0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -8618,9 +10512,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-06,
-          "output": 4.05e-06,
-          "cache_read": 1.7e-07,
+          "input": {
+            "usd": 1e-06
+          },
+          "output": {
+            "usd": 4.05e-06
+          },
+          "cache_read": {
+            "usd": 1.7e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -8644,8 +10544,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
+          "input": {
+            "usd": 0.0
+          },
+          "output": {
+            "usd": 0.0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -8668,8 +10572,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 4.5e-07,
-          "output": 6.5e-07,
+          "input": {
+            "usd": 4.5e-07
+          },
+          "output": {
+            "usd": 6.5e-07
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -8692,9 +10600,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.5e-07,
-          "output": 6e-07,
-          "cache_read": 1.5e-08,
+          "input": {
+            "usd": 1.5e-07
+          },
+          "output": {
+            "usd": 6e-07
+          },
+          "cache_read": {
+            "usd": 1.5e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -8716,9 +10630,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-08,
-          "output": 1.2e-07,
-          "cache_read": 6e-09,
+          "input": {
+            "usd": 3e-08
+          },
+          "output": {
+            "usd": 1.2e-07
+          },
+          "cache_read": {
+            "usd": 6e-09
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -8740,8 +10660,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 6e-07,
-          "output": 6e-06,
+          "input": {
+            "usd": 6e-07
+          },
+          "output": {
+            "usd": 6e-06
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -8765,9 +10689,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.25e-06,
-          "output": 2.5e-06,
-          "cache_read": 2e-07,
+          "input": {
+            "usd": 1.25e-06
+          },
+          "output": {
+            "usd": 2.5e-06
+          },
+          "cache_read": {
+            "usd": 2e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -8790,9 +10720,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.25e-06,
-          "output": 2.5e-06,
-          "cache_read": 2e-07,
+          "input": {
+            "usd": 1.25e-06
+          },
+          "output": {
+            "usd": 2.5e-06
+          },
+          "cache_read": {
+            "usd": 2e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -8815,9 +10751,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.25e-06,
-          "output": 2.5e-06,
-          "cache_read": 2e-07,
+          "input": {
+            "usd": 1.25e-06
+          },
+          "output": {
+            "usd": 2.5e-06
+          },
+          "cache_read": {
+            "usd": 2e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -8840,9 +10782,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-06,
-          "output": 6e-06,
-          "cache_read": 3e-07,
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 6e-06
+          },
+          "cache_read": {
+            "usd": 3e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -8865,9 +10813,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-06,
-          "output": 6e-06,
-          "cache_read": 5e-07,
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 6e-06
+          },
+          "cache_read": {
+            "usd": 5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -8890,9 +10844,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-06,
-          "output": 2e-06,
-          "cache_read": 2e-07,
+          "input": {
+            "usd": 1e-06
+          },
+          "output": {
+            "usd": 2e-06
+          },
+          "cache_read": {
+            "usd": 2e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -8917,9 +10877,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.4e-07,
-          "output": 2.8e-07,
-          "cache_read": 2.8e-09,
+          "input": {
+            "usd": 1.4e-07
+          },
+          "output": {
+            "usd": 2.8e-07
+          },
+          "cache_read": {
+            "usd": 2.8e-09
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -8941,9 +10907,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 4.35e-07,
-          "output": 8.7e-07,
-          "cache_read": 3.6e-09,
+          "input": {
+            "usd": 4.35e-07
+          },
+          "output": {
+            "usd": 8.7e-07
+          },
+          "cache_read": {
+            "usd": 3.6e-09
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -8965,9 +10937,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 6e-07,
-          "output": 2.2e-06,
-          "cache_read": 1.1e-07,
+          "input": {
+            "usd": 6e-07
+          },
+          "output": {
+            "usd": 2.2e-06
+          },
+          "cache_read": {
+            "usd": 1.1e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -8989,9 +10967,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.3e-07,
-          "output": 8.5e-07,
-          "cache_read": 2.5e-08,
+          "input": {
+            "usd": 1.3e-07
+          },
+          "output": {
+            "usd": 8.5e-07
+          },
+          "cache_read": {
+            "usd": 2.5e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -9014,9 +10998,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 6e-07,
-          "output": 1.8e-06,
-          "cache_read": 1.1e-07,
+          "input": {
+            "usd": 6e-07
+          },
+          "output": {
+            "usd": 1.8e-06
+          },
+          "cache_read": {
+            "usd": 1.1e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -9038,9 +11028,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 4.3e-07,
-          "output": 1.75e-06,
-          "cache_read": 8e-08,
+          "input": {
+            "usd": 4.3e-07
+          },
+          "output": {
+            "usd": 1.75e-06
+          },
+          "cache_read": {
+            "usd": 8e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -9064,9 +11060,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-07,
-          "output": 9e-07,
-          "cache_read": 5.5e-08,
+          "input": {
+            "usd": 3e-07
+          },
+          "output": {
+            "usd": 9e-07
+          },
+          "cache_read": {
+            "usd": 5.5e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -9088,9 +11090,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 4e-07,
-          "output": 1.75e-06,
-          "cache_read": 8e-08,
+          "input": {
+            "usd": 4e-07
+          },
+          "output": {
+            "usd": 1.75e-06
+          },
+          "cache_read": {
+            "usd": 8e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -9112,9 +11120,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 6e-08,
-          "output": 4e-07,
-          "cache_read": 1e-08,
+          "input": {
+            "usd": 6e-08
+          },
+          "output": {
+            "usd": 4e-07
+          },
+          "cache_read": {
+            "usd": 1e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -9136,9 +11150,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 6e-07,
-          "output": 1.92e-06,
-          "cache_read": 1.2e-07,
+          "input": {
+            "usd": 6e-07
+          },
+          "output": {
+            "usd": 1.92e-06
+          },
+          "cache_read": {
+            "usd": 1.2e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -9160,9 +11180,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.2e-06,
-          "output": 4e-06,
-          "cache_read": 2.4e-07,
+          "input": {
+            "usd": 1.2e-06
+          },
+          "output": {
+            "usd": 4e-06
+          },
+          "cache_read": {
+            "usd": 2.4e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -9184,9 +11210,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.26e-06,
-          "output": 3.96e-06,
-          "cache_read": 2.34e-07,
+          "input": {
+            "usd": 1.26e-06
+          },
+          "output": {
+            "usd": 3.96e-06
+          },
+          "cache_read": {
+            "usd": 2.34e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -9208,9 +11240,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.19e-06,
-          "output": 3.74e-06,
-          "cache_read": 2.21e-07,
+          "input": {
+            "usd": 1.19e-06
+          },
+          "output": {
+            "usd": 3.74e-06
+          },
+          "cache_read": {
+            "usd": 2.21e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -9232,8 +11270,12 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
+          "input": {
+            "usd": 0.0
+          },
+          "output": {
+            "usd": 0.0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -9256,9 +11298,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.4e-06,
-          "output": 4.4e-06,
-          "cache_read": 2.6e-07,
+          "input": {
+            "usd": 1.4e-06
+          },
+          "output": {
+            "usd": 4.4e-06
+          },
+          "cache_read": {
+            "usd": 2.6e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -9282,9 +11330,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 7.5e-08,
-          "output": 2.5e-07,
-          "cache_read": 1.5e-08,
+          "input": {
+            "usd": 7.5e-08
+          },
+          "output": {
+            "usd": 2.5e-07
+          },
+          "cache_read": {
+            "usd": 1.5e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -9308,9 +11362,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.2e-06,
-          "output": 4e-06,
-          "cache_read": 2.4e-07,
+          "input": {
+            "usd": 1.2e-06
+          },
+          "output": {
+            "usd": 4e-06
+          },
+          "cache_read": {
+            "usd": 2.4e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -9333,10 +11393,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-05,
-          "output": 5e-05,
-          "cache_read": 1e-06,
-          "cache_write": 1.25e-05
+          "input": {
+            "usd": 1e-05
+          },
+          "output": {
+            "usd": 5e-05
+          },
+          "cache_read": {
+            "usd": 1e-06
+          },
+          "cache_write": {
+            "usd": 1.25e-05
+          }
         },
         "per_image": null,
         "promo": null
@@ -9358,10 +11426,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1e-06,
-          "output": 5e-06,
-          "cache_read": 1e-07,
-          "cache_write": 1.25e-06
+          "input": {
+            "usd": 1e-06
+          },
+          "output": {
+            "usd": 5e-06
+          },
+          "cache_read": {
+            "usd": 1e-07
+          },
+          "cache_write": {
+            "usd": 1.25e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -9383,10 +11459,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 5e-06,
-          "output": 2.5e-05,
-          "cache_read": 5e-07,
-          "cache_write": 6.25e-06
+          "input": {
+            "usd": 5e-06
+          },
+          "output": {
+            "usd": 2.5e-05
+          },
+          "cache_read": {
+            "usd": 5e-07
+          },
+          "cache_write": {
+            "usd": 6.25e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -9408,10 +11492,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-06,
-          "output": 1e-05,
-          "cache_read": 2e-07,
-          "cache_write": 2.5e-06
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 1e-05
+          },
+          "cache_read": {
+            "usd": 2e-07
+          },
+          "cache_write": {
+            "usd": 2.5e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -9432,9 +11524,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3e-08,
-          "output": 1e-07,
-          "cache_read": 7e-09,
+          "input": {
+            "usd": 3e-08
+          },
+          "output": {
+            "usd": 1e-07
+          },
+          "cache_read": {
+            "usd": 7e-09
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -9460,15 +11558,25 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 3.75e-07,
-          "output": 1.875e-06,
-          "cache_read": 3.75e-08,
-          "cache_write": 2.08333333333333e-08
+          "input": {
+            "usd": 3.75e-07
+          },
+          "output": {
+            "usd": 1.875e-06
+          },
+          "cache_read": {
+            "usd": 3.75e-08
+          },
+          "cache_write": {
+            "usd": 2.08333333333333e-08
+          }
         },
         "per_image": [
           {
             "name": "default",
-            "price": 3.75e-07
+            "price": {
+              "usd": 3.75e-07
+            }
           }
         ],
         "promo": null
@@ -9493,15 +11601,25 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-06,
-          "output": 1.2e-05,
-          "cache_read": 2e-07,
-          "cache_write": 3.75e-07
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 1.2e-05
+          },
+          "cache_read": {
+            "usd": 2e-07
+          },
+          "cache_write": {
+            "usd": 3.75e-07
+          }
         },
         "per_image": [
           {
             "name": "default",
-            "price": 2e-06
+            "price": {
+              "usd": 2e-06
+            }
           }
         ],
         "promo": null
@@ -9524,9 +11642,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2.55e-06,
-          "output": 1.275e-05,
-          "cache_read": 2.5599999e-07,
+          "input": {
+            "usd": 2.55e-06
+          },
+          "output": {
+            "usd": 1.275e-05
+          },
+          "cache_read": {
+            "usd": 2.5599999e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -9549,10 +11673,18 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-06,
-          "output": 1e-05,
-          "cache_read": 2e-07,
-          "cache_write": 2.5e-06
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 1e-05
+          },
+          "cache_read": {
+            "usd": 2e-07
+          },
+          "cache_write": {
+            "usd": 2.5e-06
+          }
         },
         "per_image": null,
         "promo": null
@@ -9574,9 +11706,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 7.5e-07,
-          "output": 4.5e-06,
-          "cache_read": 7.5e-08,
+          "input": {
+            "usd": 7.5e-07
+          },
+          "output": {
+            "usd": 4.5e-06
+          },
+          "cache_read": {
+            "usd": 7.5e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -9599,9 +11737,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 2e-06,
-          "output": 6e-06,
-          "cache_read": 5e-07,
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 6e-06
+          },
+          "cache_read": {
+            "usd": 5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -9623,9 +11767,15 @@
       ],
       "pricing": {
         "per_mtok": {
-          "input": 1.4e-06,
-          "output": 4.4e-06,
-          "cache_read": 2.6e-07,
+          "input": {
+            "usd": 1.4e-06
+          },
+          "output": {
+            "usd": 4.4e-06
+          },
+          "cache_read": {
+            "usd": 2.6e-07
+          },
           "cache_write": null
         },
         "per_image": null,

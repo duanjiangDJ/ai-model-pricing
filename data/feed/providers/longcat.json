@@ -7,7 +7,7 @@
   "homepage": "https://longcat.chat/platform/docs/",
   "pricing_page": "https://longcat.chat/platform/docs/",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -21,9 +21,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0.75,
-          "output": 2.95,
-          "cache_read": 0.015,
+          "input": {
+            "usd": 0.75
+          },
+          "output": {
+            "usd": 2.95
+          },
+          "cache_read": {
+            "usd": 0.015
+          },
           "cache_write": null
         },
         "batch": null,

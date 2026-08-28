@@ -6,7 +6,7 @@
 - 官网: https://help.aliyun.com/zh/model-studio/coding-plan
 - 定价页: https://help.aliyun.com/zh/model-studio/coding-plan
 - 币种: USD
-- 数据更新时间: 2026-08-27T17:11:11Z
+- 数据更新时间: 2026-08-28T08:54:00Z
 - 核实时间: 2026-08-22T09:32:50Z
 
 共 **12** 个模型。

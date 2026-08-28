@@ -6,7 +6,7 @@
 - Homepage: https://developer.qiniu.com/aitokenapi
 - Pricing page: https://developer.qiniu.com/aitokenapi
 - Currency: USD
-- Data updated: 2026-08-28T08:18:12.812923Z
+- Data updated: 2026-08-28T08:54:00Z
 - Verified: 2026-08-21T11:27:12Z
 
 **91** models in total.

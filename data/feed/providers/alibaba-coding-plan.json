@@ -7,7 +7,7 @@
   "homepage": "https://www.alibabacloud.com/help/en/model-studio/coding-plan",
   "pricing_page": "https://www.alibabacloud.com/help/en/model-studio/coding-plan",
   "currency": "USD",
-  "updated_at": "2026-08-27T17:11:11Z",
+  "updated_at": "2026-08-28T08:54:00Z",
   "verified_at": "2026-08-22T09:32:50Z",
   "models": [
     {
@@ -229,8 +229,12 @@
       "max_output": 65536,
       "pricing": {
         "per_mtok": {
-          "input": 0.1875,
-          "output": 1.125,
+          "input": {
+            "usd": 0.1875
+          },
+          "output": {
+            "usd": 1.125
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -281,9 +285,15 @@
       "max_output": 65536,
       "pricing": {
         "per_mtok": {
-          "input": 2.5,
-          "output": 7.5,
-          "cache_read": 0.5,
+          "input": {
+            "usd": 2.5
+          },
+          "output": {
+            "usd": 7.5
+          },
+          "cache_read": {
+            "usd": 0.5
+          },
           "cache_write": null
         },
         "batch": null,

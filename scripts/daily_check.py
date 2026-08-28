@@ -20,7 +20,8 @@ from datetime import datetime, timezone
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (  # noqa: E402
     FEED, META, PROVIDERS, ROOT, append_changelog, fetch_json, load_changelog,
-    load_index, load_manifest, now_iso, read_json, save_index, save_manifest, write_json,
+    load_index, load_manifest, now_iso, price_of, read_json, save_index, save_manifest,
+    set_price, write_json,
 )
 from sync_openrouter import build_model  # noqa: E402
 
@@ -88,15 +89,28 @@ def sync_modelsdev_diff(now):
             rp = remote_by_id[mid].get("pricing", {}).get("per_mtok") or {}
             changed_fields = {}
             for k in ("input", "output", "cache_read"):
-                if rp.get(k) is not None and lp.get(k) != rp.get(k):
-                    changed_fields[k] = (lp.get(k), rp.get(k))
+                rpv = rp.get(k) or {}
+                if not isinstance(rpv, dict):
+                    rpv = {"usd": rpv} if rpv is not None else {}
+                for currency, rv in rpv.items():
+                    if rv is None:
+                        continue
+                    lv = price_of(lp, k, currency)
+                    if lv != rv:
+                        changed_fields[f"{k}.{currency}"] = (lv, rv)
             if changed_fields:
-                for k, (old_v, new_v) in changed_fields.items():
-                    local_by_id[mid]["pricing"]["per_mtok"][k] = new_v
+                for fk, (old_v, new_v) in changed_fields.items():
+                    key, currency = fk.split(".", 1)
+                    # update only this currency, preserving any others (e.g. cny added by official sync)
+                    set_price(local_by_id[mid].setdefault("pricing", {}).setdefault("per_mtok", {}), key, currency, new_v)
                 stats["changed_models"] += 1
+                new_shape = {}
+                for fk, (old_v, new_v) in changed_fields.items():
+                    key, currency = fk.split(".", 1)
+                    new_shape.setdefault(key, {})[currency] = new_v
                 entries.append({"date": now, "kind": "update", "scope": "model", "provider_id": pid,
                                 "item_id": mid, "field": "pricing", "old": changed_fields,
-                                "new": {k: v[1] for k, v in changed_fields.items()}, "source": MODELSDEV_URL})
+                                "new": new_shape, "source": MODELSDEV_URL})
         if stats["added_models"] or stats["changed_models"]:
             local["updated_at"] = now
             local["verified_at"] = now
@@ -285,9 +299,13 @@ def _fmt_prices(v, labels=None):
     parts = []
     for k, label in labels:
         val = v.get(k)
-        if val is None:
-            continue
-        if isinstance(val, list):
+        if isinstance(val, dict):
+            # dual-currency object {usd, cny}: pick a representative value (usd preferred)
+            uv = val.get("usd") if val.get("usd") is not None else val.get("cny")
+            if uv is None or not isinstance(uv, (int, float)):
+                continue
+            val = uv
+        elif isinstance(val, list):
             val = val[0] if val else None
         if isinstance(val, (int, float)):
             parts.append(f"{label} ${val:g}")
