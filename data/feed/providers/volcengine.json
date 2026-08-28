@@ -7,7 +7,7 @@
   "homepage": "https://www.volcengine.com/product/ark",
   "pricing_page": "https://www.volcengine.com/docs/82379",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
+  "updated_at": "2026-08-28T09:59:14.634355Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -22,13 +22,16 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.4453
+            "usd": 0.4453,
+            "cny": 3.0
           },
           "output": {
-            "usd": 1.3359
+            "usd": 1.3359,
+            "cny": 9.0
           },
           "cache_read": {
-            "usd": 0.01484
+            "usd": 0.01484,
+            "cny": 0.1
           },
           "cache_write": null
         },
@@ -37,7 +40,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Volcano Ark pricing (¥/1M tokens, online standard): deepseek-v4-flash (Volcano reroute; matches DeepSeek official).",
       "billing_model": [
         "pay_per_token"
       ]
@@ -54,13 +57,16 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.3359
+            "usd": 1.3359,
+            "cny": 9.0
           },
           "output": {
-            "usd": 4.00771
+            "usd": 4.00771,
+            "cny": 27.0
           },
           "cache_read": {
-            "usd": 0.04453
+            "usd": 0.04453,
+            "cny": 0.3
           },
           "cache_write": null
         },
@@ -69,7 +75,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Volcano Ark pricing (¥/1M tokens, online standard): deepseek-v4-pro (Volcano reroute; matches DeepSeek official).",
       "billing_model": [
         "pay_per_token"
       ]
@@ -82,9 +88,15 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": {
+            "cny": 3.0
+          },
+          "output": {
+            "cny": 15.0
+          },
+          "cache_read": {
+            "cny": 1.2
+          },
           "cache_write": null
         },
         "batch": null,
@@ -92,7 +104,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Volcengine domestic CNY pricing only (input ¥6/1M, output ¥30/1M, cache-hit ¥1.2/1M); no official USD price page — left null (was previously mislabeled as USD).",
+      "notes": "Volcengine domestic CNY pricing only (input ¥6/1M, output ¥30/1M, cache-hit ¥1.2/1M); no official USD price page — left null (was previously mislabeled as USD). | Volcano Ark ¥/1M (first tier).",
       "billing_model": [
         "pay_per_token"
       ]
@@ -105,9 +117,15 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": {
+            "cny": 1.5
+          },
+          "output": {
+            "cny": 7.5
+          },
+          "cache_read": {
+            "cny": 0.6
+          },
           "cache_write": null
         },
         "batch": null,
@@ -115,7 +133,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Volcengine domestic CNY pricing only (input ¥3/1M, output ¥15/1M, cache-hit ¥0.6/1M (half of 2.1 Pro)); no official USD price page — left null (was previously mislabeled as USD).",
+      "notes": "Volcengine domestic CNY pricing only (input ¥3/1M, output ¥15/1M, cache-hit ¥0.6/1M (half of 2.1 Pro)); no official USD price page — left null (was previously mislabeled as USD). | Volcano Ark ¥/1M (first tier).",
       "billing_model": [
         "pay_per_token"
       ]
@@ -132,13 +150,16 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.11875
+            "usd": 0.11875,
+            "cny": 0.4
           },
           "output": {
-            "usd": 1.18747
+            "usd": 1.18747,
+            "cny": 4.0
           },
           "cache_read": {
-            "usd": 0.02375
+            "usd": 0.02375,
+            "cny": 0.16
           },
           "cache_write": null
         },
@@ -147,7 +168,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Volcano Ark official pricing (¥/1M tokens, first tier [0,min]). Doubao output tiered; higher (>0.2k) output listed for 1.6/1.8.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -164,13 +185,16 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.02227
+            "usd": 0.02227,
+            "cny": 0.075
           },
           "output": {
-            "usd": 0.22265
+            "usd": 0.22265,
+            "cny": 0.75
           },
           "cache_read": {
-            "usd": 0.00445
+            "usd": 0.00445,
+            "cny": 0.03
           },
           "cache_write": null
         },
@@ -179,7 +203,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Volcano Ark official pricing (¥/1M tokens, first tier [0,min]). Doubao output tiered; higher (>0.2k) output listed for 1.6/1.8.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -196,13 +220,16 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.11875
+            "usd": 0.11875,
+            "cny": 0.4
           },
           "output": {
-            "usd": 1.18747
+            "usd": 1.18747,
+            "cny": 4.0
           },
           "cache_read": {
-            "usd": 0.02375
+            "usd": 0.02375,
+            "cny": 0.16
           },
           "cache_write": null
         },
@@ -211,7 +238,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Volcano Ark official pricing (¥/1M tokens, first tier [0,min]). Doubao output tiered; higher (>0.2k) output listed for 1.6/1.8.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -228,13 +255,16 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.11875
+            "usd": 0.11875,
+            "cny": 0.4
           },
           "output": {
-            "usd": 1.18747
+            "usd": 1.18747,
+            "cny": 4.0
           },
           "cache_read": {
-            "usd": 0.02375
+            "usd": 0.02375,
+            "cny": 0.16
           },
           "cache_write": null
         },
@@ -243,7 +273,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Volcano Ark official pricing (¥/1M tokens, first tier [0,min]). Doubao output tiered; higher (>0.2k) output listed for 1.6/1.8.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -260,13 +290,16 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.47499
+            "usd": 0.47499,
+            "cny": 1.6
           },
           "output": {
-            "usd": 2.37494
+            "usd": 2.37494,
+            "cny": 8.0
           },
           "cache_read": {
-            "usd": 0.095
+            "usd": 0.095,
+            "cny": 0.64
           },
           "cache_write": null
         },
@@ -275,7 +308,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Volcano Ark official pricing (¥/1M tokens, first tier [0,min]). Doubao output tiered; higher (>0.2k) output listed for 1.6/1.8.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -292,13 +325,16 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.08906
+            "usd": 0.08906,
+            "cny": 1.2
           },
           "output": {
-            "usd": 0.53436
+            "usd": 0.53436,
+            "cny": 7.2
           },
           "cache_read": {
-            "usd": 0.01781
+            "usd": 0.01781,
+            "cny": 0.24
           },
           "cache_write": null
         },
@@ -307,7 +343,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Volcano Ark official pricing (¥/1M tokens, first tier [0,min]). Doubao output tiered; higher (>0.2k) output listed for 1.6/1.8.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -324,13 +360,16 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.02969
+            "usd": 0.02969,
+            "cny": 0.4
           },
           "output": {
-            "usd": 0.29687
+            "usd": 0.29687,
+            "cny": 4.0
           },
           "cache_read": {
-            "usd": 0.00594
+            "usd": 0.00594,
+            "cny": 0.08
           },
           "cache_write": null
         },
@@ -339,7 +378,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Volcano Ark official pricing (¥/1M tokens, first tier [0,min]). Doubao output tiered; higher (>0.2k) output listed for 1.6/1.8.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -356,13 +395,16 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.47499
+            "usd": 0.47499,
+            "cny": 1.6
           },
           "output": {
-            "usd": 2.37494
+            "usd": 2.37494,
+            "cny": 8.0
           },
           "cache_read": {
-            "usd": 0.095
+            "usd": 0.095,
+            "cny": 0.64
           },
           "cache_write": null
         },
@@ -371,7 +413,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Volcano Ark official pricing (¥/1M tokens, first tier [0,min]). Doubao output tiered; higher (>0.2k) output listed for 1.6/1.8.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -388,13 +430,16 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.8906
+            "usd": 0.8906,
+            "cny": 3.0
           },
           "output": {
-            "usd": 4.45301
+            "usd": 4.45301,
+            "cny": 15.0
           },
           "cache_read": {
-            "usd": 0.17812
+            "usd": 0.17812,
+            "cny": 1.2
           },
           "cache_write": null
         },
@@ -403,7 +448,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Volcano Ark official pricing (¥/1M tokens, first tier [0,min]). Doubao output tiered; higher (>0.2k) output listed for 1.6/1.8.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -420,13 +465,16 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.4453
+            "usd": 0.4453,
+            "cny": 1.5
           },
           "output": {
-            "usd": 2.22651
+            "usd": 2.22651,
+            "cny": 7.5
           },
           "cache_read": {
-            "usd": 0.08906
+            "usd": 0.08906,
+            "cny": 0.6
           },
           "cache_write": null
         },
@@ -435,7 +483,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Volcano Ark official pricing (¥/1M tokens, first tier [0,min]). Doubao output tiered; higher (>0.2k) output listed for 1.6/1.8.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -452,13 +500,16 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.11875
+            "usd": 0.11875,
+            "cny": 0.8
           },
           "output": {
-            "usd": 0.29687
+            "usd": 0.29687,
+            "cny": 2.0
           },
           "cache_read": {
-            "usd": 0.02375
+            "usd": 0.02375,
+            "cny": 0.16
           },
           "cache_write": null
         },
@@ -467,7 +518,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Volcano Ark official pricing (¥/1M tokens, first tier [0,min]). Doubao output tiered; higher (>0.2k) output listed for 1.6/1.8.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -484,13 +535,16 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.8906
+            "usd": 0.8906,
+            "cny": 6.0
           },
           "output": {
-            "usd": 4.45301
+            "usd": 4.45301,
+            "cny": 30.0
           },
           "cache_read": {
-            "usd": 0.17812
+            "usd": 0.17812,
+            "cny": 1.2
           },
           "cache_write": null
         },
@@ -499,7 +553,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Volcano Ark official pricing (¥/1M tokens, first tier [0,min]). Doubao output tiered; higher (>0.2k) output listed for 1.6/1.8.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -516,10 +570,12 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.18747
+            "usd": 1.18747,
+            "cny": 8.0
           },
           "output": {
-            "usd": 4.15615
+            "usd": 4.15615,
+            "cny": 28.0
           },
           "cache_read": {
             "usd": 0.29687
@@ -531,7 +587,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Volcano Ark pricing (¥/1M tokens, online standard): glm-5.2 (Volcano reroute).",
       "billing_model": [
         "pay_per_token"
       ]

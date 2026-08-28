@@ -1,6 +1,18 @@
 {
-  "schema_version": "26.7.15",
+  "schema_version": "26.7.16",
   "entries": [
+    {
+      "date": "2026-08-28T09:55:00Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "stepfun",
+      "item_id": "step-3.7-flash,step-3.7-flash,step-3.7-flash,step-3.5-flash,step-3.5-flash,step-3.5-flash,step-3.5-flash-2603,step-3.5-flash-2603,step-3.5-flash-2603",
+      "field": "pricing",
+      "new": {
+        "models": 9
+      },
+      "source": "https://platform.stepfun.com/docs/zh/guides/pricing/details"
+    },
     {
       "date": "2026-08-28T09:39:37Z",
       "kind": "update",

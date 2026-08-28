@@ -7,8 +7,8 @@
   "homepage": "https://platform.stepfun.com/docs/zh/overview/concept",
   "pricing_page": "https://platform.stepfun.com/docs/zh/overview/concept",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
-  "verified_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T09:55:00Z",
+  "verified_at": "2026-08-28T09:55:00Z",
   "models": [
     {
       "id": "step-1-32k",
@@ -86,13 +86,16 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.1
+            "usd": 0.1,
+            "cny": 0.7
           },
           "output": {
-            "usd": 0.3
+            "usd": 0.3,
+            "cny": 2.1
           },
           "cache_read": {
-            "usd": 0.02
+            "usd": 0.02,
+            "cny": 0.14
           },
           "cache_write": null
         },
@@ -101,7 +104,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "StepFun domestic pricing (¥/1M tokens, cache-miss/cache-hit/output): ¥0.7/¥0.14/¥2.1. Verified 2026-08-28T09:55:06Z (CNY). Independent of the int'l USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -118,13 +121,16 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.1
+            "usd": 0.1,
+            "cny": 0.7
           },
           "output": {
-            "usd": 0.3
+            "usd": 0.3,
+            "cny": 2.1
           },
           "cache_read": {
-            "usd": 0.02
+            "usd": 0.02,
+            "cny": 0.14
           },
           "cache_write": null
         },
@@ -133,7 +139,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "StepFun domestic pricing (¥/1M tokens, cache-miss/cache-hit/output): ¥0.7/¥0.14/¥2.1. Verified 2026-08-28T09:55:06Z (CNY). Independent of the int'l USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -150,13 +156,16 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.185
+            "usd": 0.185,
+            "cny": 1.35
           },
           "output": {
-            "usd": 1.11
+            "usd": 1.11,
+            "cny": 8.1
           },
           "cache_read": {
-            "usd": 0.037
+            "usd": 0.037,
+            "cny": 0.27
           },
           "cache_write": null
         },
@@ -165,7 +174,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "StepFun domestic pricing (¥/1M tokens, cache-miss/cache-hit/output): ¥1.35/¥0.27/¥8.1. Verified 2026-08-28T09:55:06Z (CNY). Independent of the int'l USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
       ]

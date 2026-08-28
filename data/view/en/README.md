@@ -91,7 +91,7 @@
 | [Inceptron](providers/inceptron.md) | Inference host | 4 | `providers/inceptron.json` | 2026-08-28T08:54:00Z |
 | [OVHcloud AI Endpoints](providers/ovhcloud.md) | Inference host | 14 | `providers/ovhcloud.json` | 2026-08-28T08:54:00Z |
 | [AKI.IO](providers/aki-io.md) | Inference host | 8 | `providers/aki-io.json` | 2026-08-28T08:54:00Z |
-| [StepFun (China)](providers/stepfun.md) | First-party | 8 | `providers/stepfun.json` | 2026-08-28T08:54:00Z |
+| [StepFun (China)](providers/stepfun.md) | First-party | 8 | `providers/stepfun.json` | 2026-08-28T09:55:00Z |
 | [Llama](providers/llama.md) | Inference host | 7 | `providers/llama.json` | 2026-08-28T08:54:00Z |
 | [Cloudflare AI Gateway](providers/cloudflare-ai-gateway.md) | Aggregator | 79 | `providers/cloudflare-ai-gateway.json` | 2026-08-28T08:54:00Z |
 | [D.Run (China)](providers/drun.md) | Inference host | 3 | `providers/drun.json` | 2026-08-28T08:54:00Z |
@@ -191,7 +191,7 @@
 | [JetBrains](providers/jetbrains.md) | Subscription | 0 | `providers/jetbrains.json` | 2026-08-27T17:11:11Z |
 | [百度智能云千帆 (Baidu Qianfan)](providers/baidu.md) | First-party | 3 | `providers/baidu.json` | 2026-08-28T09:39:37Z |
 | [腾讯混元 (Tencent Hunyuan)](providers/tencent.md) | First-party | 1 | `providers/tencent.json` | 2026-08-28T08:54:00Z |
-| [字节跳动·火山引擎方舟 (ByteDance Volcengine Ark / 豆包)](providers/volcengine.md) | First-party | 17 | `providers/volcengine.json` | 2026-08-28T08:54:00Z |
+| [字节跳动·火山引擎方舟 (ByteDance Volcengine Ark / 豆包)](providers/volcengine.md) | First-party | 17 | `providers/volcengine.json` | 2026-08-28T09:59:14.634355Z |
 | [Devin (Cognition)](providers/devin.md) | Subscription | 0 | `providers/devin.json` | 2026-08-27T17:11:11Z |
 | [Amazon Web Services](providers/aws.md) | Cloud-hosted | 120 | `providers/aws.json` | 2026-08-28T08:54:00Z |
 | [Tabnine](providers/tabnine.md) | Subscription | 0 | `providers/tabnine.json` | 2026-08-27T17:11:11Z |
