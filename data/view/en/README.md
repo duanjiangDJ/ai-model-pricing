@@ -106,7 +106,7 @@
 | [IO.NET](providers/io-net.md) | Inference host | 17 | `providers/io-net.json` | 2026-08-28T08:54:00Z |
 | [Berget.AI](providers/berget.md) | Inference host | 9 | `providers/berget.json` | 2026-08-28T08:54:00Z |
 | [Xiaomi](providers/xiaomi.md) | Inference host | 10 | `providers/xiaomi.json` | 2026-08-28T08:54:00Z |
-| [Alibaba](providers/alibaba.md) | First-party | 54 | `providers/alibaba.json` | 2026-08-28T08:54:00Z |
+| [Alibaba](providers/alibaba.md) | First-party | 54 | `providers/alibaba.json` | 2026-08-28T10:18:35.973852Z |
 | [Sakana AI](providers/sakana.md) | Inference host | 4 | `providers/sakana.json` | 2026-08-28T08:54:00Z |
 | [ZenMux](providers/zenmux.md) | Inference host | 120 | `providers/zenmux.json` | 2026-08-28T08:54:00Z |
 | [Alibaba Coding Plan](providers/alibaba-coding-plan.md) | Subscription | 12 | `providers/alibaba-coding-plan.json` | 2026-08-28T08:54:00Z |

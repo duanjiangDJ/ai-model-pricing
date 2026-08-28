@@ -6,7 +6,7 @@
 - Homepage: https://www.alibabacloud.com/help/en/model-studio/models
 - Pricing page: https://www.alibabacloud.com/help/en/model-studio/models
 - Currency: USD
-- Data updated: 2026-08-28T08:54:00Z
+- Data updated: 2026-08-28T10:18:35.973852Z
 - Verified: 2026-08-28T05:09:27Z
 
 **54** models in total.
@@ -15,17 +15,17 @@
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `deepseek-v4-flash-0731` | — | reasoning | per-token | 1M | $0.2 | $0.4 | $0.04 | — | —/— | — | models.dev official list price |
 | `glm-5.2` | — | reasoning | per-token | 1M | $1.4 | $4.4 | $0.28 | — | —/— | — | models.dev official list price |
-| `qvq-max` | — | reasoning | per-token | 131.072K | $1.2 | $4.8 | — | — | —/— | — | models.dev official list price |
-| `qwen-flash` | — | reasoning | per-token | 1M | $0.05 | $0.4 | — | — | —/— | — | models.dev official list price |
-| `qwen-max` | — | chat | per-token | 32.768K | $1.6 | $6.4 | — | — | —/— | — | models.dev official list price |
+| `qvq-max` | — | reasoning | per-token | 131.072K | $1.2 / ¥8 | $4.8 / ¥32 | — | — | —/— | — | models.dev official list price \| Alibaba Bailian (CNY/1M tokens, CN region f… |
+| `qwen-flash` | — | reasoning | per-token | 1M | $0.05 / ¥0.15 | $0.4 / ¥1.5 | — | — | —/— | — | models.dev official list price \| Alibaba Bailian (CNY/1M tokens, CN region f… |
+| `qwen-max` | — | chat | per-token | 32.768K | $1.6 / ¥2.4 | $6.4 / ¥9.6 | — | — | —/— | — | models.dev official list price \| Alibaba Bailian (CNY/1M tokens, CN region f… |
 | `qwen-mt-plus` | — | chat | per-token | 16.384K | $2.46 | $7.37 | — | — | —/— | — | models.dev official list price |
 | `qwen-mt-turbo` | — | chat | per-token | 16.384K | $0.16 | $0.49 | — | — | —/— | — | models.dev official list price |
 | `qwen-omni-turbo` | — | chat | per-token | 32.768K | $0.07 | $0.27 | — | — | —/— | — | models.dev official list price |
 | `qwen-omni-turbo-realtime` | — | chat | per-token | 32.768K | $0.27 | $1.07 | — | — | —/— | — | models.dev official list price |
 | `qwen-plus` | — | reasoning | per-token | 1M | $0.4 | $1.2 | — | — | —/— | — | models.dev official list price |
 | `qwen-plus-character-ja` | — | chat | per-token | 8.192K | $0.5 | $1.4 | — | — | —/— | — | models.dev official list price |
-| `qwen-turbo` | — | reasoning | per-token | 1M | $0.05 | $0.2 | — | — | —/— | — | models.dev official list price |
-| `qwen-vl-max` | — | chat | per-token | 131.072K | $0.8 | $3.2 | — | — | —/— | — | models.dev official list price |
+| `qwen-turbo` | — | reasoning | per-token | 1M | $0.05 / ¥0.3 | $0.2 / ¥3 | — | — | —/— | — | models.dev official list price \| Alibaba Bailian (CNY/1M tokens, CN region f… |
+| `qwen-vl-max` | — | chat | per-token | 131.072K | $0.8 / ¥1.6 | $3.2 / ¥4 | — | — | —/— | — | models.dev official list price \| Alibaba Bailian (CNY/1M tokens, CN region f… |
 | `qwen-vl-ocr` | — | chat | per-token | 34.096K | $0.07 | $0.16 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen-vl-plus` | — | chat | per-token | 131.072K | $0.21 | $0.63 | — | — | —/— | — | models.dev official list price |
 | `qwen2-5-14b-instruct` | — | chat | per-token | 131.072K | $0.35 | $1.4 | — | — | —/— | — | models.dev official list price |
@@ -65,5 +65,5 @@
 | `qwen3.6-plus` | — | reasoning | per-token | 1M | $0.5 | $3 | $0.05 | — | —/— | — | models.dev official list price |
 | `qwen3.7-max` | — | reasoning | per-token | 1M | $2.5 | $7.5 | $0.5 | — | —/— | — | models.dev official list price |
 | `qwen3.7-plus` | — | reasoning | per-token | 1M | $0.4 | $1.6 | $0.05 | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
-| `qwen3.8-max` | — | reasoning | per-token | 1M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
+| `qwen3.8-max` | — | reasoning | per-token | 1M | $2 / ¥12 | $6 / ¥36 | $0.25 | — | —/— | — | models.dev official list price \| Alibaba Bailian (CNY/1M tokens, CN region f… |
 | `qwq-plus` | — | reasoning | per-token | 131.072K | $0.8 | $2.4 | — | — | —/— | — | models.dev official list price |
