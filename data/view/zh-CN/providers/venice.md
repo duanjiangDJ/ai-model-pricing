@@ -6,8 +6,8 @@
 - 官网: https://docs.venice.ai
 - 定价页: https://docs.venice.ai
 - 币种: USD
-- 数据更新时间: 2026-08-27T17:11:11Z
-- 核实时间: 2026-08-27T00:36:47Z
+- 数据更新时间: 2026-08-28T05:09:26Z
+- 核实时间: 2026-08-28T05:09:26Z
 
 共 **101** 个模型。
 
@@ -105,7 +105,7 @@
 | `venice-uncensored-role-play` | — | chat | 按量 | 128K | $0.5 | $2 | — | — | —/— | — | models.dev official list price |
 | `xiaomi-mimo-v2-5` | — | reasoning | 按量 | 1M | $0.4 | $2 | $0.08 | — | —/— | — | models.dev official list price |
 | `z-ai-glm-5-3` | — | reasoning | 按量 | 1M | $1.75 | $5.5 | $0.325 | — | —/— | — | models.dev official list price |
-| `z-ai-glm-5-3-flash` | — | reasoning | 按量 | 1.04858M | $0.09375 | $0.3125 | $0.01875 | — | —/— | — | models.dev official list price |
+| `z-ai-glm-5-3-flash` | — | reasoning | 按量 | 1.04858M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `z-ai-glm-5-turbo` | — | reasoning | 按量 | 200K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |
 | `z-ai-glm-5v-turbo` | — | reasoning | 按量 | 200K | $1.5 | $5 | $0.3 | — | —/— | — | models.dev official list price |
 | `zai-org-glm-4.6` | — | reasoning | 按量 | 198K | $0.43 | $1.75 | $0.08 | — | —/— | — | models.dev official list price |

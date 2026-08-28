@@ -6,10 +6,10 @@
 - Homepage: https://docs.together.ai/docs/serverless-models
 - Pricing page: https://docs.together.ai/docs/serverless-models
 - Currency: USD
-- Data updated: 2026-08-27T17:11:11Z
-- Verified: 2026-08-27T00:36:47Z
+- Data updated: 2026-08-28T05:09:26Z
+- Verified: 2026-08-28T05:09:26Z
 
-**36** models in total.
+**37** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -49,3 +49,4 @@
 | `zai-org/GLM-5` | — | reasoning | per-token | 202.752K | $1 | $3.2 | — | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.1` | — | reasoning | per-token | 202.752K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.2` | — | reasoning | per-token | 512K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.3-Flash` | — | reasoning | per-token | 1.04858M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |

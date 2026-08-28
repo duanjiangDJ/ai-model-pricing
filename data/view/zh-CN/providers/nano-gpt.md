@@ -6,10 +6,10 @@
 - 官网: https://docs.nano-gpt.com
 - 定价页: https://docs.nano-gpt.com
 - 币种: USD
-- 数据更新时间: 2026-08-27T17:11:11Z
-- 核实时间: 2026-08-27T00:36:47Z
+- 数据更新时间: 2026-08-28T05:09:26Z
+- 核实时间: 2026-08-28T05:09:26Z
 
-共 **617** 个模型。
+共 **618** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -599,6 +599,7 @@
 | `z-ai/glm-4.6:thinking` | — | reasoning | 按量 | 200K | $0.35 | $1.4 | $0.175 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5-turbo` | — | chat | 按量 | 202.8K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5.3-flash` | — | reasoning | 按量 | 1.04858M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |
+| `z-ai/glm-5.3-flash-uncensored` | — | reasoning | 按量 | 262.144K | $0.125 | $0.5 | $0.0625 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5v-turbo` | — | chat | 按量 | 202.8K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5v-turbo:thinking` | — | reasoning | 按量 | 202.8K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-4.5-Air` | — | chat | 按量 | 128K | $0.12 | $0.8 | $0.06 | — | —/— | — | models.dev official list price |

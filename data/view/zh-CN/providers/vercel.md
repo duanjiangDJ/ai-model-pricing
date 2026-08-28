@@ -6,10 +6,10 @@
 - 官网: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - 定价页: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - 币种: USD
-- 数据更新时间: 2026-08-27T17:11:11Z
-- 核实时间: 2026-08-27T00:36:47Z
+- 数据更新时间: 2026-08-28T05:09:26Z
+- 核实时间: 2026-08-28T05:09:26Z
 
-共 **361** 个模型。
+共 **363** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -156,6 +156,8 @@
 | `inception/mercury-2` | — | reasoning | 按量 | 128K | $0.25 | $0.75 | $0.025 | — | —/— | — | models.dev official list price |
 | `inception/mercury-coder-small` | — | chat | 按量 | 32K | $0.25 | $1 | — | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-3.0-flash` | — | reasoning | 按量 | 256K | $0.06 | $0.18 | $0.012 | — | —/— | — | models.dev official list price |
+| `inclusionai/ling-3.0-flash-fin` | — | reasoning | 免费 | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price |
+| `inclusionai/ling-3.0-flash-fin-free` | — | reasoning | 免费 | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price |
 | `interfaze/interfaze-beta` | — | reasoning | 按量 | 1M | $1.5 | $3.5 | — | — | —/— | — | models.dev official list price |
 | `klingai/kling-v2.5-turbo-i2v` | — | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
 | `klingai/kling-v2.5-turbo-t2v` | — | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |

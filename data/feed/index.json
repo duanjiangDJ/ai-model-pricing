@@ -1,9 +1,9 @@
 {
-  "schema_version": "26.6.11",
-  "generated_at": "2026-08-27T17:37:17Z",
+  "schema_version": "26.7.11",
+  "generated_at": "2026-08-28T05:09:26Z",
   "currency": "USD",
   "provider_count": 185,
-  "model_count": 7239,
+  "model_count": 7294,
   "plan_count": 67,
   "providers": [
     {
@@ -42,9 +42,9 @@
       "id": "neuralwatt",
       "name": "Neuralwatt",
       "channel": "hosted",
-      "model_count": 25,
+      "model_count": 29,
       "file": "providers/neuralwatt.json",
-      "updated_at": "2026-08-27T08:12:48Z"
+      "updated_at": "2026-08-28T05:09:26Z"
     },
     {
       "id": "cloudflare-workers-ai",
@@ -74,9 +74,9 @@
       "id": "orcarouter",
       "name": "OrcaRouter",
       "channel": "aggregator",
-      "model_count": 81,
+      "model_count": 123,
       "file": "providers/orcarouter.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-28T05:09:26Z"
     },
     {
       "id": "zenifra",
@@ -90,9 +90,9 @@
       "id": "nvidia",
       "name": "Nvidia",
       "channel": "first_party",
-      "model_count": 102,
+      "model_count": 103,
       "file": "providers/nvidia.json",
-      "updated_at": "2026-08-27T00:36:47Z"
+      "updated_at": "2026-08-28T05:09:26Z"
     },
     {
       "id": "qvac",
@@ -130,9 +130,9 @@
       "id": "nano-gpt",
       "name": "NanoGPT",
       "channel": "hosted",
-      "model_count": 617,
+      "model_count": 618,
       "file": "providers/nano-gpt.json",
-      "updated_at": "2026-08-27T00:36:47Z"
+      "updated_at": "2026-08-28T05:09:26Z"
     },
     {
       "id": "modelscope",
@@ -378,17 +378,17 @@
       "id": "crossmodel",
       "name": "CrossModel",
       "channel": "hosted",
-      "model_count": 53,
+      "model_count": 54,
       "file": "providers/crossmodel.json",
-      "updated_at": "2026-08-22T09:32:50Z"
+      "updated_at": "2026-08-28T05:09:26Z"
     },
     {
       "id": "kenari",
       "name": "Kenari",
       "channel": "hosted",
-      "model_count": 38,
+      "model_count": 59,
       "file": "providers/kenari.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-28T05:09:26Z"
     },
     {
       "id": "clarifai",
@@ -554,9 +554,9 @@
       "id": "vivgrid",
       "name": "Vivgrid",
       "channel": "hosted",
-      "model_count": 21,
+      "model_count": 22,
       "file": "providers/vivgrid.json",
-      "updated_at": "2026-08-27T00:36:47Z"
+      "updated_at": "2026-08-28T05:09:26Z"
     },
     {
       "id": "nebius",
@@ -682,9 +682,9 @@
       "id": "digitalocean",
       "name": "DigitalOcean",
       "channel": "hosted",
-      "model_count": 92,
+      "model_count": 93,
       "file": "providers/digitalocean.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-28T05:09:26Z"
     },
     {
       "id": "alibaba-coding-plan-cn",
@@ -794,9 +794,9 @@
       "id": "ollama-cloud",
       "name": "Ollama Cloud",
       "channel": "hosted",
-      "model_count": 20,
+      "model_count": 21,
       "file": "providers/ollama-cloud.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-28T05:09:26Z"
     },
     {
       "id": "perplexity",
@@ -898,17 +898,17 @@
       "id": "togetherai",
       "name": "Together AI",
       "channel": "hosted",
-      "model_count": 36,
+      "model_count": 37,
       "file": "providers/togetherai.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-28T05:09:26Z"
     },
     {
       "id": "ofox",
       "name": "Ofox",
       "channel": "hosted",
-      "model_count": 111,
+      "model_count": 112,
       "file": "providers/ofox.json",
-      "updated_at": "2026-08-27T00:36:47Z"
+      "updated_at": "2026-08-28T05:09:26Z"
     },
     {
       "id": "friendli",
@@ -978,9 +978,9 @@
       "id": "requesty",
       "name": "Requesty",
       "channel": "hosted",
-      "model_count": 139,
+      "model_count": 141,
       "file": "providers/requesty.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-28T05:09:26Z"
     },
     {
       "id": "siliconflow",
@@ -1058,9 +1058,9 @@
       "id": "baseten",
       "name": "Baseten",
       "channel": "hosted",
-      "model_count": 19,
+      "model_count": 20,
       "file": "providers/baseten.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-28T05:09:26Z"
     },
     {
       "id": "poe",
@@ -1082,9 +1082,9 @@
       "id": "modal",
       "name": "Modal",
       "channel": "hosted",
-      "model_count": 2,
+      "model_count": 4,
       "file": "providers/modal.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-28T05:09:26Z"
     },
     {
       "id": "aihubmix",
@@ -1178,17 +1178,17 @@
       "id": "vercel",
       "name": "Vercel AI Gateway",
       "channel": "aggregator",
-      "model_count": 361,
+      "model_count": 363,
       "file": "providers/vercel.json",
-      "updated_at": "2026-08-27T00:36:47Z"
+      "updated_at": "2026-08-28T05:09:26Z"
     },
     {
       "id": "edenai",
       "name": "Eden AI",
       "channel": "hosted",
-      "model_count": 237,
+      "model_count": 242,
       "file": "providers/edenai.json",
-      "updated_at": "2026-08-27T00:36:47Z"
+      "updated_at": "2026-08-28T05:09:26Z"
     },
     {
       "id": "novita-ai",
@@ -1210,9 +1210,9 @@
       "id": "llmgateway",
       "name": "DevPass (LLM Gateway)",
       "channel": "aggregator",
-      "model_count": 557,
+      "model_count": 558,
       "file": "providers/llmgateway.json",
-      "updated_at": "2026-08-27T00:36:47Z"
+      "updated_at": "2026-08-28T05:09:26Z"
     },
     {
       "id": "chutes",
@@ -1250,9 +1250,9 @@
       "id": "runinfra",
       "name": "RunInfra",
       "channel": "hosted",
-      "model_count": 5,
+      "model_count": 7,
       "file": "providers/runinfra.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-28T05:09:26Z"
     },
     {
       "id": "gitlab",
@@ -1330,9 +1330,9 @@
       "id": "kilo",
       "name": "Kilo Gateway",
       "channel": "aggregator",
-      "model_count": 373,
+      "model_count": 374,
       "file": "providers/kilo.json",
-      "updated_at": "2026-08-27T00:36:47Z"
+      "updated_at": "2026-08-28T05:09:26Z"
     },
     {
       "id": "pioneer",
@@ -1362,9 +1362,9 @@
       "id": "wandb",
       "name": "Weights & Biases",
       "channel": "hosted",
-      "model_count": 30,
+      "model_count": 31,
       "file": "providers/wandb.json",
-      "updated_at": "2026-08-27T00:36:47Z"
+      "updated_at": "2026-08-28T05:09:26Z"
     },
     {
       "id": "abacus",
@@ -1492,9 +1492,9 @@
       "id": "openrouter",
       "name": "OpenRouter",
       "channel": "aggregator",
-      "model_count": 417,
+      "model_count": 380,
       "file": "providers/openrouter.json",
-      "updated_at": "2026-08-27T17:37:17Z"
+      "updated_at": "2026-08-28T05:09:26Z"
     }
   ]
 }

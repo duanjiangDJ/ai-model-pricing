@@ -7,8 +7,8 @@
   "homepage": "https://portal.neuralwatt.com/docs",
   "pricing_page": "https://portal.neuralwatt.com/docs",
   "currency": "USD",
-  "updated_at": "2026-08-27T17:11:11Z",
-  "verified_at": "2026-08-27T08:12:48Z",
+  "updated_at": "2026-08-28T05:09:26Z",
+  "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
       "id": "Qwen/Qwen3.5-397B-A17B-FP8",
@@ -153,7 +153,7 @@
         "per_mtok": {
           "input": 0.144,
           "output": 0.42,
-          "cache_read": 0.036,
+          "cache_read": 0.0144,
           "cache_write": null
         },
         "batch": null,
@@ -179,7 +179,7 @@
         "per_mtok": {
           "input": 1.45,
           "output": 4.5,
-          "cache_read": 0.3625,
+          "cache_read": 0.145,
           "cache_write": null
         },
         "batch": null,
@@ -205,7 +205,7 @@
         "per_mtok": {
           "input": 1.45,
           "output": 4.5,
-          "cache_read": 0.3625,
+          "cache_read": 0.145,
           "cache_write": null
         },
         "batch": null,
@@ -229,9 +229,9 @@
       "max_output": 1048560,
       "pricing": {
         "per_mtok": {
-          "input": 0.725,
-          "output": 2.25,
-          "cache_read": 0.18125,
+          "input": 0.9425,
+          "output": 2.925,
+          "cache_read": 0.09425,
           "cache_write": null
         },
         "batch": null,
@@ -257,7 +257,7 @@
         "per_mtok": {
           "input": 1.45,
           "output": 4.5,
-          "cache_read": 0.3625,
+          "cache_read": 0.145,
           "cache_write": null
         },
         "batch": null,
@@ -283,7 +283,7 @@
         "per_mtok": {
           "input": 1.45,
           "output": 4.5,
-          "cache_read": 0.3625,
+          "cache_read": 0.145,
           "cache_write": null
         },
         "batch": null,
@@ -307,9 +307,9 @@
       "max_output": 199984,
       "pricing": {
         "per_mtok": {
-          "input": 0.725,
-          "output": 2.25,
-          "cache_read": 0.18125,
+          "input": 0.9425,
+          "output": 2.925,
+          "cache_read": 0.09425,
           "cache_write": null
         },
         "batch": null,
@@ -333,9 +333,9 @@
       "max_output": 199984,
       "pricing": {
         "per_mtok": {
-          "input": 0.725,
-          "output": 2.25,
-          "cache_read": 0.18125,
+          "input": 0.9425,
+          "output": 2.925,
+          "cache_read": 0.09425,
           "cache_write": null
         },
         "batch": null,
@@ -427,6 +427,56 @@
       ]
     },
     {
+      "id": "kimi-k2.7-code",
+      "name": "Kimi K2.7 Code",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262128,
+      "max_output": 262128,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": 0.95,
+          "output": 4,
+          "cache_read": 0.095,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "kimi-k2.7-code-fast",
+      "name": "Kimi K2.7 Code Fast",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262128,
+      "max_output": 262128,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": 0.95,
+          "output": 4,
+          "cache_read": 0.095,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "kimi-k2.7-code-flex",
       "name": "Kimi K2.7 Code Flex",
       "category": "reasoning",
@@ -437,9 +487,9 @@
       "max_output": 262144,
       "pricing": {
         "per_mtok": {
-          "input": 0.475,
-          "output": 2,
-          "cache_read": 0.11875,
+          "input": 0.6175,
+          "output": 2.6,
+          "cache_read": 0.06175,
           "cache_write": null
         },
         "batch": null,
@@ -503,6 +553,31 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "kimi-k3-flex",
+      "name": "Kimi K3 Flex",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048560,
+      "max_output": 1048560,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": 1.95,
+          "output": 9.75,
+          "cache_read": 0.195,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "moonshotai/Kimi-K2.5",
@@ -635,6 +710,31 @@
       ]
     },
     {
+      "id": "qwen3.6-35b",
+      "name": "Qwen3.6 35B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131056,
+      "max_output": 131056,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": 0.29,
+          "output": 1.15,
+          "cache_read": 0.029,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "qwen3.6-35b-fast",
       "name": "Qwen3.6 35B Fast",
       "category": "chat",
@@ -647,7 +747,7 @@
         "per_mtok": {
           "input": 0.29,
           "output": 1.15,
-          "cache_read": 0.0725,
+          "cache_read": 0.029,
           "cache_write": null
         },
         "batch": null,

@@ -6,8 +6,8 @@
 - Homepage: https://api.berget.ai
 - Pricing page: https://api.berget.ai
 - Currency: USD
-- Data updated: 2026-08-27T17:11:11Z
-- Verified: 2026-08-27T00:36:47Z
+- Data updated: 2026-08-28T05:09:26Z
+- Verified: 2026-08-28T05:09:26Z
 
 **9** models in total.
 

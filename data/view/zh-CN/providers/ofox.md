@@ -6,10 +6,10 @@
 - 官网: https://ofox.ai/docs
 - 定价页: https://ofox.ai/docs
 - 币种: USD
-- 数据更新时间: 2026-08-27T17:11:11Z
-- 核实时间: 2026-08-27T00:36:47Z
+- 数据更新时间: 2026-08-28T05:09:26Z
+- 核实时间: 2026-08-28T05:09:26Z
 
-共 **111** 个模型。
+共 **112** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -123,4 +123,5 @@
 | `z-ai/glm-5.1` | — | reasoning | 按量 | 200K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5.2` | — | reasoning | 按量 | 1M | $0.98 | $3.08 | $0.182 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5.3` | — | reasoning | 按量 | 1M | $1.26 | $3.96 | $0.234 | — | —/— | — | models.dev official list price |
+| `z-ai/glm-5.3-flash` | — | reasoning | 按量 | 1M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5v-turbo` | — | reasoning | 按量 | 200K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |

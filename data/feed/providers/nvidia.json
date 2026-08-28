@@ -7,8 +7,8 @@
   "homepage": "https://docs.api.nvidia.com/nim/",
   "pricing_page": "https://docs.api.nvidia.com/nim/",
   "currency": "USD",
-  "updated_at": "2026-08-27T17:11:11Z",
-  "verified_at": "2026-08-27T00:36:47Z",
+  "updated_at": "2026-08-28T05:09:26Z",
+  "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
       "id": "abacusai/dracarys-llama-3.1-70b-instruct",
@@ -269,6 +269,31 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "deepseek-ai/deepseek-v4-pro-0813",
+      "name": "DeepSeek V4 Pro 0813",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 384000,
+      "billing_model": [
+        "free"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "google/gemma-2-2b-it",

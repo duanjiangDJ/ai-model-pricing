@@ -16,6 +16,34 @@
 
 ---
 
+## 26.7.11 — 2026-08-28T05:09Z（内容更新）
+
+- price sync (341 changes):
+- alibaba update x8: qwen3.7-plus,qwen3.7-plus,qwen3.6-flash,qwen3.6-flash,qwen-vl-ocr,qwen-vl-ocr,qwen3.6-35b-; qwen-vl-ocr: {'input': [0.07, 0.72], 'output': [0.16, 0.72]}->{'input': 0.72, 'output': 0.; qwen3-32b: {'input': [0.16, 0.7], 'output': [0.64, 2.8]}->{'input': 0.7, 'output': 2.8}; qwen3-next-80b-a3b-instruct: {'input': [0.15, 0.5], 'output': [1.2, 2]}->{'input': 0.5, 'o; qwen3-next-80b-a3b-thinking: {'input': [0.15, 0.5], 'output': [1.2, 6]}->{'input': 0.5, 'o
+- alibaba-cn update x3: glm-5: {'input': [0.86, 0.573], 'output': [3.15, 2.58]}->{'input': 0.573, 'output': 2.58}; glm-5.1: {'input': [0.87, 0.825], 'output': [3.48, 3.301]}->{'input': 0.825, 'output': 3.3; qwen3.5-397b-a17b: {'input': [0.43, 0.172], 'output': [2.58, 1.032]}->{'input': 0.172, 'ou
+- baseten add x1: zai-org/GLM-5.3-Flash: ?->zai-org/GLM-5.3-Flash
+- crossmodel add x1: z-ai/glm-5.3-flash: ?->z-ai/glm-5.3-flash
+- deepseek update x4: deepseek-v4-flash,deepseek-v4-flash,deepseek-v4-flash,deepseek-v4-pro,deepseek-v4-pro,deep; deepseek-v4-flash: {'input': [0.44, 0.14], 'output': [1.32, 0.28], 'cache_read': [0.014, 0; deepseek-v4-flash-vision-exp: {'input': [0.44, 0.14], 'output': [1.32, 0.28], 'cache_read'; deepseek-v4-pro: {'input': [1.32, 0.435], 'output': [3.96, 0.87], 'cache_read': [0.044, 0.
+- digitalocean add x1: glm-5.3-flash: ?->glm-5.3-flash
+- digitalocean update x9: deepseek-3.2: {'input': [0.25, 0.5], 'output': [0.8, 1.6], 'cache_read': [0.075, 0.15]}->{; deepseek-4-flash: {'input': [0.0679, 0.14], 'output': [0.168, 0.28], 'cache_read': [0.0168; deepseek-v4-flash-0731: {'input': [0.08, 0.14], 'output': [0.252, 0.28], 'cache_read': [0.; deepseek-v4-pro: {'input': [0.87, 1.74], 'output': [1.74, 3.48], 'cache_read': [0.174, 0.3; glm-5.2: {'input': [0.7, 1.4], 'output': [2.2, 4.4], 'cache_read': [0.105, 0.21]}->{'input
+- edenai add x5: databricks/databricks-gpt-oss-120b@eu: ?->databricks/databricks-gpt-oss-120b@eu; databricks/databricks-gpt-oss-20b@eu: ?->databricks/databricks-gpt-oss-20b@eu; vertex/gemini-3.1-flash-lite: ?->vertex/gemini-3.1-flash-lite; vertex/gemini-3.1-flash-lite@eu: ?->vertex/gemini-3.1-flash-lite@eu; vertex/gemini-3.1-flash-lite@us: ?->vertex/gemini-3.1-flash-lite@us
+- edenai update x5: ionos/meta-llama/Llama-3.3-70B-Instruct: {'input': [0.758485, 0.756925], 'output': [0.7584; ionos/openai/gpt-oss-120b: {'input': [0.175035, 0.174675], 'output': [0.758485, 0.756925]}; scaleway/deepseek-v4-flash-0731: {'input': [0.46676, 0.4658], 'output': [0.933521, 0.9316]; scaleway/gpt-oss-120b: {'input': [0.175035, 0.174675], 'output': [0.70014, 0.6987]}->{'inp; scaleway/llama-3.3-70b-instruct: {'input': [1.050211, 1.04805], 'output': [1.050211, 1.048
+- hyper update x5: glm-5: {'input': [0.92, 0.9], 'output': [2.976, 2.804]}->{'input': 0.9, 'output': 2.804}; kimi-k2.5: {'input': [0.544, 0.5444], 'output': [2.76, 2.855]}->{'input': 0.5444, 'output'; llama-3.3-70b-instruct: {'input': [0.638, 0.6066], 'output': [0.768, 1.0386]}->{'input': 0; minimax-m2.7: {'input': [0.424, 0.408], 'output': [1.612, 1.512]}->{'input': 0.408, 'outpu; qwen3.8-flash: {'input': [0.16, 0.15]}->{'input': 0.15}
+- inceptron update x2: moonshotai/Kimi-K2.6: {'cache_read': [0.13, 0.15]}->{'cache_read': 0.15}; moonshotai/Kimi-K2.7-Code: {'input': [0.67, 0.66], 'cache_read': [0.19, 0.18]}->{'input': 
+- kenari add x21: claude-opus-5: ?->claude-opus-5; claude-sonnet-4-6: ?->claude-sonnet-4-6; gemini-3-1-flash-tts: ?->gemini-3-1-flash-tts; gemini-3-1-pro: ?->gemini-3-1-pro; gemini-3-5-flash: ?->gemini-3-5-flash
+- kilo add x1: inclusionai/ling-3.0-flash-fin:free: ?->inclusionai/ling-3.0-flash-fin:free
+- kilo update x9: google/gemma-4-31b-it: {'input': [0.09, 0.08], 'output': [0.34, 0.35], 'cache_read': [0.05; meta-llama/llama-4-maverick: {'output': [0.696, 0.8]}->{'output': 0.8}; minimax/minimax-m2.7:free: {'cache_read': [None, 0]}->{'cache_read': 0}; minimax/minimax-m3:free: {'cache_read': [None, 0]}->{'cache_read': 0}; qwen/qwen3.6-35b-a3b: {'input': [0.14, 0.1], 'output': [1, 0.9]}->{'input': 0.1, 'output':
+- llmgateway add x1: deepseek-v4-flash-vision-exp: ?->deepseek-v4-flash-vision-exp
+- merge-gateway update x1: zai/glm-5.3-flash: {'input': [0.075, 0.015], 'output': [0.25, 0.05], 'cache_read': [0.015,
+- minimax update x2: MiniMax-M2.5-highspeed: ?->{'models': 1}; MiniMax-M2.5-highspeed: {'cache_read': [0.03, 0.06]}->{'cache_read': 0.06}
+- mistral update x3: ministral-3b-latest,ministral-3b-latest,ministral-8b-latest,ministral-8b-latest: ?->{'mode; ministral-3b-latest: {'input': [0.1, 0.04], 'output': [0.1, 0.04]}->{'input': 0.04, 'outpu; ministral-8b-latest: {'input': [0.15, 0.1], 'output': [0.15, 0.1]}->{'input': 0.1, 'output
+- modal add x2: Qwen/Qwen3.8-2.4T-A95B: ?->Qwen/Qwen3.8-2.4T-A95B; zai-org/GLM-5.3-Flash: ?->zai-org/GLM-5.3-Flash
+- nano-gpt add x1: z-ai/glm-5.3-flash-uncensored: ?->z-ai/glm-5.3-flash-uncensored
+- neuralwatt add x4: kimi-k2.7-code: ?->kimi-k2.7-code; kimi-k2.7-code-fast: ?->kimi-k2.7-code-fast; kimi-k3-flex: ?->kimi-k3-flex; qwen3.6-35b: ?->qwen3.6-35b
+- neuralwatt update x10: gemma-4-31b: {'cache_read': [0.036, 0.0144]}->{'cache_read': 0.0144}; glm-5.2: {'cache_read': [0.3625, 0.145]}->{'cache_read': 0.145}; glm-5.2-fast: {'cache_read': [0.3625, 0.145]}->{'cache_read': 0.145}; glm-5.2-flex: {'input': [0.725, 0.9425], 'output': [2.25, 2.925], 'cache_read': [0.18125, ; glm-5.2-short: {'cache_read': [0.3625, 0.145]}->{'cache_read': 0.145}
+- nvidia add x1: deepseek-ai/deepseek-v4-pro-0813: ?->deepseek-ai/deepseek-v4-pro-0813
+- ofox add x1: z-ai/glm-5.3-flash: ?->z-ai/glm-5.3-flash
+
 ## 26.6.11 — 2026-08-27T19:41Z（内容更新）
 
 - price sync (2 changes):

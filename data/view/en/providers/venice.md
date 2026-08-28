@@ -6,8 +6,8 @@
 - Homepage: https://docs.venice.ai
 - Pricing page: https://docs.venice.ai
 - Currency: USD
-- Data updated: 2026-08-27T17:11:11Z
-- Verified: 2026-08-27T00:36:47Z
+- Data updated: 2026-08-28T05:09:26Z
+- Verified: 2026-08-28T05:09:26Z
 
 **101** models in total.
 
@@ -105,7 +105,7 @@
 | `venice-uncensored-role-play` | — | chat | per-token | 128K | $0.5 | $2 | — | — | —/— | — | models.dev official list price |
 | `xiaomi-mimo-v2-5` | — | reasoning | per-token | 1M | $0.4 | $2 | $0.08 | — | —/— | — | models.dev official list price |
 | `z-ai-glm-5-3` | — | reasoning | per-token | 1M | $1.75 | $5.5 | $0.325 | — | —/— | — | models.dev official list price |
-| `z-ai-glm-5-3-flash` | — | reasoning | per-token | 1.04858M | $0.09375 | $0.3125 | $0.01875 | — | —/— | — | models.dev official list price |
+| `z-ai-glm-5-3-flash` | — | reasoning | per-token | 1.04858M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `z-ai-glm-5-turbo` | — | reasoning | per-token | 200K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |
 | `z-ai-glm-5v-turbo` | — | reasoning | per-token | 200K | $1.5 | $5 | $0.3 | — | —/— | — | models.dev official list price |
 | `zai-org-glm-4.6` | — | reasoning | per-token | 198K | $0.43 | $1.75 | $0.08 | — | —/— | — | models.dev official list price |

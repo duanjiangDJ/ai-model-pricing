@@ -7,8 +7,8 @@
   "homepage": "https://api-docs.deepseek.com/quick_start/pricing",
   "pricing_page": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
   "currency": "USD",
-  "updated_at": "2026-08-27T17:11:11Z",
-  "verified_at": "2026-08-27T15:37:35.738047Z",
+  "updated_at": "2026-08-28T05:09:27Z",
+  "verified_at": "2026-08-28T05:09:27Z",
   "models": [
     {
       "id": "deepseek-chat",
@@ -85,7 +85,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00/06:00-10:00 UTC). Corrected from CNY to official USD EN pricing on 2026-08-27.",
+      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). Parsed by check deepseek.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -108,7 +108,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00/06:00-10:00 UTC). Corrected from CNY to official USD EN pricing on 2026-08-27.",
+      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). Parsed by check deepseek.",
       "status": "online",
       "billing_model": [
         "pay_per_token"
@@ -127,7 +127,7 @@
         "per_mtok": {
           "input": 1.32,
           "output": 3.96,
-          "cache_read": 0.044,
+          "cache_read": 0.003625,
           "cache_write": null
         },
         "batch": null,
@@ -135,7 +135,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00/06:00-10:00 UTC). Corrected from CNY to official USD EN pricing on 2026-08-27.",
+      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). Parsed by check deepseek.",
       "billing_model": [
         "pay_per_token"
       ]

@@ -7,8 +7,8 @@
   "homepage": "https://docs.merge.dev/merge-gateway",
   "pricing_page": "https://docs.merge.dev/merge-gateway",
   "currency": "USD",
-  "updated_at": "2026-08-27T17:11:11Z",
-  "verified_at": "2026-08-27T00:36:47Z",
+  "updated_at": "2026-08-28T05:09:26Z",
+  "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
       "id": "anthropic/claude-3-7-sonnet-20250219",
@@ -4572,9 +4572,9 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 0.075,
-          "output": 0.25,
-          "cache_read": 0.015,
+          "input": 0.015,
+          "output": 0.05,
+          "cache_read": 0.003,
           "cache_write": null
         },
         "batch": null,

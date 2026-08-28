@@ -6,8 +6,8 @@
 - 官网: https://www.alibabacloud.com/help/en/model-studio/models
 - 定价页: https://www.alibabacloud.com/help/en/model-studio/models
 - 币种: USD
-- 数据更新时间: 2026-08-27T17:11:11Z
-- 核实时间: 2026-08-27T00:36:47Z
+- 数据更新时间: 2026-08-28T05:09:26Z
+- 核实时间: 2026-08-28T05:09:26Z
 
 共 **86** 个模型。
 
@@ -28,8 +28,8 @@
 | `deepseek-v3-2-exp` | — | chat | 按量 | 131.072K | $0.287 | $0.431 | — | — | —/— | — | models.dev official list price |
 | `deepseek-v4-flash` | — | reasoning | 按量 | 1M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-pro` | — | reasoning | 按量 | 1M | $0.435 | $0.87 | $0.003625 | — | —/— | — | models.dev official list price |
-| `glm-5` | — | reasoning | 按量 | 202.752K | $0.86 | $3.15 | — | — | —/— | — | models.dev official list price |
-| `glm-5.1` | — | reasoning | 按量 | 202.752K | $0.87 | $3.48 | $0.17 | — | —/— | — | models.dev official list price |
+| `glm-5` | — | reasoning | 按量 | 202.752K | $0.573 | $2.58 | — | — | —/— | — | models.dev official list price |
+| `glm-5.1` | — | reasoning | 按量 | 202.752K | $0.825 | $3.301 | $0.17 | — | —/— | — | models.dev official list price |
 | `glm-5.2` | — | reasoning | 按量 | 1M | $1.1 | $3.851 | $0.275 | — | —/— | — | models.dev official list price |
 | `kimi-k2-thinking` | — | reasoning | 按量 | 262.144K | $0.574 | $2.294 | — | — | —/— | — | models.dev official list price |
 | `kimi-k2.5` | — | reasoning | 按量 | 262.144K | $0.574 | $2.411 | — | — | —/— | — | models.dev official list price |
@@ -82,7 +82,7 @@
 | `qwen3-vl-235b-a22b` | — | reasoning | 按量 | 131.072K | $0.286705 | $1.14682 | — | — | —/— | — | models.dev official list price |
 | `qwen3-vl-30b-a3b` | — | reasoning | 按量 | 131.072K | $0.108 | $0.431 | — | — | —/— | — | models.dev official list price |
 | `qwen3-vl-plus` | — | reasoning | 按量 | 262.144K | $0.143353 | $1.43352 | — | — | —/— | — | models.dev official list price |
-| `qwen3.5-397b-a17b` | — | reasoning | 按量 | 262.144K | $0.43 | $2.58 | — | — | —/— | — | models.dev official list price |
+| `qwen3.5-397b-a17b` | — | reasoning | 按量 | 262.144K | $0.172 | $1.032 | — | — | —/— | — | models.dev official list price |
 | `qwen3.5-flash` | — | reasoning | 按量 | 1M | $0.172 | $1.72 | — | — | —/— | — | models.dev official list price |
 | `qwen3.5-plus` | — | reasoning | 按量 | 1M | $0.573 | $3.44 | — | — | —/— | — | models.dev official list price |
 | `qwen3.6-flash` | — | reasoning | 按量 | 1M | $0.1875 | $1.125 | — | — | —/— | — | models.dev official list price |

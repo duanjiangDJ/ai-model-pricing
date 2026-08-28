@@ -6,10 +6,10 @@
 - Homepage: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - Pricing page: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - Currency: USD
-- Data updated: 2026-08-27T17:11:11Z
-- Verified: 2026-08-27T00:36:47Z
+- Data updated: 2026-08-28T05:09:26Z
+- Verified: 2026-08-28T05:09:26Z
 
-**361** models in total.
+**363** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -156,6 +156,8 @@
 | `inception/mercury-2` | — | reasoning | per-token | 128K | $0.25 | $0.75 | $0.025 | — | —/— | — | models.dev official list price |
 | `inception/mercury-coder-small` | — | chat | per-token | 32K | $0.25 | $1 | — | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-3.0-flash` | — | reasoning | per-token | 256K | $0.06 | $0.18 | $0.012 | — | —/— | — | models.dev official list price |
+| `inclusionai/ling-3.0-flash-fin` | — | reasoning | free | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price |
+| `inclusionai/ling-3.0-flash-fin-free` | — | reasoning | free | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price |
 | `interfaze/interfaze-beta` | — | reasoning | per-token | 1M | $1.5 | $3.5 | — | — | —/— | — | models.dev official list price |
 | `klingai/kling-v2.5-turbo-i2v` | — | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
 | `klingai/kling-v2.5-turbo-t2v` | — | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |

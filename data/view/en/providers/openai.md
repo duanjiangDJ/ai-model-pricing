@@ -6,8 +6,8 @@
 - Homepage: https://platform.openai.com/docs/models
 - Pricing page: https://openai.com/chatgpt/pricing/
 - Currency: USD
-- Data updated: 2026-08-27T17:11:11Z
-- Verified: 2026-08-27T08:12:49Z
+- Data updated: 2026-08-28T05:09:26Z
+- Verified: 2026-08-28T05:09:26Z
 
 **47** models in total.
 
@@ -44,7 +44,7 @@
 | `gpt-5.5-pro` | — | reasoning | per-token | 1.05M | $30 | $180 | — | — | —/— | — | models.dev official list price |
 | `gpt-5.6` | — | reasoning | per-token | 1.05M | $4 | $20 | $0.4 | $6.25 | $2.5/$15 | — | Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30… |
 | `gpt-5.6-luna` | — | reasoning | per-token | 1.05M | $0.2 | $1.2 | $0.02 | $0.25 | $2.5/$15 | — | Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30… |
-| `gpt-5.6-sol` | — | reasoning | per-token | 1.05M | $5 | $30 | $0.5 | $6.25 | $2.5/$15 | — | Official platform.openai.com/docs/pricing (Wayback snapshot, USD/1M, standard… |
+| `gpt-5.6-sol` | — | reasoning | per-token | 1.05M | $4 | $20 | $0.4 | $6.25 | $2.5/$15 | — | Official platform.openai.com/docs/pricing (Wayback snapshot, USD/1M, standard… |
 | `gpt-5.6-terra` | — | reasoning | per-token | 1.05M | $2 | $12 | $0.2 | $2.5 | $2.5/$15 | — | Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30… |
 | `gpt-image-1` | ❌ offline | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `gpt-image-1-mini` | ❌ offline | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |

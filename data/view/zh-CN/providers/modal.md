@@ -6,12 +6,14 @@
 - 官网: https://modal.com/docs/guide/endpoints
 - 定价页: https://modal.com/docs/guide/endpoints
 - 币种: USD
-- 数据更新时间: 2026-08-27T17:11:11Z
-- 核实时间: 2026-08-27T00:36:47Z
+- 数据更新时间: 2026-08-28T05:09:26Z
+- 核实时间: 2026-08-28T05:09:26Z
 
-共 **2** 个模型。
+共 **4** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| `Qwen/Qwen3.8-2.4T-A95B` | — | reasoning | 按量 | 1.01M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
 | `moonshotai/Kimi-K3` | — | reasoning | 按量 | 1.04858M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `thinkingmachines/Inkling-NVFP4` | — | reasoning | 按量 | 1.04858M | $1.2 | $5 | $0.27 | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.3-Flash` | — | reasoning | 按量 | 1M | $0.45 | $1.5 | $0.09 | — | —/— | — | models.dev official list price |

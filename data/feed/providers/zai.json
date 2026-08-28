@@ -7,9 +7,33 @@
   "homepage": "https://docs.z.ai/guides/overview/pricing",
   "pricing_page": "https://docs.z.ai/guides/overview/pricing",
   "currency": "USD",
-  "updated_at": "2026-08-27T17:11:11Z",
-  "verified_at": "2026-08-27T07:21:33Z",
+  "updated_at": "2026-08-28T05:09:26Z",
+  "verified_at": "2026-08-28T05:09:26Z",
   "models": [
+    {
+      "id": "glm-4-32b-0414-128k",
+      "name": "glm-4-32b-0414-128k",
+      "category": "chat",
+      "status": "online",
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.1,
+          "output": 0.1,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; effective price after promos; Free = 0). Parsed by check zai.",
+      "billing_model": [
+        "pay_per_token"
+      ]
+    },
     {
       "id": "glm-4.5",
       "name": "GLM-4.5",
@@ -63,6 +87,30 @@
       ]
     },
     {
+      "id": "glm-4.5-airx",
+      "name": "glm-4.5-airx",
+      "category": "chat",
+      "status": "online",
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 1.1,
+          "output": 4.5,
+          "cache_read": 0.22,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; effective price after promos; Free = 0). Parsed by check zai.",
+      "billing_model": [
+        "pay_per_token"
+      ]
+    },
+    {
       "id": "glm-4.5-flash",
       "name": "GLM-4.5-Flash",
       "category": "reasoning",
@@ -86,6 +134,30 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
+      ]
+    },
+    {
+      "id": "glm-4.5-x",
+      "name": "glm-4.5-x",
+      "category": "chat",
+      "status": "online",
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 2.2,
+          "output": 8.9,
+          "cache_read": 0.45,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; effective price after promos; Free = 0). Parsed by check zai.",
+      "billing_model": [
+        "pay_per_token"
       ]
     },
     {
@@ -162,6 +234,54 @@
         "per_request": null
       },
       "notes": "Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; Free = 0). Parsed by check zai.",
+      "billing_model": [
+        "pay_per_token"
+      ]
+    },
+    {
+      "id": "glm-4.6v-flash",
+      "name": "glm-4.6v-flash",
+      "category": "chat",
+      "status": "online",
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.0,
+          "output": 0.0,
+          "cache_read": 0.0,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; effective price after promos; Free = 0). Parsed by check zai.",
+      "billing_model": [
+        "free"
+      ]
+    },
+    {
+      "id": "glm-4.6v-flashx",
+      "name": "glm-4.6v-flashx",
+      "category": "chat",
+      "status": "online",
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": 0.04,
+          "output": 0.4,
+          "cache_read": 0.004,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; effective price after promos; Free = 0). Parsed by check zai.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -461,78 +581,6 @@
       ]
     },
     {
-      "id": "glm-4.5-x",
-      "name": "glm-4.5-x",
-      "category": "chat",
-      "status": "online",
-      "context_window": null,
-      "max_output": null,
-      "pricing": {
-        "per_mtok": {
-          "input": 2.2,
-          "output": 8.9,
-          "cache_read": 0.45,
-          "cache_write": null
-        },
-        "batch": null,
-        "per_image": null,
-        "per_audio_second": null,
-        "per_request": null
-      },
-      "notes": "Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; effective price after promos; Free = 0). Parsed by check zai.",
-      "billing_model": [
-        "pay_per_token"
-      ]
-    },
-    {
-      "id": "glm-4.5-airx",
-      "name": "glm-4.5-airx",
-      "category": "chat",
-      "status": "online",
-      "context_window": null,
-      "max_output": null,
-      "pricing": {
-        "per_mtok": {
-          "input": 1.1,
-          "output": 4.5,
-          "cache_read": 0.22,
-          "cache_write": null
-        },
-        "batch": null,
-        "per_image": null,
-        "per_audio_second": null,
-        "per_request": null
-      },
-      "notes": "Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; effective price after promos; Free = 0). Parsed by check zai.",
-      "billing_model": [
-        "pay_per_token"
-      ]
-    },
-    {
-      "id": "glm-4-32b-0414-128k",
-      "name": "glm-4-32b-0414-128k",
-      "category": "chat",
-      "status": "online",
-      "context_window": null,
-      "max_output": null,
-      "pricing": {
-        "per_mtok": {
-          "input": 0.1,
-          "output": 0.1,
-          "cache_read": null,
-          "cache_write": null
-        },
-        "batch": null,
-        "per_image": null,
-        "per_audio_second": null,
-        "per_request": null
-      },
-      "notes": "Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; effective price after promos; Free = 0). Parsed by check zai.",
-      "billing_model": [
-        "pay_per_token"
-      ]
-    },
-    {
       "id": "glm-ocr",
       "name": "glm-ocr",
       "category": "chat",
@@ -554,54 +602,6 @@
       "notes": "Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; effective price after promos; Free = 0). Parsed by check zai.",
       "billing_model": [
         "pay_per_token"
-      ]
-    },
-    {
-      "id": "glm-4.6v-flashx",
-      "name": "glm-4.6v-flashx",
-      "category": "chat",
-      "status": "online",
-      "context_window": null,
-      "max_output": null,
-      "pricing": {
-        "per_mtok": {
-          "input": 0.04,
-          "output": 0.4,
-          "cache_read": 0.004,
-          "cache_write": null
-        },
-        "batch": null,
-        "per_image": null,
-        "per_audio_second": null,
-        "per_request": null
-      },
-      "notes": "Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; effective price after promos; Free = 0). Parsed by check zai.",
-      "billing_model": [
-        "pay_per_token"
-      ]
-    },
-    {
-      "id": "glm-4.6v-flash",
-      "name": "glm-4.6v-flash",
-      "category": "chat",
-      "status": "online",
-      "context_window": null,
-      "max_output": null,
-      "pricing": {
-        "per_mtok": {
-          "input": 0.0,
-          "output": 0.0,
-          "cache_read": 0.0,
-          "cache_write": null
-        },
-        "batch": null,
-        "per_image": null,
-        "per_audio_second": null,
-        "per_request": null
-      },
-      "notes": "Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; effective price after promos; Free = 0). Parsed by check zai.",
-      "billing_model": [
-        "free"
       ]
     }
   ],

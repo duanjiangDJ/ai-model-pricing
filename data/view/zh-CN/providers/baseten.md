@@ -6,10 +6,10 @@
 - 官网: https://docs.baseten.co/inference/model-apis/overview
 - 定价页: https://docs.baseten.co/inference/model-apis/overview
 - 币种: USD
-- 数据更新时间: 2026-08-27T17:11:11Z
-- 核实时间: 2026-08-27T00:36:47Z
+- 数据更新时间: 2026-08-28T05:09:26Z
+- 核实时间: 2026-08-28T05:09:26Z
 
-共 **19** 个模型。
+共 **20** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -32,3 +32,4 @@
 | `zai-org/GLM-5.1` | — | reasoning | 按量 | 202.8K | $1.3 | $4.3 | $0.26 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.2` | — | reasoning | 按量 | 1.04858M | $1.4 | $4.4 | $0.3 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.2-Fast` | — | reasoning | 按量 | 1.04858M | $2.1 | $6.6 | $0.21 | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.3-Flash` | — | reasoning | 按量 | 1.04858M | $0.15 | $0.5 | — | — | —/— | — | models.dev official list price |

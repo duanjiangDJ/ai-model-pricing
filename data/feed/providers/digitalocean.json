@@ -7,8 +7,8 @@
   "homepage": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
   "pricing_page": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
   "currency": "USD",
-  "updated_at": "2026-08-27T17:11:11Z",
-  "verified_at": "2026-08-27T00:36:47Z",
+  "updated_at": "2026-08-28T05:09:26Z",
+  "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
       "id": "alibaba-qwen3-32b",
@@ -622,9 +622,9 @@
       "max_output": 163840,
       "pricing": {
         "per_mtok": {
-          "input": 0.25,
-          "output": 0.8,
-          "cache_read": 0.075,
+          "input": 0.5,
+          "output": 1.6,
+          "cache_read": 0.15,
           "cache_write": null
         },
         "batch": null,
@@ -648,9 +648,9 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0.0679,
-          "output": 0.168,
-          "cache_read": 0.0168,
+          "input": 0.14,
+          "output": 0.28,
+          "cache_read": 0.028,
           "cache_write": null
         },
         "batch": null,
@@ -726,9 +726,9 @@
       "max_output": 1048576,
       "pricing": {
         "per_mtok": {
-          "input": 0.08,
-          "output": 0.252,
-          "cache_read": 0.0252,
+          "input": 0.14,
+          "output": 0.28,
+          "cache_read": 0.028,
           "cache_write": null
         },
         "batch": null,
@@ -752,9 +752,9 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0.87,
-          "output": 1.74,
-          "cache_read": 0.174,
+          "input": 1.74,
+          "output": 3.48,
+          "cache_read": 0.348,
           "cache_write": null
         },
         "batch": null,
@@ -1013,9 +1013,9 @@
       "max_output": 262144,
       "pricing": {
         "per_mtok": {
-          "input": 0.7,
-          "output": 2.2,
-          "cache_read": 0.105,
+          "input": 1.4,
+          "output": 4.4,
+          "cache_read": 0.21,
           "cache_write": null
         },
         "batch": null,
@@ -1027,6 +1027,31 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "glm-5.3-flash",
+      "name": "GLM5.3 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 1048576,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": 0.15,
+          "output": 0.5,
+          "cache_read": 0.03,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "gte-large-en-v1.5",
@@ -1118,9 +1143,9 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": 2.85,
-          "output": 14.25,
-          "cache_read": 0.285,
+          "input": 3,
+          "output": 15,
+          "cache_read": 0.3,
           "cache_write": null
         },
         "batch": null,
@@ -1144,8 +1169,8 @@
       "max_output": 16384,
       "pricing": {
         "per_mtok": {
-          "input": 0.2,
-          "output": 0.696,
+          "input": 0.25,
+          "output": 0.87,
           "cache_read": null,
           "cache_write": null
         },
@@ -1222,9 +1247,9 @@
       "max_output": 262144,
       "pricing": {
         "per_mtok": {
-          "input": 0.4,
-          "output": 1.5,
-          "cache_read": 0.08,
+          "input": 0.8,
+          "output": 3,
+          "cache_read": 0.16,
           "cache_write": null
         },
         "batch": null,
@@ -2081,8 +2106,8 @@
       "max_output": 4096,
       "pricing": {
         "per_mtok": {
-          "input": 0.055,
-          "output": 0.385,
+          "input": 0.1,
+          "output": 0.7,
           "cache_read": 0.02,
           "cache_write": null
         },

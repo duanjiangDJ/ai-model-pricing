@@ -6,10 +6,10 @@
 - 官网: https://docs.vivgrid.com/models
 - 定价页: https://docs.vivgrid.com/models
 - 币种: USD
-- 数据更新时间: 2026-08-27T17:11:11Z
-- 核实时间: 2026-08-27T00:36:47Z
+- 数据更新时间: 2026-08-28T05:09:26Z
+- 核实时间: 2026-08-28T05:09:26Z
 
-共 **21** 个模型。
+共 **22** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -21,6 +21,7 @@
 | `gemini-3.7-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `glm-5.2` | — | reasoning | 按量 | 1M | $1.2 | $4.2 | $0.3 | — | —/— | — | models.dev official list price |
 | `glm-5.3` | — | reasoning | 按量 | 1M | $1.2 | $4.2 | $0.26 | — | —/— | — | models.dev official list price |
+| `glm-5.3-flash` | — | reasoning | 按量 | 1M | $0.15 | $0.5 | $0.04 | — | —/— | — | models.dev official list price |
 | `gpt-5-mini` | — | reasoning | 按量 | 272K | $0.25 | $2 | $0.03 | — | —/— | — | models.dev official list price |
 | `gpt-5.1-codex` | — | reasoning | 按量 | 400K | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |
 | `gpt-5.1-codex-max` | — | reasoning | 按量 | 400K | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |

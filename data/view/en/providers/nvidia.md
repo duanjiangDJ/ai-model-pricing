@@ -6,10 +6,10 @@
 - Homepage: https://docs.api.nvidia.com/nim/
 - Pricing page: https://docs.api.nvidia.com/nim/
 - Currency: USD
-- Data updated: 2026-08-27T17:11:11Z
-- Verified: 2026-08-27T00:36:47Z
+- Data updated: 2026-08-28T05:09:26Z
+- Verified: 2026-08-28T05:09:26Z
 
-**102** models in total.
+**103** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -23,6 +23,7 @@
 | `deepseek-ai/deepseek-v4-flash` | — | reasoning | per-token | 1.04858M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/deepseek-v4-flash-0731` | — | reasoning | free | 1M | $0 | $0 | — | — | —/— | — | models.dev official list price |
 | `deepseek-ai/deepseek-v4-pro` | — | reasoning | per-token | 1.04858M | $0.435 | $0.87 | $0.003625 | — | —/— | — | models.dev official list price |
+| `deepseek-ai/deepseek-v4-pro-0813` | — | reasoning | free | 1M | $0 | $0 | — | — | —/— | — | models.dev official list price |
 | `google/gemma-2-2b-it` | — | chat | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `google/gemma-3-12b-it` | — | chat | free | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `google/gemma-3-4b-it` | — | chat | free | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

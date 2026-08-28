@@ -6,10 +6,10 @@
 - 官网: https://llmgateway.io/docs
 - 定价页: https://llmgateway.io/docs
 - 币种: USD
-- 数据更新时间: 2026-08-27T17:11:11Z
-- 核实时间: 2026-08-27T00:36:47Z
+- 数据更新时间: 2026-08-28T05:09:26Z
+- 核实时间: 2026-08-28T05:09:26Z
 
-共 **557** 个模型。
+共 **558** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -162,6 +162,7 @@
 | `deepinfra/qwen3.5-9b` | — | reasoning | 按量 | 262.144K | $0.1 | $0.15 | — | — | —/— | — | models.dev official list price |
 | `deepseek-v3.2` | — | reasoning | 按量 | 163.84K | $0.26 | $0.38 | $0.13 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-flash` | — | reasoning | 按量 | 1.05M | $0.051 | $0.104 | $0.0097 | — | —/— | — | models.dev official list price |
+| `deepseek-v4-flash-vision-exp` | — | reasoning | 按量 | 1.05M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-pro` | — | reasoning | 按量 | 1.05M | $0.435 | $0.87 | $0.003625 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash` | — | reasoning | 按量 | 1.05M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | 按量 | 1.05M | $0.435 | $0.87 | $0.003625 | — | —/— | — | models.dev official list price |

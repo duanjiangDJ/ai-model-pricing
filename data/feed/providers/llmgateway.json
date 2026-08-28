@@ -7,8 +7,8 @@
   "homepage": "https://llmgateway.io/docs",
   "pricing_page": "https://llmgateway.io/docs",
   "currency": "USD",
-  "updated_at": "2026-08-27T17:11:11Z",
-  "verified_at": "2026-08-27T00:36:47Z",
+  "updated_at": "2026-08-28T05:09:26Z",
+  "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
       "id": "alibaba/deepseek-v4-flash",
@@ -3883,6 +3883,31 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "deepseek-v4-flash-vision-exp",
+      "name": "DeepSeek V4 Flash Vision Exp",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1050000,
+      "max_output": 384000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": 0.14,
+          "output": 0.28,
+          "cache_read": 0.0028,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "deepseek-v4-pro",

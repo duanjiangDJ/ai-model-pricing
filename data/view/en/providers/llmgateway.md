@@ -6,10 +6,10 @@
 - Homepage: https://llmgateway.io/docs
 - Pricing page: https://llmgateway.io/docs
 - Currency: USD
-- Data updated: 2026-08-27T17:11:11Z
-- Verified: 2026-08-27T00:36:47Z
+- Data updated: 2026-08-28T05:09:26Z
+- Verified: 2026-08-28T05:09:26Z
 
-**557** models in total.
+**558** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -162,6 +162,7 @@
 | `deepinfra/qwen3.5-9b` | — | reasoning | per-token | 262.144K | $0.1 | $0.15 | — | — | —/— | — | models.dev official list price |
 | `deepseek-v3.2` | — | reasoning | per-token | 163.84K | $0.26 | $0.38 | $0.13 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-flash` | — | reasoning | per-token | 1.05M | $0.051 | $0.104 | $0.0097 | — | —/— | — | models.dev official list price |
+| `deepseek-v4-flash-vision-exp` | — | reasoning | per-token | 1.05M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-pro` | — | reasoning | per-token | 1.05M | $0.435 | $0.87 | $0.003625 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash` | — | reasoning | per-token | 1.05M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | per-token | 1.05M | $0.435 | $0.87 | $0.003625 | — | —/— | — | models.dev official list price |

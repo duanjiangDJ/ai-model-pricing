@@ -6,10 +6,10 @@
 - Homepage: https://docs.wandb.ai/guides/integrations/inference/
 - Pricing page: https://docs.wandb.ai/guides/integrations/inference/
 - Currency: USD
-- Data updated: 2026-08-27T17:11:11Z
-- Verified: 2026-08-27T00:36:47Z
+- Data updated: 2026-08-28T05:09:26Z
+- Verified: 2026-08-28T05:09:26Z
 
-**30** models in total.
+**31** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -43,3 +43,4 @@
 | `openai/gpt-oss-20b` | — | reasoning | per-token | 131.072K | $0.03 | $0.13 | $0.03 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.1` | — | reasoning | per-token | 202.752K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.2` | — | reasoning | per-token | 262.144K | $0.76 | $2.42 | $0.14 | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.3-Flash` | — | reasoning | per-token | 1.04858M | $0.15 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |

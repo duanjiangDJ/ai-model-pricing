@@ -6,8 +6,8 @@
 - Homepage: https://platform.minimax.io/docs/guides/quickstart
 - Pricing page: https://platform.minimax.io/docs/guides/quickstart
 - Currency: USD
-- Data updated: 2026-08-27T17:11:11Z
-- Verified: 2026-08-27T00:36:48Z
+- Data updated: 2026-08-28T05:09:27Z
+- Verified: 2026-08-28T05:09:27Z
 
 **7** models in total.
 

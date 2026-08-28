@@ -6,10 +6,10 @@
 - Homepage: https://docs.baseten.co/inference/model-apis/overview
 - Pricing page: https://docs.baseten.co/inference/model-apis/overview
 - Currency: USD
-- Data updated: 2026-08-27T17:11:11Z
-- Verified: 2026-08-27T00:36:47Z
+- Data updated: 2026-08-28T05:09:26Z
+- Verified: 2026-08-28T05:09:26Z
 
-**19** models in total.
+**20** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -32,3 +32,4 @@
 | `zai-org/GLM-5.1` | — | reasoning | per-token | 202.8K | $1.3 | $4.3 | $0.26 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.2` | — | reasoning | per-token | 1.04858M | $1.4 | $4.4 | $0.3 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.2-Fast` | — | reasoning | per-token | 1.04858M | $2.1 | $6.6 | $0.21 | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.3-Flash` | — | reasoning | per-token | 1.04858M | $0.15 | $0.5 | — | — | —/— | — | models.dev official list price |

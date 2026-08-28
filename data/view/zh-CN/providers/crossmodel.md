@@ -6,10 +6,10 @@
 - 官网: https://www.crossmodel.ai/docs
 - 定价页: https://www.crossmodel.ai/docs
 - 币种: USD
-- 数据更新时间: 2026-08-27T17:11:11Z
-- 核实时间: 2026-08-27T00:36:47Z
+- 数据更新时间: 2026-08-28T05:09:26Z
+- 核实时间: 2026-08-28T05:09:26Z
 
-共 **53** 个模型。
+共 **54** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -66,3 +66,4 @@
 | `z-ai/glm-5.1` | — | reasoning | 按量 | 200K | $1 | $3.8 | $0.2 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5.2` | — | reasoning | 按量 | 1M | $1.2 | $4.4 | $0.3 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5.3` | — | reasoning | 按量 | 1M | $1.2 | $4.4 | $0.3 | — | —/— | — | models.dev official list price |
+| `z-ai/glm-5.3-flash` | — | reasoning | 按量 | 1M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |

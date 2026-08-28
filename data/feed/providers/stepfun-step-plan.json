@@ -7,8 +7,8 @@
   "homepage": "https://platform.stepfun.com/docs/zh/step-plan/integrations/reasoning-api",
   "pricing_page": "https://platform.stepfun.com/docs/zh/step-plan/integrations/reasoning-api",
   "currency": "USD",
-  "updated_at": "2026-08-27T17:11:11Z",
-  "verified_at": "2026-08-27T00:36:47Z",
+  "updated_at": "2026-08-28T05:09:26Z",
+  "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
       "id": "step-3.5-flash",

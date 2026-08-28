@@ -6,8 +6,8 @@
 - Homepage: https://docs.merge.dev/merge-gateway
 - Pricing page: https://docs.merge.dev/merge-gateway
 - Currency: USD
-- Data updated: 2026-08-27T17:11:11Z
-- Verified: 2026-08-27T00:36:47Z
+- Data updated: 2026-08-28T05:09:26Z
+- Verified: 2026-08-28T05:09:26Z
 
 **176** models in total.
 
@@ -188,4 +188,4 @@
 | `zai/glm-5.1` | — | reasoning | per-token | 200K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `zai/glm-5.2` | — | reasoning | per-token | 1M | $1.05 | $3.3 | $0.195 | — | —/— | — | models.dev official list price |
 | `zai/glm-5.3` | — | reasoning | per-token | 1M | $0.7 | $2.2 | $0.13 | — | —/— | — | models.dev official list price |
-| `zai/glm-5.3-flash` | — | reasoning | per-token | 1M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |
+| `zai/glm-5.3-flash` | — | reasoning | per-token | 1M | $0.015 | $0.05 | $0.003 | — | —/— | — | models.dev official list price |

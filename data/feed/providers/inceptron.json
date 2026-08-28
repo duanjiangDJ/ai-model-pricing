@@ -7,8 +7,8 @@
   "homepage": "https://docs.inceptron.io",
   "pricing_page": "https://docs.inceptron.io",
   "currency": "USD",
-  "updated_at": "2026-08-27T17:11:11Z",
-  "verified_at": "2026-08-27T00:36:47Z",
+  "updated_at": "2026-08-28T05:09:26Z",
+  "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
       "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
@@ -49,7 +49,7 @@
         "per_mtok": {
           "input": 0.54,
           "output": 3.39,
-          "cache_read": 0.13,
+          "cache_read": 0.15,
           "cache_write": null
         },
         "batch": null,
@@ -73,9 +73,9 @@
       "max_output": 262144,
       "pricing": {
         "per_mtok": {
-          "input": 0.67,
+          "input": 0.66,
           "output": 3.4,
-          "cache_read": 0.19,
+          "cache_read": 0.18,
           "cache_write": null
         },
         "batch": null,

@@ -6,10 +6,10 @@
 - 官网: https://docs.api.nvidia.com/nim/
 - 定价页: https://docs.api.nvidia.com/nim/
 - 币种: USD
-- 数据更新时间: 2026-08-27T17:11:11Z
-- 核实时间: 2026-08-27T00:36:47Z
+- 数据更新时间: 2026-08-28T05:09:26Z
+- 核实时间: 2026-08-28T05:09:26Z
 
-共 **102** 个模型。
+共 **103** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -23,6 +23,7 @@
 | `deepseek-ai/deepseek-v4-flash` | — | reasoning | 按量 | 1.04858M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/deepseek-v4-flash-0731` | — | reasoning | 免费 | 1M | $0 | $0 | — | — | —/— | — | models.dev official list price |
 | `deepseek-ai/deepseek-v4-pro` | — | reasoning | 按量 | 1.04858M | $0.435 | $0.87 | $0.003625 | — | —/— | — | models.dev official list price |
+| `deepseek-ai/deepseek-v4-pro-0813` | — | reasoning | 免费 | 1M | $0 | $0 | — | — | —/— | — | models.dev official list price |
 | `google/gemma-2-2b-it` | — | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `google/gemma-3-12b-it` | — | chat | 免费 | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `google/gemma-3-4b-it` | — | chat | 免费 | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

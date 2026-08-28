@@ -7,8 +7,8 @@
   "homepage": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
   "pricing_page": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
   "currency": "USD",
-  "updated_at": "2026-08-27T17:11:11Z",
-  "verified_at": "2026-08-27T00:36:47Z",
+  "updated_at": "2026-08-28T05:09:26Z",
+  "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
       "id": "alibaba/qwen-3-14b",
@@ -3727,6 +3727,56 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "inclusionai/ling-3.0-flash-fin",
+      "name": "Ling 3.0 Flash Fin",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": 32000,
+      "billing_model": [
+        "free"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "inclusionai/ling-3.0-flash-fin-free",
+      "name": "Ling 3.0 Flash Fin (Free)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": 32000,
+      "billing_model": [
+        "free"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": 0,
+          "output": 0,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "interfaze/interfaze-beta",

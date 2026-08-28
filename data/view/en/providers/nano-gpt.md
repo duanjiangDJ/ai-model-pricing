@@ -6,10 +6,10 @@
 - Homepage: https://docs.nano-gpt.com
 - Pricing page: https://docs.nano-gpt.com
 - Currency: USD
-- Data updated: 2026-08-27T17:11:11Z
-- Verified: 2026-08-27T00:36:47Z
+- Data updated: 2026-08-28T05:09:26Z
+- Verified: 2026-08-28T05:09:26Z
 
-**617** models in total.
+**618** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -599,6 +599,7 @@
 | `z-ai/glm-4.6:thinking` | — | reasoning | per-token | 200K | $0.35 | $1.4 | $0.175 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5-turbo` | — | chat | per-token | 202.8K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5.3-flash` | — | reasoning | per-token | 1.04858M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |
+| `z-ai/glm-5.3-flash-uncensored` | — | reasoning | per-token | 262.144K | $0.125 | $0.5 | $0.0625 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5v-turbo` | — | chat | per-token | 202.8K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5v-turbo:thinking` | — | reasoning | per-token | 202.8K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-4.5-Air` | — | chat | per-token | 128K | $0.12 | $0.8 | $0.06 | — | —/— | — | models.dev official list price |

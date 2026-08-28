@@ -6,8 +6,8 @@
 - 官网: https://docs.merge.dev/merge-gateway
 - 定价页: https://docs.merge.dev/merge-gateway
 - 币种: USD
-- 数据更新时间: 2026-08-27T17:11:11Z
-- 核实时间: 2026-08-27T00:36:47Z
+- 数据更新时间: 2026-08-28T05:09:26Z
+- 核实时间: 2026-08-28T05:09:26Z
 
 共 **176** 个模型。
 
@@ -188,4 +188,4 @@
 | `zai/glm-5.1` | — | reasoning | 按量 | 200K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `zai/glm-5.2` | — | reasoning | 按量 | 1M | $1.05 | $3.3 | $0.195 | — | —/— | — | models.dev official list price |
 | `zai/glm-5.3` | — | reasoning | 按量 | 1M | $0.7 | $2.2 | $0.13 | — | —/— | — | models.dev official list price |
-| `zai/glm-5.3-flash` | — | reasoning | 按量 | 1M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |
+| `zai/glm-5.3-flash` | — | reasoning | 按量 | 1M | $0.015 | $0.05 | $0.003 | — | —/— | — | models.dev official list price |

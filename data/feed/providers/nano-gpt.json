@@ -7,8 +7,8 @@
   "homepage": "https://docs.nano-gpt.com",
   "pricing_page": "https://docs.nano-gpt.com",
   "currency": "USD",
-  "updated_at": "2026-08-27T17:11:11Z",
-  "verified_at": "2026-08-27T00:36:47Z",
+  "updated_at": "2026-08-28T05:09:26Z",
+  "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
       "id": "Baichuan-M2",
@@ -15245,6 +15245,31 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "z-ai/glm-5.3-flash-uncensored",
+      "name": "GLM 5.3 Flash Uncensored",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": 0.125,
+          "output": 0.5,
+          "cache_read": 0.0625,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "z-ai/glm-5v-turbo",

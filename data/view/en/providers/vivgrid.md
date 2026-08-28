@@ -6,10 +6,10 @@
 - Homepage: https://docs.vivgrid.com/models
 - Pricing page: https://docs.vivgrid.com/models
 - Currency: USD
-- Data updated: 2026-08-27T17:11:11Z
-- Verified: 2026-08-27T00:36:47Z
+- Data updated: 2026-08-28T05:09:26Z
+- Verified: 2026-08-28T05:09:26Z
 
-**21** models in total.
+**22** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -21,6 +21,7 @@
 | `gemini-3.7-flash` | — | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `glm-5.2` | — | reasoning | per-token | 1M | $1.2 | $4.2 | $0.3 | — | —/— | — | models.dev official list price |
 | `glm-5.3` | — | reasoning | per-token | 1M | $1.2 | $4.2 | $0.26 | — | —/— | — | models.dev official list price |
+| `glm-5.3-flash` | — | reasoning | per-token | 1M | $0.15 | $0.5 | $0.04 | — | —/— | — | models.dev official list price |
 | `gpt-5-mini` | — | reasoning | per-token | 272K | $0.25 | $2 | $0.03 | — | —/— | — | models.dev official list price |
 | `gpt-5.1-codex` | — | reasoning | per-token | 400K | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |
 | `gpt-5.1-codex-max` | — | reasoning | per-token | 400K | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |

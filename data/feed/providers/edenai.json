@@ -7,8 +7,8 @@
   "homepage": "https://docs.edenai.co",
   "pricing_page": "https://docs.edenai.co",
   "currency": "USD",
-  "updated_at": "2026-08-27T17:11:11Z",
-  "verified_at": "2026-08-27T00:36:47Z",
+  "updated_at": "2026-08-28T05:09:26Z",
+  "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
       "id": "amazon/moonshot.kimi-k2-thinking",
@@ -947,6 +947,31 @@
       ]
     },
     {
+      "id": "databricks/databricks-gpt-oss-120b@eu",
+      "name": "GPT OSS 120B (EU)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131072,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": 0.15001,
+          "output": 0.59997,
+          "cache_read": 0.15001,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "databricks/databricks-gpt-oss-20b",
       "name": "GPT OSS 20B",
       "category": "reasoning",
@@ -971,6 +996,31 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "databricks/databricks-gpt-oss-20b@eu",
+      "name": "GPT OSS 20B (EU)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131072,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": 0.07,
+          "output": 0.30002,
+          "cache_read": 0.07,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "deepinfra/ByteDance/Seed-2.0-code",
@@ -2543,8 +2593,8 @@
       "max_output": 4096,
       "pricing": {
         "per_mtok": {
-          "input": 0.758485,
-          "output": 0.758485,
+          "input": 0.756925,
+          "output": 0.756925,
           "cache_read": null,
           "cache_write": null
         },
@@ -2569,8 +2619,8 @@
       "max_output": 32768,
       "pricing": {
         "per_mtok": {
-          "input": 0.175035,
-          "output": 0.758485,
+          "input": 0.174675,
+          "output": 0.756925,
           "cache_read": null,
           "cache_write": null
         },
@@ -4883,8 +4933,8 @@
       "max_output": 384000,
       "pricing": {
         "per_mtok": {
-          "input": 0.46676,
-          "output": 0.933521,
+          "input": 0.4658,
+          "output": 0.9316,
           "cache_read": null,
           "cache_write": null
         },
@@ -4909,8 +4959,8 @@
       "max_output": 32768,
       "pricing": {
         "per_mtok": {
-          "input": 0.175035,
-          "output": 0.70014,
+          "input": 0.174675,
+          "output": 0.6987,
           "cache_read": null,
           "cache_write": null
         },
@@ -4935,8 +4985,8 @@
       "max_output": 4096,
       "pricing": {
         "per_mtok": {
-          "input": 1.050211,
-          "output": 1.050211,
+          "input": 1.04805,
+          "output": 1.04805,
           "cache_read": null,
           "cache_write": null
         },
@@ -5315,6 +5365,31 @@
       ]
     },
     {
+      "id": "vertex/gemini-3.1-flash-lite",
+      "name": "Gemini 3.1 Flash Lite",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": 0.25,
+          "output": 1.5,
+          "cache_read": 0.025,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "vertex/gemini-3.1-flash-lite-image",
       "name": "Nano Banana 2 Lite",
       "category": "reasoning",
@@ -5339,6 +5414,56 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "vertex/gemini-3.1-flash-lite@eu",
+      "name": "Gemini 3.1 Flash Lite (EU)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": 0.25,
+          "output": 1.5,
+          "cache_read": 0.025,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "vertex/gemini-3.1-flash-lite@us",
+      "name": "Gemini 3.1 Flash Lite (US)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": 0.25,
+          "output": 1.5,
+          "cache_read": 0.025,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "vertex/gemini-3.1-pro-preview",

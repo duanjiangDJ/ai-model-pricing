@@ -6,8 +6,8 @@
 - Homepage: https://www.alibabacloud.com/help/en/model-studio/models
 - Pricing page: https://www.alibabacloud.com/help/en/model-studio/models
 - Currency: USD
-- Data updated: 2026-08-27T17:11:11Z
-- Verified: 2026-08-27T00:36:47Z
+- Data updated: 2026-08-28T05:09:26Z
+- Verified: 2026-08-28T05:09:26Z
 
 **86** models in total.
 
@@ -28,8 +28,8 @@
 | `deepseek-v3-2-exp` | — | chat | per-token | 131.072K | $0.287 | $0.431 | — | — | —/— | — | models.dev official list price |
 | `deepseek-v4-flash` | — | reasoning | per-token | 1M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-pro` | — | reasoning | per-token | 1M | $0.435 | $0.87 | $0.003625 | — | —/— | — | models.dev official list price |
-| `glm-5` | — | reasoning | per-token | 202.752K | $0.86 | $3.15 | — | — | —/— | — | models.dev official list price |
-| `glm-5.1` | — | reasoning | per-token | 202.752K | $0.87 | $3.48 | $0.17 | — | —/— | — | models.dev official list price |
+| `glm-5` | — | reasoning | per-token | 202.752K | $0.573 | $2.58 | — | — | —/— | — | models.dev official list price |
+| `glm-5.1` | — | reasoning | per-token | 202.752K | $0.825 | $3.301 | $0.17 | — | —/— | — | models.dev official list price |
 | `glm-5.2` | — | reasoning | per-token | 1M | $1.1 | $3.851 | $0.275 | — | —/— | — | models.dev official list price |
 | `kimi-k2-thinking` | — | reasoning | per-token | 262.144K | $0.574 | $2.294 | — | — | —/— | — | models.dev official list price |
 | `kimi-k2.5` | — | reasoning | per-token | 262.144K | $0.574 | $2.411 | — | — | —/— | — | models.dev official list price |
@@ -82,7 +82,7 @@
 | `qwen3-vl-235b-a22b` | — | reasoning | per-token | 131.072K | $0.286705 | $1.14682 | — | — | —/— | — | models.dev official list price |
 | `qwen3-vl-30b-a3b` | — | reasoning | per-token | 131.072K | $0.108 | $0.431 | — | — | —/— | — | models.dev official list price |
 | `qwen3-vl-plus` | — | reasoning | per-token | 262.144K | $0.143353 | $1.43352 | — | — | —/— | — | models.dev official list price |
-| `qwen3.5-397b-a17b` | — | reasoning | per-token | 262.144K | $0.43 | $2.58 | — | — | —/— | — | models.dev official list price |
+| `qwen3.5-397b-a17b` | — | reasoning | per-token | 262.144K | $0.172 | $1.032 | — | — | —/— | — | models.dev official list price |
 | `qwen3.5-flash` | — | reasoning | per-token | 1M | $0.172 | $1.72 | — | — | —/— | — | models.dev official list price |
 | `qwen3.5-plus` | — | reasoning | per-token | 1M | $0.573 | $3.44 | — | — | —/— | — | models.dev official list price |
 | `qwen3.6-flash` | — | reasoning | per-token | 1M | $0.1875 | $1.125 | — | — | —/— | — | models.dev official list price |

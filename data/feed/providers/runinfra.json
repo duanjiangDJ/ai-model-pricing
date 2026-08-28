@@ -7,8 +7,8 @@
   "homepage": "https://runinfra.ai/docs",
   "pricing_page": "https://runinfra.ai/docs",
   "currency": "USD",
-  "updated_at": "2026-08-27T17:11:11Z",
-  "verified_at": "2026-08-27T00:36:47Z",
+  "updated_at": "2026-08-28T05:09:26Z",
+  "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
       "id": "Inferact/Qwen3.8-2.4T-A95B-NVFP4",
@@ -127,7 +127,7 @@
         "per_mtok": {
           "input": 0.05,
           "output": 0.15,
-          "cache_read": null,
+          "cache_read": 0.01,
           "cache_write": null
         },
         "batch": null,
@@ -139,6 +139,56 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "ornith-ai/Ornith-1.5-35B-A3B",
+      "name": "Ornith 1.5 35B A3B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": 0.1,
+          "output": 0.4,
+          "cache_read": 0.01,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "zai-org/GLM-5.3-Flash",
+      "name": "GLM-5.3-Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": 0.1,
+          "output": 0.4,
+          "cache_read": 0.01,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     }
   ],
   "api_base_url": "https://api.runinfra.ai/v1"
