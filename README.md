@@ -39,19 +39,19 @@ verification.
 
 ## Data Statistics (exact)
 
-- **Providers**: 186
-- **Models**: 7294
+- **Providers**: 190
+- **Models**: 7301
 - **Subscription plans**: 67
-- **Distinct API endpoints**: 179
-- **Free models**: 469
+- **Distinct API endpoints**: 183
+- **Free models**: 470
 
 ### By channel
 
 | Channel | Providers | Models |
 |---|---|---|
 | Inference host | 138 | 4361 |
+| First-party | 20 | 416 |
 | Subscription | 18 | 173 |
-| First-party | 16 | 409 |
 | Aggregator | 13 | 2231 |
 | Cloud-hosted | 1 | 120 |
 
@@ -60,15 +60,15 @@ verification.
 | Region | Providers |
 |---|---|
 | Global | 175 |
-| US | 8 |
-| China | 3 |
+| US | 9 |
+| China | 6 |
 
 ### Model status
 
 | Status | Models |
 |---|---|
 | offline | 43 |
-| online | 11 |
+| online | 18 |
 | (unmarked) | 7240 |
 
 ### Top providers by model count
@@ -95,8 +95,8 @@ verification.
 
 | Currency | Providers |
 |---|---|
-| USD | 185 |
-| CNY | 1 |
+| USD | 186 |
+| CNY | 4 |
 
 <!-- STATS:END -->
 

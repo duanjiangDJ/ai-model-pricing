@@ -1,0 +1,73 @@
+{
+  "provider_id": "lingyiwanwu",
+  "name": "零一万物 (01.AI)",
+  "channel": "first_party",
+  "category": "ai_vendor",
+  "region": "cn",
+  "homepage": "https://www.lingyiwanwu.com",
+  "pricing_page": "https://platform.lingyiwanwu.com",
+  "currency": "CNY",
+  "updated_at": "2026-08-28T10:02:16.380334Z",
+  "verified_at": "2026-08-28T10:02:16.380334Z",
+  "price_currency": "CNY",
+  "currency_usd_note": "Lingyiwanwu official pricing is CNY-only (platform.lingyiwanwu.com); no official USD page.",
+  "api_base_url": "https://api.lingyiwanwu.com/v1",
+  "models": [
+    {
+      "id": "yi-lightning",
+      "name": "Yi-Lightning",
+      "category": "chat",
+      "context_window": 32768,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "cny": 0.99
+          },
+          "output": {
+            "cny": 0.99
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official Lingyiwanwu (CNY/1M tokens): in ¥0.99, out ¥0.99. yi-lightning. Verified 2026-08-28.",
+      "status": "online",
+      "billing_model": [
+        "pay_per_token"
+      ]
+    },
+    {
+      "id": "yi-large",
+      "name": "Yi-Large",
+      "category": "chat",
+      "context_window": 32768,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "cny": 20.0
+          },
+          "output": {
+            "cny": 20.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official Lingyiwanwu (CNY/1M tokens): in ¥20, out ¥20. yi-large. Verified 2026-08-28.",
+      "status": "online",
+      "billing_model": [
+        "pay_per_token"
+      ]
+    }
+  ]
+}

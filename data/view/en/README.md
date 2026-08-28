@@ -3,9 +3,9 @@
 > Data sources: official pricing pages & public APIs. Machine-readable version: [`data/feed/`](../../../data/feed/).
 > Auto-updated daily by GitHub Actions (see `.github/workflows/daily-check.yml`).
 
-- Generated: 2026-08-28T05:09:26Z
-- Providers: 186
-- Models total: 7294
+- Generated: 2026-08-28T10:02:37.202960Z
+- Providers: 190
+- Models total: 7301
 - Plans total: 67
 
 ## Providers
@@ -197,6 +197,10 @@
 | [Tabnine](providers/tabnine.md) | Subscription | 0 | `providers/tabnine.json` | 2026-08-27T17:11:11Z |
 | [Replit](providers/replit.md) | Subscription | 0 | `providers/replit.json` | 2026-08-27T17:11:11Z |
 | [Z.AI Coding Plan](providers/zai-coding-plan.md) | Subscription | 6 | `providers/zai-coding-plan.json` | 2026-08-27T17:11:11Z |
+| [AI21 Labs](providers/ai21.md) | First-party | 2 | `providers/ai21.json` | 2026-08-28T10:02:16.380334Z |
+| [百川智能 (Baichuan)](providers/baichuan.md) | First-party | 1 | `providers/baichuan.json` | 2026-08-28T10:02:16.380334Z |
+| [科大讯飞星火 (iFlytek Spark)](providers/iflytek.md) | First-party | 2 | `providers/iflytek.json` | 2026-08-28T10:02:16.380334Z |
+| [零一万物 (01.AI)](providers/lingyiwanwu.md) | First-party | 2 | `providers/lingyiwanwu.json` | 2026-08-28T10:02:16.380334Z |
 | [OpenRouter](providers/openrouter.md) | Aggregator | 380 | `providers/openrouter.json` | 2026-08-28T08:54:00Z |
 
 ## Plans
