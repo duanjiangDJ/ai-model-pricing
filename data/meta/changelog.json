@@ -1,6 +1,30 @@
 {
-  "schema_version": "26.7.14",
+  "schema_version": "26.7.15",
   "entries": [
+    {
+      "date": "2026-08-28T09:39:37Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "baidu",
+      "item_id": "ernie-5.1,ernie-5.1,ernie-5.0,ernie-5.0,ernie-4.5-turbo,ernie-4.5-turbo",
+      "field": "pricing",
+      "new": {
+        "models": 6
+      },
+      "source": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya"
+    },
+    {
+      "date": "2026-08-28T09:39:34Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "deepseek",
+      "item_id": "deepseek-v4-flash,deepseek-v4-flash,deepseek-v4-flash,deepseek-v4-flash,deepseek-v4-pro,deepseek-v4-pro,deepseek-v4-pro,deepseek-v4-pro,deepseek-v4-flash-vision-exp,deepseek-v4-flash-vision-exp,deepseek-v4-flash-vision-exp,deepseek-v4-flash-vision-exp",
+      "field": "pricing",
+      "new": {
+        "models": 12
+      },
+      "source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing"
+    },
     {
       "date": "2026-08-28T09:00:33Z",
       "kind": "update",

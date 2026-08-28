@@ -16,6 +16,15 @@
 
 ---
 
+## 26.7.15 — 2026-08-28T09:40Z（功能更新）
+
+## 26.7.15 — 2026-08-28T09:40Z（功能更新）
+
+- **feat(deepseek 双币)**：`tier0_deepseek.py` 现同时抓取中文定价页（api-docs.deepseek.com/zh-cn，JS 渲染）并补充 `cny` 分支——deepseek-v4-flash ¥3/¥9、pro ¥9/¥27。国内 CNY 与 USD 列表相互独立（非汇率换算）。修正 pro `cache_read.usd` 的历史错误值（0.003625 → 0.044）。
+- **feat(baidu 双币)**：新增 `tier1_baidu.py` 抓取千帆 ModelBuilder 页（headless Chrome），将 ¥/千tokens 换算为 ¥/1M（×1000）：ernie-5.0 ¥6/¥24（双币）、ernie-5.1 ¥4/¥18、ernie-4.5-turbo ¥0.8/¥3.2（仅 CNY）。国内价与国际 USD 列表相互独立。
+- **feat(billing_model 自动同步)**：`update_model_prices` 在模型任一币种有真实正价时自动修正 `billing_model` 为 `pay_per_token`——不再出现补 CNY 后因陈旧 free/subscription/unknown 标签导致 audit 失败。
+- 现 13 个模型携带双币（zhipuai + deepseek + baidu）。
+
 ## 26.7.14 — 2026-08-28T09:05Z（功能更新）
 
 ## 26.7.14 — 2026-08-28T09:05Z（功能更新）

@@ -7,8 +7,8 @@
   "homepage": "https://api-docs.deepseek.com/quick_start/pricing",
   "pricing_page": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
-  "verified_at": "2026-08-28T05:09:27Z",
+  "updated_at": "2026-08-28T09:39:56.778415Z",
+  "verified_at": "2026-08-28T09:39:34Z",
   "models": [
     {
       "id": "deepseek-chat",
@@ -88,22 +88,27 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.44
+            "usd": 0.44,
+            "cny": 3.0
           },
           "output": {
-            "usd": 1.32
+            "usd": 1.32,
+            "cny": 9.0
           },
           "cache_read": {
-            "usd": 0.014
+            "usd": 0.014,
+            "cny": 0.1
           },
-          "cache_write": null
+          "cache_write": {
+            "cny": 0.05
+          }
         },
         "batch": null,
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). Parsed by check deepseek.",
+      "notes": "Domestic api-docs.deepseek.com/zh-cn pricing (CNY/1M tokens, peak tier; independent of the USD list — not a currency conversion). Parsed by check deepseek.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -117,22 +122,27 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.44
+            "usd": 0.44,
+            "cny": 3.0
           },
           "output": {
-            "usd": 1.32
+            "usd": 1.32,
+            "cny": 9.0
           },
           "cache_read": {
-            "usd": 0.014
+            "usd": 0.014,
+            "cny": 0.1
           },
-          "cache_write": null
+          "cache_write": {
+            "cny": 0.05
+          }
         },
         "batch": null,
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). Parsed by check deepseek.",
+      "notes": "Domestic api-docs.deepseek.com/zh-cn pricing (CNY/1M tokens, peak tier; independent of the USD list — not a currency conversion). Parsed by check deepseek.",
       "status": "online",
       "billing_model": [
         "pay_per_token"
@@ -150,22 +160,27 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.32
+            "usd": 1.32,
+            "cny": 9.0
           },
           "output": {
-            "usd": 3.96
+            "usd": 3.96,
+            "cny": 27.0
           },
           "cache_read": {
-            "usd": 0.003625
+            "usd": 0.044,
+            "cny": 0.3
           },
-          "cache_write": null
+          "cache_write": {
+            "cny": 0.15
+          }
         },
         "batch": null,
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). Parsed by check deepseek.",
+      "notes": "Domestic api-docs.deepseek.com/zh-cn pricing (CNY/1M tokens, peak tier; independent of the USD list — not a currency conversion). Parsed by check deepseek.",
       "billing_model": [
         "pay_per_token"
       ]

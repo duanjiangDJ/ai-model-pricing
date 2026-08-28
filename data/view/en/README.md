@@ -32,7 +32,7 @@
 | [Synthetic](providers/synthetic.md) | Inference host | 8 | `providers/synthetic.json` | 2026-08-28T08:54:00Z |
 | [Jalapeno Cloud](providers/jalapeno.md) | Inference host | 17 | `providers/jalapeno.json` | 2026-08-28T08:54:00Z |
 | [abliteration.ai](providers/abliteration-ai.md) | Inference host | 2 | `providers/abliteration-ai.json` | 2026-08-28T08:54:00Z |
-| [DeepSeek](providers/deepseek.md) | First-party | 5 | `providers/deepseek.json` | 2026-08-28T08:54:00Z |
+| [DeepSeek](providers/deepseek.md) | First-party | 5 | `providers/deepseek.json` | 2026-08-28T09:39:56.778415Z |
 | [GreenPT](providers/greenpt.md) | Inference host | 37 | `providers/greenpt.json` | 2026-08-28T08:54:00Z |
 | [Xpersona](providers/xpersona.md) | Inference host | 13 | `providers/xpersona.json` | 2026-08-28T08:54:00Z |
 | [Tencent TokenHub](providers/tencent-tokenhub.md) | Inference host | 2 | `providers/tencent-tokenhub.json` | 2026-08-28T08:54:00Z |
@@ -189,7 +189,7 @@
 | [Cursor (Anysphere)](providers/cursor.md) | Subscription | 0 | `providers/cursor.json` | 2026-08-27T17:11:11Z |
 | [Windsurf (Codeium)](providers/windsurf.md) | Subscription | 0 | `providers/windsurf.json` | 2026-08-27T17:11:11Z |
 | [JetBrains](providers/jetbrains.md) | Subscription | 0 | `providers/jetbrains.json` | 2026-08-27T17:11:11Z |
-| [百度智能云千帆 (Baidu Qianfan)](providers/baidu.md) | First-party | 3 | `providers/baidu.json` | 2026-08-28T08:54:00Z |
+| [百度智能云千帆 (Baidu Qianfan)](providers/baidu.md) | First-party | 3 | `providers/baidu.json` | 2026-08-28T09:39:37Z |
 | [腾讯混元 (Tencent Hunyuan)](providers/tencent.md) | First-party | 1 | `providers/tencent.json` | 2026-08-28T08:54:00Z |
 | [字节跳动·火山引擎方舟 (ByteDance Volcengine Ark / 豆包)](providers/volcengine.md) | First-party | 17 | `providers/volcengine.json` | 2026-08-28T08:54:00Z |
 | [Devin (Cognition)](providers/devin.md) | Subscription | 0 | `providers/devin.json` | 2026-08-27T17:11:11Z |
