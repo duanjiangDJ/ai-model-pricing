@@ -106,7 +106,7 @@
 | [IO.NET](providers/io-net.md) | 推理托管 | 17 | `providers/io-net.json` | 2026-08-28T08:54:00Z |
 | [Berget.AI](providers/berget.md) | 推理托管 | 9 | `providers/berget.json` | 2026-08-28T08:54:00Z |
 | [Xiaomi](providers/xiaomi.md) | 推理托管 | 10 | `providers/xiaomi.json` | 2026-08-28T08:54:00Z |
-| [Alibaba](providers/alibaba.md) | 官方直供 | 54 | `providers/alibaba.json` | 2026-08-28T08:54:00Z |
+| [Alibaba](providers/alibaba.md) | 官方直供 | 54 | `providers/alibaba.json` | 2026-08-28T10:18:35.973852Z |
 | [Sakana AI](providers/sakana.md) | 推理托管 | 4 | `providers/sakana.json` | 2026-08-28T08:54:00Z |
 | [ZenMux](providers/zenmux.md) | 推理托管 | 120 | `providers/zenmux.json` | 2026-08-28T08:54:00Z |
 | [Alibaba Coding Plan](providers/alibaba-coding-plan.md) | 订阅制 | 12 | `providers/alibaba-coding-plan.json` | 2026-08-28T08:54:00Z |

@@ -6,7 +6,7 @@
 - 官网: https://www.alibabacloud.com/help/en/model-studio/models
 - 定价页: https://www.alibabacloud.com/help/en/model-studio/models
 - 币种: USD
-- 数据更新时间: 2026-08-28T08:54:00Z
+- 数据更新时间: 2026-08-28T10:18:35.973852Z
 - 核实时间: 2026-08-28T05:09:27Z
 
 共 **54** 个模型。
@@ -15,17 +15,17 @@
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `deepseek-v4-flash-0731` | — | reasoning | 按量 | 1M | $0.2 | $0.4 | $0.04 | — | —/— | — | models.dev official list price |
 | `glm-5.2` | — | reasoning | 按量 | 1M | $1.4 | $4.4 | $0.28 | — | —/— | — | models.dev official list price |
-| `qvq-max` | — | reasoning | 按量 | 131.072K | $1.2 | $4.8 | — | — | —/— | — | models.dev official list price |
-| `qwen-flash` | — | reasoning | 按量 | 1M | $0.05 | $0.4 | — | — | —/— | — | models.dev official list price |
-| `qwen-max` | — | chat | 按量 | 32.768K | $1.6 | $6.4 | — | — | —/— | — | models.dev official list price |
+| `qvq-max` | — | reasoning | 按量 | 131.072K | $1.2 / ¥8 | $4.8 / ¥32 | — | — | —/— | — | models.dev official list price \| Alibaba Bailian (CNY/1M tokens, CN region f… |
+| `qwen-flash` | — | reasoning | 按量 | 1M | $0.05 / ¥0.15 | $0.4 / ¥1.5 | — | — | —/— | — | models.dev official list price \| Alibaba Bailian (CNY/1M tokens, CN region f… |
+| `qwen-max` | — | chat | 按量 | 32.768K | $1.6 / ¥2.4 | $6.4 / ¥9.6 | — | — | —/— | — | models.dev official list price \| Alibaba Bailian (CNY/1M tokens, CN region f… |
 | `qwen-mt-plus` | — | chat | 按量 | 16.384K | $2.46 | $7.37 | — | — | —/— | — | models.dev official list price |
 | `qwen-mt-turbo` | — | chat | 按量 | 16.384K | $0.16 | $0.49 | — | — | —/— | — | models.dev official list price |
 | `qwen-omni-turbo` | — | chat | 按量 | 32.768K | $0.07 | $0.27 | — | — | —/— | — | models.dev official list price |
 | `qwen-omni-turbo-realtime` | — | chat | 按量 | 32.768K | $0.27 | $1.07 | — | — | —/— | — | models.dev official list price |
 | `qwen-plus` | — | reasoning | 按量 | 1M | $0.4 | $1.2 | — | — | —/— | — | models.dev official list price |
 | `qwen-plus-character-ja` | — | chat | 按量 | 8.192K | $0.5 | $1.4 | — | — | —/— | — | models.dev official list price |
-| `qwen-turbo` | — | reasoning | 按量 | 1M | $0.05 | $0.2 | — | — | —/— | — | models.dev official list price |
-| `qwen-vl-max` | — | chat | 按量 | 131.072K | $0.8 | $3.2 | — | — | —/— | — | models.dev official list price |
+| `qwen-turbo` | — | reasoning | 按量 | 1M | $0.05 / ¥0.3 | $0.2 / ¥3 | — | — | —/— | — | models.dev official list price \| Alibaba Bailian (CNY/1M tokens, CN region f… |
+| `qwen-vl-max` | — | chat | 按量 | 131.072K | $0.8 / ¥1.6 | $3.2 / ¥4 | — | — | —/— | — | models.dev official list price \| Alibaba Bailian (CNY/1M tokens, CN region f… |
 | `qwen-vl-ocr` | — | chat | 按量 | 34.096K | $0.07 | $0.16 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen-vl-plus` | — | chat | 按量 | 131.072K | $0.21 | $0.63 | — | — | —/— | — | models.dev official list price |
 | `qwen2-5-14b-instruct` | — | chat | 按量 | 131.072K | $0.35 | $1.4 | — | — | —/— | — | models.dev official list price |
@@ -65,5 +65,5 @@
 | `qwen3.6-plus` | — | reasoning | 按量 | 1M | $0.5 | $3 | $0.05 | — | —/— | — | models.dev official list price |
 | `qwen3.7-max` | — | reasoning | 按量 | 1M | $2.5 | $7.5 | $0.5 | — | —/— | — | models.dev official list price |
 | `qwen3.7-plus` | — | reasoning | 按量 | 1M | $0.4 | $1.6 | $0.05 | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
-| `qwen3.8-max` | — | reasoning | 按量 | 1M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
+| `qwen3.8-max` | — | reasoning | 按量 | 1M | $2 / ¥12 | $6 / ¥36 | $0.25 | — | —/— | — | models.dev official list price \| Alibaba Bailian (CNY/1M tokens, CN region f… |
 | `qwq-plus` | — | reasoning | 按量 | 131.072K | $0.8 | $2.4 | — | — | —/— | — | models.dev official list price |

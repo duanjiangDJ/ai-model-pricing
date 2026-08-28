@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.7.18 — 2026-08-28T11:05Z (feature update)
+
+## 26.7.18 — 2026-08-28T11:05Z (feature update)
+
+- **feat(alibaba CNY)**: added the CNY branch for the major Qwen models from the Alibaba Bailian billing page (CNY/1M tokens): qwen-max ¥2.4/¥9.6, qwen-flash ¥0.15/¥1.5, qwen-turbo ¥0.3/¥3, qwen-vl-max ¥1.6/¥4, qwen3.8-max ¥12/¥36, qvq-max ¥8/¥32. Domestic CNY independent of the int'l USD list. Complex tiered/region models (qwen-plus etc.) deferred.
+
 ## 26.7.17 — 2026-08-28T10:50Z (feature update)
 
 ## 26.7.17 — 2026-08-28T10:50Z (feature update)

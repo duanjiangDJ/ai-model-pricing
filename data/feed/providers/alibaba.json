@@ -7,7 +7,7 @@
   "homepage": "https://www.alibabacloud.com/help/en/model-studio/models",
   "pricing_page": "https://www.alibabacloud.com/help/en/model-studio/models",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
+  "updated_at": "2026-08-28T10:18:35.973852Z",
   "verified_at": "2026-08-28T05:09:27Z",
   "models": [
     {
@@ -86,10 +86,12 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.2
+            "usd": 1.2,
+            "cny": 8.0
           },
           "output": {
-            "usd": 4.8
+            "usd": 4.8,
+            "cny": 32.0
           },
           "cache_read": null,
           "cache_write": null
@@ -99,7 +101,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Alibaba Bailian (CNY/1M tokens, CN region first tier, non-thinking). Verified 2026-08-28.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -116,10 +118,12 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.05
+            "usd": 0.05,
+            "cny": 0.15
           },
           "output": {
-            "usd": 0.4
+            "usd": 0.4,
+            "cny": 1.5
           },
           "cache_read": null,
           "cache_write": null
@@ -129,7 +133,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Alibaba Bailian (CNY/1M tokens, CN region first tier, non-thinking). Verified 2026-08-28.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -146,10 +150,12 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.6
+            "usd": 1.6,
+            "cny": 2.4
           },
           "output": {
-            "usd": 6.4
+            "usd": 6.4,
+            "cny": 9.6
           },
           "cache_read": null,
           "cache_write": null
@@ -159,7 +165,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Alibaba Bailian (CNY/1M tokens, CN region first tier, non-thinking). Verified 2026-08-28.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -356,10 +362,12 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.05
+            "usd": 0.05,
+            "cny": 0.3
           },
           "output": {
-            "usd": 0.2
+            "usd": 0.2,
+            "cny": 3.0
           },
           "cache_read": null,
           "cache_write": null
@@ -369,7 +377,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Alibaba Bailian (CNY/1M tokens, CN region first tier, non-thinking). Verified 2026-08-28.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -386,10 +394,12 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.8
+            "usd": 0.8,
+            "cny": 1.6
           },
           "output": {
-            "usd": 3.2
+            "usd": 3.2,
+            "cny": 4.0
           },
           "cache_read": null,
           "cache_write": null
@@ -399,7 +409,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Alibaba Bailian (CNY/1M tokens, CN region first tier, non-thinking). Verified 2026-08-28.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -1594,10 +1604,12 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2
+            "usd": 2,
+            "cny": 12.0
           },
           "output": {
-            "usd": 6
+            "usd": 6,
+            "cny": 36.0
           },
           "cache_read": {
             "usd": 0.25
@@ -1609,7 +1621,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Alibaba Bailian (CNY/1M tokens, CN region first tier, non-thinking). Verified 2026-08-28.",
       "billing_model": [
         "pay_per_token"
       ]
