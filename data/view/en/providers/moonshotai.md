@@ -6,15 +6,15 @@
 - Homepage: https://platform.moonshot.ai/docs/api/chat
 - Pricing page: https://platform.moonshot.ai/docs/api/chat
 - Currency: USD
-- Data updated: 2026-08-28T10:21:08.100805Z
+- Data updated: 2026-08-28T10:21:27.508629Z
 - Verified: 2026-08-28T05:09:26Z
 
 **14** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `k3` | — | reasoning | sub-included | 1.04858M | ¥20 | ¥100 | ¥2 | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `k3-256k` | — | reasoning | sub-included | 262.144K | ¥20 | ¥100 | ¥2 | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `k3` | — | reasoning | per-token | 1.04858M | ¥20 | ¥100 | ¥2 | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `k3-256k` | — | reasoning | per-token | 262.144K | ¥20 | ¥100 | ¥2 | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
 | `kimi-for-coding` | — | reasoning | sub-included | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
 | `kimi-for-coding-highspeed` | — | reasoning | sub-included | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
 | `kimi-k2-0711-preview` | — | chat | per-token | 131.072K | $0.6 | $2.5 | $0.15 | — | —/— | — | models.dev official list price |
