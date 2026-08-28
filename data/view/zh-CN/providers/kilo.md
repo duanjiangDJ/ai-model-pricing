@@ -6,7 +6,7 @@
 - 官网: https://kilo.ai
 - 定价页: https://kilo.ai
 - 币种: USD
-- 数据更新时间: 2026-08-28T05:09:26Z
+- 数据更新时间: 2026-08-28T08:09:20.424261Z
 - 核实时间: 2026-08-28T05:09:26Z
 
 共 **374** 个模型。
@@ -109,7 +109,7 @@
 | `inclusionai/ling-2.6-1t` | — | chat | 按量 | 262.144K | $0.3 | $2.5 | $0.06 | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-2.6-flash` | — | chat | 按量 | 262.144K | $0.1 | $0.3 | $0.02 | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-3.0-flash` | — | reasoning | 按量 | 262.144K | $0.06 | $0.18 | $0.012 | — | —/— | — | models.dev official list price |
-| `inclusionai/ling-3.0-flash-fin:free` | — | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price |
+| `inclusionai/ling-3.0-flash-fin:free` | — | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `inclusionai/ring-2.6-1t` | — | reasoning | 按量 | 262.144K | $0.3 | $2.5 | $0.06 | — | —/— | — | models.dev official list price |
 | `kilo-auto/balanced` | — | reasoning | 按量 | 1M | $0.325 | $1.95 | $0.0325 | — | —/— | — | models.dev official list price |
 | `kilo-auto/efficient` | — | reasoning | 按量 | 1M | $0.325 | $1.95 | $0.0325 | — | —/— | — | models.dev official list price |
@@ -122,7 +122,7 @@
 | `liquid/lfm-2.5-2.6b:free` | — | reasoning | 免费 | 65.536K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `mancer/weaver` | — | chat | 按量 | 8K | $0.5 | $0.75 | — | — | —/— | — | models.dev official list price |
 | `meituan/longcat-2.0` | — | reasoning | 按量 | 1.04876M | $0.75 | $3 | $0.015 | — | —/— | — | models.dev official list price |
-| `meituan/longcat-2.0-free` | — | reasoning | 免费 | 1.04876M | $0 | $0 | $0 | — | —/— | — | models.dev official list price |
+| `meituan/longcat-2.0-free` | — | reasoning | 免费 | 1.04876M | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `meta-llama/llama-3.1-70b-instruct` | — | chat | 按量 | 131.072K | $0.4 | $0.4 | — | — | —/— | — | models.dev official list price |
 | `meta-llama/llama-3.1-8b-instruct` | — | chat | 按量 | 131.072K | $0.02 | $0.04 | — | — | —/— | — | models.dev official list price |
 | `meta-llama/llama-3.2-1b-instruct` | — | chat | 按量 | 60K | $0.027 | $0.201 | — | — | —/— | — | models.dev official list price |
@@ -144,9 +144,9 @@
 | `minimax/minimax-m2.1` | — | reasoning | 按量 | 204.8K | $0.3 | $1.2 | $0.03 | — | —/— | — | models.dev official list price |
 | `minimax/minimax-m2.5` | — | reasoning | 按量 | 198K | $0.3 | $1.2 | $0.03 | — | —/— | — | models.dev official list price |
 | `minimax/minimax-m2.7` | — | reasoning | 按量 | 204.8K | $0.3 | $1.2 | $0.06 | — | —/— | — | models.dev official list price |
-| `minimax/minimax-m2.7:free` | — | reasoning | 免费 | 196.608K | $0 | $0 | $0 | — | —/— | — | models.dev official list price |
+| `minimax/minimax-m2.7:free` | — | reasoning | 免费 | 196.608K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `minimax/minimax-m3` | — | reasoning | 按量 | 524.288K | $0.3 | $1.2 | $0.06 | — | —/— | — | models.dev official list price |
-| `minimax/minimax-m3:free` | — | reasoning | 免费 | 1.04858M | $0 | $0 | $0 | — | —/— | — | models.dev official list price |
+| `minimax/minimax-m3:free` | — | reasoning | 免费 | 1.04858M | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `mistralai/codestral-2508` | — | chat | 按量 | 256K | $0.3 | $0.9 | $0.03 | — | —/— | — | models.dev official list price |
 | `mistralai/devstral-2512` | — | chat | 按量 | 262.144K | $0.44 | $2.2 | $0.044 | — | —/— | — | models.dev official list price |
 | `mistralai/ministral-14b-2512` | — | chat | 按量 | 262.144K | $0.2 | $0.2 | $0.02 | — | —/— | — | models.dev official list price |
@@ -347,8 +347,8 @@
 | `thedrummer/unslopnemo-12b` | — | chat | 按量 | 1.024M | $0.4 | $0.4 | — | — | —/— | — | models.dev official list price |
 | `thinkingmachines/inkling` | — | reasoning | 按量 | 524.288K | $0.95 | $4.05 | $0.16 | — | —/— | — | models.dev official list price |
 | `thinkingmachines/inkling-small` | — | reasoning | 按量 | 524.288K | $0.45 | $1.2 | $0.1 | — | —/— | — | models.dev official list price |
-| `thinkingmachines/inkling-small:free` | — | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price |
-| `thinkingmachines/inkling:free` | — | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price |
+| `thinkingmachines/inkling-small:free` | — | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `thinkingmachines/inkling:free` | — | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `undi95/remm-slerp-l2-13b` | — | chat | 按量 | 6.144K | $0.45 | $0.65 | — | — | —/— | — | models.dev official list price |
 | `upstage/solar-pro-3` | — | reasoning | 按量 | 131.072K | $0.15 | $0.6 | $0.015 | — | —/— | — | models.dev official list price |
 | `upstage/solar-pro4` | — | reasoning | 按量 | 524.288K | $0.3 | $1.2 | $0.06 | — | —/— | — | models.dev official list price |

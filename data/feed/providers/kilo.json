@@ -7,7 +7,7 @@
   "homepage": "https://kilo.ai",
   "pricing_page": "https://kilo.ai",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:09:20.424261Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -2529,7 +2529,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "inclusionai/ring-2.6-1t",
@@ -2864,7 +2864,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
       ]
@@ -3436,7 +3436,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
       ]
@@ -3488,7 +3488,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
       ]
@@ -8714,7 +8714,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
       ]
@@ -8740,7 +8740,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
       ]

@@ -1,5 +1,5 @@
 {
-  "schema_version": "26.7.11",
+  "schema_version": "26.7.12",
   "entries": [
     {
       "date": "2026-08-28T05:09:27Z",
@@ -6774,30 +6774,6 @@
         "promo": null
       },
       "source": "https://openrouter.ai/api/v1/models"
-    },
-    {
-      "date": "2026-08-28T00:00:00Z",
-      "kind": "update",
-      "scope": "model",
-      "provider_id": "test-prov",
-      "item_id": "m1",
-      "field": "pricing",
-      "new": {
-        "models": 1
-      },
-      "source": "test"
-    },
-    {
-      "date": "2026-08-28T00:00:00Z",
-      "kind": "update",
-      "scope": "model",
-      "provider_id": "test-prov",
-      "item_id": "m1",
-      "field": "pricing",
-      "new": {
-        "models": 1
-      },
-      "source": "test"
     },
     {
       "date": "2026-08-27T17:37:17Z",

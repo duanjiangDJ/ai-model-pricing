@@ -7,7 +7,7 @@
   "homepage": "https://openrouter.ai",
   "pricing_page": "https://openrouter.ai/models",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:09:20.424261Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -1375,7 +1375,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "deepseek/deepseek-chat",
@@ -1737,7 +1737,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "google/gemini-2.5-flash",
@@ -2847,7 +2847,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "google/gemma-4-31b-it",
@@ -2899,7 +2899,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "google/lyria-3-clip-preview",
@@ -2924,7 +2924,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "google/lyria-3-pro-preview",
@@ -2949,7 +2949,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "gryphe/mythomax-l2-13b",
@@ -3093,7 +3093,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "kwaipilot/kat-coder-air-v2.5",
@@ -3189,7 +3189,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "mancer/weaver",
@@ -3779,7 +3779,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "minimax/minimax-m3",
@@ -3857,7 +3857,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "mistralai/codestral-2508",
@@ -4742,7 +4742,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "nvidia/nemotron-3-super-120b-a12b",
@@ -4790,7 +4790,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "nvidia/nemotron-3-ultra-550b-a55b",
@@ -4862,7 +4862,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "nvidia/nemotron-3.5-content-safety:free",
@@ -4887,7 +4887,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "nvidia/nemotron-3.5-lightning",
@@ -4935,7 +4935,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "openai/gpt-3.5-turbo",
@@ -6477,7 +6477,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "openrouter/fusion",
@@ -6723,7 +6723,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "poolside/laguna-xs-2.1",
@@ -6771,7 +6771,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "qwen/qwen-2.5-72b-instruct",
@@ -8600,7 +8600,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "thinkingmachines/inkling:batch",
@@ -8652,7 +8652,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "undi95/remm-slerp-l2-13b",
@@ -9240,7 +9240,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "z-ai/glm-5.3",

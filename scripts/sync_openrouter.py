@@ -45,6 +45,13 @@ def build_model(entry):
         billing = ["free"]
     else:
         billing = ["unknown"]
+    arch = entry.get("architecture") or {}
+    tp = entry.get("top_provider")
+    if isinstance(tp, dict):
+        tp = tp.get("id") or tp.get("provider_id") or tp.get("name")
+    note = f"OpenRouter reseller price; top provider: {tp}" if tp else "OpenRouter reseller price"
+    if billing == ["free"]:
+        note += " | Free model (per_mtok = 0)."
     pricing = {
         "per_mtok": {
             "input": to_float_or_none(p.get("prompt")),
@@ -55,10 +62,6 @@ def build_model(entry):
         "per_image": [{"name": "default", "price": img}] if img is not None else None,
         "promo": None,
     }
-    arch = entry.get("architecture") or {}
-    tp = entry.get("top_provider")
-    if isinstance(tp, dict):
-        tp = tp.get("id") or tp.get("provider_id") or tp.get("name")
     return {
         "id": entry["id"],
         "name": entry.get("name", entry["id"]),
@@ -68,7 +71,7 @@ def build_model(entry):
         "max_output": None,
         "billing_model": billing,
         "pricing": pricing,
-        "notes": f"OpenRouter reseller price; top provider: {tp}" if tp else "OpenRouter reseller price",
+        "notes": note,
     }
 
 

@@ -7,7 +7,7 @@
   "homepage": "https://kenari.id/docs",
   "pricing_page": "https://kenari.id/docs",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:09:20.424261Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -111,7 +111,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "claude-sonnet-4-6",
@@ -136,7 +136,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "claude-sonnet-5",
@@ -343,7 +343,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "gemini-3-1-pro",
@@ -368,7 +368,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "gemini-3-5-flash",
@@ -393,7 +393,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "gemini-3-6-flash",
@@ -418,7 +418,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "gemini-3-7-flash",
@@ -443,7 +443,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "gemma-4-31b-it",
@@ -572,7 +572,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "glm-5-3-flash",
@@ -597,7 +597,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "gpt-5-4-mini",
@@ -856,7 +856,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "grok-build-0-1",
@@ -907,7 +907,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "hy3",
@@ -932,7 +932,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "hy3:free",
@@ -957,7 +957,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "kimi-k2-6",
@@ -1190,7 +1190,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "minimax-m2-7-highspeed",
@@ -1215,7 +1215,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "minimax-m3",
@@ -1266,7 +1266,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "mistral-medium-3-5:free",
@@ -1291,7 +1291,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "nemotron-3-nano-30b-a3b",
@@ -1446,7 +1446,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "step-3-7-flash",
@@ -1471,7 +1471,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "step-3-7-flash:free",
@@ -1496,7 +1496,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "whisper-large-v3-turbo",
@@ -1521,7 +1521,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     }
   ],
   "api_base_url": "https://kenari.id/v1"

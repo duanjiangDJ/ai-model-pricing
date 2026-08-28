@@ -120,9 +120,11 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
         if bm == ["unknown"] and (m.get("notes") or ""):
             unknown_models.append(f"{p['provider_id']} :: {m['id']}")
         # currency consistency: USD-declared files must not carry CNY amounts
+        # (exempt: notes that explicitly say "no official USD" — honest CNY-only annotation)
         if p.get("currency") == "USD":
             note_cn = (m.get("notes") or "")
-            if "¥" in note_cn or "Priced in CNY" in note_cn or "CNY/1M" in note_cn:
+            if ("¥" in note_cn or "Priced in CNY" in note_cn or "CNY/1M" in note_cn) \
+                    and "no official USD" not in note_cn:
                 warn(f"CNY amount mentioned in USD-declared provider {p['provider_id']} :: {m['id']} (check currency/notes)")
 # aggregate unknown warnings per provider (one line per provider, not per model)
 if unknown_models:

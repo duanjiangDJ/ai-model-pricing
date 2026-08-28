@@ -7,7 +7,7 @@
   "homepage": "https://docs.orcarouter.ai",
   "pricing_page": "https://docs.orcarouter.ai",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:09:20.424261Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -470,7 +470,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "deepseek/deepseek-v4-flash-vision-exp",
@@ -2376,7 +2376,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "orcarouter/fusion",
@@ -2884,7 +2884,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "qwen/qwen3.8-max",
@@ -2959,7 +2959,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "z-ai/glm-4.5",

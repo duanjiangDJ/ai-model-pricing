@@ -6,7 +6,7 @@
 - 官网: https://docs.venice.ai
 - 定价页: https://docs.venice.ai
 - 币种: USD
-- 数据更新时间: 2026-08-28T05:09:26Z
+- 数据更新时间: 2026-08-28T08:09:20.424261Z
 - 核实时间: 2026-08-28T05:09:26Z
 
 共 **101** 个模型。
@@ -100,7 +100,7 @@
 | `qwen3-next-80b` | — | chat | 按量 | 256K | $0.35 | $1.9 | — | — | —/— | — | models.dev official list price |
 | `qwen3-vl-235b-a22b` | — | chat | 按量 | 128K | $0.21 | $1.9 | $0.1 | — | —/— | — | models.dev official list price |
 | `seed-2-1-turbo` | — | reasoning | 按量 | 256K | $0.625 | $3.125 | $0.125 | — | —/— | — | models.dev official list price |
-| `stealth-ox-alpha` | — | reasoning | 免费 | 1.04858M | $0 | $0 | $0 | — | —/— | — | models.dev official list price |
+| `stealth-ox-alpha` | — | reasoning | 免费 | 1.04858M | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `venice-uncensored-1-2` | — | chat | 按量 | 128K | $0.2 | $0.9 | — | — | —/— | — | models.dev official list price |
 | `venice-uncensored-role-play` | — | chat | 按量 | 128K | $0.5 | $2 | — | — | —/— | — | models.dev official list price |
 | `xiaomi-mimo-v2-5` | — | reasoning | 按量 | 1M | $0.4 | $2 | $0.08 | — | —/— | — | models.dev official list price |

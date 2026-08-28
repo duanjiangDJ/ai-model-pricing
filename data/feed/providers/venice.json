@@ -7,7 +7,7 @@
   "homepage": "https://docs.venice.ai",
   "pricing_page": "https://docs.venice.ai",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:09:20.424261Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -2293,7 +2293,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
       ]

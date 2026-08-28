@@ -6,14 +6,14 @@
 - Homepage: https://opencode.ai/zen
 - Pricing page: https://opencode.ai/docs/zen/
 - Currency: USD
-- Data updated: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-28T08:09:20.424261Z
 - Verified: 2026-08-28T05:09:26Z
 
 **95** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `big-pickle` | — | chat | free | — | $0 | $0 | $0 | — | —/— | — | — |
+| `big-pickle` | — | chat | free | — | $0 | $0 | $0 | — | —/— | — | Free model (per_mtok = 0). |
 | `claude-3-5-haiku` | — | chat | per-token | 200K | $0.8 | $4 | $0.08 | — | —/— | — | models.dev official list price |
 | `claude-fable-5` | — | chat | per-token | — | $10 | $50 | $1 | $12.5 | —/— | — | — |
 | `claude-haiku-4-5` | — | chat | per-token | — | $1 | $5 | $0.1 | $1.25 | —/— | — | — |
@@ -28,7 +28,7 @@
 | `claude-sonnet-4-6` | — | chat | per-token | — | $3 | $15 | $0.3 | $3.75 | —/— | — | — |
 | `claude-sonnet-5` | — | chat | per-token | — | $2 | $10 | $0.2 | $2.5 | —/— | — | — |
 | `deepseek-v4-flash` | — | chat | per-token | — | $0.14 | $0.28 | $0.028 | — | —/— | — | — |
-| `deepseek-v4-flash-free` | — | reasoning | free | 200K | $0 | $0 | $0 | — | —/— | — | models.dev official list price |
+| `deepseek-v4-flash-free` | — | reasoning | free | 200K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `deepseek-v4-pro` | — | chat | per-token | — | $1.74 | $3.84 | $0.145 | — | —/— | — | — |
 | `gemini-3-flash` | — | chat | per-token | — | $0.5 | $3 | $0.05 | — | —/— | — | — |
 | `gemini-3-pro` | — | reasoning | per-token | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
@@ -39,9 +39,9 @@
 | `gemini-3.7-flash` | — | chat | per-token | — | $1.5 | $7.5 | $0.15 | — | —/— | — | — |
 | `glm-4.6` | — | reasoning | per-token | 204.8K | $0.6 | $2.2 | $0.1 | — | —/— | — | models.dev official list price |
 | `glm-4.7` | — | reasoning | per-token | 204.8K | $0.6 | $2.2 | $0.1 | — | —/— | — | models.dev official list price |
-| `glm-4.7-free` | — | reasoning | free | 204.8K | $0 | $0 | $0 | — | —/— | — | models.dev official list price |
+| `glm-4.7-free` | — | reasoning | free | 204.8K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `glm-5` | — | chat | per-token | — | $1 | $3.2 | $0.2 | — | —/— | — | — |
-| `glm-5-free` | — | reasoning | free | 204.8K | $0 | $0 | $0 | — | —/— | — | models.dev official list price |
+| `glm-5-free` | — | reasoning | free | 204.8K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `glm-5.1` | — | chat | per-token | — | $1.4 | $4.4 | $0.26 | — | —/— | — | — |
 | `glm-5.2` | — | chat | per-token | — | $1.4 | $4.4 | $0.26 | — | —/— | — | — |
 | `gpt-5` | — | chat | per-token | — | $1.07 | $8.5 | $0.107 | — | —/— | — | — |
@@ -67,44 +67,44 @@
 | `grok-4.5` | — | chat | per-token | — | $2 | $6 | $0.3 | — | —/— | — | — |
 | `grok-4.6` | — | chat | per-token | — | $2 | $6 | $0.5 | — | —/— | — | — |
 | `grok-build-0.1` | — | chat | per-token | — | $1 | $2 | $0.2 | — | —/— | — | — |
-| `grok-code` | — | reasoning | free | 256K | $0 | $0 | $0 | — | —/— | — | models.dev official list price |
-| `hy3-free` | — | chat | free | — | $0 | $0 | $0 | — | —/— | — | — |
-| `hy3-preview-free` | — | reasoning | free | 256K | $0 | $0 | $0 | — | —/— | — | models.dev official list price |
+| `grok-code` | — | reasoning | free | 256K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `hy3-free` | — | chat | free | — | $0 | $0 | $0 | — | —/— | — | Free model (per_mtok = 0). |
+| `hy3-preview-free` | — | reasoning | free | 256K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `kimi-k2` | — | chat | per-token | 262.144K | $0.4 | $2.5 | $0.4 | — | —/— | — | models.dev official list price |
 | `kimi-k2-thinking` | — | reasoning | per-token | 262.144K | $0.4 | $2.5 | $0.4 | — | —/— | — | models.dev official list price |
 | `kimi-k2.5` | — | chat | per-token | — | $0.6 | $3 | $0.08 | — | —/— | — | — |
-| `kimi-k2.5-free` | — | reasoning | free | 262.144K | $0 | $0 | $0 | — | —/— | — | models.dev official list price |
+| `kimi-k2.5-free` | — | reasoning | free | 262.144K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `kimi-k2.6` | — | chat | per-token | — | $0.95 | $4 | $0.16 | — | —/— | — | — |
 | `kimi-k2.7-code` | — | chat | per-token | — | $0.95 | $4 | $0.19 | — | —/— | — | — |
 | `kimi-k3` | — | chat | per-token | — | $3 | $15 | $0.3 | — | —/— | — | — |
-| `laguna-s-2.1-free` | — | reasoning | free | 256K | $0 | $0 | $0 | — | —/— | — | models.dev official list price |
-| `ling-2.6-flash-free` | — | chat | free | 262.1K | $0 | $0 | — | — | —/— | — | models.dev official list price |
-| `ling-3.0-flash-free` | — | reasoning | free | 262.144K | $0 | $0 | $0 | — | —/— | — | models.dev official list price |
-| `ling-3.0-tiny-free` | — | reasoning | free | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price |
-| `longcat-2.0-free` | — | reasoning | free | 1M | $0 | $0 | $0 | — | —/— | — | models.dev official list price |
-| `mimo-v2-flash-free` | — | reasoning | free | 262.144K | $0 | $0 | $0 | — | —/— | — | models.dev official list price |
-| `mimo-v2-omni-free` | — | reasoning | free | 262.144K | $0 | $0 | $0 | — | —/— | — | models.dev official list price |
-| `mimo-v2-pro-free` | — | reasoning | free | 1.04858M | $0 | $0 | $0 | — | —/— | — | models.dev official list price |
-| `mimo-v2.5-free` | — | chat | free | — | $0 | $0 | $0 | — | —/— | — | — |
+| `laguna-s-2.1-free` | — | reasoning | free | 256K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `ling-2.6-flash-free` | — | chat | free | 262.1K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `ling-3.0-flash-free` | — | reasoning | free | 262.144K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `ling-3.0-tiny-free` | — | reasoning | free | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `longcat-2.0-free` | — | reasoning | free | 1M | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `mimo-v2-flash-free` | — | reasoning | free | 262.144K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `mimo-v2-omni-free` | — | reasoning | free | 262.144K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `mimo-v2-pro-free` | — | reasoning | free | 1.04858M | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `mimo-v2.5-free` | — | chat | free | — | $0 | $0 | $0 | — | —/— | — | Free model (per_mtok = 0). |
 | `minimax-m2.1` | — | reasoning | per-token | 204.8K | $0.3 | $1.2 | $0.1 | — | —/— | — | models.dev official list price |
-| `minimax-m2.1-free` | — | reasoning | free | 204.8K | $0 | $0 | $0 | — | —/— | — | models.dev official list price |
+| `minimax-m2.1-free` | — | reasoning | free | 204.8K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `minimax-m2.5` | — | chat | per-token | — | $0.3 | $1.2 | $0.06 | — | —/— | — | — |
-| `minimax-m2.5-free` | — | reasoning | free | 204.8K | $0 | $0 | $0 | — | —/— | — | models.dev official list price |
+| `minimax-m2.5-free` | — | reasoning | free | 204.8K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `minimax-m2.7` | — | chat | per-token | — | $0.3 | $1.2 | $0.06 | — | —/— | — | — |
 | `minimax-m3` | — | chat | per-token | — | $0.3 | $1.2 | $0.06 | — | —/— | — | — |
-| `minimax-m3-free` | — | reasoning | free | 200K | $0 | $0 | $0 | — | —/— | — | models.dev official list price |
+| `minimax-m3-free` | — | reasoning | free | 200K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `muse-spark-1.2` | — | chat | per-token | — | $1.25 | $4.25 | $0.15 | — | —/— | — | — |
-| `muse-spark-1.2-contributor-free` | — | chat | free | — | $0 | $0 | $0 | — | —/— | — | — |
-| `nemotron-3-super-free` | — | reasoning | free | 204.8K | $0 | $0 | $0 | — | —/— | — | models.dev official list price |
-| `nemotron-3-ultra-free` | — | chat | free | — | $0 | $0 | $0 | — | —/— | — | — |
-| `nemotron-3.5-lightning-free` | — | chat | free | — | $0 | $0 | $0 | — | —/— | — | — |
-| `north-mini-code-free` | — | reasoning | free | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price |
+| `muse-spark-1.2-contributor-free` | — | chat | free | — | $0 | $0 | $0 | — | —/— | — | Free model (per_mtok = 0). |
+| `nemotron-3-super-free` | — | reasoning | free | 204.8K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `nemotron-3-ultra-free` | — | chat | free | — | $0 | $0 | $0 | — | —/— | — | Free model (per_mtok = 0). |
+| `nemotron-3.5-lightning-free` | — | chat | free | — | $0 | $0 | $0 | — | —/— | — | Free model (per_mtok = 0). |
+| `north-mini-code-free` | — | reasoning | free | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `qwen3-coder` | — | chat | per-token | 262.144K | $0.45 | $1.8 | — | — | —/— | — | models.dev official list price |
 | `qwen3.5-plus` | — | chat | per-token | — | $0.2 | $1.2 | $0.02 | $0.25 | —/— | — | — |
 | `qwen3.6-plus` | — | chat | per-token | — | $0.5 | $3 | $0.05 | $0.625 | —/— | — | — |
-| `qwen3.6-plus-free` | — | reasoning | free | 262.144K | $0 | $0 | $0 | — | —/— | — | models.dev official list price |
+| `qwen3.6-plus-free` | — | reasoning | free | 262.144K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `qwen3.7-max` | — | chat | per-token | — | $2.5 | $7.5 | $0.5 | $3.125 | —/— | — | — |
 | `qwen3.7-plus` | — | chat | per-token | — | $0.4 | $1.6 | $0.04 | $0.5 | —/— | — | — |
-| `ring-2.6-1t-free` | — | reasoning | free | 262K | $0 | $0 | — | — | —/— | — | models.dev official list price |
-| `trinity-large-preview-free` | — | chat | free | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price |
-| `x-preview-f-free` | — | chat | free | — | $0 | $0 | $0 | — | —/— | — | — |
+| `ring-2.6-1t-free` | — | reasoning | free | 262K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `trinity-large-preview-free` | — | chat | free | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `x-preview-f-free` | — | chat | free | — | $0 | $0 | $0 | — | —/— | — | Free model (per_mtok = 0). |
