@@ -18,11 +18,7 @@
 
 ## 26.7.21 — 2026-08-28T12:05Z（功能更新）
 
-## 26.7.21 — 2026-08-28T12:05Z（功能更新）
-
 - **feat(moonshot kimi 全 CNY)**：从 platform.kimi.com 为完整 Kimi 当前系列补充 CNY 分支（元/百万）：k3 ¥20/¥100（缓存 ¥2）、k2.7-code 与 k2.6 ¥6.5/¥27、k2.7-code-highspeed ¥13/¥54、k2.5 ¥4/¥21（缓存 ¥0.7）。旧 K2 preview/thinking 模型标记为历史。CNY 补全新增正价的模型 billing_model 修正为 pay_per_token。
-
-## 26.7.20 — 2026-08-28T11:40Z（功能更新）
 
 ## 26.7.20 — 2026-08-28T11:40Z（功能更新）
 
@@ -30,17 +26,11 @@
 
 ## 26.7.19 — 2026-08-28T11:20Z（功能更新）
 
-## 26.7.19 — 2026-08-28T11:20Z（功能更新）
-
 - **feat(moonshot kimi-k3 CNY)**：为 Kimi K3 补充 CNY 分支（platform.kimi.com，元/百万：缓存未命中输入 ¥20、缓存命中 ¥2、输出 ¥100）。k3/k3-256k 的 billing_model 修正为 pay_per_token。其余 Kimi 子页模型（K2.7 Code 等）暂缓。
 
 ## 26.7.18 — 2026-08-28T11:05Z（功能更新）
 
-## 26.7.18 — 2026-08-28T11:05Z（功能更新）
-
 - **feat(alibaba CNY)**：从阿里云百炼计费页为通义主要 Qwen 模型补充 CNY 分支（元/百万token）：qwen-max ¥2.4/¥9.6、qwen-flash ¥0.15/¥1.5、qwen-turbo ¥0.3/¥3、qwen-vl-max ¥1.6/¥4、qwen3.8-max ¥12/¥36、qvq-max ¥8/¥32。国内 CNY 与国际 USD 列表相互独立。复杂档位/区域模型（qwen-plus 等）暂缓。
-
-## 26.7.17 — 2026-08-28T10:50Z（功能更新）
 
 ## 26.7.17 — 2026-08-28T10:50Z（功能更新）
 
@@ -50,13 +40,9 @@
 
 ## 26.7.16 — 2026-08-28T10:20Z（功能更新）
 
-## 26.7.16 — 2026-08-28T10:20Z（功能更新）
-
 - **feat(stepfun 双币)**：新增 `tier1_stepfun.py` 用 headless Chrome 抓取 stagefun 定价页（platform.stepfun.com/docs/zh/guides/pricing/details）并补充 CNY 分支（step-3.7-flash ¥1.35/¥8.1、step-3.5-flash ¥0.7/¥2.1）。国内 CNY 与国际 USD 列表相互独立。
 - **feat(volcengine 双币)**：核对火山方舟模型价格页（docs.volcengine.com/docs/82379/1544106）——deepseek-v4-flash ¥3/¥9、v4-pro ¥9/¥27、glm-5.2 ¥8/¥28、doubao-seed-2.1-pro ¥3/¥15 等。该页有反爬（dump-dom 0 字节），`tier1_volcengine.py` 记录此情况暂无法自动刷新（CNY 来自人工核对的官方页）。
 - stepfun/volcengine 共 26 个模型新增 CNY 分支。
-
-## 26.7.15 — 2026-08-28T09:40Z（功能更新）
 
 ## 26.7.15 — 2026-08-28T09:40Z（功能更新）
 
@@ -64,8 +50,6 @@
 - **feat(baidu 双币)**：新增 `tier1_baidu.py` 抓取千帆 ModelBuilder 页（headless Chrome），将 ¥/千tokens 换算为 ¥/1M（×1000）：ernie-5.0 ¥6/¥24（双币）、ernie-5.1 ¥4/¥18、ernie-4.5-turbo ¥0.8/¥3.2（仅 CNY）。国内价与国际 USD 列表相互独立。
 - **feat(billing_model 自动同步)**：`update_model_prices` 在模型任一币种有真实正价时自动修正 `billing_model` 为 `pay_per_token`——不再出现补 CNY 后因陈旧 free/subscription/unknown 标签导致 audit 失败。
 - 现 13 个模型携带双币（zhipuai + deepseek + baidu）。
-
-## 26.7.14 — 2026-08-28T09:05Z（功能更新）
 
 ## 26.7.14 — 2026-08-28T09:05Z（功能更新）
 

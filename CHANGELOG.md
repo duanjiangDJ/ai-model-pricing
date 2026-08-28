@@ -18,11 +18,7 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ## 26.7.21 — 2026-08-28T12:05Z (feature update)
 
-## 26.7.21 — 2026-08-28T12:05Z (feature update)
-
 - **feat(moonshot kimi full CNY)**: added the CNY branch for the full current Kimi lineup from platform.kimi.com (¥/1M): k3 ¥20/¥100 (cache ¥2), k2.7-code & k2.6 ¥6.5/¥27, k2.7-code-highspeed ¥13/¥54, k2.5 ¥4/¥21 (cache ¥0.7). Legacy K2 preview/thinking models marked historical. billing_model corrected to pay_per_token where the CNY backfill added a positive price.
-
-## 26.7.20 — 2026-08-28T11:40Z (feature update)
 
 ## 26.7.20 — 2026-08-28T11:40Z (feature update)
 
@@ -30,17 +26,11 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ## 26.7.19 — 2026-08-28T11:20Z (feature update)
 
-## 26.7.19 — 2026-08-28T11:20Z (feature update)
-
 - **feat(moonshot kimi-k3 CNY)**: added the CNY branch for Kimi K3 (platform.kimi.com, ¥/1M: cache-miss input ¥20, cache-hit ¥2, output ¥100). k3/k3-256k billing_model corrected to pay_per_token. Other Kimi sub-page models (K2.7 Code etc.) deferred.
 
 ## 26.7.18 — 2026-08-28T11:05Z (feature update)
 
-## 26.7.18 — 2026-08-28T11:05Z (feature update)
-
 - **feat(alibaba CNY)**: added the CNY branch for the major Qwen models from the Alibaba Bailian billing page (CNY/1M tokens): qwen-max ¥2.4/¥9.6, qwen-flash ¥0.15/¥1.5, qwen-turbo ¥0.3/¥3, qwen-vl-max ¥1.6/¥4, qwen3.8-max ¥12/¥36, qvq-max ¥8/¥32. Domestic CNY independent of the int'l USD list. Complex tiered/region models (qwen-plus etc.) deferred.
-
-## 26.7.17 — 2026-08-28T10:50Z (feature update)
 
 ## 26.7.17 — 2026-08-28T10:50Z (feature update)
 
@@ -50,13 +40,9 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ## 26.7.16 — 2026-08-28T10:20Z (feature update)
 
-## 26.7.16 — 2026-08-28T10:20Z (feature update)
-
 - **feat(stepfun dual-currency)**: new `tier1_stepfun.py` pulls the StepFun pricing page (platform.stepfun.com/docs/zh/guides/pricing/details) via headless Chrome and adds the CNY branch (step-3.7-flash ¥1.35/¥8.1, step-3.5-flash ¥0.7/¥2.1). Domestic CNY independent of the int'l USD list.
 - **feat(volcengine dual-currency)**: reconciled the Volcano Ark model-price page (docs.volcengine.com/docs/82379/1544106) — deepseek-v4-flash ¥3/¥9, v4-pro ¥9/¥27, glm-5.2 ¥8/¥28, doubao-seed-2.1-pro ¥3/¥15 etc. The page is bot-protected (dump-dom 0 bytes) so `tier1_volcengine.py` records this and cannot auto-refresh yet (CNY is from the manually-verified official page).
 - 26 models across stepfun/volcengine now carry a CNY branch.
-
-## 26.7.15 — 2026-08-28T09:40Z (feature update)
 
 ## 26.7.15 — 2026-08-28T09:40Z (feature update)
 
@@ -64,8 +50,6 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 - **feat(baidu dual-currency)**: new `tier1_baidu.py` pulls the Qianfan ModelBuilder page (headless Chrome), converts ¥/1k tokens → ¥/1M (x1000): ernie-5.0 ¥6/¥24 (dual), ernie-5.1 ¥4/¥18, ernie-4.5-turbo ¥0.8/¥3.2 (CNY-only). Domestic prices independent of the int'l USD list.
 - **feat(billing_model auto-sync)**: `update_model_prices` corrects a model's `billing_model` to `pay_per_token` once it has a real positive token price in any currency — no more stale free/subscription/unknown labels surfacing as audit failures after a CNY backfill.
 - 13 models now carry both currencies (zhipuai + deepseek + baidu).
-
-## 26.7.14 — 2026-08-28T09:05Z (feature update)
 
 ## 26.7.14 — 2026-08-28T09:05Z (feature update)
 
