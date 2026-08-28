@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.7.19 — 2026-08-28T11:20Z (feature update)
+
+## 26.7.19 — 2026-08-28T11:20Z (feature update)
+
+- **feat(moonshot kimi-k3 CNY)**: added the CNY branch for Kimi K3 (platform.kimi.com, ¥/1M: cache-miss input ¥20, cache-hit ¥2, output ¥100). k3/k3-256k billing_model corrected to pay_per_token. Other Kimi sub-page models (K2.7 Code etc.) deferred.
+
 ## 26.7.18 — 2026-08-28T11:05Z (feature update)
 
 ## 26.7.18 — 2026-08-28T11:05Z (feature update)
