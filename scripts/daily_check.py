@@ -272,36 +272,110 @@ def main():
     return 0
 
 
+def _fmt_prices(v, labels=None):
+    """Human-readable price summary from a changelog old/new value.
+
+    Handles dict shapes like {'input': 0.44, 'output': 1.32, 'cache_read': 0.014}
+    or lists like {'input': [0.44, 0.14]} (tiered). Falls back to '' for anything
+    that isn't a simple price dict. `labels` localizes the field names (default EN).
+    """
+    if not isinstance(v, dict):
+        return ""
+    labels = labels or (("input", "in"), ("output", "out"), ("cache_read", "cache"))
+    parts = []
+    for k, label in labels:
+        val = v.get(k)
+        if val is None:
+            continue
+        if isinstance(val, list):
+            val = val[0] if val else None
+        if isinstance(val, (int, float)):
+            parts.append(f"{label} ${val:g}")
+    return " ".join(parts)
+
+
+def _model_list(item_id, limit=5):
+    ids = [x for x in dict.fromkeys(str(item_id or "?").split(",")) if x]
+    shown = ", ".join(f"`{x}`" for x in ids[:limit])
+    if len(ids) > limit:
+        shown += f" … +{len(ids) - limit}"
+    return shown, len(ids)
+
+
 def print_sync_summary():
-    """Print a machine-extractable, human-readable summary of changes made by THIS
-    run (entries prepended to changelog.json since the run started), so the CI
-    workflow can use it as the CHANGELOG message instead of a bare 'chore: price sync'."""
+    """Print a machine-extractable, HUMAN-READABLE, bilingual summary of the changes
+    made by THIS run (entries prepended to changelog.json since the run started).
+    Emits two blocks: SYNC_SUMMARY_EN_BEGIN/END and SYNC_SUMMARY_ZH_BEGIN/END, used by
+    daily-check.yml as the CHANGELOG message for CHANGELOG.md / CHANGELOG.zh-CN.md.
+    """
     cl = load_changelog()
     entries = cl if isinstance(cl, list) else cl.get("entries", [])
     fresh = [e for e in entries if e.get("date", "")[:16] >= _RUN_STARTED_ISO]
     if not fresh:
-        print("SYNC_SUMMARY_BEGIN")
-        print("No data changes this run.")
-        print("SYNC_SUMMARY_END")
+        print("SYNC_SUMMARY_EN_BEGIN\nNo data changes this run.\nSYNC_SUMMARY_EN_END")
+        print("SYNC_SUMMARY_ZH_BEGIN\n本次运行无数据变更。\nSYNC_SUMMARY_ZH_END")
         return
-    lines = ["price sync ({} change{}):".format(len(fresh), "" if len(fresh) == 1 else "s")]
-    by_scope = {}
+
+    groups = {}
     for e in fresh:
-        key = f"{e.get('provider_id', '?')} {e.get('kind', '?')}"
-        by_scope.setdefault(key, []).append(e)
-    for key in sorted(by_scope):
-        items = by_scope[key]
-        detail = "; ".join(
-            "{}: {}->{}".format(i.get("item_id", "?"), i.get("old", "?"), i.get("new", "?"))[:90]
-            for i in items[:5]
-        )
-        lines.append(f"- {key} x{len(items)}: {detail}")
-    if len(fresh) > 30:
-        lines.append(f"- ... and {len(fresh) - 30} more")
-    print("SYNC_SUMMARY_BEGIN")
-    for l in lines:
+        key = (e.get("provider_id", "?"), e.get("kind", "?"))
+        groups.setdefault(key, []).append(e)
+
+    en = ["price sync ({} change{}):".format(len(fresh), "" if len(fresh) == 1 else "s")]
+    zh = ["价格同步（{} 处变更）：".format(len(fresh))]
+    labels = (("input", "in"), ("output", "out"), ("cache_read", "cache"))
+    labels_zh = (("input", "入"), ("output", "出"), ("cache_read", "缓存"))
+    for (pid, kind) in sorted(groups):
+        items = groups[(pid, kind)]
+        n = sum(_model_list(i.get("item_id", "?"))[1] for i in items)
+        # merge model names across entries of the same provider+kind
+        merged = []
+        for i in items:
+            merged += [x for x in dict.fromkeys(str(i.get("item_id", "?")).split(",")) if x]
+        shown, _ = _model_list(",".join(merged))
+        if kind == "add":
+            en.append(f"- **{pid}** (+{n}): {shown}")
+            zh.append(f"- **{pid}**（新增 {n}）：{shown}")
+        elif kind == "remove":
+            en.append(f"- **{pid}** (-{n}): {shown}")
+            zh.append(f"- **{pid}**（下架 {n}）：{shown}")
+        else:  # update
+            detail = ""
+            if len(items) <= 4:
+                dparts = []
+                for i in items:
+                    old, new = i.get("old"), i.get("new")
+                    fo, fn_ = _fmt_prices(old, labels), _fmt_prices(new, labels)
+                    if fo and fn_:
+                        dparts.append(f"{fo} → {fn_}")
+                    elif fn_:
+                        dparts.append(fn_)
+                if dparts:
+                    detail = " — " + "; ".join(dict.fromkeys(dparts))
+            en.append(f"- **{pid}** (updated {n}): {shown}{detail}")
+            zh_detail = detail
+            if detail:
+                zh_detail = " — " + "; ".join(
+                    _fmt_prices(i.get("new"), labels_zh) or ""
+                    for i in items if _fmt_prices(i.get("new"), labels_zh)
+                )
+                if not zh_detail:
+                    zh_detail = ""
+            zh.append(f"- **{pid}**（更新 {n}）：{shown}{zh_detail}")
+
+    en_lines, zh_lines = [], []
+    for l in en:
+        en_lines.append(l[:200])
+    for l in zh:
+        zh_lines.append(l[:200])
+    print("SYNC_SUMMARY_EN_BEGIN")
+    for l in en_lines:
         print(l)
-    print("SYNC_SUMMARY_END")
+    print("SYNC_SUMMARY_EN_END")
+    print("SYNC_SUMMARY_ZH_BEGIN")
+    for l in zh_lines:
+        print(l)
+    print("SYNC_SUMMARY_ZH_END")
 
 
 if __name__ == "__main__":

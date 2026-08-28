@@ -6,7 +6,7 @@
 - 官网: https://docs.api.nvidia.com/nim/
 - 定价页: https://docs.api.nvidia.com/nim/
 - 币种: USD
-- 数据更新时间: 2026-08-28T08:09:20.424261Z
+- 数据更新时间: 2026-08-28T08:18:12.812923Z
 - 核实时间: 2026-08-28T05:09:26Z
 
 共 **103** 个模型。
@@ -17,7 +17,7 @@
 | `baai/bge-m3` | — | chat | 免费 | 8.192K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `black-forest-labs/flux.1-dev` | — | chat | 免费 | 4.096K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `black-forest-labs/flux_1-kontext-dev` | — | chat | 免费 | 40.96K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `black-forest-labs/flux_1-schnell` | — | chat | 免费 | 77 | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `black-forest-labs/flux_1-schnell` | — | chat | 免费 | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). \| context_windo… |
 | `black-forest-labs/flux_2-klein-4b` | — | chat | 免费 | 40.96K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `bytedance/seed-oss-36b-instruct` | — | chat | 免费 | 262K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `deepseek-ai/deepseek-v4-flash` | — | reasoning | 按量 | 1.04858M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price |

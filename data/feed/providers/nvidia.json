@@ -7,7 +7,7 @@
   "homepage": "https://docs.api.nvidia.com/nim/",
   "pricing_page": "https://docs.api.nvidia.com/nim/",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:09:20.424261Z",
+  "updated_at": "2026-08-28T08:18:12.812923Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -121,7 +121,7 @@
       "modalities": [
         "text"
       ],
-      "context_window": 77,
+      "context_window": null,
       "max_output": null,
       "pricing": {
         "per_mtok": {
@@ -135,7 +135,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "notes": "models.dev official list price | Free model (per_mtok = 0). | context_window corrected from placeholder 77 (model has no token context).",
       "billing_model": [
         "free"
       ]

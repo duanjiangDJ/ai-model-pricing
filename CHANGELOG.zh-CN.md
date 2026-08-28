@@ -16,6 +16,13 @@
 
 ---
 
+## 26.7.13 — 2026-08-28T08:18Z（功能更新）
+
+- **feat(changelog 可读性)**：自动同步的 CHANGELOG 条目此前是原始 Python dict 序列化（`{'input': [0.07, 0.72], ...}->{...}`）——不可读且被截断。`print_sync_summary` 现输出人类可读的按供应商摘要：模型列表 + 价格变化格式化为 `入 $0.44 出 $1.32 缓存 $0.014 → 入 $0.14 出 $0.28 缓存 $0.0028`，并标注新增/下架（+N / -N）。
+- **feat(changelog 中文版)**：同步摘要现在**中英双语**——`SYNC_SUMMARY_EN`/`SYNC_SUMMARY_ZH` 两块；`bump_version.py` 新增 `--message-zh` 参数；daily-check.yml 分别提取英文与中文写入 CHANGELOG.md / CHANGELOG.zh-CN.md（此前中文版拿到的是未翻译的英文机器格式）。已用新格式重写 26.7.11 条目（中英）。
+- **fix(数据)**：占位符 context_window——qiniu-ai kling-v2-6（99,999,999）与 nvidia flux_1-schnell（77）置 null 并注明（视频/图像模型无 token 上下文）；grok-4.1-fast-reasoning（20M）保留待核实。
+- **feat(audit)**：反向 index 检查（每个 provider 文件必须被 index.json 的 providers/resellers 引用）；可疑 context_window 检查（>10M 或 <100）。
+
 ## 26.7.12 — 2026-08-28T08:10Z（功能更新）
 
 - **fix(测试污染)**：突变护栏单元测试只 mock 了 `save_provider`，但 `update_model_prices` 还会调用 `append_changelog`——每次跑测试都会往生产 `changelog.json` 写入假的 "test-prov" 条目，其中一条还进入了 CHANGELOG.md（26.6.11）。现已同时 mock 两者；2 条污染条目已清除，26.6.11 条目已重写说明无真实变更。
@@ -24,31 +31,46 @@
 
 ## 26.7.11 — 2026-08-28T05:09Z（内容更新）
 
-- price sync (341 changes):
-- alibaba update x8: qwen3.7-plus,qwen3.7-plus,qwen3.6-flash,qwen3.6-flash,qwen-vl-ocr,qwen-vl-ocr,qwen3.6-35b-; qwen-vl-ocr: {'input': [0.07, 0.72], 'output': [0.16, 0.72]}->{'input': 0.72, 'output': 0.; qwen3-32b: {'input': [0.16, 0.7], 'output': [0.64, 2.8]}->{'input': 0.7, 'output': 2.8}; qwen3-next-80b-a3b-instruct: {'input': [0.15, 0.5], 'output': [1.2, 2]}->{'input': 0.5, 'o; qwen3-next-80b-a3b-thinking: {'input': [0.15, 0.5], 'output': [1.2, 6]}->{'input': 0.5, 'o
-- alibaba-cn update x3: glm-5: {'input': [0.86, 0.573], 'output': [3.15, 2.58]}->{'input': 0.573, 'output': 2.58}; glm-5.1: {'input': [0.87, 0.825], 'output': [3.48, 3.301]}->{'input': 0.825, 'output': 3.3; qwen3.5-397b-a17b: {'input': [0.43, 0.172], 'output': [2.58, 1.032]}->{'input': 0.172, 'ou
-- baseten add x1: zai-org/GLM-5.3-Flash: ?->zai-org/GLM-5.3-Flash
-- crossmodel add x1: z-ai/glm-5.3-flash: ?->z-ai/glm-5.3-flash
-- deepseek update x4: deepseek-v4-flash,deepseek-v4-flash,deepseek-v4-flash,deepseek-v4-pro,deepseek-v4-pro,deep; deepseek-v4-flash: {'input': [0.44, 0.14], 'output': [1.32, 0.28], 'cache_read': [0.014, 0; deepseek-v4-flash-vision-exp: {'input': [0.44, 0.14], 'output': [1.32, 0.28], 'cache_read'; deepseek-v4-pro: {'input': [1.32, 0.435], 'output': [3.96, 0.87], 'cache_read': [0.044, 0.
-- digitalocean add x1: glm-5.3-flash: ?->glm-5.3-flash
-- digitalocean update x9: deepseek-3.2: {'input': [0.25, 0.5], 'output': [0.8, 1.6], 'cache_read': [0.075, 0.15]}->{; deepseek-4-flash: {'input': [0.0679, 0.14], 'output': [0.168, 0.28], 'cache_read': [0.0168; deepseek-v4-flash-0731: {'input': [0.08, 0.14], 'output': [0.252, 0.28], 'cache_read': [0.; deepseek-v4-pro: {'input': [0.87, 1.74], 'output': [1.74, 3.48], 'cache_read': [0.174, 0.3; glm-5.2: {'input': [0.7, 1.4], 'output': [2.2, 4.4], 'cache_read': [0.105, 0.21]}->{'input
-- edenai add x5: databricks/databricks-gpt-oss-120b@eu: ?->databricks/databricks-gpt-oss-120b@eu; databricks/databricks-gpt-oss-20b@eu: ?->databricks/databricks-gpt-oss-20b@eu; vertex/gemini-3.1-flash-lite: ?->vertex/gemini-3.1-flash-lite; vertex/gemini-3.1-flash-lite@eu: ?->vertex/gemini-3.1-flash-lite@eu; vertex/gemini-3.1-flash-lite@us: ?->vertex/gemini-3.1-flash-lite@us
-- edenai update x5: ionos/meta-llama/Llama-3.3-70B-Instruct: {'input': [0.758485, 0.756925], 'output': [0.7584; ionos/openai/gpt-oss-120b: {'input': [0.175035, 0.174675], 'output': [0.758485, 0.756925]}; scaleway/deepseek-v4-flash-0731: {'input': [0.46676, 0.4658], 'output': [0.933521, 0.9316]; scaleway/gpt-oss-120b: {'input': [0.175035, 0.174675], 'output': [0.70014, 0.6987]}->{'inp; scaleway/llama-3.3-70b-instruct: {'input': [1.050211, 1.04805], 'output': [1.050211, 1.048
-- hyper update x5: glm-5: {'input': [0.92, 0.9], 'output': [2.976, 2.804]}->{'input': 0.9, 'output': 2.804}; kimi-k2.5: {'input': [0.544, 0.5444], 'output': [2.76, 2.855]}->{'input': 0.5444, 'output'; llama-3.3-70b-instruct: {'input': [0.638, 0.6066], 'output': [0.768, 1.0386]}->{'input': 0; minimax-m2.7: {'input': [0.424, 0.408], 'output': [1.612, 1.512]}->{'input': 0.408, 'outpu; qwen3.8-flash: {'input': [0.16, 0.15]}->{'input': 0.15}
-- inceptron update x2: moonshotai/Kimi-K2.6: {'cache_read': [0.13, 0.15]}->{'cache_read': 0.15}; moonshotai/Kimi-K2.7-Code: {'input': [0.67, 0.66], 'cache_read': [0.19, 0.18]}->{'input': 
-- kenari add x21: claude-opus-5: ?->claude-opus-5; claude-sonnet-4-6: ?->claude-sonnet-4-6; gemini-3-1-flash-tts: ?->gemini-3-1-flash-tts; gemini-3-1-pro: ?->gemini-3-1-pro; gemini-3-5-flash: ?->gemini-3-5-flash
-- kilo add x1: inclusionai/ling-3.0-flash-fin:free: ?->inclusionai/ling-3.0-flash-fin:free
-- kilo update x9: google/gemma-4-31b-it: {'input': [0.09, 0.08], 'output': [0.34, 0.35], 'cache_read': [0.05; meta-llama/llama-4-maverick: {'output': [0.696, 0.8]}->{'output': 0.8}; minimax/minimax-m2.7:free: {'cache_read': [None, 0]}->{'cache_read': 0}; minimax/minimax-m3:free: {'cache_read': [None, 0]}->{'cache_read': 0}; qwen/qwen3.6-35b-a3b: {'input': [0.14, 0.1], 'output': [1, 0.9]}->{'input': 0.1, 'output':
-- llmgateway add x1: deepseek-v4-flash-vision-exp: ?->deepseek-v4-flash-vision-exp
-- merge-gateway update x1: zai/glm-5.3-flash: {'input': [0.075, 0.015], 'output': [0.25, 0.05], 'cache_read': [0.015,
-- minimax update x2: MiniMax-M2.5-highspeed: ?->{'models': 1}; MiniMax-M2.5-highspeed: {'cache_read': [0.03, 0.06]}->{'cache_read': 0.06}
-- mistral update x3: ministral-3b-latest,ministral-3b-latest,ministral-8b-latest,ministral-8b-latest: ?->{'mode; ministral-3b-latest: {'input': [0.1, 0.04], 'output': [0.1, 0.04]}->{'input': 0.04, 'outpu; ministral-8b-latest: {'input': [0.15, 0.1], 'output': [0.15, 0.1]}->{'input': 0.1, 'output
-- modal add x2: Qwen/Qwen3.8-2.4T-A95B: ?->Qwen/Qwen3.8-2.4T-A95B; zai-org/GLM-5.3-Flash: ?->zai-org/GLM-5.3-Flash
-- nano-gpt add x1: z-ai/glm-5.3-flash-uncensored: ?->z-ai/glm-5.3-flash-uncensored
-- neuralwatt add x4: kimi-k2.7-code: ?->kimi-k2.7-code; kimi-k2.7-code-fast: ?->kimi-k2.7-code-fast; kimi-k3-flex: ?->kimi-k3-flex; qwen3.6-35b: ?->qwen3.6-35b
-- neuralwatt update x10: gemma-4-31b: {'cache_read': [0.036, 0.0144]}->{'cache_read': 0.0144}; glm-5.2: {'cache_read': [0.3625, 0.145]}->{'cache_read': 0.145}; glm-5.2-fast: {'cache_read': [0.3625, 0.145]}->{'cache_read': 0.145}; glm-5.2-flex: {'input': [0.725, 0.9425], 'output': [2.25, 2.925], 'cache_read': [0.18125, ; glm-5.2-short: {'cache_read': [0.3625, 0.145]}->{'cache_read': 0.145}
-- nvidia add x1: deepseek-ai/deepseek-v4-pro-0813: ?->deepseek-ai/deepseek-v4-pro-0813
-- ofox add x1: z-ai/glm-5.3-flash: ?->z-ai/glm-5.3-flash
+价格同步（341 处变更）：
+- **alibaba**（更新 14）：`qwen3.7-plus`, `qwen3.6-flash`, `qwen-vl-ocr`, `qwen3.6-35b-a3b`, `qwen3-next-80b-a3b-thinking` … +2
+- **alibaba-cn**（更新 3）：`glm-5`, `glm-5.1`, `qwen3.5-397b-a17b` — 入 $0.573 出 $2.58; 入 $0.825 出 $3.301; 入 $0.172 出 $1.032
+- **baseten**（新增 1）：`zai-org/GLM-5.3-Flash`
+- **crossmodel**（新增 1）：`z-ai/glm-5.3-flash`
+- **deepseek**（更新 6）：`deepseek-v4-flash`, `deepseek-v4-pro`, `deepseek-v4-flash-vision-exp` — 入 $0.14 出 $0.28 缓存 $0.0028; 入 $0.14 出 $0.28 缓存 $0.0028; 入 $0.435 出 $0.87 缓存 $0.003625
+- **digitalocean**（新增 1）：`glm-5.3-flash`
+- **digitalocean**（更新 9）：`deepseek-3.2`, `deepseek-4-flash`, `deepseek-v4-flash-0731`, `deepseek-v4-pro`, `glm-5.2` … +4
+- **edenai**（新增 5）：`databricks/databricks-gpt-oss-120b@eu`, `databricks/databricks-gpt-oss-20b@eu`, `vertex/gemini-3.1-flash-lite`, `vertex/gemini-3.1-flash-lite@eu`, `vertex/gemini-3.1-flash-lite@us`
+- **edenai**（更新 5）：`ionos/meta-llama/Llama-3.3-70B-Instruct`, `ionos/openai/gpt-oss-120b`, `scaleway/deepseek-v4-flash-0731`, `scaleway/gpt-oss-120b`, `scaleway/llama-3.3-70b-instruct`
+- **hyper**（更新 5）：`glm-5`, `kimi-k2.5`, `llama-3.3-70b-instruct`, `minimax-m2.7`, `qwen3.8-flash`
+- **inceptron**（更新 2）：`moonshotai/Kimi-K2.6`, `moonshotai/Kimi-K2.7-Code` — 缓存 $0.15; 入 $0.66 缓存 $0.18
+- **kenari**（新增 21）：`claude-opus-5`, `claude-sonnet-4-6`, `gemini-3-1-flash-tts`, `gemini-3-1-pro`, `gemini-3-5-flash` … +16
+- **kilo**（新增 1）：`inclusionai/ling-3.0-flash-fin:free`
+- **kilo**（更新 9）：`google/gemma-4-31b-it`, `meta-llama/llama-4-maverick`, `minimax/minimax-m2.7:free`, `minimax/minimax-m3:free`, `qwen/qwen3.6-35b-a3b` … +4
+- **llmgateway**（新增 1）：`deepseek-v4-flash-vision-exp`
+- **merge-gateway**（更新 1）：`zai/glm-5.3-flash` — 入 $0.015 出 $0.05 缓存 $0.003
+- **minimax**（更新 2）：`MiniMax-M2.5-highspeed` — 缓存 $0.06
+- **mistral**（更新 4）：`ministral-3b-latest`, `ministral-8b-latest` — 入 $0.04 出 $0.04; 入 $0.1 出 $0.1
+- **modal**（新增 2）：`Qwen/Qwen3.8-2.4T-A95B`, `zai-org/GLM-5.3-Flash`
+- **nano-gpt**（新增 1）：`z-ai/glm-5.3-flash-uncensored`
+- **neuralwatt**（新增 4）：`kimi-k2.7-code`, `kimi-k2.7-code-fast`, `kimi-k3-flex`, `qwen3.6-35b`
+- **neuralwatt**（更新 10）：`gemma-4-31b`, `glm-5.2`, `glm-5.2-fast`, `glm-5.2-flex`, `glm-5.2-short` … +5
+- **nvidia**（新增 1）：`deepseek-ai/deepseek-v4-pro-0813`
+- **ofox**（新增 1）：`z-ai/glm-5.3-flash`
+- **ollama-cloud**（新增 1）：`glm-5.3-flash`
+- **openai**（更新 1）：`gpt-5.6-sol` — 入 $4 出 $20 缓存 $0.4
+- **openrouter**（下架 37）：`moonshotai/kimi-k2.7-code:batch`, `openai/gpt-3.5-turbo:batch`, `openai/gpt-4-turbo:batch`, `openai/gpt-4.1-mini:batch`, `openai/gpt-4.1-nano:batch` … +32
+- **openrouter**（更新 7）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-flash-0731`, `deepseek/deepseek-v4-pro-0813`, `nvidia/nemotron-3-ultra-550b-a55b`, `nvidia/nemotron-3.5-lightning` … +2
+- **orcarouter**（新增 42）：`anthropic/claude-fable-5`, `anthropic/claude-opus-4.8`, `anthropic/claude-opus-5`, `anthropic/claude-sonnet-5`, `deepseek/deepseek-v4-flash-0731` … +37
+- **orcarouter**（更新 14）：`deepseek/deepseek-chat`, `deepseek/deepseek-reasoner`, `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `google/gemini-2.5-pro` … +9
+- **requesty**（新增 2）：`glm-5.3-flash`, `glm-5.3-flash@eu`
+- **requesty**（更新 127）：`claude-fable-5`, `claude-fable-5@eu`, `claude-haiku-4-5`, `claude-haiku-4-5@eu`, `claude-opus-4-1` … +122
+- **runinfra**（新增 2）：`ornith-ai/Ornith-1.5-35B-A3B`, `zai-org/GLM-5.3-Flash`
+- **runinfra**（更新 1）：`nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16` — 缓存 $0.01
+- **togetherai**（新增 1）：`zai-org/GLM-5.3-Flash`
+- **venice**（更新 1）：`z-ai-glm-5-3-flash` — 入 $0.15 出 $0.5 缓存 $0.03
+- **vercel**（新增 2）：`inclusionai/ling-3.0-flash-fin`, `inclusionai/ling-3.0-flash-fin-free`
+- **vivgrid**（新增 1）：`glm-5.3-flash`
+- **wandb**（新增 1）：`zai-org/GLM-5.3-Flash`
 
 ## 26.6.11 — 2026-08-27T19:41Z（内容更新）
 

@@ -70,6 +70,12 @@ for lst in (idx.get("providers", []), idx.get("resellers", [])):
 plans_count = len(json.load(open("data/feed/plans.json", encoding="utf-8")).get("plans", []))
 if plans_count != idx.get("plan_count"):
     fail(f"plan_count mismatch: index={idx.get('plan_count')} plans.json={plans_count}")
+# reverse check: every provider file must be referenced in index (providers OR resellers)
+indexed_ids = {e["id"] for e in idx.get("providers", [])} | {e["id"] for e in idx.get("resellers", [])}
+for pf in sorted(glob.glob("data/feed/providers/*.json")):
+    pid = json.load(open(pf, encoding="utf-8")).get("provider_id")
+    if pid not in indexed_ids:
+        fail(f"provider file {pf} not referenced in index.json (providers/resellers)")
 print(f"OK index counts: {idx.get('provider_count')} providers, {idx.get('model_count')} models, {plans_count} plans")
 
 # 3. zero-price policy
@@ -104,6 +110,10 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
                     warn(f"zero price without 'free' note: {p['provider_id']} :: {m['id']}")
                 else:
                     zero_free += 1
+        # context_window sanity: placeholder values (video/image models without token context)
+        cw = m.get("context_window")
+        if cw and (cw > 10_000_000 or 0 < cw < 100):
+            warn(f"suspicious context_window {cw} in {p['provider_id']} :: {m['id']} (check placeholder)")
         # billing_model consistency (required since schema 26.6.x)
         bm = m.get("billing_model")
         if not bm:

@@ -7,7 +7,7 @@
   "homepage": "https://developer.qiniu.com/aitokenapi",
   "pricing_page": "https://developer.qiniu.com/aitokenapi",
   "currency": "USD",
-  "updated_at": "2026-08-27T17:11:11Z",
+  "updated_at": "2026-08-28T08:18:12.812923Z",
   "verified_at": "2026-08-21T11:27:12Z",
   "models": [
     {
@@ -1187,7 +1187,7 @@
       "modalities": [
         "text"
       ],
-      "context_window": 99999999,
+      "context_window": null,
       "max_output": 99999999,
       "pricing": {
         "per_mtok": {
@@ -1201,7 +1201,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | context_window corrected from placeholder 99999999 (model has no token context).",
       "billing_model": [
         "unknown"
       ]
