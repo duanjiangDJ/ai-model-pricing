@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.7.12 — 2026-08-28T08:10Z (feature update)
+
+- **fix(test pollution)**: surge-guard unit tests only mocked `save_provider`, but `update_model_prices` also calls `append_changelog` — every test run wrote fake "test-prov" entries into the production `changelog.json`, and one such entry reached CHANGELOG.md (26.6.11). Tests now mock both; the 2 polluted changelog entries were removed and the 26.6.11 entry rewritten to explain it had no real changes.
+- **fix(free notes)**: zero-price models need a "free" note (audit policy). `sync_modelsdev` / `sync_openrouter` `build_model` now append "Free model (per_mtok = 0)." to notes when classified free; backfilled the note on 90 existing zero-price models (kenari/nvidia/opencode/openrouter/orcarouter/venice/vercel). Audit warnings 34 → 2.
+- **fix(audit)**: CNY-in-USD warnings now exempt notes explicitly stating "no official USD" (honest CNY-only annotations for baidu ernie-5.1/4.5-turbo, volcengine doubao — those are intentional).
+
 ## 26.7.11 — 2026-08-28T05:09Z (content update)
 
 - price sync (341 changes):
@@ -46,8 +52,9 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ## 26.6.11 — 2026-08-27T19:41Z (content update)
 
-- price sync (2 changes):
-- test-prov update x2: m1: ?->{'models': 1}; m1: ?->{'models': 1}
+- No real data changes in this run. (A transient unit-test pollution wrote two fake
+  "test-prov" changelog entries that were cleaned up in 26.7.12; the version bump was
+  triggered by that noise and is kept for version history continuity.)
 
 ## 26.5.11 — 2026-08-27T17:38Z (feature update)
 

@@ -83,7 +83,7 @@ class TestSurgeGuard(unittest.TestCase):
         from unittest import mock
         from toolbox import update_model_prices
         p = self._mk()
-        with mock.patch("toolbox.save_provider"):
+        with mock.patch("toolbox.save_provider"), mock.patch("toolbox.append_changelog"):
             changes = update_model_prices(p, {"m1": {"per_mtok": {"input": 0.55}}}, "2026-08-28T00:00:00Z", "test")
         self.assertEqual(p["models"][0]["pricing"]["per_mtok"]["input"], 0.55)
         self.assertTrue(changes)
@@ -92,7 +92,7 @@ class TestSurgeGuard(unittest.TestCase):
         from unittest import mock
         from toolbox import update_model_prices
         p = self._mk()
-        with mock.patch("toolbox.save_provider"):
+        with mock.patch("toolbox.save_provider"), mock.patch("toolbox.append_changelog"):
             changes = update_model_prices(p, {"m1": {"per_mtok": {"input": 5.0}}}, "2026-08-28T00:00:00Z", "test")
         self.assertEqual(p["models"][0]["pricing"]["per_mtok"]["input"], 0.5,
                          ">5x surge must be skipped, not written")

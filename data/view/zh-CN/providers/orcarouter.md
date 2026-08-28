@@ -6,7 +6,7 @@
 - 官网: https://docs.orcarouter.ai
 - 定价页: https://docs.orcarouter.ai
 - 币种: USD
-- 数据更新时间: 2026-08-28T05:09:26Z
+- 数据更新时间: 2026-08-28T08:09:20.424261Z
 - 核实时间: 2026-08-28T05:09:26Z
 
 共 **123** 个模型。
@@ -30,7 +30,7 @@
 | `deepseek/deepseek-reasoner` | — | reasoning | 按量 | 1M | $0.147 | $0.295 | $0.028 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash` | — | reasoning | 按量 | 1M | $0.147 | $0.295 | $0.02 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | 按量 | 1M | $0.147 | $0.295 | $0.02 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-flash-free` | — | reasoning | 免费 | 1M | $0 | $0 | — | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash-free` | — | reasoning | 免费 | 1M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 按量 | 1M | $0.147 | $0.295 | $0.02 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | 按量 | 1M | $0.442 | $0.884 | $0.06 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | 按量 | 1M | $0.442 | $0.884 | $0.06 | — | —/— | — | models.dev official list price |
@@ -104,7 +104,7 @@
 | `openai/gpt-5.6-terra` | — | reasoning | 按量 | 1.05M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.03 | $0.17 | — | — | —/— | — | models.dev official list price |
 | `orcarouter/auto` | — | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `orcarouter/free` | — | reasoning | 免费 | 65.536K | $0 | $0 | — | — | —/— | — | models.dev official list price |
+| `orcarouter/free` | — | reasoning | 免费 | 65.536K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `orcarouter/fusion` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
 | `orcarouter/fusion-flash` | — | reasoning | 未知 | 200K | — | — | — | — | —/— | — | models.dev official list price |
 | `orcarouter/fusion-mini` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
@@ -124,10 +124,10 @@
 | `qwen/qwen3.7-max` | — | reasoning | 按量 | 1M | $1.25 | $3.75 | $0.25 | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.7-plus` | — | reasoning | 按量 | 1M | $0.35 | $1.42 | $0.071 | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.8-27b` | — | reasoning | 按量 | 262.144K | $0.33 | $2.4 | — | — | —/— | — | models.dev official list price |
-| `qwen/qwen3.8-27b-free` | — | reasoning | 免费 | 65.536K | $0 | $0 | — | — | —/— | — | models.dev official list price |
+| `qwen/qwen3.8-27b-free` | — | reasoning | 免费 | 65.536K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `qwen/qwen3.8-max` | — | reasoning | 按量 | 1M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
 | `tencent/hy3` | — | reasoning | 按量 | 256K | $0.18 | $0.59 | $0.059 | — | —/— | — | models.dev official list price |
-| `tencent/hy3-free` | — | reasoning | 免费 | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price |
+| `tencent/hy3-free` | — | reasoning | 免费 | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `z-ai/glm-4.5` | — | reasoning | 按量 | 131.072K | $0.6 | $2.2 | $0.11 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-4.5-air` | — | reasoning | 按量 | 131.072K | $0.2 | $1.1 | $0.03 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-4.6` | — | reasoning | 按量 | 204.8K | $0.6 | $2.2 | $0.11 | — | —/— | — | models.dev official list price |

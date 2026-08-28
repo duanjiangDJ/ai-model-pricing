@@ -6,7 +6,7 @@
 - Homepage: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - Pricing page: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - Currency: USD
-- Data updated: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-28T08:09:20.424261Z
 - Verified: 2026-08-28T05:09:26Z
 
 **363** models in total.
@@ -156,8 +156,8 @@
 | `inception/mercury-2` | — | reasoning | per-token | 128K | $0.25 | $0.75 | $0.025 | — | —/— | — | models.dev official list price |
 | `inception/mercury-coder-small` | — | chat | per-token | 32K | $0.25 | $1 | — | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-3.0-flash` | — | reasoning | per-token | 256K | $0.06 | $0.18 | $0.012 | — | —/— | — | models.dev official list price |
-| `inclusionai/ling-3.0-flash-fin` | — | reasoning | free | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price |
-| `inclusionai/ling-3.0-flash-fin-free` | — | reasoning | free | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price |
+| `inclusionai/ling-3.0-flash-fin` | — | reasoning | free | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `inclusionai/ling-3.0-flash-fin-free` | — | reasoning | free | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `interfaze/interfaze-beta` | — | reasoning | per-token | 1M | $1.5 | $3.5 | — | — | —/— | — | models.dev official list price |
 | `klingai/kling-v2.5-turbo-i2v` | — | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
 | `klingai/kling-v2.5-turbo-t2v` | — | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
@@ -188,10 +188,10 @@
 | `minimax/minimax-m2.5` | — | reasoning | per-token | 204.8K | $0.3 | $1.2 | $0.03 | — | —/— | — | models.dev official list price |
 | `minimax/minimax-m2.5-highspeed` | — | reasoning | per-token | 204.8K | $0.6 | $2.4 | $0.03 | — | —/— | — | models.dev official list price |
 | `minimax/minimax-m2.7` | — | reasoning | per-token | 204.8K | $0.3 | $1.2 | $0.06 | — | —/— | — | models.dev official list price |
-| `minimax/minimax-m2.7-free` | — | reasoning | free | 196.608K | $0 | $0 | — | — | —/— | — | models.dev official list price |
+| `minimax/minimax-m2.7-free` | — | reasoning | free | 196.608K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `minimax/minimax-m2.7-highspeed` | — | reasoning | per-token | 204.8K | $0.6 | $2.4 | $0.06 | — | —/— | — | models.dev official list price |
 | `minimax/minimax-m3` | — | reasoning | per-token | 1M | $0.3 | $1.2 | $0.06 | — | —/— | — | models.dev official list price |
-| `minimax/minimax-m3-free` | — | reasoning | free | 1.04858M | $0 | $0 | $0 | — | —/— | — | models.dev official list price |
+| `minimax/minimax-m3-free` | — | reasoning | free | 1.04858M | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `mistral/codestral` | — | chat | per-token | 256K | $0.3 | $0.9 | — | — | —/— | — | models.dev official list price |
 | `mistral/codestral-embed` | — | embedding | per-token | 8.192K | — | — | — | — | —/— | — | models.dev official list price |
 | `mistral/devstral-2` | — | chat | per-token | 256K | $0.4 | $2 | — | — | —/— | — | models.dev official list price |

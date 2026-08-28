@@ -40,19 +40,19 @@ verification.
 ## Data Statistics (exact)
 
 - **Providers**: 186
-- **Models**: 7239
+- **Models**: 7294
 - **Subscription plans**: 67
 - **Distinct API endpoints**: 179
-- **Free models**: 440
+- **Free models**: 469
 
 ### By channel
 
 | Channel | Providers | Models |
 |---|---|---|
-| Inference host | 138 | 4316 |
+| Inference host | 138 | 4361 |
 | Subscription | 18 | 173 |
-| First-party | 16 | 408 |
-| Aggregator | 13 | 2222 |
+| First-party | 16 | 409 |
+| Aggregator | 13 | 2231 |
 | Cloud-hosted | 1 | 120 |
 
 ### By region
@@ -69,27 +69,27 @@ verification.
 |---|---|
 | offline | 43 |
 | online | 11 |
-| (unmarked) | 7185 |
+| (unmarked) | 7240 |
 
 ### Top providers by model count
 
 | Provider | Models |
 |---|---|
-| NanoGPT (`nano-gpt`) | 617 |
-| DevPass (LLM Gateway) (`llmgateway`) | 557 |
-| OpenRouter (`openrouter`) | 417 |
-| Kilo Gateway (`kilo`) | 373 |
-| Vercel AI Gateway (`vercel`) | 361 |
-| Eden AI (`edenai`) | 237 |
+| NanoGPT (`nano-gpt`) | 618 |
+| DevPass (LLM Gateway) (`llmgateway`) | 558 |
+| OpenRouter (`openrouter`) | 380 |
+| Kilo Gateway (`kilo`) | 374 |
+| Vercel AI Gateway (`vercel`) | 363 |
+| Eden AI (`edenai`) | 242 |
 | Merge Gateway (`merge-gateway`) | 176 |
-| Requesty (`requesty`) | 139 |
+| Requesty (`requesty`) | 141 |
 | Poe (`poe`) | 137 |
+| OrcaRouter (`orcarouter`) | 123 |
 | ZenMux (`zenmux`) | 120 |
 | Amazon Web Services (`aws`) | 120 |
-| Ofox (`ofox`) | 111 |
+| Ofox (`ofox`) | 112 |
 | Cortecs (`cortecs`) | 108 |
 | Abacus (`abacus`) | 108 |
-| NovitaAI (`novita-ai`) | 107 |
 
 ### By currency
 

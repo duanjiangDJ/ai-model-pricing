@@ -8,7 +8,7 @@
   "pricing_page": "https://opencode.ai/docs/go/",
   "api_base_url": "https://opencode.ai/zen/go/v1/models",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:09:20.424261Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -625,7 +625,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "Free model (per_mtok = 0).",
       "billing_model": [
         "free"
       ]

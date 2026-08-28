@@ -64,6 +64,9 @@ def build_model(mid, m):
         billing = ["free"]
     else:
         billing = ["unknown"]
+    note = "models.dev official list price"
+    if billing == ["free"]:
+        note += " | Free model (per_mtok = 0)."
     return {
         "id": mid,
         "name": m.get("name", mid),
@@ -83,7 +86,7 @@ def build_model(mid, m):
             "per_image": None,
             "promo": None,
         },
-        "notes": "models.dev official list price",
+        "notes": note,
     }
 
 

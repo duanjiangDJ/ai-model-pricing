@@ -16,6 +16,12 @@
 
 ---
 
+## 26.7.12 — 2026-08-28T08:10Z（功能更新）
+
+- **fix(测试污染)**：突变护栏单元测试只 mock 了 `save_provider`，但 `update_model_prices` 还会调用 `append_changelog`——每次跑测试都会往生产 `changelog.json` 写入假的 "test-prov" 条目，其中一条还进入了 CHANGELOG.md（26.6.11）。现已同时 mock 两者；2 条污染条目已清除，26.6.11 条目已重写说明无真实变更。
+- **fix(free 注释)**：零价格模型必须有 "free" 注释（audit 策略）。`sync_modelsdev` / `sync_openrouter` 的 `build_model` 在判定免费时自动追加 "Free model (per_mtok = 0)."；并为现存 90 个零价格模型补注（kenari/nvidia/opencode/openrouter/orcarouter/venice/vercel）。audit 警告 34 → 2。
+- **fix(audit)**：USD 文件内 CNY 检测豁免明确注明 "no official USD" 的条目（百度 ernie-5.1/4.5-turbo、火山 doubao 的有意 CNY-only 标注）。
+
 ## 26.7.11 — 2026-08-28T05:09Z（内容更新）
 
 - price sync (341 changes):
@@ -46,8 +52,7 @@
 
 ## 26.6.11 — 2026-08-27T19:41Z（内容更新）
 
-- price sync (2 changes):
-- test-prov update x2: m1: ?->{'models': 1}; m1: ?->{'models': 1}
+- 本次运行无真实数据变更。（一次单元测试污染临时写入了 2 条假的 "test-prov" changelog 条目，已于 26.7.12 清理；版本号因噪音触发提升，保留以维持版本历史连续。）
 
 ## 26.5.11 — 2026-08-27T17:38Z（功能更新）
 

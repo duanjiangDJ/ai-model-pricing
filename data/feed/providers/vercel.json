@@ -7,7 +7,7 @@
   "homepage": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
   "pricing_page": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
   "currency": "USD",
-  "updated_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-28T08:09:20.424261Z",
   "verified_at": "2026-08-28T05:09:26Z",
   "models": [
     {
@@ -3751,7 +3751,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "inclusionai/ling-3.0-flash-fin-free",
@@ -3776,7 +3776,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "interfaze/interfaze-beta",
@@ -4579,7 +4579,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
       ]
@@ -4657,7 +4657,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
       ]
