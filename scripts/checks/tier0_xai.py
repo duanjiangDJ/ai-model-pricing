@@ -14,7 +14,7 @@ import re
 import sys
 
 sys.path.insert(0, __file__.rsplit("checks", 1)[0])
-from toolbox import http_get, load_provider, to_text, update_model_prices  # noqa: E402
+from toolbox import http_get, load_provider, price_of, to_text, update_model_prices  # noqa: E402
 
 TIER = 0
 PROVIDER_ID = "xai"
@@ -46,8 +46,11 @@ def parse(text):
     for mid, d in out.items():
         if mid in batch_ids:
             pm = d["per_mtok"]
-            d["batch"] = {"input": round(pm["input"] * 0.8, 4),
-                          "output": round(pm["output"] * 0.8, 4)}
+            # dual-currency objects: read usd value, batch is 0.8 x standard (usd key)
+            inp = price_of(pm, "input", "usd") or 0.0
+            outp = price_of(pm, "output", "usd") or 0.0
+            d["batch"] = {"input": {"usd": round(inp * 0.8, 4)},
+                          "output": {"usd": round(outp * 0.8, 4)}}
         else:
             d["batch"] = None
     return out

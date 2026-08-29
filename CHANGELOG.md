@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.7.23 — 2026-08-29T01:32Z (feature update)
+
+- fix: normalize batch prices to dual-currency objects (schema 26.8 batch validation)
+
 ## 26.7.22 — 2026-08-28T10:47Z (feature update)
 
 - feat: lift changelog sync-summary truncation (full model list)

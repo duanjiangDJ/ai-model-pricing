@@ -58,20 +58,22 @@ def _std_output(std, full):
 
 
 def _batch(std, batch):
-    """Return {input, output} batch prices (per-token only), or None."""
+    """Return {input, output} dual-price batch objects (per-token only), or None.
+    Values are USD (Google publishes USD-only) wrapped as the schema-required
+    {usd} dual-price objects."""
     if "per image" in batch:
         return None
     b = {}
     mm = BATCH_IN_RE.search(batch)
     if mm:
-        b["input"] = float(mm.group(1))
+        b["input"] = {"usd": float(mm.group(1))}
     mm = MULTI_OUT_RE.search(batch)
     if mm:
-        b["output"] = float(mm.group(2))
+        b["output"] = {"usd": float(mm.group(2))}
     else:
         mm = BATCH_OUT_RE.search(batch)
         if mm:
-            b["output"] = float(mm.group(1))
+            b["output"] = {"usd": float(mm.group(1))}
     return b if len(b) == 2 else None
 
 

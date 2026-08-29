@@ -241,8 +241,12 @@ def update_model_prices(provider, updates, now, source, surge_factor=5.0):
             if "pay_per_token" not in bm:
                 m["billing_model"] = ["pay_per_token"]
         if data.get("batch"):
-            if m["pricing"].get("batch") != data["batch"]:
-                m["pricing"]["batch"] = data["batch"]
+            # schema 26.8+: batch.input/output are dual {usd,cny} objects (lowercase keys).
+            # Normalize a scalar batch ({input:20}) from any source so it can't break validate.
+            nb = {k: (v if isinstance(v, dict) else ({provider.get("currency", "USD").lower(): v} if v is not None else None))
+                  for k, v in data["batch"].items()}
+            if m["pricing"].get("batch") != nb:
+                m["pricing"]["batch"] = nb
                 changed.append(mid)
         if data.get("notes") and mid in changed:
             m["notes"] = data["notes"]
