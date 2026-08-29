@@ -6,10 +6,10 @@
 - Homepage: https://opencode.ai/zen
 - Pricing page: https://opencode.ai/docs/zen/
 - Currency: USD
-- Data updated: 2026-08-28T08:54:00Z
-- Verified: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-29T12:52:50Z
+- Verified: 2026-08-29T12:52:50Z
 
-**95** models in total.
+**96** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -79,6 +79,7 @@
 | `kimi-k3` | — | chat | per-token | — | $3 | $15 | $0.3 | — | —/— | — | — |
 | `laguna-s-2.1-free` | — | reasoning | free | 256K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `ling-2.6-flash-free` | — | chat | free | 262.1K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `ling-3.0-flash-fin-free` | — | reasoning | free | 262.144K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `ling-3.0-flash-free` | — | reasoning | free | 262.144K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `ling-3.0-tiny-free` | — | reasoning | free | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `longcat-2.0-free` | — | reasoning | free | 1M | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

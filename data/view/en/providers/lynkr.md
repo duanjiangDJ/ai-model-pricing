@@ -6,8 +6,8 @@
 - Homepage: https://github.com/Fast-Editor/Lynkr
 - Pricing page: https://github.com/Fast-Editor/Lynkr
 - Currency: USD
-- Data updated: 2026-08-28T08:54:00Z
-- Verified: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-29T12:52:50Z
+- Verified: 2026-08-29T12:52:50Z
 
 **1** models in total.
 

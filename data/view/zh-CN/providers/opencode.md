@@ -6,10 +6,10 @@
 - 官网: https://opencode.ai/zen
 - 定价页: https://opencode.ai/docs/zen/
 - 币种: USD
-- 数据更新时间: 2026-08-28T08:54:00Z
-- 核实时间: 2026-08-28T05:09:26Z
+- 数据更新时间: 2026-08-29T12:52:50Z
+- 核实时间: 2026-08-29T12:52:50Z
 
-共 **95** 个模型。
+共 **96** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -79,6 +79,7 @@
 | `kimi-k3` | — | chat | 按量 | — | $3 | $15 | $0.3 | — | —/— | — | — |
 | `laguna-s-2.1-free` | — | reasoning | 免费 | 256K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `ling-2.6-flash-free` | — | chat | 免费 | 262.1K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `ling-3.0-flash-fin-free` | — | reasoning | 免费 | 262.144K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `ling-3.0-flash-free` | — | reasoning | 免费 | 262.144K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `ling-3.0-tiny-free` | — | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `longcat-2.0-free` | — | reasoning | 免费 | 1M | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

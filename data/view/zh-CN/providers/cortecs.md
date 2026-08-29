@@ -6,10 +6,10 @@
 - 官网: https://api.cortecs.ai/v1/models
 - 定价页: https://api.cortecs.ai/v1/models
 - 币种: USD
-- 数据更新时间: 2026-08-28T08:54:00Z
-- 核实时间: 2026-08-28T05:09:26Z
+- 数据更新时间: 2026-08-29T12:52:50Z
+- 核实时间: 2026-08-29T12:52:50Z
 
-共 **108** 个模型。
+共 **111** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -47,6 +47,8 @@
 | `glm-5-turbo` | — | reasoning | 按量 | 202.752K | $1.186 | $3.955 | $0.296 | — | —/— | — | models.dev official list price |
 | `glm-5.1` | — | reasoning | 按量 | 202.752K | $1.384 | $4.348 | $0.346 | — | —/— | — | models.dev official list price |
 | `glm-5.2` | — | reasoning | 按量 | 1.04858M | $1.2 | $4.2 | $0.26 | — | —/— | — | models.dev official list price |
+| `glm-5.3` | — | reasoning | 按量 | 1.04858M | $1.75 | $4.499 | $0.438 | — | —/— | — | models.dev official list price |
+| `glm-5.3-flash` | — | reasoning | 按量 | 1.04858M | $0.201 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
 | `glm-5v-turbo` | — | reasoning | 按量 | 202.752K | $1.186 | $3.955 | $0.296 | — | —/— | — | models.dev official list price |
 | `gpt-4.1` | — | chat | 按量 | 1.04758M | $2.192 | $8.769 | $0.546 | — | —/— | — | models.dev official list price |
 | `gpt-4.1-mini` | — | chat | 按量 | 1.04758M | $0.434 | $1.704 | $0.134 | — | —/— | — | models.dev official list price |
@@ -118,6 +120,7 @@
 | `qwen3.6-35b-a3b` | — | reasoning | 按量 | 262K | $0.167 | $0.557 | — | — | —/— | — | models.dev official list price |
 | `qwen3.8-2.4t-a95b` | — | reasoning | 按量 | 262.144K | $2.5 | $6 | $0.625 | — | —/— | — | models.dev official list price |
 | `qwen3.8-27b` | — | reasoning | 按量 | 262.144K | $0.334 | $2.451 | $0.111 | — | —/— | — | models.dev official list price |
+| `qwen3.8-flash-next` | — | reasoning | 按量 | 262.144K | $0.201 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
 | `qwen3guard-gen-0.6b` | — | chat | 免费 | 32K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `qwen3guard-gen-8b` | — | chat | 免费 | 32K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `voxtral-small-2507` | — | chat | 按量 | 32K | $0.111 | $0.334 | $0.011 | — | —/— | — | models.dev official list price |

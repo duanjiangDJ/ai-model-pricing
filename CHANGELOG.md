@@ -16,6 +16,49 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.8.24 — 2026-08-29T13:00Z (content update)
+
+- price sync (151 changes):
+- **alibaba** (+1): `qwen3.8-flash`
+- **alibaba** (updated 14): `qwen3.7-plus`, `qwen3.6-flash`, `qwen-vl-ocr`, `qwen3.6-35b-a3b`, `qwen3-next-80b-a3b-thinking`, `qwen3-next-80b-a3b-instruct`, `qwen3-32b` — in $0.72 out $0.72; in $0.7 out $2.8; in $0.5 out $2; in $0.5 out $6; in $0.248 out $1.485; in $0.1875 out $1.125; in $0.5 out $3
+- **alibaba-cn** (+1): `qwen3.8-flash`
+- **amd** (+1): `Qwen3.8-Flash-Next`
+- **baseten** (+1): `zai-org/GLM-5.3`
+- **cloudflare-workers-ai** (+1): `@cf/zai-org/glm-5.3`
+- **cortecs** (+3): `glm-5.3`, `glm-5.3-flash`, `qwen3.8-flash-next`
+- **crof** (+2): `deepseek-v4-pro-0813`, `glm-5.3-flash`
+- **crof** (updated 2): `deepseek-v4-flash-0731`, `qwen3.8-27b` — in $0.08 out $0.1; in $0.2 out $1.5 cache $0.03
+- **crossmodel** (+1): `qwen/qwen3.8-flash`
+- **deepinfra** (+1): `zai-org/GLM-5.3`
+- **deepseek** (updated 6): `deepseek-v4-flash`, `deepseek-v4-pro`, `deepseek-v4-flash-vision-exp` — in $0.14 out $0.28 cache $0.0028; in $0.435 out $0.87 cache $0.003625
+- **digitalocean** (updated 10): `deepseek-3.2`, `deepseek-4-flash`, `deepseek-v4-flash-0731`, `deepseek-v4-pro`, `glm-5.2`, `kimi-k3`, `llama-4-maverick`, `mimo-v2.5-pro`, `openai-gpt-5.6-sol`, `openai-gpt-oss-120b` — in $0.25 out $0.8 cache $0.075; in $0.0679 out $0.168 cache $0.0168; in $0.08 out $0.252 cache $0.0252; in $0.87 out $1.74 cache $0.174; in $0.7 out $2.2 cache $0.105; in $2.85 out $14.25 cache $0.285; in $0.2 out $0.696; in $0.4 out $1.5 cache $0.08; in $4 out $20 cache $0.4; in $0.055 out $0.385
+- **edenai** (+4): `deepinfra/tencent/Hy3`, `mistral/voxtral-small-latest`, `qwen/qwen3.8-flash`, `tensorx/deepseek/deepseek-v4-pro-0813`
+- **edenai** (updated 6): `flexai/gpt-oss-20b`, `ionos/meta-llama/Llama-3.3-70B-Instruct`, `ionos/openai/gpt-oss-120b`, `scaleway/deepseek-v4-flash-0731`, `scaleway/gpt-oss-120b`, `scaleway/llama-3.3-70b-instruct` — in $0.02 out $0.1; in $0.756795 out $0.756795; in $0.174645 out $0.756795; in $0.46572 out $0.93144; in $0.174645 out $0.69858; in $1.04787 out $1.04787
+- **fireworks-ai** (+1): `accounts/fireworks/models/glm-5p3`
+- **huggingface** (+1): `zai-org/GLM-5.3`
+- **hyper** (updated 4): `gemma-4-26b-a4b-it`, `glm-5.1`, `llama-4-maverick-17b-128e-instruct-fp8`, `minimax-m2.7` — in $0.11 out $0.408; in $1.314 out $4.268; in $0.284 out $0.934; in $0.404 out $1.496
+- **inceptron** (updated 2): `moonshotai/Kimi-K2.6`, `zai-org/GLM-5.2` — in $0.53 cache $0.17; in $0.71 out $2.35 cache $0.12
+- **kilo** (+1): `tencent/hy4-preview`
+- **kilo** (updated 5): `google/gemma-4-31b-it`, `meta-llama/llama-4-maverick`, `z-ai/glm-5.3-flash`, `~google/gemini-flash-latest`, `~z-ai/glm-latest` — in $0.07 cache $0.1; out $0.696; in $0.15 out $0.5 cache $0.03; in $0.75 out $3.75 cache $0.075; in $1.1875 out $4.18 cache $0.247
+- **llmgateway** (+2): `qwen3.8-27b`, `qwen3.8-flash`
+- **llmgateway** (updated 3): `glm-5.3-flash`, `kimi-k2.7-code`, `kimi-k3` — in $0.13 out $0.4 cache $0.024; in $0.89 out $3.71 cache $0.18; in $2.83 out $14.13 cache $0.28
+- **minimax** (updated 2): `MiniMax-M2.5-highspeed` — cache $0.06
+- **mistral** (updated 4): `ministral-3b-latest`, `ministral-8b-latest` — in $0.04 out $0.04; in $0.1 out $0.1
+- **nano-gpt** (+19): `TEE/glm-5.3-flash`, `abliterated-model`, `abliterated-model-large`, `google/gemma-4-26b-a4b-it-chimerax`, `google/gemma-4-26b-a4b-it-darksoul`, `google/gemma-4-26b-a4b-it-luminous`, `google/gemma-4-26b-a4b-it-moonlight`, `google/gemma-4-26b-a4b-it-musica`, `google/gemma-4-26b-a4b-it-opusdistill`, `google/gemma-4-26b-a4b-it-shadowsiren`, `google/gemma-4-31b-it-darkidol`, `google/gemma-4-31b-it-fabled`, `google/gemma-4-31b-it-garnet`, `google/gemma-4-31b-it-gembrain`, `google/gemma-4-31b-it-gemsicle`, `google/gemma-4-31b-it-isometry`, `google/gemma-4-31b-it-novelist`, `qwen/qwen3.8-27b-fable`, `tencent/hy4-preview`
+- **nano-gpt** (updated 12): `claw-high`, `claw-low`, `claw-medium`, `hermes-high`, `hermes-low`, `hermes-medium`, `openai/gpt-5.6-luna`, `openai/gpt-5.6-luna-pro`, `openai/gpt-5.6-terra`, `openai/gpt-5.6-terra-pro`, `zai-org/glm-5.3`, `zai-org/glm-5.3:thinking` — in $1 out $3.2 cache $0.2; in $0.2 out $1.2 cache $0.02; in $2 out $12 cache $0.2
+- **opencode** (+1): `ling-3.0-flash-fin-free`
+- **opencode-go** (+2): `hy4-preview`, `qwen3.8-flash`
+- **openrouter** (+18): `deepseek/deepseek-v4-flash-0731:batch`, `deepseek/deepseek-v4-pro-0813:batch`, `google/gemma-4-31b-it:batch`, `meta/muse-glimmer-30b:batch`, `mistralai/codestral-2508:batch`, `mistralai/ministral-8b-2512:batch`, `mistralai/mistral-large-2512:batch`, `mistralai/mistral-medium-3-5:batch`, `mistralai/mistral-medium-3.1:batch`, `mistralai/mistral-small-2603:batch`, `moonshotai/kimi-k3:batch`, `openai/gpt-oss-120b:batch`, `openai/gpt-oss-20b:batch`, `qwen/qwen3.5-9b:batch`, `qwen/qwen3.8-2.4t-a95b:batch`, `tencent/hy4-preview`, `thinkingmachines/inkling-small:batch`, `z-ai/glm-5.3-flash:batch`
+- **openrouter** (-2): `allenai/olmo-3-32b-think`, `arcee-ai/virtuoso-large`
+- **openrouter** (updated 13): `deepseek/deepseek-v3.2`, `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-flash-0731`, `deepseek/deepseek-v4-pro`, `google/gemini-3.7-flash`, `meta/muse-glimmer-30b`, `nvidia/nemotron-3.5-lightning`, `openai/gpt-4.1-nano`, `qwen/qwen3-vl-30b-a3b-instruct`, `qwen/qwen3.5-122b-a10b`, `qwen/qwen3.6-27b`, `~google/gemini-flash-latest`, `~z-ai/glm-latest`
+- **regolo-ai** (+1): `qwen3.8-27b`
+- **requesty** (+1): `glm-5.3@eu`
+- **tencent** (updated 1): `hunyuan-hy3`
+- **tencent-tokenhub** (+1): `hy4-preview`
+- **vercel** (+2): `alibaba/wan-v3.0-video-prime`, `tencent/hy4-preview`
+- **vercel** (updated 7): `alibaba/qwen3.8-2.4t-a95b`, `alibaba/qwen3.8-27b`, `deepseek/deepseek-v4-pro`, `moonshotai/kimi-k2.7-code`, `nvidia/nemotron-3.5-lightning`, `tencent/hy3`, `zai/glm-5.3` — cache $0.25; in $0.5 out $3 cache $0.1; in $0.66 out $1.98 cache $0.022; cache $0.16; out $0.2 cache $0.01; in $0.14 out $0.58 cache $0.035; cache $0.14
+- **wandb** (+1): `deepseek-ai/DeepSeek-V4-Pro-0813`
+
 ## 26.7.24 — 2026-08-29T12:50Z (feature update)
 
 - fix: moonshotai batch prices to dual-currency (schema 26.8 batch validation)

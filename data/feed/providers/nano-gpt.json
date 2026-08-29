@@ -7,8 +7,8 @@
   "homepage": "https://docs.nano-gpt.com",
   "pricing_page": "https://docs.nano-gpt.com",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
-  "verified_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-29T12:52:50Z",
+  "verified_at": "2026-08-29T12:52:50Z",
   "models": [
     {
       "id": "Baichuan-M2",
@@ -1931,6 +1931,37 @@
       ]
     },
     {
+      "id": "TEE/glm-5.3-flash",
+      "name": "GLM 5.3 Flash TEE",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 131072,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.15
+          },
+          "output": {
+            "usd": 0.5
+          },
+          "cache_read": {
+            "usd": 0.03
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "TEE/gpt-oss-120b",
       "name": "GPT-OSS 120B TEE",
       "category": "chat",
@@ -2921,6 +2952,68 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "abliterated-model",
+      "name": "Abliterated Model",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 262134,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 3
+          },
+          "output": {
+            "usd": 3
+          },
+          "cache_read": {
+            "usd": 0.3
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "abliterated-model-large",
+      "name": "Abliterated Model Large",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 999990,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 5
+          },
+          "output": {
+            "usd": 5
+          },
+          "cache_read": {
+            "usd": 0.5
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "aion-labs/aion-2.0",
@@ -5484,13 +5577,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.4
+            "usd": 1
           },
           "output": {
-            "usd": 4.4
+            "usd": 3.2
           },
           "cache_read": {
-            "usd": 0.26
+            "usd": 0.2
           },
           "cache_write": null
         },
@@ -5516,13 +5609,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.4
+            "usd": 1
           },
           "output": {
-            "usd": 4.4
+            "usd": 3.2
           },
           "cache_read": {
-            "usd": 0.26
+            "usd": 0.2
           },
           "cache_write": null
         },
@@ -5548,13 +5641,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.4
+            "usd": 1
           },
           "output": {
-            "usd": 4.4
+            "usd": 3.2
           },
           "cache_read": {
-            "usd": 0.26
+            "usd": 0.2
           },
           "cache_write": null
         },
@@ -9021,6 +9114,223 @@
       ]
     },
     {
+      "id": "google/gemma-4-26b-a4b-it-chimerax",
+      "name": "Chimera X",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it-darksoul",
+      "name": "Dark Soul",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it-luminous",
+      "name": "Luminous Mirror",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it-moonlight",
+      "name": "Moonlight Dusk",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it-musica",
+      "name": "Musica",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it-opusdistill",
+      "name": "Opus Distill",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it-shadowsiren",
+      "name": "Shadow Siren",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "google/gemma-4-26b-a4b-it:thinking",
       "name": "Gemma 4 26B A4B Thinking",
       "category": "reasoning",
@@ -9149,6 +9459,223 @@
       ]
     },
     {
+      "id": "google/gemma-4-31b-it-darkidol",
+      "name": "DarkIdol",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "google/gemma-4-31b-it-fabled",
+      "name": "Fabled",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "google/gemma-4-31b-it-garnet",
+      "name": "Garnet",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "google/gemma-4-31b-it-gembrain",
+      "name": "Gembrain",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "google/gemma-4-31b-it-gemsicle",
+      "name": "Gemsicle",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "google/gemma-4-31b-it-isometry",
+      "name": "Isometry",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "google/gemma-4-31b-it-novelist",
+      "name": "Novelist",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "google/gemma-4-31b-it:thinking",
       "name": "Gemma 4 31B Thinking",
       "category": "reasoning",
@@ -9192,13 +9719,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.4
+            "usd": 1
           },
           "output": {
-            "usd": 4.4
+            "usd": 3.2
           },
           "cache_read": {
-            "usd": 0.26
+            "usd": 0.2
           },
           "cache_write": null
         },
@@ -9224,13 +9751,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.4
+            "usd": 1
           },
           "output": {
-            "usd": 4.4
+            "usd": 3.2
           },
           "cache_read": {
-            "usd": 0.26
+            "usd": 0.2
           },
           "cache_write": null
         },
@@ -9256,13 +9783,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.4
+            "usd": 1
           },
           "output": {
-            "usd": 4.4
+            "usd": 3.2
           },
           "cache_read": {
-            "usd": 0.26
+            "usd": 0.2
           },
           "cache_write": null
         },
@@ -13632,13 +14159,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.1
+            "usd": 0.2
           },
           "output": {
-            "usd": 0.6
+            "usd": 1.2
           },
           "cache_read": {
-            "usd": 0.01
+            "usd": 0.02
           },
           "cache_write": null
         },
@@ -13664,13 +14191,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.1
+            "usd": 0.2
           },
           "output": {
-            "usd": 0.6
+            "usd": 1.2
           },
           "cache_read": {
-            "usd": 0.01
+            "usd": 0.02
           },
           "cache_write": null
         },
@@ -13760,13 +14287,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1
+            "usd": 2
           },
           "output": {
-            "usd": 6
+            "usd": 12
           },
           "cache_read": {
-            "usd": 0.1
+            "usd": 0.2
           },
           "cache_write": null
         },
@@ -13792,13 +14319,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1
+            "usd": 2
           },
           "output": {
-            "usd": 6
+            "usd": 12
           },
           "cache_read": {
-            "usd": 0.1
+            "usd": 0.2
           },
           "cache_write": null
         },
@@ -15887,6 +16414,37 @@
       ]
     },
     {
+      "id": "qwen/qwen3.8-27b-fable",
+      "name": "Qwen 3.8 27B Fable",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.2
+          },
+          "output": {
+            "usd": 1.4
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "qwen/qwen3.8-27b-obliterated",
       "name": "Qwen 3.8 27B Obliterated",
       "category": "reasoning",
@@ -17609,6 +18167,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "tencent/hy4-preview",
+      "name": "Tencent Hy4 Preview",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 64000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.834
+          },
+          "output": {
+            "usd": 2.501
+          },
+          "cache_read": {
+            "usd": 0.042
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "thinkingmachines/Inkling-Small",
@@ -19635,13 +20224,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.4
+            "usd": 1
           },
           "output": {
-            "usd": 4.4
+            "usd": 3.2
           },
           "cache_read": {
-            "usd": 0.26
+            "usd": 0.2
           },
           "cache_write": null
         },
@@ -19667,13 +20256,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.4
+            "usd": 1
           },
           "output": {
-            "usd": 4.4
+            "usd": 3.2
           },
           "cache_read": {
-            "usd": 0.26
+            "usd": 0.2
           },
           "cache_write": null
         },

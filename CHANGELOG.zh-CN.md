@@ -16,6 +16,49 @@
 
 ---
 
+## 26.8.24 — 2026-08-29T13:00Z（内容更新）
+
+- 价格同步（151 处变更）：
+- **alibaba**（新增 1）：`qwen3.8-flash`
+- **alibaba**（更新 14）：`qwen3.7-plus`, `qwen3.6-flash`, `qwen-vl-ocr`, `qwen3.6-35b-a3b`, `qwen3-next-80b-a3b-thinking`, `qwen3-next-80b-a3b-instruct`, `qwen3-32b` — 入 $0.72 出 $0.72; 入 $0.7 出 $2.8; 入 $0.5 出 $2; 入 $0.5 出 $6; 入 $0.248 出 $1.485; 入 $0.1875 出 $1.125; 入 $0.5 出 $3
+- **alibaba-cn**（新增 1）：`qwen3.8-flash`
+- **amd**（新增 1）：`Qwen3.8-Flash-Next`
+- **baseten**（新增 1）：`zai-org/GLM-5.3`
+- **cloudflare-workers-ai**（新增 1）：`@cf/zai-org/glm-5.3`
+- **cortecs**（新增 3）：`glm-5.3`, `glm-5.3-flash`, `qwen3.8-flash-next`
+- **crof**（新增 2）：`deepseek-v4-pro-0813`, `glm-5.3-flash`
+- **crof**（更新 2）：`deepseek-v4-flash-0731`, `qwen3.8-27b` — 入 $0.08 出 $0.1; 入 $0.2 出 $1.5 缓存 $0.03
+- **crossmodel**（新增 1）：`qwen/qwen3.8-flash`
+- **deepinfra**（新增 1）：`zai-org/GLM-5.3`
+- **deepseek**（更新 6）：`deepseek-v4-flash`, `deepseek-v4-pro`, `deepseek-v4-flash-vision-exp` — 入 $0.14 出 $0.28 缓存 $0.0028; 入 $0.14 出 $0.28 缓存 $0.0028; 入 $0.435 出 $0.87 缓存 $0.003625
+- **digitalocean**（更新 10）：`deepseek-3.2`, `deepseek-4-flash`, `deepseek-v4-flash-0731`, `deepseek-v4-pro`, `glm-5.2`, `kimi-k3`, `llama-4-maverick`, `mimo-v2.5-pro`, `openai-gpt-5.6-sol`, `openai-gpt-oss-120b` — 入 $0.25 出 $0.8 缓存 $0.075; 入 $0.0679 出 $0.168 缓存 $0.0168; 入 $0.08 出 $0.252 缓存 $0.0252; 入 $0.87 出 $1.74 缓存 $0.174; 入 $0.7 出 $2.2 缓存 $0.105; 入 $2.85 出 $14.25 缓存 $0.285; 入 $0.2 出 $0.696; 入 $0.4 出 $1.5 缓存 $0.08; 入 $4 出 $20 缓存 $0.4; 入 $0.055 出 $0.385
+- **edenai**（新增 4）：`deepinfra/tencent/Hy3`, `mistral/voxtral-small-latest`, `qwen/qwen3.8-flash`, `tensorx/deepseek/deepseek-v4-pro-0813`
+- **edenai**（更新 6）：`flexai/gpt-oss-20b`, `ionos/meta-llama/Llama-3.3-70B-Instruct`, `ionos/openai/gpt-oss-120b`, `scaleway/deepseek-v4-flash-0731`, `scaleway/gpt-oss-120b`, `scaleway/llama-3.3-70b-instruct` — 入 $0.02 出 $0.1; 入 $0.756795 出 $0.756795; 入 $0.174645 出 $0.756795; 入 $0.46572 出 $0.93144; 入 $0.174645 出 $0.69858; 入 $1.04787 出 $1.04787
+- **fireworks-ai**（新增 1）：`accounts/fireworks/models/glm-5p3`
+- **huggingface**（新增 1）：`zai-org/GLM-5.3`
+- **hyper**（更新 4）：`gemma-4-26b-a4b-it`, `glm-5.1`, `llama-4-maverick-17b-128e-instruct-fp8`, `minimax-m2.7` — 入 $0.11 出 $0.408; 入 $1.314 出 $4.268; 入 $0.284 出 $0.934; 入 $0.404 出 $1.496
+- **inceptron**（更新 2）：`moonshotai/Kimi-K2.6`, `zai-org/GLM-5.2` — 入 $0.53 缓存 $0.17; 入 $0.71 出 $2.35 缓存 $0.12
+- **kilo**（新增 1）：`tencent/hy4-preview`
+- **kilo**（更新 5）：`google/gemma-4-31b-it`, `meta-llama/llama-4-maverick`, `z-ai/glm-5.3-flash`, `~google/gemini-flash-latest`, `~z-ai/glm-latest` — 入 $0.07 缓存 $0.1; 出 $0.696; 入 $0.15 出 $0.5 缓存 $0.03; 入 $0.75 出 $3.75 缓存 $0.075; 入 $1.1875 出 $4.18 缓存 $0.247
+- **llmgateway**（新增 2）：`qwen3.8-27b`, `qwen3.8-flash`
+- **llmgateway**（更新 3）：`glm-5.3-flash`, `kimi-k2.7-code`, `kimi-k3` — 入 $0.13 出 $0.4 缓存 $0.024; 入 $0.89 出 $3.71 缓存 $0.18; 入 $2.83 出 $14.13 缓存 $0.28
+- **minimax**（更新 2）：`MiniMax-M2.5-highspeed` — 缓存 $0.06
+- **mistral**（更新 4）：`ministral-3b-latest`, `ministral-8b-latest` — 入 $0.04 出 $0.04; 入 $0.1 出 $0.1
+- **nano-gpt**（新增 19）：`TEE/glm-5.3-flash`, `abliterated-model`, `abliterated-model-large`, `google/gemma-4-26b-a4b-it-chimerax`, `google/gemma-4-26b-a4b-it-darksoul`, `google/gemma-4-26b-a4b-it-luminous`, `google/gemma-4-26b-a4b-it-moonlight`, `google/gemma-4-26b-a4b-it-musica`, `google/gemma-4-26b-a4b-it-opusdistill`, `google/gemma-4-26b-a4b-it-shadowsiren`, `google/gemma-4-31b-it-darkidol`, `google/gemma-4-31b-it-fabled`, `google/gemma-4-31b-it-garnet`, `google/gemma-4-31b-it-gembrain`, `google/gemma-4-31b-it-gemsicle`, `google/gemma-4-31b-it-isometry`, `google/gemma-4-31b-it-novelist`, `qwen/qwen3.8-27b-fable`, `tencent/hy4-preview`
+- **nano-gpt**（更新 12）：`claw-high`, `claw-low`, `claw-medium`, `hermes-high`, `hermes-low`, `hermes-medium`, `openai/gpt-5.6-luna`, `openai/gpt-5.6-luna-pro`, `openai/gpt-5.6-terra`, `openai/gpt-5.6-terra-pro`, `zai-org/glm-5.3`, `zai-org/glm-5.3:thinking` — 入 $1 出 $3.2 缓存 $0.2; 入 $1 出 $3.2 缓存 $0.2; 入 $1 出 $3.2 缓存 $0.2; 入 $1 出 $3.2 缓存 $0.2; 入 $1 出 $3.2 缓存 $0.2; 入 $1 出 $3.2 缓存 $0.2; 入 $0.2 出 $1.2 缓存 $0.02; 入 $0.2 出 $1.2 缓存 $0.02; 入 $2 出 $12 缓存 $0.2; 入 $2 出 $12 缓存 $0.2; 入 $1 出 $3.2 缓存 $0.2; 入 $1 出 $3.2 缓存 $0.2
+- **opencode**（新增 1）：`ling-3.0-flash-fin-free`
+- **opencode-go**（新增 2）：`hy4-preview`, `qwen3.8-flash`
+- **openrouter**（新增 18）：`deepseek/deepseek-v4-flash-0731:batch`, `deepseek/deepseek-v4-pro-0813:batch`, `google/gemma-4-31b-it:batch`, `meta/muse-glimmer-30b:batch`, `mistralai/codestral-2508:batch`, `mistralai/ministral-8b-2512:batch`, `mistralai/mistral-large-2512:batch`, `mistralai/mistral-medium-3-5:batch`, `mistralai/mistral-medium-3.1:batch`, `mistralai/mistral-small-2603:batch`, `moonshotai/kimi-k3:batch`, `openai/gpt-oss-120b:batch`, `openai/gpt-oss-20b:batch`, `qwen/qwen3.5-9b:batch`, `qwen/qwen3.8-2.4t-a95b:batch`, `tencent/hy4-preview`, `thinkingmachines/inkling-small:batch`, `z-ai/glm-5.3-flash:batch`
+- **openrouter**（下架 2）：`allenai/olmo-3-32b-think`, `arcee-ai/virtuoso-large`
+- **openrouter**（更新 13）：`deepseek/deepseek-v3.2`, `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-flash-0731`, `deepseek/deepseek-v4-pro`, `google/gemini-3.7-flash`, `meta/muse-glimmer-30b`, `nvidia/nemotron-3.5-lightning`, `openai/gpt-4.1-nano`, `qwen/qwen3-vl-30b-a3b-instruct`, `qwen/qwen3.5-122b-a10b`, `qwen/qwen3.6-27b`, `~google/gemini-flash-latest`, `~z-ai/glm-latest`
+- **regolo-ai**（新增 1）：`qwen3.8-27b`
+- **requesty**（新增 1）：`glm-5.3@eu`
+- **tencent**（更新 1）：`hunyuan-hy3`
+- **tencent-tokenhub**（新增 1）：`hy4-preview`
+- **vercel**（新增 2）：`alibaba/wan-v3.0-video-prime`, `tencent/hy4-preview`
+- **vercel**（更新 7）：`alibaba/qwen3.8-2.4t-a95b`, `alibaba/qwen3.8-27b`, `deepseek/deepseek-v4-pro`, `moonshotai/kimi-k2.7-code`, `nvidia/nemotron-3.5-lightning`, `tencent/hy3`, `zai/glm-5.3` — 缓存 $0.25; 入 $0.5 出 $3 缓存 $0.1; 入 $0.66 出 $1.98 缓存 $0.022; 缓存 $0.16; 出 $0.2 缓存 $0.01; 入 $0.14 出 $0.58 缓存 $0.035; 缓存 $0.14
+- **wandb**（新增 1）：`deepseek-ai/DeepSeek-V4-Pro-0813`
+
 ## 26.7.24 — 2026-08-29T12:50Z（功能更新）
 
 - fix: moonshotai batch 价格为双币对象（schema 26.8 batch 校验）

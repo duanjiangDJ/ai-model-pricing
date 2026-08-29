@@ -7,8 +7,8 @@
   "homepage": "https://api-docs.deepseek.com/quick_start/pricing",
   "pricing_page": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
   "currency": "USD",
-  "updated_at": "2026-08-28T09:39:56.778415Z",
-  "verified_at": "2026-08-28T09:39:34Z",
+  "updated_at": "2026-08-29T12:52:51Z",
+  "verified_at": "2026-08-29T12:52:51Z",
   "models": [
     {
       "id": "deepseek-chat",
@@ -108,7 +108,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Domestic api-docs.deepseek.com/zh-cn pricing (CNY/1M tokens, peak tier; independent of the USD list — not a currency conversion). Parsed by check deepseek.",
+      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). Parsed by check deepseek.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -142,7 +142,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Domestic api-docs.deepseek.com/zh-cn pricing (CNY/1M tokens, peak tier; independent of the USD list — not a currency conversion). Parsed by check deepseek.",
+      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). Parsed by check deepseek.",
       "status": "online",
       "billing_model": [
         "pay_per_token"
@@ -168,7 +168,7 @@
             "cny": 27.0
           },
           "cache_read": {
-            "usd": 0.044,
+            "usd": 0.003625,
             "cny": 0.3
           },
           "cache_write": {
@@ -180,7 +180,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Domestic api-docs.deepseek.com/zh-cn pricing (CNY/1M tokens, peak tier; independent of the USD list — not a currency conversion). Parsed by check deepseek.",
+      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). Parsed by check deepseek.",
       "billing_model": [
         "pay_per_token"
       ]

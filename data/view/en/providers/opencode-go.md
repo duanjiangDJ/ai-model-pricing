@@ -6,10 +6,10 @@
 - Homepage: https://opencode.ai/go
 - Pricing page: https://opencode.ai/docs/go/
 - Currency: USD
-- Data updated: 2026-08-28T08:54:00Z
-- Verified: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-29T12:52:50Z
+- Verified: 2026-08-29T12:52:50Z
 
-**31** models in total.
+**33** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -25,6 +25,7 @@
 | `grok-4.5` | — | chat | per-token | — | $2 | $6 | $0.3 | — | —/— | — | — |
 | `grok-4.6` | — | reasoning | per-token | 500K | $2 | $6 | $0.5 | — | —/— | — | models.dev official list price |
 | `hy3` | — | chat | per-token | — | $0.0175 | $0.0725 | $0.004375 | — | —/— | — | — |
+| `hy4-preview` | — | reasoning | per-token | 1.024M | $0.834 | $2.501 | $0.042 | — | —/— | — | models.dev official list price |
 | `kimi-k2.5` | — | reasoning | per-token | 262.144K | $0.6 | $3 | $0.1 | — | —/— | — | models.dev official list price |
 | `kimi-k2.6` | — | chat | per-token | — | $0.95 | $4 | $0.16 | — | —/— | — | — |
 | `kimi-k2.7-code` | — | chat | per-token | — | $0.95 | $4 | $0.19 | — | —/— | — | — |
@@ -43,4 +44,5 @@
 | `qwen3.6-plus` | — | chat | per-token | — | $0.5 | $3 | $0.05 | $0.625 | —/— | — | — |
 | `qwen3.7-max` | — | chat | per-token | — | $2.5 | $7.5 | $0.5 | $3.125 | —/— | — | — |
 | `qwen3.7-plus` | — | chat | per-token | — | $0.4 | $1.6 | $0.04 | $0.5 | —/— | — | — |
+| `qwen3.8-flash` | — | reasoning | per-token | 1M | $0.15 | $0.47 | $0.016 | — | —/— | — | models.dev official list price |
 | `qwen3.8-max` | — | chat | per-token | — | $2 | $6 | $0.25 | $2.5 | —/— | — | — |

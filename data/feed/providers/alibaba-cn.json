@@ -7,8 +7,8 @@
   "homepage": "https://www.alibabacloud.com/help/en/model-studio/models",
   "pricing_page": "https://www.alibabacloud.com/help/en/model-studio/models",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
-  "verified_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-29T12:52:50Z",
+  "verified_at": "2026-08-29T12:52:50Z",
   "models": [
     {
       "id": "MiniMax-M2.5",
@@ -2373,6 +2373,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "qwen3.8-flash",
+      "name": "Qwen3.8 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.11875
+          },
+          "output": {
+            "usd": 0.40073
+          },
+          "cache_read": {
+            "usd": 0.01187
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "qwen3.8-max",

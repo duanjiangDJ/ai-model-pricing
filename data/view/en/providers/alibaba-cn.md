@@ -6,10 +6,10 @@
 - Homepage: https://www.alibabacloud.com/help/en/model-studio/models
 - Pricing page: https://www.alibabacloud.com/help/en/model-studio/models
 - Currency: USD
-- Data updated: 2026-08-28T08:54:00Z
-- Verified: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-29T12:52:50Z
+- Verified: 2026-08-29T12:52:50Z
 
-**86** models in total.
+**87** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -91,6 +91,7 @@
 | `qwen3.7-flash` | — | reasoning | per-token | 1M | $0.02962 | $0.1185 | $0.002962 | — | —/— | — | models.dev official list price |
 | `qwen3.7-max` | — | reasoning | per-token | 1M | $2.5 | $7.5 | $0.5 | — | —/— | — | models.dev official list price |
 | `qwen3.7-plus` | — | reasoning | per-token | 1M | $0.5 | $3 | $0.05 | — | —/— | — | models.dev official list price |
+| `qwen3.8-flash` | — | reasoning | per-token | 1M | $0.11875 | $0.40073 | $0.01187 | — | —/— | — | models.dev official list price |
 | `qwen3.8-max` | — | reasoning | per-token | 1M | $1.77744 | $5.33231 | $0.22218 | — | —/— | — | models.dev official list price |
 | `qwq-32b` | — | reasoning | per-token | 131.072K | $0.287 | $0.861 | — | — | —/— | — | models.dev official list price |
 | `qwq-plus` | — | reasoning | per-token | 131.072K | $0.23 | $0.574 | — | — | —/— | — | models.dev official list price |

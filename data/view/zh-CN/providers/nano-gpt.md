@@ -6,10 +6,10 @@
 - 官网: https://docs.nano-gpt.com
 - 定价页: https://docs.nano-gpt.com
 - 币种: USD
-- 数据更新时间: 2026-08-28T08:54:00Z
-- 核实时间: 2026-08-28T05:09:26Z
+- 数据更新时间: 2026-08-29T12:52:50Z
+- 核实时间: 2026-08-29T12:52:50Z
 
-共 **618** 个模型。
+共 **637** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -73,6 +73,7 @@
 | `TEE/glm-5.1-thinking` | — | reasoning | 按量 | 202.752K | $1.5 | $5.25 | $0.3 | — | —/— | — | models.dev official list price |
 | `TEE/glm-5.2` | — | reasoning | 按量 | 1.04858M | $1.4 | $4.6 | $0.5 | — | —/— | — | models.dev official list price |
 | `TEE/glm-5.2:thinking` | — | reasoning | 按量 | 1.04858M | $1.4 | $4.6 | $0.5 | — | —/— | — | models.dev official list price |
+| `TEE/glm-5.3-flash` | — | reasoning | 按量 | 1.04858M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `TEE/gpt-oss-120b` | — | chat | 按量 | 131.072K | $2 | $2 | $2 | — | —/— | — | models.dev official list price |
 | `TEE/gpt-oss-20b` | — | chat | 按量 | 131.072K | $0.2 | $0.8 | $0.1 | — | —/— | — | models.dev official list price |
 | `TEE/kimi-k2.6` | — | chat | 按量 | 262.144K | $1.5 | $5.25 | $0.375 | — | —/— | — | models.dev official list price |
@@ -104,6 +105,8 @@
 | `Tongyi-Zhiwen/QwenLong-L1-32B` | — | chat | 按量 | 128K | $0.14 | $0.6 | $0.07 | — | —/— | — | models.dev official list price |
 | `VongolaChouko/Starcannon-Unleashed-12B-v1.0` | — | chat | 按量 | 16.384K | $0.493 | $0.493 | $0.2465 | — | —/— | — | models.dev official list price |
 | `abacusai/Dracarys-72B-Instruct` | — | chat | 按量 | 16.384K | $0.493 | $0.493 | $0.2465 | — | —/— | — | models.dev official list price |
+| `abliterated-model` | — | reasoning | 按量 | 262.144K | $3 | $3 | $0.3 | — | —/— | — | models.dev official list price |
+| `abliterated-model-large` | — | reasoning | 按量 | 1M | $5 | $5 | $0.5 | — | —/— | — | models.dev official list price |
 | `aion-labs/aion-2.0` | — | chat | 按量 | 131.072K | $0.8 | $1.6 | $0.2 | — | —/— | — | models.dev official list price |
 | `aion-labs/aion-3.0` | — | reasoning | 按量 | 131.072K | $3 | $6 | $0.75 | — | —/— | — | models.dev official list price |
 | `aion-labs/aion-3.0-mini` | — | reasoning | 按量 | 131.072K | $0.7 | $1.4 | $0.18 | — | —/— | — | models.dev official list price |
@@ -184,9 +187,9 @@
 | `claude-sonnet-4-thinking:32768` | — | reasoning | 按量 | 1M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `claude-sonnet-4-thinking:64000` | — | reasoning | 按量 | 1M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `claude-sonnet-4-thinking:8192` | — | reasoning | 按量 | 1M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
-| `claw-high` | — | reasoning | 按量 | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
-| `claw-low` | — | reasoning | 按量 | 1.04858M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
-| `claw-medium` | — | reasoning | 按量 | 204.8K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `claw-high` | — | reasoning | 按量 | 1M | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
+| `claw-low` | — | reasoning | 按量 | 1.04858M | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
+| `claw-medium` | — | reasoning | 按量 | 204.8K | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
 | `cohere/command-r-plus-08-2024` | — | chat | 按量 | 128K | $2.856 | $14.246 | $1.428 | — | —/— | — | models.dev official list price |
 | `cohere/north-mini-code` | — | reasoning | 按量 | 256K | $0.2 | $0.8 | $0.1 | — | —/— | — | models.dev official list price |
 | `command-a-plus-05-2026` | — | reasoning | 按量 | 128K | $2.5 | $10 | $1.25 | — | —/— | — | models.dev official list price |
@@ -295,14 +298,28 @@
 | `google/gemini-flash-lite-latest` | — | reasoning | 按量 | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `google/gemini-pro-latest` | — | reasoning | 按量 | 1.04876M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-26b-a4b-it` | — | reasoning | 按量 | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
+| `google/gemma-4-26b-a4b-it-chimerax` | — | reasoning | 按量 | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
+| `google/gemma-4-26b-a4b-it-darksoul` | — | reasoning | 按量 | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
+| `google/gemma-4-26b-a4b-it-luminous` | — | chat | 按量 | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
+| `google/gemma-4-26b-a4b-it-moonlight` | — | reasoning | 按量 | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
+| `google/gemma-4-26b-a4b-it-musica` | — | reasoning | 按量 | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
+| `google/gemma-4-26b-a4b-it-opusdistill` | — | reasoning | 按量 | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
+| `google/gemma-4-26b-a4b-it-shadowsiren` | — | reasoning | 按量 | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-26b-a4b-it:thinking` | — | reasoning | 按量 | 262.144K | $0.13 | $0.4 | $0.065 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-26b-a4b-uncensored` | — | reasoning | 按量 | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-26b-a4b-uncensored:thinking` | — | reasoning | 按量 | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-31b-it` | — | reasoning | 按量 | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
+| `google/gemma-4-31b-it-darkidol` | — | reasoning | 按量 | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
+| `google/gemma-4-31b-it-fabled` | — | reasoning | 按量 | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
+| `google/gemma-4-31b-it-garnet` | — | reasoning | 按量 | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
+| `google/gemma-4-31b-it-gembrain` | — | reasoning | 按量 | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
+| `google/gemma-4-31b-it-gemsicle` | — | chat | 按量 | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
+| `google/gemma-4-31b-it-isometry` | — | reasoning | 按量 | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
+| `google/gemma-4-31b-it-novelist` | — | reasoning | 按量 | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-31b-it:thinking` | — | reasoning | 按量 | 262.144K | $0.1 | $0.35 | $0.05 | — | —/— | — | models.dev official list price |
-| `hermes-high` | — | reasoning | 按量 | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
-| `hermes-low` | — | reasoning | 按量 | 1.04858M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
-| `hermes-medium` | — | reasoning | 按量 | 204.8K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `hermes-high` | — | reasoning | 按量 | 1M | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
+| `hermes-low` | — | reasoning | 按量 | 1.04858M | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
+| `hermes-medium` | — | reasoning | 按量 | 204.8K | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
 | `holo3-35b-a3b` | — | reasoning | 按量 | 65.536K | $0.25 | $1.8 | $0.125 | — | —/— | — | models.dev official list price |
 | `holo3-35b-a3b:thinking` | — | reasoning | 按量 | 65.536K | $0.25 | $1.8 | $0.125 | — | —/— | — | models.dev official list price |
 | `huihui-ai/DeepSeek-R1-Distill-Llama-70B-abliterated` | — | reasoning | 按量 | 16.384K | $0.7 | $0.7 | $0.35 | — | —/— | — | models.dev official list price |
@@ -439,12 +456,12 @@
 | `openai/gpt-5.4-mini` | — | reasoning | 按量 | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.4-nano` | — | reasoning | 按量 | 400K | $0.2 | $1.25 | $0.02 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.5` | — | reasoning | 按量 | 1M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
-| `openai/gpt-5.6-luna` | — | reasoning | 按量 | 1.05M | $0.1 | $0.6 | $0.01 | — | —/— | — | models.dev official list price |
-| `openai/gpt-5.6-luna-pro` | — | reasoning | 按量 | 1.05M | $0.1 | $0.6 | $0.01 | — | —/— | — | models.dev official list price |
+| `openai/gpt-5.6-luna` | — | reasoning | 按量 | 1.05M | $0.2 | $1.2 | $0.02 | — | —/— | — | models.dev official list price |
+| `openai/gpt-5.6-luna-pro` | — | reasoning | 按量 | 1.05M | $0.2 | $1.2 | $0.02 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.6-sol` | — | reasoning | 按量 | 1.05M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.6-sol-pro` | — | reasoning | 按量 | 1.05M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
-| `openai/gpt-5.6-terra` | — | reasoning | 按量 | 1.05M | $1 | $6 | $0.1 | — | —/— | — | models.dev official list price |
-| `openai/gpt-5.6-terra-pro` | — | reasoning | 按量 | 1.05M | $1 | $6 | $0.1 | — | —/— | — | models.dev official list price |
+| `openai/gpt-5.6-terra` | — | reasoning | 按量 | 1.05M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
+| `openai/gpt-5.6-terra-pro` | — | reasoning | 按量 | 1.05M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `openai/gpt-chat-latest` | — | reasoning | 按量 | 1.05M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
 | `openai/gpt-latest` | — | reasoning | 按量 | 1.05M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-120b` | — | reasoning | 按量 | 128K | $0.35 | $0.75 | — | — | —/— | — | models.dev official list price |
@@ -510,6 +527,7 @@
 | `qwen/qwen3.6-35b-a3b-uncensored` | — | chat | 按量 | 65.536K | $0.15 | $0.5 | $0.075 | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.6-35b-a3b-uncensored:thinking` | — | reasoning | 按量 | 262.144K | $0.15 | $0.5 | $0.075 | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.8-2.4t-a95b` | — | chat | 按量 | 991K | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
+| `qwen/qwen3.8-27b-fable` | — | reasoning | 按量 | 262.144K | $0.2 | $1.4 | $0.04 | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.8-27b-obliterated` | — | reasoning | 按量 | 262.144K | $0.18 | $0.5 | $0.075 | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.8-27b-obliterated:thinking` | — | reasoning | 按量 | 262.144K | $0.18 | $0.5 | $0.075 | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.8-27b-uncensored` | — | chat | 按量 | 131.072K | $0.18 | $0.5 | $0.075 | — | —/— | — | models.dev official list price |
@@ -564,6 +582,7 @@
 | `stepfun/step-3.7-flash:thinking` | — | reasoning | 按量 | 262.144K | $0.2 | $1.15 | $0.04 | — | —/— | — | models.dev official list price |
 | `tencent/Hunyuan-MT-7B` | — | chat | 按量 | 8.192K | $10 | $20 | $5 | — | —/— | — | models.dev official list price |
 | `tencent/hy3` | — | reasoning | 按量 | 262.144K | $0.066 | $0.26 | $0.029 | — | —/— | — | models.dev official list price |
+| `tencent/hy4-preview` | — | reasoning | 按量 | 1.04858M | $0.834 | $2.501 | $0.042 | — | —/— | — | models.dev official list price |
 | `thinkingmachines/Inkling-Small` | — | chat | 按量 | 524.288K | $0.5 | $1.2 | $0.1 | — | —/— | — | models.dev official list price |
 | `thinkingmachines/Inkling-Small:thinking` | — | reasoning | 按量 | 524.288K | $0.5 | $1.2 | $0.1 | — | —/— | — | models.dev official list price |
 | `thinkingmachines/inkling` | — | chat | 按量 | 1.048M | $1 | $4.05 | $0.17 | — | —/— | — | models.dev official list price |
@@ -627,7 +646,7 @@
 | `zai-org/glm-5.1:thinking` | — | reasoning | 按量 | 200K | $0.75 | $2.6 | $0.15 | — | —/— | — | models.dev official list price |
 | `zai-org/glm-5.2` | — | reasoning | 按量 | 1.04858M | $0.42 | $1.32 | $0.078 | — | —/— | — | models.dev official list price |
 | `zai-org/glm-5.2:thinking` | — | reasoning | 按量 | 1.04858M | $0.42 | $1.32 | $0.078 | — | —/— | — | models.dev official list price |
-| `zai-org/glm-5.3` | — | reasoning | 按量 | 1.04858M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
-| `zai-org/glm-5.3:thinking` | — | reasoning | 按量 | 1.04858M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `zai-org/glm-5.3` | — | reasoning | 按量 | 1.04858M | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
+| `zai-org/glm-5.3:thinking` | — | reasoning | 按量 | 1.04858M | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
 | `zai-org/glm-5:thinking` | — | reasoning | 按量 | 200K | $0.5 | $2.55 | $0.13 | — | —/— | — | models.dev official list price |
 | `zai-org/glm-latest` | — | reasoning | 按量 | 1.04858M | $0.42 | $1.32 | $0.078 | — | —/— | — | models.dev official list price |

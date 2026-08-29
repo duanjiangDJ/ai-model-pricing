@@ -6,8 +6,8 @@
 - Homepage: https://docs.vivgrid.com/models
 - Pricing page: https://docs.vivgrid.com/models
 - Currency: USD
-- Data updated: 2026-08-28T08:54:00Z
-- Verified: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-29T12:52:50Z
+- Verified: 2026-08-29T12:52:50Z
 
 **22** models in total.
 

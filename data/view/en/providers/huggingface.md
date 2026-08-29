@@ -6,10 +6,10 @@
 - Homepage: https://huggingface.co/docs/inference-providers
 - Pricing page: https://huggingface.co/docs/inference-providers
 - Currency: USD
-- Data updated: 2026-08-28T08:54:00Z
-- Verified: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-29T12:52:50Z
+- Verified: 2026-08-29T12:52:50Z
 
-**71** models in total.
+**72** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -83,4 +83,5 @@
 | `zai-org/GLM-5` | — | reasoning | per-token | 202.752K | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.1` | — | reasoning | per-token | 202.752K | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.2` | — | reasoning | per-token | 262.144K | $1.4 | $4.4 | — | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.3` | — | reasoning | per-token | 1.04858M | $1.4 | $4.4 | — | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.3-Flash` | — | reasoning | per-token | 1.04858M | $0.15 | $0.5 | — | — | —/— | — | models.dev official list price |

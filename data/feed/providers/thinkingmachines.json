@@ -7,8 +7,8 @@
   "homepage": "https://tinker-docs.thinkingmachines.ai/tinker/compatible-apis/anthropic/",
   "pricing_page": "https://tinker-docs.thinkingmachines.ai/tinker/compatible-apis/anthropic/",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
-  "verified_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-29T12:52:50Z",
+  "verified_at": "2026-08-29T12:52:50Z",
   "models": [
     {
       "id": "thinkingmachines/Inkling",

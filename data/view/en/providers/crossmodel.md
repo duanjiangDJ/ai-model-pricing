@@ -6,10 +6,10 @@
 - Homepage: https://www.crossmodel.ai/docs
 - Pricing page: https://www.crossmodel.ai/docs
 - Currency: USD
-- Data updated: 2026-08-28T08:54:00Z
-- Verified: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-29T12:52:50Z
+- Verified: 2026-08-29T12:52:50Z
 
-**54** models in total.
+**55** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -52,6 +52,7 @@
 | `qwen/qwen3.7-flash` | — | reasoning | per-token | 1M | $0.04 | $0.13 | $0.01 | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.7-max` | — | reasoning | per-token | 1M | $1.504 | $4.504 | $0.3 | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.7-plus` | — | reasoning | per-token | 1M | $0.288 | $1.125 | $0.0288 | — | —/— | — | models.dev official list price |
+| `qwen/qwen3.8-flash` | — | reasoning | per-token | 1M | $0.13 | $0.43 | $0.016 | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.8-max` | — | reasoning | per-token | 1M | $1.88 | $5.63 | $0.23 | — | —/— | — | models.dev official list price |
 | `tencent/hy3` | — | reasoning | per-token | 262.144K | $0.16 | $0.64 | $0.04 | — | —/— | — | models.dev official list price |
 | `x-ai/grok-4.3` | — | reasoning | per-token | 1M | $1.25 | $2.5 | $0.2 | — | —/— | — | models.dev official list price |

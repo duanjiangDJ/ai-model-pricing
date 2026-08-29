@@ -7,8 +7,8 @@
   "homepage": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
   "pricing_page": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
-  "verified_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-29T12:52:50Z",
+  "verified_at": "2026-08-29T12:52:50Z",
   "models": [
     {
       "id": "alibaba-qwen3-32b",
@@ -753,13 +753,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.5
+            "usd": 0.25
           },
           "output": {
-            "usd": 1.6
+            "usd": 0.8
           },
           "cache_read": {
-            "usd": 0.15
+            "usd": 0.075
           },
           "cache_write": null
         },
@@ -785,13 +785,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.14
+            "usd": 0.0679
           },
           "output": {
-            "usd": 0.28
+            "usd": 0.168
           },
           "cache_read": {
-            "usd": 0.028
+            "usd": 0.0168
           },
           "cache_write": null
         },
@@ -873,13 +873,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.14
+            "usd": 0.08
           },
           "output": {
-            "usd": 0.28
+            "usd": 0.252
           },
           "cache_read": {
-            "usd": 0.028
+            "usd": 0.0252
           },
           "cache_write": null
         },
@@ -905,13 +905,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.74
+            "usd": 0.87
           },
           "output": {
-            "usd": 3.48
+            "usd": 1.74
           },
           "cache_read": {
-            "usd": 0.348
+            "usd": 0.174
           },
           "cache_write": null
         },
@@ -1200,13 +1200,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.4
+            "usd": 0.7
           },
           "output": {
-            "usd": 4.4
+            "usd": 2.2
           },
           "cache_read": {
-            "usd": 0.21
+            "usd": 0.105
           },
           "cache_write": null
         },
@@ -1358,13 +1358,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 3
+            "usd": 2.85
           },
           "output": {
-            "usd": 15
+            "usd": 14.25
           },
           "cache_read": {
-            "usd": 0.3
+            "usd": 0.285
           },
           "cache_write": null
         },
@@ -1390,10 +1390,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.25
+            "usd": 0.2
           },
           "output": {
-            "usd": 0.87
+            "usd": 0.696
           },
           "cache_read": null,
           "cache_write": null
@@ -1480,13 +1480,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.8
+            "usd": 0.4
           },
           "output": {
-            "usd": 3
+            "usd": 1.5
           },
           "cache_read": {
-            "usd": 0.16
+            "usd": 0.08
           },
           "cache_write": null
         },
@@ -2343,13 +2343,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 5
+            "usd": 4
           },
           "output": {
-            "usd": 30
+            "usd": 20
           },
           "cache_read": {
-            "usd": 0.5
+            "usd": 0.4
           },
           "cache_write": null
         },
@@ -2501,10 +2501,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.1
+            "usd": 0.055
           },
           "output": {
-            "usd": 0.7
+            "usd": 0.385
           },
           "cache_read": {
             "usd": 0.02

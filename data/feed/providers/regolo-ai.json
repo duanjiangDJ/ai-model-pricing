@@ -7,8 +7,8 @@
   "homepage": "https://docs.regolo.ai/",
   "pricing_page": "https://docs.regolo.ai/",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
-  "verified_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-29T12:52:50Z",
+  "verified_at": "2026-08-29T12:52:50Z",
   "models": [
     {
       "id": "apertus-70b",
@@ -549,6 +549,35 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "qwen3.8-27b",
+      "name": "Qwen3.8 27B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 120000,
+      "max_output": 120000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.58
+          },
+          "output": {
+            "usd": 2.42
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     }
   ],
   "api_base_url": "https://api.regolo.ai/v1"

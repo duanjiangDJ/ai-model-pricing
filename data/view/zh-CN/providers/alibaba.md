@@ -6,10 +6,10 @@
 - 官网: https://www.alibabacloud.com/help/en/model-studio/models
 - 定价页: https://www.alibabacloud.com/help/en/model-studio/models
 - 币种: USD
-- 数据更新时间: 2026-08-28T10:18:35.973852Z
-- 核实时间: 2026-08-28T05:09:27Z
+- 数据更新时间: 2026-08-29T12:52:51Z
+- 核实时间: 2026-08-29T12:52:51Z
 
-共 **54** 个模型。
+共 **55** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -65,5 +65,6 @@
 | `qwen3.6-plus` | — | reasoning | 按量 | 1M | $0.5 | $3 | $0.05 | — | —/— | — | models.dev official list price |
 | `qwen3.7-max` | — | reasoning | 按量 | 1M | $2.5 | $7.5 | $0.5 | — | —/— | — | models.dev official list price |
 | `qwen3.7-plus` | — | reasoning | 按量 | 1M | $0.4 | $1.6 | $0.05 | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3.8-flash` | — | reasoning | 按量 | 1M | $0.15 | $0.47 | $0.016 | — | —/— | — | models.dev official list price |
 | `qwen3.8-max` | — | reasoning | 按量 | 1M | $2 / ¥12 | $6 / ¥36 | $0.25 | — | —/— | — | models.dev official list price \| Alibaba Bailian (CNY/1M tokens, CN region f… |
 | `qwq-plus` | — | reasoning | 按量 | 131.072K | $0.8 | $2.4 | — | — | —/— | — | models.dev official list price |

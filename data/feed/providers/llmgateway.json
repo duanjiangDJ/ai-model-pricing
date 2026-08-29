@@ -7,8 +7,8 @@
   "homepage": "https://llmgateway.io/docs",
   "pricing_page": "https://llmgateway.io/docs",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
-  "verified_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-29T12:52:50Z",
+  "verified_at": "2026-08-29T12:52:50Z",
   "models": [
     {
       "id": "alibaba/deepseek-v4-flash",
@@ -6347,13 +6347,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.15
+            "usd": 0.13
           },
           "output": {
-            "usd": 0.5
+            "usd": 0.4
           },
           "cache_read": {
-            "usd": 0.03
+            "usd": 0.024
           },
           "cache_write": null
         },
@@ -8972,13 +8972,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.95
+            "usd": 0.89
           },
           "output": {
-            "usd": 4
+            "usd": 3.71
           },
           "cache_read": {
-            "usd": 0.19
+            "usd": 0.18
           },
           "cache_write": null
         },
@@ -9036,13 +9036,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 3
+            "usd": 2.83
           },
           "output": {
-            "usd": 15
+            "usd": 14.13
           },
           "cache_read": {
-            "usd": 0.3
+            "usd": 0.28
           },
           "cache_write": null
         },
@@ -15173,6 +15173,68 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "qwen3.8-27b",
+      "name": "Qwen3.8 27B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.42
+          },
+          "output": {
+            "usd": 3
+          },
+          "cache_read": {
+            "usd": 0.085
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen3.8-flash",
+      "name": "Qwen3.8 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.15
+          },
+          "output": {
+            "usd": 0.47
+          },
+          "cache_read": {
+            "usd": 0.016
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "qwen3.8-max",

@@ -6,10 +6,10 @@
 - 官网: https://docs.wandb.ai/guides/integrations/inference/
 - 定价页: https://docs.wandb.ai/guides/integrations/inference/
 - 币种: USD
-- 数据更新时间: 2026-08-28T08:54:00Z
-- 核实时间: 2026-08-28T05:09:26Z
+- 数据更新时间: 2026-08-29T12:52:50Z
+- 核实时间: 2026-08-29T12:52:50Z
 
-共 **31** 个模型。
+共 **32** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -27,6 +27,7 @@
 | `deepseek-ai/DeepSeek-V4-Flash` | — | reasoning | 按量 | 1.04858M | $0.14 | $0.28 | $0.07 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Flash-0731` | — | reasoning | 按量 | 262.144K | $0.13 | $0.28 | $0.07 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Pro` | — | reasoning | 按量 | 1.04858M | $1.15 | $2.55 | $0.2 | — | —/— | — | models.dev official list price |
+| `deepseek-ai/DeepSeek-V4-Pro-0813` | — | reasoning | 按量 | 1.04858M | $1.31 | $3.96 | $0.044 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-31B-it` | — | reasoning | 按量 | 262.144K | $0.1 | $0.34 | $0.1 | — | —/— | — | models.dev official list price |
 | `ibm-granite/granite-4.1-8b` | — | chat | 按量 | 131.072K | $0.05 | $0.1 | $0.05 | — | —/— | — | models.dev official list price |
 | `ibm-granite/granite-4.2-8b` | — | reasoning | 按量 | 131.072K | $0.1 | $0.15 | $0.05 | — | —/— | — | models.dev official list price |

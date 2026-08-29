@@ -6,8 +6,8 @@
 - Homepage: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-rest-api
 - Pricing page: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-rest-api
 - Currency: USD
-- Data updated: 2026-08-28T05:09:26Z
-- Verified: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-29T12:52:50Z
+- Verified: 2026-08-29T12:52:50Z
 
 **25** models in total.
 

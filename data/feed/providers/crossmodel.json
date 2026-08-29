@@ -7,8 +7,8 @@
   "homepage": "https://www.crossmodel.ai/docs",
   "pricing_page": "https://www.crossmodel.ai/docs",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
-  "verified_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-29T12:52:50Z",
+  "verified_at": "2026-08-29T12:52:50Z",
   "models": [
     {
       "id": "anthropic/claude-fable-5",
@@ -1255,6 +1255,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "qwen/qwen3.8-flash",
+      "name": "Qwen3.8 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.13
+          },
+          "output": {
+            "usd": 0.43
+          },
+          "cache_read": {
+            "usd": 0.016
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "qwen/qwen3.8-max",

@@ -1,9 +1,9 @@
 {
-  "schema_version": "26.7.24",
-  "generated_at": "2026-08-28T10:02:37.202960Z",
+  "schema_version": "26.8.24",
+  "generated_at": "2026-08-29T12:52:50Z",
   "currency": "USD",
   "provider_count": 189,
-  "model_count": 6921,
+  "model_count": 7366,
   "plan_count": 67,
   "providers": [
     {
@@ -50,9 +50,9 @@
       "id": "cloudflare-workers-ai",
       "name": "Cloudflare Workers AI",
       "channel": "hosted",
-      "model_count": 26,
+      "model_count": 27,
       "file": "providers/cloudflare-workers-ai.json",
-      "updated_at": "2026-08-27T00:36:47Z"
+      "updated_at": "2026-08-29T12:52:50Z"
     },
     {
       "id": "meganova",
@@ -122,17 +122,17 @@
       "id": "cortecs",
       "name": "Cortecs",
       "channel": "hosted",
-      "model_count": 108,
+      "model_count": 111,
       "file": "providers/cortecs.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-29T12:52:50Z"
     },
     {
       "id": "nano-gpt",
       "name": "NanoGPT",
       "channel": "hosted",
-      "model_count": 618,
+      "model_count": 637,
       "file": "providers/nano-gpt.json",
-      "updated_at": "2026-08-28T05:09:26Z"
+      "updated_at": "2026-08-29T12:52:50Z"
     },
     {
       "id": "modelscope",
@@ -194,9 +194,9 @@
       "id": "tencent-tokenhub",
       "name": "Tencent TokenHub",
       "channel": "hosted",
-      "model_count": 2,
+      "model_count": 3,
       "file": "providers/tencent-tokenhub.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-29T12:52:50Z"
     },
     {
       "id": "stepfun-step-plan",
@@ -250,9 +250,9 @@
       "id": "deepinfra",
       "name": "Deep Infra",
       "channel": "hosted",
-      "model_count": 61,
+      "model_count": 62,
       "file": "providers/deepinfra.json",
-      "updated_at": "2026-08-27T00:36:47Z"
+      "updated_at": "2026-08-29T12:52:50Z"
     },
     {
       "id": "meta",
@@ -266,9 +266,9 @@
       "id": "huggingface",
       "name": "Hugging Face",
       "channel": "hosted",
-      "model_count": 71,
+      "model_count": 72,
       "file": "providers/huggingface.json",
-      "updated_at": "2026-08-27T00:36:47Z"
+      "updated_at": "2026-08-29T12:52:50Z"
     },
     {
       "id": "impossibl",
@@ -322,9 +322,9 @@
       "id": "regolo-ai",
       "name": "Regolo AI",
       "channel": "hosted",
-      "model_count": 18,
+      "model_count": 19,
       "file": "providers/regolo-ai.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-29T12:52:50Z"
     },
     {
       "id": "lynkr",
@@ -378,9 +378,9 @@
       "id": "crossmodel",
       "name": "CrossModel",
       "channel": "hosted",
-      "model_count": 54,
+      "model_count": 55,
       "file": "providers/crossmodel.json",
-      "updated_at": "2026-08-28T05:09:26Z"
+      "updated_at": "2026-08-29T12:52:50Z"
     },
     {
       "id": "kenari",
@@ -474,9 +474,9 @@
       "id": "alibaba-cn",
       "name": "Alibaba (China)",
       "channel": "hosted",
-      "model_count": 86,
+      "model_count": 87,
       "file": "providers/alibaba-cn.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-29T12:52:50Z"
     },
     {
       "id": "kosmik",
@@ -522,9 +522,9 @@
       "id": "opencode-go",
       "name": "OpenCode Go",
       "channel": "hosted",
-      "model_count": 31,
+      "model_count": 33,
       "file": "providers/opencode-go.json",
-      "updated_at": "2026-08-27T00:36:47Z"
+      "updated_at": "2026-08-29T12:52:50Z"
     },
     {
       "id": "xai",
@@ -762,9 +762,9 @@
       "id": "alibaba",
       "name": "Alibaba",
       "channel": "first_party",
-      "model_count": 54,
+      "model_count": 55,
       "file": "providers/alibaba.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-29T12:52:50Z"
     },
     {
       "id": "sakana",
@@ -970,17 +970,17 @@
       "id": "opencode",
       "name": "OpenCode Zen",
       "channel": "hosted",
-      "model_count": 95,
+      "model_count": 96,
       "file": "providers/opencode.json",
-      "updated_at": "2026-08-22T09:32:50Z"
+      "updated_at": "2026-08-29T12:52:50Z"
     },
     {
       "id": "requesty",
       "name": "Requesty",
       "channel": "hosted",
-      "model_count": 141,
+      "model_count": 142,
       "file": "providers/requesty.json",
-      "updated_at": "2026-08-28T05:09:26Z"
+      "updated_at": "2026-08-29T12:52:50Z"
     },
     {
       "id": "siliconflow",
@@ -1058,9 +1058,9 @@
       "id": "baseten",
       "name": "Baseten",
       "channel": "hosted",
-      "model_count": 20,
+      "model_count": 21,
       "file": "providers/baseten.json",
-      "updated_at": "2026-08-28T05:09:26Z"
+      "updated_at": "2026-08-29T12:52:50Z"
     },
     {
       "id": "poe",
@@ -1154,9 +1154,9 @@
       "id": "amd",
       "name": "AMD",
       "channel": "hosted",
-      "model_count": 1,
+      "model_count": 2,
       "file": "providers/amd.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-29T12:52:50Z"
     },
     {
       "id": "bailing",
@@ -1178,17 +1178,17 @@
       "id": "vercel",
       "name": "Vercel AI Gateway",
       "channel": "aggregator",
-      "model_count": 363,
+      "model_count": 365,
       "file": "providers/vercel.json",
-      "updated_at": "2026-08-28T05:09:26Z"
+      "updated_at": "2026-08-29T12:52:50Z"
     },
     {
       "id": "edenai",
       "name": "Eden AI",
       "channel": "hosted",
-      "model_count": 242,
+      "model_count": 246,
       "file": "providers/edenai.json",
-      "updated_at": "2026-08-28T05:09:26Z"
+      "updated_at": "2026-08-29T12:52:50Z"
     },
     {
       "id": "novita-ai",
@@ -1210,9 +1210,9 @@
       "id": "llmgateway",
       "name": "DevPass (LLM Gateway)",
       "channel": "aggregator",
-      "model_count": 558,
+      "model_count": 560,
       "file": "providers/llmgateway.json",
-      "updated_at": "2026-08-28T05:09:26Z"
+      "updated_at": "2026-08-29T12:52:50Z"
     },
     {
       "id": "chutes",
@@ -1226,9 +1226,9 @@
       "id": "crof",
       "name": "CrofAI",
       "channel": "hosted",
-      "model_count": 27,
+      "model_count": 29,
       "file": "providers/crof.json",
-      "updated_at": "2026-08-27T00:36:47Z"
+      "updated_at": "2026-08-29T12:52:50Z"
     },
     {
       "id": "v0",
@@ -1330,9 +1330,9 @@
       "id": "kilo",
       "name": "Kilo Gateway",
       "channel": "aggregator",
-      "model_count": 374,
+      "model_count": 375,
       "file": "providers/kilo.json",
-      "updated_at": "2026-08-28T05:09:26Z"
+      "updated_at": "2026-08-29T12:52:50Z"
     },
     {
       "id": "pioneer",
@@ -1354,17 +1354,17 @@
       "id": "fireworks-ai",
       "name": "Fireworks AI",
       "channel": "hosted",
-      "model_count": 23,
+      "model_count": 24,
       "file": "providers/fireworks-ai.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-29T12:52:50Z"
     },
     {
       "id": "wandb",
       "name": "Weights & Biases",
       "channel": "hosted",
-      "model_count": 31,
+      "model_count": 32,
       "file": "providers/wandb.json",
-      "updated_at": "2026-08-28T05:09:26Z"
+      "updated_at": "2026-08-29T12:52:50Z"
     },
     {
       "id": "abacus",
@@ -1524,9 +1524,9 @@
       "id": "openrouter",
       "name": "OpenRouter",
       "channel": "aggregator",
-      "model_count": 380,
+      "model_count": 396,
       "file": "providers/openrouter.json",
-      "updated_at": "2026-08-28T05:09:26Z"
+      "updated_at": "2026-08-29T12:52:50Z"
     }
   ]
 }

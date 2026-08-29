@@ -6,10 +6,10 @@
 - Homepage: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - Pricing page: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - Currency: USD
-- Data updated: 2026-08-28T08:54:00Z
-- Verified: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-29T12:52:50Z
+- Verified: 2026-08-29T12:52:50Z
 
-**363** models in total.
+**365** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -41,8 +41,8 @@
 | `alibaba/qwen3.7-flash` | — | reasoning | per-token | 991K | $0.03 | $0.13 | $0.006 | — | —/— | — | models.dev official list price |
 | `alibaba/qwen3.7-max` | — | reasoning | per-token | 991K | $2.5 | $7.5 | $0.5 | — | —/— | — | models.dev official list price |
 | `alibaba/qwen3.7-plus` | — | reasoning | per-token | 1M | $0.4 | $1.6 | $0.08 | — | —/— | — | models.dev official list price |
-| `alibaba/qwen3.8-2.4t-a95b` | — | reasoning | per-token | 262.144K | $2 | $6 | $0.2 | — | —/— | — | models.dev official list price |
-| `alibaba/qwen3.8-27b` | — | reasoning | per-token | 1M | $0.55 | $3.3 | $0.11 | — | —/— | — | models.dev official list price |
+| `alibaba/qwen3.8-2.4t-a95b` | — | reasoning | per-token | 262.144K | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
+| `alibaba/qwen3.8-27b` | — | reasoning | per-token | 1M | $0.5 | $3 | $0.1 | — | —/— | — | models.dev official list price |
 | `alibaba/qwen3.8-flash` | — | reasoning | per-token | 991K | $0.16 | $0.47 | $0.016 | — | —/— | — | models.dev official list price |
 | `alibaba/qwen3.8-max` | — | reasoning | per-token | 1M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
 | `alibaba/wan-v2.5-t2v-preview` | — | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
@@ -54,6 +54,7 @@
 | `alibaba/wan-v2.7-r2v` | — | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
 | `alibaba/wan-v2.7-t2v` | — | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
 | `alibaba/wan-v3.0-video` | — | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
+| `alibaba/wan-v3.0-video-prime` | — | chat | ? | — | — | — | — | — | —/— | — | models.dev official list price |
 | `amazon/nova-2-lite` | — | reasoning | per-token | 1M | $0.3 | $2.5 | $0.075 | — | —/— | — | models.dev official list price |
 | `amazon/nova-lite` | — | chat | per-token | 300K | $0.06 | $0.24 | $0.015 | — | —/— | — | models.dev official list price |
 | `amazon/nova-micro` | — | chat | per-token | 128K | $0.035 | $0.14 | $0.00875 | — | —/— | — | models.dev official list price |
@@ -114,7 +115,7 @@
 | `deepseek/deepseek-v4-flash` | — | reasoning | per-token | 1M | $0.13 | $0.26 | $0.028 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | per-token | 1M | $0.076 | $0.153 | $0.014 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | per-token | 1M | $0.22 | $0.66 | $0.007 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-pro` | — | reasoning | per-token | 1.0486M | $1.74 | $3.48 | $0.14 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-pro` | — | reasoning | per-token | 1.0486M | $0.66 | $1.98 | $0.022 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | per-token | 1M | $0.66 | $1.98 | $0.066 | — | —/— | — | models.dev official list price |
 | `fish-audio/s1` | — | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
 | `fish-audio/s1-free` | — | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
@@ -212,7 +213,7 @@
 | `moonshotai/kimi-k2-thinking` | — | reasoning | per-token | 216.144K | $0.47 | $2 | $0.141 | — | —/— | — | models.dev official list price |
 | `moonshotai/kimi-k2.5` | — | reasoning | per-token | 262.114K | $0.6 | $3 | $0.1 | — | —/— | — | models.dev official list price |
 | `moonshotai/kimi-k2.6` | — | reasoning | per-token | 262K | $0.95 | $4 | $0.16 | — | —/— | — | models.dev official list price |
-| `moonshotai/kimi-k2.7-code` | — | reasoning | per-token | 256K | $0.95 | $4 | $0.19 | — | —/— | — | models.dev official list price |
+| `moonshotai/kimi-k2.7-code` | — | reasoning | per-token | 256K | $0.95 | $4 | $0.16 | — | —/— | — | models.dev official list price |
 | `moonshotai/kimi-k2.7-code-highspeed` | — | reasoning | per-token | 262.144K | $1.9 | $8 | $0.38 | — | —/— | — | models.dev official list price |
 | `moonshotai/kimi-k3` | — | reasoning | per-token | 1M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `moonshotai/kimi-k3-fast` | — | reasoning | per-token | 1M | $4.5 | $22.5 | $0.45 | — | —/— | — | models.dev official list price |
@@ -221,7 +222,7 @@
 | `nvidia/nemotron-3-nano-30b-a3b` | — | reasoning | per-token | 262.144K | $0.05 | $0.24 | — | — | —/— | — | models.dev official list price |
 | `nvidia/nemotron-3-super-120b-a12b` | — | reasoning | per-token | 256K | $0.15 | $0.65 | — | — | —/— | — | models.dev official list price |
 | `nvidia/nemotron-3-ultra-550b-a55b` | — | reasoning | per-token | 1M | $0.6 | $2.4 | $0.12 | — | —/— | — | models.dev official list price |
-| `nvidia/nemotron-3.5-lightning` | — | reasoning | per-token | 262.144K | $0.05 | $0.15 | $0.05 | — | —/— | — | models.dev official list price |
+| `nvidia/nemotron-3.5-lightning` | — | reasoning | per-token | 262.144K | $0.05 | $0.2 | $0.01 | — | —/— | — | models.dev official list price |
 | `nvidia/nemotron-nano-12b-v2-vl` | — | reasoning | per-token | 131.072K | $0.2 | $0.6 | — | — | —/— | — | models.dev official list price |
 | `nvidia/nemotron-nano-9b-v2` | — | reasoning | per-token | 131.072K | $0.06 | $0.23 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-3.5-turbo` | — | chat | per-token | 16.385K | $0.5 | $1.5 | — | — | —/— | — | models.dev official list price |
@@ -344,7 +345,8 @@
 | `tencent/hy-mt2-lite` | — | chat | per-token | 8K | $0.044 | $0.177 | — | — | —/— | — | models.dev official list price |
 | `tencent/hy-mt2-plus` | — | chat | per-token | 8K | $0.074 | $0.295 | — | — | —/— | — | models.dev official list price |
 | `tencent/hy-mt2-pro` | — | chat | per-token | 8K | $0.074 | $0.295 | — | — | —/— | — | models.dev official list price |
-| `tencent/hy3` | — | reasoning | per-token | 256K | $0.132 | $0.528 | $0.033 | — | —/— | — | models.dev official list price |
+| `tencent/hy3` | — | reasoning | per-token | 256K | $0.14 | $0.58 | $0.035 | — | —/— | — | models.dev official list price |
+| `tencent/hy4-preview` | — | reasoning | per-token | 1.024M | $0.834 | $2.501 | $0.042 | — | —/— | — | models.dev official list price |
 | `thinkingmachines/inkling` | — | reasoning | per-token | 256K | $1 | $4.05 | $0.17 | — | —/— | — | models.dev official list price |
 | `thinkingmachines/inkling-small` | — | reasoning | per-token | 1M | $0.5 | $1.2 | $0.1 | — | —/— | — | models.dev official list price |
 | `voyage/rerank-2.5` | — | rerank | per-token | 32K | — | — | — | — | —/— | — | models.dev official list price |
@@ -373,6 +375,6 @@
 | `zai/glm-5.1` | — | reasoning | per-token | 202.8K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `zai/glm-5.2` | — | reasoning | per-token | 1M | $0.8 | $2.55 | $0.16 | — | —/— | — | models.dev official list price |
 | `zai/glm-5.2-fast` | — | reasoning | per-token | 1M | $2.1 | $6.6 | $0.21 | — | —/— | — | models.dev official list price |
-| `zai/glm-5.3` | — | reasoning | per-token | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `zai/glm-5.3` | — | reasoning | per-token | 1M | $1.4 | $4.4 | $0.14 | — | —/— | — | models.dev official list price |
 | `zai/glm-5.3-flash` | — | reasoning | per-token | 1M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `zai/glm-5v-turbo` | — | reasoning | per-token | 200K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |

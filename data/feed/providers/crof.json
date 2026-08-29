@@ -7,8 +7,8 @@
   "homepage": "https://crof.ai/docs",
   "pricing_page": "https://crof.ai/docs",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
-  "verified_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-29T12:52:50Z",
+  "verified_at": "2026-08-29T12:52:50Z",
   "models": [
     {
       "id": "deepseek-v3.2",
@@ -86,10 +86,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.12
+            "usd": 0.08
           },
           "output": {
-            "usd": 0.21
+            "usd": 0.1
           },
           "cache_read": {
             "usd": 0.003
@@ -137,6 +137,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "deepseek-v4-pro-0813",
+      "name": "DeepSeek V4 Pro (0813)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.35
+          },
+          "output": {
+            "usd": 0.8
+          },
+          "cache_read": {
+            "usd": 0.01
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "deepseek-v4-pro-lightning",
@@ -361,6 +392,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "glm-5.3-flash",
+      "name": "GLM 5.3-Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.07
+          },
+          "output": {
+            "usd": 0.22
+          },
+          "cache_read": {
+            "usd": 0.01
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "greg-1-mini",
@@ -854,13 +916,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.25
+            "usd": 0.2
           },
           "output": {
-            "usd": 2.1
+            "usd": 1.5
           },
           "cache_read": {
-            "usd": 0.06
+            "usd": 0.03
           },
           "cache_write": null
         },

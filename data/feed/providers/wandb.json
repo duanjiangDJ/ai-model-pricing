@@ -7,8 +7,8 @@
   "homepage": "https://docs.wandb.ai/guides/integrations/inference/",
   "pricing_page": "https://docs.wandb.ai/guides/integrations/inference/",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
-  "verified_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-29T12:52:50Z",
+  "verified_at": "2026-08-29T12:52:50Z",
   "models": [
     {
       "id": "JetBrains/Mellum2-12B-A2.5B-Instruct",
@@ -457,6 +457,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V4-Pro-0813",
+      "name": "DeepSeek V4 Pro 0813",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 1048576,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.31
+          },
+          "output": {
+            "usd": 3.96
+          },
+          "cache_read": {
+            "usd": 0.044
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "google/gemma-4-31B-it",

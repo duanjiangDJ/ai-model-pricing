@@ -6,10 +6,10 @@
 - 官网: https://docs.edenai.co
 - 定价页: https://docs.edenai.co
 - 币种: USD
-- 数据更新时间: 2026-08-28T08:54:00Z
-- 核实时间: 2026-08-28T05:09:26Z
+- 数据更新时间: 2026-08-29T12:52:50Z
+- 核实时间: 2026-08-29T12:52:50Z
 
-共 **242** 个模型。
+共 **246** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -71,6 +71,7 @@
 | `deepinfra/openai/gpt-oss-20b` | — | reasoning | 按量 | 131.072K | $0.03 | $0.14 | — | — | —/— | — | models.dev official list price |
 | `deepinfra/stepfun-ai/Step-3.5-Flash` | — | reasoning | 按量 | 262.144K | $0.09 | $0.3 | $0.02 | — | —/— | — | models.dev official list price |
 | `deepinfra/stepfun-ai/Step-3.7-Flash` | — | reasoning | 按量 | 262.144K | $0.2 | $1.15 | $0.04 | — | —/— | — | models.dev official list price |
+| `deepinfra/tencent/Hy3` | — | reasoning | 按量 | 262.144K | $0.14 | $0.58 | $0.035 | — | —/— | — | models.dev official list price |
 | `deepinfra/thinkingmachines/Inkling` | — | reasoning | 按量 | 524.288K | $0.95 | $4.05 | $0.16 | — | —/— | — | models.dev official list price |
 | `deepinfra/thinkingmachines/Inkling-Small` | — | reasoning | 按量 | 524.288K | $0.45 | $1.2 | $0.1 | — | —/— | — | models.dev official list price |
 | `deepinfra/zai-org/GLM-4.7-Flash` | — | reasoning | 按量 | 202.752K | $0.06 | $0.4 | $0.01 | — | —/— | — | models.dev official list price |
@@ -91,7 +92,7 @@
 | `flexai/Nemotron-3-Super-120B-A12B` | — | reasoning | 按量 | 262.144K | $0.085 | $0.4 | — | — | —/— | — | models.dev official list price |
 | `flexai/deepseek-v4-flash-0731` | — | reasoning | 按量 | 1M | $0.08 | $0.18 | — | — | —/— | — | models.dev official list price |
 | `flexai/gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.039 | $0.1 | — | — | —/— | — | models.dev official list price |
-| `flexai/gpt-oss-20b` | — | reasoning | 按量 | 131.072K | $0.03 | $0.13 | — | — | —/— | — | models.dev official list price |
+| `flexai/gpt-oss-20b` | — | reasoning | 按量 | 131.072K | $0.02 | $0.1 | — | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-flash-image` | — | reasoning | 按量 | 32.768K | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `google/gemini-3-flash-preview` | — | reasoning | 按量 | 1.04858M | $0.5 | $3 | $0.05 | — | —/— | — | models.dev official list price |
 | `google/gemini-3-pro-image` | — | reasoning | 按量 | 65.536K | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
@@ -112,8 +113,8 @@
 | `google/lyria-3-clip-preview` | — | chat | 免费 | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `groq/openai/gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.15 | $0.6 | $0.075 | — | —/— | — | models.dev official list price |
 | `groq/openai/gpt-oss-20b` | — | reasoning | 按量 | 131.072K | $0.075 | $0.3 | $0.0375 | — | —/— | — | models.dev official list price |
-| `ionos/meta-llama/Llama-3.3-70B-Instruct` | — | chat | 按量 | 128K | $0.756925 | $0.756925 | — | — | —/— | — | models.dev official list price |
-| `ionos/openai/gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.174675 | $0.756925 | — | — | —/— | — | models.dev official list price |
+| `ionos/meta-llama/Llama-3.3-70B-Instruct` | — | chat | 按量 | 128K | $0.756795 | $0.756795 | — | — | —/— | — | models.dev official list price |
+| `ionos/openai/gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.174645 | $0.756795 | — | — | —/— | — | models.dev official list price |
 | `minimax/MiniMax-M2` | — | reasoning | 按量 | 204.8K | $0.3 | $1.2 | — | — | —/— | — | models.dev official list price |
 | `minimax/MiniMax-M2.1` | — | reasoning | 按量 | 204.8K | $0.3 | $1.2 | $0.03 | — | —/— | — | models.dev official list price |
 | `minimax/MiniMax-M2.5` | — | reasoning | 按量 | 204.8K | $0.3 | $1.2 | $0.03 | — | —/— | — | models.dev official list price |
@@ -130,6 +131,7 @@
 | `mistral/mistral-medium-latest` | — | reasoning | 按量 | 262.144K | $1.5 | $7.5 | — | — | —/— | — | models.dev official list price |
 | `mistral/mistral-small-2603` | — | reasoning | 按量 | 262.144K | $0.15 | $0.6 | $0.015 | — | —/— | — | models.dev official list price |
 | `mistral/mistral-small-latest` | — | reasoning | 按量 | 262.144K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
+| `mistral/voxtral-small-latest` | — | chat | 按量 | 32.768K | $0.1 | $0.4 | — | — | —/— | — | models.dev official list price |
 | `moonshot/kimi-k2.6` | — | reasoning | 按量 | 262.144K | $0.95 | $4 | $0.16 | — | —/— | — | models.dev official list price |
 | `moonshot/kimi-k2.7-code` | — | reasoning | 按量 | 262.144K | $0.95 | $4 | $0.19 | — | —/— | — | models.dev official list price |
 | `moonshot/kimi-k3` | — | reasoning | 按量 | 1.04858M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
@@ -200,12 +202,14 @@
 | `qwen/qwen3-vl-235b-a22b-thinking` | — | reasoning | 按量 | 131.072K | $0.4 | $4 | — | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.8-2.4t-a95b` | — | reasoning | 按量 | 1M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.8-27b` | — | reasoning | 按量 | 1M | $0.5 | $3 | $0.1 | — | —/— | — | models.dev official list price |
+| `qwen/qwen3.8-flash` | — | reasoning | 按量 | 1M | $0.16 | $0.47 | $0.016 | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.8-max` | — | reasoning | 按量 | 1M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
 | `qwen/qwq-plus` | — | reasoning | 按量 | 131.072K | $0.8 | $2.4 | — | — | —/— | — | models.dev official list price |
-| `scaleway/deepseek-v4-flash-0731` | — | reasoning | 按量 | 256K | $0.4658 | $0.9316 | — | — | —/— | — | models.dev official list price |
-| `scaleway/gpt-oss-120b` | — | reasoning | 按量 | 128K | $0.174675 | $0.6987 | — | — | —/— | — | models.dev official list price |
-| `scaleway/llama-3.3-70b-instruct` | — | chat | 按量 | 128K | $1.04805 | $1.04805 | — | — | —/— | — | models.dev official list price |
+| `scaleway/deepseek-v4-flash-0731` | — | reasoning | 按量 | 256K | $0.46572 | $0.93144 | — | — | —/— | — | models.dev official list price |
+| `scaleway/gpt-oss-120b` | — | reasoning | 按量 | 128K | $0.174645 | $0.69858 | — | — | —/— | — | models.dev official list price |
+| `scaleway/llama-3.3-70b-instruct` | — | chat | 按量 | 128K | $1.04787 | $1.04787 | — | — | —/— | — | models.dev official list price |
 | `tensorx/deepseek/deepseek-v4-flash-0731` | — | reasoning | 按量 | 1.04858M | $0.25 | $0.3 | $0.0625 | — | —/— | — | models.dev official list price |
+| `tensorx/deepseek/deepseek-v4-pro-0813` | — | reasoning | 按量 | 1.04858M | $2 | $4 | $0.5 | — | —/— | — | models.dev official list price |
 | `tensorx/moonshotai/kimi-k2.5` | — | reasoning | 按量 | 262.144K | $0.5 | $2.8 | $0.125 | — | —/— | — | models.dev official list price |
 | `together_ai/deepseek-ai/DeepSeek-V4-Flash-0731` | — | reasoning | 按量 | 1.04858M | $0.14 | $0.28 | $0.03 | — | —/— | — | models.dev official list price |
 | `together_ai/deepseek-ai/DeepSeek-V4-Pro-0813` | — | reasoning | 按量 | 1.04858M | $1.32 | $3.96 | $0.13 | — | —/— | — | models.dev official list price |

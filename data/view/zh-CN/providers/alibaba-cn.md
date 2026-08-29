@@ -6,10 +6,10 @@
 - 官网: https://www.alibabacloud.com/help/en/model-studio/models
 - 定价页: https://www.alibabacloud.com/help/en/model-studio/models
 - 币种: USD
-- 数据更新时间: 2026-08-28T08:54:00Z
-- 核实时间: 2026-08-28T05:09:26Z
+- 数据更新时间: 2026-08-29T12:52:50Z
+- 核实时间: 2026-08-29T12:52:50Z
 
-共 **86** 个模型。
+共 **87** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -91,6 +91,7 @@
 | `qwen3.7-flash` | — | reasoning | 按量 | 1M | $0.02962 | $0.1185 | $0.002962 | — | —/— | — | models.dev official list price |
 | `qwen3.7-max` | — | reasoning | 按量 | 1M | $2.5 | $7.5 | $0.5 | — | —/— | — | models.dev official list price |
 | `qwen3.7-plus` | — | reasoning | 按量 | 1M | $0.5 | $3 | $0.05 | — | —/— | — | models.dev official list price |
+| `qwen3.8-flash` | — | reasoning | 按量 | 1M | $0.11875 | $0.40073 | $0.01187 | — | —/— | — | models.dev official list price |
 | `qwen3.8-max` | — | reasoning | 按量 | 1M | $1.77744 | $5.33231 | $0.22218 | — | —/— | — | models.dev official list price |
 | `qwq-32b` | — | reasoning | 按量 | 131.072K | $0.287 | $0.861 | — | — | —/— | — | models.dev official list price |
 | `qwq-plus` | — | reasoning | 按量 | 131.072K | $0.23 | $0.574 | — | — | —/— | — | models.dev official list price |

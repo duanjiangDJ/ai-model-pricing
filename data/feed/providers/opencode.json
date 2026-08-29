@@ -8,8 +8,8 @@
   "pricing_page": "https://opencode.ai/docs/zen/",
   "api_base_url": "https://opencode.ai/zen/v1/models",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
-  "verified_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-29T12:52:50Z",
+  "verified_at": "2026-08-29T12:52:50Z",
   "models": [
     {
       "id": "big-pickle",
@@ -1996,6 +1996,37 @@
       "billing_model": [
         "free"
       ]
+    },
+    {
+      "id": "ling-3.0-flash-fin-free",
+      "name": "Ling 3.0 Flash Fin Free",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "free"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0
+          },
+          "output": {
+            "usd": 0
+          },
+          "cache_read": {
+            "usd": 0
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "ling-3.0-flash-free",

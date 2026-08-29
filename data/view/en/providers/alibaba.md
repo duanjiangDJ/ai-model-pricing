@@ -6,10 +6,10 @@
 - Homepage: https://www.alibabacloud.com/help/en/model-studio/models
 - Pricing page: https://www.alibabacloud.com/help/en/model-studio/models
 - Currency: USD
-- Data updated: 2026-08-28T10:18:35.973852Z
-- Verified: 2026-08-28T05:09:27Z
+- Data updated: 2026-08-29T12:52:51Z
+- Verified: 2026-08-29T12:52:51Z
 
-**54** models in total.
+**55** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -65,5 +65,6 @@
 | `qwen3.6-plus` | — | reasoning | per-token | 1M | $0.5 | $3 | $0.05 | — | —/— | — | models.dev official list price |
 | `qwen3.7-max` | — | reasoning | per-token | 1M | $2.5 | $7.5 | $0.5 | — | —/— | — | models.dev official list price |
 | `qwen3.7-plus` | — | reasoning | per-token | 1M | $0.4 | $1.6 | $0.05 | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3.8-flash` | — | reasoning | per-token | 1M | $0.15 | $0.47 | $0.016 | — | —/— | — | models.dev official list price |
 | `qwen3.8-max` | — | reasoning | per-token | 1M | $2 / ¥12 | $6 / ¥36 | $0.25 | — | —/— | — | models.dev official list price \| Alibaba Bailian (CNY/1M tokens, CN region f… |
 | `qwq-plus` | — | reasoning | per-token | 131.072K | $0.8 | $2.4 | — | — | —/— | — | models.dev official list price |

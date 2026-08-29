@@ -6,8 +6,8 @@
 - Homepage: https://thegrid.ai/docs
 - Pricing page: https://thegrid.ai/docs
 - Currency: USD
-- Data updated: 2026-08-28T05:09:26Z
-- Verified: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-29T12:52:50Z
+- Verified: 2026-08-29T12:52:50Z
 
 **9** models in total.
 

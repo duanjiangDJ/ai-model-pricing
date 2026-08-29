@@ -6,10 +6,10 @@
 - Homepage: https://requesty.ai/solution/llm-routing/models
 - Pricing page: https://requesty.ai/solution/llm-routing/models
 - Currency: USD
-- Data updated: 2026-08-28T08:54:00Z
-- Verified: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-29T12:52:50Z
+- Verified: 2026-08-29T12:52:50Z
 
-**141** models in total.
+**142** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -67,6 +67,7 @@
 | `glm-5.3` | — | reasoning | per-token | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `glm-5.3-flash` | — | reasoning | per-token | 1M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `glm-5.3-flash@eu` | — | reasoning | per-token | 1M | $0.2 | $0.5 | $0.07 | — | —/— | — | models.dev official list price |
+| `glm-5.3@eu` | — | reasoning | per-token | 1.04858M | $1.75 | $4.5 | $0.44 | — | —/— | — | models.dev official list price |
 | `gpt-4.1-mini@eu` | — | chat | per-token | 1.04758M | $0.44 | $1.76 | $0.11 | — | —/— | — | models.dev official list price |
 | `gpt-4.1-nano@eu` | — | chat | per-token | 1.04758M | $0.11 | $0.44 | $0.0275 | — | —/— | — | models.dev official list price |
 | `gpt-4.1@eu` | — | chat | per-token | 1.04758M | $2.2 | $8.8 | $0.55 | — | —/— | — | models.dev official list price |

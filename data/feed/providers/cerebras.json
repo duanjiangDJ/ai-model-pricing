@@ -7,8 +7,8 @@
   "homepage": "https://inference-docs.cerebras.ai/models/overview",
   "pricing_page": "https://inference-docs.cerebras.ai/models/overview",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
-  "verified_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-29T12:52:50Z",
+  "verified_at": "2026-08-29T12:52:50Z",
   "models": [
     {
       "id": "gemma-4-31b",

@@ -6,10 +6,10 @@
 - 官网: https://docs.regolo.ai/
 - 定价页: https://docs.regolo.ai/
 - 币种: USD
-- 数据更新时间: 2026-08-28T08:54:00Z
-- 核实时间: 2026-08-28T05:09:26Z
+- 数据更新时间: 2026-08-29T12:52:50Z
+- 核实时间: 2026-08-29T12:52:50Z
 
-共 **18** 个模型。
+共 **19** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -31,3 +31,4 @@
 | `qwen3.5-122b` | — | reasoning | 按量 | 262.144K | $0.9 | $3.6 | — | — | —/— | — | models.dev official list price |
 | `qwen3.5-9b` | — | reasoning | 按量 | 262.144K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
 | `qwen3.6-27b` | — | reasoning | 按量 | 120K | $0.58 | $2.42 | — | — | —/— | — | models.dev official list price |
+| `qwen3.8-27b` | — | reasoning | 按量 | 120K | $0.58 | $2.42 | — | — | —/— | — | models.dev official list price |

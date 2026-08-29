@@ -7,8 +7,8 @@
   "homepage": "https://docs.edenai.co",
   "pricing_page": "https://docs.edenai.co",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
-  "verified_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-29T12:52:50Z",
+  "verified_at": "2026-08-29T12:52:50Z",
   "models": [
     {
       "id": "amazon/moonshot.kimi-k2-thinking",
@@ -1817,6 +1817,37 @@
       ]
     },
     {
+      "id": "deepinfra/tencent/Hy3",
+      "name": "Hy3",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 64000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.14
+          },
+          "output": {
+            "usd": 0.58
+          },
+          "cache_read": {
+            "usd": 0.035
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "deepinfra/thinkingmachines/Inkling",
       "name": "Inkling",
       "category": "reasoning",
@@ -2458,10 +2489,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.03
+            "usd": 0.02
           },
           "output": {
-            "usd": 0.13
+            "usd": 0.1
           },
           "cache_read": null,
           "cache_write": null
@@ -3120,10 +3151,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.756925
+            "usd": 0.756795
           },
           "output": {
-            "usd": 0.756925
+            "usd": 0.756795
           },
           "cache_read": null,
           "cache_write": null
@@ -3150,10 +3181,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.174675
+            "usd": 0.174645
           },
           "output": {
-            "usd": 0.756925
+            "usd": 0.756795
           },
           "cache_read": null,
           "cache_write": null
@@ -3663,6 +3694,35 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "mistral/voxtral-small-latest",
+      "name": "Voxtral Small (latest)",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 32768,
+      "max_output": 32000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.1
+          },
+          "output": {
+            "usd": 0.4
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "moonshot/kimi-k2.6",
@@ -5857,6 +5917,37 @@
       ]
     },
     {
+      "id": "qwen/qwen3.8-flash",
+      "name": "Qwen3.8 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.16
+          },
+          "output": {
+            "usd": 0.47
+          },
+          "cache_read": {
+            "usd": 0.016
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "qwen/qwen3.8-max",
       "name": "Qwen3.8 Max",
       "category": "reasoning",
@@ -5930,10 +6021,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.4658
+            "usd": 0.46572
           },
           "output": {
-            "usd": 0.9316
+            "usd": 0.93144
           },
           "cache_read": null,
           "cache_write": null
@@ -5960,10 +6051,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.174675
+            "usd": 0.174645
           },
           "output": {
-            "usd": 0.6987
+            "usd": 0.69858
           },
           "cache_read": null,
           "cache_write": null
@@ -5990,10 +6081,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.04805
+            "usd": 1.04787
           },
           "output": {
-            "usd": 1.04805
+            "usd": 1.04787
           },
           "cache_read": null,
           "cache_write": null
@@ -6039,6 +6130,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "tensorx/deepseek/deepseek-v4-pro-0813",
+      "name": "DeepSeek V4 Pro 0813",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 384000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 2
+          },
+          "output": {
+            "usd": 4
+          },
+          "cache_read": {
+            "usd": 0.5
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "tensorx/moonshotai/kimi-k2.5",

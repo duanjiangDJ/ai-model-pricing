@@ -6,10 +6,10 @@
 - 官网: https://requesty.ai/solution/llm-routing/models
 - 定价页: https://requesty.ai/solution/llm-routing/models
 - 币种: USD
-- 数据更新时间: 2026-08-28T08:54:00Z
-- 核实时间: 2026-08-28T05:09:26Z
+- 数据更新时间: 2026-08-29T12:52:50Z
+- 核实时间: 2026-08-29T12:52:50Z
 
-共 **141** 个模型。
+共 **142** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -67,6 +67,7 @@
 | `glm-5.3` | — | reasoning | 按量 | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `glm-5.3-flash` | — | reasoning | 按量 | 1M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `glm-5.3-flash@eu` | — | reasoning | 按量 | 1M | $0.2 | $0.5 | $0.07 | — | —/— | — | models.dev official list price |
+| `glm-5.3@eu` | — | reasoning | 按量 | 1.04858M | $1.75 | $4.5 | $0.44 | — | —/— | — | models.dev official list price |
 | `gpt-4.1-mini@eu` | — | chat | 按量 | 1.04758M | $0.44 | $1.76 | $0.11 | — | —/— | — | models.dev official list price |
 | `gpt-4.1-nano@eu` | — | chat | 按量 | 1.04758M | $0.11 | $0.44 | $0.0275 | — | —/— | — | models.dev official list price |
 | `gpt-4.1@eu` | — | chat | 按量 | 1.04758M | $2.2 | $8.8 | $0.55 | — | —/— | — | models.dev official list price |

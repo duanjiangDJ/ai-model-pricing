@@ -6,8 +6,8 @@
 - Homepage: https://docs.api.nvidia.com/nim/
 - Pricing page: https://docs.api.nvidia.com/nim/
 - Currency: USD
-- Data updated: 2026-08-28T08:54:00Z
-- Verified: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-29T12:52:50Z
+- Verified: 2026-08-29T12:52:50Z
 
 **103** models in total.
 

@@ -6,10 +6,10 @@
 - Homepage: https://docs.regolo.ai/
 - Pricing page: https://docs.regolo.ai/
 - Currency: USD
-- Data updated: 2026-08-28T08:54:00Z
-- Verified: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-29T12:52:50Z
+- Verified: 2026-08-29T12:52:50Z
 
-**18** models in total.
+**19** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -31,3 +31,4 @@
 | `qwen3.5-122b` | — | reasoning | per-token | 262.144K | $0.9 | $3.6 | — | — | —/— | — | models.dev official list price |
 | `qwen3.5-9b` | — | reasoning | per-token | 262.144K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
 | `qwen3.6-27b` | — | reasoning | per-token | 120K | $0.58 | $2.42 | — | — | —/— | — | models.dev official list price |
+| `qwen3.8-27b` | — | reasoning | per-token | 120K | $0.58 | $2.42 | — | — | —/— | — | models.dev official list price |

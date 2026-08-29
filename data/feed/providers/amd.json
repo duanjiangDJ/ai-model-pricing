@@ -7,8 +7,8 @@
   "homepage": "https://developer.amd.com.cn/radeon/tokenfactory",
   "pricing_page": "https://developer.amd.com.cn/radeon/tokenfactory",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
-  "verified_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-29T12:52:50Z",
+  "verified_at": "2026-08-29T12:52:50Z",
   "models": [
     {
       "id": "DeepSeek-V4-Flash",
@@ -41,6 +41,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "Qwen3.8-Flash-Next",
+      "name": "Qwen3.8 Flash Next",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 131072,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.15
+          },
+          "output": {
+            "usd": 0.47
+          },
+          "cache_read": {
+            "usd": 0.016
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     }
   ],
   "api_base_url": "https://developer.amd.com.cn/radeon/api/v1"

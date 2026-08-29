@@ -6,10 +6,10 @@
 - Homepage: https://docs.wandb.ai/guides/integrations/inference/
 - Pricing page: https://docs.wandb.ai/guides/integrations/inference/
 - Currency: USD
-- Data updated: 2026-08-28T08:54:00Z
-- Verified: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-29T12:52:50Z
+- Verified: 2026-08-29T12:52:50Z
 
-**31** models in total.
+**32** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -27,6 +27,7 @@
 | `deepseek-ai/DeepSeek-V4-Flash` | — | reasoning | per-token | 1.04858M | $0.14 | $0.28 | $0.07 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Flash-0731` | — | reasoning | per-token | 262.144K | $0.13 | $0.28 | $0.07 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Pro` | — | reasoning | per-token | 1.04858M | $1.15 | $2.55 | $0.2 | — | —/— | — | models.dev official list price |
+| `deepseek-ai/DeepSeek-V4-Pro-0813` | — | reasoning | per-token | 1.04858M | $1.31 | $3.96 | $0.044 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-31B-it` | — | reasoning | per-token | 262.144K | $0.1 | $0.34 | $0.1 | — | —/— | — | models.dev official list price |
 | `ibm-granite/granite-4.1-8b` | — | chat | per-token | 131.072K | $0.05 | $0.1 | $0.05 | — | —/— | — | models.dev official list price |
 | `ibm-granite/granite-4.2-8b` | — | reasoning | per-token | 131.072K | $0.1 | $0.15 | $0.05 | — | —/— | — | models.dev official list price |

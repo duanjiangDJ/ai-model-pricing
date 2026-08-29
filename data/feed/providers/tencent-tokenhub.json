@@ -7,8 +7,8 @@
   "homepage": "https://cloud.tencent.com/document/product/1823/130050",
   "pricing_page": "https://cloud.tencent.com/document/product/1823/130050",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
-  "verified_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-29T12:52:50Z",
+  "verified_at": "2026-08-29T12:52:50Z",
   "models": [
     {
       "id": "hy3",
@@ -73,6 +73,37 @@
       "billing_model": [
         "free"
       ]
+    },
+    {
+      "id": "hy4-preview",
+      "name": "Hy4 preview",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1024000,
+      "max_output": 64000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.834
+          },
+          "output": {
+            "usd": 2.501
+          },
+          "cache_read": {
+            "usd": 0.042
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     }
   ],
   "api_base_url": "https://tokenhub.tencentmaas.com/v1"

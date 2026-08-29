@@ -7,8 +7,8 @@
   "homepage": "https://kilo.ai",
   "pricing_page": "https://kilo.ai",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
-  "verified_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-29T12:52:50Z",
+  "verified_at": "2026-08-29T12:52:50Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -2702,13 +2702,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.08
+            "usd": 0.07
           },
           "output": {
             "usd": 0.35
           },
           "cache_read": {
-            "usd": 0.01
+            "usd": 0.1
           },
           "cache_write": null
         },
@@ -3608,7 +3608,7 @@
             "usd": 0.2
           },
           "output": {
-            "usd": 0.8
+            "usd": 0.696
           },
           "cache_read": null,
           "cache_write": null
@@ -10198,6 +10198,37 @@
       ]
     },
     {
+      "id": "tencent/hy4-preview",
+      "name": "Hy4 preview",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 64000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.834
+          },
+          "output": {
+            "usd": 2.501
+          },
+          "cache_read": {
+            "usd": 0.042
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "thedrummer/cydonia-24b-v4.1",
       "name": "TheDrummer: Cydonia 24B V4.1",
       "category": "chat",
@@ -11221,13 +11252,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.075
+            "usd": 0.15
           },
           "output": {
-            "usd": 0.25
+            "usd": 0.5
           },
           "cache_read": {
-            "usd": 0.015
+            "usd": 0.03
           },
           "cache_write": null
         },
@@ -11445,13 +11476,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.375
+            "usd": 0.75
           },
           "output": {
-            "usd": 1.875
+            "usd": 3.75
           },
           "cache_read": {
-            "usd": 0.0375
+            "usd": 0.075
           },
           "cache_write": null
         },
@@ -11637,13 +11668,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.4
+            "usd": 1.1875
           },
           "output": {
-            "usd": 4.4
+            "usd": 4.18
           },
           "cache_read": {
-            "usd": 0.26
+            "usd": 0.247
           },
           "cache_write": null
         },

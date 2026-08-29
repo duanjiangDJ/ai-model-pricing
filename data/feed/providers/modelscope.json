@@ -7,8 +7,8 @@
   "homepage": "https://modelscope.cn/docs/model-service/API-Inference/intro",
   "pricing_page": "https://modelscope.cn/docs/model-service/API-Inference/intro",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
-  "verified_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-29T12:52:50Z",
+  "verified_at": "2026-08-29T12:52:50Z",
   "models": [
     {
       "id": "Qwen/Qwen3-235B-A22B-Instruct-2507",

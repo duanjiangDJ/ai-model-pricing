@@ -6,8 +6,8 @@
 - Homepage: https://platform.moonshot.ai/docs/api/chat
 - Pricing page: https://platform.moonshot.ai/docs/api/chat
 - Currency: USD
-- Data updated: 2026-08-28T10:35:02.224722Z
-- Verified: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-29T12:52:50Z
+- Verified: 2026-08-29T12:52:50Z
 
 **14** models in total.
 

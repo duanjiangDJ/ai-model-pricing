@@ -6,8 +6,8 @@
 - 官网: https://docs.z.ai/guides/overview/pricing
 - 定价页: https://docs.z.ai/guides/overview/pricing
 - 币种: USD
-- 数据更新时间: 2026-08-28T09:01:26.678130Z
-- 核实时间: 2026-08-28T09:00:33Z
+- 数据更新时间: 2026-08-29T12:52:50Z
+- 核实时间: 2026-08-29T12:52:50Z
 
 共 **17** 个模型。
 

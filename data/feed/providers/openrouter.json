@@ -7,8 +7,8 @@
   "homepage": "https://openrouter.ai",
   "pricing_page": "https://openrouter.ai/models",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
-  "verified_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-29T12:52:50Z",
+  "verified_at": "2026-08-29T12:52:50Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -119,34 +119,6 @@
           },
           "output": {
             "usd": 1.6e-06
-          },
-          "cache_read": null,
-          "cache_write": null
-        },
-        "per_image": null,
-        "promo": null
-      },
-      "notes": "OpenRouter reseller price"
-    },
-    {
-      "id": "allenai/olmo-3-32b-think",
-      "name": "AllenAI: Olmo 3 32B Think",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 65536,
-      "max_output": null,
-      "billing_model": [
-        "pay_per_token"
-      ],
-      "pricing": {
-        "per_mtok": {
-          "input": {
-            "usd": 1.5e-07
-          },
-          "output": {
-            "usd": 5e-07
           },
           "cache_read": null,
           "cache_write": null
@@ -1286,34 +1258,6 @@
       "notes": "OpenRouter reseller price"
     },
     {
-      "id": "arcee-ai/virtuoso-large",
-      "name": "Arcee AI: Virtuoso Large",
-      "category": "chat",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 131072,
-      "max_output": null,
-      "billing_model": [
-        "pay_per_token"
-      ],
-      "pricing": {
-        "per_mtok": {
-          "input": {
-            "usd": 7.5e-07
-          },
-          "output": {
-            "usd": 1.2e-06
-          },
-          "cache_read": null,
-          "cache_write": null
-        },
-        "per_image": null,
-        "promo": null
-      },
-      "notes": "OpenRouter reseller price"
-    },
-    {
       "id": "baidu/ernie-4.5-vl-424b-a47b",
       "name": "Baidu: ERNIE 4.5 VL 424B A47B ",
       "category": "reasoning",
@@ -1719,7 +1663,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "deepseek/deepseek-chat",
@@ -1938,13 +1882,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2.6e-07
+            "usd": 2.69e-07
           },
           "output": {
-            "usd": 3.8e-07
+            "usd": 4e-07
           },
           "cache_read": {
-            "usd": 1.3e-07
+            "usd": 1.345e-07
           },
           "cache_write": null
         },
@@ -1996,13 +1940,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 8.8606e-08
+            "usd": 8.344e-08
           },
           "output": {
-            "usd": 1.77212e-07
+            "usd": 1.6688e-07
           },
           "cache_read": {
-            "usd": 1.77212e-08
+            "usd": 1.6688e-08
           },
           "cache_write": null
         },
@@ -2026,13 +1970,43 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 6e-08
+            "usd": 4.5e-08
           },
           "output": {
-            "usd": 1.2e-07
+            "usd": 9e-08
           },
           "cache_read": {
-            "usd": 1.2e-08
+            "usd": 9e-09
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-0731:batch",
+      "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.4e-07
+          },
+          "output": {
+            "usd": 2.8e-07
+          },
+          "cache_read": {
+            "usd": 3e-08
           },
           "cache_write": null
         },
@@ -2087,13 +2061,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 8.7e-07
+            "usd": 6.19962e-07
           },
           "output": {
-            "usd": 1.74e-06
+            "usd": 1.239924e-06
           },
           "cache_read": {
-            "usd": 7.25e-08
+            "usd": 5.16635e-08
           },
           "cache_write": null
         },
@@ -2133,6 +2107,36 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "deepseek/deepseek-v4-pro-0813:batch",
+      "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.32e-06
+          },
+          "output": {
+            "usd": 3.96e-06
+          },
+          "cache_read": {
+            "usd": 1.3e-07
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "dots-studio/dots-3-note-preview:free",
       "name": "Dots Studio: Dots3-Note Preview (free)",
       "category": "reasoning",
@@ -2159,7 +2163,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "google/gemini-2.5-flash",
@@ -3315,23 +3319,23 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 3.75e-07
+            "usd": 7.5e-07
           },
           "output": {
-            "usd": 1.875e-06
+            "usd": 3.75e-06
           },
           "cache_read": {
-            "usd": 3.75e-08
+            "usd": 7.5e-08
           },
           "cache_write": {
-            "usd": 2.08333333333333e-08
+            "usd": 4.16666666666667e-08
           }
         },
         "per_image": [
           {
             "name": "default",
             "price": {
-              "usd": 3.75e-07
+              "usd": 7.5e-07
             }
           }
         ],
@@ -3447,7 +3451,7 @@
         "text",
         "image_in"
       ],
-      "context_window": 262144,
+      "context_window": 131072,
       "max_output": null,
       "billing_model": [
         "pay_per_token"
@@ -3557,7 +3561,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "google/gemma-4-31b-it",
@@ -3584,6 +3588,36 @@
           "cache_read": {
             "usd": 5e-08
           },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "google/gemma-4-31b-it:batch",
+      "name": "Google: Gemma 4 31B (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "image_in",
+        "text",
+        "video_in"
+      ],
+      "context_window": 262144,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 3.9e-07
+          },
+          "output": {
+            "usd": 9.7e-07
+          },
+          "cache_read": null,
           "cache_write": null
         },
         "per_image": null,
@@ -3619,7 +3653,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "google/lyria-3-clip-preview",
@@ -3648,7 +3682,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "google/lyria-3-pro-preview",
@@ -3677,7 +3711,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "gryphe/mythomax-l2-13b",
@@ -3851,7 +3885,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "kwaipilot/kat-coder-air-v2.5",
@@ -3969,7 +4003,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "mancer/weaver",
@@ -4265,6 +4299,37 @@
     {
       "id": "meta/muse-glimmer-30b",
       "name": "Meta: Muse Glimmer 30B",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 131072,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 3e-07
+          },
+          "output": {
+            "usd": 1.2e-06
+          },
+          "cache_read": {
+            "usd": 4e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "meta/muse-glimmer-30b:batch",
+      "name": "Meta: Muse Glimmer 30B (batch)",
       "category": "reasoning",
       "modalities": [
         "text",
@@ -4679,7 +4744,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "minimax/minimax-m3",
@@ -4773,11 +4838,41 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "mistralai/codestral-2508",
       "name": "Mistral: Codestral 2508",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 3e-07
+          },
+          "output": {
+            "usd": 9e-07
+          },
+          "cache_read": {
+            "usd": 3e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "mistralai/codestral-2508:batch",
+      "name": "Mistral: Codestral 2508 (batch)",
       "category": "chat",
       "modalities": [
         "text"
@@ -4929,6 +5024,37 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "mistralai/ministral-8b-2512:batch",
+      "name": "Mistral: Ministral 3 8B 2512 (batch)",
+      "category": "chat",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 262144,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.5e-07
+          },
+          "output": {
+            "usd": 1.5e-07
+          },
+          "cache_read": {
+            "usd": 1.5e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "mistralai/mistral-large",
       "name": "Mistral Large",
       "category": "chat",
@@ -5020,6 +5146,37 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "mistralai/mistral-large-2512:batch",
+      "name": "Mistral: Mistral Large 3 2512 (batch)",
+      "category": "chat",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 262144,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 5e-07
+          },
+          "output": {
+            "usd": 1.5e-06
+          },
+          "cache_read": {
+            "usd": 5e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "mistralai/mistral-medium-3",
       "name": "Mistral: Mistral Medium 3",
       "category": "chat",
@@ -5080,8 +5237,68 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "mistralai/mistral-medium-3-5:batch",
+      "name": "Mistral: Mistral Medium 3.5 (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 262144,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 7.5e-07
+          },
+          "output": {
+            "usd": 3.75e-06
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "mistralai/mistral-medium-3.1",
       "name": "Mistral: Mistral Medium 3.1",
+      "category": "chat",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 131072,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 4e-07
+          },
+          "output": {
+            "usd": 2e-06
+          },
+          "cache_read": {
+            "usd": 4e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "mistralai/mistral-medium-3.1:batch",
+      "name": "Mistral: Mistral Medium 3.1 (batch)",
       "category": "chat",
       "modalities": [
         "text",
@@ -5228,6 +5445,37 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "mistralai/mistral-small-2603:batch",
+      "name": "Mistral: Mistral Small 4 (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 262144,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.5e-07
+          },
+          "output": {
+            "usd": 6e-07
+          },
+          "cache_read": {
+            "usd": 1.5e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "mistralai/mistral-small-3.1-24b-instruct",
       "name": "Mistral: Mistral Small 3.1 24B",
       "category": "chat",
@@ -5323,7 +5571,7 @@
         "text",
         "audio_in"
       ],
-      "context_window": 32000,
+      "context_window": 32768,
       "max_output": null,
       "billing_model": [
         "pay_per_token"
@@ -5528,6 +5776,38 @@
     {
       "id": "moonshotai/kimi-k3",
       "name": "MoonshotAI: Kimi K3",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in",
+        "video_in"
+      ],
+      "context_window": 1048576,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 3e-06
+          },
+          "output": {
+            "usd": 1.5e-05
+          },
+          "cache_read": {
+            "usd": 3e-07
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "moonshotai/kimi-k3:batch",
+      "name": "MoonshotAI: Kimi K3 (batch)",
       "category": "reasoning",
       "modalities": [
         "text",
@@ -5846,7 +6126,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "nvidia/nemotron-3-super-120b-a12b",
@@ -5902,7 +6182,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "nvidia/nemotron-3-ultra-550b-a55b",
@@ -5990,7 +6270,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "nvidia/nemotron-3.5-content-safety:free",
@@ -6019,7 +6299,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "nvidia/nemotron-3.5-lightning",
@@ -6036,13 +6316,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1e-07
+            "usd": 8e-08
           },
           "output": {
-            "usd": 2.5e-07
+            "usd": 2e-07
           },
           "cache_read": {
-            "usd": 5e-08
+            "usd": 4e-08
           },
           "cache_write": null
         },
@@ -6077,7 +6357,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "openai/gpt-3.5-turbo",
@@ -6360,7 +6640,7 @@
             "usd": 4e-07
           },
           "cache_read": {
-            "usd": 2.5e-08
+            "usd": 3e-08
           },
           "cache_write": null
         },
@@ -7543,6 +7823,34 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "openai/gpt-oss-120b:batch",
+      "name": "OpenAI: gpt-oss-120b (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131072,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.5e-07
+          },
+          "output": {
+            "usd": 6e-07
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "openai/gpt-oss-20b",
       "name": "OpenAI: gpt-oss-20b",
       "category": "reasoning",
@@ -7565,6 +7873,34 @@
           "cache_read": {
             "usd": 3e-08
           },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "openai/gpt-oss-20b:batch",
+      "name": "OpenAI: gpt-oss-20b (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131072,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 5e-08
+          },
+          "output": {
+            "usd": 2e-07
+          },
+          "cache_read": null,
           "cache_write": null
         },
         "per_image": null,
@@ -7949,7 +8285,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "openrouter/fusion",
@@ -8229,7 +8565,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "poolside/laguna-xs-2.1",
@@ -8287,7 +8623,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "qwen/qwen-2.5-72b-instruct",
@@ -9062,10 +9398,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.3e-07
+            "usd": 1.5e-07
           },
           "output": {
-            "usd": 5.2e-07
+            "usd": 6e-07
           },
           "cache_read": null,
           "cache_write": null
@@ -9208,10 +9544,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2.6e-07
+            "usd": 2.9e-07
           },
           "output": {
-            "usd": 2.08e-06
+            "usd": 2.4e-06
           },
           "cache_read": null,
           "cache_write": null
@@ -9344,6 +9680,36 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "qwen/qwen3.5-9b:batch",
+      "name": "Qwen: Qwen3.5-9B (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in",
+        "video_in"
+      ],
+      "context_window": 262144,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.7e-07
+          },
+          "output": {
+            "usd": 2.5e-07
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "qwen/qwen3.5-flash-02-23",
       "name": "Qwen: Qwen3.5-Flash",
       "category": "reasoning",
@@ -9452,12 +9818,14 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 3.2e-07
+            "usd": 6e-07
           },
           "output": {
-            "usd": 3.2e-06
+            "usd": 3.6e-06
           },
-          "cache_read": null,
+          "cache_read": {
+            "usd": 1.2e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -9712,6 +10080,36 @@
           },
           "cache_read": {
             "usd": 2.5e-07
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "qwen/qwen3.8-2.4t-a95b:batch",
+      "name": "Qwen: Qwen3.8 2.4T A95B (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1010000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.5e-06
+          },
+          "output": {
+            "usd": 6.25e-06
+          },
+          "cache_read": {
+            "usd": 5e-07
           },
           "cache_write": null
         },
@@ -10315,6 +10713,36 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "tencent/hy4-preview",
+      "name": "Tencent: Hy4 preview",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 8.34e-07
+          },
+          "output": {
+            "usd": 2.501e-06
+          },
+          "cache_read": {
+            "usd": 4.2e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "thedrummer/cydonia-24b-v4.1",
       "name": "TheDrummer: Cydonia 24B V4.1",
       "category": "chat",
@@ -10467,6 +10895,38 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "thinkingmachines/inkling-small:batch",
+      "name": "Thinking Machines: Inkling Small (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in",
+        "audio_in"
+      ],
+      "context_window": 524288,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 5e-07
+          },
+          "output": {
+            "usd": 1.2e-06
+          },
+          "cache_read": {
+            "usd": 1e-07
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "thinkingmachines/inkling-small:free",
       "name": "Thinking Machines: Inkling Small (free)",
       "category": "reasoning",
@@ -10494,7 +10954,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "thinkingmachines/inkling:batch",
@@ -10556,7 +11016,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "undi95/remm-slerp-l2-13b",
@@ -11282,7 +11742,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "z-ai/glm-5.3",
@@ -11291,7 +11751,7 @@
       "modalities": [
         "text"
       ],
-      "context_window": 1048576,
+      "context_window": 1310720,
       "max_output": null,
       "billing_model": [
         "pay_per_token"
@@ -11338,6 +11798,38 @@
           },
           "cache_read": {
             "usd": 1.5e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "z-ai/glm-5.3-flash:batch",
+      "name": "Z.ai: GLM 5.3 Flash (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in",
+        "video_in"
+      ],
+      "context_window": 1048575,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.5e-07
+          },
+          "output": {
+            "usd": 5e-07
+          },
+          "cache_read": {
+            "usd": 3e-08
           },
           "cache_write": null
         },
@@ -11559,23 +12051,23 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 3.75e-07
+            "usd": 7.5e-07
           },
           "output": {
-            "usd": 1.875e-06
+            "usd": 3.75e-06
           },
           "cache_read": {
-            "usd": 3.75e-08
+            "usd": 7.5e-08
           },
           "cache_write": {
-            "usd": 2.08333333333333e-08
+            "usd": 4.16666666666667e-08
           }
         },
         "per_image": [
           {
             "name": "default",
             "price": {
-              "usd": 3.75e-07
+              "usd": 7.5e-07
             }
           }
         ],
@@ -11760,7 +12252,7 @@
       "modalities": [
         "text"
       ],
-      "context_window": 1048576,
+      "context_window": 1310720,
       "max_output": null,
       "billing_model": [
         "pay_per_token"
@@ -11768,13 +12260,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.4e-06
+            "usd": 1.1875e-06
           },
           "output": {
-            "usd": 4.4e-06
+            "usd": 4.18e-06
           },
           "cache_read": {
-            "usd": 2.6e-07
+            "usd": 2.47e-07
           },
           "cache_write": null
         },

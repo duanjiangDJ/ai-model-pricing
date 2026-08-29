@@ -6,8 +6,8 @@
 - Homepage: https://platform.stepfun.com/docs/zh/overview/concept
 - Pricing page: https://platform.stepfun.com/docs/zh/overview/concept
 - Currency: USD
-- Data updated: 2026-08-28T09:55:00Z
-- Verified: 2026-08-28T09:55:00Z
+- Data updated: 2026-08-29T12:52:50Z
+- Verified: 2026-08-29T12:52:50Z
 
 **8** models in total.
 

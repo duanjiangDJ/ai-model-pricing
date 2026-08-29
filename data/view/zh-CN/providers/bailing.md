@@ -6,8 +6,8 @@
 - 官网: https://alipaytbox.yuque.com/sxs0ba/ling/intro
 - 定价页: https://alipaytbox.yuque.com/sxs0ba/ling/intro
 - 币种: USD
-- 数据更新时间: 2026-08-28T08:54:00Z
-- 核实时间: 2026-08-28T05:09:26Z
+- 数据更新时间: 2026-08-29T12:52:50Z
+- 核实时间: 2026-08-29T12:52:50Z
 
 共 **2** 个模型。
 

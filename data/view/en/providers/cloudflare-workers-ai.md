@@ -6,10 +6,10 @@
 - Homepage: https://developers.cloudflare.com/workers-ai/models/
 - Pricing page: https://developers.cloudflare.com/workers-ai/models/
 - Currency: USD
-- Data updated: 2026-08-28T08:54:00Z
-- Verified: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-29T12:52:50Z
+- Verified: 2026-08-29T12:52:50Z
 
-**26** models in total.
+**27** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -38,4 +38,5 @@
 | `@cf/qwen/qwq-32b` | — | reasoning | per-token | 24K | $0.66 | $1 | — | — | —/— | — | models.dev official list price |
 | `@cf/zai-org/glm-4.7-flash` | — | reasoning | per-token | 131.072K | $0.0605 | $0.4 | — | — | —/— | — | models.dev official list price |
 | `@cf/zai-org/glm-5.2` | — | reasoning | per-token | 262.144K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `@cf/zai-org/glm-5.3` | — | reasoning | per-token | 1.31072M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `@cf/zai-org/glm-5.3-flash` | — | reasoning | per-token | 1.31072M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |

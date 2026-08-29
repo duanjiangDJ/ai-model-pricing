@@ -6,10 +6,10 @@
 - 官网: https://llmgateway.io/docs
 - 定价页: https://llmgateway.io/docs
 - 币种: USD
-- 数据更新时间: 2026-08-28T08:54:00Z
-- 核实时间: 2026-08-28T05:09:26Z
+- 数据更新时间: 2026-08-29T12:52:50Z
+- 核实时间: 2026-08-29T12:52:50Z
 
-共 **558** 个模型。
+共 **560** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -213,7 +213,7 @@
 | `glm-5.2` | — | reasoning | 按量 | 1.04858M | $0.55 | $1.784 | $0.111 | — | —/— | — | models.dev official list price |
 | `glm-5.2-fast` | — | reasoning | 按量 | 1M | $1.99 | $6.16 | $0.4 | — | —/— | — | models.dev official list price |
 | `glm-5.3` | — | reasoning | 按量 | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
-| `glm-5.3-flash` | — | reasoning | 按量 | 1.04858M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
+| `glm-5.3-flash` | — | reasoning | 按量 | 1.04858M | $0.13 | $0.4 | $0.024 | — | —/— | — | models.dev official list price |
 | `gonka24/deepseek-v4-flash` | — | reasoning | 按量 | 390K | $0.075 | $0.175 | $0.0155 | — | —/— | — | models.dev official list price |
 | `gonka24/kimi-k2.6` | — | reasoning | 按量 | 262.144K | $0.22 | $1.137 | $0.048 | — | —/— | — | models.dev official list price |
 | `gonka24/minimax-m2.7` | — | reasoning | 按量 | 204.8K | $0.08 | $0.32 | $0.017 | — | —/— | — | models.dev official list price |
@@ -296,9 +296,9 @@
 | `kimi-k2-thinking` | — | reasoning | 按量 | 262.144K | $0.6 | $2.5 | $0.06 | — | —/— | — | models.dev official list price |
 | `kimi-k2.5` | — | reasoning | 按量 | 262.144K | $0.405 | $1.98 | $0.225 | — | —/— | — | models.dev official list price |
 | `kimi-k2.6` | — | reasoning | 按量 | 262.144K | $0.22 | $1.137 | $0.048 | — | —/— | — | models.dev official list price |
-| `kimi-k2.7-code` | — | reasoning | 按量 | 262.144K | $0.95 | $4 | $0.19 | — | —/— | — | models.dev official list price |
+| `kimi-k2.7-code` | — | reasoning | 按量 | 262.144K | $0.89 | $3.71 | $0.18 | — | —/— | — | models.dev official list price |
 | `kimi-k2.7-code-highspeed` | — | reasoning | 按量 | 262.144K | $1.9 | $8 | $0.38 | — | —/— | — | models.dev official list price |
-| `kimi-k3` | — | reasoning | 按量 | 1.04858M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
+| `kimi-k3` | — | reasoning | 按量 | 1.04858M | $2.83 | $14.13 | $0.28 | — | —/— | — | models.dev official list price |
 | `kimi-k3-fast` | — | reasoning | 按量 | 1.04038M | $4.5 | $22.5 | $0.45 | — | —/— | — | models.dev official list price |
 | `ling-3.0-flash` | — | reasoning | 按量 | 262.144K | $0.06 | $0.18 | $0.012 | — | —/— | — | models.dev official list price |
 | `llama-3-70b-instruct` | — | chat | 按量 | 8.192K | $0.51 | $0.74 | — | — | —/— | — | models.dev official list price |
@@ -497,6 +497,8 @@
 | `qwen3.7-flash` | — | reasoning | 按量 | 1M | $0.03 | $0.13 | $0.006 | — | —/— | — | models.dev official list price |
 | `qwen3.7-max` | — | reasoning | 按量 | 1M | $1.25 | $3.75 | $0.25 | — | —/— | — | models.dev official list price |
 | `qwen3.7-plus` | — | reasoning | 按量 | 1M | $0.4 | $1.6 | $0.08 | — | —/— | — | models.dev official list price |
+| `qwen3.8-27b` | — | reasoning | 按量 | 1M | $0.42 | $3 | $0.085 | — | —/— | — | models.dev official list price |
+| `qwen3.8-flash` | — | reasoning | 按量 | 1M | $0.15 | $0.47 | $0.016 | — | —/— | — | models.dev official list price |
 | `qwen3.8-max` | — | reasoning | 按量 | 1M | $1.815 | $5.4461 | $0.21 | — | —/— | — | models.dev official list price |
 | `qwen35-397b-a17b` | — | reasoning | 按量 | 262.144K | $0.6 | $3.6 | — | — | —/— | — | models.dev official list price |
 | `runware/deepseek-v4-flash` | — | reasoning | 按量 | 1.04858M | $0.076 | $0.153 | $0.014 | — | —/— | — | models.dev official list price |

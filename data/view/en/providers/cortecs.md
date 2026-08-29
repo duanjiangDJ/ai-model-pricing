@@ -6,10 +6,10 @@
 - Homepage: https://api.cortecs.ai/v1/models
 - Pricing page: https://api.cortecs.ai/v1/models
 - Currency: USD
-- Data updated: 2026-08-28T08:54:00Z
-- Verified: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-29T12:52:50Z
+- Verified: 2026-08-29T12:52:50Z
 
-**108** models in total.
+**111** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -47,6 +47,8 @@
 | `glm-5-turbo` | — | reasoning | per-token | 202.752K | $1.186 | $3.955 | $0.296 | — | —/— | — | models.dev official list price |
 | `glm-5.1` | — | reasoning | per-token | 202.752K | $1.384 | $4.348 | $0.346 | — | —/— | — | models.dev official list price |
 | `glm-5.2` | — | reasoning | per-token | 1.04858M | $1.2 | $4.2 | $0.26 | — | —/— | — | models.dev official list price |
+| `glm-5.3` | — | reasoning | per-token | 1.04858M | $1.75 | $4.499 | $0.438 | — | —/— | — | models.dev official list price |
+| `glm-5.3-flash` | — | reasoning | per-token | 1.04858M | $0.201 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
 | `glm-5v-turbo` | — | reasoning | per-token | 202.752K | $1.186 | $3.955 | $0.296 | — | —/— | — | models.dev official list price |
 | `gpt-4.1` | — | chat | per-token | 1.04758M | $2.192 | $8.769 | $0.546 | — | —/— | — | models.dev official list price |
 | `gpt-4.1-mini` | — | chat | per-token | 1.04758M | $0.434 | $1.704 | $0.134 | — | —/— | — | models.dev official list price |
@@ -118,6 +120,7 @@
 | `qwen3.6-35b-a3b` | — | reasoning | per-token | 262K | $0.167 | $0.557 | — | — | —/— | — | models.dev official list price |
 | `qwen3.8-2.4t-a95b` | — | reasoning | per-token | 262.144K | $2.5 | $6 | $0.625 | — | —/— | — | models.dev official list price |
 | `qwen3.8-27b` | — | reasoning | per-token | 262.144K | $0.334 | $2.451 | $0.111 | — | —/— | — | models.dev official list price |
+| `qwen3.8-flash-next` | — | reasoning | per-token | 262.144K | $0.201 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
 | `qwen3guard-gen-0.6b` | — | chat | free | 32K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `qwen3guard-gen-8b` | — | chat | free | 32K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `voxtral-small-2507` | — | chat | per-token | 32K | $0.111 | $0.334 | $0.011 | — | —/— | — | models.dev official list price |
