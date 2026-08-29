@@ -16,6 +16,10 @@
 
 ---
 
+## 26.7.24 — 2026-08-29T12:50Z（功能更新）
+
+- fix: moonshotai batch 价格为双币对象（schema 26.8 batch 校验）
+
 ## 26.7.23 — 2026-08-29T01:32Z（功能更新）
 
 - fix: 规范 batch 价格为双币对象（schema 26.8 batch 校验）
