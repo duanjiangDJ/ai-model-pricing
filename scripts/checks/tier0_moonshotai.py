@@ -49,7 +49,9 @@ def parse(text):
             if "(Batch)" in mid:
                 base = mid.replace(" (Batch)", "")
                 if len(cells) >= 5:
-                    per_batch[base] = {"input": float(cells[3]), "output": float(cells[4])}
+                    # schema 26.8: batch input/output are dual-price {usd,cny} objects.
+                    per_batch[base] = {"input": {"usd": float(cells[3])},
+                                       "output": {"usd": float(cells[4])}}
                 continue
             if len(cells) >= 6:  # cache_hit, cache_miss, output
                 per_model[mid] = {
