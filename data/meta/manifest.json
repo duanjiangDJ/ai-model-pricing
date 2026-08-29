@@ -1,5 +1,5 @@
 {
-  "schema_version": "26.7.22",
+  "schema_version": "26.7.23",
   "sources": [
     {
       "name": "OpenRouter API",
@@ -48,15 +48,15 @@
       "last_error": "parsed 0 models"
     },
     {
-      "name": "check:stepfun",
-      "url": "scripts/checks/stepfun.py",
+      "name": "check:google",
+      "url": "scripts/checks/google.py",
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-28T09:55:00Z",
+      "last_ok": "2026-08-29T01:32:13Z",
       "last_error": null
     }
   ],
   "coverage": {},
-  "last_daily_check": "2026-08-28T09:55:00Z"
+  "last_daily_check": "2026-08-29T01:32:13Z"
 }

@@ -310,11 +310,17 @@ def apply_to_provider(provider_id, parsed, source_url, now, dry_run, parsed_ok=T
                     cur_old[currency] = nv
             pm[k] = cur_old if cur_old else None
         if data.get("batch"):
+            # schema 26.8+: batch.input/output are dual-price objects {usd,cny} (lowercase keys),
+            # not scalars. Normalize here so a source returning scalar batch ({input:20, output:40})
+            # can't break validate — converts each value to a dual object keyed on provider currency.
+            cur = provider.get("currency", "USD").lower()
+            nb = {k: (v if isinstance(v, dict) else ({cur: v} if v is not None else None))
+                  for k, v in data["batch"].items()}
             old_b = m["pricing"].get("batch")
-            if old_b != data["batch"]:
-                diffs.append(f"batch: {old_b} -> {data['batch']}")
+            if old_b != nb:
+                diffs.append(f"batch: {old_b} -> {nb}")
                 if not dry_run:
-                    m["pricing"]["batch"] = data["batch"]
+                    m["pricing"]["batch"] = nb
         if diffs:
             changed += 1
             print(f"  {mid}: " + "; ".join(diffs))
