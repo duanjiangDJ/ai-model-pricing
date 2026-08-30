@@ -16,6 +16,11 @@
 
 ---
 
+## 26.13.24 — 2026-08-30T16:27Z（内容更新）
+
+- 价格同步（4 处变更）：
+- **openrouter**（更新 4）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `mistralai/devstral-2512`, `tencent/hy3`
+
 ## 26.12.24 — 2026-08-30T11:39Z（内容更新）
 
 - 价格同步（3 处变更）：

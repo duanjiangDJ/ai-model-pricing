@@ -6,8 +6,8 @@
 - 官网: https://openrouter.ai
 - 定价页: https://openrouter.ai/models
 - 币种: USD
-- 数据更新时间: 2026-08-30T11:34:54Z
-- 核实时间: 2026-08-30T11:34:54Z
+- 数据更新时间: 2026-08-30T16:21:56Z
+- 核实时间: 2026-08-30T16:21:56Z
 
 共 **396** 个模型。
 
@@ -75,11 +75,11 @@
 | `deepseek/deepseek-v3.1-terminus` | — | reasoning | 按量 | 163.84K | $2.7e-07 | $1e-06 | $1.35e-07 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2` | — | reasoning | 按量 | 163.84K | $2.69e-07 | $4e-07 | $1.345e-07 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2-exp` | — | reasoning | 按量 | 163.84K | $2.7e-07 | $4.1e-07 | — | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-flash` | — | reasoning | 按量 | 1.04858M | $7.98e-08 | $1.596e-07 | $1.596e-08 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-flash` | — | reasoning | 按量 | 1.04858M | $7.896e-08 | $1.5792e-07 | $1.5792e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | 按量 | 1.31072M | $6.5e-08 | $1.8e-07 | $1.6e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731:batch` | — | reasoning | 按量 | 1.04858M | $1.4e-07 | $2.8e-07 | $3e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 按量 | 1.04858M | $2.2e-07 | $6.6e-07 | $7e-09 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-pro` | — | reasoning | 按量 | 1.04858M | $4.27344e-07 | $8.54688e-07 | $3.5612e-08 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-pro` | — | reasoning | 按量 | 1.04858M | $4.17252e-07 | $8.34504e-07 | $3.4771e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | 按量 | 1.04858M | $6.6e-07 | $1.98e-06 | $2.2e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813:batch` | — | reasoning | 按量 | 1.04858M | $1.32e-06 | $3.96e-06 | $1.3e-07 | — | —/— | — | OpenRouter reseller price |
 | `dots-studio/dots-3-note-preview:free` | — | reasoning | 按量 | 512K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price |
@@ -164,7 +164,7 @@
 | `minimax/minimax-m3:free` | — | reasoning | 按量 | 1.04858M | $0 | $0 | — | — | —/— | — | OpenRouter reseller price |
 | `mistralai/codestral-2508` | — | chat | 按量 | 256K | $3e-07 | $9e-07 | $3e-08 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/codestral-2508:batch` | — | chat | 按量 | 256K | $3e-07 | $9e-07 | $3e-08 | — | —/— | — | OpenRouter reseller price |
-| `mistralai/devstral-2512` | — | chat | 按量 | 262.144K | $4.4e-07 | $2.2e-06 | $4.4e-08 | — | —/— | — | OpenRouter reseller price |
+| `mistralai/devstral-2512` | — | chat | 按量 | 262.144K | $4e-07 | $2e-06 | $4e-08 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/ministral-14b-2512` | — | chat | 按量 | 262.144K | $2e-07 | $2e-07 | $2e-08 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/ministral-3b-2512` | — | chat | 按量 | 131.072K | $1e-07 | $1e-07 | $1e-08 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/ministral-8b-2512` | — | chat | 按量 | 262.144K | $1.5e-07 | $1.5e-07 | $1.5e-08 | — | —/— | — | OpenRouter reseller price |
@@ -357,7 +357,7 @@
 | `tencent/hy-mt2-1.8b` | — | chat | 按量 | 8.192K | $4.4e-08 | $1.77e-07 | — | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy-mt2-30b-a3b` | — | chat | 按量 | 8.192K | $7.4e-08 | $2.95e-07 | — | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy-mt2-7b` | — | chat | 按量 | 8.192K | $7.4e-08 | $2.95e-07 | — | — | —/— | — | OpenRouter reseller price |
-| `tencent/hy3` | — | reasoning | 按量 | 262.144K | $1.32e-07 | $5.28e-07 | $3.3e-08 | — | —/— | — | OpenRouter reseller price |
+| `tencent/hy3` | — | reasoning | 按量 | 262.144K | $8.25e-08 | $3.3e-07 | $2.0625e-08 | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy3-preview` | — | reasoning | 按量 | 262.144K | $1.8e-07 | $6e-07 | $6e-08 | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy4-preview` | — | reasoning | 按量 | 1.04858M | $8.34e-07 | $2.501e-06 | $4.2e-08 | — | —/— | — | OpenRouter reseller price |
 | `thedrummer/cydonia-24b-v4.1` | — | chat | 按量 | 131.072K | $3e-07 | $5e-07 | $1.5e-07 | — | —/— | — | OpenRouter reseller price |
