@@ -6,8 +6,8 @@
 - Homepage: https://runinfra.ai/docs
 - Pricing page: https://runinfra.ai/docs
 - Currency: USD
-- Data updated: 2026-08-29T12:52:50Z
-- Verified: 2026-08-29T12:52:50Z
+- Data updated: 2026-08-30T04:37:49Z
+- Verified: 2026-08-30T04:37:49Z
 
 **7** models in total.
 

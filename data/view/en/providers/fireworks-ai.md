@@ -6,10 +6,10 @@
 - Homepage: https://fireworks.ai/docs/
 - Pricing page: https://fireworks.ai/docs/
 - Currency: USD
-- Data updated: 2026-08-29T12:52:50Z
-- Verified: 2026-08-29T12:52:50Z
+- Data updated: 2026-08-30T04:37:49Z
+- Verified: 2026-08-30T04:37:49Z
 
-**24** models in total.
+**25** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -19,6 +19,7 @@
 | `accounts/fireworks/models/deepseek-v4-pro-0813` | — | reasoning | per-token | 1M | $1.32 | $3.96 | $0.044 | — | —/— | — | models.dev official list price |
 | `accounts/fireworks/models/glm-5p2` | — | reasoning | per-token | 1.04858M | $1.4 | $4.4 | $0.14 | — | —/— | — | models.dev official list price |
 | `accounts/fireworks/models/glm-5p3` | — | reasoning | per-token | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `accounts/fireworks/models/glm-5p3-flash` | — | reasoning | per-token | 1M | $0.15 | $0.5 | $0.029 | — | —/— | — | models.dev official list price |
 | `accounts/fireworks/models/gpt-oss-120b` | — | reasoning | per-token | 131.072K | $0.15 | $0.6 | $0.015 | — | —/— | — | models.dev official list price |
 | `accounts/fireworks/models/gpt-oss-20b` | — | reasoning | per-token | 131.072K | $0.07 | $0.3 | $0.035 | — | —/— | — | models.dev official list price |
 | `accounts/fireworks/models/inkling` | — | reasoning | per-token | 1.04858M | $1 | $4.05 | $0.17 | — | —/— | — | models.dev official list price |

@@ -7,8 +7,8 @@
   "homepage": "https://docs.orcarouter.ai",
   "pricing_page": "https://docs.orcarouter.ai",
   "currency": "USD",
-  "updated_at": "2026-08-29T12:52:50Z",
-  "verified_at": "2026-08-29T12:52:50Z",
+  "updated_at": "2026-08-30T04:37:49Z",
+  "verified_at": "2026-08-30T04:37:49Z",
   "models": [
     {
       "id": "anthropic/claude-fable-5",
@@ -3827,6 +3827,35 @@
           "cache_read": {
             "usd": 0.234
           },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/glm-5.3-flash",
+      "name": "GLM-5.3-Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 128000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.075
+          },
+          "output": {
+            "usd": 0.25
+          },
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,

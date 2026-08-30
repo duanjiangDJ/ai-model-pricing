@@ -6,8 +6,8 @@
 - Homepage: https://console.sakana.ai/models
 - Pricing page: https://console.sakana.ai/models
 - Currency: USD
-- Data updated: 2026-08-29T12:52:50Z
-- Verified: 2026-08-29T12:52:50Z
+- Data updated: 2026-08-30T04:37:49Z
+- Verified: 2026-08-30T04:37:49Z
 
 **4** models in total.
 

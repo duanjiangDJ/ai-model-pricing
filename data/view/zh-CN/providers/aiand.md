@@ -6,10 +6,10 @@
 - 官网: https://docs.aiand.com/
 - 定价页: https://docs.aiand.com/
 - 币种: USD
-- 数据更新时间: 2026-08-29T12:52:50Z
-- 核实时间: 2026-08-29T12:52:50Z
+- 数据更新时间: 2026-08-30T04:37:49Z
+- 核实时间: 2026-08-30T04:37:49Z
 
-共 **9** 个模型。
+共 **11** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -21,4 +21,6 @@
 | `motif-technologies/motif-3` | — | reasoning | 按量 | 262.144K | $0.5 | $2 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.6-27b` | — | reasoning | 按量 | 262.144K | $0.32 | $3.2 | — | — | —/— | — | models.dev official list price |
+| `qwen/qwen3.8-27b` | — | reasoning | 按量 | 262.144K | $0.4 | $3 | $0.2 | — | —/— | — | models.dev official list price |
 | `zai-org/glm-5.2` | — | reasoning | 按量 | 1.04858M | $1 | $4 | — | — | —/— | — | models.dev official list price |
+| `zai-org/glm-5.3` | — | reasoning | 按量 | 1.04858M | $1 | $4 | $0.3 | — | —/— | — | models.dev official list price |

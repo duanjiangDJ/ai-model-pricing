@@ -7,8 +7,8 @@
   "homepage": "https://docs.aiand.com/",
   "pricing_page": "https://docs.aiand.com/",
   "currency": "USD",
-  "updated_at": "2026-08-29T12:52:50Z",
-  "verified_at": "2026-08-29T12:52:50Z",
+  "updated_at": "2026-08-30T04:37:49Z",
+  "verified_at": "2026-08-30T04:37:49Z",
   "models": [
     {
       "id": "deepseek-ai/deepseek-v4-flash",
@@ -253,6 +253,37 @@
       ]
     },
     {
+      "id": "qwen/qwen3.8-27b",
+      "name": "Qwen3.8 27B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.4
+          },
+          "output": {
+            "usd": 3
+          },
+          "cache_read": {
+            "usd": 0.2
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "zai-org/glm-5.2",
       "name": "GLM-5.2",
       "category": "reasoning",
@@ -281,6 +312,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "zai-org/glm-5.3",
+      "name": "GLM-5.3",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 131072,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1
+          },
+          "output": {
+            "usd": 4
+          },
+          "cache_read": {
+            "usd": 0.3
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     }
   ],
   "api_base_url": "https://api.aiand.com/v1"

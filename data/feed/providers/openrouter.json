@@ -7,8 +7,8 @@
   "homepage": "https://openrouter.ai",
   "pricing_page": "https://openrouter.ai/models",
   "currency": "USD",
-  "updated_at": "2026-08-29T23:07:51Z",
-  "verified_at": "2026-08-29T23:07:51Z",
+  "updated_at": "2026-08-30T04:37:49Z",
+  "verified_at": "2026-08-30T04:37:49Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1940,13 +1940,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 8.176e-08
+            "usd": 8.064e-08
           },
           "output": {
-            "usd": 1.6352e-07
+            "usd": 1.6128e-07
           },
           "cache_read": {
-            "usd": 1.6352e-08
+            "usd": 1.6128e-08
           },
           "cache_write": null
         },
@@ -2061,13 +2061,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 5.38878e-07
+            "usd": 4.98336e-07
           },
           "output": {
-            "usd": 1.077756e-06
+            "usd": 9.96672e-07
           },
           "cache_read": {
-            "usd": 4.49065e-08
+            "usd": 4.1528e-08
           },
           "cache_write": null
         },
@@ -9279,14 +9279,12 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1e-07
+            "usd": 9e-08
           },
           "output": {
             "usd": 1.1e-06
           },
-          "cache_read": {
-            "usd": 7e-08
-          },
+          "cache_read": null,
           "cache_write": null
         },
         "per_image": null,
@@ -10667,13 +10665,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 8.25e-08
+            "usd": 1.32e-07
           },
           "output": {
-            "usd": 3.3e-07
+            "usd": 5.28e-07
           },
           "cache_read": {
-            "usd": 2.0625e-08
+            "usd": 3.3e-08
           },
           "cache_write": null
         },
@@ -11671,13 +11669,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.26e-06
+            "usd": 9.66e-07
           },
           "output": {
-            "usd": 3.96e-06
+            "usd": 3.036e-06
           },
           "cache_read": {
-            "usd": 2.34e-07
+            "usd": 1.794e-07
           },
           "cache_write": null
         },
@@ -12020,7 +12018,7 @@
             "usd": 3e-08
           },
           "output": {
-            "usd": 1.4e-07
+            "usd": 1.6e-07
           },
           "cache_read": {
             "usd": 1e-08

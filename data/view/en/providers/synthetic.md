@@ -6,10 +6,10 @@
 - Homepage: https://synthetic.new/pricing
 - Pricing page: https://synthetic.new/pricing
 - Currency: USD
-- Data updated: 2026-08-29T12:52:50Z
-- Verified: 2026-08-29T12:52:50Z
+- Data updated: 2026-08-30T04:37:49Z
+- Verified: 2026-08-30T04:37:49Z
 
-**8** models in total.
+**9** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -21,3 +21,4 @@
 | `hf:openai/gpt-oss-120b` | — | reasoning | per-token | 131.072K | $0.1 | $0.1 | $0.1 | — | —/— | — | models.dev official list price |
 | `hf:zai-org/GLM-4.7-Flash` | — | reasoning | per-token | 196.608K | $0.1 | $0.5 | $0.1 | — | —/— | — | models.dev official list price |
 | `hf:zai-org/GLM-5.2` | — | reasoning | per-token | 524.288K | $1.4 | $4.4 | $1.4 | — | —/— | — | models.dev official list price |
+| `hf:zai-org/GLM-5.3-Flash` | — | reasoning | per-token | 524.288K | $0.15 | $0.5 | $0.04 | — | —/— | — | models.dev official list price |

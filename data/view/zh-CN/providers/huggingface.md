@@ -6,8 +6,8 @@
 - 官网: https://huggingface.co/docs/inference-providers
 - 定价页: https://huggingface.co/docs/inference-providers
 - 币种: USD
-- 数据更新时间: 2026-08-29T12:52:50Z
-- 核实时间: 2026-08-29T12:52:50Z
+- 数据更新时间: 2026-08-30T04:37:49Z
+- 核实时间: 2026-08-30T04:37:49Z
 
 共 **72** 个模型。
 

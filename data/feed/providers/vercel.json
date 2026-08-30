@@ -7,8 +7,8 @@
   "homepage": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
   "pricing_page": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
   "currency": "USD",
-  "updated_at": "2026-08-29T12:52:50Z",
-  "verified_at": "2026-08-29T12:52:50Z",
+  "updated_at": "2026-08-30T04:37:49Z",
+  "verified_at": "2026-08-30T04:37:49Z",
   "models": [
     {
       "id": "alibaba/qwen-3-14b",

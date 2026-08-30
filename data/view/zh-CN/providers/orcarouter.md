@@ -6,10 +6,10 @@
 - 官网: https://docs.orcarouter.ai
 - 定价页: https://docs.orcarouter.ai
 - 币种: USD
-- 数据更新时间: 2026-08-29T12:52:50Z
-- 核实时间: 2026-08-29T12:52:50Z
+- 数据更新时间: 2026-08-30T04:37:49Z
+- 核实时间: 2026-08-30T04:37:49Z
 
-共 **123** 个模型。
+共 **124** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -136,3 +136,4 @@
 | `z-ai/glm-5.1` | — | reasoning | 按量 | 200K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5.2` | — | reasoning | 按量 | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5.3` | — | reasoning | 按量 | 1M | $1.26 | $3.96 | $0.234 | — | —/— | — | models.dev official list price |
+| `z-ai/glm-5.3-flash` | — | reasoning | 按量 | 1M | $0.075 | $0.25 | — | — | —/— | — | models.dev official list price |

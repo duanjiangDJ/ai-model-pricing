@@ -16,6 +16,29 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.11.24 — 2026-08-30T04:43Z (content update)
+
+- price sync (88 changes):
+- **aiand** (+2): `qwen/qwen3.8-27b`, `zai-org/glm-5.3`
+- **alibaba** (updated 14): `qwen3.7-plus`, `qwen3.6-flash`, `qwen-vl-ocr`, `qwen3.6-35b-a3b`, `qwen3-next-80b-a3b-thinking`, `qwen3-next-80b-a3b-instruct`, `qwen3-32b` — in $0.72 out $0.72; in $0.7 out $2.8; in $0.5 out $2; in $0.5 out $6; in $0.248 out $1.485; in $0.1875 out $1.125; in $0.5 out $3
+- **crof** (+1): `glm-5.3`
+- **deepseek** (updated 6): `deepseek-v4-flash`, `deepseek-v4-pro`, `deepseek-v4-flash-vision-exp` — in $0.14 out $0.28 cache $0.0028; in $0.435 out $0.87
+- **digitalocean** (+1): `glm-5.3`
+- **fireworks-ai** (+1): `accounts/fireworks/models/glm-5p3-flash`
+- **friendli** (+1): `zai-org/GLM-5.3`
+- **kilo** (updated 2): `google/gemma-4-31b-it`, `~deepseek/deepseek-v4-flash-latest` — in $0.09 out $0.34 cache $0.05; out $0.16 cache $0.01
+- **llmgateway** (updated 1): `glm-5.3` — in $1.3 out $4 cache $0.25
+- **minimax** (updated 2): `MiniMax-M2.5-highspeed` — cache $0.06
+- **mistral** (updated 4): `ministral-3b-latest`, `ministral-8b-latest` — in $0.04 out $0.04; in $0.1 out $0.1
+- **nano-gpt** (+47): `abliteration-ai/abliterated-model`, `abliteration-ai/abliterated-model-large`, `gemma-4-26b-a4b-it-chimerax`, `gemma-4-26b-a4b-it-darksoul`, `gemma-4-26b-a4b-it-luminous`, `gemma-4-26b-a4b-it-moonlight`, `gemma-4-26b-a4b-it-musica`, `gemma-4-26b-a4b-it-opusdistill`, `gemma-4-26b-a4b-it-shadowsiren`, `gemma-4-26b-a4b-uncensored`, `gemma-4-26b-a4b-uncensored:thinking`, `gemma-4-31b-it-darkidol`, `gemma-4-31b-it-fabled`, `gemma-4-31b-it-garnet`, `gemma-4-31b-it-gembrain`, `gemma-4-31b-it-gemsicle`, `gemma-4-31b-it-isometry`, `gemma-4-31b-it-novelist`, `z-ai/GLM-4.5-Air`, `z-ai/GLM-4.5-Air:thinking`, `z-ai/GLM-4.5:thinking`, `z-ai/GLM-4.6-turbo`, `z-ai/GLM-4.6-turbo:thinking`, `z-ai/glm-4.5`, `z-ai/glm-4.6-original`, `z-ai/glm-4.6v`, `z-ai/glm-4.6v-flash-original`, `z-ai/glm-4.6v-original`, `z-ai/glm-4.7`, `z-ai/glm-4.7-flash`, `z-ai/glm-4.7-flash-original`, `z-ai/glm-4.7-flash-original:thinking`, `z-ai/glm-4.7-flash:thinking`, `z-ai/glm-4.7-original`, `z-ai/glm-4.7-original:thinking`, `z-ai/glm-4.7:thinking`, `z-ai/glm-5`, `z-ai/glm-5-original`, `z-ai/glm-5-original:thinking`, `z-ai/glm-5.1`, `z-ai/glm-5.1:thinking`, `z-ai/glm-5.2`, `z-ai/glm-5.2:thinking`, `z-ai/glm-5.3`, `z-ai/glm-5.3:thinking`, `z-ai/glm-5:thinking`, `z-ai/glm-latest`
+- **nano-gpt** (updated 4): `moonshotai/kimi-k3`, `moonshotai/kimi-latest`, `qwen3.8-27b`, `qwen3.8-27b:thinking` — in $2 out $10 cache $0.2; in $0.15 out $0.7
+- **ollama-cloud** (+1): `glm-5.3`
+- **opencode-go** (updated 1): `hy3` — in $0.14 out $0.58 cache $0.035
+- **openrouter** (updated 6): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `qwen/qwen3-next-80b-a3b-instruct`, `tencent/hy3`, `z-ai/glm-5.1`, `~deepseek/deepseek-v4-flash-latest`
+- **orcarouter** (+1): `z-ai/glm-5.3-flash`
+- **synthetic** (+1): `hf:zai-org/GLM-5.3-Flash`
+- **togetherai** (+1): `zai-org/GLM-5.3`
+
 ## 26.10.24 — 2026-08-29T23:12Z (content update)
 
 - price sync (5 changes):

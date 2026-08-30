@@ -8,8 +8,8 @@
   "pricing_page": "https://opencode.ai/docs/zen/",
   "api_base_url": "https://opencode.ai/zen/v1/models",
   "currency": "USD",
-  "updated_at": "2026-08-29T12:52:50Z",
-  "verified_at": "2026-08-29T12:52:50Z",
+  "updated_at": "2026-08-30T04:37:49Z",
+  "verified_at": "2026-08-30T04:37:49Z",
   "models": [
     {
       "id": "big-pickle",

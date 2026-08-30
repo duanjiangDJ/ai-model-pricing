@@ -6,10 +6,10 @@
 - Homepage: https://crof.ai/docs
 - Pricing page: https://crof.ai/docs
 - Currency: USD
-- Data updated: 2026-08-29T12:52:50Z
-- Verified: 2026-08-29T12:52:50Z
+- Data updated: 2026-08-30T04:37:49Z
+- Verified: 2026-08-30T04:37:49Z
 
-**29** models in total.
+**30** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -25,6 +25,7 @@
 | `glm-5` | — | reasoning | per-token | 202.752K | $0.48 | $1.9 | $0.1 | — | —/— | — | models.dev official list price |
 | `glm-5.1` | — | reasoning | per-token | 202.752K | $0.45 | $2.15 | $0.08 | — | —/— | — | models.dev official list price |
 | `glm-5.2` | — | reasoning | per-token | 1M | $0.3 | $1.05 | $0.05 | — | —/— | — | models.dev official list price |
+| `glm-5.3` | — | reasoning | per-token | 1M | $0.4 | $1.4 | $0.06 | — | —/— | — | models.dev official list price |
 | `glm-5.3-flash` | — | reasoning | per-token | 1M | $0.07 | $0.22 | $0.01 | — | —/— | — | models.dev official list price |
 | `greg-1-mini` | — | chat | per-token | 229.376K | $0.07 | $0.15 | $0.01 | — | —/— | — | models.dev official list price |
 | `greg-2-super` | — | chat | per-token | 229.376K | $1.5 | $5 | $0.25 | — | —/— | — | models.dev official list price |

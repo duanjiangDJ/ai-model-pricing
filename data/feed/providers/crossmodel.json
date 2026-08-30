@@ -7,8 +7,8 @@
   "homepage": "https://www.crossmodel.ai/docs",
   "pricing_page": "https://www.crossmodel.ai/docs",
   "currency": "USD",
-  "updated_at": "2026-08-29T12:52:50Z",
-  "verified_at": "2026-08-29T12:52:50Z",
+  "updated_at": "2026-08-30T04:37:49Z",
+  "verified_at": "2026-08-30T04:37:49Z",
   "models": [
     {
       "id": "anthropic/claude-fable-5",

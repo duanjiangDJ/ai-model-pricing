@@ -6,10 +6,10 @@
 - 官网: https://docs.digitalocean.com/products/gradient-ai-platform/details/models/
 - 定价页: https://docs.digitalocean.com/products/gradient-ai-platform/details/models/
 - 币种: USD
-- 数据更新时间: 2026-08-29T12:52:50Z
-- 核实时间: 2026-08-29T12:52:50Z
+- 数据更新时间: 2026-08-30T04:37:49Z
+- 核实时间: 2026-08-30T04:37:49Z
 
-共 **93** 个模型。
+共 **94** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -52,6 +52,7 @@
 | `glm-5` | — | reasoning | 按量 | 64K | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
 | `glm-5.1` | — | reasoning | 按量 | 163.84K | $1.3 | $4.3 | $0.26 | — | —/— | — | models.dev official list price |
 | `glm-5.2` | — | reasoning | 按量 | 262.144K | $0.7 | $2.2 | $0.105 | — | —/— | — | models.dev official list price |
+| `glm-5.3` | — | reasoning | 按量 | 1.04858M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `glm-5.3-flash` | — | reasoning | 按量 | 1.04858M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `gte-large-en-v1.5` | — | chat | 按量 + 免费 | 8.192K | $0.09 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `kimi-k2.5` | — | reasoning | 按量 | 262.144K | $0.5 | $2.7 | $0.203 | — | —/— | — | models.dev official list price |

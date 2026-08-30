@@ -6,10 +6,10 @@
 - Homepage: https://docs.ollama.com/cloud
 - Pricing page: https://docs.ollama.com/cloud
 - Currency: USD
-- Data updated: 2026-08-29T12:52:50Z
-- Verified: 2026-08-29T12:52:50Z
+- Data updated: 2026-08-30T04:37:49Z
+- Verified: 2026-08-30T04:37:49Z
 
-**21** models in total.
+**22** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -19,6 +19,7 @@
 | `gemma4:31b` | — | reasoning | ? | 262.144K | — | — | — | — | —/— | — | models.dev official list price |
 | `glm-5.1` | — | reasoning | ? | 202.752K | — | — | — | — | —/— | — | models.dev official list price |
 | `glm-5.2` | — | reasoning | ? | 976K | — | — | — | — | —/— | — | models.dev official list price |
+| `glm-5.3` | — | reasoning | ? | 1.04858M | — | — | — | — | —/— | — | models.dev official list price |
 | `glm-5.3-flash` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
 | `gpt-oss:120b` | — | reasoning | ? | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
 | `gpt-oss:20b` | — | reasoning | ? | 131.072K | — | — | — | — | —/— | — | models.dev official list price |

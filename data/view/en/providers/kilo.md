@@ -6,8 +6,8 @@
 - Homepage: https://kilo.ai
 - Pricing page: https://kilo.ai
 - Currency: USD
-- Data updated: 2026-08-29T12:52:50Z
-- Verified: 2026-08-29T12:52:50Z
+- Data updated: 2026-08-30T04:37:49Z
+- Verified: 2026-08-30T04:37:49Z
 
 **375** models in total.
 
@@ -99,7 +99,7 @@
 | `google/gemma-3-4b-it` | — | chat | per-token | 131.072K | $0.05 | $0.1 | — | — | —/— | — | models.dev official list price |
 | `google/gemma-3n-e4b-it` | — | chat | per-token | 32.768K | $0.06 | $0.12 | — | — | —/— | — | models.dev official list price |
 | `google/gemma-4-26b-a4b-it` | — | reasoning | per-token | 262.144K | $0.042 | $0.22 | — | — | —/— | — | models.dev official list price |
-| `google/gemma-4-31b-it` | — | reasoning | per-token | 262.144K | $0.07 | $0.35 | $0.1 | — | —/— | — | models.dev official list price |
+| `google/gemma-4-31b-it` | — | reasoning | per-token | 262.144K | $0.09 | $0.34 | $0.05 | — | —/— | — | models.dev official list price |
 | `google/lyria-3-clip-preview` | — | chat | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `google/lyria-3-pro-preview` | — | chat | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gryphe/mythomax-l2-13b` | — | chat | per-token | 4.096K | $0.06 | $0.06 | — | — | —/— | — | models.dev official list price |
@@ -380,7 +380,7 @@
 | `~anthropic/claude-haiku-latest` | — | reasoning | per-token | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `~anthropic/claude-opus-latest` | — | reasoning | per-token | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
 | `~anthropic/claude-sonnet-latest` | — | reasoning | per-token | 1M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
-| `~deepseek/deepseek-v4-flash-latest` | — | reasoning | per-token | 1.04858M | $0.03 | $0.1 | $0.007 | — | —/— | — | models.dev official list price |
+| `~deepseek/deepseek-v4-flash-latest` | — | reasoning | per-token | 1.04858M | $0.03 | $0.16 | $0.01 | — | —/— | — | models.dev official list price |
 | `~google/gemini-flash-latest` | — | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `~google/gemini-pro-latest` | — | reasoning | per-token | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `~moonshotai/kimi-latest` | — | reasoning | per-token | 974.842K | $2.55 | $12.75 | $0.256 | — | —/— | — | models.dev official list price |

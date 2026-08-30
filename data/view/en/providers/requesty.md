@@ -6,8 +6,8 @@
 - Homepage: https://requesty.ai/solution/llm-routing/models
 - Pricing page: https://requesty.ai/solution/llm-routing/models
 - Currency: USD
-- Data updated: 2026-08-29T12:52:50Z
-- Verified: 2026-08-29T12:52:50Z
+- Data updated: 2026-08-30T04:37:49Z
+- Verified: 2026-08-30T04:37:49Z
 
 **142** models in total.
 

@@ -6,10 +6,10 @@
 - Homepage: https://friendli.ai/docs/guides/serverless_endpoints/introduction
 - Pricing page: https://friendli.ai/docs/guides/serverless_endpoints/introduction
 - Currency: USD
-- Data updated: 2026-08-29T12:52:50Z
-- Verified: 2026-08-29T12:52:50Z
+- Data updated: 2026-08-30T04:37:49Z
+- Verified: 2026-08-30T04:37:49Z
 
-**5** models in total.
+**6** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -18,3 +18,4 @@
 | `google/gemma-4-31B-it` | — | reasoning | per-token | 262.144K | $0.14 | $0.4 | — | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.1` | — | reasoning | per-token | 202.752K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.2` | — | reasoning | per-token | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.3` | — | reasoning | per-token | 1.04858M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |

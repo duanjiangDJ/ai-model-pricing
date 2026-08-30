@@ -6,8 +6,8 @@
 - 官网: https://cloud.tencent.com/document/product/1823/130050
 - 定价页: https://cloud.tencent.com/document/product/1823/130050
 - 币种: USD
-- 数据更新时间: 2026-08-29T12:52:50Z
-- 核实时间: 2026-08-29T12:52:50Z
+- 数据更新时间: 2026-08-30T04:37:49Z
+- 核实时间: 2026-08-30T04:37:49Z
 
 共 **3** 个模型。
 

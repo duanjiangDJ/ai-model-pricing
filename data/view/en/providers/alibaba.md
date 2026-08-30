@@ -6,8 +6,8 @@
 - Homepage: https://www.alibabacloud.com/help/en/model-studio/models
 - Pricing page: https://www.alibabacloud.com/help/en/model-studio/models
 - Currency: USD
-- Data updated: 2026-08-29T12:52:51Z
-- Verified: 2026-08-29T12:52:51Z
+- Data updated: 2026-08-30T04:37:50Z
+- Verified: 2026-08-30T04:37:50Z
 
 **55** models in total.
 

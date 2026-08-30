@@ -7,8 +7,8 @@
   "homepage": "https://llmgateway.io/docs",
   "pricing_page": "https://llmgateway.io/docs",
   "currency": "USD",
-  "updated_at": "2026-08-29T12:52:50Z",
-  "verified_at": "2026-08-29T12:52:50Z",
+  "updated_at": "2026-08-30T04:37:49Z",
+  "verified_at": "2026-08-30T04:37:49Z",
   "models": [
     {
       "id": "alibaba/deepseek-v4-flash",
@@ -6315,13 +6315,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.4
+            "usd": 1.3
           },
           "output": {
-            "usd": 4.4
+            "usd": 4
           },
           "cache_read": {
-            "usd": 0.26
+            "usd": 0.25
           },
           "cache_write": null
         },

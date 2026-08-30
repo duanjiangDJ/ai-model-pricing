@@ -6,10 +6,10 @@
 - 官网: https://crof.ai/docs
 - 定价页: https://crof.ai/docs
 - 币种: USD
-- 数据更新时间: 2026-08-29T12:52:50Z
-- 核实时间: 2026-08-29T12:52:50Z
+- 数据更新时间: 2026-08-30T04:37:49Z
+- 核实时间: 2026-08-30T04:37:49Z
 
-共 **29** 个模型。
+共 **30** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -25,6 +25,7 @@
 | `glm-5` | — | reasoning | 按量 | 202.752K | $0.48 | $1.9 | $0.1 | — | —/— | — | models.dev official list price |
 | `glm-5.1` | — | reasoning | 按量 | 202.752K | $0.45 | $2.15 | $0.08 | — | —/— | — | models.dev official list price |
 | `glm-5.2` | — | reasoning | 按量 | 1M | $0.3 | $1.05 | $0.05 | — | —/— | — | models.dev official list price |
+| `glm-5.3` | — | reasoning | 按量 | 1M | $0.4 | $1.4 | $0.06 | — | —/— | — | models.dev official list price |
 | `glm-5.3-flash` | — | reasoning | 按量 | 1M | $0.07 | $0.22 | $0.01 | — | —/— | — | models.dev official list price |
 | `greg-1-mini` | — | chat | 按量 | 229.376K | $0.07 | $0.15 | $0.01 | — | —/— | — | models.dev official list price |
 | `greg-2-super` | — | chat | 按量 | 229.376K | $1.5 | $5 | $0.25 | — | —/— | — | models.dev official list price |

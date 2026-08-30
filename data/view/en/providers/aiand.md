@@ -6,10 +6,10 @@
 - Homepage: https://docs.aiand.com/
 - Pricing page: https://docs.aiand.com/
 - Currency: USD
-- Data updated: 2026-08-29T12:52:50Z
-- Verified: 2026-08-29T12:52:50Z
+- Data updated: 2026-08-30T04:37:49Z
+- Verified: 2026-08-30T04:37:49Z
 
-**9** models in total.
+**11** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -21,4 +21,6 @@
 | `motif-technologies/motif-3` | — | reasoning | per-token | 262.144K | $0.5 | $2 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-120b` | — | reasoning | per-token | 131.072K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.6-27b` | — | reasoning | per-token | 262.144K | $0.32 | $3.2 | — | — | —/— | — | models.dev official list price |
+| `qwen/qwen3.8-27b` | — | reasoning | per-token | 262.144K | $0.4 | $3 | $0.2 | — | —/— | — | models.dev official list price |
 | `zai-org/glm-5.2` | — | reasoning | per-token | 1.04858M | $1 | $4 | — | — | —/— | — | models.dev official list price |
+| `zai-org/glm-5.3` | — | reasoning | per-token | 1.04858M | $1 | $4 | $0.3 | — | —/— | — | models.dev official list price |

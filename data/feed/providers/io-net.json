@@ -7,8 +7,8 @@
   "homepage": "https://io.net/docs/guides/intelligence/io-intelligence",
   "pricing_page": "https://io.net/docs/guides/intelligence/io-intelligence",
   "currency": "USD",
-  "updated_at": "2026-08-29T12:52:50Z",
-  "verified_at": "2026-08-29T12:52:50Z",
+  "updated_at": "2026-08-30T04:37:49Z",
+  "verified_at": "2026-08-30T04:37:49Z",
   "models": [
     {
       "id": "Intel/Qwen3-Coder-480B-A35B-Instruct-int4-mixed-ar",

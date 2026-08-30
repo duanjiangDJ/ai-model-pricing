@@ -6,10 +6,10 @@
 - 官网: https://friendli.ai/docs/guides/serverless_endpoints/introduction
 - 定价页: https://friendli.ai/docs/guides/serverless_endpoints/introduction
 - 币种: USD
-- 数据更新时间: 2026-08-29T12:52:50Z
-- 核实时间: 2026-08-29T12:52:50Z
+- 数据更新时间: 2026-08-30T04:37:49Z
+- 核实时间: 2026-08-30T04:37:49Z
 
-共 **5** 个模型。
+共 **6** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -18,3 +18,4 @@
 | `google/gemma-4-31B-it` | — | reasoning | 按量 | 262.144K | $0.14 | $0.4 | — | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.1` | — | reasoning | 按量 | 202.752K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.2` | — | reasoning | 按量 | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.3` | — | reasoning | 按量 | 1.04858M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |

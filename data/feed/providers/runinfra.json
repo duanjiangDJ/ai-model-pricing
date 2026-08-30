@@ -7,8 +7,8 @@
   "homepage": "https://runinfra.ai/docs",
   "pricing_page": "https://runinfra.ai/docs",
   "currency": "USD",
-  "updated_at": "2026-08-29T12:52:50Z",
-  "verified_at": "2026-08-29T12:52:50Z",
+  "updated_at": "2026-08-30T04:37:49Z",
+  "verified_at": "2026-08-30T04:37:49Z",
   "models": [
     {
       "id": "Inferact/Qwen3.8-2.4T-A95B-NVFP4",

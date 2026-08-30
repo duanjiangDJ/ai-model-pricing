@@ -6,8 +6,8 @@
 - Homepage: https://opencode.ai/go
 - Pricing page: https://opencode.ai/docs/go/
 - Currency: USD
-- Data updated: 2026-08-29T12:52:50Z
-- Verified: 2026-08-29T12:52:50Z
+- Data updated: 2026-08-30T04:37:49Z
+- Verified: 2026-08-30T04:37:49Z
 
 **33** models in total.
 
@@ -24,7 +24,7 @@
 | `gpt-5.6-luna` | — | chat | per-token | — | $0.2 | $1.2 | $0.02 | $0.25 | —/— | — | — |
 | `grok-4.5` | — | chat | per-token | — | $2 | $6 | $0.3 | — | —/— | — | — |
 | `grok-4.6` | — | reasoning | per-token | 500K | $2 | $6 | $0.5 | — | —/— | — | models.dev official list price |
-| `hy3` | — | chat | per-token | — | $0.0175 | $0.0725 | $0.004375 | — | —/— | — | — |
+| `hy3` | — | chat | per-token | — | $0.14 | $0.58 | $0.035 | — | —/— | — | — |
 | `hy4-preview` | — | reasoning | per-token | 1.024M | $0.834 | $2.501 | $0.042 | — | —/— | — | models.dev official list price |
 | `kimi-k2.5` | — | reasoning | per-token | 262.144K | $0.6 | $3 | $0.1 | — | —/— | — | models.dev official list price |
 | `kimi-k2.6` | — | chat | per-token | — | $0.95 | $4 | $0.16 | — | —/— | — | — |

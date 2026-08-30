@@ -6,10 +6,10 @@
 - 官网: https://synthetic.new/pricing
 - 定价页: https://synthetic.new/pricing
 - 币种: USD
-- 数据更新时间: 2026-08-29T12:52:50Z
-- 核实时间: 2026-08-29T12:52:50Z
+- 数据更新时间: 2026-08-30T04:37:49Z
+- 核实时间: 2026-08-30T04:37:49Z
 
-共 **8** 个模型。
+共 **9** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -21,3 +21,4 @@
 | `hf:openai/gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.1 | $0.1 | $0.1 | — | —/— | — | models.dev official list price |
 | `hf:zai-org/GLM-4.7-Flash` | — | reasoning | 按量 | 196.608K | $0.1 | $0.5 | $0.1 | — | —/— | — | models.dev official list price |
 | `hf:zai-org/GLM-5.2` | — | reasoning | 按量 | 524.288K | $1.4 | $4.4 | $1.4 | — | —/— | — | models.dev official list price |
+| `hf:zai-org/GLM-5.3-Flash` | — | reasoning | 按量 | 524.288K | $0.15 | $0.5 | $0.04 | — | —/— | — | models.dev official list price |

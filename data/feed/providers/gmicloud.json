@@ -7,8 +7,8 @@
   "homepage": "https://docs.gmicloud.ai/inference-engine/api-reference/llm-api-reference",
   "pricing_page": "https://docs.gmicloud.ai/inference-engine/api-reference/llm-api-reference",
   "currency": "USD",
-  "updated_at": "2026-08-29T12:52:50Z",
-  "verified_at": "2026-08-29T12:52:50Z",
+  "updated_at": "2026-08-30T04:37:49Z",
+  "verified_at": "2026-08-30T04:37:49Z",
   "models": [
     {
       "id": "MiniMaxAI/MiniMax-M2.7",

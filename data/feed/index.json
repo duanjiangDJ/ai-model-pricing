@@ -1,9 +1,9 @@
 {
-  "schema_version": "26.10.24",
-  "generated_at": "2026-08-29T23:07:51Z",
+  "schema_version": "26.11.24",
+  "generated_at": "2026-08-30T04:37:49Z",
   "currency": "USD",
   "provider_count": 189,
-  "model_count": 7366,
+  "model_count": 7423,
   "plan_count": 67,
   "providers": [
     {
@@ -74,9 +74,9 @@
       "id": "orcarouter",
       "name": "OrcaRouter",
       "channel": "aggregator",
-      "model_count": 123,
+      "model_count": 124,
       "file": "providers/orcarouter.json",
-      "updated_at": "2026-08-28T05:09:26Z"
+      "updated_at": "2026-08-30T04:37:49Z"
     },
     {
       "id": "zenifra",
@@ -130,9 +130,9 @@
       "id": "nano-gpt",
       "name": "NanoGPT",
       "channel": "hosted",
-      "model_count": 637,
+      "model_count": 684,
       "file": "providers/nano-gpt.json",
-      "updated_at": "2026-08-29T12:52:50Z"
+      "updated_at": "2026-08-30T04:37:49Z"
     },
     {
       "id": "modelscope",
@@ -146,9 +146,9 @@
       "id": "synthetic",
       "name": "Synthetic",
       "channel": "hosted",
-      "model_count": 8,
+      "model_count": 9,
       "file": "providers/synthetic.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-30T04:37:49Z"
     },
     {
       "id": "jalapeno",
@@ -682,9 +682,9 @@
       "id": "digitalocean",
       "name": "DigitalOcean",
       "channel": "hosted",
-      "model_count": 93,
+      "model_count": 94,
       "file": "providers/digitalocean.json",
-      "updated_at": "2026-08-28T05:09:26Z"
+      "updated_at": "2026-08-30T04:37:49Z"
     },
     {
       "id": "alibaba-coding-plan-cn",
@@ -794,9 +794,9 @@
       "id": "ollama-cloud",
       "name": "Ollama Cloud",
       "channel": "hosted",
-      "model_count": 21,
+      "model_count": 22,
       "file": "providers/ollama-cloud.json",
-      "updated_at": "2026-08-28T05:09:26Z"
+      "updated_at": "2026-08-30T04:37:49Z"
     },
     {
       "id": "perplexity",
@@ -898,9 +898,9 @@
       "id": "togetherai",
       "name": "Together AI",
       "channel": "hosted",
-      "model_count": 37,
+      "model_count": 38,
       "file": "providers/togetherai.json",
-      "updated_at": "2026-08-28T05:09:26Z"
+      "updated_at": "2026-08-30T04:37:49Z"
     },
     {
       "id": "ofox",
@@ -914,9 +914,9 @@
       "id": "friendli",
       "name": "Friendli",
       "channel": "hosted",
-      "model_count": 5,
+      "model_count": 6,
       "file": "providers/friendli.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-30T04:37:49Z"
     },
     {
       "id": "inferx",
@@ -1226,9 +1226,9 @@
       "id": "crof",
       "name": "CrofAI",
       "channel": "hosted",
-      "model_count": 29,
+      "model_count": 30,
       "file": "providers/crof.json",
-      "updated_at": "2026-08-29T12:52:50Z"
+      "updated_at": "2026-08-30T04:37:49Z"
     },
     {
       "id": "v0",
@@ -1282,9 +1282,9 @@
       "id": "aiand",
       "name": "ai&",
       "channel": "hosted",
-      "model_count": 9,
+      "model_count": 11,
       "file": "providers/aiand.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-30T04:37:49Z"
     },
     {
       "id": "wafer.ai",
@@ -1354,9 +1354,9 @@
       "id": "fireworks-ai",
       "name": "Fireworks AI",
       "channel": "hosted",
-      "model_count": 24,
+      "model_count": 25,
       "file": "providers/fireworks-ai.json",
-      "updated_at": "2026-08-29T12:52:50Z"
+      "updated_at": "2026-08-30T04:37:49Z"
     },
     {
       "id": "wandb",
@@ -1526,7 +1526,7 @@
       "channel": "aggregator",
       "model_count": 396,
       "file": "providers/openrouter.json",
-      "updated_at": "2026-08-29T23:07:51Z"
+      "updated_at": "2026-08-30T04:37:49Z"
     }
   ]
 }

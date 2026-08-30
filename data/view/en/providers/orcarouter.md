@@ -6,10 +6,10 @@
 - Homepage: https://docs.orcarouter.ai
 - Pricing page: https://docs.orcarouter.ai
 - Currency: USD
-- Data updated: 2026-08-29T12:52:50Z
-- Verified: 2026-08-29T12:52:50Z
+- Data updated: 2026-08-30T04:37:49Z
+- Verified: 2026-08-30T04:37:49Z
 
-**123** models in total.
+**124** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -136,3 +136,4 @@
 | `z-ai/glm-5.1` | — | reasoning | per-token | 200K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5.2` | — | reasoning | per-token | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5.3` | — | reasoning | per-token | 1M | $1.26 | $3.96 | $0.234 | — | —/— | — | models.dev official list price |
+| `z-ai/glm-5.3-flash` | — | reasoning | per-token | 1M | $0.075 | $0.25 | — | — | —/— | — | models.dev official list price |

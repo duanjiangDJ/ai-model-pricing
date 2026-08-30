@@ -6,8 +6,8 @@
 - 官网: https://llmgateway.io/docs
 - 定价页: https://llmgateway.io/docs
 - 币种: USD
-- 数据更新时间: 2026-08-29T12:52:50Z
-- 核实时间: 2026-08-29T12:52:50Z
+- 数据更新时间: 2026-08-30T04:37:49Z
+- 核实时间: 2026-08-30T04:37:49Z
 
 共 **560** 个模型。
 
@@ -212,7 +212,7 @@
 | `glm-5.1` | — | reasoning | 按量 | 204.8K | $0.931 | $2.93 | $0.173 | — | —/— | — | models.dev official list price |
 | `glm-5.2` | — | reasoning | 按量 | 1.04858M | $0.55 | $1.784 | $0.111 | — | —/— | — | models.dev official list price |
 | `glm-5.2-fast` | — | reasoning | 按量 | 1M | $1.99 | $6.16 | $0.4 | — | —/— | — | models.dev official list price |
-| `glm-5.3` | — | reasoning | 按量 | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `glm-5.3` | — | reasoning | 按量 | 1M | $1.3 | $4 | $0.25 | — | —/— | — | models.dev official list price |
 | `glm-5.3-flash` | — | reasoning | 按量 | 1.04858M | $0.13 | $0.4 | $0.024 | — | —/— | — | models.dev official list price |
 | `gonka24/deepseek-v4-flash` | — | reasoning | 按量 | 390K | $0.075 | $0.175 | $0.0155 | — | —/— | — | models.dev official list price |
 | `gonka24/kimi-k2.6` | — | reasoning | 按量 | 262.144K | $0.22 | $1.137 | $0.048 | — | —/— | — | models.dev official list price |

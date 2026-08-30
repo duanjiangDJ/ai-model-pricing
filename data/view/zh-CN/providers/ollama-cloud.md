@@ -6,10 +6,10 @@
 - 官网: https://docs.ollama.com/cloud
 - 定价页: https://docs.ollama.com/cloud
 - 币种: USD
-- 数据更新时间: 2026-08-29T12:52:50Z
-- 核实时间: 2026-08-29T12:52:50Z
+- 数据更新时间: 2026-08-30T04:37:49Z
+- 核实时间: 2026-08-30T04:37:49Z
 
-共 **21** 个模型。
+共 **22** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -19,6 +19,7 @@
 | `gemma4:31b` | — | reasoning | 未知 | 262.144K | — | — | — | — | —/— | — | models.dev official list price |
 | `glm-5.1` | — | reasoning | 未知 | 202.752K | — | — | — | — | —/— | — | models.dev official list price |
 | `glm-5.2` | — | reasoning | 未知 | 976K | — | — | — | — | —/— | — | models.dev official list price |
+| `glm-5.3` | — | reasoning | 未知 | 1.04858M | — | — | — | — | —/— | — | models.dev official list price |
 | `glm-5.3-flash` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
 | `gpt-oss:120b` | — | reasoning | 未知 | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
 | `gpt-oss:20b` | — | reasoning | 未知 | 131.072K | — | — | — | — | —/— | — | models.dev official list price |

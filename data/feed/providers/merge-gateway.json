@@ -7,8 +7,8 @@
   "homepage": "https://docs.merge.dev/merge-gateway",
   "pricing_page": "https://docs.merge.dev/merge-gateway",
   "currency": "USD",
-  "updated_at": "2026-08-29T12:52:50Z",
-  "verified_at": "2026-08-29T12:52:50Z",
+  "updated_at": "2026-08-30T04:37:49Z",
+  "verified_at": "2026-08-30T04:37:49Z",
   "models": [
     {
       "id": "anthropic/claude-3-7-sonnet-20250219",

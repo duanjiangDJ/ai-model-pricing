@@ -7,8 +7,8 @@
   "homepage": "https://docs.nano-gpt.com",
   "pricing_page": "https://docs.nano-gpt.com",
   "currency": "USD",
-  "updated_at": "2026-08-29T12:52:50Z",
-  "verified_at": "2026-08-29T12:52:50Z",
+  "updated_at": "2026-08-30T04:37:49Z",
+  "verified_at": "2026-08-30T04:37:49Z",
   "models": [
     {
       "id": "Baichuan-M2",
@@ -2986,6 +2986,68 @@
     },
     {
       "id": "abliterated-model-large",
+      "name": "Abliterated Model Large",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 999990,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 5
+          },
+          "output": {
+            "usd": 5
+          },
+          "cache_read": {
+            "usd": 0.5
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "abliteration-ai/abliterated-model",
+      "name": "Abliterated Model",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 262134,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 3
+          },
+          "output": {
+            "usd": 3
+          },
+          "cache_read": {
+            "usd": 0.3
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "abliteration-ai/abliterated-model-large",
       "name": "Abliterated Model Large",
       "category": "reasoning",
       "modalities": [
@@ -8122,6 +8184,502 @@
       ]
     },
     {
+      "id": "gemma-4-26b-a4b-it-chimerax",
+      "name": "Chimera X",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gemma-4-26b-a4b-it-darksoul",
+      "name": "Dark Soul",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gemma-4-26b-a4b-it-luminous",
+      "name": "Luminous Mirror",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gemma-4-26b-a4b-it-moonlight",
+      "name": "Moonlight Dusk",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gemma-4-26b-a4b-it-musica",
+      "name": "Musica",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gemma-4-26b-a4b-it-opusdistill",
+      "name": "Opus Distill",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gemma-4-26b-a4b-it-shadowsiren",
+      "name": "Shadow Siren",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gemma-4-26b-a4b-uncensored",
+      "name": "Gemma 4 26B A4B Uncensored",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gemma-4-26b-a4b-uncensored:thinking",
+      "name": "Gemma 4 26B A4B Uncensored Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gemma-4-31b-it-darkidol",
+      "name": "DarkIdol",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gemma-4-31b-it-fabled",
+      "name": "Fabled",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gemma-4-31b-it-garnet",
+      "name": "Garnet",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gemma-4-31b-it-gembrain",
+      "name": "Gembrain",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gemma-4-31b-it-gemsicle",
+      "name": "Gemsicle",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gemma-4-31b-it-isometry",
+      "name": "Isometry",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gemma-4-31b-it-novelist",
+      "name": "Novelist",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "gemma-4-e2b-it",
       "name": "Gemma 4 E2B Instruct",
       "category": "chat",
@@ -12567,13 +13125,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2.5
+            "usd": 2
           },
           "output": {
-            "usd": 13.5
+            "usd": 10
           },
           "cache_read": {
-            "usd": 0.25
+            "usd": 0.2
           },
           "cache_write": null
         },
@@ -12599,13 +13157,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2.5
+            "usd": 2
           },
           "output": {
-            "usd": 13.5
+            "usd": 10
           },
           "cache_read": {
-            "usd": 0.25
+            "usd": 0.2
           },
           "cache_write": null
         },
@@ -17412,10 +17970,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.2
+            "usd": 0.15
           },
           "output": {
-            "usd": 1.4
+            "usd": 0.7
           },
           "cache_read": {
             "usd": 0.04
@@ -17444,10 +18002,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.2
+            "usd": 0.15
           },
           "output": {
-            "usd": 1.4
+            "usd": 0.7
           },
           "cache_read": {
             "usd": 0.04
@@ -19126,6 +19684,192 @@
       ]
     },
     {
+      "id": "z-ai/GLM-4.5-Air",
+      "name": "GLM 4.5 Air",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 98304,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.12
+          },
+          "output": {
+            "usd": 0.8
+          },
+          "cache_read": {
+            "usd": 0.06
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/GLM-4.5-Air:thinking",
+      "name": "GLM 4.5 Air (Thinking)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 98304,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.12
+          },
+          "output": {
+            "usd": 0.8
+          },
+          "cache_read": {
+            "usd": 0.06
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/GLM-4.5:thinking",
+      "name": "GLM 4.5 (Thinking)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.3
+          },
+          "output": {
+            "usd": 1.3
+          },
+          "cache_read": {
+            "usd": 0.15
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/GLM-4.6-turbo",
+      "name": "GLM 4.6 Turbo",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 204800,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1
+          },
+          "output": {
+            "usd": 3
+          },
+          "cache_read": {
+            "usd": 0.5
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/GLM-4.6-turbo:thinking",
+      "name": "GLM 4.6 Turbo (Thinking)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 204800,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1
+          },
+          "output": {
+            "usd": 3
+          },
+          "cache_read": {
+            "usd": 0.5
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/glm-4.5",
+      "name": "GLM 4.5",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.3
+          },
+          "output": {
+            "usd": 1.3
+          },
+          "cache_read": {
+            "usd": 0.15
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "z-ai/glm-4.5v",
       "name": "GLM 4.5V",
       "category": "reasoning",
@@ -19222,6 +19966,37 @@
       ]
     },
     {
+      "id": "z-ai/glm-4.6-original",
+      "name": "GLM 4.6 Original",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 256000,
+      "max_output": 65535,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.35
+          },
+          "output": {
+            "usd": 1.4
+          },
+          "cache_read": {
+            "usd": 0.175
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "z-ai/glm-4.6:thinking",
       "name": "GLM 4.6 Thinking",
       "category": "reasoning",
@@ -19254,6 +20029,440 @@
       ]
     },
     {
+      "id": "z-ai/glm-4.6v",
+      "name": "GLM 4.6V",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 24000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.3
+          },
+          "output": {
+            "usd": 0.9
+          },
+          "cache_read": {
+            "usd": 0.15
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/glm-4.6v-flash-original",
+      "name": "GLM 4.6V Flash",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 24000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.1
+          },
+          "output": {
+            "usd": 0.4
+          },
+          "cache_read": {
+            "usd": 0.05
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/glm-4.6v-original",
+      "name": "GLM 4.6V Original",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 128000,
+      "max_output": 24000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.6
+          },
+          "output": {
+            "usd": 0.9
+          },
+          "cache_read": {
+            "usd": 0.3
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/glm-4.7",
+      "name": "GLM 4.7",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 65535,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.2
+          },
+          "output": {
+            "usd": 0.8
+          },
+          "cache_read": {
+            "usd": 0.1
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/glm-4.7-flash",
+      "name": "GLM 4.7 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 128000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.07
+          },
+          "output": {
+            "usd": 0.4
+          },
+          "cache_read": {
+            "usd": 0.035
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/glm-4.7-flash-original",
+      "name": "GLM 4.7 Flash Original",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 128000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.07
+          },
+          "output": {
+            "usd": 0.4
+          },
+          "cache_read": {
+            "usd": 0.035
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/glm-4.7-flash-original:thinking",
+      "name": "GLM 4.7 Flash Original Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 128000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.07
+          },
+          "output": {
+            "usd": 0.4
+          },
+          "cache_read": {
+            "usd": 0.035
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/glm-4.7-flash:thinking",
+      "name": "GLM 4.7 Flash Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 128000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.07
+          },
+          "output": {
+            "usd": 0.4
+          },
+          "cache_read": {
+            "usd": 0.035
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/glm-4.7-original",
+      "name": "GLM 4.7 Original",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 65535,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.6
+          },
+          "output": {
+            "usd": 2.2
+          },
+          "cache_read": {
+            "usd": 0.11
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/glm-4.7-original:thinking",
+      "name": "GLM 4.7 Original Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 65535,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.6
+          },
+          "output": {
+            "usd": 2.2
+          },
+          "cache_read": {
+            "usd": 0.11
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/glm-4.7:thinking",
+      "name": "GLM 4.7 Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 65535,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.2
+          },
+          "output": {
+            "usd": 0.8
+          },
+          "cache_read": {
+            "usd": 0.1
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/glm-5",
+      "name": "GLM 5",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 128000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.5
+          },
+          "output": {
+            "usd": 2.55
+          },
+          "cache_read": {
+            "usd": 0.13
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/glm-5-original",
+      "name": "GLM 5 Original",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 128000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1
+          },
+          "output": {
+            "usd": 3.2
+          },
+          "cache_read": {
+            "usd": 0.2
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/glm-5-original:thinking",
+      "name": "GLM 5 Original Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 128000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1
+          },
+          "output": {
+            "usd": 3.2
+          },
+          "cache_read": {
+            "usd": 0.2
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "z-ai/glm-5-turbo",
       "name": "GLM 5 Turbo",
       "category": "chat",
@@ -19284,6 +20493,161 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "z-ai/glm-5.1",
+      "name": "GLM 5.1",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 131072,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.75
+          },
+          "output": {
+            "usd": 2.6
+          },
+          "cache_read": {
+            "usd": 0.15
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/glm-5.1:thinking",
+      "name": "GLM 5.1 Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 131072,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.75
+          },
+          "output": {
+            "usd": 2.6
+          },
+          "cache_read": {
+            "usd": 0.15
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/glm-5.2",
+      "name": "GLM 5.2",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 131072,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.42
+          },
+          "output": {
+            "usd": 1.32
+          },
+          "cache_read": {
+            "usd": 0.078
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/glm-5.2:thinking",
+      "name": "GLM 5.2 Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 131072,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.42
+          },
+          "output": {
+            "usd": 1.32
+          },
+          "cache_read": {
+            "usd": 0.078
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/glm-5.3",
+      "name": "GLM 5.3",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 131072,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1
+          },
+          "output": {
+            "usd": 3.2
+          },
+          "cache_read": {
+            "usd": 0.2
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "z-ai/glm-5.3-flash",
@@ -19339,6 +20703,68 @@
           },
           "cache_read": {
             "usd": 0.0625
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/glm-5.3:thinking",
+      "name": "GLM 5.3 Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 131072,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1
+          },
+          "output": {
+            "usd": 3.2
+          },
+          "cache_read": {
+            "usd": 0.2
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "z-ai/glm-5:thinking",
+      "name": "GLM 5 Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 128000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.5
+          },
+          "output": {
+            "usd": 2.55
+          },
+          "cache_read": {
+            "usd": 0.13
           },
           "cache_write": null
         },
@@ -19411,6 +20837,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "z-ai/glm-latest",
+      "name": "GLM Latest",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 131072,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.42
+          },
+          "output": {
+            "usd": 1.32
+          },
+          "cache_read": {
+            "usd": 0.078
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "zai-org/GLM-4.5-Air",

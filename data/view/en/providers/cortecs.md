@@ -6,8 +6,8 @@
 - Homepage: https://api.cortecs.ai/v1/models
 - Pricing page: https://api.cortecs.ai/v1/models
 - Currency: USD
-- Data updated: 2026-08-29T12:52:50Z
-- Verified: 2026-08-29T12:52:50Z
+- Data updated: 2026-08-30T04:37:49Z
+- Verified: 2026-08-30T04:37:49Z
 
 **111** models in total.
 

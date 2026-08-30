@@ -6,8 +6,8 @@
 - 官网: https://platform.openai.com/docs/models
 - 定价页: https://openai.com/chatgpt/pricing/
 - 币种: USD
-- 数据更新时间: 2026-08-29T12:52:50Z
-- 核实时间: 2026-08-29T12:52:50Z
+- 数据更新时间: 2026-08-30T04:37:49Z
+- 核实时间: 2026-08-30T04:37:49Z
 
 共 **47** 个模型。
 

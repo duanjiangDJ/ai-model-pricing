@@ -7,8 +7,8 @@
   "homepage": "https://docs.ollama.com/cloud",
   "pricing_page": "https://docs.ollama.com/cloud",
   "currency": "USD",
-  "updated_at": "2026-08-29T12:52:50Z",
-  "verified_at": "2026-08-29T12:52:50Z",
+  "updated_at": "2026-08-30T04:37:49Z",
+  "verified_at": "2026-08-30T04:37:49Z",
   "models": [
     {
       "id": "deepseek-v4-flash",
@@ -165,6 +165,31 @@
       "billing_model": [
         "unknown"
       ]
+    },
+    {
+      "id": "glm-5.3",
+      "name": "GLM-5.3",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 131072,
+      "billing_model": [
+        "unknown"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": null,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "glm-5.3-flash",

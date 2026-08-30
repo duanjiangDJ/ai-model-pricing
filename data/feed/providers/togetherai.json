@@ -7,8 +7,8 @@
   "homepage": "https://docs.together.ai/docs/serverless-models",
   "pricing_page": "https://docs.together.ai/docs/serverless-models",
   "currency": "USD",
-  "updated_at": "2026-08-29T12:52:50Z",
-  "verified_at": "2026-08-29T12:52:50Z",
+  "updated_at": "2026-08-30T04:37:49Z",
+  "verified_at": "2026-08-30T04:37:49Z",
   "models": [
     {
       "id": "LiquidAI/LFM2-24B-A2B",
@@ -1119,6 +1119,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "zai-org/GLM-5.3",
+      "name": "GLM-5.3",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 262144,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.4
+          },
+          "output": {
+            "usd": 4.4
+          },
+          "cache_read": {
+            "usd": 0.26
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "zai-org/GLM-5.3-Flash",
