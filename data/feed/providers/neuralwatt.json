@@ -7,8 +7,8 @@
   "homepage": "https://portal.neuralwatt.com/docs",
   "pricing_page": "https://portal.neuralwatt.com/docs",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
-  "verified_at": "2026-08-28T05:09:26Z",
+  "updated_at": "2026-08-30T20:47:54Z",
+  "verified_at": "2026-08-30T20:47:54Z",
   "models": [
     {
       "id": "Qwen/Qwen3.5-397B-A17B-FP8",
@@ -425,6 +425,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "glm-5.3",
+      "name": "GLM 5.3",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048560,
+      "max_output": 1048560,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.45
+          },
+          "output": {
+            "usd": 4.5
+          },
+          "cache_read": {
+            "usd": 0.145
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "kimi-k2.5-fast",

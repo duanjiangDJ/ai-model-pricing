@@ -6,8 +6,8 @@
 - Homepage: https://openrouter.ai
 - Pricing page: https://openrouter.ai/models
 - Currency: USD
-- Data updated: 2026-08-30T16:21:56Z
-- Verified: 2026-08-30T16:21:56Z
+- Data updated: 2026-08-30T20:47:54Z
+- Verified: 2026-08-30T20:47:54Z
 
 **396** models in total.
 
@@ -222,7 +222,7 @@
 | `openai/gpt-4-turbo-preview` | — | chat | per-token | 128K | $1e-05 | $3e-05 | — | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-4.1` | — | chat | per-token | 1.04758M | $2e-06 | $8e-06 | $5e-07 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-4.1-mini` | — | chat | per-token | 1.04758M | $4e-07 | $1.6e-06 | $1e-07 | — | —/— | — | OpenRouter reseller price |
-| `openai/gpt-4.1-nano` | — | chat | per-token | 1.04758M | $1e-07 | $4e-07 | $3e-08 | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-4.1-nano` | — | chat | per-token | 1.04758M | $1e-07 | $4e-07 | $2.5e-08 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-4o` | — | chat | per-token | 128K | $2.5e-06 | $1e-05 | $1.25e-06 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-4o-2024-05-13` | — | chat | per-token | 128K | $5e-06 | $1.5e-05 | — | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-4o-2024-08-06` | — | chat | per-token | 128K | $2.5e-06 | $1e-05 | $1.25e-06 | — | —/— | — | OpenRouter reseller price |
@@ -401,7 +401,7 @@
 | `~anthropic/claude-haiku-latest` | — | reasoning | per-token | 200K | $1e-06 | $5e-06 | $1e-07 | $1.25e-06 | —/— | — | OpenRouter reseller price |
 | `~anthropic/claude-opus-latest` | — | reasoning | per-token | 1M | $5e-06 | $2.5e-05 | $5e-07 | $6.25e-06 | —/— | — | OpenRouter reseller price |
 | `~anthropic/claude-sonnet-latest` | — | reasoning | per-token | 1M | $2e-06 | $1e-05 | $2e-07 | $2.5e-06 | —/— | — | OpenRouter reseller price |
-| `~deepseek/deepseek-v4-flash-latest` | — | reasoning | per-token | 1.31072M | $3e-08 | $1.6e-07 | $1e-08 | — | —/— | — | OpenRouter reseller price |
+| `~deepseek/deepseek-v4-flash-latest` | — | reasoning | per-token | 1.31072M | $3e-08 | $1.6e-07 | $1.3e-08 | — | —/— | — | OpenRouter reseller price |
 | `~google/gemini-flash-latest` | — | reasoning | per-image + per-token | 1.04858M | $7.5e-07 | $3.75e-06 | $7.5e-08 | $4.16667e-08 | —/— | per-image | OpenRouter reseller price |
 | `~google/gemini-pro-latest` | — | reasoning | per-image + per-token | 1.04858M | $2e-06 | $1.2e-05 | $2e-07 | $3.75e-07 | —/— | per-image | OpenRouter reseller price |
 | `~moonshotai/kimi-latest` | — | reasoning | per-token | 1.04858M | $2.55e-06 | $1.275e-05 | $2.56e-07 | — | —/— | — | OpenRouter reseller price |

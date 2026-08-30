@@ -16,6 +16,12 @@
 
 ---
 
+## 26.14.24 — 2026-08-30T20:54Z（内容更新）
+
+- 价格同步（3 处变更）：
+- **neuralwatt**（新增 1）：`glm-5.3`
+- **openrouter**（更新 2）：`openai/gpt-4.1-nano`, `~deepseek/deepseek-v4-flash-latest`
+
 ## 26.13.24 — 2026-08-30T16:27Z（内容更新）
 
 - 价格同步（4 处变更）：

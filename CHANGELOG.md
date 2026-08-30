@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.14.24 — 2026-08-30T20:54Z (content update)
+
+- price sync (3 changes):
+- **neuralwatt** (+1): `glm-5.3`
+- **openrouter** (updated 2): `openai/gpt-4.1-nano`, `~deepseek/deepseek-v4-flash-latest`
+
 ## 26.13.24 — 2026-08-30T16:27Z (content update)
 
 - price sync (4 changes):

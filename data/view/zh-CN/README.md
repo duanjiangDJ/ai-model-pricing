@@ -3,9 +3,9 @@
 > 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/feed/`](../../../data/feed/)。
 > 更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。
 
-- 数据更新时间: 2026-08-30T16:21:56Z
+- 数据更新时间: 2026-08-30T20:47:54Z
 - 覆盖渠道: 190
-- 模型总数: 7423
+- 模型总数: 7424
 - 订阅计划数: 67
 
 ## 供应商列表
@@ -16,10 +16,10 @@
 | [AI-ROUTER](providers/ai-router.md) | 聚合站 | 5 | `providers/ai-router.json` | 2026-08-28T08:54:00Z |
 | [Mixlayer](providers/mixlayer.md) | 推理托管 | 5 | `providers/mixlayer.json` | 2026-08-28T08:54:00Z |
 | [Qiniu](providers/qiniu-ai.md) | 推理托管 | 91 | `providers/qiniu-ai.json` | 2026-08-28T08:54:00Z |
-| [Neuralwatt](providers/neuralwatt.md) | 推理托管 | 29 | `providers/neuralwatt.json` | 2026-08-28T08:54:00Z |
-| [Cloudflare Workers AI](providers/cloudflare-workers-ai.md) | 推理托管 | 27 | `providers/cloudflare-workers-ai.json` | 2026-08-29T12:52:50Z |
-| [Meganova](providers/meganova.md) | 推理托管 | 19 | `providers/meganova.json` | 2026-08-29T12:52:50Z |
-| [Infomaniak](providers/infomaniak.md) | 推理托管 | 10 | `providers/infomaniak.json` | 2026-08-29T12:52:50Z |
+| [Neuralwatt](providers/neuralwatt.md) | 推理托管 | 30 | `providers/neuralwatt.json` | 2026-08-30T20:47:54Z |
+| [Cloudflare Workers AI](providers/cloudflare-workers-ai.md) | 推理托管 | 27 | `providers/cloudflare-workers-ai.json` | 2026-08-30T20:47:54Z |
+| [Meganova](providers/meganova.md) | 推理托管 | 19 | `providers/meganova.json` | 2026-08-30T20:47:54Z |
+| [Infomaniak](providers/infomaniak.md) | 推理托管 | 10 | `providers/infomaniak.json` | 2026-08-30T20:47:54Z |
 | [OrcaRouter](providers/orcarouter.md) | 聚合站 | 124 | `providers/orcarouter.json` | 2026-08-30T04:37:49Z |
 | [Zenifra](providers/zenifra.md) | 推理托管 | 1 | `providers/zenifra.json` | 2026-08-30T04:37:49Z |
 | [Nvidia](providers/nvidia.md) | 官方直供 | 103 | `providers/nvidia.json` | 2026-08-30T04:37:49Z |
@@ -201,7 +201,7 @@
 | [百川智能 (Baichuan)](providers/baichuan.md) | 官方直供 | 1 | `providers/baichuan.json` | 2026-08-28T10:02:16.380334Z |
 | [科大讯飞星火 (iFlytek Spark)](providers/iflytek.md) | 官方直供 | 2 | `providers/iflytek.json` | 2026-08-28T10:02:16.380334Z |
 | [零一万物 (01.AI)](providers/lingyiwanwu.md) | 官方直供 | 2 | `providers/lingyiwanwu.json` | 2026-08-28T10:02:16.380334Z |
-| [OpenRouter](providers/openrouter.md) | 聚合站 | 396 | `providers/openrouter.json` | 2026-08-30T16:21:56Z |
+| [OpenRouter](providers/openrouter.md) | 聚合站 | 396 | `providers/openrouter.json` | 2026-08-30T20:47:54Z |
 
 ## 订阅计划
 

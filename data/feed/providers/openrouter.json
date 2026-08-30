@@ -7,8 +7,8 @@
   "homepage": "https://openrouter.ai",
   "pricing_page": "https://openrouter.ai/models",
   "currency": "USD",
-  "updated_at": "2026-08-30T16:21:56Z",
-  "verified_at": "2026-08-30T16:21:56Z",
+  "updated_at": "2026-08-30T20:47:54Z",
+  "verified_at": "2026-08-30T20:47:54Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -6640,7 +6640,7 @@
             "usd": 4e-07
           },
           "cache_read": {
-            "usd": 3e-08
+            "usd": 2.5e-08
           },
           "cache_write": null
         },
@@ -12021,7 +12021,7 @@
             "usd": 1.6e-07
           },
           "cache_read": {
-            "usd": 1e-08
+            "usd": 1.3e-08
           },
           "cache_write": null
         },

@@ -6,10 +6,10 @@
 - Homepage: https://portal.neuralwatt.com/docs
 - Pricing page: https://portal.neuralwatt.com/docs
 - Currency: USD
-- Data updated: 2026-08-28T08:54:00Z
-- Verified: 2026-08-28T05:09:26Z
+- Data updated: 2026-08-30T20:47:54Z
+- Verified: 2026-08-30T20:47:54Z
 
-**29** models in total.
+**30** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -26,6 +26,7 @@
 | `glm-5.2-short-fast` | — | chat | per-token | 199.984K | $1.45 | $4.5 | $0.145 | — | —/— | — | models.dev official list price |
 | `glm-5.2-short-fast-flex` | — | chat | per-token | 199.984K | $0.9425 | $2.925 | $0.09425 | — | —/— | — | models.dev official list price |
 | `glm-5.2-short-flex` | — | reasoning | per-token | 199.984K | $0.9425 | $2.925 | $0.09425 | — | —/— | — | models.dev official list price |
+| `glm-5.3` | — | reasoning | per-token | 1.04856M | $1.45 | $4.5 | $0.145 | — | —/— | — | models.dev official list price |
 | `kimi-k2.5-fast` | — | chat | per-token | 262.128K | $0.52 | $2.59 | $0.13 | — | —/— | — | models.dev official list price |
 | `kimi-k2.6-fast` | — | chat | per-token | 262.128K | $0.69 | $3.22 | $0.1725 | — | —/— | — | models.dev official list price |
 | `kimi-k2.6-flex` | — | reasoning | per-token | 262.128K | $0.345 | $1.61 | $0.08625 | — | —/— | — | models.dev official list price |

@@ -6,10 +6,10 @@
 - 官网: https://portal.neuralwatt.com/docs
 - 定价页: https://portal.neuralwatt.com/docs
 - 币种: USD
-- 数据更新时间: 2026-08-28T08:54:00Z
-- 核实时间: 2026-08-28T05:09:26Z
+- 数据更新时间: 2026-08-30T20:47:54Z
+- 核实时间: 2026-08-30T20:47:54Z
 
-共 **29** 个模型。
+共 **30** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -26,6 +26,7 @@
 | `glm-5.2-short-fast` | — | chat | 按量 | 199.984K | $1.45 | $4.5 | $0.145 | — | —/— | — | models.dev official list price |
 | `glm-5.2-short-fast-flex` | — | chat | 按量 | 199.984K | $0.9425 | $2.925 | $0.09425 | — | —/— | — | models.dev official list price |
 | `glm-5.2-short-flex` | — | reasoning | 按量 | 199.984K | $0.9425 | $2.925 | $0.09425 | — | —/— | — | models.dev official list price |
+| `glm-5.3` | — | reasoning | 按量 | 1.04856M | $1.45 | $4.5 | $0.145 | — | —/— | — | models.dev official list price |
 | `kimi-k2.5-fast` | — | chat | 按量 | 262.128K | $0.52 | $2.59 | $0.13 | — | —/— | — | models.dev official list price |
 | `kimi-k2.6-fast` | — | chat | 按量 | 262.128K | $0.69 | $3.22 | $0.1725 | — | —/— | — | models.dev official list price |
 | `kimi-k2.6-flex` | — | reasoning | 按量 | 262.128K | $0.345 | $1.61 | $0.08625 | — | —/— | — | models.dev official list price |

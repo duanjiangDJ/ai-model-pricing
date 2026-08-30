@@ -3,9 +3,9 @@
 > Data sources: official pricing pages & public APIs. Machine-readable version: [`data/feed/`](../../../data/feed/).
 > Auto-updated daily by GitHub Actions (see `.github/workflows/daily-check.yml`).
 
-- Generated: 2026-08-30T16:21:56Z
+- Generated: 2026-08-30T20:47:54Z
 - Providers: 190
-- Models total: 7423
+- Models total: 7424
 - Plans total: 67
 
 ## Providers
@@ -16,10 +16,10 @@
 | [AI-ROUTER](providers/ai-router.md) | Aggregator | 5 | `providers/ai-router.json` | 2026-08-28T08:54:00Z |
 | [Mixlayer](providers/mixlayer.md) | Inference host | 5 | `providers/mixlayer.json` | 2026-08-28T08:54:00Z |
 | [Qiniu](providers/qiniu-ai.md) | Inference host | 91 | `providers/qiniu-ai.json` | 2026-08-28T08:54:00Z |
-| [Neuralwatt](providers/neuralwatt.md) | Inference host | 29 | `providers/neuralwatt.json` | 2026-08-28T08:54:00Z |
-| [Cloudflare Workers AI](providers/cloudflare-workers-ai.md) | Inference host | 27 | `providers/cloudflare-workers-ai.json` | 2026-08-29T12:52:50Z |
-| [Meganova](providers/meganova.md) | Inference host | 19 | `providers/meganova.json` | 2026-08-29T12:52:50Z |
-| [Infomaniak](providers/infomaniak.md) | Inference host | 10 | `providers/infomaniak.json` | 2026-08-29T12:52:50Z |
+| [Neuralwatt](providers/neuralwatt.md) | Inference host | 30 | `providers/neuralwatt.json` | 2026-08-30T20:47:54Z |
+| [Cloudflare Workers AI](providers/cloudflare-workers-ai.md) | Inference host | 27 | `providers/cloudflare-workers-ai.json` | 2026-08-30T20:47:54Z |
+| [Meganova](providers/meganova.md) | Inference host | 19 | `providers/meganova.json` | 2026-08-30T20:47:54Z |
+| [Infomaniak](providers/infomaniak.md) | Inference host | 10 | `providers/infomaniak.json` | 2026-08-30T20:47:54Z |
 | [OrcaRouter](providers/orcarouter.md) | Aggregator | 124 | `providers/orcarouter.json` | 2026-08-30T04:37:49Z |
 | [Zenifra](providers/zenifra.md) | Inference host | 1 | `providers/zenifra.json` | 2026-08-30T04:37:49Z |
 | [Nvidia](providers/nvidia.md) | First-party | 103 | `providers/nvidia.json` | 2026-08-30T04:37:49Z |
@@ -201,7 +201,7 @@
 | [百川智能 (Baichuan)](providers/baichuan.md) | First-party | 1 | `providers/baichuan.json` | 2026-08-28T10:02:16.380334Z |
 | [科大讯飞星火 (iFlytek Spark)](providers/iflytek.md) | First-party | 2 | `providers/iflytek.json` | 2026-08-28T10:02:16.380334Z |
 | [零一万物 (01.AI)](providers/lingyiwanwu.md) | First-party | 2 | `providers/lingyiwanwu.json` | 2026-08-28T10:02:16.380334Z |
-| [OpenRouter](providers/openrouter.md) | Aggregator | 396 | `providers/openrouter.json` | 2026-08-30T16:21:56Z |
+| [OpenRouter](providers/openrouter.md) | Aggregator | 396 | `providers/openrouter.json` | 2026-08-30T20:47:54Z |
 
 ## Plans
 

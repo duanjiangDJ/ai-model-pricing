@@ -1,6 +1,98 @@
 {
-  "schema_version": "26.13.24",
+  "schema_version": "26.14.24",
   "entries": [
+    {
+      "date": "2026-08-30T20:47:54Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "neuralwatt",
+      "item_id": "glm-5.3",
+      "field": "catalog",
+      "new": "glm-5.3",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-30T20:47:54Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-4.1-nano",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 1e-07
+          },
+          "output": {
+            "usd": 4e-07
+          },
+          "cache_read": {
+            "usd": 3e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 1e-07
+          },
+          "output": {
+            "usd": 4e-07
+          },
+          "cache_read": {
+            "usd": 2.5e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-30T20:47:54Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~deepseek/deepseek-v4-flash-latest",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 3e-08
+          },
+          "output": {
+            "usd": 1.6e-07
+          },
+          "cache_read": {
+            "usd": 1e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 3e-08
+          },
+          "output": {
+            "usd": 1.6e-07
+          },
+          "cache_read": {
+            "usd": 1.3e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-08-30T16:21:56Z",
       "kind": "update",

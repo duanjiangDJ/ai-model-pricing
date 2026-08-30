@@ -7,8 +7,8 @@
   "homepage": "https://www.infomaniak.com/en/hosting/ai-services/open-source-models",
   "pricing_page": "https://www.infomaniak.com/en/hosting/ai-services/open-source-models",
   "currency": "USD",
-  "updated_at": "2026-08-29T12:52:50Z",
-  "verified_at": "2026-08-29T12:52:50Z",
+  "updated_at": "2026-08-30T20:47:54Z",
+  "verified_at": "2026-08-30T20:47:54Z",
   "models": [
     {
       "id": "Qwen/Qwen3.5-122B-A10B-FP8",

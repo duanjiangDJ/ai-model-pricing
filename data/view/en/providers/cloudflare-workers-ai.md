@@ -6,8 +6,8 @@
 - Homepage: https://developers.cloudflare.com/workers-ai/models/
 - Pricing page: https://developers.cloudflare.com/workers-ai/models/
 - Currency: USD
-- Data updated: 2026-08-29T12:52:50Z
-- Verified: 2026-08-29T12:52:50Z
+- Data updated: 2026-08-30T20:47:54Z
+- Verified: 2026-08-30T20:47:54Z
 
 **27** models in total.
 
