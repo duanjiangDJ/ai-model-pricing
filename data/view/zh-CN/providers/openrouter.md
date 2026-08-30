@@ -6,8 +6,8 @@
 - 官网: https://openrouter.ai
 - 定价页: https://openrouter.ai/models
 - 币种: USD
-- 数据更新时间: 2026-08-30T04:37:49Z
-- 核实时间: 2026-08-30T04:37:49Z
+- 数据更新时间: 2026-08-30T11:34:54Z
+- 核实时间: 2026-08-30T11:34:54Z
 
 共 **396** 个模型。
 
@@ -51,7 +51,7 @@
 | `anthropic/claude-sonnet-4.6:batch` | — | reasoning | 按量 | 1M | $1.5e-06 | $7.5e-06 | $1.5e-07 | $1.875e-06 | —/— | — | OpenRouter reseller price |
 | `anthropic/claude-sonnet-5` | — | reasoning | 按量 | 1M | $2e-06 | $1e-05 | $2e-07 | $2.5e-06 | —/— | — | OpenRouter reseller price |
 | `anthropic/claude-sonnet-5:batch` | — | reasoning | 按量 | 1M | $1e-06 | $5e-06 | $1e-07 | $1.25e-06 | —/— | — | OpenRouter reseller price |
-| `arcee-ai/trinity-large-thinking` | — | reasoning | 按量 | 262.144K | $2.2e-07 | $8.5e-07 | $6e-08 | — | —/— | — | OpenRouter reseller price |
+| `arcee-ai/trinity-large-thinking` | — | reasoning | 按量 | 262.144K | $2.5e-07 | $8e-07 | $6e-08 | — | —/— | — | OpenRouter reseller price |
 | `baidu/ernie-4.5-vl-424b-a47b` | — | reasoning | 按量 | 123K | $4.2e-07 | $1.25e-06 | — | — | —/— | — | OpenRouter reseller price |
 | `bytedance-seed/seed-1.6` | — | reasoning | 按量 | 262.144K | $2.5e-07 | $2e-06 | — | — | —/— | — | OpenRouter reseller price |
 | `bytedance-seed/seed-1.6-flash` | — | reasoning | 按量 | 262.144K | $7.5e-08 | $3e-07 | — | — | —/— | — | OpenRouter reseller price |
@@ -75,11 +75,11 @@
 | `deepseek/deepseek-v3.1-terminus` | — | reasoning | 按量 | 163.84K | $2.7e-07 | $1e-06 | $1.35e-07 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2` | — | reasoning | 按量 | 163.84K | $2.69e-07 | $4e-07 | $1.345e-07 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2-exp` | — | reasoning | 按量 | 163.84K | $2.7e-07 | $4.1e-07 | — | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-flash` | — | reasoning | 按量 | 1.04858M | $8.064e-08 | $1.6128e-07 | $1.6128e-08 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-flash` | — | reasoning | 按量 | 1.04858M | $7.98e-08 | $1.596e-07 | $1.596e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | 按量 | 1.31072M | $6.5e-08 | $1.8e-07 | $1.6e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731:batch` | — | reasoning | 按量 | 1.04858M | $1.4e-07 | $2.8e-07 | $3e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 按量 | 1.04858M | $2.2e-07 | $6.6e-07 | $7e-09 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-pro` | — | reasoning | 按量 | 1.04858M | $4.98336e-07 | $9.96672e-07 | $4.1528e-08 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-pro` | — | reasoning | 按量 | 1.04858M | $4.27344e-07 | $8.54688e-07 | $3.5612e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | 按量 | 1.04858M | $6.6e-07 | $1.98e-06 | $2.2e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813:batch` | — | reasoning | 按量 | 1.04858M | $1.32e-06 | $3.96e-06 | $1.3e-07 | — | —/— | — | OpenRouter reseller price |
 | `dots-studio/dots-3-note-preview:free` | — | reasoning | 按量 | 512K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price |

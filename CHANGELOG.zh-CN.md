@@ -16,6 +16,11 @@
 
 ---
 
+## 26.12.24 — 2026-08-30T11:39Z（内容更新）
+
+- 价格同步（3 处变更）：
+- **openrouter**（更新 3）：`arcee-ai/trinity-large-thinking`, `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`
+
 ## 26.11.24 — 2026-08-30T04:43Z（内容更新）
 
 - 价格同步（88 处变更）：

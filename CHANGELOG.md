@@ -16,6 +16,11 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.12.24 — 2026-08-30T11:39Z (content update)
+
+- price sync (3 changes):
+- **openrouter** (updated 3): `arcee-ai/trinity-large-thinking`, `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`
+
 ## 26.11.24 — 2026-08-30T04:43Z (content update)
 
 - price sync (88 changes):
