@@ -16,6 +16,12 @@
 
 ---
 
+## 26.20.24 — 2026-08-31T15:21Z（内容更新）
+
+- 价格同步（3 处变更）：
+- **openrouter**（下架 1）：`kwaipilot/kat-coder-air-v2.5`
+- **openrouter**（更新 2）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`
+
 ## 26.19.24 — 2026-08-31T12:22Z（内容更新）
 
 - 价格同步（3 处变更）：
