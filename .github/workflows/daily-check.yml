@@ -33,7 +33,10 @@ jobs:
 
       - name: Open PR for price-sync changes
         env:
-          GH_TOKEN: ${{ github.token }}
+          # Use GH_PAT (repo scope, can create PRs) for gh pr create — the default
+          # GITHUB_TOKEN cannot create a PR unless "Allow GitHub Actions to create
+          # and approve pull requests" is enabled. Fall back to GITHUB_TOKEN if no PAT.
+          GH_TOKEN: ${{ secrets.GH_PAT || github.token }}
         run: |
           git config user.name "price-sync-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
