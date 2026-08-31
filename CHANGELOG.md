@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.18.24 — 2026-08-31T09:21Z (content update)
+
+- No data changes this run.
+
 ## 26.17.24 — 2026-08-31T06:21Z (content update)
 
 - No data changes this run.
