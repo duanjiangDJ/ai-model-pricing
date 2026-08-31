@@ -7,8 +7,8 @@
   "homepage": "https://docs.arcee.ai",
   "pricing_page": "https://docs.arcee.ai",
   "currency": "USD",
-  "updated_at": "2026-08-30T04:37:49Z",
-  "verified_at": "2026-08-30T04:37:49Z",
+  "updated_at": "2026-08-31T03:15:48Z",
+  "verified_at": "2026-08-31T03:15:48Z",
   "models": [
     {
       "id": "deepseek/deepseek-v4-flash-latest",

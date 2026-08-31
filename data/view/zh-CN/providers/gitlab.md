@@ -6,8 +6,8 @@
 - 官网: https://docs.gitlab.com/user/duo_agent_platform/
 - 定价页: https://docs.gitlab.com/user/duo_agent_platform/
 - 币种: USD
-- 数据更新时间: 2026-08-30T04:37:49Z
-- 核实时间: 2026-08-30T04:37:49Z
+- 数据更新时间: 2026-08-31T03:15:48Z
+- 核实时间: 2026-08-31T03:15:48Z
 
 共 **23** 个模型。
 

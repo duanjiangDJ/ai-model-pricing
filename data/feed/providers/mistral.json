@@ -7,8 +7,8 @@
   "homepage": "https://docs.mistral.ai/getting-started/models/",
   "pricing_page": "https://docs.mistral.ai/getting-started/models/",
   "currency": "USD",
-  "updated_at": "2026-08-30T04:37:50Z",
-  "verified_at": "2026-08-30T04:37:50Z",
+  "updated_at": "2026-08-31T03:15:48Z",
+  "verified_at": "2026-08-31T03:15:48Z",
   "models": [
     {
       "id": "codestral-latest",
@@ -322,10 +322,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.1
+            "usd": 0.04
           },
           "output": {
-            "usd": 0.1
+            "usd": 0.04
           },
           "cache_read": null,
           "cache_write": null
@@ -352,10 +352,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.15
+            "usd": 0.1
           },
           "output": {
-            "usd": 0.15
+            "usd": 0.1
           },
           "cache_read": null,
           "cache_write": null

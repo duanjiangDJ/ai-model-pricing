@@ -6,10 +6,10 @@
 - Homepage: https://api.berget.ai
 - Pricing page: https://api.berget.ai
 - Currency: USD
-- Data updated: 2026-08-30T04:37:49Z
-- Verified: 2026-08-30T04:37:49Z
+- Data updated: 2026-08-31T03:15:48Z
+- Verified: 2026-08-31T03:15:48Z
 
-**9** models in total.
+**11** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -22,3 +22,5 @@
 | `openai/gpt-oss-120b` | — | reasoning | per-token | 128K | $0.22 | $0.83 | — | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-4.7` | — | reasoning | per-token | 128K | $0.77 | $2.75 | — | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.2` | — | reasoning | per-token | 524.288K | $1.54 | $4.84 | — | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.3` | — | reasoning | per-token | 327.68K | $1.75 | $5.82 | — | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.3-Flash` | — | reasoning | per-token | 327.68K | $0.29 | $0.58 | — | — | —/— | — | models.dev official list price |

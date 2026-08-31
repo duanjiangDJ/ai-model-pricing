@@ -7,8 +7,8 @@
   "homepage": "https://api.koscompute.com/docs/",
   "pricing_page": "https://api.koscompute.com/docs/",
   "currency": "USD",
-  "updated_at": "2026-08-30T04:37:49Z",
-  "verified_at": "2026-08-30T04:37:49Z",
+  "updated_at": "2026-08-31T03:15:48Z",
+  "verified_at": "2026-08-31T03:15:48Z",
   "models": [
     {
       "id": "qwen/qwen3.8-27b",

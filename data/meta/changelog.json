@@ -1,6 +1,2153 @@
 {
-  "schema_version": "26.15.24",
+  "schema_version": "26.16.24",
   "entries": [
+    {
+      "date": "2026-08-31T03:15:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "minimax",
+      "item_id": "MiniMax-M2.5-highspeed",
+      "field": "pricing",
+      "new": {
+        "models": 1
+      },
+      "source": "https://platform.minimax.io/docs/guides/pricing-paygo.md"
+    },
+    {
+      "date": "2026-08-31T03:15:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "deepseek",
+      "item_id": "deepseek-v4-flash,deepseek-v4-flash,deepseek-v4-flash,deepseek-v4-pro,deepseek-v4-pro,deepseek-v4-flash-vision-exp,deepseek-v4-flash-vision-exp,deepseek-v4-flash-vision-exp",
+      "field": "pricing",
+      "new": {
+        "models": 8
+      },
+      "source": "https://api-docs.deepseek.com/quick_start/pricing"
+    },
+    {
+      "date": "2026-08-31T03:15:50Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba",
+      "item_id": "qwen3.7-plus,qwen3.7-plus,qwen3.6-flash,qwen3.6-flash,qwen-vl-ocr,qwen-vl-ocr,qwen3.6-35b-a3b,qwen3.6-35b-a3b,qwen3-next-80b-a3b-thinking,qwen3-next-80b-a3b-thinking,qwen3-next-80b-a3b-instruct,qwen3-next-80b-a3b-instruct,qwen3-32b,qwen3-32b",
+      "field": "pricing",
+      "new": {
+        "models": 14
+      },
+      "source": "https://www.alibabacloud.com/help/en/model-studio/billing"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "Gemma-4-26B-A4B-MeroMero",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.08,
+          0.12
+        ],
+        "output.usd": [
+          0.33,
+          0.38
+        ],
+        "cache_read.usd": [
+          0.04,
+          0.06
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.12
+        },
+        "output": {
+          "usd": 0.38
+        },
+        "cache_read": {
+          "usd": 0.06
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "Gemma-4-26B-A4B-MeroMero:thinking",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.08,
+          0.12
+        ],
+        "output.usd": [
+          0.33,
+          0.38
+        ],
+        "cache_read.usd": [
+          0.04,
+          0.06
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.12
+        },
+        "output": {
+          "usd": 0.38
+        },
+        "cache_read": {
+          "usd": 0.06
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "Gemma-4-31B-MeroMero-v2",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.08,
+          0.1
+        ],
+        "output.usd": [
+          0.33,
+          0.45
+        ],
+        "cache_read.usd": [
+          0.04,
+          0.05
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.1
+        },
+        "output": {
+          "usd": 0.45
+        },
+        "cache_read": {
+          "usd": 0.05
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "Gemma-4-31B-MeroMero-v2:thinking",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.08,
+          0.1
+        ],
+        "output.usd": [
+          0.33,
+          0.45
+        ],
+        "cache_read.usd": [
+          0.04,
+          0.05
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.1
+        },
+        "output": {
+          "usd": 0.45
+        },
+        "cache_read": {
+          "usd": 0.05
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "deepseek/deepseek-v4-flash-vision-exp",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.22,
+          0.44
+        ],
+        "output.usd": [
+          0.66,
+          1.32
+        ],
+        "cache_read.usd": [
+          0.007,
+          0.014
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.44
+        },
+        "output": {
+          "usd": 1.32
+        },
+        "cache_read": {
+          "usd": 0.014
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "gemma-4-26b-a4b-it-chimerax",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.08,
+          0.12
+        ],
+        "output.usd": [
+          0.33,
+          0.38
+        ],
+        "cache_read.usd": [
+          0.04,
+          0.06
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.12
+        },
+        "output": {
+          "usd": 0.38
+        },
+        "cache_read": {
+          "usd": 0.06
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "gemma-4-26b-a4b-it-darksoul",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.08,
+          0.12
+        ],
+        "output.usd": [
+          0.33,
+          0.38
+        ],
+        "cache_read.usd": [
+          0.04,
+          0.06
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.12
+        },
+        "output": {
+          "usd": 0.38
+        },
+        "cache_read": {
+          "usd": 0.06
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "gemma-4-26b-a4b-it-luminous",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.08,
+          0.12
+        ],
+        "output.usd": [
+          0.33,
+          0.38
+        ],
+        "cache_read.usd": [
+          0.04,
+          0.06
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.12
+        },
+        "output": {
+          "usd": 0.38
+        },
+        "cache_read": {
+          "usd": 0.06
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "gemma-4-26b-a4b-it-moonlight",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.08,
+          0.12
+        ],
+        "output.usd": [
+          0.33,
+          0.38
+        ],
+        "cache_read.usd": [
+          0.04,
+          0.06
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.12
+        },
+        "output": {
+          "usd": 0.38
+        },
+        "cache_read": {
+          "usd": 0.06
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "gemma-4-26b-a4b-it-musica",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.08,
+          0.12
+        ],
+        "output.usd": [
+          0.33,
+          0.38
+        ],
+        "cache_read.usd": [
+          0.04,
+          0.06
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.12
+        },
+        "output": {
+          "usd": 0.38
+        },
+        "cache_read": {
+          "usd": 0.06
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "gemma-4-26b-a4b-it-opusdistill",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.08,
+          0.12
+        ],
+        "output.usd": [
+          0.33,
+          0.38
+        ],
+        "cache_read.usd": [
+          0.04,
+          0.06
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.12
+        },
+        "output": {
+          "usd": 0.38
+        },
+        "cache_read": {
+          "usd": 0.06
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "gemma-4-26b-a4b-it-shadowsiren",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.08,
+          0.12
+        ],
+        "output.usd": [
+          0.33,
+          0.38
+        ],
+        "cache_read.usd": [
+          0.04,
+          0.06
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.12
+        },
+        "output": {
+          "usd": 0.38
+        },
+        "cache_read": {
+          "usd": 0.06
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "gemma-4-26b-a4b-uncensored",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.08,
+          0.12
+        ],
+        "output.usd": [
+          0.33,
+          0.38
+        ],
+        "cache_read.usd": [
+          0.04,
+          0.06
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.12
+        },
+        "output": {
+          "usd": 0.38
+        },
+        "cache_read": {
+          "usd": 0.06
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "gemma-4-26b-a4b-uncensored:thinking",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.08,
+          0.12
+        ],
+        "output.usd": [
+          0.33,
+          0.38
+        ],
+        "cache_read.usd": [
+          0.04,
+          0.06
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.12
+        },
+        "output": {
+          "usd": 0.38
+        },
+        "cache_read": {
+          "usd": 0.06
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "gemma-4-31b-it-darkidol",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.08,
+          0.1
+        ],
+        "output.usd": [
+          0.33,
+          0.45
+        ],
+        "cache_read.usd": [
+          0.04,
+          0.05
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.1
+        },
+        "output": {
+          "usd": 0.45
+        },
+        "cache_read": {
+          "usd": 0.05
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "gemma-4-31b-it-fabled",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.08,
+          0.1
+        ],
+        "output.usd": [
+          0.33,
+          0.45
+        ],
+        "cache_read.usd": [
+          0.04,
+          0.05
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.1
+        },
+        "output": {
+          "usd": 0.45
+        },
+        "cache_read": {
+          "usd": 0.05
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "gemma-4-31b-it-garnet",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.08,
+          0.1
+        ],
+        "output.usd": [
+          0.33,
+          0.45
+        ],
+        "cache_read.usd": [
+          0.04,
+          0.05
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.1
+        },
+        "output": {
+          "usd": 0.45
+        },
+        "cache_read": {
+          "usd": 0.05
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "gemma-4-31b-it-gembrain",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.08,
+          0.1
+        ],
+        "output.usd": [
+          0.33,
+          0.45
+        ],
+        "cache_read.usd": [
+          0.04,
+          0.05
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.1
+        },
+        "output": {
+          "usd": 0.45
+        },
+        "cache_read": {
+          "usd": 0.05
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "gemma-4-31b-it-gemsicle",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.08,
+          0.1
+        ],
+        "output.usd": [
+          0.33,
+          0.45
+        ],
+        "cache_read.usd": [
+          0.04,
+          0.05
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.1
+        },
+        "output": {
+          "usd": 0.45
+        },
+        "cache_read": {
+          "usd": 0.05
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "gemma-4-31b-it-isometry",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.08,
+          0.1
+        ],
+        "output.usd": [
+          0.33,
+          0.45
+        ],
+        "cache_read.usd": [
+          0.04,
+          0.05
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.1
+        },
+        "output": {
+          "usd": 0.45
+        },
+        "cache_read": {
+          "usd": 0.05
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "gemma-4-31b-it-novelist",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.08,
+          0.1
+        ],
+        "output.usd": [
+          0.33,
+          0.45
+        ],
+        "cache_read.usd": [
+          0.04,
+          0.05
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.1
+        },
+        "output": {
+          "usd": 0.45
+        },
+        "cache_read": {
+          "usd": 0.05
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "google/gemma-4-26b-a4b-it",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.08,
+          0.12
+        ],
+        "output.usd": [
+          0.33,
+          0.38
+        ],
+        "cache_read.usd": [
+          0.04,
+          0.06
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.12
+        },
+        "output": {
+          "usd": 0.38
+        },
+        "cache_read": {
+          "usd": 0.06
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "google/gemma-4-31b-it",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.08,
+          0.1
+        ],
+        "output.usd": [
+          0.33,
+          0.45
+        ],
+        "cache_read.usd": [
+          0.04,
+          0.05
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.1
+        },
+        "output": {
+          "usd": 0.45
+        },
+        "cache_read": {
+          "usd": 0.05
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "ornith-ai/ornith-1.5-9b",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.05,
+          0.1
+        ],
+        "output.usd": [
+          0.1,
+          0.2
+        ],
+        "cache_read.usd": [
+          0.025,
+          0.05
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.1
+        },
+        "output": {
+          "usd": 0.2
+        },
+        "cache_read": {
+          "usd": 0.05
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "ornith-ai/ornith-1.5-9b:thinking",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.05,
+          0.1
+        ],
+        "output.usd": [
+          0.1,
+          0.2
+        ],
+        "cache_read.usd": [
+          0.025,
+          0.05
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.1
+        },
+        "output": {
+          "usd": 0.2
+        },
+        "cache_read": {
+          "usd": 0.05
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "qwen/qwen3.6-35b-a3b-uncensored",
+      "field": "pricing",
+      "old": {
+        "output.usd": [
+          0.5,
+          0.95
+        ]
+      },
+      "new": {
+        "output": {
+          "usd": 0.95
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "qwen/qwen3.6-35b-a3b-uncensored:thinking",
+      "field": "pricing",
+      "old": {
+        "output.usd": [
+          0.5,
+          0.95
+        ]
+      },
+      "new": {
+        "output": {
+          "usd": 0.95
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "qwen/qwen3.8-27b-fable",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.2,
+          0.25
+        ],
+        "output.usd": [
+          1.4,
+          1.5
+        ],
+        "cache_read.usd": [
+          0.04,
+          0.125
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.25
+        },
+        "output": {
+          "usd": 1.5
+        },
+        "cache_read": {
+          "usd": 0.125
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "qwen/qwen3.8-27b-obliterated",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.18,
+          0.25
+        ],
+        "output.usd": [
+          0.5,
+          1.5
+        ],
+        "cache_read.usd": [
+          0.075,
+          0.125
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.25
+        },
+        "output": {
+          "usd": 1.5
+        },
+        "cache_read": {
+          "usd": 0.125
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "qwen/qwen3.8-27b-obliterated:thinking",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.18,
+          0.25
+        ],
+        "output.usd": [
+          0.5,
+          1.5
+        ],
+        "cache_read.usd": [
+          0.075,
+          0.125
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.25
+        },
+        "output": {
+          "usd": 1.5
+        },
+        "cache_read": {
+          "usd": 0.125
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "qwen/qwen3.8-27b-uncensored",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.18,
+          0.25
+        ],
+        "output.usd": [
+          0.5,
+          1.5
+        ],
+        "cache_read.usd": [
+          0.075,
+          0.125
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.25
+        },
+        "output": {
+          "usd": 1.5
+        },
+        "cache_read": {
+          "usd": 0.125
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "qwen/qwen3.8-27b-uncensored:thinking",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.18,
+          0.25
+        ],
+        "output.usd": [
+          0.5,
+          1.5
+        ],
+        "cache_read.usd": [
+          0.075,
+          0.125
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.25
+        },
+        "output": {
+          "usd": 1.5
+        },
+        "cache_read": {
+          "usd": 0.125
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "z-ai/glm-5.3-flash-uncensored",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.125,
+          0.35
+        ],
+        "output.usd": [
+          0.5,
+          1.4
+        ],
+        "cache_read.usd": [
+          0.0625,
+          0.175
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.35
+        },
+        "output": {
+          "usd": 1.4
+        },
+        "cache_read": {
+          "usd": 0.175
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "deepseek",
+      "item_id": "deepseek-v4-flash",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.44,
+          0.14
+        ],
+        "output.usd": [
+          1.32,
+          0.28
+        ],
+        "cache_read.usd": [
+          0.014,
+          0.0028
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.14
+        },
+        "output": {
+          "usd": 0.28
+        },
+        "cache_read": {
+          "usd": 0.0028
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "deepseek",
+      "item_id": "deepseek-v4-flash-vision-exp",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.44,
+          0.14
+        ],
+        "output.usd": [
+          1.32,
+          0.28
+        ],
+        "cache_read.usd": [
+          0.014,
+          0.0028
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.14
+        },
+        "output": {
+          "usd": 0.28
+        },
+        "cache_read": {
+          "usd": 0.0028
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "deepseek",
+      "item_id": "deepseek-v4-pro",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          1.32,
+          0.435
+        ],
+        "output.usd": [
+          3.96,
+          0.87
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.435
+        },
+        "output": {
+          "usd": 0.87
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "berget",
+      "item_id": "zai-org/GLM-5.3",
+      "field": "catalog",
+      "new": "zai-org/GLM-5.3",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "berget",
+      "item_id": "zai-org/GLM-5.3-Flash",
+      "field": "catalog",
+      "new": "zai-org/GLM-5.3-Flash",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba",
+      "item_id": "qwen-vl-ocr",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.07,
+          0.72
+        ],
+        "output.usd": [
+          0.16,
+          0.72
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.72
+        },
+        "output": {
+          "usd": 0.72
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba",
+      "item_id": "qwen3-32b",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.16,
+          0.7
+        ],
+        "output.usd": [
+          0.64,
+          2.8
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.7
+        },
+        "output": {
+          "usd": 2.8
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba",
+      "item_id": "qwen3-next-80b-a3b-instruct",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.15,
+          0.5
+        ],
+        "output.usd": [
+          1.2,
+          2
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.5
+        },
+        "output": {
+          "usd": 2
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba",
+      "item_id": "qwen3-next-80b-a3b-thinking",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.15,
+          0.5
+        ],
+        "output.usd": [
+          1.2,
+          6
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.5
+        },
+        "output": {
+          "usd": 6
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba",
+      "item_id": "qwen3.6-35b-a3b",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.375,
+          0.248
+        ],
+        "output.usd": [
+          2.25,
+          1.485
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.248
+        },
+        "output": {
+          "usd": 1.485
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba",
+      "item_id": "qwen3.6-flash",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.25,
+          0.1875
+        ],
+        "output.usd": [
+          1.5,
+          1.125
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.1875
+        },
+        "output": {
+          "usd": 1.125
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba",
+      "item_id": "qwen3.7-plus",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.4,
+          0.5
+        ],
+        "output.usd": [
+          1.6,
+          3
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.5
+        },
+        "output": {
+          "usd": 3
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "trustedrouter",
+      "item_id": "trustedrouter/auto",
+      "field": "catalog",
+      "new": "trustedrouter/auto",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "trustedrouter",
+      "item_id": "trustedrouter/cheap",
+      "field": "catalog",
+      "new": "trustedrouter/cheap",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "trustedrouter",
+      "item_id": "trustedrouter/e2e",
+      "field": "catalog",
+      "new": "trustedrouter/e2e",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "trustedrouter",
+      "item_id": "trustedrouter/fast",
+      "field": "catalog",
+      "new": "trustedrouter/fast",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "trustedrouter",
+      "item_id": "trustedrouter/synth",
+      "field": "catalog",
+      "new": "trustedrouter/synth",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "trustedrouter",
+      "item_id": "trustedrouter/synth-code",
+      "field": "catalog",
+      "new": "trustedrouter/synth-code",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "trustedrouter",
+      "item_id": "trustedrouter/zdr",
+      "field": "catalog",
+      "new": "trustedrouter/zdr",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "mistral",
+      "item_id": "ministral-3b-latest",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.1,
+          0.04
+        ],
+        "output.usd": [
+          0.1,
+          0.04
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.04
+        },
+        "output": {
+          "usd": 0.04
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "mistral",
+      "item_id": "ministral-8b-latest",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.15,
+          0.1
+        ],
+        "output.usd": [
+          0.15,
+          0.1
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.1
+        },
+        "output": {
+          "usd": 0.1
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "vercel",
+      "item_id": "minimax/minimax-h3-max",
+      "field": "catalog",
+      "new": "minimax/minimax-h3-max",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "edenai",
+      "item_id": "flexai/Muse-Glimmer-30B",
+      "field": "pricing",
+      "old": {
+        "output.usd": [
+          1.2,
+          1.1
+        ]
+      },
+      "new": {
+        "output": {
+          "usd": 1.1
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "edenai",
+      "item_id": "mistral/codestral-latest",
+      "field": "pricing",
+      "old": {
+        "cache_read.usd": [
+          null,
+          0.03
+        ]
+      },
+      "new": {
+        "cache_read": {
+          "usd": 0.03
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "edenai",
+      "item_id": "mistral/devstral-2512",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.44,
+          0.4
+        ],
+        "output.usd": [
+          2.2,
+          2
+        ],
+        "cache_read.usd": [
+          0.044,
+          0.04
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.4
+        },
+        "output": {
+          "usd": 2
+        },
+        "cache_read": {
+          "usd": 0.04
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "edenai",
+      "item_id": "mistral/mistral-medium-2604",
+      "field": "pricing",
+      "old": {
+        "cache_read.usd": [
+          null,
+          0.15
+        ]
+      },
+      "new": {
+        "cache_read": {
+          "usd": 0.15
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "edenai",
+      "item_id": "mistral/mistral-medium-latest",
+      "field": "pricing",
+      "old": {
+        "cache_read.usd": [
+          null,
+          0.15
+        ]
+      },
+      "new": {
+        "cache_read": {
+          "usd": 0.15
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "edenai",
+      "item_id": "mistral/mistral-small-latest",
+      "field": "pricing",
+      "old": {
+        "cache_read.usd": [
+          null,
+          0.015
+        ]
+      },
+      "new": {
+        "cache_read": {
+          "usd": 0.015
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "kilo",
+      "item_id": "deepseek/deepseek-v4-flash-vision-exp",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.22,
+          0.44
+        ],
+        "output.usd": [
+          0.66,
+          1.32
+        ],
+        "cache_read.usd": [
+          0.007,
+          0.014
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.44
+        },
+        "output": {
+          "usd": 1.32
+        },
+        "cache_read": {
+          "usd": 0.014
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "kilo",
+      "item_id": "mistralai/devstral-2512",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.44,
+          0.4
+        ],
+        "output.usd": [
+          2.2,
+          2
+        ],
+        "cache_read.usd": [
+          0.044,
+          0.04
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.4
+        },
+        "output": {
+          "usd": 2
+        },
+        "cache_read": {
+          "usd": 0.04
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "kilo",
+      "item_id": "mistralai/mistral-nemo",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.165,
+          0.019
+        ],
+        "output.usd": [
+          0.165,
+          0.03
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.019
+        },
+        "output": {
+          "usd": 0.03
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "kilo",
+      "item_id": "mistralai/mistral-small-3.2-24b-instruct",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          0.11,
+          0.075
+        ],
+        "output.usd": [
+          0.33,
+          0.2
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 0.075
+        },
+        "output": {
+          "usd": 0.2
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "kilo",
+      "item_id": "~deepseek/deepseek-v4-flash-latest",
+      "field": "pricing",
+      "old": {
+        "cache_read.usd": [
+          0.01,
+          0.013
+        ]
+      },
+      "new": {
+        "cache_read": {
+          "usd": 0.013
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "minimax",
+      "item_id": "MiniMax-M2.5-highspeed",
+      "field": "pricing",
+      "old": {
+        "cache_read.usd": [
+          0.03,
+          0.06
+        ]
+      },
+      "new": {
+        "cache_read": {
+          "usd": 0.06
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-flash",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 7.84e-08
+          },
+          "output": {
+            "usd": 1.568e-07
+          },
+          "cache_read": {
+            "usd": 1.568e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 8.8606e-08
+          },
+          "output": {
+            "usd": 1.77212e-07
+          },
+          "cache_read": {
+            "usd": 1.77212e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-flash-vision-exp",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.2e-07
+          },
+          "output": {
+            "usd": 6.6e-07
+          },
+          "cache_read": {
+            "usd": 7e-09
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 4.4e-07
+          },
+          "output": {
+            "usd": 1.32e-06
+          },
+          "cache_read": {
+            "usd": 1.4e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-pro",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 4.17252e-07
+          },
+          "output": {
+            "usd": 8.34504e-07
+          },
+          "cache_read": {
+            "usd": 3.4771e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.6e-06
+          },
+          "output": {
+            "usd": 3.2e-06
+          },
+          "cache_read": {
+            "usd": 1.35e-07
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-pro-0813",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 6.6e-07
+          },
+          "output": {
+            "usd": 1.98e-06
+          },
+          "cache_read": {
+            "usd": 2.2e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.32e-06
+          },
+          "output": {
+            "usd": 3.96e-06
+          },
+          "cache_read": {
+            "usd": 4.4e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "meta-llama/llama-4-maverick",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 2e-07
+          },
+          "output": {
+            "usd": 8e-07
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 2e-07
+          },
+          "output": {
+            "usd": 6.96e-07
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "moonshotai/kimi-k2.5",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 6e-07
+          },
+          "output": {
+            "usd": 3e-06
+          },
+          "cache_read": {
+            "usd": 1e-07
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 4.5e-07
+          },
+          "output": {
+            "usd": 2.25e-06
+          },
+          "cache_read": {
+            "usd": 7e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T03:15:48Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "tencent/hy3",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 8.25e-08
+          },
+          "output": {
+            "usd": 3.3e-07
+          },
+          "cache_read": {
+            "usd": 2.0625e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.32e-07
+          },
+          "output": {
+            "usd": 5.28e-07
+          },
+          "cache_read": {
+            "usd": 3.3e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-08-30T23:18:35Z",
       "kind": "update",

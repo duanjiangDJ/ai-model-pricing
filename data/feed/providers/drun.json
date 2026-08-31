@@ -7,8 +7,8 @@
   "homepage": "https://www.d.run",
   "pricing_page": "https://www.d.run",
   "currency": "USD",
-  "updated_at": "2026-08-30T04:37:49Z",
-  "verified_at": "2026-08-30T04:37:49Z",
+  "updated_at": "2026-08-31T03:15:48Z",
+  "verified_at": "2026-08-31T03:15:48Z",
   "models": [
     {
       "id": "public/deepseek-r1",

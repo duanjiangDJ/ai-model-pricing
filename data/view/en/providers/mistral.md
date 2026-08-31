@@ -6,8 +6,8 @@
 - Homepage: https://docs.mistral.ai/getting-started/models/
 - Pricing page: https://docs.mistral.ai/getting-started/models/
 - Currency: USD
-- Data updated: 2026-08-30T04:37:50Z
-- Verified: 2026-08-30T04:37:50Z
+- Data updated: 2026-08-31T03:15:48Z
+- Verified: 2026-08-31T03:15:48Z
 
 **34** models in total.
 
@@ -23,8 +23,8 @@
 | `labs-devstral-small-2512` | — | chat | free | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `magistral-medium-latest` | — | reasoning | per-token | 128K | $2 | $5 | — | — | —/— | — | models.dev official list price |
 | `magistral-small` | — | reasoning | per-token | 128K | $0.5 | $1.5 | — | — | —/— | — | models.dev official list price |
-| `ministral-3b-latest` | — | chat | per-token | 128K | $0.1 | $0.1 | — | — | —/— | — | Official mistral.ai/pricing/api (USD per 1M tokens; page lists -latest aliase… |
-| `ministral-8b-latest` | — | chat | per-token | 128K | $0.15 | $0.15 | — | — | —/— | — | Official mistral.ai/pricing/api (USD per 1M tokens; page lists -latest aliase… |
+| `ministral-3b-latest` | — | chat | per-token | 128K | $0.04 | $0.04 | — | — | —/— | — | Official mistral.ai/pricing/api (USD per 1M tokens; page lists -latest aliase… |
+| `ministral-8b-latest` | — | chat | per-token | 128K | $0.1 | $0.1 | — | — | —/— | — | Official mistral.ai/pricing/api (USD per 1M tokens; page lists -latest aliase… |
 | `mistral-embed` | — | embedding | per-token + free | 8K | $0.1 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `mistral-large-2411` | — | chat | per-token | 131.072K | $2 | $6 | — | — | —/— | — | models.dev official list price |
 | `mistral-large-2512` | — | chat | per-token | 262.144K | $0.5 | $1.5 | — | — | —/— | — | models.dev official list price |

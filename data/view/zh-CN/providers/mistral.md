@@ -6,8 +6,8 @@
 - 官网: https://docs.mistral.ai/getting-started/models/
 - 定价页: https://docs.mistral.ai/getting-started/models/
 - 币种: USD
-- 数据更新时间: 2026-08-30T04:37:50Z
-- 核实时间: 2026-08-30T04:37:50Z
+- 数据更新时间: 2026-08-31T03:15:48Z
+- 核实时间: 2026-08-31T03:15:48Z
 
 共 **34** 个模型。
 
@@ -23,8 +23,8 @@
 | `labs-devstral-small-2512` | — | chat | 免费 | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `magistral-medium-latest` | — | reasoning | 按量 | 128K | $2 | $5 | — | — | —/— | — | models.dev official list price |
 | `magistral-small` | — | reasoning | 按量 | 128K | $0.5 | $1.5 | — | — | —/— | — | models.dev official list price |
-| `ministral-3b-latest` | — | chat | 按量 | 128K | $0.1 | $0.1 | — | — | —/— | — | Official mistral.ai/pricing/api (USD per 1M tokens; page lists -latest aliase… |
-| `ministral-8b-latest` | — | chat | 按量 | 128K | $0.15 | $0.15 | — | — | —/— | — | Official mistral.ai/pricing/api (USD per 1M tokens; page lists -latest aliase… |
+| `ministral-3b-latest` | — | chat | 按量 | 128K | $0.04 | $0.04 | — | — | —/— | — | Official mistral.ai/pricing/api (USD per 1M tokens; page lists -latest aliase… |
+| `ministral-8b-latest` | — | chat | 按量 | 128K | $0.1 | $0.1 | — | — | —/— | — | Official mistral.ai/pricing/api (USD per 1M tokens; page lists -latest aliase… |
 | `mistral-embed` | — | embedding | 按量 + 免费 | 8K | $0.1 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `mistral-large-2411` | — | chat | 按量 | 131.072K | $2 | $6 | — | — | —/— | — | models.dev official list price |
 | `mistral-large-2512` | — | chat | 按量 | 262.144K | $0.5 | $1.5 | — | — | —/— | — | models.dev official list price |

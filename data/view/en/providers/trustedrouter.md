@@ -6,10 +6,10 @@
 - Homepage: https://trustedrouter.com/docs
 - Pricing page: https://trustedrouter.com/docs
 - Currency: USD
-- Data updated: 2026-08-30T04:37:49Z
-- Verified: 2026-08-30T04:37:49Z
+- Data updated: 2026-08-31T03:15:48Z
+- Verified: 2026-08-31T03:15:48Z
 
-**7** models in total.
+**14** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -19,4 +19,11 @@
 | `fast` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
 | `synth` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
 | `synth-code` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `trustedrouter/auto` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `trustedrouter/cheap` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `trustedrouter/e2e` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `trustedrouter/fast` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `trustedrouter/synth` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `trustedrouter/synth-code` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `trustedrouter/zdr` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
 | `zdr` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |

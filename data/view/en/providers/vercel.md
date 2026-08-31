@@ -6,10 +6,10 @@
 - Homepage: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - Pricing page: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - Currency: USD
-- Data updated: 2026-08-30T04:37:49Z
-- Verified: 2026-08-30T04:37:49Z
+- Data updated: 2026-08-31T03:15:48Z
+- Verified: 2026-08-31T03:15:48Z
 
-**365** models in total.
+**366** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -183,6 +183,7 @@
 | `meta/muse-spark-1.2` | — | reasoning | per-token | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
 | `meta/muse-spark-1.2-contributor` | — | reasoning | per-token | 1.04858M | $0.1 | $0.2 | $0.002 | — | —/— | — | models.dev official list price |
 | `minimax/minimax-h3` | — | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
+| `minimax/minimax-h3-max` | — | chat | ? | — | — | — | — | — | —/— | — | models.dev official list price |
 | `minimax/minimax-m2` | — | reasoning | per-token | 205K | $0.3 | $1.2 | $0.03 | — | —/— | — | models.dev official list price |
 | `minimax/minimax-m2.1` | — | reasoning | per-token | 204.8K | $0.3 | $1.2 | $0.03 | — | —/— | — | models.dev official list price |
 | `minimax/minimax-m2.1-lightning` | — | reasoning | per-token | 204.8K | $0.3 | $2.4 | $0.03 | — | —/— | — | models.dev official list price |

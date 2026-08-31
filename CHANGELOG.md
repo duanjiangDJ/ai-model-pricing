@@ -16,6 +16,21 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.16.24 — 2026-08-31T03:24Z (content update)
+
+- price sync (77 changes):
+- **alibaba** (updated 14): `qwen3.7-plus`, `qwen3.6-flash`, `qwen-vl-ocr`, `qwen3.6-35b-a3b`, `qwen3-next-80b-a3b-thinking`, `qwen3-next-80b-a3b-instruct`, `qwen3-32b` — in $0.72 out $0.72; in $0.7 out $2.8; in $0.5 out $2; in $0.5 out $6; in $0.248 out $1.485; in $0.1875 out $1.125; in $0.5 out $3
+- **berget** (+2): `zai-org/GLM-5.3`, `zai-org/GLM-5.3-Flash`
+- **deepseek** (updated 6): `deepseek-v4-flash`, `deepseek-v4-pro`, `deepseek-v4-flash-vision-exp` — in $0.14 out $0.28 cache $0.0028; in $0.435 out $0.87
+- **edenai** (updated 6): `flexai/Muse-Glimmer-30B`, `mistral/codestral-latest`, `mistral/devstral-2512`, `mistral/mistral-medium-2604`, `mistral/mistral-medium-latest`, `mistral/mistral-small-latest` — out $1.1; cache $0.03; in $0.4 out $2 cache $0.04; cache $0.15; cache $0.015
+- **kilo** (updated 5): `deepseek/deepseek-v4-flash-vision-exp`, `mistralai/devstral-2512`, `mistralai/mistral-nemo`, `mistralai/mistral-small-3.2-24b-instruct`, `~deepseek/deepseek-v4-flash-latest` — in $0.44 out $1.32 cache $0.014; in $0.4 out $2 cache $0.04; in $0.019 out $0.03; in $0.075 out $0.2; cache $0.013
+- **minimax** (updated 2): `MiniMax-M2.5-highspeed` — cache $0.06
+- **mistral** (updated 2): `ministral-3b-latest`, `ministral-8b-latest` — in $0.04 out $0.04; in $0.1 out $0.1
+- **nano-gpt** (updated 33): `Gemma-4-26B-A4B-MeroMero`, `Gemma-4-26B-A4B-MeroMero:thinking`, `Gemma-4-31B-MeroMero-v2`, `Gemma-4-31B-MeroMero-v2:thinking`, `deepseek/deepseek-v4-flash-vision-exp`, `gemma-4-26b-a4b-it-chimerax`, `gemma-4-26b-a4b-it-darksoul`, `gemma-4-26b-a4b-it-luminous`, `gemma-4-26b-a4b-it-moonlight`, `gemma-4-26b-a4b-it-musica`, `gemma-4-26b-a4b-it-opusdistill`, `gemma-4-26b-a4b-it-shadowsiren`, `gemma-4-26b-a4b-uncensored`, `gemma-4-26b-a4b-uncensored:thinking`, `gemma-4-31b-it-darkidol`, `gemma-4-31b-it-fabled`, `gemma-4-31b-it-garnet`, `gemma-4-31b-it-gembrain`, `gemma-4-31b-it-gemsicle`, `gemma-4-31b-it-isometry`, `gemma-4-31b-it-novelist`, `google/gemma-4-26b-a4b-it`, `google/gemma-4-31b-it`, `ornith-ai/ornith-1.5-9b`, `ornith-ai/ornith-1.5-9b:thinking`, `qwen/qwen3.6-35b-a3b-uncensored`, `qwen/qwen3.6-35b-a3b-uncensored:thinking`, `qwen/qwen3.8-27b-fable`, `qwen/qwen3.8-27b-obliterated`, `qwen/qwen3.8-27b-obliterated:thinking`, `qwen/qwen3.8-27b-uncensored`, `qwen/qwen3.8-27b-uncensored:thinking`, `z-ai/glm-5.3-flash-uncensored` — in $0.12 out $0.38 cache $0.06; in $0.1 out $0.45 cache $0.05; in $0.44 out $1.32 cache $0.014; in $0.1 out $0.2 cache $0.05; out $0.95; in $0.25 out $1.5 cache $0.125; in $0.35 out $1.4 cache $0.175
+- **openrouter** (updated 7): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-flash-vision-exp`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`, `meta-llama/llama-4-maverick`, `moonshotai/kimi-k2.5`, `tencent/hy3`
+- **trustedrouter** (+7): `trustedrouter/auto`, `trustedrouter/cheap`, `trustedrouter/e2e`, `trustedrouter/fast`, `trustedrouter/synth`, `trustedrouter/synth-code`, `trustedrouter/zdr`
+- **vercel** (+1): `minimax/minimax-h3-max`
+
 ## 26.15.24 — 2026-08-30T23:24Z (content update)
 
 - price sync (1 change):

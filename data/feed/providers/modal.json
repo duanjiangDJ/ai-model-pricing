@@ -7,8 +7,8 @@
   "homepage": "https://modal.com/docs/guide/endpoints",
   "pricing_page": "https://modal.com/docs/guide/endpoints",
   "currency": "USD",
-  "updated_at": "2026-08-30T04:37:49Z",
-  "verified_at": "2026-08-30T04:37:49Z",
+  "updated_at": "2026-08-31T03:15:48Z",
+  "verified_at": "2026-08-31T03:15:48Z",
   "models": [
     {
       "id": "Qwen/Qwen3.8-2.4T-A95B",

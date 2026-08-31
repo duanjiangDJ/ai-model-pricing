@@ -6,10 +6,10 @@
 - 官网: https://trustedrouter.com/docs
 - 定价页: https://trustedrouter.com/docs
 - 币种: USD
-- 数据更新时间: 2026-08-30T04:37:49Z
-- 核实时间: 2026-08-30T04:37:49Z
+- 数据更新时间: 2026-08-31T03:15:48Z
+- 核实时间: 2026-08-31T03:15:48Z
 
-共 **7** 个模型。
+共 **14** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -19,4 +19,11 @@
 | `fast` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
 | `synth` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
 | `synth-code` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `trustedrouter/auto` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `trustedrouter/cheap` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `trustedrouter/e2e` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `trustedrouter/fast` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `trustedrouter/synth` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `trustedrouter/synth-code` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `trustedrouter/zdr` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
 | `zdr` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |

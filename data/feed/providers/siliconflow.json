@@ -7,8 +7,8 @@
   "homepage": "https://cloud.siliconflow.com/models",
   "pricing_page": "https://cloud.siliconflow.com/models",
   "currency": "USD",
-  "updated_at": "2026-08-30T04:37:49Z",
-  "verified_at": "2026-08-30T04:37:49Z",
+  "updated_at": "2026-08-31T03:15:48Z",
+  "verified_at": "2026-08-31T03:15:48Z",
   "models": [
     {
       "id": "ByteDance-Seed/Seed-OSS-36B-Instruct",

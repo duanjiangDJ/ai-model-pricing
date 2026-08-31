@@ -6,8 +6,8 @@
 - 官网: https://kilo.ai
 - 定价页: https://kilo.ai
 - 币种: USD
-- 数据更新时间: 2026-08-30T04:37:49Z
-- 核实时间: 2026-08-30T04:37:49Z
+- 数据更新时间: 2026-08-31T03:15:48Z
+- 核实时间: 2026-08-31T03:15:48Z
 
 共 **375** 个模型。
 
@@ -69,7 +69,7 @@
 | `deepseek/deepseek-v3.2-exp` | — | reasoning | 按量 | 163.84K | $0.27 | $0.41 | — | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash` | — | reasoning | 按量 | 1.024M | $0.14 | $0.28 | $0.028 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | 按量 | 1.04858M | $0.44 | $1.32 | $0.028 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 按量 | 1.04858M | $0.22 | $0.66 | $0.007 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 按量 | 1.04858M | $0.44 | $1.32 | $0.014 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | 按量 | 1.04858M | $1.6 | $3.2 | $0.135 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | 按量 | 1.04858M | $1.32 | $3.96 | $0.132 | — | —/— | — | models.dev official list price |
 | `dots-studio/dots-3-note-preview:free` | — | reasoning | 免费 | 512K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
@@ -148,7 +148,7 @@
 | `minimax/minimax-m3` | — | reasoning | 按量 | 524.288K | $0.3 | $1.2 | $0.06 | — | —/— | — | models.dev official list price |
 | `minimax/minimax-m3:free` | — | reasoning | 免费 | 1.04858M | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `mistralai/codestral-2508` | — | chat | 按量 | 256K | $0.3 | $0.9 | $0.03 | — | —/— | — | models.dev official list price |
-| `mistralai/devstral-2512` | — | chat | 按量 | 262.144K | $0.44 | $2.2 | $0.044 | — | —/— | — | models.dev official list price |
+| `mistralai/devstral-2512` | — | chat | 按量 | 262.144K | $0.4 | $2 | $0.04 | — | —/— | — | models.dev official list price |
 | `mistralai/ministral-14b-2512` | — | chat | 按量 | 262.144K | $0.2 | $0.2 | $0.02 | — | —/— | — | models.dev official list price |
 | `mistralai/ministral-3b-2512` | — | chat | 按量 | 131.072K | $0.1 | $0.1 | $0.01 | — | —/— | — | models.dev official list price |
 | `mistralai/ministral-8b` | — | chat | 按量 | 128K | $0.11 | $0.11 | — | — | —/— | — | models.dev official list price |
@@ -159,12 +159,12 @@
 | `mistralai/mistral-medium-3` | — | chat | 按量 | 131.072K | $0.4 | $2 | $0.04 | — | —/— | — | models.dev official list price |
 | `mistralai/mistral-medium-3-5` | — | reasoning | 按量 | 262.144K | $1.5 | $7.5 | — | — | —/— | — | models.dev official list price |
 | `mistralai/mistral-medium-3.1` | — | chat | 按量 | 131.072K | $0.4 | $2 | $0.04 | — | —/— | — | models.dev official list price |
-| `mistralai/mistral-nemo` | — | chat | 按量 | 131.072K | $0.165 | $0.165 | $0.0165 | — | —/— | — | models.dev official list price |
+| `mistralai/mistral-nemo` | — | chat | 按量 | 131.072K | $0.019 | $0.03 | $0.0165 | — | —/— | — | models.dev official list price |
 | `mistralai/mistral-saba` | — | chat | 按量 | 32.768K | $0.2 | $0.6 | $0.02 | — | —/— | — | models.dev official list price |
 | `mistralai/mistral-small-24b-instruct-2501` | — | chat | 按量 | 32.768K | $0.05 | $0.08 | — | — | —/— | — | models.dev official list price |
 | `mistralai/mistral-small-2603` | — | reasoning | 按量 | 262.144K | $0.15 | $0.6 | $0.015 | — | —/— | — | models.dev official list price |
 | `mistralai/mistral-small-3.1-24b-instruct` | — | chat | 按量 | 128K | $0.351 | $0.555 | — | — | —/— | — | models.dev official list price |
-| `mistralai/mistral-small-3.2-24b-instruct` | — | chat | 按量 | 256K | $0.11 | $0.33 | $0.011 | — | —/— | — | models.dev official list price |
+| `mistralai/mistral-small-3.2-24b-instruct` | — | chat | 按量 | 256K | $0.075 | $0.2 | $0.011 | — | —/— | — | models.dev official list price |
 | `mistralai/mixtral-8x22b-instruct` | — | chat | 按量 | 65.536K | $2 | $6 | $0.2 | — | —/— | — | models.dev official list price |
 | `mistralai/voxtral-small-24b-2507` | — | chat | 按量 | 32K | $0.1 | $0.3 | $0.01 | — | —/— | — | models.dev official list price |
 | `moonshotai/kimi-k2` | — | chat | 按量 | 131.072K | $0.57 | $2.3 | — | — | —/— | — | models.dev official list price |
@@ -380,7 +380,7 @@
 | `~anthropic/claude-haiku-latest` | — | reasoning | 按量 | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `~anthropic/claude-opus-latest` | — | reasoning | 按量 | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
 | `~anthropic/claude-sonnet-latest` | — | reasoning | 按量 | 1M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
-| `~deepseek/deepseek-v4-flash-latest` | — | reasoning | 按量 | 1.04858M | $0.03 | $0.16 | $0.01 | — | —/— | — | models.dev official list price |
+| `~deepseek/deepseek-v4-flash-latest` | — | reasoning | 按量 | 1.04858M | $0.03 | $0.16 | $0.013 | — | —/— | — | models.dev official list price |
 | `~google/gemini-flash-latest` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `~google/gemini-pro-latest` | — | reasoning | 按量 | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `~moonshotai/kimi-latest` | — | reasoning | 按量 | 974.842K | $2.55 | $12.75 | $0.256 | — | —/— | — | models.dev official list price |
