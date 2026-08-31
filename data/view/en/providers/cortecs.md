@@ -6,10 +6,10 @@
 - Homepage: https://api.cortecs.ai/v1/models
 - Pricing page: https://api.cortecs.ai/v1/models
 - Currency: USD
-- Data updated: 2026-08-30T04:37:49Z
-- Verified: 2026-08-30T04:37:49Z
+- Data updated: 2026-08-31T21:17:21Z
+- Verified: 2026-08-31T21:17:21Z
 
-**111** models in total.
+**112** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -30,6 +30,7 @@
 | `deepseek-v3.2` | — | reasoning | per-token | 163.84K | $0.296 | $0.495 | $0.075 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-flash-0731` | — | reasoning | per-token | 1.04858M | $0.13 | $0.28 | $0.03 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-pro` | — | reasoning | per-token | 1.04858M | $1.73 | $3.46 | $0.432 | — | —/— | — | models.dev official list price |
+| `deepseek-v4-pro-0813` | — | reasoning | per-token | 1.04858M | $2 | $3.999 | $0.5 | — | —/— | — | models.dev official list price |
 | `devstral-2512` | — | chat | per-token | 262K | $0.446 | $2.228 | $0.045 | — | —/— | — | models.dev official list price |
 | `gemini-2.5-flash` | — | reasoning | per-token | 1.04858M | $0.299 | $2.491 | $0.029 | — | —/— | — | models.dev official list price |
 | `gemini-2.5-pro` | — | reasoning | per-token | 1.04858M | $1.495 | $9.964 | $0.242 | — | —/— | — | models.dev official list price |

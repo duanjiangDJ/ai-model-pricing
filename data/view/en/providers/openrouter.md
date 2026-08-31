@@ -6,10 +6,10 @@
 - Homepage: https://openrouter.ai
 - Pricing page: https://openrouter.ai/models
 - Currency: USD
-- Data updated: 2026-08-31T18:17:16Z
-- Verified: 2026-08-31T18:17:16Z
+- Data updated: 2026-08-31T21:17:21Z
+- Verified: 2026-08-31T21:17:21Z
 
-**395** models in total.
+**425** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -75,11 +75,11 @@
 | `deepseek/deepseek-v3.1-terminus` | — | reasoning | per-token | 163.84K | $2.7e-07 | $1e-06 | $1.35e-07 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2` | — | reasoning | per-token | 163.84K | $2.69e-07 | $4e-07 | $1.345e-07 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2-exp` | — | reasoning | per-token | 163.84K | $2.7e-07 | $4.1e-07 | — | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-flash` | — | reasoning | per-token | 1.04858M | $8.246e-08 | $1.6492e-07 | $1.6492e-08 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-flash` | — | reasoning | per-token | 1.04858M | $8.092e-08 | $1.6184e-07 | $1.6184e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | per-token | 1.31072M | $6.5e-08 | $1.8e-07 | $1.6e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731:batch` | — | reasoning | per-token | 1.04858M | $1.4e-07 | $2.8e-07 | $3e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | per-token | 1.04858M | $2.2e-07 | $6.6e-07 | $7e-09 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-pro` | — | reasoning | per-token | 1.04858M | $1.03426e-06 | $2.06851e-06 | $8.6188e-08 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-pro` | — | reasoning | per-token | 1.04858M | $1.02747e-06 | $2.05494e-06 | $8.56225e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | per-token | 1.04858M | $6.6e-07 | $1.98e-06 | $2.2e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813:batch` | — | reasoning | per-token | 1.04858M | $1.32e-06 | $3.96e-06 | $1.3e-07 | — | —/— | — | OpenRouter reseller price |
 | `dots-studio/dots-3-note-preview:free` | — | reasoning | per-token | 512K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price |
@@ -105,7 +105,7 @@
 | `google/gemini-3.1-pro-preview` | — | reasoning | per-image + per-token | 1.04858M | $2e-06 | $1.2e-05 | $2e-07 | $3.75e-07 | —/— | per-image | OpenRouter reseller price |
 | `google/gemini-3.1-pro-preview-customtools` | — | reasoning | per-image + per-token | 1.04858M | $2e-06 | $1.2e-05 | $2e-07 | $3.75e-07 | —/— | per-image | OpenRouter reseller price |
 | `google/gemini-3.1-pro-preview:batch` | — | reasoning | per-image + per-token | 1.04858M | $1e-06 | $6e-06 | — | — | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-3.5-flash` | — | reasoning | per-image + per-token | 1.04858M | $1.65e-06 | $9.9e-06 | $1.65e-07 | $8.33333e-08 | —/— | per-image | OpenRouter reseller price |
+| `google/gemini-3.5-flash` | — | reasoning | per-image + per-token | 1.04858M | $1.5e-06 | $9e-06 | $1.5e-07 | $8.33333e-08 | —/— | per-image | OpenRouter reseller price |
 | `google/gemini-3.5-flash-lite` | — | reasoning | per-image + per-token | 1.04858M | $3e-07 | $2.5e-06 | $3e-08 | $8.33333e-08 | —/— | per-image | OpenRouter reseller price |
 | `google/gemini-3.5-flash-lite:batch` | — | reasoning | per-image + per-token | 1.04858M | $1.5e-07 | $1.25e-06 | $1.5e-08 | — | —/— | per-image | OpenRouter reseller price |
 | `google/gemini-3.5-flash:batch` | — | reasoning | per-image + per-token | 1.04858M | $7.5e-07 | $4.5e-06 | $7.5e-08 | — | —/— | per-image | OpenRouter reseller price |
@@ -127,6 +127,7 @@
 | `gryphe/mythomax-l2-13b` | — | chat | per-token | 8.192K | $6e-08 | $6e-08 | — | — | —/— | — | OpenRouter reseller price |
 | `ibm-granite/granite-4.0-h-micro` | — | chat | per-token | 131K | $1.7e-08 | $1.12e-07 | — | — | —/— | — | OpenRouter reseller price |
 | `ibm-granite/granite-4.1-8b` | — | chat | per-token | 131.072K | $5e-08 | $1e-07 | $5e-08 | — | —/— | — | OpenRouter reseller price |
+| `ibm-granite/granite-4.2-8b` | — | reasoning | per-token | 131.072K | $1e-07 | $1.5e-07 | $5e-08 | — | —/— | — | OpenRouter reseller price |
 | `inception/mercury-2` | — | reasoning | per-token | 128K | $2.5e-07 | $7.5e-07 | $2.5e-08 | — | —/— | — | OpenRouter reseller price |
 | `inclusionai/ling-3.0-flash` | — | reasoning | per-token | 262.144K | $2.1e-08 | $6.3e-08 | $4.2e-09 | — | —/— | — | OpenRouter reseller price |
 | `inclusionai/ling-3.0-flash-fin:free` | — | reasoning | per-token | 262.144K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price |
@@ -216,46 +217,72 @@
 | `openai/gpt-3.5-turbo-0613` | — | chat | per-token | 4.095K | $1e-06 | $2e-06 | — | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-3.5-turbo-16k` | — | chat | per-token | 16.385K | $3e-06 | $4e-06 | — | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-3.5-turbo-instruct` | — | chat | per-token | 4.095K | $1.5e-06 | $2e-06 | — | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-3.5-turbo:batch` | — | chat | per-token | 16.385K | $2.5e-07 | $7.5e-07 | — | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-4` | — | chat | per-token | 8.191K | $3e-05 | $6e-05 | — | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-4-turbo` | — | chat | per-token | 128K | $1e-05 | $3e-05 | — | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-4-turbo-preview` | — | chat | per-token | 128K | $1e-05 | $3e-05 | — | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-4-turbo:batch` | — | chat | per-token | 128K | $5e-06 | $1.5e-05 | — | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-4.1` | — | chat | per-token | 1.04758M | $2e-06 | $8e-06 | $5e-07 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-4.1-mini` | — | chat | per-token | 1.04758M | $4e-07 | $1.6e-06 | $1e-07 | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-4.1-mini:batch` | — | chat | per-token | 1.04758M | $2e-07 | $8e-07 | $5e-08 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-4.1-nano` | — | chat | per-token | 1.04758M | $1e-07 | $4e-07 | $2.5e-08 | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-4.1-nano:batch` | — | chat | per-token | 1.04758M | $5e-08 | $2e-07 | $1.25e-08 | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-4.1:batch` | — | chat | per-token | 1.04758M | $1e-06 | $4e-06 | $2.5e-07 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-4o` | — | chat | per-token | 128K | $2.5e-06 | $1e-05 | $1.25e-06 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-4o-2024-05-13` | — | chat | per-token | 128K | $5e-06 | $1.5e-05 | — | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-4o-2024-08-06` | — | chat | per-token | 128K | $2.5e-06 | $1e-05 | $1.25e-06 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-4o-2024-11-20` | — | chat | per-token | 128K | $2.5e-06 | $1e-05 | $1.25e-06 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-4o-mini` | — | chat | per-token | 128K | $1.5e-07 | $6e-07 | $7.5e-08 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-4o-mini-2024-07-18` | — | chat | per-token | 128K | $1.5e-07 | $6e-07 | $7.5e-08 | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-4o-mini:batch` | — | chat | per-token | 128K | $7.5e-08 | $3e-07 | $3.75e-08 | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-4o:batch` | — | chat | per-token | 128K | $1.25e-06 | $5e-06 | $6.25e-07 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5` | — | reasoning | per-token | 400K | $1.25e-06 | $1e-05 | $1.25e-07 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5-image` | — | reasoning | per-token | 400K | $1e-05 | $1e-05 | $1.25e-06 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5-image-mini` | — | reasoning | per-token | 400K | $2.5e-06 | $2e-06 | $2.5e-07 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5-mini` | — | reasoning | per-token | 400K | $2.5e-07 | $2e-06 | $2.5e-08 | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-5-mini:batch` | — | reasoning | per-token | 400K | $1.25e-07 | $1e-06 | $1.25e-08 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5-nano` | — | reasoning | per-token | 400K | $5e-08 | $4e-07 | $5e-09 | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-5-nano:batch` | — | reasoning | per-token | 400K | $2.5e-08 | $2e-07 | $2.5e-09 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5-pro` | — | reasoning | per-token | 400K | $1.5e-05 | $0.00012 | — | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-5-pro:batch` | — | reasoning | per-token | 400K | $7.5e-06 | $6e-05 | — | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.1` | — | reasoning | per-token | 400K | $1.25e-06 | $1e-05 | $1.25e-07 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.1-codex` | — | reasoning | per-token | 400K | $1.25e-06 | $1e-05 | $1.3e-07 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.1-codex-max` | — | reasoning | per-token | 400K | $1.25e-06 | $1e-05 | $1.25e-07 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.1-codex-mini` | — | reasoning | per-token | 400K | $2.5e-07 | $2e-06 | $3e-08 | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-5.1:batch` | — | reasoning | per-token | 400K | $6.25e-07 | $5e-06 | $6.25e-08 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.2` | — | reasoning | per-token | 400K | $1.75e-06 | $1.4e-05 | $1.75e-07 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.2-chat` | — | chat | per-token | 128K | $1.75e-06 | $1.4e-05 | $1.75e-07 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.2-codex` | — | reasoning | per-token | 400K | $1.75e-06 | $1.4e-05 | $1.75e-07 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.2-pro` | — | reasoning | per-token | 400K | $2.1e-05 | $0.000168 | — | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-5.2-pro:batch` | — | reasoning | per-token | 400K | $1.05e-05 | $8.4e-05 | — | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-5.2:batch` | — | reasoning | per-token | 400K | $8.75e-07 | $7e-06 | $8.75e-08 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.3-codex` | — | reasoning | per-token | 400K | $1.75e-06 | $1.4e-05 | $1.75e-07 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.4` | — | reasoning | per-token | 1.05M | $2.5e-06 | $1.5e-05 | $2.5e-07 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.4-image-2` | — | reasoning | per-token | 272K | $8e-06 | $1.5e-05 | $2e-06 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.4-mini` | — | reasoning | per-token | 400K | $7.5e-07 | $4.5e-06 | $7.5e-08 | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-5.4-mini:batch` | — | reasoning | per-token | 400K | $3.75e-07 | $2.25e-06 | $3.75e-08 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.4-nano` | — | reasoning | per-token | 400K | $2e-07 | $1.25e-06 | $2e-08 | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-5.4-nano:batch` | — | reasoning | per-token | 400K | $1e-07 | $6.25e-07 | $1e-08 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.4-pro` | — | reasoning | per-token | 1.05M | $3e-05 | $0.00018 | — | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-5.4-pro:batch` | — | reasoning | per-token | 1.05M | $1.5e-05 | $9e-05 | — | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-5.4:batch` | — | reasoning | per-token | 1.05M | $1.25e-06 | $7.5e-06 | $1.25e-07 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.5` | — | reasoning | per-token | 1.05M | $5e-06 | $3e-05 | $5e-07 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.5-pro` | — | reasoning | per-token | 1.05M | $3e-05 | $0.00018 | — | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-5.5-pro:batch` | — | reasoning | per-token | 1.05M | $1.5e-05 | $9e-05 | — | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-5.5:batch` | — | reasoning | per-token | 1.05M | $2.5e-06 | $1.5e-05 | $2.5e-07 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.6-luna` | — | reasoning | per-token | 1.05M | $2e-07 | $1.2e-06 | $2e-08 | $2.5e-07 | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.6-luna-pro` | — | reasoning | per-token | 1.05M | $2e-07 | $1.2e-06 | $2e-08 | $2.5e-07 | —/— | — | OpenRouter reseller price |
+| `openai/gpt-5.6-luna-pro:batch` | — | reasoning | per-token | 1.05M | $1e-07 | $6e-07 | $1e-08 | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-5.6-luna:batch` | — | reasoning | per-token | 1.05M | $1e-07 | $6e-07 | $1e-08 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.6-sol` | — | reasoning | per-token | 1.05M | $2e-06 | $1e-05 | $2e-07 | $2.5e-06 | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.6-sol-pro` | — | reasoning | per-token | 1.05M | $2e-06 | $1e-05 | $2e-07 | $2.5e-06 | —/— | — | OpenRouter reseller price |
+| `openai/gpt-5.6-sol-pro:batch` | — | reasoning | per-token | 1.05M | $1e-06 | $5e-06 | $1e-07 | $1.25e-06 | —/— | — | OpenRouter reseller price |
+| `openai/gpt-5.6-sol:batch` | — | reasoning | per-token | 1.05M | $1e-06 | $5e-06 | $1e-07 | $1.25e-06 | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.6-terra` | — | reasoning | per-token | 1.05M | $2e-06 | $1.2e-05 | $2e-07 | $2.5e-06 | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.6-terra-pro` | — | reasoning | per-token | 1.05M | $2e-06 | $1.2e-05 | $2e-07 | $2.5e-06 | —/— | — | OpenRouter reseller price |
+| `openai/gpt-5.6-terra-pro:batch` | — | reasoning | per-token | 1.05M | $1e-06 | $6e-06 | $1e-07 | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-5.6-terra:batch` | — | reasoning | per-token | 1.05M | $1e-06 | $6e-06 | $1e-07 | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-5:batch` | — | reasoning | per-token | 400K | $6.25e-07 | $5e-06 | $6.25e-08 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-audio` | — | chat | per-token | 128K | $2.5e-06 | $1e-05 | — | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-audio-mini` | — | chat | per-token | 128K | $6e-07 | $2.4e-06 | — | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-chat-latest` | — | chat | per-token | 400K | $5e-06 | $3e-05 | $5e-07 | — | —/— | — | OpenRouter reseller price |
@@ -269,9 +296,12 @@
 | `openai/o3` | — | reasoning | per-token | 200K | $2e-06 | $8e-06 | $5e-07 | — | —/— | — | OpenRouter reseller price |
 | `openai/o3-mini` | — | reasoning | per-token | 200K | $1.1e-06 | $4.4e-06 | $5.5e-07 | — | —/— | — | OpenRouter reseller price |
 | `openai/o3-mini-high` | — | reasoning | per-token | 200K | $1.1e-06 | $4.4e-06 | $5.5e-07 | — | —/— | — | OpenRouter reseller price |
+| `openai/o3-mini:batch` | — | reasoning | per-token | 200K | $5.5e-07 | $2.2e-06 | $2.75e-07 | — | —/— | — | OpenRouter reseller price |
 | `openai/o3-pro` | — | reasoning | per-token | 200K | $2e-05 | $8e-05 | — | — | —/— | — | OpenRouter reseller price |
+| `openai/o3:batch` | — | reasoning | per-token | 200K | $1e-06 | $4e-06 | $2.5e-07 | — | —/— | — | OpenRouter reseller price |
 | `openai/o4-mini` | — | reasoning | per-token | 200K | $1.1e-06 | $4.4e-06 | $2.75e-07 | — | —/— | — | OpenRouter reseller price |
 | `openai/o4-mini-high` | — | reasoning | per-token | 200K | $1.1e-06 | $4.4e-06 | $2.75e-07 | — | —/— | — | OpenRouter reseller price |
+| `openai/o4-mini:batch` | — | reasoning | per-token | 200K | $5.5e-07 | $2.2e-06 | $1.375e-07 | — | —/— | — | OpenRouter reseller price |
 | `openrouter/auto` | — | chat | per-token | 2M | — | — | — | — | —/— | — | OpenRouter reseller price |
 | `openrouter/auto-beta` | — | chat | per-token | 2M | — | — | — | — | —/— | — | OpenRouter reseller price |
 | `openrouter/bodybuilder` | — | chat | per-token | 128K | — | — | — | — | —/— | — | OpenRouter reseller price |
@@ -310,7 +340,7 @@
 | `qwen/qwen3-coder-plus` | — | reasoning | per-token | 1M | $6.5e-07 | $3.25e-06 | $1.3e-07 | $8.125e-07 | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-max` | — | reasoning | per-token | 262.144K | $7.8e-07 | $3.9e-06 | $1.56e-07 | $9.75e-07 | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-max-thinking` | — | reasoning | per-token | 262.144K | $7.8e-07 | $3.9e-06 | — | — | —/— | — | OpenRouter reseller price |
-| `qwen/qwen3-next-80b-a3b-instruct` | — | chat | per-token | 262.144K | $9e-08 | $1.1e-06 | — | — | —/— | — | OpenRouter reseller price |
+| `qwen/qwen3-next-80b-a3b-instruct` | — | chat | per-token | 262.144K | $1e-07 | $1.1e-06 | $7e-08 | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-next-80b-a3b-thinking` | — | reasoning | per-token | 262.144K | $1.5e-07 | $1.2e-06 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-vl-235b-a22b-instruct` | — | chat | per-token | 262.144K | $2.1e-07 | $1.9e-06 | $1e-07 | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-vl-235b-a22b-thinking` | — | reasoning | per-token | 131.072K | $4e-07 | $4e-06 | — | — | —/— | — | OpenRouter reseller price |
@@ -336,8 +366,8 @@
 | `qwen/qwen3.7-flash` | — | reasoning | per-token | 1M | $3e-08 | $1.3e-07 | $6e-09 | $3.8e-08 | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.7-max` | — | reasoning | per-token | 1M | $1.475e-06 | $4.425e-06 | $2.95e-07 | $1.84375e-06 | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.7-plus` | — | reasoning | per-token | 1M | $3.2e-07 | $1.28e-06 | $6.4e-08 | $4e-07 | —/— | — | OpenRouter reseller price |
-| `qwen/qwen3.8-2.4t-a95b` | — | reasoning | per-token | 1.04858M | $2e-06 | $6e-06 | $2e-07 | — | —/— | — | OpenRouter reseller price |
-| `qwen/qwen3.8-2.4t-a95b:batch` | — | reasoning | per-token | 1.01M | $2e-06 | $6e-06 | $2.5e-07 | — | —/— | — | OpenRouter reseller price |
+| `qwen/qwen3.8-2.4t-a95b` | — | reasoning | per-token | 1.04858M | $2e-06 | $6e-06 | $2.5e-07 | — | —/— | — | OpenRouter reseller price |
+| `qwen/qwen3.8-2.4t-a95b:batch` | — | reasoning | per-token | 1.01M | $2.5e-06 | $6.25e-06 | $5e-07 | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.8-27b` | — | reasoning | per-token | 1M | $4.25e-07 | $2.55e-06 | $8.5e-08 | $5.3125e-07 | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.8-flash` | — | reasoning | per-token | 1M | $1.5e-07 | $4.7e-07 | $1.6e-08 | $2e-07 | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.8-max` | — | reasoning | per-token | 1M | $2e-06 | $6e-06 | $2.5e-07 | $2.5e-06 | —/— | — | OpenRouter reseller price |
@@ -400,7 +430,7 @@
 | `~anthropic/claude-haiku-latest` | — | reasoning | per-token | 200K | $1e-06 | $5e-06 | $1e-07 | $1.25e-06 | —/— | — | OpenRouter reseller price |
 | `~anthropic/claude-opus-latest` | — | reasoning | per-token | 1M | $5e-06 | $2.5e-05 | $5e-07 | $6.25e-06 | —/— | — | OpenRouter reseller price |
 | `~anthropic/claude-sonnet-latest` | — | reasoning | per-token | 1M | $2e-06 | $1e-05 | $2e-07 | $2.5e-06 | —/— | — | OpenRouter reseller price |
-| `~deepseek/deepseek-v4-flash-latest` | — | reasoning | per-token | 1.31072M | $3e-08 | $1.6e-07 | $1.3e-08 | — | —/— | — | OpenRouter reseller price |
+| `~deepseek/deepseek-v4-flash-latest` | — | reasoning | per-token | 1.31072M | $5e-08 | $1.6e-07 | $1.3e-08 | — | —/— | — | OpenRouter reseller price |
 | `~google/gemini-flash-latest` | — | reasoning | per-image + per-token | 1.04858M | $7.5e-07 | $3.75e-06 | $7.5e-08 | $4.16667e-08 | —/— | per-image | OpenRouter reseller price |
 | `~google/gemini-pro-latest` | — | reasoning | per-image + per-token | 1.04858M | $2e-06 | $1.2e-05 | $2e-07 | $3.75e-07 | —/— | per-image | OpenRouter reseller price |
 | `~moonshotai/kimi-latest` | — | reasoning | per-token | 1.04858M | $2.55e-06 | $1.275e-05 | $2.56e-07 | — | —/— | — | OpenRouter reseller price |

@@ -3,9 +3,9 @@
 > Data sources: official pricing pages & public APIs. Machine-readable version: [`data/feed/`](../../../data/feed/).
 > Auto-updated daily by GitHub Actions (see `.github/workflows/daily-check.yml`).
 
-- Generated: 2026-08-31T18:17:16Z
+- Generated: 2026-08-31T21:17:21Z
 - Providers: 190
-- Models total: 7434
+- Models total: 7465
 - Plans total: 67
 
 ## Providers
@@ -26,7 +26,7 @@
 | [QVAC](providers/qvac.md) | Inference host | 9 | `providers/qvac.json` | 2026-08-30T04:37:49Z |
 | [iFlow](providers/iflowcn.md) | Inference host | 14 | `providers/iflowcn.json` | 2026-08-30T04:37:49Z |
 | [Claudinio](providers/claudinio.md) | Inference host | 2 | `providers/claudinio.json` | 2026-08-30T04:37:49Z |
-| [Cortecs](providers/cortecs.md) | Inference host | 111 | `providers/cortecs.json` | 2026-08-30T04:37:49Z |
+| [Cortecs](providers/cortecs.md) | Inference host | 112 | `providers/cortecs.json` | 2026-08-31T21:17:21Z |
 | [NanoGPT](providers/nano-gpt.md) | Inference host | 684 | `providers/nano-gpt.json` | 2026-08-31T03:37:33Z |
 | [ModelScope](providers/modelscope.md) | Inference host | 7 | `providers/modelscope.json` | 2026-08-31T03:37:33Z |
 | [Synthetic](providers/synthetic.md) | Inference host | 9 | `providers/synthetic.json` | 2026-08-31T03:37:33Z |
@@ -201,7 +201,7 @@
 | [百川智能 (Baichuan)](providers/baichuan.md) | First-party | 1 | `providers/baichuan.json` | 2026-08-28T10:02:16.380334Z |
 | [科大讯飞星火 (iFlytek Spark)](providers/iflytek.md) | First-party | 2 | `providers/iflytek.json` | 2026-08-28T10:02:16.380334Z |
 | [零一万物 (01.AI)](providers/lingyiwanwu.md) | First-party | 2 | `providers/lingyiwanwu.json` | 2026-08-28T10:02:16.380334Z |
-| [OpenRouter](providers/openrouter.md) | Aggregator | 395 | `providers/openrouter.json` | 2026-08-31T18:17:16Z |
+| [OpenRouter](providers/openrouter.md) | Aggregator | 425 | `providers/openrouter.json` | 2026-08-31T21:17:21Z |
 
 ## Plans
 
