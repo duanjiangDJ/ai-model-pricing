@@ -1,6 +1,619 @@
 {
-  "schema_version": "26.21.24",
+  "schema_version": "26.22.24",
   "entries": [
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "cortecs",
+      "item_id": "deepseek-v4-pro-0813",
+      "field": "catalog",
+      "new": "deepseek-v4-pro-0813",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "ibm-granite/granite-4.2-8b",
+      "field": "catalog",
+      "new": "ibm-granite/granite-4.2-8b",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-3.5-turbo:batch",
+      "field": "catalog",
+      "new": "openai/gpt-3.5-turbo:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-4-turbo:batch",
+      "field": "catalog",
+      "new": "openai/gpt-4-turbo:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-4.1-mini:batch",
+      "field": "catalog",
+      "new": "openai/gpt-4.1-mini:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-4.1-nano:batch",
+      "field": "catalog",
+      "new": "openai/gpt-4.1-nano:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-4.1:batch",
+      "field": "catalog",
+      "new": "openai/gpt-4.1:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-4o-mini:batch",
+      "field": "catalog",
+      "new": "openai/gpt-4o-mini:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-4o:batch",
+      "field": "catalog",
+      "new": "openai/gpt-4o:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-5-mini:batch",
+      "field": "catalog",
+      "new": "openai/gpt-5-mini:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-5-nano:batch",
+      "field": "catalog",
+      "new": "openai/gpt-5-nano:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-5-pro:batch",
+      "field": "catalog",
+      "new": "openai/gpt-5-pro:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-5.1:batch",
+      "field": "catalog",
+      "new": "openai/gpt-5.1:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-5.2-pro:batch",
+      "field": "catalog",
+      "new": "openai/gpt-5.2-pro:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-5.2:batch",
+      "field": "catalog",
+      "new": "openai/gpt-5.2:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-5.4-mini:batch",
+      "field": "catalog",
+      "new": "openai/gpt-5.4-mini:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-5.4-nano:batch",
+      "field": "catalog",
+      "new": "openai/gpt-5.4-nano:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-5.4-pro:batch",
+      "field": "catalog",
+      "new": "openai/gpt-5.4-pro:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-5.4:batch",
+      "field": "catalog",
+      "new": "openai/gpt-5.4:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-5.5-pro:batch",
+      "field": "catalog",
+      "new": "openai/gpt-5.5-pro:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-5.5:batch",
+      "field": "catalog",
+      "new": "openai/gpt-5.5:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-5.6-luna-pro:batch",
+      "field": "catalog",
+      "new": "openai/gpt-5.6-luna-pro:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-5.6-luna:batch",
+      "field": "catalog",
+      "new": "openai/gpt-5.6-luna:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-5.6-sol-pro:batch",
+      "field": "catalog",
+      "new": "openai/gpt-5.6-sol-pro:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-5.6-sol:batch",
+      "field": "catalog",
+      "new": "openai/gpt-5.6-sol:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-5.6-terra-pro:batch",
+      "field": "catalog",
+      "new": "openai/gpt-5.6-terra-pro:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-5.6-terra:batch",
+      "field": "catalog",
+      "new": "openai/gpt-5.6-terra:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-5:batch",
+      "field": "catalog",
+      "new": "openai/gpt-5:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/o3-mini:batch",
+      "field": "catalog",
+      "new": "openai/o3-mini:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/o3:batch",
+      "field": "catalog",
+      "new": "openai/o3:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/o4-mini:batch",
+      "field": "catalog",
+      "new": "openai/o4-mini:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-flash",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 8.246e-08
+          },
+          "output": {
+            "usd": 1.6492e-07
+          },
+          "cache_read": {
+            "usd": 1.6492e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 8.092e-08
+          },
+          "output": {
+            "usd": 1.6184e-07
+          },
+          "cache_read": {
+            "usd": 1.6184e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-pro",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.034256e-06
+          },
+          "output": {
+            "usd": 2.068512e-06
+          },
+          "cache_read": {
+            "usd": 8.6188e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.02747e-06
+          },
+          "output": {
+            "usd": 2.05494e-06
+          },
+          "cache_read": {
+            "usd": 8.56225e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "google/gemini-3.5-flash",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.65e-06
+          },
+          "output": {
+            "usd": 9.9e-06
+          },
+          "cache_read": {
+            "usd": 1.65e-07
+          },
+          "cache_write": {
+            "usd": 8.33333333333333e-08
+          }
+        },
+        "per_image": [
+          {
+            "name": "default",
+            "price": {
+              "usd": 1.65e-06
+            }
+          }
+        ],
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.5e-06
+          },
+          "output": {
+            "usd": 9e-06
+          },
+          "cache_read": {
+            "usd": 1.5e-07
+          },
+          "cache_write": {
+            "usd": 8.33333333333333e-08
+          }
+        },
+        "per_image": [
+          {
+            "name": "default",
+            "price": {
+              "usd": 1.5e-06
+            }
+          }
+        ],
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "qwen/qwen3-next-80b-a3b-instruct",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 9e-08
+          },
+          "output": {
+            "usd": 1.1e-06
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 1e-07
+          },
+          "output": {
+            "usd": 1.1e-06
+          },
+          "cache_read": {
+            "usd": 7e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "qwen/qwen3.8-2.4t-a95b",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 6e-06
+          },
+          "cache_read": {
+            "usd": 2e-07
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 6e-06
+          },
+          "cache_read": {
+            "usd": 2.5e-07
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "qwen/qwen3.8-2.4t-a95b:batch",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 6e-06
+          },
+          "cache_read": {
+            "usd": 2.5e-07
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.5e-06
+          },
+          "output": {
+            "usd": 6.25e-06
+          },
+          "cache_read": {
+            "usd": 5e-07
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T21:17:21Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~deepseek/deepseek-v4-flash-latest",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 3e-08
+          },
+          "output": {
+            "usd": 1.6e-07
+          },
+          "cache_read": {
+            "usd": 1.3e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 5e-08
+          },
+          "output": {
+            "usd": 1.6e-07
+          },
+          "cache_read": {
+            "usd": 1.3e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-08-31T18:17:16Z",
       "kind": "update",

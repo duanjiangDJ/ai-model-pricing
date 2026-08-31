@@ -16,6 +16,13 @@
 
 ---
 
+## 26.22.24 — 2026-08-31T21:22Z（内容更新）
+
+- 价格同步（38 处变更）：
+- **cortecs**（新增 1）：`deepseek-v4-pro-0813`
+- **openrouter**（新增 30）：`ibm-granite/granite-4.2-8b`, `openai/gpt-3.5-turbo:batch`, `openai/gpt-4-turbo:batch`, `openai/gpt-4.1-mini:batch`, `openai/gpt-4.1-nano:batch`, `openai/gpt-4.1:batch`, `openai/gpt-4o-mini:batch`, `openai/gpt-4o:batch`, `openai/gpt-5-mini:batch`, `openai/gpt-5-nano:batch`, `openai/gpt-5-pro:batch`, `openai/gpt-5.1:batch`, `openai/gpt-5.2-pro:batch`, `openai/gpt-5.2:batch`, `openai/gpt-5.4-mini:batch`, `openai/gpt-5.4-nano:batch`, `openai/gpt-5.4-pro:batch`, `openai/gpt-5.4:batch`, `openai/gpt-5.5-pro:batch`, `openai/gpt-5.5:batch`, `openai/gpt-5.6-luna-pro:batch`, `openai/gpt-5.6-luna:batch`, `openai/gpt-5.6-sol-pro:batch`, `openai/gpt-5.6-sol:batch`, `openai/gpt-5.6-terra-pro:batch`, `openai/gpt-5.6-terra:batch`, `openai/gpt-5:batch`, `openai/o3-mini:batch`, `openai/o3:batch`, `openai/o4-mini:batch`
+- **openrouter**（更新 7）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `google/gemini-3.5-flash`, `qwen/qwen3-next-80b-a3b-instruct`, `qwen/qwen3.8-2.4t-a95b`, `qwen/qwen3.8-2.4t-a95b:batch`, `~deepseek/deepseek-v4-flash-latest`
+
 ## 26.21.24 — 2026-08-31T18:22Z（内容更新）
 
 - 价格同步（6 处变更）：

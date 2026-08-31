@@ -3,9 +3,9 @@
 > 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/feed/`](../../../data/feed/)。
 > 更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。
 
-- 数据更新时间: 2026-08-31T18:17:16Z
+- 数据更新时间: 2026-08-31T21:17:21Z
 - 覆盖渠道: 190
-- 模型总数: 7434
+- 模型总数: 7465
 - 订阅计划数: 67
 
 ## 供应商列表
@@ -26,7 +26,7 @@
 | [QVAC](providers/qvac.md) | 推理托管 | 9 | `providers/qvac.json` | 2026-08-30T04:37:49Z |
 | [iFlow](providers/iflowcn.md) | 推理托管 | 14 | `providers/iflowcn.json` | 2026-08-30T04:37:49Z |
 | [Claudinio](providers/claudinio.md) | 推理托管 | 2 | `providers/claudinio.json` | 2026-08-30T04:37:49Z |
-| [Cortecs](providers/cortecs.md) | 推理托管 | 111 | `providers/cortecs.json` | 2026-08-30T04:37:49Z |
+| [Cortecs](providers/cortecs.md) | 推理托管 | 112 | `providers/cortecs.json` | 2026-08-31T21:17:21Z |
 | [NanoGPT](providers/nano-gpt.md) | 推理托管 | 684 | `providers/nano-gpt.json` | 2026-08-31T03:37:33Z |
 | [ModelScope](providers/modelscope.md) | 推理托管 | 7 | `providers/modelscope.json` | 2026-08-31T03:37:33Z |
 | [Synthetic](providers/synthetic.md) | 推理托管 | 9 | `providers/synthetic.json` | 2026-08-31T03:37:33Z |
@@ -201,7 +201,7 @@
 | [百川智能 (Baichuan)](providers/baichuan.md) | 官方直供 | 1 | `providers/baichuan.json` | 2026-08-28T10:02:16.380334Z |
 | [科大讯飞星火 (iFlytek Spark)](providers/iflytek.md) | 官方直供 | 2 | `providers/iflytek.json` | 2026-08-28T10:02:16.380334Z |
 | [零一万物 (01.AI)](providers/lingyiwanwu.md) | 官方直供 | 2 | `providers/lingyiwanwu.json` | 2026-08-28T10:02:16.380334Z |
-| [OpenRouter](providers/openrouter.md) | 聚合站 | 395 | `providers/openrouter.json` | 2026-08-31T18:17:16Z |
+| [OpenRouter](providers/openrouter.md) | 聚合站 | 425 | `providers/openrouter.json` | 2026-08-31T21:17:21Z |
 
 ## 订阅计划
 

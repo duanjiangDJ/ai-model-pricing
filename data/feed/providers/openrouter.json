@@ -7,8 +7,8 @@
   "homepage": "https://openrouter.ai",
   "pricing_page": "https://openrouter.ai/models",
   "currency": "USD",
-  "updated_at": "2026-08-31T18:17:16Z",
-  "verified_at": "2026-08-31T18:17:16Z",
+  "updated_at": "2026-08-31T21:17:21Z",
+  "verified_at": "2026-08-31T21:17:21Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1940,13 +1940,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 8.246e-08
+            "usd": 8.092e-08
           },
           "output": {
-            "usd": 1.6492e-07
+            "usd": 1.6184e-07
           },
           "cache_read": {
-            "usd": 1.6492e-08
+            "usd": 1.6184e-08
           },
           "cache_write": null
         },
@@ -2061,13 +2061,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.034256e-06
+            "usd": 1.02747e-06
           },
           "output": {
-            "usd": 2.068512e-06
+            "usd": 2.05494e-06
           },
           "cache_read": {
-            "usd": 8.6188e-08
+            "usd": 8.56225e-08
           },
           "cache_write": null
         },
@@ -3065,13 +3065,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.65e-06
+            "usd": 1.5e-06
           },
           "output": {
-            "usd": 9.9e-06
+            "usd": 9e-06
           },
           "cache_read": {
-            "usd": 1.65e-07
+            "usd": 1.5e-07
           },
           "cache_write": {
             "usd": 8.33333333333333e-08
@@ -3081,7 +3081,7 @@
           {
             "name": "default",
             "price": {
-              "usd": 1.65e-06
+              "usd": 1.5e-06
             }
           }
         ],
@@ -3788,6 +3788,36 @@
           },
           "output": {
             "usd": 1e-07
+          },
+          "cache_read": {
+            "usd": 5e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "ibm-granite/granite-4.2-8b",
+      "name": "IBM: Granite 4.2 8B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131072,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1e-07
+          },
+          "output": {
+            "usd": 1.5e-07
           },
           "cache_read": {
             "usd": 5e-08
@@ -6442,6 +6472,34 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "openai/gpt-3.5-turbo:batch",
+      "name": "OpenAI: GPT-3.5 Turbo (batch)",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 16385,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.5e-07
+          },
+          "output": {
+            "usd": 7.5e-07
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "openai/gpt-4",
       "name": "OpenAI: GPT-4",
       "category": "chat",
@@ -6527,6 +6585,35 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "openai/gpt-4-turbo:batch",
+      "name": "OpenAI: GPT-4 Turbo (batch)",
+      "category": "chat",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 128000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 5e-06
+          },
+          "output": {
+            "usd": 1.5e-05
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "openai/gpt-4.1",
       "name": "OpenAI: GPT-4.1",
       "category": "chat",
@@ -6589,6 +6676,37 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "openai/gpt-4.1-mini:batch",
+      "name": "OpenAI: GPT-4.1 Mini (batch)",
+      "category": "chat",
+      "modalities": [
+        "image_in",
+        "text"
+      ],
+      "context_window": 1047576,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 2e-07
+          },
+          "output": {
+            "usd": 8e-07
+          },
+          "cache_read": {
+            "usd": 5e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "openai/gpt-4.1-nano",
       "name": "OpenAI: GPT-4.1 Nano",
       "category": "chat",
@@ -6611,6 +6729,68 @@
           },
           "cache_read": {
             "usd": 2.5e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "openai/gpt-4.1-nano:batch",
+      "name": "OpenAI: GPT-4.1 Nano (batch)",
+      "category": "chat",
+      "modalities": [
+        "image_in",
+        "text"
+      ],
+      "context_window": 1047576,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 5e-08
+          },
+          "output": {
+            "usd": 2e-07
+          },
+          "cache_read": {
+            "usd": 1.25e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "openai/gpt-4.1:batch",
+      "name": "OpenAI: GPT-4.1 (batch)",
+      "category": "chat",
+      "modalities": [
+        "image_in",
+        "text"
+      ],
+      "context_window": 1047576,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1e-06
+          },
+          "output": {
+            "usd": 4e-06
+          },
+          "cache_read": {
+            "usd": 2.5e-07
           },
           "cache_write": null
         },
@@ -6804,6 +6984,68 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "openai/gpt-4o-mini:batch",
+      "name": "OpenAI: GPT-4o-mini (batch)",
+      "category": "chat",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 128000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 7.5e-08
+          },
+          "output": {
+            "usd": 3e-07
+          },
+          "cache_read": {
+            "usd": 3.75e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "openai/gpt-4o:batch",
+      "name": "OpenAI: GPT-4o (batch)",
+      "category": "chat",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 128000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.25e-06
+          },
+          "output": {
+            "usd": 5e-06
+          },
+          "cache_read": {
+            "usd": 6.25e-07
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "openai/gpt-5",
       "name": "OpenAI: GPT-5",
       "category": "reasoning",
@@ -6928,6 +7170,37 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "openai/gpt-5-mini:batch",
+      "name": "OpenAI: GPT-5 Mini (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 400000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.25e-07
+          },
+          "output": {
+            "usd": 1e-06
+          },
+          "cache_read": {
+            "usd": 1.25e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "openai/gpt-5-nano",
       "name": "OpenAI: GPT-5 Nano",
       "category": "reasoning",
@@ -6959,6 +7232,37 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "openai/gpt-5-nano:batch",
+      "name": "OpenAI: GPT-5 Nano (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 400000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.5e-08
+          },
+          "output": {
+            "usd": 2e-07
+          },
+          "cache_read": {
+            "usd": 2.5e-09
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "openai/gpt-5-pro",
       "name": "OpenAI: GPT-5 Pro",
       "category": "reasoning",
@@ -6978,6 +7282,35 @@
           },
           "output": {
             "usd": 0.00012
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "openai/gpt-5-pro:batch",
+      "name": "OpenAI: GPT-5 Pro (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "image_in",
+        "text"
+      ],
+      "context_window": 400000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 7.5e-06
+          },
+          "output": {
+            "usd": 6e-05
           },
           "cache_read": null,
           "cache_write": null
@@ -7112,6 +7445,37 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "openai/gpt-5.1:batch",
+      "name": "OpenAI: GPT-5.1 (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "image_in",
+        "text"
+      ],
+      "context_window": 400000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 6.25e-07
+          },
+          "output": {
+            "usd": 5e-06
+          },
+          "cache_read": {
+            "usd": 6.25e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "openai/gpt-5.2",
       "name": "OpenAI: GPT-5.2",
       "category": "reasoning",
@@ -7226,6 +7590,66 @@
             "usd": 0.000168
           },
           "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "openai/gpt-5.2-pro:batch",
+      "name": "OpenAI: GPT-5.2 Pro (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "image_in",
+        "text"
+      ],
+      "context_window": 400000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.05e-05
+          },
+          "output": {
+            "usd": 8.4e-05
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "openai/gpt-5.2:batch",
+      "name": "OpenAI: GPT-5.2 (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "image_in",
+        "text"
+      ],
+      "context_window": 400000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 8.75e-07
+          },
+          "output": {
+            "usd": 7e-06
+          },
+          "cache_read": {
+            "usd": 8.75e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -7358,6 +7782,37 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "openai/gpt-5.4-mini:batch",
+      "name": "OpenAI: GPT-5.4 Mini (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "image_in",
+        "text"
+      ],
+      "context_window": 400000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 3.75e-07
+          },
+          "output": {
+            "usd": 2.25e-06
+          },
+          "cache_read": {
+            "usd": 3.75e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "openai/gpt-5.4-nano",
       "name": "OpenAI: GPT-5.4 Nano",
       "category": "reasoning",
@@ -7389,6 +7844,37 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "openai/gpt-5.4-nano:batch",
+      "name": "OpenAI: GPT-5.4 Nano (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "image_in",
+        "text"
+      ],
+      "context_window": 400000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1e-07
+          },
+          "output": {
+            "usd": 6.25e-07
+          },
+          "cache_read": {
+            "usd": 1e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "openai/gpt-5.4-pro",
       "name": "OpenAI: GPT-5.4 Pro",
       "category": "reasoning",
@@ -7410,6 +7896,66 @@
             "usd": 0.00018
           },
           "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "openai/gpt-5.4-pro:batch",
+      "name": "OpenAI: GPT-5.4 Pro (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 1050000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.5e-05
+          },
+          "output": {
+            "usd": 9e-05
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "openai/gpt-5.4:batch",
+      "name": "OpenAI: GPT-5.4 (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 1050000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.25e-06
+          },
+          "output": {
+            "usd": 7.5e-06
+          },
+          "cache_read": {
+            "usd": 1.25e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -7470,6 +8016,66 @@
             "usd": 0.00018
           },
           "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "openai/gpt-5.5-pro:batch",
+      "name": "OpenAI: GPT-5.5 Pro (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "image_in",
+        "text"
+      ],
+      "context_window": 1050000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.5e-05
+          },
+          "output": {
+            "usd": 9e-05
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "openai/gpt-5.5:batch",
+      "name": "OpenAI: GPT-5.5 (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "image_in",
+        "text"
+      ],
+      "context_window": 1050000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.5e-06
+          },
+          "output": {
+            "usd": 1.5e-05
+          },
+          "cache_read": {
+            "usd": 2.5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -7544,6 +8150,68 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "openai/gpt-5.6-luna-pro:batch",
+      "name": "OpenAI: GPT-5.6 Luna Pro (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "image_in",
+        "text"
+      ],
+      "context_window": 1050000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1e-07
+          },
+          "output": {
+            "usd": 6e-07
+          },
+          "cache_read": {
+            "usd": 1e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "openai/gpt-5.6-luna:batch",
+      "name": "OpenAI: GPT-5.6 Luna (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "image_in",
+        "text"
+      ],
+      "context_window": 1050000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1e-07
+          },
+          "output": {
+            "usd": 6e-07
+          },
+          "cache_read": {
+            "usd": 1e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "openai/gpt-5.6-sol",
       "name": "OpenAI: GPT-5.6 Sol",
       "category": "reasoning",
@@ -7602,6 +8270,72 @@
           },
           "cache_write": {
             "usd": 2.5e-06
+          }
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "openai/gpt-5.6-sol-pro:batch",
+      "name": "OpenAI: GPT-5.6 Sol Pro (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "image_in",
+        "text"
+      ],
+      "context_window": 1050000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1e-06
+          },
+          "output": {
+            "usd": 5e-06
+          },
+          "cache_read": {
+            "usd": 1e-07
+          },
+          "cache_write": {
+            "usd": 1.25e-06
+          }
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "openai/gpt-5.6-sol:batch",
+      "name": "OpenAI: GPT-5.6 Sol (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "image_in",
+        "text"
+      ],
+      "context_window": 1050000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1e-06
+          },
+          "output": {
+            "usd": 5e-06
+          },
+          "cache_read": {
+            "usd": 1e-07
+          },
+          "cache_write": {
+            "usd": 1.25e-06
           }
         },
         "per_image": null,
@@ -7669,6 +8403,99 @@
           "cache_write": {
             "usd": 2.5e-06
           }
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "openai/gpt-5.6-terra-pro:batch",
+      "name": "OpenAI: GPT-5.6 Terra Pro (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "image_in",
+        "text"
+      ],
+      "context_window": 1050000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1e-06
+          },
+          "output": {
+            "usd": 6e-06
+          },
+          "cache_read": {
+            "usd": 1e-07
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "openai/gpt-5.6-terra:batch",
+      "name": "OpenAI: GPT-5.6 Terra (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "image_in",
+        "text"
+      ],
+      "context_window": 1050000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1e-06
+          },
+          "output": {
+            "usd": 6e-06
+          },
+          "cache_read": {
+            "usd": 1e-07
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "openai/gpt-5:batch",
+      "name": "OpenAI: GPT-5 (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 400000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 6.25e-07
+          },
+          "output": {
+            "usd": 5e-06
+          },
+          "cache_read": {
+            "usd": 6.25e-08
+          },
+          "cache_write": null
         },
         "per_image": null,
         "promo": null
@@ -8060,6 +8887,36 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "openai/o3-mini:batch",
+      "name": "OpenAI: o3 Mini (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 5.5e-07
+          },
+          "output": {
+            "usd": 2.2e-06
+          },
+          "cache_read": {
+            "usd": 2.75e-07
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "openai/o3-pro",
       "name": "OpenAI: o3 Pro",
       "category": "reasoning",
@@ -8081,6 +8938,37 @@
             "usd": 8e-05
           },
           "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "openai/o3:batch",
+      "name": "OpenAI: o3 (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "image_in",
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1e-06
+          },
+          "output": {
+            "usd": 4e-06
+          },
+          "cache_read": {
+            "usd": 2.5e-07
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -8142,6 +9030,37 @@
           },
           "cache_read": {
             "usd": 2.75e-07
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "openai/o4-mini:batch",
+      "name": "OpenAI: o4 Mini (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "image_in",
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 5.5e-07
+          },
+          "output": {
+            "usd": 2.2e-06
+          },
+          "cache_read": {
+            "usd": 1.375e-07
           },
           "cache_write": null
         },
@@ -9249,12 +10168,14 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 9e-08
+            "usd": 1e-07
           },
           "output": {
             "usd": 1.1e-06
           },
-          "cache_read": null,
+          "cache_read": {
+            "usd": 7e-08
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -10047,7 +10968,7 @@
             "usd": 6e-06
           },
           "cache_read": {
-            "usd": 2e-07
+            "usd": 2.5e-07
           },
           "cache_write": null
         },
@@ -10071,13 +10992,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2e-06
+            "usd": 2.5e-06
           },
           "output": {
-            "usd": 6e-06
+            "usd": 6.25e-06
           },
           "cache_read": {
-            "usd": 2.5e-07
+            "usd": 5e-07
           },
           "cache_write": null
         },
@@ -11985,7 +12906,7 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 3e-08
+            "usd": 5e-08
           },
           "output": {
             "usd": 1.6e-07
