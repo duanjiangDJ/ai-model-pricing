@@ -7,8 +7,8 @@
   "homepage": "https://www.crossmodel.ai/docs",
   "pricing_page": "https://www.crossmodel.ai/docs",
   "currency": "USD",
-  "updated_at": "2026-08-30T04:37:49Z",
-  "verified_at": "2026-08-30T04:37:49Z",
+  "updated_at": "2026-08-31T03:37:33Z",
+  "verified_at": "2026-08-31T03:37:33Z",
   "models": [
     {
       "id": "anthropic/claude-fable-5",
@@ -1350,6 +1350,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "tencent/hy4-preview",
+      "name": "Hy4 preview",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 1048576,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.96
+          },
+          "output": {
+            "usd": 2.88
+          },
+          "cache_read": {
+            "usd": 0.048
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "x-ai/grok-4.3",

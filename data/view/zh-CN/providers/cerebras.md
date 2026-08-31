@@ -6,8 +6,8 @@
 - 官网: https://inference-docs.cerebras.ai/models/overview
 - 定价页: https://inference-docs.cerebras.ai/models/overview
 - 币种: USD
-- 数据更新时间: 2026-08-30T04:37:49Z
-- 核实时间: 2026-08-30T04:37:49Z
+- 数据更新时间: 2026-08-31T03:37:33Z
+- 核实时间: 2026-08-31T03:37:33Z
 
 共 **2** 个模型。
 

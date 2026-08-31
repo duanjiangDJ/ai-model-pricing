@@ -6,8 +6,8 @@
 - Homepage: https://platform.xiaomimimo.com/#/docs
 - Pricing page: https://mimo.mi.com/docs/price/pay-as-you-go
 - Currency: USD
-- Data updated: 2026-08-30T04:37:49Z
-- Verified: 2026-08-30T04:37:49Z
+- Data updated: 2026-08-31T03:37:33Z
+- Verified: 2026-08-31T03:37:33Z
 
 **10** models in total.
 

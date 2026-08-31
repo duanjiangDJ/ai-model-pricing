@@ -16,6 +16,22 @@
 
 ---
 
+## 26.16.24 — 2026-08-31T03:44Z（内容更新）
+
+- 价格同步（80 处变更）：
+- **alibaba**（更新 14）：`qwen3.7-plus`, `qwen3.6-flash`, `qwen-vl-ocr`, `qwen3.6-35b-a3b`, `qwen3-next-80b-a3b-thinking`, `qwen3-next-80b-a3b-instruct`, `qwen3-32b` — 入 $0.72 出 $0.72; 入 $0.7 出 $2.8; 入 $0.5 出 $2; 入 $0.5 出 $6; 入 $0.248 出 $1.485; 入 $0.1875 出 $1.125; 入 $0.5 出 $3
+- **berget**（新增 2）：`zai-org/GLM-5.3`, `zai-org/GLM-5.3-Flash`
+- **crossmodel**（新增 1）：`tencent/hy4-preview`
+- **deepseek**（更新 6）：`deepseek-v4-flash`, `deepseek-v4-pro`, `deepseek-v4-flash-vision-exp` — 入 $0.14 出 $0.28 缓存 $0.0028; 入 $0.14 出 $0.28 缓存 $0.0028; 入 $0.435 出 $0.87
+- **edenai**（更新 6）：`flexai/Muse-Glimmer-30B`, `mistral/codestral-latest`, `mistral/devstral-2512`, `mistral/mistral-medium-2604`, `mistral/mistral-medium-latest`, `mistral/mistral-small-latest` — 出 $1.1; 缓存 $0.03; 入 $0.4 出 $2 缓存 $0.04; 缓存 $0.15; 缓存 $0.15; 缓存 $0.015
+- **kilo**（更新 6）：`deepseek/deepseek-v4-flash-vision-exp`, `mistralai/devstral-2512`, `mistralai/mistral-nemo`, `mistralai/mistral-small-3.2-24b-instruct`, `~deepseek/deepseek-v4-flash-latest`, `~z-ai/glm-latest` — 入 $0.44 出 $1.32 缓存 $0.014; 入 $0.4 出 $2 缓存 $0.04; 入 $0.019 出 $0.03; 入 $0.075 出 $0.2; 缓存 $0.013; 入 $0 出 $0
+- **minimax**（更新 2）：`MiniMax-M2.5-highspeed` — 缓存 $0.06
+- **mistral**（更新 4）：`ministral-3b-latest`, `ministral-8b-latest` — 入 $0.04 出 $0.04; 入 $0.1 出 $0.1
+- **nano-gpt**（更新 33）：`Gemma-4-26B-A4B-MeroMero`, `Gemma-4-26B-A4B-MeroMero:thinking`, `Gemma-4-31B-MeroMero-v2`, `Gemma-4-31B-MeroMero-v2:thinking`, `deepseek/deepseek-v4-flash-vision-exp`, `gemma-4-26b-a4b-it-chimerax`, `gemma-4-26b-a4b-it-darksoul`, `gemma-4-26b-a4b-it-luminous`, `gemma-4-26b-a4b-it-moonlight`, `gemma-4-26b-a4b-it-musica`, `gemma-4-26b-a4b-it-opusdistill`, `gemma-4-26b-a4b-it-shadowsiren`, `gemma-4-26b-a4b-uncensored`, `gemma-4-26b-a4b-uncensored:thinking`, `gemma-4-31b-it-darkidol`, `gemma-4-31b-it-fabled`, `gemma-4-31b-it-garnet`, `gemma-4-31b-it-gembrain`, `gemma-4-31b-it-gemsicle`, `gemma-4-31b-it-isometry`, `gemma-4-31b-it-novelist`, `google/gemma-4-26b-a4b-it`, `google/gemma-4-31b-it`, `ornith-ai/ornith-1.5-9b`, `ornith-ai/ornith-1.5-9b:thinking`, `qwen/qwen3.6-35b-a3b-uncensored`, `qwen/qwen3.6-35b-a3b-uncensored:thinking`, `qwen/qwen3.8-27b-fable`, `qwen/qwen3.8-27b-obliterated`, `qwen/qwen3.8-27b-obliterated:thinking`, `qwen/qwen3.8-27b-uncensored`, `qwen/qwen3.8-27b-uncensored:thinking`, `z-ai/glm-5.3-flash-uncensored` — 入 $0.12 出 $0.38 缓存 $0.06; 入 $0.12 出 $0.38 缓存 $0.06; 入 $0.1 出 $0.45 缓存 $0.05; 入 $0.1 出 $0.45 缓存 $0.05; 入 $0.44 出 $1.32 缓存 $0.014; 入 $0.12 出 $0.38 缓存 $0.06; 入 $0.12 出 $0.38 缓存 $0.06; 入 $0.12 出 $0.38 缓存 $0.06; 入 $0.12 出 $0.38 缓存 $0.06; 入 $0.12 出 $0.38 缓存 $0.06; 入 $0.12 出 $0.38 缓存 $0.06; 入 $0.12 出 $0.38 缓存 $0.06; 入 $0.12 出 $0.38 缓存 $0.06; 入 $0.12 出 $0.38 缓存 $0.06; 入 $0.1 出 $0.45 缓存 $0.05; 入 $0.1 出 $0.45 缓存 $0.05; 入 $0.1 出 $0.45 缓存 $0.05; 入 $0.1 出 $0.45 缓存 $0.05; 入 $0.1 出 $0.45 缓存 $0.05; 入 $0.1 出 $0.45 缓存 $0.05; 入 $0.1 出 $0.45 缓存 $0.05; 入 $0.12 出 $0.38 缓存 $0.06; 入 $0.1 出 $0.45 缓存 $0.05; 入 $0.1 出 $0.2 缓存 $0.05; 入 $0.1 出 $0.2 缓存 $0.05; 出 $0.95; 出 $0.95; 入 $0.25 出 $1.5 缓存 $0.125; 入 $0.25 出 $1.5 缓存 $0.125; 入 $0.25 出 $1.5 缓存 $0.125; 入 $0.25 出 $1.5 缓存 $0.125; 入 $0.25 出 $1.5 缓存 $0.125; 入 $0.35 出 $1.4 缓存 $0.175
+- **openrouter**（更新 7）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-flash-vision-exp`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`, `meta-llama/llama-4-maverick`, `moonshotai/kimi-k2.5`, `tencent/hy3`
+- **trustedrouter**（新增 7）：`trustedrouter/auto`, `trustedrouter/cheap`, `trustedrouter/e2e`, `trustedrouter/fast`, `trustedrouter/synth`, `trustedrouter/synth-code`, `trustedrouter/zdr`
+- **vercel**（新增 1）：`minimax/minimax-h3-max`
+
 ## 26.15.24 — 2026-08-30T23:24Z（内容更新）
 
 - 价格同步（1 处变更）：

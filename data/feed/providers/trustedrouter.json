@@ -7,8 +7,8 @@
   "homepage": "https://trustedrouter.com/docs",
   "pricing_page": "https://trustedrouter.com/docs",
   "currency": "USD",
-  "updated_at": "2026-08-30T04:37:49Z",
-  "verified_at": "2026-08-30T04:37:49Z",
+  "updated_at": "2026-08-31T03:37:33Z",
+  "verified_at": "2026-08-31T03:37:33Z",
   "models": [
     {
       "id": "auto",
@@ -165,6 +165,181 @@
       "billing_model": [
         "unknown"
       ]
+    },
+    {
+      "id": "trustedrouter/auto",
+      "name": "Auto",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "billing_model": [
+        "unknown"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": null,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "trustedrouter/cheap",
+      "name": "Cheap",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "billing_model": [
+        "unknown"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": null,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "trustedrouter/e2e",
+      "name": "End-to-End Encrypted",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "billing_model": [
+        "unknown"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": null,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "trustedrouter/fast",
+      "name": "Fast",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "billing_model": [
+        "unknown"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": null,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "trustedrouter/synth",
+      "name": "Synth",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "billing_model": [
+        "unknown"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": null,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "trustedrouter/synth-code",
+      "name": "Synth Code",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "billing_model": [
+        "unknown"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": null,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "trustedrouter/zdr",
+      "name": "Zero Data Retention",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "billing_model": [
+        "unknown"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": null,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "zdr",

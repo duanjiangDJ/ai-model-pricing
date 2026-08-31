@@ -6,8 +6,8 @@
 - 官网: https://platform.stepfun.ai/docs/en/step-plan/integrations/reasoning-api
 - 定价页: https://platform.stepfun.ai/docs/en/step-plan/integrations/reasoning-api
 - 币种: USD
-- 数据更新时间: 2026-08-30T04:37:49Z
-- 核实时间: 2026-08-30T04:37:49Z
+- 数据更新时间: 2026-08-31T03:37:33Z
+- 核实时间: 2026-08-31T03:37:33Z
 
 共 **3** 个模型。
 

@@ -6,10 +6,10 @@
 - Homepage: https://www.crossmodel.ai/docs
 - Pricing page: https://www.crossmodel.ai/docs
 - Currency: USD
-- Data updated: 2026-08-30T04:37:49Z
-- Verified: 2026-08-30T04:37:49Z
+- Data updated: 2026-08-31T03:37:33Z
+- Verified: 2026-08-31T03:37:33Z
 
-**55** models in total.
+**56** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -55,6 +55,7 @@
 | `qwen/qwen3.8-flash` | — | reasoning | per-token | 1M | $0.13 | $0.43 | $0.016 | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.8-max` | — | reasoning | per-token | 1M | $1.88 | $5.63 | $0.23 | — | —/— | — | models.dev official list price |
 | `tencent/hy3` | — | reasoning | per-token | 262.144K | $0.16 | $0.64 | $0.04 | — | —/— | — | models.dev official list price |
+| `tencent/hy4-preview` | — | reasoning | per-token | 1.04858M | $0.96 | $2.88 | $0.048 | — | —/— | — | models.dev official list price |
 | `x-ai/grok-4.3` | — | reasoning | per-token | 1M | $1.25 | $2.5 | $0.2 | — | —/— | — | models.dev official list price |
 | `x-ai/grok-4.5` | — | reasoning | per-token | 500K | $2 | $6 | $0.3 | — | —/— | — | models.dev official list price |
 | `x-ai/grok-4.6` | — | reasoning | per-token | 500K | $2 | $6 | $0.5 | — | —/— | — | models.dev official list price |

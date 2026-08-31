@@ -7,8 +7,8 @@
   "homepage": "https://kilo.ai",
   "pricing_page": "https://kilo.ai",
   "currency": "USD",
-  "updated_at": "2026-08-30T04:37:49Z",
-  "verified_at": "2026-08-30T04:37:49Z",
+  "updated_at": "2026-08-31T03:37:33Z",
+  "verified_at": "2026-08-31T03:37:33Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1762,13 +1762,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.22
+            "usd": 0.44
           },
           "output": {
-            "usd": 0.66
+            "usd": 1.32
           },
           "cache_read": {
-            "usd": 0.007
+            "usd": 0.014
           },
           "cache_write": null
         },
@@ -4229,13 +4229,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.44
+            "usd": 0.4
           },
           "output": {
-            "usd": 2.2
+            "usd": 2
           },
           "cache_read": {
-            "usd": 0.044
+            "usd": 0.04
           },
           "cache_write": null
         },
@@ -4577,10 +4577,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.165
+            "usd": 0.019
           },
           "output": {
-            "usd": 0.165
+            "usd": 0.03
           },
           "cache_read": {
             "usd": 0.0165
@@ -4733,10 +4733,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.11
+            "usd": 0.075
           },
           "output": {
-            "usd": 0.33
+            "usd": 0.2
           },
           "cache_read": {
             "usd": 0.011
@@ -11450,7 +11450,7 @@
             "usd": 0.16
           },
           "cache_read": {
-            "usd": 0.01
+            "usd": 0.013
           },
           "cache_write": null
         },
@@ -11668,10 +11668,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.1875
+            "usd": 0
           },
           "output": {
-            "usd": 4.18
+            "usd": 0
           },
           "cache_read": {
             "usd": 0.247

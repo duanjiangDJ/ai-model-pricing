@@ -6,10 +6,10 @@
 - 官网: https://www.crossmodel.ai/docs
 - 定价页: https://www.crossmodel.ai/docs
 - 币种: USD
-- 数据更新时间: 2026-08-30T04:37:49Z
-- 核实时间: 2026-08-30T04:37:49Z
+- 数据更新时间: 2026-08-31T03:37:33Z
+- 核实时间: 2026-08-31T03:37:33Z
 
-共 **55** 个模型。
+共 **56** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -55,6 +55,7 @@
 | `qwen/qwen3.8-flash` | — | reasoning | 按量 | 1M | $0.13 | $0.43 | $0.016 | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.8-max` | — | reasoning | 按量 | 1M | $1.88 | $5.63 | $0.23 | — | —/— | — | models.dev official list price |
 | `tencent/hy3` | — | reasoning | 按量 | 262.144K | $0.16 | $0.64 | $0.04 | — | —/— | — | models.dev official list price |
+| `tencent/hy4-preview` | — | reasoning | 按量 | 1.04858M | $0.96 | $2.88 | $0.048 | — | —/— | — | models.dev official list price |
 | `x-ai/grok-4.3` | — | reasoning | 按量 | 1M | $1.25 | $2.5 | $0.2 | — | —/— | — | models.dev official list price |
 | `x-ai/grok-4.5` | — | reasoning | 按量 | 500K | $2 | $6 | $0.3 | — | —/— | — | models.dev official list price |
 | `x-ai/grok-4.6` | — | reasoning | 按量 | 500K | $2 | $6 | $0.5 | — | —/— | — | models.dev official list price |

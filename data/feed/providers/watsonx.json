@@ -7,8 +7,8 @@
   "homepage": "https://www.ibm.com/docs/en/watsonx/saas?topic=solutions-supported-foundation-models",
   "pricing_page": "https://www.ibm.com/docs/en/watsonx/saas?topic=solutions-supported-foundation-models",
   "currency": "USD",
-  "updated_at": "2026-08-30T04:37:49Z",
-  "verified_at": "2026-08-30T04:37:49Z",
+  "updated_at": "2026-08-31T03:37:33Z",
+  "verified_at": "2026-08-31T03:37:33Z",
   "models": [
     {
       "id": "ibm/granite-4-h-small",

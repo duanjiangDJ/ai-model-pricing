@@ -6,8 +6,8 @@
 - 官网: https://platform.minimax.io/docs/guides/quickstart
 - 定价页: https://platform.minimax.io/docs/guides/quickstart
 - 币种: USD
-- 数据更新时间: 2026-08-30T04:37:50Z
-- 核实时间: 2026-08-30T04:37:50Z
+- 数据更新时间: 2026-08-31T03:37:34Z
+- 核实时间: 2026-08-31T03:37:34Z
 
 共 **7** 个模型。
 
