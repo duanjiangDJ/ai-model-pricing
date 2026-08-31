@@ -6,10 +6,10 @@
 - 官网: https://openrouter.ai
 - 定价页: https://openrouter.ai/models
 - 币种: USD
-- 数据更新时间: 2026-08-31T12:16:24Z
-- 核实时间: 2026-08-31T12:16:24Z
+- 数据更新时间: 2026-08-31T15:16:26Z
+- 核实时间: 2026-08-31T15:16:26Z
 
-共 **396** 个模型。
+共 **395** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -75,11 +75,11 @@
 | `deepseek/deepseek-v3.1-terminus` | — | reasoning | 按量 | 163.84K | $2.7e-07 | $1e-06 | $1.35e-07 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2` | — | reasoning | 按量 | 163.84K | $2.69e-07 | $4e-07 | $1.345e-07 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2-exp` | — | reasoning | 按量 | 163.84K | $2.7e-07 | $4.1e-07 | — | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-flash` | — | reasoning | 按量 | 1.04858M | $8.8606e-08 | $1.77212e-07 | $1.77212e-08 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-flash` | — | reasoning | 按量 | 1.04858M | $8.554e-08 | $1.7108e-07 | $1.7108e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | 按量 | 1.31072M | $6.5e-08 | $1.8e-07 | $1.6e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731:batch` | — | reasoning | 按量 | 1.04858M | $1.4e-07 | $2.8e-07 | $3e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 按量 | 1.04858M | $2.2e-07 | $6.6e-07 | $7e-09 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-pro` | — | reasoning | 按量 | 1.04858M | $1.04226e-06 | $2.08452e-06 | $8.6855e-08 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-pro` | — | reasoning | 按量 | 1.04858M | $1.036e-06 | $2.07199e-06 | $8.6333e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | 按量 | 1.04858M | $6.6e-07 | $1.98e-06 | $2.2e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813:batch` | — | reasoning | 按量 | 1.04858M | $1.32e-06 | $3.96e-06 | $1.3e-07 | — | —/— | — | OpenRouter reseller price |
 | `dots-studio/dots-3-note-preview:free` | — | reasoning | 按量 | 512K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price |
@@ -130,7 +130,6 @@
 | `inception/mercury-2` | — | reasoning | 按量 | 128K | $2.5e-07 | $7.5e-07 | $2.5e-08 | — | —/— | — | OpenRouter reseller price |
 | `inclusionai/ling-3.0-flash` | — | reasoning | 按量 | 262.144K | $2.1e-08 | $6.3e-08 | $4.2e-09 | — | —/— | — | OpenRouter reseller price |
 | `inclusionai/ling-3.0-flash-fin:free` | — | reasoning | 按量 | 262.144K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price |
-| `kwaipilot/kat-coder-air-v2.5` | — | chat | 按量 | 256K | $1.5e-07 | $6e-07 | $3e-08 | — | —/— | — | OpenRouter reseller price |
 | `kwaipilot/kat-coder-pro-v2` | — | chat | 按量 | 262.144K | $3e-07 | $1.2e-06 | $6e-08 | — | —/— | — | OpenRouter reseller price |
 | `kwaipilot/kat-coder-pro-v2.5` | — | chat | 按量 | 262.144K | $7.4e-07 | $2.96e-06 | $1.5e-07 | — | —/— | — | OpenRouter reseller price |
 | `liquid/lfm-2.5-2.6b:free` | — | reasoning | 按量 | 65.536K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price |

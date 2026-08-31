@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.20.24 — 2026-08-31T15:21Z (content update)
+
+- price sync (3 changes):
+- **openrouter** (-1): `kwaipilot/kat-coder-air-v2.5`
+- **openrouter** (updated 2): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`
+
 ## 26.19.24 — 2026-08-31T12:22Z (content update)
 
 - price sync (3 changes):
