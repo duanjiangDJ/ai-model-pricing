@@ -16,6 +16,11 @@
 
 ---
 
+## 26.19.24 — 2026-08-31T12:22Z（内容更新）
+
+- 价格同步（3 处变更）：
+- **openrouter**（更新 3）：`deepseek/deepseek-v4-flash-vision-exp`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`
+
 ## 26.18.24 — 2026-08-31T09:21Z（内容更新）
 
 - 本次运行无数据变更。

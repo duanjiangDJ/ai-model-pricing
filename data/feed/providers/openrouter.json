@@ -7,8 +7,8 @@
   "homepage": "https://openrouter.ai",
   "pricing_page": "https://openrouter.ai/models",
   "currency": "USD",
-  "updated_at": "2026-08-31T03:37:33Z",
-  "verified_at": "2026-08-31T03:37:33Z",
+  "updated_at": "2026-08-31T12:16:24Z",
+  "verified_at": "2026-08-31T12:16:24Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -2031,13 +2031,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 4.4e-07
+            "usd": 2.2e-07
           },
           "output": {
-            "usd": 1.32e-06
+            "usd": 6.6e-07
           },
           "cache_read": {
-            "usd": 1.4e-08
+            "usd": 7e-09
           },
           "cache_write": null
         },
@@ -2061,13 +2061,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.6e-06
+            "usd": 1.04226e-06
           },
           "output": {
-            "usd": 3.2e-06
+            "usd": 2.08452e-06
           },
           "cache_read": {
-            "usd": 1.35e-07
+            "usd": 8.6855e-08
           },
           "cache_write": null
         },
@@ -2091,13 +2091,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.32e-06
+            "usd": 6.6e-07
           },
           "output": {
-            "usd": 3.96e-06
+            "usd": 1.98e-06
           },
           "cache_read": {
-            "usd": 4.4e-08
+            "usd": 2.2e-08
           },
           "cache_write": null
         },
