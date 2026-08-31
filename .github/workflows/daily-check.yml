@@ -1,17 +1,13 @@
 name: Price Check
 
 on:
-  schedule:
-    # 每 3 小时整点运行（UTC）：0,3,6,9,12,15,18,21 点
-    - cron: '0 */3 * * *'
+  # No GitHub schedule cron — triggering is driven by the Hermes agent (repo-watch),
+  # which calls workflow_dispatch. This removes the unreliable GitHub best-effort cron.
   workflow_dispatch: {}
 
 permissions:
   contents: write
   issues: write
-
-env:
-  GH_PAT: ${{ secrets.GH_PAT }}
 
 jobs:
   check:
@@ -35,7 +31,7 @@ jobs:
       - name: Validate data
         run: python scripts/validate.py
 
-      - name: Auto-merge changes into main
+      - name: Open PR for price-sync changes
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -46,81 +42,41 @@ jobs:
           git stash -u 2>/dev/null || true
           git pull --rebase origin main 2>/dev/null || git reset --hard origin/main
           git stash pop 2>/dev/null || true
+
           if git diff --quiet; then
-            echo "No data changes this run; nothing to merge."
+            echo "No data changes this run; nothing to do."
           else
             # auto-bump version (content update) with a DETAILED, HUMAN-READABLE,
-            # bilingual changelog message summarizing exactly what changed this run
-            # (provider/model/price old->new), instead of a bare "chore: price sync".
+            # bilingual changelog message summarizing exactly what changed this run.
             SUMMARY_EN=$(sed -n '/SYNC_SUMMARY_EN_BEGIN/,/SYNC_SUMMARY_EN_END/p' /tmp/daily-check.log | sed '1d;$d' | head -40)
             SUMMARY_ZH=$(sed -n '/SYNC_SUMMARY_ZH_BEGIN/,/SYNC_SUMMARY_ZH_END/p' /tmp/daily-check.log | sed '1d;$d' | head -40)
             [ -z "$SUMMARY_EN" ] && SUMMARY_EN="chore: price sync"
             [ -z "$SUMMARY_ZH" ] && SUMMARY_ZH="价格同步"
+
             python scripts/bump_version.py --content --message "$SUMMARY_EN" --message-zh "$SUMMARY_ZH" --date "$(date -u +%Y-%m-%dT%H:%M)"
             python scripts/build_human.py
             python scripts/validate.py
             git add -A
             git commit -m "chore: price sync [skip ci]"
-            if [ -n "$GH_PAT" ]; then
-              # bot uses a PAT (repo admin) to bypass branch protection for price syncs only.
-              # NOTE: only *classic* PATs inherit the admin bypass; fine-grained PATs get
-              # rejected by branch protection (GH006) — then we fall back to a branch + issue.
-              git remote set-url origin "https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git"
-              # actions/checkout sets http.https://github.com/.extraheader with the
-              # GITHUB_TOKEN; that header would override the PAT in the remote URL and
-              # the push would be rejected by branch protection (GH006). Remove it so
-              # the PAT is actually used for the push.
-              git config --unset-all http.https://github.com/.extraheader 2>/dev/null || true
-              git pull --rebase origin main
-              if git push origin main; then
-                echo "Changes auto-merged into main via bot PAT."
-              else
-                echo "::error::Bot PAT push to main was rejected (branch protection / token type). Changes are kept on a branch."
-                BRANCH="bot/price-sync-$(date -u +%Y%m%dT%H%M)"
-                git checkout -b "$BRANCH"
-                git push -u origin "$BRANCH" 2>/dev/null || git push -u origin "$BRANCH" --force
-                EXISTING_ISSUE=$(gh issue list --search "价格同步" --state open --json number -q '.[0].number' 2>/dev/null || true)
-                if [ -n "$EXISTING_ISSUE" ]; then
-                  echo "Alert issue #$EXISTING_ISSUE already open; skipping."
-                else
-                  gh issue create --title "⚠️ 价格同步未能合并到 main（PAT 被分支保护拒绝）" \
-                    --body "价格同步数据已推送到分支 $BRANCH，但 GH_PAT 推送 main 被分支保护拒绝（GH006）。原因：Fine-grained PAT 无法绕过分支保护。请改用 Tokens (classic) 重新生成（勾选 repo scope），并在 Settings → Secrets and variables → Actions 更新 GH_PAT secret。" \
-                    --label "bot" 2>/dev/null || true
-                fi
-                exit 1
-              fi
+
+            # P1 (agent autonomy): NEVER push straight to main. Open a PR instead so the
+            # deterministic gate (pr-check) + the Hermes agent review can act on it.
+            BRANCH="bot/price-sync-$(date -u +%Y%m%dT%H%M)"
+            git checkout -b "$BRANCH"
+            git push -u origin "$BRANCH" 2>/dev/null || git push -u origin "$BRANCH" --force
+
+            printf '%s' "Automated price sync." > /tmp/pr-body.md
+            printf '\n\n%s' "$SUMMARY_EN" >> /tmp/pr-body.md
+            printf '\n\n---\n%s' "$SUMMARY_ZH" >> /tmp/pr-body.md
+
+            EXISTING=$(gh pr list --head "$BRANCH" --state open --json number -q '.[0].number' 2>/dev/null || true)
+            if [ -n "$EXISTING" ]; then
+              echo "Updated existing PR #$EXISTING"
             else
-              # no PAT: fall back to opening a PR
-              BRANCH="bot/price-sync-$(date -u +%Y%m%dT%H%M)"
-              git checkout -b "$BRANCH"
-              git push -u origin "$BRANCH" 2>/dev/null || git push -u origin "$BRANCH" --force
-              EXISTING=$(gh pr list --head "$BRANCH" --state open --json number -q '.[0].number' 2>/dev/null || true)
-              if [ -n "$EXISTING" ]; then
-                echo "Updated existing PR #$EXISTING"
-              else
-                PR_URL=$(gh api -X POST "repos/${{ github.repository }}/pulls" \
-                  -f "title=chore: price sync" -f "head=$BRANCH" -f "base=main" \
-                  -f "body=Automated price sync PR. Add a GH_PAT repo secret (admin) to enable direct auto-merge." \
-                  --jq '.html_url' 2>/dev/null || true)
-                if [ -n "$PR_URL" ]; then
-                  echo "Created PR: $PR_URL"
-                else
-                  echo "::error::PR creation failed. Branch $BRANCH was pushed but main is NOT updated. Add a GH_PAT secret (repo admin) to enable auto-merge, or enable 'Allow GitHub Actions to create and approve pull requests' in Settings -> Actions -> General."
-                  EXISTING_ISSUE=$(gh issue list --search "价格同步" --state open --json number -q '.[0].number' 2>/dev/null || true)
-                  if [ -n "$EXISTING_ISSUE" ]; then
-                    echo "Alert issue #$EXISTING_ISSUE already open; skipping."
-                  else
-                    gh issue create --title "⚠️ 价格同步 PR 创建失败（main 未更新）" \
-                      --body "本次价格同步检测到数据变化并已推送到分支 \`$BRANCH\`，但 GitHub Actions 没有权限创建 PR（仓库未开启 'Allow GitHub Actions to create and approve pull requests'，且未配置 \`GH_PAT\` secret），因此 **main 未更新**。
-                      
-                      修复方式（任选其一）：
-                      1. 在仓库 Settings → Secrets and variables → Actions 添加 \`GH_PAT\`（仓库 admin 权限的 Personal Access Token）→ 之后自动合并到 main；
-                      2. 或 Settings → Actions → General → 勾选 *Allow GitHub Actions to create and approve pull requests* → 之后会改为创建 PR 等待合并。"
-                      --label "bot" 2>/dev/null || true
-                  fi
-                  exit 1
-                fi
-              fi
+              gh pr create --head "$BRANCH" --base main \
+                --title "bot: price sync" \
+                --body-file /tmp/pr-body.md 2>/dev/null \
+                || echo "::warning::PR creation failed — branch $BRANCH pushed but no PR (Hermes repo-watch should surface this)."
             fi
           fi
 
