@@ -6,8 +6,8 @@
 - Homepage: https://fastrouter.ai/models
 - Pricing page: https://fastrouter.ai/models
 - Currency: USD
-- Data updated: 2026-08-30T04:37:49Z
-- Verified: 2026-08-30T04:37:49Z
+- Data updated: 2026-08-31T03:37:33Z
+- Verified: 2026-08-31T03:37:33Z
 
 **47** models in total.
 

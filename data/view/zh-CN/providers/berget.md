@@ -6,10 +6,10 @@
 - 官网: https://api.berget.ai
 - 定价页: https://api.berget.ai
 - 币种: USD
-- 数据更新时间: 2026-08-30T04:37:49Z
-- 核实时间: 2026-08-30T04:37:49Z
+- 数据更新时间: 2026-08-31T03:37:33Z
+- 核实时间: 2026-08-31T03:37:33Z
 
-共 **9** 个模型。
+共 **11** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -22,3 +22,5 @@
 | `openai/gpt-oss-120b` | — | reasoning | 按量 | 128K | $0.22 | $0.83 | — | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-4.7` | — | reasoning | 按量 | 128K | $0.77 | $2.75 | — | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.2` | — | reasoning | 按量 | 524.288K | $1.54 | $4.84 | — | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.3` | — | reasoning | 按量 | 327.68K | $1.75 | $5.82 | — | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.3-Flash` | — | reasoning | 按量 | 327.68K | $0.29 | $0.58 | — | — | —/— | — | models.dev official list price |

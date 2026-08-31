@@ -6,8 +6,8 @@
 - Homepage: https://docs.edenai.co
 - Pricing page: https://docs.edenai.co
 - Currency: USD
-- Data updated: 2026-08-30T04:37:49Z
-- Verified: 2026-08-30T04:37:49Z
+- Data updated: 2026-08-31T03:37:33Z
+- Verified: 2026-08-31T03:37:33Z
 
 **246** models in total.
 
@@ -88,7 +88,7 @@
 | `fireworks_ai/gpt-oss-120b` | — | reasoning | per-token | 131.072K | $0.15 | $0.6 | $0.014 | — | —/— | — | models.dev official list price |
 | `fireworks_ai/gpt-oss-20b` | — | reasoning | per-token | 131.072K | $0.07 | $0.3 | $0.035 | — | —/— | — | models.dev official list price |
 | `flexai/DeepSeek-V4-Flash-0731` | — | reasoning | per-token | 1M | $0.08 | $0.18 | — | — | —/— | — | models.dev official list price |
-| `flexai/Muse-Glimmer-30B` | — | reasoning | per-token | 131.072K | $0.3 | $1.2 | — | — | —/— | — | models.dev official list price |
+| `flexai/Muse-Glimmer-30B` | — | reasoning | per-token | 131.072K | $0.3 | $1.1 | — | — | —/— | — | models.dev official list price |
 | `flexai/Nemotron-3-Super-120B-A12B` | — | reasoning | per-token | 262.144K | $0.085 | $0.4 | — | — | —/— | — | models.dev official list price |
 | `flexai/deepseek-v4-flash-0731` | — | reasoning | per-token | 1M | $0.08 | $0.18 | — | — | —/— | — | models.dev official list price |
 | `flexai/gpt-oss-120b` | — | reasoning | per-token | 131.072K | $0.039 | $0.1 | — | — | —/— | — | models.dev official list price |
@@ -120,17 +120,17 @@
 | `minimax/MiniMax-M2.5` | — | reasoning | per-token | 204.8K | $0.3 | $1.2 | $0.03 | — | —/— | — | models.dev official list price |
 | `minimax/MiniMax-M2.7` | — | reasoning | per-token | 204.8K | $0.3 | $1.2 | $0.06 | — | —/— | — | models.dev official list price |
 | `minimax/MiniMax-M3` | — | reasoning | per-token | 524.288K | $0.3 | $1.2 | $0.06 | — | —/— | — | models.dev official list price |
-| `mistral/codestral-latest` | — | chat | per-token | 256K | $0.3 | $0.9 | — | — | —/— | — | models.dev official list price |
-| `mistral/devstral-2512` | — | chat | per-token | 262.144K | $0.44 | $2.2 | $0.044 | — | —/— | — | models.dev official list price |
+| `mistral/codestral-latest` | — | chat | per-token | 256K | $0.3 | $0.9 | $0.03 | — | —/— | — | models.dev official list price |
+| `mistral/devstral-2512` | — | chat | per-token | 262.144K | $0.4 | $2 | $0.04 | — | —/— | — | models.dev official list price |
 | `mistral/devstral-medium-latest` | — | chat | per-token | 262.144K | $0.4 | $2 | — | — | —/— | — | models.dev official list price |
 | `mistral/magistral-medium-latest` | — | reasoning | per-token | 262.144K | $2 | $5 | — | — | —/— | — | models.dev official list price |
 | `mistral/mistral-large-2512` | — | chat | per-token | 262.144K | $0.5 | $1.5 | $0.05 | — | —/— | — | models.dev official list price |
 | `mistral/mistral-large-latest` | — | chat | per-token | 262.144K | $2 | $6 | $0.2 | — | —/— | — | models.dev official list price |
 | `mistral/mistral-medium-2505` | — | chat | per-token | 131.072K | $0.4 | $2 | — | — | —/— | — | models.dev official list price |
-| `mistral/mistral-medium-2604` | — | reasoning | per-token | 262.144K | $1.5 | $7.5 | — | — | —/— | — | models.dev official list price |
-| `mistral/mistral-medium-latest` | — | reasoning | per-token | 262.144K | $1.5 | $7.5 | — | — | —/— | — | models.dev official list price |
+| `mistral/mistral-medium-2604` | — | reasoning | per-token | 262.144K | $1.5 | $7.5 | $0.15 | — | —/— | — | models.dev official list price |
+| `mistral/mistral-medium-latest` | — | reasoning | per-token | 262.144K | $1.5 | $7.5 | $0.15 | — | —/— | — | models.dev official list price |
 | `mistral/mistral-small-2603` | — | reasoning | per-token | 262.144K | $0.15 | $0.6 | $0.015 | — | —/— | — | models.dev official list price |
-| `mistral/mistral-small-latest` | — | reasoning | per-token | 262.144K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
+| `mistral/mistral-small-latest` | — | reasoning | per-token | 262.144K | $0.15 | $0.6 | $0.015 | — | —/— | — | models.dev official list price |
 | `mistral/voxtral-small-latest` | — | chat | per-token | 32.768K | $0.1 | $0.4 | — | — | —/— | — | models.dev official list price |
 | `moonshot/kimi-k2.6` | — | reasoning | per-token | 262.144K | $0.95 | $4 | $0.16 | — | —/— | — | models.dev official list price |
 | `moonshot/kimi-k2.7-code` | — | reasoning | per-token | 262.144K | $0.95 | $4 | $0.19 | — | —/— | — | models.dev official list price |

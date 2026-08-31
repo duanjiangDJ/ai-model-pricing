@@ -6,8 +6,8 @@
 - Homepage: https://docs.nano-gpt.com
 - Pricing page: https://docs.nano-gpt.com
 - Currency: USD
-- Data updated: 2026-08-30T04:37:49Z
-- Verified: 2026-08-30T04:37:49Z
+- Data updated: 2026-08-31T03:37:33Z
+- Verified: 2026-08-31T03:37:33Z
 
 **684** models in total.
 
@@ -25,14 +25,14 @@
 | `Envoid/Llama-3.05-Nemotron-Tenyxchat-Storybreaker-70B` | — | chat | per-token | 16.384K | $0.493 | $0.493 | $0.2465 | — | —/— | — | models.dev official list price |
 | `GLM-4.6-Derestricted-v5` | — | reasoning | per-token | 131.072K | $0.4 | $1.5 | $0.2 | — | —/— | — | models.dev official list price |
 | `GalrionSoftworks/MN-LooseCannon-12B-v1` | — | chat | per-token | 16.384K | $0.493 | $0.493 | $0.2465 | — | —/— | — | models.dev official list price |
-| `Gemma-4-26B-A4B-MeroMero` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
-| `Gemma-4-26B-A4B-MeroMero:thinking` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
+| `Gemma-4-26B-A4B-MeroMero` | — | reasoning | per-token | 262.144K | $0.12 | $0.38 | $0.06 | — | —/— | — | models.dev official list price |
+| `Gemma-4-26B-A4B-MeroMero:thinking` | — | reasoning | per-token | 262.144K | $0.12 | $0.38 | $0.06 | — | —/— | — | models.dev official list price |
 | `Gemma-4-31B-Claude-4.6-Opus-Reasoning-Distilled` | — | reasoning | per-token | 262.144K | $0.306 | $0.306 | $0.0306 | — | —/— | — | models.dev official list price |
 | `Gemma-4-31B-Cognitive-Unshackled` | — | reasoning | per-token | 262.144K | $0.306 | $0.306 | $0.153 | — | —/— | — | models.dev official list price |
 | `Gemma-4-31B-DarkIdol` | — | reasoning | per-token | 262.144K | $0.306 | $0.306 | $0.153 | — | —/— | — | models.dev official list price |
 | `Gemma-4-31B-GarnetV2` | — | reasoning | per-token | 262.144K | $0.306 | $0.306 | $0.153 | — | —/— | — | models.dev official list price |
-| `Gemma-4-31B-MeroMero-v2` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
-| `Gemma-4-31B-MeroMero-v2:thinking` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
+| `Gemma-4-31B-MeroMero-v2` | — | reasoning | per-token | 262.144K | $0.1 | $0.45 | $0.05 | — | —/— | — | models.dev official list price |
+| `Gemma-4-31B-MeroMero-v2:thinking` | — | reasoning | per-token | 262.144K | $0.1 | $0.45 | $0.05 | — | —/— | — | models.dev official list price |
 | `Gemma-4-31B-Queen` | — | reasoning | per-token | 262.144K | $0.306 | $0.306 | $0.153 | — | —/— | — | models.dev official list price |
 | `Gryphe/MythoMax-L2-13b` | — | chat | per-token | 4K | $0.1003 | $0.1003 | $0.05015 | — | —/— | — | models.dev official list price |
 | `LLM360/K2-Think` | — | chat | per-token | 128K | $0.17 | $0.68 | $0.085 | — | —/— | — | models.dev official list price |
@@ -222,7 +222,7 @@
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | per-token | 1M | $0.14 | $0.28 | $0.014 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash-0731:thinking` | — | reasoning | per-token | 1M | $0.14 | $0.28 | $0.014 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash-latest` | — | reasoning | per-token | 1.04858M | $0.14 | $0.28 | $0.014 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | per-token | 1.04858M | $0.22 | $0.66 | $0.007 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | per-token | 1.04858M | $0.44 | $1.32 | $0.014 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash:thinking` | — | reasoning | per-token | 1.04858M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | per-token | 1.04858M | $1.1 | $2.2 | $0.11 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | per-token | 1.04858M | $1.1 | $2.5 | $0.04 | — | —/— | — | models.dev official list price |
@@ -269,22 +269,22 @@
 | `gemini-3-pro-image-preview` | — | chat | per-token | 1.04876M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `gemini-exp-1206` | — | chat | per-token | 2.09715M | $1.258 | $4.998 | $0.629 | — | —/— | — | models.dev official list price |
 | `gemma-4-12b-it` | — | chat | per-token | 262.144K | $0.06 | $0.3 | $0.03 | — | —/— | — | models.dev official list price |
-| `gemma-4-26b-a4b-it-chimerax` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
-| `gemma-4-26b-a4b-it-darksoul` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
-| `gemma-4-26b-a4b-it-luminous` | — | chat | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
-| `gemma-4-26b-a4b-it-moonlight` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
-| `gemma-4-26b-a4b-it-musica` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
-| `gemma-4-26b-a4b-it-opusdistill` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
-| `gemma-4-26b-a4b-it-shadowsiren` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
-| `gemma-4-26b-a4b-uncensored` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
-| `gemma-4-26b-a4b-uncensored:thinking` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
-| `gemma-4-31b-it-darkidol` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
-| `gemma-4-31b-it-fabled` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
-| `gemma-4-31b-it-garnet` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
-| `gemma-4-31b-it-gembrain` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
-| `gemma-4-31b-it-gemsicle` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
-| `gemma-4-31b-it-isometry` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
-| `gemma-4-31b-it-novelist` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
+| `gemma-4-26b-a4b-it-chimerax` | — | reasoning | per-token | 262.144K | $0.12 | $0.38 | $0.06 | — | —/— | — | models.dev official list price |
+| `gemma-4-26b-a4b-it-darksoul` | — | reasoning | per-token | 262.144K | $0.12 | $0.38 | $0.06 | — | —/— | — | models.dev official list price |
+| `gemma-4-26b-a4b-it-luminous` | — | chat | per-token | 262.144K | $0.12 | $0.38 | $0.06 | — | —/— | — | models.dev official list price |
+| `gemma-4-26b-a4b-it-moonlight` | — | reasoning | per-token | 262.144K | $0.12 | $0.38 | $0.06 | — | —/— | — | models.dev official list price |
+| `gemma-4-26b-a4b-it-musica` | — | reasoning | per-token | 262.144K | $0.12 | $0.38 | $0.06 | — | —/— | — | models.dev official list price |
+| `gemma-4-26b-a4b-it-opusdistill` | — | reasoning | per-token | 262.144K | $0.12 | $0.38 | $0.06 | — | —/— | — | models.dev official list price |
+| `gemma-4-26b-a4b-it-shadowsiren` | — | reasoning | per-token | 262.144K | $0.12 | $0.38 | $0.06 | — | —/— | — | models.dev official list price |
+| `gemma-4-26b-a4b-uncensored` | — | reasoning | per-token | 262.144K | $0.12 | $0.38 | $0.06 | — | —/— | — | models.dev official list price |
+| `gemma-4-26b-a4b-uncensored:thinking` | — | reasoning | per-token | 262.144K | $0.12 | $0.38 | $0.06 | — | —/— | — | models.dev official list price |
+| `gemma-4-31b-it-darkidol` | — | reasoning | per-token | 262.144K | $0.1 | $0.45 | $0.05 | — | —/— | — | models.dev official list price |
+| `gemma-4-31b-it-fabled` | — | reasoning | per-token | 262.144K | $0.1 | $0.45 | $0.05 | — | —/— | — | models.dev official list price |
+| `gemma-4-31b-it-garnet` | — | reasoning | per-token | 262.144K | $0.1 | $0.45 | $0.05 | — | —/— | — | models.dev official list price |
+| `gemma-4-31b-it-gembrain` | — | reasoning | per-token | 262.144K | $0.1 | $0.45 | $0.05 | — | —/— | — | models.dev official list price |
+| `gemma-4-31b-it-gemsicle` | — | reasoning | per-token | 262.144K | $0.1 | $0.45 | $0.05 | — | —/— | — | models.dev official list price |
+| `gemma-4-31b-it-isometry` | — | reasoning | per-token | 262.144K | $0.1 | $0.45 | $0.05 | — | —/— | — | models.dev official list price |
+| `gemma-4-31b-it-novelist` | — | reasoning | per-token | 262.144K | $0.1 | $0.45 | $0.05 | — | —/— | — | models.dev official list price |
 | `gemma-4-e2b-it` | — | chat | per-token | 131.072K | $0.02 | $0.1 | $0.01 | — | —/— | — | models.dev official list price |
 | `gemma-4-e4b-it` | — | chat | per-token | 131.072K | $0.04 | $0.2 | $0.02 | — | —/— | — | models.dev official list price |
 | `glm-4` | — | chat | per-token | 128K | $14.994 | $14.994 | $7.497 | — | —/— | — | models.dev official list price |
@@ -315,7 +315,7 @@
 | `google/gemini-flash-latest` | — | reasoning | per-token | 1.04876M | $0.375 | $1.875 | $0.0375 | — | —/— | — | models.dev official list price |
 | `google/gemini-flash-lite-latest` | — | reasoning | per-token | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `google/gemini-pro-latest` | — | reasoning | per-token | 1.04876M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
-| `google/gemma-4-26b-a4b-it` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
+| `google/gemma-4-26b-a4b-it` | — | reasoning | per-token | 262.144K | $0.12 | $0.38 | $0.06 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-26b-a4b-it-chimerax` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-26b-a4b-it-darksoul` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-26b-a4b-it-luminous` | — | chat | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
@@ -326,7 +326,7 @@
 | `google/gemma-4-26b-a4b-it:thinking` | — | reasoning | per-token | 262.144K | $0.13 | $0.4 | $0.065 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-26b-a4b-uncensored` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-26b-a4b-uncensored:thinking` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
-| `google/gemma-4-31b-it` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
+| `google/gemma-4-31b-it` | — | reasoning | per-token | 262.144K | $0.1 | $0.45 | $0.05 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-31b-it-darkidol` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-31b-it-fabled` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-31b-it-garnet` | — | reasoning | per-token | 262.144K | $0.08 | $0.33 | $0.04 | — | —/— | — | models.dev official list price |
@@ -501,8 +501,8 @@
 | `ornith-ai/ornith-1.5-35b-a3b:thinking` | — | reasoning | per-token | 262.144K | $0.1 | $0.4 | $0.05 | — | —/— | — | models.dev official list price |
 | `ornith-ai/ornith-1.5-397b` | — | reasoning | per-token | 262.144K | $0.9 | $3.6 | $0.045 | — | —/— | — | models.dev official list price |
 | `ornith-ai/ornith-1.5-397b:thinking` | — | reasoning | per-token | 262.144K | $0.9 | $3.6 | $0.045 | — | —/— | — | models.dev official list price |
-| `ornith-ai/ornith-1.5-9b` | — | reasoning | per-token | 262.144K | $0.05 | $0.1 | $0.025 | — | —/— | — | models.dev official list price |
-| `ornith-ai/ornith-1.5-9b:thinking` | — | reasoning | per-token | 262.144K | $0.05 | $0.1 | $0.025 | — | —/— | — | models.dev official list price |
+| `ornith-ai/ornith-1.5-9b` | — | reasoning | per-token | 262.144K | $0.1 | $0.2 | $0.05 | — | —/— | — | models.dev official list price |
+| `ornith-ai/ornith-1.5-9b:thinking` | — | reasoning | per-token | 262.144K | $0.1 | $0.2 | $0.05 | — | —/— | — | models.dev official list price |
 | `pamanseau/OpenReasoning-Nemotron-32B` | — | reasoning | per-token | 32.768K | $0.1 | $0.4 | $0.05 | — | —/— | — | models.dev official list price |
 | `perceptron/perceptron-mk1` | — | reasoning | per-token | 32.768K | $0.15 | $1.5 | $0.075 | — | —/— | — | models.dev official list price |
 | `perplexity-academic-researcher` | — | reasoning | per-token | 127K | $2 | $8 | $1 | — | —/— | — | models.dev official list price |
@@ -542,14 +542,14 @@
 | `qwen/qwen3.5-9b` | — | reasoning | per-token | 256K | $0.05 | $0.15 | $0.025 | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.5-plus` | — | chat | per-token | 983.616K | $0.4 | $2.4 | $0.04 | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.5-plus-thinking` | — | reasoning | per-token | 983.616K | $0.4 | $2.4 | $0.04 | — | —/— | — | models.dev official list price |
-| `qwen/qwen3.6-35b-a3b-uncensored` | — | chat | per-token | 65.536K | $0.15 | $0.5 | $0.075 | — | —/— | — | models.dev official list price |
-| `qwen/qwen3.6-35b-a3b-uncensored:thinking` | — | reasoning | per-token | 262.144K | $0.15 | $0.5 | $0.075 | — | —/— | — | models.dev official list price |
+| `qwen/qwen3.6-35b-a3b-uncensored` | — | chat | per-token | 65.536K | $0.15 | $0.95 | $0.075 | — | —/— | — | models.dev official list price |
+| `qwen/qwen3.6-35b-a3b-uncensored:thinking` | — | reasoning | per-token | 262.144K | $0.15 | $0.95 | $0.075 | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.8-2.4t-a95b` | — | chat | per-token | 991K | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
-| `qwen/qwen3.8-27b-fable` | — | reasoning | per-token | 262.144K | $0.2 | $1.4 | $0.04 | — | —/— | — | models.dev official list price |
-| `qwen/qwen3.8-27b-obliterated` | — | reasoning | per-token | 262.144K | $0.18 | $0.5 | $0.075 | — | —/— | — | models.dev official list price |
-| `qwen/qwen3.8-27b-obliterated:thinking` | — | reasoning | per-token | 262.144K | $0.18 | $0.5 | $0.075 | — | —/— | — | models.dev official list price |
-| `qwen/qwen3.8-27b-uncensored` | — | chat | per-token | 131.072K | $0.18 | $0.5 | $0.075 | — | —/— | — | models.dev official list price |
-| `qwen/qwen3.8-27b-uncensored:thinking` | — | reasoning | per-token | 262.144K | $0.18 | $0.5 | $0.075 | — | —/— | — | models.dev official list price |
+| `qwen/qwen3.8-27b-fable` | — | reasoning | per-token | 262.144K | $0.25 | $1.5 | $0.125 | — | —/— | — | models.dev official list price |
+| `qwen/qwen3.8-27b-obliterated` | — | reasoning | per-token | 262.144K | $0.25 | $1.5 | $0.125 | — | —/— | — | models.dev official list price |
+| `qwen/qwen3.8-27b-obliterated:thinking` | — | reasoning | per-token | 262.144K | $0.25 | $1.5 | $0.125 | — | —/— | — | models.dev official list price |
+| `qwen/qwen3.8-27b-uncensored` | — | chat | per-token | 131.072K | $0.25 | $1.5 | $0.125 | — | —/— | — | models.dev official list price |
+| `qwen/qwen3.8-27b-uncensored:thinking` | — | reasoning | per-token | 262.144K | $0.25 | $1.5 | $0.125 | — | —/— | — | models.dev official list price |
 | `qwen25-vl-72b-instruct` | — | chat | per-token | 32K | $0.69989 | $0.69989 | $0.349945 | — | —/— | — | models.dev official list price |
 | `qwen3-30b-a3b-instruct-2507` | — | chat | per-token | 256K | $0.2 | $0.5 | $0.1 | — | —/— | — | models.dev official list price |
 | `qwen3-coder-30b-a3b-instruct` | — | chat | per-token | 128K | $0.1 | $0.4 | $0.05 | — | —/— | — | models.dev official list price |
@@ -662,7 +662,7 @@
 | `z-ai/glm-5.2:thinking` | — | reasoning | per-token | 1.04858M | $0.42 | $1.32 | $0.078 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5.3` | — | reasoning | per-token | 1.04858M | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5.3-flash` | — | reasoning | per-token | 1.04858M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |
-| `z-ai/glm-5.3-flash-uncensored` | — | reasoning | per-token | 262.144K | $0.125 | $0.5 | $0.0625 | — | —/— | — | models.dev official list price |
+| `z-ai/glm-5.3-flash-uncensored` | — | reasoning | per-token | 262.144K | $0.35 | $1.4 | $0.175 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5.3:thinking` | — | reasoning | per-token | 1.04858M | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5:thinking` | — | reasoning | per-token | 200K | $0.5 | $2.55 | $0.13 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5v-turbo` | — | chat | per-token | 202.8K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |

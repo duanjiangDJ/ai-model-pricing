@@ -7,8 +7,8 @@
   "homepage": "https://docs.edenai.co",
   "pricing_page": "https://docs.edenai.co",
   "currency": "USD",
-  "updated_at": "2026-08-30T04:37:49Z",
-  "verified_at": "2026-08-30T04:37:49Z",
+  "updated_at": "2026-08-31T03:37:33Z",
+  "verified_at": "2026-08-31T03:37:33Z",
   "models": [
     {
       "id": "amazon/moonshot.kimi-k2-thinking",
@@ -2372,7 +2372,7 @@
             "usd": 0.3
           },
           "output": {
-            "usd": 1.2
+            "usd": 1.1
           },
           "cache_read": null,
           "cache_write": null
@@ -3374,7 +3374,9 @@
           "output": {
             "usd": 0.9
           },
-          "cache_read": null,
+          "cache_read": {
+            "usd": 0.03
+          },
           "cache_write": null
         },
         "batch": null,
@@ -3399,13 +3401,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.44
+            "usd": 0.4
           },
           "output": {
-            "usd": 2.2
+            "usd": 2
           },
           "cache_read": {
-            "usd": 0.044
+            "usd": 0.04
           },
           "cache_write": null
         },
@@ -3590,7 +3592,9 @@
           "output": {
             "usd": 7.5
           },
-          "cache_read": null,
+          "cache_read": {
+            "usd": 0.15
+          },
           "cache_write": null
         },
         "batch": null,
@@ -3620,7 +3624,9 @@
           "output": {
             "usd": 7.5
           },
-          "cache_read": null,
+          "cache_read": {
+            "usd": 0.15
+          },
           "cache_write": null
         },
         "batch": null,
@@ -3682,7 +3688,9 @@
           "output": {
             "usd": 0.6
           },
-          "cache_read": null,
+          "cache_read": {
+            "usd": 0.015
+          },
           "cache_write": null
         },
         "batch": null,

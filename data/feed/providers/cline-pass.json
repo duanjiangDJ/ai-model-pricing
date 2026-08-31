@@ -7,8 +7,8 @@
   "homepage": "https://docs.cline.bot/getting-started/clinepass",
   "pricing_page": "https://docs.cline.bot/getting-started/clinepass",
   "currency": "USD",
-  "updated_at": "2026-08-30T04:37:49Z",
-  "verified_at": "2026-08-30T04:37:49Z",
+  "updated_at": "2026-08-31T03:37:33Z",
+  "verified_at": "2026-08-31T03:37:33Z",
   "models": [
     {
       "id": "cline-pass/deepseek-v4-flash",

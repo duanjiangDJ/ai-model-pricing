@@ -7,8 +7,8 @@
   "homepage": "https://api.berget.ai",
   "pricing_page": "https://api.berget.ai",
   "currency": "USD",
-  "updated_at": "2026-08-30T04:37:49Z",
-  "verified_at": "2026-08-30T04:37:49Z",
+  "updated_at": "2026-08-31T03:37:33Z",
+  "verified_at": "2026-08-31T03:37:33Z",
   "models": [
     {
       "id": "google/gemma-4-31B-it",
@@ -281,6 +281,64 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "zai-org/GLM-5.3",
+      "name": "GLM-5.3",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 327680,
+      "max_output": 32768,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.75
+          },
+          "output": {
+            "usd": 5.82
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "zai-org/GLM-5.3-Flash",
+      "name": "GLM-5.3-Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 327680,
+      "max_output": 16384,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.29
+          },
+          "output": {
+            "usd": 0.58
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     }
   ],
   "api_base_url": "https://api.berget.ai/v1"

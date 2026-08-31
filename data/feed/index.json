@@ -1,9 +1,9 @@
 {
-  "schema_version": "26.15.24",
-  "generated_at": "2026-08-30T23:18:35Z",
+  "schema_version": "26.16.24",
+  "generated_at": "2026-08-31T03:37:33Z",
   "currency": "USD",
   "provider_count": 189,
-  "model_count": 7424,
+  "model_count": 7435,
   "plan_count": 67,
   "providers": [
     {
@@ -378,9 +378,9 @@
       "id": "crossmodel",
       "name": "CrossModel",
       "channel": "hosted",
-      "model_count": 55,
+      "model_count": 56,
       "file": "providers/crossmodel.json",
-      "updated_at": "2026-08-29T12:52:50Z"
+      "updated_at": "2026-08-31T03:37:33Z"
     },
     {
       "id": "kenari",
@@ -746,9 +746,9 @@
       "id": "berget",
       "name": "Berget.AI",
       "channel": "hosted",
-      "model_count": 9,
+      "model_count": 11,
       "file": "providers/berget.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-31T03:37:33Z"
     },
     {
       "id": "xiaomi",
@@ -1026,9 +1026,9 @@
       "id": "trustedrouter",
       "name": "TrustedRouter",
       "channel": "aggregator",
-      "model_count": 7,
+      "model_count": 14,
       "file": "providers/trustedrouter.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-08-31T03:37:33Z"
     },
     {
       "id": "scaleway",
@@ -1178,9 +1178,9 @@
       "id": "vercel",
       "name": "Vercel AI Gateway",
       "channel": "aggregator",
-      "model_count": 365,
+      "model_count": 366,
       "file": "providers/vercel.json",
-      "updated_at": "2026-08-29T12:52:50Z"
+      "updated_at": "2026-08-31T03:37:33Z"
     },
     {
       "id": "edenai",
@@ -1526,7 +1526,7 @@
       "channel": "aggregator",
       "model_count": 396,
       "file": "providers/openrouter.json",
-      "updated_at": "2026-08-30T23:18:35Z"
+      "updated_at": "2026-08-31T03:37:33Z"
     }
   ]
 }
