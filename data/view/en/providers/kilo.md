@@ -387,4 +387,4 @@
 | `~openai/gpt-latest` | — | reasoning | per-token | 1.05M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
 | `~openai/gpt-mini-latest` | — | reasoning | per-token | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | models.dev official list price |
 | `~x-ai/grok-latest` | — | reasoning | per-token | 500K | $2 | $6 | $0.5 | — | —/— | — | models.dev official list price |
-| `~z-ai/glm-latest` | — | reasoning | per-token | 1.04858M | $0 | $0 | $0.247 | — | —/— | — | models.dev official list price |
+| `~z-ai/glm-latest` | — | reasoning | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

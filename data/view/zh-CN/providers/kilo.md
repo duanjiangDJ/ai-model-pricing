@@ -387,4 +387,4 @@
 | `~openai/gpt-latest` | — | reasoning | 按量 | 1.05M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
 | `~openai/gpt-mini-latest` | — | reasoning | 按量 | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | models.dev official list price |
 | `~x-ai/grok-latest` | — | reasoning | 按量 | 500K | $2 | $6 | $0.5 | — | —/— | — | models.dev official list price |
-| `~z-ai/glm-latest` | — | reasoning | 按量 | 1.04858M | $0 | $0 | $0.247 | — | —/— | — | models.dev official list price |
+| `~z-ai/glm-latest` | — | reasoning | 免费 | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

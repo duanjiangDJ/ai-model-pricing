@@ -11673,9 +11673,7 @@
           "output": {
             "usd": 0
           },
-          "cache_read": {
-            "usd": 0.247
-          },
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -11683,9 +11681,9 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
-        "pay_per_token"
+        "free"
       ]
     }
   ],
