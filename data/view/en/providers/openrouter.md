@@ -6,8 +6,8 @@
 - Homepage: https://openrouter.ai
 - Pricing page: https://openrouter.ai/models
 - Currency: USD
-- Data updated: 2026-08-31T15:16:26Z
-- Verified: 2026-08-31T15:16:26Z
+- Data updated: 2026-08-31T18:17:16Z
+- Verified: 2026-08-31T18:17:16Z
 
 **395** models in total.
 
@@ -75,11 +75,11 @@
 | `deepseek/deepseek-v3.1-terminus` | — | reasoning | per-token | 163.84K | $2.7e-07 | $1e-06 | $1.35e-07 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2` | — | reasoning | per-token | 163.84K | $2.69e-07 | $4e-07 | $1.345e-07 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2-exp` | — | reasoning | per-token | 163.84K | $2.7e-07 | $4.1e-07 | — | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-flash` | — | reasoning | per-token | 1.04858M | $8.554e-08 | $1.7108e-07 | $1.7108e-08 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-flash` | — | reasoning | per-token | 1.04858M | $8.246e-08 | $1.6492e-07 | $1.6492e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | per-token | 1.31072M | $6.5e-08 | $1.8e-07 | $1.6e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731:batch` | — | reasoning | per-token | 1.04858M | $1.4e-07 | $2.8e-07 | $3e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | per-token | 1.04858M | $2.2e-07 | $6.6e-07 | $7e-09 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-pro` | — | reasoning | per-token | 1.04858M | $1.036e-06 | $2.07199e-06 | $8.6333e-08 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-pro` | — | reasoning | per-token | 1.04858M | $1.03426e-06 | $2.06851e-06 | $8.6188e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | per-token | 1.04858M | $6.6e-07 | $1.98e-06 | $2.2e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813:batch` | — | reasoning | per-token | 1.04858M | $1.32e-06 | $3.96e-06 | $1.3e-07 | — | —/— | — | OpenRouter reseller price |
 | `dots-studio/dots-3-note-preview:free` | — | reasoning | per-token | 512K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price |
@@ -105,7 +105,7 @@
 | `google/gemini-3.1-pro-preview` | — | reasoning | per-image + per-token | 1.04858M | $2e-06 | $1.2e-05 | $2e-07 | $3.75e-07 | —/— | per-image | OpenRouter reseller price |
 | `google/gemini-3.1-pro-preview-customtools` | — | reasoning | per-image + per-token | 1.04858M | $2e-06 | $1.2e-05 | $2e-07 | $3.75e-07 | —/— | per-image | OpenRouter reseller price |
 | `google/gemini-3.1-pro-preview:batch` | — | reasoning | per-image + per-token | 1.04858M | $1e-06 | $6e-06 | — | — | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-3.5-flash` | — | reasoning | per-image + per-token | 1.04858M | $1.5e-06 | $9e-06 | $1.5e-07 | $8.33333e-08 | —/— | per-image | OpenRouter reseller price |
+| `google/gemini-3.5-flash` | — | reasoning | per-image + per-token | 1.04858M | $1.65e-06 | $9.9e-06 | $1.65e-07 | $8.33333e-08 | —/— | per-image | OpenRouter reseller price |
 | `google/gemini-3.5-flash-lite` | — | reasoning | per-image + per-token | 1.04858M | $3e-07 | $2.5e-06 | $3e-08 | $8.33333e-08 | —/— | per-image | OpenRouter reseller price |
 | `google/gemini-3.5-flash-lite:batch` | — | reasoning | per-image + per-token | 1.04858M | $1.5e-07 | $1.25e-06 | $1.5e-08 | — | —/— | per-image | OpenRouter reseller price |
 | `google/gemini-3.5-flash:batch` | — | reasoning | per-image + per-token | 1.04858M | $7.5e-07 | $4.5e-06 | $7.5e-08 | — | —/— | per-image | OpenRouter reseller price |
@@ -336,8 +336,8 @@
 | `qwen/qwen3.7-flash` | — | reasoning | per-token | 1M | $3e-08 | $1.3e-07 | $6e-09 | $3.8e-08 | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.7-max` | — | reasoning | per-token | 1M | $1.475e-06 | $4.425e-06 | $2.95e-07 | $1.84375e-06 | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.7-plus` | — | reasoning | per-token | 1M | $3.2e-07 | $1.28e-06 | $6.4e-08 | $4e-07 | —/— | — | OpenRouter reseller price |
-| `qwen/qwen3.8-2.4t-a95b` | — | reasoning | per-token | 1.04858M | $2e-06 | $6e-06 | $2.5e-07 | — | —/— | — | OpenRouter reseller price |
-| `qwen/qwen3.8-2.4t-a95b:batch` | — | reasoning | per-token | 1.01M | $2.5e-06 | $6.25e-06 | $5e-07 | — | —/— | — | OpenRouter reseller price |
+| `qwen/qwen3.8-2.4t-a95b` | — | reasoning | per-token | 1.04858M | $2e-06 | $6e-06 | $2e-07 | — | —/— | — | OpenRouter reseller price |
+| `qwen/qwen3.8-2.4t-a95b:batch` | — | reasoning | per-token | 1.01M | $2e-06 | $6e-06 | $2.5e-07 | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.8-27b` | — | reasoning | per-token | 1M | $4.25e-07 | $2.55e-06 | $8.5e-08 | $5.3125e-07 | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.8-flash` | — | reasoning | per-token | 1M | $1.5e-07 | $4.7e-07 | $1.6e-08 | $2e-07 | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.8-max` | — | reasoning | per-token | 1M | $2e-06 | $6e-06 | $2.5e-07 | $2.5e-06 | —/— | — | OpenRouter reseller price |
@@ -356,7 +356,7 @@
 | `tencent/hy-mt2-1.8b` | — | chat | per-token | 8.192K | $4.4e-08 | $1.77e-07 | — | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy-mt2-30b-a3b` | — | chat | per-token | 8.192K | $7.4e-08 | $2.95e-07 | — | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy-mt2-7b` | — | chat | per-token | 8.192K | $7.4e-08 | $2.95e-07 | — | — | —/— | — | OpenRouter reseller price |
-| `tencent/hy3` | — | reasoning | per-token | 262.144K | $1.32e-07 | $5.28e-07 | $3.3e-08 | — | —/— | — | OpenRouter reseller price |
+| `tencent/hy3` | — | reasoning | per-token | 262.144K | $8.25e-08 | $3.3e-07 | $2.0625e-08 | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy3-preview` | — | reasoning | per-token | 262.144K | $1.8e-07 | $6e-07 | $6e-08 | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy4-preview` | — | reasoning | per-token | 1.04858M | $8.34e-07 | $2.501e-06 | $4.2e-08 | — | —/— | — | OpenRouter reseller price |
 | `thedrummer/cydonia-24b-v4.1` | — | chat | per-token | 131.072K | $3e-07 | $5e-07 | $1.5e-07 | — | —/— | — | OpenRouter reseller price |

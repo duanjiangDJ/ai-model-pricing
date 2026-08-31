@@ -1,6 +1,270 @@
 {
-  "schema_version": "26.20.24",
+  "schema_version": "26.21.24",
   "entries": [
+    {
+      "date": "2026-08-31T18:17:16Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-flash",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 8.554e-08
+          },
+          "output": {
+            "usd": 1.7108e-07
+          },
+          "cache_read": {
+            "usd": 1.7108e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 8.246e-08
+          },
+          "output": {
+            "usd": 1.6492e-07
+          },
+          "cache_read": {
+            "usd": 1.6492e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T18:17:16Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-pro",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.035996e-06
+          },
+          "output": {
+            "usd": 2.071992e-06
+          },
+          "cache_read": {
+            "usd": 8.6333e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.034256e-06
+          },
+          "output": {
+            "usd": 2.068512e-06
+          },
+          "cache_read": {
+            "usd": 8.6188e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T18:17:16Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "google/gemini-3.5-flash",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.5e-06
+          },
+          "output": {
+            "usd": 9e-06
+          },
+          "cache_read": {
+            "usd": 1.5e-07
+          },
+          "cache_write": {
+            "usd": 8.33333333333333e-08
+          }
+        },
+        "per_image": [
+          {
+            "name": "default",
+            "price": {
+              "usd": 1.5e-06
+            }
+          }
+        ],
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.65e-06
+          },
+          "output": {
+            "usd": 9.9e-06
+          },
+          "cache_read": {
+            "usd": 1.65e-07
+          },
+          "cache_write": {
+            "usd": 8.33333333333333e-08
+          }
+        },
+        "per_image": [
+          {
+            "name": "default",
+            "price": {
+              "usd": 1.65e-06
+            }
+          }
+        ],
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T18:17:16Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "qwen/qwen3.8-2.4t-a95b",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 6e-06
+          },
+          "cache_read": {
+            "usd": 2.5e-07
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 6e-06
+          },
+          "cache_read": {
+            "usd": 2e-07
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T18:17:16Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "qwen/qwen3.8-2.4t-a95b:batch",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.5e-06
+          },
+          "output": {
+            "usd": 6.25e-06
+          },
+          "cache_read": {
+            "usd": 5e-07
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 2e-06
+          },
+          "output": {
+            "usd": 6e-06
+          },
+          "cache_read": {
+            "usd": 2.5e-07
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-08-31T18:17:16Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "tencent/hy3",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.32e-07
+          },
+          "output": {
+            "usd": 5.28e-07
+          },
+          "cache_read": {
+            "usd": 3.3e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 8.25e-08
+          },
+          "output": {
+            "usd": 3.3e-07
+          },
+          "cache_read": {
+            "usd": 2.0625e-08
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-08-31T15:16:26Z",
       "kind": "remove",

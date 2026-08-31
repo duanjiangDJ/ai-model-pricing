@@ -16,6 +16,11 @@
 
 ---
 
+## 26.21.24 — 2026-08-31T18:22Z（内容更新）
+
+- 价格同步（6 处变更）：
+- **openrouter**（更新 6）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `google/gemini-3.5-flash`, `qwen/qwen3.8-2.4t-a95b`, `qwen/qwen3.8-2.4t-a95b:batch`, `tencent/hy3`
+
 ## 26.20.24 — 2026-08-31T15:21Z（内容更新）
 
 - 价格同步（3 处变更）：
