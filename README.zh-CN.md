@@ -133,7 +133,7 @@ provider = json.load(urllib.request.urlopen(
 | 消费级订阅 | ChatGPT Plus/Pro、Claude Pro/Max、Gemini AI、Perplexity、SuperGrok、Poe 等 | ✅ 已入库 |
 | 编码工具计划 | Copilot、Cursor、Windsurf、Claude Code、JetBrains AI、Devin、Amazon Q、Replit、Tabnine 等 | ✅ 已入库 |
 
-**当前规模**：204 个供应商、7,700+ 模型（含 OpenRouter 419 个聚合转售价）、51 个订阅计划，
+**当前规模**：190 个供应商、7,465 个模型、67 个订阅计划，
 数据每日自动同步（OpenRouter + models.dev），人工核实条目带 `verified_at` 与来源。
 
 > 诚实声明：**没有任何单一来源覆盖全部定价**（已核实 OpenRouter / models.dev / LiteLLM 等仅覆盖 API token 定价）。
