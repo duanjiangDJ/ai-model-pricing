@@ -16,6 +16,10 @@
 
 ---
 
+## 26.24.24 — 2026-09-01T04:20Z（内容更新）
+
+- 修复 openrouter 免费模型被误标为 pay_per_token（字符串/数字比对 bug）；audit 新增零价自相矛盾检查
+
 ## 26.23.24 — 2026-09-01T01:53Z（内容更新）
 
 - 修复 OpenRouter 价格单位错误（per-token 未换算成 per-1M，价格偏低 1e6 倍），sync 补回 api_base_url，audit 新增价格量级合理性检查
