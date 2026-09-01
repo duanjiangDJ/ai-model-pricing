@@ -6,7 +6,7 @@
 - 官网: https://docs.evroc.com/products/think/overview.html
 - 定价页: https://docs.evroc.com/products/think/overview.html
 - 币种: USD
-- 数据更新时间: 2026-09-01T09:18:24Z
+- 数据更新时间: 2026-09-01T17:00:31Z
 - 核实时间: 2026-09-01T09:18:24Z
 
 共 **17** 个模型。
@@ -15,7 +15,7 @@
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `KBLab/kb-whisper-large` | — | chat | 按量 | 448 | $0.0023 | $0.0023 | — | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3-Embedding-8B` | — | embedding | 按量 | 40.96K | $0.115 | $0.115 | — | — | —/— | — | models.dev official list price |
-| `Qwen/Qwen3-Reranker-4B` | — | rerank | 按量 + 免费 | 32K | $0.0575 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `Qwen/Qwen3-Reranker-4B` | — | rerank | 按量 | 32K | $0.0575 | $0 | — | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3.6-35B-A3B` | — | reasoning | 按量 | 262.144K | $0.345 | $1.38 | — | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3.6-35B-A3B-FP8` | — | reasoning | 按量 | 262.144K | $0.345 | $1.38 | — | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3.8-27B` | — | reasoning | 按量 | 262.144K | $0.87 | $3.5 | — | — | —/— | — | models.dev official list price |

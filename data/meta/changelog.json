@@ -1,6 +1,17 @@
 {
-  "schema_version": "26.31.25",
+  "schema_version": "26.31.26",
   "entries": [
+    {
+      "date": "2026-09-01T17:01:33Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "all",
+      "item_id": "55 models",
+      "field": "billing_model",
+      "old": "pay_per_token+free (spurious free flag on paid models)",
+      "new": "pay_per_token (free flag removed; free implies truly-free per_mtok=0)",
+      "source": "fix(billing-free-contamination): annotate_billing no longer appends 'free' to a paid model; docs define free = per_mtok 0"
+    },
     {
       "date": "2026-09-01T15:18:42Z",
       "kind": "add",

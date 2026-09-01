@@ -6,7 +6,7 @@
 - Homepage: https://docs.tinfoil.sh
 - Pricing page: https://docs.tinfoil.sh
 - Currency: USD
-- Data updated: 2026-09-01T09:18:24Z
+- Data updated: 2026-09-01T17:00:31Z
 - Verified: 2026-09-01T09:18:24Z
 
 **8** models in total.
@@ -20,4 +20,4 @@
 | `gpt-oss-safeguard-120b` | — | reasoning | per-token | 131.072K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
 | `kimi-k3` | — | reasoning | per-token | 262.144K | $4 | $20 | $0.8 | — | —/— | — | models.dev official list price |
 | `llama3-3-70b` | — | chat | per-token | 131.072K | $1.75 | $2.75 | — | — | —/— | — | models.dev official list price |
-| `nomic-embed-text` | — | embedding | per-token + free | 8.192K | $0.05 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `nomic-embed-text` | — | embedding | per-token | 8.192K | $0.05 | $0 | — | — | —/— | — | models.dev official list price |

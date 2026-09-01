@@ -6,7 +6,7 @@
 - Homepage: https://platform.openai.com/docs/models
 - Pricing page: https://openai.com/chatgpt/pricing/
 - Currency: USD
-- Data updated: 2026-09-01T10:11:15.903336+00:00
+- Data updated: 2026-09-01T17:00:31Z
 - Verified: 2026-09-01T10:11:15.903336+00:00
 
 **47** models in total.
@@ -14,7 +14,7 @@
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `chatgpt-image-latest` | ❌ offline | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `gpt-3.5-turbo` | — | chat | per-token + free | 16.385K | $0.5 | $1.5 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `gpt-3.5-turbo` | — | chat | per-token | 16.385K | $0.5 | $1.5 | $0 | — | —/— | — | models.dev official list price |
 | `gpt-4` | ❌ offline | chat | per-token | 8.192K | $30 | $60 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `gpt-4-turbo` | ❌ offline | chat | per-token | 128K | $10 | $30 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `gpt-4.1` | — | chat | per-token | 1.04758M | $2 | $8 | $0.5 | — | —/— | — | models.dev official list price |
@@ -57,6 +57,6 @@
 | `o3-mini` | ❌ offline | reasoning | per-token | 200K | $1.1 | $4.4 | $0.55 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `o3-pro` | — | reasoning | per-token | 200K | $20 | $80 | — | — | —/— | — | models.dev official list price |
 | `o4-mini` | ❌ offline | reasoning | per-token | 200K | $1.1 | $4.4 | $0.275 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `text-embedding-3-large` | — | embedding | per-token + free | 8.191K | $0.13 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `text-embedding-3-small` | ❌ offline | embedding | per-token + free | 8.191K | $0.02 | $0 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `text-embedding-ada-002` | — | embedding | per-token + free | 8.192K | $0.1 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `text-embedding-3-large` | — | embedding | per-token | 8.191K | $0.13 | $0 | — | — | —/— | — | models.dev official list price |
+| `text-embedding-3-small` | ❌ offline | embedding | per-token | 8.191K | $0.02 | $0 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `text-embedding-ada-002` | — | embedding | per-token | 8.192K | $0.1 | $0 | — | — | —/— | — | models.dev official list price |

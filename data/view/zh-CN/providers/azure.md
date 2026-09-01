@@ -6,7 +6,7 @@
 - 官网: https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models
 - 定价页: https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models
 - 币种: USD
-- 数据更新时间: 2026-09-01T09:18:24Z
+- 数据更新时间: 2026-09-01T17:00:31Z
 - 核实时间: 2026-09-01T09:18:24Z
 
 共 **84** 个模型。
@@ -28,9 +28,9 @@
 | `codestral-2501` | — | chat | 按量 | 256K | $0.3 | $0.9 | — | — | —/— | — | models.dev official list price |
 | `codex-mini` | — | reasoning | 按量 | 200K | $1.5 | $6 | $0.375 | — | —/— | — | models.dev official list price |
 | `cohere-command-a` | — | reasoning | 按量 | 131.072K | $2.5 | $10 | — | — | —/— | — | models.dev official list price |
-| `cohere-embed-v-4-0` | — | embedding | 按量 + 免费 | 128K | $0.12 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `cohere-embed-v3-english` | — | embedding | 按量 + 免费 | 512 | $0.1 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `cohere-embed-v3-multilingual` | — | embedding | 按量 + 免费 | 512 | $0.1 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `cohere-embed-v-4-0` | — | embedding | 按量 | 128K | $0.12 | $0 | — | — | —/— | — | models.dev official list price |
+| `cohere-embed-v3-english` | — | embedding | 按量 | 512 | $0.1 | $0 | — | — | —/— | — | models.dev official list price |
+| `cohere-embed-v3-multilingual` | — | embedding | 按量 | 512 | $0.1 | $0 | — | — | —/— | — | models.dev official list price |
 | `deepseek-r1` | — | reasoning | 按量 | 163.84K | $1.35 | $5.4 | — | — | —/— | — | models.dev official list price |
 | `deepseek-v3.2` | — | reasoning | 按量 | 128K | $0.58 | $1.68 | — | — | —/— | — | models.dev official list price |
 | `deepseek-v3.2-speciale` | — | reasoning | 按量 | 128K | $0.58 | $1.68 | — | — | —/— | — | models.dev official list price |
@@ -83,7 +83,7 @@
 | `ministral-3b` | — | chat | 按量 | 128K | $0.04 | $0.04 | — | — | —/— | — | models.dev official list price |
 | `mistral-medium-2505` | — | chat | 按量 | 128K | $0.4 | $2 | — | — | —/— | — | models.dev official list price |
 | `mistral-small-2503` | — | chat | 按量 | 128K | $0.1 | $0.3 | — | — | —/— | — | models.dev official list price |
-| `model-router` | — | chat | 按量 + 免费 | 200K | $0.14 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `model-router` | — | chat | 按量 | 200K | $0.14 | $0 | — | — | —/— | — | models.dev official list price |
 | `o1` | — | reasoning | 按量 | 200K | $15 | $60 | $7.5 | — | —/— | — | models.dev official list price |
 | `o3` | — | reasoning | 按量 | 200K | $2 | $8 | $0.5 | — | —/— | — | models.dev official list price |
 | `o3-mini` | — | reasoning | 按量 | 200K | $1.1 | $4.4 | $0.55 | — | —/— | — | models.dev official list price |
@@ -94,6 +94,6 @@
 | `phi-4-multimodal` | — | chat | 按量 | 128K | $0.08 | $0.32 | — | — | —/— | — | models.dev official list price |
 | `phi-4-reasoning` | — | reasoning | 按量 | 32K | $0.125 | $0.5 | — | — | —/— | — | models.dev official list price |
 | `phi-4-reasoning-plus` | — | reasoning | 按量 | 32K | $0.125 | $0.5 | — | — | —/— | — | models.dev official list price |
-| `text-embedding-3-large` | — | embedding | 按量 + 免费 | 8.191K | $0.13 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `text-embedding-3-small` | — | embedding | 按量 + 免费 | 8.191K | $0.02 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `text-embedding-ada-002` | — | embedding | 按量 + 免费 | 8.192K | $0.1 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `text-embedding-3-large` | — | embedding | 按量 | 8.191K | $0.13 | $0 | — | — | —/— | — | models.dev official list price |
+| `text-embedding-3-small` | — | embedding | 按量 | 8.191K | $0.02 | $0 | — | — | —/— | — | models.dev official list price |
+| `text-embedding-ada-002` | — | embedding | 按量 | 8.192K | $0.1 | $0 | — | — | —/— | — | models.dev official list price |

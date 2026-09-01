@@ -6,7 +6,7 @@
 - Homepage: https://cloud.google.com/vertex-ai/generative-ai/docs/models
 - Pricing page: https://cloud.google.com/vertex-ai/generative-ai/docs/models
 - Currency: USD
-- Data updated: 2026-09-01T09:18:24Z
+- Data updated: 2026-09-01T17:00:31Z
 - Verified: 2026-09-01T09:18:24Z
 
 **43** models in total.
@@ -45,7 +45,7 @@
 | `gemini-3.5-flash-lite` | — | reasoning | per-token | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `gemini-3.6-flash` | — | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `gemini-3.7-flash` | — | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
-| `gemini-embedding-001` | — | embedding | per-token + free | 2.048K | $0.15 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `gemini-embedding-001` | — | embedding | per-token | 2.048K | $0.15 | $0 | — | — | —/— | — | models.dev official list price |
 | `gemini-flash-latest` | — | reasoning | per-token | 1.04858M | $1.5 | $9 | $0.15 | — | —/— | — | models.dev official list price |
 | `gemini-flash-lite-latest` | — | reasoning | per-token | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |
 | `meta/llama-3.3-70b-instruct-maas` | — | chat | per-token | 128K | $0.72 | $0.72 | — | — | —/— | — | models.dev official list price |

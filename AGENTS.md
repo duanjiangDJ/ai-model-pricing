@@ -72,6 +72,10 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    `pay_per_token` (per-token API, incl. cache/batch), `pay_per_image`, `subscription_included`
    (included in a subscription/coding plan), `credits` (points-based), `free`, `unknown` (needs review).
    Use `python scripts/annotate_billing.py` to (re-)annotate; audit flags unknown/pay-per-token inconsistencies.
+   `free` means the model is TRULY free: every `per_mtok` value is 0/null. A model with any
+   positive `per_mtok` is `pay_per_token` — never flag it `free` (`annotate_billing.py` does
+   this; a paid model stays `free`-free even when it has a zero-price dimension such as
+   embedding output or free cache reads).
 4. `pricing` fields (all USD per 1M tokens unless `currency` says otherwise):
    - `per_mtok.{input,output,cache_read,cache_write}` — per-token API prices
    - `batch.{input,output}` — 50% off batch APIs

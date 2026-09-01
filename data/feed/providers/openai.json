@@ -7,7 +7,7 @@
   "homepage": "https://platform.openai.com/docs/models",
   "pricing_page": "https://openai.com/chatgpt/pricing/",
   "currency": "USD",
-  "updated_at": "2026-09-01T10:11:15.903336+00:00",
+  "updated_at": "2026-09-01T17:00:31Z",
   "verified_at": "2026-09-01T10:11:15.903336+00:00",
   "models": [
     {
@@ -64,10 +64,9 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "notes": "models.dev official list price",
       "billing_model": [
-        "pay_per_token",
-        "free"
+        "pay_per_token"
       ]
     },
     {
@@ -1463,10 +1462,9 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "notes": "models.dev official list price",
       "billing_model": [
-        "pay_per_token",
-        "free"
+        "pay_per_token"
       ]
     },
     {
@@ -1494,11 +1492,10 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use. | Free model (per_mtok = 0).",
+      "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use.",
       "status": "offline",
       "billing_model": [
-        "pay_per_token",
-        "free"
+        "pay_per_token"
       ]
     },
     {
@@ -1526,10 +1523,9 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "notes": "models.dev official list price",
       "billing_model": [
-        "pay_per_token",
-        "free"
+        "pay_per_token"
       ]
     }
   ],

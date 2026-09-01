@@ -7,7 +7,7 @@
   "homepage": "https://docs.evroc.com/products/think/overview.html",
   "pricing_page": "https://docs.evroc.com/products/think/overview.html",
   "currency": "USD",
-  "updated_at": "2026-09-01T09:18:24Z",
+  "updated_at": "2026-09-01T17:00:31Z",
   "verified_at": "2026-09-01T09:18:24Z",
   "models": [
     {
@@ -95,10 +95,9 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "notes": "models.dev official list price",
       "billing_model": [
-        "pay_per_token",
-        "free"
+        "pay_per_token"
       ]
     },
     {
