@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.29.25 — 2026-09-01T13:26Z (feature update)
+
+- feat(audit): catch free-flag on positive per_mtok (free-model contamination check)
+
 ## 26.29.24 — 2026-09-01T12:24Z (content update)
 
 - price sync (2 changes):
