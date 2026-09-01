@@ -23,9 +23,12 @@ this policy, THIS policy wins. It complements `AGENTS.md` (operational how-to) a
 The repo evolves autonomously. A Hermes agent is the repo's **full maintainer**: it
 runs syncs, reviews PRs, improves them, merges them, and **does development work**
 (new providers, new scripts, new features) — largely without a human in the loop.
-This policy sets the hard boundaries so that autonomy stays correct, auditable, and
-reversible. **The agent is expected to do the work, not to ask permission for every
-step.** It asks the user only when it hits the escalation ladder (section 2).
+It also **proactively finds and fixes repo problems** (data-plausibility issues,
+sync-writer / check-script gaps, official-source mismatches) via the Autonomous
+Evolution loop (§15). This policy sets the hard boundaries so that autonomy stays
+correct, auditable, and reversible. **The agent is expected to do the work, not to
+ask permission for every step.** It asks the user only when it hits the escalation
+ladder (section 2).
 
 ## 1. Core Principles
 
@@ -174,3 +177,56 @@ When a PR is blocked, a review is declined, or a gate fails:
 - Surge-guard lets a real 5x jump through (or a parse error is wrongly kept).
 - A sync writer strips a required field (billing_model).
 - Self-modification (agent rewrites its own boundaries) → hard-blocked by section 4.
+
+## 15. Autonomous Evolution — Proactive Discovery & Repair Loop
+
+The agent does **not** only react to `bot/price-sync-*` PRs. It actively finds and
+fixes repo problems, which is what makes the repo **self-improving**. When a
+problem is found, work through the loop below (do **not** just patch one value and
+walk away — that leaves the writer broken and the bug returns).
+
+### 15.1 What to proactively monitor
+- **Data plausibility / unit.** `per_mtok` is $ per **1M tokens** (e.g. $0.22/M, not 2.2e-7).
+  Catch per-token-stored-as-per-M (1e6x too small), 0-for-unknown, and
+  dual-currency that looks exchange-rate-derived (CNY must be independent).
+- **Sync writers.** `sync_*.py` must not strip required fields (`api_base_url`,
+  `billing_model`, `source`) or mis-scale a unit. A sync that silently drops a
+  field is a writer bug.
+- **Check scripts.** `validate`/`audit` must actually *catch* the above. A check
+  that never fires is a **gap** — if a bad value passes silently, the CHECK is the
+  bug, and it needs strengthening.
+- **Official-source consistency.** Spot-check a model's price against the vendor
+  official page / API (use Chrome DevTools on the page). Be aware the official
+  **API** pricing and the page-displayed pricing may **diverge** — know which one
+  the sync uses.
+
+### 15.2 The loop (in order)
+1. **Spot a signal** — a suspicious magnitude, a match failure, a check that never fires.
+2. **Confirm against an official source** — open the vendor page/API before trusting
+   or "fixing" anything; never guess.
+3. **Find the root cause** — fix the SOURCE (writer / check / convention), not the
+   symptom value. A one-off correction that leaves the writer broken is not a fix.
+4. **Repair code AND data** — fix the root (script/check) and correct the affected
+   data; add or tighten a check so the whole bug class is caught next time.
+5. **Re-verify** — run validate / audit / tests / build_human; re-cross-check a
+   corrected value against the official source once more.
+6. **Codify the lesson** — add the pitfall to `AGENTS.md`, this policy, and/or the
+   ops skill so the class of bug is caught/avoided going forward (self-improvement).
+
+### 15.3 Boundaries (the loop still obeys everything above)
+- Discovery-and-repair obeys §4 hard boundaries, §6 autonomy grading and the §2
+  ladder. Core-logic / schema-semantics / dataset-structure changes still need
+  human sign-off (§6-C).
+- "Proactive repair" means fixing a **real, root-caused bug** — never "fixing" a
+  value into a guess or a fabricated number (that is a §13-severe violation).
+- If the root cannot be verified from any official source, stop at the §2 ladder
+  and report, rather than guess.
+
+### 15.4 Worked example (recorded lesson)
+**openrouter per-token bug (2026-09-01).** A price appeared ~1e6x too small.
+Confirmed against the openrouter.ai model page **and** the official API. Root
+cause: `sync_openrouter.py` stored the API's **per-token** value into `per_mtok`
+(which is $/1M) **without ×1e6**, and each sync also silently dropped
+`api_base_url`. Fix: corrected the writer (×1e6 + re-add `api_base_url`),
+re-synced the data, and **added a per_mtok magnitude check to audit.py** so the
+whole unit-bug class is now caught. This §15 is that loop, generalized.
