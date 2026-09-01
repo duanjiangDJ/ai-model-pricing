@@ -16,6 +16,12 @@
 
 ---
 
+## 26.32.26 — 2026-09-01T21:38Z（内容更新）
+
+- 价格同步（5 处变更）：
+- **openrouter**（新增 1）：`anthropic/claude-fable-5.1`
+- **openrouter**（更新 4）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `tencent/hy3`, `~anthropic/claude-fable-latest`
+
 ## 26.31.26 — 2026-09-01T17:01Z（功能更新）
 
 - fix(billing): 停止把付费模型标注为 free——修复 annotate_billing 损坏的 import 与多余 'free' 追加；清理 55 个被污染模型；audit 检查排除合法的 free-tier+paid 组合
