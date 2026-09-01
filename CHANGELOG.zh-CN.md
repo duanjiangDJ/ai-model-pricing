@@ -16,6 +16,10 @@
 
 ---
 
+## 26.28.24 — 2026-09-01T11:11Z（内容更新）
+
+- 机器人价格同步（95 处提供商更新）；修正 openrouter deepseek 两个型号为官网实时价格
+
 ## 26.27.24 — 2026-09-01T10:12Z（内容更新）
 
 - 修复 OpenAI 官方定价解析（OpenAI 定价页改版导致 tier0_openai 解析为 0，改为解析新的 developers.openai.com pricing.md）；write_json 改为原子写（防止 dump 失败写坏数据文件）；fetch_official 修正 '~' 前缀为 open-weights 标记非免费

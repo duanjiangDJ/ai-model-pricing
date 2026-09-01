@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.28.24 — 2026-09-01T11:11Z (content update)
+
+- bot price sync (95 provider updates: 4521+/1711- data/view); fix openrouter deepseek v4-pro-0813/v4-flash-vision-exp to live API
+
 ## 26.27.24 — 2026-09-01T10:12Z (content update)
 
 - fix(openai): parse new developers.openai.com pricing.md (OpenAI page revamp broke tier0_openai -> parsed 0); make write_json atomic (dump failure was corrupting provider files); fetch_official: '~' is open-weights not free
