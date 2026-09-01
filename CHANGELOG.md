@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.32.26 — 2026-09-01T21:38Z (content update)
+
+- price sync (5 changes):
+- **openrouter** (+1): `anthropic/claude-fable-5.1`
+- **openrouter** (updated 4): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `tencent/hy3`, `~anthropic/claude-fable-latest`
+
 ## 26.31.26 — 2026-09-01T17:01Z (feature update)
 
 - fix(billing): stop flagging paid models as free — repair annotate_billing broken import + spurious 'free' append; clean 55 contaminated models; audit check now excludes legit free-tier+paid combo

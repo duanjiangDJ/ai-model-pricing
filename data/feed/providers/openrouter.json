@@ -8,8 +8,8 @@
   "pricing_page": "https://openrouter.ai/models",
   "api_base_url": "https://openrouter.ai/api/v1",
   "currency": "USD",
-  "updated_at": "2026-09-01T15:18:42Z",
-  "verified_at": "2026-09-01T15:18:42Z",
+  "updated_at": "2026-09-01T21:18:59Z",
+  "verified_at": "2026-09-01T21:18:59Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -360,6 +360,39 @@
           },
           "cache_read": {
             "usd": 1.0
+          },
+          "cache_write": {
+            "usd": 12.5
+          }
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "anthropic/claude-fable-5.1",
+      "name": "Anthropic: Claude Fable 5.1",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 1000000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 10.0
+          },
+          "output": {
+            "usd": 50.0
+          },
+          "cache_read": {
+            "usd": 0.25
           },
           "cache_write": {
             "usd": 12.5
@@ -1842,13 +1875,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.0763
+            "usd": 0.07168
           },
           "output": {
-            "usd": 0.1526
+            "usd": 0.14336
           },
           "cache_read": {
-            "usd": 0.01526
+            "usd": 0.014336
           },
           "cache_write": null
         },
@@ -1963,13 +1996,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.6
+            "usd": 1.02747
           },
           "output": {
-            "usd": 3.2
+            "usd": 2.05494
           },
           "cache_read": {
-            "usd": 0.135
+            "usd": 0.0856225
           },
           "cache_write": null
         },
@@ -11332,13 +11365,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.132
+            "usd": 0.0825
           },
           "output": {
-            "usd": 0.528
+            "usd": 0.33
           },
           "cache_read": {
-            "usd": 0.033
+            "usd": 0.020625
           },
           "cache_write": null
         },
@@ -12557,7 +12590,7 @@
             "usd": 50.0
           },
           "cache_read": {
-            "usd": 1.0
+            "usd": 0.25
           },
           "cache_write": {
             "usd": 12.5

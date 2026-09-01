@@ -1,5 +1,5 @@
 {
-  "schema_version": "26.31.26",
+  "schema_version": "26.32.26",
   "sources": [
     {
       "name": "models.dev",
@@ -44,7 +44,7 @@
       "name": "OpenRouter API",
       "url": "https://openrouter.ai/api/v1/models",
       "auto_sync": true,
-      "last_ok": "2026-09-01T15:18:42Z",
+      "last_ok": "2026-09-01T21:18:59Z",
       "last_error": null
     },
     {
@@ -53,7 +53,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -62,7 +62,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -71,7 +71,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -80,7 +80,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -89,7 +89,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -98,7 +98,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -107,7 +107,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -116,7 +116,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -125,7 +125,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -134,7 +134,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -143,7 +143,43 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:302ai",
+      "url": "scripts/checks/302ai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:abacus",
+      "url": "scripts/checks/abacus.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:abliteration-ai",
+      "url": "scripts/checks/abliteration-ai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:ai-router",
+      "url": "scripts/checks/ai-router.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -152,7 +188,133 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:aiand",
+      "url": "scripts/checks/aiand.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:aihubmix",
+      "url": "scripts/checks/aihubmix.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:aki-io",
+      "url": "scripts/checks/aki-io.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:alibaba-cn",
+      "url": "scripts/checks/alibaba-cn.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:alibaba-coding-plan",
+      "url": "scripts/checks/alibaba-coding-plan.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:alibaba-coding-plan-cn",
+      "url": "scripts/checks/alibaba-coding-plan-cn.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:alibaba-token-plan",
+      "url": "scripts/checks/alibaba-token-plan.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:alibaba-token-plan-cn",
+      "url": "scripts/checks/alibaba-token-plan-cn.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:ambient",
+      "url": "scripts/checks/ambient.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:amd",
+      "url": "scripts/checks/amd.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:anyapi",
+      "url": "scripts/checks/anyapi.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:arcee",
+      "url": "scripts/checks/arcee.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:atomic-chat",
+      "url": "scripts/checks/atomic-chat.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:auriko",
+      "url": "scripts/checks/auriko.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -161,7 +323,16 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:azure",
+      "url": "scripts/checks/azure.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -170,7 +341,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -179,7 +350,115 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:bailing",
+      "url": "scripts/checks/bailing.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:baseten",
+      "url": "scripts/checks/baseten.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:berget",
+      "url": "scripts/checks/berget.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:blueclaw",
+      "url": "scripts/checks/blueclaw.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:cerebras",
+      "url": "scripts/checks/cerebras.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:chutes",
+      "url": "scripts/checks/chutes.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:clarifai",
+      "url": "scripts/checks/clarifai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:claudinio",
+      "url": "scripts/checks/claudinio.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:cline-pass",
+      "url": "scripts/checks/cline-pass.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:cloudferro-sherlock",
+      "url": "scripts/checks/cloudferro-sherlock.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:cloudflare-ai-gateway",
+      "url": "scripts/checks/cloudflare-ai-gateway.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:cloudflare-workers-ai",
+      "url": "scripts/checks/cloudflare-workers-ai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -188,7 +467,322 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:coralbricks",
+      "url": "scripts/checks/coralbricks.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:cortecs",
+      "url": "scripts/checks/cortecs.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:crof",
+      "url": "scripts/checks/crof.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:crossmodel",
+      "url": "scripts/checks/crossmodel.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:crusoe",
+      "url": "scripts/checks/crusoe.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:cursor",
+      "url": "scripts/checks/cursor.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:daoxe",
+      "url": "scripts/checks/daoxe.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:databricks",
+      "url": "scripts/checks/databricks.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:deepinfra",
+      "url": "scripts/checks/deepinfra.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:devin",
+      "url": "scripts/checks/devin.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:digitalocean",
+      "url": "scripts/checks/digitalocean.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:dinference",
+      "url": "scripts/checks/dinference.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:drun",
+      "url": "scripts/checks/drun.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:ebcloud",
+      "url": "scripts/checks/ebcloud.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:echo",
+      "url": "scripts/checks/echo.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:edenai",
+      "url": "scripts/checks/edenai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:empiriolabs",
+      "url": "scripts/checks/empiriolabs.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:evroc",
+      "url": "scripts/checks/evroc.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:fastrouter",
+      "url": "scripts/checks/fastrouter.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:fireworks-ai",
+      "url": "scripts/checks/fireworks-ai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:freemodel",
+      "url": "scripts/checks/freemodel.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:friendli",
+      "url": "scripts/checks/friendli.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:frogbot",
+      "url": "scripts/checks/frogbot.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:github",
+      "url": "scripts/checks/github.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:gitlab",
+      "url": "scripts/checks/gitlab.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:gmicloud",
+      "url": "scripts/checks/gmicloud.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:google-vertex",
+      "url": "scripts/checks/google-vertex.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:greenpt",
+      "url": "scripts/checks/greenpt.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:groq",
+      "url": "scripts/checks/groq.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:helicone",
+      "url": "scripts/checks/helicone.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:hetzner",
+      "url": "scripts/checks/hetzner.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:hpc-ai",
+      "url": "scripts/checks/hpc-ai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:huggingface",
+      "url": "scripts/checks/huggingface.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:hyper",
+      "url": "scripts/checks/hyper.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:iflowcn",
+      "url": "scripts/checks/iflowcn.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -197,7 +791,133 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:impossibl",
+      "url": "scripts/checks/impossibl.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:inception",
+      "url": "scripts/checks/inception.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:inceptron",
+      "url": "scripts/checks/inceptron.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:inference",
+      "url": "scripts/checks/inference.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:inferx",
+      "url": "scripts/checks/inferx.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:infomaniak",
+      "url": "scripts/checks/infomaniak.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:io-net",
+      "url": "scripts/checks/io-net.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:jalapeno",
+      "url": "scripts/checks/jalapeno.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:jetbrains",
+      "url": "scripts/checks/jetbrains.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:kenari",
+      "url": "scripts/checks/kenari.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:kilo",
+      "url": "scripts/checks/kilo.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:kosmik",
+      "url": "scripts/checks/kosmik.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:kuae-cloud-coding-plan",
+      "url": "scripts/checks/kuae-cloud-coding-plan.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:lilac",
+      "url": "scripts/checks/lilac.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -206,7 +926,88 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:llama",
+      "url": "scripts/checks/llama.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:llmgateway",
+      "url": "scripts/checks/llmgateway.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:llmtr",
+      "url": "scripts/checks/llmtr.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:lmstudio",
+      "url": "scripts/checks/lmstudio.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:longcat",
+      "url": "scripts/checks/longcat.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:lucidquery",
+      "url": "scripts/checks/lucidquery.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:lynkr",
+      "url": "scripts/checks/lynkr.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:meganova",
+      "url": "scripts/checks/meganova.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:merge-gateway",
+      "url": "scripts/checks/merge-gateway.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -215,7 +1016,133 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:mixlayer",
+      "url": "scripts/checks/mixlayer.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:moark",
+      "url": "scripts/checks/moark.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:modal",
+      "url": "scripts/checks/modal.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:model-oracle-ai",
+      "url": "scripts/checks/model-oracle-ai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:modelis",
+      "url": "scripts/checks/modelis.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:modelscope",
+      "url": "scripts/checks/modelscope.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:morph",
+      "url": "scripts/checks/morph.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:nano-gpt",
+      "url": "scripts/checks/nano-gpt.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:nearai",
+      "url": "scripts/checks/nearai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:nebius",
+      "url": "scripts/checks/nebius.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:neon",
+      "url": "scripts/checks/neon.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:neuralwatt",
+      "url": "scripts/checks/neuralwatt.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:nova",
+      "url": "scripts/checks/nova.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:novita-ai",
+      "url": "scripts/checks/novita-ai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -224,7 +1151,61 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:ofox",
+      "url": "scripts/checks/ofox.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:ollama-cloud",
+      "url": "scripts/checks/ollama-cloud.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:opencode",
+      "url": "scripts/checks/opencode.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:opencode-go",
+      "url": "scripts/checks/opencode-go.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:orcarouter",
+      "url": "scripts/checks/orcarouter.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:ovhcloud",
+      "url": "scripts/checks/ovhcloud.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -233,7 +1214,205 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:pioneer",
+      "url": "scripts/checks/pioneer.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:poe",
+      "url": "scripts/checks/poe.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:poolside",
+      "url": "scripts/checks/poolside.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:privatemode-ai",
+      "url": "scripts/checks/privatemode-ai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:qihang-ai",
+      "url": "scripts/checks/qihang-ai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:qiniu-ai",
+      "url": "scripts/checks/qiniu-ai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:qvac",
+      "url": "scripts/checks/qvac.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:regolo-ai",
+      "url": "scripts/checks/regolo-ai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:replit",
+      "url": "scripts/checks/replit.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:requesty",
+      "url": "scripts/checks/requesty.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:routing-run",
+      "url": "scripts/checks/routing-run.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:runinfra",
+      "url": "scripts/checks/runinfra.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:sakana",
+      "url": "scripts/checks/sakana.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:salad-cloud",
+      "url": "scripts/checks/salad-cloud.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:sap-ai-core",
+      "url": "scripts/checks/sap-ai-core.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:sarvam",
+      "url": "scripts/checks/sarvam.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:scaleway",
+      "url": "scripts/checks/scaleway.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:scnet-token-plan",
+      "url": "scripts/checks/scnet-token-plan.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:scx-ai",
+      "url": "scripts/checks/scx-ai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:siliconflow",
+      "url": "scripts/checks/siliconflow.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:snowflake-cortex",
+      "url": "scripts/checks/snowflake-cortex.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:stackit",
+      "url": "scripts/checks/stackit.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -242,7 +1421,61 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:stepfun-ai-step-plan",
+      "url": "scripts/checks/stepfun-ai-step-plan.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:stepfun-step-plan",
+      "url": "scripts/checks/stepfun-step-plan.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:subconscious",
+      "url": "scripts/checks/subconscious.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:submodel",
+      "url": "scripts/checks/submodel.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:synthetic",
+      "url": "scripts/checks/synthetic.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:tabnine",
+      "url": "scripts/checks/tabnine.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -251,7 +1484,106 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:tencent-coding-plan",
+      "url": "scripts/checks/tencent-coding-plan.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:tencent-token-plan",
+      "url": "scripts/checks/tencent-token-plan.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:tencent-tokenhub",
+      "url": "scripts/checks/tencent-tokenhub.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:tensorx",
+      "url": "scripts/checks/tensorx.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:the-grid-ai",
+      "url": "scripts/checks/the-grid-ai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:thinkingmachines",
+      "url": "scripts/checks/thinkingmachines.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:tinfoil",
+      "url": "scripts/checks/tinfoil.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:togetherai",
+      "url": "scripts/checks/togetherai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:trustedrouter",
+      "url": "scripts/checks/trustedrouter.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:umans-ai",
+      "url": "scripts/checks/umans-ai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:unorouter",
+      "url": "scripts/checks/unorouter.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -260,7 +1592,43 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:v0",
+      "url": "scripts/checks/v0.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:venice",
+      "url": "scripts/checks/venice.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:vercel",
+      "url": "scripts/checks/vercel.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:vivgrid",
+      "url": "scripts/checks/vivgrid.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -269,7 +1637,52 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:vultr",
+      "url": "scripts/checks/vultr.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:wafer.ai",
+      "url": "scripts/checks/wafer.ai.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:wandb",
+      "url": "scripts/checks/wandb.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:watsonx",
+      "url": "scripts/checks/watsonx.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:windsurf",
+      "url": "scripts/checks/windsurf.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -278,7 +1691,52 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:xpersona",
+      "url": "scripts/checks/xpersona.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:zai-coding-plan",
+      "url": "scripts/checks/zai-coding-plan.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:zeldoc",
+      "url": "scripts/checks/zeldoc.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:zenifra",
+      "url": "scripts/checks/zenifra.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
+      "last_error": null
+    },
+    {
+      "name": "check:zenmux",
+      "url": "scripts/checks/zenmux.py",
+      "auto_sync": true,
+      "official": true,
+      "check": true,
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     },
     {
@@ -287,10 +1745,10 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-01T15:18:43Z",
+      "last_ok": "2026-09-01T21:19:00Z",
       "last_error": null
     }
   ],
   "coverage": {},
-  "last_daily_check": "2026-09-01T15:18:42Z"
+  "last_daily_check": "2026-09-01T21:18:59Z"
 }
