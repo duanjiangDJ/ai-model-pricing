@@ -6,8 +6,8 @@
 - 官网: https://www.alibabacloud.com/help/en/model-studio/models
 - 定价页: https://www.alibabacloud.com/help/en/model-studio/models
 - 币种: USD
-- 数据更新时间: 2026-08-31T03:37:34Z
-- 核实时间: 2026-08-31T03:37:34Z
+- 数据更新时间: 2026-09-01T00:17:37Z
+- 核实时间: 2026-09-01T00:17:37Z
 
 共 **55** 个模型。
 

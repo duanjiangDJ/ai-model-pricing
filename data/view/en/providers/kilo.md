@@ -6,10 +6,10 @@
 - Homepage: https://kilo.ai
 - Pricing page: https://kilo.ai
 - Currency: USD
-- Data updated: 2026-08-31T03:37:33Z
-- Verified: 2026-08-31T03:37:33Z
+- Data updated: 2026-09-01T00:17:36Z
+- Verified: 2026-09-01T00:17:36Z
 
-**375** models in total.
+**376** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -41,7 +41,7 @@
 | `anthropic/claude-sonnet-4.5` | — | reasoning | per-token | 1M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-sonnet-4.6` | — | reasoning | per-token | 1M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-sonnet-5` | — | reasoning | per-token | 1M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
-| `arcee-ai/trinity-large-thinking` | — | reasoning | per-token | 262.144K | $0.22 | $0.85 | $0.06 | — | —/— | — | models.dev official list price |
+| `arcee-ai/trinity-large-thinking` | — | reasoning | per-token | 262.144K | $0.25 | $0.8 | $0.06 | — | —/— | — | models.dev official list price |
 | `arcee-ai/virtuoso-large` | — | chat | per-token | 131.072K | $0.75 | $1.2 | — | — | —/— | — | models.dev official list price |
 | `baidu/ernie-4.5-vl-424b-a47b` | — | reasoning | per-token | 123K | $0.42 | $1.25 | — | — | —/— | — | models.dev official list price |
 | `bytedance-seed/seed-1.6` | — | reasoning | per-token | 262.144K | $0.25 | $2 | — | — | —/— | — | models.dev official list price |
@@ -58,8 +58,8 @@
 | `cohere/command-r7b-12-2024` | — | chat | per-token | 128K | $0.0375 | $0.15 | — | — | —/— | — | models.dev official list price |
 | `cohere/north-mini-code:free` | — | reasoning | free | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `deepcogito/cogito-v2.1-671b` | — | reasoning | per-token | 128K | $1.25 | $1.25 | — | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-chat` | — | chat | per-token | 128K | $0.4 | $1.3 | — | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-chat-v3-0324` | — | chat | per-token | 163.84K | $0.27 | $1.12 | $0.135 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-chat` | — | chat | per-token | 128K | $0.2574 | $1.0287 | — | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-chat-v3-0324` | — | chat | per-token | 163.84K | $0.25 | $1 | $0.135 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-chat-v3.1` | — | reasoning | per-token | 163.84K | $0.27 | $1 | $0.135 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-r1` | — | reasoning | per-token | 64K | $0.7 | $2.5 | — | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-r1-0528` | — | reasoning | per-token | 163.84K | $0.7 | $2.5 | $0.35 | — | —/— | — | models.dev official list price |
@@ -69,30 +69,30 @@
 | `deepseek/deepseek-v3.2-exp` | — | reasoning | per-token | 163.84K | $0.27 | $0.41 | — | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash` | — | reasoning | per-token | 1.024M | $0.14 | $0.28 | $0.028 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | per-token | 1.04858M | $0.44 | $1.32 | $0.028 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | per-token | 1.04858M | $0.44 | $1.32 | $0.014 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | per-token | 1.04858M | $0.44 | $1.32 | $0.028 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | per-token | 1.04858M | $1.6 | $3.2 | $0.135 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | per-token | 1.04858M | $1.32 | $3.96 | $0.132 | — | —/— | — | models.dev official list price |
 | `dots-studio/dots-3-note-preview:free` | — | reasoning | free | 512K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `google/gemini-2.5-flash` | — | reasoning | per-token | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
-| `google/gemini-2.5-flash-image` | — | chat | per-token | 32.768K | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
+| `google/gemini-2.5-flash-image` | — | chat | per-token | 32.768K | $0.15 | $1.25 | $0.015 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-flash-lite` | — | reasoning | per-token | 1.04858M | $0.1 | $0.4 | $0.01 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-pro` | — | reasoning | per-token | 1.04858M | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-pro-preview` | — | reasoning | per-token | 1.04858M | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-pro-preview-05-06` | — | reasoning | per-token | 1.04858M | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |
-| `google/gemini-3-flash-preview` | — | reasoning | per-token | 1.04858M | $0.5 | $3 | $0.05 | — | —/— | — | models.dev official list price |
+| `google/gemini-3-flash-preview` | — | reasoning | per-token | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |
 | `google/gemini-3-pro-image` | — | reasoning | per-token | 65.536K | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
-| `google/gemini-3-pro-image-preview` | — | reasoning | per-token | 65.536K | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
+| `google/gemini-3-pro-image-preview` | — | reasoning | per-token | 65.536K | $1 | $6 | $0.1 | — | —/— | — | models.dev official list price |
 | `google/gemini-3.1-flash-image` | — | reasoning | per-token | 131.072K | $0.5 | $3 | — | — | —/— | — | models.dev official list price |
 | `google/gemini-3.1-flash-image-preview` | — | reasoning | per-token | 65.536K | $0.5 | $3 | — | — | —/— | — | models.dev official list price |
-| `google/gemini-3.1-flash-lite` | — | reasoning | per-token | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |
+| `google/gemini-3.1-flash-lite` | — | reasoning | per-token | 1.04858M | $0.125 | $0.75 | $0.0125 | — | —/— | — | models.dev official list price |
 | `google/gemini-3.1-flash-lite-image` | — | reasoning | per-token | 65.536K | $0.25 | $1.5 | — | — | —/— | — | models.dev official list price |
-| `google/gemini-3.1-flash-lite-preview` | — | reasoning | per-token | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |
-| `google/gemini-3.1-pro-preview` | — | reasoning | per-token | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
+| `google/gemini-3.1-flash-lite-preview` | — | reasoning | per-token | 1.04858M | $0.125 | $0.75 | $0.0125 | — | —/— | — | models.dev official list price |
+| `google/gemini-3.1-pro-preview` | — | reasoning | per-token | 1.04858M | $1 | $6 | $0.1 | — | —/— | — | models.dev official list price |
 | `google/gemini-3.1-pro-preview-customtools` | — | reasoning | per-token | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
-| `google/gemini-3.5-flash` | — | reasoning | per-token | 1.04858M | $1.5 | $9 | $0.15 | — | —/— | — | models.dev official list price |
-| `google/gemini-3.5-flash-lite` | — | reasoning | per-token | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
-| `google/gemini-3.6-flash` | — | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
-| `google/gemini-3.7-flash` | — | reasoning | per-token | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — | models.dev official list price |
+| `google/gemini-3.5-flash` | — | reasoning | per-token | 1.04858M | $0.75 | $4.5 | $0.075 | — | —/— | — | models.dev official list price |
+| `google/gemini-3.5-flash-lite` | — | reasoning | per-token | 1.04858M | $0.15 | $1.25 | $0.015 | — | —/— | — | models.dev official list price |
+| `google/gemini-3.6-flash` | — | reasoning | per-token | 1.04858M | $0.375 | $1.875 | $0.0375 | — | —/— | — | models.dev official list price |
+| `google/gemini-3.7-flash` | — | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `google/gemma-2-27b-it` | — | chat | per-token | 8.192K | $0.65 | $0.65 | — | — | —/— | — | models.dev official list price |
 | `google/gemma-3-12b-it` | — | chat | per-token | 131.072K | $0.05 | $0.15 | — | — | —/— | — | models.dev official list price |
 | `google/gemma-3-27b-it` | — | chat | per-token | 131.072K | $0.08 | $0.16 | — | — | —/— | — | models.dev official list price |
@@ -105,6 +105,7 @@
 | `gryphe/mythomax-l2-13b` | — | chat | per-token | 4.096K | $0.06 | $0.06 | — | — | —/— | — | models.dev official list price |
 | `ibm-granite/granite-4.0-h-micro` | — | chat | per-token | 131K | $0.017 | $0.112 | — | — | —/— | — | models.dev official list price |
 | `ibm-granite/granite-4.1-8b` | — | chat | per-token | 131.072K | $0.05 | $0.1 | $0.05 | — | —/— | — | models.dev official list price |
+| `ibm-granite/granite-4.2-8b` | — | reasoning | per-token | 131.072K | $0.1 | $0.15 | $0.05 | — | —/— | — | models.dev official list price |
 | `inception/mercury-2` | — | reasoning | per-token | 128K | $0.25 | $0.75 | $0.025 | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-2.6-1t` | — | chat | per-token | 262.144K | $0.3 | $2.5 | $0.06 | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-2.6-flash` | — | chat | per-token | 262.144K | $0.1 | $0.3 | $0.02 | — | —/— | — | models.dev official list price |
@@ -338,7 +339,7 @@
 | `tencent/hy-mt2-1.8b` | — | chat | per-token | 8.192K | $0.044 | $0.177 | — | — | —/— | — | models.dev official list price |
 | `tencent/hy-mt2-30b-a3b` | — | chat | per-token | 8.192K | $0.074 | $0.295 | — | — | —/— | — | models.dev official list price |
 | `tencent/hy-mt2-7b` | — | chat | per-token | 8.192K | $0.074 | $0.295 | — | — | —/— | — | models.dev official list price |
-| `tencent/hy3` | — | reasoning | per-token | 262.144K | $0.14 | $0.58 | $0.035 | — | —/— | — | models.dev official list price |
+| `tencent/hy3` | — | reasoning | per-token | 262.144K | $0.0825 | $0.33 | $0.020625 | — | —/— | — | models.dev official list price |
 | `tencent/hy3-preview` | — | reasoning | per-token | 262.144K | $0.18 | $0.6 | $0.06 | — | —/— | — | models.dev official list price |
 | `tencent/hy3:free` | — | reasoning | free | 262.144K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `tencent/hy4-preview` | — | reasoning | per-token | 1.04858M | $0.834 | $2.501 | $0.042 | — | —/— | — | models.dev official list price |
@@ -380,11 +381,11 @@
 | `~anthropic/claude-haiku-latest` | — | reasoning | per-token | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `~anthropic/claude-opus-latest` | — | reasoning | per-token | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
 | `~anthropic/claude-sonnet-latest` | — | reasoning | per-token | 1M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
-| `~deepseek/deepseek-v4-flash-latest` | — | reasoning | per-token | 1.04858M | $0.03 | $0.16 | $0.013 | — | —/— | — | models.dev official list price |
+| `~deepseek/deepseek-v4-flash-latest` | — | reasoning | per-token | 1.04858M | $0.05 | $0.16 | $0.013 | — | —/— | — | models.dev official list price |
 | `~google/gemini-flash-latest` | — | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `~google/gemini-pro-latest` | — | reasoning | per-token | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `~moonshotai/kimi-latest` | — | reasoning | per-token | 974.842K | $2.55 | $12.75 | $0.256 | — | —/— | — | models.dev official list price |
 | `~openai/gpt-latest` | — | reasoning | per-token | 1.05M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
 | `~openai/gpt-mini-latest` | — | reasoning | per-token | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | models.dev official list price |
 | `~x-ai/grok-latest` | — | reasoning | per-token | 500K | $2 | $6 | $0.5 | — | —/— | — | models.dev official list price |
-| `~z-ai/glm-latest` | — | reasoning | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `~z-ai/glm-latest` | — | reasoning | free | 1.04858M | $1.17 | $3.96 | $0.234 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

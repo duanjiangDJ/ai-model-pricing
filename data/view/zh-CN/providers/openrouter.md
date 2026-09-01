@@ -6,8 +6,8 @@
 - 官网: https://openrouter.ai
 - 定价页: https://openrouter.ai/models
 - 币种: USD
-- 数据更新时间: 2026-08-31T21:17:21Z
-- 核实时间: 2026-08-31T21:17:21Z
+- 数据更新时间: 2026-09-01T00:17:36Z
+- 核实时间: 2026-09-01T00:17:36Z
 
 共 **425** 个模型。
 
@@ -79,7 +79,7 @@
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | 按量 | 1.31072M | $6.5e-08 | $1.8e-07 | $1.6e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731:batch` | — | reasoning | 按量 | 1.04858M | $1.4e-07 | $2.8e-07 | $3e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 按量 | 1.04858M | $2.2e-07 | $6.6e-07 | $7e-09 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-pro` | — | reasoning | 按量 | 1.04858M | $1.02747e-06 | $2.05494e-06 | $8.56225e-08 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-pro` | — | reasoning | 按量 | 1.04858M | $1.6e-06 | $3.2e-06 | $1.35e-07 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | 按量 | 1.04858M | $6.6e-07 | $1.98e-06 | $2.2e-08 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813:batch` | — | reasoning | 按量 | 1.04858M | $1.32e-06 | $3.96e-06 | $1.3e-07 | — | —/— | — | OpenRouter reseller price |
 | `dots-studio/dots-3-note-preview:free` | — | reasoning | 按量 | 512K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price |
@@ -124,7 +124,7 @@
 | `google/gemma-4-31b-it:free` | — | reasoning | 按量 | 262.144K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price |
 | `google/lyria-3-clip-preview` | — | chat | 按量 | 1.04858M | $0 | $0 | — | — | —/— | — | OpenRouter reseller price |
 | `google/lyria-3-pro-preview` | — | chat | 按量 | 1.04858M | $0 | $0 | — | — | —/— | — | OpenRouter reseller price |
-| `gryphe/mythomax-l2-13b` | — | chat | 按量 | 8.192K | $6e-08 | $6e-08 | — | — | —/— | — | OpenRouter reseller price |
+| `gryphe/mythomax-l2-13b` | — | chat | 按量 | 8.192K | $4e-07 | $6e-07 | — | — | —/— | — | OpenRouter reseller price |
 | `ibm-granite/granite-4.0-h-micro` | — | chat | 按量 | 131K | $1.7e-08 | $1.12e-07 | — | — | —/— | — | OpenRouter reseller price |
 | `ibm-granite/granite-4.1-8b` | — | chat | 按量 | 131.072K | $5e-08 | $1e-07 | $5e-08 | — | —/— | — | OpenRouter reseller price |
 | `ibm-granite/granite-4.2-8b` | — | reasoning | 按量 | 131.072K | $1e-07 | $1.5e-07 | $5e-08 | — | —/— | — | OpenRouter reseller price |
@@ -326,7 +326,7 @@
 | `qwen/qwen2.5-vl-72b-instruct` | — | chat | 按量 | 128K | $2.5e-07 | $7.5e-07 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-14b` | — | reasoning | 按量 | 131.072K | $1.2e-07 | $2.4e-07 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-235b-a22b` | — | reasoning | 按量 | 131.072K | $4.55e-07 | $1.82e-06 | — | — | —/— | — | OpenRouter reseller price |
-| `qwen/qwen3-235b-a22b-2507` | — | chat | 按量 | 262.144K | $8.75e-08 | $3.5e-07 | $1.75e-08 | — | —/— | — | OpenRouter reseller price |
+| `qwen/qwen3-235b-a22b-2507` | — | chat | 按量 | 262.144K | $9e-08 | $5.5e-07 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-235b-a22b-thinking-2507` | — | reasoning | 按量 | 131.072K | $2.3e-07 | $2.3e-06 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-30b-a3b` | — | reasoning | 按量 | 131.072K | $1.2e-07 | $5e-07 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-30b-a3b-instruct-2507` | — | chat | 按量 | 262.144K | $4.815e-08 | $1.9305e-07 | — | — | —/— | — | OpenRouter reseller price |
@@ -386,7 +386,7 @@
 | `tencent/hy-mt2-1.8b` | — | chat | 按量 | 8.192K | $4.4e-08 | $1.77e-07 | — | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy-mt2-30b-a3b` | — | chat | 按量 | 8.192K | $7.4e-08 | $2.95e-07 | — | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy-mt2-7b` | — | chat | 按量 | 8.192K | $7.4e-08 | $2.95e-07 | — | — | —/— | — | OpenRouter reseller price |
-| `tencent/hy3` | — | reasoning | 按量 | 262.144K | $8.25e-08 | $3.3e-07 | $2.0625e-08 | — | —/— | — | OpenRouter reseller price |
+| `tencent/hy3` | — | reasoning | 按量 | 262.144K | $1.32e-07 | $5.28e-07 | $3.3e-08 | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy3-preview` | — | reasoning | 按量 | 262.144K | $1.8e-07 | $6e-07 | $6e-08 | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy4-preview` | — | reasoning | 按量 | 1.04858M | $8.34e-07 | $2.501e-06 | $4.2e-08 | — | —/— | — | OpenRouter reseller price |
 | `thedrummer/cydonia-24b-v4.1` | — | chat | 按量 | 131.072K | $3e-07 | $5e-07 | $1.5e-07 | — | —/— | — | OpenRouter reseller price |
@@ -437,4 +437,4 @@
 | `~openai/gpt-latest` | — | reasoning | 按量 | 1.05M | $2e-06 | $1e-05 | $2e-07 | $2.5e-06 | —/— | — | OpenRouter reseller price |
 | `~openai/gpt-mini-latest` | — | reasoning | 按量 | 400K | $7.5e-07 | $4.5e-06 | $7.5e-08 | — | —/— | — | OpenRouter reseller price |
 | `~x-ai/grok-latest` | — | reasoning | 按量 | 500K | $2e-06 | $6e-06 | $5e-07 | — | —/— | — | OpenRouter reseller price |
-| `~z-ai/glm-latest` | — | reasoning | 按量 | 1.31072M | $1.1875e-06 | $4.18e-06 | $2.47e-07 | — | —/— | — | OpenRouter reseller price |
+| `~z-ai/glm-latest` | — | reasoning | 按量 | 1.31072M | $1.17e-06 | $3.96e-06 | $2.34e-07 | — | —/— | — | OpenRouter reseller price |

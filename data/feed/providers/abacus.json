@@ -7,8 +7,8 @@
   "homepage": "https://abacus.ai/help/api",
   "pricing_page": "https://abacus.ai/help/api",
   "currency": "USD",
-  "updated_at": "2026-08-31T03:37:33Z",
-  "verified_at": "2026-08-31T03:37:33Z",
+  "updated_at": "2026-09-01T00:17:36Z",
+  "verified_at": "2026-09-01T00:17:36Z",
   "models": [
     {
       "id": "MiniMaxAI/MiniMax-M2.7",

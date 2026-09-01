@@ -6,8 +6,8 @@
 - Homepage: https://deepinfra.com/models
 - Pricing page: https://deepinfra.com/models
 - Currency: USD
-- Data updated: 2026-08-31T03:37:33Z
-- Verified: 2026-08-31T03:37:33Z
+- Data updated: 2026-09-01T00:17:36Z
+- Verified: 2026-09-01T00:17:36Z
 
 **62** models in total.
 
@@ -73,5 +73,5 @@
 | `zai-org/GLM-5` | — | reasoning | per-token | 202.752K | $0.6 | $2.08 | $0.12 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.1` | — | reasoning | per-token | 202.752K | $1.05 | $3.5 | $0.205 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.2` | — | reasoning | per-token | 1.04858M | $0.75 | $2.4 | $0.14 | — | —/— | — | models.dev official list price |
-| `zai-org/GLM-5.3` | — | reasoning | per-token | 1.04858M | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.3` | — | reasoning | per-token | 1.04858M | $1.2 | $4 | $0.12 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.3-Flash` | — | reasoning | per-token | 1.04858M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |

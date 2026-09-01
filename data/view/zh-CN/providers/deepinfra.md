@@ -6,8 +6,8 @@
 - 官网: https://deepinfra.com/models
 - 定价页: https://deepinfra.com/models
 - 币种: USD
-- 数据更新时间: 2026-08-31T03:37:33Z
-- 核实时间: 2026-08-31T03:37:33Z
+- 数据更新时间: 2026-09-01T00:17:36Z
+- 核实时间: 2026-09-01T00:17:36Z
 
 共 **62** 个模型。
 
@@ -73,5 +73,5 @@
 | `zai-org/GLM-5` | — | reasoning | 按量 | 202.752K | $0.6 | $2.08 | $0.12 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.1` | — | reasoning | 按量 | 202.752K | $1.05 | $3.5 | $0.205 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.2` | — | reasoning | 按量 | 1.04858M | $0.75 | $2.4 | $0.14 | — | —/— | — | models.dev official list price |
-| `zai-org/GLM-5.3` | — | reasoning | 按量 | 1.04858M | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.3` | — | reasoning | 按量 | 1.04858M | $1.2 | $4 | $0.12 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.3-Flash` | — | reasoning | 按量 | 1.04858M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |

@@ -7,8 +7,8 @@
   "homepage": "https://platform.openai.com/docs/models",
   "pricing_page": "https://openai.com/chatgpt/pricing/",
   "currency": "USD",
-  "updated_at": "2026-08-31T03:37:33Z",
-  "verified_at": "2026-08-31T03:37:33Z",
+  "updated_at": "2026-09-01T00:17:36Z",
+  "verified_at": "2026-09-01T00:17:36Z",
   "models": [
     {
       "id": "chatgpt-image-latest",

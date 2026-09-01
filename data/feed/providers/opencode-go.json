@@ -8,8 +8,8 @@
   "pricing_page": "https://opencode.ai/docs/go/",
   "api_base_url": "https://opencode.ai/zen/go/v1/models",
   "currency": "USD",
-  "updated_at": "2026-08-31T03:37:33Z",
-  "verified_at": "2026-08-31T03:37:33Z",
+  "updated_at": "2026-09-01T00:17:36Z",
+  "verified_at": "2026-09-01T00:17:36Z",
   "models": [
     {
       "id": "deepseek-v4-flash",

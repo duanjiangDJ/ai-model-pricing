@@ -7,8 +7,8 @@
   "homepage": "https://docs.nano-gpt.com",
   "pricing_page": "https://docs.nano-gpt.com",
   "currency": "USD",
-  "updated_at": "2026-08-31T03:37:33Z",
-  "verified_at": "2026-08-31T03:37:33Z",
+  "updated_at": "2026-09-01T00:17:36Z",
+  "verified_at": "2026-09-01T00:17:36Z",
   "models": [
     {
       "id": "Baichuan-M2",
@@ -1931,6 +1931,37 @@
       ]
     },
     {
+      "id": "TEE/glm-5.3",
+      "name": "GLM 5.3 TEE",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 131072,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.4
+          },
+          "output": {
+            "usd": 4.4
+          },
+          "cache_read": {
+            "usd": 0.26
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "TEE/glm-5.3-flash",
       "name": "GLM 5.3 Flash TEE",
       "category": "reasoning",
@@ -3049,6 +3080,37 @@
     {
       "id": "abliteration-ai/abliterated-model-large",
       "name": "Abliterated Model Large",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 999990,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 5
+          },
+          "output": {
+            "usd": 5
+          },
+          "cache_read": {
+            "usd": 0.5
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "abliteration-ai/abliterated-model-large-v2",
+      "name": "Abliterated Model Large V2",
       "category": "reasoning",
       "modalities": [
         "text"
@@ -6695,13 +6757,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.44
+            "usd": 0.22
           },
           "output": {
-            "usd": 1.32
+            "usd": 0.66
           },
           "cache_read": {
-            "usd": 0.014
+            "usd": 0.007
           },
           "cache_write": null
         },
@@ -8163,13 +8225,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.06
+            "usd": 0.05
           },
           "output": {
-            "usd": 0.3
+            "usd": 0.25
           },
           "cache_read": {
-            "usd": 0.03
+            "usd": 0.025
           },
           "cache_write": null
         },
@@ -10616,6 +10678,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "ibm-granite/granite-4.2-8b",
+      "name": "Granite 4.2 8B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131072,
+      "max_output": 117964,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.1
+          },
+          "output": {
+            "usd": 0.15
+          },
+          "cache_read": {
+            "usd": 0.05
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "inclusionai/ling-2.6-1t",
@@ -20853,13 +20946,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.42
+            "usd": 1
           },
           "output": {
-            "usd": 1.32
+            "usd": 3.2
           },
           "cache_read": {
-            "usd": 0.078
+            "usd": 0.2
           },
           "cache_write": null
         },

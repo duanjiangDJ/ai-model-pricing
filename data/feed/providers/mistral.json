@@ -7,8 +7,8 @@
   "homepage": "https://docs.mistral.ai/getting-started/models/",
   "pricing_page": "https://docs.mistral.ai/getting-started/models/",
   "currency": "USD",
-  "updated_at": "2026-08-31T03:37:34Z",
-  "verified_at": "2026-08-31T03:37:34Z",
+  "updated_at": "2026-09-01T00:17:37Z",
+  "verified_at": "2026-09-01T00:17:37Z",
   "models": [
     {
       "id": "codestral-latest",

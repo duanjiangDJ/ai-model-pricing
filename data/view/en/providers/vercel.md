@@ -6,10 +6,10 @@
 - Homepage: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - Pricing page: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - Currency: USD
-- Data updated: 2026-08-31T03:37:33Z
-- Verified: 2026-08-31T03:37:33Z
+- Data updated: 2026-09-01T00:17:36Z
+- Verified: 2026-09-01T00:17:36Z
 
-**366** models in total.
+**367** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -44,6 +44,7 @@
 | `alibaba/qwen3.8-2.4t-a95b` | — | reasoning | per-token | 262.144K | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
 | `alibaba/qwen3.8-27b` | — | reasoning | per-token | 1M | $0.5 | $3 | $0.1 | — | —/— | — | models.dev official list price |
 | `alibaba/qwen3.8-flash` | — | reasoning | per-token | 991K | $0.16 | $0.47 | $0.016 | — | —/— | — | models.dev official list price |
+| `alibaba/qwen3.8-flash-next` | — | reasoning | per-token | 1.04858M | $0.12 | $0.4 | $0.01 | — | —/— | — | models.dev official list price |
 | `alibaba/qwen3.8-max` | — | reasoning | per-token | 1M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
 | `alibaba/wan-v2.5-t2v-preview` | — | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
 | `alibaba/wan-v2.6-i2v` | — | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |

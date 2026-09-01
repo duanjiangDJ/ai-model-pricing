@@ -6,10 +6,10 @@
 - 官网: https://kilo.ai
 - 定价页: https://kilo.ai
 - 币种: USD
-- 数据更新时间: 2026-08-31T03:37:33Z
-- 核实时间: 2026-08-31T03:37:33Z
+- 数据更新时间: 2026-09-01T00:17:36Z
+- 核实时间: 2026-09-01T00:17:36Z
 
-共 **375** 个模型。
+共 **376** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -41,7 +41,7 @@
 | `anthropic/claude-sonnet-4.5` | — | reasoning | 按量 | 1M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-sonnet-4.6` | — | reasoning | 按量 | 1M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-sonnet-5` | — | reasoning | 按量 | 1M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
-| `arcee-ai/trinity-large-thinking` | — | reasoning | 按量 | 262.144K | $0.22 | $0.85 | $0.06 | — | —/— | — | models.dev official list price |
+| `arcee-ai/trinity-large-thinking` | — | reasoning | 按量 | 262.144K | $0.25 | $0.8 | $0.06 | — | —/— | — | models.dev official list price |
 | `arcee-ai/virtuoso-large` | — | chat | 按量 | 131.072K | $0.75 | $1.2 | — | — | —/— | — | models.dev official list price |
 | `baidu/ernie-4.5-vl-424b-a47b` | — | reasoning | 按量 | 123K | $0.42 | $1.25 | — | — | —/— | — | models.dev official list price |
 | `bytedance-seed/seed-1.6` | — | reasoning | 按量 | 262.144K | $0.25 | $2 | — | — | —/— | — | models.dev official list price |
@@ -58,8 +58,8 @@
 | `cohere/command-r7b-12-2024` | — | chat | 按量 | 128K | $0.0375 | $0.15 | — | — | —/— | — | models.dev official list price |
 | `cohere/north-mini-code:free` | — | reasoning | 免费 | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `deepcogito/cogito-v2.1-671b` | — | reasoning | 按量 | 128K | $1.25 | $1.25 | — | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-chat` | — | chat | 按量 | 128K | $0.4 | $1.3 | — | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-chat-v3-0324` | — | chat | 按量 | 163.84K | $0.27 | $1.12 | $0.135 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-chat` | — | chat | 按量 | 128K | $0.2574 | $1.0287 | — | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-chat-v3-0324` | — | chat | 按量 | 163.84K | $0.25 | $1 | $0.135 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-chat-v3.1` | — | reasoning | 按量 | 163.84K | $0.27 | $1 | $0.135 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-r1` | — | reasoning | 按量 | 64K | $0.7 | $2.5 | — | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-r1-0528` | — | reasoning | 按量 | 163.84K | $0.7 | $2.5 | $0.35 | — | —/— | — | models.dev official list price |
@@ -69,30 +69,30 @@
 | `deepseek/deepseek-v3.2-exp` | — | reasoning | 按量 | 163.84K | $0.27 | $0.41 | — | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash` | — | reasoning | 按量 | 1.024M | $0.14 | $0.28 | $0.028 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | 按量 | 1.04858M | $0.44 | $1.32 | $0.028 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 按量 | 1.04858M | $0.44 | $1.32 | $0.014 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 按量 | 1.04858M | $0.44 | $1.32 | $0.028 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | 按量 | 1.04858M | $1.6 | $3.2 | $0.135 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | 按量 | 1.04858M | $1.32 | $3.96 | $0.132 | — | —/— | — | models.dev official list price |
 | `dots-studio/dots-3-note-preview:free` | — | reasoning | 免费 | 512K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `google/gemini-2.5-flash` | — | reasoning | 按量 | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
-| `google/gemini-2.5-flash-image` | — | chat | 按量 | 32.768K | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
+| `google/gemini-2.5-flash-image` | — | chat | 按量 | 32.768K | $0.15 | $1.25 | $0.015 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-flash-lite` | — | reasoning | 按量 | 1.04858M | $0.1 | $0.4 | $0.01 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-pro` | — | reasoning | 按量 | 1.04858M | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-pro-preview` | — | reasoning | 按量 | 1.04858M | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-pro-preview-05-06` | — | reasoning | 按量 | 1.04858M | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |
-| `google/gemini-3-flash-preview` | — | reasoning | 按量 | 1.04858M | $0.5 | $3 | $0.05 | — | —/— | — | models.dev official list price |
+| `google/gemini-3-flash-preview` | — | reasoning | 按量 | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |
 | `google/gemini-3-pro-image` | — | reasoning | 按量 | 65.536K | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
-| `google/gemini-3-pro-image-preview` | — | reasoning | 按量 | 65.536K | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
+| `google/gemini-3-pro-image-preview` | — | reasoning | 按量 | 65.536K | $1 | $6 | $0.1 | — | —/— | — | models.dev official list price |
 | `google/gemini-3.1-flash-image` | — | reasoning | 按量 | 131.072K | $0.5 | $3 | — | — | —/— | — | models.dev official list price |
 | `google/gemini-3.1-flash-image-preview` | — | reasoning | 按量 | 65.536K | $0.5 | $3 | — | — | —/— | — | models.dev official list price |
-| `google/gemini-3.1-flash-lite` | — | reasoning | 按量 | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |
+| `google/gemini-3.1-flash-lite` | — | reasoning | 按量 | 1.04858M | $0.125 | $0.75 | $0.0125 | — | —/— | — | models.dev official list price |
 | `google/gemini-3.1-flash-lite-image` | — | reasoning | 按量 | 65.536K | $0.25 | $1.5 | — | — | —/— | — | models.dev official list price |
-| `google/gemini-3.1-flash-lite-preview` | — | reasoning | 按量 | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |
-| `google/gemini-3.1-pro-preview` | — | reasoning | 按量 | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
+| `google/gemini-3.1-flash-lite-preview` | — | reasoning | 按量 | 1.04858M | $0.125 | $0.75 | $0.0125 | — | —/— | — | models.dev official list price |
+| `google/gemini-3.1-pro-preview` | — | reasoning | 按量 | 1.04858M | $1 | $6 | $0.1 | — | —/— | — | models.dev official list price |
 | `google/gemini-3.1-pro-preview-customtools` | — | reasoning | 按量 | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
-| `google/gemini-3.5-flash` | — | reasoning | 按量 | 1.04858M | $1.5 | $9 | $0.15 | — | —/— | — | models.dev official list price |
-| `google/gemini-3.5-flash-lite` | — | reasoning | 按量 | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
-| `google/gemini-3.6-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
-| `google/gemini-3.7-flash` | — | reasoning | 按量 | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — | models.dev official list price |
+| `google/gemini-3.5-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $4.5 | $0.075 | — | —/— | — | models.dev official list price |
+| `google/gemini-3.5-flash-lite` | — | reasoning | 按量 | 1.04858M | $0.15 | $1.25 | $0.015 | — | —/— | — | models.dev official list price |
+| `google/gemini-3.6-flash` | — | reasoning | 按量 | 1.04858M | $0.375 | $1.875 | $0.0375 | — | —/— | — | models.dev official list price |
+| `google/gemini-3.7-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `google/gemma-2-27b-it` | — | chat | 按量 | 8.192K | $0.65 | $0.65 | — | — | —/— | — | models.dev official list price |
 | `google/gemma-3-12b-it` | — | chat | 按量 | 131.072K | $0.05 | $0.15 | — | — | —/— | — | models.dev official list price |
 | `google/gemma-3-27b-it` | — | chat | 按量 | 131.072K | $0.08 | $0.16 | — | — | —/— | — | models.dev official list price |
@@ -105,6 +105,7 @@
 | `gryphe/mythomax-l2-13b` | — | chat | 按量 | 4.096K | $0.06 | $0.06 | — | — | —/— | — | models.dev official list price |
 | `ibm-granite/granite-4.0-h-micro` | — | chat | 按量 | 131K | $0.017 | $0.112 | — | — | —/— | — | models.dev official list price |
 | `ibm-granite/granite-4.1-8b` | — | chat | 按量 | 131.072K | $0.05 | $0.1 | $0.05 | — | —/— | — | models.dev official list price |
+| `ibm-granite/granite-4.2-8b` | — | reasoning | 按量 | 131.072K | $0.1 | $0.15 | $0.05 | — | —/— | — | models.dev official list price |
 | `inception/mercury-2` | — | reasoning | 按量 | 128K | $0.25 | $0.75 | $0.025 | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-2.6-1t` | — | chat | 按量 | 262.144K | $0.3 | $2.5 | $0.06 | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-2.6-flash` | — | chat | 按量 | 262.144K | $0.1 | $0.3 | $0.02 | — | —/— | — | models.dev official list price |
@@ -338,7 +339,7 @@
 | `tencent/hy-mt2-1.8b` | — | chat | 按量 | 8.192K | $0.044 | $0.177 | — | — | —/— | — | models.dev official list price |
 | `tencent/hy-mt2-30b-a3b` | — | chat | 按量 | 8.192K | $0.074 | $0.295 | — | — | —/— | — | models.dev official list price |
 | `tencent/hy-mt2-7b` | — | chat | 按量 | 8.192K | $0.074 | $0.295 | — | — | —/— | — | models.dev official list price |
-| `tencent/hy3` | — | reasoning | 按量 | 262.144K | $0.14 | $0.58 | $0.035 | — | —/— | — | models.dev official list price |
+| `tencent/hy3` | — | reasoning | 按量 | 262.144K | $0.0825 | $0.33 | $0.020625 | — | —/— | — | models.dev official list price |
 | `tencent/hy3-preview` | — | reasoning | 按量 | 262.144K | $0.18 | $0.6 | $0.06 | — | —/— | — | models.dev official list price |
 | `tencent/hy3:free` | — | reasoning | 免费 | 262.144K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `tencent/hy4-preview` | — | reasoning | 按量 | 1.04858M | $0.834 | $2.501 | $0.042 | — | —/— | — | models.dev official list price |
@@ -380,11 +381,11 @@
 | `~anthropic/claude-haiku-latest` | — | reasoning | 按量 | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `~anthropic/claude-opus-latest` | — | reasoning | 按量 | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
 | `~anthropic/claude-sonnet-latest` | — | reasoning | 按量 | 1M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
-| `~deepseek/deepseek-v4-flash-latest` | — | reasoning | 按量 | 1.04858M | $0.03 | $0.16 | $0.013 | — | —/— | — | models.dev official list price |
+| `~deepseek/deepseek-v4-flash-latest` | — | reasoning | 按量 | 1.04858M | $0.05 | $0.16 | $0.013 | — | —/— | — | models.dev official list price |
 | `~google/gemini-flash-latest` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `~google/gemini-pro-latest` | — | reasoning | 按量 | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `~moonshotai/kimi-latest` | — | reasoning | 按量 | 974.842K | $2.55 | $12.75 | $0.256 | — | —/— | — | models.dev official list price |
 | `~openai/gpt-latest` | — | reasoning | 按量 | 1.05M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
 | `~openai/gpt-mini-latest` | — | reasoning | 按量 | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | models.dev official list price |
 | `~x-ai/grok-latest` | — | reasoning | 按量 | 500K | $2 | $6 | $0.5 | — | —/— | — | models.dev official list price |
-| `~z-ai/glm-latest` | — | reasoning | 免费 | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `~z-ai/glm-latest` | — | reasoning | 免费 | 1.04858M | $1.17 | $3.96 | $0.234 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
