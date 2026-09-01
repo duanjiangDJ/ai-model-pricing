@@ -3,9 +3,9 @@
 > Data sources: official pricing pages & public APIs. Machine-readable version: [`data/feed/`](../../../data/feed/).
 > Auto-updated daily by GitHub Actions (see `.github/workflows/daily-check.yml`).
 
-- Generated: 2026-09-01T12:18:35Z
+- Generated: 2026-09-01T15:18:42Z
 - Providers: 190
-- Models total: 7481
+- Models total: 7479
 - Plans total: 67
 
 ## Providers
@@ -201,7 +201,7 @@
 | [百川智能 (Baichuan)](providers/baichuan.md) | First-party | 1 | `providers/baichuan.json` | 2026-08-28T10:02:16.380334Z |
 | [科大讯飞星火 (iFlytek Spark)](providers/iflytek.md) | First-party | 2 | `providers/iflytek.json` | 2026-08-28T10:02:16.380334Z |
 | [零一万物 (01.AI)](providers/lingyiwanwu.md) | First-party | 2 | `providers/lingyiwanwu.json` | 2026-08-28T10:02:16.380334Z |
-| [OpenRouter](providers/openrouter.md) | Aggregator | 420 | `providers/openrouter.json` | 2026-09-01T12:18:35Z |
+| [OpenRouter](providers/openrouter.md) | Aggregator | 418 | `providers/openrouter.json` | 2026-09-01T15:18:42Z |
 
 ## Plans
 
