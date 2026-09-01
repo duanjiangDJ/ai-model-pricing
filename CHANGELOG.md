@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.33.26 — 2026-09-01T23:39Z (content update)
+
+- fix(openrouter): per-token image value misfiled as per-image price; image is billed per-token
+
 ## 26.32.26 — 2026-09-01T21:38Z (content update)
 
 - price sync (5 changes):

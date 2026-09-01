@@ -8,8 +8,8 @@
   "pricing_page": "https://openrouter.ai/models",
   "api_base_url": "https://openrouter.ai/api/v1",
   "currency": "USD",
-  "updated_at": "2026-09-01T21:18:59Z",
-  "verified_at": "2026-09-01T21:18:59Z",
+  "updated_at": "2026-09-01T23:38:32Z",
+  "verified_at": "2026-09-01T23:38:32Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -2113,7 +2113,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -2131,14 +2130,7 @@
             "usd": 0.08333333
           }
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 3e-07
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -2154,7 +2146,6 @@
       "context_window": 32768,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -2172,14 +2163,7 @@
             "usd": 0.08333333
           }
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 3e-07
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -2197,7 +2181,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -2215,14 +2198,7 @@
             "usd": 0.08333333
           }
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 1e-07
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -2240,7 +2216,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -2256,14 +2231,7 @@
           },
           "cache_write": null
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 5e-08
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -2281,7 +2249,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -2297,14 +2264,7 @@
           },
           "cache_write": null
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 1.5e-07
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -2322,7 +2282,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -2340,14 +2299,7 @@
             "usd": 0.375
           }
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 1.25e-06
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -2364,7 +2316,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -2382,14 +2333,7 @@
             "usd": 0.375
           }
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 1.25e-06
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -2407,7 +2351,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -2425,14 +2368,7 @@
             "usd": 0.375
           }
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 1.25e-06
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -2450,7 +2386,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -2466,14 +2401,7 @@
           },
           "cache_write": null
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 6.25e-07
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -2491,7 +2419,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -2509,14 +2436,7 @@
             "usd": 0.08333333
           }
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 5e-07
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -2534,7 +2454,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -2548,14 +2467,7 @@
           "cache_read": null,
           "cache_write": null
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 2.5e-07
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -2571,7 +2483,6 @@
       "context_window": 131072,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -2589,14 +2500,7 @@
             "usd": 0.375
           }
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 2e-06
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -2612,7 +2516,6 @@
       "context_window": 65536,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -2630,14 +2533,7 @@
             "usd": 0.375
           }
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 2e-06
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -2713,7 +2609,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -2731,14 +2626,7 @@
             "usd": 0.08333333
           }
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 2.5e-07
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -2785,7 +2673,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -2803,14 +2690,7 @@
             "usd": 0.08333333
           }
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 2.5e-07
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -2828,7 +2708,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -2844,14 +2723,7 @@
           },
           "cache_write": null
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 1.25e-07
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -2869,7 +2741,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -2887,14 +2758,7 @@
             "usd": 0.375
           }
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 2e-06
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -2912,7 +2776,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -2930,14 +2793,7 @@
             "usd": 0.375
           }
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 2e-06
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -2955,7 +2811,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -2969,14 +2824,7 @@
           "cache_read": null,
           "cache_write": null
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 1e-06
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -2994,7 +2842,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -3012,14 +2859,7 @@
             "usd": 0.08333333
           }
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 1.5e-06
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -3037,7 +2877,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -3055,14 +2894,7 @@
             "usd": 0.08333333
           }
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 3e-07
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -3080,7 +2912,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -3096,14 +2927,7 @@
           },
           "cache_write": null
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 1.5e-07
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -3121,7 +2945,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -3137,14 +2960,7 @@
           },
           "cache_write": null
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 7.5e-07
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -3162,7 +2978,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -3180,14 +2995,7 @@
             "usd": 0.04166667
           }
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 7.5e-07
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -3205,7 +3013,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -3223,14 +3030,7 @@
             "usd": 0.04166667
           }
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 3.75e-07
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -3248,7 +3048,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -3266,14 +3065,7 @@
             "usd": 0.04166667
           }
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 7.5e-07
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -3291,7 +3083,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -3309,14 +3100,7 @@
             "usd": 0.02083333
           }
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 1.875e-07
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -12743,7 +12527,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -12761,14 +12544,7 @@
             "usd": 0.04166667
           }
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 7.5e-07
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
@@ -12786,7 +12562,6 @@
       "context_window": 1048576,
       "max_output": null,
       "billing_model": [
-        "pay_per_image",
         "pay_per_token"
       ],
       "pricing": {
@@ -12804,14 +12579,7 @@
             "usd": 0.375
           }
         },
-        "per_image": [
-          {
-            "name": "default",
-            "price": {
-              "usd": 2e-06
-            }
-          }
-        ],
+        "per_image": null,
         "promo": null
       },
       "notes": "OpenRouter reseller price"
