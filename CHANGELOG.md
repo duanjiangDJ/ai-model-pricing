@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.28.24 — 2026-09-01T16:28Z (content update)
+
+- feat(checks): auto-generate tier1 collection scripts for all providers with official pricing pages
+
 ## 26.27.24 — 2026-09-01T10:12Z (content update)
 
 - fix(openai): parse new developers.openai.com pricing.md (OpenAI page revamp broke tier0_openai -> parsed 0); make write_json atomic (dump failure was corrupting provider files); fetch_official: '~' is open-weights not free

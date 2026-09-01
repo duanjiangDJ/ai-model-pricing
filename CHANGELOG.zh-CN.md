@@ -16,6 +16,10 @@
 
 ---
 
+## 26.28.24 — 2026-09-01T16:28Z（内容更新）
+
+- 自动为所有有官方定价页的供应商生成tier1采集脚本（新增162个check，统一js_fetch官方页+可抓则采集+bot-protected则记录+预留parser钩子）
+
 ## 26.27.24 — 2026-09-01T10:12Z（内容更新）
 
 - 修复 OpenAI 官方定价解析（OpenAI 定价页改版导致 tier0_openai 解析为 0，改为解析新的 developers.openai.com pricing.md）；write_json 改为原子写（防止 dump 失败写坏数据文件）；fetch_official 修正 '~' 前缀为 open-weights 标记非免费
