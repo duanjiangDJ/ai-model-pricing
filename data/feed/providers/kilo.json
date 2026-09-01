@@ -11699,14 +11699,12 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.17
+            "usd": 0
           },
           "output": {
-            "usd": 3.96
+            "usd": 0
           },
-          "cache_read": {
-            "usd": 0.234
-          },
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
