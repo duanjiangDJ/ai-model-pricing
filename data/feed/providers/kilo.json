@@ -11668,12 +11668,14 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0
+            "usd": 1.17
           },
           "output": {
-            "usd": 0
+            "usd": 3.96
           },
-          "cache_read": null,
+          "cache_read": {
+            "usd": 0.234
+          },
           "cache_write": null
         },
         "batch": null,
@@ -11681,10 +11683,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "notes": "OpenRouter reseller price | z-ai/glm-latest (paid; ~ prefix is an open-weights flag, not free)",
       "billing_model": [
-        "free"
-      ]
+        "pay_per_token"
+      ],
+      "source": "https://openrouter.ai/models/z-ai/glm-latest"
     }
   ],
   "api_base_url": "https://api.kilo.ai/api/gateway"
