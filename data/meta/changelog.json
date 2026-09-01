@@ -1,6 +1,18 @@
 {
-  "schema_version": "26.26.24",
+  "schema_version": "26.27.24",
   "entries": [
+    {
+      "date": "2026-09-01T10:11:15.903336+00:00",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openai",
+      "item_id": "gpt-5.6-sol",
+      "field": "pricing",
+      "new": {
+        "models": 1
+      },
+      "source": "https://developers.openai.com/api/docs/pricing.md"
+    },
     {
       "date": "2026-09-01T04:57:04Z",
       "kind": "update",

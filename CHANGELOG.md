@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.27.24 — 2026-09-01T10:12Z (content update)
+
+- fix(openai): parse new developers.openai.com pricing.md (OpenAI page revamp broke tier0_openai -> parsed 0); make write_json atomic (dump failure was corrupting provider files); fetch_official: '~' is open-weights not free
+
 ## 26.26.24 — 2026-09-01T06:35Z (content update)
 
 - fix(kilo): z-ai/glm-latest is paid ($1.17/$3.96/$0.234 per OpenRouter official API); it was wrongly free

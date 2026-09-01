@@ -6,8 +6,8 @@
 - 官网: https://platform.openai.com/docs/models
 - 定价页: https://openai.com/chatgpt/pricing/
 - 币种: USD
-- 数据更新时间: 2026-08-31T03:37:33Z
-- 核实时间: 2026-08-31T03:37:33Z
+- 数据更新时间: 2026-09-01T10:11:15.903336+00:00
+- 核实时间: 2026-09-01T10:11:15.903336+00:00
 
 共 **47** 个模型。
 
@@ -44,7 +44,7 @@
 | `gpt-5.5-pro` | — | reasoning | 按量 | 1.05M | $30 | $180 | — | — | —/— | — | models.dev official list price |
 | `gpt-5.6` | — | reasoning | 按量 | 1.05M | $4 | $20 | $0.4 | $6.25 | $2.5/$15 | — | Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30… |
 | `gpt-5.6-luna` | — | reasoning | 按量 | 1.05M | $0.2 | $1.2 | $0.02 | $0.25 | $2.5/$15 | — | Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30… |
-| `gpt-5.6-sol` | — | reasoning | 按量 | 1.05M | $4 | $20 | $0.4 | $6.25 | $2.5/$15 | — | Official platform.openai.com/docs/pricing (Wayback snapshot, USD/1M, standard… |
+| `gpt-5.6-sol` | — | reasoning | 按量 | 1.05M | $4 | $20 | $0.4 | $5 | $2.5/$15 | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
 | `gpt-5.6-terra` | — | reasoning | 按量 | 1.05M | $2 | $12 | $0.2 | $2.5 | $2.5/$15 | — | Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30… |
 | `gpt-image-1` | ❌ 下线 | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `gpt-image-1-mini` | ❌ 下线 | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |

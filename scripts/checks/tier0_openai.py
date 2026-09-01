@@ -1,5 +1,10 @@
-"""OpenAI official pricing check (tier 0). JS-rendered page -> Wayback snapshot,
-parsed from the FIRST rows block (Standard-tier inference table).
+"""OpenAI official pricing check (tier 0).
+
+Since 2026-08 OpenAI moved the pricing page to a Markdown-driven docs site
+(developers.openai.com/api/docs/pricing). The old platform.openai.com/docs/pricing
+Next.js blob and its `"rows":[1,[[...` marker no longer exist, so parse via the
+`.md` version (append `.md` to the page URL) which is a plain Markdown table.
+This parses the FLAGSHIP STANDARD (short context) table and maps to per_mtok.
 """
 import re
 import sys
@@ -11,68 +16,81 @@ from toolbox import (  # noqa: E402
 
 TIER = 0
 PROVIDER_ID = "openai"
-URL = "https://platform.openai.com/docs/pricing"
-FALLBACK_SNAPSHOTS = ["20260812013303"]
+URL = "https://developers.openai.com/api/docs/pricing.md"
+HTML_URL = "https://developers.openai.com/api/docs/pricing"
 
 
-def _extract_first_rows(text):
-    start = text.find('"rows":[1,[[')
-    if start < 0:
-        return ""
-    i = text.find("[", start + 7)
-    depth = 0
-    j = i
-    while j < len(text):
-        if text[j] == "[":
-            depth += 1
-        elif text[j] == "]":
-            depth -= 1
-            if depth == 0:
-                return text[i:j + 1]
-        j += 1
-    return ""
+def _val(v):
+    v = (v or "").strip().replace("$", "").replace(",", "").replace(" ", "")
+    return None if v in ("", "-", "—") else float(v)
+
+
+def _parse_standard_table(text):
+    """Extract the FIRST 'Standard pricing data' Markdown table (flagship models).
+
+    Returns {model_id: {"per_mtok": {...}}} for rows in that table. Header columns
+    (Standard, short context): Model | Input | Cached input | Cache writes | Output |
+    then long-context columns follow; we take the short-context (first) group.
+    """
+    lines = text.splitlines()
+    n = len(lines)
+    i = 0
+    while i < n:
+        if lines[i].strip().startswith("### Standard pricing data"):
+            j = i + 1
+            while j < n and not lines[j].strip():
+                j += 1
+            # j = header line; j+1 = separator line; j+2.. = data rows
+            header = [c.strip() for c in lines[j].strip().strip("|").split("|")] if j < n else []
+            k = j + 2
+            out = {}
+            while k < n and lines[k].strip().startswith("|"):
+                cols = [c.strip() for c in lines[k].strip().strip("|").split("|")]
+                if len(cols) >= 5:
+                    model = re.sub(r"\s*\(<[^)]*\)", "", cols[0]).strip()  # strip " (<272K context length)"
+                    if model and not model.startswith("Model"):
+                        # Standard/Short context: Input=Cached reads=Cache writes=Output
+                        out[model] = {
+                            "per_mtok": {
+                                "input": _val(cols[1]),
+                                "cache_read": _val(cols[2]),
+                                "cache_write": _val(cols[3]),
+                                "output": _val(cols[4]),
+                            },
+                            "notes": "Official OpenAI pricing (Standard, short context, USD/1M). Parsed via developers.openai.com/api/docs/pricing.md",
+                        }
+                k += 1
+            if out:
+                return out
+        i += 1
+    return {}
 
 
 def parse(text):
-    text = (text.replace("&quot;", '"').replace("&lt;", "<")
-            .replace("&gt;", ">").replace("&amp;", "&"))
-    seg = _extract_first_rows(text)
-    rows = re.findall(
-        r'\[0,"(gpt-5[\w.\-]*|gpt-4[\w.\-]*|o[1-4][\w.\-]*)"\],\[0,([\d.]+|"-")\],\[0,([\d.]+|"-")\],\[0,([\d.]+|"-")\],\[0,([\d.]+|"-")\]',
-        seg,
-    )
+    return _parse_standard_table(text)
 
-    def f(v):
-        return None if v == '"-"' else float(v)
 
-    out = {}
-    seen = set()
-    for name, inp, cached, cw, outp in rows:
-        if name in seen:
-            continue
-        seen.add(name)
-        out[name] = {
-            "per_mtok": {"input": f(inp), "output": f(outp),
-                         "cache_read": f(cached), "cache_write": f(cw)},
-            "notes": "Official platform.openai.com/docs/pricing (Wayback snapshot, USD/1M, standard tier). Parsed by check openai.",
-        }
-    return out
+def _fetch(url, timeout=90):
+    return to_text(http_get(url, timeout=timeout))
 
 
 def run(ctx):
-    text = None
-    for snap in wayback_snapshot_candidates(URL) + [
-        f"http://web.archive.org/web/{ts}id_/{URL}" for ts in FALLBACK_SNAPSHOTS
-    ]:
-        try:
-            cand = to_text(http_get(snap, timeout=90))
-        except Exception:  # noqa: BLE001
-            continue
-        if 5000 < len(cand) < 5_000_000:
-            text = cand
-            break
-    if text is None:
-        return {"changed": 0, "detail": "no usable wayback snapshot"}
+    # Prefer the stable Markdown version; fall back to a Wayback snapshot if it fails.
+    try:
+        text = _fetch(URL)
+    except Exception:  # noqa: BLE001
+        text = None
+    if text is None or not text.strip():
+        for snap in wayback_snapshot_candidates(HTML_URL):
+            try:
+                cand = _fetch(snap)
+            except Exception:  # noqa: BLE001
+                continue
+            if 5000 < len(cand) < 5_000_000:
+                text = cand
+                break
+    if text is None or not text.strip():
+        return {"changed": 0, "detail": "no usable pricing source"}
     parsed = parse(text)
     provider = load_provider(PROVIDER_ID)
     if not provider:

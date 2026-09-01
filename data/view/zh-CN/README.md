@@ -75,7 +75,7 @@
 | [UnoRouter](providers/unorouter.md) | 聚合站 | 23 | `providers/unorouter.json` | 2026-08-31T03:37:33Z |
 | [Crusoe](providers/crusoe.md) | 推理托管 | 8 | `providers/crusoe.json` | 2026-08-31T03:37:33Z |
 | [DInference](providers/dinference.md) | 推理托管 | 6 | `providers/dinference.json` | 2026-08-31T03:37:33Z |
-| [OpenAI](providers/openai.md) | 官方直供 | 47 | `providers/openai.json` | 2026-08-31T03:37:33Z |
+| [OpenAI](providers/openai.md) | 官方直供 | 47 | `providers/openai.json` | 2026-09-01T10:11:15.903336+00:00 |
 | [OpenCode Go](providers/opencode-go.md) | 订阅制 | 33 | `providers/opencode-go.json` | 2026-08-31T03:37:33Z |
 | [xAI](providers/xai.md) | 官方直供 | 17 | `providers/xai.json` | 2026-08-31T03:37:33Z |
 | [LMStudio](providers/lmstudio.md) | 推理托管 | 3 | `providers/lmstudio.json` | 2026-08-31T03:37:33Z |

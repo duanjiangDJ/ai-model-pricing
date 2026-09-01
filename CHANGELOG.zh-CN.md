@@ -16,6 +16,10 @@
 
 ---
 
+## 26.27.24 — 2026-09-01T10:12Z（内容更新）
+
+- 修复 OpenAI 官方定价解析（OpenAI 定价页改版导致 tier0_openai 解析为 0，改为解析新的 developers.openai.com pricing.md）；write_json 改为原子写（防止 dump 失败写坏数据文件）；fetch_official 修正 '~' 前缀为 open-weights 标记非免费
+
 ## 26.26.24 — 2026-09-01T06:35Z（内容更新）
 
 - 修正 kilo 的 z-ai/glm-latest 为付费（openrouter 官方 API $1.17/$3.96/$0.234），此前误标免费

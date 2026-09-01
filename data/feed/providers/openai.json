@@ -7,8 +7,8 @@
   "homepage": "https://platform.openai.com/docs/models",
   "pricing_page": "https://openai.com/chatgpt/pricing/",
   "currency": "USD",
-  "updated_at": "2026-08-31T03:37:33Z",
-  "verified_at": "2026-08-31T03:37:33Z",
+  "updated_at": "2026-09-01T10:11:15.903336+00:00",
+  "verified_at": "2026-09-01T10:11:15.903336+00:00",
   "models": [
     {
       "id": "chatgpt-image-latest",
@@ -1039,7 +1039,7 @@
             "usd": 0.4
           },
           "cache_write": {
-            "usd": 6.25
+            "usd": 5.0
           }
         },
         "batch": {
@@ -1054,7 +1054,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official platform.openai.com/docs/pricing (Wayback snapshot, USD/1M, standard tier). Parsed by check openai.",
+      "notes": "Official OpenAI pricing (Standard, short context, USD/1M). Parsed via developers.openai.com/api/docs/pricing.md",
       "billing_model": [
         "pay_per_token"
       ]
