@@ -6,8 +6,8 @@
 - Homepage: https://developers.upstage.ai/docs/apis/chat
 - Pricing page: https://developers.upstage.ai/docs/apis/chat
 - Currency: USD
-- Data updated: 2026-08-31T03:37:33Z
-- Verified: 2026-08-31T03:37:33Z
+- Data updated: 2026-09-01T09:18:24Z
+- Verified: 2026-09-01T09:18:24Z
 
 **4** models in total.
 

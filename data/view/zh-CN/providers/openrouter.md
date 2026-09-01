@@ -6,10 +6,10 @@
 - 官网: https://openrouter.ai
 - 定价页: https://openrouter.ai/models
 - 币种: USD
-- 数据更新时间: 2026-09-01T04:18:54Z
-- 核实时间: 2026-09-01T04:18:54Z
+- 数据更新时间: 2026-09-01T09:18:24Z
+- 核实时间: 2026-09-01T09:18:24Z
 
-共 **425** 个模型。
+共 **420** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -124,7 +124,7 @@
 | `google/gemma-4-31b-it:free` | — | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `google/lyria-3-clip-preview` | — | chat | 免费 | 1.04858M | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `google/lyria-3-pro-preview` | — | chat | 免费 | 1.04858M | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
-| `gryphe/mythomax-l2-13b` | — | chat | 按量 | 8.192K | $0.35 | $0.6 | — | — | —/— | — | OpenRouter reseller price |
+| `gryphe/mythomax-l2-13b` | — | chat | 按量 | 8.192K | $0.06 | $0.06 | — | — | —/— | — | OpenRouter reseller price |
 | `ibm-granite/granite-4.0-h-micro` | — | chat | 按量 | 131K | $0.017 | $0.112 | — | — | —/— | — | OpenRouter reseller price |
 | `ibm-granite/granite-4.1-8b` | — | chat | 按量 | 131.072K | $0.05 | $0.1 | $0.05 | — | —/— | — | OpenRouter reseller price |
 | `ibm-granite/granite-4.2-8b` | — | reasoning | 按量 | 131.072K | $0.1 | $0.15 | $0.05 | — | —/— | — | OpenRouter reseller price |
@@ -142,7 +142,7 @@
 | `meta-llama/llama-3.2-3b-instruct` | — | chat | 按量 | 131.072K | $0.05 | $0.33 | — | — | —/— | — | OpenRouter reseller price |
 | `meta-llama/llama-3.3-70b-instruct` | — | chat | 按量 | 131.072K | $0.71 | $0.71 | $0.71 | — | —/— | — | OpenRouter reseller price |
 | `meta-llama/llama-4-maverick` | — | chat | 按量 | 1.04858M | $0.2 | $0.696 | — | — | —/— | — | OpenRouter reseller price |
-| `meta-llama/llama-4-scout` | — | chat | 按量 | 1.31072M | $0.11 | $0.34 | $0.055 | — | —/— | — | OpenRouter reseller price |
+| `meta-llama/llama-4-scout` | — | chat | 按量 | 1.31072M | $0.1 | $0.3 | — | — | —/— | — | OpenRouter reseller price |
 | `meta-llama/llama-guard-4-12b` | — | chat | 按量 | 163.84K | $0.18 | $0.18 | — | — | —/— | — | OpenRouter reseller price |
 | `meta/muse-glimmer-30b` | — | reasoning | 按量 | 131.072K | $0.3 | $1.2 | $0.04 | — | —/— | — | OpenRouter reseller price |
 | `meta/muse-glimmer-30b:batch` | — | reasoning | 按量 | 131.072K | $0.35 | $1.5 | $0.04 | — | —/— | — | OpenRouter reseller price |
@@ -163,26 +163,21 @@
 | `minimax/minimax-m3:batch` | — | reasoning | 按量 | 524.288K | $0.3 | $1.2 | $0.06 | — | —/— | — | OpenRouter reseller price |
 | `minimax/minimax-m3:free` | — | reasoning | 免费 | 1.04858M | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `mistralai/codestral-2508` | — | chat | 按量 | 256K | $0.3 | $0.9 | $0.03 | — | —/— | — | OpenRouter reseller price |
-| `mistralai/codestral-2508:batch` | — | chat | 按量 | 256K | $0.3 | $0.9 | $0.03 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/devstral-2512` | — | chat | 按量 | 262.144K | $0.4 | $2 | $0.04 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/ministral-14b-2512` | — | chat | 按量 | 262.144K | $0.2 | $0.2 | $0.02 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/ministral-3b-2512` | — | chat | 按量 | 131.072K | $0.1 | $0.1 | $0.01 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/ministral-8b-2512` | — | chat | 按量 | 262.144K | $0.15 | $0.15 | $0.015 | — | —/— | — | OpenRouter reseller price |
-| `mistralai/ministral-8b-2512:batch` | — | chat | 按量 | 262.144K | $0.15 | $0.15 | $0.015 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-large` | — | chat | 按量 | 128K | $2 | $6 | $0.2 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-large-2407` | — | chat | 按量 | 131.072K | $2 | $6 | $0.2 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-large-2512` | — | chat | 按量 | 262.144K | $0.5 | $1.5 | $0.05 | — | —/— | — | OpenRouter reseller price |
-| `mistralai/mistral-large-2512:batch` | — | chat | 按量 | 262.144K | $0.5 | $1.5 | $0.05 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-medium-3` | — | chat | 按量 | 131.072K | $0.4 | $2 | $0.04 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-medium-3-5` | — | reasoning | 按量 | 262.144K | $1.5 | $7.5 | — | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-medium-3-5:batch` | — | reasoning | 按量 | 262.144K | $0.75 | $3.75 | — | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-medium-3.1` | — | chat | 按量 | 131.072K | $0.4 | $2 | $0.04 | — | —/— | — | OpenRouter reseller price |
-| `mistralai/mistral-medium-3.1:batch` | — | chat | 按量 | 131.072K | $0.4 | $2 | $0.04 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-nemo` | — | chat | 按量 | 131.072K | $0.019 | $0.03 | — | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-saba` | — | chat | 按量 | 32.768K | $0.2 | $0.6 | $0.02 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-small-24b-instruct-2501` | — | chat | 按量 | 32.768K | $0.05 | $0.08 | — | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-small-2603` | — | reasoning | 按量 | 262.144K | $0.15 | $0.6 | $0.015 | — | —/— | — | OpenRouter reseller price |
-| `mistralai/mistral-small-2603:batch` | — | reasoning | 按量 | 262.144K | $0.15 | $0.6 | $0.015 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-small-3.1-24b-instruct` | — | chat | 按量 | 128K | $0.351 | $0.555 | — | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-small-3.2-24b-instruct` | — | chat | 按量 | 131.072K | $0.075 | $0.2 | — | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mixtral-8x22b-instruct` | — | chat | 按量 | 65.536K | $2 | $6 | $0.2 | — | —/— | — | OpenRouter reseller price |
@@ -326,7 +321,7 @@
 | `qwen/qwen2.5-vl-72b-instruct` | — | chat | 按量 | 128K | $0.25 | $0.75 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-14b` | — | reasoning | 按量 | 131.072K | $0.12 | $0.24 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-235b-a22b` | — | reasoning | 按量 | 131.072K | $0.455 | $1.82 | — | — | —/— | — | OpenRouter reseller price |
-| `qwen/qwen3-235b-a22b-2507` | — | chat | 按量 | 262.144K | $0.09 | $0.55 | — | — | —/— | — | OpenRouter reseller price |
+| `qwen/qwen3-235b-a22b-2507` | — | chat | 按量 | 262.144K | $0.0875 | $0.35 | $0.0175 | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-235b-a22b-thinking-2507` | — | reasoning | 按量 | 131.072K | $0.23 | $2.3 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-30b-a3b` | — | reasoning | 按量 | 131.072K | $0.12 | $0.5 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-30b-a3b-instruct-2507` | — | chat | 按量 | 262.144K | $0.04815 | $0.19305 | — | — | —/— | — | OpenRouter reseller price |

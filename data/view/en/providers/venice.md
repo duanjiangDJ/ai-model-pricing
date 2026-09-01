@@ -6,8 +6,8 @@
 - Homepage: https://docs.venice.ai
 - Pricing page: https://docs.venice.ai
 - Currency: USD
-- Data updated: 2026-08-31T03:37:33Z
-- Verified: 2026-08-31T03:37:33Z
+- Data updated: 2026-09-01T09:18:24Z
+- Verified: 2026-09-01T09:18:24Z
 
 **101** models in total.
 
@@ -25,7 +25,7 @@
 | `claude-opus-5-fast` | — | reasoning | per-token | 1M | $12 | $60 | $1.2 | — | —/— | — | models.dev official list price |
 | `claude-sonnet-4-5` | — | reasoning | per-token | 198K | $3.75 | $18.75 | $0.375 | — | —/— | — | models.dev official list price |
 | `claude-sonnet-4-6` | — | reasoning | per-token | 1M | $3.6 | $18 | $0.36 | — | —/— | — | models.dev official list price |
-| `claude-sonnet-5` | — | reasoning | per-token | 1M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
+| `claude-sonnet-5` | — | reasoning | per-token | 1M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `deepseek-v3.2` | — | reasoning | per-token | 160K | $0.33 | $0.48 | $0.16 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-flash` | — | reasoning | per-token | 1M | $0.138 | $0.275 | $0.028 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-flash-0731` | — | reasoning | per-token | 1M | $0.175 | $0.35 | $0.035 | — | —/— | — | models.dev official list price |

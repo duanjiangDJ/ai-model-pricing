@@ -6,10 +6,10 @@
 - 官网: https://docs.nano-gpt.com
 - 定价页: https://docs.nano-gpt.com
 - 币种: USD
-- 数据更新时间: 2026-08-31T03:37:33Z
-- 核实时间: 2026-08-31T03:37:33Z
+- 数据更新时间: 2026-09-01T09:18:24Z
+- 核实时间: 2026-09-01T09:18:24Z
 
-共 **684** 个模型。
+共 **687** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -73,6 +73,7 @@
 | `TEE/glm-5.1-thinking` | — | reasoning | 按量 | 202.752K | $1.5 | $5.25 | $0.3 | — | —/— | — | models.dev official list price |
 | `TEE/glm-5.2` | — | reasoning | 按量 | 1.04858M | $1.4 | $4.6 | $0.5 | — | —/— | — | models.dev official list price |
 | `TEE/glm-5.2:thinking` | — | reasoning | 按量 | 1.04858M | $1.4 | $4.6 | $0.5 | — | —/— | — | models.dev official list price |
+| `TEE/glm-5.3` | — | reasoning | 按量 | 1.04858M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `TEE/glm-5.3-flash` | — | reasoning | 按量 | 1.04858M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `TEE/gpt-oss-120b` | — | chat | 按量 | 131.072K | $2 | $2 | $2 | — | —/— | — | models.dev official list price |
 | `TEE/gpt-oss-20b` | — | chat | 按量 | 131.072K | $0.2 | $0.8 | $0.1 | — | —/— | — | models.dev official list price |
@@ -109,6 +110,7 @@
 | `abliterated-model-large` | — | reasoning | 按量 | 1M | $5 | $5 | $0.5 | — | —/— | — | models.dev official list price |
 | `abliteration-ai/abliterated-model` | — | reasoning | 按量 | 262.144K | $3 | $3 | $0.3 | — | —/— | — | models.dev official list price |
 | `abliteration-ai/abliterated-model-large` | — | reasoning | 按量 | 1M | $5 | $5 | $0.5 | — | —/— | — | models.dev official list price |
+| `abliteration-ai/abliterated-model-large-v2` | — | reasoning | 按量 | 1M | $5 | $5 | $0.5 | — | —/— | — | models.dev official list price |
 | `aion-labs/aion-2.0` | — | chat | 按量 | 131.072K | $0.8 | $1.6 | $0.2 | — | —/— | — | models.dev official list price |
 | `aion-labs/aion-3.0` | — | reasoning | 按量 | 131.072K | $3 | $6 | $0.75 | — | —/— | — | models.dev official list price |
 | `aion-labs/aion-3.0-mini` | — | reasoning | 按量 | 131.072K | $0.7 | $1.4 | $0.18 | — | —/— | — | models.dev official list price |
@@ -268,7 +270,7 @@
 | `gemini-2.5-pro-preview-06-05` | — | reasoning | 按量 | 1.04876M | $2.5 | $10 | $0.25 | — | —/— | — | models.dev official list price |
 | `gemini-3-pro-image-preview` | — | chat | 按量 | 1.04876M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `gemini-exp-1206` | — | chat | 按量 | 2.09715M | $1.258 | $4.998 | $0.629 | — | —/— | — | models.dev official list price |
-| `gemma-4-12b-it` | — | chat | 按量 | 262.144K | $0.06 | $0.3 | $0.03 | — | —/— | — | models.dev official list price |
+| `gemma-4-12b-it` | — | chat | 按量 | 262.144K | $0.05 | $0.25 | $0.025 | — | —/— | — | models.dev official list price |
 | `gemma-4-26b-a4b-it-chimerax` | — | reasoning | 按量 | 262.144K | $0.12 | $0.38 | $0.06 | — | —/— | — | models.dev official list price |
 | `gemma-4-26b-a4b-it-darksoul` | — | reasoning | 按量 | 262.144K | $0.12 | $0.38 | $0.06 | — | —/— | — | models.dev official list price |
 | `gemma-4-26b-a4b-it-luminous` | — | chat | 按量 | 262.144K | $0.12 | $0.38 | $0.06 | — | —/— | — | models.dev official list price |
@@ -346,6 +348,7 @@
 | `huihui-ai/Qwen2.5-32B-Instruct-abliterated` | — | chat | 按量 | 32.768K | $0.7 | $0.7 | $0.35 | — | —/— | — | models.dev official list price |
 | `hunyuan-turbos-20250226` | — | chat | 按量 | 24K | $0.187 | $0.374 | $0.0935 | — | —/— | — | models.dev official list price |
 | `ibm-granite/granite-4.1-8b` | — | chat | 按量 | 131.072K | $0.05 | $0.1 | $0.05 | — | —/— | — | models.dev official list price |
+| `ibm-granite/granite-4.2-8b` | — | reasoning | 按量 | 131.072K | $0.1 | $0.15 | $0.05 | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-2.6-1t` | — | chat | 按量 | 262.144K | $0.3 | $2.5 | $0.06 | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-2.6-flash` | — | chat | 按量 | 262.144K | $0.1 | $0.3 | $0.02 | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-3.0-flash` | — | chat | 按量 | 262.144K | $0.075 | $0.22 | $0.015 | — | —/— | — | models.dev official list price |
@@ -667,7 +670,7 @@
 | `z-ai/glm-5:thinking` | — | reasoning | 按量 | 200K | $0.5 | $2.55 | $0.13 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5v-turbo` | — | chat | 按量 | 202.8K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5v-turbo:thinking` | — | reasoning | 按量 | 202.8K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |
-| `z-ai/glm-latest` | — | reasoning | 按量 | 1.04858M | $0.42 | $1.32 | $0.078 | — | —/— | — | models.dev official list price |
+| `z-ai/glm-latest` | — | reasoning | 按量 | 1.04858M | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-4.5-Air` | — | chat | 按量 | 128K | $0.12 | $0.8 | $0.06 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-4.5-Air:thinking` | — | reasoning | 按量 | 128K | $0.12 | $0.8 | $0.06 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-4.5:thinking` | — | reasoning | 按量 | 128K | $0.3 | $1.3 | $0.15 | — | —/— | — | models.dev official list price |

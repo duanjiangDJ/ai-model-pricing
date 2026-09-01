@@ -6,10 +6,10 @@
 - 官网: https://docs.merge.dev/merge-gateway
 - 定价页: https://docs.merge.dev/merge-gateway
 - 币种: USD
-- 数据更新时间: 2026-08-31T03:37:33Z
-- 核实时间: 2026-08-31T03:37:33Z
+- 数据更新时间: 2026-09-01T09:18:24Z
+- 核实时间: 2026-09-01T09:18:24Z
 
-共 **176** 个模型。
+共 **177** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -26,7 +26,7 @@
 | `anthropic/claude-sonnet-4-20250514` | — | reasoning | 按量 | 200K | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-sonnet-4-5-20250929` | — | reasoning | 按量 | 200K | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-sonnet-4-6` | — | reasoning | 按量 | 1M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
-| `anthropic/claude-sonnet-5` | — | reasoning | 按量 | 1M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
+| `anthropic/claude-sonnet-5` | — | reasoning | 按量 | 1M | $3 | $15 | $0.2 | — | —/— | — | models.dev official list price |
 | `bytedance/dola-seed-2.0-code` | — | chat | 按量 | 256K | $0.4 | $2.4 | — | — | —/— | — | models.dev official list price |
 | `bytedance/dola-seed-2.0-code-preview` | — | chat | 按量 | 131.072K | $0.5 | $3 | — | — | —/— | — | models.dev official list price |
 | `bytedance/dola-seed-2.0-lite` | — | chat | 按量 | 131.072K | $0.25 | $2 | — | — | —/— | — | models.dev official list price |
@@ -42,6 +42,7 @@
 | `deepseek/deepseek-v3.2` | — | reasoning | 按量 | 163.84K | $0.28 | $0.45 | $0.14 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash` | — | reasoning | 按量 | 1M | $0.22 | $0.66 | $0.007 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | 按量 | 1M | $0.22 | $0.66 | $0.007 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash-0731-fast` | — | reasoning | 按量 | 1M | $0.28 | $0.56 | $0.07 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | 按量 | 1M | $0.66 | $1.98 | $0.022 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro-0423` | — | reasoning | 按量 | 1M | $1.65 | $3.3 | — | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | 按量 | 1M | $0.66 | $1.98 | $0.022 | — | —/— | — | models.dev official list price |
@@ -95,7 +96,7 @@
 | `moonshot/kimi-k2.6` | — | reasoning | 按量 | 262.144K | $0.95 | $4 | $0.16 | — | —/— | — | models.dev official list price |
 | `moonshot/kimi-k2.7-code` | — | reasoning | 按量 | 262.144K | $0.95 | $4 | $0.19 | — | —/— | — | models.dev official list price |
 | `moonshot/kimi-k2.7-code-highspeed` | — | reasoning | 按量 | 262.144K | $1.9 | $8 | $0.38 | — | —/— | — | models.dev official list price |
-| `moonshot/kimi-k3` | — | reasoning | 按量 | 1.04858M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
+| `moonshot/kimi-k3` | — | reasoning | 按量 | 1.04858M | $2.9 | $14 | $0.3 | — | —/— | — | models.dev official list price |
 | `moonshotai/kimi-k2-thinking` | — | reasoning | 按量 | 262.144K | $0.6 | $2.5 | — | — | —/— | — | models.dev official list price |
 | `nvidia/nemotron-3.5-lightning-30b-a3b` | — | reasoning | 免费 | 1M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-nano-9b-v2` | — | reasoning | 按量 | 128K | $0.06 | $0.23 | — | — | —/— | — | models.dev official list price |
@@ -174,7 +175,7 @@
 | `xai/grok-4.20-0309-reasoning` | — | reasoning | 按量 | 1M | $1.25 | $2.5 | $0.2 | — | —/— | — | models.dev official list price |
 | `xai/grok-4.3` | — | reasoning | 按量 | 1M | $1.25 | $2.5 | $0.2 | — | —/— | — | models.dev official list price |
 | `xai/grok-4.5` | — | reasoning | 按量 | 500K | $2 | $6 | $0.5 | — | —/— | — | models.dev official list price |
-| `xai/grok-4.6` | — | reasoning | 按量 | 500K | $1.5 | $4.5 | $0.375 | — | —/— | — | models.dev official list price |
+| `xai/grok-4.6` | — | reasoning | 按量 | 500K | $2 | $6 | $0.5 | — | —/— | — | models.dev official list price |
 | `xai/grok-build-0.1` | — | reasoning | 按量 | 256K | $1 | $2 | $0.2 | — | —/— | — | models.dev official list price |
 | `zai/glm-4.5` | — | reasoning | 按量 | 128K | $0.6 | $2.2 | $0.11 | — | —/— | — | models.dev official list price |
 | `zai/glm-4.5-air` | — | reasoning | 按量 | 128K | $0.2 | $1.1 | $0.03 | — | —/— | — | models.dev official list price |

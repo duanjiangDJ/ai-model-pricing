@@ -140,6 +140,12 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
   stale-plans issue so a human can re-verify.
 - The repository cannot invent or guess prices: unknown values are `null` with `notes`,
   never fabricated numbers.
+- **Aggregator-channel prices can be time-of-day dependent.** OpenRouter (and some resellers)
+  republish dynamic/peak prices for models with peak/off-peak billing upstream (e.g. DeepSeek
+  V4: peak = 2x off-peak). A sync records whatever the API returns at run time, so the same
+  model’s OpenRouter-channel value can jump by a clean 2x between runs. When a review flags a
+  "surge" in an aggregator channel, cross-check against LIVE `openrouter.ai/api/v1/models` first
+  — a clean 2x matching a first-party peak/off-peak tier is a timing snapshot, not corruption.
 
 ## Contribution Workflow
 

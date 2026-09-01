@@ -7,8 +7,8 @@
   "homepage": "https://docs.edenai.co",
   "pricing_page": "https://docs.edenai.co",
   "currency": "USD",
-  "updated_at": "2026-08-31T03:37:33Z",
-  "verified_at": "2026-08-31T03:37:33Z",
+  "updated_at": "2026-09-01T09:18:24Z",
+  "verified_at": "2026-09-01T09:18:24Z",
   "models": [
     {
       "id": "amazon/moonshot.kimi-k2-thinking",
@@ -2418,6 +2418,35 @@
       ]
     },
     {
+      "id": "flexai/Step-3.7-Flash",
+      "name": "Step 3.7 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 256000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.2
+          },
+          "output": {
+            "usd": 1.15
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "flexai/deepseek-v4-flash-0731",
       "name": "DeepSeek V4 Flash 0731",
       "category": "reasoning",
@@ -2429,10 +2458,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.08
+            "usd": 0.03
           },
           "output": {
-            "usd": 0.18
+            "usd": 0.1
           },
           "cache_read": null,
           "cache_write": null
@@ -3151,10 +3180,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.756795
+            "usd": 0.75374
           },
           "output": {
-            "usd": 0.756795
+            "usd": 0.75374
           },
           "cache_read": null,
           "cache_write": null
@@ -3181,10 +3210,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.174645
+            "usd": 0.17394
           },
           "output": {
-            "usd": 0.756795
+            "usd": 0.75374
           },
           "cache_read": null,
           "cache_write": null
@@ -3795,6 +3824,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "moonshot/kimi-k2.7-code-highspeed",
+      "name": "Kimi K2.7 Code Highspeed",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 262144,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.9
+          },
+          "output": {
+            "usd": 8
+          },
+          "cache_read": {
+            "usd": 0.38
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "moonshot/kimi-k3",
@@ -6029,10 +6089,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.46572
+            "usd": 0.46384
           },
           "output": {
-            "usd": 0.93144
+            "usd": 0.92768
           },
           "cache_read": null,
           "cache_write": null
@@ -6059,10 +6119,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.174645
+            "usd": 0.17394
           },
           "output": {
-            "usd": 0.69858
+            "usd": 0.69576
           },
           "cache_read": null,
           "cache_write": null
@@ -6089,10 +6149,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.04787
+            "usd": 1.04364
           },
           "output": {
-            "usd": 1.04787
+            "usd": 1.04364
           },
           "cache_read": null,
           "cache_write": null
