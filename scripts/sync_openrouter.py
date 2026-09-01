@@ -45,8 +45,15 @@ def _per_m(v):
 
 def build_model(entry):
     p = entry.get("pricing") or {}
-    token_vals = [p.get("prompt"), p.get("completion"),
-                  p.get("input_cache_read"), p.get("input_cache_write")]
+    # Normalize to float first. OpenRouter returns prices as STRING decimals (e.g. "0"),
+    # and per_mtok semantics is $/1M. Comparing raw strings vs int 0 ("0" != 0 is True)
+    # misclassified $0 models as payable, so a genuinely free model (all-zero price) got
+    # billing_model=["pay_per_token"] with a zero price and no free note — self-contradiction.
+    prompt = to_float_or_none(p.get("prompt"))
+    completion = to_float_or_none(p.get("completion"))
+    cache_read = to_float_or_none(p.get("input_cache_read"))
+    cache_write = to_float_or_none(p.get("input_cache_write"))
+    token_vals = [prompt, completion, cache_read, cache_write]
     img = to_float_or_none(p.get("image"))
     has_token_price = any(v is not None and v != 0 for v in token_vals)
     if img is not None and has_token_price:
@@ -68,10 +75,10 @@ def build_model(entry):
         note += " | Free model (per_mtok = 0)."
     pricing = {
         "per_mtok": {
-            "input": _u(_per_m(to_float_or_none(p.get("prompt")))),
-            "output": _u(_per_m(to_float_or_none(p.get("completion")))),
-            "cache_read": _u(_per_m(to_float_or_none(p.get("input_cache_read")))),
-            "cache_write": _u(_per_m(to_float_or_none(p.get("input_cache_write")))),
+            "input": _u(_per_m(prompt)),
+            "output": _u(_per_m(completion)),
+            "cache_read": _u(_per_m(cache_read)),
+            "cache_write": _u(_per_m(cache_write)),
         },
         "per_image": [{"name": "default", "price": _u(img)}] if img is not None else None,
         "promo": None,

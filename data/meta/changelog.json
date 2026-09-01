@@ -2,6 +2,18 @@
   "schema_version": "26.23.24",
   "entries": [
     {
+      "date": "2026-09-01T04:18:54Z",
+      "kind": "update",
+      "scope": "provider",
+      "provider_id": "openrouter",
+      "item_id": "openrouter",
+      "field": "catalog",
+      "new": {
+        "model_count": 425
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
       "date": "2026-09-01T01:53:41Z",
       "kind": "update",
       "scope": "provider",
