@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.25.24 — 2026-09-01T06:31Z (content update)
+
+- feat(audit): dual-currency independence check + English-only docs exemption; add fetch_official.py
+
 ## 26.24.24 — 2026-09-01T04:20Z (content update)
 
 - fix(openrouter): classify $0 free models correctly; audit zero-price check
