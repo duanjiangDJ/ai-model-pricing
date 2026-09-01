@@ -34,10 +34,14 @@ def read_json(path):
 
 
 def write_json(path, data, indent=2):
+    """Atomic write: dump to a temp file then os.replace, so a failing dump (e.g. a
+    non-serializable value mid-serialize) cannot leave a truncated/corrupt data file."""
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=indent)
         f.write("\n")
+    os.replace(tmp, path)
 
 
 # ---------------------------------------------------------------- network
