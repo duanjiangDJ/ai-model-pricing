@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.24.24 — 2026-09-01T04:20Z (content update)
+
+- fix(openrouter): classify $0 free models correctly; audit zero-price check
+
 ## 26.23.24 — 2026-09-01T01:53Z (content update)
 
 - fix(openrouter): convert per-token price to per-1M (x1e6), keep api_base_url; audit: per_mtok magnitude check

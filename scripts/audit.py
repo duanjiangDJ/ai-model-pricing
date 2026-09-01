@@ -144,6 +144,13 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
             fail(f"per_mtok has prices but billing_model {bm} lacks pay_per_token: {p['provider_id']} :: {m['id']}")
         if "pay_per_token" in bm and not has_val and not pm.get("per_image"):
             no_price_models.append(f"{p['provider_id']} :: {m['id']}")
+        # free-classification contradiction: pay_per_token (published pricing) but
+        # all per_mtok prices are zero. Semantically this model is free; if billing_model
+        # is pay_per_token the sync writer misclassified a $0 model (see sync_openrouter
+        # string-vs-float bug). Catch the class so it can never silently re-enter.
+        if "pay_per_token" in bm and price_all_zero(pm):
+            warn(f"billing_model=pay_per_token but all per_mtok prices zero (model is free): "
+                 + f"{p['provider_id']} :: {m['id']}")
         if bm == ["unknown"] and (m.get("notes") or ""):
             unknown_models.append(f"{p['provider_id']} :: {m['id']}")
         # currency consistency: an item that carries a structured cny price (dual-currency
