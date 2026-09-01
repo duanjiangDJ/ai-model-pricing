@@ -88,6 +88,7 @@ bad_status = 0
 BILLING_ENUM = ("pay_per_token", "pay_per_image", "subscription_included", "credits", "free", "unknown")
 unknown_models = []
 no_price_models = []
+dual_suspect = []  # models whose cny/usd ratio is uniform inside the FX band (likely rate-derived)
 for f in sorted(glob.glob("data/feed/providers/*.json")):
     p = json.load(open(f, encoding="utf-8"))
     is_sub = any(h in p["provider_id"] for h in SUB_HINTS)
@@ -153,6 +154,18 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
                  + f"{p['provider_id']} :: {m['id']}")
         if bm == ["unknown"] and (m.get("notes") or ""):
             unknown_models.append(f"{p['provider_id']} :: {m['id']}")
+        # dual-currency independence: if cny/usd ratio is IDENTICAL (within 0.5%) across
+        # input/output/cache fields AND sits in the plausible FX band (6-8), the cny is almost
+        # certainly usd*rate, not an independent official CNY price. Ratios outside the band
+        # are independent pricing (only warn on the FX-band subset to avoid noise).
+        cny_usd_ratios = []
+        for _k in ("input", "output", "cache_read", "cache_write"):
+            _pv = pm.get(_k)
+            if isinstance(_pv, dict) and _pv.get("usd") and _pv.get("cny"):
+                cny_usd_ratios.append(_pv["cny"] / _pv["usd"])
+        if (len(cny_usd_ratios) >= 2 and (max(cny_usd_ratios) / min(cny_usd_ratios)) < 1.005
+                and 6.0 <= cny_usd_ratios[0] <= 8.0):
+            dual_suspect.append(f"{p['provider_id']} :: {m['id']}")
         # currency consistency: an item that carries a structured cny price (dual-currency
         # model, schema 26.8) legitimately mentions CNY in notes — never warn on those.
         # Warn only when a USD-declared model mentions CNY but has NO cny price field.
@@ -176,14 +189,22 @@ if no_price_models:
     by_pid = _C(u.split(" :: ")[0] for u in no_price_models)
     warn(f"billing_model=pay_per_token but per_mtok all null (price not published, {len(no_price_models)} models): "
          + ", ".join(f"{pid} x{c}" for pid, c in by_pid.most_common(12)))
+if dual_suspect:
+    from collections import Counter as _Cd
+    by_pid = _Cd(u.split(" :: ")[0] for u in dual_suspect)
+    warn(f"cny/usd ratio uniform in FX band (looks exchange-rate-derived, non-independent; {len(dual_suspect)} models): "
+         + ", ".join(f"{pid} x{c}" for pid, c in by_pid.most_common(12)))
 print(f"OK zero-price: {zero_free} free-flagged, {zero_suspect} suspect")
 
-# 4. docs bilingual completeness (AGENTS is English-only by design)
+# 4. docs bilingual completeness (AGENTS + agent-policy are English-only by design)
+EN_ONLY_DOCS = {"AGENTS.md", "agent-policy.md", "agent-governance-design.md"}
 prose_docs = ["README.md", "FORMAT.md", "CHANGELOG.md", "CONTRIBUTING.md"] + \
     [os.path.relpath(f, ROOT).replace("\\", "/") for f in glob.glob("docs/*.md") if "ego" not in f]
 for d in prose_docs:
     if d.endswith(".zh-CN.md") or d.endswith(".en.md"):
         continue
+    if os.path.basename(d) in EN_ONLY_DOCS:
+        continue  # kept English-only by design; no zh-CN required
     zh = d[:-3] + ".zh-CN.md"
     if not os.path.exists(zh):
         warn(f"missing zh-CN version for {d}")
