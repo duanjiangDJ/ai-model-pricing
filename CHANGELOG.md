@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.31.25 — 2026-09-01T16:33Z (content update)
+
+- feat(checks): auto-generate tier1 collection scripts for all providers with official pricing pages
+
 ## 26.30.25 — 2026-09-01T15:23Z (content update)
 
 - price sync (6 changes):
