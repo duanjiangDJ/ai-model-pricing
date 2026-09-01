@@ -6,8 +6,8 @@
 - 官网: https://docs.getlilac.com/inference/models
 - 定价页: https://docs.getlilac.com/inference/models
 - 币种: USD
-- 数据更新时间: 2026-08-31T03:37:33Z
-- 核实时间: 2026-08-31T03:37:33Z
+- 数据更新时间: 2026-09-01T06:18:14Z
+- 核实时间: 2026-09-01T06:18:14Z
 
 共 **4** 个模型。
 

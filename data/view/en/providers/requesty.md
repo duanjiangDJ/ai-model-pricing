@@ -6,8 +6,8 @@
 - Homepage: https://requesty.ai/solution/llm-routing/models
 - Pricing page: https://requesty.ai/solution/llm-routing/models
 - Currency: USD
-- Data updated: 2026-08-31T03:37:33Z
-- Verified: 2026-08-31T03:37:33Z
+- Data updated: 2026-09-01T06:18:14Z
+- Verified: 2026-09-01T06:18:14Z
 
 **142** models in total.
 
@@ -36,7 +36,7 @@
 | `claude-sonnet-5` | — | reasoning | per-token | 1M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
 | `claude-sonnet-5@eu` | — | reasoning | per-token | 1M | $2.2 | $11 | $0.22 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-flash` | — | chat | per-token | 1M | $0.44 | $1.32 | $0.014 | — | —/— | — | models.dev official list price |
-| `deepseek-v4-flash-0731` | — | reasoning | per-token | 1.04858M | $0.14 | $0.28 | $0.07 | — | —/— | — | models.dev official list price |
+| `deepseek-v4-flash-0731` | — | reasoning | per-token | 1.04858M | $0.076 | $0.153 | $0.014 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-flash-0731@eu` | — | reasoning | per-token | 1.04858M | $0.14 | $0.28 | $0.07 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-pro` | — | reasoning | per-token | 1M | $1.32 | $3.96 | $0.044 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-pro-0813` | — | reasoning | per-token | 1M | $1.32 | $3.96 | $0.044 | — | —/— | — | models.dev official list price |
@@ -61,13 +61,13 @@
 | `gemma-4-31b-it` | — | reasoning | free | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `glm-5.1` | — | reasoning | per-token | 200K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `glm-5.1@eu` | — | reasoning | per-token | 200K | $1.4 | $4.4 | $1.4 | — | —/— | — | models.dev official list price |
-| `glm-5.2` | — | reasoning | per-token | 1.04858M | $1.2 | $4.2 | $0.26 | — | —/— | — | models.dev official list price |
+| `glm-5.2` | — | reasoning | per-token | 1.04858M | $0.8 | $2.55 | $0.16 | — | —/— | — | models.dev official list price |
 | `glm-5.2-fast` | — | reasoning | per-token | 1M | $2.1 | $6.6 | $0.21 | — | —/— | — | models.dev official list price |
 | `glm-5.2@eu` | — | reasoning | per-token | 1.04858M | $1.2 | $4.2 | $0.26 | — | —/— | — | models.dev official list price |
-| `glm-5.3` | — | reasoning | per-token | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
-| `glm-5.3-flash` | — | reasoning | per-token | 1M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
+| `glm-5.3` | — | reasoning | per-token | 1M | $1.2 | $4.2 | $0.26 | — | —/— | — | models.dev official list price |
+| `glm-5.3-flash` | — | reasoning | per-token | 1M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |
 | `glm-5.3-flash@eu` | — | reasoning | per-token | 1M | $0.2 | $0.5 | $0.07 | — | —/— | — | models.dev official list price |
-| `glm-5.3@eu` | — | reasoning | per-token | 1.04858M | $1.75 | $4.5 | $0.44 | — | —/— | — | models.dev official list price |
+| `glm-5.3@eu` | — | reasoning | per-token | 1.04858M | $1.2 | $4.2 | $0.26 | — | —/— | — | models.dev official list price |
 | `gpt-4.1-mini@eu` | — | chat | per-token | 1.04758M | $0.44 | $1.76 | $0.11 | — | —/— | — | models.dev official list price |
 | `gpt-4.1-nano@eu` | — | chat | per-token | 1.04758M | $0.11 | $0.44 | $0.0275 | — | —/— | — | models.dev official list price |
 | `gpt-4.1@eu` | — | chat | per-token | 1.04758M | $2.2 | $8.8 | $0.55 | — | —/— | — | models.dev official list price |

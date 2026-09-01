@@ -7,8 +7,8 @@
   "homepage": "https://docs.jiekou.ai/docs/support/quickstart?utm_source=github_models.dev",
   "pricing_page": "https://docs.jiekou.ai/docs/support/quickstart?utm_source=github_models.dev",
   "currency": "USD",
-  "updated_at": "2026-08-31T03:37:33Z",
-  "verified_at": "2026-08-31T03:37:33Z",
+  "updated_at": "2026-09-01T06:18:14Z",
+  "verified_at": "2026-09-01T06:18:14Z",
   "models": [
     {
       "id": "baidu/ernie-4.5-300b-a47b-paddle",

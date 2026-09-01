@@ -7,8 +7,8 @@
   "homepage": "https://hyper.charm.land",
   "pricing_page": "https://hyper.charm.land",
   "currency": "USD",
-  "updated_at": "2026-08-31T03:37:33Z",
-  "verified_at": "2026-08-31T03:37:33Z",
+  "updated_at": "2026-09-01T06:18:14Z",
+  "verified_at": "2026-09-01T06:18:14Z",
   "models": [
     {
       "id": "deepseek-v4-flash",
@@ -150,10 +150,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.11
+            "usd": 0.12
           },
           "output": {
-            "usd": 0.408
+            "usd": 0.42
           },
           "cache_read": null,
           "cache_write": null
@@ -180,10 +180,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.9
+            "usd": 0.91
           },
           "output": {
-            "usd": 2.804
+            "usd": 2.934
           },
           "cache_read": null,
           "cache_write": null
@@ -210,10 +210,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.314
+            "usd": 1.332
           },
           "output": {
-            "usd": 4.268
+            "usd": 4.312
           },
           "cache_read": null,
           "cache_write": null
@@ -261,6 +261,68 @@
       ]
     },
     {
+      "id": "glm-5.3",
+      "name": "GLM-5.3",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 262144,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.52432
+          },
+          "output": {
+            "usd": 4.79072
+          },
+          "cache_read": {
+            "usd": 0.283088
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "glm-5.3-flash",
+      "name": "GLM-5.3-Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 131072,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.16332
+          },
+          "output": {
+            "usd": 0.5444
+          },
+          "cache_read": {
+            "usd": 0.031575
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "gpt-oss-120b",
       "name": "GPT OSS 120B",
       "category": "reasoning",
@@ -272,10 +334,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.178
+            "usd": 0.188
           },
           "output": {
-            "usd": 0.68
+            "usd": 0.7
           },
           "cache_read": null,
           "cache_write": null
@@ -458,10 +520,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.284
+            "usd": 0.274
           },
           "output": {
-            "usd": 0.934
+            "usd": 0.8992
           },
           "cache_read": null,
           "cache_write": null
@@ -488,10 +550,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.404
+            "usd": 0.424
           },
           "output": {
-            "usd": 1.496
+            "usd": 1.612
           },
           "cache_read": null,
           "cache_write": null

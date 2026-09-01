@@ -7,8 +7,8 @@
   "homepage": "https://console.groq.com/docs/models",
   "pricing_page": "https://console.groq.com/docs/models",
   "currency": "USD",
-  "updated_at": "2026-08-31T03:37:33Z",
-  "verified_at": "2026-08-31T03:37:33Z",
+  "updated_at": "2026-09-01T06:18:14Z",
+  "verified_at": "2026-09-01T06:18:14Z",
   "models": [
     {
       "id": "allam-2-7b",
@@ -389,6 +389,35 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "qwen/qwen3.8-27b",
+      "name": "Qwen3.8 27B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131042,
+      "max_output": 16384,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.8
+          },
+          "output": {
+            "usd": 4
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "whisper-large-v3",

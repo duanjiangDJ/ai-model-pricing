@@ -6,10 +6,10 @@
 - 官网: https://openrouter.ai
 - 定价页: https://openrouter.ai/models
 - 币种: USD
-- 数据更新时间: 2026-09-01T04:18:54Z
-- 核实时间: 2026-09-01T04:18:54Z
+- 数据更新时间: 2026-09-01T06:18:14Z
+- 核实时间: 2026-09-01T06:18:14Z
 
-共 **425** 个模型。
+共 **420** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -78,9 +78,9 @@
 | `deepseek/deepseek-v4-flash` | — | reasoning | 按量 | 1.04858M | $0.08092 | $0.16184 | $0.016184 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | 按量 | 1.31072M | $0.065 | $0.18 | $0.016 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731:batch` | — | reasoning | 按量 | 1.04858M | $0.14 | $0.28 | $0.03 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 按量 | 1.04858M | $0.22 | $0.66 | $0.007 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 按量 | 1.04858M | $0.44 | $1.32 | $0.014 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | 按量 | 1.04858M | $1.6 | $3.2 | $0.135 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-pro-0813` | — | reasoning | 按量 | 1.04858M | $0.66 | $1.98 | $0.022 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-pro-0813` | — | reasoning | 按量 | 1.04858M | $1.1154 | $3.3462 | $0.03718 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813:batch` | — | reasoning | 按量 | 1.04858M | $1.32 | $3.96 | $0.13 | — | —/— | — | OpenRouter reseller price |
 | `dots-studio/dots-3-note-preview:free` | — | reasoning | 免费 | 512K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `google/gemini-2.5-flash` | — | reasoning | 按图 + 按量 | 1.04858M | $0.3 | $2.5 | $0.03 | $0.0833333 | —/— | per-image | OpenRouter reseller price |
@@ -142,7 +142,7 @@
 | `meta-llama/llama-3.2-3b-instruct` | — | chat | 按量 | 131.072K | $0.05 | $0.33 | — | — | —/— | — | OpenRouter reseller price |
 | `meta-llama/llama-3.3-70b-instruct` | — | chat | 按量 | 131.072K | $0.71 | $0.71 | $0.71 | — | —/— | — | OpenRouter reseller price |
 | `meta-llama/llama-4-maverick` | — | chat | 按量 | 1.04858M | $0.2 | $0.696 | — | — | —/— | — | OpenRouter reseller price |
-| `meta-llama/llama-4-scout` | — | chat | 按量 | 1.31072M | $0.11 | $0.34 | $0.055 | — | —/— | — | OpenRouter reseller price |
+| `meta-llama/llama-4-scout` | — | chat | 按量 | 1.31072M | $0.1 | $0.3 | — | — | —/— | — | OpenRouter reseller price |
 | `meta-llama/llama-guard-4-12b` | — | chat | 按量 | 163.84K | $0.18 | $0.18 | — | — | —/— | — | OpenRouter reseller price |
 | `meta/muse-glimmer-30b` | — | reasoning | 按量 | 131.072K | $0.3 | $1.2 | $0.04 | — | —/— | — | OpenRouter reseller price |
 | `meta/muse-glimmer-30b:batch` | — | reasoning | 按量 | 131.072K | $0.35 | $1.5 | $0.04 | — | —/— | — | OpenRouter reseller price |
@@ -163,26 +163,21 @@
 | `minimax/minimax-m3:batch` | — | reasoning | 按量 | 524.288K | $0.3 | $1.2 | $0.06 | — | —/— | — | OpenRouter reseller price |
 | `minimax/minimax-m3:free` | — | reasoning | 免费 | 1.04858M | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `mistralai/codestral-2508` | — | chat | 按量 | 256K | $0.3 | $0.9 | $0.03 | — | —/— | — | OpenRouter reseller price |
-| `mistralai/codestral-2508:batch` | — | chat | 按量 | 256K | $0.3 | $0.9 | $0.03 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/devstral-2512` | — | chat | 按量 | 262.144K | $0.4 | $2 | $0.04 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/ministral-14b-2512` | — | chat | 按量 | 262.144K | $0.2 | $0.2 | $0.02 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/ministral-3b-2512` | — | chat | 按量 | 131.072K | $0.1 | $0.1 | $0.01 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/ministral-8b-2512` | — | chat | 按量 | 262.144K | $0.15 | $0.15 | $0.015 | — | —/— | — | OpenRouter reseller price |
-| `mistralai/ministral-8b-2512:batch` | — | chat | 按量 | 262.144K | $0.15 | $0.15 | $0.015 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-large` | — | chat | 按量 | 128K | $2 | $6 | $0.2 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-large-2407` | — | chat | 按量 | 131.072K | $2 | $6 | $0.2 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-large-2512` | — | chat | 按量 | 262.144K | $0.5 | $1.5 | $0.05 | — | —/— | — | OpenRouter reseller price |
-| `mistralai/mistral-large-2512:batch` | — | chat | 按量 | 262.144K | $0.5 | $1.5 | $0.05 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-medium-3` | — | chat | 按量 | 131.072K | $0.4 | $2 | $0.04 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-medium-3-5` | — | reasoning | 按量 | 262.144K | $1.5 | $7.5 | — | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-medium-3-5:batch` | — | reasoning | 按量 | 262.144K | $0.75 | $3.75 | — | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-medium-3.1` | — | chat | 按量 | 131.072K | $0.4 | $2 | $0.04 | — | —/— | — | OpenRouter reseller price |
-| `mistralai/mistral-medium-3.1:batch` | — | chat | 按量 | 131.072K | $0.4 | $2 | $0.04 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-nemo` | — | chat | 按量 | 131.072K | $0.019 | $0.03 | — | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-saba` | — | chat | 按量 | 32.768K | $0.2 | $0.6 | $0.02 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-small-24b-instruct-2501` | — | chat | 按量 | 32.768K | $0.05 | $0.08 | — | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-small-2603` | — | reasoning | 按量 | 262.144K | $0.15 | $0.6 | $0.015 | — | —/— | — | OpenRouter reseller price |
-| `mistralai/mistral-small-2603:batch` | — | reasoning | 按量 | 262.144K | $0.15 | $0.6 | $0.015 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-small-3.1-24b-instruct` | — | chat | 按量 | 128K | $0.351 | $0.555 | — | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-small-3.2-24b-instruct` | — | chat | 按量 | 131.072K | $0.075 | $0.2 | — | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mixtral-8x22b-instruct` | — | chat | 按量 | 65.536K | $2 | $6 | $0.2 | — | —/— | — | OpenRouter reseller price |

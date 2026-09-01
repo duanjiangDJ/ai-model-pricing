@@ -7,8 +7,8 @@
   "homepage": "https://docs.aihubmix.com",
   "pricing_page": "https://docs.aihubmix.com",
   "currency": "USD",
-  "updated_at": "2026-08-31T03:37:33Z",
-  "verified_at": "2026-08-31T03:37:33Z",
+  "updated_at": "2026-09-01T06:18:14Z",
+  "verified_at": "2026-09-01T06:18:14Z",
   "models": [
     {
       "id": "alicloud-deepseek-v4-flash",
@@ -739,6 +739,68 @@
       ]
     },
     {
+      "id": "deepseek-v4-flash-0731",
+      "name": "DeepSeek V4 Flash 0731",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 384000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.142
+          },
+          "output": {
+            "usd": 0.284
+          },
+          "cache_read": {
+            "usd": 0.0284
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "deepseek-v4-pro-0813",
+      "name": "DeepSeek V4 Pro 0813",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 384000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.6918
+          },
+          "output": {
+            "usd": 2.0754
+          },
+          "cache_read": {
+            "usd": 0.023058
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "doubao-seed-2-0-code-preview",
       "name": "Doubao Seed 2.0 Code Preview",
       "category": "reasoning",
@@ -1153,6 +1215,68 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "glm-5.3",
+      "name": "GLM-5.3",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 128000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.1268
+          },
+          "output": {
+            "usd": 3.9438
+          },
+          "cache_read": {
+            "usd": 0.2817
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "glm-5.3-flash",
+      "name": "GLM-5.3-Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 128000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.11268
+          },
+          "output": {
+            "usd": 0.39438
+          },
+          "cache_read": {
+            "usd": 0.02817
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "glm-5v-turbo",
@@ -1635,6 +1759,37 @@
       ]
     },
     {
+      "id": "grok-4.6",
+      "name": "Grok 4.6",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 500000,
+      "max_output": 500000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 2
+          },
+          "output": {
+            "usd": 6
+          },
+          "cache_read": {
+            "usd": 0.5
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "grok-build-0.1",
       "name": "Grok Build 0.1",
       "category": "reasoning",
@@ -1987,6 +2142,37 @@
       ]
     },
     {
+      "id": "qwen3.7-flash",
+      "name": "Qwen3.7 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 991000,
+      "max_output": 64000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.0282
+          },
+          "output": {
+            "usd": 0.1128
+          },
+          "cache_read": {
+            "usd": 0.00564
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "qwen3.7-max",
       "name": "Qwen3.7 Max",
       "category": "reasoning",
@@ -2049,6 +2235,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "qwen3.8-2.4t-a95b",
+      "name": "Qwen3.8 2.4T A95B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262000,
+      "max_output": 262000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 2
+          },
+          "output": {
+            "usd": 6
+          },
+          "cache_read": {
+            "usd": 0.5
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "qwen3.8-max",

@@ -7,8 +7,8 @@
   "homepage": "https://docs.abliteration.ai/models",
   "pricing_page": "https://docs.abliteration.ai/models",
   "currency": "USD",
-  "updated_at": "2026-08-31T03:37:33Z",
-  "verified_at": "2026-08-31T03:37:33Z",
+  "updated_at": "2026-09-01T06:18:14Z",
+  "verified_at": "2026-09-01T06:18:14Z",
   "models": [
     {
       "id": "abliterated-model",
@@ -73,6 +73,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "abliterated-model-large-v2",
+      "name": "Abliterated Model Large V2",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 999990,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 5
+          },
+          "output": {
+            "usd": 5
+          },
+          "cache_read": {
+            "usd": 0.5
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     }
   ],
   "api_base_url": "https://api.abliteration.ai/v1"

@@ -6,8 +6,8 @@
 - Homepage: https://docs.salad.com/ai-gateway/explanation/overview
 - Pricing page: https://docs.salad.com/ai-gateway/explanation/overview
 - Currency: USD
-- Data updated: 2026-08-31T03:37:33Z
-- Verified: 2026-08-31T03:37:33Z
+- Data updated: 2026-09-01T06:18:14Z
+- Verified: 2026-09-01T06:18:14Z
 
 **1** models in total.
 

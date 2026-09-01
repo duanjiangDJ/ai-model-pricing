@@ -7,8 +7,8 @@
   "homepage": "https://deepinfra.com/models",
   "pricing_page": "https://deepinfra.com/models",
   "currency": "USD",
-  "updated_at": "2026-08-31T03:37:33Z",
-  "verified_at": "2026-08-31T03:37:33Z",
+  "updated_at": "2026-09-01T06:18:14Z",
+  "verified_at": "2026-09-01T06:18:14Z",
   "models": [
     {
       "id": "ByteDance/Seed-2.0-code",
@@ -1911,7 +1911,7 @@
             "usd": 4
           },
           "cache_read": {
-            "usd": 0.24
+            "usd": 0.12
           },
           "cache_write": null
         },

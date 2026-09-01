@@ -6,8 +6,8 @@
 - Homepage: https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models
 - Pricing page: https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models
 - Currency: USD
-- Data updated: 2026-08-31T03:37:33Z
-- Verified: 2026-08-31T03:37:33Z
+- Data updated: 2026-09-01T06:18:14Z
+- Verified: 2026-09-01T06:18:14Z
 
 **84** models in total.
 

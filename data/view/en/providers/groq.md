@@ -6,10 +6,10 @@
 - Homepage: https://console.groq.com/docs/models
 - Pricing page: https://console.groq.com/docs/models
 - Currency: USD
-- Data updated: 2026-08-31T03:37:33Z
-- Verified: 2026-08-31T03:37:33Z
+- Data updated: 2026-09-01T06:18:14Z
+- Verified: 2026-09-01T06:18:14Z
 
-**15** models in total.
+**16** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -26,5 +26,6 @@
 | `openai/gpt-oss-20b` | — | reasoning | per-token | 131.072K | $0.075 | $0.3 | $0.0375 | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-safeguard-20b` | — | reasoning | per-token | 131.072K | $0.075 | $0.3 | — | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.6-27b` | — | reasoning | per-token | 131.072K | $0.6 | $3 | $0.3 | — | —/— | — | models.dev official list price |
+| `qwen/qwen3.8-27b` | — | reasoning | per-token | 131.042K | $0.8 | $4 | — | — | —/— | — | models.dev official list price |
 | `whisper-large-v3` | — | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
 | `whisper-large-v3-turbo` | — | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |

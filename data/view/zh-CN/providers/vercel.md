@@ -6,10 +6,10 @@
 - 官网: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - 定价页: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - 币种: USD
-- 数据更新时间: 2026-08-31T03:37:33Z
-- 核实时间: 2026-08-31T03:37:33Z
+- 数据更新时间: 2026-09-01T06:18:14Z
+- 核实时间: 2026-09-01T06:18:14Z
 
-共 **366** 个模型。
+共 **368** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -44,6 +44,7 @@
 | `alibaba/qwen3.8-2.4t-a95b` | — | reasoning | 按量 | 262.144K | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
 | `alibaba/qwen3.8-27b` | — | reasoning | 按量 | 1M | $0.5 | $3 | $0.1 | — | —/— | — | models.dev official list price |
 | `alibaba/qwen3.8-flash` | — | reasoning | 按量 | 991K | $0.16 | $0.47 | $0.016 | — | —/— | — | models.dev official list price |
+| `alibaba/qwen3.8-flash-next` | — | reasoning | 按量 | 1.04858M | $0.12 | $0.4 | $0.01 | — | —/— | — | models.dev official list price |
 | `alibaba/qwen3.8-max` | — | reasoning | 按量 | 1M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
 | `alibaba/wan-v2.5-t2v-preview` | — | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
 | `alibaba/wan-v2.6-i2v` | — | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
@@ -364,6 +365,7 @@
 | `voyage/voyage-law-2` | — | chat | 按量 | 8.192K | — | — | — | — | —/— | — | models.dev official list price |
 | `xiaomi/mimo-v2.5` | — | reasoning | 按量 | 1.05M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price |
 | `xiaomi/mimo-v2.5-pro` | — | reasoning | 按量 | 1.05M | $0.435 | $0.87 | $0.0036 | — | —/— | — | models.dev official list price |
+| `xiaomi/mimo-v2.5-pro-ultraspeed` | — | reasoning | 按量 | 1.04858M | $1.305 | $2.61 | $0.0108 | — | —/— | — | models.dev official list price |
 | `zai/glm-4.5` | — | reasoning | 按量 | 128K | $0.6 | $2.2 | $0.11 | — | —/— | — | models.dev official list price |
 | `zai/glm-4.5-air` | — | reasoning | 按量 | 128K | $0.2 | $1.1 | $0.03 | — | —/— | — | models.dev official list price |
 | `zai/glm-4.5v` | — | reasoning | 按量 | 66K | $0.6 | $1.8 | $0.11 | — | —/— | — | models.dev official list price |

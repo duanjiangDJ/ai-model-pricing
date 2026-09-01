@@ -6,8 +6,8 @@
 - 官网: https://api-docs.deepseek.com/quick_start/pricing
 - 定价页: https://api-docs.deepseek.com/zh-cn/quick_start/pricing
 - 币种: USD
-- 数据更新时间: 2026-08-31T03:37:34Z
-- 核实时间: 2026-08-31T03:37:34Z
+- 数据更新时间: 2026-09-01T06:18:15Z
+- 核实时间: 2026-09-01T06:18:15Z
 
 共 **5** 个模型。
 

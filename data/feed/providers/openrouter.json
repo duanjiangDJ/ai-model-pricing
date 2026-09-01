@@ -8,8 +8,8 @@
   "pricing_page": "https://openrouter.ai/models",
   "api_base_url": "https://openrouter.ai/api/v1",
   "currency": "USD",
-  "updated_at": "2026-09-01T04:18:54Z",
-  "verified_at": "2026-09-01T04:18:54Z",
+  "updated_at": "2026-09-01T06:18:14Z",
+  "verified_at": "2026-09-01T06:18:14Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -2032,13 +2032,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.22
+            "usd": 0.44
           },
           "output": {
-            "usd": 0.66
+            "usd": 1.32
           },
           "cache_read": {
-            "usd": 0.007
+            "usd": 0.014
           },
           "cache_write": null
         },
@@ -2092,13 +2092,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.66
+            "usd": 1.1154
           },
           "output": {
-            "usd": 1.98
+            "usd": 3.3462
           },
           "cache_read": {
-            "usd": 0.022
+            "usd": 0.03718
           },
           "cache_write": null
         },
@@ -4253,14 +4253,12 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.11
+            "usd": 0.1
           },
           "output": {
-            "usd": 0.34
+            "usd": 0.3
           },
-          "cache_read": {
-            "usd": 0.055
-          },
+          "cache_read": null,
           "cache_write": null
         },
         "per_image": null,
@@ -4872,36 +4870,6 @@
       "notes": "OpenRouter reseller price"
     },
     {
-      "id": "mistralai/codestral-2508:batch",
-      "name": "Mistral: Codestral 2508 (batch)",
-      "category": "chat",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 256000,
-      "max_output": null,
-      "billing_model": [
-        "pay_per_token"
-      ],
-      "pricing": {
-        "per_mtok": {
-          "input": {
-            "usd": 0.3
-          },
-          "output": {
-            "usd": 0.9
-          },
-          "cache_read": {
-            "usd": 0.03
-          },
-          "cache_write": null
-        },
-        "per_image": null,
-        "promo": null
-      },
-      "notes": "OpenRouter reseller price"
-    },
-    {
       "id": "mistralai/devstral-2512",
       "name": "Mistral: Devstral 2 2512",
       "category": "chat",
@@ -5025,37 +4993,6 @@
       "notes": "OpenRouter reseller price"
     },
     {
-      "id": "mistralai/ministral-8b-2512:batch",
-      "name": "Mistral: Ministral 3 8B 2512 (batch)",
-      "category": "chat",
-      "modalities": [
-        "text",
-        "image_in"
-      ],
-      "context_window": 262144,
-      "max_output": null,
-      "billing_model": [
-        "pay_per_token"
-      ],
-      "pricing": {
-        "per_mtok": {
-          "input": {
-            "usd": 0.15
-          },
-          "output": {
-            "usd": 0.15
-          },
-          "cache_read": {
-            "usd": 0.015
-          },
-          "cache_write": null
-        },
-        "per_image": null,
-        "promo": null
-      },
-      "notes": "OpenRouter reseller price"
-    },
-    {
       "id": "mistralai/mistral-large",
       "name": "Mistral Large",
       "category": "chat",
@@ -5118,37 +5055,6 @@
     {
       "id": "mistralai/mistral-large-2512",
       "name": "Mistral: Mistral Large 3 2512",
-      "category": "chat",
-      "modalities": [
-        "text",
-        "image_in"
-      ],
-      "context_window": 262144,
-      "max_output": null,
-      "billing_model": [
-        "pay_per_token"
-      ],
-      "pricing": {
-        "per_mtok": {
-          "input": {
-            "usd": 0.5
-          },
-          "output": {
-            "usd": 1.5
-          },
-          "cache_read": {
-            "usd": 0.05
-          },
-          "cache_write": null
-        },
-        "per_image": null,
-        "promo": null
-      },
-      "notes": "OpenRouter reseller price"
-    },
-    {
-      "id": "mistralai/mistral-large-2512:batch",
-      "name": "Mistral: Mistral Large 3 2512 (batch)",
       "category": "chat",
       "modalities": [
         "text",
@@ -5298,37 +5204,6 @@
       "notes": "OpenRouter reseller price"
     },
     {
-      "id": "mistralai/mistral-medium-3.1:batch",
-      "name": "Mistral: Mistral Medium 3.1 (batch)",
-      "category": "chat",
-      "modalities": [
-        "text",
-        "image_in"
-      ],
-      "context_window": 131072,
-      "max_output": null,
-      "billing_model": [
-        "pay_per_token"
-      ],
-      "pricing": {
-        "per_mtok": {
-          "input": {
-            "usd": 0.4
-          },
-          "output": {
-            "usd": 2.0
-          },
-          "cache_read": {
-            "usd": 0.04
-          },
-          "cache_write": null
-        },
-        "per_image": null,
-        "promo": null
-      },
-      "notes": "OpenRouter reseller price"
-    },
-    {
       "id": "mistralai/mistral-nemo",
       "name": "Mistral: Mistral Nemo",
       "category": "chat",
@@ -5417,37 +5292,6 @@
     {
       "id": "mistralai/mistral-small-2603",
       "name": "Mistral: Mistral Small 4",
-      "category": "reasoning",
-      "modalities": [
-        "text",
-        "image_in"
-      ],
-      "context_window": 262144,
-      "max_output": null,
-      "billing_model": [
-        "pay_per_token"
-      ],
-      "pricing": {
-        "per_mtok": {
-          "input": {
-            "usd": 0.15
-          },
-          "output": {
-            "usd": 0.6
-          },
-          "cache_read": {
-            "usd": 0.015
-          },
-          "cache_write": null
-        },
-        "per_image": null,
-        "promo": null
-      },
-      "notes": "OpenRouter reseller price"
-    },
-    {
-      "id": "mistralai/mistral-small-2603:batch",
-      "name": "Mistral: Mistral Small 4 (batch)",
       "category": "reasoning",
       "modalities": [
         "text",

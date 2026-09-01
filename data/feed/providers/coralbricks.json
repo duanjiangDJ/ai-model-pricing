@@ -7,8 +7,8 @@
   "homepage": "https://www.coralbricks.ai/docs",
   "pricing_page": "https://www.coralbricks.ai/docs",
   "currency": "USD",
-  "updated_at": "2026-08-31T03:37:33Z",
-  "verified_at": "2026-08-31T03:37:33Z",
+  "updated_at": "2026-09-01T06:18:14Z",
+  "verified_at": "2026-09-01T06:18:14Z",
   "models": [
     {
       "id": "glm-5.2-fp4",
@@ -42,6 +42,37 @@
         "pay_per_token",
         "free"
       ]
+    },
+    {
+      "id": "glm-5.3-fp4",
+      "name": "GLM 5.3 FP4",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 131072,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.12
+          },
+          "output": {
+            "usd": 4.4
+          },
+          "cache_read": {
+            "usd": 0
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "gpt-oss-120b",

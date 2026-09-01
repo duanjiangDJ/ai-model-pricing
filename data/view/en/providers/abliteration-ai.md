@@ -6,12 +6,13 @@
 - Homepage: https://docs.abliteration.ai/models
 - Pricing page: https://docs.abliteration.ai/models
 - Currency: USD
-- Data updated: 2026-08-31T03:37:33Z
-- Verified: 2026-08-31T03:37:33Z
+- Data updated: 2026-09-01T06:18:14Z
+- Verified: 2026-09-01T06:18:14Z
 
-**2** models in total.
+**3** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `abliterated-model` | — | reasoning | per-token | 150K | $3 | $3 | $0.3 | — | —/— | — | models.dev official list price |
 | `abliterated-model-large` | — | reasoning | per-token | 1M | $5 | $5 | $0.5 | — | —/— | — | models.dev official list price |
+| `abliterated-model-large-v2` | — | reasoning | per-token | 1M | $5 | $5 | $0.5 | — | —/— | — | models.dev official list price |

@@ -6,8 +6,8 @@
 - Homepage: https://alipaytbox.yuque.com/sxs0ba/ling/intro
 - Pricing page: https://alipaytbox.yuque.com/sxs0ba/ling/intro
 - Currency: USD
-- Data updated: 2026-08-31T03:37:33Z
-- Verified: 2026-08-31T03:37:33Z
+- Data updated: 2026-09-01T06:18:14Z
+- Verified: 2026-09-01T06:18:14Z
 
 **2** models in total.
 
