@@ -16,6 +16,11 @@
 
 ---
 
+## 26.29.24 — 2026-09-01T12:24Z（内容更新）
+
+- 价格同步（2 处变更）：
+- **openrouter**（更新 2）：`deepseek/deepseek-v4-flash-vision-exp`, `deepseek/deepseek-v4-pro-0813`
+
 ## 26.28.24 — 2026-09-01T11:11Z（内容更新）
 
 - 机器人价格同步（95 处提供商更新）；修正 openrouter deepseek 两个型号为官网实时价格
