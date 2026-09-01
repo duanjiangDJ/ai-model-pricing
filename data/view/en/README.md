@@ -15,7 +15,7 @@
 | [HPC-AI](providers/hpc-ai.md) | Inference host | 9 | `providers/hpc-ai.json` | 2026-08-28T08:54:00Z |
 | [AI-ROUTER](providers/ai-router.md) | Aggregator | 5 | `providers/ai-router.json` | 2026-08-28T08:54:00Z |
 | [Mixlayer](providers/mixlayer.md) | Inference host | 5 | `providers/mixlayer.json` | 2026-08-28T08:54:00Z |
-| [Qiniu](providers/qiniu-ai.md) | Inference host | 91 | `providers/qiniu-ai.json` | 2026-08-28T08:54:00Z |
+| [Qiniu](providers/qiniu-ai.md) | Inference host | 91 | `providers/qiniu-ai.json` | 2026-09-01T04:57:04Z |
 | [Neuralwatt](providers/neuralwatt.md) | Inference host | 30 | `providers/neuralwatt.json` | 2026-08-30T20:47:54Z |
 | [Cloudflare Workers AI](providers/cloudflare-workers-ai.md) | Inference host | 27 | `providers/cloudflare-workers-ai.json` | 2026-08-30T20:47:54Z |
 | [Meganova](providers/meganova.md) | Inference host | 19 | `providers/meganova.json` | 2026-08-30T20:47:54Z |
