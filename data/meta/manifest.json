@@ -41,12 +41,19 @@
       "last_error": "parsed 0 models"
     },
     {
+      "name": "OpenRouter API",
+      "url": "https://openrouter.ai/api/v1/models",
+      "auto_sync": true,
+      "last_ok": "2026-09-01T09:18:24Z",
+      "last_error": null
+    },
+    {
       "name": "check:alibaba",
       "url": "scripts/checks/alibaba.py",
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -55,7 +62,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -64,7 +71,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -73,7 +80,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -82,7 +89,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -91,7 +98,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -100,7 +107,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -109,7 +116,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -118,7 +125,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -127,7 +134,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -136,7 +143,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -145,7 +152,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -154,7 +161,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -163,7 +170,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -172,7 +179,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -181,7 +188,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -190,7 +197,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -199,7 +206,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -208,7 +215,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -217,7 +224,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -226,7 +233,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -235,7 +242,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -244,7 +251,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -253,7 +260,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -262,7 +269,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -271,7 +278,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     },
     {
@@ -280,17 +287,10 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-08-31T21:17:22Z",
-      "last_error": null
-    },
-    {
-      "name": "OpenRouter API",
-      "url": "https://openrouter.ai/api/v1/models",
-      "auto_sync": true,
-      "last_ok": "2026-09-01T04:18:54Z",
+      "last_ok": "2026-09-01T09:18:25Z",
       "last_error": null
     }
   ],
   "coverage": {},
-  "last_daily_check": "2026-09-01T04:18:54Z"
+  "last_daily_check": "2026-09-01T09:18:24Z"
 }

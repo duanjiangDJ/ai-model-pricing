@@ -6,10 +6,10 @@
 - Homepage: https://docs.nano-gpt.com
 - Pricing page: https://docs.nano-gpt.com
 - Currency: USD
-- Data updated: 2026-08-31T03:37:33Z
-- Verified: 2026-08-31T03:37:33Z
+- Data updated: 2026-09-01T09:18:24Z
+- Verified: 2026-09-01T09:18:24Z
 
-**684** models in total.
+**687** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -73,6 +73,7 @@
 | `TEE/glm-5.1-thinking` | — | reasoning | per-token | 202.752K | $1.5 | $5.25 | $0.3 | — | —/— | — | models.dev official list price |
 | `TEE/glm-5.2` | — | reasoning | per-token | 1.04858M | $1.4 | $4.6 | $0.5 | — | —/— | — | models.dev official list price |
 | `TEE/glm-5.2:thinking` | — | reasoning | per-token | 1.04858M | $1.4 | $4.6 | $0.5 | — | —/— | — | models.dev official list price |
+| `TEE/glm-5.3` | — | reasoning | per-token | 1.04858M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `TEE/glm-5.3-flash` | — | reasoning | per-token | 1.04858M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `TEE/gpt-oss-120b` | — | chat | per-token | 131.072K | $2 | $2 | $2 | — | —/— | — | models.dev official list price |
 | `TEE/gpt-oss-20b` | — | chat | per-token | 131.072K | $0.2 | $0.8 | $0.1 | — | —/— | — | models.dev official list price |
@@ -109,6 +110,7 @@
 | `abliterated-model-large` | — | reasoning | per-token | 1M | $5 | $5 | $0.5 | — | —/— | — | models.dev official list price |
 | `abliteration-ai/abliterated-model` | — | reasoning | per-token | 262.144K | $3 | $3 | $0.3 | — | —/— | — | models.dev official list price |
 | `abliteration-ai/abliterated-model-large` | — | reasoning | per-token | 1M | $5 | $5 | $0.5 | — | —/— | — | models.dev official list price |
+| `abliteration-ai/abliterated-model-large-v2` | — | reasoning | per-token | 1M | $5 | $5 | $0.5 | — | —/— | — | models.dev official list price |
 | `aion-labs/aion-2.0` | — | chat | per-token | 131.072K | $0.8 | $1.6 | $0.2 | — | —/— | — | models.dev official list price |
 | `aion-labs/aion-3.0` | — | reasoning | per-token | 131.072K | $3 | $6 | $0.75 | — | —/— | — | models.dev official list price |
 | `aion-labs/aion-3.0-mini` | — | reasoning | per-token | 131.072K | $0.7 | $1.4 | $0.18 | — | —/— | — | models.dev official list price |
@@ -268,7 +270,7 @@
 | `gemini-2.5-pro-preview-06-05` | — | reasoning | per-token | 1.04876M | $2.5 | $10 | $0.25 | — | —/— | — | models.dev official list price |
 | `gemini-3-pro-image-preview` | — | chat | per-token | 1.04876M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `gemini-exp-1206` | — | chat | per-token | 2.09715M | $1.258 | $4.998 | $0.629 | — | —/— | — | models.dev official list price |
-| `gemma-4-12b-it` | — | chat | per-token | 262.144K | $0.06 | $0.3 | $0.03 | — | —/— | — | models.dev official list price |
+| `gemma-4-12b-it` | — | chat | per-token | 262.144K | $0.05 | $0.25 | $0.025 | — | —/— | — | models.dev official list price |
 | `gemma-4-26b-a4b-it-chimerax` | — | reasoning | per-token | 262.144K | $0.12 | $0.38 | $0.06 | — | —/— | — | models.dev official list price |
 | `gemma-4-26b-a4b-it-darksoul` | — | reasoning | per-token | 262.144K | $0.12 | $0.38 | $0.06 | — | —/— | — | models.dev official list price |
 | `gemma-4-26b-a4b-it-luminous` | — | chat | per-token | 262.144K | $0.12 | $0.38 | $0.06 | — | —/— | — | models.dev official list price |
@@ -346,6 +348,7 @@
 | `huihui-ai/Qwen2.5-32B-Instruct-abliterated` | — | chat | per-token | 32.768K | $0.7 | $0.7 | $0.35 | — | —/— | — | models.dev official list price |
 | `hunyuan-turbos-20250226` | — | chat | per-token | 24K | $0.187 | $0.374 | $0.0935 | — | —/— | — | models.dev official list price |
 | `ibm-granite/granite-4.1-8b` | — | chat | per-token | 131.072K | $0.05 | $0.1 | $0.05 | — | —/— | — | models.dev official list price |
+| `ibm-granite/granite-4.2-8b` | — | reasoning | per-token | 131.072K | $0.1 | $0.15 | $0.05 | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-2.6-1t` | — | chat | per-token | 262.144K | $0.3 | $2.5 | $0.06 | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-2.6-flash` | — | chat | per-token | 262.144K | $0.1 | $0.3 | $0.02 | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-3.0-flash` | — | chat | per-token | 262.144K | $0.075 | $0.22 | $0.015 | — | —/— | — | models.dev official list price |
@@ -667,7 +670,7 @@
 | `z-ai/glm-5:thinking` | — | reasoning | per-token | 200K | $0.5 | $2.55 | $0.13 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5v-turbo` | — | chat | per-token | 202.8K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5v-turbo:thinking` | — | reasoning | per-token | 202.8K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |
-| `z-ai/glm-latest` | — | reasoning | per-token | 1.04858M | $0.42 | $1.32 | $0.078 | — | —/— | — | models.dev official list price |
+| `z-ai/glm-latest` | — | reasoning | per-token | 1.04858M | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-4.5-Air` | — | chat | per-token | 128K | $0.12 | $0.8 | $0.06 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-4.5-Air:thinking` | — | reasoning | per-token | 128K | $0.12 | $0.8 | $0.06 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-4.5:thinking` | — | reasoning | per-token | 128K | $0.3 | $1.3 | $0.15 | — | —/— | — | models.dev official list price |

@@ -7,8 +7,8 @@
   "homepage": "https://requesty.ai/solution/llm-routing/models",
   "pricing_page": "https://requesty.ai/solution/llm-routing/models",
   "currency": "USD",
-  "updated_at": "2026-08-31T03:37:33Z",
-  "verified_at": "2026-08-31T03:37:33Z",
+  "updated_at": "2026-09-01T09:18:24Z",
+  "verified_at": "2026-09-01T09:18:24Z",
   "models": [
     {
       "id": "claude-fable-5",
@@ -758,13 +758,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.14
+            "usd": 0.076
           },
           "output": {
-            "usd": 0.28
+            "usd": 0.153
           },
           "cache_read": {
-            "usd": 0.07
+            "usd": 0.014
           },
           "cache_write": null
         },
@@ -1554,13 +1554,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.2
+            "usd": 0.8
           },
           "output": {
-            "usd": 4.2
+            "usd": 2.55
           },
           "cache_read": {
-            "usd": 0.26
+            "usd": 0.16
           },
           "cache_write": null
         },
@@ -1650,10 +1650,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.4
+            "usd": 1.2
           },
           "output": {
-            "usd": 4.4
+            "usd": 4.2
           },
           "cache_read": {
             "usd": 0.26
@@ -1685,13 +1685,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.15
+            "usd": 0.075
           },
           "output": {
-            "usd": 0.5
+            "usd": 0.25
           },
           "cache_read": {
-            "usd": 0.03
+            "usd": 0.015
           },
           "cache_write": null
         },
@@ -1747,13 +1747,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.75
+            "usd": 1.2
           },
           "output": {
-            "usd": 4.5
+            "usd": 4.2
           },
           "cache_read": {
-            "usd": 0.44
+            "usd": 0.26
           },
           "cache_write": null
         },

@@ -6,8 +6,8 @@
 - 官网: https://ai.google.dev/gemini-api/docs/models
 - 定价页: https://ai.google.dev/gemini-api/docs/pricing
 - 币种: USD
-- 数据更新时间: 2026-08-31T03:37:33Z
-- 核实时间: 2026-08-31T03:37:33Z
+- 数据更新时间: 2026-09-01T09:18:24Z
+- 核实时间: 2026-09-01T09:18:24Z
 
 共 **40** 个模型。
 

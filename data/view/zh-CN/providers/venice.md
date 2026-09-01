@@ -6,8 +6,8 @@
 - 官网: https://docs.venice.ai
 - 定价页: https://docs.venice.ai
 - 币种: USD
-- 数据更新时间: 2026-08-31T03:37:33Z
-- 核实时间: 2026-08-31T03:37:33Z
+- 数据更新时间: 2026-09-01T09:18:24Z
+- 核实时间: 2026-09-01T09:18:24Z
 
 共 **101** 个模型。
 
@@ -25,7 +25,7 @@
 | `claude-opus-5-fast` | — | reasoning | 按量 | 1M | $12 | $60 | $1.2 | — | —/— | — | models.dev official list price |
 | `claude-sonnet-4-5` | — | reasoning | 按量 | 198K | $3.75 | $18.75 | $0.375 | — | —/— | — | models.dev official list price |
 | `claude-sonnet-4-6` | — | reasoning | 按量 | 1M | $3.6 | $18 | $0.36 | — | —/— | — | models.dev official list price |
-| `claude-sonnet-5` | — | reasoning | 按量 | 1M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
+| `claude-sonnet-5` | — | reasoning | 按量 | 1M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `deepseek-v3.2` | — | reasoning | 按量 | 160K | $0.33 | $0.48 | $0.16 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-flash` | — | reasoning | 按量 | 1M | $0.138 | $0.275 | $0.028 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-flash-0731` | — | reasoning | 按量 | 1M | $0.175 | $0.35 | $0.035 | — | —/— | — | models.dev official list price |

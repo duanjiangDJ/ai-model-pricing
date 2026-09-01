@@ -6,8 +6,8 @@
 - Homepage: https://www.ibm.com/docs/en/watsonx/saas?topic=solutions-supported-foundation-models
 - Pricing page: https://www.ibm.com/docs/en/watsonx/saas?topic=solutions-supported-foundation-models
 - Currency: USD
-- Data updated: 2026-08-31T03:37:33Z
-- Verified: 2026-08-31T03:37:33Z
+- Data updated: 2026-09-01T09:18:24Z
+- Verified: 2026-09-01T09:18:24Z
 
 **5** models in total.
 

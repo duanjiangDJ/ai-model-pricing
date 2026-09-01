@@ -7,8 +7,8 @@
   "homepage": "https://docs.merge.dev/merge-gateway",
   "pricing_page": "https://docs.merge.dev/merge-gateway",
   "currency": "USD",
-  "updated_at": "2026-08-31T03:37:33Z",
-  "verified_at": "2026-08-31T03:37:33Z",
+  "updated_at": "2026-09-01T09:18:24Z",
+  "verified_at": "2026-09-01T09:18:24Z",
   "models": [
     {
       "id": "anthropic/claude-3-7-sonnet-20250219",
@@ -438,10 +438,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2
+            "usd": 3
           },
           "output": {
-            "usd": 10
+            "usd": 15
           },
           "cache_read": {
             "usd": 0.2
@@ -913,6 +913,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-0731-fast",
+      "name": "DeepSeek V4 Flash 0731",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 384000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.28
+          },
+          "output": {
+            "usd": 0.56
+          },
+          "cache_read": {
+            "usd": 0.07
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "deepseek/deepseek-v4-pro",
@@ -2585,10 +2616,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 3
+            "usd": 2.9
           },
           "output": {
-            "usd": 15
+            "usd": 14
           },
           "cache_read": {
             "usd": 0.3
@@ -5077,13 +5108,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.5
+            "usd": 2
           },
           "output": {
-            "usd": 4.5
+            "usd": 6
           },
           "cache_read": {
-            "usd": 0.375
+            "usd": 0.5
           },
           "cache_write": null
         },

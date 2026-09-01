@@ -6,8 +6,8 @@
 - 官网: https://experiments.hetzner.com/docs/inference
 - 定价页: https://experiments.hetzner.com/docs/inference
 - 币种: USD
-- 数据更新时间: 2026-08-31T03:37:33Z
-- 核实时间: 2026-08-31T03:37:33Z
+- 数据更新时间: 2026-09-01T09:18:24Z
+- 核实时间: 2026-09-01T09:18:24Z
 
 共 **2** 个模型。
 

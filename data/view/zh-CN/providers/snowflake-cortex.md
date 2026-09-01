@@ -6,8 +6,8 @@
 - 官网: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-rest-api
 - 定价页: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-rest-api
 - 币种: USD
-- 数据更新时间: 2026-08-31T03:37:33Z
-- 核实时间: 2026-08-31T03:37:33Z
+- 数据更新时间: 2026-09-01T09:18:24Z
+- 核实时间: 2026-09-01T09:18:24Z
 
 共 **25** 个模型。
 
