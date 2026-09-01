@@ -8,8 +8,8 @@
   "pricing_page": "https://openrouter.ai/models",
   "api_base_url": "https://openrouter.ai/api/v1",
   "currency": "USD",
-  "updated_at": "2026-09-01T12:18:35Z",
-  "verified_at": "2026-09-01T12:18:35Z",
+  "updated_at": "2026-09-01T15:18:42Z",
+  "verified_at": "2026-09-01T15:18:42Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -734,39 +734,6 @@
       "notes": "OpenRouter reseller price"
     },
     {
-      "id": "anthropic/claude-opus-4.7-fast",
-      "name": "Anthropic: Claude Opus 4.7 (Fast)",
-      "category": "reasoning",
-      "modalities": [
-        "text",
-        "image_in"
-      ],
-      "context_window": 1000000,
-      "max_output": null,
-      "billing_model": [
-        "pay_per_token"
-      ],
-      "pricing": {
-        "per_mtok": {
-          "input": {
-            "usd": 30.0
-          },
-          "output": {
-            "usd": 150.0
-          },
-          "cache_read": {
-            "usd": 3.0
-          },
-          "cache_write": {
-            "usd": 37.5
-          }
-        },
-        "per_image": null,
-        "promo": null
-      },
-      "notes": "OpenRouter reseller price"
-    },
-    {
       "id": "anthropic/claude-opus-4.7:batch",
       "name": "Anthropic: Claude Opus 4.7 (batch)",
       "category": "reasoning",
@@ -833,39 +800,6 @@
       "notes": "OpenRouter reseller price"
     },
     {
-      "id": "anthropic/claude-opus-4.8-fast",
-      "name": "Anthropic: Claude Opus 4.8 (Fast)",
-      "category": "reasoning",
-      "modalities": [
-        "text",
-        "image_in"
-      ],
-      "context_window": 1000000,
-      "max_output": null,
-      "billing_model": [
-        "pay_per_token"
-      ],
-      "pricing": {
-        "per_mtok": {
-          "input": {
-            "usd": 10.0
-          },
-          "output": {
-            "usd": 50.0
-          },
-          "cache_read": {
-            "usd": 1.0
-          },
-          "cache_write": {
-            "usd": 12.5
-          }
-        },
-        "per_image": null,
-        "promo": null
-      },
-      "notes": "OpenRouter reseller price"
-    },
-    {
       "id": "anthropic/claude-opus-4.8:batch",
       "name": "Anthropic: Claude Opus 4.8 (batch)",
       "category": "reasoning",
@@ -924,39 +858,6 @@
           },
           "cache_write": {
             "usd": 6.25
-          }
-        },
-        "per_image": null,
-        "promo": null
-      },
-      "notes": "OpenRouter reseller price"
-    },
-    {
-      "id": "anthropic/claude-opus-5-fast",
-      "name": "Claude Opus 5 (Fast)",
-      "category": "reasoning",
-      "modalities": [
-        "text",
-        "image_in"
-      ],
-      "context_window": 1000000,
-      "max_output": null,
-      "billing_model": [
-        "pay_per_token"
-      ],
-      "pricing": {
-        "per_mtok": {
-          "input": {
-            "usd": 10.0
-          },
-          "output": {
-            "usd": 50.0
-          },
-          "cache_read": {
-            "usd": 1.0
-          },
-          "cache_write": {
-            "usd": 12.5
           }
         },
         "per_image": null,
@@ -1941,13 +1842,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.08092
+            "usd": 0.0763
           },
           "output": {
-            "usd": 0.16184
+            "usd": 0.1526
           },
           "cache_read": {
-            "usd": 0.016184
+            "usd": 0.01526
           },
           "cache_write": null
         },
@@ -3852,6 +3753,36 @@
           },
           "cache_read": {
             "usd": 0.025
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "inception/mercury-2.5-preview",
+      "name": "Inception: Mercury 2.5 Preview",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 260000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.04
+          },
+          "output": {
+            "usd": 0.15
+          },
+          "cache_read": {
+            "usd": 0.004
           },
           "cache_write": null
         },
@@ -12751,13 +12682,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.05
+            "usd": 0.04998
           },
           "output": {
-            "usd": 0.16
+            "usd": 0.09996
           },
           "cache_read": {
-            "usd": 0.013
+            "usd": 0.009996
           },
           "cache_write": null
         },

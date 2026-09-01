@@ -16,6 +16,13 @@
 
 ---
 
+## 26.30.25 — 2026-09-01T15:23Z（内容更新）
+
+- 价格同步（6 处变更）：
+- **openrouter**（新增 1）：`inception/mercury-2.5-preview`
+- **openrouter**（下架 3）：`anthropic/claude-opus-4.7-fast`, `anthropic/claude-opus-4.8-fast`, `anthropic/claude-opus-5-fast`
+- **openrouter**（更新 2）：`deepseek/deepseek-v4-flash`, `~deepseek/deepseek-v4-flash-latest`
+
 ## 26.29.25 — 2026-09-01T13:26Z（功能更新）
 
 - feat(audit)：新增检查——billing_model 标记 free 但 per_mtok 有正价格（free 模型污染类）

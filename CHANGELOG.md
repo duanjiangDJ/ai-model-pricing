@@ -16,6 +16,13 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.30.25 — 2026-09-01T15:23Z (content update)
+
+- price sync (6 changes):
+- **openrouter** (+1): `inception/mercury-2.5-preview`
+- **openrouter** (-3): `anthropic/claude-opus-4.7-fast`, `anthropic/claude-opus-4.8-fast`, `anthropic/claude-opus-5-fast`
+- **openrouter** (updated 2): `deepseek/deepseek-v4-flash`, `~deepseek/deepseek-v4-flash-latest`
+
 ## 26.29.25 — 2026-09-01T13:26Z (feature update)
 
 - feat(audit): catch free-flag on positive per_mtok (free-model contamination check)

@@ -1,6 +1,128 @@
 {
-  "schema_version": "26.29.25",
+  "schema_version": "26.30.25",
   "entries": [
+    {
+      "date": "2026-09-01T15:18:42Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "inception/mercury-2.5-preview",
+      "field": "catalog",
+      "new": "inception/mercury-2.5-preview",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-01T15:18:42Z",
+      "kind": "remove",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "anthropic/claude-opus-4.7-fast",
+      "field": "catalog",
+      "old": "anthropic/claude-opus-4.7-fast",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-01T15:18:42Z",
+      "kind": "remove",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "anthropic/claude-opus-4.8-fast",
+      "field": "catalog",
+      "old": "anthropic/claude-opus-4.8-fast",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-01T15:18:42Z",
+      "kind": "remove",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "anthropic/claude-opus-5-fast",
+      "field": "catalog",
+      "old": "anthropic/claude-opus-5-fast",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-01T15:18:42Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-flash",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08092
+          },
+          "output": {
+            "usd": 0.16184
+          },
+          "cache_read": {
+            "usd": 0.016184
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.0763
+          },
+          "output": {
+            "usd": 0.1526
+          },
+          "cache_read": {
+            "usd": 0.01526
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-01T15:18:42Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~deepseek/deepseek-v4-flash-latest",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.05
+          },
+          "output": {
+            "usd": 0.16
+          },
+          "cache_read": {
+            "usd": 0.013
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.04998
+          },
+          "output": {
+            "usd": 0.09996
+          },
+          "cache_read": {
+            "usd": 0.009996
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-01T12:18:35Z",
       "kind": "update",
