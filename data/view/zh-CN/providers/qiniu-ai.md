@@ -6,7 +6,7 @@
 - 官网: https://developer.qiniu.com/aitokenapi
 - 定价页: https://developer.qiniu.com/aitokenapi
 - 币种: USD
-- 数据更新时间: 2026-08-28T08:54:00Z
+- 数据更新时间: 2026-09-01T04:57:04Z
 - 核实时间: 2026-08-21T11:27:12Z
 
 共 **91** 个模型。
@@ -97,7 +97,7 @@
 | `x-ai/grok-4-fast-reasoning` | — | reasoning | 未知 | 2M | — | — | — | — | —/— | — | models.dev official list price |
 | `x-ai/grok-4.1-fast` | — | reasoning | 未知 | 2M | — | — | — | — | —/— | — | models.dev official list price |
 | `x-ai/grok-4.1-fast-non-reasoning` | — | chat | 未知 | 2M | — | — | — | — | —/— | — | models.dev official list price |
-| `x-ai/grok-4.1-fast-reasoning` | — | reasoning | 未知 | 20M | — | — | — | — | —/— | — | models.dev official list price |
+| `x-ai/grok-4.1-fast-reasoning` | — | reasoning | 未知 | 2M | — | — | — | — | —/— | — | models.dev official list price |
 | `x-ai/grok-code-fast-1` | — | reasoning | 未知 | 256K | — | — | — | — | —/— | — | models.dev official list price |
 | `xiaomi/mimo-v2-flash` | — | reasoning | 按量 | 256K | $0.1 | $0.3 | $0.01 | — | —/— | — | models.dev official list price |
 | `z-ai/autoglm-phone-9b` | — | chat | 未知 | 12.8K | — | — | — | — | —/— | — | models.dev official list price |

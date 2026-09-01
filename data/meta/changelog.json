@@ -2,6 +2,17 @@
   "schema_version": "26.24.24",
   "entries": [
     {
+      "date": "2026-09-01T04:57:04Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "qiniu-ai",
+      "item_id": "x-ai/grok-4.1-fast-reasoning",
+      "field": "context_window",
+      "old": 20000000,
+      "new": 2000000,
+      "source": "https://x.ai/news/grok-4-1-fast"
+    },
+    {
       "date": "2026-09-01T04:18:54Z",
       "kind": "update",
       "scope": "provider",
