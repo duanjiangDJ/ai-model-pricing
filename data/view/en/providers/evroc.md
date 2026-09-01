@@ -6,7 +6,7 @@
 - Homepage: https://docs.evroc.com/products/think/overview.html
 - Pricing page: https://docs.evroc.com/products/think/overview.html
 - Currency: USD
-- Data updated: 2026-09-01T09:18:24Z
+- Data updated: 2026-09-01T17:00:31Z
 - Verified: 2026-09-01T09:18:24Z
 
 **17** models in total.
@@ -15,7 +15,7 @@
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `KBLab/kb-whisper-large` | — | chat | per-token | 448 | $0.0023 | $0.0023 | — | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3-Embedding-8B` | — | embedding | per-token | 40.96K | $0.115 | $0.115 | — | — | —/— | — | models.dev official list price |
-| `Qwen/Qwen3-Reranker-4B` | — | rerank | per-token + free | 32K | $0.0575 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `Qwen/Qwen3-Reranker-4B` | — | rerank | per-token | 32K | $0.0575 | $0 | — | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3.6-35B-A3B` | — | reasoning | per-token | 262.144K | $0.345 | $1.38 | — | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3.6-35B-A3B-FP8` | — | reasoning | per-token | 262.144K | $0.345 | $1.38 | — | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3.8-27B` | — | reasoning | per-token | 262.144K | $0.87 | $3.5 | — | — | —/— | — | models.dev official list price |

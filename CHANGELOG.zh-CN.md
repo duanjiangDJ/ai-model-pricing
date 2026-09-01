@@ -16,6 +16,10 @@
 
 ---
 
+## 26.31.26 — 2026-09-01T17:01Z（功能更新）
+
+- fix(billing): 停止把付费模型标注为 free——修复 annotate_billing 损坏的 import 与多余 'free' 追加；清理 55 个被污染模型；audit 检查排除合法的 free-tier+paid 组合
+
 ## 26.31.25 — 2026-09-01T16:33Z（内容更新）
 
 - 自动为所有有官方定价页的供应商生成tier1采集脚本（新增162个check，js_fetch官方页+可抓则采集+bot-protected则记录+预留parser钩子）

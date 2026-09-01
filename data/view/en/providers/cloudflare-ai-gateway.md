@@ -6,7 +6,7 @@
 - Homepage: https://developers.cloudflare.com/ai-gateway/
 - Pricing page: https://developers.cloudflare.com/ai-gateway/
 - Currency: USD
-- Data updated: 2026-09-01T09:18:24Z
+- Data updated: 2026-09-01T17:00:31Z
 - Verified: 2026-09-01T09:18:24Z
 
 **79** models in total.
@@ -30,7 +30,7 @@
 | `anthropic/claude-sonnet-5` | — | reasoning | per-token | 1M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | per-token | 131.072K | $1.74 | $3.48 | $0.145 | — | —/— | — | models.dev official list price |
 | `moonshotai/kimi-k3` | — | reasoning | per-token | 1.04858M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
-| `openai/gpt-3.5-turbo` | — | chat | per-token + free | 16.385K | $0.5 | $1.5 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `openai/gpt-3.5-turbo` | — | chat | per-token | 16.385K | $0.5 | $1.5 | $0 | — | —/— | — | models.dev official list price |
 | `openai/gpt-4` | — | chat | per-token | 8.192K | $30 | $60 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-4-turbo` | — | chat | per-token | 128K | $10 | $30 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-4.1` | — | chat | per-token | 1.04758M | $2 | $8 | $0.5 | — | —/— | — | models.dev official list price |

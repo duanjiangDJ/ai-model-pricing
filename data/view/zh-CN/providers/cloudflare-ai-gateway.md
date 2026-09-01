@@ -6,7 +6,7 @@
 - 官网: https://developers.cloudflare.com/ai-gateway/
 - 定价页: https://developers.cloudflare.com/ai-gateway/
 - 币种: USD
-- 数据更新时间: 2026-09-01T09:18:24Z
+- 数据更新时间: 2026-09-01T17:00:31Z
 - 核实时间: 2026-09-01T09:18:24Z
 
 共 **79** 个模型。
@@ -30,7 +30,7 @@
 | `anthropic/claude-sonnet-5` | — | reasoning | 按量 | 1M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | 按量 | 131.072K | $1.74 | $3.48 | $0.145 | — | —/— | — | models.dev official list price |
 | `moonshotai/kimi-k3` | — | reasoning | 按量 | 1.04858M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
-| `openai/gpt-3.5-turbo` | — | chat | 按量 + 免费 | 16.385K | $0.5 | $1.5 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `openai/gpt-3.5-turbo` | — | chat | 按量 | 16.385K | $0.5 | $1.5 | $0 | — | —/— | — | models.dev official list price |
 | `openai/gpt-4` | — | chat | 按量 | 8.192K | $30 | $60 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-4-turbo` | — | chat | 按量 | 128K | $10 | $30 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-4.1` | — | chat | 按量 | 1.04758M | $2 | $8 | $0.5 | — | —/— | — | models.dev official list price |

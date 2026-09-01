@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.31.26 — 2026-09-01T17:01Z (feature update)
+
+- fix(billing): stop flagging paid models as free — repair annotate_billing broken import + spurious 'free' append; clean 55 contaminated models; audit check now excludes legit free-tier+paid combo
+
 ## 26.31.25 — 2026-09-01T16:33Z (content update)
 
 - feat(checks): auto-generate tier1 collection scripts for all providers with official pricing pages

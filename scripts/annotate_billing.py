@@ -1,8 +1,8 @@
 """Annotate every model with a machine-readable `billing_model` (array).
 
 Rules (order matters, first match wins for the primary billing method):
-  1. per_mtok has any value > 0      -> pay_per_token (plus "free" if any price is 0:
-                                        free tier + paid tier, e.g. Gemini)
+  1. per_mtok has any value > 0      -> pay_per_token (a positive price means the model is
+                                        billed per-token; never also flag it "free")
   2. per_mtok all 0 (not null)       -> free
   3. per_image has values            -> pay_per_image
   4. notes mention subscription/coding plan -> subscription_included
@@ -21,7 +21,7 @@ from datetime import datetime, timezone
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROVIDERS = os.path.join(ROOT, "data", "feed", "providers")
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
-from toolbox import append_changelog, now_iso  # noqa: E402
+from toolbox import append_changelog, now_iso, any_price_positive, price_all_zero  # noqa: E402
 
 SUB_HINTS = ("included in a subscription", "coding plan", "token plan", "subscription/coding")
 
@@ -31,10 +31,7 @@ def classify(m):
     pm = p.get("per_mtok") or {}
     note = (m.get("notes") or "").lower()
     if any_price_positive(pm):
-        billing = ["pay_per_token"]
-        if has_zero_price(pm):
-            billing.append("free")
-        return billing
+        return ["pay_per_token"]
     if price_all_zero(pm):
         return ["free"]
     if p.get("per_image"):

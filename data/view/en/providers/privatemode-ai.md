@@ -6,7 +6,7 @@
 - Homepage: https://docs.privatemode.ai/api/overview
 - Pricing page: https://docs.privatemode.ai/api/overview
 - Currency: USD
-- Data updated: 2026-09-01T09:18:24Z
+- Data updated: 2026-09-01T17:00:31Z
 - Verified: 2026-09-01T09:18:24Z
 
 **7** models in total.
@@ -17,6 +17,6 @@
 | `gpt-oss-120b` | — | reasoning | per-token | 128K | $0.4969 | $1.9644 | $0.0462 | — | —/— | — | models.dev official list price |
 | `kimi-k2.6` | — | reasoning | per-token | 256K | $1.791 | $8.9436 | $0.1733 | — | —/— | — | models.dev official list price |
 | `kimi-latest` | — | reasoning | per-token | 256K | $1.791 | $8.9436 | $0.1733 | — | —/— | — | models.dev official list price |
-| `qwen3-embedding-4b` | — | embedding | per-token + free | 32K | $0.1502 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `voxtral-mini-3b` | — | chat | per-token + free | 32K | $0.00462 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `whisper-large-v3` | — | chat | per-token + free | 448 | $0.01618 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `qwen3-embedding-4b` | — | embedding | per-token | 32K | $0.1502 | $0 | — | — | —/— | — | models.dev official list price |
+| `voxtral-mini-3b` | — | chat | per-token | 32K | $0.00462 | $0 | — | — | —/— | — | models.dev official list price |
+| `whisper-large-v3` | — | chat | per-token | 448 | $0.01618 | $0 | — | — | —/— | — | models.dev official list price |

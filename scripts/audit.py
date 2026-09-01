@@ -159,7 +159,10 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
         # catches the "free-model contamination" class (legacy models.dev writer marked
         # any-zero-price models as free, e.g. embedding output=0) so a paid price can
         # never silently sit under a free flag.
-        if "free" in bm and has_val:
+        # Only flag a model that claims 'free' WITHOUT also claiming pay_per_token yet
+        # carries a paid price (true mislabel). The legitimate multi-method combo
+        # ['free','pay_per_token'] (free tier + paid, e.g. Gemini) is NOT contamination.
+        if "free" in bm and "pay_per_token" not in bm and has_val:
             free_contamination.append(f"{p['provider_id']} :: {m['id']}")
         if bm == ["unknown"] and (m.get("notes") or ""):
             unknown_models.append(f"{p['provider_id']} :: {m['id']}")
