@@ -16,6 +16,11 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.29.24 — 2026-09-01T12:24Z (content update)
+
+- price sync (2 changes):
+- **openrouter** (updated 2): `deepseek/deepseek-v4-flash-vision-exp`, `deepseek/deepseek-v4-pro-0813`
+
 ## 26.28.24 — 2026-09-01T11:11Z (content update)
 
 - bot price sync (95 provider updates: 4521+/1711- data/view); fix openrouter deepseek v4-pro-0813/v4-flash-vision-exp to live API

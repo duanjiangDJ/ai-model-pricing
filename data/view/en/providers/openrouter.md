@@ -6,8 +6,8 @@
 - Homepage: https://openrouter.ai
 - Pricing page: https://openrouter.ai/models
 - Currency: USD
-- Data updated: 2026-09-01T09:18:24Z
-- Verified: 2026-09-01T09:18:24Z
+- Data updated: 2026-09-01T12:18:35Z
+- Verified: 2026-09-01T12:18:35Z
 
 **420** models in total.
 
