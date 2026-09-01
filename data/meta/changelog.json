@@ -2,6 +2,44 @@
   "schema_version": "26.27.24",
   "entries": [
     {
+      "date": "2026-09-01T11:10:00+00:00",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-pro-0813,deepseek/deepseek-v4-flash-vision-exp",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          1.1154,
+          0.44
+        ],
+        "output.usd": [
+          3.3462,
+          1.32
+        ],
+        "cache_read.usd": [
+          0.03718,
+          0.014
+        ]
+      },
+      "new": {
+        "input.usd": [
+          0.66,
+          0.22
+        ],
+        "output.usd": [
+          1.98,
+          0.66
+        ],
+        "cache_read.usd": [
+          0.022,
+          0.007
+        ]
+      },
+      "source": "https://openrouter.ai/api/v1/models",
+      "notes": "Corrected openrouter channel to match live OpenRouter API; the bot sync had ingested first-party (peak) values"
+    },
+    {
       "date": "2026-09-01T10:11:15.903336+00:00",
       "kind": "update",
       "scope": "model",
