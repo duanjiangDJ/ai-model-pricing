@@ -134,6 +134,26 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
                         f"(expected $/1M in [1e-3,1e5]; likely per-token stored as per-M)"
                     )
         # billing_model consistency (required since schema 26.6.x)
+        # per_image magnitude sanity: per_image[] prices are USD per SINGLE image
+        # (image-gen models), realistically >= ~1e-3 (e.g. $0.004/image). A non-zero
+        # value in (0, 1e-4) is almost certainly a per-token image-context price misfiled
+        # as per-image — OpenRouter's per-token `image` value (~1e-7) stored as a per-image
+        # price. Catch the unit-bug class so it can never silently re-enter (audit only
+        # covered per_mtok magnitude for the analogous bug).
+        _per_img = (m.get("pricing") or {}).get("per_image")
+        if isinstance(_per_img, list):
+            for _pt in _per_img:
+                _ppr = _pt.get("price") if isinstance(_pt, dict) else None
+                if isinstance(_ppr, dict):
+                    for _cur2, _val2 in _ppr.items():
+                        if _val2 is None:
+                            continue
+                        _f2 = float(_val2)
+                        if _f2 != 0 and abs(_f2) < 1e-4:
+                            fail(
+                                f"suspicious per_image {_cur2}={_val2} in {p['provider_id']} :: {m['id']} "
+                                f"(expected $/image >= 1e-4; likely per-token value stored as per-image)"
+                            )
         bm = m.get("billing_model")
         if not bm:
             fail(f"missing billing_model: {p['provider_id']} :: {m['id']}")

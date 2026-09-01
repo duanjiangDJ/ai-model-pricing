@@ -6,8 +6,8 @@
 - Homepage: https://openrouter.ai
 - Pricing page: https://openrouter.ai/models
 - Currency: USD
-- Data updated: 2026-09-01T21:18:59Z
-- Verified: 2026-09-01T21:18:59Z
+- Data updated: 2026-09-01T23:38:32Z
+- Verified: 2026-09-01T23:38:32Z
 
 **419** models in total.
 
@@ -81,36 +81,36 @@
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | per-token | 1.04858M | $0.66 | $1.98 | $0.022 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813:batch` | — | reasoning | per-token | 1.04858M | $1.32 | $3.96 | $0.13 | — | —/— | — | OpenRouter reseller price |
 | `dots-studio/dots-3-note-preview:free` | — | reasoning | free | 512K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
-| `google/gemini-2.5-flash` | — | reasoning | per-image + per-token | 1.04858M | $0.3 | $2.5 | $0.03 | $0.0833333 | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-2.5-flash-image` | — | chat | per-image + per-token | 32.768K | $0.3 | $2.5 | $0.03 | $0.0833333 | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-2.5-flash-lite` | — | reasoning | per-image + per-token | 1.04858M | $0.1 | $0.4 | $0.01 | $0.0833333 | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-2.5-flash-lite:batch` | — | reasoning | per-image + per-token | 1.04858M | $0.05 | $0.2 | $0.01 | — | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-2.5-flash:batch` | — | reasoning | per-image + per-token | 1.04858M | $0.15 | $1.25 | $0.03 | — | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-2.5-pro` | — | reasoning | per-image + per-token | 1.04858M | $1.25 | $10 | $0.125 | $0.375 | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-2.5-pro-preview` | — | reasoning | per-image + per-token | 1.04858M | $1.25 | $10 | $0.125 | $0.375 | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-2.5-pro-preview-05-06` | — | reasoning | per-image + per-token | 1.04858M | $1.25 | $10 | $0.125 | $0.375 | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-2.5-pro:batch` | — | reasoning | per-image + per-token | 1.04858M | $0.625 | $5 | $0.125 | — | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-3-flash-preview` | — | reasoning | per-image + per-token | 1.04858M | $0.5 | $3 | $0.05 | $0.0833333 | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-3-flash-preview:batch` | — | reasoning | per-image + per-token | 1.04858M | $0.25 | $1.5 | — | — | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-3-pro-image` | — | reasoning | per-image + per-token | 131.072K | $2 | $12 | $0.2 | $0.375 | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-3-pro-image-preview` | — | reasoning | per-image + per-token | 65.536K | $2 | $12 | $0.2 | $0.375 | —/— | per-image | OpenRouter reseller price |
+| `google/gemini-2.5-flash` | — | reasoning | per-token | 1.04858M | $0.3 | $2.5 | $0.03 | $0.0833333 | —/— | — | OpenRouter reseller price |
+| `google/gemini-2.5-flash-image` | — | chat | per-token | 32.768K | $0.3 | $2.5 | $0.03 | $0.0833333 | —/— | — | OpenRouter reseller price |
+| `google/gemini-2.5-flash-lite` | — | reasoning | per-token | 1.04858M | $0.1 | $0.4 | $0.01 | $0.0833333 | —/— | — | OpenRouter reseller price |
+| `google/gemini-2.5-flash-lite:batch` | — | reasoning | per-token | 1.04858M | $0.05 | $0.2 | $0.01 | — | —/— | — | OpenRouter reseller price |
+| `google/gemini-2.5-flash:batch` | — | reasoning | per-token | 1.04858M | $0.15 | $1.25 | $0.03 | — | —/— | — | OpenRouter reseller price |
+| `google/gemini-2.5-pro` | — | reasoning | per-token | 1.04858M | $1.25 | $10 | $0.125 | $0.375 | —/— | — | OpenRouter reseller price |
+| `google/gemini-2.5-pro-preview` | — | reasoning | per-token | 1.04858M | $1.25 | $10 | $0.125 | $0.375 | —/— | — | OpenRouter reseller price |
+| `google/gemini-2.5-pro-preview-05-06` | — | reasoning | per-token | 1.04858M | $1.25 | $10 | $0.125 | $0.375 | —/— | — | OpenRouter reseller price |
+| `google/gemini-2.5-pro:batch` | — | reasoning | per-token | 1.04858M | $0.625 | $5 | $0.125 | — | —/— | — | OpenRouter reseller price |
+| `google/gemini-3-flash-preview` | — | reasoning | per-token | 1.04858M | $0.5 | $3 | $0.05 | $0.0833333 | —/— | — | OpenRouter reseller price |
+| `google/gemini-3-flash-preview:batch` | — | reasoning | per-token | 1.04858M | $0.25 | $1.5 | — | — | —/— | — | OpenRouter reseller price |
+| `google/gemini-3-pro-image` | — | reasoning | per-token | 131.072K | $2 | $12 | $0.2 | $0.375 | —/— | — | OpenRouter reseller price |
+| `google/gemini-3-pro-image-preview` | — | reasoning | per-token | 65.536K | $2 | $12 | $0.2 | $0.375 | —/— | — | OpenRouter reseller price |
 | `google/gemini-3.1-flash-image` | — | reasoning | per-token | 131.072K | $0.5 | $3 | — | — | —/— | — | OpenRouter reseller price |
 | `google/gemini-3.1-flash-image-preview` | — | reasoning | per-token | 65.536K | $0.5 | $3 | — | — | —/— | — | OpenRouter reseller price |
-| `google/gemini-3.1-flash-lite` | — | reasoning | per-image + per-token | 1.04858M | $0.25 | $1.5 | $0.025 | $0.0833333 | —/— | per-image | OpenRouter reseller price |
+| `google/gemini-3.1-flash-lite` | — | reasoning | per-token | 1.04858M | $0.25 | $1.5 | $0.025 | $0.0833333 | —/— | — | OpenRouter reseller price |
 | `google/gemini-3.1-flash-lite-image` | — | reasoning | per-token | 65.536K | $0.25 | $1.5 | — | — | —/— | — | OpenRouter reseller price |
-| `google/gemini-3.1-flash-lite-preview` | — | reasoning | per-image + per-token | 1.04858M | $0.25 | $1.5 | $0.025 | $0.0833333 | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-3.1-flash-lite:batch` | — | reasoning | per-image + per-token | 1.04858M | $0.125 | $0.75 | $0.0125 | — | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-3.1-pro-preview` | — | reasoning | per-image + per-token | 1.04858M | $2 | $12 | $0.2 | $0.375 | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-3.1-pro-preview-customtools` | — | reasoning | per-image + per-token | 1.04858M | $2 | $12 | $0.2 | $0.375 | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-3.1-pro-preview:batch` | — | reasoning | per-image + per-token | 1.04858M | $1 | $6 | — | — | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-3.5-flash` | — | reasoning | per-image + per-token | 1.04858M | $1.5 | $9 | $0.15 | $0.0833333 | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-3.5-flash-lite` | — | reasoning | per-image + per-token | 1.04858M | $0.3 | $2.5 | $0.03 | $0.0833333 | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-3.5-flash-lite:batch` | — | reasoning | per-image + per-token | 1.04858M | $0.15 | $1.25 | $0.015 | — | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-3.5-flash:batch` | — | reasoning | per-image + per-token | 1.04858M | $0.75 | $4.5 | $0.075 | — | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-3.6-flash` | — | reasoning | per-image + per-token | 1.04858M | $0.75 | $3.75 | $0.075 | $0.0416667 | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-3.6-flash:batch` | — | reasoning | per-image + per-token | 1.04858M | $0.375 | $1.875 | $0.0375 | $0.0416667 | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-3.7-flash` | — | reasoning | per-image + per-token | 1.04858M | $0.75 | $3.75 | $0.075 | $0.0416667 | —/— | per-image | OpenRouter reseller price |
-| `google/gemini-3.7-flash:batch` | — | reasoning | per-image + per-token | 1.04858M | $0.1875 | $0.9375 | $0.01875 | $0.0208333 | —/— | per-image | OpenRouter reseller price |
+| `google/gemini-3.1-flash-lite-preview` | — | reasoning | per-token | 1.04858M | $0.25 | $1.5 | $0.025 | $0.0833333 | —/— | — | OpenRouter reseller price |
+| `google/gemini-3.1-flash-lite:batch` | — | reasoning | per-token | 1.04858M | $0.125 | $0.75 | $0.0125 | — | —/— | — | OpenRouter reseller price |
+| `google/gemini-3.1-pro-preview` | — | reasoning | per-token | 1.04858M | $2 | $12 | $0.2 | $0.375 | —/— | — | OpenRouter reseller price |
+| `google/gemini-3.1-pro-preview-customtools` | — | reasoning | per-token | 1.04858M | $2 | $12 | $0.2 | $0.375 | —/— | — | OpenRouter reseller price |
+| `google/gemini-3.1-pro-preview:batch` | — | reasoning | per-token | 1.04858M | $1 | $6 | — | — | —/— | — | OpenRouter reseller price |
+| `google/gemini-3.5-flash` | — | reasoning | per-token | 1.04858M | $1.5 | $9 | $0.15 | $0.0833333 | —/— | — | OpenRouter reseller price |
+| `google/gemini-3.5-flash-lite` | — | reasoning | per-token | 1.04858M | $0.3 | $2.5 | $0.03 | $0.0833333 | —/— | — | OpenRouter reseller price |
+| `google/gemini-3.5-flash-lite:batch` | — | reasoning | per-token | 1.04858M | $0.15 | $1.25 | $0.015 | — | —/— | — | OpenRouter reseller price |
+| `google/gemini-3.5-flash:batch` | — | reasoning | per-token | 1.04858M | $0.75 | $4.5 | $0.075 | — | —/— | — | OpenRouter reseller price |
+| `google/gemini-3.6-flash` | — | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | $0.0416667 | —/— | — | OpenRouter reseller price |
+| `google/gemini-3.6-flash:batch` | — | reasoning | per-token | 1.04858M | $0.375 | $1.875 | $0.0375 | $0.0416667 | —/— | — | OpenRouter reseller price |
+| `google/gemini-3.7-flash` | — | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | $0.0416667 | —/— | — | OpenRouter reseller price |
+| `google/gemini-3.7-flash:batch` | — | reasoning | per-token | 1.04858M | $0.1875 | $0.9375 | $0.01875 | $0.0208333 | —/— | — | OpenRouter reseller price |
 | `google/gemma-2-27b-it` | — | chat | per-token | 8.192K | $0.65 | $0.65 | — | — | —/— | — | OpenRouter reseller price |
 | `google/gemma-3-12b-it` | — | chat | per-token | 131.072K | $0.05 | $0.15 | — | — | —/— | — | OpenRouter reseller price |
 | `google/gemma-3-27b-it` | — | chat | per-token | 131.072K | $0.08 | $0.45 | $0.04 | — | —/— | — | OpenRouter reseller price |
@@ -425,8 +425,8 @@
 | `~anthropic/claude-opus-latest` | — | reasoning | per-token | 1M | $5 | $25 | $0.5 | $6.25 | —/— | — | OpenRouter reseller price |
 | `~anthropic/claude-sonnet-latest` | — | reasoning | per-token | 1M | $2 | $10 | $0.2 | $2.5 | —/— | — | OpenRouter reseller price |
 | `~deepseek/deepseek-v4-flash-latest` | — | reasoning | per-token | 1.31072M | $0.04998 | $0.09996 | $0.009996 | — | —/— | — | OpenRouter reseller price |
-| `~google/gemini-flash-latest` | — | reasoning | per-image + per-token | 1.04858M | $0.75 | $3.75 | $0.075 | $0.0416667 | —/— | per-image | OpenRouter reseller price |
-| `~google/gemini-pro-latest` | — | reasoning | per-image + per-token | 1.04858M | $2 | $12 | $0.2 | $0.375 | —/— | per-image | OpenRouter reseller price |
+| `~google/gemini-flash-latest` | — | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | $0.0416667 | —/— | — | OpenRouter reseller price |
+| `~google/gemini-pro-latest` | — | reasoning | per-token | 1.04858M | $2 | $12 | $0.2 | $0.375 | —/— | — | OpenRouter reseller price |
 | `~moonshotai/kimi-latest` | — | reasoning | per-token | 1.04858M | $2.55 | $12.75 | $0.256 | — | —/— | — | OpenRouter reseller price |
 | `~openai/gpt-latest` | — | reasoning | per-token | 1.05M | $2 | $10 | $0.2 | $2.5 | —/— | — | OpenRouter reseller price |
 | `~openai/gpt-mini-latest` | — | reasoning | per-token | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | OpenRouter reseller price |

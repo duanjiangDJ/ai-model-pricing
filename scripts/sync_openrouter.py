@@ -54,13 +54,15 @@ def build_model(entry):
     cache_read = to_float_or_none(p.get("input_cache_read"))
     cache_write = to_float_or_none(p.get("input_cache_write"))
     token_vals = [prompt, completion, cache_read, cache_write]
-    img = to_float_or_none(p.get("image"))
+    # OpenRouter's `image` pricing field is a PER-TOKEN price for image-token context
+    # (it equals the per-token `prompt` on every gemini model, e.g. 0.0000003), NOT a
+    # per-image price. Image is billed per-token and is already covered by per_mtok.input,
+    # so it must NOT be mapped to pricing.per_image (that field means USD per single image).
+    # Mapping it as-is misfiled per-token values ~1e-7 as a per-image price (unit bug).
+    # If OpenRouter ever exposes a genuine per-image price (image != prompt), add it back
+    # with proper per-image semantics (no ×1e6) and billing_model pay_per_image.
     has_token_price = any(v is not None and v != 0 for v in token_vals)
-    if img is not None and has_token_price:
-        billing = ["pay_per_image", "pay_per_token"]
-    elif img is not None:
-        billing = ["pay_per_image"]
-    elif has_token_price:
+    if has_token_price:
         billing = ["pay_per_token"]
     elif entry["id"].lower().endswith(":free") or all(v == 0 for v in token_vals if v is not None):
         billing = ["free"]
@@ -80,7 +82,7 @@ def build_model(entry):
             "cache_read": _u(_per_m(cache_read)),
             "cache_write": _u(_per_m(cache_write)),
         },
-        "per_image": [{"name": "default", "price": _u(img)}] if img is not None else None,
+        "per_image": None,  # OpenRouter exposes no per-image price (image is per-token)
         "promo": None,
     }
     return {
