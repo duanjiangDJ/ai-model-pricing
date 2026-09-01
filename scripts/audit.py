@@ -116,6 +116,21 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
         cw = m.get("context_window")
         if cw and (cw > 10_000_000 or 0 < cw < 100):
             warn(f"suspicious context_window {cw} in {p['provider_id']} :: {m['id']} (check placeholder)")
+        # per_mtok magnitude sanity: per_mtok is $ per 1M tokens. A non-zero value
+        # outside [1e-3, 1e5] is almost certainly a unit/scale bug (e.g. a per-token
+        # value stored as per-1M, which would be ~1e6x too small like 2.2e-7).
+        for _pk, _pv in pm.items():
+            if not isinstance(_pv, dict):
+                continue
+            for _cur, _val in _pv.items():
+                if _val is None:
+                    continue
+                _f = float(_val)
+                if _f != 0 and (abs(_f) < 1e-3 or abs(_f) > 1e5):
+                    warn(
+                        f"suspicious per_mtok {_pk}.{_cur}={_val} in {p['provider_id']} :: {m['id']} "
+                        f"(expected $/1M in [1e-3,1e5]; likely per-token stored as per-M)"
+                    )
         # billing_model consistency (required since schema 26.6.x)
         bm = m.get("billing_model")
         if not bm:
