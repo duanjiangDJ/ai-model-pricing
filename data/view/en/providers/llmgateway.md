@@ -6,8 +6,8 @@
 - Homepage: https://llmgateway.io/docs
 - Pricing page: https://llmgateway.io/docs
 - Currency: USD
-- Data updated: 2026-08-31T03:37:33Z
-- Verified: 2026-08-31T03:37:33Z
+- Data updated: 2026-09-01T09:18:24Z
+- Verified: 2026-09-01T09:18:24Z
 
 **560** models in total.
 
@@ -306,7 +306,7 @@
 | `llama-3.1-nemotron-ultra-253b` | — | chat | per-token | 128K | $0.6 | $1.8 | — | — | —/— | — | models.dev official list price |
 | `llama-3.2-11b-instruct` | — | chat | per-token | 128K | $0.07 | $0.33 | — | — | —/— | — | models.dev official list price |
 | `llama-3.2-3b-instruct` | — | chat | per-token | 32.768K | $0.03 | $0.05 | — | — | —/— | — | models.dev official list price |
-| `llama-3.3-70b-instruct` | — | chat | per-token | 131.072K | $0.13 | $0.4 | — | — | —/— | — | models.dev official list price |
+| `llama-3.3-70b-instruct` | — | chat | per-token | 131.072K | $0.135 | $0.4 | — | — | —/— | — | models.dev official list price |
 | `llama-4-maverick-17b-instruct` | — | chat | per-token | 1.04858M | $0.27 | $0.85 | — | — | —/— | — | models.dev official list price |
 | `llama-4-scout-17b-instruct` | — | chat | per-token | 131.072K | $0.18 | $0.59 | — | — | —/— | — | models.dev official list price |
 | `meta/muse-spark-1.1` | — | reasoning | per-token | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
@@ -475,7 +475,7 @@
 | `qwen3-235b-a22b-instruct-2507` | — | chat | per-token | 262.144K | $0.09 | $0.58 | — | — | —/— | — | models.dev official list price |
 | `qwen3-235b-a22b-thinking-2507` | — | reasoning | per-token | 262K | $0.3 | $3 | — | — | —/— | — | models.dev official list price |
 | `qwen3-30b-a3b-instruct-2507` | — | chat | per-token | 262K | $0.1 | $0.3 | — | — | —/— | — | models.dev official list price |
-| `qwen3-32b` | — | reasoning | per-token | 40.96K | $0.1 | $0.3 | — | — | —/— | — | models.dev official list price |
+| `qwen3-32b` | — | reasoning | per-token | 40.96K | $0.36 | $0.87 | — | — | —/— | — | models.dev official list price |
 | `qwen3-coder-30b-a3b-instruct` | — | chat | per-token | 262K | $0.07 | $0.27 | — | — | —/— | — | models.dev official list price |
 | `qwen3-coder-480b-a35b-instruct` | — | chat | per-token | 262.144K | $0.38 | $1.55 | — | — | —/— | — | models.dev official list price |
 | `qwen3-coder-flash` | — | chat | per-token | 1M | $0.3 | $1.5 | $0.06 | — | —/— | — | models.dev official list price |

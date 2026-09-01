@@ -7,8 +7,8 @@
   "homepage": "https://docs.venice.ai",
   "pricing_page": "https://docs.venice.ai",
   "currency": "USD",
-  "updated_at": "2026-08-31T03:37:33Z",
-  "verified_at": "2026-08-31T03:37:33Z",
+  "updated_at": "2026-09-01T09:18:24Z",
+  "verified_at": "2026-09-01T09:18:24Z",
   "models": [
     {
       "id": "aion-labs-aion-3-0",
@@ -406,13 +406,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2
+            "usd": 3
           },
           "output": {
-            "usd": 10.000000000000002
+            "usd": 15
           },
           "cache_read": {
-            "usd": 0.2
+            "usd": 0.3
           },
           "cache_write": null
         },

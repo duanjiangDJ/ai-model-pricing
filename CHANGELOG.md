@@ -16,13 +16,61 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
-## 26.28.24 — 2026-09-01T16:28Z (content update)
+## 26.31.25 — 2026-09-01T16:33Z (content update)
 
 - feat(checks): auto-generate tier1 collection scripts for all providers with official pricing pages
+
+## 26.30.25 — 2026-09-01T15:23Z (content update)
+
+- price sync (6 changes):
+- **openrouter** (+1): `inception/mercury-2.5-preview`
+- **openrouter** (-3): `anthropic/claude-opus-4.7-fast`, `anthropic/claude-opus-4.8-fast`, `anthropic/claude-opus-5-fast`
+- **openrouter** (updated 2): `deepseek/deepseek-v4-flash`, `~deepseek/deepseek-v4-flash-latest`
+
+## 26.29.25 — 2026-09-01T13:26Z (feature update)
+
+- feat(audit): catch free-flag on positive per_mtok (free-model contamination check)
+
+## 26.29.24 — 2026-09-01T12:24Z (content update)
+
+- price sync (2 changes):
+- **openrouter** (updated 2): `deepseek/deepseek-v4-flash-vision-exp`, `deepseek/deepseek-v4-pro-0813`
+
+## 26.28.24 — 2026-09-01T11:11Z (content update)
+
+- bot price sync (95 provider updates: 4521+/1711- data/view); fix openrouter deepseek v4-pro-0813/v4-flash-vision-exp to live API
 
 ## 26.27.24 — 2026-09-01T10:12Z (content update)
 
 - fix(openai): parse new developers.openai.com pricing.md (OpenAI page revamp broke tier0_openai -> parsed 0); make write_json atomic (dump failure was corrupting provider files); fetch_official: '~' is open-weights not free
+- price sync (95 changes):
+- **abliteration-ai** (+1): `abliterated-model-large-v2`
+- **aihubmix** (+7): `deepseek-v4-flash-0731`, `deepseek-v4-pro-0813`, `glm-5.3`, `glm-5.3-flash`, `grok-4.6`, `qwen3.7-flash`, `qwen3.8-2.4t-a95b`
+- **alibaba** (updated 14): `qwen3.7-plus`, `qwen3.6-flash`, `qwen-vl-ocr`, `qwen3.6-35b-a3b`, `qwen3-next-80b-a3b-thinking`, `qwen3-next-80b-a3b-instruct`, `qwen3-32b` — in $0.72 out $0.72; in $0.7 out $2.8; in $0.5 out $2; in $0.5 out $6; in $0.248 out $1.485; in $0.1875 out $1.125; in $0.5 out $3
+- **coralbricks** (+1): `glm-5.3-fp4`
+- **cortecs** (updated 1): `devstral-2512` — in $0.478 out $2.392
+- **crossmodel** (updated 2): `qwen/qwen3.7-max`, `qwen/qwen3.7-plus` — in $1.88 out $5.63 cache $0.375; in $0.32 out $1.25 cache $0.032
+- **deepinfra** (updated 1): `zai-org/GLM-5.3` — cache $0.12
+- **deepseek** (updated 6): `deepseek-v4-flash`, `deepseek-v4-pro`, `deepseek-v4-flash-vision-exp` — in $0.14 out $0.28 cache $0.0028; in $0.435 out $0.87
+- **edenai** (+2): `flexai/Step-3.7-Flash`, `moonshot/kimi-k2.7-code-highspeed`
+- **edenai** (updated 6): `flexai/deepseek-v4-flash-0731`, `ionos/meta-llama/Llama-3.3-70B-Instruct`, `ionos/openai/gpt-oss-120b`, `scaleway/deepseek-v4-flash-0731`, `scaleway/gpt-oss-120b`, `scaleway/llama-3.3-70b-instruct` — in $0.03 out $0.1; in $0.75374 out $0.75374; in $0.17394 out $0.75374; in $0.46384 out $0.92768; in $0.17394 out $0.69576; in $1.04364 out $1.04364
+- **groq** (+1): `qwen/qwen3.8-27b`
+- **hyper** (+2): `glm-5.3`, `glm-5.3-flash`
+- **hyper** (updated 6): `gemma-4-26b-a4b-it`, `glm-5`, `glm-5.1`, `gpt-oss-120b`, `llama-4-maverick-17b-128e-instruct-fp8`, `minimax-m2.7` — in $0.12 out $0.42; in $0.91 out $2.934; in $1.332 out $4.312; in $0.188 out $0.7; in $0.274 out $0.8992; in $0.424 out $1.612
+- **kilo** (+1): `ibm-granite/granite-4.2-8b`
+- **kilo** (updated 18): `anthracite-org/magnum-v4-72b`, `arcee-ai/trinity-large-thinking`, `deepseek/deepseek-chat`, `deepseek/deepseek-chat-v3-0324`, `deepseek/deepseek-v4-flash-vision-exp`, `google/gemini-2.5-flash-image`, `google/gemini-3-flash-preview`, `google/gemini-3-pro-image-preview`, `google/gemini-3.1-flash-lite`, `google/gemini-3.1-flash-lite-preview`, `google/gemini-3.1-pro-preview`, `google/gemini-3.5-flash`, `google/gemini-3.5-flash-lite`, `google/gemini-3.6-flash`, `google/gemini-3.7-flash`, `mancer/weaver`, `undi95/remm-slerp-l2-13b`, `~deepseek/deepseek-v4-flash-latest` — in $2.5; in $0.25 out $0.8; in $0.2574 out $1.0287; in $0.25 out $1; cache $0.028; in $0.15 out $1.25 cache $0.015; in $0.25 out $1.5 cache $0.025; in $1 out $6 cache $0.1; in $0.125 out $0.75 cache $0.0125; in $0.75 out $4.5 cache $0.075; in $0.375 out $1.875 cache $0.0375; in $0.75 out $3.75 cache $0.075; in $0.4; in $0.35; in $0.05
+- **llmgateway** (updated 2): `llama-3.3-70b-instruct`, `qwen3-32b` — in $0.135; in $0.36 out $0.87
+- **merge-gateway** (+1): `deepseek/deepseek-v4-flash-0731-fast`
+- **merge-gateway** (updated 3): `anthropic/claude-sonnet-5`, `moonshot/kimi-k3`, `xai/grok-4.6` — in $3 out $15; in $2.9 out $14; in $2 out $6 cache $0.5
+- **minimax** (updated 2): `MiniMax-M2.5-highspeed` — cache $0.06
+- **mistral** (updated 4): `ministral-3b-latest`, `ministral-8b-latest` — in $0.04 out $0.04; in $0.1 out $0.1
+- **nano-gpt** (+3): `TEE/glm-5.3`, `abliteration-ai/abliterated-model-large-v2`, `ibm-granite/granite-4.2-8b`
+- **nano-gpt** (updated 2): `gemma-4-12b-it`, `z-ai/glm-latest` — in $0.05 out $0.25 cache $0.025; in $1 out $3.2 cache $0.2
+- **openrouter** (-5): `mistralai/codestral-2508:batch`, `mistralai/ministral-8b-2512:batch`, `mistralai/mistral-large-2512:batch`, `mistralai/mistral-medium-3.1:batch`, `mistralai/mistral-small-2603:batch`
+- **openrouter** (updated 5): `deepseek/deepseek-v4-flash-vision-exp`, `deepseek/deepseek-v4-pro-0813`, `gryphe/mythomax-l2-13b`, `meta-llama/llama-4-scout`, `qwen/qwen3-235b-a22b-2507`
+- **requesty** (updated 5): `deepseek-v4-flash-0731`, `glm-5.2`, `glm-5.3`, `glm-5.3-flash`, `glm-5.3@eu` — in $0.076 out $0.153 cache $0.014; in $0.8 out $2.55 cache $0.16; in $1.2 out $4.2; in $0.075 out $0.25 cache $0.015; in $1.2 out $4.2 cache $0.26
+- **venice** (updated 1): `claude-sonnet-5` — in $3 out $15 cache $0.3
+- **vercel** (+2): `alibaba/qwen3.8-flash-next`, `xiaomi/mimo-v2.5-pro-ultraspeed`
 
 ## 26.26.24 — 2026-09-01T06:35Z (content update)
 

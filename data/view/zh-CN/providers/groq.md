@@ -6,10 +6,10 @@
 - 官网: https://console.groq.com/docs/models
 - 定价页: https://console.groq.com/docs/models
 - 币种: USD
-- 数据更新时间: 2026-08-31T03:37:33Z
-- 核实时间: 2026-08-31T03:37:33Z
+- 数据更新时间: 2026-09-01T09:18:24Z
+- 核实时间: 2026-09-01T09:18:24Z
 
-共 **15** 个模型。
+共 **16** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -26,5 +26,6 @@
 | `openai/gpt-oss-20b` | — | reasoning | 按量 | 131.072K | $0.075 | $0.3 | $0.0375 | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-safeguard-20b` | — | reasoning | 按量 | 131.072K | $0.075 | $0.3 | — | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.6-27b` | — | reasoning | 按量 | 131.072K | $0.6 | $3 | $0.3 | — | —/— | — | models.dev official list price |
+| `qwen/qwen3.8-27b` | — | reasoning | 按量 | 131.042K | $0.8 | $4 | — | — | —/— | — | models.dev official list price |
 | `whisper-large-v3` | — | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
 | `whisper-large-v3-turbo` | — | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |

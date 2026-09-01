@@ -89,6 +89,7 @@ BILLING_ENUM = ("pay_per_token", "pay_per_image", "subscription_included", "cred
 unknown_models = []
 no_price_models = []
 dual_suspect = []  # models whose cny/usd ratio is uniform inside the FX band (likely rate-derived)
+free_contamination = []  # billing_model declares "free" but per_mtok has a positive price
 for f in sorted(glob.glob("data/feed/providers/*.json")):
     p = json.load(open(f, encoding="utf-8"))
     is_sub = any(h in p["provider_id"] for h in SUB_HINTS)
@@ -152,6 +153,14 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
         if "pay_per_token" in bm and price_all_zero(pm):
             warn(f"billing_model=pay_per_token but all per_mtok prices zero (model is free): "
                  + f"{p['provider_id']} :: {m['id']}")
+        # free-classification contradiction (reverse): billing_model declares 'free' but
+        # per_mtok carries a positive price. A genuine free model has per_mtok=0/null (see
+        # zero-price policy); a positive value means the model is actually billed. This
+        # catches the "free-model contamination" class (legacy models.dev writer marked
+        # any-zero-price models as free, e.g. embedding output=0) so a paid price can
+        # never silently sit under a free flag.
+        if "free" in bm and has_val:
+            free_contamination.append(f"{p['provider_id']} :: {m['id']}")
         if bm == ["unknown"] and (m.get("notes") or ""):
             unknown_models.append(f"{p['provider_id']} :: {m['id']}")
         # dual-currency independence: if cny/usd ratio is IDENTICAL (within 0.5%) across
@@ -193,6 +202,11 @@ if dual_suspect:
     from collections import Counter as _Cd
     by_pid = _Cd(u.split(" :: ")[0] for u in dual_suspect)
     warn(f"cny/usd ratio uniform in FX band (looks exchange-rate-derived, non-independent; {len(dual_suspect)} models): "
+         + ", ".join(f"{pid} x{c}" for pid, c in by_pid.most_common(12)))
+if free_contamination:
+    from collections import Counter as _Cf
+    by_pid = _Cf(u.split(" :: ")[0] for u in free_contamination)
+    warn(f"billing_model declares 'free' but per_mtok has a positive price (free-model contamination; {len(free_contamination)} models): "
          + ", ".join(f"{pid} x{c}" for pid, c in by_pid.most_common(12)))
 print(f"OK zero-price: {zero_free} free-flagged, {zero_suspect} suspect")
 

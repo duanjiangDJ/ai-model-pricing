@@ -6,8 +6,8 @@
 - 官网: https://api.cortecs.ai/v1/models
 - 定价页: https://api.cortecs.ai/v1/models
 - 币种: USD
-- 数据更新时间: 2026-08-31T21:17:21Z
-- 核实时间: 2026-08-31T21:17:21Z
+- 数据更新时间: 2026-09-01T09:18:24Z
+- 核实时间: 2026-09-01T09:18:24Z
 
 共 **112** 个模型。
 
@@ -31,7 +31,7 @@
 | `deepseek-v4-flash-0731` | — | reasoning | 按量 | 1.04858M | $0.13 | $0.28 | $0.03 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-pro` | — | reasoning | 按量 | 1.04858M | $1.73 | $3.46 | $0.432 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-pro-0813` | — | reasoning | 按量 | 1.04858M | $2 | $3.999 | $0.5 | — | —/— | — | models.dev official list price |
-| `devstral-2512` | — | chat | 按量 | 262K | $0.446 | $2.228 | $0.045 | — | —/— | — | models.dev official list price |
+| `devstral-2512` | — | chat | 按量 | 262K | $0.478 | $2.392 | $0.045 | — | —/— | — | models.dev official list price |
 | `gemini-2.5-flash` | — | reasoning | 按量 | 1.04858M | $0.299 | $2.491 | $0.029 | — | —/— | — | models.dev official list price |
 | `gemini-2.5-pro` | — | reasoning | 按量 | 1.04858M | $1.495 | $9.964 | $0.242 | — | —/— | — | models.dev official list price |
 | `gemini-3.1-flash-lite` | — | reasoning | 按量 | 1.04858M | $0.272 | $1.631 | $0.025 | — | —/— | — | models.dev official list price |

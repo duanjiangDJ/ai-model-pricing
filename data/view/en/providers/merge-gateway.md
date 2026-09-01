@@ -6,10 +6,10 @@
 - Homepage: https://docs.merge.dev/merge-gateway
 - Pricing page: https://docs.merge.dev/merge-gateway
 - Currency: USD
-- Data updated: 2026-08-31T03:37:33Z
-- Verified: 2026-08-31T03:37:33Z
+- Data updated: 2026-09-01T09:18:24Z
+- Verified: 2026-09-01T09:18:24Z
 
-**176** models in total.
+**177** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -26,7 +26,7 @@
 | `anthropic/claude-sonnet-4-20250514` | — | reasoning | per-token | 200K | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-sonnet-4-5-20250929` | — | reasoning | per-token | 200K | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-sonnet-4-6` | — | reasoning | per-token | 1M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
-| `anthropic/claude-sonnet-5` | — | reasoning | per-token | 1M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
+| `anthropic/claude-sonnet-5` | — | reasoning | per-token | 1M | $3 | $15 | $0.2 | — | —/— | — | models.dev official list price |
 | `bytedance/dola-seed-2.0-code` | — | chat | per-token | 256K | $0.4 | $2.4 | — | — | —/— | — | models.dev official list price |
 | `bytedance/dola-seed-2.0-code-preview` | — | chat | per-token | 131.072K | $0.5 | $3 | — | — | —/— | — | models.dev official list price |
 | `bytedance/dola-seed-2.0-lite` | — | chat | per-token | 131.072K | $0.25 | $2 | — | — | —/— | — | models.dev official list price |
@@ -42,6 +42,7 @@
 | `deepseek/deepseek-v3.2` | — | reasoning | per-token | 163.84K | $0.28 | $0.45 | $0.14 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash` | — | reasoning | per-token | 1M | $0.22 | $0.66 | $0.007 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | per-token | 1M | $0.22 | $0.66 | $0.007 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash-0731-fast` | — | reasoning | per-token | 1M | $0.28 | $0.56 | $0.07 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | per-token | 1M | $0.66 | $1.98 | $0.022 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro-0423` | — | reasoning | per-token | 1M | $1.65 | $3.3 | — | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | per-token | 1M | $0.66 | $1.98 | $0.022 | — | —/— | — | models.dev official list price |
@@ -95,7 +96,7 @@
 | `moonshot/kimi-k2.6` | — | reasoning | per-token | 262.144K | $0.95 | $4 | $0.16 | — | —/— | — | models.dev official list price |
 | `moonshot/kimi-k2.7-code` | — | reasoning | per-token | 262.144K | $0.95 | $4 | $0.19 | — | —/— | — | models.dev official list price |
 | `moonshot/kimi-k2.7-code-highspeed` | — | reasoning | per-token | 262.144K | $1.9 | $8 | $0.38 | — | —/— | — | models.dev official list price |
-| `moonshot/kimi-k3` | — | reasoning | per-token | 1.04858M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
+| `moonshot/kimi-k3` | — | reasoning | per-token | 1.04858M | $2.9 | $14 | $0.3 | — | —/— | — | models.dev official list price |
 | `moonshotai/kimi-k2-thinking` | — | reasoning | per-token | 262.144K | $0.6 | $2.5 | — | — | —/— | — | models.dev official list price |
 | `nvidia/nemotron-3.5-lightning-30b-a3b` | — | reasoning | free | 1M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-nano-9b-v2` | — | reasoning | per-token | 128K | $0.06 | $0.23 | — | — | —/— | — | models.dev official list price |
@@ -174,7 +175,7 @@
 | `xai/grok-4.20-0309-reasoning` | — | reasoning | per-token | 1M | $1.25 | $2.5 | $0.2 | — | —/— | — | models.dev official list price |
 | `xai/grok-4.3` | — | reasoning | per-token | 1M | $1.25 | $2.5 | $0.2 | — | —/— | — | models.dev official list price |
 | `xai/grok-4.5` | — | reasoning | per-token | 500K | $2 | $6 | $0.5 | — | —/— | — | models.dev official list price |
-| `xai/grok-4.6` | — | reasoning | per-token | 500K | $1.5 | $4.5 | $0.375 | — | —/— | — | models.dev official list price |
+| `xai/grok-4.6` | — | reasoning | per-token | 500K | $2 | $6 | $0.5 | — | —/— | — | models.dev official list price |
 | `xai/grok-build-0.1` | — | reasoning | per-token | 256K | $1 | $2 | $0.2 | — | —/— | — | models.dev official list price |
 | `zai/glm-4.5` | — | reasoning | per-token | 128K | $0.6 | $2.2 | $0.11 | — | —/— | — | models.dev official list price |
 | `zai/glm-4.5-air` | — | reasoning | per-token | 128K | $0.2 | $1.1 | $0.03 | — | —/— | — | models.dev official list price |
