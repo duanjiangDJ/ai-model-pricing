@@ -1,13 +1,6 @@
 {
-  "schema_version": "26.22.24",
+  "schema_version": "26.23.24",
   "sources": [
-    {
-      "name": "OpenRouter API",
-      "url": "https://openrouter.ai/api/v1/models",
-      "auto_sync": true,
-      "last_ok": "2026-08-31T21:17:21Z",
-      "last_error": null
-    },
     {
       "name": "models.dev",
       "url": "https://models.dev/api.json",
@@ -289,8 +282,15 @@
       "check": true,
       "last_ok": "2026-08-31T21:17:22Z",
       "last_error": null
+    },
+    {
+      "name": "OpenRouter API",
+      "url": "https://openrouter.ai/api/v1/models",
+      "auto_sync": true,
+      "last_ok": "2026-09-01T01:53:41Z",
+      "last_error": null
     }
   ],
   "coverage": {},
-  "last_daily_check": "2026-08-31T21:17:21Z"
+  "last_daily_check": "2026-09-01T01:53:41Z"
 }

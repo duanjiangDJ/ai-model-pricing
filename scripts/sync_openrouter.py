@@ -34,6 +34,15 @@ def _u(v):
     return {"usd": v} if v is not None else None
 
 
+def _per_m(v):
+    """OpenRouter API pricing is PER TOKEN (USD decimals). per_mtok semantics is
+    per-1M tokens, so multiply per-token by 1e6. Missing this conversion made every
+    OpenRouter price land 1e6x too small (e.g. $0.22/M stored as 2.2e-7)."""
+    if v is None:
+        return None
+    return round(v * 1e6, 8)
+
+
 def build_model(entry):
     p = entry.get("pricing") or {}
     token_vals = [p.get("prompt"), p.get("completion"),
@@ -59,10 +68,10 @@ def build_model(entry):
         note += " | Free model (per_mtok = 0)."
     pricing = {
         "per_mtok": {
-            "input": _u(to_float_or_none(p.get("prompt"))),
-            "output": _u(to_float_or_none(p.get("completion"))),
-            "cache_read": _u(to_float_or_none(p.get("input_cache_read"))),
-            "cache_write": _u(to_float_or_none(p.get("input_cache_write"))),
+            "input": _u(_per_m(to_float_or_none(p.get("prompt")))),
+            "output": _u(_per_m(to_float_or_none(p.get("completion")))),
+            "cache_read": _u(_per_m(to_float_or_none(p.get("input_cache_read")))),
+            "cache_write": _u(_per_m(to_float_or_none(p.get("input_cache_write")))),
         },
         "per_image": [{"name": "default", "price": _u(img)}] if img is not None else None,
         "promo": None,
@@ -98,6 +107,7 @@ def main():
         "region": "global",
         "homepage": "https://openrouter.ai",
         "pricing_page": "https://openrouter.ai/models",
+        "api_base_url": "https://openrouter.ai/api/v1",
         "currency": "USD",
         "updated_at": now,
         "verified_at": now,
