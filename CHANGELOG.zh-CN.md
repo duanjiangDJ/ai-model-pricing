@@ -18,9 +18,9 @@
 
 ## 26.36.27 — 2026-09-02T03:42Z（内容更新）
 
-- 价格同步（3 处变更）：
+- 价格同步（2 处变更）：
 - **openrouter**（新增 1）：`~z-ai/glm-flash-latest`
-- **openrouter**（更新 2）：`deepseek/deepseek-v4-flash-vision-exp`, `deepseek/deepseek-v4-pro-0813`
+- **openrouter**（更新 1）：`deepseek/deepseek-v4-pro-0813`
 
 ## 26.35.27 — 2026-09-02T03:07Z（功能更新）
 
