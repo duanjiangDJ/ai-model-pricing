@@ -16,9 +16,39 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
-## 26.35.26 — 2026-09-02T14:10Z (content update)
+## 26.40.27 — 2026-09-02T14:11Z (content update)
 
-- feat(pricing): add off_peak structured field for DeepSeek time-of-day (peak/off-peak) pricing
+- feat(pricing): add off_peak structured field for DeepSeek time-of-day pricing
+
+## 26.39.27 — 2026-09-02T12:38Z (content update)
+
+- price sync (2 changes):
+- **openrouter** (updated 2): `deepseek/deepseek-v4-flash-vision-exp`, `~z-ai/glm-latest`
+
+## 26.38.27 — 2026-09-02T09:37Z (content update)
+
+- price sync (1 change):
+- **cortecs** (updated 1): `glm-5.3` — in $1.4 out $4.399 cache $0.26
+
+## 26.37.27 — 2026-09-02T06:36Z (content update)
+
+- price sync (2 changes):
+- **openrouter** (+1): `anthropic/claude-fable-5.1:batch`
+- **openrouter** (updated 1): `deepseek/deepseek-v4-flash-vision-exp`
+
+## 26.36.27 — 2026-09-02T03:42Z (content update)
+
+- price sync (2 changes):
+- **openrouter** (+1): `~z-ai/glm-flash-latest`
+- **openrouter** (updated 1): `deepseek/deepseek-v4-pro-0813`
+
+## 26.35.27 — 2026-09-02T03:07Z (feature update)
+
+- fix(audit): hard-fail per_mtok below 1e-4 as per-token-as-per-M unit bug
+
+## 26.35.26 — 2026-09-02T00:54Z (content update)
+
+- fix(fetch_official): models.dev source read wrong key ('pricing' instead of 'cost'), so models.dev prices always came back None — verification source was dead. Read cost (USD per 1M tokens) and surface real prices + 'no price' notes.
 
 ## 26.34.26 — 2026-09-02T00:37Z (content update)
 

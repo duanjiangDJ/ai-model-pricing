@@ -8,8 +8,8 @@
   "pricing_page": "https://openrouter.ai/models",
   "api_base_url": "https://openrouter.ai/api/v1",
   "currency": "USD",
-  "updated_at": "2026-09-02T00:19:17Z",
-  "verified_at": "2026-09-02T00:19:17Z",
+  "updated_at": "2026-09-02T12:19:54Z",
+  "verified_at": "2026-09-02T12:19:54Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -396,6 +396,39 @@
           },
           "cache_write": {
             "usd": 12.5
+          }
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "anthropic/claude-fable-5.1:batch",
+      "name": "Anthropic: Claude Fable 5.1 (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 1000000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 5.0
+          },
+          "output": {
+            "usd": 25.0
+          },
+          "cache_read": {
+            "usd": 0.125
+          },
+          "cache_write": {
+            "usd": 6.25
           }
         },
         "per_image": null,
@@ -2026,13 +2059,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.66
+            "usd": 1.1154
           },
           "output": {
-            "usd": 1.98
+            "usd": 3.3462
           },
           "cache_read": {
-            "usd": 0.022
+            "usd": 0.03718
           },
           "cache_write": null
         },
@@ -12712,6 +12745,38 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "~z-ai/glm-flash-latest",
+      "name": "Z.ai: GLM Flash Latest",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in",
+        "video_in"
+      ],
+      "context_window": 1310720,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.075
+          },
+          "output": {
+            "usd": 0.25
+          },
+          "cache_read": {
+            "usd": 0.015
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "~z-ai/glm-latest",
       "name": "Z.ai: GLM Latest",
       "category": "reasoning",
@@ -12726,13 +12791,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.17
+            "usd": 1.15
           },
           "output": {
-            "usd": 3.96
+            "usd": 3.5
           },
           "cache_read": {
-            "usd": 0.234
+            "usd": 0.1
           },
           "cache_write": null
         },

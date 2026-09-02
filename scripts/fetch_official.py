@@ -65,18 +65,25 @@ def fetch_modelsdev():
         models = (prov.get("models") or {}) if isinstance(prov, dict) else {}
         items = models.items() if isinstance(models, dict) else []
         for mid, m in items:
-            # models.dev "~" prefix is an open-weights/flag marker, NOT a zero price. pricing
-            # None means models.dev lists no price there — verify the actual API price, don't
-            # assume free (e.g. openrouter bills ~z-ai/glm-latest at $1.17).
-            no_price = (m.get("pricing") is None)
+            # models.dev stores prices under `cost` (USD per 1M tokens) — NOT `pricing`.
+            # A missing/empty cost means models.dev lists no price there. The "~" prefix /
+            # open_weights is an open-weights MARKER, not a zero price — verify the actual
+            # API price, don't assume free (e.g. openrouter bills ~z-ai/glm-latest at $1.17).
+            cost = m.get("cost") or {}
+            per_mtok = {
+                "input": cost.get("input"),
+                "output": cost.get("output"),
+                "cache_read": cost.get("cache_read"),
+            }
+            has_price = any(v is not None for v in per_mtok.values())
             yield {
                 "source": f"models.dev/{prov_id}",
                 "model_id": mid,
-                "per_mtok": m.get("pricing"),  # models.dev lists per-1M pricing
+                "per_mtok": per_mtok,  # models.dev cost is USD per 1M tokens
                 "source_url": f"https://models.dev/{prov_id}/{mid.replace('/', '-')}",
                 "verified_at": datetime.now(timezone.utc).isoformat(),
-                "note": ("models.dev lists no price there (pricing=None; ~ is open-weights, "
-                         "not necessarily free — verify the actual API price)" if no_price
+                "note": ("models.dev lists no price there (cost missing; ~ is open-weights, "
+                         "not necessarily free — verify the actual API price)" if not has_price
                          else "models.dev official pricing"),
             }
 

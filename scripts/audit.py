@@ -119,8 +119,11 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
         if cw and (cw > 10_000_000 or 0 < cw < 100):
             warn(f"suspicious context_window {cw} in {p['provider_id']} :: {m['id']} (check placeholder)")
         # per_mtok magnitude sanity: per_mtok is $ per 1M tokens. A non-zero value
-        # outside [1e-3, 1e5] is almost certainly a unit/scale bug (e.g. a per-token
-        # value stored as per-1M, which would be ~1e6x too small like 2.2e-7).
+        # below 1e-4 ($0.0001/1M) is impossible for any priced API and is the signature
+        # of a per-token value stored as per-1M (the ~1e6x bug that once shipped, e.g.
+        # OpenRouter $0.22/M stored as 2.2e-7). That is a data-truth bug -> hard-fail so
+        # a bot sync can never merge a per-token-as-per-M value. The [1e-4, 1e-3) band and
+        # >1e5 remain suspect-but-not-obviously-misfiled -> warn (borderline cheap/absurd).
         for _pk, _pv in pm.items():
             if not isinstance(_pv, dict):
                 continue
@@ -128,10 +131,16 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
                 if _val is None:
                     continue
                 _f = float(_val)
-                if _f != 0 and (abs(_f) < 1e-3 or abs(_f) > 1e5):
+                if _f != 0 and abs(_f) < 1e-4:
+                    fail(
+                        f"per_mtok {_pk}.{_cur}={_val} in {p['provider_id']} :: {m['id']} "
+                        f"is $/1M tokens; a non-zero value below 1e-4 is impossible for a "
+                        f"priced API (likely per-token stored as per-M, ~1e6 too small)"
+                    )
+                elif _f != 0 and (abs(_f) < 1e-3 or abs(_f) > 1e5):
                     warn(
                         f"suspicious per_mtok {_pk}.{_cur}={_val} in {p['provider_id']} :: {m['id']} "
-                        f"(expected $/1M in [1e-3,1e5]; likely per-token stored as per-M)"
+                        f"(expected $/1M in [1e-3,1e5]; borderline cheap or absurd)"
                     )
         # billing_model consistency (required since schema 26.6.x)
         # per_image magnitude sanity: per_image[] prices are USD per SINGLE image

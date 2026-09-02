@@ -16,9 +16,39 @@
 
 ---
 
-## 26.35.26 — 2026-09-02T14:10Z（内容更新）
+## 26.40.27 — 2026-09-02T14:11Z（内容更新）
 
 - 为DeepSeek峰谷定价新增off_peak结构化字段(multiplier=0.5+peak窗口)，per_mtok=高峰档，human view显示峰/闲双价
+
+## 26.39.27 — 2026-09-02T12:38Z（内容更新）
+
+- 价格同步（2 处变更）：
+- **openrouter**（更新 2）：`deepseek/deepseek-v4-flash-vision-exp`, `~z-ai/glm-latest`
+
+## 26.38.27 — 2026-09-02T09:37Z（内容更新）
+
+- 价格同步（1 处变更）：
+- **cortecs**（更新 1）：`glm-5.3` — 入 $1.4 出 $4.399 缓存 $0.26
+
+## 26.37.27 — 2026-09-02T06:36Z（内容更新）
+
+- 价格同步（2 处变更）：
+- **openrouter**（新增 1）：`anthropic/claude-fable-5.1:batch`
+- **openrouter**（更新 1）：`deepseek/deepseek-v4-flash-vision-exp`
+
+## 26.36.27 — 2026-09-02T03:42Z（内容更新）
+
+- 价格同步（2 处变更）：
+- **openrouter**（新增 1）：`~z-ai/glm-flash-latest`
+- **openrouter**（更新 1）：`deepseek/deepseek-v4-pro-0813`
+
+## 26.35.27 — 2026-09-02T03:07Z（功能更新）
+
+- 修复(audit): per_mtok 低于 1e-4 直接判失败——per-token 被当 per-M 的单位 bug
+
+## 26.35.26 — 2026-09-02T00:54Z（内容更新）
+
+- 修复 fetch_official：models.dev 源读取了错误的字段（pricing 而非 cost），导致 models.dev 价格始终返回 None（验证源失效）。改为读取 cost（每百万 token 美元价），正确输出真实价格与'无价格'标注。
 
 ## 26.34.26 — 2026-09-02T00:37Z（内容更新）
 

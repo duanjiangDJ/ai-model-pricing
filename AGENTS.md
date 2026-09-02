@@ -151,6 +151,13 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
   "surge" in an aggregator channel, cross-check against LIVE `openrouter.ai/api/v1/models` first
   — a clean 2x matching a first-party peak/off-peak tier is a timing snapshot, not corruption.
 
+- **Official-source verification reads each source's real keys.** `scripts/fetch_official.py`
+  must read the key each source actually uses: models.dev `api.json` stores prices under
+  `cost` (already USD per 1M tokens) — NOT `pricing`; the OpenRouter API stores per-token
+  prices under `pricing` and must be scaled ×1e6. A fetcher that reads `pricing` for a
+  models.dev entry silently returns no price forever (the “check that never fires” gap).
+  When extending the `SOURCES` registry, verify with `python scripts/fetch_official.py <model> --json`.
+
 ## Contribution Workflow
 
 1. Fork → edit machine data → `validate.py` → `build_human.py` → commit with a message
