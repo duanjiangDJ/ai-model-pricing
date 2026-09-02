@@ -16,6 +16,11 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.38.27 — 2026-09-02T09:37Z (content update)
+
+- price sync (1 change):
+- **cortecs** (updated 1): `glm-5.3` — in $1.4 out $4.399 cache $0.26
+
 ## 26.37.27 — 2026-09-02T06:36Z (content update)
 
 - price sync (2 changes):

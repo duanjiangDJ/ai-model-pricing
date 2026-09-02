@@ -6,8 +6,8 @@
 - Homepage: https://api.cortecs.ai/v1/models
 - Pricing page: https://api.cortecs.ai/v1/models
 - Currency: USD
-- Data updated: 2026-09-01T09:18:24Z
-- Verified: 2026-09-01T09:18:24Z
+- Data updated: 2026-09-02T09:19:49Z
+- Verified: 2026-09-02T09:19:49Z
 
 **112** models in total.
 
@@ -48,7 +48,7 @@
 | `glm-5-turbo` | — | reasoning | per-token | 202.752K | $1.186 | $3.955 | $0.296 | — | —/— | — | models.dev official list price |
 | `glm-5.1` | — | reasoning | per-token | 202.752K | $1.384 | $4.348 | $0.346 | — | —/— | — | models.dev official list price |
 | `glm-5.2` | — | reasoning | per-token | 1.04858M | $1.2 | $4.2 | $0.26 | — | —/— | — | models.dev official list price |
-| `glm-5.3` | — | reasoning | per-token | 1.04858M | $1.75 | $4.499 | $0.438 | — | —/— | — | models.dev official list price |
+| `glm-5.3` | — | reasoning | per-token | 1.04858M | $1.4 | $4.399 | $0.26 | — | —/— | — | models.dev official list price |
 | `glm-5.3-flash` | — | reasoning | per-token | 1.04858M | $0.201 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
 | `glm-5v-turbo` | — | reasoning | per-token | 202.752K | $1.186 | $3.955 | $0.296 | — | —/— | — | models.dev official list price |
 | `gpt-4.1` | — | chat | per-token | 1.04758M | $2.192 | $8.769 | $0.546 | — | —/— | — | models.dev official list price |

@@ -6,8 +6,8 @@
 - 官网: https://api.cortecs.ai/v1/models
 - 定价页: https://api.cortecs.ai/v1/models
 - 币种: USD
-- 数据更新时间: 2026-09-01T09:18:24Z
-- 核实时间: 2026-09-01T09:18:24Z
+- 数据更新时间: 2026-09-02T09:19:49Z
+- 核实时间: 2026-09-02T09:19:49Z
 
 共 **112** 个模型。
 
@@ -48,7 +48,7 @@
 | `glm-5-turbo` | — | reasoning | 按量 | 202.752K | $1.186 | $3.955 | $0.296 | — | —/— | — | models.dev official list price |
 | `glm-5.1` | — | reasoning | 按量 | 202.752K | $1.384 | $4.348 | $0.346 | — | —/— | — | models.dev official list price |
 | `glm-5.2` | — | reasoning | 按量 | 1.04858M | $1.2 | $4.2 | $0.26 | — | —/— | — | models.dev official list price |
-| `glm-5.3` | — | reasoning | 按量 | 1.04858M | $1.75 | $4.499 | $0.438 | — | —/— | — | models.dev official list price |
+| `glm-5.3` | — | reasoning | 按量 | 1.04858M | $1.4 | $4.399 | $0.26 | — | —/— | — | models.dev official list price |
 | `glm-5.3-flash` | — | reasoning | 按量 | 1.04858M | $0.201 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
 | `glm-5v-turbo` | — | reasoning | 按量 | 202.752K | $1.186 | $3.955 | $0.296 | — | —/— | — | models.dev official list price |
 | `gpt-4.1` | — | chat | 按量 | 1.04758M | $2.192 | $8.769 | $0.546 | — | —/— | — | models.dev official list price |

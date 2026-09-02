@@ -1,6 +1,40 @@
 {
-  "schema_version": "26.37.27",
+  "schema_version": "26.38.27",
   "entries": [
+    {
+      "date": "2026-09-02T09:19:49Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "cortecs",
+      "item_id": "glm-5.3",
+      "field": "pricing",
+      "old": {
+        "input.usd": [
+          1.75,
+          1.4
+        ],
+        "output.usd": [
+          4.499,
+          4.399
+        ],
+        "cache_read.usd": [
+          0.438,
+          0.26
+        ]
+      },
+      "new": {
+        "input": {
+          "usd": 1.4
+        },
+        "output": {
+          "usd": 4.399
+        },
+        "cache_read": {
+          "usd": 0.26
+        }
+      },
+      "source": "https://models.dev/api.json"
+    },
     {
       "date": "2026-09-02T06:19:36Z",
       "kind": "add",

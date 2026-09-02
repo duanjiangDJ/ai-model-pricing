@@ -26,7 +26,7 @@
 | [QVAC](providers/qvac.md) | Inference host | 9 | `providers/qvac.json` | 2026-08-30T04:37:49Z |
 | [iFlow](providers/iflowcn.md) | Inference host | 14 | `providers/iflowcn.json` | 2026-08-30T04:37:49Z |
 | [Claudinio](providers/claudinio.md) | Inference host | 2 | `providers/claudinio.json` | 2026-08-30T04:37:49Z |
-| [Cortecs](providers/cortecs.md) | Inference host | 112 | `providers/cortecs.json` | 2026-09-01T09:18:24Z |
+| [Cortecs](providers/cortecs.md) | Inference host | 112 | `providers/cortecs.json` | 2026-09-02T09:19:49Z |
 | [NanoGPT](providers/nano-gpt.md) | Inference host | 689 | `providers/nano-gpt.json` | 2026-09-02T00:19:17Z |
 | [ModelScope](providers/modelscope.md) | Inference host | 7 | `providers/modelscope.json` | 2026-09-02T00:19:17Z |
 | [Synthetic](providers/synthetic.md) | Inference host | 9 | `providers/synthetic.json` | 2026-09-02T00:19:17Z |
