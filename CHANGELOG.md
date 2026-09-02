@@ -16,9 +16,33 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
-## 26.42.27 — 2026-09-02T23:39Z (content update)
+## 26.45.29 — 2026-09-02T23:41Z (content update)
 
-- feat(data): add OpenAI historical models from official pricing.md (gpt-3.5-turbo-*, gpt-4-0613, gpt-4-turbo-2024, davinci-002, babbage-002)
+- feat(data): add OpenAI historical models from official pricing.md + rebuild index counts
+
+## 26.44.29 — 2026-09-02T23:25Z (content update)
+
+- fix(data): deepseek-v4-pro cache_read usd 0.003625->0.044 (official $0.044, was 12x wrong); audit: detect non-uniform dual-currency (single-field conversion bug)
+
+## 26.43.29 — 2026-09-02T21:39Z (content update)
+
+- price sync (5 changes):
+- **openrouter** (+2): `meta/muse-spark-1.3`, `meta/muse-spark-1.3-contributor`
+- **openrouter** (updated 3): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `nvidia/nemotron-3-ultra-550b-a55b`
+
+## 26.42.29 — 2026-09-02T21:04Z (feature update)
+
+- docs(AGENTS): codify sync-writer rule — new providers must emit api_base_url (from source base-url field)
+
+## 26.42.28 — 2026-09-02T21:01Z (feature update)
+
+- fix(sync_modelsdev): emit api_base_url from models.dev 'api' field (was dropped, new providers would fail audit)
+
+## 26.42.27 — 2026-09-02T18:40Z (content update)
+
+- price sync (7 changes):
+- **openrouter** (+2): `google/gemini-3.8-flash`, `google/gemini-3.8-flash:batch`
+- **openrouter** (updated 5): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`, `google/gemini-3.7-flash:batch`, `tencent/hy3`
 
 ## 26.41.27 — 2026-09-02T15:29Z (content update)
 

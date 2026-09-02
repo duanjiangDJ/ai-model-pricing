@@ -16,9 +16,33 @@
 
 ---
 
-## 26.42.27 — 2026-09-02T23:39Z（内容更新）
+## 26.45.29 — 2026-09-02T23:41Z（内容更新）
 
-- 补齐OpenAI官方定价页列出的历史模型到openai.json
+- 补齐OpenAI官方历史模型到openai.json并重建index count
+
+## 26.44.29 — 2026-09-02T23:25Z（内容更新）
+
+- fix(data): 修正 deepseek-v4-pro 缓存读取价 usd 0.003625→0.044（官方 $0.044，原值错 12 倍）；audit 新增非统一双币率检测（单字段换算错）
+
+## 26.43.29 — 2026-09-02T21:39Z（内容更新）
+
+- 价格同步（5 处变更）：
+- **openrouter**（新增 2）：`meta/muse-spark-1.3`, `meta/muse-spark-1.3-contributor`
+- **openrouter**（更新 3）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `nvidia/nemotron-3-ultra-550b-a55b`
+
+## 26.42.29 — 2026-09-02T21:04Z（功能更新）
+
+- docs(AGENTS)：固化同步写入器规则——新建供应商必须带 api_base_url（取自源站 base-url 字段）
+
+## 26.42.28 — 2026-09-02T21:01Z（功能更新）
+
+- fix(sync_modelsdev)：写入 api_base_url（取自 models.dev 'api' 字段），原先被丢弃，新供应商会因缺该字段导致 audit 失败
+
+## 26.42.27 — 2026-09-02T18:40Z（内容更新）
+
+- 价格同步（7 处变更）：
+- **openrouter**（新增 2）：`google/gemini-3.8-flash`, `google/gemini-3.8-flash:batch`
+- **openrouter**（更新 5）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`, `google/gemini-3.7-flash:batch`, `tencent/hy3`
 
 ## 26.41.27 — 2026-09-02T15:29Z（内容更新）
 

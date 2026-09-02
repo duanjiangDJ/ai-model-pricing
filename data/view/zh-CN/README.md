@@ -3,9 +3,9 @@
 > 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/feed/`](../../../data/feed/)。
 > 更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。
 
-- 数据更新时间: 2026-09-02T12:19:54Z
+- 数据更新时间: 2026-09-02T21:20:50Z
 - 覆盖渠道: 190
-- 模型总数: 7506
+- 模型总数: 7510
 - 订阅计划数: 67
 
 ## 供应商列表
@@ -32,7 +32,7 @@
 | [Synthetic](providers/synthetic.md) | 推理托管 | 9 | `providers/synthetic.json` | 2026-09-02T00:19:17Z |
 | [Jalapeno Cloud](providers/jalapeno.md) | 推理托管 | 17 | `providers/jalapeno.json` | 2026-09-02T00:19:17Z |
 | [abliteration.ai](providers/abliteration-ai.md) | 推理托管 | 3 | `providers/abliteration-ai.json` | 2026-09-02T00:19:17Z |
-| [DeepSeek](providers/deepseek.md) | 官方直供 | 5 | `providers/deepseek.json` | 2026-09-02T00:19:21Z |
+| [DeepSeek](providers/deepseek.md) | 官方直供 | 5 | `providers/deepseek.json` | 2026-09-02T23:23:35Z |
 | [GreenPT](providers/greenpt.md) | 推理托管 | 37 | `providers/greenpt.json` | 2026-09-02T00:19:17Z |
 | [Xpersona](providers/xpersona.md) | 推理托管 | 13 | `providers/xpersona.json` | 2026-09-02T00:19:17Z |
 | [Tencent TokenHub](providers/tencent-tokenhub.md) | 推理托管 | 3 | `providers/tencent-tokenhub.json` | 2026-09-02T00:19:17Z |
@@ -201,7 +201,7 @@
 | [百川智能 (Baichuan)](providers/baichuan.md) | 官方直供 | 1 | `providers/baichuan.json` | 2026-08-28T10:02:16.380334Z |
 | [科大讯飞星火 (iFlytek Spark)](providers/iflytek.md) | 官方直供 | 2 | `providers/iflytek.json` | 2026-08-28T10:02:16.380334Z |
 | [零一万物 (01.AI)](providers/lingyiwanwu.md) | 官方直供 | 2 | `providers/lingyiwanwu.json` | 2026-08-28T10:02:16.380334Z |
-| [OpenRouter](providers/openrouter.md) | 聚合站 | 421 | `providers/openrouter.json` | 2026-09-02T12:19:54Z |
+| [OpenRouter](providers/openrouter.md) | 聚合站 | 425 | `providers/openrouter.json` | 2026-09-02T21:20:50Z |
 
 ## 订阅计划
 

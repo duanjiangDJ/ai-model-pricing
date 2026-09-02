@@ -7,8 +7,8 @@
   "homepage": "https://api-docs.deepseek.com/quick_start/pricing",
   "pricing_page": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
   "currency": "USD",
-  "updated_at": "2026-09-02T00:19:21Z",
-  "verified_at": "2026-09-02T00:19:21Z",
+  "updated_at": "2026-09-02T23:23:35Z",
+  "verified_at": "2026-09-02T23:23:35Z",
   "models": [
     {
       "id": "deepseek-chat",
@@ -208,7 +208,7 @@
             "cny": 27.0
           },
           "cache_read": {
-            "usd": 0.003625,
+            "usd": 0.044,
             "cny": 0.3
           },
           "cache_write": {

@@ -89,6 +89,13 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    data for at least one model, (d) add a renderer in `scripts/build_human.py`, (e) add a parser test
    fixture if a page parse is involved, (f) bump VERSION as a feature update. Do not add schema fields
    speculatively — fields only exist when backed by data.
+   **Dual-currency & scale gotcha**: a model's `cny`/`usd` fields across `input/output/cache_read/`
+   `cache_write` must share a single FX rate. A spread >4x between fields means one field got a wrong
+   unit/scale conversion (e.g. `deepseek-v4-pro` `cache_read.usd` was stored as 0.003625 when the
+   official value is $0.044 = cny 0.30 / ~6.8). `audit.py` now flags this class. Note
+   `update_model_prices()`'s `>5x` surge guard SKIPS any correction more than 5x from the stored value —
+   so a badly-stuck wrong value (like that 12x-off cached price) can NEVER self-heal via a sync; fix it
+   manually against the official page and re-run the gate.
 5. **`null` means "not offered / unknown" — never treat as zero.** `0` means free.
 6. Plans: `{id, provider_id, product, plan, category, pricing_model, billing, price_usd, limits, includes, url, verified_at}`.
    `pricing_model` (flat_monthly / flat_yearly / per_seat_monthly / per_seat_yearly / credits / free / custom) is the
@@ -157,6 +164,13 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
   prices under `pricing` and must be scaled ×1e6. A fetcher that reads `pricing` for a
   models.dev entry silently returns no price forever (the “check that never fires” gap).
   When extending the `SOURCES` registry, verify with `python scripts/fetch_official.py <model> --json`.
+
+- **Sync writers must emit every required provider field on a new provider file.**
+  `sync_modelsdev.py` once built new providers without `api_base_url`: models.dev supplies
+  it per-provider under `api` (e.g. `https://openrouter.ai/api/v1`). The audit gate hard-fails
+  on a missing `api_base_url`, so a writer that drops it produces a file that can never merge.
+  New-provider writers take `api_base_url` from the source's own base-url field, and populate
+  `source`/`verified_at`; never emit a provider file without `api_base_url`.
 
 ## Contribution Workflow
 
