@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.35.26 — 2026-09-02T00:54Z (content update)
+
+- fix(fetch_official): models.dev source read wrong key ('pricing' instead of 'cost'), so models.dev prices always came back None — verification source was dead. Read cost (USD per 1M tokens) and surface real prices + 'no price' notes.
+
 ## 26.34.26 — 2026-09-02T00:37Z (content update)
 
 - price sync (64 changes):
