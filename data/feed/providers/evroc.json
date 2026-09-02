@@ -7,8 +7,8 @@
   "homepage": "https://docs.evroc.com/products/think/overview.html",
   "pricing_page": "https://docs.evroc.com/products/think/overview.html",
   "currency": "USD",
-  "updated_at": "2026-09-01T17:00:31Z",
-  "verified_at": "2026-09-01T09:18:24Z",
+  "updated_at": "2026-09-02T00:19:17Z",
+  "verified_at": "2026-09-02T00:19:17Z",
   "models": [
     {
       "id": "KBLab/kb-whisper-large",

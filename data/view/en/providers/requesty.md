@@ -6,10 +6,10 @@
 - Homepage: https://requesty.ai/solution/llm-routing/models
 - Pricing page: https://requesty.ai/solution/llm-routing/models
 - Currency: USD
-- Data updated: 2026-09-01T09:18:24Z
-- Verified: 2026-09-01T09:18:24Z
+- Data updated: 2026-09-02T00:19:17Z
+- Verified: 2026-09-02T00:19:17Z
 
-**142** models in total.
+**144** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -44,7 +44,9 @@
 | `devstral-latest` | — | chat | per-token | 256K | $0.44 | $2.2 | $0.44 | — | —/— | — | models.dev official list price |
 | `devstral-latest@eu` | — | chat | per-token | 256K | $0.44 | $2.2 | $0.44 | — | —/— | — | models.dev official list price |
 | `fugu-ultra` | — | chat | per-token | 1.04858M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
+| `gemini-2.5-flash-lite@eu` | — | reasoning | per-token | 1.04858M | $0.1 | $0.4 | $0.01 | — | —/— | — | models.dev official list price |
 | `gemini-2.5-flash@eu` | — | reasoning | per-token | 1.04858M | $0.3 | $2.5 | $0.075 | — | —/— | — | models.dev official list price |
+| `gemini-2.5-pro@eu` | — | reasoning | per-token | 1.04858M | $1.25 | $10 | $0.31 | — | —/— | — | models.dev official list price |
 | `gemini-3-pro-image` | — | reasoning | per-token | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `gemini-3.1-flash-image` | — | reasoning | per-token | 131.072K | $0.5 | $2 | — | — | —/— | — | models.dev official list price |
 | `gemini-3.1-flash-lite` | — | reasoning | per-token | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |

@@ -7,8 +7,8 @@
   "homepage": "https://fireworks.ai/docs/",
   "pricing_page": "https://fireworks.ai/docs/",
   "currency": "USD",
-  "updated_at": "2026-09-01T09:18:24Z",
-  "verified_at": "2026-09-01T09:18:24Z",
+  "updated_at": "2026-09-02T00:19:17Z",
+  "verified_at": "2026-09-02T00:19:17Z",
   "models": [
     {
       "id": "accounts/fireworks/models/deepseek-v4-flash",
@@ -54,13 +54,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.14
+            "usd": 0.22
           },
           "output": {
-            "usd": 0.28
+            "usd": 0.66
           },
           "cache_read": {
-            "usd": 0.028
+            "usd": 0.007
           },
           "cache_write": null
         },

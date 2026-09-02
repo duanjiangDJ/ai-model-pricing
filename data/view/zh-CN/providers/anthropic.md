@@ -6,14 +6,15 @@
 - 官网: https://docs.anthropic.com/en/docs/about-claude/models
 - 定价页: https://www.anthropic.com/pricing
 - 币种: USD
-- 数据更新时间: 2026-09-01T09:18:24Z
-- 核实时间: 2026-09-01T09:18:24Z
+- 数据更新时间: 2026-09-02T00:19:17Z
+- 核实时间: 2026-09-02T00:19:17Z
 
-共 **16** 个模型。
+共 **17** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `claude-fable-5` | — | chat | 按量 | 1M | $10 | $50 | $1 | $12.5 | $5/$25 | — | GA since 2026-06-09; Mythos-class model made safe for general use. 1M context… |
+| `claude-fable-5-1` | — | reasoning | 按量 | 1M | $10 | $50 | $0.25 | — | —/— | — | models.dev official list price |
 | `claude-haiku-4-5` | — | chat | 按量 | 200K | $1 | $5 | $0.1 | $1.25 | $0.5/$2.5 | — | Full API model ID claude-haiku-4-5-20251001 (dated; released 2025-10-01). 200… |
 | `claude-haiku-4-5-20251001` | — | reasoning | 按量 | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `claude-mythos-5` | ❌ 下线 | chat | 按量 | 1M | $10 | $50 | $1 | $12.5 | $5/$25 | — | NEW / restricted access: not self-serve; available only to approved Project G… |

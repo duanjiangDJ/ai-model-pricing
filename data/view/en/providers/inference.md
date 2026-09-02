@@ -6,8 +6,8 @@
 - Homepage: https://inference.net/models
 - Pricing page: https://inference.net/models
 - Currency: USD
-- Data updated: 2026-09-01T17:00:31Z
-- Verified: 2026-09-01T09:18:24Z
+- Data updated: 2026-09-02T00:19:17Z
+- Verified: 2026-09-02T00:19:17Z
 
 **9** models in total.
 

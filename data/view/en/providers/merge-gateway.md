@@ -6,15 +6,16 @@
 - Homepage: https://docs.merge.dev/merge-gateway
 - Pricing page: https://docs.merge.dev/merge-gateway
 - Currency: USD
-- Data updated: 2026-09-01T17:00:31Z
-- Verified: 2026-09-01T09:18:24Z
+- Data updated: 2026-09-02T00:19:17Z
+- Verified: 2026-09-02T00:19:17Z
 
-**177** models in total.
+**178** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `anthropic/claude-3-7-sonnet-20250219` | — | reasoning | per-token | 200K | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-fable-5` | — | reasoning | per-token | 1M | $10 | $50 | $1 | — | —/— | — | models.dev official list price |
+| `anthropic/claude-fable-5-1` | — | reasoning | per-token | 1M | $10 | $50 | $0.25 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-haiku-4-5-20251001` | — | reasoning | per-token | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-opus-4-1-20250805` | — | reasoning | per-token | 200K | $15 | $75 | $1.5 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-opus-4-20250514` | — | reasoning | per-token | 200K | $15 | $75 | $1.5 | — | —/— | — | models.dev official list price |

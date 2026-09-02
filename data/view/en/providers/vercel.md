@@ -6,10 +6,10 @@
 - Homepage: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - Pricing page: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - Currency: USD
-- Data updated: 2026-09-01T09:18:24Z
-- Verified: 2026-09-01T09:18:24Z
+- Data updated: 2026-09-02T00:19:17Z
+- Verified: 2026-09-02T00:19:17Z
 
-**368** models in total.
+**369** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -63,6 +63,7 @@
 | `amazon/titan-embed-text-v2` | — | embedding | per-token | 8.192K | — | — | — | — | —/— | — | models.dev official list price |
 | `anthropic/claude-3-haiku` | — | chat | per-token | 200K | $0.25 | $1.25 | $0.03 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-fable-5` | — | reasoning | per-token | 1M | $10 | $50 | $1 | — | —/— | — | models.dev official list price |
+| `anthropic/claude-fable-5.1` | — | reasoning | per-token | 1M | $10 | $50 | $0.25 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-haiku-4.5` | — | reasoning | per-token | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-opus-4` | — | reasoning | per-token | 200K | $15 | $75 | $1.5 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-opus-4.5` | — | reasoning | per-token | 200K | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |

@@ -7,8 +7,8 @@
   "homepage": "https://kilo.ai",
   "pricing_page": "https://kilo.ai",
   "currency": "USD",
-  "updated_at": "2026-09-01T09:18:24Z",
-  "verified_at": "2026-09-01T09:18:24Z",
+  "updated_at": "2026-09-02T00:19:17Z",
+  "verified_at": "2026-09-02T00:19:17Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -411,6 +411,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "anthropic/claude-fable-5.1",
+      "name": "Claude Fable 5.1",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 128000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 10
+          },
+          "output": {
+            "usd": 50
+          },
+          "cache_read": {
+            "usd": 0.25
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "anthropic/claude-haiku-4.5",
@@ -2936,6 +2967,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "inception/mercury-2.5-preview",
+      "name": "Inception: Mercury 2.5 Preview",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 260000,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.2
+          },
+          "output": {
+            "usd": 0.75
+          },
+          "cache_read": {
+            "usd": 0.02
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "inclusionai/ling-2.6-1t",
@@ -10144,13 +10206,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.14
+            "usd": 0.0825
           },
           "output": {
-            "usd": 0.58
+            "usd": 0.33
           },
           "cache_read": {
-            "usd": 0.035
+            "usd": 0.020625
           },
           "cache_write": null
         },
@@ -11353,7 +11415,7 @@
             "usd": 50
           },
           "cache_read": {
-            "usd": 1
+            "usd": 0.25
           },
           "cache_write": null
         },
@@ -11475,13 +11537,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.05
+            "usd": 0.04998
           },
           "output": {
-            "usd": 0.16
+            "usd": 0.09996
           },
           "cache_read": {
-            "usd": 0.013
+            "usd": 0.009996
           },
           "cache_write": null
         },

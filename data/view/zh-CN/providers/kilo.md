@@ -6,10 +6,10 @@
 - 官网: https://kilo.ai
 - 定价页: https://kilo.ai
 - 币种: USD
-- 数据更新时间: 2026-09-01T09:18:24Z
-- 核实时间: 2026-09-01T09:18:24Z
+- 数据更新时间: 2026-09-02T00:19:17Z
+- 核实时间: 2026-09-02T00:19:17Z
 
-共 **376** 个模型。
+共 **378** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -26,6 +26,7 @@
 | `anthracite-org/magnum-v4-72b` | — | chat | 按量 | 32.768K | $2.5 | $5 | — | — | —/— | — | models.dev official list price |
 | `anthropic/claude-3-haiku` | — | chat | 按量 | 200K | $0.25 | $1.25 | $0.03 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-fable-5` | — | reasoning | 按量 | 1M | $10 | $50 | $1 | — | —/— | — | models.dev official list price |
+| `anthropic/claude-fable-5.1` | — | reasoning | 按量 | 1M | $10 | $50 | $0.25 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-haiku-4.5` | — | reasoning | 按量 | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-opus-4` | — | reasoning | 按量 | 200K | $15 | $75 | $1.5 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-opus-4.1` | — | reasoning | 按量 | 200K | $15 | $75 | $1.5 | — | —/— | — | models.dev official list price |
@@ -107,6 +108,7 @@
 | `ibm-granite/granite-4.1-8b` | — | chat | 按量 | 131.072K | $0.05 | $0.1 | $0.05 | — | —/— | — | models.dev official list price |
 | `ibm-granite/granite-4.2-8b` | — | reasoning | 按量 | 131.072K | $0.1 | $0.15 | $0.05 | — | —/— | — | models.dev official list price |
 | `inception/mercury-2` | — | reasoning | 按量 | 128K | $0.25 | $0.75 | $0.025 | — | —/— | — | models.dev official list price |
+| `inception/mercury-2.5-preview` | — | reasoning | 按量 | 260K | $0.2 | $0.75 | $0.02 | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-2.6-1t` | — | chat | 按量 | 262.144K | $0.3 | $2.5 | $0.06 | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-2.6-flash` | — | chat | 按量 | 262.144K | $0.1 | $0.3 | $0.02 | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-3.0-flash` | — | reasoning | 按量 | 262.144K | $0.06 | $0.18 | $0.012 | — | —/— | — | models.dev official list price |
@@ -339,7 +341,7 @@
 | `tencent/hy-mt2-1.8b` | — | chat | 按量 | 8.192K | $0.044 | $0.177 | — | — | —/— | — | models.dev official list price |
 | `tencent/hy-mt2-30b-a3b` | — | chat | 按量 | 8.192K | $0.074 | $0.295 | — | — | —/— | — | models.dev official list price |
 | `tencent/hy-mt2-7b` | — | chat | 按量 | 8.192K | $0.074 | $0.295 | — | — | —/— | — | models.dev official list price |
-| `tencent/hy3` | — | reasoning | 按量 | 262.144K | $0.14 | $0.58 | $0.035 | — | —/— | — | models.dev official list price |
+| `tencent/hy3` | — | reasoning | 按量 | 262.144K | $0.0825 | $0.33 | $0.020625 | — | —/— | — | models.dev official list price |
 | `tencent/hy3-preview` | — | reasoning | 按量 | 262.144K | $0.18 | $0.6 | $0.06 | — | —/— | — | models.dev official list price |
 | `tencent/hy3:free` | — | reasoning | 免费 | 262.144K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `tencent/hy4-preview` | — | reasoning | 按量 | 1.04858M | $0.834 | $2.501 | $0.042 | — | —/— | — | models.dev official list price |
@@ -377,11 +379,11 @@
 | `z-ai/glm-5.3` | — | reasoning | 按量 | 1.04858M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5.3-flash` | — | reasoning | 按量 | 1.04858M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5v-turbo` | — | reasoning | 按量 | 202.752K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |
-| `~anthropic/claude-fable-latest` | — | reasoning | 按量 | 1M | $10 | $50 | $1 | — | —/— | — | models.dev official list price |
+| `~anthropic/claude-fable-latest` | — | reasoning | 按量 | 1M | $10 | $50 | $0.25 | — | —/— | — | models.dev official list price |
 | `~anthropic/claude-haiku-latest` | — | reasoning | 按量 | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `~anthropic/claude-opus-latest` | — | reasoning | 按量 | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
 | `~anthropic/claude-sonnet-latest` | — | reasoning | 按量 | 1M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
-| `~deepseek/deepseek-v4-flash-latest` | — | reasoning | 按量 | 1.04858M | $0.05 | $0.16 | $0.013 | — | —/— | — | models.dev official list price |
+| `~deepseek/deepseek-v4-flash-latest` | — | reasoning | 按量 | 1.04858M | $0.04998 | $0.09996 | $0.009996 | — | —/— | — | models.dev official list price |
 | `~google/gemini-flash-latest` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `~google/gemini-pro-latest` | — | reasoning | 按量 | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `~moonshotai/kimi-latest` | — | reasoning | 按量 | 974.842K | $2.55 | $12.75 | $0.256 | — | —/— | — | models.dev official list price |

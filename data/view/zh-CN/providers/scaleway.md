@@ -6,8 +6,8 @@
 - 官网: https://www.scaleway.com/en/docs/generative-apis/
 - 定价页: https://www.scaleway.com/en/docs/generative-apis/
 - 币种: USD
-- 数据更新时间: 2026-09-01T17:00:31Z
-- 核实时间: 2026-09-01T09:18:24Z
+- 数据更新时间: 2026-09-02T00:19:17Z
+- 核实时间: 2026-09-02T00:19:17Z
 
 共 **15** 个模型。
 

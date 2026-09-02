@@ -6,8 +6,8 @@
 - 官网: https://llm.chutes.ai/v1/models
 - 定价页: https://llm.chutes.ai/v1/models
 - 币种: USD
-- 数据更新时间: 2026-09-01T09:18:24Z
-- 核实时间: 2026-09-01T09:18:24Z
+- 数据更新时间: 2026-09-02T00:19:17Z
+- 核实时间: 2026-09-02T00:19:17Z
 
 共 **14** 个模型。
 
@@ -18,7 +18,7 @@
 | `Qwen/Qwen3-32B-TEE` | — | reasoning | 按量 | 40.96K | $0.104 | $0.416 | $0.0104 | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3.5-397B-A17B-TEE` | — | reasoning | 按量 | 262.144K | $0.45 | $3 | $0.045 | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3.6-27B-TEE` | — | reasoning | 按量 | 262.144K | $0.3 | $2 | $0.03 | — | —/— | — | models.dev official list price |
-| `Qwen/Qwen3.8-27B-TEE` | — | reasoning | 按量 | 262.144K | $0.35 | $2.75 | $0.035 | — | —/— | — | models.dev official list price |
+| `Qwen/Qwen3.8-27B-TEE` | — | reasoning | 按量 | 262.144K | $0.32 | $2.5 | $0.032 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V3.2-TEE` | — | reasoning | 按量 | 131.072K | $1 | $1 | $0.1 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Flash-0731-TEE` | — | reasoning | 按量 | 1.04858M | $0.44 | $1.32 | $0.044 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-31B-turbo-TEE` | — | reasoning | 按量 | 131.072K | $0.12 | $0.37 | $0.012 | — | —/— | — | models.dev official list price |

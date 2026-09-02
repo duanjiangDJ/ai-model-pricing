@@ -6,16 +6,17 @@
 - 官网: https://docs.venice.ai
 - 定价页: https://docs.venice.ai
 - 币种: USD
-- 数据更新时间: 2026-09-01T09:18:24Z
-- 核实时间: 2026-09-01T09:18:24Z
+- 数据更新时间: 2026-09-02T00:19:17Z
+- 核实时间: 2026-09-02T00:19:17Z
 
-共 **101** 个模型。
+共 **102** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `aion-labs-aion-3-0` | — | reasoning | 按量 | 128K | $3.75 | $7.5 | $0.9375 | — | —/— | — | models.dev official list price |
 | `aion-labs-aion-3-0-mini` | — | reasoning | 按量 | 128K | $0.875 | $1.75 | $0.225 | — | —/— | — | models.dev official list price |
 | `claude-fable-5` | — | reasoning | 按量 | 1M | $12 | $60 | $1.2 | — | —/— | — | models.dev official list price |
+| `claude-fable-5-1` | — | reasoning | 按量 | 1M | $12 | $60 | $0.3 | — | —/— | — | models.dev official list price |
 | `claude-opus-4-5` | — | reasoning | 按量 | 198K | $6 | $30 | $0.6 | — | —/— | — | models.dev official list price |
 | `claude-opus-4-6` | — | reasoning | 按量 | 1M | $6 | $30 | $0.6 | — | —/— | — | models.dev official list price |
 | `claude-opus-4-7` | — | reasoning | 按量 | 1M | $6 | $30 | $0.6 | — | —/— | — | models.dev official list price |

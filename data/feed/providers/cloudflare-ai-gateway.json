@@ -7,8 +7,8 @@
   "homepage": "https://developers.cloudflare.com/ai-gateway/",
   "pricing_page": "https://developers.cloudflare.com/ai-gateway/",
   "currency": "USD",
-  "updated_at": "2026-09-01T17:00:31Z",
-  "verified_at": "2026-09-01T09:18:24Z",
+  "updated_at": "2026-09-02T00:19:17Z",
+  "verified_at": "2026-09-02T00:19:17Z",
   "models": [
     {
       "id": "alibaba/qwen3-max",

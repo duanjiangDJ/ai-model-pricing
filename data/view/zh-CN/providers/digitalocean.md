@@ -6,10 +6,10 @@
 - 官网: https://docs.digitalocean.com/products/gradient-ai-platform/details/models/
 - 定价页: https://docs.digitalocean.com/products/gradient-ai-platform/details/models/
 - 币种: USD
-- 数据更新时间: 2026-09-01T17:00:31Z
-- 核实时间: 2026-09-01T09:18:24Z
+- 数据更新时间: 2026-09-02T00:19:17Z
+- 核实时间: 2026-09-02T00:19:17Z
 
-共 **94** 个模型。
+共 **95** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -25,6 +25,7 @@
 | `anthropic-claude-4.6-sonnet` | — | reasoning | 按量 | 200K | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `anthropic-claude-5-sonnet` | — | reasoning | 按量 | 1M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
 | `anthropic-claude-fable-5` | — | reasoning | 按量 | 1M | $10 | $50 | $1 | — | —/— | — | models.dev official list price |
+| `anthropic-claude-fable-5.1` | — | reasoning | 按量 | 1M | $10 | $50 | $0.25 | — | —/— | — | models.dev official list price |
 | `anthropic-claude-haiku-4.5` | — | reasoning | 按量 | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `anthropic-claude-opus-4` | — | reasoning | 按量 | 200K | $15 | $75 | $1.5 | — | —/— | — | models.dev official list price |
 | `anthropic-claude-opus-4.5` | — | reasoning | 按量 | 200K | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |

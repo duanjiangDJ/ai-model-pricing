@@ -7,8 +7,8 @@
   "homepage": "https://requesty.ai/solution/llm-routing/models",
   "pricing_page": "https://requesty.ai/solution/llm-routing/models",
   "currency": "USD",
-  "updated_at": "2026-09-01T09:18:24Z",
-  "verified_at": "2026-09-01T09:18:24Z",
+  "updated_at": "2026-09-02T00:19:17Z",
+  "verified_at": "2026-09-02T00:19:17Z",
   "models": [
     {
       "id": "claude-fable-5",
@@ -1003,6 +1003,37 @@
       ]
     },
     {
+      "id": "gemini-2.5-flash-lite@eu",
+      "name": "Gemini 2.5 Flash-Lite (EU)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65535,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.1
+          },
+          "output": {
+            "usd": 0.4
+          },
+          "cache_read": {
+            "usd": 0.01
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "gemini-2.5-flash@eu",
       "name": "Gemini 2.5 Flash (EU)",
       "category": "reasoning",
@@ -1033,6 +1064,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "gemini-2.5-pro@eu",
+      "name": "Gemini 2.5 Pro (EU)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65535,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.25
+          },
+          "output": {
+            "usd": 10
+          },
+          "cache_read": {
+            "usd": 0.31
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "gemini-3-pro-image",

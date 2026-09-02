@@ -6,16 +6,17 @@
 - Homepage: https://docs.venice.ai
 - Pricing page: https://docs.venice.ai
 - Currency: USD
-- Data updated: 2026-09-01T09:18:24Z
-- Verified: 2026-09-01T09:18:24Z
+- Data updated: 2026-09-02T00:19:17Z
+- Verified: 2026-09-02T00:19:17Z
 
-**101** models in total.
+**102** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `aion-labs-aion-3-0` | — | reasoning | per-token | 128K | $3.75 | $7.5 | $0.9375 | — | —/— | — | models.dev official list price |
 | `aion-labs-aion-3-0-mini` | — | reasoning | per-token | 128K | $0.875 | $1.75 | $0.225 | — | —/— | — | models.dev official list price |
 | `claude-fable-5` | — | reasoning | per-token | 1M | $12 | $60 | $1.2 | — | —/— | — | models.dev official list price |
+| `claude-fable-5-1` | — | reasoning | per-token | 1M | $12 | $60 | $0.3 | — | —/— | — | models.dev official list price |
 | `claude-opus-4-5` | — | reasoning | per-token | 198K | $6 | $30 | $0.6 | — | —/— | — | models.dev official list price |
 | `claude-opus-4-6` | — | reasoning | per-token | 1M | $6 | $30 | $0.6 | — | —/— | — | models.dev official list price |
 | `claude-opus-4-7` | — | reasoning | per-token | 1M | $6 | $30 | $0.6 | — | —/— | — | models.dev official list price |

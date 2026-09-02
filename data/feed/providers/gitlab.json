@@ -7,8 +7,8 @@
   "homepage": "https://docs.gitlab.com/user/duo_agent_platform/",
   "pricing_page": "https://docs.gitlab.com/user/duo_agent_platform/",
   "currency": "USD",
-  "updated_at": "2026-09-01T09:18:24Z",
-  "verified_at": "2026-09-01T09:18:24Z",
+  "updated_at": "2026-09-02T00:19:17Z",
+  "verified_at": "2026-09-02T00:19:17Z",
   "models": [
     {
       "id": "duo-chat-fable-5",

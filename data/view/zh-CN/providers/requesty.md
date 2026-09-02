@@ -6,10 +6,10 @@
 - 官网: https://requesty.ai/solution/llm-routing/models
 - 定价页: https://requesty.ai/solution/llm-routing/models
 - 币种: USD
-- 数据更新时间: 2026-09-01T09:18:24Z
-- 核实时间: 2026-09-01T09:18:24Z
+- 数据更新时间: 2026-09-02T00:19:17Z
+- 核实时间: 2026-09-02T00:19:17Z
 
-共 **142** 个模型。
+共 **144** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -44,7 +44,9 @@
 | `devstral-latest` | — | chat | 按量 | 256K | $0.44 | $2.2 | $0.44 | — | —/— | — | models.dev official list price |
 | `devstral-latest@eu` | — | chat | 按量 | 256K | $0.44 | $2.2 | $0.44 | — | —/— | — | models.dev official list price |
 | `fugu-ultra` | — | chat | 按量 | 1.04858M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
+| `gemini-2.5-flash-lite@eu` | — | reasoning | 按量 | 1.04858M | $0.1 | $0.4 | $0.01 | — | —/— | — | models.dev official list price |
 | `gemini-2.5-flash@eu` | — | reasoning | 按量 | 1.04858M | $0.3 | $2.5 | $0.075 | — | —/— | — | models.dev official list price |
+| `gemini-2.5-pro@eu` | — | reasoning | 按量 | 1.04858M | $1.25 | $10 | $0.31 | — | —/— | — | models.dev official list price |
 | `gemini-3-pro-image` | — | reasoning | 按量 | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `gemini-3.1-flash-image` | — | reasoning | 按量 | 131.072K | $0.5 | $2 | — | — | —/— | — | models.dev official list price |
 | `gemini-3.1-flash-lite` | — | reasoning | 按量 | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |

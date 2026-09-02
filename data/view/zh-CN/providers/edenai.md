@@ -6,10 +6,10 @@
 - 官网: https://docs.edenai.co
 - 定价页: https://docs.edenai.co
 - 币种: USD
-- 数据更新时间: 2026-09-01T09:18:24Z
-- 核实时间: 2026-09-01T09:18:24Z
+- 数据更新时间: 2026-09-02T00:19:17Z
+- 核实时间: 2026-09-02T00:19:17Z
 
-共 **248** 个模型。
+共 **251** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -20,7 +20,8 @@
 | `amazon/zai.glm-4.7-flash` | — | reasoning | 按量 | 200K | $0.07 | $0.4 | — | — | —/— | — | models.dev official list price |
 | `amazon/zai.glm-4.7-flash@us` | — | reasoning | 按量 | 200K | $0.07 | $0.4 | — | — | —/— | — | models.dev official list price |
 | `anthropic/claude-fable-5` | — | reasoning | 按量 | 1M | $10 | $50 | $1 | — | —/— | — | models.dev official list price |
-| `anthropic/claude-fable-latest` | — | reasoning | 按量 | 1M | $10 | $50 | $1 | — | —/— | — | models.dev official list price |
+| `anthropic/claude-fable-5-1` | — | reasoning | 按量 | 1M | $10 | $50 | $0.25 | — | —/— | — | models.dev official list price |
+| `anthropic/claude-fable-latest` | — | reasoning | 按量 | 1M | $10 | $50 | $0.25 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-opus-4-5` | — | reasoning | 按量 | 200K | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-opus-4-5-20251101` | — | reasoning | 按量 | 200K | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-opus-4-6` | — | reasoning | 按量 | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
@@ -48,6 +49,8 @@
 | `cohere/command-r-08-2024` | — | chat | 按量 | 128K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
 | `cohere/command-r-plus-08-2024` | — | chat | 按量 | 128K | $2.5 | $10 | — | — | —/— | — | models.dev official list price |
 | `cohere/command-r7b-12-2024` | — | chat | 按量 | 132K | $0.0375 | $0.15 | — | — | —/— | — | models.dev official list price |
+| `databricks/databricks-deepseek-v4-flash-0731` | — | reasoning | 按量 | 1M | $0.14 | $0.28 | $0.028 | — | —/— | — | models.dev official list price |
+| `databricks/databricks-deepseek-v4-pro-0813` | — | reasoning | 按量 | 1M | $1.31999 | $3.95997 | $0.13202 | — | —/— | — | models.dev official list price |
 | `databricks/databricks-gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.15001 | $0.59997 | $0.15001 | — | —/— | — | models.dev official list price |
 | `databricks/databricks-gpt-oss-120b@eu` | — | reasoning | 按量 | 131.072K | $0.15001 | $0.59997 | $0.15001 | — | —/— | — | models.dev official list price |
 | `databricks/databricks-gpt-oss-20b` | — | reasoning | 按量 | 131.072K | $0.07 | $0.30002 | $0.07 | — | —/— | — | models.dev official list price |
@@ -108,14 +111,14 @@
 | `google/gemini-3.5-flash` | — | reasoning | 按量 | 1.04858M | $1.5 | $9 | $0.15 | — | —/— | — | models.dev official list price |
 | `google/gemini-3.5-flash-lite` | — | reasoning | 按量 | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `google/gemini-3.6-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
-| `google/gemini-3.7-flash` | — | reasoning | 按量 | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — | models.dev official list price |
-| `google/gemini-flash-latest` | — | reasoning | 按量 | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — | models.dev official list price |
+| `google/gemini-3.7-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
+| `google/gemini-flash-latest` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `google/gemini-pro-latest` | — | reasoning | 按量 | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `google/lyria-3-clip-preview` | — | chat | 免费 | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `groq/openai/gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.15 | $0.6 | $0.075 | — | —/— | — | models.dev official list price |
 | `groq/openai/gpt-oss-20b` | — | reasoning | 按量 | 131.072K | $0.075 | $0.3 | $0.0375 | — | —/— | — | models.dev official list price |
-| `ionos/meta-llama/Llama-3.3-70B-Instruct` | — | chat | 按量 | 128K | $0.75374 | $0.75374 | — | — | —/— | — | models.dev official list price |
-| `ionos/openai/gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.17394 | $0.75374 | — | — | —/— | — | models.dev official list price |
+| `ionos/meta-llama/Llama-3.3-70B-Instruct` | — | chat | 按量 | 128K | $0.75335 | $0.75335 | — | — | —/— | — | models.dev official list price |
+| `ionos/openai/gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.17385 | $0.75335 | — | — | —/— | — | models.dev official list price |
 | `minimax/MiniMax-M2` | — | reasoning | 按量 | 204.8K | $0.3 | $1.2 | — | — | —/— | — | models.dev official list price |
 | `minimax/MiniMax-M2.1` | — | reasoning | 按量 | 204.8K | $0.3 | $1.2 | $0.03 | — | —/— | — | models.dev official list price |
 | `minimax/MiniMax-M2.5` | — | reasoning | 按量 | 204.8K | $0.3 | $1.2 | $0.03 | — | —/— | — | models.dev official list price |
@@ -207,9 +210,9 @@
 | `qwen/qwen3.8-flash` | — | reasoning | 按量 | 1M | $0.16 | $0.47 | $0.016 | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.8-max` | — | reasoning | 按量 | 1M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
 | `qwen/qwq-plus` | — | reasoning | 按量 | 131.072K | $0.8 | $2.4 | — | — | —/— | — | models.dev official list price |
-| `scaleway/deepseek-v4-flash-0731` | — | reasoning | 按量 | 256K | $0.46384 | $0.92768 | — | — | —/— | — | models.dev official list price |
-| `scaleway/gpt-oss-120b` | — | reasoning | 按量 | 128K | $0.17394 | $0.69576 | — | — | —/— | — | models.dev official list price |
-| `scaleway/llama-3.3-70b-instruct` | — | chat | 按量 | 128K | $1.04364 | $1.04364 | — | — | —/— | — | models.dev official list price |
+| `scaleway/deepseek-v4-flash-0731` | — | reasoning | 按量 | 256K | $0.4636 | $0.9272 | — | — | —/— | — | models.dev official list price |
+| `scaleway/gpt-oss-120b` | — | reasoning | 按量 | 128K | $0.17385 | $0.6954 | — | — | —/— | — | models.dev official list price |
+| `scaleway/llama-3.3-70b-instruct` | — | chat | 按量 | 128K | $1.0431 | $1.0431 | — | — | —/— | — | models.dev official list price |
 | `tensorx/deepseek/deepseek-v4-flash-0731` | — | reasoning | 按量 | 1.04858M | $0.25 | $0.3 | $0.0625 | — | —/— | — | models.dev official list price |
 | `tensorx/deepseek/deepseek-v4-pro-0813` | — | reasoning | 按量 | 1.04858M | $2 | $4 | $0.5 | — | —/— | — | models.dev official list price |
 | `tensorx/moonshotai/kimi-k2.5` | — | reasoning | 按量 | 262.144K | $0.5 | $2.8 | $0.125 | — | —/— | — | models.dev official list price |
@@ -239,10 +242,10 @@
 | `vertex/gemini-3.6-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `vertex/gemini-3.6-flash@eu` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `vertex/gemini-3.6-flash@us` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
-| `vertex/gemini-3.7-flash` | — | reasoning | 按量 | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — | models.dev official list price |
-| `vertex/gemini-3.7-flash@eu` | — | reasoning | 按量 | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — | models.dev official list price |
-| `vertex/gemini-3.7-flash@us` | — | reasoning | 按量 | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — | models.dev official list price |
-| `vertex/gemini-flash-latest` | — | reasoning | 按量 | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — | models.dev official list price |
+| `vertex/gemini-3.7-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
+| `vertex/gemini-3.7-flash@eu` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
+| `vertex/gemini-3.7-flash@us` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
+| `vertex/gemini-flash-latest` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `vertex/gemini-pro-latest` | — | reasoning | 按量 | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `xai/grok-4.20-0309-non-reasoning` | — | chat | 按量 | 1M | $1.25 | $2.5 | $0.2 | — | —/— | — | models.dev official list price |
 | `xai/grok-4.20-0309-reasoning` | — | reasoning | 按量 | 1M | $1.25 | $2.5 | $0.2 | — | —/— | — | models.dev official list price |
