@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.35.26 — 2026-09-02T14:10Z (content update)
+
+- feat(pricing): add off_peak structured field for DeepSeek time-of-day (peak/off-peak) pricing
+
 ## 26.34.26 — 2026-09-02T00:37Z (content update)
 
 - price sync (64 changes):

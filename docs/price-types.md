@@ -70,6 +70,33 @@ Annotation: `scripts/annotate_billing.py` (auto-classify + provider-context fall
 
 ## Price collection rules (must be followed when collecting)
 
+## 7. off_peak — time-of-day (peak / off-peak) pricing
+
+When a vendor prices by hour of day (e.g. DeepSeek), the `pricing` object records the mechanism
+structurally in an `off_peak` field instead of as prose in `notes`:
+
+```json
+"pricing": {
+  "per_mtok": { "input": {...}, "output": {...} },      // = PEAK (standard) tier
+  "off_peak": {
+    "multiplier": 0.5,                                   // off-peak price = per_mtok x multiplier
+    "window": {
+      "peak": { "days": ["mon","tue","wed","thu","fri"], "utc": ["01:00-04:00","06:00-10:00"] },
+      "tz": "UTC",
+      "note": "All other hours are off-peak."
+    }
+  }
+}
+```
+
+- `per_mtok` always holds the **peak (standard)** tier.
+- `off_peak.multiplier` : off-peak price = `per_mtok` x `multiplier` (0.5 = 50% of peak). No redundant
+  price copy is stored — off-peak is fully machine-derivable.
+- `off_peak.window.peak` : the peak window (`days` + UTC hour ranges). All hours outside it are
+  off-peak. Vendors with no time-of-day pricing simply omit `off_peak`.
+
+---
+
 1. **Prices always come from pricing pages / official APIs / official docs** (use the official **English/USD** page when one exists —
    e.g. DeepSeek `quick_start/pricing` EN, Baidu Qianfan INT'L), and every record carries `source_url` and `verified_at` (ISO8601 UTC).
    Never copy CNY amounts into a USD-declared file; if a vendor only publishes CNY prices, set `currency: "CNY"` and explain in `currency_usd_note`.

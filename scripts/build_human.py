@@ -211,16 +211,27 @@ def build_provider_md(provider, lang, channel_labels):
     for m in provider["models"]:
         p = m.get("pricing") or {}
         mt = p.get("per_mtok") or {}
+        _mult = (p.get("off_peak") or {}).get("multiplier")
+
+        def _pf(v, cur):
+            if v is None:
+                return "—"
+            if _mult:
+                off = {k: (x * _mult if x is not None else None) for k, x in v.items()} if isinstance(v, dict) else (v * _mult)
+                return f"{fmt(v, cur)}/{fmt(off, cur)}"
+            return fmt(v, cur)
         batch = p.get("batch") or {}
         other = []
         if p.get("per_image"):
             other.append("per-image")
         if p.get("promo"):
             other.append("🔥 promo" if lang == "en" else "🔥 促销")
+        offpk = p.get("off_peak")
+        if offpk:
+            mult = offpk.get("multiplier")
+            tag = f"⚡ off-peak x{mult:g}" if lang == "en" else f"⚡ 峰谷 x{mult:g}"
+            other.append(tag)
         st = status_label.get(m.get("status"), "")
-        note_low = (m.get("notes") or "").lower()
-        if any(k in note_low for k in ("peak/off-peak", "峰谷", "高峰", "off-peak", "peak tier")):
-            other.append("⚡ peak/off-peak" if lang == "en" else "⚡ 峰谷双档")
         billing = " + ".join(billing_label.get(b, b) for b in (m.get("billing_model") or ["unknown"]))
         notes_disp = (m.get("notes") or "").replace("|", "\\|")
         if len(notes_disp) > 80:
@@ -232,10 +243,10 @@ def build_provider_md(provider, lang, channel_labels):
                 m.get("category", "—"),
                 billing,
                 num_fmt(m.get("context_window")),
-                fmt(mt.get("input"), cur),
-                fmt(mt.get("output"), cur),
-                fmt(mt.get("cache_read"), cur),
-                fmt(mt.get("cache_write"), cur),
+                _pf(mt.get("input"), cur),
+                _pf(mt.get("output"), cur),
+                _pf(mt.get("cache_read"), cur),
+                _pf(mt.get("cache_write"), cur),
                 f"{fmt(batch.get('input'), cur)}/{fmt(batch.get('output'), cur)}",
                 "; ".join(other) or "—",
                 notes_disp or "—",
