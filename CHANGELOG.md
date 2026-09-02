@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.36.27 — 2026-09-02T03:42Z (content update)
+
+- price sync (2 changes):
+- **openrouter** (+1): `~z-ai/glm-flash-latest`
+- **openrouter** (updated 1): `deepseek/deepseek-v4-pro-0813`
+
 ## 26.35.27 — 2026-09-02T03:07Z (feature update)
 
 - fix(audit): hard-fail per_mtok below 1e-4 as per-token-as-per-M unit bug
