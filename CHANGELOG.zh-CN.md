@@ -16,6 +16,10 @@
 
 ---
 
+## 26.35.27 — 2026-09-02T03:07Z（功能更新）
+
+- 修复(audit): per_mtok 低于 1e-4 直接判失败——per-token 被当 per-M 的单位 bug
+
 ## 26.35.26 — 2026-09-02T00:54Z（内容更新）
 
 - 修复 fetch_official：models.dev 源读取了错误的字段（pricing 而非 cost），导致 models.dev 价格始终返回 None（验证源失效）。改为读取 cost（每百万 token 美元价），正确输出真实价格与'无价格'标注。
