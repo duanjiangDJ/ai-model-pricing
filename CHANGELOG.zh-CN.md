@@ -16,6 +16,10 @@
 
 ---
 
+## 26.42.29 — 2026-09-02T21:04Z（功能更新）
+
+- docs(AGENTS)：固化同步写入器规则——新建供应商必须带 api_base_url（取自源站 base-url 字段）
+
 ## 26.42.28 — 2026-09-02T21:01Z（功能更新）
 
 - fix(sync_modelsdev)：写入 api_base_url（取自 models.dev 'api' 字段），原先被丢弃，新供应商会因缺该字段导致 audit 失败

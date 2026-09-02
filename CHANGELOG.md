@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.42.29 — 2026-09-02T21:04Z (feature update)
+
+- docs(AGENTS): codify sync-writer rule — new providers must emit api_base_url (from source base-url field)
+
 ## 26.42.28 — 2026-09-02T21:01Z (feature update)
 
 - fix(sync_modelsdev): emit api_base_url from models.dev 'api' field (was dropped, new providers would fail audit)
