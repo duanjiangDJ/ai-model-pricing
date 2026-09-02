@@ -2,6 +2,48 @@
   "schema_version": "26.43.29",
   "entries": [
     {
+      "date": "2026-09-02T22:16:13Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-pro",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.02747
+          },
+          "output": {
+            "usd": 2.05494
+          },
+          "cache_read": {
+            "usd": 0.0856225
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.87
+          },
+          "output": {
+            "usd": 1.74
+          },
+          "cache_read": {
+            "usd": 0.0725
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models",
+      "note": "review-time re-sync: openrouter price dropped ~18% post-snapshot"
+    },
+    {
       "date": "2026-09-02T21:20:50Z",
       "kind": "add",
       "scope": "model",
