@@ -16,6 +16,12 @@
 
 ---
 
+## 26.43.29 — 2026-09-02T21:39Z（内容更新）
+
+- 价格同步（5 处变更）：
+- **openrouter**（新增 2）：`meta/muse-spark-1.3`, `meta/muse-spark-1.3-contributor`
+- **openrouter**（更新 3）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `nvidia/nemotron-3-ultra-550b-a55b`
+
 ## 26.42.29 — 2026-09-02T21:04Z（功能更新）
 
 - docs(AGENTS)：固化同步写入器规则——新建供应商必须带 api_base_url（取自源站 base-url 字段）
