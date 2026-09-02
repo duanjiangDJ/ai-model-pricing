@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.41.27 — 2026-09-02T15:29Z (content update)
+
+- fix(data): MiniMax-M3 CNY to promo (2.10/8.40) to match USD; audit: catch off-band uniform cny/usd ratio
+
 ## 26.40.27 — 2026-09-02T14:11Z (content update)
 
 - feat(pricing): add off_peak structured field for DeepSeek time-of-day pricing

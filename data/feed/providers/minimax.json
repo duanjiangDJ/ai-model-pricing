@@ -231,11 +231,11 @@
         "per_mtok": {
           "input": {
             "usd": 0.3,
-            "cny": 4.2
+            "cny": 2.1
           },
           "output": {
             "usd": 1.2,
-            "cny": 16.8
+            "cny": 8.4
           },
           "cache_read": {
             "usd": 0.06
@@ -247,7 +247,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | MiniMax official CNY (¥/1M tokens, standard): MiniMax-M3 ≤512k/输入 (permanent 50% promo -> 2.10/8.40). Verified 2026-08-28.",
+      "notes": "models.dev official list price | MiniMax official CNY (¥/1M tokens): MiniMax-M3 permanent 50% promo, current price ¥2.10/8.40 (input/output). US D list 0.6/2.4, promo USD 0.3/1.2. CNY fixed to promo to match USD (was list 4.2/16.8 — mismatch).",
       "billing_model": [
         "pay_per_token"
       ]
