@@ -6,8 +6,8 @@
 - 官网: https://platform.inceptionlabs.ai/docs
 - 定价页: https://platform.inceptionlabs.ai/docs
 - 币种: USD
-- 数据更新时间: 2026-09-01T09:18:24Z
-- 核实时间: 2026-09-01T09:18:24Z
+- 数据更新时间: 2026-09-02T00:19:17Z
+- 核实时间: 2026-09-02T00:19:17Z
 
 共 **2** 个模型。
 

@@ -6,13 +6,14 @@
 - 官网: https://cloud.google.com/vertex-ai/generative-ai/docs/models
 - 定价页: https://cloud.google.com/vertex-ai/generative-ai/docs/models
 - 币种: USD
-- 数据更新时间: 2026-09-01T17:00:31Z
-- 核实时间: 2026-09-01T09:18:24Z
+- 数据更新时间: 2026-09-02T00:19:17Z
+- 核实时间: 2026-09-02T00:19:17Z
 
-共 **43** 个模型。
+共 **44** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| `claude-fable-5-1@default` | — | reasoning | 按量 | 1M | $10 | $50 | $0.25 | — | —/— | — | models.dev official list price |
 | `claude-fable-5@default` | — | reasoning | 按量 | 1M | $10 | $50 | $1 | — | —/— | — | models.dev official list price |
 | `claude-haiku-4-5@20251001` | — | reasoning | 按量 | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `claude-opus-4-1@20250805` | — | reasoning | 按量 | 200K | $15 | $75 | $1.5 | — | —/— | — | models.dev official list price |

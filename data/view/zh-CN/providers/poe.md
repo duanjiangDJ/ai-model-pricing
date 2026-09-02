@@ -6,8 +6,8 @@
 - 官网: https://creator.poe.com/docs/external-applications/openai-compatible-api
 - 定价页: https://creator.poe.com/docs/external-applications/openai-compatible-api
 - 币种: USD
-- 数据更新时间: 2026-09-01T09:18:24Z
-- 核实时间: 2026-09-01T09:18:24Z
+- 数据更新时间: 2026-09-02T00:19:17Z
+- 核实时间: 2026-09-02T00:19:17Z
 
 共 **137** 个模型。
 

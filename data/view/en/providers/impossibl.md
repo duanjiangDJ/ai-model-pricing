@@ -6,8 +6,8 @@
 - Homepage: https://impossibl.com/docs/models
 - Pricing page: https://impossibl.com/docs/models
 - Currency: USD
-- Data updated: 2026-09-01T09:18:24Z
-- Verified: 2026-09-01T09:18:24Z
+- Data updated: 2026-09-02T00:19:17Z
+- Verified: 2026-09-02T00:19:17Z
 
 **76** models in total.
 

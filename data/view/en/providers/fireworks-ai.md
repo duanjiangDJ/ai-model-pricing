@@ -6,15 +6,15 @@
 - Homepage: https://fireworks.ai/docs/
 - Pricing page: https://fireworks.ai/docs/
 - Currency: USD
-- Data updated: 2026-09-01T09:18:24Z
-- Verified: 2026-09-01T09:18:24Z
+- Data updated: 2026-09-02T00:19:17Z
+- Verified: 2026-09-02T00:19:17Z
 
 **25** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `accounts/fireworks/models/deepseek-v4-flash` | — | reasoning | per-token | 1M | $0.14 | $0.28 | $0.028 | — | —/— | — | models.dev official list price |
-| `accounts/fireworks/models/deepseek-v4-flash-0731` | — | reasoning | per-token | 1M | $0.14 | $0.28 | $0.028 | — | —/— | — | models.dev official list price |
+| `accounts/fireworks/models/deepseek-v4-flash-0731` | — | reasoning | per-token | 1M | $0.22 | $0.66 | $0.007 | — | —/— | — | models.dev official list price |
 | `accounts/fireworks/models/deepseek-v4-pro` | — | reasoning | per-token | 1M | $1.74 | $3.48 | $0.145 | — | —/— | — | models.dev official list price |
 | `accounts/fireworks/models/deepseek-v4-pro-0813` | — | reasoning | per-token | 1M | $1.32 | $3.96 | $0.044 | — | —/— | — | models.dev official list price |
 | `accounts/fireworks/models/glm-5p2` | — | reasoning | per-token | 1.04858M | $1.4 | $4.4 | $0.14 | — | —/— | — | models.dev official list price |

@@ -6,10 +6,10 @@
 - 官网: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - 定价页: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - 币种: USD
-- 数据更新时间: 2026-09-01T09:18:24Z
-- 核实时间: 2026-09-01T09:18:24Z
+- 数据更新时间: 2026-09-02T00:19:17Z
+- 核实时间: 2026-09-02T00:19:17Z
 
-共 **368** 个模型。
+共 **369** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -63,6 +63,7 @@
 | `amazon/titan-embed-text-v2` | — | embedding | 按量 | 8.192K | — | — | — | — | —/— | — | models.dev official list price |
 | `anthropic/claude-3-haiku` | — | chat | 按量 | 200K | $0.25 | $1.25 | $0.03 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-fable-5` | — | reasoning | 按量 | 1M | $10 | $50 | $1 | — | —/— | — | models.dev official list price |
+| `anthropic/claude-fable-5.1` | — | reasoning | 按量 | 1M | $10 | $50 | $0.25 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-haiku-4.5` | — | reasoning | 按量 | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-opus-4` | — | reasoning | 按量 | 200K | $15 | $75 | $1.5 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-opus-4.5` | — | reasoning | 按量 | 200K | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |

@@ -7,8 +7,8 @@
   "homepage": "https://llm.chutes.ai/v1/models",
   "pricing_page": "https://llm.chutes.ai/v1/models",
   "currency": "USD",
-  "updated_at": "2026-09-01T09:18:24Z",
-  "verified_at": "2026-09-01T09:18:24Z",
+  "updated_at": "2026-09-02T00:19:17Z",
+  "verified_at": "2026-09-02T00:19:17Z",
   "models": [
     {
       "id": "Nemotron-3-Nano-Omni-30B-TEE",
@@ -182,13 +182,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.35
+            "usd": 0.32
           },
           "output": {
-            "usd": 2.75
+            "usd": 2.5
           },
           "cache_read": {
-            "usd": 0.03499999999999999
+            "usd": 0.031999999999999994
           },
           "cache_write": null
         },

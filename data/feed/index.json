@@ -1,9 +1,9 @@
 {
-  "schema_version": "26.33.26",
-  "generated_at": "2026-09-01T23:38:32Z",
+  "schema_version": "26.34.26",
+  "generated_at": "2026-09-02T00:19:17Z",
   "currency": "USD",
   "provider_count": 189,
-  "model_count": 7480,
+  "model_count": 7497,
   "plan_count": 67,
   "providers": [
     {
@@ -130,9 +130,9 @@
       "id": "nano-gpt",
       "name": "NanoGPT",
       "channel": "hosted",
-      "model_count": 687,
+      "model_count": 689,
       "file": "providers/nano-gpt.json",
-      "updated_at": "2026-09-01T09:18:24Z"
+      "updated_at": "2026-09-02T00:19:17Z"
     },
     {
       "id": "modelscope",
@@ -218,9 +218,9 @@
       "id": "google-vertex",
       "name": "Vertex",
       "channel": "hosted",
-      "model_count": 43,
+      "model_count": 44,
       "file": "providers/google-vertex.json",
-      "updated_at": "2026-08-22T09:32:50Z"
+      "updated_at": "2026-09-02T00:19:17Z"
     },
     {
       "id": "alibaba-token-plan",
@@ -410,9 +410,9 @@
       "id": "anthropic",
       "name": "Anthropic",
       "channel": "first_party",
-      "model_count": 16,
+      "model_count": 17,
       "file": "providers/anthropic.json",
-      "updated_at": "2026-08-21T12:11:53Z"
+      "updated_at": "2026-09-02T00:19:17Z"
     },
     {
       "id": "cohere",
@@ -610,9 +610,9 @@
       "id": "merge-gateway",
       "name": "Merge Gateway",
       "channel": "aggregator",
-      "model_count": 177,
+      "model_count": 178,
       "file": "providers/merge-gateway.json",
-      "updated_at": "2026-09-01T09:18:24Z"
+      "updated_at": "2026-09-02T00:19:17Z"
     },
     {
       "id": "inceptron",
@@ -682,9 +682,9 @@
       "id": "digitalocean",
       "name": "DigitalOcean",
       "channel": "hosted",
-      "model_count": 94,
+      "model_count": 95,
       "file": "providers/digitalocean.json",
-      "updated_at": "2026-08-30T04:37:49Z"
+      "updated_at": "2026-09-02T00:19:17Z"
     },
     {
       "id": "alibaba-coding-plan-cn",
@@ -978,9 +978,9 @@
       "id": "requesty",
       "name": "Requesty",
       "channel": "hosted",
-      "model_count": 142,
+      "model_count": 144,
       "file": "providers/requesty.json",
-      "updated_at": "2026-08-29T12:52:50Z"
+      "updated_at": "2026-09-02T00:19:17Z"
     },
     {
       "id": "siliconflow",
@@ -1018,9 +1018,9 @@
       "id": "azure",
       "name": "Azure",
       "channel": "hosted",
-      "model_count": 84,
+      "model_count": 85,
       "file": "providers/azure.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-09-02T00:19:17Z"
     },
     {
       "id": "trustedrouter",
@@ -1178,17 +1178,17 @@
       "id": "vercel",
       "name": "Vercel AI Gateway",
       "channel": "aggregator",
-      "model_count": 368,
+      "model_count": 369,
       "file": "providers/vercel.json",
-      "updated_at": "2026-09-01T09:18:24Z"
+      "updated_at": "2026-09-02T00:19:17Z"
     },
     {
       "id": "edenai",
       "name": "Eden AI",
       "channel": "hosted",
-      "model_count": 248,
+      "model_count": 251,
       "file": "providers/edenai.json",
-      "updated_at": "2026-09-01T09:18:24Z"
+      "updated_at": "2026-09-02T00:19:17Z"
     },
     {
       "id": "novita-ai",
@@ -1210,9 +1210,9 @@
       "id": "llmgateway",
       "name": "DevPass (LLM Gateway)",
       "channel": "aggregator",
-      "model_count": 560,
+      "model_count": 561,
       "file": "providers/llmgateway.json",
-      "updated_at": "2026-08-29T12:52:50Z"
+      "updated_at": "2026-09-02T00:19:17Z"
     },
     {
       "id": "chutes",
@@ -1330,9 +1330,9 @@
       "id": "kilo",
       "name": "Kilo Gateway",
       "channel": "aggregator",
-      "model_count": 376,
+      "model_count": 378,
       "file": "providers/kilo.json",
-      "updated_at": "2026-09-01T09:18:24Z"
+      "updated_at": "2026-09-02T00:19:17Z"
     },
     {
       "id": "pioneer",
@@ -1346,9 +1346,9 @@
       "id": "venice",
       "name": "Venice AI",
       "channel": "hosted",
-      "model_count": 101,
+      "model_count": 102,
       "file": "providers/venice.json",
-      "updated_at": "2026-08-27T00:36:47Z"
+      "updated_at": "2026-09-02T00:19:17Z"
     },
     {
       "id": "fireworks-ai",
@@ -1526,7 +1526,7 @@
       "channel": "aggregator",
       "model_count": 419,
       "file": "providers/openrouter.json",
-      "updated_at": "2026-09-01T23:38:32Z"
+      "updated_at": "2026-09-02T00:19:17Z"
     }
   ]
 }

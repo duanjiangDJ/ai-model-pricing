@@ -6,8 +6,8 @@
 - Homepage: https://llm.chutes.ai/v1/models
 - Pricing page: https://llm.chutes.ai/v1/models
 - Currency: USD
-- Data updated: 2026-09-01T09:18:24Z
-- Verified: 2026-09-01T09:18:24Z
+- Data updated: 2026-09-02T00:19:17Z
+- Verified: 2026-09-02T00:19:17Z
 
 **14** models in total.
 
@@ -18,7 +18,7 @@
 | `Qwen/Qwen3-32B-TEE` | — | reasoning | per-token | 40.96K | $0.104 | $0.416 | $0.0104 | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3.5-397B-A17B-TEE` | — | reasoning | per-token | 262.144K | $0.45 | $3 | $0.045 | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3.6-27B-TEE` | — | reasoning | per-token | 262.144K | $0.3 | $2 | $0.03 | — | —/— | — | models.dev official list price |
-| `Qwen/Qwen3.8-27B-TEE` | — | reasoning | per-token | 262.144K | $0.35 | $2.75 | $0.035 | — | —/— | — | models.dev official list price |
+| `Qwen/Qwen3.8-27B-TEE` | — | reasoning | per-token | 262.144K | $0.32 | $2.5 | $0.032 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V3.2-TEE` | — | reasoning | per-token | 131.072K | $1 | $1 | $0.1 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Flash-0731-TEE` | — | reasoning | per-token | 1.04858M | $0.44 | $1.32 | $0.044 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-31B-turbo-TEE` | — | reasoning | per-token | 131.072K | $0.12 | $0.37 | $0.012 | — | —/— | — | models.dev official list price |

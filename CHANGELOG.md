@@ -16,6 +16,33 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.34.26 — 2026-09-02T00:37Z (content update)
+
+- price sync (64 changes):
+- **alibaba** (updated 14): `qwen3.7-plus`, `qwen3.6-flash`, `qwen-vl-ocr`, `qwen3.6-35b-a3b`, `qwen3-next-80b-a3b-thinking`, `qwen3-next-80b-a3b-instruct`, `qwen3-32b` — in $0.72 out $0.72; in $0.7 out $2.8; in $0.5 out $2; in $0.5 out $6; in $0.248 out $1.485; in $0.1875 out $1.125; in $0.5 out $3
+- **anthropic** (+1): `claude-fable-5-1`
+- **azure** (+1): `claude-fable-5-1`
+- **chutes** (updated 1): `Qwen/Qwen3.8-27B-TEE` — in $0.32 out $2.5 cache $0.032
+- **deepseek** (updated 6): `deepseek-v4-flash`, `deepseek-v4-pro`, `deepseek-v4-flash-vision-exp` — in $0.14 out $0.28 cache $0.0028; in $0.435 out $0.87
+- **digitalocean** (+1): `anthropic-claude-fable-5.1`
+- **edenai** (+3): `anthropic/claude-fable-5-1`, `databricks/databricks-deepseek-v4-flash-0731`, `databricks/databricks-deepseek-v4-pro-0813`
+- **edenai** (updated 12): `anthropic/claude-fable-latest`, `google/gemini-3.7-flash`, `google/gemini-flash-latest`, `ionos/meta-llama/Llama-3.3-70B-Instruct`, `ionos/openai/gpt-oss-120b`, `scaleway/deepseek-v4-flash-0731`, `scaleway/gpt-oss-120b`, `scaleway/llama-3.3-70b-instruct`, `vertex/gemini-3.7-flash`, `vertex/gemini-3.7-flash@eu`, `vertex/gemini-3.7-flash@us`, `vertex/gemini-flash-latest` — cache $0.25; in $0.75 out $3.75 cache $0.075; in $0.75335 out $0.75335; in $0.17385 out $0.75335; in $0.4636 out $0.9272; in $0.17385 out $0.6954; in $1.0431 out $1.0431
+- **fireworks-ai** (updated 1): `accounts/fireworks/models/deepseek-v4-flash-0731` — in $0.22 out $0.66 cache $0.007
+- **google-vertex** (+1): `claude-fable-5-1@default`
+- **hyper** (updated 3): `gpt-oss-120b`, `kimi-k2.5`, `minimax-m2.7` — in $0.19 out $0.63; in $0.5504 out $2.885; in $0.404 out $1.496
+- **kilo** (+2): `anthropic/claude-fable-5.1`, `inception/mercury-2.5-preview`
+- **kilo** (updated 3): `tencent/hy3`, `~anthropic/claude-fable-latest`, `~deepseek/deepseek-v4-flash-latest` — in $0.0825 out $0.33 cache $0.020625; cache $0.25; in $0.04998 out $0.09996 cache $0.009996
+- **llmgateway** (+1): `claude-fable-5-1`
+- **merge-gateway** (+1): `anthropic/claude-fable-5-1`
+- **minimax** (updated 2): `MiniMax-M2.5-highspeed` — cache $0.06
+- **mistral** (updated 4): `ministral-3b-latest`, `ministral-8b-latest` — in $0.04 out $0.04; in $0.1 out $0.1
+- **nano-gpt** (+2): `anthropic/claude-fable-5.1`, `inception/mercury-2.5-preview`
+- **nano-gpt** (updated 1): `deepseek/deepseek-v4-flash-vision-exp` — in $0.22 out $0.66 cache $0.007
+- **openrouter** (updated 9): `deepseek/deepseek-chat-v3.1`, `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `nvidia/nemotron-3-ultra-550b-a55b`, `qwen/qwen3.8-2.4t-a95b`, `qwen/qwen3.8-2.4t-a95b:batch`, `tencent/hy3`, `z-ai/glm-5.2`, `~deepseek/deepseek-v4-flash-latest`
+- **requesty** (+2): `gemini-2.5-flash-lite@eu`, `gemini-2.5-pro@eu`
+- **venice** (+1): `claude-fable-5-1`
+- **vercel** (+1): `anthropic/claude-fable-5.1`
+
 ## 26.33.26 — 2026-09-01T23:39Z (content update)
 
 - fix(openrouter): per-token image value misfiled as per-image price; image is billed per-token

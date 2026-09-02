@@ -6,8 +6,8 @@
 - Homepage: https://platform.openai.com/docs/models
 - Pricing page: https://openai.com/chatgpt/pricing/
 - Currency: USD
-- Data updated: 2026-09-01T17:00:31Z
-- Verified: 2026-09-01T10:11:15.903336+00:00
+- Data updated: 2026-09-02T00:19:17Z
+- Verified: 2026-09-02T00:19:17Z
 
 **47** models in total.
 

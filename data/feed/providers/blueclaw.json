@@ -7,8 +7,8 @@
   "homepage": "https://blueclaw.network",
   "pricing_page": "https://blueclaw.network",
   "currency": "USD",
-  "updated_at": "2026-09-01T09:18:24Z",
-  "verified_at": "2026-09-01T09:18:24Z",
+  "updated_at": "2026-09-02T00:19:17Z",
+  "verified_at": "2026-09-02T00:19:17Z",
   "models": [
     {
       "id": "Qwen/Qwen3.6-35B-A3B-FP8",

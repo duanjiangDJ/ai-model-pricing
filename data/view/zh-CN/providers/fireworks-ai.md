@@ -6,15 +6,15 @@
 - 官网: https://fireworks.ai/docs/
 - 定价页: https://fireworks.ai/docs/
 - 币种: USD
-- 数据更新时间: 2026-09-01T09:18:24Z
-- 核实时间: 2026-09-01T09:18:24Z
+- 数据更新时间: 2026-09-02T00:19:17Z
+- 核实时间: 2026-09-02T00:19:17Z
 
 共 **25** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `accounts/fireworks/models/deepseek-v4-flash` | — | reasoning | 按量 | 1M | $0.14 | $0.28 | $0.028 | — | —/— | — | models.dev official list price |
-| `accounts/fireworks/models/deepseek-v4-flash-0731` | — | reasoning | 按量 | 1M | $0.14 | $0.28 | $0.028 | — | —/— | — | models.dev official list price |
+| `accounts/fireworks/models/deepseek-v4-flash-0731` | — | reasoning | 按量 | 1M | $0.22 | $0.66 | $0.007 | — | —/— | — | models.dev official list price |
 | `accounts/fireworks/models/deepseek-v4-pro` | — | reasoning | 按量 | 1M | $1.74 | $3.48 | $0.145 | — | —/— | — | models.dev official list price |
 | `accounts/fireworks/models/deepseek-v4-pro-0813` | — | reasoning | 按量 | 1M | $1.32 | $3.96 | $0.044 | — | —/— | — | models.dev official list price |
 | `accounts/fireworks/models/glm-5p2` | — | reasoning | 按量 | 1.04858M | $1.4 | $4.4 | $0.14 | — | —/— | — | models.dev official list price |

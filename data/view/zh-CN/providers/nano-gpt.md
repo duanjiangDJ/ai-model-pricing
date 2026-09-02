@@ -6,10 +6,10 @@
 - 官网: https://docs.nano-gpt.com
 - 定价页: https://docs.nano-gpt.com
 - 币种: USD
-- 数据更新时间: 2026-09-01T09:18:24Z
-- 核实时间: 2026-09-01T09:18:24Z
+- 数据更新时间: 2026-09-02T00:19:17Z
+- 核实时间: 2026-09-02T00:19:17Z
 
-共 **687** 个模型。
+共 **689** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -126,6 +126,7 @@
 | `anthracite-org/magnum-v2-72b` | — | chat | 按量 | 16.384K | $2.006 | $2.992 | $1.003 | — | —/— | — | models.dev official list price |
 | `anthracite-org/magnum-v4-72b` | — | chat | 按量 | 16.384K | $2.006 | $2.992 | $1.003 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-fable-5` | — | reasoning | 按量 | 1M | $10 | $50 | $1 | — | —/— | — | models.dev official list price |
+| `anthropic/claude-fable-5.1` | — | reasoning | 按量 | 1M | $10 | $50 | $0.25 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-fable-latest` | — | reasoning | 按量 | 1M | $10 | $50 | $1 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-haiku-latest` | — | reasoning | 按量 | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-opus-4.6` | — | reasoning | 按量 | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
@@ -224,7 +225,7 @@
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | 按量 | 1M | $0.14 | $0.28 | $0.014 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash-0731:thinking` | — | reasoning | 按量 | 1M | $0.14 | $0.28 | $0.014 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash-latest` | — | reasoning | 按量 | 1.04858M | $0.14 | $0.28 | $0.014 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 按量 | 1.04858M | $0.44 | $1.32 | $0.014 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 按量 | 1.04858M | $0.22 | $0.66 | $0.007 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash:thinking` | — | reasoning | 按量 | 1.04858M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | 按量 | 1.04858M | $1.1 | $2.2 | $0.11 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | 按量 | 1.04858M | $1.1 | $2.5 | $0.04 | — | —/— | — | models.dev official list price |
@@ -349,6 +350,7 @@
 | `hunyuan-turbos-20250226` | — | chat | 按量 | 24K | $0.187 | $0.374 | $0.0935 | — | —/— | — | models.dev official list price |
 | `ibm-granite/granite-4.1-8b` | — | chat | 按量 | 131.072K | $0.05 | $0.1 | $0.05 | — | —/— | — | models.dev official list price |
 | `ibm-granite/granite-4.2-8b` | — | reasoning | 按量 | 131.072K | $0.1 | $0.15 | $0.05 | — | —/— | — | models.dev official list price |
+| `inception/mercury-2.5-preview` | — | reasoning | 按量 | 260K | $0.04 | $0.15 | $0.004 | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-2.6-1t` | — | chat | 按量 | 262.144K | $0.3 | $2.5 | $0.06 | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-2.6-flash` | — | chat | 按量 | 262.144K | $0.1 | $0.3 | $0.02 | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-3.0-flash` | — | chat | 按量 | 262.144K | $0.075 | $0.22 | $0.015 | — | —/— | — | models.dev official list price |
