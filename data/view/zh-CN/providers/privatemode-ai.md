@@ -17,6 +17,6 @@
 | `gpt-oss-120b` | — | reasoning | 按量 | 128K | $0.4969 | $1.9644 | $0.0462 | — | —/— | — | models.dev official list price |
 | `kimi-k2.6` | — | reasoning | 按量 | 256K | $1.791 | $8.9436 | $0.1733 | — | —/— | — | models.dev official list price |
 | `kimi-latest` | — | reasoning | 按量 | 256K | $1.791 | $8.9436 | $0.1733 | — | —/— | — | models.dev official list price |
-| `qwen3-embedding-4b` | — | embedding | 按量 + 免费 | 32K | $0.1502 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `voxtral-mini-3b` | — | chat | 按量 + 免费 | 32K | $0.00462 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `whisper-large-v3` | — | chat | 按量 + 免费 | 448 | $0.01618 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `qwen3-embedding-4b` | — | embedding | 按量 | 32K | $0.1502 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `voxtral-mini-3b` | — | chat | 按量 | 32K | $0.00462 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `whisper-large-v3` | — | chat | 按量 | 448 | $0.01618 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

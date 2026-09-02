@@ -13,7 +13,7 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `glm-5.2-fp4` | — | reasoning | per-token + free | 1.04858M | $1.12 | $4.4 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `glm-5.2-fp4` | — | reasoning | per-token | 1.04858M | $1.12 | $4.4 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `glm-5.3-fp4` | — | reasoning | per-token | 1.04858M | $1.12 | $4.4 | $0 | — | —/— | — | models.dev official list price |
-| `gpt-oss-120b` | — | reasoning | per-token + free | 131.072K | $0.12 | $0.6 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `kimi-k3` | — | reasoning | per-token + free | 1.04858M | $3 | $15 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `gpt-oss-120b` | — | reasoning | per-token | 131.072K | $0.12 | $0.6 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `kimi-k3` | — | reasoning | per-token | 1.04858M | $3 | $15 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

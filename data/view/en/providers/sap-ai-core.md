@@ -16,7 +16,7 @@
 | `amazon--nova-lite` | — | reasoning | per-token | 1M | $0.3 | $2.37 | — | — | —/— | — | models.dev official list price |
 | `amazon--nova-micro` | — | chat | per-token | 128K | $0.03 | $0.1 | — | — | —/— | — | models.dev official list price |
 | `amazon--nova-pro` | — | chat | per-token | 300K | $0.56 | $2.13 | — | — | —/— | — | models.dev official list price |
-| `amazon--titan-embed-text` | — | embedding | per-token + free | 8.192K | $0.14 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `amazon--titan-embed-text` | — | embedding | per-token | 8.192K | $0.14 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `anthropic--claude-3-haiku` | — | chat | per-token | 200K | $0.25 | $1.25 | $0.03 | — | —/— | — | models.dev official list price |
 | `anthropic--claude-3-opus` | — | chat | per-token | 200K | $15 | $75 | $1.5 | — | —/— | — | models.dev official list price |
 | `anthropic--claude-3-sonnet` | — | chat | per-token | 200K | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
@@ -54,10 +54,10 @@
 | `mistralai--mistral-medium` | — | reasoning | per-token | 262.144K | — | — | — | — | —/— | — | models.dev official list price |
 | `mistralai--mistral-medium-instruct` | — | chat | per-token | 128K | $0.36 | $1.22 | — | — | —/— | — | models.dev official list price |
 | `mistralai--mistral-small` | — | reasoning | per-token | 128K | $0.07 | $0.28 | — | — | —/— | — | models.dev official list price |
-| `nvidia--llama-3.2-nv-embedqa-1b` | — | embedding | per-token + free | 8.192K | $0.07 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `nvidia--llama-3.2-nv-embedqa-1b` | — | embedding | per-token | 8.192K | $0.07 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `sap-abap-1` | — | chat | per-token | 32.768K | $0.48 | $1.7 | — | — | —/— | — | models.dev official list price |
 | `sonar` | — | chat | per-token | 128K | $1 | $1 | — | — | —/— | — | models.dev official list price |
 | `sonar-deep-research` | — | reasoning | per-token | 128K | $2 | $8 | — | — | —/— | — | models.dev official list price |
 | `sonar-pro` | — | chat | per-token | 200K | $3 | $15 | — | — | —/— | — | models.dev official list price |
-| `text-embedding-3-large` | — | embedding | per-token + free | 8.191K | $0.09 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `text-embedding-3-small` | — | embedding | per-token + free | 8.191K | $0.02 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `text-embedding-3-large` | — | embedding | per-token | 8.191K | $0.09 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `text-embedding-3-small` | — | embedding | per-token | 8.191K | $0.02 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

@@ -66,8 +66,7 @@
       },
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
-        "pay_per_token",
-        "free"
+        "pay_per_token"
       ]
     },
     {
@@ -1465,8 +1464,7 @@
       },
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
-        "pay_per_token",
-        "free"
+        "pay_per_token"
       ]
     },
     {
@@ -1497,8 +1495,7 @@
       "notes": "models.dev official list price ⚠ Listed in OpenAI official deprecations page (2026-08-10) — likely deprecated/retired; verify before use. | Free model (per_mtok = 0).",
       "status": "offline",
       "billing_model": [
-        "pay_per_token",
-        "free"
+        "pay_per_token"
       ]
     },
     {
@@ -1528,8 +1525,7 @@
       },
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
-        "pay_per_token",
-        "free"
+        "pay_per_token"
       ]
     }
   ],

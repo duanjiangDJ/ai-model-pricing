@@ -238,7 +238,7 @@
 | `google-vertex/gemini-3.5-flash-lite` | — | reasoning | 按量 | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `google-vertex/gemini-3.6-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `google-vertex/gemini-3.7-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
-| `gpt-3.5-turbo` | — | chat | 按量 + 免费 | 16.385K | $0.5 | $1.5 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `gpt-3.5-turbo` | — | chat | 按量 | 16.385K | $0.5 | $1.5 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gpt-4` | — | chat | 按量 | 8.192K | $30 | $60 | — | — | —/— | — | models.dev official list price |
 | `gpt-4-turbo` | — | chat | 按量 | 128K | $10 | $30 | — | — | —/— | — | models.dev official list price |
 | `gpt-4.1` | — | chat | 按量 | 1M | $2 | $8 | $0.5 | — | —/— | — | models.dev official list price |

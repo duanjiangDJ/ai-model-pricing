@@ -40,8 +40,8 @@
 | `gemini-3.5-live-translate-preview` | — | chat | per-token | 16.384K | $3.5 | $21 | — | — | —/— | — | models.dev official list price |
 | `gemini-3.6-flash` | — | chat | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | $0.375/$1.875 | — | Introductory pricing through 2026-12-31: input $0.75 / output $3.75 / cache $… |
 | `gemini-3.7-flash` | — | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | $0.375/$1.875 | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
-| `gemini-embedding-001` | — | embedding | per-token + free | — | $0.15 | $0 | — | — | $0.075/— | — | Text-only embedding model (gemini-embedding-001). Input billed at $0.15/1M to… |
-| `gemini-embedding-2` | — | embedding | per-token + free | — | $0.2 | $0 | — | — | $0.1/— | — | Multimodal embedding model (gemini-embedding-2, endpoint gemini-embedding-2-p… |
+| `gemini-embedding-001` | — | embedding | per-token | — | $0.15 | $0 | — | — | $0.075/— | — | Text-only embedding model (gemini-embedding-001). Input billed at $0.15/1M to… |
+| `gemini-embedding-2` | — | embedding | per-token | — | $0.2 | $0 | — | — | $0.1/— | — | Multimodal embedding model (gemini-embedding-2, endpoint gemini-embedding-2-p… |
 | `gemini-flash-latest` | — | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `gemini-flash-lite-latest` | — | reasoning | per-token | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `gemini-omni-flash-preview` | — | reasoning | per-token | 131.072K | $1.5 | $17.5 | — | — | —/— | — | models.dev official list price |

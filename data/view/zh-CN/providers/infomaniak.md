@@ -15,7 +15,7 @@
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `Qwen/Qwen3.5-122B-A10B-FP8` | — | reasoning | 按量 | 200K | $0.5 | $3.97 | — | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3.5-397B-A17B-FP8` | — | reasoning | 按量 | 200K | $0.99 | $4.46 | — | — | —/— | — | models.dev official list price |
-| `bge_multilingual_gemma2` | — | chat | 按量 + 免费 | 8K | $0.08 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `bge_multilingual_gemma2` | — | chat | 按量 | 8K | $0.08 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `google/gemma-4-31B-it` | — | reasoning | 按量 | 100K | $0.25 | $0.5 | — | — | —/— | — | models.dev official list price |
 | `mini_lm_l12_v2` | — | chat | 免费 | 128 | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `mistralai/Ministral-3-14B-Instruct-2512` | — | chat | 按量 | 100K | $0.37 | $0.5 | — | — | —/— | — | models.dev official list price |

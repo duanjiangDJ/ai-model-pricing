@@ -16,7 +16,7 @@
 | `amazon--nova-lite` | — | reasoning | 按量 | 1M | $0.3 | $2.37 | — | — | —/— | — | models.dev official list price |
 | `amazon--nova-micro` | — | chat | 按量 | 128K | $0.03 | $0.1 | — | — | —/— | — | models.dev official list price |
 | `amazon--nova-pro` | — | chat | 按量 | 300K | $0.56 | $2.13 | — | — | —/— | — | models.dev official list price |
-| `amazon--titan-embed-text` | — | embedding | 按量 + 免费 | 8.192K | $0.14 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `amazon--titan-embed-text` | — | embedding | 按量 | 8.192K | $0.14 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `anthropic--claude-3-haiku` | — | chat | 按量 | 200K | $0.25 | $1.25 | $0.03 | — | —/— | — | models.dev official list price |
 | `anthropic--claude-3-opus` | — | chat | 按量 | 200K | $15 | $75 | $1.5 | — | —/— | — | models.dev official list price |
 | `anthropic--claude-3-sonnet` | — | chat | 按量 | 200K | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
@@ -54,10 +54,10 @@
 | `mistralai--mistral-medium` | — | reasoning | 按量 | 262.144K | — | — | — | — | —/— | — | models.dev official list price |
 | `mistralai--mistral-medium-instruct` | — | chat | 按量 | 128K | $0.36 | $1.22 | — | — | —/— | — | models.dev official list price |
 | `mistralai--mistral-small` | — | reasoning | 按量 | 128K | $0.07 | $0.28 | — | — | —/— | — | models.dev official list price |
-| `nvidia--llama-3.2-nv-embedqa-1b` | — | embedding | 按量 + 免费 | 8.192K | $0.07 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `nvidia--llama-3.2-nv-embedqa-1b` | — | embedding | 按量 | 8.192K | $0.07 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `sap-abap-1` | — | chat | 按量 | 32.768K | $0.48 | $1.7 | — | — | —/— | — | models.dev official list price |
 | `sonar` | — | chat | 按量 | 128K | $1 | $1 | — | — | —/— | — | models.dev official list price |
 | `sonar-deep-research` | — | reasoning | 按量 | 128K | $2 | $8 | — | — | —/— | — | models.dev official list price |
 | `sonar-pro` | — | chat | 按量 | 200K | $3 | $15 | — | — | —/— | — | models.dev official list price |
-| `text-embedding-3-large` | — | embedding | 按量 + 免费 | 8.191K | $0.09 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `text-embedding-3-small` | — | embedding | 按量 + 免费 | 8.191K | $0.02 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `text-embedding-3-large` | — | embedding | 按量 | 8.191K | $0.09 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `text-embedding-3-small` | — | embedding | 按量 | 8.191K | $0.02 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

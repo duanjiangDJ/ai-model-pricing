@@ -45,7 +45,7 @@
 | `gemini-3.5-flash-lite` | — | reasoning | 按量 | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `gemini-3.6-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `gemini-3.7-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
-| `gemini-embedding-001` | — | embedding | 按量 + 免费 | 2.048K | $0.15 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `gemini-embedding-001` | — | embedding | 按量 | 2.048K | $0.15 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gemini-flash-latest` | — | reasoning | 按量 | 1.04858M | $1.5 | $9 | $0.15 | — | —/— | — | models.dev official list price |
 | `gemini-flash-lite-latest` | — | reasoning | 按量 | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |
 | `meta/llama-3.3-70b-instruct-maas` | — | chat | 按量 | 128K | $0.72 | $0.72 | — | — | —/— | — | models.dev official list price |

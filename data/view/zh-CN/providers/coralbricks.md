@@ -13,7 +13,7 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `glm-5.2-fp4` | — | reasoning | 按量 + 免费 | 1.04858M | $1.12 | $4.4 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `glm-5.2-fp4` | — | reasoning | 按量 | 1.04858M | $1.12 | $4.4 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `glm-5.3-fp4` | — | reasoning | 按量 | 1.04858M | $1.12 | $4.4 | $0 | — | —/— | — | models.dev official list price |
-| `gpt-oss-120b` | — | reasoning | 按量 + 免费 | 131.072K | $0.12 | $0.6 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `kimi-k3` | — | reasoning | 按量 + 免费 | 1.04858M | $3 | $15 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.12 | $0.6 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `kimi-k3` | — | reasoning | 按量 | 1.04858M | $3 | $15 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

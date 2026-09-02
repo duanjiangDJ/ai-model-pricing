@@ -1679,8 +1679,7 @@
       },
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
-        "pay_per_token",
-        "free"
+        "pay_per_token"
       ]
     },
     {

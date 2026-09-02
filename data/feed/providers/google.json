@@ -989,8 +989,7 @@
       },
       "notes": "Text-only embedding model (gemini-embedding-001). Input billed at $0.15/1M tokens; no output token charge. Batch input $0.075. Used by file search tool. | Free model (per_mtok = 0).",
       "billing_model": [
-        "pay_per_token",
-        "free"
+        "pay_per_token"
       ]
     },
     {
@@ -1025,8 +1024,7 @@
       },
       "notes": "Multimodal embedding model (gemini-embedding-2, endpoint gemini-embedding-2-preview). Input per 1M tokens: text $0.20, image $0.45 (~$0.00012/image), audio $6.50 (~$0.00016/sec), video $12.00 (~$0.00079/frame). Batch: text $0.10, image $0.225, audio $3.25, video $6.00. Listed 'input' field is text price. | Free model (per_mtok = 0).",
       "billing_model": [
-        "pay_per_token",
-        "free"
+        "pay_per_token"
       ]
     },
     {

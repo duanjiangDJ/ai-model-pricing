@@ -25,7 +25,7 @@
 | `magistral-small` | — | reasoning | per-token | 128K | $0.5 | $1.5 | — | — | —/— | — | models.dev official list price |
 | `ministral-3b-latest` | — | chat | per-token | 128K | $0.1 | $0.1 | — | — | —/— | — | Official mistral.ai/pricing/api (USD per 1M tokens; page lists -latest aliase… |
 | `ministral-8b-latest` | — | chat | per-token | 128K | $0.15 | $0.15 | — | — | —/— | — | Official mistral.ai/pricing/api (USD per 1M tokens; page lists -latest aliase… |
-| `mistral-embed` | — | embedding | per-token + free | 8K | $0.1 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `mistral-embed` | — | embedding | per-token | 8K | $0.1 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `mistral-large-2411` | — | chat | per-token | 131.072K | $2 | $6 | — | — | —/— | — | models.dev official list price |
 | `mistral-large-2512` | — | chat | per-token | 262.144K | $0.5 | $1.5 | — | — | —/— | — | models.dev official list price |
 | `mistral-large-latest` | — | chat | per-token | 262.144K | $0.5 | $1.5 | — | — | —/— | — | models.dev official list price |

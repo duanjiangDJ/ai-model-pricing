@@ -21,4 +21,4 @@
 | `mistral/mistral-nemo-12b-instruct` | — | chat | 按量 | 16K | $0.038 | $0.1 | — | — | —/— | — | models.dev official list price |
 | `osmosis/osmosis-structure-0.6b` | — | chat | 按量 | 4K | $0.1 | $0.5 | — | — | —/— | — | models.dev official list price |
 | `qwen/qwen-2.5-7b-vision-instruct` | — | chat | 按量 | 125K | $0.2 | $0.2 | — | — | —/— | — | models.dev official list price |
-| `qwen/qwen3-embedding-4b` | — | embedding | 按量 + 免费 | 32K | $0.01 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `qwen/qwen3-embedding-4b` | — | embedding | 按量 | 32K | $0.01 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

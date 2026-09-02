@@ -14,7 +14,7 @@
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `chatgpt-image-latest` | ❌ 下线 | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `gpt-3.5-turbo` | — | chat | 按量 + 免费 | 16.385K | $0.5 | $1.5 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `gpt-3.5-turbo` | — | chat | 按量 | 16.385K | $0.5 | $1.5 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gpt-4` | ❌ 下线 | chat | 按量 | 8.192K | $30 | $60 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `gpt-4-turbo` | ❌ 下线 | chat | 按量 | 128K | $10 | $30 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `gpt-4.1` | — | chat | 按量 | 1.04758M | $2 | $8 | $0.5 | — | —/— | — | models.dev official list price |
@@ -57,6 +57,6 @@
 | `o3-mini` | ❌ 下线 | reasoning | 按量 | 200K | $1.1 | $4.4 | $0.55 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `o3-pro` | — | reasoning | 按量 | 200K | $20 | $80 | — | — | —/— | — | models.dev official list price |
 | `o4-mini` | ❌ 下线 | reasoning | 按量 | 200K | $1.1 | $4.4 | $0.275 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `text-embedding-3-large` | — | embedding | 按量 + 免费 | 8.191K | $0.13 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `text-embedding-3-small` | ❌ 下线 | embedding | 按量 + 免费 | 8.191K | $0.02 | $0 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `text-embedding-ada-002` | — | embedding | 按量 + 免费 | 8.192K | $0.1 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `text-embedding-3-large` | — | embedding | 按量 | 8.191K | $0.13 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `text-embedding-3-small` | ❌ 下线 | embedding | 按量 | 8.191K | $0.02 | $0 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `text-embedding-ada-002` | — | embedding | 按量 | 8.192K | $0.1 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

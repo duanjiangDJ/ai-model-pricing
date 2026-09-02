@@ -20,4 +20,4 @@
 | `gpt-oss-safeguard-120b` | — | reasoning | 按量 | 131.072K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
 | `kimi-k3` | — | reasoning | 按量 | 262.144K | $4 | $20 | $0.8 | — | —/— | — | models.dev official list price |
 | `llama3-3-70b` | — | chat | 按量 | 131.072K | $1.75 | $2.75 | — | — | —/— | — | models.dev official list price |
-| `nomic-embed-text` | — | embedding | 按量 + 免费 | 8.192K | $0.05 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `nomic-embed-text` | — | embedding | 按量 | 8.192K | $0.05 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

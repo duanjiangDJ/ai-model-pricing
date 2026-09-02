@@ -27,8 +27,8 @@
 | `Qwen/Qwen3-Coder-30B-A3B-Instruct` | — | chat | per-token | 262.144K | $0.07 | $0.26 | — | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3-Coder-480B-A35B-Instruct` | — | chat | per-token | 262.144K | $2 | $2 | — | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3-Coder-Next` | — | chat | per-token | 262.144K | $0.2 | $1.5 | — | — | —/— | — | models.dev official list price |
-| `Qwen/Qwen3-Embedding-4B` | — | embedding | per-token + free | 32K | $0.01 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `Qwen/Qwen3-Embedding-8B` | — | embedding | per-token + free | 32K | $0.01 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `Qwen/Qwen3-Embedding-4B` | — | embedding | per-token | 32K | $0.01 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `Qwen/Qwen3-Embedding-8B` | — | embedding | per-token | 32K | $0.01 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `Qwen/Qwen3-Next-80B-A3B-Instruct` | — | chat | per-token | 262.144K | $0.25 | $1 | — | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3-Next-80B-A3B-Thinking` | — | chat | per-token | 262.144K | $0.3 | $2 | — | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3-VL-235B-A22B-Instruct` | — | chat | per-token | 131.072K | $0.3 | $1.5 | — | — | —/— | — | models.dev official list price |

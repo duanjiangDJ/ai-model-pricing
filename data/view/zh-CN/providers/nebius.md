@@ -24,7 +24,7 @@
 | `Qwen/Qwen3-235B-A22B-Thinking-2507-fast` | — | reasoning | 按量 | 8K | $0.5 | $2 | $0.05 | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3-30B-A3B-Instruct-2507` | — | chat | 按量 | 128K | $0.1 | $0.3 | $0.01 | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3-32B` | — | chat | 按量 | 128K | $0.1 | $0.3 | $0.01 | — | —/— | — | models.dev official list price |
-| `Qwen/Qwen3-Embedding-8B` | — | embedding | 按量 + 免费 | 32.768K | $0.01 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `Qwen/Qwen3-Embedding-8B` | — | embedding | 按量 | 32.768K | $0.01 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `Qwen/Qwen3-Next-80B-A3B-Thinking` | — | reasoning | 按量 | 128K | $0.15 | $1.2 | $0.015 | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3-Next-80B-A3B-Thinking-fast` | — | reasoning | 按量 | 8K | $0.15 | $1.2 | $0.015 | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3.5-397B-A17B` | — | reasoning | 按量 | 262.144K | $0.6 | $3.6 | $0.06 | — | —/— | — | models.dev official list price |
