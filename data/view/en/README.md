@@ -32,7 +32,7 @@
 | [Synthetic](providers/synthetic.md) | Inference host | 9 | `providers/synthetic.json` | 2026-09-02T00:19:17Z |
 | [Jalapeno Cloud](providers/jalapeno.md) | Inference host | 17 | `providers/jalapeno.json` | 2026-09-02T00:19:17Z |
 | [abliteration.ai](providers/abliteration-ai.md) | Inference host | 3 | `providers/abliteration-ai.json` | 2026-09-02T00:19:17Z |
-| [DeepSeek](providers/deepseek.md) | First-party | 5 | `providers/deepseek.json` | 2026-09-02T00:19:21Z |
+| [DeepSeek](providers/deepseek.md) | First-party | 5 | `providers/deepseek.json` | 2026-09-02T23:23:35Z |
 | [GreenPT](providers/greenpt.md) | Inference host | 37 | `providers/greenpt.json` | 2026-09-02T00:19:17Z |
 | [Xpersona](providers/xpersona.md) | Inference host | 13 | `providers/xpersona.json` | 2026-09-02T00:19:17Z |
 | [Tencent TokenHub](providers/tencent-tokenhub.md) | Inference host | 3 | `providers/tencent-tokenhub.json` | 2026-09-02T00:19:17Z |

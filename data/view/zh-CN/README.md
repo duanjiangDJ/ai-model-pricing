@@ -32,7 +32,7 @@
 | [Synthetic](providers/synthetic.md) | 推理托管 | 9 | `providers/synthetic.json` | 2026-09-02T00:19:17Z |
 | [Jalapeno Cloud](providers/jalapeno.md) | 推理托管 | 17 | `providers/jalapeno.json` | 2026-09-02T00:19:17Z |
 | [abliteration.ai](providers/abliteration-ai.md) | 推理托管 | 3 | `providers/abliteration-ai.json` | 2026-09-02T00:19:17Z |
-| [DeepSeek](providers/deepseek.md) | 官方直供 | 5 | `providers/deepseek.json` | 2026-09-02T00:19:21Z |
+| [DeepSeek](providers/deepseek.md) | 官方直供 | 5 | `providers/deepseek.json` | 2026-09-02T23:23:35Z |
 | [GreenPT](providers/greenpt.md) | 推理托管 | 37 | `providers/greenpt.json` | 2026-09-02T00:19:17Z |
 | [Xpersona](providers/xpersona.md) | 推理托管 | 13 | `providers/xpersona.json` | 2026-09-02T00:19:17Z |
 | [Tencent TokenHub](providers/tencent-tokenhub.md) | 推理托管 | 3 | `providers/tencent-tokenhub.json` | 2026-09-02T00:19:17Z |
