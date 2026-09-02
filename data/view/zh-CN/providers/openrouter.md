@@ -6,10 +6,10 @@
 - 官网: https://openrouter.ai
 - 定价页: https://openrouter.ai/models
 - 币种: USD
-- 数据更新时间: 2026-09-02T03:19:18Z
-- 核实时间: 2026-09-02T03:19:18Z
+- 数据更新时间: 2026-09-02T06:19:36Z
+- 核实时间: 2026-09-02T06:19:36Z
 
-共 **420** 个模型。
+共 **421** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -26,6 +26,7 @@
 | `anthropic/claude-3-haiku` | — | chat | 按量 | 200K | $0.25 | $1.25 | $0.03 | $0.3 | —/— | — | OpenRouter reseller price |
 | `anthropic/claude-fable-5` | — | reasoning | 按量 | 1M | $10 | $50 | $1 | $12.5 | —/— | — | OpenRouter reseller price |
 | `anthropic/claude-fable-5.1` | — | reasoning | 按量 | 1M | $10 | $50 | $0.25 | $12.5 | —/— | — | OpenRouter reseller price |
+| `anthropic/claude-fable-5.1:batch` | — | reasoning | 按量 | 1M | $5 | $25 | $0.125 | $6.25 | —/— | — | OpenRouter reseller price |
 | `anthropic/claude-fable-5:batch` | — | reasoning | 按量 | 1M | $5 | $25 | $0.5 | $6.25 | —/— | — | OpenRouter reseller price |
 | `anthropic/claude-haiku-4.5` | — | reasoning | 按量 | 200K | $1 | $5 | $0.1 | $1.25 | —/— | — | OpenRouter reseller price |
 | `anthropic/claude-haiku-4.5:batch` | — | reasoning | 按量 | 200K | $0.5 | $2.5 | $0.05 | $0.625 | —/— | — | OpenRouter reseller price |
@@ -76,7 +77,7 @@
 | `deepseek/deepseek-v4-flash` | — | reasoning | 按量 | 1.04858M | $0.088606 | $0.177212 | $0.0177212 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | 按量 | 1.31072M | $0.065 | $0.18 | $0.016 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731:batch` | — | reasoning | 按量 | 1.04858M | $0.14 | $0.28 | $0.03 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 按量 | 1.04858M | $0.22 | $0.66 | $0.007 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 按量 | 1.04858M | $0.44 | $1.32 | $0.014 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | 按量 | 1.04858M | $1.04226 | $2.08452 | $0.086855 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | 按量 | 1.04858M | $1.1154 | $3.3462 | $0.03718 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813:batch` | — | reasoning | 按量 | 1.04858M | $1.32 | $3.96 | $0.13 | — | —/— | — | OpenRouter reseller price |
