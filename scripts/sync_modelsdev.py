@@ -125,6 +125,7 @@ def main():
             "region": "global",
             "homepage": pv.get("doc") or "",
             "pricing_page": pv.get("doc") or None,
+            "api_base_url": pv.get("api") or None,
             "currency": "USD",
             "updated_at": now,
             "verified_at": now,
