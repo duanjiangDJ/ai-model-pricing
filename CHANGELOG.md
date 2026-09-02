@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.35.27 — 2026-09-02T03:07Z (feature update)
+
+- fix(audit): hard-fail per_mtok below 1e-4 as per-token-as-per-M unit bug
+
 ## 26.35.26 — 2026-09-02T00:54Z (content update)
 
 - fix(fetch_official): models.dev source read wrong key ('pricing' instead of 'cost'), so models.dev prices always came back None — verification source was dead. Read cost (USD per 1M tokens) and surface real prices + 'no price' notes.
