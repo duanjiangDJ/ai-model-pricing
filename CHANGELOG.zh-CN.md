@@ -16,6 +16,12 @@
 
 ---
 
+## 26.42.27 — 2026-09-02T18:40Z（内容更新）
+
+- 价格同步（7 处变更）：
+- **openrouter**（新增 2）：`google/gemini-3.8-flash`, `google/gemini-3.8-flash:batch`
+- **openrouter**（更新 5）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`, `google/gemini-3.7-flash:batch`, `tencent/hy3`
+
 ## 26.41.27 — 2026-09-02T15:29Z（内容更新）
 
 - 修复MiniMax-M3双币不一致(CNY回促销价与USD一致)；audit双币检查扩展捕捉带外反常uniform ratio

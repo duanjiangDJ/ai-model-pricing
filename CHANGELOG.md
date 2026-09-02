@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.42.27 — 2026-09-02T18:40Z (content update)
+
+- price sync (7 changes):
+- **openrouter** (+2): `google/gemini-3.8-flash`, `google/gemini-3.8-flash:batch`
+- **openrouter** (updated 5): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`, `google/gemini-3.7-flash:batch`, `tencent/hy3`
+
 ## 26.41.27 — 2026-09-02T15:29Z (content update)
 
 - fix(data): MiniMax-M3 CNY to promo (2.10/8.40) to match USD; audit: catch off-band uniform cny/usd ratio
