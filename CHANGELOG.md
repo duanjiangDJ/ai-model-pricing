@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.45.29 — 2026-09-02T23:41Z (content update)
+
+- feat(data): add OpenAI historical models from official pricing.md + rebuild index counts
+
 ## 26.44.29 — 2026-09-02T23:25Z (content update)
 
 - fix(data): deepseek-v4-pro cache_read usd 0.003625->0.044 (official $0.044, was 12x wrong); audit: detect non-uniform dual-currency (single-field conversion bug)
