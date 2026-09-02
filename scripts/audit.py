@@ -207,6 +207,12 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
         if (len(cny_usd_ratios) >= 2 and (max(cny_usd_ratios) / min(cny_usd_ratios)) < 1.005
                 and 6.0 <= cny_usd_ratios[0] <= 8.0):
             dual_suspect.append(f"{p['provider_id']} :: {m['id']}")
+        # off-band anomaly: uniform ratio far outside the plausible FX band (<4 or >9) is almost
+        # certainly a promo/list-price mixup or a CNY unit/base shift (e.g. MiniMax-M3 stored the
+        # list CNY next to a promo USD -> ratio ~14). Catch the whole class, not just the in-band set.
+        elif (len(cny_usd_ratios) >= 2 and (max(cny_usd_ratios) / min(cny_usd_ratios)) < 1.005
+                and (cny_usd_ratios[0] < 4.0 or cny_usd_ratios[0] > 9.0)):
+            dual_suspect.append(f"{p['provider_id']} :: {m['id']} (off-band uniform ratio {cny_usd_ratios[0]:.2f})")
         # currency consistency: an item that carries a structured cny price (dual-currency
         # model, schema 26.8) legitimately mentions CNY in notes — never warn on those.
         # Warn only when a USD-declared model mentions CNY but has NO cny price field.

@@ -16,6 +16,10 @@
 
 ---
 
+## 26.41.27 — 2026-09-02T15:29Z（内容更新）
+
+- 修复MiniMax-M3双币不一致(CNY回促销价与USD一致)；audit双币检查扩展捕捉带外反常uniform ratio
+
 ## 26.40.27 — 2026-09-02T14:11Z（内容更新）
 
 - 为DeepSeek峰谷定价新增off_peak结构化字段(multiplier=0.5+peak窗口)，per_mtok=高峰档，human view显示峰/闲双价
