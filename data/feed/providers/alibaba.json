@@ -133,7 +133,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Alibaba Bailian (CNY/1M tokens, CN region first tier, non-thinking). Verified 2026-08-28.",
+      "notes": "models.dev official list price | Alibaba Bailian (CNY/1M tokens, CN region first tier, non-thinking). Verified 2026-08-28. [DUAL-CURRENCY UNVERIFIED: cny/usd ratio is off-band; official CNY vs USD page pending verification]",
       "billing_model": [
         "pay_per_token"
       ]
@@ -165,7 +165,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Alibaba Bailian (CNY/1M tokens, CN region first tier, non-thinking). Verified 2026-08-28.",
+      "notes": "models.dev official list price | Alibaba Bailian (CNY/1M tokens, CN region first tier, non-thinking). Verified 2026-08-28. [DUAL-CURRENCY UNVERIFIED: cny/usd ratio is off-band; official CNY vs USD page pending verification]",
       "billing_model": [
         "pay_per_token"
       ]
@@ -409,7 +409,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | Alibaba Bailian (CNY/1M tokens, CN region first tier, non-thinking). Verified 2026-08-28.",
+      "notes": "models.dev official list price | Alibaba Bailian (CNY/1M tokens, CN region first tier, non-thinking). Verified 2026-08-28. [DUAL-CURRENCY UNVERIFIED: cny/usd ratio is off-band; official CNY vs USD page pending verification]",
       "billing_model": [
         "pay_per_token"
       ]

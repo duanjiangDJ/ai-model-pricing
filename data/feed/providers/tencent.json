@@ -37,7 +37,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official TokenHub billing (CNY/1M tokens): input ¥1, output ¥4, cache-hit ¥0.25. Verified 2026-08-21.",
+      "notes": "Official TokenHub billing (CNY/1M tokens): input ¥1, output ¥4, cache-hit ¥0.25. Verified 2026-08-21. [DUAL-CURRENCY UNVERIFIED: cny/usd ratio is off-band; official CNY vs USD page pending verification]",
       "status": "online",
       "billing_model": [
         "pay_per_token"

@@ -229,7 +229,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥2, output ¥8. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion.",
+      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥2, output ¥8. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion. [DUAL-CURRENCY UNVERIFIED: cny/usd ratio is off-band; official CNY vs USD page pending verification]",
       "billing_model": [
         "pay_per_token"
       ]
