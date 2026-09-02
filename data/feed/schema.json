@@ -3,7 +3,7 @@
   "$id": "https://raw.githubusercontent.com/duanjiangDJ/ai-model-pricing/main/data/feed/schema.json",
   "title": "AI Model Pricing Database Schema",
   "description": "Versioned machine-readable schema for the ai-model-pricing database. Validates: index.json, providers/*.json, plans.json, resellers.json, manifest.json, changelog.json",
-  "version": "26.39.27",
+  "version": "26.40.27",
   "$defs": {
     "channel": {
       "type": "string",
@@ -183,6 +183,80 @@
             }
           },
           "description": "Temporary promotion: the current per_mtok values are the discounted price; list_price holds the pre-promo price."
+        },
+        "off_peak": {
+          "description": "Time-of-day (peak/off-peak) pricing. per_mtok holds the PEAK (standard) tier. Off-peak price = per_mtok x multiplier during the off-peak window.",
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "multiplier": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "description": "off-peak price = per_mtok x multiplier (0.5 = 50% of peak)."
+            },
+            "window": {
+              "type": [
+                "object",
+                "null"
+              ],
+              "properties": {
+                "peak": {
+                  "type": [
+                    "object",
+                    "null"
+                  ],
+                  "properties": {
+                    "days": {
+                      "type": [
+                        "array",
+                        "null"
+                      ],
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "utc": {
+                      "type": [
+                        "array",
+                        "null"
+                      ],
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "required": [
+                    "days",
+                    "utc"
+                  ]
+                },
+                "tz": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "note": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "peak",
+                "tz"
+              ]
+            }
+          },
+          "required": [
+            "multiplier",
+            "window"
+          ]
         }
       },
       "minProperties": 1
@@ -606,7 +680,7 @@
     "properties": {
       "schema_version": {
         "type": "string",
-        "const": "26.39.27"
+        "const": "26.40.27"
       },
       "updated_at": {
         "type": "string",
@@ -630,7 +704,7 @@
     "properties": {
       "schema_version": {
         "type": "string",
-        "const": "26.39.27"
+        "const": "26.40.27"
       },
       "generated_at": {
         "type": "string",
@@ -678,7 +752,7 @@
     "properties": {
       "schema_version": {
         "type": "string",
-        "const": "26.39.27"
+        "const": "26.40.27"
       },
       "last_full_sync": {
         "type": "string",
@@ -741,7 +815,7 @@
     "properties": {
       "schema_version": {
         "type": "string",
-        "const": "26.39.27"
+        "const": "26.40.27"
       },
       "entries": {
         "type": "array",

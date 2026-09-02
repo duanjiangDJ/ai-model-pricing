@@ -21,7 +21,7 @@ PROVIDER_ID = "xai"
 URL = "https://docs.x.ai/developers/pricing.md"
 
 ROW_RE = re.compile(
-    r"\|\s*([a-z0-9.\-]+) \(< 200k prompt tokens\)\s*\|\s*[\d.]+\s*\|\s*\$([\d.]+)\s*"
+    r"\|\s*([a-z0-9.\-]+) \(< 200k prompt tokens\)\s*\|\s*[\d.kM]+\s*\|\s*\$([\d.]+)\s*"
     r"\|\s*\$([\d.]+)\s*\|\s*\$([\d.]+)\s*\|"
 )
 BATCH_LIST_RE = re.compile(r"20% off standard rates\s*\n+\s*(-\s*\S+[\s\S]*?)(?:\n\n|\Z)")

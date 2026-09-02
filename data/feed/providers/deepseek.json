@@ -106,9 +106,29 @@
         "batch": null,
         "per_image": null,
         "per_audio_second": null,
-        "per_request": null
+        "per_request": null,
+        "off_peak": {
+          "multiplier": 0.5,
+          "window": {
+            "peak": {
+              "days": [
+                "mon",
+                "tue",
+                "wed",
+                "thu",
+                "fri"
+              ],
+              "utc": [
+                "01:00-04:00",
+                "06:00-10:00"
+              ]
+            },
+            "tz": "UTC",
+            "note": "All other hours are off-peak."
+          }
+        }
       },
-      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). Parsed by check deepseek.",
+      "notes": "Official page peak tier; off-peak via pricing.off_peak. Parsed by check deepseek.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -140,9 +160,29 @@
         "batch": null,
         "per_image": null,
         "per_audio_second": null,
-        "per_request": null
+        "per_request": null,
+        "off_peak": {
+          "multiplier": 0.5,
+          "window": {
+            "peak": {
+              "days": [
+                "mon",
+                "tue",
+                "wed",
+                "thu",
+                "fri"
+              ],
+              "utc": [
+                "01:00-04:00",
+                "06:00-10:00"
+              ]
+            },
+            "tz": "UTC",
+            "note": "All other hours are off-peak."
+          }
+        }
       },
-      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). Parsed by check deepseek.",
+      "notes": "Official page peak tier; off-peak via pricing.off_peak. Parsed by check deepseek.",
       "status": "online",
       "billing_model": [
         "pay_per_token"
@@ -178,9 +218,29 @@
         "batch": null,
         "per_image": null,
         "per_audio_second": null,
-        "per_request": null
+        "per_request": null,
+        "off_peak": {
+          "multiplier": 0.5,
+          "window": {
+            "peak": {
+              "days": [
+                "mon",
+                "tue",
+                "wed",
+                "thu",
+                "fri"
+              ],
+              "utc": [
+                "01:00-04:00",
+                "06:00-10:00"
+              ]
+            },
+            "tz": "UTC",
+            "note": "All other hours are off-peak."
+          }
+        }
       },
-      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). Parsed by check deepseek.",
+      "notes": "Official page peak tier; off-peak via pricing.off_peak. Parsed by check deepseek.",
       "billing_model": [
         "pay_per_token"
       ]
