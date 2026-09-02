@@ -1,13 +1,13 @@
-"""Independent collector for openai (official source)."""
+"""Independent collector for anthropic (official source)."""
 import os, sys
 _THIS = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, _THIS)
 sys.path.insert(0, os.path.abspath(os.path.join(_THIS, "..")))
 from collect.base import fetch_markdown, write_prices  # noqa: E402
-from checks.tier0_openai import parse  # noqa: E402
+from checks.tier0_anthropic import parse  # noqa: E402
 
-URL = "https://developers.openai.com/api/docs/pricing.md"
-PROVIDER_ID = "openai"
+URL = "https://www.anthropic.com/pricing"
+PROVIDER_ID = "anthropic"
 
 
 def collect(ctx):
@@ -15,7 +15,7 @@ def collect(ctx):
     text = fetch_markdown(URL)
     updates = parse(text)
     n = len(updates)
-    changed = write_prices(PROVIDER_ID, updates, "tier0_openai:source", now)
+    changed = write_prices(PROVIDER_ID, updates, "tier0_anthropic:source", now)
     return {"changed": changed, "status": "ok", "detail": f"parsed {n} models, {changed} changed"}
 
 
