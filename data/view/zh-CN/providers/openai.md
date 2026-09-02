@@ -9,7 +9,7 @@
 - 数据更新时间: 2026-09-02T00:19:17Z
 - 核实时间: 2026-09-02T00:19:17Z
 
-共 **47** 个模型。
+共 **54** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -60,3 +60,10 @@
 | `text-embedding-3-large` | — | embedding | 按量 | 8.191K | $0.13 | $0 | — | — | —/— | — | models.dev official list price |
 | `text-embedding-3-small` | ❌ 下线 | embedding | 按量 | 8.191K | $0.02 | $0 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `text-embedding-ada-002` | — | embedding | 按量 | 8.192K | $0.1 | $0 | — | — | —/— | — | models.dev official list price |
+| `gpt-4-turbo-2024-04-09` | — | chat | 按量 | — | $10 | $30 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
+| `gpt-4-0613` | — | chat | 按量 | — | $30 | $60 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
+| `gpt-3.5-turbo-0125` | — | chat | 按量 | — | $0.5 | $1.5 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
+| `gpt-3.5-turbo-1106` | — | chat | 按量 | — | $1 | $2 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
+| `gpt-3.5-turbo-instruct` | — | chat | 按量 | — | $1.5 | $2 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
+| `davinci-002` | — | chat | 按量 | — | $2 | $2 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
+| `babbage-002` | — | chat | 按量 | — | $0.4 | $0.4 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |

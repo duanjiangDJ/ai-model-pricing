@@ -1527,6 +1527,244 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "gpt-4-turbo-2024-04-09",
+      "name": "gpt-4-turbo-2024-04-09",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 10.0
+          },
+          "cache_read": {
+            "usd": null
+          },
+          "cache_write": {
+            "usd": null
+          },
+          "output": {
+            "usd": 30.0
+          }
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official OpenAI pricing (Standard, short context, USD/1M). Parsed via developers.openai.com/api/docs/pricing.md",
+      "billing_model": [
+        "pay_per_token"
+      ]
+    },
+    {
+      "id": "gpt-4-0613",
+      "name": "gpt-4-0613",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 30.0
+          },
+          "cache_read": {
+            "usd": null
+          },
+          "cache_write": {
+            "usd": null
+          },
+          "output": {
+            "usd": 60.0
+          }
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official OpenAI pricing (Standard, short context, USD/1M). Parsed via developers.openai.com/api/docs/pricing.md",
+      "billing_model": [
+        "pay_per_token"
+      ]
+    },
+    {
+      "id": "gpt-3.5-turbo-0125",
+      "name": "gpt-3.5-turbo-0125",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.5
+          },
+          "cache_read": {
+            "usd": null
+          },
+          "cache_write": {
+            "usd": null
+          },
+          "output": {
+            "usd": 1.5
+          }
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official OpenAI pricing (Standard, short context, USD/1M). Parsed via developers.openai.com/api/docs/pricing.md",
+      "billing_model": [
+        "pay_per_token"
+      ]
+    },
+    {
+      "id": "gpt-3.5-turbo-1106",
+      "name": "gpt-3.5-turbo-1106",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.0
+          },
+          "cache_read": {
+            "usd": null
+          },
+          "cache_write": {
+            "usd": null
+          },
+          "output": {
+            "usd": 2.0
+          }
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official OpenAI pricing (Standard, short context, USD/1M). Parsed via developers.openai.com/api/docs/pricing.md",
+      "billing_model": [
+        "pay_per_token"
+      ]
+    },
+    {
+      "id": "gpt-3.5-turbo-instruct",
+      "name": "gpt-3.5-turbo-instruct",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.5
+          },
+          "cache_read": {
+            "usd": null
+          },
+          "cache_write": {
+            "usd": null
+          },
+          "output": {
+            "usd": 2.0
+          }
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official OpenAI pricing (Standard, short context, USD/1M). Parsed via developers.openai.com/api/docs/pricing.md",
+      "billing_model": [
+        "pay_per_token"
+      ]
+    },
+    {
+      "id": "davinci-002",
+      "name": "davinci-002",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.0
+          },
+          "cache_read": {
+            "usd": null
+          },
+          "cache_write": {
+            "usd": null
+          },
+          "output": {
+            "usd": 2.0
+          }
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official OpenAI pricing (Standard, short context, USD/1M). Parsed via developers.openai.com/api/docs/pricing.md",
+      "billing_model": [
+        "pay_per_token"
+      ]
+    },
+    {
+      "id": "babbage-002",
+      "name": "babbage-002",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.4
+          },
+          "cache_read": {
+            "usd": null
+          },
+          "cache_write": {
+            "usd": null
+          },
+          "output": {
+            "usd": 0.4
+          }
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official OpenAI pricing (Standard, short context, USD/1M). Parsed via developers.openai.com/api/docs/pricing.md",
+      "billing_model": [
+        "pay_per_token"
+      ]
     }
   ],
   "api_base_url": "https://api.openai.com/v1"

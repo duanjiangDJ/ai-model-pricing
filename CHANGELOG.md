@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.42.27 — 2026-09-02T23:39Z (content update)
+
+- feat(data): add OpenAI historical models from official pricing.md (gpt-3.5-turbo-*, gpt-4-0613, gpt-4-turbo-2024, davinci-002, babbage-002)
+
 ## 26.41.27 — 2026-09-02T15:29Z (content update)
 
 - fix(data): MiniMax-M3 CNY to promo (2.10/8.40) to match USD; audit: catch off-band uniform cny/usd ratio

@@ -1,9 +1,9 @@
 {
-  "schema_version": "26.41.27",
+  "schema_version": "26.42.27",
   "generated_at": "2026-09-02T12:19:54Z",
   "currency": "USD",
   "provider_count": 189,
-  "model_count": 7499,
+  "model_count": 7506,
   "plan_count": 67,
   "providers": [
     {
@@ -514,7 +514,7 @@
       "id": "openai",
       "name": "OpenAI",
       "channel": "first_party",
-      "model_count": 47,
+      "model_count": 54,
       "file": "providers/openai.json",
       "updated_at": "2026-08-21T11:34:52Z"
     },
