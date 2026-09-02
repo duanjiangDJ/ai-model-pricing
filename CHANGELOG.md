@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.43.29 — 2026-09-02T21:39Z (content update)
+
+- price sync (5 changes):
+- **openrouter** (+2): `meta/muse-spark-1.3`, `meta/muse-spark-1.3-contributor`
+- **openrouter** (updated 3): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `nvidia/nemotron-3-ultra-550b-a55b`
+
 ## 26.42.29 — 2026-09-02T21:04Z (feature update)
 
 - docs(AGENTS): codify sync-writer rule — new providers must emit api_base_url (from source base-url field)
