@@ -16,6 +16,12 @@
 
 ---
 
+## 26.37.27 — 2026-09-02T06:36Z（内容更新）
+
+- 价格同步（2 处变更）：
+- **openrouter**（新增 1）：`anthropic/claude-fable-5.1:batch`
+- **openrouter**（更新 1）：`deepseek/deepseek-v4-flash-vision-exp`
+
 ## 26.36.27 — 2026-09-02T03:42Z（内容更新）
 
 - 价格同步（2 处变更）：

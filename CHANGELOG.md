@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.37.27 — 2026-09-02T06:36Z (content update)
+
+- price sync (2 changes):
+- **openrouter** (+1): `anthropic/claude-fable-5.1:batch`
+- **openrouter** (updated 1): `deepseek/deepseek-v4-flash-vision-exp`
+
 ## 26.36.27 — 2026-09-02T03:42Z (content update)
 
 - price sync (2 changes):

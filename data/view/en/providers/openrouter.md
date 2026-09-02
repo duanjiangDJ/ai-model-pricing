@@ -6,10 +6,10 @@
 - Homepage: https://openrouter.ai
 - Pricing page: https://openrouter.ai/models
 - Currency: USD
-- Data updated: 2026-09-02T03:19:18Z
-- Verified: 2026-09-02T03:19:18Z
+- Data updated: 2026-09-02T06:19:36Z
+- Verified: 2026-09-02T06:19:36Z
 
-**420** models in total.
+**421** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -26,6 +26,7 @@
 | `anthropic/claude-3-haiku` | — | chat | per-token | 200K | $0.25 | $1.25 | $0.03 | $0.3 | —/— | — | OpenRouter reseller price |
 | `anthropic/claude-fable-5` | — | reasoning | per-token | 1M | $10 | $50 | $1 | $12.5 | —/— | — | OpenRouter reseller price |
 | `anthropic/claude-fable-5.1` | — | reasoning | per-token | 1M | $10 | $50 | $0.25 | $12.5 | —/— | — | OpenRouter reseller price |
+| `anthropic/claude-fable-5.1:batch` | — | reasoning | per-token | 1M | $5 | $25 | $0.125 | $6.25 | —/— | — | OpenRouter reseller price |
 | `anthropic/claude-fable-5:batch` | — | reasoning | per-token | 1M | $5 | $25 | $0.5 | $6.25 | —/— | — | OpenRouter reseller price |
 | `anthropic/claude-haiku-4.5` | — | reasoning | per-token | 200K | $1 | $5 | $0.1 | $1.25 | —/— | — | OpenRouter reseller price |
 | `anthropic/claude-haiku-4.5:batch` | — | reasoning | per-token | 200K | $0.5 | $2.5 | $0.05 | $0.625 | —/— | — | OpenRouter reseller price |
@@ -76,7 +77,7 @@
 | `deepseek/deepseek-v4-flash` | — | reasoning | per-token | 1.04858M | $0.088606 | $0.177212 | $0.0177212 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | per-token | 1.31072M | $0.065 | $0.18 | $0.016 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731:batch` | — | reasoning | per-token | 1.04858M | $0.14 | $0.28 | $0.03 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | per-token | 1.04858M | $0.22 | $0.66 | $0.007 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | per-token | 1.04858M | $0.44 | $1.32 | $0.014 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | per-token | 1.04858M | $1.04226 | $2.08452 | $0.086855 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | per-token | 1.04858M | $1.1154 | $3.3462 | $0.03718 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813:batch` | — | reasoning | per-token | 1.04858M | $1.32 | $3.96 | $0.13 | — | —/— | — | OpenRouter reseller price |
