@@ -158,6 +158,13 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
   models.dev entry silently returns no price forever (the “check that never fires” gap).
   When extending the `SOURCES` registry, verify with `python scripts/fetch_official.py <model> --json`.
 
+- **Sync writers must emit every required provider field on a new provider file.**
+  `sync_modelsdev.py` once built new providers without `api_base_url`: models.dev supplies
+  it per-provider under `api` (e.g. `https://openrouter.ai/api/v1`). The audit gate hard-fails
+  on a missing `api_base_url`, so a writer that drops it produces a file that can never merge.
+  New-provider writers take `api_base_url` from the source's own base-url field, and populate
+  `source`/`verified_at`; never emit a provider file without `api_base_url`.
+
 ## Contribution Workflow
 
 1. Fork → edit machine data → `validate.py` → `build_human.py` → commit with a message
