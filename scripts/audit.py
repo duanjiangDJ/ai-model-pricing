@@ -89,6 +89,7 @@ BILLING_ENUM = ("pay_per_token", "pay_per_image", "subscription_included", "cred
 unknown_models = []
 no_price_models = []
 dual_suspect = []  # models whose cny/usd ratio is uniform inside the FX band (likely rate-derived)
+dual_nonuniform = []  # models whose cny/usd ratio varies >4x across fields (one field likely wrong-conversion)
 free_contamination = []  # billing_model declares "free" but per_mtok has a positive price
 for f in sorted(glob.glob("data/feed/providers/*.json")):
     p = json.load(open(f, encoding="utf-8"))
@@ -213,6 +214,13 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
         elif (len(cny_usd_ratios) >= 2 and (max(cny_usd_ratios) / min(cny_usd_ratios)) < 1.005
                 and (cny_usd_ratios[0] < 4.0 or cny_usd_ratios[0] > 9.0)):
             dual_suspect.append(f"{p['provider_id']} :: {m['id']} (off-band uniform ratio {cny_usd_ratios[0]:.2f})")
+        # non-uniform dual-currency: cny/usd rate for the SAME model's fields should be one
+        # FX rate (dual-currency is a single rate pair). A large spread (>4x) across fields
+        # means one field got a wrong unit/scale conversion (e.g. deepseek-v4-pro cache_read
+        # usd stored as 0.003625 when cny 0.30 / 6.8 = 0.044). Warn only, not fail.
+        elif (len(cny_usd_ratios) >= 2 and (max(cny_usd_ratios) / min(cny_usd_ratios)) > 4.0):
+            _spread = max(cny_usd_ratios) / min(cny_usd_ratios)
+            dual_nonuniform.append(f"{p['provider_id']} :: {m['id']} (non-uniform ratio {_spread:.1f}x)")
         # currency consistency: an item that carries a structured cny price (dual-currency
         # model, schema 26.8) legitimately mentions CNY in notes — never warn on those.
         # Warn only when a USD-declared model mentions CNY but has NO cny price field.
@@ -240,6 +248,11 @@ if dual_suspect:
     from collections import Counter as _Cd
     by_pid = _Cd(u.split(" :: ")[0] for u in dual_suspect)
     warn(f"cny/usd ratio uniform in FX band (looks exchange-rate-derived, non-independent; {len(dual_suspect)} models): "
+         + ", ".join(f"{pid} x{c}" for pid, c in by_pid.most_common(12)))
+if dual_nonuniform:
+    from collections import Counter as _Cnd
+    by_pid = _Cnd(u.split(" :: ")[0] for u in dual_nonuniform)
+    warn(f"non-uniform dual-currency (one field cny/usd ratio >4x siblings; likely wrong unit conversion; {len(dual_nonuniform)} models): "
          + ", ".join(f"{pid} x{c}" for pid, c in by_pid.most_common(12)))
 if free_contamination:
     from collections import Counter as _Cf
