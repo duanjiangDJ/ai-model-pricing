@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.42.28 — 2026-09-02T21:01Z (feature update)
+
+- fix(sync_modelsdev): emit api_base_url from models.dev 'api' field (was dropped, new providers would fail audit)
+
 ## 26.42.27 — 2026-09-02T18:40Z (content update)
 
 - price sync (7 changes):
