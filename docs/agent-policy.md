@@ -199,6 +199,21 @@ walk away — that leaves the writer broken and the bug returns).
   official page / API (use Chrome DevTools on the page). Be aware the official
   **API** pricing and the page-displayed pricing may **diverge** — know which one
   the sync uses.
+- **Regression / sync-source tug-of-war.** A bot-sync source (e.g. OpenRouter) can carry a
+  stale/wrong value and silently overwrite an agent-confirmed correction on `main`
+  (e.g. deepseek-v4-pro cache_read 0.044 was reverted to a 12x-wrong 0.003625 by a later
+  sync). Detect repeated write-then-revert patterns; every sync writer must carry the same
+  **bidirectional surge/guard** protection as `update_model_prices` so a bad source value
+  can't clobber a verified fix.
+- **Test coverage.** Tests must cover more than parsers — sync writers, the regression
+  guard, `daily_check`, and CHANGELOG/version uniqueness. A writer/guard bug with no test
+  is a silent-regression risk (broken code can truthy-pass a shallow suite).
+- **Source drift.** A vendor page/API can change shape (OpenAI pricing.md, JS SPA pages) and
+  a parser can start returning 0 or silently fall back (Wayback). Distinguish a real data
+  gap from a **source-shape change** — a parse-0 that is not a gap is a checker that needs
+  updating, not a data loss.
+- **Repair cross-check.** After a §15.2 fix, confirm it didn't introduce a NEW problem (not
+  just validate/audit green) — e.g. a "fix" that re-breaks a sibling field or currency.
 
 ### 15.2 The loop (in order)
 1. **Spot a signal** — a suspicious magnitude, a match failure, a check that never fires.
