@@ -6,10 +6,10 @@
 - 官网: https://openrouter.ai
 - 定价页: https://openrouter.ai/models
 - 币种: USD
-- 数据更新时间: 2026-09-03T00:20:55Z
-- 核实时间: 2026-09-03T00:20:55Z
+- 数据更新时间: 2026-09-03T03:21:02Z
+- 核实时间: 2026-09-03T03:21:02Z
 
-共 **425** 个模型。
+共 **424** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -77,9 +77,9 @@
 | `deepseek/deepseek-v4-flash` | — | reasoning | 按量 | 1.04858M | $0.088606 | $0.177212 | $0.0177212 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | 按量 | 1.31072M | $0.065 | $0.18 | $0.016 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731:batch` | — | reasoning | 按量 | 1.04858M | $0.14 | $0.28 | $0.03 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 按量 | 1.04858M | $0.22 | $0.66 | $0.007 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 按量 | 1.04858M | $0.44 | $1.32 | $0.014 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | 按量 | 1.04858M | $1.04226 | $2.08452 | $0.086855 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-pro-0813` | — | reasoning | 按量 | 1.04858M | $0.66 | $1.98 | $0.022 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-pro-0813` | — | reasoning | 按量 | 1.04858M | $1.1154 | $3.3462 | $0.03718 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813:batch` | — | reasoning | 按量 | 1.04858M | $1.32 | $3.96 | $0.13 | — | —/— | — | OpenRouter reseller price |
 | `dots-studio/dots-3-note-preview:free` | — | reasoning | 免费 | 512K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `google/gemini-2.5-flash` | — | reasoning | 按量 | 1.04858M | $0.3 | $2.5 | $0.03 | $0.0833333 | —/— | — | OpenRouter reseller price |
@@ -146,7 +146,7 @@
 | `meta-llama/llama-4-maverick` | — | chat | 按量 | 1.04858M | $0.2 | $0.696 | — | — | —/— | — | OpenRouter reseller price |
 | `meta-llama/llama-4-scout` | — | chat | 按量 | 1.31072M | $0.1 | $0.3 | — | — | —/— | — | OpenRouter reseller price |
 | `meta-llama/llama-guard-4-12b` | — | chat | 按量 | 163.84K | $0.18 | $0.18 | — | — | —/— | — | OpenRouter reseller price |
-| `meta/muse-glimmer-30b` | — | reasoning | 按量 | 131.072K | $0.3 | $1.2 | $0.04 | — | —/— | — | OpenRouter reseller price |
+| `meta/muse-glimmer-30b` | — | reasoning | 按量 | 131.072K | $0.3 | $1.1 | $0.04 | — | —/— | — | OpenRouter reseller price |
 | `meta/muse-glimmer-30b:batch` | — | reasoning | 按量 | 131.072K | $0.35 | $1.5 | $0.04 | — | —/— | — | OpenRouter reseller price |
 | `meta/muse-spark-1.1` | — | reasoning | 按量 | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | OpenRouter reseller price |
 | `meta/muse-spark-1.2` | — | reasoning | 按量 | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | OpenRouter reseller price |
@@ -206,8 +206,7 @@
 | `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free` | — | reasoning | 免费 | 256K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-3-super-120b-a12b` | — | reasoning | 按量 | 1M | $0.085 | $0.4 | — | — | —/— | — | OpenRouter reseller price |
 | `nvidia/nemotron-3-super-120b-a12b:free` | — | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
-| `nvidia/nemotron-3-ultra-550b-a55b` | — | reasoning | 按量 | 262.144K | $0.625 | $3.125 | $0.1875 | — | —/— | — | OpenRouter reseller price |
-| `nvidia/nemotron-3-ultra-550b-a55b:batch` | — | reasoning | 按量 | 512.288K | $0.6 | $3.6 | $0.2 | — | —/— | — | OpenRouter reseller price |
+| `nvidia/nemotron-3-ultra-550b-a55b` | — | reasoning | 按量 | 262.144K | $0.6 | $2.4 | $0.12 | — | —/— | — | OpenRouter reseller price |
 | `nvidia/nemotron-3-ultra-550b-a55b:free` | — | reasoning | 免费 | 1M | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-3.5-content-safety:free` | — | reasoning | 免费 | 128K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-3.5-lightning` | — | reasoning | 按量 | 262.144K | $0.08 | $0.2 | $0.04 | — | —/— | — | OpenRouter reseller price |
@@ -365,7 +364,7 @@
 | `qwen/qwen3.7-flash` | — | reasoning | 按量 | 1M | $0.03 | $0.13 | $0.006 | $0.038 | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.7-max` | — | reasoning | 按量 | 1M | $1.475 | $4.425 | $0.295 | $1.84375 | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.7-plus` | — | reasoning | 按量 | 1M | $0.32 | $1.28 | $0.064 | $0.4 | —/— | — | OpenRouter reseller price |
-| `qwen/qwen3.8-2.4t-a95b` | — | reasoning | 按量 | 1.04858M | $2 | $6 | $0.2 | — | —/— | — | OpenRouter reseller price |
+| `qwen/qwen3.8-2.4t-a95b` | — | reasoning | 按量 | 1.04858M | $2 | $6 | $0.25 | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.8-2.4t-a95b:batch` | — | reasoning | 按量 | 1.01M | $2 | $6 | $0.25 | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.8-27b` | — | reasoning | 按量 | 1M | $0.425 | $2.55 | $0.085 | $0.53125 | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3.8-flash` | — | reasoning | 按量 | 1M | $0.15 | $0.47 | $0.016 | $0.2 | —/— | — | OpenRouter reseller price |
@@ -437,4 +436,4 @@
 | `~openai/gpt-mini-latest` | — | reasoning | 按量 | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | OpenRouter reseller price |
 | `~x-ai/grok-latest` | — | reasoning | 按量 | 500K | $2 | $6 | $0.5 | — | —/— | — | OpenRouter reseller price |
 | `~z-ai/glm-flash-latest` | — | reasoning | 按量 | 1.31072M | $0.075 | $0.25 | $0.015 | — | —/— | — | OpenRouter reseller price |
-| `~z-ai/glm-latest` | — | reasoning | 按量 | 1.31072M | $1.15 | $3.5 | $0.1 | — | —/— | — | OpenRouter reseller price |
+| `~z-ai/glm-latest` | — | reasoning | 按量 | 1.31072M | $1.092 | $3.432 | $0.1794 | — | —/— | — | OpenRouter reseller price |
