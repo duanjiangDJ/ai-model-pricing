@@ -6,8 +6,8 @@
 - Homepage: https://openrouter.ai
 - Pricing page: https://openrouter.ai/models
 - Currency: USD
-- Data updated: 2026-09-03T03:21:02Z
-- Verified: 2026-09-03T03:21:02Z
+- Data updated: 2026-09-03T06:21:11Z
+- Verified: 2026-09-03T06:21:11Z
 
 **424** models in total.
 
@@ -436,4 +436,4 @@
 | `~openai/gpt-mini-latest` | — | reasoning | per-token | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | OpenRouter reseller price |
 | `~x-ai/grok-latest` | — | reasoning | per-token | 500K | $2 | $6 | $0.5 | — | —/— | — | OpenRouter reseller price |
 | `~z-ai/glm-flash-latest` | — | reasoning | per-token | 1.31072M | $0.075 | $0.25 | $0.015 | — | —/— | — | OpenRouter reseller price |
-| `~z-ai/glm-latest` | — | reasoning | per-token | 1.31072M | $1.092 | $3.432 | $0.1794 | — | —/— | — | OpenRouter reseller price |
+| `~z-ai/glm-latest` | — | reasoning | per-token | 1.31072M | $1.106 | $3.476 | $0.1817 | — | —/— | — | OpenRouter reseller price |

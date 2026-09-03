@@ -1,6 +1,6 @@
 {
-  "schema_version": "26.49.29",
-  "generated_at": "2026-09-03T03:21:02Z",
+  "schema_version": "26.50.29",
+  "generated_at": "2026-09-03T06:21:11Z",
   "currency": "USD",
   "provider_count": 189,
   "model_count": 7551,
@@ -1526,7 +1526,7 @@
       "channel": "aggregator",
       "model_count": 424,
       "file": "providers/openrouter.json",
-      "updated_at": "2026-09-03T03:21:02Z"
+      "updated_at": "2026-09-03T06:21:11Z"
     }
   ]
 }

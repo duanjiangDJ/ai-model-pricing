@@ -16,6 +16,11 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.50.29 — 2026-09-03T06:38Z (content update)
+
+- price sync (1 change):
+- **openrouter** (updated 1): `~z-ai/glm-latest`
+
 ## 26.49.29 — 2026-09-03T03:42Z (content update)
 
 - price sync (7 changes):
