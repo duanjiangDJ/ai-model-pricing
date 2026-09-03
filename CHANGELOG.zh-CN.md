@@ -16,6 +16,11 @@
 
 ---
 
+## 26.55.29 — 2026-09-03T21:45Z（内容更新）
+
+- 价格同步（4 处变更）：
+- **openrouter**（更新 4）：`deepseek/deepseek-chat-v3.1`, `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `~z-ai/glm-flash-latest`
+
 ## 26.54.29 — 2026-09-03T18:45Z（内容更新）
 
 - 价格同步（7 处变更）：
