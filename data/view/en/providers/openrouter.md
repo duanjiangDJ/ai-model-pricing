@@ -6,8 +6,8 @@
 - Homepage: https://openrouter.ai
 - Pricing page: https://openrouter.ai/models
 - Currency: USD
-- Data updated: 2026-09-03T18:22:20Z
-- Verified: 2026-09-03T18:22:20Z
+- Data updated: 2026-09-03T21:22:45Z
+- Verified: 2026-09-03T21:22:45Z
 
 **425** models in total.
 
@@ -67,18 +67,18 @@
 | `cohere/north-mini-code:free` | — | reasoning | free | 256K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `deepseek/deepseek-chat` | — | chat | per-token | 163.84K | $0.32 | $0.89 | — | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-chat-v3-0324` | — | chat | per-token | 163.84K | $0.25 | $1 | — | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-chat-v3.1` | — | reasoning | per-token | 163.84K | $0.25 | $0.95 | $0.13 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-chat-v3.1` | — | reasoning | per-token | 163.84K | $0.55 | $1.65 | $0.55 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-r1` | — | reasoning | per-token | 64K | $0.7 | $2.5 | — | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-r1-0528` | — | reasoning | per-token | 163.84K | $0.5 | $2.15 | $0.35 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-r1-distill-llama-70b` | — | reasoning | per-token | 8.192K | $0.8 | $0.8 | — | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.1-terminus` | — | reasoning | per-token | 163.84K | $0.27 | $1 | $0.135 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2` | — | reasoning | per-token | 163.84K | $0.269 | $0.4 | $0.1345 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2-exp` | — | reasoning | per-token | 163.84K | $0.27 | $0.41 | — | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-flash` | — | reasoning | per-token | 1.04858M | $0.08092 | $0.16184 | $0.016184 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-flash` | — | reasoning | per-token | 1.04858M | $0.07784 | $0.15568 | $0.015568 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | per-token | 1.31072M | $0.065 | $0.18 | $0.016 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731:batch` | — | reasoning | per-token | 1.04858M | $0.14 | $0.28 | $0.03 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | per-token | 1.04858M | $0.22 | $0.66 | $0.007 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-pro` | — | reasoning | per-token | 1.04858M | $1.03426 | $2.06851 | $0.086188 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-pro` | — | reasoning | per-token | 1.04858M | $1.02747 | $2.05494 | $0.0856225 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | per-token | 1.04858M | $0.66 | $1.98 | $0.022 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813:batch` | — | reasoning | per-token | 1.04858M | $1.32 | $3.96 | $0.13 | — | —/— | — | OpenRouter reseller price |
 | `dots-studio/dots-3-note-preview:free` | — | reasoning | free | 512K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
@@ -436,5 +436,5 @@
 | `~openai/gpt-latest` | — | reasoning | per-token | 1.05M | $2 | $10 | $0.2 | $2.5 | —/— | — | OpenRouter reseller price |
 | `~openai/gpt-mini-latest` | — | reasoning | per-token | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | OpenRouter reseller price |
 | `~x-ai/grok-latest` | — | reasoning | per-token | 500K | $2 | $6 | $0.5 | — | —/— | — | OpenRouter reseller price |
-| `~z-ai/glm-flash-latest` | — | reasoning | per-token | 1.31072M | $0.075 | $0.25 | $0.015 | — | —/— | — | OpenRouter reseller price |
+| `~z-ai/glm-flash-latest` | — | reasoning | per-token | 1.31072M | $0.07125 | $0.2375 | $0.01425 | — | —/— | — | OpenRouter reseller price |
 | `~z-ai/glm-latest` | — | reasoning | per-token | 1.31072M | $1.148 | $3.608 | $0.1886 | — | —/— | — | OpenRouter reseller price |
