@@ -13,7 +13,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (  # noqa: E402
     PROVIDERS, FEED, SCHEMA_VERSION, append_changelog, fetch_json, load_index,
-    load_manifest, now_iso, save_index, save_manifest, to_float_or_none, write_json,
+    load_manifest, load_provider, now_iso, save_index, save_manifest, to_float_or_none, write_json,
 )
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/models"
@@ -126,6 +126,31 @@ def main():
     if not args.write:
         print(f"OpenRouter: {len(models)} models, dry-run only (use --write to persist)")
         return
+
+    # Bidirectional surge guard (see §15.1 regression / sync-source tug-of-war): a stale or
+    # wrong source value must not clobber a verified price on main. For each model field,
+    # if the new value jumps >5x or <1/5x vs the currently-stored value, keep the old value.
+    try:
+        _prev = load_provider("openrouter") or {}
+        _pmodels = {m["id"]: m for m in (_prev.get("models") or [])}
+    except Exception:
+        _pmodels = {}
+
+    def _guard(kind, mid, cur_new, cur_old):
+        for currency, nv in list((cur_new or {}).items()):
+            if nv is None:
+                continue
+            ov = (cur_old or {}).get(currency)
+            if ov and nv and (nv / ov > 5.0 or nv / ov < 0.2):
+                print(f"  GUARD-SKIP {mid}.{kind}.{currency}: {ov} -> {nv} (tug-of-war surge); keeping {ov}")
+                cur_new[currency] = ov
+
+    for m in provider.get("models", []):
+        pm = m.get("pricing", {}).get("per_mtok") or {}
+        old = (_pmodels.get(m["id"]) or {}).get("pricing", {}).get("per_mtok") or {}
+        for _k in ("input", "output", "cache_read", "cache_write"):
+            if _k in pm and isinstance(pm[_k], dict):
+                _guard(_k, m["id"], pm[_k], old.get(_k))
 
     write_json(os.path.join(PROVIDERS, "openrouter.json"), provider)
 
