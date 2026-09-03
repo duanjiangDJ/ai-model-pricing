@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.46.29 — 2026-09-03T02:23Z (content update)
+
+- fix(toolbox): make update_model_prices surge guard bidirectional (catch abnormal shrink)
+
 ## 26.45.29 — 2026-09-02T23:41Z (content update)
 
 - feat(data): add OpenAI historical models from official pricing.md + rebuild index counts
