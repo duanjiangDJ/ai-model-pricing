@@ -232,9 +232,11 @@ def update_model_prices(provider, updates, now, source, surge_factor=5.0):
                 ov = cur_old.get(currency)
                 if ov == nv:
                     continue
-                if ov and nv and abs(nv - ov) / max(abs(ov), 1e-9) > surge_factor:
-                    print(f"  SKIP {mid}.{k}.{currency}: {ov} -> {nv} looks like a parsing error (>{surge_factor}x surge); keeping old value")
-                    continue
+                if ov and nv:
+                    _ratio = nv / ov
+                    if _ratio > surge_factor or _ratio < (1.0 / surge_factor):
+                        print(f"  SKIP {mid}.{k}.{currency}: {ov} -> {nv} looks like a parsing error (bidirectional {surge_factor}x surge); keeping old value")
+                        continue
                 cur_old[currency] = nv
                 changed.append(mid)
             pm[k] = cur_old if cur_old else None

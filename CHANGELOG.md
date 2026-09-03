@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.47.29 — 2026-09-03T02:24Z (content update)
+
+- fix(toolbox): bidirectional surge guard in update_model_prices
+
 ## 26.46.29 — 2026-09-03T00:39Z (content update)
 
 - price sync (102 changes):
