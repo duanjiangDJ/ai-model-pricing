@@ -16,6 +16,11 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.53.29 — 2026-09-03T15:43Z (content update)
+
+- price sync (7 changes):
+- **openrouter** (updated 7): `deepseek/deepseek-chat`, `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-flash-vision-exp`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`, `qwen/qwen2.5-vl-72b-instruct`, `~z-ai/glm-latest`
+
 ## 26.52.29 — 2026-09-03T09:52Z (content update)
 
 - fix(sync): stop official-source manifest corruption on --source/--dry-run; disable permanently-broken OpenAI wayback source (tier0_openai owns OpenAI)

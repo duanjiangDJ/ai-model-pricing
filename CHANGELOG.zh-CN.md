@@ -16,6 +16,11 @@
 
 ---
 
+## 26.53.29 — 2026-09-03T15:43Z（内容更新）
+
+- 价格同步（7 处变更）：
+- **openrouter**（更新 7）：`deepseek/deepseek-chat`, `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-flash-vision-exp`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`, `qwen/qwen2.5-vl-72b-instruct`, `~z-ai/glm-latest`
+
 ## 26.52.29 — 2026-09-03T09:52Z（内容更新）
 
 - 修复 sync_official 官方源清单在 --source/--dry-run 下被截断损坏的问题；停用已永久失效的 OpenAI wayback 源（由 scripts/checks/tier0_openai.py 维护）
