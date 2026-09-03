@@ -1,6 +1,47 @@
 {
-  "schema_version": "26.49.29",
+  "schema_version": "26.50.29",
   "entries": [
+    {
+      "date": "2026-09-03T06:21:11Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~z-ai/glm-latest",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.092
+          },
+          "output": {
+            "usd": 3.432
+          },
+          "cache_read": {
+            "usd": 0.1794
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.106
+          },
+          "output": {
+            "usd": 3.476
+          },
+          "cache_read": {
+            "usd": 0.1817
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-03T03:21:02Z",
       "kind": "remove",
