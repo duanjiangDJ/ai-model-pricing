@@ -16,6 +16,25 @@ from common import (  # noqa: E402
     load_manifest, load_provider, now_iso, save_index, save_manifest, to_float_or_none, write_json,
 )
 
+def _apply_bidir_guard(cur_new, cur_old, label, surge=5.0):
+    """Bidirectional surge guard: keep the OLD value if the new one jumps >surge or <1/surge.
+
+    Guards against a stale/wrong source value clobbering a verified price (sync-source
+    tug-of-war). Returns the (possibly guarded) cur_new dict. Values that look like a
+    parse/unit error (>5x or <1/5x jump) are kept as the old value.
+    """
+    if not isinstance(cur_new, dict):
+        return cur_new
+    for currency, nv in list(cur_new.items()):
+        if nv is None:
+            continue
+        ov = (cur_old or {}).get(currency)
+        if ov and nv and (nv / ov > surge or nv / ov < (1.0 / surge)):
+            print(f"  GUARD-SKIP {label}.{currency}: {ov} -> {nv} (tug-of-war surge); keeping {ov}")
+            cur_new[currency] = ov
+    return cur_new
+
+
 OPENROUTER_URL = "https://openrouter.ai/api/v1/models"
 
 
@@ -136,21 +155,12 @@ def main():
     except Exception:
         _pmodels = {}
 
-    def _guard(kind, mid, cur_new, cur_old):
-        for currency, nv in list((cur_new or {}).items()):
-            if nv is None:
-                continue
-            ov = (cur_old or {}).get(currency)
-            if ov and nv and (nv / ov > 5.0 or nv / ov < 0.2):
-                print(f"  GUARD-SKIP {mid}.{kind}.{currency}: {ov} -> {nv} (tug-of-war surge); keeping {ov}")
-                cur_new[currency] = ov
-
     for m in provider.get("models", []):
         pm = m.get("pricing", {}).get("per_mtok") or {}
         old = (_pmodels.get(m["id"]) or {}).get("pricing", {}).get("per_mtok") or {}
         for _k in ("input", "output", "cache_read", "cache_write"):
             if _k in pm and isinstance(pm[_k], dict):
-                _guard(_k, m["id"], pm[_k], old.get(_k))
+                _apply_bidir_guard(pm[_k], old.get(_k), f"{m['id']}.{_k}")
 
     write_json(os.path.join(PROVIDERS, "openrouter.json"), provider)
 
