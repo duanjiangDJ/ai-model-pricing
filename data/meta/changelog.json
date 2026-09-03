@@ -1,6 +1,84 @@
 {
-  "schema_version": "26.50.29",
+  "schema_version": "26.51.29",
   "entries": [
+    {
+      "date": "2026-09-03T09:21:18Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "qwen/qwen3-14b",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.2275
+          },
+          "output": {
+            "usd": 0.91
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.12
+          },
+          "output": {
+            "usd": 0.24
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-03T09:21:18Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "z-ai/glm-5.3",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.4
+          },
+          "output": {
+            "usd": 4.4
+          },
+          "cache_read": {
+            "usd": 0.26
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.4
+          },
+          "output": {
+            "usd": 4.4
+          },
+          "cache_read": {
+            "usd": 0.14
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-03T06:21:11Z",
       "kind": "update",
