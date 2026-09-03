@@ -6,10 +6,10 @@
 - Homepage: https://docs.nano-gpt.com
 - Pricing page: https://docs.nano-gpt.com
 - Currency: USD
-- Data updated: 2026-09-02T00:19:17Z
-- Verified: 2026-09-02T00:19:17Z
+- Data updated: 2026-09-03T00:20:55Z
+- Verified: 2026-09-03T00:20:55Z
 
-**689** models in total.
+**693** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -119,6 +119,7 @@
 | `alibaba/qwen3.6-27b:thinking` | — | reasoning | per-token | 260.096K | $0.203 | $2.24 | $0.1015 | — | —/— | — | models.dev official list price |
 | `alibaba/qwen3.6-flash` | — | chat | per-token | 991.808K | $0.19 | $1.16 | $0.02 | — | —/— | — | models.dev official list price |
 | `alibaba/qwen3.8-flash` | — | reasoning | per-token | 991.808K | $0.16 | $0.47 | $0.016 | — | —/— | — | models.dev official list price |
+| `alibaba/qwen3.8-max-0902` | — | reasoning | per-token | 991.808K | $2 | $6 | $0.17 | — | —/— | — | models.dev official list price |
 | `amazon/nova-2-lite-v1` | — | chat | per-token | 1M | $0.51 | $4.25 | $0.255 | — | —/— | — | models.dev official list price |
 | `amazon/nova-lite-v1` | — | chat | per-token | 300K | $0.0595 | $0.238 | $0.02975 | — | —/— | — | models.dev official list price |
 | `amazon/nova-micro-v1` | — | chat | per-token | 128K | $0.0357 | $0.1394 | $0.01785 | — | —/— | — | models.dev official list price |
@@ -314,8 +315,9 @@
 | `google/gemini-3.5-flash-lite` | — | reasoning | per-token | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `google/gemini-3.5-flash-thinking` | — | reasoning | per-token | 1.04858M | $1.5 | $9 | $0.15 | — | —/— | — | models.dev official list price |
 | `google/gemini-3.6-flash` | — | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
-| `google/gemini-3.7-flash` | — | reasoning | per-token | 1.04858M | $0.375 | $1.875 | $0.0375 | — | —/— | — | models.dev official list price |
-| `google/gemini-flash-latest` | — | reasoning | per-token | 1.04876M | $0.375 | $1.875 | $0.0375 | — | —/— | — | models.dev official list price |
+| `google/gemini-3.7-flash` | — | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
+| `google/gemini-3.8-flash` | — | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
+| `google/gemini-flash-latest` | — | reasoning | per-token | 1.04876M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `google/gemini-flash-lite-latest` | — | reasoning | per-token | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `google/gemini-pro-latest` | — | reasoning | per-token | 1.04876M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-26b-a4b-it` | — | reasoning | per-token | 262.144K | $0.12 | $0.38 | $0.06 | — | —/— | — | models.dev official list price |
@@ -387,6 +389,8 @@
 | `meta/muse-spark-1.1` | — | reasoning | per-token | 1M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
 | `meta/muse-spark-1.2` | — | reasoning | per-token | 1M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
 | `meta/muse-spark-1.2-contributor` | — | reasoning | per-token | 1M | $0.1 | $0.2 | $0.002 | — | —/— | — | models.dev official list price |
+| `meta/muse-spark-1.3` | — | reasoning | per-token | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
+| `meta/muse-spark-1.3-contributor` | — | reasoning | per-token | 1.04858M | $0.1 | $0.2 | $0.002 | — | —/— | — | models.dev official list price |
 | `microsoft/wizardlm-2-8x22b` | — | chat | per-token | 65.536K | $0.493 | $0.493 | $0.2465 | — | —/— | — | models.dev official list price |
 | `minimax/minimax-01` | — | chat | per-token | 1.00019M | $0.1394 | $1.122 | $0.0697 | — | —/— | — | models.dev official list price |
 | `minimax/minimax-latest` | — | reasoning | per-token | 512K | $0.3 | $1.2 | $0.06 | — | —/— | — | models.dev official list price |

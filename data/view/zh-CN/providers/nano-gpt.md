@@ -6,10 +6,10 @@
 - 官网: https://docs.nano-gpt.com
 - 定价页: https://docs.nano-gpt.com
 - 币种: USD
-- 数据更新时间: 2026-09-02T00:19:17Z
-- 核实时间: 2026-09-02T00:19:17Z
+- 数据更新时间: 2026-09-03T00:20:55Z
+- 核实时间: 2026-09-03T00:20:55Z
 
-共 **689** 个模型。
+共 **693** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -119,6 +119,7 @@
 | `alibaba/qwen3.6-27b:thinking` | — | reasoning | 按量 | 260.096K | $0.203 | $2.24 | $0.1015 | — | —/— | — | models.dev official list price |
 | `alibaba/qwen3.6-flash` | — | chat | 按量 | 991.808K | $0.19 | $1.16 | $0.02 | — | —/— | — | models.dev official list price |
 | `alibaba/qwen3.8-flash` | — | reasoning | 按量 | 991.808K | $0.16 | $0.47 | $0.016 | — | —/— | — | models.dev official list price |
+| `alibaba/qwen3.8-max-0902` | — | reasoning | 按量 | 991.808K | $2 | $6 | $0.17 | — | —/— | — | models.dev official list price |
 | `amazon/nova-2-lite-v1` | — | chat | 按量 | 1M | $0.51 | $4.25 | $0.255 | — | —/— | — | models.dev official list price |
 | `amazon/nova-lite-v1` | — | chat | 按量 | 300K | $0.0595 | $0.238 | $0.02975 | — | —/— | — | models.dev official list price |
 | `amazon/nova-micro-v1` | — | chat | 按量 | 128K | $0.0357 | $0.1394 | $0.01785 | — | —/— | — | models.dev official list price |
@@ -314,8 +315,9 @@
 | `google/gemini-3.5-flash-lite` | — | reasoning | 按量 | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `google/gemini-3.5-flash-thinking` | — | reasoning | 按量 | 1.04858M | $1.5 | $9 | $0.15 | — | —/— | — | models.dev official list price |
 | `google/gemini-3.6-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
-| `google/gemini-3.7-flash` | — | reasoning | 按量 | 1.04858M | $0.375 | $1.875 | $0.0375 | — | —/— | — | models.dev official list price |
-| `google/gemini-flash-latest` | — | reasoning | 按量 | 1.04876M | $0.375 | $1.875 | $0.0375 | — | —/— | — | models.dev official list price |
+| `google/gemini-3.7-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
+| `google/gemini-3.8-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
+| `google/gemini-flash-latest` | — | reasoning | 按量 | 1.04876M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `google/gemini-flash-lite-latest` | — | reasoning | 按量 | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `google/gemini-pro-latest` | — | reasoning | 按量 | 1.04876M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-26b-a4b-it` | — | reasoning | 按量 | 262.144K | $0.12 | $0.38 | $0.06 | — | —/— | — | models.dev official list price |
@@ -387,6 +389,8 @@
 | `meta/muse-spark-1.1` | — | reasoning | 按量 | 1M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
 | `meta/muse-spark-1.2` | — | reasoning | 按量 | 1M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
 | `meta/muse-spark-1.2-contributor` | — | reasoning | 按量 | 1M | $0.1 | $0.2 | $0.002 | — | —/— | — | models.dev official list price |
+| `meta/muse-spark-1.3` | — | reasoning | 按量 | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
+| `meta/muse-spark-1.3-contributor` | — | reasoning | 按量 | 1.04858M | $0.1 | $0.2 | $0.002 | — | —/— | — | models.dev official list price |
 | `microsoft/wizardlm-2-8x22b` | — | chat | 按量 | 65.536K | $0.493 | $0.493 | $0.2465 | — | —/— | — | models.dev official list price |
 | `minimax/minimax-01` | — | chat | 按量 | 1.00019M | $0.1394 | $1.122 | $0.0697 | — | —/— | — | models.dev official list price |
 | `minimax/minimax-latest` | — | reasoning | 按量 | 512K | $0.3 | $1.2 | $0.06 | — | —/— | — | models.dev official list price |

@@ -6,14 +6,15 @@
 - Homepage: https://www.crossmodel.ai/docs
 - Pricing page: https://www.crossmodel.ai/docs
 - Currency: USD
-- Data updated: 2026-09-02T00:19:17Z
-- Verified: 2026-09-02T00:19:17Z
+- Data updated: 2026-09-03T00:20:55Z
+- Verified: 2026-09-03T00:20:55Z
 
-**56** models in total.
+**57** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `anthropic/claude-fable-5` | — | reasoning | per-token | 1M | $10 | $50 | $1 | — | —/— | — | models.dev official list price |
+| `anthropic/claude-fable-5-1` | — | reasoning | per-token | 1M | $10 | $50 | $0.25 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-haiku-4-5` | — | reasoning | per-token | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-opus-4-7` | — | reasoning | per-token | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-opus-4-8` | — | reasoning | per-token | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |

@@ -6,13 +6,14 @@
 - 官网: https://api.berget.ai
 - 定价页: https://api.berget.ai
 - 币种: USD
-- 数据更新时间: 2026-09-02T00:19:17Z
-- 核实时间: 2026-09-02T00:19:17Z
+- 数据更新时间: 2026-09-03T00:20:55Z
+- 核实时间: 2026-09-03T00:20:55Z
 
-共 **11** 个模型。
+共 **12** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| `Qwen/Qwen3.8-27B-FP8` | — | reasoning | 按量 | 262.144K | $0.46 | $3.48 | — | — | —/— | — | models.dev official list price |
 | `google/gemma-4-31B-it` | — | reasoning | 按量 | 128K | $0.275 | $0.55 | — | — | —/— | — | models.dev official list price |
 | `meta-llama/Llama-3.3-70B-Instruct` | — | reasoning | 按量 | 128K | $0.99 | $0.99 | — | — | —/— | — | models.dev official list price |
 | `mistralai/Mistral-Medium-3.5-128B` | — | reasoning | 按量 | 262.144K | $1.65 | $5.5 | — | — | —/— | — | models.dev official list price |

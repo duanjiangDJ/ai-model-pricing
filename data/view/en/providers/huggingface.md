@@ -6,8 +6,8 @@
 - Homepage: https://huggingface.co/docs/inference-providers
 - Pricing page: https://huggingface.co/docs/inference-providers
 - Currency: USD
-- Data updated: 2026-09-02T00:19:17Z
-- Verified: 2026-09-02T00:19:17Z
+- Data updated: 2026-09-03T00:20:55Z
+- Verified: 2026-09-03T00:20:55Z
 
 **72** models in total.
 

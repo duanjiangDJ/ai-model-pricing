@@ -6,16 +6,17 @@
 - 官网: https://opencode.ai/zen
 - 定价页: https://opencode.ai/docs/zen/
 - 币种: USD
-- 数据更新时间: 2026-09-02T00:19:17Z
-- 核实时间: 2026-09-02T00:19:17Z
+- 数据更新时间: 2026-09-03T00:20:55Z
+- 核实时间: 2026-09-03T00:20:55Z
 
-共 **96** 个模型。
+共 **99** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `big-pickle` | — | chat | 免费 | — | $0 | $0 | $0 | — | —/— | — | Free model (per_mtok = 0). |
 | `claude-3-5-haiku` | — | chat | 按量 | 200K | $0.8 | $4 | $0.08 | — | —/— | — | models.dev official list price |
 | `claude-fable-5` | — | chat | 按量 | — | $10 | $50 | $1 | $12.5 | —/— | — | — |
+| `claude-fable-5-1` | — | reasoning | 按量 | 1M | $10 | $50 | $0.25 | — | —/— | — | models.dev official list price |
 | `claude-haiku-4-5` | — | chat | 按量 | — | $1 | $5 | $0.1 | $1.25 | —/— | — | — |
 | `claude-opus-4-1` | — | reasoning | 按量 | 200K | $15 | $75 | $1.5 | — | —/— | — | models.dev official list price |
 | `claude-opus-4-5` | — | chat | 按量 | — | $5 | $25 | $0.5 | $6.25 | —/— | — | — |
@@ -37,6 +38,7 @@
 | `gemini-3.5-flash-lite` | — | chat | 按量 | — | $0.3 | $2.5 | $0.03 | — | —/— | — | — |
 | `gemini-3.6-flash` | — | chat | 按量 | — | $1.5 | $7.5 | $0.15 | — | —/— | — | — |
 | `gemini-3.7-flash` | — | chat | 按量 | — | $1.5 | $7.5 | $0.15 | — | —/— | — | — |
+| `gemini-3.8-flash` | — | reasoning | 按量 | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — | models.dev official list price |
 | `glm-4.6` | — | reasoning | 按量 | 204.8K | $0.6 | $2.2 | $0.1 | — | —/— | — | models.dev official list price |
 | `glm-4.7` | — | reasoning | 按量 | 204.8K | $0.6 | $2.2 | $0.1 | — | —/— | — | models.dev official list price |
 | `glm-4.7-free` | — | reasoning | 免费 | 204.8K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
@@ -96,6 +98,7 @@
 | `minimax-m3-free` | — | reasoning | 免费 | 200K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `muse-spark-1.2` | — | chat | 按量 | — | $1.25 | $4.25 | $0.15 | — | —/— | — | — |
 | `muse-spark-1.2-contributor-free` | — | chat | 免费 | — | $0 | $0 | $0 | — | —/— | — | Free model (per_mtok = 0). |
+| `muse-spark-1.3-contributor-free` | — | reasoning | 免费 | 1.04858M | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nemotron-3-super-free` | — | reasoning | 免费 | 204.8K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nemotron-3-ultra-free` | — | chat | 免费 | — | $0 | $0 | $0 | — | —/— | — | Free model (per_mtok = 0). |
 | `nemotron-3.5-lightning-free` | — | chat | 免费 | — | $0 | $0 | $0 | — | —/— | — | Free model (per_mtok = 0). |

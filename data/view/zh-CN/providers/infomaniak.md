@@ -6,8 +6,8 @@
 - 官网: https://www.infomaniak.com/en/hosting/ai-services/open-source-models
 - 定价页: https://www.infomaniak.com/en/hosting/ai-services/open-source-models
 - 币种: USD
-- 数据更新时间: 2026-09-01T17:00:31Z
-- 核实时间: 2026-08-30T20:47:54Z
+- 数据更新时间: 2026-09-03T00:20:55Z
+- 核实时间: 2026-09-03T00:20:55Z
 
 共 **10** 个模型。
 

@@ -7,8 +7,8 @@
   "homepage": "https://docs.api.nvidia.com/nim/",
   "pricing_page": "https://docs.api.nvidia.com/nim/",
   "currency": "USD",
-  "updated_at": "2026-08-30T04:37:49Z",
-  "verified_at": "2026-08-30T04:37:49Z",
+  "updated_at": "2026-09-03T00:20:55Z",
+  "verified_at": "2026-09-03T00:20:55Z",
   "models": [
     {
       "id": "abacusai/dracarys-llama-3.1-70b-instruct",

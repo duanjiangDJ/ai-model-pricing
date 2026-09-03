@@ -6,8 +6,8 @@
 - 官网: https://ai-router.dev/openai-compatible-api-gateway/
 - 定价页: https://ai-router.dev/openai-compatible-api-gateway/
 - 币种: USD
-- 数据更新时间: 2026-08-28T08:54:00Z
-- 核实时间: 2026-08-21T11:27:12Z
+- 数据更新时间: 2026-09-03T00:20:55Z
+- 核实时间: 2026-09-03T00:20:55Z
 
 共 **5** 个模型。
 

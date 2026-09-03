@@ -6,10 +6,10 @@
 - 官网: https://llmgateway.io/docs
 - 定价页: https://llmgateway.io/docs
 - 币种: USD
-- 数据更新时间: 2026-09-02T00:19:17Z
-- 核实时间: 2026-09-02T00:19:17Z
+- 数据更新时间: 2026-09-03T00:20:55Z
+- 核实时间: 2026-09-03T00:20:55Z
 
-共 **561** 个模型。
+共 **562** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -193,6 +193,7 @@
 | `gemini-3.5-flash-lite` | — | reasoning | 按量 | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `gemini-3.6-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `gemini-3.7-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
+| `gemini-3.8-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `gemini-pro-latest` | — | reasoning | 按量 | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `gemma-3-27b` | — | chat | 按量 | 110K | $0.1 | $0.3 | — | — | —/— | — | models.dev official list price |
 | `gemma-4-26b-a4b-it` | — | reasoning | 按量 | 262.144K | $0.07 | $0.34 | — | — | —/— | — | models.dev official list price |
@@ -213,7 +214,7 @@
 | `glm-5.1` | — | reasoning | 按量 | 204.8K | $0.931 | $2.93 | $0.173 | — | —/— | — | models.dev official list price |
 | `glm-5.2` | — | reasoning | 按量 | 1.04858M | $0.55 | $1.784 | $0.111 | — | —/— | — | models.dev official list price |
 | `glm-5.2-fast` | — | reasoning | 按量 | 1M | $1.99 | $6.16 | $0.4 | — | —/— | — | models.dev official list price |
-| `glm-5.3` | — | reasoning | 按量 | 1M | $1.3 | $4 | $0.25 | — | —/— | — | models.dev official list price |
+| `glm-5.3` | — | reasoning | 按量 | 1M | $1.2 | $4 | $0.2 | — | —/— | — | models.dev official list price |
 | `glm-5.3-flash` | — | reasoning | 按量 | 1.04858M | $0.13 | $0.4 | $0.024 | — | —/— | — | models.dev official list price |
 | `gonka24/deepseek-v4-flash` | — | reasoning | 按量 | 390K | $0.075 | $0.175 | $0.0155 | — | —/— | — | models.dev official list price |
 | `gonka24/kimi-k2.6` | — | reasoning | 按量 | 262.144K | $0.22 | $1.137 | $0.048 | — | —/— | — | models.dev official list price |
@@ -272,7 +273,7 @@
 | `gpt-5.6-sol` | — | reasoning | 按量 | 1.05M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
 | `gpt-5.6-terra` | — | reasoning | 按量 | 1.05M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.032 | $0.14 | $0.032 | — | —/— | — | models.dev official list price |
-| `gpt-oss-20b` | — | reasoning | 按量 | 131.072K | $0.05 | $0.2 | — | — | —/— | — | models.dev official list price |
+| `gpt-oss-20b` | — | reasoning | 按量 | 131.072K | $0.04 | $0.19 | $0.01 | — | —/— | — | models.dev official list price |
 | `grok-4` | — | chat | 按量 | 256K | $3 | $15 | $0.75 | — | —/— | — | models.dev official list price |
 | `grok-4-1-fast-non-reasoning` | — | chat | 按量 | 2M | $0.2 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
 | `grok-4-1-fast-reasoning` | — | reasoning | 按量 | 2M | $0.2 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |

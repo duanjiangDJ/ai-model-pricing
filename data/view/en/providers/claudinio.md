@@ -6,8 +6,8 @@
 - Homepage: https://claudin.io
 - Pricing page: https://claudin.io
 - Currency: USD
-- Data updated: 2026-08-30T04:37:49Z
-- Verified: 2026-08-30T04:37:49Z
+- Data updated: 2026-09-03T00:20:55Z
+- Verified: 2026-09-03T00:20:55Z
 
 **2** models in total.
 

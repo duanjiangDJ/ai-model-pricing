@@ -6,8 +6,8 @@
 - 官网: https://docs.edenai.co
 - 定价页: https://docs.edenai.co
 - 币种: USD
-- 数据更新时间: 2026-09-02T00:19:17Z
-- 核实时间: 2026-09-02T00:19:17Z
+- 数据更新时间: 2026-09-03T00:20:55Z
+- 核实时间: 2026-09-03T00:20:55Z
 
 共 **251** 个模型。
 
@@ -51,10 +51,10 @@
 | `cohere/command-r7b-12-2024` | — | chat | 按量 | 132K | $0.0375 | $0.15 | — | — | —/— | — | models.dev official list price |
 | `databricks/databricks-deepseek-v4-flash-0731` | — | reasoning | 按量 | 1M | $0.14 | $0.28 | $0.028 | — | —/— | — | models.dev official list price |
 | `databricks/databricks-deepseek-v4-pro-0813` | — | reasoning | 按量 | 1M | $1.31999 | $3.95997 | $0.13202 | — | —/— | — | models.dev official list price |
-| `databricks/databricks-gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.15001 | $0.59997 | $0.15001 | — | —/— | — | models.dev official list price |
-| `databricks/databricks-gpt-oss-120b@eu` | — | reasoning | 按量 | 131.072K | $0.15001 | $0.59997 | $0.15001 | — | —/— | — | models.dev official list price |
-| `databricks/databricks-gpt-oss-20b` | — | reasoning | 按量 | 131.072K | $0.07 | $0.30002 | $0.07 | — | —/— | — | models.dev official list price |
-| `databricks/databricks-gpt-oss-20b@eu` | — | reasoning | 按量 | 131.072K | $0.07 | $0.30002 | $0.07 | — | —/— | — | models.dev official list price |
+| `databricks/databricks-gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.15001 | $0.59997 | $0.015001 | — | —/— | — | models.dev official list price |
+| `databricks/databricks-gpt-oss-120b@eu` | — | reasoning | 按量 | 131.072K | $0.15001 | $0.59997 | $0.015001 | — | —/— | — | models.dev official list price |
+| `databricks/databricks-gpt-oss-20b` | — | reasoning | 按量 | 131.072K | $0.07 | $0.30002 | $0.007 | — | —/— | — | models.dev official list price |
+| `databricks/databricks-gpt-oss-20b@eu` | — | reasoning | 按量 | 131.072K | $0.07 | $0.30002 | $0.007 | — | —/— | — | models.dev official list price |
 | `deepinfra/ByteDance/Seed-2.0-code` | — | reasoning | 按量 | 256K | $0.5 | $3 | $0.1 | — | —/— | — | models.dev official list price |
 | `deepinfra/ByteDance/Seed-2.0-mini` | — | reasoning | 按量 | 256K | $0.1 | $0.4 | $0.02 | — | —/— | — | models.dev official list price |
 | `deepinfra/deepseek-ai/DeepSeek-R1` | — | reasoning | 按量 | 163.84K | $0.7 | $2.4 | — | — | —/— | — | models.dev official list price |
@@ -117,8 +117,8 @@
 | `google/lyria-3-clip-preview` | — | chat | 免费 | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `groq/openai/gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.15 | $0.6 | $0.075 | — | —/— | — | models.dev official list price |
 | `groq/openai/gpt-oss-20b` | — | reasoning | 按量 | 131.072K | $0.075 | $0.3 | $0.0375 | — | —/— | — | models.dev official list price |
-| `ionos/meta-llama/Llama-3.3-70B-Instruct` | — | chat | 按量 | 128K | $0.75335 | $0.75335 | — | — | —/— | — | models.dev official list price |
-| `ionos/openai/gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.17385 | $0.75335 | — | — | —/— | — | models.dev official list price |
+| `ionos/meta-llama/Llama-3.3-70B-Instruct` | — | chat | 按量 | 128K | $0.75257 | $0.75257 | — | — | —/— | — | models.dev official list price |
+| `ionos/openai/gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.17367 | $0.75257 | — | — | —/— | — | models.dev official list price |
 | `minimax/MiniMax-M2` | — | reasoning | 按量 | 204.8K | $0.3 | $1.2 | — | — | —/— | — | models.dev official list price |
 | `minimax/MiniMax-M2.1` | — | reasoning | 按量 | 204.8K | $0.3 | $1.2 | $0.03 | — | —/— | — | models.dev official list price |
 | `minimax/MiniMax-M2.5` | — | reasoning | 按量 | 204.8K | $0.3 | $1.2 | $0.03 | — | —/— | — | models.dev official list price |
@@ -210,9 +210,9 @@
 | `qwen/qwen3.8-flash` | — | reasoning | 按量 | 1M | $0.16 | $0.47 | $0.016 | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.8-max` | — | reasoning | 按量 | 1M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
 | `qwen/qwq-plus` | — | reasoning | 按量 | 131.072K | $0.8 | $2.4 | — | — | —/— | — | models.dev official list price |
-| `scaleway/deepseek-v4-flash-0731` | — | reasoning | 按量 | 256K | $0.4636 | $0.9272 | — | — | —/— | — | models.dev official list price |
-| `scaleway/gpt-oss-120b` | — | reasoning | 按量 | 128K | $0.17385 | $0.6954 | — | — | —/— | — | models.dev official list price |
-| `scaleway/llama-3.3-70b-instruct` | — | chat | 按量 | 128K | $1.0431 | $1.0431 | — | — | —/— | — | models.dev official list price |
+| `scaleway/deepseek-v4-flash-0731` | — | reasoning | 按量 | 256K | $0.46312 | $0.92624 | — | — | —/— | — | models.dev official list price |
+| `scaleway/gpt-oss-120b` | — | reasoning | 按量 | 128K | $0.17367 | $0.69468 | — | — | —/— | — | models.dev official list price |
+| `scaleway/llama-3.3-70b-instruct` | — | chat | 按量 | 128K | $1.04202 | $1.04202 | — | — | —/— | — | models.dev official list price |
 | `tensorx/deepseek/deepseek-v4-flash-0731` | — | reasoning | 按量 | 1.04858M | $0.25 | $0.3 | $0.0625 | — | —/— | — | models.dev official list price |
 | `tensorx/deepseek/deepseek-v4-pro-0813` | — | reasoning | 按量 | 1.04858M | $2 | $4 | $0.5 | — | —/— | — | models.dev official list price |
 | `tensorx/moonshotai/kimi-k2.5` | — | reasoning | 按量 | 262.144K | $0.5 | $2.8 | $0.125 | — | —/— | — | models.dev official list price |

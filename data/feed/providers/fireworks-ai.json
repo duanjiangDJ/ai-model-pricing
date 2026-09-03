@@ -7,8 +7,8 @@
   "homepage": "https://fireworks.ai/docs/",
   "pricing_page": "https://fireworks.ai/docs/",
   "currency": "USD",
-  "updated_at": "2026-09-02T00:19:17Z",
-  "verified_at": "2026-09-02T00:19:17Z",
+  "updated_at": "2026-09-03T00:20:55Z",
+  "verified_at": "2026-09-03T00:20:55Z",
   "models": [
     {
       "id": "accounts/fireworks/models/deepseek-v4-flash",
@@ -73,6 +73,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "accounts/fireworks/models/deepseek-v4-flash-vision-exp",
+      "name": "DeepSeek V4 Flash Vision Exp",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 384000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.22
+          },
+          "output": {
+            "usd": 0.66
+          },
+          "cache_read": {
+            "usd": 0.007
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "accounts/fireworks/models/deepseek-v4-pro",
@@ -222,7 +253,7 @@
             "usd": 0.5
           },
           "cache_read": {
-            "usd": 0.029
+            "usd": 0.03
           },
           "cache_write": null
         },

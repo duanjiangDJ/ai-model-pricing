@@ -6,10 +6,10 @@
 - 官网: https://cloud.google.com/vertex-ai/generative-ai/docs/models
 - 定价页: https://cloud.google.com/vertex-ai/generative-ai/docs/models
 - 币种: USD
-- 数据更新时间: 2026-09-02T00:19:17Z
-- 核实时间: 2026-09-02T00:19:17Z
+- 数据更新时间: 2026-09-03T00:20:55Z
+- 核实时间: 2026-09-03T00:20:55Z
 
-共 **44** 个模型。
+共 **45** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -46,6 +46,7 @@
 | `gemini-3.5-flash-lite` | — | reasoning | 按量 | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `gemini-3.6-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `gemini-3.7-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
+| `gemini-3.8-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `gemini-embedding-001` | — | embedding | 按量 | 2.048K | $0.15 | $0 | — | — | —/— | — | models.dev official list price |
 | `gemini-flash-latest` | — | reasoning | 按量 | 1.04858M | $1.5 | $9 | $0.15 | — | —/— | — | models.dev official list price |
 | `gemini-flash-lite-latest` | — | reasoning | 按量 | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |

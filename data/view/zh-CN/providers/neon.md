@@ -6,8 +6,8 @@
 - 官网: https://neon.com/docs
 - 定价页: https://neon.com/docs
 - 币种: USD
-- 数据更新时间: 2026-09-02T00:19:17Z
-- 核实时间: 2026-09-02T00:19:17Z
+- 数据更新时间: 2026-09-03T00:20:55Z
+- 核实时间: 2026-09-03T00:20:55Z
 
 共 **42** 个模型。
 
@@ -41,14 +41,14 @@
 | `gpt-5-4-nano` | — | reasoning | 按量 | 400K | $0.2 | $1.25 | $0.02 | — | —/— | — | models.dev official list price |
 | `gpt-5-5` | — | reasoning | 按量 | 1.05M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
 | `gpt-5-5-pro` | — | reasoning | 按量 | 1.05M | $30 | $180 | — | — | —/— | — | models.dev official list price |
-| `gpt-5-6-luna` | — | reasoning | 按量 | 1.05M | $1 | $6 | $0.1 | — | —/— | — | models.dev official list price |
+| `gpt-5-6-luna` | — | reasoning | 按量 | 1.05M | $0.2 | $1.2 | $0.02 | — | —/— | — | models.dev official list price |
 | `gpt-5-6-sol` | — | reasoning | 按量 | 1.05M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
-| `gpt-5-6-terra` | — | reasoning | 按量 | 1.05M | $2.5 | $15 | $0.25 | — | —/— | — | models.dev official list price |
+| `gpt-5-6-terra` | — | reasoning | 按量 | 1.05M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `gpt-5-mini` | — | reasoning | 按量 | 400K | $0.25 | $2 | $0.025 | — | —/— | — | models.dev official list price |
 | `gpt-5-nano` | — | reasoning | 按量 | 400K | $0.05 | $0.4 | $0.005 | — | —/— | — | models.dev official list price |
-| `gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.072 | $0.28 | — | — | —/— | — | models.dev official list price |
-| `gpt-oss-20b` | — | reasoning | 按量 | 131.072K | $0.05 | $0.2 | — | — | —/— | — | models.dev official list price |
-| `inkling` | — | reasoning | 按量 | 1.04858M | — | — | — | — | —/— | — | models.dev official list price |
+| `gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
+| `gpt-oss-20b` | — | reasoning | 按量 | 131.072K | $0.07 | $0.3 | — | — | —/— | — | models.dev official list price |
+| `inkling` | — | reasoning | 按量 | 1.04858M | $1 | $4.05 | $0.17 | — | —/— | — | models.dev official list price |
 | `kimi-k3` | — | reasoning | 按量 | 1.04858M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `llama-4-maverick` | — | chat | 按量 | 1M | $0.5 | $1.5 | — | — | —/— | — | models.dev official list price |
 | `meta-llama-3-1-8b-instruct` | — | chat | 按量 | 131.072K | $0.15 | $0.45 | — | — | —/— | — | models.dev official list price |

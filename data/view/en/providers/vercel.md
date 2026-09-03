@@ -6,10 +6,10 @@
 - Homepage: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - Pricing page: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - Currency: USD
-- Data updated: 2026-09-02T00:19:17Z
-- Verified: 2026-09-02T00:19:17Z
+- Data updated: 2026-09-03T00:20:55Z
+- Verified: 2026-09-03T00:20:55Z
 
-**369** models in total.
+**374** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -46,6 +46,7 @@
 | `alibaba/qwen3.8-flash` | — | reasoning | per-token | 991K | $0.16 | $0.47 | $0.016 | — | —/— | — | models.dev official list price |
 | `alibaba/qwen3.8-flash-next` | — | reasoning | per-token | 1.04858M | $0.12 | $0.4 | $0.01 | — | —/— | — | models.dev official list price |
 | `alibaba/qwen3.8-max` | — | reasoning | per-token | 1M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
+| `alibaba/qwen3.8-max-0902` | — | reasoning | per-token | 991K | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
 | `alibaba/wan-v2.5-t2v-preview` | — | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
 | `alibaba/wan-v2.6-i2v` | — | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
 | `alibaba/wan-v2.6-i2v-flash` | — | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
@@ -144,6 +145,7 @@
 | `google/gemini-3.5-transcribe-live` | — | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
 | `google/gemini-3.6-flash` | — | reasoning | per-token | 1M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `google/gemini-3.7-flash` | — | reasoning | per-token | 1M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
+| `google/gemini-3.8-flash` | — | reasoning | per-token | 1M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `google/gemini-embedding-001` | — | embedding | per-token | 8.192K | — | — | — | — | —/— | — | models.dev official list price |
 | `google/gemini-embedding-2` | — | embedding | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
 | `google/gemini-omni-flash-preview` | — | reasoning | per-token | 1M | $1.5 | $9 | — | — | —/— | — | models.dev official list price |
@@ -184,6 +186,8 @@
 | `meta/muse-spark-1.1` | — | reasoning | per-token | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
 | `meta/muse-spark-1.2` | — | reasoning | per-token | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
 | `meta/muse-spark-1.2-contributor` | — | reasoning | per-token | 1.04858M | $0.1 | $0.2 | $0.002 | — | —/— | — | models.dev official list price |
+| `meta/muse-spark-1.3` | — | reasoning | per-token | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
+| `meta/muse-spark-1.3-contributor` | — | reasoning | per-token | 1.04858M | $0.1 | $0.2 | $0.002 | — | —/— | — | models.dev official list price |
 | `minimax/minimax-h3` | — | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
 | `minimax/minimax-h3-max` | — | chat | ? | — | — | — | — | — | —/— | — | models.dev official list price |
 | `minimax/minimax-m2` | — | reasoning | per-token | 205K | $0.3 | $1.2 | $0.03 | — | —/— | — | models.dev official list price |
@@ -381,4 +385,5 @@
 | `zai/glm-5.2-fast` | — | reasoning | per-token | 1M | $2.1 | $6.6 | $0.21 | — | —/— | — | models.dev official list price |
 | `zai/glm-5.3` | — | reasoning | per-token | 1M | $1.4 | $4.4 | $0.14 | — | —/— | — | models.dev official list price |
 | `zai/glm-5.3-flash` | — | reasoning | per-token | 1M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
+| `zai/glm-5.3-promo-50` | — | reasoning | per-token | 1.04858M | $0.7 | $2.2 | $0.13 | — | —/— | — | models.dev official list price |
 | `zai/glm-5v-turbo` | — | reasoning | per-token | 200K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |

@@ -6,8 +6,8 @@
 - Homepage: https://docs.mistral.ai/getting-started/models/
 - Pricing page: https://docs.mistral.ai/getting-started/models/
 - Currency: USD
-- Data updated: 2026-09-02T00:19:21Z
-- Verified: 2026-09-02T00:19:21Z
+- Data updated: 2026-09-03T00:20:56Z
+- Verified: 2026-09-03T00:20:56Z
 
 **34** models in total.
 
