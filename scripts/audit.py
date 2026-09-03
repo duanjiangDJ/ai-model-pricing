@@ -217,7 +217,7 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
         # non-uniform dual-currency: cny/usd rate for the SAME model's fields should be one
         # FX rate (dual-currency is a single rate pair). A large spread (>4x) across fields
         # means one field got a wrong unit/scale conversion (e.g. deepseek-v4-pro cache_read
-        # usd stored as 0.003625 when cny 0.30 / 6.8 = 0.044). Warn only, not fail.
+        # usd stored as 0.003625 when cny 0.30 / 6.8 = 0.044). Hard gate (bug class).
         elif (len(cny_usd_ratios) >= 2 and (max(cny_usd_ratios) / min(cny_usd_ratios)) > 4.0):
             _spread = max(cny_usd_ratios) / min(cny_usd_ratios)
             dual_nonuniform.append(f"{p['provider_id']} :: {m['id']} (non-uniform ratio {_spread:.1f}x)")
@@ -252,7 +252,7 @@ if dual_suspect:
 if dual_nonuniform:
     from collections import Counter as _Cnd
     by_pid = _Cnd(u.split(" :: ")[0] for u in dual_nonuniform)
-    warn(f"non-uniform dual-currency (one field cny/usd ratio >4x siblings; likely wrong unit conversion; {len(dual_nonuniform)} models): "
+    fail(f"non-uniform dual-currency (one field cny/usd ratio >4x siblings; likely wrong unit conversion; {len(dual_nonuniform)} models): "
          + ", ".join(f"{pid} x{c}" for pid, c in by_pid.most_common(12)))
 if free_contamination:
     from collections import Counter as _Cf

@@ -424,9 +424,9 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Free on OVHcloud AI Endpoints (guard/safety model, $0 per mTok per models.dev/OVHcloud free tier). billing_model corrected from pay_per_token.",
       "billing_model": [
-        "pay_per_token"
+        "free"
       ]
     },
     {
@@ -454,9 +454,9 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Free on OVHcloud AI Endpoints (guard/safety model, $0 per mTok per models.dev/OVHcloud free tier). billing_model corrected from pay_per_token.",
       "billing_model": [
-        "pay_per_token"
+        "free"
       ]
     }
   ],
