@@ -16,6 +16,12 @@
 
 ---
 
+## 26.54.29 — 2026-09-03T18:45Z（内容更新）
+
+- 价格同步（7 处变更）：
+- **openrouter**（新增 1）：`inclusionai/ling-3.0-flash-fin`
+- **openrouter**（更新 6）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `qwen/qwen3.8-27b`, `tencent/hy3`, `~moonshotai/kimi-latest`, `~z-ai/glm-latest`
+
 ## 26.53.29 — 2026-09-03T15:43Z（内容更新）
 
 - 价格同步（7 处变更）：
