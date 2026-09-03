@@ -33,14 +33,6 @@
       "last_error": null
     },
     {
-      "name": "OpenAI official pricing (Wayback snapshot)",
-      "url": "https://platform.openai.com/docs/pricing",
-      "auto_sync": true,
-      "official": true,
-      "last_ok": "2026-08-21T13:59:17Z",
-      "last_error": "parsed 0 models"
-    },
-    {
       "name": "OpenRouter API",
       "url": "https://openrouter.ai/api/v1/models",
       "auto_sync": true,
