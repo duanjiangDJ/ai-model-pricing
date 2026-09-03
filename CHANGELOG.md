@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.54.29 — 2026-09-03T18:45Z (content update)
+
+- price sync (7 changes):
+- **openrouter** (+1): `inclusionai/ling-3.0-flash-fin`
+- **openrouter** (updated 6): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `qwen/qwen3.8-27b`, `tencent/hy3`, `~moonshotai/kimi-latest`, `~z-ai/glm-latest`
+
 ## 26.53.29 — 2026-09-03T15:43Z (content update)
 
 - price sync (7 changes):

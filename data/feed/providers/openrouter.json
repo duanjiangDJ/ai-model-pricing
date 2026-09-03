@@ -8,8 +8,8 @@
   "pricing_page": "https://openrouter.ai/models",
   "api_base_url": "https://openrouter.ai/api/v1",
   "currency": "USD",
-  "updated_at": "2026-09-03T15:22:23Z",
-  "verified_at": "2026-09-03T15:22:23Z",
+  "updated_at": "2026-09-03T18:22:20Z",
+  "verified_at": "2026-09-03T18:22:20Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1908,13 +1908,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.08554
+            "usd": 0.08092
           },
           "output": {
-            "usd": 0.17108
+            "usd": 0.16184
           },
           "cache_read": {
-            "usd": 0.017108
+            "usd": 0.016184
           },
           "cache_write": null
         },
@@ -2029,13 +2029,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.035996
+            "usd": 1.034256
           },
           "output": {
-            "usd": 2.071992
+            "usd": 2.068512
           },
           "cache_read": {
-            "usd": 0.086333
+            "usd": 0.086188
           },
           "cache_write": null
         },
@@ -3733,6 +3733,36 @@
           },
           "cache_read": {
             "usd": 0.0042
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "inclusionai/ling-3.0-flash-fin",
+      "name": "Ling 3.0 Flash Fin",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.06
+          },
+          "output": {
+            "usd": 0.18
+          },
+          "cache_read": {
+            "usd": 0.012
           },
           "cache_write": null
         },
@@ -10758,17 +10788,15 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.425
+            "usd": 0.42
           },
           "output": {
-            "usd": 2.55
+            "usd": 3.0
           },
           "cache_read": {
             "usd": 0.085
           },
-          "cache_write": {
-            "usd": 0.53125
-          }
+          "cache_write": null
         },
         "per_image": null,
         "promo": null
@@ -11290,13 +11318,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.132
+            "usd": 0.0825
           },
           "output": {
-            "usd": 0.528
+            "usd": 0.33
           },
           "cache_read": {
-            "usd": 0.033
+            "usd": 0.020625
           },
           "cache_write": null
         },
@@ -12742,13 +12770,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2.55
+            "usd": 2.5
           },
           "output": {
-            "usd": 12.75
+            "usd": 14.0
           },
           "cache_read": {
-            "usd": 0.25599999
+            "usd": 0.29
           },
           "cache_write": null
         },
@@ -12899,13 +12927,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.134
+            "usd": 1.148
           },
           "output": {
-            "usd": 3.564
+            "usd": 3.608
           },
           "cache_read": {
-            "usd": 0.1863
+            "usd": 0.1886
           },
           "cache_write": null
         },
