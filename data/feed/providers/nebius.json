@@ -7,8 +7,8 @@
   "homepage": "https://docs.tokenfactory.nebius.com/",
   "pricing_page": "https://docs.tokenfactory.nebius.com/",
   "currency": "USD",
-  "updated_at": "2026-09-02T00:19:17Z",
-  "verified_at": "2026-09-02T00:19:17Z",
+  "updated_at": "2026-09-03T00:20:55Z",
+  "verified_at": "2026-09-03T00:20:55Z",
   "models": [
     {
       "id": "MiniMaxAI/MiniMax-M2.5",
@@ -613,6 +613,37 @@
       ]
     },
     {
+      "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "name": "DeepSeek V4 Flash 0731",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1024000,
+      "max_output": 1024000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.14
+          },
+          "output": {
+            "usd": 0.28
+          },
+          "cache_read": {
+            "usd": 0.14
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "deepseek-ai/DeepSeek-V4-Pro",
       "name": "DeepSeek V4 Pro",
       "category": "reasoning",
@@ -931,6 +962,68 @@
       ]
     },
     {
+      "id": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "name": "Nemotron 3 Ultra 550B A55B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 1048576,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1
+          },
+          "output": {
+            "usd": 3
+          },
+          "cache_read": {
+            "usd": 1
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "nvidia/Nemotron-3_5-Lightning",
+      "name": "Nemotron 3.5 Lightning 30B A3B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 1048576,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.06
+          },
+          "output": {
+            "usd": 0.24
+          },
+          "cache_read": {
+            "usd": 0.06
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "nvidia/nemotron-3-super-120b-a12b",
       "name": "Nemotron-3-Super-120B-A12B",
       "category": "reasoning",
@@ -1085,6 +1178,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "zai-org/GLM-5.3-Flash",
+      "name": "GLM-5.3-Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1024000,
+      "max_output": 1024000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.15
+          },
+          "output": {
+            "usd": 0.5
+          },
+          "cache_read": {
+            "usd": 0.15
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     }
   ],
   "api_base_url": "https://api.studio.nebius.ai/v1"

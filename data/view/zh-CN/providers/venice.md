@@ -6,10 +6,10 @@
 - 官网: https://docs.venice.ai
 - 定价页: https://docs.venice.ai
 - 币种: USD
-- 数据更新时间: 2026-09-02T00:19:17Z
-- 核实时间: 2026-09-02T00:19:17Z
+- 数据更新时间: 2026-09-03T00:20:55Z
+- 核实时间: 2026-09-03T00:20:55Z
 
-共 **102** 个模型。
+共 **103** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -38,6 +38,7 @@
 | `gemini-3-5-flash-lite` | — | reasoning | 按量 | 1M | $0.375 | $3.125 | $0.0375 | — | —/— | — | models.dev official list price |
 | `gemini-3-6-flash` | — | reasoning | 按量 | 1M | $0.9375 | $4.6875 | $0.09375 | — | —/— | — | models.dev official list price |
 | `gemini-3-7-flash` | — | reasoning | 按量 | 1M | $0.9375 | $4.6875 | $0.09375 | — | —/— | — | models.dev official list price |
+| `gemini-3-8-flash` | — | reasoning | 按量 | 1M | $0.9375 | $4.6875 | $0.09375 | — | —/— | — | models.dev official list price |
 | `gemini-3-flash-preview` | — | reasoning | 按量 | 256K | $0.7 | $3.75 | $0.07 | — | —/— | — | models.dev official list price |
 | `gemma-4-uncensored` | — | chat | 按量 | 256K | $0.1625 | $0.5 | — | — | —/— | — | models.dev official list price |
 | `google-gemma-3-27b-it` | — | chat | 按量 | 198K | $0.12 | $0.2 | — | — | —/— | — | models.dev official list price |

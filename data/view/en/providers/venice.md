@@ -6,10 +6,10 @@
 - Homepage: https://docs.venice.ai
 - Pricing page: https://docs.venice.ai
 - Currency: USD
-- Data updated: 2026-09-02T00:19:17Z
-- Verified: 2026-09-02T00:19:17Z
+- Data updated: 2026-09-03T00:20:55Z
+- Verified: 2026-09-03T00:20:55Z
 
-**102** models in total.
+**103** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -38,6 +38,7 @@
 | `gemini-3-5-flash-lite` | — | reasoning | per-token | 1M | $0.375 | $3.125 | $0.0375 | — | —/— | — | models.dev official list price |
 | `gemini-3-6-flash` | — | reasoning | per-token | 1M | $0.9375 | $4.6875 | $0.09375 | — | —/— | — | models.dev official list price |
 | `gemini-3-7-flash` | — | reasoning | per-token | 1M | $0.9375 | $4.6875 | $0.09375 | — | —/— | — | models.dev official list price |
+| `gemini-3-8-flash` | — | reasoning | per-token | 1M | $0.9375 | $4.6875 | $0.09375 | — | —/— | — | models.dev official list price |
 | `gemini-3-flash-preview` | — | reasoning | per-token | 256K | $0.7 | $3.75 | $0.07 | — | —/— | — | models.dev official list price |
 | `gemma-4-uncensored` | — | chat | per-token | 256K | $0.1625 | $0.5 | — | — | —/— | — | models.dev official list price |
 | `google-gemma-3-27b-it` | — | chat | per-token | 198K | $0.12 | $0.2 | — | — | —/— | — | models.dev official list price |

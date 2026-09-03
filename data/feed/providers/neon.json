@@ -7,8 +7,8 @@
   "homepage": "https://neon.com/docs",
   "pricing_page": "https://neon.com/docs",
   "currency": "USD",
-  "updated_at": "2026-09-02T00:19:17Z",
-  "verified_at": "2026-09-02T00:19:17Z",
+  "updated_at": "2026-09-03T00:20:55Z",
+  "verified_at": "2026-09-03T00:20:55Z",
   "models": [
     {
       "id": "claude-fable-5",
@@ -914,13 +914,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1
+            "usd": 0.2
           },
           "output": {
-            "usd": 6
+            "usd": 1.2
           },
           "cache_read": {
-            "usd": 0.1
+            "usd": 0.02
           },
           "cache_write": null
         },
@@ -978,13 +978,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2.5
+            "usd": 2
           },
           "output": {
-            "usd": 15
+            "usd": 12
           },
           "cache_read": {
-            "usd": 0.25
+            "usd": 0.2
           },
           "cache_write": null
         },
@@ -1074,10 +1074,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.072
+            "usd": 0.15
           },
           "output": {
-            "usd": 0.28
+            "usd": 0.6
           },
           "cache_read": null,
           "cache_write": null
@@ -1104,10 +1104,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.05
+            "usd": 0.07
           },
           "output": {
-            "usd": 0.2
+            "usd": 0.3
           },
           "cache_read": null,
           "cache_write": null
@@ -1133,9 +1133,15 @@
       "max_output": 65536,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": {
+            "usd": 1
+          },
+          "output": {
+            "usd": 4.05
+          },
+          "cache_read": {
+            "usd": 0.17
+          },
           "cache_write": null
         },
         "batch": null,

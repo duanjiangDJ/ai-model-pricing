@@ -6,13 +6,14 @@
 - Homepage: https://api.berget.ai
 - Pricing page: https://api.berget.ai
 - Currency: USD
-- Data updated: 2026-09-02T00:19:17Z
-- Verified: 2026-09-02T00:19:17Z
+- Data updated: 2026-09-03T00:20:55Z
+- Verified: 2026-09-03T00:20:55Z
 
-**11** models in total.
+**12** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| `Qwen/Qwen3.8-27B-FP8` | — | reasoning | per-token | 262.144K | $0.46 | $3.48 | — | — | —/— | — | models.dev official list price |
 | `google/gemma-4-31B-it` | — | reasoning | per-token | 128K | $0.275 | $0.55 | — | — | —/— | — | models.dev official list price |
 | `meta-llama/Llama-3.3-70B-Instruct` | — | reasoning | per-token | 128K | $0.99 | $0.99 | — | — | —/— | — | models.dev official list price |
 | `mistralai/Mistral-Medium-3.5-128B` | — | reasoning | per-token | 262.144K | $1.65 | $5.5 | — | — | —/— | — | models.dev official list price |

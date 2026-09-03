@@ -6,8 +6,8 @@
 - 官网: https://www.npmjs.com/package/@qvac/ai-sdk-provider
 - 定价页: https://www.npmjs.com/package/@qvac/ai-sdk-provider
 - 币种: USD
-- 数据更新时间: 2026-08-30T04:37:49Z
-- 核实时间: 2026-08-30T04:37:49Z
+- 数据更新时间: 2026-09-03T00:20:55Z
+- 核实时间: 2026-09-03T00:20:55Z
 
 共 **9** 个模型。
 

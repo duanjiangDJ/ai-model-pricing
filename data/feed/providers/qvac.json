@@ -7,8 +7,8 @@
   "homepage": "https://www.npmjs.com/package/@qvac/ai-sdk-provider",
   "pricing_page": "https://www.npmjs.com/package/@qvac/ai-sdk-provider",
   "currency": "USD",
-  "updated_at": "2026-08-30T04:37:49Z",
-  "verified_at": "2026-08-30T04:37:49Z",
+  "updated_at": "2026-09-03T00:20:55Z",
+  "verified_at": "2026-09-03T00:20:55Z",
   "models": [
     {
       "id": "gemma4-31b",

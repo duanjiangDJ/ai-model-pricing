@@ -7,8 +7,8 @@
   "homepage": "https://requesty.ai/solution/llm-routing/models",
   "pricing_page": "https://requesty.ai/solution/llm-routing/models",
   "currency": "USD",
-  "updated_at": "2026-09-02T00:19:17Z",
-  "verified_at": "2026-09-02T00:19:17Z",
+  "updated_at": "2026-09-03T00:20:55Z",
+  "verified_at": "2026-09-03T00:20:55Z",
   "models": [
     {
       "id": "claude-fable-5",
@@ -41,6 +41,68 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "claude-fable-5.1",
+      "name": "Claude Fable 5.1",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 128000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 10
+          },
+          "output": {
+            "usd": 50
+          },
+          "cache_read": {
+            "usd": 0.25
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "claude-fable-5.1@eu",
+      "name": "Claude Fable 5.1 (EU)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 128000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 11
+          },
+          "output": {
+            "usd": 55
+          },
+          "cache_read": {
+            "usd": 0.275
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "claude-fable-5@eu",
@@ -726,13 +788,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.44
+            "usd": 0.14
           },
           "output": {
-            "usd": 1.32
+            "usd": 0.28
           },
           "cache_read": {
-            "usd": 0.014
+            "usd": 0.07
           },
           "cache_write": null
         },
@@ -758,13 +820,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.076
+            "usd": 0.14
           },
           "output": {
-            "usd": 0.153
+            "usd": 0.28
           },
           "cache_read": {
-            "usd": 0.014
+            "usd": 0.07
           },
           "cache_write": null
         },
@@ -873,6 +935,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "deepseek-v4-pro-0813@eu",
+      "name": "DeepSeek V4 Pro 0813 (EU)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 1048576,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.75
+          },
+          "output": {
+            "usd": 3.5
+          },
+          "cache_read": {
+            "usd": 0.44
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "deepseek-v4-pro@eu",
@@ -1479,6 +1572,68 @@
       ]
     },
     {
+      "id": "gemini-3.8-flash",
+      "name": "Gemini 3.8 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65535,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.75
+          },
+          "output": {
+            "usd": 3.75
+          },
+          "cache_read": {
+            "usd": 0.075
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "gemini-3.8-flash@eu",
+      "name": "Gemini 3.8 Flash (EU)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65535,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.825
+          },
+          "output": {
+            "usd": 4.125
+          },
+          "cache_read": {
+            "usd": 0.0825
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "gemma-4-26b-a4b-it",
       "name": "Gemma 4 26B A4B IT",
       "category": "reasoning",
@@ -1747,13 +1902,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.075
+            "usd": 0.2
           },
           "output": {
-            "usd": 0.25
+            "usd": 0.5
           },
           "cache_read": {
-            "usd": 0.015
+            "usd": 0.07
           },
           "cache_write": null
         },
@@ -4282,6 +4437,130 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "qwen3.8-2.4T-A95B@eu",
+      "name": "Qwen3.8 2.4T A95B (EU)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 262144,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.5
+          },
+          "output": {
+            "usd": 6
+          },
+          "cache_read": {
+            "usd": 0.63
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen3.8-flash",
+      "name": "Qwen3.8 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 131072,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.16
+          },
+          "output": {
+            "usd": 0.47
+          },
+          "cache_read": {
+            "usd": 0.016
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen3.8-flash-next",
+      "name": "Qwen3.8 Flash Next",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 262144,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.2
+          },
+          "output": {
+            "usd": 0.5
+          },
+          "cache_read": {
+            "usd": 0.05
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "qwen3.8-flash-next@eu",
+      "name": "Qwen3.8 Flash Next (EU)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 262144,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.2
+          },
+          "output": {
+            "usd": 0.5
+          },
+          "cache_read": {
+            "usd": 0.05
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "qwen3.8-max",

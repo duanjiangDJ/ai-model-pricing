@@ -6,10 +6,10 @@
 - 官网: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - 定价页: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - 币种: USD
-- 数据更新时间: 2026-09-02T00:19:17Z
-- 核实时间: 2026-09-02T00:19:17Z
+- 数据更新时间: 2026-09-03T00:20:55Z
+- 核实时间: 2026-09-03T00:20:55Z
 
-共 **369** 个模型。
+共 **374** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -46,6 +46,7 @@
 | `alibaba/qwen3.8-flash` | — | reasoning | 按量 | 991K | $0.16 | $0.47 | $0.016 | — | —/— | — | models.dev official list price |
 | `alibaba/qwen3.8-flash-next` | — | reasoning | 按量 | 1.04858M | $0.12 | $0.4 | $0.01 | — | —/— | — | models.dev official list price |
 | `alibaba/qwen3.8-max` | — | reasoning | 按量 | 1M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
+| `alibaba/qwen3.8-max-0902` | — | reasoning | 按量 | 991K | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
 | `alibaba/wan-v2.5-t2v-preview` | — | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
 | `alibaba/wan-v2.6-i2v` | — | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
 | `alibaba/wan-v2.6-i2v-flash` | — | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
@@ -144,6 +145,7 @@
 | `google/gemini-3.5-transcribe-live` | — | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
 | `google/gemini-3.6-flash` | — | reasoning | 按量 | 1M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `google/gemini-3.7-flash` | — | reasoning | 按量 | 1M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
+| `google/gemini-3.8-flash` | — | reasoning | 按量 | 1M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `google/gemini-embedding-001` | — | embedding | 按量 | 8.192K | — | — | — | — | —/— | — | models.dev official list price |
 | `google/gemini-embedding-2` | — | embedding | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
 | `google/gemini-omni-flash-preview` | — | reasoning | 按量 | 1M | $1.5 | $9 | — | — | —/— | — | models.dev official list price |
@@ -184,6 +186,8 @@
 | `meta/muse-spark-1.1` | — | reasoning | 按量 | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
 | `meta/muse-spark-1.2` | — | reasoning | 按量 | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
 | `meta/muse-spark-1.2-contributor` | — | reasoning | 按量 | 1.04858M | $0.1 | $0.2 | $0.002 | — | —/— | — | models.dev official list price |
+| `meta/muse-spark-1.3` | — | reasoning | 按量 | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
+| `meta/muse-spark-1.3-contributor` | — | reasoning | 按量 | 1.04858M | $0.1 | $0.2 | $0.002 | — | —/— | — | models.dev official list price |
 | `minimax/minimax-h3` | — | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
 | `minimax/minimax-h3-max` | — | chat | 未知 | — | — | — | — | — | —/— | — | models.dev official list price |
 | `minimax/minimax-m2` | — | reasoning | 按量 | 205K | $0.3 | $1.2 | $0.03 | — | —/— | — | models.dev official list price |
@@ -381,4 +385,5 @@
 | `zai/glm-5.2-fast` | — | reasoning | 按量 | 1M | $2.1 | $6.6 | $0.21 | — | —/— | — | models.dev official list price |
 | `zai/glm-5.3` | — | reasoning | 按量 | 1M | $1.4 | $4.4 | $0.14 | — | —/— | — | models.dev official list price |
 | `zai/glm-5.3-flash` | — | reasoning | 按量 | 1M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
+| `zai/glm-5.3-promo-50` | — | reasoning | 按量 | 1.04858M | $0.7 | $2.2 | $0.13 | — | —/— | — | models.dev official list price |
 | `zai/glm-5v-turbo` | — | reasoning | 按量 | 200K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |

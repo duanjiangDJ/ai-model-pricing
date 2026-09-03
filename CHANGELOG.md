@@ -16,6 +16,45 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.46.29 — 2026-09-03T00:39Z (content update)
+
+- price sync (102 changes):
+- **alibaba** (updated 14): `qwen3.7-plus`, `qwen3.6-flash`, `qwen-vl-ocr`, `qwen3.6-35b-a3b`, `qwen3-next-80b-a3b-thinking`, `qwen3-next-80b-a3b-instruct`, `qwen3-32b` — in $0.72 out $0.72; in $0.7 out $2.8; in $0.5 out $2; in $0.5 out $6; in $0.248 out $1.485; in $0.1875 out $1.125; in $0.5 out $3
+- **azure** (+1): `grok-4.6`
+- **azure** (updated 1): `gpt-5.6-sol` — in $4 out $20
+- **berget** (+1): `Qwen/Qwen3.8-27B-FP8`
+- **crossmodel** (+1): `anthropic/claude-fable-5-1`
+- **deepseek** (updated 6): `deepseek-v4-flash`, `deepseek-v4-pro`, `deepseek-v4-flash-vision-exp` — in $0.14 out $0.28 cache $0.0028; in $0.435 out $0.87 cache $0.003625
+- **edenai** (updated 9): `databricks/databricks-gpt-oss-120b`, `databricks/databricks-gpt-oss-120b@eu`, `databricks/databricks-gpt-oss-20b`, `databricks/databricks-gpt-oss-20b@eu`, `ionos/meta-llama/Llama-3.3-70B-Instruct`, `ionos/openai/gpt-oss-120b`, `scaleway/deepseek-v4-flash-0731`, `scaleway/gpt-oss-120b`, `scaleway/llama-3.3-70b-instruct` — cache $0.015001; cache $0.007; in $0.75257 out $0.75257; in $0.17367 out $0.75257; in $0.46312 out $0.92624; in $0.17367 out $0.69468; in $1.04202 out $1.04202
+- **fireworks-ai** (+1): `accounts/fireworks/models/deepseek-v4-flash-vision-exp`
+- **fireworks-ai** (updated 1): `accounts/fireworks/models/glm-5p3-flash` — cache $0.03
+- **gitlab** (+1): `duo-chat-fable-5-1`
+- **google** (+1): `gemini-3.8-flash`
+- **google** (updated 1): `gemini-3.8-flash`
+- **google-vertex** (+1): `gemini-3.8-flash`
+- **hyper** (+1): `kimi-k2-thinking`
+- **hyper** (updated 6): `gemma-4-26b-a4b-it`, `glm-5`, `glm-5.1`, `gpt-oss-120b`, `kimi-k2.5`, `minimax-m2.7` — in $0.116 out $0.38; in $0.85 out $2.774; in $1.29 out $4.22; in $0.188 out $0.7; in $0.5284 out $2.785; in $0.426 out $1.62
+- **kilo** (+4): `google/gemini-3.8-flash`, `meta/muse-spark-1.3`, `meta/muse-spark-1.3-contributor`, `~z-ai/glm-flash-latest`
+- **kilo** (updated 2): `~deepseek/deepseek-v4-flash-latest`, `~z-ai/glm-latest` — in $0.05 out $0.16 cache $0.013; in $1.15 out $3.5 cache $0.1
+- **llmgateway** (+1): `gemini-3.8-flash`
+- **llmgateway** (updated 2): `glm-5.3`, `gpt-oss-20b` — in $1.2 cache $0.2; in $0.04 out $0.19 cache $0.01
+- **merge-gateway** (+1): `google/gemini-3.8-flash`
+- **minimax** (updated 2): `MiniMax-M2.5-highspeed` — cache $0.06
+- **mistral** (updated 4): `ministral-3b-latest`, `ministral-8b-latest` — in $0.04 out $0.04; in $0.1 out $0.1
+- **nano-gpt** (+4): `alibaba/qwen3.8-max-0902`, `google/gemini-3.8-flash`, `meta/muse-spark-1.3`, `meta/muse-spark-1.3-contributor`
+- **nano-gpt** (updated 2): `google/gemini-3.7-flash`, `google/gemini-flash-latest` — in $0.75 out $3.75 cache $0.075
+- **nebius** (+4): `deepseek-ai/DeepSeek-V4-Flash-0731`, `nvidia/Nemotron-3-Ultra-550b-a55b`, `nvidia/Nemotron-3_5-Lightning`, `zai-org/GLM-5.3-Flash`
+- **neon** (updated 5): `gpt-5-6-luna`, `gpt-5-6-terra`, `gpt-oss-120b`, `gpt-oss-20b`, `inkling` — in $0.2 out $1.2 cache $0.02; in $2 out $12 cache $0.2; in $0.15 out $0.6; in $0.07 out $0.3; in $1 out $4.05 cache $0.17
+- **opencode** (+3): `claude-fable-5-1`, `gemini-3.8-flash`, `muse-spark-1.3-contributor-free`
+- **opencode-go** (+1): `muse-spark-1.3-contributor`
+- **openrouter** (updated 9): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `meta-llama/llama-3.3-70b-instruct`, `nvidia/nemotron-3-nano-30b-a3b`, `nvidia/nemotron-3-ultra-550b-a55b`, `qwen/qwen3-14b`, `qwen/qwen3.5-397b-a17b`, `tencent/hy3`, `z-ai/glm-4.6`
+- **ovhcloud** (+1): `qwen3.8-27b`
+- **ovhcloud** (updated 2): `qwen3guard-gen-0.6b`, `qwen3guard-gen-8b` — in $0 out $0
+- **requesty** (+9): `claude-fable-5.1`, `claude-fable-5.1@eu`, `deepseek-v4-pro-0813@eu`, `gemini-3.8-flash`, `gemini-3.8-flash@eu`, `qwen3.8-2.4T-A95B@eu`, `qwen3.8-flash`, `qwen3.8-flash-next`, `qwen3.8-flash-next@eu`
+- **requesty** (updated 3): `deepseek-v4-flash`, `deepseek-v4-flash-0731`, `glm-5.3-flash` — in $0.14 out $0.28 cache $0.07; in $0.2 out $0.5 cache $0.07
+- **venice** (+1): `gemini-3-8-flash`
+- **vercel** (+5): `alibaba/qwen3.8-max-0902`, `google/gemini-3.8-flash`, `meta/muse-spark-1.3`, `meta/muse-spark-1.3-contributor`, `zai/glm-5.3-promo-50`
+
 ## 26.45.29 — 2026-09-02T23:41Z (content update)
 
 - feat(data): add OpenAI historical models from official pricing.md + rebuild index counts

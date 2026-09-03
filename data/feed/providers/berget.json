@@ -7,9 +7,38 @@
   "homepage": "https://api.berget.ai",
   "pricing_page": "https://api.berget.ai",
   "currency": "USD",
-  "updated_at": "2026-09-02T00:19:17Z",
-  "verified_at": "2026-09-02T00:19:17Z",
+  "updated_at": "2026-09-03T00:20:55Z",
+  "verified_at": "2026-09-03T00:20:55Z",
   "models": [
+    {
+      "id": "Qwen/Qwen3.8-27B-FP8",
+      "name": "Qwen3.8 27B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.46
+          },
+          "output": {
+            "usd": 3.48
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
     {
       "id": "google/gemma-4-31B-it",
       "name": "Gemma 4 31B Instruct",

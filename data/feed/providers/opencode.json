@@ -8,8 +8,8 @@
   "pricing_page": "https://opencode.ai/docs/zen/",
   "api_base_url": "https://opencode.ai/zen/v1/models",
   "currency": "USD",
-  "updated_at": "2026-09-02T00:19:17Z",
-  "verified_at": "2026-09-02T00:19:17Z",
+  "updated_at": "2026-09-03T00:20:55Z",
+  "verified_at": "2026-09-03T00:20:55Z",
   "models": [
     {
       "id": "big-pickle",
@@ -102,6 +102,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "claude-fable-5-1",
+      "name": "Claude Fable 5.1",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 128000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 10
+          },
+          "output": {
+            "usd": 50
+          },
+          "cache_read": {
+            "usd": 0.25
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "claude-haiku-4-5",
@@ -741,6 +772,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "gemini-3.8-flash",
+      "name": "Gemini 3.8 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.5
+          },
+          "output": {
+            "usd": 7.5
+          },
+          "cache_read": {
+            "usd": 0.15
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "glm-4.6",
@@ -2519,6 +2581,37 @@
       "billing_model": [
         "free"
       ]
+    },
+    {
+      "id": "muse-spark-1.3-contributor-free",
+      "name": "Muse Spark 1.3 Free",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 131072,
+      "billing_model": [
+        "free"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0
+          },
+          "output": {
+            "usd": 0
+          },
+          "cache_read": {
+            "usd": 0
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
     },
     {
       "id": "nemotron-3-super-free",

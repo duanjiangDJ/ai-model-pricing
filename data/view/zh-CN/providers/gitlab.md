@@ -6,14 +6,15 @@
 - 官网: https://docs.gitlab.com/user/duo_agent_platform/
 - 定价页: https://docs.gitlab.com/user/duo_agent_platform/
 - 币种: USD
-- 数据更新时间: 2026-09-02T00:19:17Z
-- 核实时间: 2026-09-02T00:19:17Z
+- 数据更新时间: 2026-09-03T00:20:55Z
+- 核实时间: 2026-09-03T00:20:55Z
 
-共 **23** 个模型。
+共 **24** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `duo-chat-fable-5` | — | reasoning | 免费 | 1M | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `duo-chat-fable-5-1` | — | reasoning | 免费 | 1M | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `duo-chat-gpt-5-1` | — | reasoning | 免费 | 400K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `duo-chat-gpt-5-2` | — | reasoning | 免费 | 400K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `duo-chat-gpt-5-2-codex` | — | reasoning | 免费 | 400K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

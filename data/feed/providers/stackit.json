@@ -7,8 +7,8 @@
   "homepage": "https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models",
   "pricing_page": "https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models",
   "currency": "USD",
-  "updated_at": "2026-09-02T00:19:17Z",
-  "verified_at": "2026-09-02T00:19:17Z",
+  "updated_at": "2026-09-03T00:20:55Z",
+  "verified_at": "2026-09-03T00:20:55Z",
   "models": [
     {
       "id": "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",

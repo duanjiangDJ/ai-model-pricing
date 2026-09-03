@@ -7,8 +7,8 @@
   "homepage": "https://hyper.charm.land",
   "pricing_page": "https://hyper.charm.land",
   "currency": "USD",
-  "updated_at": "2026-09-02T00:19:17Z",
-  "verified_at": "2026-09-02T00:19:17Z",
+  "updated_at": "2026-09-03T00:20:55Z",
+  "verified_at": "2026-09-03T00:20:55Z",
   "models": [
     {
       "id": "deepseek-v4-flash",
@@ -150,10 +150,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.12
+            "usd": 0.116
           },
           "output": {
-            "usd": 0.42
+            "usd": 0.38
           },
           "cache_read": null,
           "cache_write": null
@@ -180,10 +180,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.91
+            "usd": 0.85
           },
           "output": {
-            "usd": 2.934
+            "usd": 2.774
           },
           "cache_read": null,
           "cache_write": null
@@ -210,10 +210,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.332
+            "usd": 1.29
           },
           "output": {
-            "usd": 4.312
+            "usd": 4.22
           },
           "cache_read": null,
           "cache_write": null
@@ -334,10 +334,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.19
+            "usd": 0.188
           },
           "output": {
-            "usd": 0.63
+            "usd": 0.7
           },
           "cache_read": null,
           "cache_write": null
@@ -353,6 +353,35 @@
       ]
     },
     {
+      "id": "kimi-k2-thinking",
+      "name": "Kimi K2 Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 26214,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.6
+          },
+          "output": {
+            "usd": 2.5
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "kimi-k2.5",
       "name": "Kimi K2.5",
       "category": "reasoning",
@@ -364,10 +393,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.5504
+            "usd": 0.5284
           },
           "output": {
-            "usd": 2.885
+            "usd": 2.785
           },
           "cache_read": null,
           "cache_write": null
@@ -550,10 +579,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.404
+            "usd": 0.426
           },
           "output": {
-            "usd": 1.496
+            "usd": 1.62
           },
           "cache_read": null,
           "cache_write": null

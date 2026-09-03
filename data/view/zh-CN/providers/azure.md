@@ -6,10 +6,10 @@
 - 官网: https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models
 - 定价页: https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models
 - 币种: USD
-- 数据更新时间: 2026-09-02T00:19:17Z
-- 核实时间: 2026-09-02T00:19:17Z
+- 数据更新时间: 2026-09-03T00:20:55Z
+- 核实时间: 2026-09-03T00:20:55Z
 
-共 **85** 个模型。
+共 **86** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -65,7 +65,7 @@
 | `gpt-5.4-pro` | — | reasoning | 按量 | 1.05M | $30 | $180 | — | — | —/— | — | models.dev official list price |
 | `gpt-5.5` | — | reasoning | 按量 | 1.05M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
 | `gpt-5.6-luna` | — | reasoning | 按量 | 1.05M | $0.2 | $1.2 | $0.02 | — | —/— | — | models.dev official list price |
-| `gpt-5.6-sol` | — | reasoning | 按量 | 1.05M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
+| `gpt-5.6-sol` | — | reasoning | 按量 | 1.05M | $4 | $20 | $0.5 | — | —/— | — | models.dev official list price |
 | `gpt-5.6-terra` | — | reasoning | 按量 | 1.05M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `gpt-chat-latest` | — | reasoning | 按量 | 128K | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
 | `gpt-image-1` | — | chat | 按量 | — | $5 | $40 | $1.25 | — | —/— | — | models.dev official list price |
@@ -75,6 +75,7 @@
 | `grok-4-1-fast-reasoning` | — | reasoning | 按量 | 128K | $0.2 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
 | `grok-4-20-non-reasoning` | — | chat | 按量 | 262K | $2 | $6 | — | — | —/— | — | models.dev official list price |
 | `grok-4-20-reasoning` | — | reasoning | 按量 | 262K | $2 | $6 | — | — | —/— | — | models.dev official list price |
+| `grok-4.6` | — | reasoning | 未知 | 200K | — | — | — | — | —/— | — | models.dev official list price |
 | `kimi-k2.5` | — | reasoning | 按量 | 262.144K | $0.6 | $3 | — | — | —/— | — | models.dev official list price |
 | `kimi-k2.6` | — | reasoning | 按量 | 262.144K | $0.95 | $4 | — | — | —/— | — | models.dev official list price |
 | `kimi-k2.7-code` | — | reasoning | 按量 | 262.144K | $0.95 | $4 | $0.19 | — | —/— | — | models.dev official list price |

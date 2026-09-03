@@ -6,14 +6,15 @@
 - Homepage: https://docs.gitlab.com/user/duo_agent_platform/
 - Pricing page: https://docs.gitlab.com/user/duo_agent_platform/
 - Currency: USD
-- Data updated: 2026-09-02T00:19:17Z
-- Verified: 2026-09-02T00:19:17Z
+- Data updated: 2026-09-03T00:20:55Z
+- Verified: 2026-09-03T00:20:55Z
 
-**23** models in total.
+**24** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `duo-chat-fable-5` | — | reasoning | free | 1M | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `duo-chat-fable-5-1` | — | reasoning | free | 1M | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `duo-chat-gpt-5-1` | — | reasoning | free | 400K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `duo-chat-gpt-5-2` | — | reasoning | free | 400K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `duo-chat-gpt-5-2-codex` | — | reasoning | free | 400K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
