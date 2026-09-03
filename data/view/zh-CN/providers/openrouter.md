@@ -6,8 +6,8 @@
 - 官网: https://openrouter.ai
 - 定价页: https://openrouter.ai/models
 - 币种: USD
-- 数据更新时间: 2026-09-03T06:21:11Z
-- 核实时间: 2026-09-03T06:21:11Z
+- 数据更新时间: 2026-09-03T09:21:18Z
+- 核实时间: 2026-09-03T09:21:18Z
 
 共 **424** 个模型。
 
@@ -322,7 +322,7 @@
 | `qwen/qwen-plus` | — | chat | 按量 | 1M | $0.26 | $0.78 | $0.052 | $0.325 | —/— | — | OpenRouter reseller price |
 | `qwen/qwen-plus-2025-07-28` | — | reasoning | 按量 | 1M | $0.26 | $0.78 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen2.5-vl-72b-instruct` | — | chat | 按量 | 128K | $0.25 | $0.75 | — | — | —/— | — | OpenRouter reseller price |
-| `qwen/qwen3-14b` | — | reasoning | 按量 | 131.072K | $0.2275 | $0.91 | — | — | —/— | — | OpenRouter reseller price |
+| `qwen/qwen3-14b` | — | reasoning | 按量 | 131.072K | $0.12 | $0.24 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-235b-a22b` | — | reasoning | 按量 | 131.072K | $0.455 | $1.82 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-235b-a22b-2507` | — | chat | 按量 | 262.144K | $0.0875 | $0.35 | $0.0175 | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-235b-a22b-thinking-2507` | — | reasoning | 按量 | 131.072K | $0.23 | $2.3 | — | — | —/— | — | OpenRouter reseller price |
@@ -420,7 +420,7 @@
 | `z-ai/glm-5.1` | — | reasoning | 按量 | 204.8K | $0.966 | $3.036 | $0.1794 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.2` | — | reasoning | 按量 | 1.04858M | $0.966 | $3.036 | $0.1932 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.2:free` | — | reasoning | 免费 | 256K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
-| `z-ai/glm-5.3` | — | reasoning | 按量 | 1.31072M | $1.4 | $4.4 | $0.26 | — | —/— | — | OpenRouter reseller price |
+| `z-ai/glm-5.3` | — | reasoning | 按量 | 1.31072M | $1.4 | $4.4 | $0.14 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.3-flash` | — | reasoning | 按量 | 1.31072M | $0.075 | $0.25 | $0.015 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.3-flash:batch` | — | reasoning | 按量 | 1.04858M | $0.15 | $0.5 | $0.03 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5v-turbo` | — | reasoning | 按量 | 202.752K | $1.2 | $4 | $0.24 | — | —/— | — | OpenRouter reseller price |
