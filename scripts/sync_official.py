@@ -357,6 +357,12 @@ def main():
     manifest = load_manifest()
     registry = read_json(os.path.join(os.path.dirname(os.path.abspath(__file__)), "official_sources.json"))
     srcs = [s for s in manifest.get("sources", []) if not s.get("official")]
+    # Snapshot the existing official-source entries keyed by name so a --source-scoped
+    # run can preserve the ones it did not process instead of silently dropping them
+    # (a partial run must never corrupt the sync-health manifest).
+    existing_official = {s.get("name"): s for s in manifest.get("sources", []) if s.get("official")}
+    registry_by_name = {s["name"]: s for s in registry["official_sources"]}
+    processed = set()
     total_changed = 0
 
     for src in registry["official_sources"]:
@@ -364,6 +370,7 @@ def main():
             continue
         if args.source and src["provider_id"] != args.source:
             continue
+        processed.add(src["name"])
         parser = PARSERS.get(src["parser"])
         if not parser:
             print(f"SKIP {src['provider_id']}: no parser {src['parser']}")
@@ -405,9 +412,18 @@ def main():
             srcs.append({"name": src["name"], "url": src["url"], "auto_sync": True,
                          "official": True, "last_error": str(e)[:200], "last_ok": None})
 
+    # Preserve ENABLED official sources skipped only by the --source filter, so a partial
+    # run does not drop them. Disabled sources are pruned as before.
+    if args.source:
+        for sname, old in existing_official.items():
+            r = registry_by_name.get(sname)
+            if r is not None and r.get("enabled", True) and sname not in processed:
+                srcs.append(old)
+
     manifest["sources"] = srcs
     manifest["last_daily_check"] = now
-    save_manifest(manifest)
+    if not args.dry_run:
+        save_manifest(manifest)
     print(f"official sync done: {total_changed} models updated" + (" (dry-run)" if args.dry_run else ""))
 
 
