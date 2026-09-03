@@ -6,10 +6,10 @@
 - Homepage: https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models
 - Pricing page: https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models
 - Currency: USD
-- Data updated: 2026-09-02T00:19:17Z
-- Verified: 2026-09-02T00:19:17Z
+- Data updated: 2026-09-03T00:20:55Z
+- Verified: 2026-09-03T00:20:55Z
 
-**85** models in total.
+**86** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -65,7 +65,7 @@
 | `gpt-5.4-pro` | — | reasoning | per-token | 1.05M | $30 | $180 | — | — | —/— | — | models.dev official list price |
 | `gpt-5.5` | — | reasoning | per-token | 1.05M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
 | `gpt-5.6-luna` | — | reasoning | per-token | 1.05M | $0.2 | $1.2 | $0.02 | — | —/— | — | models.dev official list price |
-| `gpt-5.6-sol` | — | reasoning | per-token | 1.05M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
+| `gpt-5.6-sol` | — | reasoning | per-token | 1.05M | $4 | $20 | $0.5 | — | —/— | — | models.dev official list price |
 | `gpt-5.6-terra` | — | reasoning | per-token | 1.05M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `gpt-chat-latest` | — | reasoning | per-token | 128K | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
 | `gpt-image-1` | — | chat | per-token | — | $5 | $40 | $1.25 | — | —/— | — | models.dev official list price |
@@ -75,6 +75,7 @@
 | `grok-4-1-fast-reasoning` | — | reasoning | per-token | 128K | $0.2 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
 | `grok-4-20-non-reasoning` | — | chat | per-token | 262K | $2 | $6 | — | — | —/— | — | models.dev official list price |
 | `grok-4-20-reasoning` | — | reasoning | per-token | 262K | $2 | $6 | — | — | —/— | — | models.dev official list price |
+| `grok-4.6` | — | reasoning | ? | 200K | — | — | — | — | —/— | — | models.dev official list price |
 | `kimi-k2.5` | — | reasoning | per-token | 262.144K | $0.6 | $3 | — | — | —/— | — | models.dev official list price |
 | `kimi-k2.6` | — | reasoning | per-token | 262.144K | $0.95 | $4 | — | — | —/— | — | models.dev official list price |
 | `kimi-k2.7-code` | — | reasoning | per-token | 262.144K | $0.95 | $4 | $0.19 | — | —/— | — | models.dev official list price |

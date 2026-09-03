@@ -6,10 +6,10 @@
 - Homepage: https://opencode.ai/go
 - Pricing page: https://opencode.ai/docs/go/
 - Currency: USD
-- Data updated: 2026-09-02T00:19:17Z
-- Verified: 2026-09-02T00:19:17Z
+- Data updated: 2026-09-03T00:20:55Z
+- Verified: 2026-09-03T00:20:55Z
 
-**33** models in total.
+**34** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -39,6 +39,7 @@
 | `minimax-m2.7` | — | chat | per-token | — | $0.3 | $1.2 | $0.06 | $0.375 | —/— | — | — |
 | `minimax-m3` | — | chat | per-token | — | $0.3 | $1.2 | $0.06 | — | —/— | — | — |
 | `muse-spark-1.2-contributor` | — | chat | per-token | — | $0.1 | $0.2 | $0.002 | — | —/— | — | — |
+| `muse-spark-1.3-contributor` | — | reasoning | per-token | 1.04858M | $0.1 | $0.2 | $0.002 | — | —/— | — | models.dev official list price |
 | `ox-alpha-free` | — | chat | free | — | $0 | $0 | $0 | — | —/— | — | Free model (per_mtok = 0). |
 | `qwen3.5-plus` | — | reasoning | per-token | 262.144K | $0.2 | $1.2 | $0.02 | — | —/— | — | models.dev official list price |
 | `qwen3.6-plus` | — | chat | per-token | — | $0.5 | $3 | $0.05 | $0.625 | —/— | — | — |

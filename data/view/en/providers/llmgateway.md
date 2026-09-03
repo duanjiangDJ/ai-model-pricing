@@ -6,10 +6,10 @@
 - Homepage: https://llmgateway.io/docs
 - Pricing page: https://llmgateway.io/docs
 - Currency: USD
-- Data updated: 2026-09-02T00:19:17Z
-- Verified: 2026-09-02T00:19:17Z
+- Data updated: 2026-09-03T00:20:55Z
+- Verified: 2026-09-03T00:20:55Z
 
-**561** models in total.
+**562** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -193,6 +193,7 @@
 | `gemini-3.5-flash-lite` | — | reasoning | per-token | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `gemini-3.6-flash` | — | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `gemini-3.7-flash` | — | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
+| `gemini-3.8-flash` | — | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `gemini-pro-latest` | — | reasoning | per-token | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `gemma-3-27b` | — | chat | per-token | 110K | $0.1 | $0.3 | — | — | —/— | — | models.dev official list price |
 | `gemma-4-26b-a4b-it` | — | reasoning | per-token | 262.144K | $0.07 | $0.34 | — | — | —/— | — | models.dev official list price |
@@ -213,7 +214,7 @@
 | `glm-5.1` | — | reasoning | per-token | 204.8K | $0.931 | $2.93 | $0.173 | — | —/— | — | models.dev official list price |
 | `glm-5.2` | — | reasoning | per-token | 1.04858M | $0.55 | $1.784 | $0.111 | — | —/— | — | models.dev official list price |
 | `glm-5.2-fast` | — | reasoning | per-token | 1M | $1.99 | $6.16 | $0.4 | — | —/— | — | models.dev official list price |
-| `glm-5.3` | — | reasoning | per-token | 1M | $1.3 | $4 | $0.25 | — | —/— | — | models.dev official list price |
+| `glm-5.3` | — | reasoning | per-token | 1M | $1.2 | $4 | $0.2 | — | —/— | — | models.dev official list price |
 | `glm-5.3-flash` | — | reasoning | per-token | 1.04858M | $0.13 | $0.4 | $0.024 | — | —/— | — | models.dev official list price |
 | `gonka24/deepseek-v4-flash` | — | reasoning | per-token | 390K | $0.075 | $0.175 | $0.0155 | — | —/— | — | models.dev official list price |
 | `gonka24/kimi-k2.6` | — | reasoning | per-token | 262.144K | $0.22 | $1.137 | $0.048 | — | —/— | — | models.dev official list price |
@@ -272,7 +273,7 @@
 | `gpt-5.6-sol` | — | reasoning | per-token | 1.05M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
 | `gpt-5.6-terra` | — | reasoning | per-token | 1.05M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `gpt-oss-120b` | — | reasoning | per-token | 131.072K | $0.032 | $0.14 | $0.032 | — | —/— | — | models.dev official list price |
-| `gpt-oss-20b` | — | reasoning | per-token | 131.072K | $0.05 | $0.2 | — | — | —/— | — | models.dev official list price |
+| `gpt-oss-20b` | — | reasoning | per-token | 131.072K | $0.04 | $0.19 | $0.01 | — | —/— | — | models.dev official list price |
 | `grok-4` | — | chat | per-token | 256K | $3 | $15 | $0.75 | — | —/— | — | models.dev official list price |
 | `grok-4-1-fast-non-reasoning` | — | chat | per-token | 2M | $0.2 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
 | `grok-4-1-fast-reasoning` | — | reasoning | per-token | 2M | $0.2 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |

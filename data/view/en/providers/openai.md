@@ -6,17 +6,24 @@
 - Homepage: https://platform.openai.com/docs/models
 - Pricing page: https://openai.com/chatgpt/pricing/
 - Currency: USD
-- Data updated: 2026-09-02T00:19:17Z
-- Verified: 2026-09-02T00:19:17Z
+- Data updated: 2026-09-03T00:20:55Z
+- Verified: 2026-09-03T00:20:55Z
 
 **54** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| `babbage-002` | — | chat | per-token | — | $0.4 | $0.4 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
 | `chatgpt-image-latest` | ❌ offline | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `davinci-002` | — | chat | per-token | — | $2 | $2 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
 | `gpt-3.5-turbo` | — | chat | per-token | 16.385K | $0.5 | $1.5 | $0 | — | —/— | — | models.dev official list price |
+| `gpt-3.5-turbo-0125` | — | chat | per-token | — | $0.5 | $1.5 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
+| `gpt-3.5-turbo-1106` | — | chat | per-token | — | $1 | $2 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
+| `gpt-3.5-turbo-instruct` | — | chat | per-token | — | $1.5 | $2 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
 | `gpt-4` | ❌ offline | chat | per-token | 8.192K | $30 | $60 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-4-0613` | — | chat | per-token | — | $30 | $60 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
 | `gpt-4-turbo` | ❌ offline | chat | per-token | 128K | $10 | $30 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-4-turbo-2024-04-09` | — | chat | per-token | — | $10 | $30 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
 | `gpt-4.1` | — | chat | per-token | 1.04758M | $2 | $8 | $0.5 | — | —/— | — | models.dev official list price |
 | `gpt-4.1-mini` | — | chat | per-token | 1.04758M | $0.4 | $1.6 | $0.1 | — | —/— | — | models.dev official list price |
 | `gpt-4.1-nano` | ❌ offline | chat | per-token | 1.04758M | $0.1 | $0.4 | $0.025 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
@@ -60,10 +67,3 @@
 | `text-embedding-3-large` | — | embedding | per-token | 8.191K | $0.13 | $0 | — | — | —/— | — | models.dev official list price |
 | `text-embedding-3-small` | ❌ offline | embedding | per-token | 8.191K | $0.02 | $0 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `text-embedding-ada-002` | — | embedding | per-token | 8.192K | $0.1 | $0 | — | — | —/— | — | models.dev official list price |
-| `gpt-4-turbo-2024-04-09` | — | chat | per-token | — | $10 | $30 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
-| `gpt-4-0613` | — | chat | per-token | — | $30 | $60 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
-| `gpt-3.5-turbo-0125` | — | chat | per-token | — | $0.5 | $1.5 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
-| `gpt-3.5-turbo-1106` | — | chat | per-token | — | $1 | $2 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
-| `gpt-3.5-turbo-instruct` | — | chat | per-token | — | $1.5 | $2 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
-| `davinci-002` | — | chat | per-token | — | $2 | $2 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
-| `babbage-002` | — | chat | per-token | — | $0.4 | $0.4 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |

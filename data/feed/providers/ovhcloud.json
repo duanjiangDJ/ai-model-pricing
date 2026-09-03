@@ -7,8 +7,8 @@
   "homepage": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog//",
   "pricing_page": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog//",
   "currency": "USD",
-  "updated_at": "2026-09-02T00:19:17Z",
-  "verified_at": "2026-09-02T00:19:17Z",
+  "updated_at": "2026-09-03T00:20:55Z",
+  "verified_at": "2026-09-03T00:20:55Z",
   "models": [
     {
       "id": "gpt-oss-120b",
@@ -371,6 +371,35 @@
       ]
     },
     {
+      "id": "qwen3.8-27b",
+      "name": "Qwen3.8-27B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 262144,
+      "billing_model": [
+        "free"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0
+          },
+          "output": {
+            "usd": 0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+    },
+    {
       "id": "qwen3guard-gen-0.6b",
       "name": "Qwen3Guard-Gen-0.6B",
       "category": "chat",
@@ -381,8 +410,12 @@
       "max_output": 16384,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
+          "input": {
+            "usd": 0
+          },
+          "output": {
+            "usd": 0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -391,9 +424,9 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Free on OVHcloud AI Endpoints (guard/safety model, $0 per mTok per models.dev/OVHcloud free tier). billing_model corrected from pay_per_token.",
       "billing_model": [
-        "pay_per_token"
+        "free"
       ]
     },
     {
@@ -407,8 +440,12 @@
       "max_output": 16384,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
+          "input": {
+            "usd": 0
+          },
+          "output": {
+            "usd": 0
+          },
           "cache_read": null,
           "cache_write": null
         },
@@ -417,9 +454,9 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Free on OVHcloud AI Endpoints (guard/safety model, $0 per mTok per models.dev/OVHcloud free tier). billing_model corrected from pay_per_token.",
       "billing_model": [
-        "pay_per_token"
+        "free"
       ]
     }
   ],

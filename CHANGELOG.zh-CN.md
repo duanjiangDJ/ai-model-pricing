@@ -16,6 +16,45 @@
 
 ---
 
+## 26.46.29 — 2026-09-03T00:39Z（内容更新）
+
+- 价格同步（102 处变更）：
+- **alibaba**（更新 14）：`qwen3.7-plus`, `qwen3.6-flash`, `qwen-vl-ocr`, `qwen3.6-35b-a3b`, `qwen3-next-80b-a3b-thinking`, `qwen3-next-80b-a3b-instruct`, `qwen3-32b` — 入 $0.72 出 $0.72; 入 $0.7 出 $2.8; 入 $0.5 出 $2; 入 $0.5 出 $6; 入 $0.248 出 $1.485; 入 $0.1875 出 $1.125; 入 $0.5 出 $3
+- **azure**（新增 1）：`grok-4.6`
+- **azure**（更新 1）：`gpt-5.6-sol` — 入 $4 出 $20
+- **berget**（新增 1）：`Qwen/Qwen3.8-27B-FP8`
+- **crossmodel**（新增 1）：`anthropic/claude-fable-5-1`
+- **deepseek**（更新 6）：`deepseek-v4-flash`, `deepseek-v4-pro`, `deepseek-v4-flash-vision-exp` — 入 $0.14 出 $0.28 缓存 $0.0028; 入 $0.14 出 $0.28 缓存 $0.0028; 入 $0.435 出 $0.87 缓存 $0.003625
+- **edenai**（更新 9）：`databricks/databricks-gpt-oss-120b`, `databricks/databricks-gpt-oss-120b@eu`, `databricks/databricks-gpt-oss-20b`, `databricks/databricks-gpt-oss-20b@eu`, `ionos/meta-llama/Llama-3.3-70B-Instruct`, `ionos/openai/gpt-oss-120b`, `scaleway/deepseek-v4-flash-0731`, `scaleway/gpt-oss-120b`, `scaleway/llama-3.3-70b-instruct` — 缓存 $0.015001; 缓存 $0.015001; 缓存 $0.007; 缓存 $0.007; 入 $0.75257 出 $0.75257; 入 $0.17367 出 $0.75257; 入 $0.46312 出 $0.92624; 入 $0.17367 出 $0.69468; 入 $1.04202 出 $1.04202
+- **fireworks-ai**（新增 1）：`accounts/fireworks/models/deepseek-v4-flash-vision-exp`
+- **fireworks-ai**（更新 1）：`accounts/fireworks/models/glm-5p3-flash` — 缓存 $0.03
+- **gitlab**（新增 1）：`duo-chat-fable-5-1`
+- **google**（新增 1）：`gemini-3.8-flash`
+- **google**（更新 1）：`gemini-3.8-flash`
+- **google-vertex**（新增 1）：`gemini-3.8-flash`
+- **hyper**（新增 1）：`kimi-k2-thinking`
+- **hyper**（更新 6）：`gemma-4-26b-a4b-it`, `glm-5`, `glm-5.1`, `gpt-oss-120b`, `kimi-k2.5`, `minimax-m2.7` — 入 $0.116 出 $0.38; 入 $0.85 出 $2.774; 入 $1.29 出 $4.22; 入 $0.188 出 $0.7; 入 $0.5284 出 $2.785; 入 $0.426 出 $1.62
+- **kilo**（新增 4）：`google/gemini-3.8-flash`, `meta/muse-spark-1.3`, `meta/muse-spark-1.3-contributor`, `~z-ai/glm-flash-latest`
+- **kilo**（更新 2）：`~deepseek/deepseek-v4-flash-latest`, `~z-ai/glm-latest` — 入 $0.05 出 $0.16 缓存 $0.013; 入 $1.15 出 $3.5 缓存 $0.1
+- **llmgateway**（新增 1）：`gemini-3.8-flash`
+- **llmgateway**（更新 2）：`glm-5.3`, `gpt-oss-20b` — 入 $1.2 缓存 $0.2; 入 $0.04 出 $0.19 缓存 $0.01
+- **merge-gateway**（新增 1）：`google/gemini-3.8-flash`
+- **minimax**（更新 2）：`MiniMax-M2.5-highspeed` — 缓存 $0.06
+- **mistral**（更新 4）：`ministral-3b-latest`, `ministral-8b-latest` — 入 $0.04 出 $0.04; 入 $0.1 出 $0.1
+- **nano-gpt**（新增 4）：`alibaba/qwen3.8-max-0902`, `google/gemini-3.8-flash`, `meta/muse-spark-1.3`, `meta/muse-spark-1.3-contributor`
+- **nano-gpt**（更新 2）：`google/gemini-3.7-flash`, `google/gemini-flash-latest` — 入 $0.75 出 $3.75 缓存 $0.075; 入 $0.75 出 $3.75 缓存 $0.075
+- **nebius**（新增 4）：`deepseek-ai/DeepSeek-V4-Flash-0731`, `nvidia/Nemotron-3-Ultra-550b-a55b`, `nvidia/Nemotron-3_5-Lightning`, `zai-org/GLM-5.3-Flash`
+- **neon**（更新 5）：`gpt-5-6-luna`, `gpt-5-6-terra`, `gpt-oss-120b`, `gpt-oss-20b`, `inkling` — 入 $0.2 出 $1.2 缓存 $0.02; 入 $2 出 $12 缓存 $0.2; 入 $0.15 出 $0.6; 入 $0.07 出 $0.3; 入 $1 出 $4.05 缓存 $0.17
+- **opencode**（新增 3）：`claude-fable-5-1`, `gemini-3.8-flash`, `muse-spark-1.3-contributor-free`
+- **opencode-go**（新增 1）：`muse-spark-1.3-contributor`
+- **openrouter**（更新 9）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `meta-llama/llama-3.3-70b-instruct`, `nvidia/nemotron-3-nano-30b-a3b`, `nvidia/nemotron-3-ultra-550b-a55b`, `qwen/qwen3-14b`, `qwen/qwen3.5-397b-a17b`, `tencent/hy3`, `z-ai/glm-4.6`
+- **ovhcloud**（新增 1）：`qwen3.8-27b`
+- **ovhcloud**（更新 2）：`qwen3guard-gen-0.6b`, `qwen3guard-gen-8b` — 入 $0 出 $0; 入 $0 出 $0
+- **requesty**（新增 9）：`claude-fable-5.1`, `claude-fable-5.1@eu`, `deepseek-v4-pro-0813@eu`, `gemini-3.8-flash`, `gemini-3.8-flash@eu`, `qwen3.8-2.4T-A95B@eu`, `qwen3.8-flash`, `qwen3.8-flash-next`, `qwen3.8-flash-next@eu`
+- **requesty**（更新 3）：`deepseek-v4-flash`, `deepseek-v4-flash-0731`, `glm-5.3-flash` — 入 $0.14 出 $0.28 缓存 $0.07; 入 $0.14 出 $0.28 缓存 $0.07; 入 $0.2 出 $0.5 缓存 $0.07
+- **venice**（新增 1）：`gemini-3-8-flash`
+- **vercel**（新增 5）：`alibaba/qwen3.8-max-0902`, `google/gemini-3.8-flash`, `meta/muse-spark-1.3`, `meta/muse-spark-1.3-contributor`, `zai/glm-5.3-promo-50`
+
 ## 26.45.29 — 2026-09-02T23:41Z（内容更新）
 
 - 补齐OpenAI官方历史模型到openai.json并重建index count

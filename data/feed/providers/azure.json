@@ -7,8 +7,8 @@
   "homepage": "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models",
   "pricing_page": "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models",
   "currency": "USD",
-  "updated_at": "2026-09-02T00:19:17Z",
-  "verified_at": "2026-09-02T00:19:17Z",
+  "updated_at": "2026-09-03T00:20:55Z",
+  "verified_at": "2026-09-03T00:20:55Z",
   "models": [
     {
       "id": "claude-fable-5",
@@ -1651,10 +1651,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 5
+            "usd": 4
           },
           "output": {
-            "usd": 30
+            "usd": 20
           },
           "cache_read": {
             "usd": 0.5
@@ -1954,6 +1954,31 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "grok-4.6",
+      "name": "Grok 4.6",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 200000,
+      "max_output": 128000,
+      "billing_model": [
+        "unknown"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": null,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "kimi-k2.5",

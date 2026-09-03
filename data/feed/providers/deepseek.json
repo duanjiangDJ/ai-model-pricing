@@ -7,8 +7,8 @@
   "homepage": "https://api-docs.deepseek.com/quick_start/pricing",
   "pricing_page": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
   "currency": "USD",
-  "updated_at": "2026-09-02T23:23:35Z",
-  "verified_at": "2026-09-02T23:23:35Z",
+  "updated_at": "2026-09-03T00:20:56Z",
+  "verified_at": "2026-09-03T00:20:56Z",
   "models": [
     {
       "id": "deepseek-chat",
@@ -128,7 +128,7 @@
           }
         }
       },
-      "notes": "Official page peak tier; off-peak via pricing.off_peak. Parsed by check deepseek.",
+      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). Parsed by check deepseek.",
       "billing_model": [
         "pay_per_token"
       ]
@@ -182,7 +182,7 @@
           }
         }
       },
-      "notes": "Official page peak tier; off-peak via pricing.off_peak. Parsed by check deepseek.",
+      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). Parsed by check deepseek.",
       "status": "online",
       "billing_model": [
         "pay_per_token"
@@ -240,7 +240,7 @@
           }
         }
       },
-      "notes": "Official page peak tier; off-peak via pricing.off_peak. Parsed by check deepseek.",
+      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). Parsed by check deepseek.",
       "billing_model": [
         "pay_per_token"
       ]

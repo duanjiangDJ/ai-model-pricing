@@ -6,20 +6,21 @@
 - 官网: https://fireworks.ai/docs/
 - 定价页: https://fireworks.ai/docs/
 - 币种: USD
-- 数据更新时间: 2026-09-02T00:19:17Z
-- 核实时间: 2026-09-02T00:19:17Z
+- 数据更新时间: 2026-09-03T00:20:55Z
+- 核实时间: 2026-09-03T00:20:55Z
 
-共 **25** 个模型。
+共 **26** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `accounts/fireworks/models/deepseek-v4-flash` | — | reasoning | 按量 | 1M | $0.14 | $0.28 | $0.028 | — | —/— | — | models.dev official list price |
 | `accounts/fireworks/models/deepseek-v4-flash-0731` | — | reasoning | 按量 | 1M | $0.22 | $0.66 | $0.007 | — | —/— | — | models.dev official list price |
+| `accounts/fireworks/models/deepseek-v4-flash-vision-exp` | — | reasoning | 按量 | 1M | $0.22 | $0.66 | $0.007 | — | —/— | — | models.dev official list price |
 | `accounts/fireworks/models/deepseek-v4-pro` | — | reasoning | 按量 | 1M | $1.74 | $3.48 | $0.145 | — | —/— | — | models.dev official list price |
 | `accounts/fireworks/models/deepseek-v4-pro-0813` | — | reasoning | 按量 | 1M | $1.32 | $3.96 | $0.044 | — | —/— | — | models.dev official list price |
 | `accounts/fireworks/models/glm-5p2` | — | reasoning | 按量 | 1.04858M | $1.4 | $4.4 | $0.14 | — | —/— | — | models.dev official list price |
 | `accounts/fireworks/models/glm-5p3` | — | reasoning | 按量 | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
-| `accounts/fireworks/models/glm-5p3-flash` | — | reasoning | 按量 | 1M | $0.15 | $0.5 | $0.029 | — | —/— | — | models.dev official list price |
+| `accounts/fireworks/models/glm-5p3-flash` | — | reasoning | 按量 | 1M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `accounts/fireworks/models/gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.15 | $0.6 | $0.015 | — | —/— | — | models.dev official list price |
 | `accounts/fireworks/models/gpt-oss-20b` | — | reasoning | 按量 | 131.072K | $0.07 | $0.3 | $0.035 | — | —/— | — | models.dev official list price |
 | `accounts/fireworks/models/inkling` | — | reasoning | 按量 | 1.04858M | $1 | $4.05 | $0.17 | — | —/— | — | models.dev official list price |

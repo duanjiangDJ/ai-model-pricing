@@ -7,8 +7,8 @@
   "homepage": "https://docs.near.ai/",
   "pricing_page": "https://docs.near.ai/",
   "currency": "USD",
-  "updated_at": "2026-09-02T00:19:17Z",
-  "verified_at": "2026-09-02T00:19:17Z",
+  "updated_at": "2026-09-03T00:20:55Z",
+  "verified_at": "2026-09-03T00:20:55Z",
   "models": [
     {
       "id": "Qwen/Qwen3-30B-A3B-Instruct-2507",

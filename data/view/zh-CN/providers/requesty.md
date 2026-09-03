@@ -6,14 +6,16 @@
 - 官网: https://requesty.ai/solution/llm-routing/models
 - 定价页: https://requesty.ai/solution/llm-routing/models
 - 币种: USD
-- 数据更新时间: 2026-09-02T00:19:17Z
-- 核实时间: 2026-09-02T00:19:17Z
+- 数据更新时间: 2026-09-03T00:20:55Z
+- 核实时间: 2026-09-03T00:20:55Z
 
-共 **144** 个模型。
+共 **153** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `claude-fable-5` | — | reasoning | 按量 | 1M | $10 | $50 | $1 | — | —/— | — | models.dev official list price |
+| `claude-fable-5.1` | — | reasoning | 按量 | 1M | $10 | $50 | $0.25 | — | —/— | — | models.dev official list price |
+| `claude-fable-5.1@eu` | — | reasoning | 按量 | 1M | $11 | $55 | $0.275 | — | —/— | — | models.dev official list price |
 | `claude-fable-5@eu` | — | reasoning | 按量 | 1M | $11 | $55 | $1.1 | — | —/— | — | models.dev official list price |
 | `claude-haiku-4-5` | — | reasoning | 按量 | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `claude-haiku-4-5@eu` | — | reasoning | 按量 | 200K | $1.1 | $5.5 | $0.11 | — | —/— | — | models.dev official list price |
@@ -35,11 +37,12 @@
 | `claude-sonnet-4@eu` | — | reasoning | 按量 | 1M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `claude-sonnet-5` | — | reasoning | 按量 | 1M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
 | `claude-sonnet-5@eu` | — | reasoning | 按量 | 1M | $2.2 | $11 | $0.22 | — | —/— | — | models.dev official list price |
-| `deepseek-v4-flash` | — | chat | 按量 | 1M | $0.44 | $1.32 | $0.014 | — | —/— | — | models.dev official list price |
-| `deepseek-v4-flash-0731` | — | reasoning | 按量 | 1.04858M | $0.076 | $0.153 | $0.014 | — | —/— | — | models.dev official list price |
+| `deepseek-v4-flash` | — | chat | 按量 | 1M | $0.14 | $0.28 | $0.07 | — | —/— | — | models.dev official list price |
+| `deepseek-v4-flash-0731` | — | reasoning | 按量 | 1.04858M | $0.14 | $0.28 | $0.07 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-flash-0731@eu` | — | reasoning | 按量 | 1.04858M | $0.14 | $0.28 | $0.07 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-pro` | — | reasoning | 按量 | 1M | $1.32 | $3.96 | $0.044 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-pro-0813` | — | reasoning | 按量 | 1M | $1.32 | $3.96 | $0.044 | — | —/— | — | models.dev official list price |
+| `deepseek-v4-pro-0813@eu` | — | reasoning | 按量 | 1.04858M | $1.75 | $3.5 | $0.44 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-pro@eu` | — | reasoning | 按量 | 1.04858M | $1.75 | $3.5 | $0.44 | — | —/— | — | models.dev official list price |
 | `devstral-latest` | — | chat | 按量 | 256K | $0.44 | $2.2 | $0.44 | — | —/— | — | models.dev official list price |
 | `devstral-latest@eu` | — | chat | 按量 | 256K | $0.44 | $2.2 | $0.44 | — | —/— | — | models.dev official list price |
@@ -59,6 +62,8 @@
 | `gemini-3.6-flash` | — | reasoning | 按量 | 1.04858M | $1.5 | $7 | $0.15 | — | —/— | — | models.dev official list price |
 | `gemini-3.7-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `gemini-3.7-flash@eu` | — | reasoning | 按量 | 1.04858M | $0.825 | $4.125 | $0.0825 | — | —/— | — | models.dev official list price |
+| `gemini-3.8-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
+| `gemini-3.8-flash@eu` | — | reasoning | 按量 | 1.04858M | $0.825 | $4.125 | $0.0825 | — | —/— | — | models.dev official list price |
 | `gemma-4-26b-a4b-it` | — | reasoning | 按量 | 262.144K | $0.07 | $0.34 | $0.07 | — | —/— | — | models.dev official list price |
 | `gemma-4-31b-it` | — | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `glm-5.1` | — | reasoning | 按量 | 200K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
@@ -67,7 +72,7 @@
 | `glm-5.2-fast` | — | reasoning | 按量 | 1M | $2.1 | $6.6 | $0.21 | — | —/— | — | models.dev official list price |
 | `glm-5.2@eu` | — | reasoning | 按量 | 1.04858M | $1.2 | $4.2 | $0.26 | — | —/— | — | models.dev official list price |
 | `glm-5.3` | — | reasoning | 按量 | 1M | $1.2 | $4.2 | $0.26 | — | —/— | — | models.dev official list price |
-| `glm-5.3-flash` | — | reasoning | 按量 | 1M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |
+| `glm-5.3-flash` | — | reasoning | 按量 | 1M | $0.2 | $0.5 | $0.07 | — | —/— | — | models.dev official list price |
 | `glm-5.3-flash@eu` | — | reasoning | 按量 | 1M | $0.2 | $0.5 | $0.07 | — | —/— | — | models.dev official list price |
 | `glm-5.3@eu` | — | reasoning | 按量 | 1.04858M | $1.2 | $4.2 | $0.26 | — | —/— | — | models.dev official list price |
 | `gpt-4.1-mini@eu` | — | chat | 按量 | 1.04758M | $0.44 | $1.76 | $0.11 | — | —/— | — | models.dev official list price |
@@ -148,6 +153,10 @@
 | `qwen3.7-max` | — | reasoning | 按量 | 1.04858M | $2.5 | $7.5 | $0.25 | — | —/— | — | models.dev official list price |
 | `qwen3.7-plus` | — | reasoning | 按量 | 1.04858M | $0.32 | $1.28 | $0.032 | — | —/— | — | models.dev official list price |
 | `qwen3.8-2.4T-A95B` | — | reasoning | 按量 | 262.144K | $2 | $6 | $0.2 | — | —/— | — | models.dev official list price |
+| `qwen3.8-2.4T-A95B@eu` | — | reasoning | 按量 | 1M | $2.5 | $6 | $0.63 | — | —/— | — | models.dev official list price |
+| `qwen3.8-flash` | — | reasoning | 按量 | 1.04858M | $0.16 | $0.47 | $0.016 | — | —/— | — | models.dev official list price |
+| `qwen3.8-flash-next` | — | reasoning | 按量 | 262.144K | $0.2 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
+| `qwen3.8-flash-next@eu` | — | reasoning | 按量 | 262.144K | $0.2 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
 | `qwen3.8-max` | — | reasoning | 按量 | 1.04858M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
 | `ring-2.6-1t` | — | reasoning | 按量 | 262.144K | $0.3 | $2.5 | — | — | —/— | — | models.dev official list price |
 | `seed-1.8` | — | reasoning | 按量 | 256K | $0.25 | $2 | $0.05 | — | —/— | — | models.dev official list price |

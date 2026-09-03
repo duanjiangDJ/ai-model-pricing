@@ -6,10 +6,10 @@
 - 官网: https://kilo.ai
 - 定价页: https://kilo.ai
 - 币种: USD
-- 数据更新时间: 2026-09-02T00:19:17Z
-- 核实时间: 2026-09-02T00:19:17Z
+- 数据更新时间: 2026-09-03T00:20:55Z
+- 核实时间: 2026-09-03T00:20:55Z
 
-共 **378** 个模型。
+共 **382** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -94,6 +94,7 @@
 | `google/gemini-3.5-flash-lite` | — | reasoning | 按量 | 1.04858M | $0.15 | $1.25 | $0.015 | — | —/— | — | models.dev official list price |
 | `google/gemini-3.6-flash` | — | reasoning | 按量 | 1.04858M | $0.375 | $1.875 | $0.0375 | — | —/— | — | models.dev official list price |
 | `google/gemini-3.7-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
+| `google/gemini-3.8-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `google/gemma-2-27b-it` | — | chat | 按量 | 8.192K | $0.65 | $0.65 | — | — | —/— | — | models.dev official list price |
 | `google/gemma-3-12b-it` | — | chat | 按量 | 131.072K | $0.05 | $0.15 | — | — | —/— | — | models.dev official list price |
 | `google/gemma-3-27b-it` | — | chat | 按量 | 131.072K | $0.08 | $0.16 | — | — | —/— | — | models.dev official list price |
@@ -138,6 +139,8 @@
 | `meta/muse-spark-1.1` | — | reasoning | 按量 | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
 | `meta/muse-spark-1.2` | — | reasoning | 按量 | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
 | `meta/muse-spark-1.2-contributor` | — | reasoning | 按量 | 1.04858M | $0.1 | $0.2 | $0.002 | — | —/— | — | models.dev official list price |
+| `meta/muse-spark-1.3` | — | reasoning | 按量 | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
+| `meta/muse-spark-1.3-contributor` | — | reasoning | 按量 | 1.04858M | $0.1 | $0.2 | $0.002 | — | —/— | — | models.dev official list price |
 | `microsoft/phi-4` | — | chat | 按量 | 16.384K | $0.07 | $0.14 | — | — | —/— | — | models.dev official list price |
 | `microsoft/wizardlm-2-8x22b` | — | chat | 按量 | 65.535K | $0.62 | $0.62 | — | — | —/— | — | models.dev official list price |
 | `minimax/minimax-01` | — | chat | 按量 | 1.00019M | $0.2 | $1.1 | — | — | —/— | — | models.dev official list price |
@@ -383,11 +386,12 @@
 | `~anthropic/claude-haiku-latest` | — | reasoning | 按量 | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `~anthropic/claude-opus-latest` | — | reasoning | 按量 | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
 | `~anthropic/claude-sonnet-latest` | — | reasoning | 按量 | 1M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
-| `~deepseek/deepseek-v4-flash-latest` | — | reasoning | 按量 | 1.04858M | $0.04998 | $0.09996 | $0.009996 | — | —/— | — | models.dev official list price |
+| `~deepseek/deepseek-v4-flash-latest` | — | reasoning | 按量 | 1.04858M | $0.05 | $0.16 | $0.013 | — | —/— | — | models.dev official list price |
 | `~google/gemini-flash-latest` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `~google/gemini-pro-latest` | — | reasoning | 按量 | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `~moonshotai/kimi-latest` | — | reasoning | 按量 | 974.842K | $2.55 | $12.75 | $0.256 | — | —/— | — | models.dev official list price |
 | `~openai/gpt-latest` | — | reasoning | 按量 | 1.05M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
 | `~openai/gpt-mini-latest` | — | reasoning | 按量 | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | models.dev official list price |
 | `~x-ai/grok-latest` | — | reasoning | 按量 | 500K | $2 | $6 | $0.5 | — | —/— | — | models.dev official list price |
-| `~z-ai/glm-latest` | — | reasoning | 按量 | 1.04858M | $1.17 | $3.96 | $0.234 | — | —/— | — | OpenRouter reseller price \| z-ai/glm-latest (paid; ~ prefix is an open-weigh… |
+| `~z-ai/glm-flash-latest` | — | reasoning | 按量 | 1.04858M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |
+| `~z-ai/glm-latest` | — | reasoning | 按量 | 1.04858M | $1.15 | $3.5 | $0.1 | — | —/— | — | OpenRouter reseller price \| z-ai/glm-latest (paid; ~ prefix is an open-weigh… |

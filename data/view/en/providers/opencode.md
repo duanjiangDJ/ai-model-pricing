@@ -6,16 +6,17 @@
 - Homepage: https://opencode.ai/zen
 - Pricing page: https://opencode.ai/docs/zen/
 - Currency: USD
-- Data updated: 2026-09-02T00:19:17Z
-- Verified: 2026-09-02T00:19:17Z
+- Data updated: 2026-09-03T00:20:55Z
+- Verified: 2026-09-03T00:20:55Z
 
-**96** models in total.
+**99** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `big-pickle` | — | chat | free | — | $0 | $0 | $0 | — | —/— | — | Free model (per_mtok = 0). |
 | `claude-3-5-haiku` | — | chat | per-token | 200K | $0.8 | $4 | $0.08 | — | —/— | — | models.dev official list price |
 | `claude-fable-5` | — | chat | per-token | — | $10 | $50 | $1 | $12.5 | —/— | — | — |
+| `claude-fable-5-1` | — | reasoning | per-token | 1M | $10 | $50 | $0.25 | — | —/— | — | models.dev official list price |
 | `claude-haiku-4-5` | — | chat | per-token | — | $1 | $5 | $0.1 | $1.25 | —/— | — | — |
 | `claude-opus-4-1` | — | reasoning | per-token | 200K | $15 | $75 | $1.5 | — | —/— | — | models.dev official list price |
 | `claude-opus-4-5` | — | chat | per-token | — | $5 | $25 | $0.5 | $6.25 | —/— | — | — |
@@ -37,6 +38,7 @@
 | `gemini-3.5-flash-lite` | — | chat | per-token | — | $0.3 | $2.5 | $0.03 | — | —/— | — | — |
 | `gemini-3.6-flash` | — | chat | per-token | — | $1.5 | $7.5 | $0.15 | — | —/— | — | — |
 | `gemini-3.7-flash` | — | chat | per-token | — | $1.5 | $7.5 | $0.15 | — | —/— | — | — |
+| `gemini-3.8-flash` | — | reasoning | per-token | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — | models.dev official list price |
 | `glm-4.6` | — | reasoning | per-token | 204.8K | $0.6 | $2.2 | $0.1 | — | —/— | — | models.dev official list price |
 | `glm-4.7` | — | reasoning | per-token | 204.8K | $0.6 | $2.2 | $0.1 | — | —/— | — | models.dev official list price |
 | `glm-4.7-free` | — | reasoning | free | 204.8K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
@@ -96,6 +98,7 @@
 | `minimax-m3-free` | — | reasoning | free | 200K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `muse-spark-1.2` | — | chat | per-token | — | $1.25 | $4.25 | $0.15 | — | —/— | — | — |
 | `muse-spark-1.2-contributor-free` | — | chat | free | — | $0 | $0 | $0 | — | —/— | — | Free model (per_mtok = 0). |
+| `muse-spark-1.3-contributor-free` | — | reasoning | free | 1.04858M | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nemotron-3-super-free` | — | reasoning | free | 204.8K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nemotron-3-ultra-free` | — | chat | free | — | $0 | $0 | $0 | — | —/— | — | Free model (per_mtok = 0). |
 | `nemotron-3.5-lightning-free` | — | chat | free | — | $0 | $0 | $0 | — | —/— | — | Free model (per_mtok = 0). |

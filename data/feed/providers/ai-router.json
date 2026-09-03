@@ -7,8 +7,8 @@
   "homepage": "https://ai-router.dev/openai-compatible-api-gateway/",
   "pricing_page": "https://ai-router.dev/openai-compatible-api-gateway/",
   "currency": "USD",
-  "updated_at": "2026-08-28T08:54:00Z",
-  "verified_at": "2026-08-21T11:27:12Z",
+  "updated_at": "2026-09-03T00:20:55Z",
+  "verified_at": "2026-09-03T00:20:55Z",
   "models": [
     {
       "id": "gpt-5.4",

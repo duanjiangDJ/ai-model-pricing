@@ -6,8 +6,8 @@
 - 官网: https://developers.cloudflare.com/workers-ai/models/
 - 定价页: https://developers.cloudflare.com/workers-ai/models/
 - 币种: USD
-- 数据更新时间: 2026-08-30T20:47:54Z
-- 核实时间: 2026-08-30T20:47:54Z
+- 数据更新时间: 2026-09-03T00:20:55Z
+- 核实时间: 2026-09-03T00:20:55Z
 
 共 **27** 个模型。
 

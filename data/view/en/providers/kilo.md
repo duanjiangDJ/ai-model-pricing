@@ -6,10 +6,10 @@
 - Homepage: https://kilo.ai
 - Pricing page: https://kilo.ai
 - Currency: USD
-- Data updated: 2026-09-02T00:19:17Z
-- Verified: 2026-09-02T00:19:17Z
+- Data updated: 2026-09-03T00:20:55Z
+- Verified: 2026-09-03T00:20:55Z
 
-**378** models in total.
+**382** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -94,6 +94,7 @@
 | `google/gemini-3.5-flash-lite` | — | reasoning | per-token | 1.04858M | $0.15 | $1.25 | $0.015 | — | —/— | — | models.dev official list price |
 | `google/gemini-3.6-flash` | — | reasoning | per-token | 1.04858M | $0.375 | $1.875 | $0.0375 | — | —/— | — | models.dev official list price |
 | `google/gemini-3.7-flash` | — | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
+| `google/gemini-3.8-flash` | — | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `google/gemma-2-27b-it` | — | chat | per-token | 8.192K | $0.65 | $0.65 | — | — | —/— | — | models.dev official list price |
 | `google/gemma-3-12b-it` | — | chat | per-token | 131.072K | $0.05 | $0.15 | — | — | —/— | — | models.dev official list price |
 | `google/gemma-3-27b-it` | — | chat | per-token | 131.072K | $0.08 | $0.16 | — | — | —/— | — | models.dev official list price |
@@ -138,6 +139,8 @@
 | `meta/muse-spark-1.1` | — | reasoning | per-token | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
 | `meta/muse-spark-1.2` | — | reasoning | per-token | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
 | `meta/muse-spark-1.2-contributor` | — | reasoning | per-token | 1.04858M | $0.1 | $0.2 | $0.002 | — | —/— | — | models.dev official list price |
+| `meta/muse-spark-1.3` | — | reasoning | per-token | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
+| `meta/muse-spark-1.3-contributor` | — | reasoning | per-token | 1.04858M | $0.1 | $0.2 | $0.002 | — | —/— | — | models.dev official list price |
 | `microsoft/phi-4` | — | chat | per-token | 16.384K | $0.07 | $0.14 | — | — | —/— | — | models.dev official list price |
 | `microsoft/wizardlm-2-8x22b` | — | chat | per-token | 65.535K | $0.62 | $0.62 | — | — | —/— | — | models.dev official list price |
 | `minimax/minimax-01` | — | chat | per-token | 1.00019M | $0.2 | $1.1 | — | — | —/— | — | models.dev official list price |
@@ -383,11 +386,12 @@
 | `~anthropic/claude-haiku-latest` | — | reasoning | per-token | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `~anthropic/claude-opus-latest` | — | reasoning | per-token | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
 | `~anthropic/claude-sonnet-latest` | — | reasoning | per-token | 1M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
-| `~deepseek/deepseek-v4-flash-latest` | — | reasoning | per-token | 1.04858M | $0.04998 | $0.09996 | $0.009996 | — | —/— | — | models.dev official list price |
+| `~deepseek/deepseek-v4-flash-latest` | — | reasoning | per-token | 1.04858M | $0.05 | $0.16 | $0.013 | — | —/— | — | models.dev official list price |
 | `~google/gemini-flash-latest` | — | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `~google/gemini-pro-latest` | — | reasoning | per-token | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `~moonshotai/kimi-latest` | — | reasoning | per-token | 974.842K | $2.55 | $12.75 | $0.256 | — | —/— | — | models.dev official list price |
 | `~openai/gpt-latest` | — | reasoning | per-token | 1.05M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
 | `~openai/gpt-mini-latest` | — | reasoning | per-token | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | models.dev official list price |
 | `~x-ai/grok-latest` | — | reasoning | per-token | 500K | $2 | $6 | $0.5 | — | —/— | — | models.dev official list price |
-| `~z-ai/glm-latest` | — | reasoning | per-token | 1.04858M | $1.17 | $3.96 | $0.234 | — | —/— | — | OpenRouter reseller price \| z-ai/glm-latest (paid; ~ prefix is an open-weigh… |
+| `~z-ai/glm-flash-latest` | — | reasoning | per-token | 1.04858M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |
+| `~z-ai/glm-latest` | — | reasoning | per-token | 1.04858M | $1.15 | $3.5 | $0.1 | — | —/— | — | OpenRouter reseller price \| z-ai/glm-latest (paid; ~ prefix is an open-weigh… |

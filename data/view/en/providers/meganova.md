@@ -6,8 +6,8 @@
 - Homepage: https://docs.meganova.ai
 - Pricing page: https://docs.meganova.ai
 - Currency: USD
-- Data updated: 2026-08-30T20:47:54Z
-- Verified: 2026-08-30T20:47:54Z
+- Data updated: 2026-09-03T00:20:55Z
+- Verified: 2026-09-03T00:20:55Z
 
 **19** models in total.
 

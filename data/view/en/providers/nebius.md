@@ -6,10 +6,10 @@
 - Homepage: https://docs.tokenfactory.nebius.com/
 - Pricing page: https://docs.tokenfactory.nebius.com/
 - Currency: USD
-- Data updated: 2026-09-02T00:19:17Z
-- Verified: 2026-09-02T00:19:17Z
+- Data updated: 2026-09-03T00:20:55Z
+- Verified: 2026-09-03T00:20:55Z
 
-**34** models in total.
+**38** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -32,6 +32,7 @@
 | `deepseek-ai/DeepSeek-V3.2` | — | reasoning | per-token | 163K | $0.3 | $0.45 | $0.03 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V3.2-fast` | — | reasoning | per-token | 8K | $0.4 | $2 | $0.04 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Flash` | — | reasoning | per-token | 131.072K | $0.14 | $0.28 | $0.14 | — | —/— | — | models.dev official list price |
+| `deepseek-ai/DeepSeek-V4-Flash-0731` | — | reasoning | per-token | 1.024M | $0.14 | $0.28 | $0.14 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Pro` | — | reasoning | per-token | 1M | $1.75 | $3.5 | $0.15 | — | —/— | — | models.dev official list price |
 | `google/gemma-3-27b-it` | — | chat | per-token | 110K | $0.1 | $0.3 | $0.01 | — | —/— | — | models.dev official list price |
 | `meta-llama/Llama-3.3-70B-Instruct` | — | chat | per-token | 128K | $0.13 | $0.4 | $0.013 | — | —/— | — | models.dev official list price |
@@ -42,8 +43,11 @@
 | `nvidia/Llama-3_1-Nemotron-Ultra-253B-v1` | — | chat | per-token | 128K | $0.6 | $1.8 | $0.06 | — | —/— | — | models.dev official list price |
 | `nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B` | — | chat | per-token | 32K | $0.06 | $0.24 | $0.006 | — | —/— | — | models.dev official list price |
 | `nvidia/Nemotron-3-Nano-Omni` | — | reasoning | per-token | 65.536K | $0.06 | $0.24 | $0.006 | — | —/— | — | models.dev official list price |
+| `nvidia/Nemotron-3-Ultra-550b-a55b` | — | reasoning | per-token | 1.04858M | $1 | $3 | $1 | — | —/— | — | models.dev official list price |
+| `nvidia/Nemotron-3_5-Lightning` | — | reasoning | per-token | 1.04858M | $0.06 | $0.24 | $0.06 | — | —/— | — | models.dev official list price |
 | `nvidia/nemotron-3-super-120b-a12b` | — | reasoning | per-token | 256K | $0.3 | $0.9 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-120b` | — | reasoning | per-token | 128K | $0.15 | $0.6 | $0.015 | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-120b-fast` | — | reasoning | per-token | 8K | $0.1 | $0.5 | $0.01 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5` | — | reasoning | per-token | 200K | $1 | $3.2 | $0.1 | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.2` | — | reasoning | per-token | 432K | $1.4 | $4.4 | — | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.3-Flash` | — | reasoning | per-token | 1.024M | $0.15 | $0.5 | $0.15 | — | —/— | — | models.dev official list price |
