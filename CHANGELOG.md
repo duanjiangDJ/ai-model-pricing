@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.52.29 — 2026-09-03T09:52Z (content update)
+
+- fix(sync): stop official-source manifest corruption on --source/--dry-run; disable permanently-broken OpenAI wayback source (tier0_openai owns OpenAI)
+
 ## 26.51.29 — 2026-09-03T09:37Z (content update)
 
 - price sync (2 changes):

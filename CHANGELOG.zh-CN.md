@@ -16,6 +16,10 @@
 
 ---
 
+## 26.52.29 — 2026-09-03T09:52Z（内容更新）
+
+- 修复 sync_official 官方源清单在 --source/--dry-run 下被截断损坏的问题；停用已永久失效的 OpenAI wayback 源（由 scripts/checks/tier0_openai.py 维护）
+
 ## 26.51.29 — 2026-09-03T09:37Z（内容更新）
 
 - 价格同步（2 处变更）：
