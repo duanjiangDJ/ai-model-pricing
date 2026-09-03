@@ -8,8 +8,8 @@
   "pricing_page": "https://openrouter.ai/models",
   "api_base_url": "https://openrouter.ai/api/v1",
   "currency": "USD",
-  "updated_at": "2026-09-03T00:20:55Z",
-  "verified_at": "2026-09-03T00:20:55Z",
+  "updated_at": "2026-09-03T03:21:02Z",
+  "verified_at": "2026-09-03T03:21:02Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1999,13 +1999,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.22
+            "usd": 0.44
           },
           "output": {
-            "usd": 0.66
+            "usd": 1.32
           },
           "cache_read": {
-            "usd": 0.007
+            "usd": 0.014
           },
           "cache_write": null
         },
@@ -2059,13 +2059,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.66
+            "usd": 1.1154
           },
           "output": {
-            "usd": 1.98
+            "usd": 3.3462
           },
           "cache_read": {
-            "usd": 0.022
+            "usd": 0.03718
           },
           "cache_write": null
         },
@@ -4163,7 +4163,7 @@
             "usd": 0.3
           },
           "output": {
-            "usd": 1.2
+            "usd": 1.1
           },
           "cache_read": {
             "usd": 0.04
@@ -5959,43 +5959,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.625
-          },
-          "output": {
-            "usd": 3.125
-          },
-          "cache_read": {
-            "usd": 0.1875
-          },
-          "cache_write": null
-        },
-        "per_image": null,
-        "promo": null
-      },
-      "notes": "OpenRouter reseller price"
-    },
-    {
-      "id": "nvidia/nemotron-3-ultra-550b-a55b:batch",
-      "name": "NVIDIA: Nemotron 3 Ultra (batch)",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 512288,
-      "max_output": null,
-      "billing_model": [
-        "pay_per_token"
-      ],
-      "pricing": {
-        "per_mtok": {
-          "input": {
             "usd": 0.6
           },
           "output": {
-            "usd": 3.6
+            "usd": 2.4
           },
           "cache_read": {
-            "usd": 0.2
+            "usd": 0.12
           },
           "cache_write": null
         },
@@ -10730,7 +10700,7 @@
             "usd": 6.0
           },
           "cache_read": {
-            "usd": 0.2
+            "usd": 0.25
           },
           "cache_write": null
         },
@@ -12927,13 +12897,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.15
+            "usd": 1.092
           },
           "output": {
-            "usd": 3.5
+            "usd": 3.432
           },
           "cache_read": {
-            "usd": 0.1
+            "usd": 0.1794
           },
           "cache_write": null
         },

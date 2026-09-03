@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.49.29 — 2026-09-03T03:42Z (content update)
+
+- price sync (7 changes):
+- **openrouter** (-1): `nvidia/nemotron-3-ultra-550b-a55b:batch`
+- **openrouter** (updated 6): `deepseek/deepseek-v4-flash-vision-exp`, `deepseek/deepseek-v4-pro-0813`, `meta/muse-glimmer-30b`, `nvidia/nemotron-3-ultra-550b-a55b`, `qwen/qwen3.8-2.4t-a95b`, `~z-ai/glm-latest`
+
 ## 26.48.29 — 2026-09-03T02:50Z (content update)
 
 - fix(sync): bidirectional surge guard in sync_openrouter; add §15.1 proactive categories
