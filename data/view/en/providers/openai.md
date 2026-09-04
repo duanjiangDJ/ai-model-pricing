@@ -9,7 +9,7 @@
 - Data updated: 2026-09-04T00:22:51Z
 - Verified: 2026-09-04T00:22:51Z
 
-**54** models in total.
+**55** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -67,3 +67,4 @@
 | `text-embedding-3-large` | — | embedding | per-token | 8.191K | $0.13 | $0 | — | — | —/— | — | models.dev official list price |
 | `text-embedding-3-small` | ❌ offline | embedding | per-token | 8.191K | $0.02 | $0 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `text-embedding-ada-002` | — | embedding | per-token | 8.192K | $0.1 | $0 | — | — | —/— | — | models.dev official list price |
+| `gpt-6-astra` | — | chat | per-token | — | $10 | $50 | $1 | $12.5 | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). GPT-6 Astra releas… |

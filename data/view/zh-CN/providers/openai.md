@@ -9,7 +9,7 @@
 - 数据更新时间: 2026-09-04T00:22:51Z
 - 核实时间: 2026-09-04T00:22:51Z
 
-共 **54** 个模型。
+共 **55** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -67,3 +67,4 @@
 | `text-embedding-3-large` | — | embedding | 按量 | 8.191K | $0.13 | $0 | — | — | —/— | — | models.dev official list price |
 | `text-embedding-3-small` | ❌ 下线 | embedding | 按量 | 8.191K | $0.02 | $0 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `text-embedding-ada-002` | — | embedding | 按量 | 8.192K | $0.1 | $0 | — | — | —/— | — | models.dev official list price |
+| `gpt-6-astra` | — | chat | 按量 | — | $10 | $50 | $1 | $12.5 | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). GPT-6 Astra releas… |

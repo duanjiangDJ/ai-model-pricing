@@ -1765,6 +1765,40 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "gpt-6-astra",
+      "name": "gpt-6-astra",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 10.0
+          },
+          "cache_read": {
+            "usd": 1.0
+          },
+          "cache_write": {
+            "usd": 12.5
+          },
+          "output": {
+            "usd": 50.0
+          }
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official OpenAI pricing (Standard, short context, USD/1M). GPT-6 Astra released 2026-09-04 (Trusted Access Program). Official tiers: Standard short-context $10, other contexts $5/$20. Parsed via developers.openai.com/api/docs/pricing.md.",
+      "billing_model": [
+        "pay_per_token"
+      ]
     }
   ],
   "api_base_url": "https://api.openai.com/v1"

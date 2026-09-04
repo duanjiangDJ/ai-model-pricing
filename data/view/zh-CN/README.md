@@ -5,7 +5,7 @@
 
 - 数据更新时间: 2026-09-04T00:22:51Z
 - 覆盖渠道: 190
-- 模型总数: 7573
+- 模型总数: 7574
 - 订阅计划数: 67
 
 ## 供应商列表
@@ -75,7 +75,7 @@
 | [UnoRouter](providers/unorouter.md) | 聚合站 | 23 | `providers/unorouter.json` | 2026-09-04T00:22:51Z |
 | [Crusoe](providers/crusoe.md) | 推理托管 | 8 | `providers/crusoe.json` | 2026-09-04T00:22:51Z |
 | [DInference](providers/dinference.md) | 推理托管 | 6 | `providers/dinference.json` | 2026-09-04T00:22:51Z |
-| [OpenAI](providers/openai.md) | 官方直供 | 54 | `providers/openai.json` | 2026-09-04T00:22:51Z |
+| [OpenAI](providers/openai.md) | 官方直供 | 55 | `providers/openai.json` | 2026-09-04T00:22:51Z |
 | [OpenCode Go](providers/opencode-go.md) | 订阅制 | 34 | `providers/opencode-go.json` | 2026-09-04T00:22:51Z |
 | [xAI](providers/xai.md) | 官方直供 | 17 | `providers/xai.json` | 2026-09-04T00:22:51Z |
 | [LMStudio](providers/lmstudio.md) | 推理托管 | 3 | `providers/lmstudio.json` | 2026-09-04T00:22:51Z |

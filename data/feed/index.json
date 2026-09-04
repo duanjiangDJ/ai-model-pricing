@@ -3,7 +3,7 @@
   "generated_at": "2026-09-04T00:22:51Z",
   "currency": "USD",
   "provider_count": 189,
-  "model_count": 7573,
+  "model_count": 7574,
   "plan_count": 67,
   "providers": [
     {
@@ -514,7 +514,7 @@
       "id": "openai",
       "name": "OpenAI",
       "channel": "first_party",
-      "model_count": 54,
+      "model_count": 55,
       "file": "providers/openai.json",
       "updated_at": "2026-08-21T11:34:52Z"
     },
