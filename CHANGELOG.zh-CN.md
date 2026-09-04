@@ -16,6 +16,12 @@
 
 ---
 
+## 26.66.32 — 2026-09-04T18:45Z（内容更新）
+
+- 价格同步（6 处变更）：
+- **openrouter**（下架 1）：`ibm-granite/granite-4.1-8b`
+- **openrouter**（更新 5）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `qwen/qwen3.5-35b-a3b`, `qwen/qwen3.6-27b`, `tencent/hy3`
+
 ## 26.65.32 — 2026-09-04T15:44Z（内容更新）
 
 - 价格同步（4 处变更）：
