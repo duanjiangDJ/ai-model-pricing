@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.62.30 — 2026-09-04T07:32Z (feature update)
+
+- feat(data-fetch): wire collect/router + price_check into daily_check 3h flow
+
 ## 26.62.29 — 2026-09-04T07:14Z (content update)
 
 - refactor(data-fetch): add aggregation-source collectors (openrouter/models.dev) as peer providers
