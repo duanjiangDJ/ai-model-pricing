@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.59.29 — 2026-09-04T06:43Z (content update)
+
+- No data changes this run.
+
 ## 26.58.29 — 2026-09-04T05:29Z (content update)
 
 - refactor(data-fetch): move collectors into collectors/ subdir from shared dir
