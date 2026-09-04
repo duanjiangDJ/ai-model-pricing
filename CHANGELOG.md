@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.67.33 — 2026-09-04T23:24Z (feature update)
+
+- sync_official: make surge guard bidirectional
+
 ## 26.67.32 — 2026-09-04T21:43Z (content update)
 
 - price sync (5 changes):
