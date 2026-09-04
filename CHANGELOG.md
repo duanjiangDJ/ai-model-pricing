@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.57.29 — 2026-09-04T03:41Z (content update)
+
+- price sync (3 changes):
+- **openrouter** (+1): `x-ai/grok-4.3:batch`
+- **openrouter** (updated 2): `deepseek/deepseek-v4-flash-vision-exp`, `deepseek/deepseek-v4-pro-0813`
+
 ## 26.56.29 — 2026-09-04T00:40Z (content update)
 
 - price sync (62 changes):
