@@ -33,11 +33,11 @@
       "strategy": "wayback",
       "url": "https://platform.openai.com/docs/pricing",
       "parser": "openai",
-      "enabled": true,
+      "enabled": false,
       "fallback_snapshots": [
         "20260812013303"
       ],
-      "note": "JS-rendered; parsed from recent Wayback Machine capture (fallback to known-good 2026-08-12 capture)"
+      "note": "DISABLED 2026-09-03: wayback parser permanently broken since 2026-08 (OpenAI moved to a Markdown docs site; the '\"rows\":[1,[[' marker vanished). OpenAI official prices are maintained by scripts/checks/tier0_openai.py (parses developers.openai.com/../pricing.md). Kept disabled to avoid a redundant broken writer + a stale 'parsed 0 models' sync-health error."
     },
     {
       "provider_id": "google",

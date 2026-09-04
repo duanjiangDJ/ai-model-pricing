@@ -16,6 +16,68 @@
 
 ---
 
+## 26.56.29 — 2026-09-04T00:40Z（内容更新）
+
+- 价格同步（62 处变更）：
+- **alibaba**（更新 14）：`qwen3.7-plus`, `qwen3.6-flash`, `qwen-vl-ocr`, `qwen3.6-35b-a3b`, `qwen3-next-80b-a3b-thinking`, `qwen3-next-80b-a3b-instruct`, `qwen3-32b` — 入 $0.72 出 $0.72; 入 $0.7 出 $2.8; 入 $0.5 出 $2; 入 $0.5 出 $6; 入 $0.248 出 $1.485; 入 $0.1875 出 $1.125; 入 $0.5 出 $3
+- **amd**（新增 2）：`DeepSeek-V4-Flash-Vision-Exp`, `MiniCPM5-1B`
+- **deepinfra**（新增 1）：`deepseek-ai/DeepSeek-V4-Flash-Vision-Exp`
+- **deepseek**（更新 6）：`deepseek-v4-flash`, `deepseek-v4-pro`, `deepseek-v4-flash-vision-exp` — 入 $0.14 出 $0.28 缓存 $0.0028; 入 $0.14 出 $0.28 缓存 $0.0028; 入 $0.435 出 $0.87 缓存 $0.003625
+- **edenai**（新增 4）：`google/gemini-3.8-flash`, `vertex/gemini-3.8-flash`, `vertex/gemini-3.8-flash@eu`, `vertex/gemini-3.8-flash@us`
+- **edenai**（更新 6）：`ionos/meta-llama/Llama-3.3-70B-Instruct`, `ionos/openai/gpt-oss-120b`, `qwen/qwen3.8-flash`, `scaleway/deepseek-v4-flash-0731`, `scaleway/gpt-oss-120b`, `scaleway/llama-3.3-70b-instruct` — 入 $0.754975 出 $0.754975; 入 $0.174225 出 $0.754975; 入 $0.15; 入 $0.4646 出 $0.9292; 入 $0.174225 出 $0.6969; 入 $1.04535 出 $1.04535
+- **empiriolabs**（新增 2）：`muse-spark-1-3`, `qwen3-8-max-0902`
+- **huggingface**（新增 1）：`deepseek-ai/DeepSeek-V4-Flash-Vision-Exp`
+- **hyper**（更新 3）：`gemma-4-26b-a4b-it`, `glm-5`, `minimax-m2.7` — 入 $0.106 出 $0.368; 入 $0.93 出 $2.878; 入 $0.418 出 $1.588
+- **kilo**（新增 1）：`inclusionai/ling-3.0-flash-fin`
+- **kilo**（更新 6）：`deepseek/deepseek-chat`, `ibm-granite/granite-4.2-8b`, `nvidia/nemotron-3-nano-30b-a3b`, `qwen/qwen2.5-vl-72b-instruct`, `z-ai/glm-4.6`, `~moonshotai/kimi-latest` — 入 $0.32 出 $0.89; 入 $0.06 出 $0.25 缓存 $0.015; 缓存 $0.03; 入 $0.8 出 $1; 入 $0.55 出 $2.2 缓存 $0.11; 入 $2.5 出 $14 缓存 $0.29
+- **llmgateway**（新增 3）：`Qwen3.8-27B`, `muse-spark-1.3`, `muse-spark-1.3-contributor`
+- **meta**（新增 2）：`muse-spark-1.3`, `muse-spark-1.3-contributor`
+- **minimax**（更新 2）：`MiniMax-M2.5-highspeed` — 缓存 $0.06
+- **mistral**（更新 4）：`ministral-3b-latest`, `ministral-8b-latest` — 入 $0.04 出 $0.04; 入 $0.1 出 $0.1
+- **nano-gpt**（更新 1）：`anthropic/claude-fable-latest` — 缓存 $0.25
+- **ofox**（新增 2）：`anthropic/claude-fable-5.1`, `bailian/qwen3.8-max-0902`
+- **openrouter**（新增 1）：`nvidia/nemotron-3.5-content-safety`
+- **openrouter**（更新 7）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `nvidia/nemotron-3-ultra-550b-a55b`, `tencent/hy3`, `undi95/remm-slerp-l2-13b`, `~z-ai/glm-flash-latest`, `~z-ai/glm-latest`
+- **tinfoil**（新增 1）：`glm-5-3-flash`
+- **vercel**（新增 1）：`zai/glm-5.3-fast`
+- **vercel**（更新 1）：`zai/glm-5.3` — 入 $0.7 出 $2.2 缓存 $0.13
+
+## 26.55.29 — 2026-09-03T21:45Z（内容更新）
+
+- 价格同步（4 处变更）：
+- **openrouter**（更新 4）：`deepseek/deepseek-chat-v3.1`, `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `~z-ai/glm-flash-latest`
+
+## 26.54.29 — 2026-09-03T18:45Z（内容更新）
+
+- 价格同步（7 处变更）：
+- **openrouter**（新增 1）：`inclusionai/ling-3.0-flash-fin`
+- **openrouter**（更新 6）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `qwen/qwen3.8-27b`, `tencent/hy3`, `~moonshotai/kimi-latest`, `~z-ai/glm-latest`
+
+## 26.53.29 — 2026-09-03T15:43Z（内容更新）
+
+- 价格同步（7 处变更）：
+- **openrouter**（更新 7）：`deepseek/deepseek-chat`, `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-flash-vision-exp`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`, `qwen/qwen2.5-vl-72b-instruct`, `~z-ai/glm-latest`
+
+## 26.52.29 — 2026-09-03T09:52Z（内容更新）
+
+- 修复 sync_official 官方源清单在 --source/--dry-run 下被截断损坏的问题；停用已永久失效的 OpenAI wayback 源（由 scripts/checks/tier0_openai.py 维护）
+
+## 26.51.29 — 2026-09-03T09:37Z（内容更新）
+
+- 价格同步（2 处变更）：
+- **openrouter**（更新 2）：`qwen/qwen3-14b`, `z-ai/glm-5.3`
+
+## 26.50.29 — 2026-09-03T06:38Z（内容更新）
+
+- 价格同步（1 处变更）：
+- **openrouter**（更新 1）：`~z-ai/glm-latest`
+
+## 26.49.29 — 2026-09-03T03:42Z（内容更新）
+
+- 价格同步（7 处变更）：
+- **openrouter**（下架 1）：`nvidia/nemotron-3-ultra-550b-a55b:batch`
+- **openrouter**（更新 6）：`deepseek/deepseek-v4-flash-vision-exp`, `deepseek/deepseek-v4-pro-0813`, `meta/muse-glimmer-30b`, `nvidia/nemotron-3-ultra-550b-a55b`, `qwen/qwen3.8-2.4t-a95b`, `~z-ai/glm-latest`
+
 ## 26.48.29 — 2026-09-03T02:50Z（内容更新）
 
 - 给sync_openrouter加双向回退保护；§15.1清单增补新风险类目

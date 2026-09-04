@@ -7,8 +7,8 @@
   "homepage": "https://docs.tinfoil.sh",
   "pricing_page": "https://docs.tinfoil.sh",
   "currency": "USD",
-  "updated_at": "2026-09-03T00:20:55Z",
-  "verified_at": "2026-09-03T00:20:55Z",
+  "updated_at": "2026-09-04T00:22:51Z",
+  "verified_at": "2026-09-04T00:22:51Z",
   "models": [
     {
       "id": "deepseek-v4-flash",
@@ -103,6 +103,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "glm-5-3-flash",
+      "name": "GLM-5.3-Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 131072,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.4
+          },
+          "output": {
+            "usd": 1.25
+          },
+          "cache_read": {
+            "usd": 0.1
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "gpt-oss-120b",

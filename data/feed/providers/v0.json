@@ -7,8 +7,8 @@
   "homepage": "https://sdk.vercel.ai/providers/ai-sdk-providers/vercel",
   "pricing_page": "https://sdk.vercel.ai/providers/ai-sdk-providers/vercel",
   "currency": "USD",
-  "updated_at": "2026-09-03T00:20:55Z",
-  "verified_at": "2026-09-03T00:20:55Z",
+  "updated_at": "2026-09-04T00:22:51Z",
+  "verified_at": "2026-09-04T00:22:51Z",
   "models": [
     {
       "id": "v0-1.0-md",

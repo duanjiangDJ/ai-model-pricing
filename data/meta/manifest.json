@@ -1,5 +1,5 @@
 {
-  "schema_version": "26.48.29",
+  "schema_version": "26.56.29",
   "sources": [
     {
       "name": "models.dev",
@@ -33,18 +33,10 @@
       "last_error": null
     },
     {
-      "name": "OpenAI official pricing (Wayback snapshot)",
-      "url": "https://platform.openai.com/docs/pricing",
-      "auto_sync": true,
-      "official": true,
-      "last_ok": "2026-08-21T13:59:17Z",
-      "last_error": "parsed 0 models"
-    },
-    {
       "name": "OpenRouter API",
       "url": "https://openrouter.ai/api/v1/models",
       "auto_sync": true,
-      "last_ok": "2026-09-03T00:20:55Z",
+      "last_ok": "2026-09-04T00:22:51Z",
       "last_error": null
     },
     {
@@ -53,7 +45,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -62,7 +54,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -71,7 +63,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -80,7 +72,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -89,7 +81,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -98,7 +90,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -107,7 +99,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -116,7 +108,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -125,7 +117,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -134,7 +126,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -143,7 +135,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -152,7 +144,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -161,7 +153,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -170,7 +162,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -179,7 +171,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -188,7 +180,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -197,7 +189,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -206,7 +198,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -215,7 +207,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -224,7 +216,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -233,7 +225,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -242,7 +234,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -251,7 +243,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -260,7 +252,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -269,7 +261,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -278,7 +270,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -287,7 +279,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -296,7 +288,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -305,7 +297,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -314,7 +306,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -323,7 +315,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -332,7 +324,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -341,7 +333,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -350,7 +342,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -359,7 +351,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -368,7 +360,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -377,7 +369,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -386,7 +378,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -395,7 +387,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -404,7 +396,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -413,7 +405,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -422,7 +414,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -431,7 +423,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -440,7 +432,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -449,7 +441,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -458,7 +450,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -467,7 +459,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -476,7 +468,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -485,7 +477,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -494,7 +486,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -503,7 +495,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -512,7 +504,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -521,7 +513,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -530,7 +522,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -539,7 +531,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -548,7 +540,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -557,7 +549,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -566,7 +558,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -575,7 +567,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -584,7 +576,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -593,7 +585,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -602,7 +594,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -611,7 +603,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -620,7 +612,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -629,7 +621,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -638,7 +630,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -647,7 +639,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -656,7 +648,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -665,7 +657,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -674,7 +666,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -683,7 +675,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -692,7 +684,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -701,7 +693,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -710,7 +702,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -719,7 +711,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -728,7 +720,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -737,7 +729,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -746,7 +738,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -755,7 +747,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -764,7 +756,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -773,7 +765,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -782,7 +774,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -791,7 +783,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -800,7 +792,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -809,7 +801,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -818,7 +810,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -827,7 +819,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -836,7 +828,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -845,7 +837,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -854,7 +846,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -863,7 +855,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -872,7 +864,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -881,7 +873,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -890,7 +882,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -899,7 +891,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -908,7 +900,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -917,7 +909,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -926,7 +918,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -935,7 +927,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -944,7 +936,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -953,7 +945,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -962,7 +954,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -971,7 +963,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -980,7 +972,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -989,7 +981,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -998,7 +990,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1007,7 +999,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1016,7 +1008,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1025,7 +1017,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1034,7 +1026,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1043,7 +1035,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1052,7 +1044,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1061,7 +1053,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1070,7 +1062,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1079,7 +1071,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1088,7 +1080,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1097,7 +1089,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1106,7 +1098,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1115,7 +1107,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1124,7 +1116,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1133,7 +1125,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1142,7 +1134,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1151,7 +1143,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1160,7 +1152,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1169,7 +1161,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1178,7 +1170,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1187,7 +1179,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1196,7 +1188,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1205,7 +1197,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1214,7 +1206,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1223,7 +1215,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1232,7 +1224,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1241,7 +1233,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1250,7 +1242,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1259,7 +1251,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1268,7 +1260,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1277,7 +1269,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1286,7 +1278,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1295,7 +1287,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1304,7 +1296,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1313,7 +1305,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1322,7 +1314,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1331,7 +1323,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1340,7 +1332,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1349,7 +1341,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1358,7 +1350,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1367,7 +1359,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1376,7 +1368,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1385,7 +1377,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1394,7 +1386,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1403,7 +1395,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1412,7 +1404,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1421,7 +1413,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1430,7 +1422,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1439,7 +1431,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1448,7 +1440,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1457,7 +1449,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1466,7 +1458,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1475,7 +1467,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1484,7 +1476,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1493,7 +1485,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1502,7 +1494,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1511,7 +1503,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1520,7 +1512,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1529,7 +1521,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1538,7 +1530,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1547,7 +1539,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1556,7 +1548,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1565,7 +1557,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1574,7 +1566,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1583,7 +1575,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1592,7 +1584,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1601,7 +1593,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1610,7 +1602,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1619,7 +1611,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1628,7 +1620,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1637,7 +1629,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1646,7 +1638,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1655,7 +1647,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1664,7 +1656,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1673,7 +1665,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1682,7 +1674,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1691,7 +1683,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1700,7 +1692,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1709,7 +1701,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1718,7 +1710,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1727,7 +1719,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1736,7 +1728,7 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     },
     {
@@ -1745,10 +1737,10 @@
       "auto_sync": true,
       "official": true,
       "check": true,
-      "last_ok": "2026-09-03T00:20:56Z",
+      "last_ok": "2026-09-04T00:22:52Z",
       "last_error": null
     }
   ],
   "coverage": {},
-  "last_daily_check": "2026-09-03T00:20:55Z"
+  "last_daily_check": "2026-09-04T00:22:51Z"
 }

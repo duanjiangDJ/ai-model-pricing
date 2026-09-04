@@ -8,8 +8,8 @@
   "pricing_page": "https://openrouter.ai/models",
   "api_base_url": "https://openrouter.ai/api/v1",
   "currency": "USD",
-  "updated_at": "2026-09-03T00:20:55Z",
-  "verified_at": "2026-09-03T00:20:55Z",
+  "updated_at": "2026-09-04T00:22:51Z",
+  "verified_at": "2026-09-04T00:22:51Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1648,10 +1648,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.2574
+            "usd": 0.32
           },
           "output": {
-            "usd": 1.0287
+            "usd": 0.89
           },
           "cache_read": null,
           "cache_write": null
@@ -1704,13 +1704,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.25
+            "usd": 0.55
           },
           "output": {
-            "usd": 0.95
+            "usd": 1.65
           },
           "cache_read": {
-            "usd": 0.13
+            "usd": 0.55
           },
           "cache_write": null
         },
@@ -3742,6 +3742,36 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "inclusionai/ling-3.0-flash-fin",
+      "name": "Ling 3.0 Flash Fin",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.06
+          },
+          "output": {
+            "usd": 0.18
+          },
+          "cache_read": {
+            "usd": 0.012
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "inclusionai/ling-3.0-flash-fin:free",
       "name": "Ling 3.0 Flash Fin (free)",
       "category": "reasoning",
@@ -4163,7 +4193,7 @@
             "usd": 0.3
           },
           "output": {
-            "usd": 1.2
+            "usd": 1.1
           },
           "cache_read": {
             "usd": 0.04
@@ -5066,7 +5096,7 @@
         "text",
         "image_in"
       ],
-      "context_window": 262144,
+      "context_window": 32768,
       "max_output": null,
       "billing_model": [
         "pay_per_token"
@@ -5975,36 +6005,6 @@
       "notes": "OpenRouter reseller price"
     },
     {
-      "id": "nvidia/nemotron-3-ultra-550b-a55b:batch",
-      "name": "NVIDIA: Nemotron 3 Ultra (batch)",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 512288,
-      "max_output": null,
-      "billing_model": [
-        "pay_per_token"
-      ],
-      "pricing": {
-        "per_mtok": {
-          "input": {
-            "usd": 0.6
-          },
-          "output": {
-            "usd": 3.6
-          },
-          "cache_read": {
-            "usd": 0.2
-          },
-          "cache_write": null
-        },
-        "per_image": null,
-        "promo": null
-      },
-      "notes": "OpenRouter reseller price"
-    },
-    {
       "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "name": "NVIDIA: Nemotron 3 Ultra (free)",
       "category": "reasoning",
@@ -6031,6 +6031,35 @@
         "promo": null
       },
       "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+    },
+    {
+      "id": "nvidia/nemotron-3.5-content-safety",
+      "name": "NVIDIA: Nemotron 3.5 Content Safety",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 131072,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.2
+          },
+          "output": {
+            "usd": 0.2
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "nvidia/nemotron-3.5-content-safety:free",
@@ -9434,12 +9463,14 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.25
+            "usd": 0.8
           },
           "output": {
-            "usd": 0.75
+            "usd": 1.0
           },
-          "cache_read": null,
+          "cache_read": {
+            "usd": 0.4
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -9462,10 +9493,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.2275
+            "usd": 0.12
           },
           "output": {
-            "usd": 0.91
+            "usd": 0.24
           },
           "cache_read": null,
           "cache_write": null
@@ -10730,7 +10761,7 @@
             "usd": 6.0
           },
           "cache_read": {
-            "usd": 0.2
+            "usd": 0.25
           },
           "cache_write": null
         },
@@ -10786,17 +10817,15 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.425
+            "usd": 0.42
           },
           "output": {
-            "usd": 2.55
+            "usd": 3.0
           },
           "cache_read": {
             "usd": 0.085
           },
-          "cache_write": {
-            "usd": 0.53125
-          }
+          "cache_write": null
         },
         "per_image": null,
         "promo": null
@@ -11684,7 +11713,7 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.45
+            "usd": 0.35
           },
           "output": {
             "usd": 0.65
@@ -12416,7 +12445,7 @@
             "usd": 4.4
           },
           "cache_read": {
-            "usd": 0.26
+            "usd": 0.14
           },
           "cache_write": null
         },
@@ -12770,13 +12799,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2.55
+            "usd": 2.5
           },
           "output": {
-            "usd": 12.75
+            "usd": 14.0
           },
           "cache_read": {
-            "usd": 0.25599999
+            "usd": 0.29
           },
           "cache_write": null
         },

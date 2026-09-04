@@ -6,10 +6,10 @@
 - 官网: https://kilo.ai
 - 定价页: https://kilo.ai
 - 币种: USD
-- 数据更新时间: 2026-09-03T00:20:55Z
-- 核实时间: 2026-09-03T00:20:55Z
+- 数据更新时间: 2026-09-04T00:22:51Z
+- 核实时间: 2026-09-04T00:22:51Z
 
-共 **382** 个模型。
+共 **383** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -59,7 +59,7 @@
 | `cohere/command-r7b-12-2024` | — | chat | 按量 | 128K | $0.0375 | $0.15 | — | — | —/— | — | models.dev official list price |
 | `cohere/north-mini-code:free` | — | reasoning | 免费 | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `deepcogito/cogito-v2.1-671b` | — | reasoning | 按量 | 128K | $1.25 | $1.25 | — | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-chat` | — | chat | 按量 | 128K | $0.2574 | $1.0287 | — | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-chat` | — | chat | 按量 | 128K | $0.32 | $0.89 | — | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-chat-v3-0324` | — | chat | 按量 | 163.84K | $0.25 | $1 | $0.135 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-chat-v3.1` | — | reasoning | 按量 | 163.84K | $0.27 | $1 | $0.135 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-r1` | — | reasoning | 按量 | 64K | $0.7 | $2.5 | — | — | —/— | — | models.dev official list price |
@@ -107,12 +107,13 @@
 | `gryphe/mythomax-l2-13b` | — | chat | 按量 | 4.096K | $0.06 | $0.06 | — | — | —/— | — | models.dev official list price |
 | `ibm-granite/granite-4.0-h-micro` | — | chat | 按量 | 131K | $0.017 | $0.112 | — | — | —/— | — | models.dev official list price |
 | `ibm-granite/granite-4.1-8b` | — | chat | 按量 | 131.072K | $0.05 | $0.1 | $0.05 | — | —/— | — | models.dev official list price |
-| `ibm-granite/granite-4.2-8b` | — | reasoning | 按量 | 131.072K | $0.1 | $0.15 | $0.05 | — | —/— | — | models.dev official list price |
+| `ibm-granite/granite-4.2-8b` | — | reasoning | 按量 | 131.072K | $0.06 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |
 | `inception/mercury-2` | — | reasoning | 按量 | 128K | $0.25 | $0.75 | $0.025 | — | —/— | — | models.dev official list price |
 | `inception/mercury-2.5-preview` | — | reasoning | 按量 | 260K | $0.2 | $0.75 | $0.02 | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-2.6-1t` | — | chat | 按量 | 262.144K | $0.3 | $2.5 | $0.06 | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-2.6-flash` | — | chat | 按量 | 262.144K | $0.1 | $0.3 | $0.02 | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-3.0-flash` | — | reasoning | 按量 | 262.144K | $0.06 | $0.18 | $0.012 | — | —/— | — | models.dev official list price |
+| `inclusionai/ling-3.0-flash-fin` | — | reasoning | 按量 | 262.144K | $0.06 | $0.18 | $0.012 | — | —/— | — | models.dev official list price |
 | `inclusionai/ling-3.0-flash-fin:free` | — | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `inclusionai/ring-2.6-1t` | — | reasoning | 按量 | 262.144K | $0.3 | $2.5 | $0.06 | — | —/— | — | models.dev official list price |
 | `kilo-auto/balanced` | — | reasoning | 按量 | 1M | $0.325 | $1.95 | $0.0325 | — | —/— | — | models.dev official list price |
@@ -188,7 +189,7 @@
 | `nousresearch/hermes-3-llama-3.1-70b` | — | chat | 按量 | 131.072K | $0.7 | $0.7 | — | — | —/— | — | models.dev official list price |
 | `nousresearch/hermes-4-405b` | — | reasoning | 按量 | 131.072K | $1 | $3 | — | — | —/— | — | models.dev official list price |
 | `nousresearch/hermes-4-70b` | — | reasoning | 按量 | 131.072K | $0.13 | $0.4 | — | — | —/— | — | models.dev official list price |
-| `nvidia/nemotron-3-nano-30b-a3b` | — | reasoning | 按量 | 262.144K | $0.05 | $0.2 | $0.025 | — | —/— | — | models.dev official list price |
+| `nvidia/nemotron-3-nano-30b-a3b` | — | reasoning | 按量 | 262.144K | $0.05 | $0.2 | $0.03 | — | —/— | — | models.dev official list price |
 | `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free` | — | reasoning | 免费 | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-3-super-120b-a12b` | — | reasoning | 按量 | 262.144K | $0.085 | $0.4 | — | — | —/— | — | models.dev official list price |
 | `nvidia/nemotron-3-super-120b-a12b:free` | — | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
@@ -276,7 +277,7 @@
 | `qwen/qwen-plus` | — | chat | 按量 | 1M | $0.26 | $0.78 | $0.052 | — | —/— | — | models.dev official list price |
 | `qwen/qwen-plus-2025-07-28` | — | chat | 按量 | 1M | $0.26 | $0.78 | — | — | —/— | — | models.dev official list price |
 | `qwen/qwen-plus-2025-07-28:thinking` | — | reasoning | 按量 | 1M | $0.26 | $0.78 | — | — | —/— | — | models.dev official list price |
-| `qwen/qwen2.5-vl-72b-instruct` | — | chat | 按量 | 128K | $0.25 | $0.75 | $0.4 | — | —/— | — | models.dev official list price |
+| `qwen/qwen2.5-vl-72b-instruct` | — | chat | 按量 | 128K | $0.8 | $1 | $0.4 | — | —/— | — | models.dev official list price |
 | `qwen/qwen3-14b` | — | reasoning | 按量 | 40.96K | $0.2275 | $0.91 | — | — | —/— | — | models.dev official list price |
 | `qwen/qwen3-235b-a22b` | — | reasoning | 按量 | 131.072K | $0.455 | $1.82 | — | — | —/— | — | models.dev official list price |
 | `qwen/qwen3-235b-a22b-2507` | — | chat | 按量 | 262.144K | $0.1495 | $0.598 | — | — | —/— | — | models.dev official list price |
@@ -371,7 +372,7 @@
 | `z-ai/glm-4.5` | — | reasoning | 按量 | 131.072K | $0.6 | $2.2 | $0.11 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-4.5-air` | — | reasoning | 按量 | 131.072K | $0.13 | $0.85 | $0.025 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-4.5v` | — | reasoning | 按量 | 65.536K | $0.6 | $1.8 | $0.11 | — | —/— | — | models.dev official list price |
-| `z-ai/glm-4.6` | — | reasoning | 按量 | 202.752K | $0.43 | $1.75 | $0.08 | — | —/— | — | models.dev official list price |
+| `z-ai/glm-4.6` | — | reasoning | 按量 | 202.752K | $0.55 | $2.2 | $0.11 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-4.6v` | — | reasoning | 按量 | 131.072K | $0.3 | $0.9 | $0.055 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-4.7` | — | reasoning | 按量 | 202.752K | $0.4 | $1.75 | $0.08 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-4.7-flash` | — | reasoning | 按量 | 202.752K | $0.06 | $0.4 | $0.01 | — | —/— | — | models.dev official list price |
@@ -389,7 +390,7 @@
 | `~deepseek/deepseek-v4-flash-latest` | — | reasoning | 按量 | 1.04858M | $0.05 | $0.16 | $0.013 | — | —/— | — | models.dev official list price |
 | `~google/gemini-flash-latest` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `~google/gemini-pro-latest` | — | reasoning | 按量 | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
-| `~moonshotai/kimi-latest` | — | reasoning | 按量 | 974.842K | $2.55 | $12.75 | $0.256 | — | —/— | — | models.dev official list price |
+| `~moonshotai/kimi-latest` | — | reasoning | 按量 | 974.842K | $2.5 | $14 | $0.29 | — | —/— | — | models.dev official list price |
 | `~openai/gpt-latest` | — | reasoning | 按量 | 1.05M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
 | `~openai/gpt-mini-latest` | — | reasoning | 按量 | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | models.dev official list price |
 | `~x-ai/grok-latest` | — | reasoning | 按量 | 500K | $2 | $6 | $0.5 | — | —/— | — | models.dev official list price |

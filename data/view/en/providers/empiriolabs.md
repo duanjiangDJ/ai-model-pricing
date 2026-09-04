@@ -6,10 +6,10 @@
 - Homepage: https://docs.empiriolabs.ai
 - Pricing page: https://docs.empiriolabs.ai
 - Currency: USD
-- Data updated: 2026-09-03T00:20:55Z
-- Verified: 2026-09-03T00:20:55Z
+- Data updated: 2026-09-04T00:22:51Z
+- Verified: 2026-09-04T00:22:51Z
 
-**57** models in total.
+**59** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -42,6 +42,7 @@
 | `muse-glimmer-30b` | — | reasoning | per-token | 131.072K | $0.2 | $0.8 | $0.05 | — | —/— | — | models.dev official list price |
 | `muse-spark-1-1` | — | reasoning | per-token | 1.04858M | $1.25 | $4.25 | $1 | — | —/— | — | models.dev official list price |
 | `muse-spark-1-2` | — | reasoning | per-token | 1.04858M | $1.25 | $4.25 | $1 | — | —/— | — | models.dev official list price |
+| `muse-spark-1-3` | — | reasoning | per-token | 1.04858M | $1.25 | $4.25 | $1 | — | —/— | — | models.dev official list price |
 | `qwen3-5-122b-a10b` | — | reasoning | per-token | 256K | $0.115 | $0.917 | $0.115 | — | —/— | — | models.dev official list price |
 | `qwen3-5-27b` | — | reasoning | per-token | 256K | $0.086 | $0.688 | $0.086 | — | —/— | — | models.dev official list price |
 | `qwen3-5-35b-a3b` | — | reasoning | per-token | 256K | $0.057 | $0.459 | $0.057 | — | —/— | — | models.dev official list price |
@@ -61,6 +62,7 @@
 | `qwen3-8-27b` | — | reasoning | per-token | 262.144K | $0.17 | $0.5 | $0.08 | — | —/— | — | models.dev official list price |
 | `qwen3-8-flash` | — | reasoning | per-token | 1M | $0.16 | $0.47 | $0.16 | — | —/— | — | models.dev official list price |
 | `qwen3-8-max` | — | reasoning | per-token | 1M | $2 | $6 | $2 | — | —/— | — | models.dev official list price |
+| `qwen3-8-max-0902` | — | reasoning | per-token | 1M | $2 | $6 | $2 | — | —/— | — | models.dev official list price |
 | `qwen3-max` | — | reasoning | per-token | 256K | $1.08 | $5.52 | $1.08 | — | —/— | — | models.dev official list price |
 | `seed-2-0-code` | — | reasoning | per-token | 256K | $0.4 | $2.4 | $0.4 | — | —/— | — | models.dev official list price |
 | `seed-2-0-lite` | — | reasoning | per-token | 256K | $0.31 | $2.5 | $0.31 | — | —/— | — | models.dev official list price |
