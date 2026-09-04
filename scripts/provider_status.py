@@ -151,15 +151,16 @@ def table_block(lang):
     return "\n".join(lines)
 
 
-for readme, lang in (("docs/providers.md", "en"), ("docs/providers.zh-CN.md", "zh-CN")):
-    t = open(readme, encoding="utf-8").read()
-    block = table_block(lang)
-    begin = "<!-- PROVIDERS:BEGIN -->"
-    end = "<!-- PROVIDERS:END -->"
-    section = f"{begin}\n\n{block}\n\n{end}"
-    if begin in t:
-        t = re.sub(rf"{re.escape(begin)}.*?{re.escape(end)}", section, t, flags=re.S)
-    else:
-        t += "\n\n" + section
-    open(readme, "w", encoding="utf-8").write(t)
-    print(f"providers table updated ({lang})")
+if __name__ == "__main__":
+    for readme, lang in (("docs/providers.md", "en"), ("docs/providers.zh-CN.md", "zh-CN")):
+        t = open(readme, encoding="utf-8").read()
+        block = table_block(lang)
+        begin = "<!-- PROVIDERS:BEGIN -->"
+        end = "<!-- PROVIDERS:END -->"
+        section = f"{begin}\n\n{block}\n\n{end}"
+        if begin in t:
+            t = re.sub(rf"{re.escape(begin)}.*?{re.escape(end)}", section, t, flags=re.S)
+        else:
+            t += "\n\n" + section
+        open(readme, "w", encoding="utf-8").write(t)
+        print(f"providers table updated ({lang})")

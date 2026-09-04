@@ -1,7 +1,7 @@
-"""scripts/collect/common.py — shared collection utilities.
+"""scripts/collect/utils.py — shared collection utilities.
 
 Architecture chosen by the user (2026-09-02):
-    route (dispatcher.py / router.py --collect)  ->  collect_<provider>.py  ->  common.py
+    router.py  ->  collect_<provider>.py  ->  utils.py
 
 Each collect_<provider>.py independently fetches THAT provider's official source,
 parses per-M prices, and writes them via write_prices() (which wraps toolbox
