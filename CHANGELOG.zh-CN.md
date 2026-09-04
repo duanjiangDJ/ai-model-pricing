@@ -16,6 +16,12 @@
 
 ---
 
+## 26.67.32 — 2026-09-04T21:43Z（内容更新）
+
+- 价格同步（5 处变更）：
+- **openrouter**（新增 4）：`inclusionai/ling-3.0-flash-sante:free`, `openai/gpt-6-astra`, `openai/gpt-6-astra-pro`, `openai/gpt-6-astra:batch`
+- **openrouter**（更新 1）：`deepseek/deepseek-v4-pro`
+
 ## 26.66.32 — 2026-09-04T18:45Z（内容更新）
 
 - 价格同步（6 处变更）：

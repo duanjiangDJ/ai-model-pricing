@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.67.32 — 2026-09-04T21:43Z (content update)
+
+- price sync (5 changes):
+- **openrouter** (+4): `inclusionai/ling-3.0-flash-sante:free`, `openai/gpt-6-astra`, `openai/gpt-6-astra-pro`, `openai/gpt-6-astra:batch`
+- **openrouter** (updated 1): `deepseek/deepseek-v4-pro`
+
 ## 26.66.32 — 2026-09-04T18:45Z (content update)
 
 - price sync (6 changes):

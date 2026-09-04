@@ -1,6 +1,87 @@
 {
-  "schema_version": "26.66.32",
+  "schema_version": "26.67.32",
   "entries": [
+    {
+      "date": "2026-09-04T21:25:03Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "inclusionai/ling-3.0-flash-sante:free",
+      "field": "catalog",
+      "new": "inclusionai/ling-3.0-flash-sante:free",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-04T21:25:03Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-6-astra",
+      "field": "catalog",
+      "new": "openai/gpt-6-astra",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-04T21:25:03Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-6-astra-pro",
+      "field": "catalog",
+      "new": "openai/gpt-6-astra-pro",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-04T21:25:03Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "openai/gpt-6-astra:batch",
+      "field": "catalog",
+      "new": "openai/gpt-6-astra:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-04T21:25:03Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-pro",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.001892
+          },
+          "output": {
+            "usd": 2.003784
+          },
+          "cache_read": {
+            "usd": 0.083491
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.981708
+          },
+          "output": {
+            "usd": 1.963416
+          },
+          "cache_read": {
+            "usd": 0.081809
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-04T18:25:01Z",
       "kind": "remove",
