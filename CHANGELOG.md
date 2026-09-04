@@ -16,6 +16,32 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.56.29 — 2026-09-04T00:40Z (content update)
+
+- price sync (62 changes):
+- **alibaba** (updated 14): `qwen3.7-plus`, `qwen3.6-flash`, `qwen-vl-ocr`, `qwen3.6-35b-a3b`, `qwen3-next-80b-a3b-thinking`, `qwen3-next-80b-a3b-instruct`, `qwen3-32b` — in $0.72 out $0.72; in $0.7 out $2.8; in $0.5 out $2; in $0.5 out $6; in $0.248 out $1.485; in $0.1875 out $1.125; in $0.5 out $3
+- **amd** (+2): `DeepSeek-V4-Flash-Vision-Exp`, `MiniCPM5-1B`
+- **deepinfra** (+1): `deepseek-ai/DeepSeek-V4-Flash-Vision-Exp`
+- **deepseek** (updated 6): `deepseek-v4-flash`, `deepseek-v4-pro`, `deepseek-v4-flash-vision-exp` — in $0.14 out $0.28 cache $0.0028; in $0.435 out $0.87 cache $0.003625
+- **edenai** (+4): `google/gemini-3.8-flash`, `vertex/gemini-3.8-flash`, `vertex/gemini-3.8-flash@eu`, `vertex/gemini-3.8-flash@us`
+- **edenai** (updated 6): `ionos/meta-llama/Llama-3.3-70B-Instruct`, `ionos/openai/gpt-oss-120b`, `qwen/qwen3.8-flash`, `scaleway/deepseek-v4-flash-0731`, `scaleway/gpt-oss-120b`, `scaleway/llama-3.3-70b-instruct` — in $0.754975 out $0.754975; in $0.174225 out $0.754975; in $0.15; in $0.4646 out $0.9292; in $0.174225 out $0.6969; in $1.04535 out $1.04535
+- **empiriolabs** (+2): `muse-spark-1-3`, `qwen3-8-max-0902`
+- **huggingface** (+1): `deepseek-ai/DeepSeek-V4-Flash-Vision-Exp`
+- **hyper** (updated 3): `gemma-4-26b-a4b-it`, `glm-5`, `minimax-m2.7` — in $0.106 out $0.368; in $0.93 out $2.878; in $0.418 out $1.588
+- **kilo** (+1): `inclusionai/ling-3.0-flash-fin`
+- **kilo** (updated 6): `deepseek/deepseek-chat`, `ibm-granite/granite-4.2-8b`, `nvidia/nemotron-3-nano-30b-a3b`, `qwen/qwen2.5-vl-72b-instruct`, `z-ai/glm-4.6`, `~moonshotai/kimi-latest` — in $0.32 out $0.89; in $0.06 out $0.25 cache $0.015; cache $0.03; in $0.8 out $1; in $0.55 out $2.2 cache $0.11; in $2.5 out $14 cache $0.29
+- **llmgateway** (+3): `Qwen3.8-27B`, `muse-spark-1.3`, `muse-spark-1.3-contributor`
+- **meta** (+2): `muse-spark-1.3`, `muse-spark-1.3-contributor`
+- **minimax** (updated 2): `MiniMax-M2.5-highspeed` — cache $0.06
+- **mistral** (updated 4): `ministral-3b-latest`, `ministral-8b-latest` — in $0.04 out $0.04; in $0.1 out $0.1
+- **nano-gpt** (updated 1): `anthropic/claude-fable-latest` — cache $0.25
+- **ofox** (+2): `anthropic/claude-fable-5.1`, `bailian/qwen3.8-max-0902`
+- **openrouter** (+1): `nvidia/nemotron-3.5-content-safety`
+- **openrouter** (updated 7): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `nvidia/nemotron-3-ultra-550b-a55b`, `tencent/hy3`, `undi95/remm-slerp-l2-13b`, `~z-ai/glm-flash-latest`, `~z-ai/glm-latest`
+- **tinfoil** (+1): `glm-5-3-flash`
+- **vercel** (+1): `zai/glm-5.3-fast`
+- **vercel** (updated 1): `zai/glm-5.3` — in $0.7 out $2.2 cache $0.13
+
 ## 26.55.29 — 2026-09-03T21:45Z (content update)
 
 - price sync (4 changes):

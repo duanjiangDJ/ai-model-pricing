@@ -7,8 +7,8 @@
   "homepage": "https://docs.edenai.co",
   "pricing_page": "https://docs.edenai.co",
   "currency": "USD",
-  "updated_at": "2026-09-03T00:20:55Z",
-  "verified_at": "2026-09-03T00:20:55Z",
+  "updated_at": "2026-09-04T00:22:51Z",
+  "verified_at": "2026-09-04T00:22:51Z",
   "models": [
     {
       "id": "amazon/moonshot.kimi-k2-thinking",
@@ -3104,6 +3104,37 @@
       ]
     },
     {
+      "id": "google/gemini-3.8-flash",
+      "name": "Gemini 3.8 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.5
+          },
+          "output": {
+            "usd": 7.5
+          },
+          "cache_read": {
+            "usd": 0.15
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
       "id": "google/gemini-flash-latest",
       "name": "Gemini 3.7 Flash",
       "category": "reasoning",
@@ -3273,10 +3304,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.75257
+            "usd": 0.754975
           },
           "output": {
-            "usd": 0.75257
+            "usd": 0.754975
           },
           "cache_read": null,
           "cache_write": null
@@ -3303,10 +3334,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.17367
+            "usd": 0.174225
           },
           "output": {
-            "usd": 0.75257
+            "usd": 0.754975
           },
           "cache_read": null,
           "cache_write": null
@@ -6092,7 +6123,7 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.16
+            "usd": 0.15
           },
           "output": {
             "usd": 0.47
@@ -6182,10 +6213,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.46312
+            "usd": 0.4646
           },
           "output": {
-            "usd": 0.92624
+            "usd": 0.9292
           },
           "cache_read": null,
           "cache_write": null
@@ -6212,10 +6243,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.17367
+            "usd": 0.174225
           },
           "output": {
-            "usd": 0.69468
+            "usd": 0.6969
           },
           "cache_read": null,
           "cache_write": null
@@ -6242,10 +6273,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.04202
+            "usd": 1.04535
           },
           "output": {
-            "usd": 1.04202
+            "usd": 1.04535
           },
           "cache_read": null,
           "cache_write": null
@@ -7271,6 +7302,99 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "vertex/gemini-3.8-flash",
+      "name": "Gemini 3.8 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.5
+          },
+          "output": {
+            "usd": 7.5
+          },
+          "cache_read": {
+            "usd": 0.15
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "vertex/gemini-3.8-flash@eu",
+      "name": "Gemini 3.8 Flash (EU)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.5
+          },
+          "output": {
+            "usd": 7.5
+          },
+          "cache_read": {
+            "usd": 0.15
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
+    },
+    {
+      "id": "vertex/gemini-3.8-flash@us",
+      "name": "Gemini 3.8 Flash (US)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.5
+          },
+          "output": {
+            "usd": 7.5
+          },
+          "cache_read": {
+            "usd": 0.15
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "vertex/gemini-flash-latest",

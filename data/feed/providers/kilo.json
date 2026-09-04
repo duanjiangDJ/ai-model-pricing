@@ -7,8 +7,8 @@
   "homepage": "https://kilo.ai",
   "pricing_page": "https://kilo.ai",
   "currency": "USD",
-  "updated_at": "2026-09-03T00:20:55Z",
-  "verified_at": "2026-09-03T00:20:55Z",
+  "updated_at": "2026-09-04T00:22:51Z",
+  "verified_at": "2026-09-04T00:22:51Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1449,10 +1449,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.2574
+            "usd": 0.32
           },
           "output": {
-            "usd": 1.0287
+            "usd": 0.89
           },
           "cache_read": null,
           "cache_write": null
@@ -2951,13 +2951,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.1
+            "usd": 0.06
           },
           "output": {
-            "usd": 0.15
+            "usd": 0.25
           },
           "cache_read": {
-            "usd": 0.05
+            "usd": 0.015
           },
           "cache_write": null
         },
@@ -3125,6 +3125,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "inclusionai/ling-3.0-flash-fin",
+      "name": "Ling 3.0 Flash Fin",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 235929,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.06
+          },
+          "output": {
+            "usd": 0.18
+          },
+          "cache_read": {
+            "usd": 0.012
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "inclusionai/ling-3.0-flash-fin:free",
@@ -5485,7 +5516,7 @@
             "usd": 0.2
           },
           "cache_read": {
-            "usd": 0.025
+            "usd": 0.03
           },
           "cache_write": null
         },
@@ -8217,10 +8248,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.25
+            "usd": 0.8
           },
           "output": {
-            "usd": 0.75
+            "usd": 1
           },
           "cache_read": {
             "usd": 0.4
@@ -11150,13 +11181,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.43
+            "usd": 0.55
           },
           "output": {
-            "usd": 1.75
+            "usd": 2.2
           },
           "cache_read": {
-            "usd": 0.08
+            "usd": 0.11
           },
           "cache_write": null
         },
@@ -11726,13 +11757,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2.55
+            "usd": 2.5
           },
           "output": {
-            "usd": 12.75
+            "usd": 14
           },
           "cache_read": {
-            "usd": 0.256
+            "usd": 0.29
           },
           "cache_write": null
         },

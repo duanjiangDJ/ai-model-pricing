@@ -7,8 +7,8 @@
   "homepage": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
   "pricing_page": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
   "currency": "USD",
-  "updated_at": "2026-09-03T00:20:55Z",
-  "verified_at": "2026-09-03T00:20:55Z",
+  "updated_at": "2026-09-04T00:22:51Z",
+  "verified_at": "2026-09-04T00:22:51Z",
   "models": [
     {
       "id": "alibaba/qwen-3-14b",
@@ -11024,13 +11024,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.4
+            "usd": 0.7
           },
           "output": {
-            "usd": 4.4
+            "usd": 2.2
           },
           "cache_read": {
-            "usd": 0.14
+            "usd": 0.13
           },
           "cache_write": null
         },
@@ -11043,6 +11043,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "zai/glm-5.3-fast",
+      "name": "GLM 5.3 Fast",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 262144,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.1
+          },
+          "output": {
+            "usd": 6.6
+          },
+          "cache_read": {
+            "usd": 0.21
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "zai/glm-5.3-flash",

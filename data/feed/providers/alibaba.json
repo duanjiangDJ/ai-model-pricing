@@ -7,8 +7,8 @@
   "homepage": "https://www.alibabacloud.com/help/en/model-studio/models",
   "pricing_page": "https://www.alibabacloud.com/help/en/model-studio/models",
   "currency": "USD",
-  "updated_at": "2026-09-03T00:20:56Z",
-  "verified_at": "2026-09-03T00:20:56Z",
+  "updated_at": "2026-09-04T00:22:52Z",
+  "verified_at": "2026-09-04T00:22:52Z",
   "models": [
     {
       "id": "deepseek-v4-flash-0731",
@@ -426,7 +426,7 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.07
+            "usd": 0.72
           },
           "output": {
             "usd": 0.16
@@ -1059,7 +1059,7 @@
             "usd": 0.15
           },
           "output": {
-            "usd": 1.2
+            "usd": 6
           },
           "cache_read": null,
           "cache_write": null

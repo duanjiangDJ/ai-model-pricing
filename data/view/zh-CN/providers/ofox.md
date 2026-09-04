@@ -6,14 +6,15 @@
 - 官网: https://ofox.ai/docs
 - 定价页: https://ofox.ai/docs
 - 币种: USD
-- 数据更新时间: 2026-09-03T00:20:55Z
-- 核实时间: 2026-09-03T00:20:55Z
+- 数据更新时间: 2026-09-04T00:22:51Z
+- 核实时间: 2026-09-04T00:22:51Z
 
-共 **112** 个模型。
+共 **114** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `anthropic/claude-fable-5` | — | reasoning | 按量 | 1M | $10 | $50 | $1 | — | —/— | — | models.dev official list price |
+| `anthropic/claude-fable-5.1` | — | reasoning | 按量 | 1M | $10 | $50 | $0.25 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-haiku-4.5` | — | reasoning | 按量 | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-opus-4.5` | — | reasoning | 按量 | 200K | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-opus-4.6` | — | reasoning | 按量 | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
@@ -46,6 +47,7 @@
 | `bailian/qwen3.7-plus` | — | reasoning | 按量 | 1M | $0.4 | $1.6 | $0.08 | — | —/— | — | models.dev official list price |
 | `bailian/qwen3.8-27b` | — | reasoning | 按量 | 1.13107M | $0.45 | $3.2 | $0.05 | — | —/— | — | models.dev official list price |
 | `bailian/qwen3.8-max` | — | reasoning | 按量 | 1M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
+| `bailian/qwen3.8-max-0902` | — | reasoning | 按量 | 1M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v3.2` | — | reasoning | 按量 | 128K | $0.29 | $0.43 | $0.06 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash` | — | reasoning | 按量 | 1M | $0.44 | $1.32 | $0.014 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | 按量 | 1M | $0.44 | $1.32 | $0.014 | — | —/— | — | models.dev official list price |

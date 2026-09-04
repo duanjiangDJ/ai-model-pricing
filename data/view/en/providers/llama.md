@@ -6,8 +6,8 @@
 - Homepage: https://llama.developer.meta.com/docs/models
 - Pricing page: https://llama.developer.meta.com/docs/models
 - Currency: USD
-- Data updated: 2026-09-03T00:20:55Z
-- Verified: 2026-09-03T00:20:55Z
+- Data updated: 2026-09-04T00:22:51Z
+- Verified: 2026-09-04T00:22:51Z
 
 **7** models in total.
 
