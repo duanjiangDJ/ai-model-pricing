@@ -227,12 +227,13 @@ def main():
             summary["network_ok"] = False
             print(f"WARN openrouter fetch failed: {e}")
 
-        try:
-            summary["modelsdev"] = sync_modelsdev_diff(now)
-        except Exception as e:  # noqa: BLE001
-            summary["network_ok"] = False
-            print(f"WARN models.dev fetch failed: {e}")
         refresh_index_counts(now)
+
+        # Unified data-fetch layer (collect/router.py + price_check) is now PRIMARY: it collects
+        # the full provider set (official + aggregation peers) in tiers order and persists via
+        # update_model_prices (changelog + bidirectional surge guard). The old models.dev diff is
+        # superseded by collect_modelsdev; openrouter diff (anomaly guard) and run_router
+        # (manifest per-provider status) are retained as specialist guards.
 
         # Unified data-fetch layer (collect/router.py + price_check): run the new collection
         # router in tiers order and persist. Idempotent (update_model_prices only writes changes),
