@@ -8,8 +8,8 @@
   "pricing_page": "https://openrouter.ai/models",
   "api_base_url": "https://openrouter.ai/api/v1",
   "currency": "USD",
-  "updated_at": "2026-09-04T18:25:01Z",
-  "verified_at": "2026-09-04T18:25:01Z",
+  "updated_at": "2026-09-04T21:25:03Z",
+  "verified_at": "2026-09-04T21:25:03Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -2029,13 +2029,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.001892
+            "usd": 0.981708
           },
           "output": {
-            "usd": 2.003784
+            "usd": 1.963416
           },
           "cache_read": {
-            "usd": 0.083491
+            "usd": 0.081809
           },
           "cache_write": null
         },
@@ -3683,7 +3683,7 @@
     },
     {
       "id": "inclusionai/ling-3.0-flash",
-      "name": "Ling-3.0-flash",
+      "name": "inclusionAI: Ling 3.0 Flash",
       "category": "reasoning",
       "modalities": [
         "text"
@@ -3713,7 +3713,7 @@
     },
     {
       "id": "inclusionai/ling-3.0-flash-fin",
-      "name": "Ling 3.0 Flash Fin",
+      "name": "inclusionAI: Ling 3.0 Flash Fin",
       "category": "reasoning",
       "modalities": [
         "text"
@@ -3743,7 +3743,35 @@
     },
     {
       "id": "inclusionai/ling-3.0-flash-fin:free",
-      "name": "Ling 3.0 Flash Fin (free)",
+      "name": "inclusionAI: Ling 3.0 Flash Fin (free)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": null,
+      "billing_model": [
+        "free"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.0
+          },
+          "output": {
+            "usd": 0.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+    },
+    {
+      "id": "inclusionai/ling-3.0-flash-sante:free",
+      "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
       "category": "reasoning",
       "modalities": [
         "text"
@@ -8255,6 +8283,105 @@
             "usd": 0.0625
           },
           "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "openai/gpt-6-astra",
+      "name": "OpenAI: GPT-6 Astra",
+      "category": "reasoning",
+      "modalities": [
+        "image_in",
+        "text"
+      ],
+      "context_window": 1050000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 10.0
+          },
+          "output": {
+            "usd": 50.0
+          },
+          "cache_read": {
+            "usd": 1.0
+          },
+          "cache_write": {
+            "usd": 12.5
+          }
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "openai/gpt-6-astra-pro",
+      "name": "OpenAI: GPT-6 Astra Pro",
+      "category": "reasoning",
+      "modalities": [
+        "image_in",
+        "text"
+      ],
+      "context_window": 1050000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 10.0
+          },
+          "output": {
+            "usd": 50.0
+          },
+          "cache_read": {
+            "usd": 1.0
+          },
+          "cache_write": {
+            "usd": 12.5
+          }
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "openai/gpt-6-astra:batch",
+      "name": "OpenAI: GPT-6 Astra (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "image_in",
+        "text"
+      ],
+      "context_window": 1050000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 5.0
+          },
+          "output": {
+            "usd": 25.0
+          },
+          "cache_read": {
+            "usd": 0.5
+          },
+          "cache_write": {
+            "usd": 6.25
+          }
         },
         "per_image": null,
         "promo": null

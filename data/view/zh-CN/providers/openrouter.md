@@ -6,10 +6,10 @@
 - 官网: https://openrouter.ai
 - 定价页: https://openrouter.ai/models
 - 币种: USD
-- 数据更新时间: 2026-09-04T18:25:01Z
-- 核实时间: 2026-09-04T18:25:01Z
+- 数据更新时间: 2026-09-04T21:25:03Z
+- 核实时间: 2026-09-04T21:25:03Z
 
-共 **426** 个模型。
+共 **430** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -78,7 +78,7 @@
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | 按量 | 1.31072M | $0.065 | $0.18 | $0.016 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731:batch` | — | reasoning | 按量 | 1.04858M | $0.14 | $0.28 | $0.03 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 按量 | 1.04858M | $0.22 | $0.66 | $0.007 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-pro` | — | reasoning | 按量 | 1.04858M | $1.00189 | $2.00378 | $0.083491 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-pro` | — | reasoning | 按量 | 1.04858M | $0.981708 | $1.96342 | $0.081809 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | 按量 | 1.04858M | $0.57948 | $1.73844 | $0.019316 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813:batch` | — | reasoning | 按量 | 1.04858M | $1.32 | $3.96 | $0.13 | — | —/— | — | OpenRouter reseller price |
 | `dots-studio/dots-3-note-preview:free` | — | reasoning | 免费 | 512K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
@@ -133,6 +133,7 @@
 | `inclusionai/ling-3.0-flash` | — | reasoning | 按量 | 262.144K | $0.021 | $0.063 | $0.0042 | — | —/— | — | OpenRouter reseller price |
 | `inclusionai/ling-3.0-flash-fin` | — | reasoning | 按量 | 262.144K | $0.06 | $0.18 | $0.012 | — | —/— | — | OpenRouter reseller price |
 | `inclusionai/ling-3.0-flash-fin:free` | — | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
+| `inclusionai/ling-3.0-flash-sante:free` | — | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `kwaipilot/kat-coder-pro-v2` | — | chat | 按量 | 262.144K | $0.3 | $1.2 | $0.06 | — | —/— | — | OpenRouter reseller price |
 | `kwaipilot/kat-coder-pro-v2.5` | — | chat | 按量 | 262.144K | $0.74 | $2.96 | $0.15 | — | —/— | — | OpenRouter reseller price |
 | `liquid/lfm-2.5-2.6b:free` | — | reasoning | 免费 | 65.536K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
@@ -282,6 +283,9 @@
 | `openai/gpt-5.6-terra-pro:batch` | — | reasoning | 按量 | 1.05M | $1 | $6 | $0.1 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.6-terra:batch` | — | reasoning | 按量 | 1.05M | $1 | $6 | $0.1 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5:batch` | — | reasoning | 按量 | 400K | $0.625 | $5 | $0.0625 | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-6-astra` | — | reasoning | 按量 | 1.05M | $10 | $50 | $1 | $12.5 | —/— | — | OpenRouter reseller price |
+| `openai/gpt-6-astra-pro` | — | reasoning | 按量 | 1.05M | $10 | $50 | $1 | $12.5 | —/— | — | OpenRouter reseller price |
+| `openai/gpt-6-astra:batch` | — | reasoning | 按量 | 1.05M | $5 | $25 | $0.5 | $6.25 | —/— | — | OpenRouter reseller price |
 | `openai/gpt-audio` | — | chat | 按量 | 128K | $2.5 | $10 | — | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-audio-mini` | — | chat | 按量 | 128K | $0.6 | $2.4 | — | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-chat-latest` | — | chat | 按量 | 400K | $5 | $30 | $0.5 | — | —/— | — | OpenRouter reseller price |
