@@ -18,6 +18,8 @@ import sys
 from datetime import datetime, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from collect.price_check import run as run_price_check  # unified data-fetch (router -> persist)
+
 from common import (  # noqa: E402
     FEED, META, PROVIDERS, ROOT, append_changelog, fetch_json, load_changelog,
     load_index, load_manifest, now_iso, price_of, read_json, save_index, save_manifest,
@@ -231,6 +233,15 @@ def main():
             summary["network_ok"] = False
             print(f"WARN models.dev fetch failed: {e}")
         refresh_index_counts(now)
+
+        # Unified data-fetch layer (collect/router.py + price_check): run the new collection
+        # router in tiers order and persist. Idempotent (update_model_prices only writes changes),
+        # and gives the 3h flow the full provider set (official + aggregation) as peers.
+        try:
+            summary["router_pc"] = run_price_check(dry_run=False)
+        except Exception as e:  # noqa: BLE001
+            summary["router_pc"] = False
+            print(f"WARN price_check (unified router) failed: {e}")
 
         # Official pricing pages via the core check router (checks/ per provider).
         # Failures are isolated per provider and recorded in manifest, not fatal.
