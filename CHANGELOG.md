@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.66.32 — 2026-09-04T18:45Z (content update)
+
+- price sync (6 changes):
+- **openrouter** (-1): `ibm-granite/granite-4.1-8b`
+- **openrouter** (updated 5): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `qwen/qwen3.5-35b-a3b`, `qwen/qwen3.6-27b`, `tencent/hy3`
+
 ## 26.65.32 — 2026-09-04T15:44Z (content update)
 
 - price sync (4 changes):

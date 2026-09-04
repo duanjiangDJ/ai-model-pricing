@@ -8,8 +8,8 @@
   "pricing_page": "https://openrouter.ai/models",
   "api_base_url": "https://openrouter.ai/api/v1",
   "currency": "USD",
-  "updated_at": "2026-09-04T15:24:20Z",
-  "verified_at": "2026-09-04T15:24:20Z",
+  "updated_at": "2026-09-04T18:25:01Z",
+  "verified_at": "2026-09-04T18:25:01Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1908,13 +1908,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.08806
+            "usd": 0.08778
           },
           "output": {
-            "usd": 0.17612
+            "usd": 0.17556
           },
           "cache_read": {
-            "usd": 0.017612
+            "usd": 0.017556
           },
           "cache_write": null
         },
@@ -2029,13 +2029,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.02225
+            "usd": 1.001892
           },
           "output": {
-            "usd": 2.0445
+            "usd": 2.003784
           },
           "cache_read": {
-            "usd": 0.0851875
+            "usd": 0.083491
           },
           "cache_write": null
         },
@@ -3584,36 +3584,6 @@
             "usd": 0.112
           },
           "cache_read": null,
-          "cache_write": null
-        },
-        "per_image": null,
-        "promo": null
-      },
-      "notes": "OpenRouter reseller price"
-    },
-    {
-      "id": "ibm-granite/granite-4.1-8b",
-      "name": "IBM: Granite 4.1 8B",
-      "category": "chat",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 131072,
-      "max_output": null,
-      "billing_model": [
-        "pay_per_token"
-      ],
-      "pricing": {
-        "per_mtok": {
-          "input": {
-            "usd": 0.05
-          },
-          "output": {
-            "usd": 0.1
-          },
-          "cache_read": {
-            "usd": 0.05
-          },
           "cache_write": null
         },
         "per_image": null,
@@ -10284,14 +10254,12 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.25
+            "usd": 0.08
           },
           "output": {
-            "usd": 1.25
+            "usd": 0.75
           },
-          "cache_read": {
-            "usd": 0.25
-          },
+          "cache_read": null,
           "cache_write": null
         },
         "per_image": null,
@@ -10500,13 +10468,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.6
+            "usd": 0.3
           },
           "output": {
-            "usd": 3.6
+            "usd": 2.0
           },
           "cache_read": {
-            "usd": 0.12
+            "usd": 0.03
           },
           "cache_write": null
         },
@@ -11347,13 +11315,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.132
+            "usd": 0.0825
           },
           "output": {
-            "usd": 0.528
+            "usd": 0.33
           },
           "cache_read": {
-            "usd": 0.033
+            "usd": 0.020625
           },
           "cache_write": null
         },

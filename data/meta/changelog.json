@@ -1,6 +1,219 @@
 {
-  "schema_version": "26.65.32",
+  "schema_version": "26.66.32",
   "entries": [
+    {
+      "date": "2026-09-04T18:25:01Z",
+      "kind": "remove",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "ibm-granite/granite-4.1-8b",
+      "field": "catalog",
+      "old": "ibm-granite/granite-4.1-8b",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-04T18:25:01Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-flash",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08806
+          },
+          "output": {
+            "usd": 0.17612
+          },
+          "cache_read": {
+            "usd": 0.017612
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08778
+          },
+          "output": {
+            "usd": 0.17556
+          },
+          "cache_read": {
+            "usd": 0.017556
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-04T18:25:01Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-pro",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.02225
+          },
+          "output": {
+            "usd": 2.0445
+          },
+          "cache_read": {
+            "usd": 0.0851875
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.001892
+          },
+          "output": {
+            "usd": 2.003784
+          },
+          "cache_read": {
+            "usd": 0.083491
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-04T18:25:01Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "qwen/qwen3.5-35b-a3b",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.25
+          },
+          "output": {
+            "usd": 1.25
+          },
+          "cache_read": {
+            "usd": 0.25
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08
+          },
+          "output": {
+            "usd": 0.75
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-04T18:25:01Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "qwen/qwen3.6-27b",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.6
+          },
+          "output": {
+            "usd": 3.6
+          },
+          "cache_read": {
+            "usd": 0.12
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.3
+          },
+          "output": {
+            "usd": 2.0
+          },
+          "cache_read": {
+            "usd": 0.03
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-04T18:25:01Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "tencent/hy3",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.132
+          },
+          "output": {
+            "usd": 0.528
+          },
+          "cache_read": {
+            "usd": 0.033
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.0825
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.020625
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-04T15:24:20Z",
       "kind": "update",
