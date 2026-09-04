@@ -123,8 +123,8 @@ def table_block(lang):
     for t in sorted(groups):
         lines.append(f"### {names[t]}")
         lines.append("")
-        lines.append("| Provider | Name | Models | API base URL | Check script | Status |")
-        lines.append("|---|---|---|---|---|---|")
+        lines.append("| Provider | Name | Models | API base URL | Check script | Status | Official 1st-party |")
+        lines.append("|---|---|---|---|---|---|---|")
         for p in sorted(groups[t], key=lambda x: x["provider_id"]):
             api = p.get("api_base_url") or "—"
             if api and len(api) > 40:
@@ -132,13 +132,18 @@ def table_block(lang):
             ck = check_for(p["provider_id"])
             if ck:
                 st = "🟢 automated"
+                # daily-check.yml only syncs aggregation sources (OpenRouter/models.dev); the
+                # official check (router.py / tierN_*) is NOT auto-run by daily-check, so a new
+                # first-party model (e.g. gpt-6-astra) is only added manually / by the review agent.
+                off = "⚠️ manual (daily-check does NOT auto-run official source)"
             else:
                 st = "🟡 manual"
-            lines.append(f"| `{p['provider_id']}` | {p.get('name') or '—'} | {len(p.get('models', []))} | `{api}` | `{ck or '—'}` | {st} |")
+                off = "— (aggregation only)"
+            lines.append(f"| `{p['provider_id']}` | {p.get('name') or '—'} | {len(p.get('models', []))} | `{api}` | `{ck or '—'}` | {st} | {off} |")
         # pending vendors that belong to this tier (not in DB yet)
         pend = [(pid, info) for pid, info in sorted(PENDING.items()) if info[2] == t]
         for pid, (name, api, _t) in pend:
-            lines.append(f"| `{pid}` | {name} | — | `{api}` | `—` | ⚪ pending |")
+            lines.append(f"| `{pid}` | {name} | — | `{api}` | `—` | ⚪ pending | — |")
         lines.append("")
 
     # legend
