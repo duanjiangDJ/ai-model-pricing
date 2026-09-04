@@ -3,7 +3,7 @@ import os, sys
 _THIS = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, _THIS)
 sys.path.insert(0, os.path.abspath(os.path.join(_THIS, "..")))
-from collect.base import js_fetch, write_prices  # noqa: E402
+from collect.utils import js_fetch, write_prices  # noqa: E402
 from checks.tier1_stepfun import parse_stepfun  # noqa: E402
 
 URL = "https://platform.stepfun.com/docs/zh/guides/pricing/details"

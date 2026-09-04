@@ -3,7 +3,7 @@ import os, sys
 _THIS = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, _THIS)
 sys.path.insert(0, os.path.abspath(os.path.join(_THIS, "..")))
-from collect.base import fetch_markdown, write_prices  # noqa: E402
+from collect.utils import fetch_markdown, write_prices  # noqa: E402
 from checks.tier0_zai import parse  # noqa: E402
 
 URL = "https://docs.z.ai/guides/overview/pricing.md"
