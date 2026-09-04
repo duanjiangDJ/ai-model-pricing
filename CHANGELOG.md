@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.63.32 — 2026-09-04T10:34Z (feature update)
+
+- fix(ci): only bump version on real pricing-data changes (exclude manifest/timestamp)
+
 ## 26.63.31 — 2026-09-04T09:42Z (content update)
 
 - No data changes this run.
