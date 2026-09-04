@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.62.29 — 2026-09-04T07:14Z (content update)
+
+- refactor(data-fetch): add aggregation-source collectors (openrouter/models.dev) as peer providers
+
 ## 26.61.29 — 2026-09-04T07:10Z (content update)
 
 - refactor(data-fetch): migrate all collectors to structured-return (utils.make_result)

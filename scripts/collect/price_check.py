@@ -24,6 +24,15 @@ def run(provider_filter=None, dry_run=False):
     summary = {}
     for pid, res in sorted(results.items()):
         parsed = res.get("parsed") or {}
+        # cross-provider collectors (e.g. models.dev) return parsed = {sub_pid: {model_id: per_mtok}}
+        if res.get("cross_provider"):
+            sub_changed = 0
+            for spid, models in parsed.items():
+                ch = write_prices(spid, models, res.get("source", ""), None) if not dry_run else len(models)
+                sub_changed += ch
+            summary[pid] = {"status": "ok", "cross_provider": True,
+                            "providers": len(parsed), "changed": sub_changed}
+            continue
         if res.get("status") != "ok" or not parsed:
             summary[pid] = {"status": res.get("status"), "parsed": 0, "changed": 0}
             continue
