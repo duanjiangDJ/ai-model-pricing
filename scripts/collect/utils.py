@@ -57,3 +57,20 @@ def load_collector(provider_id):
         return importlib.import_module(f"collect.{name}")
     except Exception:  # noqa: BLE001
         return None
+
+
+def make_result(provider_id, source, updates, status=None):
+    """Build a structured collector result from {model_id: {per_mtok, notes}} (no DB write).
+
+    Returns the contract shape the router collects and price_check persists:
+      {"provider_id", "source", "status", "parsed": {model_id: {per_mtok, notes}}, "errors"}
+    """
+    updates = updates or {}
+    return {
+        "provider_id": provider_id,
+        "source": source,
+        "status": status or ("ok" if updates else "no_source"),
+        "parsed": {mid: {"per_mtok": info.get("per_mtok"), "notes": info.get("notes")}
+                   for mid, info in updates.items()},
+        "errors": [],
+    }
