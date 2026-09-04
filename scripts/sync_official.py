@@ -22,8 +22,13 @@ from common import (  # noqa: E402
 
 UA = "ai-model-pricing-official-sync/1.0 (+https://github.com/duanjiangDJ/ai-model-pricing)"
 
-# A price change of more than 5x relative to the stored value is treated as a likely
-# parsing/layout error: the field is skipped with a warning instead of being written.
+# A price change of more than SURGE_FACTORx (or less than 1/SURGE_FACTORx) relative to
+# the stored value is treated as a likely parse/unit error: the field is skipped with a
+# warning instead of being written. The guard is BIDIRECTIONAL (judge by the nv/ov ratio,
+# not a one-sided abs-diff) so an abnormal DOWNWARD jump (shrink) is caught too — a
+# one-sided abs(nv-ov)/ov > SURGE_FACTOR can never fire on a value that only gets smaller
+# (its ratio <= 1), which is how a unit/scale bug (e.g. per-token-as-per-M, or a wrong
+# cache_read like deepseek-v4-pro 0.044 stored as 0.003625) slips in and then freezes.
 SURGE_FACTOR = 5.0
 
 
@@ -302,9 +307,11 @@ def apply_to_provider(provider_id, parsed, source_url, now, dry_run, parsed_ok=T
                 ov = cur_old.get(currency)
                 if ov == nv:
                     continue
-                if ov and nv and abs(nv - ov) / max(abs(ov), 1e-9) > SURGE_FACTOR:
-                    print(f"  SKIP {mid}.{k}.{currency}: {ov} -> {nv} looks like a parsing error (>{SURGE_FACTOR}x surge); keeping old value")
-                    continue
+                if ov and nv:
+                    _ratio = nv / ov
+                    if _ratio > SURGE_FACTOR or _ratio < (1.0 / SURGE_FACTOR):
+                        print(f"  SKIP {mid}.{k}.{currency}: {ov} -> {nv} looks like a parsing error (bidirectional {SURGE_FACTOR}x surge); keeping old value")
+                        continue
                 diffs.append(f"{k}.{currency}: {ov} -> {nv}")
                 if not dry_run:
                     cur_old[currency] = nv
