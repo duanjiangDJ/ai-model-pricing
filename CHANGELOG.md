@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.61.29 — 2026-09-04T07:10Z (content update)
+
+- refactor(data-fetch): migrate all collectors to structured-return (utils.make_result)
+
 ## 26.60.29 — 2026-09-04T07:01Z (content update)
 
 - chore(meta): backfill version for data-fetch skeleton stage 1 (merged w/o bump)

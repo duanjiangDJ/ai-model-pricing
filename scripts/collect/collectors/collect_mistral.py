@@ -3,7 +3,7 @@ import os, sys
 _THIS = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, _THIS)
 sys.path.insert(0, os.path.abspath(os.path.join(_THIS, "..","..")))
-from ..utils import fetch_markdown, write_prices  # noqa: E402
+from ..utils import make_result,fetch_markdown, write_prices  # noqa: E402
 from checks.tier0_mistral import parse  # noqa: E402
 
 URL = "https://mistral.ai/pricing/api"
@@ -15,8 +15,8 @@ def collect(ctx):
     text = fetch_markdown(URL)
     updates = parse(text)
     n = len(updates)
-    changed = write_prices(PROVIDER_ID, updates, "tier0_mistral:source", now)
-    return {"changed": changed, "status": "ok", "detail": f"parsed {n} models, {changed} changed"}
+    return make_result(PROVIDER_ID, "tier0_mistral:source", updates)
+    # (return moved to make_result): changed, "status": "ok", "detail": f"parsed {n} models, {changed} changed"}
 
 
 if __name__ == "__main__":
