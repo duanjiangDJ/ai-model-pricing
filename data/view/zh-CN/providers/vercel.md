@@ -6,10 +6,10 @@
 - 官网: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - 定价页: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - 币种: USD
-- 数据更新时间: 2026-09-03T00:20:55Z
-- 核实时间: 2026-09-03T00:20:55Z
+- 数据更新时间: 2026-09-04T00:22:51Z
+- 核实时间: 2026-09-04T00:22:51Z
 
-共 **374** 个模型。
+共 **375** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -383,7 +383,8 @@
 | `zai/glm-5.1` | — | reasoning | 按量 | 202.8K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `zai/glm-5.2` | — | reasoning | 按量 | 1M | $0.8 | $2.55 | $0.16 | — | —/— | — | models.dev official list price |
 | `zai/glm-5.2-fast` | — | reasoning | 按量 | 1M | $2.1 | $6.6 | $0.21 | — | —/— | — | models.dev official list price |
-| `zai/glm-5.3` | — | reasoning | 按量 | 1M | $1.4 | $4.4 | $0.14 | — | —/— | — | models.dev official list price |
+| `zai/glm-5.3` | — | reasoning | 按量 | 1M | $0.7 | $2.2 | $0.13 | — | —/— | — | models.dev official list price |
+| `zai/glm-5.3-fast` | — | reasoning | 按量 | 1.04858M | $2.1 | $6.6 | $0.21 | — | —/— | — | models.dev official list price |
 | `zai/glm-5.3-flash` | — | reasoning | 按量 | 1M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `zai/glm-5.3-promo-50` | — | reasoning | 按量 | 1.04858M | $0.7 | $2.2 | $0.13 | — | —/— | — | models.dev official list price |
 | `zai/glm-5v-turbo` | — | reasoning | 按量 | 200K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |

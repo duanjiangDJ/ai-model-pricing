@@ -6,13 +6,14 @@
 - Homepage: https://llmgateway.io/docs
 - Pricing page: https://llmgateway.io/docs
 - Currency: USD
-- Data updated: 2026-09-03T00:20:55Z
-- Verified: 2026-09-03T00:20:55Z
+- Data updated: 2026-09-04T00:22:51Z
+- Verified: 2026-09-04T00:22:51Z
 
-**562** models in total.
+**565** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| `Qwen3.8-27B` | — | reasoning | per-token | 32.768K | $0.41 | $2.5 | $0.08 | — | —/— | — | models.dev official list price |
 | `alibaba/deepseek-v4-flash` | — | reasoning | per-token | 1M | $0.2 | $0.4 | $0.04 | — | —/— | — | models.dev official list price |
 | `alibaba/deepseek-v4-pro` | — | reasoning | per-token | 1M | $2.4 | $4.8 | $0.2 | — | —/— | — | models.dev official list price |
 | `alibaba/glm-5` | — | reasoning | per-token | 202.752K | $0.573 | $2.58 | — | — | —/— | — | models.dev official list price |
@@ -355,6 +356,8 @@
 | `moonshot/kimi-k3` | — | reasoning | per-token | 1.04858M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `muse-spark-1.1` | — | reasoning | per-token | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
 | `muse-spark-1.2` | — | reasoning | per-token | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
+| `muse-spark-1.3` | — | reasoning | per-token | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
+| `muse-spark-1.3-contributor` | — | reasoning | per-token | 1.04858M | $0.1 | $0.2 | $0.002 | — | —/— | — | models.dev official list price |
 | `nebius/cosmos3-super-reasoner` | — | reasoning | per-token | 262.144K | $0.1 | $0.3 | — | — | —/— | — | models.dev official list price |
 | `nebius/deepseek-v4-pro` | — | reasoning | per-token | 1.04858M | $1.75 | $3.5 | — | — | —/— | — | models.dev official list price |
 | `nebius/gemma-3-27b` | — | chat | per-token | 110K | $0.1 | $0.3 | — | — | —/— | — | models.dev official list price |

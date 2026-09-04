@@ -8,8 +8,8 @@
   "pricing_page": "https://openrouter.ai/models",
   "api_base_url": "https://openrouter.ai/api/v1",
   "currency": "USD",
-  "updated_at": "2026-09-03T21:22:45Z",
-  "verified_at": "2026-09-03T21:22:45Z",
+  "updated_at": "2026-09-04T00:22:51Z",
+  "verified_at": "2026-09-04T00:22:51Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1908,13 +1908,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.07784
+            "usd": 0.088606
           },
           "output": {
-            "usd": 0.15568
+            "usd": 0.177212
           },
           "cache_read": {
-            "usd": 0.015568
+            "usd": 0.0177212
           },
           "cache_write": null
         },
@@ -2029,13 +2029,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.02747
+            "usd": 1.04226
           },
           "output": {
-            "usd": 2.05494
+            "usd": 2.08452
           },
           "cache_read": {
-            "usd": 0.0856225
+            "usd": 0.086855
           },
           "cache_write": null
         },
@@ -5096,7 +5096,7 @@
         "text",
         "image_in"
       ],
-      "context_window": 262144,
+      "context_window": 32768,
       "max_output": null,
       "billing_model": [
         "pay_per_token"
@@ -5989,13 +5989,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.6
+            "usd": 0.625
           },
           "output": {
-            "usd": 2.4
+            "usd": 3.125
           },
           "cache_read": {
-            "usd": 0.12
+            "usd": 0.1875
           },
           "cache_write": null
         },
@@ -6031,6 +6031,35 @@
         "promo": null
       },
       "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+    },
+    {
+      "id": "nvidia/nemotron-3.5-content-safety",
+      "name": "NVIDIA: Nemotron 3.5 Content Safety",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 131072,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.2
+          },
+          "output": {
+            "usd": 0.2
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
     },
     {
       "id": "nvidia/nemotron-3.5-content-safety:free",
@@ -11318,13 +11347,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.0825
+            "usd": 0.132
           },
           "output": {
-            "usd": 0.33
+            "usd": 0.528
           },
           "cache_read": {
-            "usd": 0.020625
+            "usd": 0.033
           },
           "cache_write": null
         },
@@ -11684,7 +11713,7 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.45
+            "usd": 0.35
           },
           "output": {
             "usd": 0.65
@@ -12897,13 +12926,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.07125
+            "usd": 0.075
           },
           "output": {
-            "usd": 0.2375
+            "usd": 0.25
           },
           "cache_read": {
-            "usd": 0.01425
+            "usd": 0.015
           },
           "cache_write": null
         },
@@ -12927,13 +12956,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.148
+            "usd": 1.15
           },
           "output": {
-            "usd": 3.608
+            "usd": 3.5
           },
           "cache_read": {
-            "usd": 0.1886
+            "usd": 0.1
           },
           "cache_write": null
         },

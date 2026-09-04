@@ -6,8 +6,8 @@
 - Homepage: https://docs.nano-gpt.com
 - Pricing page: https://docs.nano-gpt.com
 - Currency: USD
-- Data updated: 2026-09-03T00:20:55Z
-- Verified: 2026-09-03T00:20:55Z
+- Data updated: 2026-09-04T00:22:51Z
+- Verified: 2026-09-04T00:22:51Z
 
 **693** models in total.
 
@@ -128,7 +128,7 @@
 | `anthracite-org/magnum-v4-72b` | — | chat | per-token | 16.384K | $2.006 | $2.992 | $1.003 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-fable-5` | — | reasoning | per-token | 1M | $10 | $50 | $1 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-fable-5.1` | — | reasoning | per-token | 1M | $10 | $50 | $0.25 | — | —/— | — | models.dev official list price |
-| `anthropic/claude-fable-latest` | — | reasoning | per-token | 1M | $10 | $50 | $1 | — | —/— | — | models.dev official list price |
+| `anthropic/claude-fable-latest` | — | reasoning | per-token | 1M | $10 | $50 | $0.25 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-haiku-latest` | — | reasoning | per-token | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-opus-4.6` | — | reasoning | per-token | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-opus-4.6:thinking` | — | reasoning | per-token | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |

@@ -6,10 +6,10 @@
 - 官网: https://deepinfra.com/models
 - 定价页: https://deepinfra.com/models
 - 币种: USD
-- 数据更新时间: 2026-09-03T00:20:55Z
-- 核实时间: 2026-09-03T00:20:55Z
+- 数据更新时间: 2026-09-04T00:22:51Z
+- 核实时间: 2026-09-04T00:22:51Z
 
-共 **62** 个模型。
+共 **63** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -46,6 +46,7 @@
 | `deepseek-ai/DeepSeek-V3.2` | — | reasoning | 按量 | 163.84K | $0.26 | $0.38 | $0.13 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Flash` | — | reasoning | 按量 | 1.04858M | $0.09 | $0.18 | $0.018 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Flash-0731` | — | reasoning | 按量 | 1.04858M | $0.08 | $0.18 | $0.016 | — | —/— | — | models.dev official list price |
+| `deepseek-ai/DeepSeek-V4-Flash-Vision-Exp` | — | reasoning | 按量 | 1.04858M | $0.44 | $1.32 | $0.14 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Pro` | — | reasoning | 按量 | 1.04858M | $1.3 | $2.6 | $0.1 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Pro-0813` | — | reasoning | 按量 | 1.04858M | $1.3 | $2.6 | $0.1 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-26B-A4B-it` | — | reasoning | 按量 | 262.144K | $0.07 | $0.34 | — | — | —/— | — | models.dev official list price |

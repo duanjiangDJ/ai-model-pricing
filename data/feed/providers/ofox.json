@@ -7,8 +7,8 @@
   "homepage": "https://ofox.ai/docs",
   "pricing_page": "https://ofox.ai/docs",
   "currency": "USD",
-  "updated_at": "2026-09-03T00:20:55Z",
-  "verified_at": "2026-09-03T00:20:55Z",
+  "updated_at": "2026-09-04T00:22:51Z",
+  "verified_at": "2026-09-04T00:22:51Z",
   "models": [
     {
       "id": "anthropic/claude-fable-5",
@@ -41,6 +41,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "anthropic/claude-fable-5.1",
+      "name": "Claude Fable 5.1",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 128000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 10
+          },
+          "output": {
+            "usd": 50
+          },
+          "cache_read": {
+            "usd": 0.25
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "anthropic/claude-haiku-4.5",
@@ -1061,6 +1092,37 @@
       "billing_model": [
         "pay_per_token"
       ]
+    },
+    {
+      "id": "bailian/qwen3.8-max-0902",
+      "name": "Qwen3.8 Max 0902",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1000000,
+      "max_output": 131072,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 2
+          },
+          "output": {
+            "usd": 6
+          },
+          "cache_read": {
+            "usd": 0.25
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "models.dev official list price"
     },
     {
       "id": "deepseek/deepseek-v3.2",

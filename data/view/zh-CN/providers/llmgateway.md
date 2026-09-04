@@ -6,13 +6,14 @@
 - 官网: https://llmgateway.io/docs
 - 定价页: https://llmgateway.io/docs
 - 币种: USD
-- 数据更新时间: 2026-09-03T00:20:55Z
-- 核实时间: 2026-09-03T00:20:55Z
+- 数据更新时间: 2026-09-04T00:22:51Z
+- 核实时间: 2026-09-04T00:22:51Z
 
-共 **562** 个模型。
+共 **565** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| `Qwen3.8-27B` | — | reasoning | 按量 | 32.768K | $0.41 | $2.5 | $0.08 | — | —/— | — | models.dev official list price |
 | `alibaba/deepseek-v4-flash` | — | reasoning | 按量 | 1M | $0.2 | $0.4 | $0.04 | — | —/— | — | models.dev official list price |
 | `alibaba/deepseek-v4-pro` | — | reasoning | 按量 | 1M | $2.4 | $4.8 | $0.2 | — | —/— | — | models.dev official list price |
 | `alibaba/glm-5` | — | reasoning | 按量 | 202.752K | $0.573 | $2.58 | — | — | —/— | — | models.dev official list price |
@@ -355,6 +356,8 @@
 | `moonshot/kimi-k3` | — | reasoning | 按量 | 1.04858M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `muse-spark-1.1` | — | reasoning | 按量 | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
 | `muse-spark-1.2` | — | reasoning | 按量 | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
+| `muse-spark-1.3` | — | reasoning | 按量 | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
+| `muse-spark-1.3-contributor` | — | reasoning | 按量 | 1.04858M | $0.1 | $0.2 | $0.002 | — | —/— | — | models.dev official list price |
 | `nebius/cosmos3-super-reasoner` | — | reasoning | 按量 | 262.144K | $0.1 | $0.3 | — | — | —/— | — | models.dev official list price |
 | `nebius/deepseek-v4-pro` | — | reasoning | 按量 | 1.04858M | $1.75 | $3.5 | — | — | —/— | — | models.dev official list price |
 | `nebius/gemma-3-27b` | — | chat | 按量 | 110K | $0.1 | $0.3 | — | — | —/— | — | models.dev official list price |

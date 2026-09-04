@@ -7,8 +7,8 @@
   "homepage": "https://docs.mixlayer.com",
   "pricing_page": "https://docs.mixlayer.com",
   "currency": "USD",
-  "updated_at": "2026-09-03T00:20:55Z",
-  "verified_at": "2026-09-03T00:20:55Z",
+  "updated_at": "2026-09-04T00:22:51Z",
+  "verified_at": "2026-09-04T00:22:51Z",
   "models": [
     {
       "id": "qwen/qwen3.5-122b-a10b",

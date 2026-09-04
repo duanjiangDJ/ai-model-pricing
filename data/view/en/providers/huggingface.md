@@ -6,10 +6,10 @@
 - Homepage: https://huggingface.co/docs/inference-providers
 - Pricing page: https://huggingface.co/docs/inference-providers
 - Currency: USD
-- Data updated: 2026-09-03T00:20:55Z
-- Verified: 2026-09-03T00:20:55Z
+- Data updated: 2026-09-04T00:22:51Z
+- Verified: 2026-09-04T00:22:51Z
 
-**72** models in total.
+**73** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -53,6 +53,7 @@
 | `deepseek-ai/DeepSeek-V3.2` | — | reasoning | per-token | 163.84K | $0.28 | $0.4 | — | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Flash` | — | reasoning | per-token | 1.04858M | $0.14 | $0.28 | — | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Flash-0731` | — | reasoning | per-token | 1.04858M | $0.14 | $0.28 | — | — | —/— | — | models.dev official list price |
+| `deepseek-ai/DeepSeek-V4-Flash-Vision-Exp` | — | reasoning | per-token | 1.04858M | $0.44 | $1.32 | — | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Pro` | — | reasoning | per-token | 1.04858M | $0.435 | $0.87 | $0.003625 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Pro-0813` | — | reasoning | per-token | 1M | $1.32 | $3.96 | — | — | —/— | — | models.dev official list price |
 | `google/gemma-4-26B-A4B-it` | — | reasoning | per-token | 262.144K | $0.13 | $0.4 | — | — | —/— | — | models.dev official list price |
