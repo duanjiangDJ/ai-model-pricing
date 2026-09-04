@@ -2,7 +2,7 @@ import os, re, glob
 
 TPL = '''"""Independent collector for {name} (official source)."""
 import os, sys
-_THIS = os.path.dirname(os.path.abspath(__file__))
+_THIS = os.path.join(os.path.dirname(os.path.abspath(__file__)),"collectors")
 sys.path.insert(0, _THIS)
 sys.path.insert(0, os.path.abspath(os.path.join(_THIS, "..")))
 from collect.utils import fetch_markdown, write_prices  # noqa: E402

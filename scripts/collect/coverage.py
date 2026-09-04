@@ -22,7 +22,7 @@ for line in txt.splitlines():
     m = re.match(r"\|\s*`([a-z0-9_.-]+)`\s*\|\s*([^|]+)\|\s*(\d+)\s*\|", line)
     if m:
         pid, name = m.group(1), m.group(2).strip()
-        collect = os.path.exists(os.path.join(c, f"collect_{pid}.py"))
+        collect = os.path.exists(os.path.join(c, "collectors", f"collect_{pid}.py"))
         rows.append((tier, pid, name, collect))
 
 print(f"providers.md total: {len(rows)}")

@@ -1,13 +1,13 @@
-"""Independent collector for alibaba (official source)."""
+"""Independent collector for meta (official source)."""
 import os, sys
 _THIS = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, _THIS)
-sys.path.insert(0, os.path.abspath(os.path.join(_THIS, "..")))
-from collect.utils import fetch_markdown, write_prices  # noqa: E402
-from checks.tier0_alibaba import parse  # noqa: E402
+sys.path.insert(0, os.path.abspath(os.path.join(_THIS, "..","..")))
+from ..utils import fetch_markdown, write_prices  # noqa: E402
+from checks.tier0_meta import parse  # noqa: E402
 
-URL = "https://www.alibabacloud.com/help/en/model-studio/billing"
-PROVIDER_ID = "alibaba"
+URL = "https://dev.meta.ai/docs"
+PROVIDER_ID = "meta"
 
 
 def collect(ctx):
@@ -15,7 +15,7 @@ def collect(ctx):
     text = fetch_markdown(URL)
     updates = parse(text)
     n = len(updates)
-    changed = write_prices(PROVIDER_ID, updates, "tier0_alibaba:source", now)
+    changed = write_prices(PROVIDER_ID, updates, "tier0_meta:source", now)
     return {"changed": changed, "status": "ok", "detail": f"parsed {n} models, {changed} changed"}
 
 
