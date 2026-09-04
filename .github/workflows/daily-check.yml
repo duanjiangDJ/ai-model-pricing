@@ -46,7 +46,10 @@ jobs:
           git pull --rebase origin main 2>/dev/null || git reset --hard origin/main
           git stash pop 2>/dev/null || true
 
-          if git diff --quiet; then
+          # Only bump/PR on REAL pricing-data changes. manifest.json (last_ok timestamps),
+          # index.json (generated_at) and data/view are refreshed every run and must NOT count
+          # as a change — otherwise an empty run (no price change) triggers a version bump.
+          if git diff --quiet -- data/feed/providers data/feed/plans.json; then
             echo "No data changes this run; nothing to do."
           else
             # auto-bump version (content update) with a DETAILED, HUMAN-READABLE,
