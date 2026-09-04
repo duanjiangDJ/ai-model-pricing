@@ -1,6 +1,47 @@
 {
-  "schema_version": "26.63.32",
+  "schema_version": "26.64.32",
   "entries": [
+    {
+      "date": "2026-09-04T12:24:13Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-flash-vision-exp",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.44
+          },
+          "output": {
+            "usd": 1.32
+          },
+          "cache_read": {
+            "usd": 0.014
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.22
+          },
+          "output": {
+            "usd": 0.66
+          },
+          "cache_read": {
+            "usd": 0.007
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-04T03:22:54Z",
       "kind": "add",
