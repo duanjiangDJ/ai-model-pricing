@@ -73,6 +73,7 @@ def collect(provider_filter=None, dry_run=False):
                 "status": res.get("status", "no_source"),
                 "parsed": res.get("parsed") or {},
                 "errors": res.get("errors") or [],
+                "cross_provider": res.get("cross_provider", False),
             }
         except Exception as e:  # noqa: BLE001
             results[pid] = {
