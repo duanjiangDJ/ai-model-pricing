@@ -8,8 +8,8 @@ import sys
 
 _THIS = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, _THIS)
-sys.path.insert(0, os.path.abspath(os.path.join(_THIS, "..")))
-from collect.utils import fetch_markdown  # noqa: E402
+sys.path.insert(0, os.path.abspath(os.path.join(_THIS, "..","..")))
+from ..utils import fetch_markdown  # noqa: E402
 from checks.tier0_openai import parse  # noqa: E402
 
 URL = "https://developers.openai.com/api/docs/pricing.md"

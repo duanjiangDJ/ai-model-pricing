@@ -34,9 +34,10 @@ _SKIP = {
 
 
 def _collector_ids():
-    """Return every provider id that has a collect_<pid>.py module."""
-    for f in sorted(os.listdir(_THIS)):
-        if f in _SKIP or not f.startswith("collect_") or not f.endswith(".py"):
+    """Return every provider id that has a collect_<pid>.py module in collectors/."""
+    cdir = os.path.join(_THIS, "collectors")
+    for f in sorted(os.listdir(cdir)):
+        if not f.startswith("collect_") or not f.endswith(".py"):
             continue
         yield f[len("collect_"):-3]
 
@@ -62,7 +63,7 @@ def collect(provider_filter=None, dry_run=False):
     for pid in ids:
         mod_name = "collect_" + pid
         try:
-            mod = importlib.import_module(f"collect.{mod_name}")
+            mod = importlib.import_module(f"collect.collectors.{mod_name}")
             res = mod.collect({"now": None, "dry_run": dry_run})
             # normalize: guarantee the structured shape
             res = res or {}

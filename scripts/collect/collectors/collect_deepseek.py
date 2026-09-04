@@ -2,8 +2,8 @@
 import os, sys
 _THIS = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, _THIS)
-sys.path.insert(0, os.path.abspath(os.path.join(_THIS, "..")))
-from collect.utils import fetch_markdown, write_prices  # noqa: E402
+sys.path.insert(0, os.path.abspath(os.path.join(_THIS, "..","..")))
+from ..utils import fetch_markdown, write_prices  # noqa: E402
 from checks.tier0_deepseek import parse  # noqa: E402
 
 URL = "https://api-docs.deepseek.com/quick_start/pricing"
