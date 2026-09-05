@@ -1,6 +1,129 @@
 {
-  "schema_version": "26.71.34",
+  "schema_version": "26.72.34",
   "entries": [
+    {
+      "date": "2026-09-05T15:26:10Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-flash",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08498
+          },
+          "output": {
+            "usd": 0.16996
+          },
+          "cache_read": {
+            "usd": 0.016996
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08442
+          },
+          "output": {
+            "usd": 0.16884
+          },
+          "cache_read": {
+            "usd": 0.016884
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-05T15:26:10Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-pro",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.880266
+          },
+          "output": {
+            "usd": 1.760532
+          },
+          "cache_read": {
+            "usd": 0.0733555
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.849816
+          },
+          "output": {
+            "usd": 1.699632
+          },
+          "cache_read": {
+            "usd": 0.070818
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-05T15:26:10Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-pro-0813",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.12068
+          },
+          "output": {
+            "usd": 3.36204
+          },
+          "cache_read": {
+            "usd": 0.037356
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.57948
+          },
+          "output": {
+            "usd": 1.73844
+          },
+          "cache_read": {
+            "usd": 0.019316
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-05T12:26:04Z",
       "kind": "update",
