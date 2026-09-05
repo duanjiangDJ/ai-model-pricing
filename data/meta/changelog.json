@@ -1,6 +1,88 @@
 {
-  "schema_version": "26.73.34",
+  "schema_version": "26.74.34",
   "entries": [
+    {
+      "date": "2026-09-05T21:26:41Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-flash",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08414
+          },
+          "output": {
+            "usd": 0.16828
+          },
+          "cache_read": {
+            "usd": 0.016828
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08358
+          },
+          "output": {
+            "usd": 0.16716
+          },
+          "cache_read": {
+            "usd": 0.016716
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-05T21:26:41Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-pro",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.829458
+          },
+          "output": {
+            "usd": 1.658916
+          },
+          "cache_read": {
+            "usd": 0.0691215
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.819366
+          },
+          "output": {
+            "usd": 1.638732
+          },
+          "cache_read": {
+            "usd": 0.0682805
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-05T18:26:17Z",
       "kind": "update",
