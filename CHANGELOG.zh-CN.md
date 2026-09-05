@@ -16,6 +16,12 @@
 
 ---
 
+## 26.68.33 — 2026-09-05T03:42Z（内容更新）
+
+- 价格同步（6 处变更）：
+- **openrouter**（新增 1）：`openai/gpt-6-astra-pro:batch`
+- **openrouter**（更新 5）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`, `qwen/qwen3-235b-a22b-2507`, `tencent/hy3`
+
 ## 26.67.33 — 2026-09-04T23:24Z（功能更新）
 
 - sync_official：修复单向浪涌护栏为双向（可拦截异常下调值）
