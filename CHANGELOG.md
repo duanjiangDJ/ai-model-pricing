@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.68.33 — 2026-09-05T03:42Z (content update)
+
+- price sync (6 changes):
+- **openrouter** (+1): `openai/gpt-6-astra-pro:batch`
+- **openrouter** (updated 5): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`, `qwen/qwen3-235b-a22b-2507`, `tencent/hy3`
+
 ## 26.67.33 — 2026-09-04T23:24Z (feature update)
 
 - sync_official: make surge guard bidirectional

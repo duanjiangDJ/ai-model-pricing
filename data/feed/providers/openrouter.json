@@ -8,8 +8,8 @@
   "pricing_page": "https://openrouter.ai/models",
   "api_base_url": "https://openrouter.ai/api/v1",
   "currency": "USD",
-  "updated_at": "2026-09-04T21:25:03Z",
-  "verified_at": "2026-09-04T21:25:03Z",
+  "updated_at": "2026-09-05T03:25:49Z",
+  "verified_at": "2026-09-05T03:25:49Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1908,13 +1908,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.08778
+            "usd": 0.08694
           },
           "output": {
-            "usd": 0.17556
+            "usd": 0.17388
           },
           "cache_read": {
-            "usd": 0.017556
+            "usd": 0.017388
           },
           "cache_write": null
         },
@@ -2029,13 +2029,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.981708
+            "usd": 0.971442
           },
           "output": {
-            "usd": 1.963416
+            "usd": 1.942884
           },
           "cache_read": {
-            "usd": 0.081809
+            "usd": 0.0809535
           },
           "cache_write": null
         },
@@ -2059,13 +2059,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.57948
+            "usd": 1.12068
           },
           "output": {
-            "usd": 1.73844
+            "usd": 3.36204
           },
           "cache_read": {
-            "usd": 0.019316
+            "usd": 0.037356
           },
           "cache_write": null
         },
@@ -8356,6 +8356,39 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "openai/gpt-6-astra-pro:batch",
+      "name": "OpenAI: GPT-6 Astra Pro (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "image_in",
+        "text"
+      ],
+      "context_window": 1050000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 5.0
+          },
+          "output": {
+            "usd": 25.0
+          },
+          "cache_read": {
+            "usd": 0.5
+          },
+          "cache_write": {
+            "usd": 6.25
+          }
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "openai/gpt-6-astra:batch",
       "name": "OpenAI: GPT-6 Astra (batch)",
       "category": "reasoning",
@@ -9646,14 +9679,12 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.0875
+            "usd": 0.09
           },
           "output": {
-            "usd": 0.35
+            "usd": 0.55
           },
-          "cache_read": {
-            "usd": 0.0175
-          },
+          "cache_read": null,
           "cache_write": null
         },
         "per_image": null,
@@ -11442,13 +11473,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.0825
+            "usd": 0.132
           },
           "output": {
-            "usd": 0.33
+            "usd": 0.528
           },
           "cache_read": {
-            "usd": 0.020625
+            "usd": 0.033
           },
           "cache_write": null
         },
