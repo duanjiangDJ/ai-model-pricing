@@ -8,8 +8,8 @@
   "pricing_page": "https://openrouter.ai/models",
   "api_base_url": "https://openrouter.ai/api/v1",
   "currency": "USD",
-  "updated_at": "2026-09-05T03:25:49Z",
-  "verified_at": "2026-09-05T03:25:49Z",
+  "updated_at": "2026-09-05T06:25:58Z",
+  "verified_at": "2026-09-05T06:25:58Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1908,13 +1908,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.08694
+            "usd": 0.0861
           },
           "output": {
-            "usd": 0.17388
+            "usd": 0.1722
           },
           "cache_read": {
-            "usd": 0.017388
+            "usd": 0.01722
           },
           "cache_write": null
         },
@@ -2029,13 +2029,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.971442
+            "usd": 0.941166
           },
           "output": {
-            "usd": 1.942884
+            "usd": 1.882332
           },
           "cache_read": {
-            "usd": 0.0809535
+            "usd": 0.0784305
           },
           "cache_write": null
         },
@@ -10993,8 +10993,8 @@
       "notes": "OpenRouter reseller price"
     },
     {
-      "id": "qwen/qwen3.8-max",
-      "name": "Qwen: Qwen3.8 Max",
+      "id": "qwen/qwen3.8-max-0902",
+      "name": "Qwen: Qwen3.8 Max (0902)",
       "category": "reasoning",
       "modalities": [
         "text",
