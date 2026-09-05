@@ -16,6 +16,13 @@
 
 ---
 
+## 26.69.33 — 2026-09-05T06:45Z（内容更新）
+
+- 价格同步（4 处变更）：
+- **openrouter**（新增 1）：`qwen/qwen3.8-max-0902`
+- **openrouter**（下架 1）：`qwen/qwen3.8-max`
+- **openrouter**（更新 2）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`
+
 ## 26.68.33 — 2026-09-05T03:42Z（内容更新）
 
 - 价格同步（6 处变更）：

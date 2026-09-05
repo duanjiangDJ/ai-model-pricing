@@ -16,6 +16,13 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.69.33 — 2026-09-05T06:45Z (content update)
+
+- price sync (4 changes):
+- **openrouter** (+1): `qwen/qwen3.8-max-0902`
+- **openrouter** (-1): `qwen/qwen3.8-max`
+- **openrouter** (updated 2): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`
+
 ## 26.68.33 — 2026-09-05T03:42Z (content update)
 
 - price sync (6 changes):
