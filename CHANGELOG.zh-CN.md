@@ -16,6 +16,11 @@
 
 ---
 
+## 26.70.34 — 2026-09-05T09:42Z（内容更新）
+
+- 价格同步（3 处变更）：
+- **openrouter**（更新 3）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `~moonshotai/kimi-latest`
+
 ## 26.69.34 — 2026-09-05T09:13Z（功能更新）
 
 - 修复：数据变更时同步刷新 README 统计 + validate 校验 README 统计与数据一致（防止漂移）
