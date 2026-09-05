@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.69.34 — 2026-09-05T09:13Z (feature update)
+
+- fix(docs): refresh README stats on data change + validate README-stats consistency (prevent drift)
+
 ## 26.69.33 — 2026-09-05T06:45Z (content update)
 
 - price sync (4 changes):
