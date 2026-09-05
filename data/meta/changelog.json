@@ -1,6 +1,129 @@
 {
-  "schema_version": "26.69.34",
+  "schema_version": "26.70.34",
   "entries": [
+    {
+      "date": "2026-09-05T09:26:01Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-flash",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.0861
+          },
+          "output": {
+            "usd": 0.1722
+          },
+          "cache_read": {
+            "usd": 0.01722
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08526
+          },
+          "output": {
+            "usd": 0.17052
+          },
+          "cache_read": {
+            "usd": 0.017052
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-05T09:26:01Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-pro",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.941166
+          },
+          "output": {
+            "usd": 1.882332
+          },
+          "cache_read": {
+            "usd": 0.0784305
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.910716
+          },
+          "output": {
+            "usd": 1.821432
+          },
+          "cache_read": {
+            "usd": 0.075893
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-05T09:26:01Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~moonshotai/kimi-latest",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.5
+          },
+          "output": {
+            "usd": 14.0
+          },
+          "cache_read": {
+            "usd": 0.29
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.55
+          },
+          "output": {
+            "usd": 12.75
+          },
+          "cache_read": {
+            "usd": 0.25599999
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-05T06:25:58Z",
       "kind": "add",

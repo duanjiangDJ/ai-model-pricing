@@ -16,6 +16,11 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.70.34 — 2026-09-05T09:42Z (content update)
+
+- price sync (3 changes):
+- **openrouter** (updated 3): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `~moonshotai/kimi-latest`
+
 ## 26.69.34 — 2026-09-05T09:13Z (feature update)
 
 - fix(docs): refresh README stats on data change + validate README-stats consistency (prevent drift)
