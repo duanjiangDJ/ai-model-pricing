@@ -3,7 +3,7 @@
   "$id": "https://raw.githubusercontent.com/duanjiangDJ/ai-model-pricing/main/data/feed/schema.json",
   "title": "AI Model Pricing Database Schema",
   "description": "Versioned machine-readable schema for the ai-model-pricing database. Validates: index.json, providers/*.json, plans.json, resellers.json, manifest.json, changelog.json",
-  "version": "26.69.33",
+  "version": "26.69.34",
   "$defs": {
     "channel": {
       "type": "string",
@@ -680,7 +680,7 @@
     "properties": {
       "schema_version": {
         "type": "string",
-        "const": "26.69.33"
+        "const": "26.69.34"
       },
       "updated_at": {
         "type": "string",
@@ -704,7 +704,7 @@
     "properties": {
       "schema_version": {
         "type": "string",
-        "const": "26.69.33"
+        "const": "26.69.34"
       },
       "generated_at": {
         "type": "string",
@@ -752,7 +752,7 @@
     "properties": {
       "schema_version": {
         "type": "string",
-        "const": "26.69.33"
+        "const": "26.69.34"
       },
       "last_full_sync": {
         "type": "string",
@@ -815,7 +815,7 @@
     "properties": {
       "schema_version": {
         "type": "string",
-        "const": "26.69.33"
+        "const": "26.69.34"
       },
       "entries": {
         "type": "array",

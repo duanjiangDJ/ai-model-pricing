@@ -147,18 +147,30 @@ def stats_block(lang):
     return "\n".join(t)
 
 
-for readme, lang in (("README.md", "en"), ("README.zh-CN.md", "zh-CN")):
-    t = open(readme, encoding="utf-8").read()
-    block = stats_block(lang)
-    begin = "<!-- STATS:BEGIN -->"
-    end = "<!-- STATS:END -->"
-    section = f"{begin}\n\n{block}\n\n{end}"
-    if begin in t:
-        import re
-        t = re.sub(rf"{re.escape(begin)}.*?{re.escape(end)}", section, t, flags=re.S)
-    else:
-        # insert before '## Quick Start'
-        anchor = "## Quick Start" if lang == "en" else "## 快速开始"
-        t = t.replace(anchor, section + "\n\n" + anchor, 1)
-    open(readme, "w", encoding="utf-8").write(t)
-    print(f"README stats updated ({lang})")
+STATS_BEGIN = "<!-- STATS:BEGIN -->"
+STATS_END = "<!-- STATS:END -->"
+
+
+def stats_section(lang):
+    """Return the full STATS block (with BEGIN/END markers) for a language."""
+    return f"{STATS_BEGIN}\n\n{stats_block(lang)}\n\n{STATS_END}"
+
+
+def refresh_readme():
+    """Regenerate the README (en + zh-CN) statistics section to match current data."""
+    for readme, lang in (("README.md", "en"), ("README.zh-CN.md", "zh-CN")):
+        t = open(readme, encoding="utf-8").read()
+        section = stats_section(lang)
+        if STATS_BEGIN in t:
+            import re
+            t = re.sub(rf"{re.escape(STATS_BEGIN)}.*?{re.escape(STATS_END)}", section, t, flags=re.S)
+        else:
+            # insert before 'Quick Start'/'快速开始' anchor
+            anchor = "## Quick Start" if lang == "en" else "## 快速开始"
+            t = t.replace(anchor, section + "\n\n" + anchor, 1)
+        open(readme, "w", encoding="utf-8").write(t)
+        print(f"README stats updated ({lang})")
+
+
+if __name__ == "__main__":
+    refresh_readme()

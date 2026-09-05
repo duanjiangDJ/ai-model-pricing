@@ -351,5 +351,11 @@ def main():
         print(f"human pages [{lang}]: {len(entries)} providers, {len(plans)} plans")
 
 
+    # Keep the README data-statistics section in sync with the dataset. Both the bot sync
+    # (daily-check.yml) and pr-check run build_human; README must not drift when data changes.
+    import stats
+    stats.refresh_readme()
+
+
 if __name__ == "__main__":
     main()
