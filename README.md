@@ -40,10 +40,10 @@ verification.
 ## Data Statistics (exact)
 
 - **Providers**: 190
-- **Models**: 7579
+- **Models**: 7578
 - **Subscription plans**: 67
 - **Distinct API endpoints**: 183
-- **Free models**: 478
+- **Free models**: 477
 
 ### By channel
 
@@ -52,7 +52,7 @@ verification.
 | Inference host | 138 | 4531 |
 | First-party | 20 | 427 |
 | Subscription | 18 | 176 |
-| Aggregator | 13 | 2325 |
+| Aggregator | 13 | 2324 |
 | Cloud-hosted | 1 | 120 |
 
 ### By region
@@ -69,7 +69,7 @@ verification.
 |---|---|
 | offline | 43 |
 | online | 18 |
-| (unmarked) | 7518 |
+| (unmarked) | 7517 |
 
 ### Top providers by model count
 
@@ -77,7 +77,7 @@ verification.
 |---|---|
 | NanoGPT (`nano-gpt`) | 693 |
 | DevPass (LLM Gateway) (`llmgateway`) | 565 |
-| OpenRouter (`openrouter`) | 431 |
+| OpenRouter (`openrouter`) | 430 |
 | Kilo Gateway (`kilo`) | 383 |
 | Vercel AI Gateway (`vercel`) | 375 |
 | Eden AI (`edenai`) | 255 |
