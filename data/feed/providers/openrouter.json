@@ -8,8 +8,8 @@
   "pricing_page": "https://openrouter.ai/models",
   "api_base_url": "https://openrouter.ai/api/v1",
   "currency": "USD",
-  "updated_at": "2026-09-06T12:28:14Z",
-  "verified_at": "2026-09-06T12:28:14Z",
+  "updated_at": "2026-09-06T15:28:22Z",
+  "verified_at": "2026-09-06T15:28:22Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1908,13 +1908,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.0805
+            "usd": 0.08022
           },
           "output": {
-            "usd": 0.161
+            "usd": 0.16044
           },
           "cache_read": {
-            "usd": 0.0161
+            "usd": 0.016044
           },
           "cache_write": null
         },
@@ -2029,13 +2029,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.677382
+            "usd": 0.66729
           },
           "output": {
-            "usd": 1.354764
+            "usd": 1.33458
           },
           "cache_read": {
-            "usd": 0.0564485
+            "usd": 0.0556075
           },
           "cache_write": null
         },
@@ -2059,13 +2059,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.12068
+            "usd": 0.57948
           },
           "output": {
-            "usd": 3.36204
+            "usd": 1.73844
           },
           "cache_read": {
-            "usd": 0.037356
+            "usd": 0.019316
           },
           "cache_write": null
         },
@@ -12554,34 +12554,6 @@
         "promo": null
       },
       "notes": "OpenRouter reseller price"
-    },
-    {
-      "id": "z-ai/glm-5.2:free",
-      "name": "Z.ai: GLM 5.2 (free)",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 256000,
-      "max_output": null,
-      "billing_model": [
-        "free"
-      ],
-      "pricing": {
-        "per_mtok": {
-          "input": {
-            "usd": 0.0
-          },
-          "output": {
-            "usd": 0.0
-          },
-          "cache_read": null,
-          "cache_write": null
-        },
-        "per_image": null,
-        "promo": null
-      },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "z-ai/glm-5.3",
