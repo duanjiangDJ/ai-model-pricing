@@ -6,8 +6,8 @@
 - Homepage: https://openrouter.ai
 - Pricing page: https://openrouter.ai/models
 - Currency: USD
-- Data updated: 2026-09-06T03:26:54Z
-- Verified: 2026-09-06T03:26:54Z
+- Data updated: 2026-09-06T06:26:52Z
+- Verified: 2026-09-06T06:26:52Z
 
 **431** models in total.
 
@@ -74,11 +74,11 @@
 | `deepseek/deepseek-v3.1-terminus` | — | reasoning | per-token | 163.84K | $0.27 | $1 | $0.135 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2` | — | reasoning | per-token | 163.84K | $0.269 | $0.4 | $0.1345 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2-exp` | — | reasoning | per-token | 163.84K | $0.27 | $0.41 | — | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-flash` | — | reasoning | per-token | 1.04858M | $0.08218 | $0.16436 | $0.016436 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-flash` | — | reasoning | per-token | 1.04858M | $0.08162 | $0.16324 | $0.016324 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731` | — | reasoning | per-token | 1.31072M | $0.065 | $0.18 | $0.016 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731:batch` | — | reasoning | per-token | 1.04858M | $0.14 | $0.28 | $0.03 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | per-token | 1.04858M | $0.22 | $0.66 | $0.007 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-pro` | — | reasoning | per-token | 1.04858M | $0.768732 | $1.53746 | $0.064061 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-pro` | — | reasoning | per-token | 1.04858M | $0.738282 | $1.47656 | $0.0615235 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813` | — | reasoning | per-token | 1.04858M | $1.12068 | $3.36204 | $0.037356 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813:batch` | — | reasoning | per-token | 1.04858M | $1.32 | $3.96 | $0.13 | — | —/— | — | OpenRouter reseller price |
 | `dots-studio/dots-3-note-preview:free` | — | reasoning | free | 512K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
@@ -418,7 +418,7 @@
 | `z-ai/glm-4.5` | — | reasoning | per-token | 131.072K | $0.6 | $2.2 | $0.11 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-4.5-air` | — | reasoning | per-token | 131.072K | $0.13 | $0.85 | $0.025 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-4.5v` | — | reasoning | per-token | 65.536K | $0.6 | $1.8 | $0.11 | — | —/— | — | OpenRouter reseller price |
-| `z-ai/glm-4.6` | — | reasoning | per-token | 204.8K | $0.5 | $2 | $0.1 | — | —/— | — | OpenRouter reseller price |
+| `z-ai/glm-4.6` | — | reasoning | per-token | 204.8K | $0.55 | $2.2 | $0.11 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-4.6v` | — | reasoning | per-token | 131.072K | $0.3 | $0.9 | $0.055 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-4.7` | — | reasoning | per-token | 204.8K | $0.4 | $1.75 | $0.08 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-4.7-flash` | — | reasoning | per-token | 202.752K | $0.06 | $0.4 | $0.01 | — | —/— | — | OpenRouter reseller price |
