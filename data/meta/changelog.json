@@ -1,6 +1,88 @@
 {
-  "schema_version": "26.78.34",
+  "schema_version": "26.79.34",
   "entries": [
+    {
+      "date": "2026-09-06T12:28:14Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-flash",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08106
+          },
+          "output": {
+            "usd": 0.16212
+          },
+          "cache_read": {
+            "usd": 0.016212
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.0805
+          },
+          "output": {
+            "usd": 0.161
+          },
+          "cache_read": {
+            "usd": 0.0161
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-06T12:28:14Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-pro",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.707832
+          },
+          "output": {
+            "usd": 1.415664
+          },
+          "cache_read": {
+            "usd": 0.058986
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.677382
+          },
+          "output": {
+            "usd": 1.354764
+          },
+          "cache_read": {
+            "usd": 0.0564485
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-06T09:27:11Z",
       "kind": "update",
