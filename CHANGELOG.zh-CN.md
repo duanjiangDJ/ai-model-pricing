@@ -16,6 +16,11 @@
 
 ---
 
+## 26.81.34 — 2026-09-06T21:53Z（内容更新）
+
+- 价格同步（4 处变更）：
+- **openrouter**（更新 4）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `qwen/qwen3.5-397b-a17b`, `tencent/hy3`
+
 ## 26.80.34 — 2026-09-06T15:49Z（内容更新）
 
 - 价格同步（4 处变更）：
