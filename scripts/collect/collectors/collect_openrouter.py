@@ -11,7 +11,7 @@ sys.path.insert(0, _THIS)
 sys.path.insert(0, os.path.abspath(os.path.join(_THIS, "..", "..")))  # scripts/ so sync_openrouter is importable
 
 from common import fetch_json  # noqa: E402
-from sync_openrouter import OPENROUTER_URL, build_model  # noqa: E402
+from sync.sync_openrouter import OPENROUTER_URL, build_model  # noqa: E402
 from collect.utils import make_result  # noqa: E402
 
 URL = OPENROUTER_URL

@@ -10,7 +10,7 @@ import argparse
 import os
 import sys
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')))
 from common import (  # noqa: E402
     PROVIDERS, FEED, SCHEMA_VERSION, append_changelog, fetch_json, load_index,
     load_manifest, load_provider, now_iso, save_index, save_manifest, to_float_or_none, write_json,

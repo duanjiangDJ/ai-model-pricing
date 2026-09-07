@@ -14,7 +14,7 @@ import re
 import sys
 import urllib.request
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')))
 from common import (  # noqa: E402
     PROVIDERS, META, append_changelog, fetch_json, load_manifest, now_iso, read_json,
     save_manifest, write_json,

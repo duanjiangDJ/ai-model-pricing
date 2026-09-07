@@ -18,7 +18,7 @@ import os
 import sys
 from datetime import datetime, timezone
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 PROVIDERS = os.path.join(ROOT, "data", "feed", "providers")
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
 from toolbox import append_changelog, now_iso, any_price_positive, price_all_zero  # noqa: E402

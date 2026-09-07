@@ -11,7 +11,7 @@ _THIS = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, _THIS)
 sys.path.insert(0, os.path.abspath(os.path.join(_THIS, "..", "..")))  # scripts/
 from common import fetch_json  # noqa: E402
-from sync_modelsdev import MODELSDEV_URL, build_model  # noqa: E402
+from sync.sync_modelsdev import MODELSDEV_URL, build_model  # noqa: E402
 
 URL = MODELSDEV_URL
 PROVIDER_ID = "modelsdev"

@@ -3,7 +3,7 @@ import sys
 import unittest
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "scripts"))
-from sync_openrouter import _apply_bidir_guard  # noqa: E402
+from sync.sync_openrouter import _apply_bidir_guard  # noqa: E402
 
 
 class TestBidirGuard(unittest.TestCase):

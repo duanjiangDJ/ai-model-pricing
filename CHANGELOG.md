@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.82.36 — 2026-09-07T04:15Z (feature update)
+
+- refactor(scripts): organize script layer into semantic subpackages
+
 ## 26.82.35 — 2026-09-07T03:47Z (feature update)
 
 - fix(README): keep 'Current scale' prose line in sync with data (drift gap closed, validate now catches it)
