@@ -156,18 +156,40 @@ def stats_section(lang):
     return f"{STATS_BEGIN}\n\n{stats_block(lang)}\n\n{STATS_END}"
 
 
+def current_scale_line(lang):
+    """The 'Current scale / 当前规模' prose line (lives OUTSIDE the STATS markers).
+
+    Hard-coded prose drifts when the dataset grows. Both refresh_readme() and
+    validate.py use this so the line stays consistent with the STATS block.
+    """
+    if lang == "en":
+        return (
+            f"**Current scale**: {len(providers)} providers, {total_models:,} models, "
+            f"{len(plans)} subscription plans. Exact numbers in the "
+            "[Data Statistics](#data-statistics-exact) section above."
+        )
+    return (
+        f"**当前规模**：{len(providers)} 个供应商、{total_models:,} 个模型、"
+        f"{len(plans)} 个订阅计划，"
+    )
+
+
 def refresh_readme():
     """Regenerate the README (en + zh-CN) statistics section to match current data."""
+    import re
     for readme, lang in (("README.md", "en"), ("README.zh-CN.md", "zh-CN")):
         t = open(readme, encoding="utf-8").read()
         section = stats_section(lang)
         if STATS_BEGIN in t:
-            import re
             t = re.sub(rf"{re.escape(STATS_BEGIN)}.*?{re.escape(STATS_END)}", section, t, flags=re.S)
         else:
             # insert before 'Quick Start'/'快速开始' anchor
             anchor = "## Quick Start" if lang == "en" else "## 快速开始"
             t = t.replace(anchor, section + "\n\n" + anchor, 1)
+        # refresh the prose 'Current scale / 当前规模' line so it cannot drift with the data
+        pat = r"(?m)^\*\*Current scale\*\*:.*$" if lang == "en" else r"(?m)^\*\*当前规模\*\*：.*$"
+        if re.search(pat, t):
+            t = re.sub(pat, lambda m: current_scale_line(lang), t, count=1)
         open(readme, "w", encoding="utf-8").write(t)
         print(f"README stats updated ({lang})")
 
