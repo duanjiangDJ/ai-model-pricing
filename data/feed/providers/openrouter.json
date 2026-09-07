@@ -8,8 +8,8 @@
   "pricing_page": "https://openrouter.ai/models",
   "api_base_url": "https://openrouter.ai/api/v1",
   "currency": "USD",
-  "updated_at": "2026-09-07T15:31:08Z",
-  "verified_at": "2026-09-07T15:31:08Z",
+  "updated_at": "2026-09-07T18:31:16Z",
+  "verified_at": "2026-09-07T18:31:16Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -4661,34 +4661,6 @@
       "notes": "OpenRouter reseller price"
     },
     {
-      "id": "minimax/minimax-m2.7:free",
-      "name": "MiniMax: MiniMax M2.7 (free)",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 196608,
-      "max_output": null,
-      "billing_model": [
-        "free"
-      ],
-      "pricing": {
-        "per_mtok": {
-          "input": {
-            "usd": 0.0
-          },
-          "output": {
-            "usd": 0.0
-          },
-          "cache_read": null,
-          "cache_write": null
-        },
-        "per_image": null,
-        "promo": null
-      },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
-    },
-    {
       "id": "minimax/minimax-m3",
       "name": "MiniMax: MiniMax M3",
       "category": "reasoning",
@@ -4751,36 +4723,6 @@
         "promo": null
       },
       "notes": "OpenRouter reseller price"
-    },
-    {
-      "id": "minimax/minimax-m3:free",
-      "name": "MiniMax: MiniMax M3 (free)",
-      "category": "reasoning",
-      "modalities": [
-        "text",
-        "image_in",
-        "video_in"
-      ],
-      "context_window": 1048576,
-      "max_output": null,
-      "billing_model": [
-        "free"
-      ],
-      "pricing": {
-        "per_mtok": {
-          "input": {
-            "usd": 0.0
-          },
-          "output": {
-            "usd": 0.0
-          },
-          "cache_read": null,
-          "cache_write": null
-        },
-        "per_image": null,
-        "promo": null
-      },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "mistralai/codestral-2508",
@@ -11473,13 +11415,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.132
+            "usd": 0.0825
           },
           "output": {
-            "usd": 0.528
+            "usd": 0.33
           },
           "cache_read": {
-            "usd": 0.033
+            "usd": 0.020625
           },
           "cache_write": null
         },

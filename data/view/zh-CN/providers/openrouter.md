@@ -6,10 +6,10 @@
 - 官网: https://openrouter.ai
 - 定价页: https://openrouter.ai/models
 - 币种: USD
-- 数据更新时间: 2026-09-07T15:31:08Z
-- 核实时间: 2026-09-07T15:31:08Z
+- 数据更新时间: 2026-09-07T18:31:16Z
+- 核实时间: 2026-09-07T18:31:16Z
 
-共 **430** 个模型。
+共 **428** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -163,10 +163,8 @@
 | `minimax/minimax-m2.1` | — | reasoning | 按量 | 204.8K | $0.3 | $1.2 | $0.03 | — | —/— | — | OpenRouter reseller price |
 | `minimax/minimax-m2.5` | — | reasoning | 按量 | 204.8K | $0.27 | $1.08 | $0.027 | — | —/— | — | OpenRouter reseller price |
 | `minimax/minimax-m2.7` | — | reasoning | 按量 | 204.8K | $0.3 | $1.2 | $0.06 | — | —/— | — | OpenRouter reseller price |
-| `minimax/minimax-m2.7:free` | — | reasoning | 免费 | 196.608K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `minimax/minimax-m3` | — | reasoning | 按量 | 1.04858M | $0.3 | $1.2 | $0.06 | — | —/— | — | OpenRouter reseller price |
 | `minimax/minimax-m3:batch` | — | reasoning | 按量 | 524.288K | $0.3 | $1.2 | $0.06 | — | —/— | — | OpenRouter reseller price |
-| `minimax/minimax-m3:free` | — | reasoning | 免费 | 1.04858M | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `mistralai/codestral-2508` | — | chat | 按量 | 256K | $0.3 | $0.9 | $0.03 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/devstral-2512` | — | chat | 按量 | 262.144K | $0.4 | $2 | $0.04 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/ministral-14b-2512` | — | chat | 按量 | 262.144K | $0.2 | $0.2 | $0.02 | — | —/— | — | OpenRouter reseller price |
@@ -390,7 +388,7 @@
 | `tencent/hy-mt2-1.8b` | — | chat | 按量 | 8.192K | $0.044 | $0.177 | — | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy-mt2-30b-a3b` | — | chat | 按量 | 8.192K | $0.074 | $0.295 | — | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy-mt2-7b` | — | chat | 按量 | 8.192K | $0.074 | $0.295 | — | — | —/— | — | OpenRouter reseller price |
-| `tencent/hy3` | — | reasoning | 按量 | 262.144K | $0.132 | $0.528 | $0.033 | — | —/— | — | OpenRouter reseller price |
+| `tencent/hy3` | — | reasoning | 按量 | 262.144K | $0.0825 | $0.33 | $0.020625 | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy3-preview` | — | reasoning | 按量 | 262.144K | $0.18 | $0.6 | $0.06 | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy4-preview` | — | reasoning | 按量 | 1.04858M | $0.834 | $2.501 | $0.042 | — | —/— | — | OpenRouter reseller price |
 | `thedrummer/cydonia-24b-v4.1` | — | chat | 按量 | 131.072K | $0.3 | $0.5 | $0.15 | — | —/— | — | OpenRouter reseller price |

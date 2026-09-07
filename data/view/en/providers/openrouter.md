@@ -6,10 +6,10 @@
 - Homepage: https://openrouter.ai
 - Pricing page: https://openrouter.ai/models
 - Currency: USD
-- Data updated: 2026-09-07T15:31:08Z
-- Verified: 2026-09-07T15:31:08Z
+- Data updated: 2026-09-07T18:31:16Z
+- Verified: 2026-09-07T18:31:16Z
 
-**430** models in total.
+**428** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -163,10 +163,8 @@
 | `minimax/minimax-m2.1` | — | reasoning | per-token | 204.8K | $0.3 | $1.2 | $0.03 | — | —/— | — | OpenRouter reseller price |
 | `minimax/minimax-m2.5` | — | reasoning | per-token | 204.8K | $0.27 | $1.08 | $0.027 | — | —/— | — | OpenRouter reseller price |
 | `minimax/minimax-m2.7` | — | reasoning | per-token | 204.8K | $0.3 | $1.2 | $0.06 | — | —/— | — | OpenRouter reseller price |
-| `minimax/minimax-m2.7:free` | — | reasoning | free | 196.608K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `minimax/minimax-m3` | — | reasoning | per-token | 1.04858M | $0.3 | $1.2 | $0.06 | — | —/— | — | OpenRouter reseller price |
 | `minimax/minimax-m3:batch` | — | reasoning | per-token | 524.288K | $0.3 | $1.2 | $0.06 | — | —/— | — | OpenRouter reseller price |
-| `minimax/minimax-m3:free` | — | reasoning | free | 1.04858M | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `mistralai/codestral-2508` | — | chat | per-token | 256K | $0.3 | $0.9 | $0.03 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/devstral-2512` | — | chat | per-token | 262.144K | $0.4 | $2 | $0.04 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/ministral-14b-2512` | — | chat | per-token | 262.144K | $0.2 | $0.2 | $0.02 | — | —/— | — | OpenRouter reseller price |
@@ -390,7 +388,7 @@
 | `tencent/hy-mt2-1.8b` | — | chat | per-token | 8.192K | $0.044 | $0.177 | — | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy-mt2-30b-a3b` | — | chat | per-token | 8.192K | $0.074 | $0.295 | — | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy-mt2-7b` | — | chat | per-token | 8.192K | $0.074 | $0.295 | — | — | —/— | — | OpenRouter reseller price |
-| `tencent/hy3` | — | reasoning | per-token | 262.144K | $0.132 | $0.528 | $0.033 | — | —/— | — | OpenRouter reseller price |
+| `tencent/hy3` | — | reasoning | per-token | 262.144K | $0.0825 | $0.33 | $0.020625 | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy3-preview` | — | reasoning | per-token | 262.144K | $0.18 | $0.6 | $0.06 | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy4-preview` | — | reasoning | per-token | 1.04858M | $0.834 | $2.501 | $0.042 | — | —/— | — | OpenRouter reseller price |
 | `thedrummer/cydonia-24b-v4.1` | — | chat | per-token | 131.072K | $0.3 | $0.5 | $0.15 | — | —/— | — | OpenRouter reseller price |

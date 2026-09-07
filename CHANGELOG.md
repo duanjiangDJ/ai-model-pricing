@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.86.36 — 2026-09-07T18:51Z (content update)
+
+- price sync (3 changes):
+- **openrouter** (-2): `minimax/minimax-m2.7:free`, `minimax/minimax-m3:free`
+- **openrouter** (updated 1): `tencent/hy3`
+
 ## 26.85.36 — 2026-09-07T15:52Z (content update)
 
 - price sync (2 changes + 1 metadata correction):

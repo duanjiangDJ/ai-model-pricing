@@ -1,6 +1,67 @@
 {
-  "schema_version": "26.85.36",
+  "schema_version": "26.86.36",
   "entries": [
+    {
+      "date": "2026-09-07T18:31:16Z",
+      "kind": "remove",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "minimax/minimax-m2.7:free",
+      "field": "catalog",
+      "old": "minimax/minimax-m2.7:free",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-07T18:31:16Z",
+      "kind": "remove",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "minimax/minimax-m3:free",
+      "field": "catalog",
+      "old": "minimax/minimax-m3:free",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-07T18:31:16Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "tencent/hy3",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.132
+          },
+          "output": {
+            "usd": 0.528
+          },
+          "cache_read": {
+            "usd": 0.033
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.0825
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.020625
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-07T15:31:08Z",
       "kind": "update",
