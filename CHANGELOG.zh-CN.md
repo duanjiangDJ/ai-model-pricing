@@ -16,6 +16,11 @@
 
 ---
 
+## 26.84.36 — 2026-09-07T09:48Z（内容更新）
+
+- 价格同步（3 处变更）：
+- **openrouter**（更新 3）：`deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`, `~z-ai/glm-latest`
+
 ## 26.83.36 — 2026-09-07T06:48Z（内容更新）
 
 - 价格同步（6 处变更）：
