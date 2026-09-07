@@ -14,7 +14,7 @@ import os
 import sys
 from datetime import datetime, timezone
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')))
 from toolbox import PROVIDERS, now_iso  # noqa: E402
 
 PRICE_KEYS = ("input", "output", "cache_read", "cache_write")

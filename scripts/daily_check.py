@@ -25,7 +25,7 @@ from common import (  # noqa: E402
     load_index, load_manifest, now_iso, price_of, read_json, save_index, save_manifest,
     set_price, write_json,
 )
-from sync_openrouter import build_model  # noqa: E402
+from sync.sync_openrouter import build_model  # noqa: E402
 
 # Run-start marker (UTC, minute precision) used to detect entries created by THIS run.
 _RUN_STARTED_ISO = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M")
@@ -61,7 +61,7 @@ SUB_PROVIDER_HINTS = ("coding-plan", "token-plan", "copilot", "kimi-for-coding")
 def sync_modelsdev_diff(now):
     """Diff models.dev catalog against local provider files. Only updates per_mtok
     input/output/cache_read values (never touches hand-maintained fields)."""
-    from sync_modelsdev import build_model  # local import to avoid heavy init
+    from sync.sync_modelsdev import build_model  # local import to avoid heavy init
     data = fetch_json(MODELSDEV_URL)
     stats = {"added_providers": 0, "changed_models": 0, "added_models": 0}
     entries = []

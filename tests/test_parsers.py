@@ -54,7 +54,7 @@ class TestDeepSeekParser(unittest.TestCase):
 
 class TestBaiduParser(unittest.TestCase):
     def setUp(self):
-        from sync_official import parse_baidu
+        from sync.sync_official import parse_baidu
         self.parse = parse_baidu
 
     def test_parse_intl_page(self):

@@ -35,7 +35,7 @@ page is re-probed on each sync until it becomes fetchable (then a parser can be 
 import re
 import sys
 
-sys.path.insert(0, __file__.rsplit("checks", 1)[0])
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')))
 from toolbox import js_fetch, load_provider, now_iso  # noqa: E402
 
 TIER = 1

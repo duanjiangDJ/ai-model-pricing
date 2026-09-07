@@ -17,7 +17,7 @@ import json
 import os
 import sys
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')))
 from common import (  # noqa: E402
     FEED, PROVIDERS, SCHEMA_VERSION, append_changelog, load_index, now_iso, read_json,
     save_index, write_json,

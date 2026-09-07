@@ -15,7 +15,7 @@ import os
 import re
 import sys
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')))
 from common import (  # noqa: E402
     PROVIDERS, SCHEMA_VERSION, append_changelog, fetch_json, load_index, load_manifest,
     now_iso, save_index, save_manifest, write_json,
