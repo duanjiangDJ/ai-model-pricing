@@ -6,6 +6,17 @@
       "kind": "update",
       "scope": "model",
       "provider_id": "openrouter",
+      "item_id": "mistralai/mistral-medium-3-5:batch",
+      "field": "context_window",
+      "old": 32768,
+      "new": 262144,
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-07T15:31:08Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
       "item_id": "deepseek/deepseek-v4-flash-vision-exp",
       "field": "pricing",
       "old": {
