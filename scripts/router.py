@@ -41,6 +41,32 @@ def discover():
     return modules
 
 
+def _merge_check_sources(non_check_srcs, results, now):
+    """Register per-check source status in the manifest, deduped by provider.
+
+    A provider may expose >1 check module across tiers (e.g. tier0_minimax +
+    tier1_minimax); blindly appending one entry per result would register the same
+    "check:<pid>" source twice. Merge into a single entry; a failure on ANY tier
+    marks the provider's check errored (fail-badly, so a partially-failing provider
+    never appears green).
+    """
+    seen = {}
+    for r in results:
+        name = f"check:{r['provider']}"
+        e = seen.get(name)
+        if e is None:
+            e = {"name": name, "url": f"scripts/checks/{r['provider']}.py",
+                 "auto_sync": True, "official": True, "check": True}
+            seen[name] = e
+        if r["status"] == "ok":
+            e["last_ok"] = now
+            e["last_error"] = None
+        else:
+            e["last_ok"] = None
+            e["last_error"] = r["detail"]
+    return non_check_srcs + list(seen.values())
+
+
 def run_router(provider_filter=None, dry_run=False):
     now = now_iso()
     manifest = load_manifest()
@@ -59,13 +85,10 @@ def run_router(provider_filter=None, dry_run=False):
                             "changed": 0, "detail": str(e)[:200]})
             print(f"[tier{tier}] {pid}: ERROR {str(e)[:160]}")
 
-    # manifest: per-check source status
-    srcs = [s for s in manifest.get("sources", []) if not s.get("check")]
-    for r in results:
-        srcs.append({"name": f"check:{r['provider']}", "url": f"scripts/checks/{r['provider']}.py",
-                     "auto_sync": True, "official": True, "check": True,
-                     "last_ok": now if r["status"] == "ok" else None,
-                     "last_error": None if r["status"] == "ok" else r["detail"]})
+    # manifest: per-check source status (deduped per provider — see _merge_check_sources)
+    srcs = _merge_check_sources(
+        [s for s in manifest.get("sources", []) if not s.get("check")], results, now
+    )
     manifest["sources"] = srcs
     manifest["last_daily_check"] = now
     save_manifest(manifest)
