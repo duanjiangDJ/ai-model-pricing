@@ -16,6 +16,11 @@
 
 ---
 
+## 26.83.36 — 2026-09-07T06:48Z（内容更新）
+
+- 价格同步（6 处变更）：
+- **openrouter**（更新 6）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-flash-vision-exp`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`, `~deepseek/deepseek-v4-flash-latest`, `~z-ai/glm-flash-latest`
+
 ## 26.82.36 — 2026-09-07T04:15Z（功能更新）
 
 - 重构脚本层：按职责归组为 sync/migrate/tools 子包

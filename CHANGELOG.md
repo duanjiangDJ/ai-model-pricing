@@ -16,6 +16,11 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.83.36 — 2026-09-07T06:48Z (content update)
+
+- price sync (6 changes):
+- **openrouter** (updated 6): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-flash-vision-exp`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`, `~deepseek/deepseek-v4-flash-latest`, `~z-ai/glm-flash-latest`
+
 ## 26.82.36 — 2026-09-07T04:15Z (feature update)
 
 - refactor(scripts): organize script layer into semantic subpackages
