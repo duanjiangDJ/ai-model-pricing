@@ -16,6 +16,11 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.87.37 — 2026-09-07T21:50Z (content update)
+
+- price sync (1 change):
+- **openrouter** (updated 1): `~moonshotai/kimi-latest`
+
 ## 26.86.37 — 2026-09-07T18:56Z (feature update)
 
 - fix(router): dedup check:<provider> manifest sources when a provider has multiple tier checks (tier0_minimax + tier1_minimax wrote check:minimax twice)
