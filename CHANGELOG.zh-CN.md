@@ -16,6 +16,11 @@
 
 ---
 
+## 26.87.37 — 2026-09-07T21:50Z（内容更新）
+
+- 价格同步（1 处变更）：
+- **openrouter**（更新 1）：`~moonshotai/kimi-latest`
+
 ## 26.86.37 — 2026-09-07T18:56Z（功能更新）
 
 - fix(router): 当同一供应商存在多个 tier 检查模块时（如 tier0_minimax + tier1_minimax 各写一次 check:minimax），对 manifest 的 check:<provider> 源入口去重

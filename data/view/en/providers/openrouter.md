@@ -6,8 +6,8 @@
 - Homepage: https://openrouter.ai
 - Pricing page: https://openrouter.ai/models
 - Currency: USD
-- Data updated: 2026-09-07T18:31:16Z
-- Verified: 2026-09-07T18:31:16Z
+- Data updated: 2026-09-07T21:31:46Z
+- Verified: 2026-09-07T21:31:46Z
 
 **428** models in total.
 
@@ -435,7 +435,7 @@
 | `~deepseek/deepseek-v4-flash-latest` | — | reasoning | per-token | 1.31072M | $0.05 | $0.16 | $0.013 | — | —/— | — | OpenRouter reseller price |
 | `~google/gemini-flash-latest` | — | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | $0.0416667 | —/— | — | OpenRouter reseller price |
 | `~google/gemini-pro-latest` | — | reasoning | per-token | 1.04858M | $2 | $12 | $0.2 | $0.375 | —/— | — | OpenRouter reseller price |
-| `~moonshotai/kimi-latest` | — | reasoning | per-token | 1.04858M | $2.55 | $12.75 | $0.256 | — | —/— | — | OpenRouter reseller price |
+| `~moonshotai/kimi-latest` | — | reasoning | per-token | 1.04858M | $2.5 | $14 | $0.29 | — | —/— | — | OpenRouter reseller price |
 | `~openai/gpt-latest` | — | reasoning | per-token | 1.05M | $2 | $10 | $0.2 | $2.5 | —/— | — | OpenRouter reseller price |
 | `~openai/gpt-mini-latest` | — | reasoning | per-token | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | OpenRouter reseller price |
 | `~x-ai/grok-latest` | — | reasoning | per-token | 500K | $2 | $6 | $0.5 | — | —/— | — | OpenRouter reseller price |
