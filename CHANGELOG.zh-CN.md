@@ -16,6 +16,12 @@
 
 ---
 
+## 26.86.36 — 2026-09-07T18:51Z（内容更新）
+
+- 价格同步（3 处变更）：
+- **openrouter**（下架 2）：`minimax/minimax-m2.7:free`, `minimax/minimax-m3:free`
+- **openrouter**（更新 1）：`tencent/hy3`
+
 ## 26.85.36 — 2026-09-07T15:52Z（内容更新）
 
 - 价格同步（2 处变更 + 1 处元数据修正）：
