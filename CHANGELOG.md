@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.82.35 — 2026-09-07T03:47Z (feature update)
+
+- fix(README): keep 'Current scale' prose line in sync with data (drift gap closed, validate now catches it)
+
 ## 26.82.34 — 2026-09-07T00:51Z (content update)
 
 - price sync (6 changes):

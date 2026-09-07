@@ -94,6 +94,15 @@ def main():
                 errors.append(
                     f"{readme}: data statistics out of date (run 'python scripts/stats.py' to refresh)"
                 )
+        # The 'Current scale / 当前规模' prose line lives OUTSIDE the STATS markers, so the
+        # exact-marker check above cannot see it. It must still match the dataset — otherwise it
+        # drifts (e.g. said "7,465 models" while the dataset has 7,578). Caught here.
+        for readme, lang in (("README.md", "en"), ("README.zh-CN.md", "zh-CN")):
+            txt = open(readme, encoding="utf-8").read()
+            if stats_mod.current_scale_line(lang) not in txt:
+                errors.append(
+                    f"{readme}: 'Current scale' prose line out of date (run 'python scripts/stats.py' to refresh)"
+                )
     except Exception as e:  # noqa: BLE001
         errors.append(f"README stats check failed: {e}")
 
