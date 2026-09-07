@@ -16,6 +16,10 @@
 
 ---
 
+## 26.86.37 — 2026-09-07T18:56Z（功能更新）
+
+- fix(router): 当同一供应商存在多个 tier 检查模块时（如 tier0_minimax + tier1_minimax 各写一次 check:minimax），对 manifest 的 check:<provider> 源入口去重
+
 ## 26.86.36 — 2026-09-07T18:51Z（内容更新）
 
 - 价格同步（3 处变更）：
