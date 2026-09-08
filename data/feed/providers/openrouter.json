@@ -8,8 +8,8 @@
   "pricing_page": "https://openrouter.ai/models",
   "api_base_url": "https://openrouter.ai/api/v1",
   "currency": "USD",
-  "updated_at": "2026-09-08T18:34:17Z",
-  "verified_at": "2026-09-08T18:34:17Z",
+  "updated_at": "2026-09-08T21:34:24Z",
+  "verified_at": "2026-09-08T21:34:24Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1910,13 +1910,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.08554
+            "usd": 0.08246
           },
           "output": {
-            "usd": 0.17108
+            "usd": 0.16492
           },
           "cache_read": {
-            "usd": 0.017108
+            "usd": 0.016492
           },
           "cache_write": null
         },
@@ -2062,13 +2062,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.949692
+            "usd": 0.946386
           },
           "output": {
-            "usd": 1.899384
+            "usd": 1.892772
           },
           "cache_read": {
-            "usd": 0.079141
+            "usd": 0.0788655
           },
           "cache_write": null
         },
@@ -3685,8 +3685,8 @@
       "notes": "OpenRouter reseller price"
     },
     {
-      "id": "inception/mercury-2.5-preview",
-      "name": "Inception: Mercury 2.5 Preview",
+      "id": "inception/mercury-2.5",
+      "name": "Inception: Mercury 2.5",
       "category": "reasoning",
       "modalities": [
         "text"
@@ -4532,7 +4532,7 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.55
+            "usd": 0.4
           },
           "output": {
             "usd": 2.2
@@ -5433,7 +5433,9 @@
           "output": {
             "usd": 2.5
           },
-          "cache_read": null,
+          "cache_read": {
+            "usd": 0.15
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -12956,13 +12958,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2.5
+            "usd": 2.55
           },
           "output": {
-            "usd": 14.0
+            "usd": 12.75
           },
           "cache_read": {
-            "usd": 0.29
+            "usd": 0.25599999
           },
           "cache_write": null
         },
