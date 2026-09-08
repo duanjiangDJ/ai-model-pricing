@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.92.38 — 2026-09-08T18:55Z (content update)
+
+- price sync (11 changes):
+- **openrouter** (+5): `deepseek/deepseek-v4-flash-vision-exp:batch`, `nex-agi/nex-n2.5-mini:free`, `nex-agi/nex-n2.5-pro:free`, `z-ai/glm-5.2:batch`, `z-ai/glm-5.3:batch`
+- **openrouter** (updated 6): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-flash-0731:batch`, `deepseek/deepseek-v4-pro`, `meta/muse-glimmer-30b:batch`, `tencent/hy3`, `z-ai/glm-5.3-flash:batch`
+
 ## 26.91.38 — 2026-09-08T18:11Z (feature update)
 
 - fix: correct stale script subpackage paths after #130 refactor + repair sync_official registry path

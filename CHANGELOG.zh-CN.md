@@ -16,6 +16,12 @@
 
 ---
 
+## 26.92.38 — 2026-09-08T18:55Z（内容更新）
+
+- 价格同步（11 处变更）：
+- **openrouter**（新增 5）：`deepseek/deepseek-v4-flash-vision-exp:batch`, `nex-agi/nex-n2.5-mini:free`, `nex-agi/nex-n2.5-pro:free`, `z-ai/glm-5.2:batch`, `z-ai/glm-5.3:batch`
+- **openrouter**（更新 6）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-flash-0731:batch`, `deepseek/deepseek-v4-pro`, `meta/muse-glimmer-30b:batch`, `tencent/hy3`, `z-ai/glm-5.3-flash:batch`
+
 ## 26.91.38 — 2026-09-08T18:11Z（功能更新）
 
 - 修复：refactor #130 后脚本子包路径漂移（AGENTS/README/docs/docstring）并修复 sync_official 注册表路径通配

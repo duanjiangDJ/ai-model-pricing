@@ -8,8 +8,8 @@
   "pricing_page": "https://openrouter.ai/models",
   "api_base_url": "https://openrouter.ai/api/v1",
   "currency": "USD",
-  "updated_at": "2026-09-08T16:59:04Z",
-  "verified_at": "2026-09-08T16:59:04Z",
+  "updated_at": "2026-09-08T18:34:17Z",
+  "verified_at": "2026-09-08T18:34:17Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1910,13 +1910,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.08708
+            "usd": 0.08554
           },
           "output": {
-            "usd": 0.17416
+            "usd": 0.17108
           },
           "cache_read": {
-            "usd": 0.017416
+            "usd": 0.017108
           },
           "cache_write": null
         },
@@ -1970,13 +1970,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.14
+            "usd": 0.11
           },
           "output": {
-            "usd": 0.28
+            "usd": 0.33
           },
           "cache_read": {
-            "usd": 0.03
+            "usd": 0.0035
           },
           "cache_write": null
         },
@@ -2017,6 +2017,37 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "deepseek/deepseek-v4-flash-vision-exp:batch",
+      "name": "DeepSeek: DeepSeek V4 Flash Vision Exp (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 1048576,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.11
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.0035
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "deepseek/deepseek-v4-pro",
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "category": "reasoning",
@@ -2031,13 +2062,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.95526
+            "usd": 0.949692
           },
           "output": {
-            "usd": 1.91052
+            "usd": 1.899384
           },
           "cache_read": {
-            "usd": 0.079605
+            "usd": 0.079141
           },
           "cache_write": null
         },
@@ -4221,13 +4252,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.35
+            "usd": 0.175
           },
           "output": {
-            "usd": 1.5
+            "usd": 0.75
           },
           "cache_read": {
-            "usd": 0.04
+            "usd": 0.02
           },
           "cache_write": null
         },
@@ -5622,6 +5653,63 @@
         "promo": null
       },
       "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "nex-agi/nex-n2.5-mini:free",
+      "name": "Nex AGI: Nex-N2.5-Mini (free)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": null,
+      "billing_model": [
+        "free"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.0
+          },
+          "output": {
+            "usd": 0.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
+    },
+    {
+      "id": "nex-agi/nex-n2.5-pro:free",
+      "name": "Nex AGI: Nex-N2.5-Pro (free)",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 262144,
+      "max_output": null,
+      "billing_model": [
+        "free"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.0
+          },
+          "output": {
+            "usd": 0.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price | Free model (per_mtok = 0)."
     },
     {
       "id": "nousresearch/hermes-3-llama-3.1-405b",
@@ -11355,13 +11443,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.132
+            "usd": 0.0825
           },
           "output": {
-            "usd": 0.528
+            "usd": 0.33
           },
           "cache_read": {
-            "usd": 0.033
+            "usd": 0.020625
           },
           "cache_write": null
         },
@@ -12434,6 +12522,36 @@
       "notes": "OpenRouter reseller price"
     },
     {
+      "id": "z-ai/glm-5.2:batch",
+      "name": "Z.ai: GLM 5.2 (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.7
+          },
+          "output": {
+            "usd": 2.2
+          },
+          "cache_read": {
+            "usd": 0.07
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
       "id": "z-ai/glm-5.3",
       "name": "Z.ai: GLM 5.3",
       "category": "reasoning",
@@ -12504,7 +12622,7 @@
         "image_in",
         "video_in"
       ],
-      "context_window": 1048575,
+      "context_window": 1048576,
       "max_output": null,
       "billing_model": [
         "pay_per_token"
@@ -12512,13 +12630,43 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.15
+            "usd": 0.075
           },
           "output": {
-            "usd": 0.5
+            "usd": 0.25
           },
           "cache_read": {
-            "usd": 0.03
+            "usd": 0.015
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price"
+    },
+    {
+      "id": "z-ai/glm-5.3:batch",
+      "name": "Z.ai: GLM 5.3 (batch)",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.7
+          },
+          "output": {
+            "usd": 2.2
+          },
+          "cache_read": {
+            "usd": 0.13
           },
           "cache_write": null
         },
