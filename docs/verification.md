@@ -8,7 +8,7 @@ of the data in this repository.
 
 `scripts/daily_check.py` runs the following steps every day:
 
-0. **Official-price layer** — `scripts/sync_official.py` fetches **official pricing pages
+0. **Official-price layer** — `scripts/sync/sync_official.py` fetches **official pricing pages
    directly** (source registry: `scripts/official_sources.json`):
    - direct fetch + parse: DeepSeek, Baidu Qianfan, Anthropic (static/SSR pages);
    - Wayback-snapshot fallback: OpenAI (JS-rendered), Google (disabled pending better parser);

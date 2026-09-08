@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.91.38 — 2026-09-08T18:11Z (feature update)
+
+- fix: correct stale script subpackage paths after #130 refactor + repair sync_official registry path
+
 ## 26.91.37 — 2026-09-08T15:55Z (content update)
 
 - price sync (9 changes):

@@ -7,7 +7,7 @@
 
 `scripts/daily_check.py` 每天执行以下步骤：
 
-0. **官方价格层** — `scripts/sync_official.py` **直接抓取官方定价页**（来源注册表：`scripts/official_sources.json`）：
+0. **官方价格层** — `scripts/sync/sync_official.py` **直接抓取官方定价页**（来源注册表：`scripts/official_sources.json`）：
    - 直接抓取并解析：DeepSeek、百度千帆、Anthropic（静态/SSR 页面）；
    - Wayback 快照兜底：OpenAI（JS 渲染）、Google（暂禁用，待更好的解析器）；
    - 解析得到的值更新 `per_mtok.{input,output,cache_read,cache_write}`/`batch`，即使价格未变也刷新 `verified_at`（"今日已检查"），并在 manifest 中记录每个来源的 `last_ok`/`last_error`。

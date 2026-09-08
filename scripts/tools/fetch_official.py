@@ -4,7 +4,7 @@
 This is the programmatic "verify against the official source" workflow the agent runs
 (policy §15.2). If a price looks suspicious, run:
 
-    python scripts/fetch_official.py <model_id_or_provider> [--json]
+    python scripts/tools/fetch_official.py <model_id_or_provider> [--json]
 
 and it queries every registered OFFICIAL source and prints that model's official
 per_mtok pricing + source URL + a free/rate-derived hint — so the agent gets grounded
