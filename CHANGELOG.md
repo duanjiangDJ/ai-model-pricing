@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.91.37 — 2026-09-08T15:55Z (content update)
+
+- price sync (9 changes):
+- **openrouter** (-2): `nex-agi/nex-n2-mini`, `nex-agi/nex-n2-pro`
+- **openrouter** (updated 7): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-flash-vision-exp`, `deepseek/deepseek-v4-pro-0813`, `minimax/minimax-m1`, `qwen/qwen3.5-397b-a17b`, `~z-ai/glm-flash-latest`, `~z-ai/glm-latest`
+
 ## 26.90.37 — 2026-09-08T06:51Z (content update)
 
 - price sync (1 change):
