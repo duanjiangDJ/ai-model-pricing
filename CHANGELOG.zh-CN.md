@@ -16,6 +16,12 @@
 
 ---
 
+## 26.91.37 — 2026-09-08T15:55Z（内容更新）
+
+- 价格同步（9 处变更）：
+- **openrouter**（下架 2）：`nex-agi/nex-n2-mini`, `nex-agi/nex-n2-pro`
+- **openrouter**（更新 7）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-flash-vision-exp`, `deepseek/deepseek-v4-pro-0813`, `minimax/minimax-m1`, `qwen/qwen3.5-397b-a17b`, `~z-ai/glm-flash-latest`, `~z-ai/glm-latest`
+
 ## 26.90.37 — 2026-09-08T06:51Z（内容更新）
 
 - 价格同步（1 处变更）：
