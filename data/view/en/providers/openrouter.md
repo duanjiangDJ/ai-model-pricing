@@ -6,8 +6,8 @@
 - Homepage: https://openrouter.ai
 - Pricing page: https://openrouter.ai/models
 - Currency: USD
-- Data updated: 2026-09-08T03:32:25Z
-- Verified: 2026-09-08T03:32:25Z
+- Data updated: 2026-09-08T06:33:02Z
+- Verified: 2026-09-08T06:33:02Z
 
 **428** models in total.
 
@@ -75,7 +75,7 @@
 | `deepseek/deepseek-v3.2` | — | reasoning | per-token | 163.84K | $0.269 | $0.4 | $0.1345 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2-exp` | — | reasoning | per-token | 163.84K | $0.27 | $0.41 | — | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash` | — | reasoning | per-token | 1.04858M | $0.088606 | $0.177212 | $0.0177212 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-flash-0731` | — | reasoning | per-token | 1.31072M | $0.14 | $0.28 | $0.028 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-flash-0731` | — | reasoning | per-token | 1.31072M | $0.065 | $0.18 | $0.016 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731:batch` | — | reasoning | per-token | 1.04858M | $0.14 | $0.28 | $0.03 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | per-token | 1.04858M | $0.44 | $1.32 | $0.014 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | per-token | 1.04858M | $0.95526 | $1.91052 | $0.079605 | — | —/— | — | OpenRouter reseller price |
