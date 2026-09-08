@@ -5,7 +5,7 @@ This is the "official-price-first" layer of the daily check. Strategy per source
 declared in scripts/official_sources.json. Parsers return ONLY fields they can confirm;
 unknown values are left untouched (never overwritten with guesses).
 
-Usage: python scripts/sync_official.py [--dry-run] [--source <provider_id>]
+Usage: python scripts/sync/sync_official.py [--dry-run] [--source <provider_id>]
 """
 import argparse
 import json
@@ -362,7 +362,7 @@ def main():
 
     now = now_iso()
     manifest = load_manifest()
-    registry = read_json(os.path.join(os.path.dirname(os.path.abspath(__file__)), "official_sources.json"))
+    registry = read_json(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "official_sources.json"))
     srcs = [s for s in manifest.get("sources", []) if not s.get("official")]
     # Snapshot the existing official-source entries keyed by name so a --source-scoped
     # run can preserve the ones it did not process instead of silently dropping them

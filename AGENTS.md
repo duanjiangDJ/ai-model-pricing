@@ -45,15 +45,17 @@ data/view/              # GENERATED (never edit): en/*.md + zh-CN/*.md
 docs/                    # providers.md (landscape & status, generated), price-types.md,
                          # research-contract.md, verification.md
 scripts/
-  router.py              # Core check router: discovers checks/, runs in tier order
+  collect/router.py      # Core check router: discovers collectors/, runs in tier order
   toolbox.py             # Shared utilities (http, JSON, changelog, manifest, dedup)
   checks/                # Per-provider official-price checks (tierN_<provider>.py)
-  daily_check.py         # Daily entry: router (official) -> models.dev -> OpenRouter
-  sync_official.py       # Standalone official-source sync (official_sources.json registry)
-  sync_openrouter.py     # OpenRouter catalog sync (aggregator prices)
-  sync_modelsdev.py      # models.dev catalog sync
+  daily_check.py         # Daily entry: collect/price_check (router) -> models.dev -> OpenRouter
+  sync/sync_official.py  # Standalone official-source sync (official_sources.json registry)
+  sync/sync_openrouter.py  # OpenRouter catalog sync (aggregator prices, per-token x1e6)
+  sync/sync_modelsdev.py   # models.dev catalog sync
   validate.py            # Schema + consistency validation
   audit.py               # Repo-wide audit (version, counts, zero-price, docs bilingual)
+  tools/
+    fetch_official.py    # Official-source verification fetcher (policy §15.2 SOURCES)
   build_human.py         # Generate human pages (en + zh-CN)
   stats.py               # Exact data statistics for README
   bump_version.py        # Version bump (year.content.feature) + changelog entries
@@ -158,12 +160,12 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
   "surge" in an aggregator channel, cross-check against LIVE `openrouter.ai/api/v1/models` first
   — a clean 2x matching a first-party peak/off-peak tier is a timing snapshot, not corruption.
 
-- **Official-source verification reads each source's real keys.** `scripts/fetch_official.py`
+- **Official-source verification reads each source's real keys.** `scripts/tools/fetch_official.py`
   must read the key each source actually uses: models.dev `api.json` stores prices under
   `cost` (already USD per 1M tokens) — NOT `pricing`; the OpenRouter API stores per-token
   prices under `pricing` and must be scaled ×1e6. A fetcher that reads `pricing` for a
   models.dev entry silently returns no price forever (the “check that never fires” gap).
-  When extending the `SOURCES` registry, verify with `python scripts/fetch_official.py <model> --json`.
+  When extending the `SOURCES` registry, verify with `python scripts/tools/fetch_official.py <model> --json`.
 
 - **Sync writers must emit every required provider field on a new provider file.**
   `sync_modelsdev.py` once built new providers without `api_base_url`: models.dev supplies
