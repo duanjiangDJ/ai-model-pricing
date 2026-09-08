@@ -16,6 +16,11 @@
 
 ---
 
+## 26.89.37 — 2026-09-08T03:50Z（内容更新）
+
+- 价格同步（4 处变更）：
+- **openrouter**（更新 4）：`deepseek/deepseek-v4-flash-vision-exp`, `deepseek/deepseek-v4-pro-0813`, `minimax/minimax-m1`, `qwen/qwen3-14b`
+
 ## 26.88.37 — 2026-09-08T00:52Z（内容更新）
 
 - 价格同步（7 处变更）：
