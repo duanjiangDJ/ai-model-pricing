@@ -16,6 +16,11 @@
 
 ---
 
+## 26.88.37 — 2026-09-08T00:52Z（内容更新）
+
+- 价格同步（7 处变更）：
+- **openrouter**（更新 7）：`deepseek/deepseek-chat-v3-0324`, `deepseek/deepseek-chat-v3.1`, `moonshotai/kimi-k2-thinking`, `moonshotai/kimi-k2.7-code`, `tencent/hy3`, `z-ai/glm-4.6`, `z-ai/glm-4.7-flash`
+
 ## 26.87.37 — 2026-09-07T21:50Z（内容更新）
 
 - 价格同步（1 处变更）：

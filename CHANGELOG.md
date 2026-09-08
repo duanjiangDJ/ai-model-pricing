@@ -16,6 +16,11 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.88.37 — 2026-09-08T00:52Z (content update)
+
+- price sync (7 changes):
+- **openrouter** (updated 7): `deepseek/deepseek-chat-v3-0324`, `deepseek/deepseek-chat-v3.1`, `moonshotai/kimi-k2-thinking`, `moonshotai/kimi-k2.7-code`, `tencent/hy3`, `z-ai/glm-4.6`, `z-ai/glm-4.7-flash`
+
 ## 26.87.37 — 2026-09-07T21:50Z (content update)
 
 - price sync (1 change):
