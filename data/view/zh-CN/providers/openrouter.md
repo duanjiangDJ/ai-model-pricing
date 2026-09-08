@@ -130,7 +130,7 @@
 | `ibm-granite/granite-4.0-h-micro` | — | chat | 按量 | 131K | $0.017 | $0.112 | — | — | —/— | — | OpenRouter reseller price |
 | `ibm-granite/granite-4.2-8b` | — | reasoning | 按量 | 131.072K | $0.1 | $0.15 | $0.05 | — | —/— | — | OpenRouter reseller price |
 | `inception/mercury-2` | — | reasoning | 按量 | 128K | $0.25 | $0.75 | $0.025 | — | —/— | — | OpenRouter reseller price |
-| `inception/mercury-2.5-preview` | — | reasoning | 按量 | 260K | $0.2 | $0.75 | $0.02 | — | —/— | — | OpenRouter reseller price |
+| `inception/mercury-2.5-preview` | — | reasoning | 按量 | 260K | $0.04 | $0.15 | $0.004 | — | —/— | — | OpenRouter reseller price |
 | `inclusionai/ling-3.0-flash` | — | reasoning | 按量 | 262.144K | $0.021 | $0.063 | $0.0042 | — | —/— | — | OpenRouter reseller price |
 | `inclusionai/ling-3.0-flash-fin` | — | reasoning | 按量 | 262.144K | $0.06 | $0.18 | $0.012 | — | —/— | — | OpenRouter reseller price |
 | `inclusionai/ling-3.0-flash-fin:free` | — | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
