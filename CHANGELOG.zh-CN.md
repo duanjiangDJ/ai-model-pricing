@@ -16,6 +16,13 @@
 
 ---
 
+## 26.93.38 — 2026-09-08T21:54Z（内容更新）
+
+- 价格同步（7 处变更）：
+- **openrouter**（新增 1）：`inception/mercury-2.5`
+- **openrouter**（下架 1）：`inception/mercury-2.5-preview`
+- **openrouter**（更新 5）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `minimax/minimax-m1`, `moonshotai/kimi-k2-thinking`, `~moonshotai/kimi-latest`
+
 ## 26.92.38 — 2026-09-08T18:55Z（内容更新）
 
 - 价格同步（11 处变更）：

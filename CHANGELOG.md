@@ -16,6 +16,13 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.93.38 — 2026-09-08T21:54Z (content update)
+
+- price sync (7 changes):
+- **openrouter** (+1): `inception/mercury-2.5`
+- **openrouter** (-1): `inception/mercury-2.5-preview`
+- **openrouter** (updated 5): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `minimax/minimax-m1`, `moonshotai/kimi-k2-thinking`, `~moonshotai/kimi-latest`
+
 ## 26.92.38 — 2026-09-08T18:55Z (content update)
 
 - price sync (11 changes):
