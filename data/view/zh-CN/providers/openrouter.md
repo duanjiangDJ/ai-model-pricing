@@ -6,8 +6,8 @@
 - 官网: https://openrouter.ai
 - 定价页: https://openrouter.ai/models
 - 币种: USD
-- 数据更新时间: 2026-09-08T03:32:25Z
-- 核实时间: 2026-09-08T03:32:25Z
+- 数据更新时间: 2026-09-08T06:33:02Z
+- 核实时间: 2026-09-08T06:33:02Z
 
 共 **428** 个模型。
 
@@ -75,7 +75,7 @@
 | `deepseek/deepseek-v3.2` | — | reasoning | 按量 | 163.84K | $0.269 | $0.4 | $0.1345 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2-exp` | — | reasoning | 按量 | 163.84K | $0.27 | $0.41 | — | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash` | — | reasoning | 按量 | 1.04858M | $0.088606 | $0.177212 | $0.0177212 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-flash-0731` | — | reasoning | 按量 | 1.31072M | $0.14 | $0.28 | $0.028 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-flash-0731` | — | reasoning | 按量 | 1.31072M | $0.065 | $0.18 | $0.016 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731:batch` | — | reasoning | 按量 | 1.04858M | $0.14 | $0.28 | $0.03 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-vision-exp` | — | reasoning | 按量 | 1.04858M | $0.44 | $1.32 | $0.014 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro` | — | reasoning | 按量 | 1.04858M | $0.95526 | $1.91052 | $0.079605 | — | —/— | — | OpenRouter reseller price |
