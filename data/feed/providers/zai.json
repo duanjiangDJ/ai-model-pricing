@@ -7,8 +7,8 @@
   "homepage": "https://docs.z.ai/guides/overview/pricing",
   "pricing_page": "https://docs.z.ai/guides/overview/pricing",
   "currency": "USD",
-  "updated_at": "2026-09-04T00:22:51Z",
-  "verified_at": "2026-09-04T00:22:51Z",
+  "updated_at": "2026-09-09T18:38:31Z",
+  "verified_at": "2026-09-09T18:38:31Z",
   "models": [
     {
       "id": "glm-4-32b-0414-128k",
@@ -644,13 +644,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.075
+            "usd": 0.15
           },
           "output": {
-            "usd": 0.25
+            "usd": 0.5
           },
           "cache_read": {
-            "usd": 0.015
+            "usd": 0.03
           },
           "cache_write": null
         },
@@ -673,7 +673,7 @@
           "ends_at": "2026-09-09T16:00:00Z"
         }
       },
-      "notes": "Official docs.z.ai/guides/overview/pricing (USD per 1M tokens). PROMO: 50% off until 2026-09-09 24:00 UTC+8 (list $0.15/$0.50/$0.03); after that list prices apply.",
+      "notes": "Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; effective price after promos; Free = 0). Parsed by check zai.",
       "billing_model": [
         "pay_per_token"
       ]

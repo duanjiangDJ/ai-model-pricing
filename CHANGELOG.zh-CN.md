@@ -16,6 +16,12 @@
 
 ---
 
+## 26.100.38 — 2026-09-09T18:57Z（内容更新）
+
+- 价格同步（4 处变更）：
+- **openrouter**（更新 3）：`deepseek/deepseek-v4-flash`, `tencent/hy3`, `z-ai/glm-5.2`
+- **zai**（更新 1）：`glm-5.3-flash`
+
 ## 26.99.38 — 2026-09-09T17:25Z（内容更新）
 
 - 数据：修复非免费模型 cache_read/cache_write usd:0→null（gpt-3.5-turbo 及另 10 处 reseller 条目）；0 保留给免费模型，未提供用 null。由 @roy-tong 发现（#147）。加固 audit.py：非免费模型 cache_read/cache_write usd:0 即 FAIL（已负向验证触发）。

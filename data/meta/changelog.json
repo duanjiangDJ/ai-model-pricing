@@ -1,6 +1,141 @@
 {
-  "schema_version": "26.99.38",
+  "schema_version": "26.100.38",
   "entries": [
+    {
+      "date": "2026-09-09T18:38:31Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "zai",
+      "item_id": "glm-5.3-flash,glm-5.3-flash,glm-5.3-flash",
+      "field": "pricing",
+      "new": {
+        "models": 3
+      },
+      "source": "https://docs.z.ai/guides/overview/pricing.md"
+    },
+    {
+      "date": "2026-09-09T18:37:25Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-flash",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08554
+          },
+          "output": {
+            "usd": 0.17108
+          },
+          "cache_read": {
+            "usd": 0.017108
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.07
+          },
+          "output": {
+            "usd": 0.14
+          },
+          "cache_read": {
+            "usd": 0.014
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-09T18:37:25Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "tencent/hy3",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.132
+          },
+          "output": {
+            "usd": 0.528
+          },
+          "cache_read": {
+            "usd": 0.033
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.0825
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.020625
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-09T18:37:25Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "z-ai/glm-5.2",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.966
+          },
+          "output": {
+            "usd": 3.036
+          },
+          "cache_read": {
+            "usd": 0.1932
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.28
+          },
+          "output": {
+            "usd": 0.88
+          },
+          "cache_read": {
+            "usd": 0.052
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-09T15:36:24Z",
       "kind": "remove",
@@ -127789,90 +127924,6 @@
       "scope": "provider",
       "provider_id": "tensorx",
       "item_id": "tensorx",
-      "field": "catalog",
-      "new": {
-        "provider_count": 192
-      },
-      "source": "https://models.dev/api.json"
-    },
-    {
-      "date": "2026-08-21T11:27:12Z",
-      "kind": "add",
-      "scope": "provider",
-      "provider_id": "tencent-token-plan",
-      "item_id": "tencent-token-plan",
-      "field": "catalog",
-      "new": {
-        "provider_count": 192
-      },
-      "source": "https://models.dev/api.json"
-    },
-    {
-      "date": "2026-08-21T11:27:12Z",
-      "kind": "add",
-      "scope": "provider",
-      "provider_id": "kilo",
-      "item_id": "kilo",
-      "field": "catalog",
-      "new": {
-        "provider_count": 192
-      },
-      "source": "https://models.dev/api.json"
-    },
-    {
-      "date": "2026-08-21T11:27:12Z",
-      "kind": "add",
-      "scope": "provider",
-      "provider_id": "pioneer",
-      "item_id": "pioneer",
-      "field": "catalog",
-      "new": {
-        "provider_count": 192
-      },
-      "source": "https://models.dev/api.json"
-    },
-    {
-      "date": "2026-08-21T11:27:12Z",
-      "kind": "add",
-      "scope": "provider",
-      "provider_id": "venice",
-      "item_id": "venice",
-      "field": "catalog",
-      "new": {
-        "provider_count": 192
-      },
-      "source": "https://models.dev/api.json"
-    },
-    {
-      "date": "2026-08-21T11:27:12Z",
-      "kind": "add",
-      "scope": "provider",
-      "provider_id": "fireworks-ai",
-      "item_id": "fireworks-ai",
-      "field": "catalog",
-      "new": {
-        "provider_count": 192
-      },
-      "source": "https://models.dev/api.json"
-    },
-    {
-      "date": "2026-08-21T11:27:12Z",
-      "kind": "add",
-      "scope": "provider",
-      "provider_id": "moonshotai-cn",
-      "item_id": "moonshotai-cn",
-      "field": "catalog",
-      "new": {
-        "provider_count": 192
-      },
-      "source": "https://models.dev/api.json"
-    },
-    {
-      "date": "2026-08-21T11:27:12Z",
-      "kind": "add",
-      "scope": "provider",
-      "provider_id": "wandb",
-      "item_id": "wandb",
       "field": "catalog",
       "new": {
         "provider_count": 192

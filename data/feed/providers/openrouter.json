@@ -8,8 +8,8 @@
   "pricing_page": "https://openrouter.ai/models",
   "api_base_url": "https://openrouter.ai/api/v1",
   "currency": "USD",
-  "updated_at": "2026-09-09T15:36:24Z",
-  "verified_at": "2026-09-09T15:36:24Z",
+  "updated_at": "2026-09-09T18:37:25Z",
+  "verified_at": "2026-09-09T18:37:25Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1910,13 +1910,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.08554
+            "usd": 0.07
           },
           "output": {
-            "usd": 0.17108
+            "usd": 0.14
           },
           "cache_read": {
-            "usd": 0.017108
+            "usd": 0.014
           },
           "cache_write": null
         },
@@ -5659,7 +5659,8 @@
       "name": "Nex AGI: Nex-N2.5-Mini (free)",
       "category": "reasoning",
       "modalities": [
-        "text"
+        "text",
+        "image_in"
       ],
       "context_window": 262144,
       "max_output": null,
@@ -11413,13 +11414,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.132
+            "usd": 0.0825
           },
           "output": {
-            "usd": 0.528
+            "usd": 0.33
           },
           "cache_read": {
-            "usd": 0.033
+            "usd": 0.020625
           },
           "cache_write": null
         },
@@ -12476,13 +12477,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.966
+            "usd": 0.28
           },
           "output": {
-            "usd": 3.036
+            "usd": 0.88
           },
           "cache_read": {
-            "usd": 0.1932
+            "usd": 0.052
           },
           "cache_write": null
         },

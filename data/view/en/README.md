@@ -3,7 +3,7 @@
 > Data sources: official pricing pages & public APIs. Machine-readable version: [`data/feed/`](../../../data/feed/).
 > Auto-updated daily by GitHub Actions (see `.github/workflows/daily-check.yml`).
 
-- Generated: 2026-09-09T15:36:24Z
+- Generated: 2026-09-09T18:37:25Z
 - Providers: 190
 - Models total: 7578
 - Plans total: 67
@@ -64,7 +64,7 @@
 | [Snowflake Cortex](providers/snowflake-cortex.md) | Inference host | 25 | `providers/snowflake-cortex.json` | 2026-09-04T00:22:51Z |
 | [Anthropic](providers/anthropic.md) | First-party | 17 | `providers/anthropic.json` | 2026-09-04T00:22:51Z |
 | [Cohere](providers/cohere.md) | First-party | 14 | `providers/cohere.json` | 2026-09-04T00:22:51Z |
-| [Z.AI](providers/zai.md) | Inference host | 23 | `providers/zai.json` | 2026-09-04T00:22:51Z |
+| [Z.AI](providers/zai.md) | Inference host | 23 | `providers/zai.json` | 2026-09-09T18:38:31Z |
 | [routing.run](providers/routing-run.md) | Inference host | 15 | `providers/routing-run.json` | 2026-09-04T00:22:51Z |
 | [STACKIT](providers/stackit.md) | Inference host | 8 | `providers/stackit.json` | 2026-09-04T00:22:51Z |
 | [Databricks](providers/databricks.md) | Inference host | 30 | `providers/databricks.json` | 2026-09-04T00:22:51Z |
@@ -201,7 +201,7 @@
 | [百川智能 (Baichuan)](providers/baichuan.md) | First-party | 1 | `providers/baichuan.json` | 2026-08-28T10:02:16.380334Z |
 | [科大讯飞星火 (iFlytek Spark)](providers/iflytek.md) | First-party | 2 | `providers/iflytek.json` | 2026-08-28T10:02:16.380334Z |
 | [零一万物 (01.AI)](providers/lingyiwanwu.md) | First-party | 2 | `providers/lingyiwanwu.json` | 2026-08-28T10:02:16.380334Z |
-| [OpenRouter](providers/openrouter.md) | Aggregator | 430 | `providers/openrouter.json` | 2026-09-09T15:36:24Z |
+| [OpenRouter](providers/openrouter.md) | Aggregator | 430 | `providers/openrouter.json` | 2026-09-09T18:37:25Z |
 
 ## Plans
 
