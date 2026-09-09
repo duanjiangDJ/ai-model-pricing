@@ -1,6 +1,18 @@
 {
-  "schema_version": "26.101.38",
+  "schema_version": "26.102.38",
   "entries": [
+    {
+      "date": "2026-09-09T21:38:42Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "tencent",
+      "item_id": "hunyuan-hy3,hunyuan-hy3,hunyuan-hy3",
+      "field": "pricing",
+      "new": {
+        "models": 3
+      },
+      "source": "https://cloud.tencent.com/document/product/1759/127342"
+    },
     {
       "date": "2026-09-09T18:38:31Z",
       "kind": "update",
@@ -127912,18 +127924,6 @@
       "scope": "provider",
       "provider_id": "ebcloud",
       "item_id": "ebcloud",
-      "field": "catalog",
-      "new": {
-        "provider_count": 192
-      },
-      "source": "https://models.dev/api.json"
-    },
-    {
-      "date": "2026-08-21T11:27:12Z",
-      "kind": "add",
-      "scope": "provider",
-      "provider_id": "tensorx",
-      "item_id": "tensorx",
       "field": "catalog",
       "new": {
         "provider_count": 192

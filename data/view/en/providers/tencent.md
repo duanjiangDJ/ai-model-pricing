@@ -6,8 +6,8 @@
 - Homepage: https://hunyuan.tencent.com
 - Pricing page: https://cloud.tencent.com/document/product/1759/127342
 - Currency: CNY (non-USD, see notes)
-- Data updated: 2026-08-29T12:52:51Z
-- Verified: 2026-08-29T12:52:51Z
+- Data updated: 2026-09-09T21:38:42Z
+- Verified: 2026-09-09T21:38:42Z
 
 **1** models in total.
 
