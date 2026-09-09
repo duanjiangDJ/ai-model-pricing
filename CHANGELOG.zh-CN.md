@@ -16,6 +16,12 @@
 
 ---
 
+## 26.98.38 — 2026-09-09T15:56Z（内容更新）
+
+- 价格同步（4 处变更）：
+- **openrouter**（下架 1）：`nousresearch/hermes-4-70b`
+- **openrouter**（更新 3）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`
+
 ## 26.97.38 — 2026-09-09T09:55Z（内容更新）
 
 - 价格同步（1 处变更）：

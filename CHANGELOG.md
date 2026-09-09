@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.98.38 — 2026-09-09T15:56Z (content update)
+
+- price sync (4 changes):
+- **openrouter** (-1): `nousresearch/hermes-4-70b`
+- **openrouter** (updated 3): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`
+
 ## 26.97.38 — 2026-09-09T09:55Z (content update)
 
 - price sync (1 change):

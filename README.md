@@ -40,7 +40,7 @@ verification.
 ## Data Statistics (exact)
 
 - **Providers**: 190
-- **Models**: 7579
+- **Models**: 7578
 - **Subscription plans**: 67
 - **Distinct API endpoints**: 183
 - **Free models**: 477
@@ -52,7 +52,7 @@ verification.
 | Inference host | 138 | 4531 |
 | First-party | 20 | 427 |
 | Subscription | 18 | 176 |
-| Aggregator | 13 | 2325 |
+| Aggregator | 13 | 2324 |
 | Cloud-hosted | 1 | 120 |
 
 ### By region
@@ -69,7 +69,7 @@ verification.
 |---|---|
 | offline | 43 |
 | online | 18 |
-| (unmarked) | 7518 |
+| (unmarked) | 7517 |
 
 ### Top providers by model count
 
@@ -77,7 +77,7 @@ verification.
 |---|---|
 | NanoGPT (`nano-gpt`) | 693 |
 | DevPass (LLM Gateway) (`llmgateway`) | 565 |
-| OpenRouter (`openrouter`) | 431 |
+| OpenRouter (`openrouter`) | 430 |
 | Kilo Gateway (`kilo`) | 383 |
 | Vercel AI Gateway (`vercel`) | 375 |
 | Eden AI (`edenai`) | 255 |
@@ -143,7 +143,7 @@ Reading/updating rules for AI agents: [AGENTS.md](AGENTS.md).
 | Consumer subscriptions | ChatGPT Plus/Pro, Claude Pro/Max, Gemini AI, Perplexity, SuperGrok, Poe etc. | ✅ in DB |
 | Coding plans | Copilot, Cursor, Windsurf, Claude Code, JetBrains AI, Devin, Amazon Q, Replit, Tabnine etc. | ✅ in DB |
 
-**Current scale**: 190 providers, 7,579 models, 67 subscription plans. Exact numbers in the [Data Statistics](#data-statistics-exact) section above.
+**Current scale**: 190 providers, 7,578 models, 67 subscription plans. Exact numbers in the [Data Statistics](#data-statistics-exact) section above.
 Data is auto-synced daily (OpenRouter + models.dev); human-verified entries carry `verified_at` + source URLs.
 
 > Honest scope statement: **no single source covers all pricing** (verified: OpenRouter / models.dev /
