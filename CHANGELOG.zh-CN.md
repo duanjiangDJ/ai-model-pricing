@@ -16,6 +16,11 @@
 
 ---
 
+## 26.94.38 — 2026-09-09T00:54Z（内容更新）
+
+- 价格同步（8 处变更）：
+- **openrouter**（更新 8）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `ibm-granite/granite-4.2-8b`, `minimax/minimax-m1`, `moonshotai/kimi-k2-thinking`, `qwen/qwen3-next-80b-a3b-instruct`, `tencent/hy3`, `z-ai/glm-4.6`
+
 ## 26.93.38 — 2026-09-08T21:54Z（内容更新）
 
 - 价格同步（7 处变更）：
