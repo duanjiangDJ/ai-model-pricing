@@ -6,8 +6,8 @@
 - 官网: https://openrouter.ai
 - 定价页: https://openrouter.ai/models
 - 币种: USD
-- 数据更新时间: 2026-09-09T03:34:56Z
-- 核实时间: 2026-09-09T03:34:56Z
+- 数据更新时间: 2026-09-09T06:35:57Z
+- 核实时间: 2026-09-09T06:35:57Z
 
 共 **431** 个模型。
 
@@ -329,7 +329,7 @@
 | `qwen/qwen2.5-vl-72b-instruct` | — | chat | 按量 | 128K | $0.8 | $1 | $0.4 | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-14b` | — | reasoning | 按量 | 131.072K | $0.2275 | $0.91 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-235b-a22b` | — | reasoning | 按量 | 131.072K | $0.455 | $1.82 | — | — | —/— | — | OpenRouter reseller price |
-| `qwen/qwen3-235b-a22b-2507` | — | chat | 按量 | 262.144K | $0.09 | $0.55 | — | — | —/— | — | OpenRouter reseller price |
+| `qwen/qwen3-235b-a22b-2507` | — | chat | 按量 | 262.144K | $0.22 | $0.88 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-235b-a22b-thinking-2507` | — | reasoning | 按量 | 131.072K | $0.23 | $2.3 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-30b-a3b` | — | reasoning | 按量 | 131.072K | $0.12 | $0.5 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-30b-a3b-instruct-2507` | — | chat | 按量 | 262.144K | $0.04815 | $0.19305 | — | — | —/— | — | OpenRouter reseller price |

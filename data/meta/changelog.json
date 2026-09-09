@@ -1,6 +1,43 @@
 {
-  "schema_version": "26.95.38",
+  "schema_version": "26.96.38",
   "entries": [
+    {
+      "date": "2026-09-09T06:35:57Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "qwen/qwen3-235b-a22b-2507",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.09
+          },
+          "output": {
+            "usd": 0.55
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.22
+          },
+          "output": {
+            "usd": 0.88
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-09T03:34:56Z",
       "kind": "update",
@@ -127686,30 +127723,6 @@
       "scope": "provider",
       "provider_id": "abacus",
       "item_id": "abacus",
-      "field": "catalog",
-      "new": {
-        "provider_count": 192
-      },
-      "source": "https://models.dev/api.json"
-    },
-    {
-      "date": "2026-08-21T11:27:12Z",
-      "kind": "add",
-      "scope": "provider",
-      "provider_id": "minimax",
-      "item_id": "minimax",
-      "field": "catalog",
-      "new": {
-        "provider_count": 192
-      },
-      "source": "https://models.dev/api.json"
-    },
-    {
-      "date": "2026-08-21T11:27:12Z",
-      "kind": "add",
-      "scope": "provider",
-      "provider_id": "vultr",
-      "item_id": "vultr",
       "field": "catalog",
       "new": {
         "provider_count": 192

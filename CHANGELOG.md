@@ -16,6 +16,11 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.96.38 — 2026-09-09T06:52Z (content update)
+
+- price sync (1 change):
+- **openrouter** (updated 1): `qwen/qwen3-235b-a22b-2507`
+
 ## 26.95.38 — 2026-09-09T03:52Z (content update)
 
 - price sync (2 changes):
