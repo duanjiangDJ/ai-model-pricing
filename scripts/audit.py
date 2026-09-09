@@ -90,6 +90,7 @@ unknown_models = []
 no_price_models = []
 dual_suspect = []  # models whose cny/usd ratio is uniform inside the FX band (likely rate-derived)
 dual_nonuniform = []  # models whose cny/usd ratio varies >4x across fields (one field likely wrong-conversion)
+dual_fabricated = []  # models with a per_mtok field where usd literally == cny (a CNY value copied into the USD column on a CNY-only vendor; fabrication)
 free_contamination = []  # billing_model declares "free" but per_mtok has a positive price
 for f in sorted(glob.glob("data/feed/providers/*.json")):
     p = json.load(open(f, encoding="utf-8"))
@@ -222,6 +223,15 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
             _pv = pm.get(_k)
             if isinstance(_pv, dict) and _pv.get("usd") and _pv.get("cny"):
                 cny_usd_ratios.append(_pv["cny"] / _pv["usd"])
+        # fabricatation signature: a single field where usd == cny exactly means the CNY
+        # value was copied into the USD column (a CNY-only vendor with no official USD page,
+        # e.g. Tencent hunyuan). Detect it per-field so a 1-field dual-price model is caught
+        # too, not only via the >=2-field uniform-ratio heuristic. Hard bug class ($13).
+        for _fk in ("input", "output", "cache_read", "cache_write"):
+            _fpv = pm.get(_fk)
+            if isinstance(_fpv, dict) and _fpv.get("usd") is not None and _fpv.get("cny") is not None \
+                    and abs(_fpv["usd"] - _fpv["cny"]) < 1e-9:
+                dual_fabricated.append(f"{p['provider_id']} :: {m['id']} ({_fk} usd==cny)")
         if (len(cny_usd_ratios) >= 2 and (max(cny_usd_ratios) / min(cny_usd_ratios)) < 1.005
                 and 6.0 <= cny_usd_ratios[0] <= 8.0):
             dual_suspect.append(f"{p['provider_id']} :: {m['id']}")
@@ -270,6 +280,11 @@ if dual_nonuniform:
     from collections import Counter as _Cnd
     by_pid = _Cnd(u.split(" :: ")[0] for u in dual_nonuniform)
     fail(f"non-uniform dual-currency (one field cny/usd ratio >4x siblings; likely wrong unit conversion; {len(dual_nonuniform)} models): "
+         + ", ".join(f"{pid} x{c}" for pid, c in by_pid.most_common(12)))
+if dual_fabricated:
+    from collections import Counter as _Cfab
+    by_pid = _Cfab(u.split(" :: ")[0] for u in dual_fabricated)
+    fail(f"usd==cny (a CNY value copied into the USD column on a CNY-only vendor; fabricated USD; {len(dual_fabricated)} fields): "
          + ", ".join(f"{pid} x{c}" for pid, c in by_pid.most_common(12)))
 if free_contamination:
     from collections import Counter as _Cf
