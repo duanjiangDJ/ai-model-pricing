@@ -6,8 +6,8 @@
 - 官网: https://docs.z.ai/guides/overview/pricing
 - 定价页: https://docs.z.ai/guides/overview/pricing
 - 币种: USD
-- 数据更新时间: 2026-09-04T00:22:51Z
-- 核实时间: 2026-09-04T00:22:51Z
+- 数据更新时间: 2026-09-09T18:38:31Z
+- 核实时间: 2026-09-09T18:38:31Z
 
 共 **23** 个模型。
 
@@ -33,6 +33,6 @@
 | `glm-5.2` | — | reasoning | 按量 | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `glm-5.2-highspeed` | — | reasoning | 订阅包含 | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
 | `glm-5.3` | — | reasoning | 按量 | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `glm-5.3-flash` | — | reasoning | 按量 | 1M | $0.075 | $0.25 | $0.015 | — | —/— | 🔥 促销 | Official docs.z.ai/guides/overview/pricing (USD per 1M tokens). PROMO: 50% of… |
+| `glm-5.3-flash` | — | reasoning | 按量 | 1M | $0.15 | $0.5 | $0.03 | — | —/— | 🔥 促销 | Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; effective pric… |
 | `glm-5v-turbo` | — | reasoning | 按量 | 200K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |
 | `glm-ocr` | ✅ 在线 | chat | 按量 | — | $0.03 | $0.03 | — | — | —/— | — | Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; effective pric… |
