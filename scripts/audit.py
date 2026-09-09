@@ -143,6 +143,23 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
                         f"suspicious per_mtok {_pk}.{_cur}={_val} in {p['provider_id']} :: {m['id']} "
                         f"(expected $/1M in [1e-3,1e5]; borderline cheap or absurd)"
                     )
+        # cache_read/cache_write zero policy: a zero on a NON-free model is a data-truth bug.
+        # Per schema "null = not offered/unknown (never 0)" and docs/price-types.md, 0 is
+        # reserved for genuinely-free models (billing_model=free/subscription_included). A
+        # non-free model that does not support caching must store null, not 0 (see PR #147
+        # gpt-3.5-turbo cache_read 0 -> null; the same class existed across resellers). Hard-fail
+        # so a bot sync can never re-introduce a 0-as-not-offered cache field.
+        _bm = m.get("billing_model")
+        _bm_list = _bm if isinstance(_bm, list) else ([_bm] if _bm else [])
+        _is_free_billing = any(_b in ("free", "subscription_included") for _b in _bm_list)
+        if not _is_free_billing:
+            for _cfield in ("cache_read", "cache_write"):
+                _cv = pm.get(_cfield)
+                if isinstance(_cv, dict) and _cv.get("usd") == 0:
+                    fail(
+                        f"{p['provider_id']} :: {m['id']} {_cfield}.usd=0 on a non-free model "
+                        f"(0 is reserved for free; use null for not-offered)"
+                    )
         # billing_model consistency (required since schema 26.6.x)
         # per_image magnitude sanity: per_image[] prices are USD per SINGLE image
         # (image-gen models), realistically >= ~1e-3 (e.g. $0.004/image). A non-zero

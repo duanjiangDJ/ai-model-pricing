@@ -28,7 +28,7 @@
 | `google/gemini-2.5-flash` | — | reasoning | 按量 | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-flash-lite` | — | reasoning | 按量 | 1.04858M | $0.1 | $0.4 | $0.01 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-pro` | — | reasoning | 按量 | 1.04858M | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |
-| `google/gemini-3-pro` | — | reasoning | 按量 | 1.04858M | $1.25 | $15 | $0 | — | —/— | — | models.dev official list price |
+| `google/gemini-3-pro` | — | reasoning | 按量 | 1.04858M | $1.25 | $15 | — | — | —/— | — | models.dev official list price |
 | `google/gemini-3.1-flash-lite` | — | reasoning | 按量 | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |
 | `google/gemini-3.5-flash` | — | reasoning | 按量 | 1.04858M | $1.5 | $9 | $0.15 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-31B-it` | — | reasoning | 按量 | 262.144K | $0.13 | $0.4 | $0.026 | — | —/— | — | models.dev official list price |

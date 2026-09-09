@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.99.38 — 2026-09-09T17:25Z (content update)
+
+- data: fix cache_read/cache_write usd:0 -> null on non-free models (gpt-3.5-turbo + 10 other reseller entries). 0 is reserved for free; null = not-offered. Found by @roy-tong (#147). Harden audit.py: FAIL on cache_read/cache_write usd:0 for non-free models (negative-verified).
+
 ## 26.98.38 — 2026-09-09T15:56Z (content update)
 
 - price sync (4 changes):
