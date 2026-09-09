@@ -190,7 +190,7 @@
 | [Windsurf (Codeium)](providers/windsurf.md) | 订阅制 | 0 | `providers/windsurf.json` | 2026-08-27T17:11:11Z |
 | [JetBrains](providers/jetbrains.md) | 订阅制 | 0 | `providers/jetbrains.json` | 2026-08-27T17:11:11Z |
 | [百度智能云千帆 (Baidu Qianfan)](providers/baidu.md) | 官方直供 | 3 | `providers/baidu.json` | 2026-08-28T09:39:37Z |
-| [腾讯混元 (Tencent Hunyuan)](providers/tencent.md) | 官方直供 | 1 | `providers/tencent.json` | 2026-08-29T12:52:51Z |
+| [腾讯混元 (Tencent Hunyuan)](providers/tencent.md) | 官方直供 | 1 | `providers/tencent.json` | 2026-09-09T21:38:42Z |
 | [字节跳动·火山引擎方舟 (ByteDance Volcengine Ark / 豆包)](providers/volcengine.md) | 官方直供 | 17 | `providers/volcengine.json` | 2026-09-04T00:22:51Z |
 | [Devin (Cognition)](providers/devin.md) | 订阅制 | 0 | `providers/devin.json` | 2026-08-27T17:11:11Z |
 | [Amazon Web Services](providers/aws.md) | 云平台托管 | 120 | `providers/aws.json` | 2026-08-28T08:54:00Z |

@@ -6,11 +6,11 @@
 - Homepage: https://hunyuan.tencent.com
 - Pricing page: https://cloud.tencent.com/document/product/1759/127342
 - Currency: CNY (non-USD, see notes)
-- Data updated: 2026-08-29T12:52:51Z
-- Verified: 2026-08-29T12:52:51Z
+- Data updated: 2026-09-09T21:38:42Z
+- Verified: 2026-09-09T21:38:42Z
 
 **1** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `hunyuan-hy3` | ✅ online | chat | per-token | — | ¥1 | ¥4 | ¥0.25 | — | —/— | — | Official TokenHub billing (CNY/1M tokens): input ¥1, output ¥4, cache-hit ¥0.… |
+| `hunyuan-hy3` | ✅ online | chat | per-token | — | $1 / ¥1 | $4 / ¥4 | $0.25 / ¥0.25 | — | —/— | — | Official TokenHub billing (CNY/1M tokens): input ¥1, output ¥4, cache-hit ¥0.… |
