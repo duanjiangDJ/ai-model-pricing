@@ -1,6 +1,88 @@
 {
-  "schema_version": "26.94.38",
+  "schema_version": "26.95.38",
   "entries": [
+    {
+      "date": "2026-09-09T03:34:56Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-pro-0813",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.57948
+          },
+          "output": {
+            "usd": 1.73844
+          },
+          "cache_read": {
+            "usd": 0.057948
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.57948
+          },
+          "output": {
+            "usd": 1.73844
+          },
+          "cache_read": {
+            "usd": 0.018438
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-09T03:34:56Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~moonshotai/kimi-latest",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.55
+          },
+          "output": {
+            "usd": 12.75
+          },
+          "cache_read": {
+            "usd": 0.25599999
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.4
+          },
+          "output": {
+            "usd": 12.0
+          },
+          "cache_read": {
+            "usd": 0.24
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-09T00:34:39Z",
       "kind": "update",
@@ -127633,42 +127715,6 @@
         "provider_count": 192
       },
       "source": "https://models.dev/api.json"
-    },
-    {
-      "date": "2026-08-21T11:25:09Z",
-      "kind": "update",
-      "scope": "provider",
-      "provider_id": "openrouter",
-      "item_id": "openrouter",
-      "field": "catalog",
-      "new": {
-        "model_count": 419
-      },
-      "source": "https://openrouter.ai/api/v1/models"
-    },
-    {
-      "date": "2026-08-21T11:25:03Z",
-      "kind": "update",
-      "scope": "provider",
-      "provider_id": "openrouter",
-      "item_id": "openrouter",
-      "field": "catalog",
-      "new": {
-        "model_count": 419
-      },
-      "source": "https://openrouter.ai/api/v1/models"
-    },
-    {
-      "date": "2026-08-21T11:24:04Z",
-      "kind": "update",
-      "scope": "provider",
-      "provider_id": "openrouter",
-      "item_id": "openrouter",
-      "field": "catalog",
-      "new": {
-        "model_count": 419
-      },
-      "source": "https://openrouter.ai/api/v1/models"
     }
   ]
 }
