@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.101.38 — 2026-09-09T21:04Z (content update)
+
+- data: fix fabricated usd on tencent hunyuan-hy3 (CNY-only vendor; no official USD) -> usd null; harden audit: FAIL on per_mtok field where usd==cny
+
 ## 26.100.38 — 2026-09-09T18:57Z (content update)
 
 - price sync (4 changes):

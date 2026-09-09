@@ -20,15 +20,15 @@
         "per_mtok": {
           "input": {
             "cny": 1.0,
-            "usd": 1.0
+            "usd": null
           },
           "output": {
             "cny": 4.0,
-            "usd": 4.0
+            "usd": null
           },
           "cache_read": {
             "cny": 0.25,
-            "usd": 0.25
+            "usd": null
           },
           "cache_write": null
         },
@@ -37,7 +37,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official TokenHub billing (CNY/1M tokens): input ¥1, output ¥4, cache-hit ¥0.25. Verified 2026-08-21. [DUAL-CURRENCY UNVERIFIED: cny/usd ratio is off-band; official CNY vs USD page pending verification]",
+      "notes": "Official TokenHub billing (CNY/1M tokens): input ¥1, output ¥4, cache-hit ¥0.25. CNY-only (Tencent hunyuan has no official USD price page); usd not applicable. Verified 2026-08-21.",
       "status": "online",
       "billing_model": [
         "pay_per_token"
