@@ -8,8 +8,8 @@
   "pricing_page": "https://openrouter.ai/models",
   "api_base_url": "https://openrouter.ai/api/v1",
   "currency": "USD",
-  "updated_at": "2026-09-08T21:34:24Z",
-  "verified_at": "2026-09-08T21:34:24Z",
+  "updated_at": "2026-09-09T00:34:39Z",
+  "verified_at": "2026-09-09T00:34:39Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1910,13 +1910,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.08246
+            "usd": 0.088606
           },
           "output": {
-            "usd": 0.16492
+            "usd": 0.177212
           },
           "cache_read": {
-            "usd": 0.016492
+            "usd": 0.0177212
           },
           "cache_write": null
         },
@@ -2062,13 +2062,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.946386
+            "usd": 0.95526
           },
           "output": {
-            "usd": 1.892772
+            "usd": 1.91052
           },
           "cache_read": {
-            "usd": 0.0788655
+            "usd": 0.079605
           },
           "cache_write": null
         },
@@ -3639,13 +3639,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.1
+            "usd": 0.06
           },
           "output": {
-            "usd": 0.15
+            "usd": 0.25
           },
           "cache_read": {
-            "usd": 0.05
+            "usd": 0.015
           },
           "cache_write": null
         },
@@ -4532,7 +4532,7 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.4
+            "usd": 0.55
           },
           "output": {
             "usd": 2.2
@@ -5433,9 +5433,7 @@
           "output": {
             "usd": 2.5
           },
-          "cache_read": {
-            "usd": 0.15
-          },
+          "cache_read": null,
           "cache_write": null
         },
         "per_image": null,
@@ -5893,7 +5891,7 @@
       "modalities": [
         "text"
       ],
-      "context_window": 1000000,
+      "context_window": 262144,
       "max_output": null,
       "billing_model": [
         "pay_per_token"
@@ -10057,14 +10055,12 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.1
+            "usd": 0.09
           },
           "output": {
             "usd": 1.1
           },
-          "cache_read": {
-            "usd": 0.07
-          },
+          "cache_read": null,
           "cache_write": null
         },
         "per_image": null,
@@ -11445,13 +11441,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.0825
+            "usd": 0.132
           },
           "output": {
-            "usd": 0.33
+            "usd": 0.528
           },
           "cache_read": {
-            "usd": 0.020625
+            "usd": 0.033
           },
           "cache_write": null
         },
@@ -12298,13 +12294,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.55
+            "usd": 0.43
           },
           "output": {
-            "usd": 2.2
+            "usd": 1.75
           },
           "cache_read": {
-            "usd": 0.11
+            "usd": 0.08
           },
           "cache_write": null
         },
