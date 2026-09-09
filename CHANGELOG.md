@@ -16,6 +16,11 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.95.38 — 2026-09-09T03:52Z (content update)
+
+- price sync (2 changes):
+- **openrouter** (updated 2): `deepseek/deepseek-v4-pro-0813`, `~moonshotai/kimi-latest`
+
 ## 26.94.38 — 2026-09-09T00:54Z (content update)
 
 - price sync (8 changes):
