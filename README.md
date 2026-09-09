@@ -43,7 +43,7 @@ verification.
 - **Models**: 7578
 - **Subscription plans**: 67
 - **Distinct API endpoints**: 183
-- **Free models**: 477
+- **Free models**: 466
 
 ### By channel
 

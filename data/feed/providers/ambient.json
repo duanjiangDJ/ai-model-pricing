@@ -283,9 +283,7 @@
           "output": {
             "usd": 4.4
           },
-          "cache_read": {
-            "usd": 0
-          },
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,

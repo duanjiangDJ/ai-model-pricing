@@ -27,9 +27,7 @@
           "output": {
             "usd": 4.4
           },
-          "cache_read": {
-            "usd": 0
-          },
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -62,9 +60,7 @@
           "output": {
             "usd": 4.4
           },
-          "cache_read": {
-            "usd": 0
-          },
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -90,9 +86,7 @@
           "output": {
             "usd": 0.6
           },
-          "cache_read": {
-            "usd": 0
-          },
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -122,9 +116,7 @@
           "output": {
             "usd": 15
           },
-          "cache_read": {
-            "usd": 0
-          },
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,

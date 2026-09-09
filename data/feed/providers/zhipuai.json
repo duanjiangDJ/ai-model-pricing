@@ -253,9 +253,7 @@
             "usd": 0,
             "cny": 1.5
           },
-          "cache_read": {
-            "usd": 0
-          },
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
