@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.103.39 — 2026-09-10T01:26Z (content update)
+
+- price sync (14 changes):
+- **openrouter** (updated 12): `deepseek/deepseek-chat`, `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`, `minimax/minimax-m2.5`, `moonshotai/kimi-k2-thinking`, `qwen/qwen3-30b-a3b-instruct-2507`, `qwen/qwen3.5-122b-a10b`, `tencent/hy3`, `z-ai/glm-5.2`, `z-ai/glm-5.3-flash`, `~z-ai/glm-flash-latest`
+- **openrouter** (context_window updated 2): `z-ai/glm-5.3`, `~z-ai/glm-latest` 1048576 -> 1310720
+
 ## 26.102.40 — 2026-09-10T01:25Z (feature update)
 
 - fix(collect): restore deepseek official-source collection. The pricing URL needs a trailing slash: the bare /quick_start/pricing 302-redirects to /quick_start/pricing/ and a non-following fetch gets an empty body -> parse 0. The slashed URL serves the static server-rendered USD price table (18 $ values). Applied to collect_deepseek.py and checks/tier0_deepseek.py. router deepseek: error/0 -> ok/3, values match the catalog.
