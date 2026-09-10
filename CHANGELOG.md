@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.102.39 — 2026-09-10T01:04Z (feature update)
+
+- fix(collect): tier1_tencent passes {cny:...} dict instead of scalars (scalars were written as USD -> fabricated USD for the CNY-only vendor; CNY-only now preserved). ci: raise daily-check timeout 25->40m (3h sync was occasionally cancelled at the 25m ceiling).
+
 ## 26.102.38 — 2026-09-09T21:56Z (content update)
 
 - price sync (1 change):
