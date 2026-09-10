@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.106.46 — 2026-09-10T08:04Z (content update)
+
+- data(deepseek): adopt the official live-model interface and official model id. The authenticated DeepSeek /models API returns exactly two live models: deepseek-flash and deepseek-v4-pro. Renamed our entry deepseek-v4.1-flash -> deepseek-flash (the official id) and verified every field of both live models against official sources: peak prices from the pricing page, cny from the zh-cn page, CONTEXT LENGTH 1M / MAX OUTPUT 384K / Vision support (flash=yes, v4-pro=no) from the page spec table.
+
 ## 26.105.46 — 2026-09-10T08:01Z (content update)
 
 - data(deepseek): complete the official-source prices. (1) deepseek-v4-pro: status online (was missing) + official source noted. (2) deepseek-chat / deepseek-reasoner: their prices (0.14/0.28/0.0028) came from a third-party aggregator and are NOT on the official pricing page -> cleared to null, billing unknown, kept offline for history (official-source-only policy). (3) all deepseek models now carry the official api-docs.deepseek.com source.

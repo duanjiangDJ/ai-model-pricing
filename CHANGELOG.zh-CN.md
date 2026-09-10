@@ -16,6 +16,10 @@
 
 ---
 
+## 26.106.46 — 2026-09-10T08:04Z（内容更新）
+
+- data(deepseek)：采用官方在线模型接口与官方模型 id。带认证的 DeepSeek /models 接口返回恰好两个在线模型：deepseek-flash 与 deepseek-v4-pro。将条目 deepseek-v4.1-flash 更名为官方 id deepseek-flash，并逐字段以官方源核对两个在线模型：peak 价取自定价页、cny 取自中文页、CONTEXT LENGTH 1M / MAX OUTPUT 384K / Vision 支持（flash 支持、v4-pro 不支持）取自页面规格表。
+
 ## 26.105.46 — 2026-09-10T08:01Z（内容更新）
 
 - data(deepseek)：补全官方源价格。(1) deepseek-v4-pro：status 补为 online（原缺失）并标注官方源。(2) deepseek-chat / deepseek-reasoner：其价来自第三方聚合源、官方定价页并无此模型→清为 null、billing 改 unknown、保留 offline 仅作历史。(3) 全部 deepseek 模型标注官方 api-docs.deepseek.com 来源。
