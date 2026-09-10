@@ -16,6 +16,10 @@
 
 ---
 
+## 26.104.42 — 2026-09-10T04:01Z（功能更新）
+
+- 修复采集层：write_prices 返回计数，避免 models.dev 分支 int += list 崩溃中止整条入库链路
+
 ## 26.104.41 — 2026-09-10T03:48Z（功能更新）
 
 - 修复 daily-check：openrouter 每次入库的字段变更都写 changelog 溯源
