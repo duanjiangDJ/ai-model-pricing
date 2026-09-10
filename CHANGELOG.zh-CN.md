@@ -16,6 +16,12 @@
 
 ---
 
+## 26.103.39 — 2026-09-10T01:26Z（内容更新）
+
+- 价格同步（14 处变更）：
+- **openrouter**（更新 12）：`deepseek/deepseek-chat`、`deepseek/deepseek-v4-flash`、`deepseek/deepseek-v4-pro`、`deepseek/deepseek-v4-pro-0813`、`minimax/minimax-m2.5`、`moonshotai/kimi-k2-thinking`、`qwen/qwen3-30b-a3b-instruct-2507`、`qwen/qwen3.5-122b-a10b`、`tencent/hy3`、`z-ai/glm-5.2`、`z-ai/glm-5.3-flash`、`~z-ai/glm-flash-latest`
+- **openrouter**（上下文窗口更新 2）：`z-ai/glm-5.3`、`~z-ai/glm-latest` 1048576 -> 1310720
+
 ## 26.102.40 — 2026-09-10T01:25Z（功能更新）
 
 - fix(采集)：恢复 deepseek 官方源采集。定价页 URL 需带尾斜杠——无尾斜杠会 302 到空响应导致 parse 0；带尾斜杠返回静态 USD 价表（18 个 $）。已同步 collect_deepseek.py 与 checks/tier0_deepseek.py。router deepseek 由 error/0 恢复为 ok/3，价与库中一致。
