@@ -112,6 +112,17 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    the manifest while Anthropic prices were not verified at all. `parse()` now raises when it matches
    nothing, and the label that immediately precedes a block (nearest match, longest wins) is mapped to
    the model id so a version suffix is not absorbed by its prefix.
+
+   **This is a whole-class rule, not an anthropic special case.** Every *real* parser — any
+   check module that exposes `parse()` — must raise (ValueError) on an empty/stub page instead
+   of returning an empty container, or `scripts/router.py` records `changed=0` as GREEN while
+   the vendor is never verified. 2026-09-10: the guard was missing in `google` / `minimax` /
+   `mistral` / `openai` / `xai` / `zai` (parser-level) and `moonshotai` / `tier1_baidu` /
+   `tier1_stepfun` / `tier1_zhipuai` (run-level); they now raise too.
+   `tests/test_check_fail_loud.py` sweeps every `parse()`-bearing module on empty input and
+   fails if one silently returns nothing, so a future parser cannot regress. `tier0_meta` is
+   the sole documented exception (its official page is a client-rendered SPA with no SSR
+   prices — the check reports that honestly and never guesses a number).
 6. **`null` means "not offered / unknown" — never treat as zero.** `0` means free.
 7. Plans: `{id, provider_id, product, plan, category, pricing_model, billing, price_usd, limits, includes, url, verified_at}`.
    `pricing_model` (flat_monthly / flat_yearly / per_seat_monthly / per_seat_yearly / credits / free / custom) is the
