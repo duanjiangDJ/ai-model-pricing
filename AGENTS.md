@@ -139,6 +139,10 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
 
 `.github/workflows/daily-check.yml` (cron `0 */3 * * *`, every 3 hours) runs `scripts/daily_check.py`:
 1. Fetches OpenRouter catalog → diffs `providers/openrouter.json` → updates changed prices + changelog.
+   `main()` **wholesale-replaces** the models list from the remote catalog, so `diff_openrouter`
+   must emit a changelog entry for **every** persisted field (identity `id` and `pricing` are
+   handled explicitly; all other keys are diffed generically). A field that changes with no
+   changelog entry is lost provenance — guarded by `tests/test_changelog_provenance.py`.
 2. Fetches models.dev catalog → updates `per_mtok.input/output/cache_read` where they differ
    (never touches hand-maintained fields like `batch` or `cache_write`).
 3. Refreshes `index.json` counts; rebuilds human pages; updates `manifest.json`.
