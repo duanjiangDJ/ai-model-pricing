@@ -16,6 +16,6 @@
 | `deepseek-flash` | ✅ online | chat | per-token | 1M | $0.3 / ¥2/$0.15 / ¥1 | $1.2 / ¥8/$0.6 / ¥4 | $0.006 / ¥0.04/$0.003 / ¥0.02 | — | —/— | ⚡ off-peak x0.5 | Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00… |
 | `deepseek-chat` | ❌ offline | chat | ? | — | — | — | — | — | —/— | — | Legacy model: NOT listed on the current official pricing page (api-docs.deeps… |
 | `deepseek-reasoner` | ❌ offline | reasoning | ? | — | — | — | — | — | —/— | — | Legacy model: NOT listed on the current official pricing page (api-docs.deeps… |
-| `deepseek-v4-flash` | ❌ offline | chat | per-token | 1M | $0.14 / ¥3/$0.07 / ¥1.5 | $0.28 / ¥9/$0.14 / ¥4.5 | $0.014 / ¥0.1/$0.007 / ¥0.05 | — | —/— | ⚡ off-peak x0.5 | models.dev official list price |
-| `deepseek-v4-flash-vision-exp` | ❌ offline | vision | per-token | 1M | $0.14 / ¥3/$0.07 / ¥1.5 | $0.28 / ¥9/$0.14 / ¥4.5 | $0.014 / ¥0.1/$0.007 / ¥0.05 | — | —/— | ⚡ off-peak x0.5 | models.dev official list price |
+| `deepseek-v4-flash` | ❌ offline | chat | per-token | 1M | $0.44 / ¥3/$0.22 / ¥1.5 | $1.32 / ¥9/$0.66 / ¥4.5 | $0.014 / ¥0.1/$0.007 / ¥0.05 | — | —/— | ⚡ off-peak x0.5 | RETIRED — superseded by the official deepseek-flash (DeepSeek-V4.1-Flash) mod… |
+| `deepseek-v4-flash-vision-exp` | ❌ offline | vision | per-token | 1M | $0.44 / ¥3/$0.22 / ¥1.5 | $1.32 / ¥9/$0.66 / ¥4.5 | $0.014 / ¥0.1/$0.007 / ¥0.05 | — | —/— | ⚡ off-peak x0.5 | RETIRED — superseded by the official deepseek-flash (DeepSeek-V4.1-Flash) mod… |
 | `deepseek-v4-pro` | ✅ online | chat | per-token | 1M | $1.32 / ¥9/$0.66 / ¥4.5 | $3.96 / ¥27/$1.98 / ¥13.5 | $0.044 / ¥0.3/$0.022 / ¥0.15 | — | —/— | ⚡ off-peak x0.5 | Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00… |
