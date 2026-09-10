@@ -16,6 +16,10 @@
 
 ---
 
+## 26.106.47 — 2026-09-10T09:27Z（功能更新）
+
+- 修复(检查)：拒绝非法的 model status 取值，并新增对检查/采集脚本 status 字面量的守卫测试
+
 ## 26.106.46 — 2026-09-10T08:04Z（内容更新）
 
 - data(deepseek)：采用官方在线模型接口与官方模型 id。带认证的 DeepSeek /models 接口返回恰好两个在线模型：deepseek-flash 与 deepseek-v4-pro。将条目 deepseek-v4.1-flash 更名为官方 id deepseek-flash，并逐字段以官方源核对两个在线模型：peak 价取自定价页、cny 取自中文页、CONTEXT LENGTH 1M / MAX OUTPUT 384K / Vision 支持（flash 支持、v4-pro 不支持）取自页面规格表。
