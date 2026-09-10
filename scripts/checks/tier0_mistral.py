@@ -72,6 +72,11 @@ def parse(text):
             "notes": ("Official mistral.ai/pricing/api (USD per 1M tokens; page lists -latest aliases; "
                       "per-page/per-minute rows ignored). Parsed by check mistral."),
         }
+    if not out:
+        # Fail loudly: an empty parse means the page layout changed (or we got a stub).
+        # Returning {} makes router.py record this check GREEN while the vendor's prices
+        # are never verified (the 2026-09 anthropic bug). A check must never silently no-op.
+        raise ValueError("mistral pricing page: no model price cards matched (layout changed?)")
     return out
 
 

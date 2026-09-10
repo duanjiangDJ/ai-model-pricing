@@ -117,6 +117,11 @@ def parse(text):
                       "image/video models recorded at the images/video token rate). "
                       "Parsed by check google."),
         }
+    if not out:
+        # Fail loudly: an empty parse means the page layout changed (or we got a stub).
+        # Returning {} makes router.py record this check GREEN while the vendor's prices
+        # are never verified (the 2026-09 anthropic bug). A check must never silently no-op.
+        raise ValueError("google pricing page: no model price rows matched (layout changed?)")
     return out
 
 

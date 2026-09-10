@@ -58,6 +58,9 @@ def run(ctx):
     text = re.sub(r"<[^>]+>", " ", html)
     text = re.sub(r"\s+", " ", text)
     parsed = parse_bigmodel(text)
+    if not parsed:
+        # Fail loudly: headless Chrome fetched a page but no price rows matched.
+        raise ValueError("bigmodel.cn pricing page: no model rows matched (layout changed?)")
 
     provider = load_provider(PROVIDER_ID)
     if not provider:
