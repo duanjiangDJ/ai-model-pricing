@@ -44,10 +44,20 @@ def diff_openrouter(local, remote, now):
     for mid in sorted(set(local_models) - set(remote_models)):
         removed.append(mid)
 
+    # Also track non-pricing field changes: main() overwrites the whole models list from
+    # the remote catalog, so a context_window/max_output change IS persisted and must be
+    # recorded in the changelog with a source — otherwise it lands with no provenance
+    # (the data concern flagged in PR #154).
+    TRACKED_EXTRA = ("context_window", "max_output")
     for mid in sorted(set(local_models) & set(remote_models)):
-        lp, rp = local_models[mid].get("pricing"), remote_models[mid].get("pricing")
+        lm, rm = local_models[mid], remote_models[mid]
+        lp, rp = lm.get("pricing"), rm.get("pricing")
         if lp != rp:
-            changed.append((mid, lp, rp))
+            changed.append((mid, "pricing", lp, rp))
+        for f in TRACKED_EXTRA:
+            lv, rv = lm.get(f), rm.get(f)
+            if lv != rv:
+                changed.append((mid, f, lv, rv))
     return added, removed, changed
 
 
@@ -205,9 +215,9 @@ def main():
                 for mid in removed:
                     entries.append({"date": now, "kind": "remove", "scope": "model", "provider_id": "openrouter",
                                     "item_id": mid, "field": "catalog", "old": mid, "source": OPENROUTER_URL})
-                for mid, old_p, new_p in changed:
+                for mid, field, old_v, new_v in changed:
                     entries.append({"date": now, "kind": "update", "scope": "model", "provider_id": "openrouter",
-                                    "item_id": mid, "field": "pricing", "old": old_p, "new": new_p,
+                                    "item_id": mid, "field": field, "old": old_v, "new": new_v,
                                     "source": OPENROUTER_URL})
                 append_changelog(entries)
 

@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.103.40 — 2026-09-10T01:43Z (feature update)
+
+- fix(sync-writers): (1) append_changelog is now append-only — drop the [:5000] slice that silently dropped the oldest records (ebcloud vanished in #154). (2) daily_check.diff_openrouter also tracks context_window/max_output changes so they get a sourced changelog entry instead of landing with no provenance.
+
 ## 26.103.39 — 2026-09-10T01:26Z (content update)
 
 - price sync (14 changes):
