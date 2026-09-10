@@ -128,7 +128,7 @@
 | [Friendli](providers/friendli.md) | 推理托管 | 6 | `providers/friendli.json` | 2026-09-04T00:22:51Z |
 | [InferX](providers/inferx.md) | 推理托管 | 12 | `providers/inferx.json` | 2026-09-04T00:22:51Z |
 | [Helicone](providers/helicone.md) | 推理托管 | 90 | `providers/helicone.json` | 2026-09-04T00:22:51Z |
-| [Zhipu AI](providers/zhipuai.md) | 官方直供 | 17 | `providers/zhipuai.json` | 2026-09-04T00:22:51Z |
+| [Zhipu AI](providers/zhipuai.md) | 官方直供 | 17 | `providers/zhipuai.json` | 2026-09-11T02:00:00Z |
 | [Neon](providers/neon.md) | 推理托管 | 42 | `providers/neon.json` | 2026-09-04T00:22:51Z |
 | [evroc](providers/evroc.md) | 推理托管 | 17 | `providers/evroc.json` | 2026-09-04T00:22:51Z |
 | [302.AI](providers/302ai.md) | 推理托管 | 97 | `providers/302ai.json` | 2026-09-10T09:39:09Z |
