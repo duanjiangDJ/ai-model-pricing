@@ -190,6 +190,27 @@ def has_zero_price(pm, keys=("input", "output", "cache_read")):
     return False
 
 
+def mixed_currency_zero(pm, keys=("input", "output", "cache_read", "cache_write")):
+    """Return the per_mtok fields that mix a zero and a positive value across currencies.
+
+    A field such as {"usd": 0, "cny": 0.15} is self-contradictory: 0 means "free", while a
+    positive value in the *other* currency proves the model is paid. This happens when a
+    CNY-only vendor (domestic page) keeps a stale/fabricated usd=0 from an earlier
+    aggregator write; the CNY-only collector then only supplies cny, so update_model_prices
+    (which merges per currency and never clears a value) leaves usd=0 stuck forever. The
+    correct form for a single-currency vendor is the schema-blessed single-currency entry
+    ({"cny": 0.15}) or usd=null -- never 0 (real case: zhipuai glm-4.7-flash).
+    """
+    out = []
+    for k in keys:
+        v = (pm or {}).get(k)
+        if isinstance(v, dict):
+            vals = [x for x in v.values() if x is not None]
+            if any(x == 0 for x in vals) and any(x > 0 for x in vals):
+                out.append(k)
+    return out
+
+
 def model_map(provider):
     return {m["id"]: m for m in provider.get("models", [])}
 

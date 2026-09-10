@@ -19,7 +19,7 @@ import sys
 
 from datetime import datetime, timezone  # noqa: E402
 
-from toolbox import any_price_positive, price_all_zero  # noqa: E402
+from toolbox import any_price_positive, price_all_zero, mixed_currency_zero  # noqa: E402
 
 sys.stdout.reconfigure(encoding="utf-8")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -196,6 +196,19 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
                         f"{p['provider_id']} :: {m['id']} {_cfield}.usd=0 on a non-free model "
                         f"(0 is reserved for free; use null for not-offered)"
                     )
+        # mixed-currency zero: a per_mtok field that is 0 in one currency but >0 in another is
+        # self-contradictory (0 = free, yet the other currency proves the model is paid). This is
+        # a fabricated zero -- typically a stale usd=0 left on a CNY-only model whose collector
+        # only supplies cny (update_model_prices merges per currency and never clears a value, so
+        # the bad value survives every 3h sync). Hard-fail so a bot sync can't keep it alive.
+        # Real case 2026-09-10: zhipuai glm-4.7-flash {usd:0, cny:0.15}. The correct form is the
+        # schema-blessed single-currency entry ({"cny": ...}) or usd=null -- never 0.
+        for _mf in mixed_currency_zero(pm):
+            fail(
+                f"{p['provider_id']} :: {m['id']} per_mtok.{_mf}={pm[_mf]} mixes a 0 and a "
+                f"positive value across currencies (a 0 in one currency on a model priced in "
+                f"another is a fabricated zero; use null or drop the currency, 0 is for free)"
+            )
         # billing_model consistency (required since schema 26.6.x)
         # per_image magnitude sanity: per_image[] prices are USD per SINGLE image
         # (image-gen models), realistically >= ~1e-3 (e.g. $0.004/image). A non-zero
