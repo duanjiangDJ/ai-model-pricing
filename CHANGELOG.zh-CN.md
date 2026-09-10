@@ -16,6 +16,10 @@
 
 ---
 
+## 26.104.45 — 2026-09-10T07:51Z（功能更新）
+
+- fix(写入器)：4 项写入安全修复（已授权）。(1) collect_modelsdev 补订阅型供应商守卫，套餐内模型 per_mtok 保持 null 而非 0。(2) sync_modelsdev：models.dev 的 0 表示未公布价→null，不再写 usd:0 也不误标 free。(3) collect_modelsdev 加一手源优先，跳过当日 verified_at 的 provider。(4) update_model_prices 拒绝 0 覆盖真实/未知值，surge 守卫对 None 安全。修复 #163 整类缺陷。
+
 ## 26.104.44 — 2026-09-10T06:16Z（功能更新）
 
 - audit+视图：强制促销过期处理（清除 zai 过期 promo；仅在促销生效时显示 🔥 标记）
