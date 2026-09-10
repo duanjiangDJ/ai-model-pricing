@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.108.50 — 2026-09-10T13:04Z (feature update)
+
+- fix(sync): stop diff_openrouter emitting a false status change for every model
+
 ## 26.108.49 — 2026-09-10T10:40Z (feature update)
 
 - fix(writers): revive the models.dev first-party guard (router passed now=None) + default status for new catalog entries + audit fails on a missing model status

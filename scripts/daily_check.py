@@ -31,10 +31,17 @@ from sync.sync_openrouter import build_model, default_catalog_status, preserve_l
 _RUN_STARTED_ISO = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M")
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/models"
-# diff_openrouter identity/explicitly-handled fields: `id` identifies the model and
-# `pricing` is diffed separately (so its changelog `field` stays "pricing"). Everything
-# else build_model() emits is diffed generically — see the provenance note below.
-_OPENROUTER_DIFF_IGNORED = frozenset(("id", "pricing"))
+# diff_openrouter identity / pipeline-injected / explicitly-handled fields:
+#  - `id` identifies the model;
+#  - `pricing` is diffed separately (so its changelog `field` stays "pricing");
+#  - `status` is LOCALLY assigned (materialised by PR #169) and is NOT emitted by
+#    build_model(); the pipeline stamps it on (preserve_local_status /
+#    default_catalog_status) AFTER this diff runs. Diffing it here reported a spurious
+#    `status: online -> null` update for EVERY model on EVERY sync (436 false provenance
+#    entries in one run, caught reviewing PR #172) — a log full of changes that never
+#    happened. Exclude it: a real status transition is a local edit, not a remote one.
+# Everything else build_model() emits is diffed generically — see the provenance note below.
+_OPENROUTER_DIFF_IGNORED = frozenset(("id", "pricing", "status"))
 
 
 def diff_openrouter(local, remote, now):

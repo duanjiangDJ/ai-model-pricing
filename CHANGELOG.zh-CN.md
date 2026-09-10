@@ -16,6 +16,10 @@
 
 ---
 
+## 26.108.50 — 2026-09-10T13:04Z（功能更新）
+
+- 修复 daily_check 的 openrouter 字段差分：status 为本地赋值、build_model 不产出，之前每次同步对每个模型都误记一条 status: online→null 的变更（PR #172 一次 436 条假来源记录）
+
 ## 26.108.49 — 2026-09-10T10:40Z（功能更新）
 
 - 修复写入器：复活 models.dev 一方优先守卫（router 传入 now=None 使其失效）+ 新目录条目默认 status + audit 对缺失 status 判失败
