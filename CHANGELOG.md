@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.104.43 — 2026-09-10T04:17Z (feature update)
+
+- fix(ci): daily-check used 'git diff' (work area vs index) to detect data changes; a stash-pop that leaves data files staged made it report clean and silently discard the whole sync epoch. Use 'git diff HEAD', and resolve stash-pop conflicts on generated files deterministically (take this run's index.json/manifest.json) so bump_version never reads conflict markers. Reproduced + verified locally.
+
 ## 26.104.42 — 2026-09-10T04:01Z (feature update)
 
 - fix(collect): write_prices returns a count (unified persist crashed on models.dev)
