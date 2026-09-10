@@ -101,15 +101,25 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    official value is $0.044 = cny 0.30 / ~6.8). `audit.py` now flags this class. Note
    `update_model_prices()`'s `>5x` surge guard SKIPS any correction more than 5x from the stored value —
    so a badly-stuck wrong value (like that 12x-off cached price) can NEVER self-heal via a sync; fix it
-   manually against the official page and re-run the gate.
-5. **`null` means "not offered / unknown" — never treat as zero.** `0` means free.
-6. Plans: `{id, provider_id, product, plan, category, pricing_model, billing, price_usd, limits, includes, url, verified_at}`.
+   manually against the official page and re-run the gate. A check whose official page is >5x away
+   from the stored value MUST surface it (a check parser raises rather than returning silently — see
+   `tier0_alibaba._surge_blocked`); a silent skip leaves a stale price published forever. Real
+   2026-09-10: `qwen-vl-ocr` input stuck at $0.72 vs the official $0.07, and
+   `qwen3-next-80b-a3b-thinking` output $6 vs $1.2.
+5. **A check parser must FAIL LOUDLY on a layout change, never return 0 rows.** `tier0_anthropic`
+   was matching nothing for an unknown period (the page swapped the cache cells to
+   **Read before Write** and renamed "Fable 5" → "Fable 5.1"), so `check:anthropic` stayed GREEN in
+   the manifest while Anthropic prices were not verified at all. `parse()` now raises when it matches
+   nothing, and the label that immediately precedes a block (nearest match, longest wins) is mapped to
+   the model id so a version suffix is not absorbed by its prefix.
+6. **`null` means "not offered / unknown" — never treat as zero.** `0` means free.
+7. Plans: `{id, provider_id, product, plan, category, pricing_model, billing, price_usd, limits, includes, url, verified_at}`.
    `pricing_model` (flat_monthly / flat_yearly / per_seat_monthly / per_seat_yearly / credits / free / custom) is the
    subscription pricing structure — distinct from per-token model pricing. Yearly plans store the **total yearly price**
    in `price_usd`; per-seat plans store the price per seat.
    Models included in a subscription plan have `per_mtok` = null (never 0), `billing_model: ["subscription_included"]`,
    and an explanatory note.
-7. `channel` semantics: `first_party` | `cloud` | `hosted` | `aggregator` | `reseller` | `subscription`.
+8. `channel` semantics: `first_party` | `cloud` | `hosted` | `aggregator` | `reseller` | `subscription`.
    - `subscription`: coding-plan / token-plan products (credits-based or flat subscription with API access)
    - `hosted`: third-party inference hosts serving models per-token
    - The same model may appear under several channels with different prices — that is correct.

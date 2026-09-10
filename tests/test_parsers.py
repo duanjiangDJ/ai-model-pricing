@@ -140,6 +140,80 @@ class TestSurgeGuard(unittest.TestCase):
             update_model_prices(p, {"m1": {"per_mtok": {"input": {"usd": 0.5, "cny": 3.5}}}}, "2026-08-28T00:00:00Z", "test")
         self.assertEqual(p["models"][0]["pricing"]["per_mtok"]["input"], {"usd": 0.5, "cny": 3.5})
 
+class TestAnthropicParser(unittest.TestCase):
+    """2026-09-10 retarget: the page swapped the cache cells to Read-before-Write and renamed
+    "Fable 5" -> "Fable 5.1"; the old parser matched 0 blocks and the check reported GREEN
+    with 0 models (a dead check). These fixtures lock the current shape and the fail-loud rule."""
+
+    def setUp(self):
+        from checks.tier0_anthropic import parse
+        self.parse = parse
+
+    def test_current_layout_parses_all_blocks(self):
+        r = self.parse(load("anthropic_pricing.html"))
+        self.assertEqual(len(r), 12)
+        # cache READ is the 3rd cell, WRITE the 4th (the pre-2026-09 order was reversed)
+        self.assertEqual(r["claude-fable-5-1"]["per_mtok"],
+                         {"input": 10.0, "output": 50.0, "cache_read": 0.25, "cache_write": 12.5})
+        self.assertEqual(r["claude-opus-5"]["per_mtok"],
+                         {"input": 5.0, "output": 25.0, "cache_read": 0.5, "cache_write": 6.25})
+        self.assertEqual(r["claude-sonnet-5"]["per_mtok"],
+                         {"input": 2.0, "output": 10.0, "cache_read": 0.2, "cache_write": 2.5})
+        self.assertEqual(r["claude-haiku-4-5"]["per_mtok"],
+                         {"input": 1.0, "output": 5.0, "cache_read": 0.1, "cache_write": 1.25})
+
+    def test_versioned_label_maps_to_its_own_id(self):
+        # "Fable 5.1" must not be absorbed by the "Fable 5" prefix (which would reuse the
+        # older row and record the wrong cache_read: 0.25 vs 1).
+        r = self.parse(load("anthropic_pricing.html"))
+        self.assertEqual(r["claude-fable-5"]["per_mtok"]["cache_read"], 1.0)
+        self.assertEqual(r["claude-fable-5-1"]["per_mtok"]["cache_read"], 0.25)
+
+    def test_empty_parse_fails_loudly(self):
+        # No price blocks -> raise, never return {} (a silent 0-model check is the bug).
+        with self.assertRaises(ValueError):
+            self.parse("<html><body>pricing unavailable</body></html>")
+        # The pre-2026-09 Write-before-Read shape must not silently match either.
+        legacy = ("Fable 5 Input $10 / MTok Output $50 / MTok "
+                  "Prompt caching Write $12.5 / MTok Read $1 / MTok")
+        with self.assertRaises(ValueError):
+            self.parse(legacy)
+
+
+class TestAlibabaSurgeBlockedGuard(unittest.TestCase):
+    """The surge guard silently refuses a >5x correction; the check must surface it instead.
+
+    2026-09-10: qwen-vl-ocr input stayed $0.72 while the official International row read
+    $0.07 (and qwen3-next-80b-a3b-thinking output $6 vs $1.2) — update_model_prices skipped
+    both, so main published a stale price with no signal anywhere.
+    """
+
+    def setUp(self):
+        from checks import tier0_alibaba as A
+        self.A = A
+
+    def _prov(self, usd):
+        return {"provider_id": "alibaba", "models": [
+            {"id": "m1", "pricing": {"per_mtok": {"input": {"usd": usd}, "output": None}}}]}
+
+    def test_empty_parse_fails_loudly(self):
+        with self.assertRaises(ValueError):
+            self.A.parse("<html><body>no price table</body></html>")
+
+    def test_detects_a_stuck_value(self):
+        parsed = {"m1": {"per_mtok": {"input": 0.07, "output": None}}}
+        blocked = self.A._surge_blocked(self._prov(0.72), parsed)  # 0.72 -> 0.07 = 10.3x
+        self.assertEqual(len(blocked), 1)
+        self.assertIn("m1.input", blocked[0])
+
+    def test_no_false_positive_on_a_matching_value(self):
+        parsed = {"m1": {"per_mtok": {"input": 0.07, "output": None}}}
+        self.assertEqual(self.A._surge_blocked(self._prov(0.07), parsed), [])
+
+    def test_small_change_is_not_blocked(self):
+        parsed = {"m1": {"per_mtok": {"input": 0.5, "output": None}}}
+        self.assertEqual(self.A._surge_blocked(self._prov(0.5), parsed), [])
+
 
 if __name__ == "__main__":
     unittest.main()
