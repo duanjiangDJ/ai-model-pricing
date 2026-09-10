@@ -1,6 +1,176 @@
 {
-  "schema_version": "26.110.53",
+  "schema_version": "26.111.53",
   "entries": [
+    {
+      "date": "2026-09-10T18:38:52Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "inclusionai/ling-3.0-flash-vl:free",
+      "field": "catalog",
+      "new": "inclusionai/ling-3.0-flash-vl:free",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-10T18:38:52Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-pro",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.95526
+          },
+          "output": {
+            "usd": 1.91052
+          },
+          "cache_read": {
+            "usd": 0.079605
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.87
+          },
+          "output": {
+            "usd": 1.74
+          },
+          "cache_read": {
+            "usd": 0.0725
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-10T18:38:52Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "google/gemma-4-26b-a4b-it",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.07
+          },
+          "output": {
+            "usd": 0.34
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.042
+          },
+          "output": {
+            "usd": 0.22
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-10T18:38:52Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "minimax/minimax-m2.5",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.3
+          },
+          "output": {
+            "usd": 1.2
+          },
+          "cache_read": {
+            "usd": 0.03
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.27
+          },
+          "output": {
+            "usd": 1.08
+          },
+          "cache_read": {
+            "usd": 0.027
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-10T18:38:52Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "tencent/hy3",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.132
+          },
+          "output": {
+            "usd": 0.528
+          },
+          "cache_read": {
+            "usd": 0.033
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.0825
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.020625
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-10T15:40:00Z",
       "kind": "update",

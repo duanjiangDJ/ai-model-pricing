@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.111.53 — 2026-09-10T18:57Z (content update)
+
+- price sync (5 changes):
+- **openrouter** (+1): `inclusionai/ling-3.0-flash-vl:free`
+- **openrouter** (updated 4): `deepseek/deepseek-v4-pro`, `google/gemma-4-26b-a4b-it`, `minimax/minimax-m2.5`, `tencent/hy3`
+
 ## 26.110.53 — 2026-09-10T16:45Z (feature update)
 
 - fix(audit): hard-fail a fabricated mixed-currency zero (usd 0 alongside a positive cny) + drop zhipuai glm-4.7-flash's bogus usd 0

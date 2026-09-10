@@ -16,6 +16,12 @@
 
 ---
 
+## 26.111.53 — 2026-09-10T18:57Z（内容更新）
+
+- 价格同步（5 处变更）：
+- **openrouter**（新增 1）：`inclusionai/ling-3.0-flash-vl:free`
+- **openrouter**（更新 4）：`deepseek/deepseek-v4-pro`, `google/gemma-4-26b-a4b-it`, `minimax/minimax-m2.5`, `tencent/hy3`
+
 ## 26.110.53 — 2026-09-10T16:45Z（功能更新）
 
 - 修复(audit)：新增跨币种零价伪造检查（usd 0 与 cny 正值混用即硬性拦截）；清除 zhipuai glm-4.7-flash 伪造的 usd 0
