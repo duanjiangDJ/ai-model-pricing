@@ -16,6 +16,11 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.113.57 — 2026-09-10T21:51Z (content update)
+
+- price sync (1 change):
+- **openrouter** (updated 1): `deepseek/deepseek-v4-flash`
+
 ## 26.112.57 — 2026-09-10T21:30Z (feature update)
 
 - test(zhipuai): assert the rate-card cache-hit price reaches per_mtok
