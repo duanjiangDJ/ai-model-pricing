@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.108.49 — 2026-09-10T10:40Z (feature update)
+
+- fix(writers): revive the models.dev first-party guard (router passed now=None) + default status for new catalog entries + audit fails on a missing model status
+
 ## 26.108.48 — 2026-09-10T09:56Z (content update)
 
 - price sync (37 changes):

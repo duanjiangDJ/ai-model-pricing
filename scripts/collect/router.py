@@ -26,6 +26,8 @@ _THIS = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, _THIS)
 sys.path.insert(0, os.path.abspath(os.path.join(_THIS, "..")))  # scripts/ so toolbox is importable
 
+from toolbox import now_iso  # noqa: E402
+
 # modules in collect/ that are NOT provider collectors
 _SKIP = {
     "__init__.py", "utils.py", "router.py", "price_check.py",
@@ -60,11 +62,16 @@ def collect(provider_filter=None, dry_run=False):
         ids = [p for p in ids if p in provider_filter]
 
     results = {}
+    # A REAL timestamp, not None: collectors gate on ctx["now"] (e.g. collect_modelsdev's
+    # first-party-priority guard compares it to the provider file's verified_at date). A None
+    # now silently disabled that guard for every provider (2026-09-10 bug: models.dev
+    # clobbered the first-party deepseek prices).
+    now = now_iso()
     for pid in ids:
         mod_name = "collect_" + pid
         try:
             mod = importlib.import_module(f"collect.collectors.{mod_name}")
-            res = mod.collect({"now": None, "dry_run": dry_run})
+            res = mod.collect({"now": now, "dry_run": dry_run})
             # normalize: guarantee the structured shape
             res = res or {}
             results[pid] = {

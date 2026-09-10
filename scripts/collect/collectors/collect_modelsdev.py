@@ -25,6 +25,26 @@ SOURCE = "models.dev:api"
 SUB_PROVIDER_HINTS = ("coding-plan", "token-plan", "copilot", "kimi-for-coding")
 
 
+def first_party_today(pid, now):
+    """True when this provider was verified against its own official source TODAY.
+
+    Third-party republication (models.dev) must not overwrite one-hand official data. `now`
+    MUST be a real ISO timestamp — a falsy `now` returns False, i.e. the guard is open. The
+    router used to pass {"now": None}, silently disabling this guard for every provider and
+    letting models.dev clobber the first-party deepseek prices (2026-09-10).
+    """
+    if not now:
+        return False
+    pf = os.path.join(PROVIDERS, f"{pid}.json")
+    if not os.path.exists(pf):
+        return False
+    try:
+        with open(pf, encoding="utf-8") as fh:
+            return str(json.load(fh).get("verified_at", ""))[:10] == str(now)[:10]
+    except Exception:  # noqa: BLE001
+        return False
+
+
 def collect(ctx):
     """Fetch models.dev catalog, build per-M prices grouped by provider, return structured."""
     now = ctx.get("now") or ""
@@ -35,13 +55,8 @@ def collect(ctx):
             continue  # subscription-included: per_mtok stays null, never 0
         # First-party priority: if this provider was verified against its official source
         # today, third-party republication (models.dev) must not overwrite it.
-        _pf = os.path.join(PROVIDERS, f"{pid}.json")
-        if os.path.exists(_pf):
-            try:
-                if str(json.load(open(_pf)).get("verified_at", ""))[:10] == str(now)[:10]:
-                    continue
-            except Exception:
-                pass
+        if first_party_today(pid, now):
+            continue
         models = {}
         for mid, m in ((pv.get("models") or {}).items()):
             md = build_model(mid, m)

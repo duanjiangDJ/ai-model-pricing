@@ -211,6 +211,11 @@ def main():
                 # Never let a catalog rewrite resurrect a locally-retired model (status
                 # dropped). OpenRouter has no concept of "offline" — preserve it by id.
                 preserve_local_status(local["models"], remote_models)
+                # A newly discovered live catalog entry has no locally-assigned status;
+                # default it to "online" so PR #169's explicit-status invariant holds
+                # (otherwise new models ship with no status and audit stayed silent).
+                for _m in remote_models:
+                    _m.setdefault("status", "online")
                 local["models"] = remote_models
                 local["models"].sort(key=lambda m: m["id"])
                 local["updated_at"] = now
