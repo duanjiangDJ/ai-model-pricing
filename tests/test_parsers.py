@@ -30,15 +30,46 @@ class TestDeepSeekParser(unittest.TestCase):
 
     def test_parse_en_page(self):
         r = self.parse(load("deepseek_en.html"))
-        self.assertIn("deepseek-v4-flash", r)
-        pm = r["deepseek-v4-flash"]["per_mtok"]
-        # Official EN page peak prices (USD): flash in $0.44, out $1.32, cache-hit $0.014
+        # 2026-09-10 layout: 2 columns (deepseek-flash, deepseek-v4-pro) x 6 price rows.
+        self.assertIn("deepseek-v4.1-flash", r, "official name id must be the model id")
+        pm = r["deepseek-v4.1-flash"]["per_mtok"]
+        # Official EN page peak prices (USD): flash in $0.3, out $1.2, cache-hit $0.006
         # Prices are dual-currency objects {usd, cny} since schema 26.8.
-        self.assertEqual(pm["input"], {"usd": 0.44})
-        self.assertEqual(pm["output"], {"usd": 1.32})
-        self.assertEqual(pm["cache_read"], {"usd": 0.014})
-        self.assertEqual(r["deepseek-v4-pro"]["per_mtok"]["input"], {"usd": 1.32})
-        self.assertEqual(r["deepseek-v4-flash-vision-exp"]["per_mtok"]["output"], {"usd": 1.32})
+        self.assertEqual(pm["input"], {"usd": 0.3})
+        self.assertEqual(pm["output"], {"usd": 1.2})
+        self.assertEqual(pm["cache_read"], {"usd": 0.006})
+        self.assertIsNone(pm["cache_write"], "DeepSeek publishes no cache-write price")
+        # pro column
+        pro = r["deepseek-v4-pro"]["per_mtok"]
+        self.assertEqual(pro["input"], {"usd": 1.32})
+        self.assertEqual(pro["output"], {"usd": 3.96})
+        self.assertEqual(pro["cache_read"], {"usd": 0.044})
+
+    def test_two_column_layout_index_mapping(self):
+        # Regression: on the 2-column page (6 rows x 2 cols = 12 prices) the PEAK value of
+        # column c lives at idx c+2 (cache-hit) / c+6 (cache-miss) / c+10 (output). A stale
+        # 3-column stride would silently pull the wrong cells from the retired vision column.
+        r = self.parse(load("deepseek_en.html"))
+        self.assertNotIn("deepseek-v4-flash", r, "retired model must not be parsed from the 2-col page")
+        self.assertNotIn("deepseek-v4-flash-vision-exp", r)
+        # off-peak flash cache-hit is $0.003; the peak value we record is $0.006 (a 3-col
+        # stride would have written $0.014 here).
+        self.assertEqual(r["deepseek-v4.1-flash"]["per_mtok"]["cache_read"], {"usd": 0.006})
+
+    def test_parse_cny_page_2column(self):
+        from checks.tier0_deepseek import parse_cny
+        r = parse_cny(load("deepseek_cn.html"))
+        self.assertIn("deepseek-v4.1-flash", r)
+        flash = r["deepseek-v4.1-flash"]["per_mtok"]
+        # Official EN/zh-cn page peak prices (CNY): flash in ¥2.0, out ¥8.0, cache-hit ¥0.04
+        self.assertEqual(flash["input"], {"cny": 2.0})
+        self.assertEqual(flash["output"], {"cny": 8.0})
+        self.assertEqual(flash["cache_read"], {"cny": 0.04})
+        self.assertIsNone(flash["cache_write"], "DeepSeek publishes no cache-write price")
+        pro = r["deepseek-v4-pro"]["per_mtok"]
+        self.assertEqual(pro["input"], {"cny": 9.0})
+        self.assertEqual(pro["output"], {"cny": 27.0})
+        self.assertEqual(pro["cache_read"], {"cny": 0.3})
 
     def test_structure_change_fails_loudly(self):
         # Simulate a page layout change: only a few prices present -> must raise,

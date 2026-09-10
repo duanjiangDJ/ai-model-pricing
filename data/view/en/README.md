@@ -5,7 +5,7 @@
 
 - Generated: 2026-09-10T00:37:59Z
 - Providers: 190
-- Models total: 7578
+- Models total: 7579
 - Plans total: 67
 
 ## Providers
@@ -32,7 +32,7 @@
 | [Synthetic](providers/synthetic.md) | Inference host | 9 | `providers/synthetic.json` | 2026-09-04T00:22:51Z |
 | [Jalapeno Cloud](providers/jalapeno.md) | Inference host | 17 | `providers/jalapeno.json` | 2026-09-04T00:22:51Z |
 | [abliteration.ai](providers/abliteration-ai.md) | Inference host | 3 | `providers/abliteration-ai.json` | 2026-09-04T00:22:51Z |
-| [DeepSeek](providers/deepseek.md) | First-party | 5 | `providers/deepseek.json` | 2026-09-04T00:22:52Z |
+| [DeepSeek](providers/deepseek.md) | First-party | 6 | `providers/deepseek.json` | 2026-09-10T00:00:00Z |
 | [GreenPT](providers/greenpt.md) | Inference host | 37 | `providers/greenpt.json` | 2026-09-02T00:19:17Z |
 | [Xpersona](providers/xpersona.md) | Inference host | 13 | `providers/xpersona.json` | 2026-09-04T00:22:51Z |
 | [Tencent TokenHub](providers/tencent-tokenhub.md) | Inference host | 3 | `providers/tencent-tokenhub.json` | 2026-09-04T00:22:51Z |

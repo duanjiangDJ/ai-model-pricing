@@ -16,6 +16,10 @@
 
 ---
 
+## 26.104.46 — 2026-09-10T07:56Z（功能更新）
+
+- 修复 DeepSeek 采集器以适配官网改版后的 2 列价表（deepseek-flash/V4.1-Flash + deepseek-v4-pro）；新增 deepseek-v4.1-flash 数据、退役旧 flash 名称、更新测试夹具
+
 ## 26.104.45 — 2026-09-10T07:51Z（功能更新）
 
 - fix(写入器)：4 项写入安全修复（已授权）。(1) collect_modelsdev 补订阅型供应商守卫，套餐内模型 per_mtok 保持 null 而非 0。(2) sync_modelsdev：models.dev 的 0 表示未公布价→null，不再写 usd:0 也不误标 free。(3) collect_modelsdev 加一手源优先，跳过当日 verified_at 的 provider。(4) update_model_prices 拒绝 0 覆盖真实/未知值，surge 守卫对 None 安全。修复 #163 整类缺陷。
