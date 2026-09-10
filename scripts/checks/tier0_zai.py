@@ -63,6 +63,11 @@ def parse(text):
                 "notes": ("Official docs.z.ai/guides/overview/pricing (USD per 1M tokens; "
                           "effective price after promos; Free = 0). Parsed by check zai."),
             }
+    if not out:
+        # Fail loudly: an empty parse means the page layout changed (or we got a stub).
+        # Returning {} makes router.py record this check GREEN while the vendor's prices
+        # are never verified (the 2026-09 anthropic bug). A check must never silently no-op.
+        raise ValueError("z.ai pricing page: no model price rows matched (layout changed?)")
     return out
 
 

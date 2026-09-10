@@ -64,6 +64,11 @@ def parse(text):
                       "effective price after any promo; M3 ≤512k tier; cache-write where listed). "
                       "Parsed by check minimax."),
         }
+    if not out:
+        # Fail loudly: an empty parse means the page layout changed (or we got a stub).
+        # Returning {} makes router.py record this check GREEN while the vendor's prices
+        # are never verified (the 2026-09 anthropic bug). A check must never silently no-op.
+        raise ValueError("minimax pricing page: no model rows matched (layout changed?)")
     return out
 
 

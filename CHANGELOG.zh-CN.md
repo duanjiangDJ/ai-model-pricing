@@ -16,6 +16,10 @@
 
 ---
 
+## 26.109.52 — 2026-09-10T15:31Z（功能更新）
+
+- 修复：真实价格解析器匹配 0 行时改为抛错，避免布局变更被静默记绿（google/minimax/mistral/openai/xai/zai/moonshotai 及 tier1 baidu/stepfun/zhipuai）
+
 ## 26.109.51 — 2026-09-10T14:25Z（功能更新）
 
 - 修复检查脚本：Anthropic 页改为 Read/Write 缓存列顺序、新增 Fable 5.1 标签，解析为空改为报错；阿里云被 surge 守卫拦下的过期价格不再静默

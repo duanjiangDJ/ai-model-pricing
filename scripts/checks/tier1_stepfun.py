@@ -44,6 +44,9 @@ def run(ctx):
     if not html:
         return {"changed": 0, "detail": "js_fetch failed (headless Chrome unavailable?)"}
     parsed = parse_stepfun(html)
+    if not parsed:
+        # Fail loudly: headless Chrome fetched a page but no price rows matched.
+        raise ValueError("StepFun pricing page: no model rows matched (layout changed?)")
     provider = load_provider(PROVIDER_ID)
     if not provider:
         return {"changed": 0, "detail": "provider file missing"}

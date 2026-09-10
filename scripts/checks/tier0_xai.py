@@ -53,6 +53,11 @@ def parse(text):
                           "output": {"usd": round(outp * 0.8, 4)}}
         else:
             d["batch"] = None
+    if not out:
+        # Fail loudly: an empty parse means the page layout changed (or we got a stub).
+        # Returning {} makes router.py record this check GREEN while the vendor's prices
+        # are never verified (the 2026-09 anthropic bug). A check must never silently no-op.
+        raise ValueError("x.ai pricing page: no model price rows matched (layout changed?)")
     return out
 
 

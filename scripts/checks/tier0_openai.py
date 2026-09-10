@@ -67,7 +67,13 @@ def _parse_standard_table(text):
 
 
 def parse(text):
-    return _parse_standard_table(text)
+    out = _parse_standard_table(text)
+    if not out:
+        # Fail loudly (see tests/test_check_fail_loud.py): an empty parse means the pricing
+        # table layout changed. Returning {} would let run() record changed=0 as a GREEN
+        # check while OpenAI prices are never verified (the 2026-09 anthropic bug class).
+        raise ValueError("openai pricing table: no model rows matched (layout changed?)")
+    return out
 
 
 def _fetch(url, timeout=90):

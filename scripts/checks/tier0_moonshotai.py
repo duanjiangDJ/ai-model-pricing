@@ -84,6 +84,10 @@ def run(ctx):
         pm, pb = parse(text)
         parsed.update(pm)
         batches.update(pb)
+    if not parsed:
+        # Fail loudly: every pricing page returned 0 rows (layout change or fetch stub) —
+        # a silent changed=0 would record this check GREEN with nothing verified.
+        raise ValueError("moonshot pricing pages: no model rows matched (layout changed?)")
     provider = load_provider(PROVIDER_ID)
     if not provider:
         return {"changed": 0, "detail": "provider file missing"}
