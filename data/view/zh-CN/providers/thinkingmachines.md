@@ -13,5 +13,5 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `thinkingmachines/Inkling` | — | reasoning | 按量 | 65.536K | $1.87 | $4.68 | $0.374 | — | —/— | — | models.dev official list price |
-| `thinkingmachines/Inkling:peft:262144` | — | reasoning | 按量 | 262.144K | $3.74 | $9.36 | $0.748 | — | —/— | — | models.dev official list price |
+| `thinkingmachines/Inkling` | ✅ 在线 | reasoning | 按量 | 65.536K | $1.87 | $4.68 | $0.374 | — | —/— | — | models.dev official list price |
+| `thinkingmachines/Inkling:peft:262144` | ✅ 在线 | reasoning | 按量 | 262.144K | $3.74 | $9.36 | $0.748 | — | —/— | — | models.dev official list price |

@@ -13,12 +13,12 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `agent-max` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `agent-prime` | — | reasoning | 未知 | 196.608K | — | — | — | — | —/— | — | models.dev official list price |
-| `agent-standard` | — | reasoning | 未知 | 128K | — | — | — | — | —/— | — | models.dev official list price |
-| `code-max` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `code-prime` | — | reasoning | 未知 | 196.608K | — | — | — | — | —/— | — | models.dev official list price |
-| `code-standard` | — | reasoning | 未知 | 128K | — | — | — | — | —/— | — | models.dev official list price |
-| `text-max` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `text-prime` | — | reasoning | 未知 | 196.608K | — | — | — | — | —/— | — | models.dev official list price |
-| `text-standard` | — | reasoning | 未知 | 128K | — | — | — | — | —/— | — | models.dev official list price |
+| `agent-max` | ✅ 在线 | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `agent-prime` | ✅ 在线 | reasoning | 未知 | 196.608K | — | — | — | — | —/— | — | models.dev official list price |
+| `agent-standard` | ✅ 在线 | reasoning | 未知 | 128K | — | — | — | — | —/— | — | models.dev official list price |
+| `code-max` | ✅ 在线 | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `code-prime` | ✅ 在线 | reasoning | 未知 | 196.608K | — | — | — | — | —/— | — | models.dev official list price |
+| `code-standard` | ✅ 在线 | reasoning | 未知 | 128K | — | — | — | — | —/— | — | models.dev official list price |
+| `text-max` | ✅ 在线 | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `text-prime` | ✅ 在线 | reasoning | 未知 | 196.608K | — | — | — | — | —/— | — | models.dev official list price |
+| `text-standard` | ✅ 在线 | reasoning | 未知 | 128K | — | — | — | — | —/— | — | models.dev official list price |

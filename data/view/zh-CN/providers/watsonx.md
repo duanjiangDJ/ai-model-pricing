@@ -13,8 +13,8 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `ibm/granite-4-h-small` | — | chat | 按量 | 131.072K | $0.0636 | $0.265 | — | — | —/— | — | models.dev official list price |
-| `meta-llama/llama-3-3-70b-instruct` | — | chat | 按量 | 131.072K | $0.7526 | $0.7526 | — | — | —/— | — | models.dev official list price |
-| `meta-llama/llama-4-maverick-17b-128e-instruct-fp8` | — | chat | 按量 | 131.072K | $0.371 | $1.484 | — | — | —/— | — | models.dev official list price |
-| `mistralai/mistral-small-3-1-24b-instruct-2503` | — | chat | 按量 | 131.072K | $0.106 | $0.318 | — | — | —/— | — | models.dev official list price |
-| `openai/gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.159 | $0.636 | — | — | —/— | — | models.dev official list price |
+| `ibm/granite-4-h-small` | ✅ 在线 | chat | 按量 | 131.072K | $0.0636 | $0.265 | — | — | —/— | — | models.dev official list price |
+| `meta-llama/llama-3-3-70b-instruct` | ✅ 在线 | chat | 按量 | 131.072K | $0.7526 | $0.7526 | — | — | —/— | — | models.dev official list price |
+| `meta-llama/llama-4-maverick-17b-128e-instruct-fp8` | ✅ 在线 | chat | 按量 | 131.072K | $0.371 | $1.484 | — | — | —/— | — | models.dev official list price |
+| `mistralai/mistral-small-3-1-24b-instruct-2503` | ✅ 在线 | chat | 按量 | 131.072K | $0.106 | $0.318 | — | — | —/— | — | models.dev official list price |
+| `openai/gpt-oss-120b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.159 | $0.636 | — | — | —/— | — | models.dev official list price |

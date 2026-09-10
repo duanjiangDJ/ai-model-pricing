@@ -13,4 +13,4 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `hy3` | — | reasoning | 订阅包含 | 256K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `hy3` | ✅ 在线 | reasoning | 订阅包含 | 256K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |

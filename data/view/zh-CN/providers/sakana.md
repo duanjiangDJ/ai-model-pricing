@@ -13,7 +13,7 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `fugu` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `fugu-ultra` | — | reasoning | 按量 | 1M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
-| `fugu-ultra-20260615` | — | reasoning | 按量 | 1M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
-| `sakana-namazu` | — | reasoning | 按量 | 262.144K | $0.95 | $4 | $0.15 | — | —/— | — | models.dev official list price |
+| `fugu` | ✅ 在线 | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `fugu-ultra` | ✅ 在线 | reasoning | 按量 | 1M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
+| `fugu-ultra-20260615` | ✅ 在线 | reasoning | 按量 | 1M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
+| `sakana-namazu` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.95 | $4 | $0.15 | — | —/— | — | models.dev official list price |

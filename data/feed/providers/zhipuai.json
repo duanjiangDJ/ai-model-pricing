@@ -40,7 +40,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-4.5-air",
@@ -74,7 +75,8 @@
       "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.8, output ¥2. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-4.5-flash",
@@ -106,7 +108,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-4.5v",
@@ -136,7 +139,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-4.6",
@@ -168,7 +172,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-4.6v",
@@ -198,7 +203,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-4.7",
@@ -232,7 +238,8 @@
       "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥2, output ¥8. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion. [DUAL-CURRENCY UNVERIFIED: cny/usd ratio is off-band; official CNY vs USD page pending verification]",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-4.7-flash",
@@ -264,7 +271,8 @@
       "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.15, output ¥1.5. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion. | Billed per-token (CNY, domestic). models.dev USD label unreliable.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-4.7-flashx",
@@ -298,7 +306,8 @@
       "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.5, output ¥3. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-5",
@@ -332,7 +341,8 @@
       "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥4, output ¥18. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-5-turbo",
@@ -362,7 +372,8 @@
       "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥5, output ¥22. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion. | Billed per-token (CNY, domestic). models.dev USD label unreliable.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-5.1",
@@ -396,7 +407,8 @@
       "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥6, output ¥24. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-5.2",
@@ -430,7 +442,8 @@
       "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥8, output ¥28. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-5.2-highspeed",
@@ -456,7 +469,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-5.3",
@@ -490,7 +504,8 @@
       "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥8, output ¥28. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-5.3-flash",
@@ -524,7 +539,8 @@
       "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.4, output ¥0.8. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-5v-turbo",
@@ -556,7 +572,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     }
   ],
   "api_base_url": "https://open.bigmodel.cn/api/paas/v4",

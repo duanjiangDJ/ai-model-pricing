@@ -13,7 +13,7 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `GLM-5.2` | — | reasoning | 按量 | 1M | $0.55 | $1.784 | $0.111 | — | —/— | — | models.dev official list price |
-| `MiniMax-M2.7` | — | reasoning | 按量 | 196.608K | $0.48 | $1.79 | $0.05 | — | —/— | — | models.dev official list price |
-| `Qwen3.8-Max` | — | reasoning | 按量 | 1M | $1.815 | $5.4461 | $0.17 | — | —/— | — | models.dev official list price |
-| `gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.17 | $0.55 | — | — | —/— | — | models.dev official list price |
+| `GLM-5.2` | ✅ 在线 | reasoning | 按量 | 1M | $0.55 | $1.784 | $0.111 | — | —/— | — | models.dev official list price |
+| `MiniMax-M2.7` | ✅ 在线 | reasoning | 按量 | 196.608K | $0.48 | $1.79 | $0.05 | — | —/— | — | models.dev official list price |
+| `Qwen3.8-Max` | ✅ 在线 | reasoning | 按量 | 1M | $1.815 | $5.4461 | $0.17 | — | —/— | — | models.dev official list price |
+| `gpt-oss-120b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.17 | $0.55 | — | — | —/— | — | models.dev official list price |

@@ -34,7 +34,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "DeepSeek-V4-Flash",
@@ -60,7 +61,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "DeepSeek-V4-Flash-0731",
@@ -86,7 +88,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "DeepSeek-V4-Pro",
@@ -112,7 +115,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "GLM-5",
@@ -138,7 +142,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "GLM-5.1",
@@ -164,7 +169,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "GLM-5.2",
@@ -190,7 +196,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "Kimi-K2.5",
@@ -216,7 +223,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "Kimi-K2.6",
@@ -242,7 +250,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "Kimi-K2.7-Code",
@@ -268,7 +277,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "Kimi-K3",
@@ -294,7 +304,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "MiMo-V2.5-Pro",
@@ -320,7 +331,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "MiniMax-M2.5",
@@ -346,7 +358,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "MiniMax-M2.7",
@@ -372,7 +385,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "MiniMax-M3",
@@ -398,7 +412,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "Qwen3.8-Max",
@@ -424,7 +439,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     }
   ],
   "api_base_url": "https://api.scnet.cn/api/llm/v1"

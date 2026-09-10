@@ -232,7 +232,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "mimo-v2.5-tts",
@@ -258,7 +259,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "mimo-v2.5-tts-voiceclone",
@@ -284,7 +286,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "mimo-v2.5-tts-voicedesign",
@@ -310,7 +313,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     }
   ],
   "api_base_url": "https://api.xiaomimimo.com/v1",

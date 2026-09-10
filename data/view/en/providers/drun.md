@@ -13,6 +13,6 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `public/deepseek-r1` | — | reasoning | per-token | 131.072K | $0.55 | $2.2 | — | — | —/— | — | models.dev official list price |
-| `public/deepseek-v3` | — | chat | per-token | 131.072K | $0.28 | $1.1 | — | — | —/— | — | models.dev official list price |
-| `public/minimax-m25` | — | reasoning | per-token | 204.8K | $0.29 | $1.16 | — | — | —/— | — | models.dev official list price |
+| `public/deepseek-r1` | ✅ online | reasoning | per-token | 131.072K | $0.55 | $2.2 | — | — | —/— | — | models.dev official list price |
+| `public/deepseek-v3` | ✅ online | chat | per-token | 131.072K | $0.28 | $1.1 | — | — | —/— | — | models.dev official list price |
+| `public/minimax-m25` | ✅ online | reasoning | per-token | 204.8K | $0.29 | $1.16 | — | — | —/— | — | models.dev official list price |

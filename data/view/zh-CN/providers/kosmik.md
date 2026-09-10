@@ -13,4 +13,4 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `qwen/qwen3.8-27b` | — | reasoning | 按量 | 262.144K | $0.35 | $2.2 | $0.09 | — | —/— | — | models.dev official list price |
+| `qwen/qwen3.8-27b` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.35 | $2.2 | $0.09 | — | —/— | — | models.dev official list price |

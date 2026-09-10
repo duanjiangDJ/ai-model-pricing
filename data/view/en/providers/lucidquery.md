@@ -13,7 +13,7 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `lucidnova-rf1-100b` | — | reasoning | per-token | 120K | $2 | $5 | — | — | —/— | — | models.dev official list price |
-| `lucidquery-agi-01-frontier` | — | reasoning | per-token | 300K | $4.5 | $22 | — | — | —/— | — | models.dev official list price |
-| `lucidquery-agi-01-swift` | — | reasoning | per-token | 300K | $2.5 | $15 | — | — | —/— | — | models.dev official list price |
-| `lucidquery-nexus-coder` | — | reasoning | per-token | 250K | $2 | $5 | — | — | —/— | — | models.dev official list price |
+| `lucidnova-rf1-100b` | ✅ online | reasoning | per-token | 120K | $2 | $5 | — | — | —/— | — | models.dev official list price |
+| `lucidquery-agi-01-frontier` | ✅ online | reasoning | per-token | 300K | $4.5 | $22 | — | — | —/— | — | models.dev official list price |
+| `lucidquery-agi-01-swift` | ✅ online | reasoning | per-token | 300K | $2.5 | $15 | — | — | —/— | — | models.dev official list price |
+| `lucidquery-nexus-coder` | ✅ online | reasoning | per-token | 250K | $2 | $5 | — | — | —/— | — | models.dev official list price |

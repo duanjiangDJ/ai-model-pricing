@@ -13,17 +13,17 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `auto` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `cheap` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `e2e` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `fast` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `synth` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `synth-code` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `trustedrouter/auto` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `trustedrouter/cheap` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `trustedrouter/e2e` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `trustedrouter/fast` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `trustedrouter/synth` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `trustedrouter/synth-code` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `trustedrouter/zdr` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `zdr` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `auto` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `cheap` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `e2e` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `fast` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `synth` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `synth-code` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `trustedrouter/auto` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `trustedrouter/cheap` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `trustedrouter/e2e` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `trustedrouter/fast` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `trustedrouter/synth` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `trustedrouter/synth-code` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `trustedrouter/zdr` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `zdr` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |

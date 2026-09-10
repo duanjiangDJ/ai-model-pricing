@@ -13,9 +13,9 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `MiniMaxAI/MiniMax-M2.5` | — | reasoning | 按量 | 196.608K | $0.3 | $1.2 | $0.06 | — | —/— | — | models.dev official list price |
-| `deepseek-ai/DeepSeek-V3.2` | — | reasoning | 按量 | 163.84K | $0.5 | $1.5 | $0.25 | — | —/— | — | models.dev official list price |
-| `google/gemma-4-31B-it` | — | reasoning | 按量 | 262.144K | $0.14 | $0.4 | — | — | —/— | — | models.dev official list price |
-| `zai-org/GLM-5.1` | — | reasoning | 按量 | 202.752K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
-| `zai-org/GLM-5.2` | — | reasoning | 按量 | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
-| `zai-org/GLM-5.3` | — | reasoning | 按量 | 1.04858M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `MiniMaxAI/MiniMax-M2.5` | ✅ 在线 | reasoning | 按量 | 196.608K | $0.3 | $1.2 | $0.06 | — | —/— | — | models.dev official list price |
+| `deepseek-ai/DeepSeek-V3.2` | ✅ 在线 | reasoning | 按量 | 163.84K | $0.5 | $1.5 | $0.25 | — | —/— | — | models.dev official list price |
+| `google/gemma-4-31B-it` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.14 | $0.4 | — | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.1` | ✅ 在线 | reasoning | 按量 | 202.752K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.2` | ✅ 在线 | reasoning | 按量 | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.3` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |

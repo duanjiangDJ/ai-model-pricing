@@ -13,19 +13,19 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `DeepSeek-V3.2` | — | reasoning | 订阅包含 | 128K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `DeepSeek-V4-Flash` | — | reasoning | 订阅包含 | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `DeepSeek-V4-Flash-0731` | — | reasoning | 订阅包含 | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `DeepSeek-V4-Pro` | — | reasoning | 订阅包含 | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `GLM-5` | — | reasoning | 订阅包含 | 204.8K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `GLM-5.1` | — | reasoning | 订阅包含 | 200K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `GLM-5.2` | — | reasoning | 订阅包含 | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `Kimi-K2.5` | — | reasoning | 订阅包含 | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `Kimi-K2.6` | — | reasoning | 订阅包含 | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `Kimi-K2.7-Code` | — | reasoning | 订阅包含 | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `Kimi-K3` | — | reasoning | 订阅包含 | 1.04858M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `MiMo-V2.5-Pro` | — | reasoning | 订阅包含 | 1.04858M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `MiniMax-M2.5` | — | reasoning | 订阅包含 | 204.8K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `MiniMax-M2.7` | — | reasoning | 订阅包含 | 204.8K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `MiniMax-M3` | — | reasoning | 订阅包含 | 512K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `Qwen3.8-Max` | — | reasoning | 订阅包含 | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `DeepSeek-V3.2` | ✅ 在线 | reasoning | 订阅包含 | 128K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `DeepSeek-V4-Flash` | ✅ 在线 | reasoning | 订阅包含 | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `DeepSeek-V4-Flash-0731` | ✅ 在线 | reasoning | 订阅包含 | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `DeepSeek-V4-Pro` | ✅ 在线 | reasoning | 订阅包含 | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `GLM-5` | ✅ 在线 | reasoning | 订阅包含 | 204.8K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `GLM-5.1` | ✅ 在线 | reasoning | 订阅包含 | 200K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `GLM-5.2` | ✅ 在线 | reasoning | 订阅包含 | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `Kimi-K2.5` | ✅ 在线 | reasoning | 订阅包含 | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `Kimi-K2.6` | ✅ 在线 | reasoning | 订阅包含 | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `Kimi-K2.7-Code` | ✅ 在线 | reasoning | 订阅包含 | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `Kimi-K3` | ✅ 在线 | reasoning | 订阅包含 | 1.04858M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `MiMo-V2.5-Pro` | ✅ 在线 | reasoning | 订阅包含 | 1.04858M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `MiniMax-M2.5` | ✅ 在线 | reasoning | 订阅包含 | 204.8K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `MiniMax-M2.7` | ✅ 在线 | reasoning | 订阅包含 | 204.8K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `MiniMax-M3` | ✅ 在线 | reasoning | 订阅包含 | 512K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `Qwen3.8-Max` | ✅ 在线 | reasoning | 订阅包含 | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |

@@ -34,7 +34,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "fugu-ultra",
@@ -66,7 +67,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "fugu-ultra-20260615",
@@ -98,7 +100,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "sakana-namazu",
@@ -130,7 +133,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     }
   ],
   "api_base_url": "https://api.sakana.ai/v1"

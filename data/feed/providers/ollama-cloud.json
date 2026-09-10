@@ -34,7 +34,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "deepseek-v4-flash:0731",
@@ -60,7 +61,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "deepseek-v4-pro",
@@ -86,7 +88,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "gemma4:31b",
@@ -112,7 +115,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-5.1",
@@ -138,7 +142,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-5.2",
@@ -164,7 +169,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-5.3",
@@ -189,7 +195,8 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "status": "online"
     },
     {
       "id": "glm-5.3-flash",
@@ -214,7 +221,8 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "status": "online"
     },
     {
       "id": "gpt-oss:120b",
@@ -240,7 +248,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "gpt-oss:20b",
@@ -266,7 +275,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "kimi-k2.5",
@@ -292,7 +302,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "kimi-k2.6",
@@ -318,7 +329,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "kimi-k2.7-code",
@@ -344,7 +356,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "kimi-k3",
@@ -370,7 +383,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "minimax-m2.5",
@@ -396,7 +410,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "minimax-m2.7",
@@ -422,7 +437,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "minimax-m3",
@@ -448,7 +464,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "mistral-large-3:675b",
@@ -474,7 +491,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nemotron-3-nano:30b",
@@ -500,7 +518,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nemotron-3-super",
@@ -526,7 +545,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nemotron-3-ultra",
@@ -552,7 +572,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "qwen3.5:397b",
@@ -578,7 +599,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     }
   ],
   "api_base_url": "https://ollama.com/api"

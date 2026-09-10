@@ -13,6 +13,6 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `abliterated-model` | — | reasoning | 按量 | 150K | $3 | $3 | $0.3 | — | —/— | — | models.dev official list price |
-| `abliterated-model-large` | — | reasoning | 按量 | 1M | $5 | $5 | $0.5 | — | —/— | — | models.dev official list price |
-| `abliterated-model-large-v2` | — | reasoning | 按量 | 1M | $5 | $5 | $0.5 | — | —/— | — | models.dev official list price |
+| `abliterated-model` | ✅ 在线 | reasoning | 按量 | 150K | $3 | $3 | $0.3 | — | —/— | — | models.dev official list price |
+| `abliterated-model-large` | ✅ 在线 | reasoning | 按量 | 1M | $5 | $5 | $0.5 | — | —/— | — | models.dev official list price |
+| `abliterated-model-large-v2` | ✅ 在线 | reasoning | 按量 | 1M | $5 | $5 | $0.5 | — | —/— | — | models.dev official list price |

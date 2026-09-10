@@ -38,7 +38,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b",
@@ -68,7 +69,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/deepseek-ai/deepseek-v4-flash-0731",
@@ -100,7 +102,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/deepseek-ai/deepseek-v4-pro-0813",
@@ -132,7 +135,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/google/gemma-4-26b-a4b-it",
@@ -162,7 +166,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/ibm-granite/granite-4.0-h-micro",
@@ -192,7 +197,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/meta/llama-3.1-8b-instruct-fp8",
@@ -222,7 +228,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/meta/llama-3.2-11b-vision-instruct",
@@ -252,7 +259,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/meta/llama-3.2-1b-instruct",
@@ -282,7 +290,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/meta/llama-3.2-3b-instruct",
@@ -312,7 +321,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
@@ -342,7 +352,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/meta/llama-4-scout-17b-16e-instruct",
@@ -372,7 +383,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/meta/llama-guard-3-8b",
@@ -402,7 +414,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/mistralai/mistral-small-3.1-24b-instruct",
@@ -432,7 +445,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/moonshotai/kimi-k2.6",
@@ -464,7 +478,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/moonshotai/kimi-k2.7-code",
@@ -496,7 +511,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/nvidia/nemotron-3-120b-a12b",
@@ -526,7 +542,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/openai/gpt-oss-120b",
@@ -556,7 +573,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/openai/gpt-oss-20b",
@@ -586,7 +604,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/qwen/qwen2.5-coder-32b-instruct",
@@ -616,7 +635,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/qwen/qwen3-30b-a3b-fp8",
@@ -646,7 +666,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/qwen/qwen3.8-27b",
@@ -678,7 +699,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/qwen/qwq-32b",
@@ -708,7 +730,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/zai-org/glm-4.7-flash",
@@ -738,7 +761,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/zai-org/glm-5.2",
@@ -770,7 +794,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "@cf/zai-org/glm-5.3",
@@ -801,7 +826,8 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "status": "online"
     },
     {
       "id": "@cf/zai-org/glm-5.3-flash",
@@ -833,7 +859,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     }
   ],
   "api_base_url": "https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/ai/v1"

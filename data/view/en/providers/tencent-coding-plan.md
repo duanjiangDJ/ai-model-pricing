@@ -13,11 +13,11 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `glm-5` | — | reasoning | sub-included | 202.752K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `hunyuan-2.0-instruct` | — | chat | sub-included | 131.072K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `hunyuan-2.0-thinking` | — | reasoning | sub-included | 131.072K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `hunyuan-t1` | — | reasoning | sub-included | 131.072K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `hunyuan-turbos` | — | chat | sub-included | 131.072K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `kimi-k2.5` | — | reasoning | sub-included | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `minimax-m2.5` | — | reasoning | sub-included | 204.8K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `tc-code-latest` | — | chat | sub-included | 131.072K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `glm-5` | ✅ online | reasoning | sub-included | 202.752K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `hunyuan-2.0-instruct` | ✅ online | chat | sub-included | 131.072K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `hunyuan-2.0-thinking` | ✅ online | reasoning | sub-included | 131.072K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `hunyuan-t1` | ✅ online | reasoning | sub-included | 131.072K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `hunyuan-turbos` | ✅ online | chat | sub-included | 131.072K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `kimi-k2.5` | ✅ online | reasoning | sub-included | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `minimax-m2.5` | ✅ online | reasoning | sub-included | 204.8K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `tc-code-latest` | ✅ online | chat | sub-included | 131.072K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |

@@ -13,13 +13,13 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `claude-fable-5` | — | reasoning | 按量 | 1M | $10 | $50 | $1 | — | —/— | — | models.dev official list price |
-| `claude-haiku-4-5-20251001` | — | reasoning | 按量 | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
-| `claude-opus-4-6` | — | reasoning | 按量 | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
-| `claude-opus-4-7` | — | reasoning | 按量 | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
-| `claude-opus-4-8` | — | reasoning | 按量 | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
-| `claude-sonnet-4-6` | — | reasoning | 按量 | 1M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
-| `gpt-5.3-codex` | — | reasoning | 按量 | 400K | $1.75 | $14 | $0.175 | — | —/— | — | models.dev official list price |
-| `gpt-5.4` | — | reasoning | 按量 | 1.05M | $2.5 | $15 | $0.25 | — | —/— | — | models.dev official list price |
-| `gpt-5.4-mini` | — | reasoning | 按量 | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | models.dev official list price |
-| `gpt-5.5` | — | reasoning | 按量 | 1.05M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
+| `claude-fable-5` | ✅ 在线 | reasoning | 按量 | 1M | $10 | $50 | $1 | — | —/— | — | models.dev official list price |
+| `claude-haiku-4-5-20251001` | ✅ 在线 | reasoning | 按量 | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
+| `claude-opus-4-6` | ✅ 在线 | reasoning | 按量 | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
+| `claude-opus-4-7` | ✅ 在线 | reasoning | 按量 | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
+| `claude-opus-4-8` | ✅ 在线 | reasoning | 按量 | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
+| `claude-sonnet-4-6` | ✅ 在线 | reasoning | 按量 | 1M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
+| `gpt-5.3-codex` | ✅ 在线 | reasoning | 按量 | 400K | $1.75 | $14 | $0.175 | — | —/— | — | models.dev official list price |
+| `gpt-5.4` | ✅ 在线 | reasoning | 按量 | 1.05M | $2.5 | $15 | $0.25 | — | —/— | — | models.dev official list price |
+| `gpt-5.4-mini` | ✅ 在线 | reasoning | 按量 | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | models.dev official list price |
+| `gpt-5.5` | ✅ 在线 | reasoning | 按量 | 1.05M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |

@@ -13,8 +13,8 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `muse-spark-1.1` | — | reasoning | per-token | 1M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
-| `muse-spark-1.2` | — | reasoning | per-token | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
-| `muse-spark-1.2-contributor` | — | reasoning | per-token | 1.04858M | $0.1 | $0.2 | $0.002 | — | —/— | — | models.dev official list price |
-| `muse-spark-1.3` | — | reasoning | per-token | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
-| `muse-spark-1.3-contributor` | — | reasoning | per-token | 1.04858M | $0.1 | $0.2 | $0.002 | — | —/— | — | models.dev official list price |
+| `muse-spark-1.1` | ✅ online | reasoning | per-token | 1M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
+| `muse-spark-1.2` | ✅ online | reasoning | per-token | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
+| `muse-spark-1.2-contributor` | ✅ online | reasoning | per-token | 1.04858M | $0.1 | $0.2 | $0.002 | — | —/— | — | models.dev official list price |
+| `muse-spark-1.3` | ✅ online | reasoning | per-token | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
+| `muse-spark-1.3-contributor` | ✅ online | reasoning | per-token | 1.04858M | $0.1 | $0.2 | $0.002 | — | —/— | — | models.dev official list price |

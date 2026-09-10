@@ -42,7 +42,8 @@
       "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, effective price after any promo; M3 ≤512k tier; cache-write where listed). Parsed by check minimax. | Legacy model (MiniMax historical pricing section); no current standard CNY list.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "MiniMax-M2.1",
@@ -76,7 +77,8 @@
       "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, effective price after any promo; M3 ≤512k tier; cache-write where listed). Parsed by check minimax. | Legacy model (MiniMax historical pricing section); no current standard CNY list.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "MiniMax-M2.5",
@@ -110,7 +112,8 @@
       "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, effective price after any promo; M3 ≤512k tier; cache-write where listed). Parsed by check minimax. | Legacy model (MiniMax historical pricing section); no current standard CNY list.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "MiniMax-M2.5-highspeed",
@@ -144,7 +147,8 @@
       "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, effective price after any promo; M3 ≤512k tier; cache-write where listed). Parsed by check minimax.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "MiniMax-M2.7",
@@ -180,7 +184,8 @@
       "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, effective price after any promo; M3 ≤512k tier; cache-write where listed). Parsed by check minimax. | MiniMax official CNY (¥/1M tokens, standard): MiniMax-M2.7. Verified 2026-08-28.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "MiniMax-M2.7-highspeed",
@@ -216,7 +221,8 @@
       "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, effective price after any promo; M3 ≤512k tier; cache-write where listed). Parsed by check minimax. | MiniMax official CNY (¥/1M tokens, standard): MiniMax-M2.7-highspeed. Verified 2026-08-28.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "MiniMax-M3",
@@ -250,7 +256,8 @@
       "notes": "models.dev official list price | MiniMax official CNY (¥/1M tokens): MiniMax-M3 permanent 50% promo, current price ¥2.10/8.40 (input/output). US D list 0.6/2.4, promo USD 0.3/1.2. CNY fixed to promo to match USD (was list 4.2/16.8 — mismatch).",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     }
   ],
   "api_base_url": "https://api.minimax.chat/v1",

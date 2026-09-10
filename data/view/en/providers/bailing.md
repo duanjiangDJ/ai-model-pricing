@@ -13,5 +13,5 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `Ling-1T` | — | chat | per-token | 128K | $0.57 | $2.29 | — | — | —/— | — | models.dev official list price |
-| `Ring-1T` | — | reasoning | per-token | 128K | $0.57 | $2.29 | — | — | —/— | — | models.dev official list price |
+| `Ling-1T` | ✅ online | chat | per-token | 128K | $0.57 | $2.29 | — | — | —/— | — | models.dev official list price |
+| `Ring-1T` | ✅ online | reasoning | per-token | 128K | $0.57 | $2.29 | — | — | —/— | — | models.dev official list price |

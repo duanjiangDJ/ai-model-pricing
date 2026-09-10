@@ -13,5 +13,5 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `Qwen/Qwen3.6-35B-A3B-FP8` | — | reasoning | ? | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
-| `Qwen3.6-27B` | — | reasoning | ? | 196.608K | — | — | — | — | —/— | — | models.dev official list price |
+| `Qwen/Qwen3.6-35B-A3B-FP8` | ✅ online | reasoning | ? | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
+| `Qwen3.6-27B` | ✅ online | reasoning | ? | 196.608K | — | — | — | — | —/— | — | models.dev official list price |

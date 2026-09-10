@@ -13,10 +13,10 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `Qwen/Qwen3-235B-A22B-Instruct-2507` | — | chat | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `Qwen/Qwen3-235B-A22B-Thinking-2507` | — | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `Qwen/Qwen3-30B-A3B-Instruct-2507` | — | chat | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `Qwen/Qwen3-30B-A3B-Thinking-2507` | — | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `Qwen/Qwen3-Coder-30B-A3B-Instruct` | — | chat | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `ZhipuAI/GLM-4.5` | — | reasoning | 免费 | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `ZhipuAI/GLM-4.6` | — | reasoning | 免费 | 202.752K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `Qwen/Qwen3-235B-A22B-Instruct-2507` | ✅ 在线 | chat | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `Qwen/Qwen3-235B-A22B-Thinking-2507` | ✅ 在线 | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `Qwen/Qwen3-30B-A3B-Instruct-2507` | ✅ 在线 | chat | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `Qwen/Qwen3-30B-A3B-Thinking-2507` | ✅ 在线 | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `Qwen/Qwen3-Coder-30B-A3B-Instruct` | ✅ 在线 | chat | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `ZhipuAI/GLM-4.5` | ✅ 在线 | reasoning | 免费 | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `ZhipuAI/GLM-4.6` | ✅ 在线 | reasoning | 免费 | 202.752K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

@@ -13,7 +13,7 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `GLM-5.2` | — | reasoning | per-token | 1M | $0.55 | $1.784 | $0.111 | — | —/— | — | models.dev official list price |
-| `MiniMax-M2.7` | — | reasoning | per-token | 196.608K | $0.48 | $1.79 | $0.05 | — | —/— | — | models.dev official list price |
-| `Qwen3.8-Max` | — | reasoning | per-token | 1M | $1.815 | $5.4461 | $0.17 | — | —/— | — | models.dev official list price |
-| `gpt-oss-120b` | — | reasoning | per-token | 131.072K | $0.17 | $0.55 | — | — | —/— | — | models.dev official list price |
+| `GLM-5.2` | ✅ online | reasoning | per-token | 1M | $0.55 | $1.784 | $0.111 | — | —/— | — | models.dev official list price |
+| `MiniMax-M2.7` | ✅ online | reasoning | per-token | 196.608K | $0.48 | $1.79 | $0.05 | — | —/— | — | models.dev official list price |
+| `Qwen3.8-Max` | ✅ online | reasoning | per-token | 1M | $1.815 | $5.4461 | $0.17 | — | —/— | — | models.dev official list price |
+| `gpt-oss-120b` | ✅ online | reasoning | per-token | 131.072K | $0.17 | $0.55 | — | — | —/— | — | models.dev official list price |

@@ -40,7 +40,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/models/deepseek-v4-flash-0731",
@@ -72,7 +73,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/models/deepseek-v4-flash-vision-exp",
@@ -103,7 +105,8 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/models/deepseek-v4-pro",
@@ -135,7 +138,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/models/deepseek-v4-pro-0813",
@@ -167,7 +171,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/models/glm-5p2",
@@ -199,7 +204,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/models/glm-5p3",
@@ -230,7 +236,8 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/models/glm-5p3-flash",
@@ -261,7 +268,8 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/models/gpt-oss-120b",
@@ -293,7 +301,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/models/gpt-oss-20b",
@@ -325,7 +334,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/models/inkling",
@@ -357,7 +367,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/models/kimi-k2p6",
@@ -389,7 +400,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/models/kimi-k2p7-code",
@@ -421,7 +433,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/models/kimi-k3",
@@ -453,7 +466,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/models/minimax-m2p7",
@@ -485,7 +499,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/models/minimax-m3",
@@ -517,7 +532,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/models/muse-glimmer-30b",
@@ -549,7 +565,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/models/nemotron-3-ultra-nvfp4",
@@ -581,7 +598,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b",
@@ -613,7 +631,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/models/qwen3p7-plus",
@@ -645,7 +664,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/models/qwen3p8-max",
@@ -677,7 +697,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/routers/glm-5p2-fast",
@@ -709,7 +730,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/routers/kimi-k2p6-fast",
@@ -741,7 +763,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/routers/kimi-k2p6-turbo",
@@ -773,7 +796,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/routers/kimi-k2p7-code-fast",
@@ -805,7 +829,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "accounts/fireworks/routers/kimi-k3-fast",
@@ -837,7 +862,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     }
   ],
   "api_base_url": "https://api.fireworks.ai/inference/v1/"

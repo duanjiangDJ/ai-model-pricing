@@ -13,5 +13,5 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `gemma-4-31b` | — | reasoning | 按量 | 131.072K | $0.99 | $1.49 | — | — | —/— | — | models.dev official list price |
-| `gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.35 | $0.75 | — | — | —/— | — | models.dev official list price |
+| `gemma-4-31b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.99 | $1.49 | — | — | —/— | — | models.dev official list price |
+| `gpt-oss-120b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.35 | $0.75 | — | — | —/— | — | models.dev official list price |

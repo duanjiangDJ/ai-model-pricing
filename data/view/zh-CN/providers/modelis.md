@@ -13,12 +13,12 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `claude-fable-5` | — | reasoning | 按量 | 1M | $10 | $50 | — | — | —/— | — | models.dev official list price |
-| `claude-opus-4-8` | — | reasoning | 按量 | 1M | $5 | $25 | — | — | —/— | — | models.dev official list price |
-| `claude-sonnet-4-6` | — | reasoning | 按量 | 1M | $3 | $15 | — | — | —/— | — | models.dev official list price |
-| `deepseek-v4-flash` | — | reasoning | 按量 | 1M | $0.0983 | $0.1966 | — | — | —/— | — | models.dev official list price |
-| `deepseek-v4-pro` | — | reasoning | 按量 | 1M | $0.435 | $0.87 | — | — | —/— | — | models.dev official list price |
-| `gemini-2.5-flash` | — | reasoning | 按量 | 1.04858M | $0.3 | $2.5 | — | — | —/— | — | models.dev official list price |
-| `gemini-2.5-pro` | — | reasoning | 按量 | 1.04858M | $1.25 | $10 | — | — | —/— | — | models.dev official list price |
-| `qwen/qwen3.7-max` | — | reasoning | 按量 | 1M | $3 | $9 | — | — | —/— | — | models.dev official list price |
-| `qwen/qwen3.7-plus` | — | reasoning | 按量 | 1M | $0.768 | $3.072 | — | — | —/— | — | models.dev official list price |
+| `claude-fable-5` | ✅ 在线 | reasoning | 按量 | 1M | $10 | $50 | — | — | —/— | — | models.dev official list price |
+| `claude-opus-4-8` | ✅ 在线 | reasoning | 按量 | 1M | $5 | $25 | — | — | —/— | — | models.dev official list price |
+| `claude-sonnet-4-6` | ✅ 在线 | reasoning | 按量 | 1M | $3 | $15 | — | — | —/— | — | models.dev official list price |
+| `deepseek-v4-flash` | ✅ 在线 | reasoning | 按量 | 1M | $0.0983 | $0.1966 | — | — | —/— | — | models.dev official list price |
+| `deepseek-v4-pro` | ✅ 在线 | reasoning | 按量 | 1M | $0.435 | $0.87 | — | — | —/— | — | models.dev official list price |
+| `gemini-2.5-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.3 | $2.5 | — | — | —/— | — | models.dev official list price |
+| `gemini-2.5-pro` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.25 | $10 | — | — | —/— | — | models.dev official list price |
+| `qwen/qwen3.7-max` | ✅ 在线 | reasoning | 按量 | 1M | $3 | $9 | — | — | —/— | — | models.dev official list price |
+| `qwen/qwen3.7-plus` | ✅ 在线 | reasoning | 按量 | 1M | $0.768 | $3.072 | — | — | —/— | — | models.dev official list price |

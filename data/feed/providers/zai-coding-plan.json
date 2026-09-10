@@ -34,7 +34,8 @@
       "notes": "Included in GLM Coding Plan (credits-based). Credit multipliers: input 2.3, cached input 0.56, output 8 (per 10k credits). Off-peak (Mon-Fri 14:00-18:00 UTC+8 excluded, weekends all day) consumes 50% credits. 3x quota of GLM-5.3.",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-5.3",
@@ -60,7 +61,8 @@
       "notes": "Included in GLM Coding Plan (credits-based). Credit multipliers: input 6.9, cached input 1.7, output 24. Off-peak consumes 50% credits.",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-5.2",
@@ -86,7 +88,8 @@
       "notes": "Included in GLM Coding Plan; requests to glm-5.2 are routed to glm-5.3 (flagship).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-5.2-highspeed",
@@ -112,7 +115,8 @@
       "notes": "Included in GLM Coding Plan (high-speed lane).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-5-turbo",
@@ -138,7 +142,8 @@
       "notes": "Included in GLM Coding Plan; requests to glm-5-turbo are routed to glm-5.3-flash.",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-4.7",
@@ -164,7 +169,8 @@
       "notes": "Included in GLM Coding Plan; requests to glm-4.7 are routed to glm-5.3-flash.",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     }
   ],
   "api_base_url": "https://api.z.ai/api/coding/paas/v4",

@@ -13,4 +13,4 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `qwen/qwen3.8-27b` | — | reasoning | per-token | 262.144K | $0.35 | $2.2 | $0.09 | — | —/— | — | models.dev official list price |
+| `qwen/qwen3.8-27b` | ✅ online | reasoning | per-token | 262.144K | $0.35 | $2.2 | $0.09 | — | —/— | — | models.dev official list price |

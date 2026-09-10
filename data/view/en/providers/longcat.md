@@ -13,4 +13,4 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `LongCat-2.0` | — | reasoning | per-token | 1M | $0.75 | $2.95 | $0.015 | — | —/— | — | models.dev official list price |
+| `LongCat-2.0` | ✅ online | reasoning | per-token | 1M | $0.75 | $2.95 | $0.015 | — | —/— | — | models.dev official list price |

@@ -13,5 +13,5 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `thinkingmachines/Inkling` | — | reasoning | per-token | 65.536K | $1.87 | $4.68 | $0.374 | — | —/— | — | models.dev official list price |
-| `thinkingmachines/Inkling:peft:262144` | — | reasoning | per-token | 262.144K | $3.74 | $9.36 | $0.748 | — | —/— | — | models.dev official list price |
+| `thinkingmachines/Inkling` | ✅ online | reasoning | per-token | 65.536K | $1.87 | $4.68 | $0.374 | — | —/— | — | models.dev official list price |
+| `thinkingmachines/Inkling:peft:262144` | ✅ online | reasoning | per-token | 262.144K | $3.74 | $9.36 | $0.748 | — | —/— | — | models.dev official list price |

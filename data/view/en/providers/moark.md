@@ -13,5 +13,5 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `GLM-4.7` | — | reasoning | per-token | 204.8K | $3.5 | $14 | — | — | —/— | — | models.dev official list price |
-| `MiniMax-M2.1` | — | reasoning | per-token | 204.8K | $2.1 | $8.4 | $2.1 | — | —/— | — | models.dev official list price |
+| `GLM-4.7` | ✅ online | reasoning | per-token | 204.8K | $3.5 | $14 | — | — | —/— | — | models.dev official list price |
+| `MiniMax-M2.1` | ✅ online | reasoning | per-token | 204.8K | $2.1 | $8.4 | $2.1 | — | —/— | — | models.dev official list price |

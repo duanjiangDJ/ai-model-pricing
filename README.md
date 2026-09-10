@@ -67,9 +67,9 @@ verification.
 
 | Status | Models |
 |---|---|
+| online | 7534 |
 | offline | 45 |
-| online | 19 |
-| (unmarked) | 7515 |
+| (unmarked) | 0 |
 
 ### Top providers by model count
 

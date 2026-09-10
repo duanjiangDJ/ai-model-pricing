@@ -13,7 +13,7 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `fugu` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `fugu-ultra` | — | reasoning | per-token | 1M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
-| `fugu-ultra-20260615` | — | reasoning | per-token | 1M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
-| `sakana-namazu` | — | reasoning | per-token | 262.144K | $0.95 | $4 | $0.15 | — | —/— | — | models.dev official list price |
+| `fugu` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `fugu-ultra` | ✅ online | reasoning | per-token | 1M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
+| `fugu-ultra-20260615` | ✅ online | reasoning | per-token | 1M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
+| `sakana-namazu` | ✅ online | reasoning | per-token | 262.144K | $0.95 | $4 | $0.15 | — | —/— | — | models.dev official list price |

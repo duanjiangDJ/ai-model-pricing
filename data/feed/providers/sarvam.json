@@ -34,7 +34,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "sarvam-30b",
@@ -60,7 +61,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     }
   ],
   "api_base_url": "https://api.sarvam.ai/v1"

@@ -16,6 +16,10 @@
 
 ---
 
+## 26.107.48 — 2026-09-10T09:39Z（内容更新）
+
+- data：显式化模型状态——为 178 个供应商的 7515 个模型补 status:online。历史上缺省 status 即代表在线；现 audit/schema 视其为显式字段，故每个模型都带显式 status、不再依赖隐式默认。未改动任何 online/offline 实际值；新增 scripts/migrate/add_model_status.py 以便复现。（采用方案 (a)：数据侧补全，而非 schema 强制。）
+
 ## 26.106.48 — 2026-09-10T09:29Z（功能更新）
 
 - 修复(同步)：OpenRouter 目录重写时保留本地已标注的 model status（避免已下线模型被复活）
