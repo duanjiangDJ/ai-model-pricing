@@ -8,8 +8,8 @@
   "pricing_page": "https://opencode.ai/docs/zen/",
   "api_base_url": "https://opencode.ai/zen/v1/models",
   "currency": "USD",
-  "updated_at": "2026-09-04T00:22:51Z",
-  "verified_at": "2026-09-04T00:22:51Z",
+  "updated_at": "2026-09-10T20:23:09Z",
+  "verified_at": "2026-09-10T20:23:09Z",
   "models": [
     {
       "id": "big-pickle",
@@ -129,13 +129,15 @@
           "cache_read": {
             "usd": 0.25
           },
-          "cache_write": null
+          "cache_write": {
+            "usd": 12.5
+          }
         },
         "batch": null,
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price",
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/zen/, USD per 1M tokens). Verified 2026-09-10T20:23:09Z.",
       "status": "online"
     },
     {
@@ -567,7 +569,7 @@
             "usd": 1.74
           },
           "output": {
-            "usd": 3.84
+            "usd": 3.48
           },
           "cache_read": {
             "usd": 0.145
@@ -579,7 +581,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/zen/, USD per 1M tokens). Verified 2026-09-10T20:23:09Z.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -1612,7 +1614,7 @@
             "usd": 0.2
           },
           "cache_write": {
-            "usd": 3.125
+            "usd": 2.5
           }
         },
         "batch": null,
@@ -1620,7 +1622,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/zen/, USD per 1M tokens). Verified 2026-09-10T20:23:09Z.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -1635,13 +1637,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2.5
+            "usd": 2.0
           },
           "output": {
-            "usd": 15
+            "usd": 12.0
           },
           "cache_read": {
-            "usd": 0.25
+            "usd": 0.2
           },
           "cache_write": {
             "usd": 2.5
@@ -1652,7 +1654,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/zen/, USD per 1M tokens). Verified 2026-09-10T20:23:09Z.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -1925,7 +1927,7 @@
             "usd": 3
           },
           "cache_read": {
-            "usd": 0.08
+            "usd": 0.1
           },
           "cache_write": null
         },
@@ -1934,7 +1936,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/zen/, USD per 1M tokens). Verified 2026-09-10T20:23:09Z.",
       "billing_model": [
         "pay_per_token"
       ],

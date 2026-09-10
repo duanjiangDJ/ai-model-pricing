@@ -6,8 +6,8 @@
 - Homepage: https://opencode.ai/zen
 - Pricing page: https://opencode.ai/docs/zen/
 - Currency: USD
-- Data updated: 2026-09-04T00:22:51Z
-- Verified: 2026-09-04T00:22:51Z
+- Data updated: 2026-09-10T20:23:09Z
+- Verified: 2026-09-10T20:23:09Z
 
 **99** models in total.
 
@@ -16,7 +16,7 @@
 | `big-pickle` | ✅ online | chat | free | — | $0 | $0 | $0 | — | —/— | — | Free model (per_mtok = 0). |
 | `claude-3-5-haiku` | ✅ online | chat | per-token | 200K | $0.8 | $4 | $0.08 | — | —/— | — | models.dev official list price |
 | `claude-fable-5` | ✅ online | chat | per-token | — | $10 | $50 | $1 | $12.5 | —/— | — | — |
-| `claude-fable-5-1` | ✅ online | reasoning | per-token | 1M | $10 | $50 | $0.25 | — | —/— | — | models.dev official list price |
+| `claude-fable-5-1` | ✅ online | reasoning | per-token | 1M | $10 | $50 | $0.25 | $12.5 | —/— | — | OpenCode Zen official price list (opencode.ai/docs/zen/, USD per 1M tokens). … |
 | `claude-haiku-4-5` | ✅ online | chat | per-token | — | $1 | $5 | $0.1 | $1.25 | —/— | — | — |
 | `claude-opus-4-1` | ✅ online | reasoning | per-token | 200K | $15 | $75 | $1.5 | — | —/— | — | models.dev official list price |
 | `claude-opus-4-5` | ✅ online | chat | per-token | — | $5 | $25 | $0.5 | $6.25 | —/— | — | — |
@@ -30,7 +30,7 @@
 | `claude-sonnet-5` | ✅ online | chat | per-token | — | $2 | $10 | $0.2 | $2.5 | —/— | — | — |
 | `deepseek-v4-flash` | ✅ online | chat | per-token | — | $0.14 | $0.28 | $0.028 | — | —/— | — | — |
 | `deepseek-v4-flash-free` | ✅ online | reasoning | free | 200K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `deepseek-v4-pro` | ✅ online | chat | per-token | — | $1.74 | $3.84 | $0.145 | — | —/— | — | — |
+| `deepseek-v4-pro` | ✅ online | chat | per-token | — | $1.74 | $3.48 | $0.145 | — | —/— | — | OpenCode Zen official price list (opencode.ai/docs/zen/, USD per 1M tokens). … |
 | `gemini-3-flash` | ✅ online | chat | per-token | — | $0.5 | $3 | $0.05 | — | —/— | — | — |
 | `gemini-3-pro` | ✅ online | reasoning | per-token | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `gemini-3.1-pro` | ✅ online | chat | per-token | — | $2 | $12 | $0.2 | — | —/— | — | — |
@@ -64,8 +64,8 @@
 | `gpt-5.5` | ✅ online | chat | per-token | — | $5 | $30 | $0.5 | — | —/— | — | — |
 | `gpt-5.5-pro` | ✅ online | chat | per-token | — | $30 | $180 | $30 | — | —/— | — | — |
 | `gpt-5.6-luna` | ✅ online | chat | per-token | — | $0.2 | $1.2 | $0.02 | $0.25 | —/— | — | — |
-| `gpt-5.6-sol` | ✅ online | chat | per-token | — | $2 | $10 | $0.2 | $3.125 | —/— | — | — |
-| `gpt-5.6-terra` | ✅ online | chat | per-token | — | $2.5 | $15 | $0.25 | $2.5 | —/— | — | — |
+| `gpt-5.6-sol` | ✅ online | chat | per-token | — | $2 | $10 | $0.2 | $2.5 | —/— | — | OpenCode Zen official price list (opencode.ai/docs/zen/, USD per 1M tokens). … |
+| `gpt-5.6-terra` | ✅ online | chat | per-token | — | $2 | $12 | $0.2 | $2.5 | —/— | — | OpenCode Zen official price list (opencode.ai/docs/zen/, USD per 1M tokens). … |
 | `grok-4.5` | ✅ online | chat | per-token | — | $2 | $6 | $0.3 | — | —/— | — | — |
 | `grok-4.6` | ✅ online | chat | per-token | — | $2 | $6 | $0.5 | — | —/— | — | — |
 | `grok-build-0.1` | ✅ online | chat | per-token | — | $1 | $2 | $0.2 | — | —/— | — | — |
@@ -74,7 +74,7 @@
 | `hy3-preview-free` | ✅ online | reasoning | free | 256K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `kimi-k2` | ✅ online | chat | per-token | 262.144K | $0.4 | $2.5 | $0.4 | — | —/— | — | models.dev official list price |
 | `kimi-k2-thinking` | ✅ online | reasoning | per-token | 262.144K | $0.4 | $2.5 | $0.4 | — | —/— | — | models.dev official list price |
-| `kimi-k2.5` | ✅ online | chat | per-token | — | $0.6 | $3 | $0.08 | — | —/— | — | — |
+| `kimi-k2.5` | ✅ online | chat | per-token | — | $0.6 | $3 | $0.1 | — | —/— | — | OpenCode Zen official price list (opencode.ai/docs/zen/, USD per 1M tokens). … |
 | `kimi-k2.5-free` | ✅ online | reasoning | free | 262.144K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `kimi-k2.6` | ✅ online | chat | per-token | — | $0.95 | $4 | $0.16 | — | —/— | — | — |
 | `kimi-k2.7-code` | ✅ online | chat | per-token | — | $0.95 | $4 | $0.19 | — | —/— | — | — |

@@ -6,8 +6,8 @@
 - Homepage: https://opencode.ai/go
 - Pricing page: https://opencode.ai/docs/go/
 - Currency: USD
-- Data updated: 2026-09-10T09:39:10Z
-- Verified: 2026-09-10T09:39:10Z
+- Data updated: 2026-09-10T20:23:09Z
+- Verified: 2026-09-10T20:23:09Z
 
 **34** models in total.
 
@@ -35,7 +35,7 @@
 | `mimo-v2-pro` | ✅ online | reasoning | per-token | 1.04858M | $1 | $3 | $0.2 | — | —/— | — | models.dev official list price |
 | `mimo-v2.5` | ✅ online | chat | per-token | — | $0.14 | $0.28 | $0.0028 | — | —/— | — | — |
 | `mimo-v2.5-pro` | ✅ online | chat | per-token | — | $0.435 | $0.87 | $0.003625 | — | —/— | — | — |
-| `minimax-m2.5` | ✅ online | chat | per-token | — | $0.3 | $1.2 | $0.03 | $0.375 | —/— | — | — |
+| `minimax-m2.5` | ✅ online | chat | per-token | — | $0.3 | $1.2 | $0.06 | $0.375 | —/— | — | OpenCode Zen official price list (opencode.ai/docs/go/, USD per 1M tokens). V… |
 | `minimax-m2.7` | ✅ online | chat | per-token | — | $0.3 | $1.2 | $0.06 | $0.375 | —/— | — | — |
 | `minimax-m3` | ✅ online | chat | per-token | — | $0.3 | $1.2 | $0.06 | — | —/— | — | — |
 | `muse-spark-1.2-contributor` | ✅ online | chat | per-token | — | $0.1 | $0.2 | $0.002 | — | —/— | — | — |
@@ -45,5 +45,5 @@
 | `qwen3.6-plus` | ✅ online | chat | per-token | — | $0.5 | $3 | $0.05 | $0.625 | —/— | — | — |
 | `qwen3.7-max` | ✅ online | chat | per-token | — | $2.5 | $7.5 | $0.5 | $3.125 | —/— | — | — |
 | `qwen3.7-plus` | ✅ online | chat | per-token | — | $0.4 | $1.6 | $0.04 | $0.5 | —/— | — | — |
-| `qwen3.8-flash` | ✅ online | reasoning | per-token | 1M | $0.15 | $0.47 | $0.016 | — | —/— | — | models.dev official list price |
+| `qwen3.8-flash` | ✅ online | reasoning | per-token | 1M | $0.15 | $0.47 | $0.016 | $0.2 | —/— | — | OpenCode Zen official price list (opencode.ai/docs/go/, USD per 1M tokens). V… |
 | `qwen3.8-max` | ✅ online | chat | per-token | — | $2 | $6 | $0.25 | $2.5 | —/— | — | — |

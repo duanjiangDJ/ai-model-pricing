@@ -1,6 +1,30 @@
 {
-  "schema_version": "26.112.54",
+  "schema_version": "26.112.55",
   "entries": [
+    {
+      "date": "2026-09-10T20:23:09Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "opencode-go",
+      "item_id": "minimax-m2.5,qwen3.8-flash",
+      "field": "pricing",
+      "new": {
+        "models": 2
+      },
+      "source": "https://opencode.ai/docs/go/"
+    },
+    {
+      "date": "2026-09-10T20:23:09Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "kimi-k2.5,deepseek-v4-pro,claude-fable-5-1,gpt-5.6-sol,gpt-5.6-terra,gpt-5.6-terra,gpt-5.6-terra",
+      "field": "pricing",
+      "new": {
+        "models": 7
+      },
+      "source": "https://opencode.ai/docs/zen/"
+    },
     {
       "date": "2026-09-10T19:14Z",
       "kind": "update",

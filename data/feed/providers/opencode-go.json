@@ -8,8 +8,8 @@
   "pricing_page": "https://opencode.ai/docs/go/",
   "api_base_url": "https://opencode.ai/zen/go/v1/models",
   "currency": "USD",
-  "updated_at": "2026-09-10T09:39:10Z",
-  "verified_at": "2026-09-10T09:39:10Z",
+  "updated_at": "2026-09-10T20:23:09Z",
+  "verified_at": "2026-09-10T20:23:09Z",
   "models": [
     {
       "id": "deepseek-v4-flash",
@@ -711,7 +711,7 @@
             "usd": 1.2
           },
           "cache_read": {
-            "usd": 0.03
+            "usd": 0.06
           },
           "cache_write": {
             "usd": 0.375
@@ -722,7 +722,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/go/, USD per 1M tokens). Verified 2026-09-10T20:23:09Z.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -1034,13 +1034,15 @@
           "cache_read": {
             "usd": 0.016
           },
-          "cache_write": null
+          "cache_write": {
+            "usd": 0.2
+          }
         },
         "batch": null,
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price",
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/go/, USD per 1M tokens). Verified 2026-09-10T20:23:09Z.",
       "status": "online"
     },
     {
