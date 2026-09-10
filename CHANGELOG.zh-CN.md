@@ -16,6 +16,12 @@
 
 ---
 
+## 26.110.52 — 2026-09-10T15:58Z（内容更新）
+
+- 价格同步（6 处变更）：
+- **anthropic**（更新 1）：`claude-fable-5-1`
+- **openrouter**（更新 5）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro-0813`, `z-ai/glm-4.7-flash`, `z-ai/glm-5.2`, `~z-ai/glm-latest`
+
 ## 26.109.52 — 2026-09-10T15:31Z（功能更新）
 
 - 修复：真实价格解析器匹配 0 行时改为抛错，避免布局变更被静默记绿（google/minimax/mistral/openai/xai/zai/moonshotai 及 tier1 baidu/stepfun/zhipuai）

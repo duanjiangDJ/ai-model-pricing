@@ -6,15 +6,15 @@
 - Homepage: https://docs.anthropic.com/en/docs/about-claude/models
 - Pricing page: https://www.anthropic.com/pricing
 - Currency: USD
-- Data updated: 2026-09-04T00:22:51Z
-- Verified: 2026-09-04T00:22:51Z
+- Data updated: 2026-09-10T15:40:00Z
+- Verified: 2026-09-10T15:40:00Z
 
 **17** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `claude-fable-5` | ✅ online | chat | per-token | 1M | $10 | $50 | $1 | $12.5 | $5/$25 | — | GA since 2026-06-09; Mythos-class model made safe for general use. 1M context… |
-| `claude-fable-5-1` | ✅ online | reasoning | per-token | 1M | $10 | $50 | $0.25 | — | —/— | — | models.dev official list price |
+| `claude-fable-5-1` | ✅ online | reasoning | per-token | 1M | $10 | $50 | $0.25 | $12.5 | —/— | — | Official anthropic.com/pricing (USD/MTok, incl. cache read/write). Parsed by … |
 | `claude-haiku-4-5` | ✅ online | chat | per-token | 200K | $1 | $5 | $0.1 | $1.25 | $0.5/$2.5 | — | Full API model ID claude-haiku-4-5-20251001 (dated; released 2025-10-01). 200… |
 | `claude-haiku-4-5-20251001` | ✅ online | reasoning | per-token | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `claude-mythos-5` | ❌ offline | chat | per-token | 1M | $10 | $50 | $1 | $12.5 | $5/$25 | — | NEW / restricted access: not self-serve; available only to approved Project G… |
