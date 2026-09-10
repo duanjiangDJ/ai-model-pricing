@@ -11,7 +11,8 @@ failing check was in fact the signal that the parser needed retargeting). Retarg
 the structured rate card above.
 
 Only the CNY branch is written here — USD list prices come from the z.ai international list
-and are left untouched (a model carries both currencies). A model the page marks 免费
+and are left untouched (a model carries both currencies). The rate card's 缓存命中 column is
+persisted as cache_read.cny (a USD cache price from z.ai is left as-is next to it). A model the page marks 免费
 (e.g. GLM-4.7-Flash) must be stored as billing_model=["free"]; run() RAISES on a mismatch
 (fail loud: update_model_prices cannot zero a price, so a paid listing on an officially-free
 model would otherwise survive every sync).
@@ -117,12 +118,21 @@ def build_updates(parsed, now=None):
         inp, outp = pr.get("input"), pr.get("output")
         if inp is None or outp is None:
             continue
+        per = {"input": {"cny": inp}, "output": {"cny": outp}}
+        # The rate card's 缓存命中 column IS the cache-READ price; persist it or the CNY
+        # side of cache_read is dropped (the parser extracted it but nobody wrote it, so
+        # glm-5.3 etc. carried a USD-only cache_read). Mirrors the stepfun/volcengine checks.
+        cache = pr.get("cache")
+        cache_note = ""
+        if cache is not None:
+            per["cache_read"] = {"cny": cache}
+            cache_note = f", cache-hit ¥{cache:g}"
         updates[mid] = {
-            "per_mtok": {"input": {"cny": inp}, "output": {"cny": outp}},
+            "per_mtok": per,
             "notes": (f"Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥{inp:g}, "
-                      f"output ¥{outp:g}. Official API 定价 rate card (docs.bigmodel.cn), "
-                      f"verified {now} (CNY). Independent of the z.ai USD list — not a "
-                      f"currency conversion."),
+                      f"output ¥{outp:g}{cache_note}. Official API 定价 rate card "
+                      f"(docs.bigmodel.cn), verified {now} (CNY). Independent of the z.ai "
+                      f"USD list — not a currency conversion."),
         }
     return updates, free_mids
 

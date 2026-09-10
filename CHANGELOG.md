@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.112.56 — 2026-09-10T21:28Z (feature update)
+
+- fix(check): persist zhipuai cache_read CNY from the bigmodel.cn rate card
+
 ## 26.112.55 — 2026-09-10T20:24Z (feature update)
 
 - fix(check): parse the official OpenCode Zen/Go price tables — retarget the probe-only stubs so the vendor list (not the models.dev aggregation) is authoritative; corrects deepseek-v4-pro output 3.84->3.48, kimi-k2.5 cache_read 0.08->0.10, claude-fable-5-1 cache_write null->12.5 (+6 more)

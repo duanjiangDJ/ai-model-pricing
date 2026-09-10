@@ -6,27 +6,27 @@
 - 官网: https://docs.z.ai/guides/overview/pricing
 - 定价页: https://docs.z.ai/guides/overview/pricing
 - 币种: USD
-- 数据更新时间: 2026-09-11T02:00:00Z
-- 核实时间: 2026-09-11T02:00:00Z
+- 数据更新时间: 2026-09-10T21:28:32Z
+- 核实时间: 2026-09-10T21:28:32Z
 
 共 **17** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `glm-4.5` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.6 | $2.2 | $0.11 | — | —/— | — | models.dev official list price |
-| `glm-4.5-air` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.2 / ¥0.8 | $1.1 / ¥2 | $0.03 | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.8, output ¥2. Official… |
+| `glm-4.5-air` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.2 / ¥0.8 | $1.1 / ¥2 | $0.03 / ¥0.16 | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.8, output ¥2, cache-hi… |
 | `glm-4.5-flash` | ✅ 在线 | reasoning | 免费 | 131.072K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `glm-4.5v` | ✅ 在线 | reasoning | 按量 | 64K | $0.6 | $1.8 | — | — | —/— | — | models.dev official list price |
 | `glm-4.6` | ✅ 在线 | reasoning | 按量 | 204.8K | $0.6 | $2.2 | $0.11 | — | —/— | — | models.dev official list price |
 | `glm-4.6v` | ✅ 在线 | reasoning | 按量 | 128K | $0.3 | $0.9 | — | — | —/— | — | models.dev official list price |
-| `glm-4.7` | ✅ 在线 | reasoning | 按量 | 204.8K | $0.6 / ¥2 | $2.2 / ¥8 | $0.11 | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥2, output ¥8. Official p… |
+| `glm-4.7` | ✅ 在线 | reasoning | 按量 | 204.8K | $0.6 / ¥2 | $2.2 / ¥8 | $0.11 / ¥0.4 | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥2, output ¥8, cache-hit … |
 | `glm-4.7-flash` | ✅ 在线 | reasoning | 免费 | 200K | ¥0 | ¥0 | ¥0 | — | —/— | — | Free model (per_mtok = 0). Official bigmodel.cn 免费 list + the z.ai internatio… |
-| `glm-4.7-flashx` | ✅ 在线 | reasoning | 按量 | 200K | $0.07 / ¥0.5 | $0.4 / ¥3 | $0.01 | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.5, output ¥3. Official… |
-| `glm-5` | ✅ 在线 | reasoning | 按量 | 204.8K | $1 / ¥4 | $3.2 / ¥18 | $0.2 | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥4, output ¥18. Official … |
-| `glm-5-turbo` | ✅ 在线 | reasoning | 按量 | 200K | ¥5 | ¥22 | — | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥5, output ¥22. Official … |
-| `glm-5.1` | ✅ 在线 | reasoning | 按量 | 200K | $1.4 / ¥6 | $4.4 / ¥24 | $0.26 | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥6, output ¥24. Official … |
-| `glm-5.2` | ✅ 在线 | reasoning | 按量 | 1M | $1.4 / ¥8 | $4.4 / ¥28 | $0.26 | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥8, output ¥28. Official … |
+| `glm-4.7-flashx` | ✅ 在线 | reasoning | 按量 | 200K | $0.07 / ¥0.5 | $0.4 / ¥3 | $0.01 / ¥0.1 | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.5, output ¥3, cache-hi… |
+| `glm-5` | ✅ 在线 | reasoning | 按量 | 204.8K | $1 / ¥4 | $3.2 / ¥18 | $0.2 / ¥1 | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥4, output ¥18, cache-hit… |
+| `glm-5-turbo` | ✅ 在线 | reasoning | 按量 | 200K | ¥5 | ¥22 | ¥1.2 | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥5, output ¥22, cache-hit… |
+| `glm-5.1` | ✅ 在线 | reasoning | 按量 | 200K | $1.4 / ¥6 | $4.4 / ¥24 | $0.26 / ¥1.3 | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥6, output ¥24, cache-hit… |
+| `glm-5.2` | ✅ 在线 | reasoning | 按量 | 1M | $1.4 / ¥8 | $4.4 / ¥28 | $0.26 / ¥2 | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥8, output ¥28, cache-hit… |
 | `glm-5.2-highspeed` | ✅ 在线 | reasoning | 订阅包含 | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `glm-5.3` | ✅ 在线 | reasoning | 按量 | 1M | $1.4 / ¥8 | $4.4 / ¥28 | $0.26 | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥8, output ¥28. Official … |
-| `glm-5.3-flash` | ✅ 在线 | reasoning | 按量 | 1M | $0.15 / ¥0.8 | $0.5 / ¥2.8 | $0.03 | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.8, output ¥2.8. Offici… |
+| `glm-5.3` | ✅ 在线 | reasoning | 按量 | 1M | $1.4 / ¥8 | $4.4 / ¥28 | $0.26 / ¥2 | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥8, output ¥28, cache-hit… |
+| `glm-5.3-flash` | ✅ 在线 | reasoning | 按量 | 1M | $0.15 / ¥0.8 | $0.5 / ¥2.8 | $0.03 / ¥0.23 | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.8, output ¥2.8, cache-… |
 | `glm-5v-turbo` | ✅ 在线 | reasoning | 按量 | 200K | $5 | $22 | $1.2 | — | —/— | — | models.dev official list price |
