@@ -57,6 +57,9 @@ Annotation: `scripts/annotate_billing.py` (auto-classify + provider-context fall
   `per_mtok` holds the **current discounted price**, and `promo` records the pre-promo price + expiry:
   `promo: {list_price: {input, output, cache_read}, ends_at: "2026-09-09T16:00:00Z"}`.
 - `ends_at` is UTC ISO. When the promo expires the data must be updated to the list price and `promo` removed.
+  Enforced by `audit.py`: an expired promo whose `per_mtok` still differs from `list_price` FAILs (a
+  price that no longer exists is published); a redundant one (`list_price == per_mtok`) warns. `build_human.py`
+  only renders the 🔥 badge while the promo is live.
 
 ## 6. subscription — subscription / coding-tool plans (plans.json)
 

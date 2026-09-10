@@ -10,6 +10,27 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from toolbox import FEED, PROVIDERS, VIEW, read_json, price_of  # noqa: E402
+from datetime import datetime, timezone  # noqa: E402
+
+
+def _promo_active(promo):
+    """True only while a promo is LIVE: ends_at missing (indefinite) or still in the future.
+
+    An EXPIRED promo must not render a 🔥 badge: per_mtok already holds the post-promo
+    (list) price, so the badge would advertise a discount that no longer exists.
+    """
+    if not isinstance(promo, dict):
+        return False
+    ends = promo.get("ends_at")
+    if not ends:
+        return True
+    try:
+        dt = datetime.fromisoformat(str(ends).replace("Z", "+00:00"))
+    except ValueError:
+        return True  # unparseable -> don't suppress; audit flags malformed promo metadata
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt > datetime.now(timezone.utc)
 
 CHANNEL_LABEL = {
     "first_party": "First-party",
@@ -224,7 +245,7 @@ def build_provider_md(provider, lang, channel_labels):
         other = []
         if p.get("per_image"):
             other.append("per-image")
-        if p.get("promo"):
+        if _promo_active(p.get("promo")):
             other.append("🔥 promo" if lang == "en" else "🔥 促销")
         offpk = p.get("off_peak")
         if offpk:
