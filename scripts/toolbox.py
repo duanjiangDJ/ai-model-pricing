@@ -281,7 +281,10 @@ def load_changelog():
 
 def append_changelog(entries):
     cl = load_changelog()
-    cl["entries"] = entries + cl["entries"][:5000]
+    # Do NOT truncate: the changelog is an append-only audit trail. The previous
+    # [:5000] slice silently dropped the oldest entries on every append once the
+    # file passed 5000 records (e.g. the ebcloud entry vanished in PR #154).
+    cl["entries"] = entries + cl["entries"]
     write_json(os.path.join(META, "changelog.json"), cl)
 
 

@@ -16,6 +16,10 @@
 
 ---
 
+## 26.103.40 — 2026-09-10T01:43Z（功能更新）
+
+- fix(写入器)：(1) append_changelog 改为纯追加——去掉 [:5000] 截断（#154 中 ebcloud 条目曾被静默丢弃）。(2) daily_check.diff_openrouter 同时追踪 context_window/max_output 变更，使其获得带来源的 changelog 条目。
+
 ## 26.103.39 — 2026-09-10T01:26Z（内容更新）
 
 - 价格同步（14 处变更）：
