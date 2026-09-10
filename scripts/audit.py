@@ -17,6 +17,8 @@ import os
 import re
 import sys
 
+from datetime import datetime, timezone  # noqa: E402
+
 from toolbox import any_price_positive, price_all_zero  # noqa: E402
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -92,6 +94,8 @@ dual_suspect = []  # models whose cny/usd ratio is uniform inside the FX band (l
 dual_nonuniform = []  # models whose cny/usd ratio varies >4x across fields (one field likely wrong-conversion)
 dual_fabricated = []  # models with a per_mtok field where usd literally == cny (a CNY value copied into the USD column on a CNY-only vendor; fabrication)
 free_contamination = []  # billing_model declares "free" but per_mtok has a positive price
+promo_stale = []  # expired promo whose list_price DIFFERS from per_mtok (discount over but promo price still published)
+promo_redundant = []  # expired promo whose list_price already EQUALS per_mtok (stale no-op block)
 asym_cny = []  # per_mtok sub-field carrying ONLY a cny value on a USD-declared provider (a secondary/CNY parser injected a field the primary USD source does not publish; mis-parse signature)
 for f in sorted(glob.glob("data/feed/providers/*.json")):
     p = json.load(open(f, encoding="utf-8"))
@@ -145,6 +149,30 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
                         f"suspicious per_mtok {_pk}.{_cur}={_val} in {p['provider_id']} :: {m['id']} "
                         f"(expected $/1M in [1e-3,1e5]; borderline cheap or absurd)"
                     )
+        # promo expiry: `pricing.promo` is a TEMPORARY discount (per_mtok = promo price,
+        # promo.list_price = pre-promo price). Once ends_at has passed, per_mtok must have
+        # moved to the list price and the promo block is stale metadata. An expired promo
+        # that still DIFFERS from list_price publishes a price that no longer exists
+        # (data-truth bug) -> fail. An expired promo whose list_price already EQUALS
+        # per_mtok is a redundant no-op block (and renders a misleading "🔥 promo" badge)
+        # -> warn. Real case 2026-09-10: zai glm-5.3-flash kept promo.list_price == per_mtok
+        # after its 2026-09-09 promo ended.
+        _promo = (m.get("pricing") or {}).get("promo")
+        if isinstance(_promo, dict) and _promo.get("ends_at"):
+            try:
+                _end = datetime.fromisoformat(str(_promo["ends_at"]).replace("Z", "+00:00"))
+                if _end.tzinfo is None:
+                    _end = _end.replace(tzinfo=timezone.utc)
+                if _end < datetime.now(timezone.utc):
+                    _lp = _promo.get("list_price") or {}
+                    _ov = [k for k in ("input", "output", "cache_read", "cache_write")
+                           if _lp.get(k) is not None and pm.get(k) is not None]
+                    if _ov and any(_lp[k] != pm[k] for k in _ov):
+                        promo_stale.append(f"{p['provider_id']} :: {m['id']} (expired {str(_promo['ends_at'])[:10]}, per_mtok != list_price)")
+                    elif _ov:
+                        promo_redundant.append(f"{p['provider_id']} :: {m['id']} (expired {str(_promo['ends_at'])[:10]}, list_price == per_mtok)")
+            except ValueError:
+                pass
         # cache_read/cache_write zero policy: a zero on a NON-free model is a data-truth bug.
         # Per schema "null = not offered/unknown (never 0)" and docs/price-types.md, 0 is
         # reserved for genuinely-free models (billing_model=free/subscription_included). A
@@ -313,6 +341,16 @@ if free_contamination:
     by_pid = _Cf(u.split(" :: ")[0] for u in free_contamination)
     warn(f"billing_model declares 'free' but per_mtok has a positive price (free-model contamination; {len(free_contamination)} models): "
          + ", ".join(f"{pid} x{c}" for pid, c in by_pid.most_common(12)))
+if promo_stale:
+    from collections import Counter as _Cps
+    _bps = _Cps(u.split(" :: ")[0] for u in promo_stale)
+    fail(f"expired promo with per_mtok != list_price (discount ended but the promo price is still published; {len(promo_stale)} models): "
+         + ", ".join(f"{pid} x{c}" for pid, c in _bps.most_common(12)))
+if promo_redundant:
+    from collections import Counter as _Cpr
+    _bpr = _Cpr(u.split(" :: ")[0] for u in promo_redundant)
+    warn(f"expired promo block with list_price == per_mtok (stale no-op; remove the promo; {len(promo_redundant)} models): "
+         + ", ".join(f"{pid} x{c}" for pid, c in _bpr.most_common(12)))
 print(f"OK zero-price: {zero_free} free-flagged, {zero_suspect} suspect")
 
 # 4. docs bilingual completeness (AGENTS + agent-policy are English-only by design)

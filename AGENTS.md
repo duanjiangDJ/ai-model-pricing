@@ -83,7 +83,11 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    - `batch.{input,output}` — 50% off batch APIs
    - `per_image[]` — tiers for image models
    - `promo.{list_price, ends_at}` — temporary discount; current `per_mtok` is the promo price,
-     `list_price` holds the pre-promo value and `ends_at` the expiry (UTC ISO)
+     `list_price` holds the pre-promo value and `ends_at` the expiry (UTC ISO). When the promo
+     expires, `per_mtok` must already hold the list price and the `promo` block MUST be removed
+     (an expired promo is stale metadata that renders a misleading "🔥 promo" badge; `audit.py`
+     hard-fails an expired promo whose `per_mtok` still differs from `list_price`, and warns on a
+     redundant one whose `list_price` already equals `per_mtok`)
    Other billing fields (per_audio_second, per_character, per_request, credits, gpu, neuron_second,
    finetune, provisioned) were REMOVED from the schema on 2026-08-28 because nothing used them.
    **To add a billing mode back**: (a) add the field to `schema.json#/$defs/modelPricing.properties`,
