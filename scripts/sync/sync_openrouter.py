@@ -117,6 +117,24 @@ def build_model(entry):
     }
 
 
+def preserve_local_status(local_models, remote_models):
+    """Carry a locally-assigned `status` onto a rewritten catalog entry.
+
+    OpenRouter's catalog has no notion of "offline" and build_model() never emits a
+    `status`. daily_check() wholesale-replaces openrouter.json's model list, so a model
+    locally marked offline (retired/superseded, reason in notes) would be silently
+    resurrected — its status dropped — on the next catalog change. Preserve it by id.
+    """
+    prev = {m["id"]: m["status"] for m in local_models if m.get("status")}
+    n = 0
+    for m in remote_models:
+        st = prev.get(m["id"])
+        if st and m.get("status") != st:
+            m["status"] = st
+            n += 1
+    return n
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--write", action="store_true", help="persist files (default: dry-run to stdout)")

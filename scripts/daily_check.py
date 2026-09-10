@@ -25,7 +25,7 @@ from common import (  # noqa: E402
     load_index, load_manifest, now_iso, price_of, read_json, save_index, save_manifest,
     set_price, write_json,
 )
-from sync.sync_openrouter import build_model  # noqa: E402
+from sync.sync_openrouter import build_model, preserve_local_status  # noqa: E402
 
 # Run-start marker (UTC, minute precision) used to detect entries created by THIS run.
 _RUN_STARTED_ISO = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M")
@@ -208,6 +208,9 @@ def main():
             added, removed, changed = diff_openrouter(local, remote_models, now)
 
             if added or removed or changed:
+                # Never let a catalog rewrite resurrect a locally-retired model (status
+                # dropped). OpenRouter has no concept of "offline" — preserve it by id.
+                preserve_local_status(local["models"], remote_models)
                 local["models"] = remote_models
                 local["models"].sort(key=lambda m: m["id"])
                 local["updated_at"] = now
