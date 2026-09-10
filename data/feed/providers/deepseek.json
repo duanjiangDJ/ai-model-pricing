@@ -11,8 +11,8 @@
   "verified_at": "2026-09-10T00:00:00Z",
   "models": [
     {
-      "id": "deepseek-v4.1-flash",
-      "name": "DeepSeek-V4.1-Flash (deepseek-flash)",
+      "id": "deepseek-flash",
+      "name": "DeepSeek-V4.1-Flash",
       "category": "chat",
       "modalities": [
         "text",
@@ -65,7 +65,8 @@
       "status": "online",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "source": "https://api-docs.deepseek.com/quick_start/pricing/ (+ /models confirms deepseek-flash is the live model id)"
     },
     {
       "id": "deepseek-chat",
@@ -78,15 +79,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": {
-            "usd": 0.14
-          },
-          "output": {
-            "usd": 0.28
-          },
-          "cache_read": {
-            "usd": 0.0028
-          },
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -94,11 +89,12 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Legacy model (V3.2 era), superseded by deepseek-v4-flash; old prices $0.28/$0.42 no longer apply to current official models on sale; entry kept for historical reference only. SUPERSEDED by deepseek-v4 series; historical entry only.",
+      "notes": "Legacy model: NOT listed on the current official pricing page (api-docs.deepseek.com). Its prices had been populated from a third-party aggregator and were cleared per the official-source-only policy. Entry kept offline for historical reference.",
       "status": "offline",
       "billing_model": [
-        "pay_per_token"
-      ]
+        "unknown"
+      ],
+      "source": "https://api-docs.deepseek.com/quick_start/pricing/"
     },
     {
       "id": "deepseek-reasoner",
@@ -111,15 +107,9 @@
       "max_output": null,
       "pricing": {
         "per_mtok": {
-          "input": {
-            "usd": 0.14
-          },
-          "output": {
-            "usd": 0.28
-          },
-          "cache_read": {
-            "usd": 0.0028
-          },
+          "input": null,
+          "output": null,
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
@@ -127,11 +117,12 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Legacy model (R1 era), superseded by deepseek-v4-flash/pro thinking mode; old prices $0.55/$2.19 no longer apply to current official models on sale; entry kept for historical reference only. SUPERSEDED by deepseek-v4 series; historical entry only.",
+      "notes": "Legacy model: NOT listed on the current official pricing page (api-docs.deepseek.com). Its prices had been populated from a third-party aggregator and were cleared per the official-source-only policy. Entry kept offline for historical reference.",
       "status": "offline",
       "billing_model": [
-        "pay_per_token"
-      ]
+        "unknown"
+      ],
+      "source": "https://api-docs.deepseek.com/quick_start/pricing/"
     },
     {
       "id": "deepseek-v4-flash",
@@ -187,7 +178,8 @@
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "offline"
+      "status": "offline",
+      "source": "https://api-docs.deepseek.com/quick_start/pricing/"
     },
     {
       "id": "deepseek-v4-flash-vision-exp",
@@ -240,7 +232,8 @@
       "status": "offline",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "source": "https://api-docs.deepseek.com/quick_start/pricing/"
     },
     {
       "id": "deepseek-v4-pro",
@@ -292,10 +285,12 @@
           }
         }
       },
-      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). From 12:00 Beijing time 2026-09-14, deepseek-v4-pro requests are routed to V4.1-Flash and billed at the V4.1-Flash price (until a future V4.1 Pro release). Parsed by check deepseek.",
+      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). From 12:00 Beijing time 2026-09-14, deepseek-v4-pro requests are routed to V4.1-Flash and billed at the V4.1-Flash price. Source: api-docs.deepseek.com/quick_start/pricing.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online",
+      "source": "https://api-docs.deepseek.com/quick_start/pricing/"
     }
   ],
   "api_base_url": "https://api.deepseek.com"
