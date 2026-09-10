@@ -6,8 +6,8 @@
 - Homepage: https://docs.z.ai/guides/overview/pricing
 - Pricing page: https://docs.z.ai/guides/overview/pricing
 - Currency: USD
-- Data updated: 2026-09-04T00:22:51Z
-- Verified: 2026-09-04T00:22:51Z
+- Data updated: 2026-09-10T06:39:06Z
+- Verified: 2026-09-10T06:39:06Z
 
 **17** models in total.
 
@@ -20,7 +20,7 @@
 | `glm-4.6` | — | reasoning | per-token | 204.8K | $0.6 | $2.2 | $0.11 | — | —/— | — | models.dev official list price |
 | `glm-4.6v` | — | reasoning | per-token | 128K | $0.3 | $0.9 | — | — | —/— | — | models.dev official list price |
 | `glm-4.7` | — | reasoning | per-token | 204.8K | $0.6 / ¥2 | $2.2 / ¥8 | $0.11 | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥2, output ¥8. Official p… |
-| `glm-4.7-flash` | — | reasoning | per-token | 200K | $0 / ¥0.15 | $0 / ¥1.5 | — | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.15, output ¥1.5. Offic… |
+| `glm-4.7-flash` | — | reasoning | per-token | 200K | $0 / ¥0.15 | $0 / ¥1.5 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `glm-4.7-flashx` | — | reasoning | per-token | 200K | $0.07 / ¥0.5 | $0.4 / ¥3 | $0.01 | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.5, output ¥3. Official… |
 | `glm-5` | — | reasoning | per-token | 204.8K | $1 / ¥4 | $3.2 / ¥18 | $0.2 | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥4, output ¥18. Official … |
 | `glm-5-turbo` | — | reasoning | per-token | 200K | ¥5 | ¥22 | — | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥5, output ¥22. Official … |

@@ -6,8 +6,8 @@
 - Homepage: https://docs.venice.ai
 - Pricing page: https://docs.venice.ai
 - Currency: USD
-- Data updated: 2026-09-04T00:22:51Z
-- Verified: 2026-09-04T00:22:51Z
+- Data updated: 2026-09-10T06:39:06Z
+- Verified: 2026-09-10T06:39:06Z
 
 **103** models in total.
 
@@ -78,12 +78,12 @@
 | `openai-gpt-54-pro` | — | reasoning | per-token | 1M | $37.5 | $225 | — | — | —/— | — | models.dev official list price |
 | `openai-gpt-55` | — | reasoning | per-token | 1M | $6.25 | $37.5 | $0.625 | — | —/— | — | models.dev official list price |
 | `openai-gpt-55-pro` | — | reasoning | per-token | 1M | $37.5 | $225 | — | — | —/— | — | models.dev official list price |
-| `openai-gpt-56-luna` | — | reasoning | per-token | 1M | $0.266667 | $1.6 | $0.0266667 | — | —/— | — | models.dev official list price |
-| `openai-gpt-56-luna-pro` | — | reasoning | per-token | 1M | $1.25 | $7.5 | $0.125 | — | —/— | — | models.dev official list price |
-| `openai-gpt-56-sol` | — | reasoning | per-token | 1M | $6.25 | $37.5 | $0.625 | — | —/— | — | models.dev official list price |
-| `openai-gpt-56-sol-pro` | — | reasoning | per-token | 1M | $6.25 | $37.5 | $0.625 | — | —/— | — | models.dev official list price |
-| `openai-gpt-56-terra` | — | reasoning | per-token | 1M | $3.125 | $18.75 | $0.3125 | — | —/— | — | models.dev official list price |
-| `openai-gpt-56-terra-pro` | — | reasoning | per-token | 1M | $3.125 | $18.75 | $0.3125 | — | —/— | — | models.dev official list price |
+| `openai-gpt-56-luna` | — | reasoning | per-token | 1M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |
+| `openai-gpt-56-luna-pro` | — | reasoning | per-token | 1M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |
+| `openai-gpt-56-sol` | — | reasoning | per-token | 1M | $2.5 | $12.5 | $0.25 | — | —/— | — | models.dev official list price |
+| `openai-gpt-56-sol-pro` | — | reasoning | per-token | 1M | $2.5 | $12.5 | $0.25 | — | —/— | — | models.dev official list price |
+| `openai-gpt-56-terra` | — | reasoning | per-token | 1M | $2.5 | $15 | $0.25 | — | —/— | — | models.dev official list price |
+| `openai-gpt-56-terra-pro` | — | reasoning | per-token | 1M | $2.5 | $15 | $0.25 | — | —/— | — | models.dev official list price |
 | `openai-gpt-oss-120b` | — | reasoning | per-token | 128K | $0.07 | $0.3 | — | — | —/— | — | models.dev official list price |
 | `qwen-3-6-plus` | — | reasoning | per-token | 1M | $0.625 | $3.75 | $0.0625 | — | —/— | — | models.dev official list price |
 | `qwen-3-7-max` | — | reasoning | per-token | 1M | $2.7 | $8.05 | $0.27 | — | —/— | — | models.dev official list price |

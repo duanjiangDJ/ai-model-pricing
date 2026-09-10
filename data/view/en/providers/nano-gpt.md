@@ -6,8 +6,8 @@
 - Homepage: https://docs.nano-gpt.com
 - Pricing page: https://docs.nano-gpt.com
 - Currency: USD
-- Data updated: 2026-09-04T00:22:51Z
-- Verified: 2026-09-04T00:22:51Z
+- Data updated: 2026-09-10T06:39:04Z
+- Verified: 2026-09-10T06:39:04Z
 
 **693** models in total.
 
@@ -71,8 +71,8 @@
 | `TEE/glm-4.7` | — | chat | per-token | 131K | $0.85 | $3.3 | $0.425 | — | —/— | — | models.dev official list price |
 | `TEE/glm-5.1` | — | reasoning | per-token | 202.752K | $1.5 | $5.25 | $0.3 | — | —/— | — | models.dev official list price |
 | `TEE/glm-5.1-thinking` | — | reasoning | per-token | 202.752K | $1.5 | $5.25 | $0.3 | — | —/— | — | models.dev official list price |
-| `TEE/glm-5.2` | — | reasoning | per-token | 1.04858M | $1.4 | $4.6 | $0.5 | — | —/— | — | models.dev official list price |
-| `TEE/glm-5.2:thinking` | — | reasoning | per-token | 1.04858M | $1.4 | $4.6 | $0.5 | — | —/— | — | models.dev official list price |
+| `TEE/glm-5.2` | — | reasoning | per-token | 1.04858M | $1.4 | $4.4 | $0.7 | — | —/— | — | models.dev official list price |
+| `TEE/glm-5.2:thinking` | — | reasoning | per-token | 1.04858M | $1.4 | $4.4 | $0.7 | — | —/— | — | models.dev official list price |
 | `TEE/glm-5.3` | — | reasoning | per-token | 1.04858M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `TEE/glm-5.3-flash` | — | reasoning | per-token | 1.04858M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `TEE/gpt-oss-120b` | — | chat | per-token | 131.072K | $2 | $2 | $2 | — | —/— | — | models.dev official list price |
@@ -490,7 +490,7 @@
 | `openai/gpt-5.6-terra` | — | reasoning | per-token | 1.05M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.6-terra-pro` | — | reasoning | per-token | 1.05M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `openai/gpt-chat-latest` | — | reasoning | per-token | 1.05M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
-| `openai/gpt-latest` | — | reasoning | per-token | 1.05M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
+| `openai/gpt-latest` | — | reasoning | per-token | 1.05M | $10 | $50 | $1 | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-120b` | — | reasoning | per-token | 128K | $0.35 | $0.75 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-20b` | — | reasoning | per-token | 128K | $0.2 | $0.3 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-safeguard-20b` | — | reasoning | per-token | 128K | $0.075 | $0.3 | — | — | —/— | — | models.dev official list price |
@@ -591,7 +591,7 @@
 | `qwen3.8-max:thinking` | — | reasoning | per-token | 991K | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
 | `sakana/fugu-ultra` | — | reasoning | per-token | 1M | $5.25 | $31.5 | $0.525 | — | —/— | — | models.dev official list price |
 | `sakana/fugu-ultra-v1.1` | — | reasoning | per-token | 1M | $5.25 | $31.5 | $0.525 | — | —/— | — | models.dev official list price |
-| `sarvam-105b` | — | reasoning | per-token | 131.072K | $0.045 | $0.177 | $0.028 | — | —/— | — | models.dev official list price |
+| `sarvam-105b` | — | reasoning | per-token | 131.072K | $0.054 | $0.2124 | $0.0336 | — | —/— | — | models.dev official list price |
 | `sarvam-30b` | — | reasoning | per-token | 65.536K | $0.028 | $0.111 | $0.017 | — | —/— | — | models.dev official list price |
 | `shisa-ai/shisa-v2-llama3.3-70b` | — | chat | per-token | 128K | $0.5 | $0.5 | $0.25 | — | —/— | — | models.dev official list price |
 | `shisa-ai/shisa-v2.1-llama3.3-70b` | — | chat | per-token | 32.768K | $0.5 | $0.5 | $0.25 | — | —/— | — | models.dev official list price |

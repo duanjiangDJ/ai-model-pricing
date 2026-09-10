@@ -6,11 +6,11 @@
 - 官网: https://cloud.tencent.com/document/product/1823/130060
 - 定价页: https://cloud.tencent.com/document/product/1823/130060
 - 币种: USD
-- 数据更新时间: 2026-08-27T17:11:11Z
-- 核实时间: 2026-08-22T09:32:50Z
+- 数据更新时间: 2026-09-10T06:39:09Z
+- 核实时间: 2026-09-10T06:39:09Z
 
 共 **1** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `hy3` | — | reasoning | 订阅包含 | 256K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `hy3` | — | reasoning | 订阅包含 | 256K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

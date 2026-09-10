@@ -7,8 +7,8 @@
   "homepage": "https://z.ai/subscribe",
   "pricing_page": "https://docs.z.ai/devpack/overview",
   "currency": "USD",
-  "updated_at": "2026-08-27T17:11:11Z",
-  "verified_at": "2026-08-27T15:38:33.587025Z",
+  "updated_at": "2026-09-10T06:39:04Z",
+  "verified_at": "2026-09-10T06:39:04Z",
   "models": [
     {
       "id": "glm-5.3-flash",
@@ -21,9 +21,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": {
+            "usd": 0
+          },
+          "output": {
+            "usd": 0
+          },
+          "cache_read": {
+            "usd": 0
+          },
           "cache_write": null
         },
         "batch": null,
@@ -31,7 +37,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Included in GLM Coding Plan (credits-based). Credit multipliers: input 2.3, cached input 0.56, output 8 (per 10k credits). Off-peak (Mon-Fri 14:00-18:00 UTC+8 excluded, weekends all day) consumes 50% credits. 3x quota of GLM-5.3.",
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "subscription_included"
       ]
@@ -47,9 +53,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": {
+            "usd": 0
+          },
+          "output": {
+            "usd": 0
+          },
+          "cache_read": {
+            "usd": 0
+          },
           "cache_write": null
         },
         "batch": null,
@@ -57,7 +69,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Included in GLM Coding Plan (credits-based). Credit multipliers: input 6.9, cached input 1.7, output 24. Off-peak consumes 50% credits.",
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "subscription_included"
       ]
@@ -73,9 +85,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": {
+            "usd": 0
+          },
+          "output": {
+            "usd": 0
+          },
+          "cache_read": {
+            "usd": 0
+          },
           "cache_write": null
         },
         "batch": null,
@@ -83,7 +101,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Included in GLM Coding Plan; requests to glm-5.2 are routed to glm-5.3 (flagship).",
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "subscription_included"
       ]
@@ -99,9 +117,15 @@
       "max_output": 131072,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": {
+            "usd": 0
+          },
+          "output": {
+            "usd": 0
+          },
+          "cache_read": {
+            "usd": 0
+          },
           "cache_write": null
         },
         "batch": null,
@@ -109,7 +133,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Included in GLM Coding Plan (high-speed lane).",
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "subscription_included"
       ]
@@ -125,9 +149,15 @@
       "max_output": 16384,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": {
+            "usd": 0
+          },
+          "output": {
+            "usd": 0
+          },
+          "cache_read": {
+            "usd": 0
+          },
           "cache_write": null
         },
         "batch": null,
@@ -135,7 +165,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Included in GLM Coding Plan; requests to glm-5-turbo are routed to glm-5.3-flash.",
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "subscription_included"
       ]
@@ -151,9 +181,15 @@
       "max_output": 16384,
       "pricing": {
         "per_mtok": {
-          "input": null,
-          "output": null,
-          "cache_read": null,
+          "input": {
+            "usd": 0
+          },
+          "output": {
+            "usd": 0
+          },
+          "cache_read": {
+            "usd": 0
+          },
           "cache_write": null
         },
         "batch": null,
@@ -161,7 +197,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Included in GLM Coding Plan; requests to glm-4.7 are routed to glm-5.3-flash.",
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "subscription_included"
       ]

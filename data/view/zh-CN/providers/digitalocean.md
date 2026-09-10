@@ -6,8 +6,8 @@
 - 官网: https://docs.digitalocean.com/products/gradient-ai-platform/details/models/
 - 定价页: https://docs.digitalocean.com/products/gradient-ai-platform/details/models/
 - 币种: USD
-- 数据更新时间: 2026-09-04T00:22:51Z
-- 核实时间: 2026-09-04T00:22:51Z
+- 数据更新时间: 2026-09-10T06:39:04Z
+- 核实时间: 2026-09-10T06:39:04Z
 
 共 **95** 个模型。
 
@@ -58,7 +58,7 @@
 | `gte-large-en-v1.5` | — | chat | 按量 | 8.192K | $0.09 | $0 | — | — | —/— | — | models.dev official list price |
 | `kimi-k2.5` | — | reasoning | 按量 | 262.144K | $0.5 | $2.7 | $0.203 | — | —/— | — | models.dev official list price |
 | `kimi-k2.6` | — | reasoning | 按量 | 262.144K | $0.95 | $4 | $0.19 | — | —/— | — | models.dev official list price |
-| `kimi-k3` | — | reasoning | 按量 | 1.04858M | $2.85 | $14.25 | $0.285 | — | —/— | — | models.dev official list price |
+| `kimi-k3` | — | reasoning | 按量 | 1.04858M | $2.55 | $12.95 | $0.285 | — | —/— | — | models.dev official list price |
 | `llama-4-maverick` | — | chat | 按量 | 128K | $0.2 | $0.696 | — | — | —/— | — | models.dev official list price |
 | `llama3-8b-instruct` | — | chat | 按量 | 131.072K | $0.198 | $0.198 | — | — | —/— | — | models.dev official list price |
 | `llama3.3-70b-instruct` | — | chat | 按量 | 128K | $0.65 | $0.65 | — | — | —/— | — | models.dev official list price |

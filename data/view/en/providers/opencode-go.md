@@ -6,21 +6,21 @@
 - Homepage: https://opencode.ai/go
 - Pricing page: https://opencode.ai/docs/go/
 - Currency: USD
-- Data updated: 2026-09-04T00:22:51Z
-- Verified: 2026-09-04T00:22:51Z
+- Data updated: 2026-09-10T06:39:09Z
+- Verified: 2026-09-10T06:39:09Z
 
 **34** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `deepseek-v4-flash` | — | chat | per-token | — | $0.22 | $0.66 | $0.007 | — | —/— | — | — |
-| `deepseek-v4-flash-vision-exp` | — | chat | per-token | — | $0.22 | $0.66 | $0.007 | — | —/— | — | — |
+| `deepseek-v4-flash` | — | chat | per-token | — | $0.15 | $0.6 | $0.003 | — | —/— | — | models.dev official list price |
+| `deepseek-v4-flash-vision-exp` | — | chat | per-token | — | $0.15 | $0.6 | $0.003 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-pro` | — | chat | per-token | — | $0.66 | $1.98 | $0.022 | — | —/— | — | — |
 | `glm-5` | — | reasoning | per-token | 202.752K | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
 | `glm-5.1` | — | chat | per-token | — | $1.4 | $4.4 | $0.26 | — | —/— | — | — |
 | `glm-5.2` | — | chat | per-token | — | $1.4 | $4.4 | $0.26 | — | —/— | — | — |
 | `glm-5.3` | — | chat | per-token | — | $1.4 | $4.4 | $0.26 | — | —/— | — | — |
-| `glm-5.3-flash` | — | reasoning | per-token | 1M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |
+| `glm-5.3-flash` | — | reasoning | per-token | 1M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `gpt-5.6-luna` | — | chat | per-token | — | $0.2 | $1.2 | $0.02 | $0.25 | —/— | — | — |
 | `grok-4.5` | — | chat | per-token | — | $2 | $6 | $0.3 | — | —/— | — | — |
 | `grok-4.6` | — | reasoning | per-token | 500K | $2 | $6 | $0.5 | — | —/— | — | models.dev official list price |

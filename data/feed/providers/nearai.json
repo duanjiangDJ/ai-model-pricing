@@ -7,8 +7,8 @@
   "homepage": "https://docs.near.ai/",
   "pricing_page": "https://docs.near.ai/",
   "currency": "USD",
-  "updated_at": "2026-09-04T00:22:51Z",
-  "verified_at": "2026-09-04T00:22:51Z",
+  "updated_at": "2026-09-10T06:39:07Z",
+  "verified_at": "2026-09-10T06:39:07Z",
   "models": [
     {
       "id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
@@ -55,7 +55,7 @@
             "usd": 0.01
           },
           "output": {
-            "usd": 0
+            "usd": 0.01
           },
           "cache_read": null,
           "cache_write": null
@@ -303,7 +303,7 @@
             "usd": 3
           },
           "output": {
-            "usd": 15.5
+            "usd": 15
           },
           "cache_read": {
             "usd": 0.3
@@ -840,13 +840,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.8
+            "usd": 1.75
           },
           "output": {
-            "usd": 15.5
+            "usd": 14
           },
           "cache_read": {
-            "usd": 0.18
+            "usd": 0.175
           },
           "cache_write": null
         },
@@ -1129,7 +1129,7 @@
             "usd": 0.01
           },
           "output": {
-            "usd": 0
+            "usd": 0.01
           },
           "cache_read": null,
           "cache_write": null
@@ -1156,10 +1156,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.85
+            "usd": 1.4
           },
           "output": {
-            "usd": 3.3
+            "usd": 4.4
           },
           "cache_read": null,
           "cache_write": null

@@ -16,6 +16,46 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.105.44 — 2026-09-10T06:57Z (content update)
+
+- price sync (49 changes):
+- **302ai** (updated 1): `glm-5.1`
+- **alibaba** (updated 14): `qwen3.7-plus`, `qwen3.6-flash`, `qwen-vl-ocr`, `qwen3.6-35b-a3b`, `qwen3-next-80b-a3b-thinking`, `qwen3-next-80b-a3b-instruct`, `qwen3-32b`
+- **alibaba-coding-plan** (updated 7): `glm-4.7`, `qwen3-coder-plus`, `qwen3.6-plus`, `qwen3-coder-next`, `MiniMax-M2.5`, `glm-5`, `kimi-k2.5`
+- **alibaba-coding-plan-cn** (updated 7): `glm-4.7`, `qwen3-coder-plus`, `qwen3.6-plus`, `qwen3-coder-next`, `MiniMax-M2.5`, `glm-5`, `kimi-k2.5`
+- **alibaba-token-plan** (updated 8): `qwen3.7-max`, `happyhorse-1.1-r2v`, `deepseek-v4-pro-0813`, `deepseek-v4-flash-0731`, `qwen3.8-max-preview`, `qwen3.6-plus`, `wan2.7-image-pro`, `kimi-k2.6`
+- **alibaba-token-plan-cn** (updated 8): `qwen3.7-max`, `happyhorse-1.1-r2v`, `deepseek-v4-pro-0813`, `deepseek-v4-flash-0731`, `qwen3.8-max-preview`, `qwen3.6-plus`, `wan2.7-image-pro`, `kimi-k2.6`
+- **ambient** (updated 1): `zai-org/GLM-5.1-FP8`
+- **coralbricks** (updated 3): `kimi-k3`, `glm-5.3-fp4`, `gpt-oss-120b`
+- **cortecs** (updated 3): `qwen3-32b`, `qwen2.5-vl-72b-instruct`, `glm-5.3`
+- **crossmodel** (updated 3): `gemini/gemini-3.6-flash`, `openai/gpt-5.6-sol`, `z-ai/glm-5.3-flash`
+- **deepinfra** (updated 1): `deepseek-ai/DeepSeek-V4-Flash-0731`
+- **deepseek** (updated 3): `deepseek-v4-flash-vision-exp`, `deepseek-v4-flash`, `deepseek-v4-pro`
+- **digitalocean** (updated 1): `kimi-k3`
+- **edenai** (updated 10): `qwen/deepseek-v4-pro-0813`, `qwen/deepseek-v4-flash-0731`, `scaleway/deepseek-v4-flash-0731`, `scaleway/gpt-oss-120b`, `scaleway/llama-3.3-70b-instruct`, `google/gemini-3.8-flash`, `flexai/gpt-oss-20b`, `flexai/DeepSeek-V4-Flash-0731`, `flexai/gpt-oss-120b`, `deepinfra/deepseek-ai/DeepSeek-V4-Flash-0731`
+- **hyper** (updated 5): `minimax-m2.7`, `glm-5`, `kimi-k2.5`, `glm-5.1`, `gpt-oss-120b`
+- **kilo** (updated 8): `~moonshotai/kimi-latest`, `deepseek/deepseek-v4-pro-0813`, `deepseek/deepseek-chat`, `deepseek/deepseek-chat-v3-0324`, `openai/gpt-5.6-sol-discounted`, `~z-ai/glm-latest`, `tencent/hy3`, `z-ai/glm-4.6`
+- **kuae-cloud-coding-plan** (updated 1): `GLM-4.7`
+- **llmgateway** (updated 7): `Qwen3.8-27B`, `kimi-k2.6`, `glm-5.2`, `deepseek-v4-flash`, `kimi-k2.7-code`, `kimi-k3`, `glm-5.2-fast`
+- **minimax** (updated 2): `MiniMax-M2.5-highspeed`
+- **mistral** (updated 4): `ministral-3b-latest`, `ministral-8b-latest`
+- **nano-gpt** (updated 4): `sarvam-105b`, `TEE/glm-5.2`, `TEE/glm-5.2:thinking`, `openai/gpt-latest`
+- **nearai** (updated 5): `anthropic/claude-sonnet-4-5`, `zai-org/GLM-5.1-FP8`, `Qwen/Qwen3-Embedding-0.6B`, `openai/whisper-large-v3`, `openai/gpt-5.2`
+- **openai** (updated 1): `gpt-3.5-turbo`
+- **opencode-go** (updated 3): `deepseek-v4-flash-vision-exp`, `deepseek-v4-flash`, `glm-5.3-flash`
+- **openrouter** (+6): `deepseek/deepseek-v4.1-flash`, `mistralai/codestral-2508:batch`, `mistralai/ministral-8b-2512:batch`, `mistralai/mistral-large-2512:batch`, `mistralai/mistral-medium-3.1:batch`, `mistralai/mistral-small-2603:batch`
+- **openrouter** (updated 5): `deepseek/deepseek-v4-flash`, `z-ai/glm-5.3-flash`, `~z-ai/glm-flash-latest`, `~z-ai/glm-latest`
+- **orcarouter** (updated 1): `openai/gpt-3.5-turbo`
+- **requesty** (updated 9): `deepseek-v4-flash-0731`, `deepseek-v4-flash`, `thinkingcap-qwen3.6-27b`, `kimi-k3`, `glm-5.3-flash`, `glm-5.3-flash@eu`, `thinkingcap-qwen3.6-27b@eu`, `kimi-k3@eu`, `deepseek-v4-flash-0731@eu`
+- **scnet-token-plan** (updated 7): `DeepSeek-V4-Flash`, `GLM-5.1`, `Qwen3.8-Max`, `DeepSeek-V4-Flash-0731`, `Kimi-K2.5`, `Kimi-K2.7-Code`, `MiniMax-M2.5`
+- **tencent-coding-plan** (updated 7): `hunyuan-2.0-thinking`, `hunyuan-t1`, `minimax-m2.5`, `hunyuan-turbos`, `tc-code-latest`, `glm-5`, `kimi-k2.5`
+- **tencent-token-plan** (updated 1): `hy3`
+- **venice** (updated 6): `openai-gpt-56-terra`, `openai-gpt-56-sol`, `openai-gpt-56-terra-pro`, `openai-gpt-56-luna-pro`, `openai-gpt-56-luna`, `openai-gpt-56-sol-pro`
+- **vercel** (updated 1): `zai/glm-5.3`
+- **zai** (updated 2): `glm-5.3-flash`
+- **zai-coding-plan** (updated 6): `glm-5.2-highspeed`, `glm-4.7`, `glm-5.2`, `glm-5.3-flash`, `glm-5-turbo`, `glm-5.3`
+- **zhipuai** (updated 1): `glm-4.7-flash`
+
 ## 26.104.44 — 2026-09-10T06:16Z (feature update)
 
 - audit+view: enforce promo expiry (drop stale zai promo; badge only while live)

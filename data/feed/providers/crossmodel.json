@@ -7,8 +7,8 @@
   "homepage": "https://www.crossmodel.ai/docs",
   "pricing_page": "https://www.crossmodel.ai/docs",
   "currency": "USD",
-  "updated_at": "2026-09-04T00:22:51Z",
-  "verified_at": "2026-09-04T00:22:51Z",
+  "updated_at": "2026-09-10T06:39:05Z",
+  "verified_at": "2026-09-10T06:39:05Z",
   "models": [
     {
       "id": "anthropic/claude-fable-5",
@@ -597,13 +597,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.5
+            "usd": 0.75
           },
           "output": {
-            "usd": 7.5
+            "usd": 3.75
           },
           "cache_read": {
-            "usd": 0.15
+            "usd": 0.075
           },
           "cache_write": null
         },
@@ -1075,13 +1075,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 5
+            "usd": 4
           },
           "output": {
-            "usd": 30
+            "usd": 20
           },
           "cache_read": {
-            "usd": 0.5
+            "usd": 0.4
           },
           "cache_write": null
         },
@@ -1812,13 +1812,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.075
+            "usd": 0.15
           },
           "output": {
-            "usd": 0.25
+            "usd": 0.5
           },
           "cache_read": {
-            "usd": 0.015
+            "usd": 0.03
           },
           "cache_write": null
         },

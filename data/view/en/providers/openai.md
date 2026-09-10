@@ -6,8 +6,8 @@
 - Homepage: https://platform.openai.com/docs/models
 - Pricing page: https://openai.com/chatgpt/pricing/
 - Currency: USD
-- Data updated: 2026-09-04T00:22:51Z
-- Verified: 2026-09-04T00:22:51Z
+- Data updated: 2026-09-10T06:39:08Z
+- Verified: 2026-09-10T06:39:08Z
 
 **55** models in total.
 
@@ -16,7 +16,7 @@
 | `babbage-002` | — | chat | per-token | — | $0.4 | $0.4 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
 | `chatgpt-image-latest` | ❌ offline | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `davinci-002` | — | chat | per-token | — | $2 | $2 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
-| `gpt-3.5-turbo` | — | chat | per-token | 16.385K | $0.5 | $1.5 | — | — | —/— | — | models.dev official list price |
+| `gpt-3.5-turbo` | — | chat | per-token | 16.385K | $0.5 | $1.5 | $0 | — | —/— | — | models.dev official list price |
 | `gpt-3.5-turbo-0125` | — | chat | per-token | — | $0.5 | $1.5 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
 | `gpt-3.5-turbo-1106` | — | chat | per-token | — | $1 | $2 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
 | `gpt-3.5-turbo-instruct` | — | chat | per-token | — | $1.5 | $2 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |

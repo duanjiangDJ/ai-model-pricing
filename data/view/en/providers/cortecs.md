@@ -6,8 +6,8 @@
 - Homepage: https://api.cortecs.ai/v1/models
 - Pricing page: https://api.cortecs.ai/v1/models
 - Currency: USD
-- Data updated: 2026-09-04T00:22:51Z
-- Verified: 2026-09-04T00:22:51Z
+- Data updated: 2026-09-10T06:39:08Z
+- Verified: 2026-09-10T06:39:08Z
 
 **112** models in total.
 
@@ -48,7 +48,7 @@
 | `glm-5-turbo` | — | reasoning | per-token | 202.752K | $1.186 | $3.955 | $0.296 | — | —/— | — | models.dev official list price |
 | `glm-5.1` | — | reasoning | per-token | 202.752K | $1.384 | $4.348 | $0.346 | — | —/— | — | models.dev official list price |
 | `glm-5.2` | — | reasoning | per-token | 1.04858M | $1.2 | $4.2 | $0.26 | — | —/— | — | models.dev official list price |
-| `glm-5.3` | — | reasoning | per-token | 1.04858M | $1.4 | $4.399 | $0.26 | — | —/— | — | models.dev official list price |
+| `glm-5.3` | — | reasoning | per-token | 1.04858M | $1.114 | $3.899 | $0.279 | — | —/— | — | models.dev official list price |
 | `glm-5.3-flash` | — | reasoning | per-token | 1.04858M | $0.201 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
 | `glm-5v-turbo` | — | reasoning | per-token | 202.752K | $1.186 | $3.955 | $0.296 | — | —/— | — | models.dev official list price |
 | `gpt-4.1` | — | chat | per-token | 1.04758M | $2.192 | $8.769 | $0.546 | — | —/— | — | models.dev official list price |
@@ -106,10 +106,10 @@
 | `nvidia-nemotron-3-nano-omni` | — | reasoning | per-token | 300K | $0.059 | $0.237 | — | — | —/— | — | models.dev official list price |
 | `pixtral-12b-2409` | — | reasoning | per-token | 128K | $0.223 | $0.223 | — | — | —/— | — | models.dev official list price |
 | `pixtral-large-2502` | — | reasoning | per-token | 128K | $1.993 | $5.978 | — | — | —/— | — | models.dev official list price |
-| `qwen2.5-vl-72b-instruct` | — | reasoning | per-token | 32K | $0.25 | $0.747 | — | — | —/— | — | models.dev official list price |
+| `qwen2.5-vl-72b-instruct` | — | reasoning | per-token | 32K | $1.014 | $1.014 | — | — | —/— | — | models.dev official list price |
 | `qwen3-235b-a22b-instruct-2507` | — | chat | per-token | 262K | $0.069 | $0.455 | $0.018 | — | —/— | — | models.dev official list price |
 | `qwen3-30b-a3b-instruct-2507` | — | reasoning | per-token | 262K | $0.099 | $0.299 | — | — | —/— | — | models.dev official list price |
-| `qwen3-32b` | — | reasoning | per-token | 40K | $0.099 | $0.299 | — | — | —/— | — | models.dev official list price |
+| `qwen3-32b` | — | reasoning | per-token | 40K | $0.089 | $0.312 | — | — | —/— | — | models.dev official list price |
 | `qwen3-coder-30b-a3b-instruct` | — | chat | per-token | 262.144K | $0.067 | $0.245 | $0.014 | — | —/— | — | models.dev official list price |
 | `qwen3-coder-next` | — | chat | per-token | 256K | $0.167 | $0.891 | — | — | —/— | — | models.dev official list price |
 | `qwen3-next-80b-a3b-thinking` | — | reasoning | per-token | 128K | $0.149 | $1.195 | — | — | —/— | — | models.dev official list price |

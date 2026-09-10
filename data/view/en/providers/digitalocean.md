@@ -6,8 +6,8 @@
 - Homepage: https://docs.digitalocean.com/products/gradient-ai-platform/details/models/
 - Pricing page: https://docs.digitalocean.com/products/gradient-ai-platform/details/models/
 - Currency: USD
-- Data updated: 2026-09-04T00:22:51Z
-- Verified: 2026-09-04T00:22:51Z
+- Data updated: 2026-09-10T06:39:04Z
+- Verified: 2026-09-10T06:39:04Z
 
 **95** models in total.
 
@@ -58,7 +58,7 @@
 | `gte-large-en-v1.5` | — | chat | per-token | 8.192K | $0.09 | $0 | — | — | —/— | — | models.dev official list price |
 | `kimi-k2.5` | — | reasoning | per-token | 262.144K | $0.5 | $2.7 | $0.203 | — | —/— | — | models.dev official list price |
 | `kimi-k2.6` | — | reasoning | per-token | 262.144K | $0.95 | $4 | $0.19 | — | —/— | — | models.dev official list price |
-| `kimi-k3` | — | reasoning | per-token | 1.04858M | $2.85 | $14.25 | $0.285 | — | —/— | — | models.dev official list price |
+| `kimi-k3` | — | reasoning | per-token | 1.04858M | $2.55 | $12.95 | $0.285 | — | —/— | — | models.dev official list price |
 | `llama-4-maverick` | — | chat | per-token | 128K | $0.2 | $0.696 | — | — | —/— | — | models.dev official list price |
 | `llama3-8b-instruct` | — | chat | per-token | 131.072K | $0.198 | $0.198 | — | — | —/— | — | models.dev official list price |
 | `llama3.3-70b-instruct` | — | chat | per-token | 128K | $0.65 | $0.65 | — | — | —/— | — | models.dev official list price |

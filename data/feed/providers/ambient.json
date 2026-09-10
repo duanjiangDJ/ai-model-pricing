@@ -7,8 +7,8 @@
   "homepage": "https://ambient.xyz",
   "pricing_page": "https://ambient.xyz",
   "currency": "USD",
-  "updated_at": "2026-09-02T00:19:17Z",
-  "verified_at": "2026-09-02T00:19:17Z",
+  "updated_at": "2026-09-10T06:39:04Z",
+  "verified_at": "2026-09-10T06:39:04Z",
   "models": [
     {
       "id": "ambient/large",
@@ -283,7 +283,9 @@
           "output": {
             "usd": 4.4
           },
-          "cache_read": null,
+          "cache_read": {
+            "usd": 0
+          },
           "cache_write": null
         },
         "batch": null,

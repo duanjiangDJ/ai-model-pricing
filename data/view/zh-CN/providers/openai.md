@@ -6,8 +6,8 @@
 - 官网: https://platform.openai.com/docs/models
 - 定价页: https://openai.com/chatgpt/pricing/
 - 币种: USD
-- 数据更新时间: 2026-09-04T00:22:51Z
-- 核实时间: 2026-09-04T00:22:51Z
+- 数据更新时间: 2026-09-10T06:39:08Z
+- 核实时间: 2026-09-10T06:39:08Z
 
 共 **55** 个模型。
 
@@ -16,7 +16,7 @@
 | `babbage-002` | — | chat | 按量 | — | $0.4 | $0.4 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
 | `chatgpt-image-latest` | ❌ 下线 | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `davinci-002` | — | chat | 按量 | — | $2 | $2 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
-| `gpt-3.5-turbo` | — | chat | 按量 | 16.385K | $0.5 | $1.5 | — | — | —/— | — | models.dev official list price |
+| `gpt-3.5-turbo` | — | chat | 按量 | 16.385K | $0.5 | $1.5 | $0 | — | —/— | — | models.dev official list price |
 | `gpt-3.5-turbo-0125` | — | chat | 按量 | — | $0.5 | $1.5 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
 | `gpt-3.5-turbo-1106` | — | chat | 按量 | — | $1 | $2 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
 | `gpt-3.5-turbo-instruct` | — | chat | 按量 | — | $1.5 | $2 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |

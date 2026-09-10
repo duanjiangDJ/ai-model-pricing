@@ -6,14 +6,14 @@
 - Homepage: https://www.coralbricks.ai/docs
 - Pricing page: https://www.coralbricks.ai/docs
 - Currency: USD
-- Data updated: 2026-09-04T00:22:51Z
-- Verified: 2026-09-04T00:22:51Z
+- Data updated: 2026-09-10T06:39:05Z
+- Verified: 2026-09-10T06:39:05Z
 
 **4** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `glm-5.2-fp4` | — | reasoning | per-token | 1.04858M | $1.12 | $4.4 | — | — | —/— | — | models.dev official list price |
-| `glm-5.3-fp4` | — | reasoning | per-token | 1.04858M | $1.12 | $4.4 | — | — | —/— | — | models.dev official list price |
-| `gpt-oss-120b` | — | reasoning | per-token | 131.072K | $0.12 | $0.6 | — | — | —/— | — | models.dev official list price |
-| `kimi-k3` | — | reasoning | per-token | 1.04858M | $3 | $15 | — | — | —/— | — | models.dev official list price |
+| `glm-5.3-fp4` | — | reasoning | per-token | 1.04858M | $1.12 | $4.4 | $0 | — | —/— | — | models.dev official list price |
+| `gpt-oss-120b` | — | reasoning | per-token | 131.072K | $0.12 | $0.6 | $0 | — | —/— | — | models.dev official list price |
+| `kimi-k3` | — | reasoning | per-token | 1.04858M | $3 | $15 | $0 | — | —/— | — | models.dev official list price |

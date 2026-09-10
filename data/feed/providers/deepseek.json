@@ -7,8 +7,8 @@
   "homepage": "https://api-docs.deepseek.com/quick_start/pricing",
   "pricing_page": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
   "currency": "USD",
-  "updated_at": "2026-09-04T00:22:52Z",
-  "verified_at": "2026-09-04T00:22:52Z",
+  "updated_at": "2026-09-10T06:39:07Z",
+  "verified_at": "2026-09-10T06:39:07Z",
   "models": [
     {
       "id": "deepseek-chat",
@@ -88,11 +88,11 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.44,
+            "usd": 0.14,
             "cny": 3.0
           },
           "output": {
-            "usd": 1.32,
+            "usd": 0.28,
             "cny": 9.0
           },
           "cache_read": {
@@ -126,7 +126,7 @@
           }
         }
       },
-      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). Parsed by check deepseek.",
+      "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
       ]
@@ -140,11 +140,11 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.44,
+            "usd": 0.14,
             "cny": 3.0
           },
           "output": {
-            "usd": 1.32,
+            "usd": 0.28,
             "cny": 9.0
           },
           "cache_read": {
@@ -178,7 +178,7 @@
           }
         }
       },
-      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). Parsed by check deepseek.",
+      "notes": "models.dev official list price",
       "status": "online",
       "billing_model": [
         "pay_per_token"
@@ -196,11 +196,11 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.32,
+            "usd": 0.435,
             "cny": 9.0
           },
           "output": {
-            "usd": 3.96,
+            "usd": 0.87,
             "cny": 27.0
           },
           "cache_read": {
@@ -234,7 +234,7 @@
           }
         }
       },
-      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). Parsed by check deepseek.",
+      "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
       ]

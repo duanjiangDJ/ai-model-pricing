@@ -3,9 +3,9 @@
 > 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/feed/`](../../../data/feed/)。
 > 更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。
 
-- 数据更新时间: 2026-09-10T00:37:59Z
+- 数据更新时间: 2026-09-10T06:38:14Z
 - 覆盖渠道: 190
-- 模型总数: 7578
+- 模型总数: 7584
 - 订阅计划数: 67
 
 ## 供应商列表
@@ -20,29 +20,29 @@
 | [Cloudflare Workers AI](providers/cloudflare-workers-ai.md) | 推理托管 | 27 | `providers/cloudflare-workers-ai.json` | 2026-09-04T00:22:51Z |
 | [Meganova](providers/meganova.md) | 推理托管 | 19 | `providers/meganova.json` | 2026-09-04T00:22:51Z |
 | [Infomaniak](providers/infomaniak.md) | 推理托管 | 10 | `providers/infomaniak.json` | 2026-09-04T00:22:51Z |
-| [OrcaRouter](providers/orcarouter.md) | 聚合站 | 124 | `providers/orcarouter.json` | 2026-09-04T00:22:51Z |
+| [OrcaRouter](providers/orcarouter.md) | 聚合站 | 124 | `providers/orcarouter.json` | 2026-09-10T06:39:04Z |
 | [Zenifra](providers/zenifra.md) | 推理托管 | 1 | `providers/zenifra.json` | 2026-09-04T00:22:51Z |
 | [Nvidia](providers/nvidia.md) | 官方直供 | 103 | `providers/nvidia.json` | 2026-09-04T00:22:51Z |
 | [QVAC](providers/qvac.md) | 推理托管 | 9 | `providers/qvac.json` | 2026-09-04T00:22:51Z |
 | [iFlow](providers/iflowcn.md) | 推理托管 | 14 | `providers/iflowcn.json` | 2026-09-04T00:22:51Z |
 | [Claudinio](providers/claudinio.md) | 推理托管 | 2 | `providers/claudinio.json` | 2026-09-04T00:22:51Z |
-| [Cortecs](providers/cortecs.md) | 推理托管 | 112 | `providers/cortecs.json` | 2026-09-04T00:22:51Z |
-| [NanoGPT](providers/nano-gpt.md) | 推理托管 | 693 | `providers/nano-gpt.json` | 2026-09-04T00:22:51Z |
+| [Cortecs](providers/cortecs.md) | 推理托管 | 112 | `providers/cortecs.json` | 2026-09-10T06:39:08Z |
+| [NanoGPT](providers/nano-gpt.md) | 推理托管 | 693 | `providers/nano-gpt.json` | 2026-09-10T06:39:04Z |
 | [ModelScope](providers/modelscope.md) | 推理托管 | 7 | `providers/modelscope.json` | 2026-09-04T00:22:51Z |
 | [Synthetic](providers/synthetic.md) | 推理托管 | 9 | `providers/synthetic.json` | 2026-09-04T00:22:51Z |
 | [Jalapeno Cloud](providers/jalapeno.md) | 推理托管 | 17 | `providers/jalapeno.json` | 2026-09-04T00:22:51Z |
 | [abliteration.ai](providers/abliteration-ai.md) | 推理托管 | 3 | `providers/abliteration-ai.json` | 2026-09-04T00:22:51Z |
-| [DeepSeek](providers/deepseek.md) | 官方直供 | 5 | `providers/deepseek.json` | 2026-09-04T00:22:52Z |
+| [DeepSeek](providers/deepseek.md) | 官方直供 | 5 | `providers/deepseek.json` | 2026-09-10T06:39:07Z |
 | [GreenPT](providers/greenpt.md) | 推理托管 | 37 | `providers/greenpt.json` | 2026-09-02T00:19:17Z |
 | [Xpersona](providers/xpersona.md) | 推理托管 | 13 | `providers/xpersona.json` | 2026-09-04T00:22:51Z |
 | [Tencent TokenHub](providers/tencent-tokenhub.md) | 推理托管 | 3 | `providers/tencent-tokenhub.json` | 2026-09-04T00:22:51Z |
 | [StepFun Step Plan (China)](providers/stepfun-step-plan.md) | 推理托管 | 4 | `providers/stepfun-step-plan.json` | 2026-09-04T00:22:51Z |
 | [The Grid AI](providers/the-grid-ai.md) | 推理托管 | 9 | `providers/the-grid-ai.json` | 2026-09-04T00:22:51Z |
 | [Vertex](providers/google-vertex.md) | 推理托管 | 45 | `providers/google-vertex.json` | 2026-09-04T00:22:51Z |
-| [Alibaba Token Plan](providers/alibaba-token-plan.md) | 订阅制 | 25 | `providers/alibaba-token-plan.json` | 2026-08-27T17:11:11Z |
+| [Alibaba Token Plan](providers/alibaba-token-plan.md) | 订阅制 | 25 | `providers/alibaba-token-plan.json` | 2026-09-10T06:39:04Z |
 | [Google](providers/google.md) | 官方直供 | 41 | `providers/google.json` | 2026-09-04T00:22:51Z |
 | [Model Oracle AI](providers/model-oracle-ai.md) | 推理托管 | 15 | `providers/model-oracle-ai.json` | 2026-09-04T00:22:51Z |
-| [Deep Infra](providers/deepinfra.md) | 推理托管 | 63 | `providers/deepinfra.json` | 2026-09-04T00:22:51Z |
+| [Deep Infra](providers/deepinfra.md) | 推理托管 | 63 | `providers/deepinfra.json` | 2026-09-10T06:39:06Z |
 | [Meta](providers/meta.md) | 推理托管 | 5 | `providers/meta.json` | 2026-09-04T00:22:51Z |
 | [Hugging Face](providers/huggingface.md) | 推理托管 | 73 | `providers/huggingface.json` | 2026-09-04T00:22:51Z |
 | [Impossibl](providers/impossibl.md) | 推理托管 | 76 | `providers/impossibl.json` | 2026-09-04T00:22:51Z |
@@ -58,13 +58,13 @@
 | [Auriko](providers/auriko.md) | 推理托管 | 15 | `providers/auriko.json` | 2026-09-04T00:22:51Z |
 | [DaoXE](providers/daoxe.md) | 推理托管 | 9 | `providers/daoxe.json` | 2026-09-04T00:22:51Z |
 | [Moonshot AI](providers/moonshotai.md) | 推理托管 | 14 | `providers/moonshotai.json` | 2026-09-04T00:22:51Z |
-| [CrossModel](providers/crossmodel.md) | 推理托管 | 57 | `providers/crossmodel.json` | 2026-09-04T00:22:51Z |
+| [CrossModel](providers/crossmodel.md) | 推理托管 | 57 | `providers/crossmodel.json` | 2026-09-10T06:39:05Z |
 | [Kenari](providers/kenari.md) | 推理托管 | 59 | `providers/kenari.json` | 2026-09-04T00:22:51Z |
 | [Clarifai](providers/clarifai.md) | 推理托管 | 12 | `providers/clarifai.json` | 2026-09-04T00:22:51Z |
 | [Snowflake Cortex](providers/snowflake-cortex.md) | 推理托管 | 25 | `providers/snowflake-cortex.json` | 2026-09-04T00:22:51Z |
 | [Anthropic](providers/anthropic.md) | 官方直供 | 17 | `providers/anthropic.json` | 2026-09-04T00:22:51Z |
 | [Cohere](providers/cohere.md) | 官方直供 | 14 | `providers/cohere.json` | 2026-09-04T00:22:51Z |
-| [Z.AI](providers/zai.md) | 推理托管 | 23 | `providers/zai.json` | 2026-09-09T18:38:31Z |
+| [Z.AI](providers/zai.md) | 推理托管 | 23 | `providers/zai.json` | 2026-09-10T06:39:09Z |
 | [routing.run](providers/routing-run.md) | 推理托管 | 15 | `providers/routing-run.json` | 2026-09-04T00:22:51Z |
 | [STACKIT](providers/stackit.md) | 推理托管 | 8 | `providers/stackit.json` | 2026-09-04T00:22:51Z |
 | [Databricks](providers/databricks.md) | 推理托管 | 30 | `providers/databricks.json` | 2026-09-04T00:22:51Z |
@@ -75,16 +75,16 @@
 | [UnoRouter](providers/unorouter.md) | 聚合站 | 23 | `providers/unorouter.json` | 2026-09-04T00:22:51Z |
 | [Crusoe](providers/crusoe.md) | 推理托管 | 8 | `providers/crusoe.json` | 2026-09-04T00:22:51Z |
 | [DInference](providers/dinference.md) | 推理托管 | 6 | `providers/dinference.json` | 2026-09-04T00:22:51Z |
-| [OpenAI](providers/openai.md) | 官方直供 | 55 | `providers/openai.json` | 2026-09-04T00:22:51Z |
-| [OpenCode Go](providers/opencode-go.md) | 订阅制 | 34 | `providers/opencode-go.json` | 2026-09-04T00:22:51Z |
+| [OpenAI](providers/openai.md) | 官方直供 | 55 | `providers/openai.json` | 2026-09-10T06:39:08Z |
+| [OpenCode Go](providers/opencode-go.md) | 订阅制 | 34 | `providers/opencode-go.json` | 2026-09-10T06:39:09Z |
 | [xAI](providers/xai.md) | 官方直供 | 17 | `providers/xai.json` | 2026-09-04T00:22:51Z |
 | [LMStudio](providers/lmstudio.md) | 推理托管 | 3 | `providers/lmstudio.json` | 2026-09-04T00:22:51Z |
-| [Ambient](providers/ambient.md) | 推理托管 | 10 | `providers/ambient.json` | 2026-09-02T00:19:17Z |
+| [Ambient](providers/ambient.md) | 推理托管 | 10 | `providers/ambient.json` | 2026-09-10T06:39:04Z |
 | [Vivgrid](providers/vivgrid.md) | 推理托管 | 22 | `providers/vivgrid.json` | 2026-09-04T00:22:51Z |
 | [Nebius Token Factory](providers/nebius.md) | 推理托管 | 38 | `providers/nebius.json` | 2026-09-04T00:22:51Z |
 | [Echo](providers/echo.md) | 推理托管 | 1 | `providers/echo.json` | 2026-09-04T00:22:51Z |
 | [CloudFerro Sherlock](providers/cloudferro-sherlock.md) | 推理托管 | 5 | `providers/cloudferro-sherlock.json` | 2026-09-04T00:22:51Z |
-| [NEAR AI Cloud](providers/nearai.md) | 推理托管 | 37 | `providers/nearai.json` | 2026-09-04T00:22:51Z |
+| [NEAR AI Cloud](providers/nearai.md) | 推理托管 | 37 | `providers/nearai.json` | 2026-09-10T06:39:07Z |
 | [Tinfoil](providers/tinfoil.md) | 推理托管 | 9 | `providers/tinfoil.json` | 2026-09-04T00:22:51Z |
 | [LLMTR](providers/llmtr.md) | 推理托管 | 32 | `providers/llmtr.json` | 2026-09-04T00:22:51Z |
 | [Merge Gateway](providers/merge-gateway.md) | 聚合站 | 179 | `providers/merge-gateway.json` | 2026-09-04T00:22:51Z |
@@ -96,8 +96,8 @@
 | [Cloudflare AI Gateway](providers/cloudflare-ai-gateway.md) | 聚合站 | 79 | `providers/cloudflare-ai-gateway.json` | 2026-09-04T00:22:51Z |
 | [D.Run (China)](providers/drun.md) | 推理托管 | 3 | `providers/drun.json` | 2026-09-04T00:22:51Z |
 | [Sarvam AI](providers/sarvam.md) | 推理托管 | 2 | `providers/sarvam.json` | 2026-09-04T00:22:51Z |
-| [DigitalOcean](providers/digitalocean.md) | 推理托管 | 95 | `providers/digitalocean.json` | 2026-09-04T00:22:51Z |
-| [Alibaba Coding Plan (China)](providers/alibaba-coding-plan-cn.md) | 订阅制 | 12 | `providers/alibaba-coding-plan-cn.json` | 2026-08-28T08:54:00Z |
+| [DigitalOcean](providers/digitalocean.md) | 推理托管 | 95 | `providers/digitalocean.json` | 2026-09-10T06:39:04Z |
+| [Alibaba Coding Plan (China)](providers/alibaba-coding-plan-cn.md) | 订阅制 | 12 | `providers/alibaba-coding-plan-cn.json` | 2026-09-10T06:39:05Z |
 | [StepFun Step Plan (Global)](providers/stepfun-ai-step-plan.md) | 推理托管 | 3 | `providers/stepfun-ai-step-plan.json` | 2026-09-04T00:22:51Z |
 | [FastRouter](providers/fastrouter.md) | 聚合站 | 47 | `providers/fastrouter.json` | 2026-09-04T00:22:51Z |
 | [Privatemode AI](providers/privatemode-ai.md) | 推理托管 | 7 | `providers/privatemode-ai.json` | 2026-09-04T00:22:51Z |
@@ -106,10 +106,10 @@
 | [IO.NET](providers/io-net.md) | 推理托管 | 17 | `providers/io-net.json` | 2026-09-04T00:22:51Z |
 | [Berget.AI](providers/berget.md) | 推理托管 | 12 | `providers/berget.json` | 2026-09-04T00:22:51Z |
 | [Xiaomi](providers/xiaomi.md) | 推理托管 | 10 | `providers/xiaomi.json` | 2026-09-04T00:22:51Z |
-| [Alibaba](providers/alibaba.md) | 官方直供 | 55 | `providers/alibaba.json` | 2026-09-04T00:22:52Z |
+| [Alibaba](providers/alibaba.md) | 官方直供 | 55 | `providers/alibaba.json` | 2026-09-10T06:39:10Z |
 | [Sakana AI](providers/sakana.md) | 推理托管 | 4 | `providers/sakana.json` | 2026-09-04T00:22:51Z |
 | [ZenMux](providers/zenmux.md) | 推理托管 | 120 | `providers/zenmux.json` | 2026-09-04T00:22:51Z |
-| [Alibaba Coding Plan](providers/alibaba-coding-plan.md) | 订阅制 | 12 | `providers/alibaba-coding-plan.json` | 2026-08-28T08:54:00Z |
+| [Alibaba Coding Plan](providers/alibaba-coding-plan.md) | 订阅制 | 12 | `providers/alibaba-coding-plan.json` | 2026-09-10T06:39:07Z |
 | [Ollama Cloud](providers/ollama-cloud.md) | 推理托管 | 22 | `providers/ollama-cloud.json` | 2026-09-04T00:22:51Z |
 | [Perplexity](providers/perplexity.md) | 官方直供 | 26 | `providers/perplexity.json` | 2026-09-04T00:22:51Z |
 | [GMI Cloud](providers/gmicloud.md) | 推理托管 | 15 | `providers/gmicloud.json` | 2026-09-04T00:22:51Z |
@@ -118,7 +118,7 @@
 | [Inference](providers/inference.md) | 推理托管 | 9 | `providers/inference.json` | 2026-09-04T00:22:51Z |
 | [Arcee](providers/arcee.md) | 推理托管 | 7 | `providers/arcee.json` | 2026-09-04T00:22:51Z |
 | [QiHang](providers/qihang-ai.md) | 推理托管 | 9 | `providers/qihang-ai.json` | 2026-09-04T00:22:51Z |
-| [KUAE Cloud Coding Plan](providers/kuae-cloud-coding-plan.md) | 订阅制 | 1 | `providers/kuae-cloud-coding-plan.json` | 2026-08-27T17:11:11Z |
+| [KUAE Cloud Coding Plan](providers/kuae-cloud-coding-plan.md) | 订阅制 | 1 | `providers/kuae-cloud-coding-plan.json` | 2026-09-10T06:39:07Z |
 | [submodel](providers/submodel.md) | 推理托管 | 9 | `providers/submodel.json` | 2026-09-04T00:22:51Z |
 | [SCX.ai](providers/scx-ai.md) | 推理托管 | 4 | `providers/scx-ai.json` | 2026-09-04T00:22:51Z |
 | [FreeModel](providers/freemodel.md) | 推理托管 | 10 | `providers/freemodel.json` | 2026-09-04T00:22:51Z |
@@ -128,15 +128,15 @@
 | [Friendli](providers/friendli.md) | 推理托管 | 6 | `providers/friendli.json` | 2026-09-04T00:22:51Z |
 | [InferX](providers/inferx.md) | 推理托管 | 12 | `providers/inferx.json` | 2026-09-04T00:22:51Z |
 | [Helicone](providers/helicone.md) | 推理托管 | 90 | `providers/helicone.json` | 2026-09-04T00:22:51Z |
-| [Zhipu AI](providers/zhipuai.md) | 官方直供 | 17 | `providers/zhipuai.json` | 2026-09-04T00:22:51Z |
+| [Zhipu AI](providers/zhipuai.md) | 官方直供 | 17 | `providers/zhipuai.json` | 2026-09-10T06:39:06Z |
 | [Neon](providers/neon.md) | 推理托管 | 42 | `providers/neon.json` | 2026-09-04T00:22:51Z |
 | [evroc](providers/evroc.md) | 推理托管 | 17 | `providers/evroc.json` | 2026-09-04T00:22:51Z |
-| [302.AI](providers/302ai.md) | 推理托管 | 97 | `providers/302ai.json` | 2026-09-04T00:22:51Z |
+| [302.AI](providers/302ai.md) | 推理托管 | 97 | `providers/302ai.json` | 2026-09-10T06:39:08Z |
 | [OpenCode Zen](providers/opencode.md) | 聚合站 | 99 | `providers/opencode.json` | 2026-09-04T00:22:51Z |
-| [Requesty](providers/requesty.md) | 推理托管 | 153 | `providers/requesty.json` | 2026-09-04T00:22:51Z |
+| [Requesty](providers/requesty.md) | 推理托管 | 153 | `providers/requesty.json` | 2026-09-10T06:39:05Z |
 | [SiliconFlow](providers/siliconflow.md) | 推理托管 | 61 | `providers/siliconflow.json` | 2026-09-04T00:22:51Z |
 | [Atomic Chat](providers/atomic-chat.md) | 推理托管 | 5 | `providers/atomic-chat.json` | 2026-09-04T00:22:51Z |
-| [Charm Hyper](providers/hyper.md) | 推理托管 | 32 | `providers/hyper.json` | 2026-09-04T00:22:51Z |
+| [Charm Hyper](providers/hyper.md) | 推理托管 | 32 | `providers/hyper.json` | 2026-09-10T06:39:05Z |
 | [Subconscious](providers/subconscious.md) | 推理托管 | 2 | `providers/subconscious.json` | 2026-09-02T00:19:17Z |
 | [Azure](providers/azure.md) | 推理托管 | 86 | `providers/azure.json` | 2026-09-04T00:22:51Z |
 | [TrustedRouter](providers/trustedrouter.md) | 聚合站 | 14 | `providers/trustedrouter.json` | 2026-09-04T00:22:51Z |
@@ -145,45 +145,45 @@
 | [Thinking Machines](providers/thinkingmachines.md) | 推理托管 | 2 | `providers/thinkingmachines.json` | 2026-09-04T00:22:51Z |
 | [Baseten](providers/baseten.md) | 推理托管 | 21 | `providers/baseten.json` | 2026-09-04T00:22:51Z |
 | [Poe](providers/poe.md) | 推理托管 | 137 | `providers/poe.json` | 2026-09-04T00:22:51Z |
-| [Mistral](providers/mistral.md) | 官方直供 | 34 | `providers/mistral.json` | 2026-09-04T00:22:52Z |
+| [Mistral](providers/mistral.md) | 官方直供 | 34 | `providers/mistral.json` | 2026-09-10T06:39:10Z |
 | [Modal](providers/modal.md) | 推理托管 | 4 | `providers/modal.json` | 2026-09-04T00:22:51Z |
 | [AIHubMix](providers/aihubmix.md) | 推理托管 | 77 | `providers/aihubmix.json` | 2026-09-04T00:22:51Z |
 | [ClinePass](providers/cline-pass.md) | 推理托管 | 13 | `providers/cline-pass.json` | 2026-09-04T00:22:51Z |
 | [EmpirioLabs AI](providers/empiriolabs.md) | 推理托管 | 59 | `providers/empiriolabs.json` | 2026-09-04T00:22:51Z |
 | [Morph](providers/morph.md) | 推理托管 | 3 | `providers/morph.json` | 2026-09-04T00:22:51Z |
-| [Tencent Coding Plan (China)](providers/tencent-coding-plan.md) | 订阅制 | 8 | `providers/tencent-coding-plan.json` | 2026-08-27T17:11:11Z |
-| [SCNet Token Plan](providers/scnet-token-plan.md) | 订阅制 | 16 | `providers/scnet-token-plan.json` | 2026-08-27T17:11:11Z |
+| [Tencent Coding Plan (China)](providers/tencent-coding-plan.md) | 订阅制 | 8 | `providers/tencent-coding-plan.json` | 2026-09-10T06:39:08Z |
+| [SCNet Token Plan](providers/scnet-token-plan.md) | 订阅制 | 16 | `providers/scnet-token-plan.json` | 2026-09-10T06:39:07Z |
 | [AnyAPI](providers/anyapi.md) | 推理托管 | 30 | `providers/anyapi.json` | 2026-09-04T00:22:51Z |
 | [Cerebras](providers/cerebras.md) | 推理托管 | 2 | `providers/cerebras.json` | 2026-09-04T00:22:51Z |
 | [AMD](providers/amd.md) | 推理托管 | 4 | `providers/amd.json` | 2026-09-04T00:22:51Z |
 | [Bailing](providers/bailing.md) | 推理托管 | 2 | `providers/bailing.json` | 2026-09-04T00:22:51Z |
 | [watsonx.ai](providers/watsonx.md) | 推理托管 | 5 | `providers/watsonx.json` | 2026-09-04T00:22:51Z |
-| [Vercel AI Gateway](providers/vercel.md) | 聚合站 | 375 | `providers/vercel.json` | 2026-09-04T00:22:51Z |
-| [Eden AI](providers/edenai.md) | 推理托管 | 255 | `providers/edenai.json` | 2026-09-04T00:22:51Z |
+| [Vercel AI Gateway](providers/vercel.md) | 聚合站 | 375 | `providers/vercel.json` | 2026-09-10T06:39:06Z |
+| [Eden AI](providers/edenai.md) | 推理托管 | 255 | `providers/edenai.json` | 2026-09-10T06:39:09Z |
 | [NovitaAI](providers/novita-ai.md) | 推理托管 | 107 | `providers/novita-ai.json` | 2026-09-04T00:22:51Z |
 | [Upstage](providers/upstage.md) | 推理托管 | 4 | `providers/upstage.json` | 2026-09-04T00:22:51Z |
-| [DevPass (LLM Gateway)](providers/llmgateway.md) | 聚合站 | 565 | `providers/llmgateway.json` | 2026-09-04T00:22:51Z |
+| [DevPass (LLM Gateway)](providers/llmgateway.md) | 聚合站 | 565 | `providers/llmgateway.json` | 2026-09-10T06:39:06Z |
 | [Chutes](providers/chutes.md) | 推理托管 | 14 | `providers/chutes.json` | 2026-09-04T00:22:51Z |
 | [CrofAI](providers/crof.md) | 推理托管 | 30 | `providers/crof.json` | 2026-09-04T00:22:51Z |
 | [v0](providers/v0.md) | 订阅制 | 3 | `providers/v0.json` | 2026-09-04T00:22:51Z |
 | [Groq](providers/groq.md) | 推理托管 | 16 | `providers/groq.json` | 2026-09-04T00:22:51Z |
 | [RunInfra](providers/runinfra.md) | 推理托管 | 7 | `providers/runinfra.json` | 2026-09-04T00:22:51Z |
 | [GitLab Duo](providers/gitlab.md) | 推理托管 | 24 | `providers/gitlab.json` | 2026-09-04T00:22:51Z |
-| [Alibaba Token Plan (China)](providers/alibaba-token-plan-cn.md) | 订阅制 | 25 | `providers/alibaba-token-plan-cn.json` | 2026-08-27T17:11:11Z |
-| [CoralBricks](providers/coralbricks.md) | 推理托管 | 4 | `providers/coralbricks.json` | 2026-09-04T00:22:51Z |
+| [Alibaba Token Plan (China)](providers/alibaba-token-plan-cn.md) | 订阅制 | 25 | `providers/alibaba-token-plan-cn.json` | 2026-09-10T06:39:09Z |
+| [CoralBricks](providers/coralbricks.md) | 推理托管 | 4 | `providers/coralbricks.json` | 2026-09-10T06:39:05Z |
 | [ai&](providers/aiand.md) | 推理托管 | 11 | `providers/aiand.json` | 2026-09-04T00:22:51Z |
 | [Wafer](providers/wafer.ai.md) | 推理托管 | 5 | `providers/wafer.ai.json` | 2026-09-04T00:22:51Z |
 | [Modelis](providers/modelis.md) | 推理托管 | 9 | `providers/modelis.json` | 2026-09-02T00:19:17Z |
 | [EBCloud](providers/ebcloud.md) | 推理托管 | 4 | `providers/ebcloud.json` | 2026-09-04T00:22:51Z |
 | [TensorX](providers/tensorx.md) | 推理托管 | 25 | `providers/tensorx.json` | 2026-09-04T00:22:51Z |
-| [Tencent Token Plan](providers/tencent-token-plan.md) | 订阅制 | 1 | `providers/tencent-token-plan.json` | 2026-08-27T17:11:11Z |
-| [Kilo Gateway](providers/kilo.md) | 聚合站 | 383 | `providers/kilo.json` | 2026-09-04T00:22:51Z |
+| [Tencent Token Plan](providers/tencent-token-plan.md) | 订阅制 | 1 | `providers/tencent-token-plan.json` | 2026-09-10T06:39:09Z |
+| [Kilo Gateway](providers/kilo.md) | 聚合站 | 383 | `providers/kilo.json` | 2026-09-10T06:39:06Z |
 | [Pioneer](providers/pioneer.md) | 推理托管 | 103 | `providers/pioneer.json` | 2026-09-04T00:22:51Z |
-| [Venice AI](providers/venice.md) | 推理托管 | 103 | `providers/venice.json` | 2026-09-04T00:22:51Z |
+| [Venice AI](providers/venice.md) | 推理托管 | 103 | `providers/venice.json` | 2026-09-10T06:39:06Z |
 | [Fireworks AI](providers/fireworks-ai.md) | 推理托管 | 26 | `providers/fireworks-ai.json` | 2026-09-04T00:22:51Z |
 | [Weights & Biases](providers/wandb.md) | 推理托管 | 32 | `providers/wandb.json` | 2026-09-04T00:22:51Z |
 | [Abacus](providers/abacus.md) | 推理托管 | 108 | `providers/abacus.json` | 2026-09-04T00:22:51Z |
-| [MiniMax (minimax.io)](providers/minimax.md) | 官方直供 | 7 | `providers/minimax.json` | 2026-09-04T00:22:52Z |
+| [MiniMax (minimax.io)](providers/minimax.md) | 官方直供 | 7 | `providers/minimax.json` | 2026-09-10T06:39:10Z |
 | [Vultr](providers/vultr.md) | 推理托管 | 10 | `providers/vultr.json` | 2026-09-04T00:22:51Z |
 | [GitHub](providers/github.md) | 订阅制 | 33 | `providers/github.json` | 2026-08-28T08:54:00Z |
 | [Cursor (Anysphere)](providers/cursor.md) | 订阅制 | 0 | `providers/cursor.json` | 2026-08-27T17:11:11Z |
@@ -196,12 +196,12 @@
 | [Amazon Web Services](providers/aws.md) | 云平台托管 | 120 | `providers/aws.json` | 2026-08-28T08:54:00Z |
 | [Tabnine](providers/tabnine.md) | 订阅制 | 0 | `providers/tabnine.json` | 2026-08-27T17:11:11Z |
 | [Replit](providers/replit.md) | 订阅制 | 0 | `providers/replit.json` | 2026-08-27T17:11:11Z |
-| [Z.AI Coding Plan](providers/zai-coding-plan.md) | 订阅制 | 6 | `providers/zai-coding-plan.json` | 2026-08-27T17:11:11Z |
+| [Z.AI Coding Plan](providers/zai-coding-plan.md) | 订阅制 | 6 | `providers/zai-coding-plan.json` | 2026-09-10T06:39:04Z |
 | [AI21 Labs](providers/ai21.md) | 官方直供 | 2 | `providers/ai21.json` | 2026-08-28T10:02:16.380334Z |
 | [百川智能 (Baichuan)](providers/baichuan.md) | 官方直供 | 1 | `providers/baichuan.json` | 2026-08-28T10:02:16.380334Z |
 | [科大讯飞星火 (iFlytek Spark)](providers/iflytek.md) | 官方直供 | 2 | `providers/iflytek.json` | 2026-08-28T10:02:16.380334Z |
 | [零一万物 (01.AI)](providers/lingyiwanwu.md) | 官方直供 | 2 | `providers/lingyiwanwu.json` | 2026-08-28T10:02:16.380334Z |
-| [OpenRouter](providers/openrouter.md) | 聚合站 | 430 | `providers/openrouter.json` | 2026-09-10T00:37:59Z |
+| [OpenRouter](providers/openrouter.md) | 聚合站 | 436 | `providers/openrouter.json` | 2026-09-10T06:39:09Z |
 
 ## 订阅计划
 

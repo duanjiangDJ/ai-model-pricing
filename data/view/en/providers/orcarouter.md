@@ -6,8 +6,8 @@
 - Homepage: https://docs.orcarouter.ai
 - Pricing page: https://docs.orcarouter.ai
 - Currency: USD
-- Data updated: 2026-09-04T00:22:51Z
-- Verified: 2026-09-04T00:22:51Z
+- Data updated: 2026-09-10T06:39:04Z
+- Verified: 2026-09-10T06:39:04Z
 
 **124** models in total.
 
@@ -65,7 +65,7 @@
 | `minimax/minimax-m2.7` | — | reasoning | per-token | 204.8K | $0.3 | $1.2 | $0.06 | — | —/— | — | models.dev official list price |
 | `minimax/minimax-m2.7-highspeed` | — | reasoning | per-token | 204.8K | $0.6 | $2.4 | $0.06 | — | —/— | — | models.dev official list price |
 | `minimax/minimax-m3` | — | reasoning | per-token | 1.04858M | $0.3 | $1.2 | $0.06 | — | —/— | — | models.dev official list price |
-| `openai/gpt-3.5-turbo` | — | chat | per-token | 16.385K | $0.5 | $1.5 | — | — | —/— | — | models.dev official list price |
+| `openai/gpt-3.5-turbo` | — | chat | per-token | 16.385K | $0.5 | $1.5 | $0 | — | —/— | — | models.dev official list price |
 | `openai/gpt-4` | — | chat | per-token | 8.192K | $30 | $60 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-4-turbo` | — | chat | per-token | 128K | $10 | $30 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-4.1` | — | chat | per-token | 1.04758M | $2 | $8 | $0.5 | — | —/— | — | models.dev official list price |

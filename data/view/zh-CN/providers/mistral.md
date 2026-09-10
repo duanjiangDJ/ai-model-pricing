@@ -6,8 +6,8 @@
 - 官网: https://docs.mistral.ai/getting-started/models/
 - 定价页: https://docs.mistral.ai/getting-started/models/
 - 币种: USD
-- 数据更新时间: 2026-09-04T00:22:52Z
-- 核实时间: 2026-09-04T00:22:52Z
+- 数据更新时间: 2026-09-10T06:39:10Z
+- 核实时间: 2026-09-10T06:39:10Z
 
 共 **34** 个模型。
 

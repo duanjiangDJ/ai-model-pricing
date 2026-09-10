@@ -1,6 +1,669 @@
 {
-  "schema_version": "26.104.44",
+  "schema_version": "26.105.44",
   "entries": [
+    {
+      "date": "2026-09-10T06:39:10Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "mistral",
+      "item_id": "ministral-3b-latest,ministral-3b-latest,ministral-8b-latest,ministral-8b-latest",
+      "field": "pricing",
+      "new": {
+        "models": 4
+      },
+      "source": "https://mistral.ai/pricing/api"
+    },
+    {
+      "date": "2026-09-10T06:39:10Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "minimax",
+      "item_id": "MiniMax-M2.5-highspeed",
+      "field": "pricing",
+      "new": {
+        "models": 1
+      },
+      "source": "https://platform.minimax.io/docs/guides/pricing-paygo.md"
+    },
+    {
+      "date": "2026-09-10T06:39:10Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba",
+      "item_id": "qwen3.7-plus,qwen3.7-plus,qwen3.6-flash,qwen3.6-flash,qwen-vl-ocr,qwen3.6-35b-a3b,qwen3.6-35b-a3b,qwen3-next-80b-a3b-thinking,qwen3-next-80b-a3b-instruct,qwen3-next-80b-a3b-instruct,qwen3-32b,qwen3-32b",
+      "field": "pricing",
+      "new": {
+        "models": 12
+      },
+      "source": "https://www.alibabacloud.com/help/en/model-studio/billing"
+    },
+    {
+      "date": "2026-09-10T06:39:09Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "zai",
+      "item_id": "glm-5.3-flash,glm-5.3-flash,glm-5.3-flash",
+      "field": "pricing",
+      "new": {
+        "models": 3
+      },
+      "source": "tier0_zai:source"
+    },
+    {
+      "date": "2026-09-10T06:39:09Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-flash",
+      "field": "pricing",
+      "new": {
+        "models": 1
+      },
+      "source": "openrouter:api"
+    },
+    {
+      "date": "2026-09-10T06:39:09Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "edenai",
+      "item_id": "qwen/deepseek-v4-pro-0813,qwen/deepseek-v4-pro-0813,qwen/deepseek-v4-flash-0731,qwen/deepseek-v4-flash-0731,scaleway/deepseek-v4-flash-0731,scaleway/deepseek-v4-flash-0731,scaleway/gpt-oss-120b,scaleway/gpt-oss-120b,scaleway/llama-3.3-70b-instruct,scaleway/llama-3.3-70b-instruct,google/gemini-3.8-flash,google/gemini-3.8-flash,google/gemini-3.8-flash,flexai/gpt-oss-20b,flexai/gpt-oss-20b,flexai/DeepSeek-V4-Flash-0731,flexai/gpt-oss-120b,flexai/gpt-oss-120b,deepinfra/deepseek-ai/DeepSeek-V4-Flash-0731,deepinfra/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "field": "pricing",
+      "new": {
+        "models": 39
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:09Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "tencent-token-plan",
+      "item_id": "hy3,hy3,hy3",
+      "field": "pricing",
+      "new": {
+        "models": 3
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:09Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "opencode-go",
+      "item_id": "deepseek-v4-flash-vision-exp,deepseek-v4-flash-vision-exp,deepseek-v4-flash-vision-exp,deepseek-v4-flash,deepseek-v4-flash,deepseek-v4-flash,glm-5.3-flash,glm-5.3-flash,glm-5.3-flash",
+      "field": "pricing",
+      "new": {
+        "models": 9
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:09Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan-cn",
+      "item_id": "qwen3.7-max,qwen3.7-max,qwen3.7-max,happyhorse-1.1-r2v,happyhorse-1.1-r2v,deepseek-v4-pro-0813,deepseek-v4-pro-0813,deepseek-v4-pro-0813,deepseek-v4-flash-0731,deepseek-v4-flash-0731,deepseek-v4-flash-0731,qwen3.8-max-preview,qwen3.8-max-preview,qwen3.8-max-preview,qwen3.6-plus,qwen3.6-plus,qwen3.6-plus,wan2.7-image-pro,wan2.7-image-pro,kimi-k2.6",
+      "field": "pricing",
+      "new": {
+        "models": 67
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:08Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "tencent-coding-plan",
+      "item_id": "hunyuan-2.0-thinking,hunyuan-2.0-thinking,hunyuan-2.0-thinking,hunyuan-t1,hunyuan-t1,hunyuan-t1,minimax-m2.5,minimax-m2.5,minimax-m2.5,hunyuan-turbos,hunyuan-turbos,hunyuan-turbos,tc-code-latest,tc-code-latest,tc-code-latest,glm-5,glm-5,glm-5,kimi-k2.5,kimi-k2.5",
+      "field": "pricing",
+      "new": {
+        "models": 24
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:08Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "cortecs",
+      "item_id": "qwen3-32b,qwen3-32b,qwen2.5-vl-72b-instruct,qwen2.5-vl-72b-instruct,glm-5.3,glm-5.3,glm-5.3",
+      "field": "pricing",
+      "new": {
+        "models": 7
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:08Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "mistral",
+      "item_id": "ministral-8b-latest,ministral-8b-latest,ministral-3b-latest,ministral-3b-latest",
+      "field": "pricing",
+      "new": {
+        "models": 4
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:08Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "zai",
+      "item_id": "glm-5.3-flash,glm-5.3-flash,glm-5.3-flash",
+      "field": "pricing",
+      "new": {
+        "models": 3
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:08Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "302ai",
+      "item_id": "glm-5.1,glm-5.1",
+      "field": "pricing",
+      "new": {
+        "models": 2
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:08Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openai",
+      "item_id": "gpt-3.5-turbo",
+      "field": "pricing",
+      "new": {
+        "models": 1
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:07Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "scnet-token-plan",
+      "item_id": "DeepSeek-V4-Flash,DeepSeek-V4-Flash,DeepSeek-V4-Flash,GLM-5.1,GLM-5.1,GLM-5.1,Qwen3.8-Max,Qwen3.8-Max,Qwen3.8-Max,DeepSeek-V4-Flash-0731,DeepSeek-V4-Flash-0731,DeepSeek-V4-Flash-0731,Kimi-K2.5,Kimi-K2.5,Kimi-K2.5,Kimi-K2.7-Code,Kimi-K2.7-Code,Kimi-K2.7-Code,MiniMax-M2.5,MiniMax-M2.5",
+      "field": "pricing",
+      "new": {
+        "models": 48
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:07Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "kuae-cloud-coding-plan",
+      "item_id": "GLM-4.7,GLM-4.7,GLM-4.7",
+      "field": "pricing",
+      "new": {
+        "models": 3
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:07Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-flash",
+      "field": "pricing",
+      "new": {
+        "models": 1
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:07Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nearai",
+      "item_id": "anthropic/claude-sonnet-4-5,zai-org/GLM-5.1-FP8,zai-org/GLM-5.1-FP8,Qwen/Qwen3-Embedding-0.6B,openai/whisper-large-v3,openai/gpt-5.2,openai/gpt-5.2,openai/gpt-5.2",
+      "field": "pricing",
+      "new": {
+        "models": 8
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:07Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "deepseek",
+      "item_id": "deepseek-v4-flash-vision-exp,deepseek-v4-flash-vision-exp,deepseek-v4-flash,deepseek-v4-flash,deepseek-v4-pro,deepseek-v4-pro",
+      "field": "pricing",
+      "new": {
+        "models": 6
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:07Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-coding-plan",
+      "item_id": "glm-4.7,glm-4.7,glm-4.7,qwen3-coder-plus,qwen3-coder-plus,qwen3-coder-plus,qwen3.6-plus,qwen3.6-plus,qwen3.6-plus,qwen3-coder-next,qwen3-coder-next,qwen3-coder-next,MiniMax-M2.5,MiniMax-M2.5,MiniMax-M2.5,glm-5,glm-5,glm-5,kimi-k2.5,kimi-k2.5",
+      "field": "pricing",
+      "new": {
+        "models": 30
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:06Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "kilo",
+      "item_id": "~moonshotai/kimi-latest,~moonshotai/kimi-latest,~moonshotai/kimi-latest,deepseek/deepseek-v4-pro-0813,deepseek/deepseek-chat,deepseek/deepseek-chat,deepseek/deepseek-chat-v3-0324,deepseek/deepseek-chat-v3-0324,deepseek/deepseek-chat-v3-0324,openai/gpt-5.6-sol-discounted,openai/gpt-5.6-sol-discounted,openai/gpt-5.6-sol-discounted,~z-ai/glm-latest,~z-ai/glm-latest,~z-ai/glm-latest,tencent/hy3,tencent/hy3,tencent/hy3,z-ai/glm-4.6,z-ai/glm-4.6",
+      "field": "pricing",
+      "new": {
+        "models": 22
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:06Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "deepinfra",
+      "item_id": "deepseek-ai/DeepSeek-V4-Flash-0731,deepseek-ai/DeepSeek-V4-Flash-0731",
+      "field": "pricing",
+      "new": {
+        "models": 2
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:06Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "zhipuai",
+      "item_id": "glm-4.7-flash",
+      "field": "pricing",
+      "new": {
+        "models": 1
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:06Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "llmgateway",
+      "item_id": "Qwen3.8-27B,Qwen3.8-27B,Qwen3.8-27B,kimi-k2.6,kimi-k2.6,kimi-k2.6,glm-5.2,glm-5.2,glm-5.2,deepseek-v4-flash,deepseek-v4-flash,deepseek-v4-flash,kimi-k2.7-code,kimi-k2.7-code,kimi-k2.7-code,kimi-k3,kimi-k3,kimi-k3,glm-5.2-fast,glm-5.2-fast",
+      "field": "pricing",
+      "new": {
+        "models": 28
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:06Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "venice",
+      "item_id": "openai-gpt-56-terra,openai-gpt-56-terra,openai-gpt-56-terra,openai-gpt-56-sol,openai-gpt-56-sol,openai-gpt-56-sol,openai-gpt-56-terra-pro,openai-gpt-56-terra-pro,openai-gpt-56-terra-pro,openai-gpt-56-luna-pro,openai-gpt-56-luna-pro,openai-gpt-56-luna-pro,openai-gpt-56-luna,openai-gpt-56-luna,openai-gpt-56-luna,openai-gpt-56-sol-pro,openai-gpt-56-sol-pro,openai-gpt-56-sol-pro",
+      "field": "pricing",
+      "new": {
+        "models": 18
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:06Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "vercel",
+      "item_id": "zai/glm-5.3,zai/glm-5.3,zai/glm-5.3",
+      "field": "pricing",
+      "new": {
+        "models": 3
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:05Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba",
+      "item_id": "qwen3-next-80b-a3b-thinking,qwen3-next-80b-a3b-instruct,qwen3-next-80b-a3b-instruct,qwen-vl-ocr,qwen3-32b,qwen3-32b,qwen3.6-35b-a3b,qwen3.6-35b-a3b,qwen3.6-flash,qwen3.6-flash,qwen3.7-plus,qwen3.7-plus",
+      "field": "pricing",
+      "new": {
+        "models": 12
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:05Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "minimax",
+      "item_id": "MiniMax-M2.5-highspeed",
+      "field": "pricing",
+      "new": {
+        "models": 1
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:05Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "crossmodel",
+      "item_id": "gemini/gemini-3.6-flash,gemini/gemini-3.6-flash,gemini/gemini-3.6-flash,openai/gpt-5.6-sol,openai/gpt-5.6-sol,openai/gpt-5.6-sol,z-ai/glm-5.3-flash,z-ai/glm-5.3-flash,z-ai/glm-5.3-flash",
+      "field": "pricing",
+      "new": {
+        "models": 9
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:05Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "requesty",
+      "item_id": "deepseek-v4-flash-0731,deepseek-v4-flash-0731,deepseek-v4-flash,deepseek-v4-flash,thinkingcap-qwen3.6-27b,kimi-k3,kimi-k3,kimi-k3,glm-5.3-flash,glm-5.3-flash@eu,thinkingcap-qwen3.6-27b@eu,kimi-k3@eu,kimi-k3@eu,kimi-k3@eu,deepseek-v4-flash-0731@eu,deepseek-v4-flash-0731@eu",
+      "field": "pricing",
+      "new": {
+        "models": 16
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:05Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "hyper",
+      "item_id": "minimax-m2.7,minimax-m2.7,glm-5,glm-5,kimi-k2.5,kimi-k2.5,glm-5.1,glm-5.1,gpt-oss-120b,gpt-oss-120b",
+      "field": "pricing",
+      "new": {
+        "models": 10
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:05Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "coralbricks",
+      "item_id": "kimi-k3,glm-5.3-fp4,gpt-oss-120b",
+      "field": "pricing",
+      "new": {
+        "models": 3
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:05Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-coding-plan-cn",
+      "item_id": "glm-4.7,glm-4.7,glm-4.7,qwen3-coder-plus,qwen3-coder-plus,qwen3-coder-plus,qwen3.6-plus,qwen3.6-plus,qwen3.6-plus,qwen3-coder-next,qwen3-coder-next,qwen3-coder-next,MiniMax-M2.5,MiniMax-M2.5,MiniMax-M2.5,glm-5,glm-5,glm-5,kimi-k2.5,kimi-k2.5",
+      "field": "pricing",
+      "new": {
+        "models": 30
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:04Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "orcarouter",
+      "item_id": "openai/gpt-3.5-turbo",
+      "field": "pricing",
+      "new": {
+        "models": 1
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:04Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "zai-coding-plan",
+      "item_id": "glm-5.2-highspeed,glm-5.2-highspeed,glm-5.2-highspeed,glm-4.7,glm-4.7,glm-4.7,glm-5.2,glm-5.2,glm-5.2,glm-5.3-flash,glm-5.3-flash,glm-5.3-flash,glm-5-turbo,glm-5-turbo,glm-5-turbo,glm-5.3,glm-5.3,glm-5.3",
+      "field": "pricing",
+      "new": {
+        "models": 18
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:04Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "alibaba-token-plan",
+      "item_id": "qwen3.7-max,qwen3.7-max,qwen3.7-max,happyhorse-1.1-r2v,happyhorse-1.1-r2v,deepseek-v4-pro-0813,deepseek-v4-pro-0813,deepseek-v4-pro-0813,deepseek-v4-flash-0731,deepseek-v4-flash-0731,deepseek-v4-flash-0731,qwen3.8-max-preview,qwen3.8-max-preview,qwen3.8-max-preview,qwen3.6-plus,qwen3.6-plus,qwen3.6-plus,wan2.7-image-pro,wan2.7-image-pro,kimi-k2.6",
+      "field": "pricing",
+      "new": {
+        "models": 67
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:04Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "digitalocean",
+      "item_id": "kimi-k3,kimi-k3",
+      "field": "pricing",
+      "new": {
+        "models": 2
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:04Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "sarvam-105b,sarvam-105b,sarvam-105b,TEE/glm-5.2,TEE/glm-5.2,TEE/glm-5.2:thinking,TEE/glm-5.2:thinking,openai/gpt-latest,openai/gpt-latest,openai/gpt-latest",
+      "field": "pricing",
+      "new": {
+        "models": 10
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:39:04Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "ambient",
+      "item_id": "zai-org/GLM-5.1-FP8",
+      "field": "pricing",
+      "new": {
+        "models": 1
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-10T06:38:14Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4.1-flash",
+      "field": "catalog",
+      "new": "deepseek/deepseek-v4.1-flash",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-10T06:38:14Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "mistralai/codestral-2508:batch",
+      "field": "catalog",
+      "new": "mistralai/codestral-2508:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-10T06:38:14Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "mistralai/ministral-8b-2512:batch",
+      "field": "catalog",
+      "new": "mistralai/ministral-8b-2512:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-10T06:38:14Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "mistralai/mistral-large-2512:batch",
+      "field": "catalog",
+      "new": "mistralai/mistral-large-2512:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-10T06:38:14Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "mistralai/mistral-medium-3.1:batch",
+      "field": "catalog",
+      "new": "mistralai/mistral-medium-3.1:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-10T06:38:14Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "mistralai/mistral-small-2603:batch",
+      "field": "catalog",
+      "new": "mistralai/mistral-small-2603:batch",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-10T06:38:14Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "z-ai/glm-5.3-flash",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.07
+          },
+          "output": {
+            "usd": 0.2333
+          },
+          "cache_read": {
+            "usd": 0.014
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.075
+          },
+          "output": {
+            "usd": 0.25
+          },
+          "cache_read": {
+            "usd": 0.015
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-10T06:38:14Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~z-ai/glm-flash-latest",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.07
+          },
+          "output": {
+            "usd": 0.2333
+          },
+          "cache_read": {
+            "usd": 0.014
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.075
+          },
+          "output": {
+            "usd": 0.25
+          },
+          "cache_read": {
+            "usd": 0.015
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-10T06:38:14Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~z-ai/glm-latest",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.113
+          },
+          "output": {
+            "usd": 3.498
+          },
+          "cache_read": {
+            "usd": 0.2067
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.092
+          },
+          "output": {
+            "usd": 3.432
+          },
+          "cache_read": {
+            "usd": 0.2028
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-10T00:37:59Z",
       "kind": "update",

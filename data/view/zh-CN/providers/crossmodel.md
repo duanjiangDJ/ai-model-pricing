@@ -6,8 +6,8 @@
 - 官网: https://www.crossmodel.ai/docs
 - 定价页: https://www.crossmodel.ai/docs
 - 币种: USD
-- 数据更新时间: 2026-09-04T00:22:51Z
-- 核实时间: 2026-09-04T00:22:51Z
+- 数据更新时间: 2026-09-10T06:39:05Z
+- 核实时间: 2026-09-10T06:39:05Z
 
 共 **57** 个模型。
 
@@ -31,7 +31,7 @@
 | `gemini/gemini-3.1-pro-preview` | — | reasoning | 按量 | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `gemini/gemini-3.5-flash` | — | reasoning | 按量 | 1.04858M | $1.5 | $9 | $0.15 | — | —/— | — | models.dev official list price |
 | `gemini/gemini-3.5-flash-lite` | — | reasoning | 按量 | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
-| `gemini/gemini-3.6-flash` | — | reasoning | 按量 | 1.04858M | $1.5 | $7.5 | $0.15 | — | —/— | — | models.dev official list price |
+| `gemini/gemini-3.6-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `gemini/gemini-3.7-flash` | — | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `minimax/minimax-m2.7` | — | reasoning | 按量 | 204.8K | $0.33 | $1.32 | $0.066 | — | —/— | — | models.dev official list price |
 | `minimax/minimax-m3` | — | reasoning | 按量 | 1.024M | $0.33 | $1.32 | $0.066 | — | —/— | — | models.dev official list price |
@@ -46,7 +46,7 @@
 | `openai/gpt-5.5` | — | reasoning | 按量 | 1.05M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.5-pro` | — | reasoning | 按量 | 1.05M | $30 | $180 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.6-luna` | — | reasoning | 按量 | 1.05M | $0.2 | $1.2 | $0.02 | — | —/— | — | models.dev official list price |
-| `openai/gpt-5.6-sol` | — | reasoning | 按量 | 1.05M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
+| `openai/gpt-5.6-sol` | — | reasoning | 按量 | 1.05M | $4 | $20 | $0.4 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.6-terra` | — | reasoning | 按量 | 1.05M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.6-flash` | — | reasoning | 按量 | 1M | $0.19 | $1.13 | $0.019 | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.6-plus` | — | reasoning | 按量 | 1M | $0.32 | $1.88 | $0.032 | — | —/— | — | models.dev official list price |
@@ -69,4 +69,4 @@
 | `z-ai/glm-5.1` | — | reasoning | 按量 | 200K | $1 | $3.8 | $0.2 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5.2` | — | reasoning | 按量 | 1M | $1.2 | $4.4 | $0.3 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5.3` | — | reasoning | 按量 | 1M | $1.2 | $4.4 | $0.3 | — | —/— | — | models.dev official list price |
-| `z-ai/glm-5.3-flash` | — | reasoning | 按量 | 1M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |
+| `z-ai/glm-5.3-flash` | — | reasoning | 按量 | 1M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |

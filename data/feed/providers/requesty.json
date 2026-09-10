@@ -7,8 +7,8 @@
   "homepage": "https://requesty.ai/solution/llm-routing/models",
   "pricing_page": "https://requesty.ai/solution/llm-routing/models",
   "currency": "USD",
-  "updated_at": "2026-09-04T00:22:51Z",
-  "verified_at": "2026-09-04T00:22:51Z",
+  "updated_at": "2026-09-10T06:39:05Z",
+  "verified_at": "2026-09-10T06:39:05Z",
   "models": [
     {
       "id": "claude-fable-5",
@@ -788,10 +788,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.14
+            "usd": 0.28
           },
           "output": {
-            "usd": 0.28
+            "usd": 0.56
           },
           "cache_read": {
             "usd": 0.07
@@ -820,10 +820,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.14
+            "usd": 0.28
           },
           "output": {
-            "usd": 0.28
+            "usd": 0.56
           },
           "cache_read": {
             "usd": 0.07
@@ -852,10 +852,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.14
+            "usd": 0.28
           },
           "output": {
-            "usd": 0.28
+            "usd": 0.56
           },
           "cache_read": {
             "usd": 0.07
@@ -1905,7 +1905,7 @@
             "usd": 0.2
           },
           "output": {
-            "usd": 0.5
+            "usd": 0.6
           },
           "cache_read": {
             "usd": 0.07
@@ -1936,7 +1936,7 @@
             "usd": 0.2
           },
           "output": {
-            "usd": 0.5
+            "usd": 0.6
           },
           "cache_read": {
             "usd": 0.07
@@ -3172,13 +3172,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2.25
+            "usd": 3
           },
           "output": {
-            "usd": 11.25
+            "usd": 15
           },
           "cache_read": {
-            "usd": 0.225
+            "usd": 0.45
           },
           "cache_write": null
         },
@@ -3204,13 +3204,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2.25
+            "usd": 3
           },
           "output": {
-            "usd": 11.25
+            "usd": 15
           },
           "cache_read": {
-            "usd": 0.225
+            "usd": 0.45
           },
           "cache_write": null
         },
@@ -4799,7 +4799,7 @@
             "usd": 0.4
           },
           "output": {
-            "usd": 3
+            "usd": 2.6
           },
           "cache_read": {
             "usd": 0.26
@@ -4831,7 +4831,7 @@
             "usd": 0.4
           },
           "output": {
-            "usd": 3
+            "usd": 2.6
           },
           "cache_read": {
             "usd": 0.26

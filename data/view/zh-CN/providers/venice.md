@@ -6,8 +6,8 @@
 - 官网: https://docs.venice.ai
 - 定价页: https://docs.venice.ai
 - 币种: USD
-- 数据更新时间: 2026-09-04T00:22:51Z
-- 核实时间: 2026-09-04T00:22:51Z
+- 数据更新时间: 2026-09-10T06:39:06Z
+- 核实时间: 2026-09-10T06:39:06Z
 
 共 **103** 个模型。
 
@@ -78,12 +78,12 @@
 | `openai-gpt-54-pro` | — | reasoning | 按量 | 1M | $37.5 | $225 | — | — | —/— | — | models.dev official list price |
 | `openai-gpt-55` | — | reasoning | 按量 | 1M | $6.25 | $37.5 | $0.625 | — | —/— | — | models.dev official list price |
 | `openai-gpt-55-pro` | — | reasoning | 按量 | 1M | $37.5 | $225 | — | — | —/— | — | models.dev official list price |
-| `openai-gpt-56-luna` | — | reasoning | 按量 | 1M | $0.266667 | $1.6 | $0.0266667 | — | —/— | — | models.dev official list price |
-| `openai-gpt-56-luna-pro` | — | reasoning | 按量 | 1M | $1.25 | $7.5 | $0.125 | — | —/— | — | models.dev official list price |
-| `openai-gpt-56-sol` | — | reasoning | 按量 | 1M | $6.25 | $37.5 | $0.625 | — | —/— | — | models.dev official list price |
-| `openai-gpt-56-sol-pro` | — | reasoning | 按量 | 1M | $6.25 | $37.5 | $0.625 | — | —/— | — | models.dev official list price |
-| `openai-gpt-56-terra` | — | reasoning | 按量 | 1M | $3.125 | $18.75 | $0.3125 | — | —/— | — | models.dev official list price |
-| `openai-gpt-56-terra-pro` | — | reasoning | 按量 | 1M | $3.125 | $18.75 | $0.3125 | — | —/— | — | models.dev official list price |
+| `openai-gpt-56-luna` | — | reasoning | 按量 | 1M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |
+| `openai-gpt-56-luna-pro` | — | reasoning | 按量 | 1M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |
+| `openai-gpt-56-sol` | — | reasoning | 按量 | 1M | $2.5 | $12.5 | $0.25 | — | —/— | — | models.dev official list price |
+| `openai-gpt-56-sol-pro` | — | reasoning | 按量 | 1M | $2.5 | $12.5 | $0.25 | — | —/— | — | models.dev official list price |
+| `openai-gpt-56-terra` | — | reasoning | 按量 | 1M | $2.5 | $15 | $0.25 | — | —/— | — | models.dev official list price |
+| `openai-gpt-56-terra-pro` | — | reasoning | 按量 | 1M | $2.5 | $15 | $0.25 | — | —/— | — | models.dev official list price |
 | `openai-gpt-oss-120b` | — | reasoning | 按量 | 128K | $0.07 | $0.3 | — | — | —/— | — | models.dev official list price |
 | `qwen-3-6-plus` | — | reasoning | 按量 | 1M | $0.625 | $3.75 | $0.0625 | — | —/— | — | models.dev official list price |
 | `qwen-3-7-max` | — | reasoning | 按量 | 1M | $2.7 | $8.05 | $0.27 | — | —/— | — | models.dev official list price |
