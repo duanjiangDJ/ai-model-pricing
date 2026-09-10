@@ -519,15 +519,15 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.075,
+            "usd": 0.15,
             "cny": 0.8
           },
           "output": {
-            "usd": 0.25,
+            "usd": 0.5,
             "cny": 2.8
           },
           "cache_read": {
-            "usd": 0.015
+            "usd": 0.03
           },
           "cache_write": null
         },
@@ -536,7 +536,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.8, output ¥2.8. Official API 定价 rate card (docs.bigmodel.cn), verified 2026-09-11T02:00:00Z (CNY). Independent of the z.ai USD list — not a currency conversion.",
+      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.8, output ¥2.8. Official API 定价 rate card (docs.bigmodel.cn), verified 2026-09-11T02:00:00Z (CNY). Independent of the z.ai USD list — not a currency conversion. | USD fields refreshed 2026-09-11 against the z.ai international list (docs.z.ai/guides/overview/pricing: $0.15 / $0.50 / $0.03); the previous 0.075/0.25/0.015 was the expired 50% promo (ended 2026-09-09).",
       "billing_model": [
         "pay_per_token"
       ],
