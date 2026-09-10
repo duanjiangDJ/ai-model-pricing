@@ -7,8 +7,8 @@
   "homepage": "https://docs.z.ai/guides/overview/pricing",
   "pricing_page": "https://docs.z.ai/guides/overview/pricing",
   "currency": "USD",
-  "updated_at": "2026-09-04T00:22:51Z",
-  "verified_at": "2026-09-04T00:22:51Z",
+  "updated_at": "2026-09-11T02:00:00Z",
+  "verified_at": "2026-09-11T02:00:00Z",
   "models": [
     {
       "id": "glm-4.5",
@@ -253,12 +253,14 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "cny": 0.15
+            "cny": 0
           },
           "output": {
-            "cny": 1.5
+            "cny": 0
           },
-          "cache_read": null,
+          "cache_read": {
+            "cny": 0
+          },
           "cache_write": null
         },
         "batch": null,
@@ -266,9 +268,9 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input 0.15, output 1.5 CNY. Official page, verified 2026-08-28T09:00:40Z (CNY). USD price not published (single-currency CNY entry; USD omitted, not 0). Independent of the z.ai USD list.",
+      "notes": "Free model (per_mtok = 0). Official bigmodel.cn 免费 list + the z.ai international list both mark GLM-4.7-Flash free (input/output/cache all free); the previous 0.15/1.5 CNY values were GLM-4.6V-FlashX rows mis-assigned by the old parser. Corrected 2026-09-11 against docs.bigmodel.cn/cn/guide/start/pricing.md.",
       "billing_model": [
-        "pay_per_token"
+        "free"
       ],
       "status": "online"
     },
@@ -518,11 +520,11 @@
         "per_mtok": {
           "input": {
             "usd": 0.075,
-            "cny": 0.4
+            "cny": 0.8
           },
           "output": {
             "usd": 0.25,
-            "cny": 0.8
+            "cny": 2.8
           },
           "cache_read": {
             "usd": 0.015
@@ -534,7 +536,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.4, output ¥0.8. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion.",
+      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.8, output ¥2.8. Official API 定价 rate card (docs.bigmodel.cn), verified 2026-09-11T02:00:00Z (CNY). Independent of the z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
       ],

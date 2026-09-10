@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.111.54 — 2026-09-10T19:09Z (feature update)
+
+- fix(check): retarget zhipuai collector/check to the bigmodel.cn 'API 定价' rate card (old JS page reworded -> parser matched 0 rows for weeks); GLM-4.7-Flash is officially free, GLM-5.3-Flash CNY is 0.8/2.8
+
 ## 26.111.53 — 2026-09-10T18:57Z (content update)
 
 - price sync (5 changes):

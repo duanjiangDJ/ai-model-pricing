@@ -210,6 +210,18 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
   models.dev entry silently returns no price forever (the “check that never fires” gap).
   When extending the `SOURCES` registry, verify with `python scripts/tools/fetch_official.py <model> --json`.
 
+- **A `check:*` that is red in `manifest.json` is a bug signal, not noise.** `check:zhipuai`
+  raised "no model rows matched" on EVERY run for weeks (the old JS marketing page
+  `open.bigmodel.cn/pricing` was reworded) — `last_ok` stayed `null`, so the domestic CNY list was
+  never verified. Retarget the parser to a stable STATIC source, don't silence it: bigmodel.cn
+  publishes its canonical rate card as Mintlify Markdown at
+  `https://docs.bigmodel.cn/cn/guide/start/pricing.md` (curl-able; columns `输入单价`/`输出单价`/
+  `缓存命中`). A parser must RAISE when it matches nothing, so a layout change is loud. Same class
+  as the free-listing trap: the domestic card marks `GLM-4.7-Flash` 免费, so a paid row landing on
+  it (the old parser mis-assigned `GLM-4.6V-FlashX`'s ¥0.15/¥1.5) is a data-truth bug — fix it to
+  `billing_model:["free"]` with all-zero `per_mtok`. The check RAISES on a paid/free mismatch
+  (safety: `update_model_prices` cannot zero a price, so a bad paid listing would survive every sync).
+
 - **Sync writers must emit every required provider field on a new provider file.**
   `sync_modelsdev.py` once built new providers without `api_base_url`: models.dev supplies
   it per-provider under `api` (e.g. `https://openrouter.ai/api/v1`). The audit gate hard-fails
