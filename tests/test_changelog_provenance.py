@@ -82,6 +82,16 @@ class TestDiffProvenance(unittest.TestCase):
         self.assertIn(("m", "legacy_field", "old", None), ch)
         self.assertIn(("m", "new_field", None, "new"), ch)
 
+    def test_local_only_status_does_not_false_fire(self):
+        # `status` is LOCALLY assigned (materialised by PR #169) and build_model() never
+        # emits it. The generic field diff ran BEFORE the pipeline stamped status on, so
+        # every model produced a bogus `status: online -> null` changelog entry on every
+        # sync (436 false rows in PR #172). The remote diff must ignore it.
+        local = _model(status="online")
+        remote = _model()  # build_model() output: no status key
+        _a, _r, changed = diff_openrouter({"models": [local]}, [remote], NOW)
+        self.assertEqual([c for c in changed if c[1] == "status"], [])
+
 
 
 if __name__ == "__main__":
