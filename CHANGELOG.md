@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.102.40 — 2026-09-10T01:25Z (feature update)
+
+- fix(collect): restore deepseek official-source collection. The pricing URL needs a trailing slash: the bare /quick_start/pricing 302-redirects to /quick_start/pricing/ and a non-following fetch gets an empty body -> parse 0. The slashed URL serves the static server-rendered USD price table (18 $ values). Applied to collect_deepseek.py and checks/tier0_deepseek.py. router deepseek: error/0 -> ok/3, values match the catalog.
+
 ## 26.102.39 — 2026-09-10T01:04Z (feature update)
 
 - fix(collect): tier1_tencent passes {cny:...} dict instead of scalars (scalars were written as USD -> fabricated USD for the CNY-only vendor; CNY-only now preserved). ci: raise daily-check timeout 25->40m (3h sync was occasionally cancelled at the 25m ceiling).

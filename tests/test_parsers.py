@@ -25,7 +25,7 @@ class TestDeepSeekParser(unittest.TestCase):
         from checks.tier0_deepseek import parse, URL
         self.parse = parse
         self.URL = URL
-        self.assertEqual(self.URL, "https://api-docs.deepseek.com/quick_start/pricing",
+        self.assertEqual(self.URL, "https://api-docs.deepseek.com/quick_start/pricing/",
                          "parser must target the official EN (USD) pricing page, not zh-cn")
 
     def test_parse_en_page(self):
