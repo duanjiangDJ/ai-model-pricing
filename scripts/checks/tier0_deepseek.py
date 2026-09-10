@@ -1,11 +1,18 @@
 """DeepSeek official pricing check (tier 0). Direct fetch of the Docusaurus pricing page (English, USD).
 
-Table layout: 3 columns (flash / pro / vision) x 6 price rows:
+Table layout: 2 columns (flash / pro) x 6 price rows:
   cache-hit off/peak, cache-miss off/peak, output off/peak (USD).
 Records the PEAK tier as the list price; notes mention off-peak = 50%.
 Parsing is position-based on the row-major flattened price list; a structure
-assertion (exactly 18 prices) fails loudly instead of silently writing bad data
+assertion (exactly 12 prices) fails loudly instead of silently writing bad data
 when the page layout changes.
+
+Layout change (2026-09-10): the official page dropped the 3rd column
+(deepseek-v4-flash-vision-exp) and now lists 2 columns — the official model name
+`deepseek-flash` (= DeepSeek-V4.1-Flash) and `deepseek-v4-pro` — so the row-major
+flat list is 12 prices and the peak value of column c sits at idx c+2 (cache-hit),
+c+6 (cache-miss) and c+10 (output). The legacy names deepseek-v4-flash /
+deepseek-v4-flash-vision-exp are retired and no longer priced on the page.
 """
 import re
 import sys
@@ -19,11 +26,21 @@ URL = "https://api-docs.deepseek.com/quick_start/pricing/"  # trailing slash: av
 URL_CNY = "https://api-docs.deepseek.com/zh-cn/quick_start/pricing"  # 中文 (CNY)
 
 COLS = {
-    "deepseek-v4-flash": 0,
+    "deepseek-v4.1-flash": 0,  # official model name on the page is `deepseek-flash`
     "deepseek-v4-pro": 1,
-    "deepseek-v4-flash-vision-exp": 2,
 }
-EXPECTED_PRICES = 18  # 6 rows x 3 columns
+EXPECTED_PRICES = 12  # 6 rows x 2 columns
+
+NOTE_BASE = ("Official page (USD/1M tokens, peak tier; off-peak = 50%, "
+             "peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC).")
+NOTE_EXTRA = {
+    "deepseek-v4.1-flash": (" Official model name on the page is deepseek-flash "
+                            "(DeepSeek-V4.1-Flash); legacy names deepseek-v4-flash and "
+                            "deepseek-v4-flash-vision-exp are retired and billed at this price."),
+    "deepseek-v4-pro": (" From 12:00 Beijing time 2026-09-14, deepseek-v4-pro requests are "
+                        "routed to V4.1-Flash and billed at the V4.1-Flash price (until a "
+                        "future V4.1 Pro release)."),
+}
 
 
 def _strip(text):
@@ -49,26 +66,27 @@ def parse(text):
     for mid, col in COLS.items():
         out[mid] = {
             "per_mtok": {
-                "input": {"usd": nums[col + 9]},
-                "output": {"usd": nums[col + 15]},
-                "cache_read": {"usd": nums[col + 3]},
+                "input": {"usd": nums[col + 6]},
+                "output": {"usd": nums[col + 10]},
+                "cache_read": {"usd": nums[col + 2]},
                 "cache_write": None,
             },
-            "notes": ("Official page (USD/1M tokens, peak tier; off-peak = 50%, "
-                      "peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). Parsed by check deepseek."),
+            "notes": (NOTE_BASE + NOTE_EXTRA.get(mid, "") + " Parsed by check deepseek."),
         }
     return out
 
 
 def parse_cny(text):
     seg = _strip(text)
-    # The domestic page prices three rows per model, in order: cache-hit, cache-miss,
-    # output (each row = off-peak value then peak value). DeepSeek publishes NO separate
-    # cache-write price, so cache_write must stay null (same as parse()). Assert the row
-    # labels so a future layout change fails loudly instead of silently grabbing an
-    # unrelated number. (Fixed 2026-09-10: `nums[col + 0]` — the off-peak CACHE-HIT price —
-    # had been written into cache_write, e.g. flash cache_write.cny=0.05 was really the
-    # off-peak cache-hit value.)
+    # The domestic page prices three rows, in order: cache-hit, cache-miss,
+    # output (each row = off-peak value then peak value), across 2 model columns
+    # (deepseek-flash, deepseek-v4-pro) -> 12 prices, peak value of column c at
+    # idx c+2 / c+6 / c+10. DeepSeek publishes NO separate cache-write price, so
+    # cache_write must stay null (same as parse()). Assert the row labels so a
+    # future layout change fails loudly instead of silently grabbing an unrelated
+    # number. (Fixed 2026-09-10: `nums[col + 0]` — the off-peak CACHE-HIT price —
+    # had been written into cache_write, e.g. flash cache_write.cny=0.05 was really
+    # the off-peak cache-hit value.)
     for _label in ("缓存命中", "缓存未命中", "输出"):
         if _label not in seg:
             raise ValueError(
@@ -85,9 +103,9 @@ def parse_cny(text):
     for mid, col in COLS.items():
         out[mid] = {
             "per_mtok": {
-                "input": {"cny": nums[col + 9]},
-                "output": {"cny": nums[col + 15]},
-                "cache_read": {"cny": nums[col + 3]},
+                "input": {"cny": nums[col + 6]},
+                "output": {"cny": nums[col + 10]},
+                "cache_read": {"cny": nums[col + 2]},
                 "cache_write": None,  # no cache-write row on the page (see note above)
             },
             "notes": ("Domestic api-docs.deepseek.com/zh-cn pricing (CNY/1M tokens, peak tier; "

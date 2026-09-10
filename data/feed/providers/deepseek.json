@@ -7,9 +7,66 @@
   "homepage": "https://api-docs.deepseek.com/quick_start/pricing",
   "pricing_page": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
   "currency": "USD",
-  "updated_at": "2026-09-04T00:22:52Z",
-  "verified_at": "2026-09-04T00:22:52Z",
+  "updated_at": "2026-09-10T00:00:00Z",
+  "verified_at": "2026-09-10T00:00:00Z",
   "models": [
+    {
+      "id": "deepseek-v4.1-flash",
+      "name": "DeepSeek-V4.1-Flash (deepseek-flash)",
+      "category": "chat",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 1000000,
+      "max_output": 384000,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.3,
+            "cny": 2.0
+          },
+          "output": {
+            "usd": 1.2,
+            "cny": 8.0
+          },
+          "cache_read": {
+            "usd": 0.006,
+            "cny": 0.04
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null,
+        "off_peak": {
+          "multiplier": 0.5,
+          "window": {
+            "peak": {
+              "days": [
+                "mon",
+                "tue",
+                "wed",
+                "thu",
+                "fri"
+              ],
+              "utc": [
+                "01:00-04:00",
+                "06:00-10:00"
+              ]
+            },
+            "tz": "UTC",
+            "note": "All other hours are off-peak."
+          }
+        }
+      },
+      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). Official model name on the page is deepseek-flash (DeepSeek-V4.1-Flash); legacy names deepseek-v4-flash and deepseek-v4-flash-vision-exp are retired and billed at this price. Parsed by check deepseek.",
+      "status": "online",
+      "billing_model": [
+        "pay_per_token"
+      ]
+    },
     {
       "id": "deepseek-chat",
       "name": "DeepSeek Chat (V3.2 era, superseded)",
@@ -126,10 +183,11 @@
           }
         }
       },
-      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). Parsed by check deepseek.",
+      "notes": "RETIRED — superseded by the official deepseek-flash (DeepSeek-V4.1-Flash) model. The name deepseek-v4-flash is still accepted as a legacy alias, but its requests are served by DeepSeek-V4.1-Flash and billed at the Flash price. Prices shown are the last published V4-Flash list prices, kept for historical reference only.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "offline"
     },
     {
       "id": "deepseek-v4-flash-vision-exp",
@@ -178,8 +236,8 @@
           }
         }
       },
-      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). Parsed by check deepseek.",
-      "status": "online",
+      "notes": "RETIRED — superseded by the official deepseek-flash (DeepSeek-V4.1-Flash) model. The name deepseek-v4-flash-vision-exp is still accepted as a legacy alias, but its requests are served by DeepSeek-V4.1-Flash and billed at the Flash price. Prices shown are the last published V4-Flash list prices, kept for historical reference only.",
+      "status": "offline",
       "billing_model": [
         "pay_per_token"
       ]
@@ -234,7 +292,7 @@
           }
         }
       },
-      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). Parsed by check deepseek.",
+      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). From 12:00 Beijing time 2026-09-14, deepseek-v4-pro requests are routed to V4.1-Flash and billed at the V4.1-Flash price (until a future V4.1 Pro release). Parsed by check deepseek.",
       "billing_model": [
         "pay_per_token"
       ]

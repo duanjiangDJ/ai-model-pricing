@@ -40,7 +40,7 @@ verification.
 ## Data Statistics (exact)
 
 - **Providers**: 190
-- **Models**: 7578
+- **Models**: 7579
 - **Subscription plans**: 67
 - **Distinct API endpoints**: 183
 - **Free models**: 466
@@ -50,7 +50,7 @@ verification.
 | Channel | Providers | Models |
 |---|---|---|
 | Inference host | 138 | 4531 |
-| First-party | 20 | 427 |
+| First-party | 20 | 428 |
 | Subscription | 18 | 176 |
 | Aggregator | 13 | 2324 |
 | Cloud-hosted | 1 | 120 |
@@ -67,9 +67,9 @@ verification.
 
 | Status | Models |
 |---|---|
-| offline | 43 |
+| offline | 45 |
 | online | 18 |
-| (unmarked) | 7517 |
+| (unmarked) | 7516 |
 
 ### Top providers by model count
 
@@ -143,7 +143,7 @@ Reading/updating rules for AI agents: [AGENTS.md](AGENTS.md).
 | Consumer subscriptions | ChatGPT Plus/Pro, Claude Pro/Max, Gemini AI, Perplexity, SuperGrok, Poe etc. | ✅ in DB |
 | Coding plans | Copilot, Cursor, Windsurf, Claude Code, JetBrains AI, Devin, Amazon Q, Replit, Tabnine etc. | ✅ in DB |
 
-**Current scale**: 190 providers, 7,578 models, 67 subscription plans. Exact numbers in the [Data Statistics](#data-statistics-exact) section above.
+**Current scale**: 190 providers, 7,579 models, 67 subscription plans. Exact numbers in the [Data Statistics](#data-statistics-exact) section above.
 Data is auto-synced daily (OpenRouter + models.dev); human-verified entries carry `verified_at` + source URLs.
 
 > Honest scope statement: **no single source covers all pricing** (verified: OpenRouter / models.dev /

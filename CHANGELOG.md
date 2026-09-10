@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.104.46 — 2026-09-10T07:56Z (feature update)
+
+- fix(deepseek): retarget tier0 parser to the new 2-column pricing page (deepseek-flash/V4.1-Flash + deepseek-v4-pro); add deepseek-v4.1-flash data, retire legacy flash names, refresh fixtures
+
 ## 26.104.45 — 2026-09-10T07:51Z (feature update)
 
 - fix(writers): 4 writer-safety fixes (authorized). (1) collect_modelsdev: subscription-provider guard (coding-plan/token-plan/copilot/kimi-for-coding) so plan-included models keep per_mtok null, never 0. (2) sync_modelsdev: models.dev 0 means no published price -> null (not usd:0), never labelled free. (3) collect_modelsdev: first-party priority - skip providers verified today so aggregator values cannot overwrite official prices. (4) update_model_prices: refuse to write 0 over a real/unknown value; surge guard None-safe. Fixes the PR #163 failure class.

@@ -1,9 +1,9 @@
 {
-  "schema_version": "26.104.45",
+  "schema_version": "26.104.46",
   "generated_at": "2026-09-10T00:37:59Z",
   "currency": "USD",
   "provider_count": 189,
-  "model_count": 7578,
+  "model_count": 7579,
   "plan_count": 67,
   "providers": [
     {
@@ -170,9 +170,9 @@
       "id": "deepseek",
       "name": "DeepSeek",
       "channel": "first_party",
-      "model_count": 5,
+      "model_count": 6,
       "file": "providers/deepseek.json",
-      "updated_at": "2026-08-21T12:10:24Z"
+      "updated_at": "2026-09-10T00:00:00Z"
     },
     {
       "id": "greenpt",
