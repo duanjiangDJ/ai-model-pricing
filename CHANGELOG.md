@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.105.46 — 2026-09-10T08:01Z (content update)
+
+- data(deepseek): complete the official-source prices. (1) deepseek-v4-pro: status online (was missing) + official source noted. (2) deepseek-chat / deepseek-reasoner: their prices (0.14/0.28/0.0028) came from a third-party aggregator and are NOT on the official pricing page -> cleared to null, billing unknown, kept offline for history (official-source-only policy). (3) all deepseek models now carry the official api-docs.deepseek.com source.
+
 ## 26.104.46 — 2026-09-10T07:56Z (feature update)
 
 - fix(deepseek): retarget tier0 parser to the new 2-column pricing page (deepseek-flash/V4.1-Flash + deepseek-v4-pro); add deepseek-v4.1-flash data, retire legacy flash names, refresh fixtures

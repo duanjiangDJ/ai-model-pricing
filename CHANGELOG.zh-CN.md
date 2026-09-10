@@ -16,6 +16,10 @@
 
 ---
 
+## 26.105.46 — 2026-09-10T08:01Z（内容更新）
+
+- data(deepseek)：补全官方源价格。(1) deepseek-v4-pro：status 补为 online（原缺失）并标注官方源。(2) deepseek-chat / deepseek-reasoner：其价来自第三方聚合源、官方定价页并无此模型→清为 null、billing 改 unknown、保留 offline 仅作历史。(3) 全部 deepseek 模型标注官方 api-docs.deepseek.com 来源。
+
 ## 26.104.46 — 2026-09-10T07:56Z（功能更新）
 
 - 修复 DeepSeek 采集器以适配官网改版后的 2 列价表（deepseek-flash/V4.1-Flash + deepseek-v4-pro）；新增 deepseek-v4.1-flash 数据、退役旧 flash 名称、更新测试夹具
