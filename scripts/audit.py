@@ -92,6 +92,7 @@ dual_suspect = []  # models whose cny/usd ratio is uniform inside the FX band (l
 dual_nonuniform = []  # models whose cny/usd ratio varies >4x across fields (one field likely wrong-conversion)
 dual_fabricated = []  # models with a per_mtok field where usd literally == cny (a CNY value copied into the USD column on a CNY-only vendor; fabrication)
 free_contamination = []  # billing_model declares "free" but per_mtok has a positive price
+asym_cny = []  # per_mtok sub-field carrying ONLY a cny value on a USD-declared provider (a secondary/CNY parser injected a field the primary USD source does not publish; mis-parse signature)
 for f in sorted(glob.glob("data/feed/providers/*.json")):
     p = json.load(open(f, encoding="utf-8"))
     is_sub = any(h in p["provider_id"] for h in SUB_HINTS)
@@ -232,6 +233,22 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
             if isinstance(_fpv, dict) and _fpv.get("usd") is not None and _fpv.get("cny") is not None \
                     and abs(_fpv["usd"] - _fpv["cny"]) < 1e-9:
                 dual_fabricated.append(f"{p['provider_id']} :: {m['id']} ({_fk} usd==cny)")
+        # asymmetric dual-currency on a USD-declared provider: a per_mtok sub-field that
+        # carries ONLY a cny value while sibling fields carry usd means a secondary/CNY
+        # parser wrote a field the primary USD source does not publish — a mis-parse
+        # signature (real case 2026-09-10: deepseek cache_write.cny held the OFF-PEAK
+        # cache-hit price, mapped from a page row that does not exist). Structural signal
+        # (not a price heuristic) -> warn for review.
+        if p.get("currency") == "USD":
+            _sib_usd = any(
+                isinstance(pm.get(_sk), dict) and pm.get(_sk).get("usd") is not None
+                for _sk in ("input", "output", "cache_read", "cache_write")
+            )
+            if _sib_usd:
+                for _ak in ("input", "output", "cache_read", "cache_write"):
+                    _apv = pm.get(_ak)
+                    if isinstance(_apv, dict) and _apv.get("cny") is not None and _apv.get("usd") is None:
+                        asym_cny.append(f"{p['provider_id']} :: {m['id']} ({_ak} cny-only)")
         if (len(cny_usd_ratios) >= 2 and (max(cny_usd_ratios) / min(cny_usd_ratios)) < 1.005
                 and 6.0 <= cny_usd_ratios[0] <= 8.0):
             dual_suspect.append(f"{p['provider_id']} :: {m['id']}")
@@ -286,6 +303,11 @@ if dual_fabricated:
     by_pid = _Cfab(u.split(" :: ")[0] for u in dual_fabricated)
     fail(f"usd==cny (a CNY value copied into the USD column on a CNY-only vendor; fabricated USD; {len(dual_fabricated)} fields): "
          + ", ".join(f"{pid} x{c}" for pid, c in by_pid.most_common(12)))
+if asym_cny:
+    from collections import Counter as _Cac
+    _by_pid = _Cac(u.split(" :: ")[0] for u in asym_cny)
+    warn(f"cny-only per_mtok field on USD-declared provider (secondary/CNY parser injected a field the USD source lacks; check for mis-parse; {len(asym_cny)} models): "
+         + ", ".join(f"{pid} x{c}" for pid, c in _by_pid.most_common(12)))
 if free_contamination:
     from collections import Counter as _Cf
     by_pid = _Cf(u.split(" :: ")[0] for u in free_contamination)

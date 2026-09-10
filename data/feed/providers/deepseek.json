@@ -99,9 +99,7 @@
             "usd": 0.014,
             "cny": 0.1
           },
-          "cache_write": {
-            "cny": 0.05
-          }
+          "cache_write": null
         },
         "batch": null,
         "per_image": null,
@@ -153,9 +151,7 @@
             "usd": 0.014,
             "cny": 0.1
           },
-          "cache_write": {
-            "cny": 0.05
-          }
+          "cache_write": null
         },
         "batch": null,
         "per_image": null,
@@ -211,9 +207,7 @@
             "usd": 0.044,
             "cny": 0.3
           },
-          "cache_write": {
-            "cny": 0.15
-          }
+          "cache_write": null
         },
         "batch": null,
         "per_image": null,
