@@ -40,7 +40,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "deepseek/deepseek-r1-0528",
@@ -72,7 +73,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "deepseek/deepseek-v3.2",
@@ -104,7 +106,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "deepseek/deepseek-v4-flash",
@@ -136,7 +139,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "deepseek/deepseek-v4-flash-0731",
@@ -168,7 +172,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "deepseek/deepseek-v4-pro",
@@ -200,7 +205,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "minimax/minimax-m2.5",
@@ -232,7 +238,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "minimax/minimax-m3",
@@ -264,7 +271,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "moonshotai/kimi-k2.5",
@@ -296,7 +304,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "moonshotai/kimi-k2.6",
@@ -328,7 +337,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "moonshotai/kimi-k2.7-code",
@@ -360,7 +370,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "moonshotai/kimi-k3",
@@ -392,7 +403,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/nemotron-3-super-120b-a12b",
@@ -424,7 +436,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "openai/gpt-oss-120b",
@@ -456,7 +469,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "qwen/qwen3-235b-a22b-2507",
@@ -488,7 +502,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "qwen/qwen3-coder-30b-a3b-instruct",
@@ -520,7 +535,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "qwen/qwen3-vl-235b-a22b-instruct",
@@ -552,7 +568,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "qwen/qwen3.5-122b-a10b",
@@ -584,7 +601,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "qwen/qwen3.5-9b",
@@ -616,7 +634,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "z-ai/glm-4.7",
@@ -648,7 +667,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "z-ai/glm-5",
@@ -680,7 +700,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "z-ai/glm-5-turbo",
@@ -712,7 +733,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "z-ai/glm-5.1",
@@ -744,7 +766,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "z-ai/glm-5.2",
@@ -776,7 +799,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "z-ai/glm-5v-turbo",
@@ -808,7 +832,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     }
   ],
   "api_base_url": "https://api.tensorx.ai/v1"

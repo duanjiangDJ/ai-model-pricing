@@ -38,7 +38,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "cerebras-llama-4-scout-17b-16e-instruct",
@@ -68,7 +69,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "groq-llama-4-maverick-17b-128e-instruct",
@@ -98,7 +100,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "llama-3.3-70b-instruct",
@@ -128,7 +131,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "llama-3.3-8b-instruct",
@@ -158,7 +162,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "llama-4-maverick-17b-128e-instruct-fp8",
@@ -188,7 +193,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "llama-4-scout-17b-16e-instruct-fp8",
@@ -218,7 +224,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     }
   ],
   "api_base_url": "https://api.llama.com/compat/v1/"

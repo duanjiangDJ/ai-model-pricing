@@ -13,4 +13,4 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `alibaba/qwen3.6-35b-a3b` | — | reasoning | per-token | 262.144K | $0.19 | $0.48 | — | — | —/— | — | models.dev official list price |
+| `alibaba/qwen3.6-35b-a3b` | ✅ online | reasoning | per-token | 262.144K | $0.19 | $0.48 | — | — | —/— | — | models.dev official list price |

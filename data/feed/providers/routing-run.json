@@ -38,7 +38,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "claude-sonnet-4-6",
@@ -68,7 +69,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "deepseek-v4-flash",
@@ -98,7 +100,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "deepseek-v4-pro",
@@ -128,7 +131,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-5.2",
@@ -158,7 +162,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "glm-5.2-nitro",
@@ -188,7 +193,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "gpt-5.6-luna",
@@ -218,7 +224,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "gpt-5.6-sol",
@@ -248,7 +255,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "gpt-5.6-terra",
@@ -278,7 +286,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "kimi-k2.6",
@@ -308,7 +317,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "kimi-k2.6-nitro",
@@ -338,7 +348,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "kimi-k2.7-code",
@@ -368,7 +379,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "kimi-k2.7-code-nitro",
@@ -398,7 +410,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nemotron-3-ultra",
@@ -428,7 +441,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "qwen3.5-9b",
@@ -458,7 +472,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     }
   ],
   "api_base_url": "https://api.routing.run/v1"

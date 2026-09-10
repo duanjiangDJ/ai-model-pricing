@@ -40,7 +40,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "deepseek/deepseek-v4-flash",
@@ -72,7 +73,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "deepseek/deepseek-v4-flash-0731",
@@ -104,7 +106,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "moonshotai/kimi-k2.6",
@@ -136,7 +139,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "moonshotai/kimi-k2.7-code",
@@ -168,7 +172,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "stepfun/step-3.7-flash",
@@ -200,7 +205,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "xiaomi/mimo-v2.5",
@@ -232,7 +238,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "z-ai/glm-5.2",
@@ -264,7 +271,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "zai-org/GLM-5.1-FP8",
@@ -294,7 +302,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "zai-org/GLM-5.2-FP8",
@@ -326,7 +335,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     }
   ],
   "api_base_url": "https://api.ambient.xyz/v1"

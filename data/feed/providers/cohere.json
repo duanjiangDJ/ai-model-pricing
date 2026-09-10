@@ -34,7 +34,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "c4ai-aya-expanse-8b",
@@ -60,7 +61,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "c4ai-aya-vision-32b",
@@ -86,7 +88,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "c4ai-aya-vision-8b",
@@ -112,7 +115,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "command-a-03-2025",
@@ -142,7 +146,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "command-a-plus-05-2026",
@@ -172,7 +177,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "command-a-reasoning-08-2025",
@@ -202,7 +208,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "command-a-translate-08-2025",
@@ -232,7 +239,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "command-a-vision-07-2025",
@@ -262,7 +270,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "command-r-08-2024",
@@ -292,7 +301,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "command-r-plus-08-2024",
@@ -322,7 +332,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "command-r7b-12-2024",
@@ -352,7 +363,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "command-r7b-arabic-02-2025",
@@ -382,7 +394,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "north-mini-code-1-0",
@@ -412,7 +425,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     }
   ],
   "api_base_url": "https://api.cohere.com/v1"

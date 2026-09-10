@@ -13,5 +13,5 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `mercury-2` | — | reasoning | per-token | 128K | $0.25 | $0.75 | $0.025 | — | —/— | — | models.dev official list price |
-| `mercury-edit-2` | — | reasoning | per-token | 128K | $0.25 | $0.75 | $0.025 | — | —/— | — | models.dev official list price |
+| `mercury-2` | ✅ online | reasoning | per-token | 128K | $0.25 | $0.75 | $0.025 | — | —/— | — | models.dev official list price |
+| `mercury-edit-2` | ✅ online | reasoning | per-token | 128K | $0.25 | $0.75 | $0.025 | — | —/— | — | models.dev official list price |

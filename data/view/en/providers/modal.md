@@ -13,7 +13,7 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `Qwen/Qwen3.8-2.4T-A95B` | — | reasoning | per-token | 1.01M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
-| `moonshotai/Kimi-K3` | — | reasoning | per-token | 1.04858M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
-| `thinkingmachines/Inkling-NVFP4` | — | reasoning | per-token | 1.04858M | $1.2 | $5 | $0.27 | — | —/— | — | models.dev official list price |
-| `zai-org/GLM-5.3-Flash` | — | reasoning | per-token | 1M | $0.45 | $1.5 | $0.09 | — | —/— | — | models.dev official list price |
+| `Qwen/Qwen3.8-2.4T-A95B` | ✅ online | reasoning | per-token | 1.01M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
+| `moonshotai/Kimi-K3` | ✅ online | reasoning | per-token | 1.04858M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
+| `thinkingmachines/Inkling-NVFP4` | ✅ online | reasoning | per-token | 1.04858M | $1.2 | $5 | $0.27 | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.3-Flash` | ✅ online | reasoning | per-token | 1M | $0.45 | $1.5 | $0.09 | — | —/— | — | models.dev official list price |

@@ -35,7 +35,8 @@
       "notes": "Qianfan domestic pricing (¥/1M tokens): input ¥4, output ¥18 (<=32k tier). Verified 2026-08-28T09:39:48Z (CNY). Independent of the int'l USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "ernie-5.0",
@@ -64,7 +65,8 @@
       "notes": "Qianfan domestic pricing (¥/1M tokens): input ¥6, output ¥24 (<=32k tier). Verified 2026-08-28T09:39:48Z (CNY). Independent of the int'l USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "ernie-4.5-turbo",
@@ -98,7 +100,8 @@
       "notes": "Qianfan domestic pricing (¥/1M tokens): input ¥0.8, output ¥3.2 (<=32k tier). Verified 2026-08-28T09:39:48Z (CNY). Independent of the int'l USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     }
   ],
   "api_base_url": "https://qianfan.baidubce.com/v2"

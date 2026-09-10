@@ -38,7 +38,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "qwen/qwen3.5-27b",
@@ -68,7 +69,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "qwen/qwen3.5-35b-a3b",
@@ -98,7 +100,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "qwen/qwen3.5-397b-a17b",
@@ -128,7 +131,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "qwen/qwen3.5-9b",
@@ -158,7 +162,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     }
   ],
   "api_base_url": "https://models.mixlayer.ai/v1"

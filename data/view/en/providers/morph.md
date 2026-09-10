@@ -13,6 +13,6 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `auto` | — | chat | per-token | 32K | $0.85 | $1.55 | — | — | —/— | — | models.dev official list price |
-| `morph-v3-fast` | — | chat | per-token | 16K | $0.8 | $1.2 | — | — | —/— | — | models.dev official list price |
-| `morph-v3-large` | — | chat | per-token | 32K | $0.9 | $1.9 | — | — | —/— | — | models.dev official list price |
+| `auto` | ✅ online | chat | per-token | 32K | $0.85 | $1.55 | — | — | —/— | — | models.dev official list price |
+| `morph-v3-fast` | ✅ online | chat | per-token | 16K | $0.8 | $1.2 | — | — | —/— | — | models.dev official list price |
+| `morph-v3-large` | ✅ online | chat | per-token | 32K | $0.9 | $1.9 | — | — | —/— | — | models.dev official list price |

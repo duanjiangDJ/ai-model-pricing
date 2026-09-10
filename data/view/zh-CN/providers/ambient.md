@@ -13,13 +13,13 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `ambient/large` | — | reasoning | 按量 | 202.752K | $0.6 | $2 | $0.15 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-flash` | — | reasoning | 按量 | 1.04858M | $0.14 | $0.28 | $0.028 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-flash-0731` | — | reasoning | 按量 | 1.04858M | $0.08 | $0.18 | $0.016 | — | —/— | — | models.dev official list price |
-| `moonshotai/kimi-k2.6` | — | reasoning | 按量 | 262.144K | $0.95 | $4 | $0.2 | — | —/— | — | models.dev official list price |
-| `moonshotai/kimi-k2.7-code` | — | reasoning | 按量 | 262.144K | $0.69 | $3.49 | $0.14 | — | —/— | — | models.dev official list price |
-| `stepfun/step-3.7-flash` | — | reasoning | 按量 | 262.144K | $0.19 | $1.14 | $0.03 | — | —/— | — | models.dev official list price |
-| `xiaomi/mimo-v2.5` | — | reasoning | 按量 | 1.04858M | $0.4 | $2 | $0.08 | — | —/— | — | models.dev official list price |
-| `z-ai/glm-5.2` | — | reasoning | 按量 | 202.752K | $0.6 | $2 | $0.15 | — | —/— | — | models.dev official list price |
-| `zai-org/GLM-5.1-FP8` | — | reasoning | 按量 | 202.752K | $1.4 | $4.4 | — | — | —/— | — | models.dev official list price |
-| `zai-org/GLM-5.2-FP8` | — | reasoning | 按量 | 202.752K | $1.2 | $4.2 | $0.26 | — | —/— | — | models.dev official list price |
+| `ambient/large` | ✅ 在线 | reasoning | 按量 | 202.752K | $0.6 | $2 | $0.15 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.14 | $0.28 | $0.028 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash-0731` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.08 | $0.18 | $0.016 | — | —/— | — | models.dev official list price |
+| `moonshotai/kimi-k2.6` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.95 | $4 | $0.2 | — | —/— | — | models.dev official list price |
+| `moonshotai/kimi-k2.7-code` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.69 | $3.49 | $0.14 | — | —/— | — | models.dev official list price |
+| `stepfun/step-3.7-flash` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.19 | $1.14 | $0.03 | — | —/— | — | models.dev official list price |
+| `xiaomi/mimo-v2.5` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.4 | $2 | $0.08 | — | —/— | — | models.dev official list price |
+| `z-ai/glm-5.2` | ✅ 在线 | reasoning | 按量 | 202.752K | $0.6 | $2 | $0.15 | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.1-FP8` | ✅ 在线 | reasoning | 按量 | 202.752K | $1.4 | $4.4 | — | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.2-FP8` | ✅ 在线 | reasoning | 按量 | 202.752K | $1.2 | $4.2 | $0.26 | — | —/— | — | models.dev official list price |

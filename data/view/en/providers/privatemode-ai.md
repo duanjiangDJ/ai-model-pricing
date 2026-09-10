@@ -13,10 +13,10 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `deepseek-ocr-2` | — | chat | per-token | 8.192K | $0.8897 | $1.4675 | $0.0924 | — | —/— | — | models.dev official list price |
-| `gpt-oss-120b` | — | reasoning | per-token | 128K | $0.4969 | $1.9644 | $0.0462 | — | —/— | — | models.dev official list price |
-| `kimi-k2.6` | — | reasoning | per-token | 256K | $1.791 | $8.9436 | $0.1733 | — | —/— | — | models.dev official list price |
-| `kimi-latest` | — | reasoning | per-token | 256K | $1.791 | $8.9436 | $0.1733 | — | —/— | — | models.dev official list price |
-| `qwen3-embedding-4b` | — | embedding | per-token | 32K | $0.1502 | $0 | — | — | —/— | — | models.dev official list price |
-| `voxtral-mini-3b` | — | chat | per-token | 32K | $0.00462 | $0 | — | — | —/— | — | models.dev official list price |
-| `whisper-large-v3` | — | chat | per-token | 448 | $0.01618 | $0 | — | — | —/— | — | models.dev official list price |
+| `deepseek-ocr-2` | ✅ online | chat | per-token | 8.192K | $0.8897 | $1.4675 | $0.0924 | — | —/— | — | models.dev official list price |
+| `gpt-oss-120b` | ✅ online | reasoning | per-token | 128K | $0.4969 | $1.9644 | $0.0462 | — | —/— | — | models.dev official list price |
+| `kimi-k2.6` | ✅ online | reasoning | per-token | 256K | $1.791 | $8.9436 | $0.1733 | — | —/— | — | models.dev official list price |
+| `kimi-latest` | ✅ online | reasoning | per-token | 256K | $1.791 | $8.9436 | $0.1733 | — | —/— | — | models.dev official list price |
+| `qwen3-embedding-4b` | ✅ online | embedding | per-token | 32K | $0.1502 | $0 | — | — | —/— | — | models.dev official list price |
+| `voxtral-mini-3b` | ✅ online | chat | per-token | 32K | $0.00462 | $0 | — | — | —/— | — | models.dev official list price |
+| `whisper-large-v3` | ✅ online | chat | per-token | 448 | $0.01618 | $0 | — | — | —/— | — | models.dev official list price |

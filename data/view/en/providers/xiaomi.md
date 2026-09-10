@@ -19,7 +19,7 @@
 | `mimo-v2-tts` | ❌ offline | chat | sub-included | 8.192K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
 | `mimo-v2.5` | ✅ online | reasoning | per-token | 1.04858M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price \| Official pay-as-you-go (USD/1M tokens, mimo… |
 | `mimo-v2.5-pro` | ✅ online | reasoning | per-token | 1.04858M | $0.435 | $0.87 | $0.0036 | — | —/— | — | models.dev official list price \| Official pay-as-you-go (USD/1M tokens, mimo… |
-| `mimo-v2.5-pro-ultraspeed` | — | reasoning | per-token | 1.04858M | $1.305 | $2.61 | $0.0108 | — | —/— | — | models.dev official list price |
-| `mimo-v2.5-tts` | — | chat | sub-included | 8.192K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `mimo-v2.5-tts-voiceclone` | — | chat | sub-included | 8.192K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `mimo-v2.5-tts-voicedesign` | — | chat | sub-included | 8.192K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `mimo-v2.5-pro-ultraspeed` | ✅ online | reasoning | per-token | 1.04858M | $1.305 | $2.61 | $0.0108 | — | —/— | — | models.dev official list price |
+| `mimo-v2.5-tts` | ✅ online | chat | sub-included | 8.192K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `mimo-v2.5-tts-voiceclone` | ✅ online | chat | sub-included | 8.192K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `mimo-v2.5-tts-voicedesign` | ✅ online | chat | sub-included | 8.192K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |

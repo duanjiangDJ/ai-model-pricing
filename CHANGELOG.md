@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.107.48 — 2026-09-10T09:39Z (content update)
+
+- data: materialise the implicit model status - fill missing status:online for 7515 models across 178 providers. Historically an absent status meant 'live'; audit/schema now treat it as explicit, so every model carries an explicit status instead of relying on the implicit default. No online/offline values changed; added scripts/migrate/add_model_status.py for reproducibility. (Chosen: option (a) data-side fill, not schema-mandatory.)
+
 ## 26.106.48 — 2026-09-10T09:29Z (feature update)
 
 - fix(sync): preserve locally-assigned status across the OpenRouter catalog rewrite

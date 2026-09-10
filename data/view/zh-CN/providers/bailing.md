@@ -13,5 +13,5 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `Ling-1T` | — | chat | 按量 | 128K | $0.57 | $2.29 | — | — | —/— | — | models.dev official list price |
-| `Ring-1T` | — | reasoning | 按量 | 128K | $0.57 | $2.29 | — | — | —/— | — | models.dev official list price |
+| `Ling-1T` | ✅ 在线 | chat | 按量 | 128K | $0.57 | $2.29 | — | — | —/— | — | models.dev official list price |
+| `Ring-1T` | ✅ 在线 | reasoning | 按量 | 128K | $0.57 | $2.29 | — | — | —/— | — | models.dev official list price |

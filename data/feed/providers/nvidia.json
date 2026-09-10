@@ -38,7 +38,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "baai/bge-m3",
@@ -68,7 +69,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "black-forest-labs/flux.1-dev",
@@ -98,7 +100,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "black-forest-labs/flux_1-kontext-dev",
@@ -128,7 +131,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "black-forest-labs/flux_1-schnell",
@@ -158,7 +162,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0). | context_window corrected from placeholder 77 (model has no token context).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "black-forest-labs/flux_2-klein-4b",
@@ -188,7 +193,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "bytedance/seed-oss-36b-instruct",
@@ -218,7 +224,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "deepseek-ai/deepseek-v4-flash",
@@ -250,7 +257,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "deepseek-ai/deepseek-v4-flash-0731",
@@ -280,7 +288,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "deepseek-ai/deepseek-v4-pro",
@@ -312,7 +321,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "deepseek-ai/deepseek-v4-pro-0813",
@@ -341,7 +351,8 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price | Free model (per_mtok = 0)."
+      "notes": "models.dev official list price | Free model (per_mtok = 0).",
+      "status": "online"
     },
     {
       "id": "google/gemma-2-2b-it",
@@ -371,7 +382,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "google/gemma-3-12b-it",
@@ -401,7 +413,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "google/gemma-3-4b-it",
@@ -431,7 +444,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "google/gemma-3n-e2b-it",
@@ -461,7 +475,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "google/gemma-3n-e4b-it",
@@ -491,7 +506,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "google/gemma-4-31b-it",
@@ -521,7 +537,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "google/google-paligemma",
@@ -551,7 +568,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "meta/esm2-650m",
@@ -581,7 +599,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "meta/esmfold",
@@ -611,7 +630,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "meta/llama-3.1-70b-instruct",
@@ -641,7 +661,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "meta/llama-3.1-8b-instruct",
@@ -671,7 +692,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "meta/llama-3.2-11b-vision-instruct",
@@ -701,7 +723,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "meta/llama-3.2-1b-instruct",
@@ -731,7 +754,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "meta/llama-3.2-3b-instruct",
@@ -761,7 +785,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "meta/llama-3.2-90b-vision-instruct",
@@ -791,7 +816,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "meta/llama-3.3-70b-instruct",
@@ -821,7 +847,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "meta/llama-4-maverick-17b-128e-instruct",
@@ -851,7 +878,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "meta/llama-guard-4-12b",
@@ -881,7 +909,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "meta/muse-glimmer-30b",
@@ -911,7 +940,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "microsoft/phi-4-mini-instruct",
@@ -941,7 +971,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "microsoft/phi-4-multimodal-instruct",
@@ -971,7 +1002,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "minimaxai/minimax-m2.7",
@@ -1001,7 +1033,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "minimaxai/minimax-m3",
@@ -1031,7 +1064,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "mistralai/magistral-small-2506",
@@ -1061,7 +1095,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "mistralai/ministral-14b-instruct-2512",
@@ -1091,7 +1126,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "mistralai/mistral-7b-instruct-v0.3",
@@ -1121,7 +1157,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "mistralai/mistral-large-3-675b-instruct-2512",
@@ -1151,7 +1188,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "mistralai/mistral-medium-3-instruct",
@@ -1181,7 +1219,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "mistralai/mistral-medium-3.5-128b",
@@ -1211,7 +1250,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "mistralai/mistral-nemotron",
@@ -1241,7 +1281,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "mistralai/mistral-small-4-119b-2603",
@@ -1271,7 +1312,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "mistralai/mixtral-8x22b-instruct",
@@ -1301,7 +1343,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "mistralai/mixtral-8x7b-instruct",
@@ -1331,7 +1374,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "moonshotai/kimi-k2-instruct-0905",
@@ -1361,7 +1405,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "moonshotai/kimi-k2.6",
@@ -1391,7 +1436,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "moonshotai/kimi-k3",
@@ -1421,7 +1467,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/active-speaker-detection",
@@ -1451,7 +1498,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/bevformer",
@@ -1481,7 +1529,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/cosmos-predict1-5b",
@@ -1511,7 +1560,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/cosmos-reason2-8b",
@@ -1541,7 +1591,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/cosmos-transfer1-7b",
@@ -1571,7 +1622,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/cosmos-transfer2_5-2b",
@@ -1601,7 +1653,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/gliner-pii",
@@ -1631,7 +1684,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/llama-3.1-nemotron-70b-instruct",
@@ -1661,7 +1715,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/llama-3.1-nemotron-nano-8b-v1",
@@ -1691,7 +1746,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/llama-3.1-nemotron-nano-vl-8b-v1",
@@ -1721,7 +1777,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
@@ -1751,7 +1808,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
@@ -1781,7 +1839,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/llama-3.3-nemotron-super-49b-v1",
@@ -1811,7 +1870,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
@@ -1841,7 +1901,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/llama-3_2-nemoretriever-300m-embed-v1",
@@ -1871,7 +1932,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/llama-nemotron-embed-vl-1b-v2",
@@ -1901,7 +1963,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/llama-nemotron-rerank-vl-1b-v2",
@@ -1931,7 +1994,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/magpie-tts-zeroshot",
@@ -1961,7 +2025,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/nemotron-3-content-safety",
@@ -1991,7 +2056,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/nemotron-3-nano-30b-a3b",
@@ -2021,7 +2087,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
@@ -2051,7 +2118,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/nemotron-3-super-120b-a12b",
@@ -2081,7 +2149,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/nemotron-3-ultra-550b-a55b",
@@ -2113,7 +2182,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/nemotron-3.5-lightning-30b-a3b",
@@ -2143,7 +2213,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/nemotron-content-safety-reasoning-4b",
@@ -2173,7 +2244,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/nemotron-mini-4b-instruct",
@@ -2203,7 +2275,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/nemotron-nano-12b-v2-vl",
@@ -2233,7 +2306,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/nemotron-voicechat",
@@ -2263,7 +2337,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/nv-embed-v1",
@@ -2293,7 +2368,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/nv-embedcode-7b-v1",
@@ -2323,7 +2399,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/nvidia-nemotron-nano-9b-v2",
@@ -2353,7 +2430,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/rerank-qa-mistral-4b",
@@ -2383,7 +2461,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/riva-translate-4b-instruct-v1.1",
@@ -2413,7 +2492,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/sparsedrive",
@@ -2443,7 +2523,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/streampetr",
@@ -2473,7 +2554,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/studiovoice",
@@ -2503,7 +2585,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/synthetic-video-detector",
@@ -2533,7 +2616,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/usdcode",
@@ -2563,7 +2647,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "nvidia/usdvalidate",
@@ -2593,7 +2678,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "openai/gpt-oss-120b",
@@ -2623,7 +2709,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "openai/gpt-oss-20b",
@@ -2653,7 +2740,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "openai/whisper-large-v3",
@@ -2683,7 +2771,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "poolside/laguna-xs-2.1",
@@ -2713,7 +2802,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "qwen/qwen-image",
@@ -2743,7 +2833,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "qwen/qwen-image-edit",
@@ -2773,7 +2864,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "qwen/qwen2.5-coder-32b-instruct",
@@ -2803,7 +2895,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "qwen/qwen3-coder-480b-a35b-instruct",
@@ -2833,7 +2926,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "qwen/qwen3-next-80b-a3b-instruct",
@@ -2863,7 +2957,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "qwen/qwen3.5-122b-a10b",
@@ -2893,7 +2988,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "qwen/qwen3.5-397b-a17b",
@@ -2923,7 +3019,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "sarvamai/sarvam-m",
@@ -2953,7 +3050,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "stepfun-ai/step-3.5-flash",
@@ -2983,7 +3081,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "stepfun-ai/step-3.7-flash",
@@ -3013,7 +3112,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "thinkingmachines/inkling",
@@ -3043,7 +3143,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "upstage/solar-10.7b-instruct",
@@ -3073,7 +3174,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "z-ai/glm-5.2",
@@ -3103,7 +3205,8 @@
       "notes": "models.dev official list price | Free model (per_mtok = 0).",
       "billing_model": [
         "free"
-      ]
+      ],
+      "status": "online"
     }
   ],
   "api_base_url": "https://integrate.api.nvidia.com/v1"

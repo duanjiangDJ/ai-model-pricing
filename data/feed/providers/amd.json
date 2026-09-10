@@ -40,7 +40,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "DeepSeek-V4-Flash-Vision-Exp",
@@ -71,7 +72,8 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "status": "online"
     },
     {
       "id": "MiniCPM5-1B",
@@ -102,7 +104,8 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "status": "online"
     },
     {
       "id": "Qwen3.8-Flash-Next",
@@ -133,7 +136,8 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price"
+      "notes": "models.dev official list price",
+      "status": "online"
     }
   ],
   "api_base_url": "https://developer.amd.com.cn/radeon/api/v1"

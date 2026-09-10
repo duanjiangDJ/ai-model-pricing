@@ -13,7 +13,7 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `Qwen/Qwen3.8-2.4T-A95B` | — | reasoning | 按量 | 1.01M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
-| `moonshotai/Kimi-K3` | — | reasoning | 按量 | 1.04858M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
-| `thinkingmachines/Inkling-NVFP4` | — | reasoning | 按量 | 1.04858M | $1.2 | $5 | $0.27 | — | —/— | — | models.dev official list price |
-| `zai-org/GLM-5.3-Flash` | — | reasoning | 按量 | 1M | $0.45 | $1.5 | $0.09 | — | —/— | — | models.dev official list price |
+| `Qwen/Qwen3.8-2.4T-A95B` | ✅ 在线 | reasoning | 按量 | 1.01M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
+| `moonshotai/Kimi-K3` | ✅ 在线 | reasoning | 按量 | 1.04858M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
+| `thinkingmachines/Inkling-NVFP4` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.2 | $5 | $0.27 | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.3-Flash` | ✅ 在线 | reasoning | 按量 | 1M | $0.45 | $1.5 | $0.09 | — | —/— | — | models.dev official list price |

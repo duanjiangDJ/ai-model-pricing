@@ -13,4 +13,4 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `echo` | — | reasoning | per-token | 262.144K | $10 | $50 | — | — | —/— | — | models.dev official list price |
+| `echo` | ✅ online | reasoning | per-token | 262.144K | $10 | $50 | — | — | —/— | — | models.dev official list price |

@@ -34,7 +34,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "hunyuan-2.0-instruct",
@@ -60,7 +61,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "hunyuan-2.0-thinking",
@@ -86,7 +88,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "hunyuan-t1",
@@ -112,7 +115,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "hunyuan-turbos",
@@ -138,7 +142,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "kimi-k2.5",
@@ -164,7 +169,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "minimax-m2.5",
@@ -190,7 +196,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "tc-code-latest",
@@ -216,7 +223,8 @@
       "notes": "models.dev official list price | Included in a subscription/coding plan (no standalone per-token pricing). | Included in a subscription/coding plan (no standalone per-token pricing).",
       "billing_model": [
         "subscription_included"
-      ]
+      ],
+      "status": "online"
     }
   ],
   "api_base_url": "https://api.lkeap.cloud.tencent.com/coding/v3"

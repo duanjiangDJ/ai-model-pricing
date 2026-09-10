@@ -13,6 +13,6 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `ernie-5.1` | — | chat | 按量 | 128K | ¥4 | ¥18 | — | — | —/— | — | Qianfan domestic pricing (¥/1M tokens): input ¥4, output ¥18 (<=32k tier). Ve… |
-| `ernie-5.0` | — | reasoning | 按量 | 128K | $1.4 / ¥6 | $5.6 / ¥24 | — | — | —/— | — | Qianfan domestic pricing (¥/1M tokens): input ¥6, output ¥24 (<=32k tier). Ve… |
-| `ernie-4.5-turbo` | — | chat | 按量 | 128K | ¥0.8 | ¥3.2 | — | — | $0.32/$1.28 | — | Qianfan domestic pricing (¥/1M tokens): input ¥0.8, output ¥3.2 (<=32k tier).… |
+| `ernie-5.1` | ✅ 在线 | chat | 按量 | 128K | ¥4 | ¥18 | — | — | —/— | — | Qianfan domestic pricing (¥/1M tokens): input ¥4, output ¥18 (<=32k tier). Ve… |
+| `ernie-5.0` | ✅ 在线 | reasoning | 按量 | 128K | $1.4 / ¥6 | $5.6 / ¥24 | — | — | —/— | — | Qianfan domestic pricing (¥/1M tokens): input ¥6, output ¥24 (<=32k tier). Ve… |
+| `ernie-4.5-turbo` | ✅ 在线 | chat | 按量 | 128K | ¥0.8 | ¥3.2 | — | — | $0.32/$1.28 | — | Qianfan domestic pricing (¥/1M tokens): input ¥0.8, output ¥3.2 (<=32k tier).… |

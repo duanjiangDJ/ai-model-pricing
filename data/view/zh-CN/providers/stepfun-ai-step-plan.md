@@ -13,6 +13,6 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `step-3.5-flash` | — | reasoning | 未知 | 256K | — | — | — | — | —/— | — | models.dev official list price |
-| `step-3.5-flash-2603` | — | reasoning | 未知 | 256K | — | — | — | — | —/— | — | models.dev official list price |
-| `step-3.7-flash` | — | reasoning | 未知 | 256K | — | — | — | — | —/— | — | models.dev official list price |
+| `step-3.5-flash` | ✅ 在线 | reasoning | 未知 | 256K | — | — | — | — | —/— | — | models.dev official list price |
+| `step-3.5-flash-2603` | ✅ 在线 | reasoning | 未知 | 256K | — | — | — | — | —/— | — | models.dev official list price |
+| `step-3.7-flash` | ✅ 在线 | reasoning | 未知 | 256K | — | — | — | — | —/— | — | models.dev official list price |

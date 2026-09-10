@@ -13,5 +13,5 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `mercury-2` | — | reasoning | 按量 | 128K | $0.25 | $0.75 | $0.025 | — | —/— | — | models.dev official list price |
-| `mercury-edit-2` | — | reasoning | 按量 | 128K | $0.25 | $0.75 | $0.025 | — | —/— | — | models.dev official list price |
+| `mercury-2` | ✅ 在线 | reasoning | 按量 | 128K | $0.25 | $0.75 | $0.025 | — | —/— | — | models.dev official list price |
+| `mercury-edit-2` | ✅ 在线 | reasoning | 按量 | 128K | $0.25 | $0.75 | $0.025 | — | —/— | — | models.dev official list price |

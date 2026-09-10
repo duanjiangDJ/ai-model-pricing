@@ -13,19 +13,19 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `DeepSeek-V3.2` | — | reasoning | sub-included | 128K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `DeepSeek-V4-Flash` | — | reasoning | sub-included | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `DeepSeek-V4-Flash-0731` | — | reasoning | sub-included | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `DeepSeek-V4-Pro` | — | reasoning | sub-included | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `GLM-5` | — | reasoning | sub-included | 204.8K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `GLM-5.1` | — | reasoning | sub-included | 200K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `GLM-5.2` | — | reasoning | sub-included | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `Kimi-K2.5` | — | reasoning | sub-included | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `Kimi-K2.6` | — | reasoning | sub-included | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `Kimi-K2.7-Code` | — | reasoning | sub-included | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `Kimi-K3` | — | reasoning | sub-included | 1.04858M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `MiMo-V2.5-Pro` | — | reasoning | sub-included | 1.04858M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `MiniMax-M2.5` | — | reasoning | sub-included | 204.8K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `MiniMax-M2.7` | — | reasoning | sub-included | 204.8K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `MiniMax-M3` | — | reasoning | sub-included | 512K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `Qwen3.8-Max` | — | reasoning | sub-included | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `DeepSeek-V3.2` | ✅ online | reasoning | sub-included | 128K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `DeepSeek-V4-Flash` | ✅ online | reasoning | sub-included | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `DeepSeek-V4-Flash-0731` | ✅ online | reasoning | sub-included | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `DeepSeek-V4-Pro` | ✅ online | reasoning | sub-included | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `GLM-5` | ✅ online | reasoning | sub-included | 204.8K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `GLM-5.1` | ✅ online | reasoning | sub-included | 200K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `GLM-5.2` | ✅ online | reasoning | sub-included | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `Kimi-K2.5` | ✅ online | reasoning | sub-included | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `Kimi-K2.6` | ✅ online | reasoning | sub-included | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `Kimi-K2.7-Code` | ✅ online | reasoning | sub-included | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `Kimi-K3` | ✅ online | reasoning | sub-included | 1.04858M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `MiMo-V2.5-Pro` | ✅ online | reasoning | sub-included | 1.04858M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `MiniMax-M2.5` | ✅ online | reasoning | sub-included | 204.8K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `MiniMax-M2.7` | ✅ online | reasoning | sub-included | 204.8K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `MiniMax-M3` | ✅ online | reasoning | sub-included | 512K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `Qwen3.8-Max` | ✅ online | reasoning | sub-included | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |

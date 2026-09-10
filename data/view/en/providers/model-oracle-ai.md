@@ -13,18 +13,18 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `auto` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `claude-fable-5` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `claude-haiku-4.5` | — | reasoning | ? | 200K | — | — | — | — | —/— | — | models.dev official list price |
-| `claude-opus-4.8` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `claude-sonnet-5` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `deepseek-v4-pro` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `glm-5.2` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `gpt-4.1` | — | chat | ? | 1.04758M | — | — | — | — | —/— | — | models.dev official list price |
-| `gpt-4.1-mini` | — | chat | ? | 1.04758M | — | — | — | — | —/— | — | models.dev official list price |
-| `gpt-5` | — | reasoning | ? | 400K | — | — | — | — | —/— | — | models.dev official list price |
-| `gpt-5.4` | — | reasoning | ? | 1.05M | — | — | — | — | —/— | — | models.dev official list price |
-| `gpt-5.4-mini` | — | reasoning | ? | 400K | — | — | — | — | —/— | — | models.dev official list price |
-| `gpt-5.4-nano` | — | reasoning | ? | 400K | — | — | — | — | —/— | — | models.dev official list price |
-| `gpt-5.5` | — | reasoning | ? | 1.05M | — | — | — | — | —/— | — | models.dev official list price |
-| `o4-mini` | — | reasoning | ? | 200K | — | — | — | — | —/— | — | models.dev official list price |
+| `auto` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `claude-fable-5` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `claude-haiku-4.5` | ✅ online | reasoning | ? | 200K | — | — | — | — | —/— | — | models.dev official list price |
+| `claude-opus-4.8` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `claude-sonnet-5` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `deepseek-v4-pro` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `glm-5.2` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `gpt-4.1` | ✅ online | chat | ? | 1.04758M | — | — | — | — | —/— | — | models.dev official list price |
+| `gpt-4.1-mini` | ✅ online | chat | ? | 1.04758M | — | — | — | — | —/— | — | models.dev official list price |
+| `gpt-5` | ✅ online | reasoning | ? | 400K | — | — | — | — | —/— | — | models.dev official list price |
+| `gpt-5.4` | ✅ online | reasoning | ? | 1.05M | — | — | — | — | —/— | — | models.dev official list price |
+| `gpt-5.4-mini` | ✅ online | reasoning | ? | 400K | — | — | — | — | —/— | — | models.dev official list price |
+| `gpt-5.4-nano` | ✅ online | reasoning | ? | 400K | — | — | — | — | —/— | — | models.dev official list price |
+| `gpt-5.5` | ✅ online | reasoning | ? | 1.05M | — | — | — | — | —/— | — | models.dev official list price |
+| `o4-mini` | ✅ online | reasoning | ? | 200K | — | — | — | — | —/— | — | models.dev official list price |

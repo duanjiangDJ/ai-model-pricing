@@ -13,5 +13,5 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `GLM-4.7` | — | reasoning | 按量 | 204.8K | $3.5 | $14 | — | — | —/— | — | models.dev official list price |
-| `MiniMax-M2.1` | — | reasoning | 按量 | 204.8K | $2.1 | $8.4 | $2.1 | — | —/— | — | models.dev official list price |
+| `GLM-4.7` | ✅ 在线 | reasoning | 按量 | 204.8K | $3.5 | $14 | — | — | —/— | — | models.dev official list price |
+| `MiniMax-M2.1` | ✅ 在线 | reasoning | 按量 | 204.8K | $2.1 | $8.4 | $2.1 | — | —/— | — | models.dev official list price |

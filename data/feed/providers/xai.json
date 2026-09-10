@@ -119,7 +119,8 @@
       "notes": "Two-tier pricing at 200k prompt tokens: <200k $1.25/$0.20/$2.50; >=200k $2.50/$0.40/$5.00. Batch = 20% off (computed).",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "grok-4.20-0309-reasoning",
@@ -158,7 +159,8 @@
       "notes": "Two-tier pricing at 200k prompt tokens: <200k $1.25/$0.20/$2.50; >=200k $2.50/$0.40/$5.00. Batch = 20% off (computed). Same rate card as grok-4.3.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "grok-4.20-multi-agent-0309",
@@ -197,7 +199,8 @@
       "notes": "Two-tier pricing at 200k prompt tokens: <200k $1.25/$0.20/$2.50; >=200k $2.50/$0.40/$5.00. Batch = 20% off (computed).",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "grok-4.3",
@@ -269,7 +272,8 @@
       "notes": "Two-tier long-context pricing. <200k: input $2.00 / cached $0.30 / output $6.00; >=200k: $4.00 / $0.60 / $12.00. No batch discount.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "grok-4.6",
@@ -301,7 +305,8 @@
       "notes": "Two-tier long-context pricing. <200k prompt tokens: input $2.00 / cached $0.50 / output $6.00; >=200k: $4.00 / $1.00 / $12.00 (higher rate applies to ALL tokens once prompt reaches 200k). No batch discount. Knowledge cutoff 2026-02-01.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "grok-build-0.1",
@@ -381,7 +386,8 @@
       "notes": "No embedding model listed on official xAI pricing or models pages as of 2026-08-21 (docs.x.ai/developers/embeddings returns 404). 2025-era grok-embedding-1 price could not be verified from official sources; values left null.",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "grok-imagine-image",
@@ -407,7 +413,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "grok-imagine-image-2.0",
@@ -433,7 +440,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "grok-imagine-image-quality",
@@ -459,7 +467,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "grok-imagine-video",
@@ -485,7 +494,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "grok-imagine-video-1.5",
@@ -511,7 +521,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     }
   ],
   "api_base_url": "https://api.x.ai/v1"

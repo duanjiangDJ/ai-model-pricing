@@ -13,7 +13,7 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `deepseek-ai/DeepSeek-V4-Flash-0731` | — | reasoning | per-token | 1.04858M | $0.13 | $0.28 | $0.03 | — | —/— | — | models.dev official list price |
-| `moonshotai/Kimi-K2.6` | — | reasoning | per-token | 262.144K | $0.53 | $3.39 | $0.17 | — | —/— | — | models.dev official list price |
-| `moonshotai/Kimi-K2.7-Code` | — | reasoning | per-token | 262.144K | $0.66 | $3.4 | $0.18 | — | —/— | — | models.dev official list price |
-| `zai-org/GLM-5.2` | — | reasoning | per-token | 1.04858M | $0.71 | $2.35 | $0.12 | — | —/— | — | models.dev official list price |
+| `deepseek-ai/DeepSeek-V4-Flash-0731` | ✅ online | reasoning | per-token | 1.04858M | $0.13 | $0.28 | $0.03 | — | —/— | — | models.dev official list price |
+| `moonshotai/Kimi-K2.6` | ✅ online | reasoning | per-token | 262.144K | $0.53 | $3.39 | $0.17 | — | —/— | — | models.dev official list price |
+| `moonshotai/Kimi-K2.7-Code` | ✅ online | reasoning | per-token | 262.144K | $0.66 | $3.4 | $0.18 | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-5.2` | ✅ online | reasoning | per-token | 1.04858M | $0.71 | $2.35 | $0.12 | — | —/— | — | models.dev official list price |

@@ -13,7 +13,7 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `lucidnova-rf1-100b` | — | reasoning | 按量 | 120K | $2 | $5 | — | — | —/— | — | models.dev official list price |
-| `lucidquery-agi-01-frontier` | — | reasoning | 按量 | 300K | $4.5 | $22 | — | — | —/— | — | models.dev official list price |
-| `lucidquery-agi-01-swift` | — | reasoning | 按量 | 300K | $2.5 | $15 | — | — | —/— | — | models.dev official list price |
-| `lucidquery-nexus-coder` | — | reasoning | 按量 | 250K | $2 | $5 | — | — | —/— | — | models.dev official list price |
+| `lucidnova-rf1-100b` | ✅ 在线 | reasoning | 按量 | 120K | $2 | $5 | — | — | —/— | — | models.dev official list price |
+| `lucidquery-agi-01-frontier` | ✅ 在线 | reasoning | 按量 | 300K | $4.5 | $22 | — | — | —/— | — | models.dev official list price |
+| `lucidquery-agi-01-swift` | ✅ 在线 | reasoning | 按量 | 300K | $2.5 | $15 | — | — | —/— | — | models.dev official list price |
+| `lucidquery-nexus-coder` | ✅ 在线 | reasoning | 按量 | 250K | $2 | $5 | — | — | —/— | — | models.dev official list price |

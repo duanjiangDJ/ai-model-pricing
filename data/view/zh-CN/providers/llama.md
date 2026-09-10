@@ -13,10 +13,10 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `cerebras-llama-4-maverick-17b-128e-instruct` | — | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `cerebras-llama-4-scout-17b-16e-instruct` | — | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `groq-llama-4-maverick-17b-128e-instruct` | — | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `llama-3.3-70b-instruct` | — | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `llama-3.3-8b-instruct` | — | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `llama-4-maverick-17b-128e-instruct-fp8` | — | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `llama-4-scout-17b-16e-instruct-fp8` | — | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `cerebras-llama-4-maverick-17b-128e-instruct` | ✅ 在线 | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `cerebras-llama-4-scout-17b-16e-instruct` | ✅ 在线 | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `groq-llama-4-maverick-17b-128e-instruct` | ✅ 在线 | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `llama-3.3-70b-instruct` | ✅ 在线 | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `llama-3.3-8b-instruct` | ✅ 在线 | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `llama-4-maverick-17b-128e-instruct-fp8` | ✅ 在线 | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `llama-4-scout-17b-16e-instruct-fp8` | ✅ 在线 | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

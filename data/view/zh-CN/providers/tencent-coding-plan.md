@@ -13,11 +13,11 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `glm-5` | — | reasoning | 订阅包含 | 202.752K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `hunyuan-2.0-instruct` | — | chat | 订阅包含 | 131.072K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `hunyuan-2.0-thinking` | — | reasoning | 订阅包含 | 131.072K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `hunyuan-t1` | — | reasoning | 订阅包含 | 131.072K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `hunyuan-turbos` | — | chat | 订阅包含 | 131.072K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `kimi-k2.5` | — | reasoning | 订阅包含 | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `minimax-m2.5` | — | reasoning | 订阅包含 | 204.8K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `tc-code-latest` | — | chat | 订阅包含 | 131.072K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `glm-5` | ✅ 在线 | reasoning | 订阅包含 | 202.752K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `hunyuan-2.0-instruct` | ✅ 在线 | chat | 订阅包含 | 131.072K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `hunyuan-2.0-thinking` | ✅ 在线 | reasoning | 订阅包含 | 131.072K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `hunyuan-t1` | ✅ 在线 | reasoning | 订阅包含 | 131.072K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `hunyuan-turbos` | ✅ 在线 | chat | 订阅包含 | 131.072K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `kimi-k2.5` | ✅ 在线 | reasoning | 订阅包含 | 262.144K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `minimax-m2.5` | ✅ 在线 | reasoning | 订阅包含 | 204.8K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `tc-code-latest` | ✅ 在线 | chat | 订阅包含 | 131.072K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |

@@ -13,12 +13,12 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `agent-max` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `agent-prime` | — | reasoning | ? | 196.608K | — | — | — | — | —/— | — | models.dev official list price |
-| `agent-standard` | — | reasoning | ? | 128K | — | — | — | — | —/— | — | models.dev official list price |
-| `code-max` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `code-prime` | — | reasoning | ? | 196.608K | — | — | — | — | —/— | — | models.dev official list price |
-| `code-standard` | — | reasoning | ? | 128K | — | — | — | — | —/— | — | models.dev official list price |
-| `text-max` | — | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `text-prime` | — | reasoning | ? | 196.608K | — | — | — | — | —/— | — | models.dev official list price |
-| `text-standard` | — | reasoning | ? | 128K | — | — | — | — | —/— | — | models.dev official list price |
+| `agent-max` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `agent-prime` | ✅ online | reasoning | ? | 196.608K | — | — | — | — | —/— | — | models.dev official list price |
+| `agent-standard` | ✅ online | reasoning | ? | 128K | — | — | — | — | —/— | — | models.dev official list price |
+| `code-max` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `code-prime` | ✅ online | reasoning | ? | 196.608K | — | — | — | — | —/— | — | models.dev official list price |
+| `code-standard` | ✅ online | reasoning | ? | 128K | — | — | — | — | —/— | — | models.dev official list price |
+| `text-max` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `text-prime` | ✅ online | reasoning | ? | 196.608K | — | — | — | — | —/— | — | models.dev official list price |
+| `text-standard` | ✅ online | reasoning | ? | 128K | — | — | — | — | —/— | — | models.dev official list price |

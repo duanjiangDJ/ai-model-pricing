@@ -13,5 +13,5 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `subconscious/glm-5.2` | — | reasoning | 按量 | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
-| `subconscious/tim-qwen3.6-27b` | — | reasoning | 按量 | 8.192K | $0.3 | $3 | $0.15 | — | —/— | — | models.dev official list price |
+| `subconscious/glm-5.2` | ✅ 在线 | reasoning | 按量 | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `subconscious/tim-qwen3.6-27b` | ✅ 在线 | reasoning | 按量 | 8.192K | $0.3 | $3 | $0.15 | — | —/— | — | models.dev official list price |

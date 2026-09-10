@@ -13,19 +13,19 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `allam-2-7b` | — | chat | 免费 | 4.096K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `canopylabs/orpheus-arabic-saudi` | — | chat | 按量 | 4K | — | — | — | — | —/— | — | models.dev official list price |
-| `canopylabs/orpheus-v1-english` | — | chat | 按量 | 4K | — | — | — | — | —/— | — | models.dev official list price |
-| `groq/compound` | — | chat | 按量 | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
-| `groq/compound-mini` | — | chat | 按量 | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
-| `llama-3.1-8b-instant` | — | chat | 按量 | 131.072K | $0.05 | $0.08 | — | — | —/— | — | models.dev official list price |
-| `llama-3.3-70b-versatile` | — | chat | 按量 | 131.072K | $0.59 | $0.79 | — | — | —/— | — | models.dev official list price |
-| `meta-llama/llama-prompt-guard-2-22m` | — | chat | 按量 | 512 | $0.03 | $0.03 | — | — | —/— | — | models.dev official list price |
-| `meta-llama/llama-prompt-guard-2-86m` | — | chat | 按量 | 512 | $0.04 | $0.04 | — | — | —/— | — | models.dev official list price |
-| `openai/gpt-oss-120b` | — | reasoning | 按量 | 131.072K | $0.15 | $0.6 | $0.075 | — | —/— | — | models.dev official list price |
-| `openai/gpt-oss-20b` | — | reasoning | 按量 | 131.072K | $0.075 | $0.3 | $0.0375 | — | —/— | — | models.dev official list price |
-| `openai/gpt-oss-safeguard-20b` | — | reasoning | 按量 | 131.072K | $0.075 | $0.3 | — | — | —/— | — | models.dev official list price |
-| `qwen/qwen3.6-27b` | — | reasoning | 按量 | 131.072K | $0.6 | $3 | $0.3 | — | —/— | — | models.dev official list price |
-| `qwen/qwen3.8-27b` | — | reasoning | 按量 | 131.042K | $0.8 | $4 | — | — | —/— | — | models.dev official list price |
-| `whisper-large-v3` | — | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
-| `whisper-large-v3-turbo` | — | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
+| `allam-2-7b` | ✅ 在线 | chat | 免费 | 4.096K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `canopylabs/orpheus-arabic-saudi` | ✅ 在线 | chat | 按量 | 4K | — | — | — | — | —/— | — | models.dev official list price |
+| `canopylabs/orpheus-v1-english` | ✅ 在线 | chat | 按量 | 4K | — | — | — | — | —/— | — | models.dev official list price |
+| `groq/compound` | ✅ 在线 | chat | 按量 | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
+| `groq/compound-mini` | ✅ 在线 | chat | 按量 | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
+| `llama-3.1-8b-instant` | ✅ 在线 | chat | 按量 | 131.072K | $0.05 | $0.08 | — | — | —/— | — | models.dev official list price |
+| `llama-3.3-70b-versatile` | ✅ 在线 | chat | 按量 | 131.072K | $0.59 | $0.79 | — | — | —/— | — | models.dev official list price |
+| `meta-llama/llama-prompt-guard-2-22m` | ✅ 在线 | chat | 按量 | 512 | $0.03 | $0.03 | — | — | —/— | — | models.dev official list price |
+| `meta-llama/llama-prompt-guard-2-86m` | ✅ 在线 | chat | 按量 | 512 | $0.04 | $0.04 | — | — | —/— | — | models.dev official list price |
+| `openai/gpt-oss-120b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.15 | $0.6 | $0.075 | — | —/— | — | models.dev official list price |
+| `openai/gpt-oss-20b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.075 | $0.3 | $0.0375 | — | —/— | — | models.dev official list price |
+| `openai/gpt-oss-safeguard-20b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.075 | $0.3 | — | — | —/— | — | models.dev official list price |
+| `qwen/qwen3.6-27b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.6 | $3 | $0.3 | — | —/— | — | models.dev official list price |
+| `qwen/qwen3.8-27b` | ✅ 在线 | reasoning | 按量 | 131.042K | $0.8 | $4 | — | — | —/— | — | models.dev official list price |
+| `whisper-large-v3` | ✅ 在线 | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
+| `whisper-large-v3-turbo` | ✅ 在线 | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |

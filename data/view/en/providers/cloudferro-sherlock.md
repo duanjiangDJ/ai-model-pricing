@@ -13,8 +13,8 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `MiniMaxAI/MiniMax-M2.5` | — | reasoning | per-token | 196K | $0.3 | $1.2 | — | — | —/— | — | models.dev official list price |
-| `meta-llama/Llama-3.3-70B-Instruct` | — | chat | per-token | 70K | $2.92 | $2.92 | — | — | —/— | — | models.dev official list price |
-| `openai/gpt-oss-120b` | — | reasoning | per-token | 131K | $2.92 | $2.92 | — | — | —/— | — | models.dev official list price |
-| `speakleash/Bielik-11B-v2.6-Instruct` | — | chat | per-token | 32K | $0.67 | $0.67 | — | — | —/— | — | models.dev official list price |
-| `speakleash/Bielik-11B-v3.0-Instruct` | — | chat | per-token | 32K | $0.67 | $0.67 | — | — | —/— | — | models.dev official list price |
+| `MiniMaxAI/MiniMax-M2.5` | ✅ online | reasoning | per-token | 196K | $0.3 | $1.2 | — | — | —/— | — | models.dev official list price |
+| `meta-llama/Llama-3.3-70B-Instruct` | ✅ online | chat | per-token | 70K | $2.92 | $2.92 | — | — | —/— | — | models.dev official list price |
+| `openai/gpt-oss-120b` | ✅ online | reasoning | per-token | 131K | $2.92 | $2.92 | — | — | —/— | — | models.dev official list price |
+| `speakleash/Bielik-11B-v2.6-Instruct` | ✅ online | chat | per-token | 32K | $0.67 | $0.67 | — | — | —/— | — | models.dev official list price |
+| `speakleash/Bielik-11B-v3.0-Instruct` | ✅ online | chat | per-token | 32K | $0.67 | $0.67 | — | — | —/— | — | models.dev official list price |

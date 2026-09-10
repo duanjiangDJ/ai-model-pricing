@@ -34,7 +34,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "step-3.5-flash-2603",
@@ -60,7 +61,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "step-3.7-flash",
@@ -86,7 +88,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     }
   ],
   "api_base_url": "https://api.stepfun.ai/step_plan/v1"

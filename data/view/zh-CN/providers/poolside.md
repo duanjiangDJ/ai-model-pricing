@@ -13,6 +13,6 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `poolside/laguna-m.1` | — | reasoning | 免费 | 262.144K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `poolside/laguna-s-2.1` | — | reasoning | 免费 | 1.04858M | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `poolside/laguna-xs-2.1` | — | reasoning | 免费 | 262.144K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `poolside/laguna-m.1` | ✅ 在线 | reasoning | 免费 | 262.144K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `poolside/laguna-s-2.1` | ✅ 在线 | reasoning | 免费 | 1.04858M | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `poolside/laguna-xs-2.1` | ✅ 在线 | reasoning | 免费 | 262.144K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

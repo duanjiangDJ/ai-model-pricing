@@ -19,7 +19,7 @@
 | `mimo-v2-tts` | ❌ 下线 | chat | 订阅包含 | 8.192K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
 | `mimo-v2.5` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price \| Official pay-as-you-go (USD/1M tokens, mimo… |
 | `mimo-v2.5-pro` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.435 | $0.87 | $0.0036 | — | —/— | — | models.dev official list price \| Official pay-as-you-go (USD/1M tokens, mimo… |
-| `mimo-v2.5-pro-ultraspeed` | — | reasoning | 按量 | 1.04858M | $1.305 | $2.61 | $0.0108 | — | —/— | — | models.dev official list price |
-| `mimo-v2.5-tts` | — | chat | 订阅包含 | 8.192K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `mimo-v2.5-tts-voiceclone` | — | chat | 订阅包含 | 8.192K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
-| `mimo-v2.5-tts-voicedesign` | — | chat | 订阅包含 | 8.192K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `mimo-v2.5-pro-ultraspeed` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.305 | $2.61 | $0.0108 | — | —/— | — | models.dev official list price |
+| `mimo-v2.5-tts` | ✅ 在线 | chat | 订阅包含 | 8.192K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `mimo-v2.5-tts-voiceclone` | ✅ 在线 | chat | 订阅包含 | 8.192K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
+| `mimo-v2.5-tts-voicedesign` | ✅ 在线 | chat | 订阅包含 | 8.192K | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |

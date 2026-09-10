@@ -13,5 +13,5 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `claudinio` | — | reasoning | per-token | 256K | $0.5 | $2 | $0.15 | — | —/— | — | models.dev official list price |
-| `claudius` | — | reasoning | per-token | 256K | $3 | $8 | $0.9 | — | —/— | — | models.dev official list price |
+| `claudinio` | ✅ online | reasoning | per-token | 256K | $0.5 | $2 | $0.15 | — | —/— | — | models.dev official list price |
+| `claudius` | ✅ online | reasoning | per-token | 256K | $3 | $8 | $0.9 | — | —/— | — | models.dev official list price |

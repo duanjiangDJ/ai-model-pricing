@@ -13,5 +13,5 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `sarvam-105b` | — | reasoning | ? | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
-| `sarvam-30b` | — | reasoning | ? | 65.536K | — | — | — | — | —/— | — | models.dev official list price |
+| `sarvam-105b` | ✅ online | reasoning | ? | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
+| `sarvam-30b` | ✅ online | reasoning | ? | 65.536K | — | — | — | — | —/— | — | models.dev official list price |

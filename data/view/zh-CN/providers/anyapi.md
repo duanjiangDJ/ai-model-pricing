@@ -13,33 +13,33 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `anthropic/claude-haiku-4-5` | — | reasoning | 未知 | 200K | — | — | — | — | —/— | — | models.dev official list price |
-| `anthropic/claude-opus-4-6` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `anthropic/claude-opus-4-7` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `anthropic/claude-sonnet-4-5` | — | reasoning | 未知 | 200K | — | — | — | — | —/— | — | models.dev official list price |
-| `anthropic/claude-sonnet-4-6` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `cohere/command-r-plus-08-2024` | — | chat | 未知 | 128K | — | — | — | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-chat` | — | chat | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-r1` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-flash` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-pro` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `google/gemini-2.5-flash` | — | reasoning | 未知 | 1.04858M | — | — | — | — | —/— | — | models.dev official list price |
-| `google/gemini-2.5-flash-lite` | — | reasoning | 未知 | 1.04858M | — | — | — | — | —/— | — | models.dev official list price |
-| `google/gemini-2.5-pro` | — | reasoning | 未知 | 1.04858M | — | — | — | — | —/— | — | models.dev official list price |
-| `google/gemini-3-flash-preview` | — | reasoning | 未知 | 1.04858M | — | — | — | — | —/— | — | models.dev official list price |
-| `google/gemini-3-pro-preview` | — | reasoning | 未知 | 1.04858M | — | — | — | — | —/— | — | models.dev official list price |
-| `mistralai/devstral-2512` | — | chat | 未知 | 262.144K | — | — | — | — | —/— | — | models.dev official list price |
-| `mistralai/mistral-large-2512` | — | chat | 未知 | 262.144K | — | — | — | — | —/— | — | models.dev official list price |
-| `openai/gpt-4.1` | — | chat | 未知 | 1.04758M | — | — | — | — | —/— | — | models.dev official list price |
-| `openai/gpt-4.1-mini` | — | chat | 未知 | 1.04758M | — | — | — | — | —/— | — | models.dev official list price |
-| `openai/gpt-5` | — | reasoning | 未知 | 400K | — | — | — | — | —/— | — | models.dev official list price |
-| `openai/gpt-5-mini` | — | reasoning | 未知 | 400K | — | — | — | — | —/— | — | models.dev official list price |
-| `openai/gpt-5.1` | — | reasoning | 未知 | 400K | — | — | — | — | —/— | — | models.dev official list price |
-| `openai/gpt-5.2` | — | reasoning | 未知 | 400K | — | — | — | — | —/— | — | models.dev official list price |
-| `openai/gpt-5.4` | — | reasoning | 未知 | 1.05M | — | — | — | — | —/— | — | models.dev official list price |
-| `openai/o3` | — | reasoning | 未知 | 200K | — | — | — | — | —/— | — | models.dev official list price |
-| `openai/o3-mini` | — | reasoning | 未知 | 200K | — | — | — | — | —/— | — | models.dev official list price |
-| `openai/o4-mini` | — | reasoning | 未知 | 200K | — | — | — | — | —/— | — | models.dev official list price |
-| `perplexity/sonar-pro` | — | chat | 未知 | 200K | — | — | — | — | —/— | — | models.dev official list price |
-| `perplexity/sonar-reasoning-pro` | — | reasoning | 未知 | 128K | — | — | — | — | —/— | — | models.dev official list price |
-| `xai/grok-4.3` | — | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `anthropic/claude-haiku-4-5` | ✅ 在线 | reasoning | 未知 | 200K | — | — | — | — | —/— | — | models.dev official list price |
+| `anthropic/claude-opus-4-6` | ✅ 在线 | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `anthropic/claude-opus-4-7` | ✅ 在线 | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `anthropic/claude-sonnet-4-5` | ✅ 在线 | reasoning | 未知 | 200K | — | — | — | — | —/— | — | models.dev official list price |
+| `anthropic/claude-sonnet-4-6` | ✅ 在线 | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `cohere/command-r-plus-08-2024` | ✅ 在线 | chat | 未知 | 128K | — | — | — | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-chat` | ✅ 在线 | chat | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-r1` | ✅ 在线 | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash` | ✅ 在线 | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-pro` | ✅ 在线 | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
+| `google/gemini-2.5-flash` | ✅ 在线 | reasoning | 未知 | 1.04858M | — | — | — | — | —/— | — | models.dev official list price |
+| `google/gemini-2.5-flash-lite` | ✅ 在线 | reasoning | 未知 | 1.04858M | — | — | — | — | —/— | — | models.dev official list price |
+| `google/gemini-2.5-pro` | ✅ 在线 | reasoning | 未知 | 1.04858M | — | — | — | — | —/— | — | models.dev official list price |
+| `google/gemini-3-flash-preview` | ✅ 在线 | reasoning | 未知 | 1.04858M | — | — | — | — | —/— | — | models.dev official list price |
+| `google/gemini-3-pro-preview` | ✅ 在线 | reasoning | 未知 | 1.04858M | — | — | — | — | —/— | — | models.dev official list price |
+| `mistralai/devstral-2512` | ✅ 在线 | chat | 未知 | 262.144K | — | — | — | — | —/— | — | models.dev official list price |
+| `mistralai/mistral-large-2512` | ✅ 在线 | chat | 未知 | 262.144K | — | — | — | — | —/— | — | models.dev official list price |
+| `openai/gpt-4.1` | ✅ 在线 | chat | 未知 | 1.04758M | — | — | — | — | —/— | — | models.dev official list price |
+| `openai/gpt-4.1-mini` | ✅ 在线 | chat | 未知 | 1.04758M | — | — | — | — | —/— | — | models.dev official list price |
+| `openai/gpt-5` | ✅ 在线 | reasoning | 未知 | 400K | — | — | — | — | —/— | — | models.dev official list price |
+| `openai/gpt-5-mini` | ✅ 在线 | reasoning | 未知 | 400K | — | — | — | — | —/— | — | models.dev official list price |
+| `openai/gpt-5.1` | ✅ 在线 | reasoning | 未知 | 400K | — | — | — | — | —/— | — | models.dev official list price |
+| `openai/gpt-5.2` | ✅ 在线 | reasoning | 未知 | 400K | — | — | — | — | —/— | — | models.dev official list price |
+| `openai/gpt-5.4` | ✅ 在线 | reasoning | 未知 | 1.05M | — | — | — | — | —/— | — | models.dev official list price |
+| `openai/o3` | ✅ 在线 | reasoning | 未知 | 200K | — | — | — | — | —/— | — | models.dev official list price |
+| `openai/o3-mini` | ✅ 在线 | reasoning | 未知 | 200K | — | — | — | — | —/— | — | models.dev official list price |
+| `openai/o4-mini` | ✅ 在线 | reasoning | 未知 | 200K | — | — | — | — | —/— | — | models.dev official list price |
+| `perplexity/sonar-pro` | ✅ 在线 | chat | 未知 | 200K | — | — | — | — | —/— | — | models.dev official list price |
+| `perplexity/sonar-reasoning-pro` | ✅ 在线 | reasoning | 未知 | 128K | — | — | — | — | —/— | — | models.dev official list price |
+| `xai/grok-4.3` | ✅ 在线 | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |

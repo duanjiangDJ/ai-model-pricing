@@ -13,5 +13,5 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `Qwen/Qwen3.6-35B-A3B-FP8` | — | reasoning | 未知 | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
-| `Qwen3.6-27B` | — | reasoning | 未知 | 196.608K | — | — | — | — | —/— | — | models.dev official list price |
+| `Qwen/Qwen3.6-35B-A3B-FP8` | ✅ 在线 | reasoning | 未知 | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
+| `Qwen3.6-27B` | ✅ 在线 | reasoning | 未知 | 196.608K | — | — | — | — | —/— | — | models.dev official list price |

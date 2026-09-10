@@ -13,7 +13,7 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `step-3.5-flash` | — | reasoning | ? | 256K | — | — | — | — | —/— | — | models.dev official list price |
-| `step-3.5-flash-2603` | — | reasoning | ? | 256K | — | — | — | — | —/— | — | models.dev official list price |
-| `step-3.7-flash` | — | reasoning | ? | 256K | — | — | — | — | —/— | — | models.dev official list price |
-| `step-router-v1` | — | chat | ? | 256K | — | — | — | — | —/— | — | models.dev official list price |
+| `step-3.5-flash` | ✅ online | reasoning | ? | 256K | — | — | — | — | —/— | — | models.dev official list price |
+| `step-3.5-flash-2603` | ✅ online | reasoning | ? | 256K | — | — | — | — | —/— | — | models.dev official list price |
+| `step-3.7-flash` | ✅ online | reasoning | ? | 256K | — | — | — | — | —/— | — | models.dev official list price |
+| `step-router-v1` | ✅ online | chat | ? | 256K | — | — | — | — | —/— | — | models.dev official list price |

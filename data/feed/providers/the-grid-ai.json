@@ -34,7 +34,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "agent-prime",
@@ -60,7 +61,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "agent-standard",
@@ -86,7 +88,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "code-max",
@@ -112,7 +115,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "code-prime",
@@ -138,7 +142,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "code-standard",
@@ -164,7 +169,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "text-max",
@@ -190,7 +196,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "text-prime",
@@ -216,7 +223,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "text-standard",
@@ -242,7 +250,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "unknown"
-      ]
+      ],
+      "status": "online"
     }
   ],
   "api_base_url": "https://api.thegrid.ai/v1"

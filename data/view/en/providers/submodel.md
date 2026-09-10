@@ -13,12 +13,12 @@
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `Qwen/Qwen3-235B-A22B-Instruct-2507` | — | chat | per-token | 262.144K | $0.2 | $0.3 | — | — | —/— | — | models.dev official list price |
-| `Qwen/Qwen3-235B-A22B-Thinking-2507` | — | reasoning | per-token | 262.144K | $0.2 | $0.6 | — | — | —/— | — | models.dev official list price |
-| `Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8` | — | chat | per-token | 262.144K | $0.2 | $0.8 | — | — | —/— | — | models.dev official list price |
-| `deepseek-ai/DeepSeek-R1-0528` | — | reasoning | per-token | 75K | $0.5 | $2.15 | — | — | —/— | — | models.dev official list price |
-| `deepseek-ai/DeepSeek-V3-0324` | — | chat | per-token | 75K | $0.2 | $0.8 | — | — | —/— | — | models.dev official list price |
-| `deepseek-ai/DeepSeek-V3.1` | — | reasoning | per-token | 75K | $0.2 | $0.8 | — | — | —/— | — | models.dev official list price |
-| `openai/gpt-oss-120b` | — | reasoning | per-token | 131.072K | $0.1 | $0.5 | — | — | —/— | — | models.dev official list price |
-| `zai-org/GLM-4.5-Air` | — | chat | per-token | 131.072K | $0.1 | $0.5 | — | — | —/— | — | models.dev official list price |
-| `zai-org/GLM-4.5-FP8` | — | reasoning | per-token | 131.072K | $0.2 | $0.8 | — | — | —/— | — | models.dev official list price |
+| `Qwen/Qwen3-235B-A22B-Instruct-2507` | ✅ online | chat | per-token | 262.144K | $0.2 | $0.3 | — | — | —/— | — | models.dev official list price |
+| `Qwen/Qwen3-235B-A22B-Thinking-2507` | ✅ online | reasoning | per-token | 262.144K | $0.2 | $0.6 | — | — | —/— | — | models.dev official list price |
+| `Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8` | ✅ online | chat | per-token | 262.144K | $0.2 | $0.8 | — | — | —/— | — | models.dev official list price |
+| `deepseek-ai/DeepSeek-R1-0528` | ✅ online | reasoning | per-token | 75K | $0.5 | $2.15 | — | — | —/— | — | models.dev official list price |
+| `deepseek-ai/DeepSeek-V3-0324` | ✅ online | chat | per-token | 75K | $0.2 | $0.8 | — | — | —/— | — | models.dev official list price |
+| `deepseek-ai/DeepSeek-V3.1` | ✅ online | reasoning | per-token | 75K | $0.2 | $0.8 | — | — | —/— | — | models.dev official list price |
+| `openai/gpt-oss-120b` | ✅ online | reasoning | per-token | 131.072K | $0.1 | $0.5 | — | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-4.5-Air` | ✅ online | chat | per-token | 131.072K | $0.1 | $0.5 | — | — | —/— | — | models.dev official list price |
+| `zai-org/GLM-4.5-FP8` | ✅ online | reasoning | per-token | 131.072K | $0.2 | $0.8 | — | — | —/— | — | models.dev official list price |

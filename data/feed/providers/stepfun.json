@@ -40,7 +40,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "step-2-16k",
@@ -72,7 +73,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "step-3.5-flash",
@@ -107,7 +109,8 @@
       "notes": "StepFun domestic pricing (¥/1M tokens, cache-miss/cache-hit/output): ¥0.7/¥0.14/¥2.1. Verified 2026-08-28T09:55:06Z (CNY). Independent of the int'l USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "step-3.5-flash-2603",
@@ -142,7 +145,8 @@
       "notes": "StepFun domestic pricing (¥/1M tokens, cache-miss/cache-hit/output): ¥0.7/¥0.14/¥2.1. Verified 2026-08-28T09:55:06Z (CNY). Independent of the int'l USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "step-3.7-flash",
@@ -177,7 +181,8 @@
       "notes": "StepFun domestic pricing (¥/1M tokens, cache-miss/cache-hit/output): ¥1.35/¥0.27/¥8.1. Verified 2026-08-28T09:55:06Z (CNY). Independent of the int'l USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "step-tts-2",
@@ -203,7 +208,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "stepaudio-2.5-asr",
@@ -229,7 +235,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     },
     {
       "id": "stepaudio-2.5-tts",
@@ -255,7 +262,8 @@
       "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
-      ]
+      ],
+      "status": "online"
     }
   ],
   "api_base_url": "https://api.stepfun.com/v1",

@@ -13,5 +13,5 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `sarvam-105b` | — | reasoning | 未知 | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
-| `sarvam-30b` | — | reasoning | 未知 | 65.536K | — | — | — | — | —/— | — | models.dev official list price |
+| `sarvam-105b` | ✅ 在线 | reasoning | 未知 | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
+| `sarvam-30b` | ✅ 在线 | reasoning | 未知 | 65.536K | — | — | — | — | —/— | — | models.dev official list price |

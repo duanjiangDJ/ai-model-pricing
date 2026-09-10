@@ -13,12 +13,12 @@
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `google/gemma-3` | — | chat | 按量 | 125K | $0.15 | $0.3 | — | — | —/— | — | models.dev official list price |
-| `meta/llama-3.1-8b-instruct` | — | chat | 按量 | 16K | $0.025 | $0.025 | — | — | —/— | — | models.dev official list price |
-| `meta/llama-3.2-11b-vision-instruct` | — | chat | 按量 | 16K | $0.055 | $0.055 | — | — | —/— | — | models.dev official list price |
-| `meta/llama-3.2-1b-instruct` | — | chat | 按量 | 16K | $0.01 | $0.01 | — | — | —/— | — | models.dev official list price |
-| `meta/llama-3.2-3b-instruct` | — | chat | 按量 | 16K | $0.02 | $0.02 | — | — | —/— | — | models.dev official list price |
-| `mistral/mistral-nemo-12b-instruct` | — | chat | 按量 | 16K | $0.038 | $0.1 | — | — | —/— | — | models.dev official list price |
-| `osmosis/osmosis-structure-0.6b` | — | chat | 按量 | 4K | $0.1 | $0.5 | — | — | —/— | — | models.dev official list price |
-| `qwen/qwen-2.5-7b-vision-instruct` | — | chat | 按量 | 125K | $0.2 | $0.2 | — | — | —/— | — | models.dev official list price |
-| `qwen/qwen3-embedding-4b` | — | embedding | 按量 | 32K | $0.01 | $0 | — | — | —/— | — | models.dev official list price |
+| `google/gemma-3` | ✅ 在线 | chat | 按量 | 125K | $0.15 | $0.3 | — | — | —/— | — | models.dev official list price |
+| `meta/llama-3.1-8b-instruct` | ✅ 在线 | chat | 按量 | 16K | $0.025 | $0.025 | — | — | —/— | — | models.dev official list price |
+| `meta/llama-3.2-11b-vision-instruct` | ✅ 在线 | chat | 按量 | 16K | $0.055 | $0.055 | — | — | —/— | — | models.dev official list price |
+| `meta/llama-3.2-1b-instruct` | ✅ 在线 | chat | 按量 | 16K | $0.01 | $0.01 | — | — | —/— | — | models.dev official list price |
+| `meta/llama-3.2-3b-instruct` | ✅ 在线 | chat | 按量 | 16K | $0.02 | $0.02 | — | — | —/— | — | models.dev official list price |
+| `mistral/mistral-nemo-12b-instruct` | ✅ 在线 | chat | 按量 | 16K | $0.038 | $0.1 | — | — | —/— | — | models.dev official list price |
+| `osmosis/osmosis-structure-0.6b` | ✅ 在线 | chat | 按量 | 4K | $0.1 | $0.5 | — | — | —/— | — | models.dev official list price |
+| `qwen/qwen-2.5-7b-vision-instruct` | ✅ 在线 | chat | 按量 | 125K | $0.2 | $0.2 | — | — | —/— | — | models.dev official list price |
+| `qwen/qwen3-embedding-4b` | ✅ 在线 | embedding | 按量 | 32K | $0.01 | $0 | — | — | —/— | — | models.dev official list price |
