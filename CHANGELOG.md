@@ -16,6 +16,14 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.109.50 — 2026-09-10T13:08Z (content update)
+
+- openrouter aggregator sync (4 price updates) + drop the 436 spurious status changelog rows the pre-#173 diff emitted
+
+## 26.109.49 — 2026-09-10T12:57Z (content update)
+
+- price sync: **openrouter** — 4 price updates: `deepseek/deepseek-v4.1-flash` ($0.30/$1.20/$0.006 → $0.15/$0.60/$0.003), `qwen/qwen3-30b-a3b-instruct-2507` ($0.09/$0.30 → $0.04815/$0.19305), `z-ai/glm-5.3-flash` ($0.075/$0.25/$0.015 → $0.15/$0.50/$0.03), `~z-ai/glm-latest` (input $1.085 → $1.0075)
+
 ## 26.108.50 — 2026-09-10T13:04Z (feature update)
 
 - fix(sync): stop diff_openrouter emitting a false status change for every model
