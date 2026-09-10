@@ -265,3 +265,42 @@ class TestOpencodeParser(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestZhipuaiCheck(unittest.TestCase):
+    """tier1_zhipuai must persist every dimension its parser extracts.
+
+    Regression (2026-09-11): the bigmodel.cn retarget parsed the 缓存命中 column into
+    pr["cache"], but build_updates() only wrote input/output — so all 9 tracked models
+    kept a USD-only cache_read (glm-5.3 usd 0.26, cny absent) while the official CNY
+    cache-hit price (¥2) was already known. A parsed price dimension that never
+    reaches build_updates() is a silent half-fill; assert it here so the next
+    retarget cannot re-drop it.
+    """
+
+    def setUp(self):
+        from checks.tier1_zhipuai import parse, build_updates, URL
+        self.parse, self.build_updates = parse, build_updates
+        self.assertEqual(URL, "https://docs.bigmodel.cn/cn/guide/start/pricing.md")
+
+    def test_cache_hit_price_is_written(self):
+        rows = self.parse(load("bigmodel_pricing.md"))
+        self.assertEqual(rows["glm-5.3"]["cache"], 2.0)
+        self.assertEqual(rows["glm-5.3-flash"]["cache"], 0.23)
+        up, _free = self.build_updates(rows, now="2026-09-11T00:00:00Z")
+        # parsed cache-hit (缓存命中) must survive into per_mtok.cache_read.cny
+        self.assertEqual(up["glm-5.3"]["per_mtok"]["cache_read"], {"cny": 2.0})
+        self.assertEqual(up["glm-5.3-flash"]["per_mtok"]["cache_read"], {"cny": 0.23})
+        self.assertEqual(up["glm-5.3"]["per_mtok"]["input"], {"cny": 8.0})
+        self.assertEqual(up["glm-5.3"]["per_mtok"]["output"], {"cny": 28.0})
+
+    def test_free_model_is_not_priced(self):
+        rows = self.parse(load("bigmodel_pricing.md"))
+        up, free = self.build_updates(rows, now="2026-09-11T00:00:00Z")
+        self.assertIn("glm-4.7-flash", free)
+        self.assertNotIn("glm-4.7-flash", up)
+
+    def test_zero_rows_raises(self):
+        # a header without the price columns must fail loud, never no-op silently
+        with self.assertRaises(ValueError):
+            self.parse("| 模型名称 | 输入单价 |\n| --- | --- |\n")

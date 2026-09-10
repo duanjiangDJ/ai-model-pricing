@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.112.57 — 2026-09-10T21:30Z (feature update)
+
+- test(zhipuai): assert the rate-card cache-hit price reaches per_mtok
+
 ## 26.112.56 — 2026-09-10T21:28Z (feature update)
 
 - fix(check): persist zhipuai cache_read CNY from the bigmodel.cn rate card
