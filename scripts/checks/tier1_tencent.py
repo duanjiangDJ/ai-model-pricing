@@ -11,9 +11,9 @@ URL = "https://cloud.tencent.com/document/product/1759/127342"
 
 # verified 2026-08: hy3 input ¥1 / output ¥4 / cache-hit ¥0.25 per 1M tokens (CNY)
 VERIFIED = {
-    "hy3": {"per_mtok": {"input": 1.0, "output": 4.0, "cache_read": 0.25, "cache_write": None},
+    "hy3": {"per_mtok": {"input": {"cny": 1.0}, "output": {"cny": 4.0}, "cache_read": {"cny": 0.25}, "cache_write": None},
             "notes": "Official TokenHub billing (CNY/1M tokens): input ¥1, output ¥4, cache-hit ¥0.25. Verified 2026-08-21."},
-    "hunyuan-hy3": {"per_mtok": {"input": 1.0, "output": 4.0, "cache_read": 0.25, "cache_write": None},
+    "hunyuan-hy3": {"per_mtok": {"input": {"cny": 1.0}, "output": {"cny": 4.0}, "cache_read": {"cny": 0.25}, "cache_write": None},
                     "notes": "Official TokenHub billing (CNY/1M tokens): input ¥1, output ¥4, cache-hit ¥0.25. Verified 2026-08-21."},
 }
 
