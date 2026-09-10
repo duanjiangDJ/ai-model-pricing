@@ -64,7 +64,38 @@ def parse(text):
                       "International scope, first token range; cache left unset). "
                       "Parsed by check alibaba."),
         }
+    if not out:
+        # Fail loudly: 0 rows means the page layout changed (or we got a WAF/stub page). A
+        # silent empty parse lets the manifest report check:alibaba GREEN while alibaba prices
+        # drift unverified — a dead check is worse than a failing one.
+        raise ValueError("alibaba pricing page: no International price rows matched (layout changed?)")
     return out
+
+
+def _surge_blocked(provider, parsed, surge=5.0):
+    """Corrections the official page now prices >5x away from what we store.
+
+    update_model_prices' bidirectional surge guard correctly REFUSES such a write (it is the
+    protection against a mis-parse clobbering a verified price) — but the refusal is silent, so
+    a genuinely-wrong stored value stays stuck and never surfaces anywhere. Real 2026-09-10:
+    qwen-vl-ocr input stayed $0.72 while the official International row read $0.07, and
+    qwen3-next-80b-a3b-thinking output stayed $6 vs $1.2. The check must FIRE on these.
+    """
+    by_id = {m["id"]: m for m in provider.get("models", [])}
+    blocked = []
+    for mid, data in parsed.items():
+        m = by_id.get(mid)
+        if not m:
+            continue
+        pm = (m.get("pricing") or {}).get("per_mtok") or {}
+        for k, nv in (data.get("per_mtok") or {}).items():
+            ov = pm.get(k)
+            ov = ov.get("usd") if isinstance(ov, dict) else ov
+            if ov and nv:
+                ratio = nv / ov
+                if ratio > surge or ratio < (1.0 / surge):
+                    blocked.append(f"{mid}.{k}: stored {ov} vs official {nv}")
+    return blocked
 
 
 def run(ctx):
@@ -73,5 +104,13 @@ def run(ctx):
     provider = load_provider(PROVIDER_ID)
     if not provider:
         return {"changed": 0, "detail": "provider file missing"}
+    blocked = _surge_blocked(provider, parsed)
     changed = update_model_prices(provider, parsed, ctx["now"], URL)
+    if blocked:
+        # Apply the safe changes first, then surface the stuck ones as a FAILED check so the
+        # discrepancy is recorded in the manifest instead of being swallowed by the guard.
+        raise RuntimeError(
+            "alibaba: official price >5x from the stored value; the surge guard blocked the "
+            "correction, leaving a stale price stuck (repair it against the official page): "
+            + "; ".join(blocked))
     return {"changed": len(changed), "detail": f"parsed {len(parsed)} models"}

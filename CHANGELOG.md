@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.109.51 — 2026-09-10T14:25Z (feature update)
+
+- fix(checks): retarget anthropic parser (Read/Write cache order, Fable 5.1) + fail loud on 0 parsed; surface surge-blocked alibaba prices
+
 ## 26.109.50 — 2026-09-10T13:08Z (content update)
 
 - openrouter aggregator sync (4 price updates) + drop the 436 spurious status changelog rows the pre-#173 diff emitted

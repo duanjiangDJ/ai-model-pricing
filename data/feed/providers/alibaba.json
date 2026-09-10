@@ -439,7 +439,7 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.72
+            "usd": 0.07
           },
           "output": {
             "usd": 0.16
@@ -1093,7 +1093,7 @@
             "usd": 0.15
           },
           "output": {
-            "usd": 6
+            "usd": 1.2
           },
           "cache_read": null,
           "cache_write": null
