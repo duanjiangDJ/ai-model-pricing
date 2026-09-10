@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.104.41 — 2026-09-10T03:48Z (feature update)
+
+- fix(daily-check): changelog provenance for every persisted openrouter field
+
 ## 26.104.40 — 2026-09-10T02:44Z (content update)
 
 - data: fix deepseek cache_write — the zh-CN parser wrote the off-peak cache-hit price (nums[col+0]) into cache_write; the page has no cache-write row, so cache_write is now null (matches the USD parse). Added row-label assertion + audit gate for cny-only per_mtok fields on USD-declared providers.

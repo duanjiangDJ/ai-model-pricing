@@ -31,10 +31,14 @@ from sync.sync_openrouter import build_model  # noqa: E402
 _RUN_STARTED_ISO = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M")
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/models"
+# diff_openrouter identity/explicitly-handled fields: `id` identifies the model and
+# `pricing` is diffed separately (so its changelog `field` stays "pricing"). Everything
+# else build_model() emits is diffed generically — see the provenance note below.
+_OPENROUTER_DIFF_IGNORED = frozenset(("id", "pricing"))
 
 
 def diff_openrouter(local, remote, now):
-    """Compare local provider file with fresh fetch. Returns (changed_models, added, removed)."""
+    """Compare local provider file with fresh fetch. Returns (added, removed, changed)."""
     local_models = {m["id"]: m for m in local["models"]}
     remote_models = {m["id"]: m for m in remote}
     added, removed, changed = [], [], []
@@ -44,17 +48,19 @@ def diff_openrouter(local, remote, now):
     for mid in sorted(set(local_models) - set(remote_models)):
         removed.append(mid)
 
-    # Also track non-pricing field changes: main() overwrites the whole models list from
-    # the remote catalog, so a context_window/max_output change IS persisted and must be
-    # recorded in the changelog with a source — otherwise it lands with no provenance
-    # (the data concern flagged in PR #154).
-    TRACKED_EXTRA = ("context_window", "max_output")
+    # Track ALL persisted fields, not just a hand-picked subset: main() overwrites the whole
+    # models list from the remote catalog, so ANY changed field is persisted and must carry a
+    # changelog entry + source. #157 fixed pricing + context_window/max_output; the remaining
+    # build_model() fields (name/category/modalities/notes/billing_model) still landed
+    # silently — generalize the diff over every key so no field can change without provenance.
+    IGNORED_FIELDS = _OPENROUTER_DIFF_IGNORED
     for mid in sorted(set(local_models) & set(remote_models)):
         lm, rm = local_models[mid], remote_models[mid]
         lp, rp = lm.get("pricing"), rm.get("pricing")
         if lp != rp:
             changed.append((mid, "pricing", lp, rp))
-        for f in TRACKED_EXTRA:
+        fields = set(lm).union(set(rm)).difference(set(IGNORED_FIELDS))
+        for f in sorted(fields):
             lv, rv = lm.get(f), rm.get(f)
             if lv != rv:
                 changed.append((mid, f, lv, rv))

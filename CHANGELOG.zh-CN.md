@@ -16,6 +16,10 @@
 
 ---
 
+## 26.104.41 — 2026-09-10T03:48Z（功能更新）
+
+- 修复 daily-check：openrouter 每次入库的字段变更都写 changelog 溯源
+
 ## 26.104.40 — 2026-09-10T02:44Z（内容更新）
 
 - data: 修复 deepseek cache_write —— 中文页解析把「空闲时段缓存命中价」(nums[col+0]) 写进了 cache_write；官方页并无缓存写入价，已改为 null（与美元解析一致）。新增行标签断言 + audit 对「美元供应商出现仅 cny 字段」的检查。
