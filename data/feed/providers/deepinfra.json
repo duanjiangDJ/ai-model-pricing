@@ -7,8 +7,8 @@
   "homepage": "https://deepinfra.com/models",
   "pricing_page": "https://deepinfra.com/models",
   "currency": "USD",
-  "updated_at": "2026-09-04T00:22:51Z",
-  "verified_at": "2026-09-04T00:22:51Z",
+  "updated_at": "2026-09-10T09:39:08Z",
+  "verified_at": "2026-09-10T09:39:08Z",
   "models": [
     {
       "id": "ByteDance/Seed-2.0-code",
@@ -1058,13 +1058,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.08
+            "usd": 0.06
           },
           "output": {
             "usd": 0.18
           },
           "cache_read": {
-            "usd": 0.016
+            "usd": 0.015
           },
           "cache_write": null
         },

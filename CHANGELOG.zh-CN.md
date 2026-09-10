@@ -16,6 +16,33 @@
 
 ---
 
+## 26.108.48 — 2026-09-10T09:56Z（内容更新）
+
+- 价格同步（37 处变更）：
+- **302ai**（更新 1）：`glm-5.1`
+- **alibaba**（更新 14）：`qwen3.7-plus`, `qwen3.6-flash`, `qwen-vl-ocr`, `qwen3.6-35b-a3b`, `qwen3-next-80b-a3b-thinking`, `qwen3-next-80b-a3b-instruct`, `qwen3-32b`
+- **cortecs**（更新 3）：`qwen3-32b`, `qwen2.5-vl-72b-instruct`, `glm-5.3`
+- **crossmodel**（更新 5）：`deepseek/deepseek-v4-flash-vision-exp`, `deepseek/deepseek-v4-flash`, `gemini/gemini-3.6-flash`, `openai/gpt-5.6-sol`, `z-ai/glm-5.3-flash`
+- **deepinfra**（更新 1）：`deepseek-ai/DeepSeek-V4-Flash-0731`
+- **deepseek**（更新 4）：`deepseek-v4-pro`, `deepseek-v4-flash-vision-exp`, `deepseek-v4-flash`
+- **digitalocean**（更新 1）：`kimi-k3`
+- **edenai**（更新 10）：`qwen/deepseek-v4-pro-0813`, `qwen/deepseek-v4-flash-0731`, `scaleway/deepseek-v4-flash-0731`, `scaleway/gpt-oss-120b`, `scaleway/llama-3.3-70b-instruct`, `google/gemini-3.8-flash`, `flexai/gpt-oss-20b`, `flexai/DeepSeek-V4-Flash-0731`, `flexai/gpt-oss-120b`, `deepinfra/deepseek-ai/DeepSeek-V4-Flash-0731`
+- **hyper**（更新 5）：`minimax-m2.7`, `glm-5`, `kimi-k2.5`, `glm-5.1`, `gpt-oss-120b`
+- **kilo**（更新 8）：`~moonshotai/kimi-latest`, `deepseek/deepseek-v4-pro-0813`, `deepseek/deepseek-chat`, `deepseek/deepseek-chat-v3-0324`, `openai/gpt-5.6-sol-discounted`, `~z-ai/glm-latest`, `tencent/hy3`, `z-ai/glm-4.6`
+- **llmgateway**（更新 7）：`Qwen3.8-27B`, `kimi-k2.6`, `glm-5.2`, `deepseek-v4-flash`, `kimi-k2.7-code`, `kimi-k3`, `glm-5.2-fast`
+- **minimax**（更新 2）：`MiniMax-M2.5-highspeed`
+- **mistral**（更新 4）：`ministral-3b-latest`, `ministral-8b-latest`
+- **nano-gpt**（更新 5）：`sarvam-105b`, `TEE/glm-5.2`, `TEE/glm-5.2:thinking`, `deepseek/deepseek-v4-flash-vision-exp`, `openai/gpt-latest`
+- **nearai**（更新 5）：`anthropic/claude-sonnet-4-5`, `zai-org/GLM-5.1-FP8`, `Qwen/Qwen3-Embedding-0.6B`, `openai/whisper-large-v3`, `openai/gpt-5.2`
+- **ofox**（更新 3）：`z-ai/glm-5.2`, `z-ai/glm-5.3-flash`, `z-ai/glm-5.3`
+- **opencode-go**（更新 3）：`deepseek-v4-flash-vision-exp`, `deepseek-v4-flash`, `glm-5.3-flash`
+- **openrouter**（新增 6）：`deepseek/deepseek-v4.1-flash`, `mistralai/codestral-2508:batch`, `mistralai/ministral-8b-2512:batch`, `mistralai/mistral-large-2512:batch`, `mistralai/mistral-medium-3.1:batch`, `mistralai/mistral-small-2603:batch`
+- **openrouter**（更新 5）：`deepseek/deepseek-v4-flash`, `z-ai/glm-5.3-flash`, `~z-ai/glm-flash-latest`, `~z-ai/glm-latest`
+- **requesty**（更新 9）：`deepseek-v4-flash-0731`, `deepseek-v4-flash`, `thinkingcap-qwen3.6-27b`, `kimi-k3`, `glm-5.3-flash`, `glm-5.3-flash@eu`, `thinkingcap-qwen3.6-27b@eu`, `kimi-k3@eu`, `deepseek-v4-flash-0731@eu`
+- **venice**（更新 6）：`openai-gpt-56-terra`, `openai-gpt-56-sol`, `openai-gpt-56-terra-pro`, `openai-gpt-56-luna-pro`, `openai-gpt-56-luna`, `openai-gpt-56-sol-pro`
+- **vercel**（更新 1）：`zai/glm-5.3`
+- **zai**（更新 2）：`glm-5.3-flash`
+
 ## 26.107.48 — 2026-09-10T09:39Z（内容更新）
 
 - data：显式化模型状态——为 178 个供应商的 7515 个模型补 status:online。历史上缺省 status 即代表在线；现 audit/schema 视其为显式字段，故每个模型都带显式 status、不再依赖隐式默认。未改动任何 online/offline 实际值；新增 scripts/migrate/add_model_status.py 以便复现。（采用方案 (a)：数据侧补全，而非 schema 强制。）

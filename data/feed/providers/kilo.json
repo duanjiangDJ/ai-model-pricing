@@ -7,8 +7,8 @@
   "homepage": "https://kilo.ai",
   "pricing_page": "https://kilo.ai",
   "currency": "USD",
-  "updated_at": "2026-09-04T00:22:51Z",
-  "verified_at": "2026-09-04T00:22:51Z",
+  "updated_at": "2026-09-10T09:39:08Z",
+  "verified_at": "2026-09-10T09:39:08Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1495,10 +1495,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.32
+            "usd": 0.2574
           },
           "output": {
-            "usd": 0.89
+            "usd": 1.0287
           },
           "cache_read": null,
           "cache_write": null
@@ -1526,13 +1526,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.25
+            "usd": 0.29
           },
           "output": {
-            "usd": 1
+            "usd": 1.14
           },
           "cache_read": {
-            "usd": 0.135
+            "usd": 0.11
           },
           "cache_write": null
         },
@@ -1922,7 +1922,7 @@
             "usd": 3.96
           },
           "cache_read": {
-            "usd": 0.132
+            "usd": 0.044
           },
           "cache_write": null
         },
@@ -7300,13 +7300,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2.5
+            "usd": 2
           },
           "output": {
-            "usd": 15
+            "usd": 10
           },
           "cache_read": {
-            "usd": 0.25
+            "usd": 0.2
           },
           "cache_write": null
         },
@@ -10662,13 +10662,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.0825
+            "usd": 0.132
           },
           "output": {
-            "usd": 0.33
+            "usd": 0.528
           },
           "cache_read": {
-            "usd": 0.020625
+            "usd": 0.033
           },
           "cache_write": null
         },
@@ -11540,13 +11540,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.55
+            "usd": 0.43
           },
           "output": {
-            "usd": 2.2
+            "usd": 1.75
           },
           "cache_read": {
-            "usd": 0.11
+            "usd": 0.08
           },
           "cache_write": null
         },
@@ -11639,7 +11639,7 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.06
+            "usd": 0.0605
           },
           "output": {
             "usd": 0.4
@@ -12134,13 +12134,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2.5
+            "usd": 2.4
           },
           "output": {
-            "usd": 14
+            "usd": 12
           },
           "cache_read": {
-            "usd": 0.29
+            "usd": 0.24
           },
           "cache_write": null
         },
@@ -12298,13 +12298,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.15
+            "usd": 1.085
           },
           "output": {
-            "usd": 3.5
+            "usd": 3.41
           },
           "cache_read": {
-            "usd": 0.1
+            "usd": 0.2015
           },
           "cache_write": null
         },
@@ -12313,7 +12313,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "OpenRouter reseller price | z-ai/glm-latest (paid; ~ prefix is an open-weights flag, not free)",
+      "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
       ],

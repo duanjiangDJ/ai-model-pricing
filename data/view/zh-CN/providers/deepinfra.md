@@ -6,8 +6,8 @@
 - 官网: https://deepinfra.com/models
 - 定价页: https://deepinfra.com/models
 - 币种: USD
-- 数据更新时间: 2026-09-04T00:22:51Z
-- 核实时间: 2026-09-04T00:22:51Z
+- 数据更新时间: 2026-09-10T09:39:08Z
+- 核实时间: 2026-09-10T09:39:08Z
 
 共 **63** 个模型。
 
@@ -45,7 +45,7 @@
 | `deepseek-ai/DeepSeek-V3.1` | ✅ 在线 | reasoning | 按量 | 163.84K | $0.25 | $0.95 | $0.13 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V3.2` | ✅ 在线 | reasoning | 按量 | 163.84K | $0.26 | $0.38 | $0.13 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.09 | $0.18 | $0.018 | — | —/— | — | models.dev official list price |
-| `deepseek-ai/DeepSeek-V4-Flash-0731` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.08 | $0.18 | $0.016 | — | —/— | — | models.dev official list price |
+| `deepseek-ai/DeepSeek-V4-Flash-0731` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.06 | $0.18 | $0.015 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Flash-Vision-Exp` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.44 | $1.32 | $0.14 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Pro` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.3 | $2.6 | $0.1 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Pro-0813` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.3 | $2.6 | $0.1 | — | —/— | — | models.dev official list price |

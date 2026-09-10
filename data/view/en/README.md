@@ -3,9 +3,9 @@
 > Data sources: official pricing pages & public APIs. Machine-readable version: [`data/feed/`](../../../data/feed/).
 > Auto-updated daily by GitHub Actions (see `.github/workflows/daily-check.yml`).
 
-- Generated: 2026-09-10T00:37:59Z
+- Generated: 2026-09-10T09:38:18Z
 - Providers: 190
-- Models total: 7579
+- Models total: 7585
 - Plans total: 67
 
 ## Providers
@@ -26,13 +26,13 @@
 | [QVAC](providers/qvac.md) | Inference host | 9 | `providers/qvac.json` | 2026-09-04T00:22:51Z |
 | [iFlow](providers/iflowcn.md) | Inference host | 14 | `providers/iflowcn.json` | 2026-09-04T00:22:51Z |
 | [Claudinio](providers/claudinio.md) | Inference host | 2 | `providers/claudinio.json` | 2026-09-04T00:22:51Z |
-| [Cortecs](providers/cortecs.md) | Inference host | 112 | `providers/cortecs.json` | 2026-09-04T00:22:51Z |
-| [NanoGPT](providers/nano-gpt.md) | Inference host | 693 | `providers/nano-gpt.json` | 2026-09-04T00:22:51Z |
+| [Cortecs](providers/cortecs.md) | Inference host | 112 | `providers/cortecs.json` | 2026-09-10T09:39:10Z |
+| [NanoGPT](providers/nano-gpt.md) | Inference host | 693 | `providers/nano-gpt.json` | 2026-09-10T09:39:07Z |
 | [ModelScope](providers/modelscope.md) | Inference host | 7 | `providers/modelscope.json` | 2026-09-04T00:22:51Z |
 | [Synthetic](providers/synthetic.md) | Inference host | 9 | `providers/synthetic.json` | 2026-09-04T00:22:51Z |
 | [Jalapeno Cloud](providers/jalapeno.md) | Inference host | 17 | `providers/jalapeno.json` | 2026-09-04T00:22:51Z |
 | [abliteration.ai](providers/abliteration-ai.md) | Inference host | 3 | `providers/abliteration-ai.json` | 2026-09-04T00:22:51Z |
-| [DeepSeek](providers/deepseek.md) | First-party | 6 | `providers/deepseek.json` | 2026-09-10T00:00:00Z |
+| [DeepSeek](providers/deepseek.md) | First-party | 6 | `providers/deepseek.json` | 2026-09-10T09:39:11Z |
 | [GreenPT](providers/greenpt.md) | Inference host | 37 | `providers/greenpt.json` | 2026-09-02T00:19:17Z |
 | [Xpersona](providers/xpersona.md) | Inference host | 13 | `providers/xpersona.json` | 2026-09-04T00:22:51Z |
 | [Tencent TokenHub](providers/tencent-tokenhub.md) | Inference host | 3 | `providers/tencent-tokenhub.json` | 2026-09-04T00:22:51Z |
@@ -42,7 +42,7 @@
 | [Alibaba Token Plan](providers/alibaba-token-plan.md) | Subscription | 25 | `providers/alibaba-token-plan.json` | 2026-08-27T17:11:11Z |
 | [Google](providers/google.md) | First-party | 41 | `providers/google.json` | 2026-09-04T00:22:51Z |
 | [Model Oracle AI](providers/model-oracle-ai.md) | Inference host | 15 | `providers/model-oracle-ai.json` | 2026-09-04T00:22:51Z |
-| [Deep Infra](providers/deepinfra.md) | Inference host | 63 | `providers/deepinfra.json` | 2026-09-04T00:22:51Z |
+| [Deep Infra](providers/deepinfra.md) | Inference host | 63 | `providers/deepinfra.json` | 2026-09-10T09:39:08Z |
 | [Meta](providers/meta.md) | Inference host | 5 | `providers/meta.json` | 2026-09-04T00:22:51Z |
 | [Hugging Face](providers/huggingface.md) | Inference host | 73 | `providers/huggingface.json` | 2026-09-04T00:22:51Z |
 | [Impossibl](providers/impossibl.md) | Inference host | 76 | `providers/impossibl.json` | 2026-09-04T00:22:51Z |
@@ -58,13 +58,13 @@
 | [Auriko](providers/auriko.md) | Inference host | 15 | `providers/auriko.json` | 2026-09-04T00:22:51Z |
 | [DaoXE](providers/daoxe.md) | Inference host | 9 | `providers/daoxe.json` | 2026-09-04T00:22:51Z |
 | [Moonshot AI](providers/moonshotai.md) | Inference host | 14 | `providers/moonshotai.json` | 2026-09-04T00:22:51Z |
-| [CrossModel](providers/crossmodel.md) | Inference host | 57 | `providers/crossmodel.json` | 2026-09-04T00:22:51Z |
+| [CrossModel](providers/crossmodel.md) | Inference host | 57 | `providers/crossmodel.json` | 2026-09-10T09:39:07Z |
 | [Kenari](providers/kenari.md) | Inference host | 59 | `providers/kenari.json` | 2026-09-04T00:22:51Z |
 | [Clarifai](providers/clarifai.md) | Inference host | 12 | `providers/clarifai.json` | 2026-09-04T00:22:51Z |
 | [Snowflake Cortex](providers/snowflake-cortex.md) | Inference host | 25 | `providers/snowflake-cortex.json` | 2026-09-04T00:22:51Z |
 | [Anthropic](providers/anthropic.md) | First-party | 17 | `providers/anthropic.json` | 2026-09-04T00:22:51Z |
 | [Cohere](providers/cohere.md) | First-party | 14 | `providers/cohere.json` | 2026-09-04T00:22:51Z |
-| [Z.AI](providers/zai.md) | Inference host | 23 | `providers/zai.json` | 2026-09-09T18:38:31Z |
+| [Z.AI](providers/zai.md) | Inference host | 23 | `providers/zai.json` | 2026-09-10T09:39:10Z |
 | [routing.run](providers/routing-run.md) | Inference host | 15 | `providers/routing-run.json` | 2026-09-04T00:22:51Z |
 | [STACKIT](providers/stackit.md) | Inference host | 8 | `providers/stackit.json` | 2026-09-04T00:22:51Z |
 | [Databricks](providers/databricks.md) | Inference host | 30 | `providers/databricks.json` | 2026-09-04T00:22:51Z |
@@ -76,7 +76,7 @@
 | [Crusoe](providers/crusoe.md) | Inference host | 8 | `providers/crusoe.json` | 2026-09-04T00:22:51Z |
 | [DInference](providers/dinference.md) | Inference host | 6 | `providers/dinference.json` | 2026-09-04T00:22:51Z |
 | [OpenAI](providers/openai.md) | First-party | 55 | `providers/openai.json` | 2026-09-04T00:22:51Z |
-| [OpenCode Go](providers/opencode-go.md) | Subscription | 34 | `providers/opencode-go.json` | 2026-09-04T00:22:51Z |
+| [OpenCode Go](providers/opencode-go.md) | Subscription | 34 | `providers/opencode-go.json` | 2026-09-10T09:39:10Z |
 | [xAI](providers/xai.md) | First-party | 17 | `providers/xai.json` | 2026-09-04T00:22:51Z |
 | [LMStudio](providers/lmstudio.md) | Inference host | 3 | `providers/lmstudio.json` | 2026-09-04T00:22:51Z |
 | [Ambient](providers/ambient.md) | Inference host | 10 | `providers/ambient.json` | 2026-09-02T00:19:17Z |
@@ -84,7 +84,7 @@
 | [Nebius Token Factory](providers/nebius.md) | Inference host | 38 | `providers/nebius.json` | 2026-09-04T00:22:51Z |
 | [Echo](providers/echo.md) | Inference host | 1 | `providers/echo.json` | 2026-09-04T00:22:51Z |
 | [CloudFerro Sherlock](providers/cloudferro-sherlock.md) | Inference host | 5 | `providers/cloudferro-sherlock.json` | 2026-09-04T00:22:51Z |
-| [NEAR AI Cloud](providers/nearai.md) | Inference host | 37 | `providers/nearai.json` | 2026-09-04T00:22:51Z |
+| [NEAR AI Cloud](providers/nearai.md) | Inference host | 37 | `providers/nearai.json` | 2026-09-10T09:39:09Z |
 | [Tinfoil](providers/tinfoil.md) | Inference host | 9 | `providers/tinfoil.json` | 2026-09-04T00:22:51Z |
 | [LLMTR](providers/llmtr.md) | Inference host | 32 | `providers/llmtr.json` | 2026-09-04T00:22:51Z |
 | [Merge Gateway](providers/merge-gateway.md) | Aggregator | 179 | `providers/merge-gateway.json` | 2026-09-04T00:22:51Z |
@@ -96,7 +96,7 @@
 | [Cloudflare AI Gateway](providers/cloudflare-ai-gateway.md) | Aggregator | 79 | `providers/cloudflare-ai-gateway.json` | 2026-09-04T00:22:51Z |
 | [D.Run (China)](providers/drun.md) | Inference host | 3 | `providers/drun.json` | 2026-09-04T00:22:51Z |
 | [Sarvam AI](providers/sarvam.md) | Inference host | 2 | `providers/sarvam.json` | 2026-09-04T00:22:51Z |
-| [DigitalOcean](providers/digitalocean.md) | Inference host | 95 | `providers/digitalocean.json` | 2026-09-04T00:22:51Z |
+| [DigitalOcean](providers/digitalocean.md) | Inference host | 95 | `providers/digitalocean.json` | 2026-09-10T09:39:07Z |
 | [Alibaba Coding Plan (China)](providers/alibaba-coding-plan-cn.md) | Subscription | 12 | `providers/alibaba-coding-plan-cn.json` | 2026-08-28T08:54:00Z |
 | [StepFun Step Plan (Global)](providers/stepfun-ai-step-plan.md) | Inference host | 3 | `providers/stepfun-ai-step-plan.json` | 2026-09-04T00:22:51Z |
 | [FastRouter](providers/fastrouter.md) | Aggregator | 47 | `providers/fastrouter.json` | 2026-09-04T00:22:51Z |
@@ -106,7 +106,7 @@
 | [IO.NET](providers/io-net.md) | Inference host | 17 | `providers/io-net.json` | 2026-09-04T00:22:51Z |
 | [Berget.AI](providers/berget.md) | Inference host | 12 | `providers/berget.json` | 2026-09-04T00:22:51Z |
 | [Xiaomi](providers/xiaomi.md) | Inference host | 10 | `providers/xiaomi.json` | 2026-09-04T00:22:51Z |
-| [Alibaba](providers/alibaba.md) | First-party | 55 | `providers/alibaba.json` | 2026-09-04T00:22:52Z |
+| [Alibaba](providers/alibaba.md) | First-party | 55 | `providers/alibaba.json` | 2026-09-10T09:39:11Z |
 | [Sakana AI](providers/sakana.md) | Inference host | 4 | `providers/sakana.json` | 2026-09-04T00:22:51Z |
 | [ZenMux](providers/zenmux.md) | Inference host | 120 | `providers/zenmux.json` | 2026-09-04T00:22:51Z |
 | [Alibaba Coding Plan](providers/alibaba-coding-plan.md) | Subscription | 12 | `providers/alibaba-coding-plan.json` | 2026-08-28T08:54:00Z |
@@ -124,19 +124,19 @@
 | [FreeModel](providers/freemodel.md) | Inference host | 10 | `providers/freemodel.json` | 2026-09-04T00:22:51Z |
 | [Nova](providers/nova.md) | Inference host | 2 | `providers/nova.json` | 2026-09-04T00:22:51Z |
 | [Together AI](providers/togetherai.md) | Inference host | 38 | `providers/togetherai.json` | 2026-09-04T00:22:51Z |
-| [Ofox](providers/ofox.md) | Inference host | 114 | `providers/ofox.json` | 2026-09-04T00:22:51Z |
+| [Ofox](providers/ofox.md) | Inference host | 114 | `providers/ofox.json` | 2026-09-10T09:39:09Z |
 | [Friendli](providers/friendli.md) | Inference host | 6 | `providers/friendli.json` | 2026-09-04T00:22:51Z |
 | [InferX](providers/inferx.md) | Inference host | 12 | `providers/inferx.json` | 2026-09-04T00:22:51Z |
 | [Helicone](providers/helicone.md) | Inference host | 90 | `providers/helicone.json` | 2026-09-04T00:22:51Z |
 | [Zhipu AI](providers/zhipuai.md) | First-party | 17 | `providers/zhipuai.json` | 2026-09-04T00:22:51Z |
 | [Neon](providers/neon.md) | Inference host | 42 | `providers/neon.json` | 2026-09-04T00:22:51Z |
 | [evroc](providers/evroc.md) | Inference host | 17 | `providers/evroc.json` | 2026-09-04T00:22:51Z |
-| [302.AI](providers/302ai.md) | Inference host | 97 | `providers/302ai.json` | 2026-09-04T00:22:51Z |
+| [302.AI](providers/302ai.md) | Inference host | 97 | `providers/302ai.json` | 2026-09-10T09:39:09Z |
 | [OpenCode Zen](providers/opencode.md) | Aggregator | 99 | `providers/opencode.json` | 2026-09-04T00:22:51Z |
-| [Requesty](providers/requesty.md) | Inference host | 153 | `providers/requesty.json` | 2026-09-04T00:22:51Z |
+| [Requesty](providers/requesty.md) | Inference host | 153 | `providers/requesty.json` | 2026-09-10T09:39:07Z |
 | [SiliconFlow](providers/siliconflow.md) | Inference host | 61 | `providers/siliconflow.json` | 2026-09-04T00:22:51Z |
 | [Atomic Chat](providers/atomic-chat.md) | Inference host | 5 | `providers/atomic-chat.json` | 2026-09-04T00:22:51Z |
-| [Charm Hyper](providers/hyper.md) | Inference host | 32 | `providers/hyper.json` | 2026-09-04T00:22:51Z |
+| [Charm Hyper](providers/hyper.md) | Inference host | 32 | `providers/hyper.json` | 2026-09-10T09:39:07Z |
 | [Subconscious](providers/subconscious.md) | Inference host | 2 | `providers/subconscious.json` | 2026-09-02T00:19:17Z |
 | [Azure](providers/azure.md) | Inference host | 86 | `providers/azure.json` | 2026-09-04T00:22:51Z |
 | [TrustedRouter](providers/trustedrouter.md) | Aggregator | 14 | `providers/trustedrouter.json` | 2026-09-04T00:22:51Z |
@@ -145,7 +145,7 @@
 | [Thinking Machines](providers/thinkingmachines.md) | Inference host | 2 | `providers/thinkingmachines.json` | 2026-09-04T00:22:51Z |
 | [Baseten](providers/baseten.md) | Inference host | 21 | `providers/baseten.json` | 2026-09-04T00:22:51Z |
 | [Poe](providers/poe.md) | Inference host | 137 | `providers/poe.json` | 2026-09-04T00:22:51Z |
-| [Mistral](providers/mistral.md) | First-party | 34 | `providers/mistral.json` | 2026-09-04T00:22:52Z |
+| [Mistral](providers/mistral.md) | First-party | 34 | `providers/mistral.json` | 2026-09-10T09:39:11Z |
 | [Modal](providers/modal.md) | Inference host | 4 | `providers/modal.json` | 2026-09-04T00:22:51Z |
 | [AIHubMix](providers/aihubmix.md) | Inference host | 77 | `providers/aihubmix.json` | 2026-09-04T00:22:51Z |
 | [ClinePass](providers/cline-pass.md) | Inference host | 13 | `providers/cline-pass.json` | 2026-09-04T00:22:51Z |
@@ -158,11 +158,11 @@
 | [AMD](providers/amd.md) | Inference host | 4 | `providers/amd.json` | 2026-09-04T00:22:51Z |
 | [Bailing](providers/bailing.md) | Inference host | 2 | `providers/bailing.json` | 2026-09-04T00:22:51Z |
 | [watsonx.ai](providers/watsonx.md) | Inference host | 5 | `providers/watsonx.json` | 2026-09-04T00:22:51Z |
-| [Vercel AI Gateway](providers/vercel.md) | Aggregator | 375 | `providers/vercel.json` | 2026-09-04T00:22:51Z |
-| [Eden AI](providers/edenai.md) | Inference host | 255 | `providers/edenai.json` | 2026-09-04T00:22:51Z |
+| [Vercel AI Gateway](providers/vercel.md) | Aggregator | 375 | `providers/vercel.json` | 2026-09-10T09:39:08Z |
+| [Eden AI](providers/edenai.md) | Inference host | 255 | `providers/edenai.json` | 2026-09-10T09:39:10Z |
 | [NovitaAI](providers/novita-ai.md) | Inference host | 107 | `providers/novita-ai.json` | 2026-09-04T00:22:51Z |
 | [Upstage](providers/upstage.md) | Inference host | 4 | `providers/upstage.json` | 2026-09-04T00:22:51Z |
-| [DevPass (LLM Gateway)](providers/llmgateway.md) | Aggregator | 565 | `providers/llmgateway.json` | 2026-09-04T00:22:51Z |
+| [DevPass (LLM Gateway)](providers/llmgateway.md) | Aggregator | 565 | `providers/llmgateway.json` | 2026-09-10T09:39:08Z |
 | [Chutes](providers/chutes.md) | Inference host | 14 | `providers/chutes.json` | 2026-09-04T00:22:51Z |
 | [CrofAI](providers/crof.md) | Inference host | 30 | `providers/crof.json` | 2026-09-04T00:22:51Z |
 | [v0](providers/v0.md) | Subscription | 3 | `providers/v0.json` | 2026-09-04T00:22:51Z |
@@ -177,13 +177,13 @@
 | [EBCloud](providers/ebcloud.md) | Inference host | 4 | `providers/ebcloud.json` | 2026-09-04T00:22:51Z |
 | [TensorX](providers/tensorx.md) | Inference host | 25 | `providers/tensorx.json` | 2026-09-04T00:22:51Z |
 | [Tencent Token Plan](providers/tencent-token-plan.md) | Subscription | 1 | `providers/tencent-token-plan.json` | 2026-08-27T17:11:11Z |
-| [Kilo Gateway](providers/kilo.md) | Aggregator | 383 | `providers/kilo.json` | 2026-09-04T00:22:51Z |
+| [Kilo Gateway](providers/kilo.md) | Aggregator | 383 | `providers/kilo.json` | 2026-09-10T09:39:08Z |
 | [Pioneer](providers/pioneer.md) | Inference host | 103 | `providers/pioneer.json` | 2026-09-04T00:22:51Z |
-| [Venice AI](providers/venice.md) | Inference host | 103 | `providers/venice.json` | 2026-09-04T00:22:51Z |
+| [Venice AI](providers/venice.md) | Inference host | 103 | `providers/venice.json` | 2026-09-10T09:39:08Z |
 | [Fireworks AI](providers/fireworks-ai.md) | Inference host | 26 | `providers/fireworks-ai.json` | 2026-09-04T00:22:51Z |
 | [Weights & Biases](providers/wandb.md) | Inference host | 32 | `providers/wandb.json` | 2026-09-04T00:22:51Z |
 | [Abacus](providers/abacus.md) | Inference host | 108 | `providers/abacus.json` | 2026-09-04T00:22:51Z |
-| [MiniMax (minimax.io)](providers/minimax.md) | First-party | 7 | `providers/minimax.json` | 2026-09-04T00:22:52Z |
+| [MiniMax (minimax.io)](providers/minimax.md) | First-party | 7 | `providers/minimax.json` | 2026-09-10T09:39:11Z |
 | [Vultr](providers/vultr.md) | Inference host | 10 | `providers/vultr.json` | 2026-09-04T00:22:51Z |
 | [GitHub](providers/github.md) | Subscription | 33 | `providers/github.json` | 2026-08-28T08:54:00Z |
 | [Cursor (Anysphere)](providers/cursor.md) | Subscription | 0 | `providers/cursor.json` | 2026-08-27T17:11:11Z |
@@ -201,7 +201,7 @@
 | [百川智能 (Baichuan)](providers/baichuan.md) | First-party | 1 | `providers/baichuan.json` | 2026-08-28T10:02:16.380334Z |
 | [科大讯飞星火 (iFlytek Spark)](providers/iflytek.md) | First-party | 2 | `providers/iflytek.json` | 2026-08-28T10:02:16.380334Z |
 | [零一万物 (01.AI)](providers/lingyiwanwu.md) | First-party | 2 | `providers/lingyiwanwu.json` | 2026-08-28T10:02:16.380334Z |
-| [OpenRouter](providers/openrouter.md) | Aggregator | 430 | `providers/openrouter.json` | 2026-09-10T00:37:59Z |
+| [OpenRouter](providers/openrouter.md) | Aggregator | 436 | `providers/openrouter.json` | 2026-09-10T09:39:10Z |
 
 ## Plans
 

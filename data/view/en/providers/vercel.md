@@ -6,8 +6,8 @@
 - Homepage: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - Pricing page: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - Currency: USD
-- Data updated: 2026-09-04T00:22:51Z
-- Verified: 2026-09-04T00:22:51Z
+- Data updated: 2026-09-10T09:39:08Z
+- Verified: 2026-09-10T09:39:08Z
 
 **375** models in total.
 
@@ -383,7 +383,7 @@
 | `zai/glm-5.1` | ✅ online | reasoning | per-token | 202.8K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `zai/glm-5.2` | ✅ online | reasoning | per-token | 1M | $0.8 | $2.55 | $0.16 | — | —/— | — | models.dev official list price |
 | `zai/glm-5.2-fast` | ✅ online | reasoning | per-token | 1M | $2.1 | $6.6 | $0.21 | — | —/— | — | models.dev official list price |
-| `zai/glm-5.3` | ✅ online | reasoning | per-token | 1M | $0.7 | $2.2 | $0.13 | — | —/— | — | models.dev official list price |
+| `zai/glm-5.3` | ✅ online | reasoning | per-token | 1M | $1.4 | $4.4 | $0.14 | — | —/— | — | models.dev official list price |
 | `zai/glm-5.3-fast` | ✅ online | reasoning | per-token | 1.04858M | $2.1 | $6.6 | $0.21 | — | —/— | — | models.dev official list price |
 | `zai/glm-5.3-flash` | ✅ online | reasoning | per-token | 1M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `zai/glm-5.3-promo-50` | ✅ online | reasoning | per-token | 1.04858M | $0.7 | $2.2 | $0.13 | — | —/— | — | models.dev official list price |

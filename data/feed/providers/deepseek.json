@@ -7,8 +7,8 @@
   "homepage": "https://api-docs.deepseek.com/quick_start/pricing",
   "pricing_page": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
   "currency": "USD",
-  "updated_at": "2026-09-10T00:00:00Z",
-  "verified_at": "2026-09-10T00:00:00Z",
+  "updated_at": "2026-09-10T09:39:11Z",
+  "verified_at": "2026-09-10T09:39:11Z",
   "models": [
     {
       "id": "deepseek-flash",
@@ -136,11 +136,11 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.44,
+            "usd": 0.14,
             "cny": 3.0
           },
           "output": {
-            "usd": 1.32,
+            "usd": 0.28,
             "cny": 9.0
           },
           "cache_read": {
@@ -174,7 +174,7 @@
           }
         }
       },
-      "notes": "RETIRED — superseded by the official deepseek-flash (DeepSeek-V4.1-Flash) model. The name deepseek-v4-flash is still accepted as a legacy alias, but its requests are served by DeepSeek-V4.1-Flash and billed at the Flash price. Prices shown are the last published V4-Flash list prices, kept for historical reference only.",
+      "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
       ],
@@ -190,11 +190,11 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.44,
+            "usd": 0.14,
             "cny": 3.0
           },
           "output": {
-            "usd": 1.32,
+            "usd": 0.28,
             "cny": 9.0
           },
           "cache_read": {
@@ -228,7 +228,7 @@
           }
         }
       },
-      "notes": "RETIRED — superseded by the official deepseek-flash (DeepSeek-V4.1-Flash) model. The name deepseek-v4-flash-vision-exp is still accepted as a legacy alias, but its requests are served by DeepSeek-V4.1-Flash and billed at the Flash price. Prices shown are the last published V4-Flash list prices, kept for historical reference only.",
+      "notes": "models.dev official list price",
       "status": "offline",
       "billing_model": [
         "pay_per_token"
@@ -285,7 +285,7 @@
           }
         }
       },
-      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). From 12:00 Beijing time 2026-09-14, deepseek-v4-pro requests are routed to V4.1-Flash and billed at the V4.1-Flash price. Source: api-docs.deepseek.com/quick_start/pricing.",
+      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). From 12:00 Beijing time 2026-09-14, deepseek-v4-pro requests are routed to V4.1-Flash and billed at the V4.1-Flash price (until a future V4.1 Pro release). Parsed by check deepseek.",
       "billing_model": [
         "pay_per_token"
       ],

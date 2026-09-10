@@ -6,8 +6,8 @@
 - Homepage: https://deepinfra.com/models
 - Pricing page: https://deepinfra.com/models
 - Currency: USD
-- Data updated: 2026-09-04T00:22:51Z
-- Verified: 2026-09-04T00:22:51Z
+- Data updated: 2026-09-10T09:39:08Z
+- Verified: 2026-09-10T09:39:08Z
 
 **63** models in total.
 
@@ -45,7 +45,7 @@
 | `deepseek-ai/DeepSeek-V3.1` | ✅ online | reasoning | per-token | 163.84K | $0.25 | $0.95 | $0.13 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V3.2` | ✅ online | reasoning | per-token | 163.84K | $0.26 | $0.38 | $0.13 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Flash` | ✅ online | reasoning | per-token | 1.04858M | $0.09 | $0.18 | $0.018 | — | —/— | — | models.dev official list price |
-| `deepseek-ai/DeepSeek-V4-Flash-0731` | ✅ online | reasoning | per-token | 1.04858M | $0.08 | $0.18 | $0.016 | — | —/— | — | models.dev official list price |
+| `deepseek-ai/DeepSeek-V4-Flash-0731` | ✅ online | reasoning | per-token | 1.04858M | $0.06 | $0.18 | $0.015 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Flash-Vision-Exp` | ✅ online | reasoning | per-token | 1.04858M | $0.44 | $1.32 | $0.14 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Pro` | ✅ online | reasoning | per-token | 1.04858M | $1.3 | $2.6 | $0.1 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Pro-0813` | ✅ online | reasoning | per-token | 1.04858M | $1.3 | $2.6 | $0.1 | — | —/— | — | models.dev official list price |

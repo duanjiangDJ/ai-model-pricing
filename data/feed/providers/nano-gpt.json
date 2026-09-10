@@ -7,8 +7,8 @@
   "homepage": "https://docs.nano-gpt.com",
   "pricing_page": "https://docs.nano-gpt.com",
   "currency": "USD",
-  "updated_at": "2026-09-04T00:22:51Z",
-  "verified_at": "2026-09-04T00:22:51Z",
+  "updated_at": "2026-09-10T09:39:07Z",
+  "verified_at": "2026-09-10T09:39:07Z",
   "models": [
     {
       "id": "Baichuan-M2",
@@ -1939,10 +1939,10 @@
             "usd": 1.4
           },
           "output": {
-            "usd": 4.6
+            "usd": 4.4
           },
           "cache_read": {
-            "usd": 0.5
+            "usd": 0.7
           },
           "cache_write": null
         },
@@ -1972,10 +1972,10 @@
             "usd": 1.4
           },
           "output": {
-            "usd": 4.6
+            "usd": 4.4
           },
           "cache_read": {
-            "usd": 0.5
+            "usd": 0.7
           },
           "cache_write": null
         },
@@ -7032,13 +7032,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.22
+            "usd": 0.44
           },
           "output": {
-            "usd": 0.66
+            "usd": 1.32
           },
           "cache_read": {
-            "usd": 0.007
+            "usd": 0.014
           },
           "cache_write": null
         },
@@ -15697,13 +15697,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2
-          },
-          "output": {
             "usd": 10
           },
+          "output": {
+            "usd": 50
+          },
           "cache_read": {
-            "usd": 0.2
+            "usd": 1
           },
           "cache_write": null
         },
@@ -19019,13 +19019,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.045
+            "usd": 0.054
           },
           "output": {
-            "usd": 0.177
+            "usd": 0.2124
           },
           "cache_read": {
-            "usd": 0.028
+            "usd": 0.0336
           },
           "cache_write": null
         },
