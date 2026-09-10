@@ -54,8 +54,14 @@ def infer_category(mid, m):
 
 
 def _u(v):
-    """Wrap a numeric price into a dual-currency object (usd key); None stays None."""
-    return {"usd": v} if v is not None else None
+    """Wrap a numeric price into a dual-currency object (usd key).
+
+    models.dev reports 0 for plan-included / unknown models - NOT a real $0 price. Per the
+    "never 0" invariant, 0 maps to None (unknown) so we never fabricate a free price.
+    """
+    if v is None or v == 0:
+        return None
+    return {"usd": v}
 
 
 def build_model(mid, m):
@@ -63,15 +69,10 @@ def build_model(mid, m):
     limit = m.get("limit") or {}
     token_vals = [cost.get("input"), cost.get("output"), cost.get("cache_read")]
     has_token_price = any(v is not None and v != 0 for v in token_vals)
-    if has_token_price:
-        billing = ["pay_per_token"]
-    elif any(v == 0 for v in token_vals if v is not None):
-        billing = ["free"]
-    else:
-        billing = ["unknown"]
+    # models.dev's 0 means "no published per-token price" (plan-included / unknown), never a
+    # real free price - so never label such models "free" (see the "never 0" invariant).
+    billing = ["pay_per_token"] if has_token_price else ["unknown"]
     note = "models.dev official list price"
-    if billing == ["free"]:
-        note += " | Free model (per_mtok = 0)."
     return {
         "id": mid,
         "name": m.get("name", mid),

@@ -232,7 +232,12 @@ def update_model_prices(provider, updates, now, source, surge_factor=5.0):
                 ov = cur_old.get(currency)
                 if ov == nv:
                     continue
-                if ov and nv:
+                # Never let a bare 0 overwrite a real/unknown value: 0 means "free", while an
+                # aggregator's 0 usually means "not published" -> that must stay null.
+                if nv == 0 and (ov is None or ov != 0):
+                    print(f"  SKIP {mid}.{k}.{currency}: refusing to write 0 over {ov!r} (0 means free; unknown must stay null)")
+                    continue
+                if ov is not None and nv is not None and ov != 0:
                     _ratio = nv / ov
                     if _ratio > surge_factor or _ratio < (1.0 / surge_factor):
                         print(f"  SKIP {mid}.{k}.{currency}: {ov} -> {nv} looks like a parsing error (bidirectional {surge_factor}x surge); keeping old value")
