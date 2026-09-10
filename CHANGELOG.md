@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.110.53 — 2026-09-10T16:45Z (feature update)
+
+- fix(audit): hard-fail a fabricated mixed-currency zero (usd 0 alongside a positive cny) + drop zhipuai glm-4.7-flash's bogus usd 0
+
 ## 26.110.52 — 2026-09-10T15:58Z (content update)
 
 - price sync (6 changes):

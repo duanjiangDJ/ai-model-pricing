@@ -106,6 +106,15 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    `tier0_alibaba._surge_blocked`); a silent skip leaves a stale price published forever. Real
    2026-09-10: `qwen-vl-ocr` input stuck at $0.72 vs the official $0.07, and
    `qwen3-next-80b-a3b-thinking` output $6 vs $1.2.
+   **Mixed-currency zero (fabricated)**: `0` means *free*, so a per_mtok field that is `0` in one
+   currency but `>0` in another is self-contradictory — e.g. `{"usd": 0, "cny": 0.15}` claims the
+   model is free in USD while it is demonstrably paid in CNY. This happens when a CNY-only vendor's
+   collector (which supplies only `cny`) inherits a stale `usd: 0` from an earlier aggregator write:
+   `update_model_prices()` merges per currency and **never clears a value**, so the bad `usd: 0`
+   survives every 3h sync (and even inflates the README "Free models" count). `audit.py` now
+   hard-fails this class via `toolbox.mixed_currency_zero()`. The correct form for a single-currency
+   vendor is the schema-blessed single-currency entry (`{"cny": 0.15}`) or `usd: null` — never `0`.
+   Real 2026-09-10: zhipuai `glm-4.7-flash` (`usd: 0` vs `cny: 0.15` / `1.5`).
 5. **A check parser must FAIL LOUDLY on a layout change, never return 0 rows.** `tier0_anthropic`
    was matching nothing for an unknown period (the page swapped the cache cells to
    **Read before Write** and renamed "Fable 5" → "Fable 5.1"), so `check:anthropic` stayed GREEN in

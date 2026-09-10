@@ -253,11 +253,9 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0,
             "cny": 0.15
           },
           "output": {
-            "usd": 0,
             "cny": 1.5
           },
           "cache_read": null,
@@ -268,7 +266,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.15, output ¥1.5. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion. | Billed per-token (CNY, domestic). models.dev USD label unreliable.",
+      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input 0.15, output 1.5 CNY. Official page, verified 2026-08-28T09:00:40Z (CNY). USD price not published (single-currency CNY entry; USD omitted, not 0). Independent of the z.ai USD list.",
       "billing_model": [
         "pay_per_token"
       ],
