@@ -15,7 +15,7 @@ from toolbox import http_get, js_fetch, load_provider, to_text, update_model_pri
 
 TIER = 0
 PROVIDER_ID = "deepseek"
-URL = "https://api-docs.deepseek.com/quick_start/pricing"          # English (USD)
+URL = "https://api-docs.deepseek.com/quick_start/pricing/"  # trailing slash: avoids 302, serves static price table          # English (USD)
 URL_CNY = "https://api-docs.deepseek.com/zh-cn/quick_start/pricing"  # 中文 (CNY)
 
 COLS = {

@@ -16,6 +16,10 @@
 
 ---
 
+## 26.102.40 — 2026-09-10T01:25Z（功能更新）
+
+- fix(采集)：恢复 deepseek 官方源采集。定价页 URL 需带尾斜杠——无尾斜杠会 302 到空响应导致 parse 0；带尾斜杠返回静态 USD 价表（18 个 $）。已同步 collect_deepseek.py 与 checks/tier0_deepseek.py。router deepseek 由 error/0 恢复为 ok/3，价与库中一致。
+
 ## 26.102.39 — 2026-09-10T01:04Z（功能更新）
 
 - fix(采集)：tier1_tencent 改用 {cny:...} 字典（此前标量被当作 USD 写入，使 CNY-only 供应商出现编造 USD 价；现保持 CNY-only）。ci：daily-check 超时 25→40 分钟（3h 同步曾多次在 25 分钟上限被取消）。
