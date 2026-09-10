@@ -7,8 +7,8 @@
   "homepage": "https://docs.z.ai/guides/overview/pricing",
   "pricing_page": "https://docs.z.ai/guides/overview/pricing",
   "currency": "USD",
-  "updated_at": "2026-09-11T02:00:00Z",
-  "verified_at": "2026-09-11T02:00:00Z",
+  "updated_at": "2026-09-10T21:28:32Z",
+  "verified_at": "2026-09-10T21:28:32Z",
   "models": [
     {
       "id": "glm-4.5",
@@ -63,7 +63,8 @@
             "cny": 2.0
           },
           "cache_read": {
-            "usd": 0.03
+            "usd": 0.03,
+            "cny": 0.16
           },
           "cache_write": null
         },
@@ -72,7 +73,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.8, output ¥2. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion.",
+      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.8, output ¥2, cache-hit ¥0.16. Official API 定价 rate card (docs.bigmodel.cn), verified 2026-09-10T21:28:32Z (CNY). Independent of the z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -226,7 +227,8 @@
             "cny": 8.0
           },
           "cache_read": {
-            "usd": 0.11
+            "usd": 0.11,
+            "cny": 0.4
           },
           "cache_write": null
         },
@@ -235,7 +237,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥2, output ¥8. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion. [DUAL-CURRENCY UNVERIFIED: cny/usd ratio is off-band; official CNY vs USD page pending verification]",
+      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥2, output ¥8, cache-hit ¥0.4. Official API 定价 rate card (docs.bigmodel.cn), verified 2026-09-10T21:28:32Z (CNY). Independent of the z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -294,7 +296,8 @@
             "cny": 3.0
           },
           "cache_read": {
-            "usd": 0.01
+            "usd": 0.01,
+            "cny": 0.1
           },
           "cache_write": null
         },
@@ -303,7 +306,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.5, output ¥3. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion.",
+      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.5, output ¥3, cache-hit ¥0.1. Official API 定价 rate card (docs.bigmodel.cn), verified 2026-09-10T21:28:32Z (CNY). Independent of the z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -329,7 +332,8 @@
             "cny": 18.0
           },
           "cache_read": {
-            "usd": 0.2
+            "usd": 0.2,
+            "cny": 1.0
           },
           "cache_write": null
         },
@@ -338,7 +342,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥4, output ¥18. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion.",
+      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥4, output ¥18, cache-hit ¥1. Official API 定价 rate card (docs.bigmodel.cn), verified 2026-09-10T21:28:32Z (CNY). Independent of the z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -361,7 +365,9 @@
           "output": {
             "cny": 22.0
           },
-          "cache_read": null,
+          "cache_read": {
+            "cny": 1.2
+          },
           "cache_write": null
         },
         "batch": null,
@@ -369,7 +375,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥5, output ¥22. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion. | Billed per-token (CNY, domestic). models.dev USD label unreliable.",
+      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥5, output ¥22, cache-hit ¥1.2. Official API 定价 rate card (docs.bigmodel.cn), verified 2026-09-10T21:28:32Z (CNY). Independent of the z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -395,7 +401,8 @@
             "cny": 24.0
           },
           "cache_read": {
-            "usd": 0.26
+            "usd": 0.26,
+            "cny": 1.3
           },
           "cache_write": null
         },
@@ -404,7 +411,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥6, output ¥24. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion.",
+      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥6, output ¥24, cache-hit ¥1.3. Official API 定价 rate card (docs.bigmodel.cn), verified 2026-09-10T21:28:32Z (CNY). Independent of the z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -430,7 +437,8 @@
             "cny": 28.0
           },
           "cache_read": {
-            "usd": 0.26
+            "usd": 0.26,
+            "cny": 2.0
           },
           "cache_write": null
         },
@@ -439,7 +447,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥8, output ¥28. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion.",
+      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥8, output ¥28, cache-hit ¥2. Official API 定价 rate card (docs.bigmodel.cn), verified 2026-09-10T21:28:32Z (CNY). Independent of the z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -492,7 +500,8 @@
             "cny": 28.0
           },
           "cache_read": {
-            "usd": 0.26
+            "usd": 0.26,
+            "cny": 2.0
           },
           "cache_write": null
         },
@@ -501,7 +510,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥8, output ¥28. Official page, verified 2026-08-28T09:00:40Z (CNY). Independent of z.ai USD list — not a currency conversion.",
+      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥8, output ¥28, cache-hit ¥2. Official API 定价 rate card (docs.bigmodel.cn), verified 2026-09-10T21:28:32Z (CNY). Independent of the z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -527,7 +536,8 @@
             "cny": 2.8
           },
           "cache_read": {
-            "usd": 0.03
+            "usd": 0.03,
+            "cny": 0.23
           },
           "cache_write": null
         },
@@ -536,7 +546,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.8, output ¥2.8. Official API 定价 rate card (docs.bigmodel.cn), verified 2026-09-11T02:00:00Z (CNY). Independent of the z.ai USD list — not a currency conversion. | USD fields refreshed 2026-09-11 against the z.ai international list (docs.z.ai/guides/overview/pricing: $0.15 / $0.50 / $0.03); the previous 0.075/0.25/0.015 was the expired 50% promo (ended 2026-09-09).",
+      "notes": "Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.8, output ¥2.8, cache-hit ¥0.23. Official API 定价 rate card (docs.bigmodel.cn), verified 2026-09-10T21:28:32Z (CNY). Independent of the z.ai USD list — not a currency conversion.",
       "billing_model": [
         "pay_per_token"
       ],

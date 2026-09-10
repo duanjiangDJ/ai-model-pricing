@@ -128,7 +128,7 @@
 | [Friendli](providers/friendli.md) | Inference host | 6 | `providers/friendli.json` | 2026-09-04T00:22:51Z |
 | [InferX](providers/inferx.md) | Inference host | 12 | `providers/inferx.json` | 2026-09-04T00:22:51Z |
 | [Helicone](providers/helicone.md) | Inference host | 90 | `providers/helicone.json` | 2026-09-04T00:22:51Z |
-| [Zhipu AI](providers/zhipuai.md) | First-party | 17 | `providers/zhipuai.json` | 2026-09-11T02:00:00Z |
+| [Zhipu AI](providers/zhipuai.md) | First-party | 17 | `providers/zhipuai.json` | 2026-09-10T21:28:32Z |
 | [Neon](providers/neon.md) | Inference host | 42 | `providers/neon.json` | 2026-09-04T00:22:51Z |
 | [evroc](providers/evroc.md) | Inference host | 17 | `providers/evroc.json` | 2026-09-04T00:22:51Z |
 | [302.AI](providers/302ai.md) | Inference host | 97 | `providers/302ai.json` | 2026-09-10T09:39:09Z |

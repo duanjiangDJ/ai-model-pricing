@@ -1,6 +1,18 @@
 {
-  "schema_version": "26.112.55",
+  "schema_version": "26.112.56",
   "entries": [
+    {
+      "date": "2026-09-10T21:28:32Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "zhipuai",
+      "item_id": "glm-5.3,glm-5.3-flash,glm-5.2,glm-5.1,glm-5-turbo,glm-5,glm-4.7,glm-4.5-air,glm-4.7-flashx",
+      "field": "pricing",
+      "new": {
+        "models": 9
+      },
+      "source": "https://docs.bigmodel.cn/cn/guide/start/pricing.md"
+    },
     {
       "date": "2026-09-10T20:23:09Z",
       "kind": "update",
