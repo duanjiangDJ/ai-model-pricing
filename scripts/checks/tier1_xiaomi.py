@@ -16,13 +16,13 @@ VERIFIED = {
                       "notes": "Official pay-as-you-go (USD/1M tokens). CN: ¥3/¥6."},
     # V2 series officially deprecated 2026-06-30
     "mimo-v2-flash": {"per_mtok": {"input": None, "output": None, "cache_read": None, "cache_write": None},
-                      "status": "retired", "notes": "Officially deprecated 2026-06-30 (MiMo-V2 series retired)."},
+                      "status": "offline", "notes": "Officially deprecated 2026-06-30 (MiMo-V2 series retired)."},
     "mimo-v2-pro": {"per_mtok": {"input": None, "output": None, "cache_read": None, "cache_write": None},
-                    "status": "retired", "notes": "Officially deprecated 2026-06-30 (MiMo-V2 series retired)."},
+                    "status": "offline", "notes": "Officially deprecated 2026-06-30 (MiMo-V2 series retired)."},
     "mimo-v2-omni": {"per_mtok": {"input": None, "output": None, "cache_read": None, "cache_write": None},
-                     "status": "retired", "notes": "Officially deprecated 2026-06-30 (MiMo-V2 series retired)."},
+                     "status": "offline", "notes": "Officially deprecated 2026-06-30 (MiMo-V2 series retired)."},
     "mimo-v2-tts": {"per_mtok": {"input": None, "output": None, "cache_read": None, "cache_write": None},
-                    "status": "retired", "notes": "Officially deprecated 2026-06-30 (MiMo-V2 series retired)."},
+                    "status": "offline", "notes": "Officially deprecated 2026-06-30 (MiMo-V2 series retired)."},
 }
 
 

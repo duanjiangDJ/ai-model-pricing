@@ -261,8 +261,18 @@ def update_model_prices(provider, updates, now, source, surge_factor=5.0):
                 changed.append(mid)
         if data.get("notes") and mid in changed:
             m["notes"] = data["notes"]
-        if data.get("status"):
-            m["status"] = data["status"]
+        new_status = data.get("status")
+        if new_status:
+            if new_status in ("online", "offline"):
+                if m.get("status") != new_status:
+                    m["status"] = new_status
+                    if mid not in changed:
+                        changed.append(mid)
+            else:
+                # Refuse schema-invalid status values (modelStatus enum = online|offline):
+                # a check/collector literal like "retired" would corrupt the file and make
+                # validate/audit hard-fail on the next save.
+                print(f"  SKIP {mid}.status: invalid value {new_status!r} (only online/offline allowed)")
     if changed:
         provider["verified_at"] = now
         provider["updated_at"] = now

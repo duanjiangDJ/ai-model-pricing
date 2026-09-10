@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.106.47 — 2026-09-10T09:27Z (feature update)
+
+- fix(checks): reject schema-invalid model status + lint check/collector status literals
+
 ## 26.106.46 — 2026-09-10T08:04Z (content update)
 
 - data(deepseek): adopt the official live-model interface and official model id. The authenticated DeepSeek /models API returns exactly two live models: deepseek-flash and deepseek-v4-pro. Renamed our entry deepseek-v4.1-flash -> deepseek-flash (the official id) and verified every field of both live models against official sources: peak prices from the pricing page, cny from the zh-cn page, CONTEXT LENGTH 1M / MAX OUTPUT 384K / Vision support (flash=yes, v4-pro=no) from the page spec table.
