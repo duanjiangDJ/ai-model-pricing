@@ -102,7 +102,13 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
     is_sub = any(h in p["provider_id"] for h in SUB_HINTS)
     for m in p.get("models", []):
         st = m.get("status")
-        if st is not None and st not in ("online", "offline"):
+        if st is None:
+            # Explicit online/offline is required (PR #169 materialised the implicit default).
+            # A missing status must not pass silently: a new catalog entry without one shipped
+            # a "—" status into the human pages and the gate stayed green.
+            bad_status += 1
+            fail(f"missing model status in {p['provider_id']} :: {m['id']} (explicit online/offline required)")
+        elif st not in ("online", "offline"):
             bad_status += 1
             fail(f"invalid model status '{st}' in {p['provider_id']} :: {m['id']} (only online/offline allowed)")
         pm = (m.get("pricing") or {}).get("per_mtok") or {}

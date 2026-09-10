@@ -135,6 +135,22 @@ def preserve_local_status(local_models, remote_models):
     return n
 
 
+def default_catalog_status(models):
+    """Give a newly discovered live catalog entry an explicit `status`.
+
+    build_model() emits no status and preserve_local_status() only carries one over for an
+    EXISTING id, so a brand-new OpenRouter catalog entry used to be persisted with no status
+    at all — regressing PR #169's explicit-status invariant (and, once audit hard-fails a
+    missing status, failing the gate). A model present in the live catalog is online.
+    """
+    n = 0
+    for m in models:
+        if not m.get("status"):
+            m["status"] = "online"
+            n += 1
+    return n
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--write", action="store_true", help="persist files (default: dry-run to stdout)")
