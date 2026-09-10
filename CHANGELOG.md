@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.104.40 — 2026-09-10T02:44Z (content update)
+
+- data: fix deepseek cache_write — the zh-CN parser wrote the off-peak cache-hit price (nums[col+0]) into cache_write; the page has no cache-write row, so cache_write is now null (matches the USD parse). Added row-label assertion + audit gate for cny-only per_mtok fields on USD-declared providers.
+
 ## 26.103.40 — 2026-09-10T01:43Z (feature update)
 
 - fix(sync-writers): (1) append_changelog is now append-only — drop the [:5000] slice that silently dropped the oldest records (ebcloud vanished in #154). (2) daily_check.diff_openrouter also tracks context_window/max_output changes so they get a sourced changelog entry instead of landing with no provenance.

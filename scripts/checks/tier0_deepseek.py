@@ -62,6 +62,19 @@ def parse(text):
 
 def parse_cny(text):
     seg = _strip(text)
+    # The domestic page prices three rows per model, in order: cache-hit, cache-miss,
+    # output (each row = off-peak value then peak value). DeepSeek publishes NO separate
+    # cache-write price, so cache_write must stay null (same as parse()). Assert the row
+    # labels so a future layout change fails loudly instead of silently grabbing an
+    # unrelated number. (Fixed 2026-09-10: `nums[col + 0]` — the off-peak CACHE-HIT price —
+    # had been written into cache_write, e.g. flash cache_write.cny=0.05 was really the
+    # off-peak cache-hit value.)
+    for _label in ("缓存命中", "缓存未命中", "输出"):
+        if _label not in seg:
+            raise ValueError(
+                f"deepseek CNY pricing page structure changed: missing row label {_label!r}; "
+                "do NOT write partial data — update the parser instead"
+            )
     nums = [float(x) for x in re.findall(r"(\d+(?:\.\d+)?)元", seg)]
     if len(nums) < EXPECTED_PRICES:
         raise ValueError(
@@ -75,7 +88,7 @@ def parse_cny(text):
                 "input": {"cny": nums[col + 9]},
                 "output": {"cny": nums[col + 15]},
                 "cache_read": {"cny": nums[col + 3]},
-                "cache_write": {"cny": nums[col + 0]},
+                "cache_write": None,  # no cache-write row on the page (see note above)
             },
             "notes": ("Domestic api-docs.deepseek.com/zh-cn pricing (CNY/1M tokens, peak tier; "
                       "independent of the USD list — not a currency conversion). Parsed by check deepseek."),
