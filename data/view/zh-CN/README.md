@@ -3,7 +3,7 @@
 > 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/feed/`](../../../data/feed/)。
 > 更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。
 
-- 数据更新时间: 2026-09-10T12:38:30Z
+- 数据更新时间: 2026-09-10T15:38:47Z
 - 覆盖渠道: 190
 - 模型总数: 7585
 - 订阅计划数: 67
@@ -62,7 +62,7 @@
 | [Kenari](providers/kenari.md) | 推理托管 | 59 | `providers/kenari.json` | 2026-09-04T00:22:51Z |
 | [Clarifai](providers/clarifai.md) | 推理托管 | 12 | `providers/clarifai.json` | 2026-09-04T00:22:51Z |
 | [Snowflake Cortex](providers/snowflake-cortex.md) | 推理托管 | 25 | `providers/snowflake-cortex.json` | 2026-09-04T00:22:51Z |
-| [Anthropic](providers/anthropic.md) | 官方直供 | 17 | `providers/anthropic.json` | 2026-09-04T00:22:51Z |
+| [Anthropic](providers/anthropic.md) | 官方直供 | 17 | `providers/anthropic.json` | 2026-09-10T15:40:00Z |
 | [Cohere](providers/cohere.md) | 官方直供 | 14 | `providers/cohere.json` | 2026-09-04T00:22:51Z |
 | [Z.AI](providers/zai.md) | 推理托管 | 23 | `providers/zai.json` | 2026-09-10T09:39:10Z |
 | [routing.run](providers/routing-run.md) | 推理托管 | 15 | `providers/routing-run.json` | 2026-09-04T00:22:51Z |
@@ -201,7 +201,7 @@
 | [百川智能 (Baichuan)](providers/baichuan.md) | 官方直供 | 1 | `providers/baichuan.json` | 2026-08-28T10:02:16.380334Z |
 | [科大讯飞星火 (iFlytek Spark)](providers/iflytek.md) | 官方直供 | 2 | `providers/iflytek.json` | 2026-08-28T10:02:16.380334Z |
 | [零一万物 (01.AI)](providers/lingyiwanwu.md) | 官方直供 | 2 | `providers/lingyiwanwu.json` | 2026-08-28T10:02:16.380334Z |
-| [OpenRouter](providers/openrouter.md) | 聚合站 | 436 | `providers/openrouter.json` | 2026-09-10T12:38:30Z |
+| [OpenRouter](providers/openrouter.md) | 聚合站 | 436 | `providers/openrouter.json` | 2026-09-10T15:38:47Z |
 
 ## 订阅计划
 

@@ -8,8 +8,8 @@
   "pricing_page": "https://openrouter.ai/models",
   "api_base_url": "https://openrouter.ai/api/v1",
   "currency": "USD",
-  "updated_at": "2026-09-10T12:38:30Z",
-  "verified_at": "2026-09-10T12:38:30Z",
+  "updated_at": "2026-09-10T15:38:47Z",
+  "verified_at": "2026-09-10T15:38:47Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1971,13 +1971,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.088606
+            "usd": 0.08708
           },
           "output": {
-            "usd": 0.177212
+            "usd": 0.17416
           },
           "cache_read": {
-            "usd": 0.0177212
+            "usd": 0.017416
           },
           "cache_write": null
         },
@@ -2159,13 +2159,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.0494
+            "usd": 0.57948
           },
           "output": {
-            "usd": 3.1482
+            "usd": 1.73844
           },
           "cache_read": {
-            "usd": 0.03498
+            "usd": 0.018438
           },
           "cache_write": null
         },
@@ -12950,7 +12950,7 @@
       "modalities": [
         "text"
       ],
-      "context_window": 202752,
+      "context_window": 200000,
       "max_output": null,
       "billing_model": [
         "pay_per_token"
@@ -13080,13 +13080,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.966
+            "usd": 0.28
           },
           "output": {
-            "usd": 3.036
+            "usd": 0.88
           },
           "cache_read": {
-            "usd": 0.1932
+            "usd": 0.052
           },
           "cache_write": null
         },
@@ -13706,13 +13706,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.0075
+            "usd": 0.7
           },
           "output": {
-            "usd": 3.41
+            "usd": 2.2
           },
           "cache_read": {
-            "usd": 0.2015
+            "usd": 0.13
           },
           "cache_write": null
         },

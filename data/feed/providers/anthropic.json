@@ -7,8 +7,8 @@
   "homepage": "https://docs.anthropic.com/en/docs/about-claude/models",
   "pricing_page": "https://www.anthropic.com/pricing",
   "currency": "USD",
-  "updated_at": "2026-09-04T00:22:51Z",
-  "verified_at": "2026-09-04T00:22:51Z",
+  "updated_at": "2026-09-10T15:40:00Z",
+  "verified_at": "2026-09-10T15:40:00Z",
   "models": [
     {
       "id": "claude-fable-5",
@@ -75,13 +75,15 @@
           "cache_read": {
             "usd": 0.25
           },
-          "cache_write": null
+          "cache_write": {
+            "usd": 12.5
+          }
         },
         "batch": null,
         "per_image": null,
         "promo": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Official anthropic.com/pricing (USD/MTok, incl. cache read/write). Parsed by check anthropic.",
       "status": "online"
     },
     {

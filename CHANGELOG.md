@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.110.52 — 2026-09-10T15:58Z (content update)
+
+- price sync (6 changes):
+- **anthropic** (updated 1): `claude-fable-5-1`
+- **openrouter** (updated 5): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro-0813`, `z-ai/glm-4.7-flash`, `z-ai/glm-5.2`, `~z-ai/glm-latest`
+
 ## 26.109.52 — 2026-09-10T15:31Z (feature update)
 
 - fix(checks): real price parsers now fail loudly when they match 0 rows (was a silent GREY->GREEN no-op: google/minimax/mistral/openai/xai/zai/moonshotai + tier1 baidu/stepfun/zhipuai)
