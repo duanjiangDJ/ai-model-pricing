@@ -71,3 +71,20 @@ class TestFirstPartyGuard(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestNewCatalogEntriesGetStatus(unittest.TestCase):
+    """Both catalog writers that can ADD a model must emit an explicit status."""
+
+    def test_openrouter_default_status_helper(self):
+        from sync.sync_openrouter import default_catalog_status
+        models = [{"id": "a"}, {"id": "b", "status": "offline"}]
+        n = default_catalog_status(models)
+        self.assertEqual(n, 1)
+        self.assertEqual(models[0]["status"], "online")
+        self.assertEqual(models[1]["status"], "offline")  # already-set status untouched
+
+    def test_modelsdev_build_model_emits_status(self):
+        from sync.sync_modelsdev import build_model
+        m = build_model("some-model", {"name": "M", "cost": {"input": 1.0, "output": 2.0}})
+        self.assertEqual(m.get("status"), "online")

@@ -77,6 +77,9 @@ def build_model(mid, m):
         "id": mid,
         "name": m.get("name", mid),
         "category": infer_category(mid, m),
+        # A live catalog entry is online; status is required (PR #169 invariant) and a
+        # missing one now FAILS audit.
+        "status": "online",
         "modalities": ["text"],
         "context_window": limit.get("context") or None,
         "max_output": limit.get("output") or None,
