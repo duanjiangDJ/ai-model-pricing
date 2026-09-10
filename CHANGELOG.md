@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.106.48 — 2026-09-10T09:29Z (feature update)
+
+- fix(sync): preserve locally-assigned status across the OpenRouter catalog rewrite
+
 ## 26.106.47 — 2026-09-10T09:27Z (feature update)
 
 - fix(checks): reject schema-invalid model status + lint check/collector status literals
