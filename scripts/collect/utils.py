@@ -33,14 +33,21 @@ def fetch_markdown(url, timeout=90):
 def write_prices(provider_id, updates, source, now=None):
     """Apply {model_id: {per_mtok: ..., notes: ...}} updates to a provider via update_model_prices.
 
-    Returns the number of changed models. Fails soft (0) if the provider is not in the DB.
+    Returns the number of change events (NOT unique models: a model counts once per changed
+    field, e.g. pricing + batch). Fails soft (0) if the provider is not in the DB.
     """
     provider = load_provider(provider_id)
     if not provider:
         print(f"  WARN {provider_id}: provider not in DB, skipping write")
         return 0
     now = now or now_iso()
-    return update_model_prices(provider, updates, now, source)
+    changed = update_model_prices(provider, updates, now, source)
+    # update_model_prices returns the LIST of changed model ids, but this function's
+    # contract (and every caller: price_check sums it, the gen_collect template prints it
+    # as "N changed") is a COUNT. Returning the list made price_check crash with
+    # "unsupported operand type(s) for +=: 'int' and 'list'" on the models.dev
+    # cross_provider result, aborting the WHOLE unified persist path (real 2026-09-10 run).
+    return len(changed) if isinstance(changed, list) else changed
 
 
 def get_provider(provider_id):

@@ -149,6 +149,11 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
 4. Flags plans whose `verified_at` is older than 30 days → writes `--stale-report` markdown →
    syncs the "每日价格核实提醒" GitHub issue.
 5. Auto-merges changes into `main` with bot identity (bump_version.py first, `[skip ci]`), or exits cleanly if nothing changed.
+6. The **unified data-fetch layer** (`collect/price_check.py` → `collect/utils.write_prices`) is the
+   primary persist path. `write_prices` must return an **int count** — `toolbox.update_model_prices`
+   returns a *list* of ids, and passing that list upward made price_check crash on the models.dev
+   cross-provider result (`int += list`), silently aborting the whole persist loop; guarded by
+   `tests/test_price_check_counts.py`.
 
 **Truthfulness guarantees** (and their limits):
 - Auto-sync sources (OpenRouter, models.dev) refresh daily; they are republished prices from

@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.104.42 — 2026-09-10T04:01Z (feature update)
+
+- fix(collect): write_prices returns a count (unified persist crashed on models.dev)
+
 ## 26.104.41 — 2026-09-10T03:48Z (feature update)
 
 - fix(daily-check): changelog provenance for every persisted openrouter field
