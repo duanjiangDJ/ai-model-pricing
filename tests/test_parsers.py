@@ -215,5 +215,53 @@ class TestAlibabaSurgeBlockedGuard(unittest.TestCase):
         self.assertEqual(self.A._surge_blocked(self._prov(0.5), parsed), [])
 
 
+
+class TestOpencodeParser(unittest.TestCase):
+    """2026-09-11 retarget: the auto-generated opencode check only probed the page with
+    js_fetch and never parsed it, so `opencode` prices were maintained from the models.dev
+    aggregation and drifted from the vendor list (deepseek-v4-pro output 3.84 vs 3.48,
+    kimi-k2.5 cache_read 0.08 vs 0.10). Fixtures lock the current HTML-table shape, the
+    base-tier rule and the fail-loud contract."""
+
+    def setUp(self):
+        from checks.tier1_opencode import parse as zparse, PROVIDER_ID, URL
+        from checks.tier1_opencode_go import parse as gparse
+        self.zparse, self.gparse = zparse, gparse
+        self.assertEqual(PROVIDER_ID, "opencode")
+        self.assertEqual(URL, "https://opencode.ai/docs/zen/")
+
+    def test_zen_page_official_prices(self):
+        r = self.zparse(load("opencode_zen.html"))
+        # official Zen rows (USD/1M): DeepSeek V4 Pro out $3.48, Kimi K2.5 cache-read $0.10,
+        # Claude Fable 5.1 cache-write $12.50.
+        self.assertEqual(r["deepseek-v4-pro"]["output"], 3.48)
+        self.assertEqual(r["kimi-k2-5"]["cache_read"], 0.10)
+        self.assertEqual(r["claude-fable-5-1"]["cache_write"], 12.5)
+
+    def test_zen_higher_tier_rows_are_ignored(self):
+        # GPT 5.6 Sol is listed as (<= 272K) then (> 272K); the base row must win regardless
+        # of page order -> output 10.0, never the 15.0 of the higher range.
+        r = self.zparse(load("opencode_zen.html"))
+        self.assertEqual(r["gpt-5-6-sol"]["output"], 10.0)
+        self.assertEqual(r["gpt-5-6-terra"]["input"], 2.0)
+
+    def test_go_offpeak_row_is_the_base(self):
+        # opencode-go lists DeepSeek rows as (Off-Peak) and (Peak); the repo stores the
+        # off-peak rate, so the off-peak row is the one kept.
+        r = self.gparse(load("opencode_go.html"))
+        self.assertEqual(r["deepseek-v4-pro"]["output"], 1.98)
+
+    def test_free_rows_are_skipped(self):
+        # "Big Pickle / Free Free Free -" carries no price -> not returned (never write 0).
+        r = self.zparse(load("opencode_zen.html"))
+        self.assertNotIn("big-pickle", r)
+
+    def test_empty_parse_fails_loudly(self):
+        with self.assertRaises(ValueError):
+            self.zparse("<html><body>no pricing table here</body></html>")
+        with self.assertRaises(ValueError):
+            self.gparse("<html><body>no pricing table here</body></html>")
+
+
 if __name__ == "__main__":
     unittest.main()

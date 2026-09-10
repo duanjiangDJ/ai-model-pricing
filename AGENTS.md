@@ -222,6 +222,17 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
   `billing_model:["free"]` with all-zero `per_mtok`. The check RAISES on a paid/free mismatch
   (safety: `update_model_prices` cannot zero a price, so a bad paid listing would survive every sync).
 
+- **A probe-only check is a DEAD check — it must parse the price table, not just fetch it.**
+  `tier1_opencode`/`tier1_opencode_go` were auto-generated stubs that `js_fetch`ed the page and
+  returned `changed: 0` ("parser TODO"), so the `opencode` provider was maintained purely from the
+  models.dev aggregation — and where the aggregator diverges from the vendor's own list the repo
+  published the wrong price (real 2026-09-11: `deepseek-v4-pro` output $3.84 vs the official $3.48,
+  `kimi-k2.5` cache_read $0.08 vs $0.10). Both pages are SERVER-RENDERED HTML tables
+  (`opencode.ai/docs/zen/`, `opencode.ai/docs/go/`): plain `http_get` suffices, no headless Chrome.
+  The parser keeps ONLY the base tier of a tiered row (a `(≤ …)` / `(Off-Peak)` suffix) and skips
+  `(> …)` / `(Peak)` — deterministic, never page-order dependent — and RAISES when it matches no
+  rows. A check that reports GREEN while writing nothing is the bug, not the safety net.
+
 - **Sync writers must emit every required provider field on a new provider file.**
   `sync_modelsdev.py` once built new providers without `api_base_url`: models.dev supplies
   it per-provider under `api` (e.g. `https://openrouter.ai/api/v1`). The audit gate hard-fails

@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.112.55 — 2026-09-10T20:24Z (feature update)
+
+- fix(check): parse the official OpenCode Zen/Go price tables — retarget the probe-only stubs so the vendor list (not the models.dev aggregation) is authoritative; corrects deepseek-v4-pro output 3.84->3.48, kimi-k2.5 cache_read 0.08->0.10, claude-fable-5-1 cache_write null->12.5 (+6 more)
+
 ## 26.112.54 — 2026-09-10T19:14Z (content update)
 
 - fix(data): zhipuai glm-5.3-flash USD refreshed to the current z.ai list (0.15/0.50/0.03) - the stored 0.075/0.25/0.015 was the expired 50% promo (ended 2026-09-09)
