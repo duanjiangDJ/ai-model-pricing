@@ -6,14 +6,14 @@
 - Homepage: https://llmgateway.io/docs
 - Pricing page: https://llmgateway.io/docs
 - Currency: USD
-- Data updated: 2026-09-04T00:22:51Z
-- Verified: 2026-09-04T00:22:51Z
+- Data updated: 2026-09-10T09:39:08Z
+- Verified: 2026-09-10T09:39:08Z
 
 **565** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `Qwen3.8-27B` | ✅ online | reasoning | per-token | 32.768K | $0.41 | $2.5 | $0.08 | — | —/— | — | models.dev official list price |
+| `Qwen3.8-27B` | ✅ online | reasoning | per-token | 32.768K | $0.2 | $2 | $0.05 | — | —/— | — | models.dev official list price |
 | `alibaba/deepseek-v4-flash` | ✅ online | reasoning | per-token | 1M | $0.2 | $0.4 | $0.04 | — | —/— | — | models.dev official list price |
 | `alibaba/deepseek-v4-pro` | ✅ online | reasoning | per-token | 1M | $2.4 | $4.8 | $0.2 | — | —/— | — | models.dev official list price |
 | `alibaba/glm-5` | ✅ online | reasoning | per-token | 202.752K | $0.573 | $2.58 | — | — | —/— | — | models.dev official list price |
@@ -163,7 +163,7 @@
 | `deepinfra/qwen3-vl-30b-a3b-instruct` | ✅ online | chat | per-token | 262.144K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
 | `deepinfra/qwen3.5-9b` | ✅ online | reasoning | per-token | 262.144K | $0.1 | $0.15 | — | — | —/— | — | models.dev official list price |
 | `deepseek-v3.2` | ✅ online | reasoning | per-token | 163.84K | $0.26 | $0.38 | $0.13 | — | —/— | — | models.dev official list price |
-| `deepseek-v4-flash` | ✅ online | reasoning | per-token | 1.05M | $0.051 | $0.104 | $0.0097 | — | —/— | — | models.dev official list price |
+| `deepseek-v4-flash` | ✅ online | reasoning | per-token | 1.05M | $0.05 | $0.1 | $0.01 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-flash-vision-exp` | ✅ online | reasoning | per-token | 1.05M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-pro` | ✅ online | reasoning | per-token | 1.05M | $0.435 | $0.87 | $0.003625 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash` | ✅ online | reasoning | per-token | 1.05M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price |
@@ -213,10 +213,10 @@
 | `glm-4.7-flashx` | ✅ online | reasoning | per-token | 200K | $0.07 | $0.4 | $0.01 | — | —/— | — | models.dev official list price |
 | `glm-5` | ✅ online | reasoning | per-token | 203K | $0.72 | $2.3 | $0.144 | — | —/— | — | models.dev official list price |
 | `glm-5.1` | ✅ online | reasoning | per-token | 204.8K | $0.931 | $2.93 | $0.173 | — | —/— | — | models.dev official list price |
-| `glm-5.2` | ✅ online | reasoning | per-token | 1.04858M | $0.55 | $1.784 | $0.111 | — | —/— | — | models.dev official list price |
-| `glm-5.2-fast` | ✅ online | reasoning | per-token | 1M | $1.99 | $6.16 | $0.4 | — | —/— | — | models.dev official list price |
+| `glm-5.2` | ✅ online | reasoning | per-token | 1.04858M | $0.8 | $2.55 | $0.16 | — | —/— | — | models.dev official list price |
+| `glm-5.2-fast` | ✅ online | reasoning | per-token | 1M | $2.2 | $6.5 | $0.45 | — | —/— | — | models.dev official list price |
 | `glm-5.3` | ✅ online | reasoning | per-token | 1M | $1.2 | $4 | $0.2 | — | —/— | — | models.dev official list price |
-| `glm-5.3-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.13 | $0.4 | $0.024 | — | —/— | — | models.dev official list price |
+| `glm-5.3-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.088 | $0.25 | $0.025 | — | —/— | — | models.dev official list price |
 | `gonka24/deepseek-v4-flash` | ✅ online | reasoning | per-token | 390K | $0.075 | $0.175 | $0.0155 | — | —/— | — | models.dev official list price |
 | `gonka24/kimi-k2.6` | ✅ online | reasoning | per-token | 262.144K | $0.22 | $1.137 | $0.048 | — | —/— | — | models.dev official list price |
 | `gonka24/minimax-m2.7` | ✅ online | reasoning | per-token | 204.8K | $0.08 | $0.32 | $0.017 | — | —/— | — | models.dev official list price |
@@ -298,10 +298,10 @@
 | `kimi-k2` | ✅ online | chat | per-token | 256K | $0.57 | $2.3 | $0.5 | — | —/— | — | models.dev official list price |
 | `kimi-k2-thinking` | ✅ online | reasoning | per-token | 262.144K | $0.6 | $2.5 | $0.06 | — | —/— | — | models.dev official list price |
 | `kimi-k2.5` | ✅ online | reasoning | per-token | 262.144K | $0.405 | $1.98 | $0.225 | — | —/— | — | models.dev official list price |
-| `kimi-k2.6` | ✅ online | reasoning | per-token | 262.144K | $0.22 | $1.137 | $0.048 | — | —/— | — | models.dev official list price |
-| `kimi-k2.7-code` | ✅ online | reasoning | per-token | 262.144K | $0.89 | $3.71 | $0.18 | — | —/— | — | models.dev official list price |
+| `kimi-k2.6` | ✅ online | reasoning | per-token | 262.144K | $0.6 | $3.05 | $0.13 | — | —/— | — | models.dev official list price |
+| `kimi-k2.7-code` | ✅ online | reasoning | per-token | 262.144K | $0.95 | $4 | $0.19 | — | —/— | — | models.dev official list price |
 | `kimi-k2.7-code-highspeed` | ✅ online | reasoning | per-token | 262.144K | $1.9 | $8 | $0.38 | — | —/— | — | models.dev official list price |
-| `kimi-k3` | ✅ online | reasoning | per-token | 1.04858M | $2.83 | $14.13 | $0.28 | — | —/— | — | models.dev official list price |
+| `kimi-k3` | ✅ online | reasoning | per-token | 1.04858M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `kimi-k3-fast` | ✅ online | reasoning | per-token | 1.04038M | $4.5 | $22.5 | $0.45 | — | —/— | — | models.dev official list price |
 | `ling-3.0-flash` | ✅ online | reasoning | per-token | 262.144K | $0.06 | $0.18 | $0.012 | — | —/— | — | models.dev official list price |
 | `llama-3-70b-instruct` | ✅ online | chat | per-token | 8.192K | $0.51 | $0.74 | — | — | —/— | — | models.dev official list price |
@@ -504,7 +504,7 @@
 | `qwen3.7-plus` | ✅ online | reasoning | per-token | 1M | $0.4 | $1.6 | $0.08 | — | —/— | — | models.dev official list price |
 | `qwen3.8-27b` | ✅ online | reasoning | per-token | 1M | $0.42 | $3 | $0.085 | — | —/— | — | models.dev official list price |
 | `qwen3.8-flash` | ✅ online | reasoning | per-token | 1M | $0.15 | $0.47 | $0.016 | — | —/— | — | models.dev official list price |
-| `qwen3.8-max` | ✅ online | reasoning | per-token | 1M | $1.815 | $5.4461 | $0.21 | — | —/— | — | models.dev official list price |
+| `qwen3.8-max` | ✅ online | reasoning | per-token | 1M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
 | `qwen35-397b-a17b` | ✅ online | reasoning | per-token | 262.144K | $0.6 | $3.6 | — | — | —/— | — | models.dev official list price |
 | `runware/deepseek-v4-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.076 | $0.153 | $0.014 | — | —/— | — | models.dev official list price |
 | `runware/deepseek-v4-pro` | ✅ online | reasoning | per-token | 1.04858M | $0.961 | $1.922 | $0.079 | — | —/— | — | models.dev official list price |

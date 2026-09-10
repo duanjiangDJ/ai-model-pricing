@@ -6,8 +6,8 @@
 - 官网: https://ofox.ai/docs
 - 定价页: https://ofox.ai/docs
 - 币种: USD
-- 数据更新时间: 2026-09-04T00:22:51Z
-- 核实时间: 2026-09-04T00:22:51Z
+- 数据更新时间: 2026-09-10T09:39:09Z
+- 核实时间: 2026-09-10T09:39:09Z
 
 共 **114** 个模型。
 
@@ -123,7 +123,7 @@
 | `z-ai/glm-5` | ✅ 在线 | reasoning | 按量 | 204.8K | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5-turbo` | ✅ 在线 | reasoning | 按量 | 200K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5.1` | ✅ 在线 | reasoning | 按量 | 200K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
-| `z-ai/glm-5.2` | ✅ 在线 | reasoning | 按量 | 1M | $0.98 | $3.08 | $0.182 | — | —/— | — | models.dev official list price |
-| `z-ai/glm-5.3` | ✅ 在线 | reasoning | 按量 | 1M | $1.26 | $3.96 | $0.234 | — | —/— | — | models.dev official list price |
-| `z-ai/glm-5.3-flash` | ✅ 在线 | reasoning | 按量 | 1M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |
+| `z-ai/glm-5.2` | ✅ 在线 | reasoning | 按量 | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `z-ai/glm-5.3` | ✅ 在线 | reasoning | 按量 | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `z-ai/glm-5.3-flash` | ✅ 在线 | reasoning | 按量 | 1M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5v-turbo` | ✅ 在线 | reasoning | 按量 | 200K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |

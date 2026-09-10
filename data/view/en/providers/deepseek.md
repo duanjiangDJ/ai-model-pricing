@@ -6,8 +6,8 @@
 - Homepage: https://api-docs.deepseek.com/quick_start/pricing
 - Pricing page: https://api-docs.deepseek.com/zh-cn/quick_start/pricing
 - Currency: USD
-- Data updated: 2026-09-10T00:00:00Z
-- Verified: 2026-09-10T00:00:00Z
+- Data updated: 2026-09-10T09:39:11Z
+- Verified: 2026-09-10T09:39:11Z
 
 **6** models in total.
 

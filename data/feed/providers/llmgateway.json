@@ -7,8 +7,8 @@
   "homepage": "https://llmgateway.io/docs",
   "pricing_page": "https://llmgateway.io/docs",
   "currency": "USD",
-  "updated_at": "2026-09-04T00:22:51Z",
-  "verified_at": "2026-09-04T00:22:51Z",
+  "updated_at": "2026-09-10T09:39:08Z",
+  "verified_at": "2026-09-10T09:39:08Z",
   "models": [
     {
       "id": "Qwen3.8-27B",
@@ -25,13 +25,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.41
+            "usd": 0.2
           },
           "output": {
-            "usd": 2.5
+            "usd": 2
           },
           "cache_read": {
-            "usd": 0.08
+            "usd": 0.05
           },
           "cache_write": null
         },
@@ -4906,13 +4906,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.051
+            "usd": 0.05
           },
           "output": {
-            "usd": 0.104
+            "usd": 0.1
           },
           "cache_read": {
-            "usd": 0.0097
+            "usd": 0.01
           },
           "cache_write": null
         },
@@ -6544,13 +6544,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.55
+            "usd": 0.8
           },
           "output": {
-            "usd": 1.784
+            "usd": 2.55
           },
           "cache_read": {
-            "usd": 0.111
+            "usd": 0.16
           },
           "cache_write": null
         },
@@ -6577,13 +6577,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.99
+            "usd": 2.2
           },
           "output": {
-            "usd": 6.16
+            "usd": 6.5
           },
           "cache_read": {
-            "usd": 0.4
+            "usd": 0.45
           },
           "cache_write": null
         },
@@ -6643,13 +6643,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.13
+            "usd": 0.088
           },
           "output": {
-            "usd": 0.4
+            "usd": 0.25
           },
           "cache_read": {
-            "usd": 0.024
+            "usd": 0.025
           },
           "cache_write": null
         },
@@ -9317,13 +9317,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.22
+            "usd": 0.6
           },
           "output": {
-            "usd": 1.137
+            "usd": 3.05
           },
           "cache_read": {
-            "usd": 0.048
+            "usd": 0.13
           },
           "cache_write": null
         },
@@ -9350,13 +9350,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.89
+            "usd": 0.95
           },
           "output": {
-            "usd": 3.71
+            "usd": 4
           },
           "cache_read": {
-            "usd": 0.18
+            "usd": 0.19
           },
           "cache_write": null
         },
@@ -9416,13 +9416,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2.83
+            "usd": 3
           },
           "output": {
-            "usd": 14.13
+            "usd": 15
           },
           "cache_read": {
-            "usd": 0.28
+            "usd": 0.3
           },
           "cache_write": null
         },
@@ -15893,13 +15893,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.815
+            "usd": 2
           },
           "output": {
-            "usd": 5.4461
+            "usd": 6
           },
           "cache_read": {
-            "usd": 0.21
+            "usd": 0.25
           },
           "cache_write": null
         },

@@ -7,8 +7,8 @@
   "homepage": "https://ofox.ai/docs",
   "pricing_page": "https://ofox.ai/docs",
   "currency": "USD",
-  "updated_at": "2026-09-04T00:22:51Z",
-  "verified_at": "2026-09-04T00:22:51Z",
+  "updated_at": "2026-09-10T09:39:09Z",
+  "verified_at": "2026-09-10T09:39:09Z",
   "models": [
     {
       "id": "anthropic/claude-fable-5",
@@ -3642,13 +3642,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.98
+            "usd": 1.4
           },
           "output": {
-            "usd": 3.08
+            "usd": 4.4
           },
           "cache_read": {
-            "usd": 0.182
+            "usd": 0.26
           },
           "cache_write": null
         },
@@ -3675,13 +3675,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.26
+            "usd": 1.4
           },
           "output": {
-            "usd": 3.96
+            "usd": 4.4
           },
           "cache_read": {
-            "usd": 0.234
+            "usd": 0.26
           },
           "cache_write": null
         },
@@ -3711,13 +3711,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.075
+            "usd": 0.15
           },
           "output": {
-            "usd": 0.25
+            "usd": 0.5
           },
           "cache_read": {
-            "usd": 0.015
+            "usd": 0.03
           },
           "cache_write": null
         },

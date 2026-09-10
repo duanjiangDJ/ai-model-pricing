@@ -6,8 +6,8 @@
 - 官网: https://api.cortecs.ai/v1/models
 - 定价页: https://api.cortecs.ai/v1/models
 - 币种: USD
-- 数据更新时间: 2026-09-04T00:22:51Z
-- 核实时间: 2026-09-04T00:22:51Z
+- 数据更新时间: 2026-09-10T09:39:10Z
+- 核实时间: 2026-09-10T09:39:10Z
 
 共 **112** 个模型。
 
@@ -48,7 +48,7 @@
 | `glm-5-turbo` | ✅ 在线 | reasoning | 按量 | 202.752K | $1.186 | $3.955 | $0.296 | — | —/— | — | models.dev official list price |
 | `glm-5.1` | ✅ 在线 | reasoning | 按量 | 202.752K | $1.384 | $4.348 | $0.346 | — | —/— | — | models.dev official list price |
 | `glm-5.2` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.2 | $4.2 | $0.26 | — | —/— | — | models.dev official list price |
-| `glm-5.3` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.4 | $4.399 | $0.26 | — | —/— | — | models.dev official list price |
+| `glm-5.3` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.114 | $3.899 | $0.279 | — | —/— | — | models.dev official list price |
 | `glm-5.3-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.201 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
 | `glm-5v-turbo` | ✅ 在线 | reasoning | 按量 | 202.752K | $1.186 | $3.955 | $0.296 | — | —/— | — | models.dev official list price |
 | `gpt-4.1` | ✅ 在线 | chat | 按量 | 1.04758M | $2.192 | $8.769 | $0.546 | — | —/— | — | models.dev official list price |
@@ -106,10 +106,10 @@
 | `nvidia-nemotron-3-nano-omni` | ✅ 在线 | reasoning | 按量 | 300K | $0.059 | $0.237 | — | — | —/— | — | models.dev official list price |
 | `pixtral-12b-2409` | ✅ 在线 | reasoning | 按量 | 128K | $0.223 | $0.223 | — | — | —/— | — | models.dev official list price |
 | `pixtral-large-2502` | ✅ 在线 | reasoning | 按量 | 128K | $1.993 | $5.978 | — | — | —/— | — | models.dev official list price |
-| `qwen2.5-vl-72b-instruct` | ✅ 在线 | reasoning | 按量 | 32K | $0.25 | $0.747 | — | — | —/— | — | models.dev official list price |
+| `qwen2.5-vl-72b-instruct` | ✅ 在线 | reasoning | 按量 | 32K | $1.014 | $1.014 | — | — | —/— | — | models.dev official list price |
 | `qwen3-235b-a22b-instruct-2507` | ✅ 在线 | chat | 按量 | 262K | $0.069 | $0.455 | $0.018 | — | —/— | — | models.dev official list price |
 | `qwen3-30b-a3b-instruct-2507` | ✅ 在线 | reasoning | 按量 | 262K | $0.099 | $0.299 | — | — | —/— | — | models.dev official list price |
-| `qwen3-32b` | ✅ 在线 | reasoning | 按量 | 40K | $0.099 | $0.299 | — | — | —/— | — | models.dev official list price |
+| `qwen3-32b` | ✅ 在线 | reasoning | 按量 | 40K | $0.089 | $0.312 | — | — | —/— | — | models.dev official list price |
 | `qwen3-coder-30b-a3b-instruct` | ✅ 在线 | chat | 按量 | 262.144K | $0.067 | $0.245 | $0.014 | — | —/— | — | models.dev official list price |
 | `qwen3-coder-next` | ✅ 在线 | chat | 按量 | 256K | $0.167 | $0.891 | — | — | —/— | — | models.dev official list price |
 | `qwen3-next-80b-a3b-thinking` | ✅ 在线 | reasoning | 按量 | 128K | $0.149 | $1.195 | — | — | —/— | — | models.dev official list price |

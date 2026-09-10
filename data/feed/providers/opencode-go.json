@@ -8,8 +8,8 @@
   "pricing_page": "https://opencode.ai/docs/go/",
   "api_base_url": "https://opencode.ai/zen/go/v1/models",
   "currency": "USD",
-  "updated_at": "2026-09-04T00:22:51Z",
-  "verified_at": "2026-09-04T00:22:51Z",
+  "updated_at": "2026-09-10T09:39:10Z",
+  "verified_at": "2026-09-10T09:39:10Z",
   "models": [
     {
       "id": "deepseek-v4-flash",
@@ -20,13 +20,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.22
+            "usd": 0.15
           },
           "output": {
-            "usd": 0.66
+            "usd": 0.6
           },
           "cache_read": {
-            "usd": 0.007
+            "usd": 0.003
           },
           "cache_write": null
         },
@@ -35,7 +35,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
       ],
@@ -50,13 +50,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.22
+            "usd": 0.15
           },
           "output": {
-            "usd": 0.66
+            "usd": 0.6
           },
           "cache_read": {
-            "usd": 0.007
+            "usd": 0.003
           },
           "cache_write": null
         },
@@ -65,7 +65,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
       ],
@@ -236,13 +236,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.075
+            "usd": 0.15
           },
           "output": {
-            "usd": 0.25
+            "usd": 0.5
           },
           "cache_read": {
-            "usd": 0.015
+            "usd": 0.03
           },
           "cache_write": null
         },

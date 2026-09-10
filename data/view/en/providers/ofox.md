@@ -6,8 +6,8 @@
 - Homepage: https://ofox.ai/docs
 - Pricing page: https://ofox.ai/docs
 - Currency: USD
-- Data updated: 2026-09-04T00:22:51Z
-- Verified: 2026-09-04T00:22:51Z
+- Data updated: 2026-09-10T09:39:09Z
+- Verified: 2026-09-10T09:39:09Z
 
 **114** models in total.
 
@@ -123,7 +123,7 @@
 | `z-ai/glm-5` | ✅ online | reasoning | per-token | 204.8K | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5-turbo` | ✅ online | reasoning | per-token | 200K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5.1` | ✅ online | reasoning | per-token | 200K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
-| `z-ai/glm-5.2` | ✅ online | reasoning | per-token | 1M | $0.98 | $3.08 | $0.182 | — | —/— | — | models.dev official list price |
-| `z-ai/glm-5.3` | ✅ online | reasoning | per-token | 1M | $1.26 | $3.96 | $0.234 | — | —/— | — | models.dev official list price |
-| `z-ai/glm-5.3-flash` | ✅ online | reasoning | per-token | 1M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |
+| `z-ai/glm-5.2` | ✅ online | reasoning | per-token | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `z-ai/glm-5.3` | ✅ online | reasoning | per-token | 1M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `z-ai/glm-5.3-flash` | ✅ online | reasoning | per-token | 1M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5v-turbo` | ✅ online | reasoning | per-token | 200K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |

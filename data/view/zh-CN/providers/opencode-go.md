@@ -6,21 +6,21 @@
 - 官网: https://opencode.ai/go
 - 定价页: https://opencode.ai/docs/go/
 - 币种: USD
-- 数据更新时间: 2026-09-04T00:22:51Z
-- 核实时间: 2026-09-04T00:22:51Z
+- 数据更新时间: 2026-09-10T09:39:10Z
+- 核实时间: 2026-09-10T09:39:10Z
 
 共 **34** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `deepseek-v4-flash` | ✅ 在线 | chat | 按量 | — | $0.22 | $0.66 | $0.007 | — | —/— | — | — |
-| `deepseek-v4-flash-vision-exp` | ✅ 在线 | chat | 按量 | — | $0.22 | $0.66 | $0.007 | — | —/— | — | — |
+| `deepseek-v4-flash` | ✅ 在线 | chat | 按量 | — | $0.15 | $0.6 | $0.003 | — | —/— | — | models.dev official list price |
+| `deepseek-v4-flash-vision-exp` | ✅ 在线 | chat | 按量 | — | $0.15 | $0.6 | $0.003 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-pro` | ✅ 在线 | chat | 按量 | — | $0.66 | $1.98 | $0.022 | — | —/— | — | — |
 | `glm-5` | ✅ 在线 | reasoning | 按量 | 202.752K | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
 | `glm-5.1` | ✅ 在线 | chat | 按量 | — | $1.4 | $4.4 | $0.26 | — | —/— | — | — |
 | `glm-5.2` | ✅ 在线 | chat | 按量 | — | $1.4 | $4.4 | $0.26 | — | —/— | — | — |
 | `glm-5.3` | ✅ 在线 | chat | 按量 | — | $1.4 | $4.4 | $0.26 | — | —/— | — | — |
-| `glm-5.3-flash` | ✅ 在线 | reasoning | 按量 | 1M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |
+| `glm-5.3-flash` | ✅ 在线 | reasoning | 按量 | 1M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `gpt-5.6-luna` | ✅ 在线 | chat | 按量 | — | $0.2 | $1.2 | $0.02 | $0.25 | —/— | — | — |
 | `grok-4.5` | ✅ 在线 | chat | 按量 | — | $2 | $6 | $0.3 | — | —/— | — | — |
 | `grok-4.6` | ✅ 在线 | reasoning | 按量 | 500K | $2 | $6 | $0.5 | — | —/— | — | models.dev official list price |

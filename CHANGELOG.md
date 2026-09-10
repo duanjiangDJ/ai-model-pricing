@@ -16,6 +16,33 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.108.48 — 2026-09-10T09:56Z (content update)
+
+- price sync (37 changes):
+- **302ai** (updated 1): `glm-5.1`
+- **alibaba** (updated 14): `qwen3.7-plus`, `qwen3.6-flash`, `qwen-vl-ocr`, `qwen3.6-35b-a3b`, `qwen3-next-80b-a3b-thinking`, `qwen3-next-80b-a3b-instruct`, `qwen3-32b`
+- **cortecs** (updated 3): `qwen3-32b`, `qwen2.5-vl-72b-instruct`, `glm-5.3`
+- **crossmodel** (updated 5): `deepseek/deepseek-v4-flash-vision-exp`, `deepseek/deepseek-v4-flash`, `gemini/gemini-3.6-flash`, `openai/gpt-5.6-sol`, `z-ai/glm-5.3-flash`
+- **deepinfra** (updated 1): `deepseek-ai/DeepSeek-V4-Flash-0731`
+- **deepseek** (updated 4): `deepseek-v4-pro`, `deepseek-v4-flash-vision-exp`, `deepseek-v4-flash`
+- **digitalocean** (updated 1): `kimi-k3`
+- **edenai** (updated 10): `qwen/deepseek-v4-pro-0813`, `qwen/deepseek-v4-flash-0731`, `scaleway/deepseek-v4-flash-0731`, `scaleway/gpt-oss-120b`, `scaleway/llama-3.3-70b-instruct`, `google/gemini-3.8-flash`, `flexai/gpt-oss-20b`, `flexai/DeepSeek-V4-Flash-0731`, `flexai/gpt-oss-120b`, `deepinfra/deepseek-ai/DeepSeek-V4-Flash-0731`
+- **hyper** (updated 5): `minimax-m2.7`, `glm-5`, `kimi-k2.5`, `glm-5.1`, `gpt-oss-120b`
+- **kilo** (updated 8): `~moonshotai/kimi-latest`, `deepseek/deepseek-v4-pro-0813`, `deepseek/deepseek-chat`, `deepseek/deepseek-chat-v3-0324`, `openai/gpt-5.6-sol-discounted`, `~z-ai/glm-latest`, `tencent/hy3`, `z-ai/glm-4.6`
+- **llmgateway** (updated 7): `Qwen3.8-27B`, `kimi-k2.6`, `glm-5.2`, `deepseek-v4-flash`, `kimi-k2.7-code`, `kimi-k3`, `glm-5.2-fast`
+- **minimax** (updated 2): `MiniMax-M2.5-highspeed`
+- **mistral** (updated 4): `ministral-3b-latest`, `ministral-8b-latest`
+- **nano-gpt** (updated 5): `sarvam-105b`, `TEE/glm-5.2`, `TEE/glm-5.2:thinking`, `deepseek/deepseek-v4-flash-vision-exp`, `openai/gpt-latest`
+- **nearai** (updated 5): `anthropic/claude-sonnet-4-5`, `zai-org/GLM-5.1-FP8`, `Qwen/Qwen3-Embedding-0.6B`, `openai/whisper-large-v3`, `openai/gpt-5.2`
+- **ofox** (updated 3): `z-ai/glm-5.2`, `z-ai/glm-5.3-flash`, `z-ai/glm-5.3`
+- **opencode-go** (updated 3): `deepseek-v4-flash-vision-exp`, `deepseek-v4-flash`, `glm-5.3-flash`
+- **openrouter** (+6): `deepseek/deepseek-v4.1-flash`, `mistralai/codestral-2508:batch`, `mistralai/ministral-8b-2512:batch`, `mistralai/mistral-large-2512:batch`, `mistralai/mistral-medium-3.1:batch`, `mistralai/mistral-small-2603:batch`
+- **openrouter** (updated 5): `deepseek/deepseek-v4-flash`, `z-ai/glm-5.3-flash`, `~z-ai/glm-flash-latest`, `~z-ai/glm-latest`
+- **requesty** (updated 9): `deepseek-v4-flash-0731`, `deepseek-v4-flash`, `thinkingcap-qwen3.6-27b`, `kimi-k3`, `glm-5.3-flash`, `glm-5.3-flash@eu`, `thinkingcap-qwen3.6-27b@eu`, `kimi-k3@eu`, `deepseek-v4-flash-0731@eu`
+- **venice** (updated 6): `openai-gpt-56-terra`, `openai-gpt-56-sol`, `openai-gpt-56-terra-pro`, `openai-gpt-56-luna-pro`, `openai-gpt-56-luna`, `openai-gpt-56-sol-pro`
+- **vercel** (updated 1): `zai/glm-5.3`
+- **zai** (updated 2): `glm-5.3-flash`
+
 ## 26.107.48 — 2026-09-10T09:39Z (content update)
 
 - data: materialise the implicit model status - fill missing status:online for 7515 models across 178 providers. Historically an absent status meant 'live'; audit/schema now treat it as explicit, so every model carries an explicit status instead of relying on the implicit default. No online/offline values changed; added scripts/migrate/add_model_status.py for reproducibility. (Chosen: option (a) data-side fill, not schema-mandatory.)
