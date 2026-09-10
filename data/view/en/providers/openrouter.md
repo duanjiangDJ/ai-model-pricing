@@ -82,7 +82,7 @@
 | `deepseek/deepseek-v4-pro` | ✅ online | reasoning | per-token | 1.04858M | $0.95526 | $1.91052 | $0.079605 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813` | ✅ online | reasoning | per-token | 1.04858M | $1.0494 | $3.1482 | $0.03498 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813:batch` | ✅ online | reasoning | per-token | 1.04858M | $0.66 | $1.98 | $0.022 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4.1-flash` | — | reasoning | per-token | 1.04858M | $0.3 | $1.2 | $0.006 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4.1-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.3 | $1.2 | $0.006 | — | —/— | — | OpenRouter reseller price |
 | `dots-studio/dots-3-note-preview:free` | ✅ online | reasoning | free | 512K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `google/gemini-2.5-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.3 | $2.5 | $0.03 | $0.0833333 | —/— | — | OpenRouter reseller price |
 | `google/gemini-2.5-flash-image` | ✅ online | chat | per-token | 32.768K | $0.3 | $2.5 | $0.03 | $0.0833333 | —/— | — | OpenRouter reseller price |
@@ -168,26 +168,26 @@
 | `minimax/minimax-m3` | ✅ online | reasoning | per-token | 1.04858M | $0.3 | $1.2 | $0.06 | — | —/— | — | OpenRouter reseller price |
 | `minimax/minimax-m3:batch` | ✅ online | reasoning | per-token | 524.288K | $0.3 | $1.2 | $0.06 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/codestral-2508` | ✅ online | chat | per-token | 256K | $0.3 | $0.9 | $0.03 | — | —/— | — | OpenRouter reseller price |
-| `mistralai/codestral-2508:batch` | — | chat | per-token | 256K | $0.15 | $0.45 | $0.015 | — | —/— | — | OpenRouter reseller price |
+| `mistralai/codestral-2508:batch` | ✅ online | chat | per-token | 256K | $0.15 | $0.45 | $0.015 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/devstral-2512` | ✅ online | chat | per-token | 262.144K | $0.4 | $2 | $0.04 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/ministral-14b-2512` | ✅ online | chat | per-token | 262.144K | $0.2 | $0.2 | $0.02 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/ministral-3b-2512` | ✅ online | chat | per-token | 131.072K | $0.1 | $0.1 | $0.01 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/ministral-8b-2512` | ✅ online | chat | per-token | 262.144K | $0.15 | $0.15 | $0.015 | — | —/— | — | OpenRouter reseller price |
-| `mistralai/ministral-8b-2512:batch` | — | chat | per-token | 262.144K | $0.075 | $0.075 | $0.0075 | — | —/— | — | OpenRouter reseller price |
+| `mistralai/ministral-8b-2512:batch` | ✅ online | chat | per-token | 262.144K | $0.075 | $0.075 | $0.0075 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-large` | ✅ online | chat | per-token | 128K | $2 | $6 | $0.2 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-large-2407` | ✅ online | chat | per-token | 131.072K | $2 | $6 | $0.2 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-large-2512` | ✅ online | chat | per-token | 262.144K | $0.5 | $1.5 | $0.05 | — | —/— | — | OpenRouter reseller price |
-| `mistralai/mistral-large-2512:batch` | — | chat | per-token | 262.144K | $0.25 | $0.75 | $0.025 | — | —/— | — | OpenRouter reseller price |
+| `mistralai/mistral-large-2512:batch` | ✅ online | chat | per-token | 262.144K | $0.25 | $0.75 | $0.025 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-medium-3` | ✅ online | chat | per-token | 131.072K | $0.4 | $2 | $0.04 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-medium-3-5` | ✅ online | reasoning | per-token | 262.144K | $1.5 | $7.5 | — | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-medium-3-5:batch` | ✅ online | reasoning | per-token | 262.144K | $0.75 | $3.75 | — | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-medium-3.1` | ✅ online | chat | per-token | 131.072K | $0.4 | $2 | $0.04 | — | —/— | — | OpenRouter reseller price |
-| `mistralai/mistral-medium-3.1:batch` | — | chat | per-token | 131.072K | $0.2 | $1 | $0.02 | — | —/— | — | OpenRouter reseller price |
+| `mistralai/mistral-medium-3.1:batch` | ✅ online | chat | per-token | 131.072K | $0.2 | $1 | $0.02 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-nemo` | ✅ online | chat | per-token | 131.072K | $0.019 | $0.03 | — | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-saba` | ✅ online | chat | per-token | 32.768K | $0.2 | $0.6 | $0.02 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-small-24b-instruct-2501` | ✅ online | chat | per-token | 32.768K | $0.05 | $0.08 | — | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-small-2603` | ✅ online | reasoning | per-token | 262.144K | $0.15 | $0.6 | $0.015 | — | —/— | — | OpenRouter reseller price |
-| `mistralai/mistral-small-2603:batch` | — | reasoning | per-token | 262.144K | $0.075 | $0.3 | $0.0075 | — | —/— | — | OpenRouter reseller price |
+| `mistralai/mistral-small-2603:batch` | ✅ online | reasoning | per-token | 262.144K | $0.075 | $0.3 | $0.0075 | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-small-3.1-24b-instruct` | ✅ online | chat | per-token | 128K | $0.351 | $0.555 | — | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mistral-small-3.2-24b-instruct` | ✅ online | chat | per-token | 131.072K | $0.075 | $0.2 | — | — | —/— | — | OpenRouter reseller price |
 | `mistralai/mixtral-8x22b-instruct` | ✅ online | chat | per-token | 65.536K | $2 | $6 | $0.2 | — | —/— | — | OpenRouter reseller price |

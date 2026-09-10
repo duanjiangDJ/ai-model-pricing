@@ -2235,7 +2235,8 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price",
+      "status": "online"
     },
     {
       "id": "dots-studio/dots-3-note-preview:free",
@@ -5000,7 +5001,8 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price",
+      "status": "online"
     },
     {
       "id": "mistralai/devstral-2512",
@@ -5158,7 +5160,8 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price",
+      "status": "online"
     },
     {
       "id": "mistralai/mistral-large",
@@ -5283,7 +5286,8 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price",
+      "status": "online"
     },
     {
       "id": "mistralai/mistral-medium-3",
@@ -5438,7 +5442,8 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price",
+      "status": "online"
     },
     {
       "id": "mistralai/mistral-nemo",
@@ -5590,7 +5595,8 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price"
+      "notes": "OpenRouter reseller price",
+      "status": "online"
     },
     {
       "id": "mistralai/mistral-small-3.1-24b-instruct",
