@@ -44,12 +44,23 @@ jobs:
           # first (check results are stashed, then reapplied on top of the fresh base).
           git stash -u 2>/dev/null || true
           git pull --rebase origin main 2>/dev/null || git reset --hard origin/main
-          git stash pop 2>/dev/null || true
+          # A stash-pop conflict on a generated file (index.json / manifest.json drift while
+          # main moved) must be resolved deterministically: keep THIS run's version and stage
+          # it. Otherwise bump_version would later read conflict markers and hard-fail.
+          if ! git stash pop 2>/dev/null; then
+            echo "::warning::stash pop conflicted - taking this run's generated files"
+            git checkout --theirs -- data/feed/index.json data/meta/manifest.json 2>/dev/null || true
+            git add data/feed/index.json data/meta/manifest.json 2>/dev/null || true
+            git stash drop 2>/dev/null || true
+          fi
 
           # Only bump/PR on REAL pricing-data changes. manifest.json (last_ok timestamps),
           # index.json (generated_at) and data/view are refreshed every run and must NOT count
           # as a change — otherwise an empty run (no price change) triggers a version bump.
-          if git diff --quiet -- data/feed/providers data/feed/plans.json; then
+          # Compare against HEAD, not the index: a stash-pop can leave data files *staged*,
+          # which makes a plain "git diff" report clean (exit 0) and silently discards the
+          # whole sync. "git diff HEAD" catches staged + unstaged changes correctly.
+          if git diff HEAD --quiet -- data/feed/providers data/feed/plans.json; then
             echo "No data changes this run; nothing to do."
           else
             # auto-bump version (content update) with a DETAILED, HUMAN-READABLE,

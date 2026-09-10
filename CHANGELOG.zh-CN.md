@@ -16,6 +16,10 @@
 
 ---
 
+## 26.104.43 — 2026-09-10T04:17Z（功能更新）
+
+- fix(ci)：daily-check 用 'git diff'（工作区 vs 暂存区）判断数据变更——stash pop 把数据文件留在已暂存状态时会误报 clean、静默丢弃整轮同步。改用 'git diff HEAD'，并在 stash pop 冲突时确定性取本轮生成文件，避免 bump_version 读到冲突标记。已本地复现验证。
+
 ## 26.104.42 — 2026-09-10T04:01Z（功能更新）
 
 - 修复采集层：write_prices 返回计数，避免 models.dev 分支 int += list 崩溃中止整条入库链路
