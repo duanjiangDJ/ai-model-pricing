@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.112.54 — 2026-09-10T19:14Z (content update)
+
+- fix(data): zhipuai glm-5.3-flash USD refreshed to the current z.ai list (0.15/0.50/0.03) - the stored 0.075/0.25/0.015 was the expired 50% promo (ended 2026-09-09)
+
 ## 26.111.54 — 2026-09-10T19:09Z (feature update)
 
 - fix(check): retarget zhipuai collector/check to the bigmodel.cn 'API 定价' rate card (old JS page reworded -> parser matched 0 rows for weeks); GLM-4.7-Flash is officially free, GLM-5.3-Flash CNY is 0.8/2.8

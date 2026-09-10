@@ -1,6 +1,18 @@
 {
-  "schema_version": "26.111.54",
+  "schema_version": "26.112.54",
   "entries": [
+    {
+      "date": "2026-09-10T19:14Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "zhipuai",
+      "item_id": "glm-5.3-flash",
+      "field": "pricing",
+      "new": {
+        "models": 1
+      },
+      "source": "https://docs.z.ai/guides/overview/pricing"
+    },
     {
       "date": "2026-09-10T19:09Z",
       "kind": "update",
