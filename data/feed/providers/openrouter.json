@@ -8,8 +8,8 @@
   "pricing_page": "https://openrouter.ai/models",
   "api_base_url": "https://openrouter.ai/api/v1",
   "currency": "USD",
-  "updated_at": "2026-09-11T03:39:20Z",
-  "verified_at": "2026-09-11T03:39:20Z",
+  "updated_at": "2026-09-11T06:40:19Z",
+  "verified_at": "2026-09-11T06:40:19Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1729,14 +1729,12 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.29
+            "usd": 0.25
           },
           "output": {
-            "usd": 1.14
+            "usd": 1.0
           },
-          "cache_read": {
-            "usd": 0.11
-          },
+          "cache_read": null,
           "cache_write": null
         },
         "per_image": null,
@@ -2159,13 +2157,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.0494
+            "usd": 0.66
           },
           "output": {
-            "usd": 3.1482
+            "usd": 1.98
           },
           "cache_read": {
-            "usd": 0.03498
+            "usd": 0.066
           },
           "cache_write": null
         },
@@ -11670,8 +11668,72 @@
       "status": "online"
     },
     {
+      "id": "sakana/fugu-max",
+      "name": "Sakana: Fugu Max",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 1000000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.0
+          },
+          "output": {
+            "usd": 6.0
+          },
+          "cache_read": {
+            "usd": 0.25
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price",
+      "status": "online"
+    },
+    {
       "id": "sakana/fugu-ultra",
       "name": "Sakana: Fugu Ultra",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 1000000,
+      "max_output": null,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 5.0
+          },
+          "output": {
+            "usd": 30.0
+          },
+          "cache_read": {
+            "usd": 0.5
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "OpenRouter reseller price",
+      "status": "online"
+    },
+    {
+      "id": "sakana/fugu-ultra-v2",
+      "name": "Sakana: Fugu Ultra v2",
       "category": "reasoning",
       "modalities": [
         "text",

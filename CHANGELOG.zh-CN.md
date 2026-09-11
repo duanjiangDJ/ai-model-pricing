@@ -16,6 +16,12 @@
 
 ---
 
+## 26.115.62 — 2026-09-11T06:56Z（内容更新）
+
+- 价格同步（4 处变更）：
+- **openrouter**（新增 2）：`sakana/fugu-max`, `sakana/fugu-ultra-v2`
+- **openrouter**（更新 2）：`deepseek/deepseek-chat-v3-0324`, `deepseek/deepseek-v4-pro-0813`
+
 ## 26.114.62 — 2026-09-11T06:30Z（功能更新）
 
 - 文档（agents）：记录聚合源快照须在审查时对官方 API 复核；顺带修复一处被截断的句子

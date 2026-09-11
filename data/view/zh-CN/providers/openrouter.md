@@ -6,10 +6,10 @@
 - 官网: https://openrouter.ai
 - 定价页: https://openrouter.ai/models
 - 币种: USD
-- 数据更新时间: 2026-09-11T03:39:20Z
-- 核实时间: 2026-09-11T03:39:20Z
+- 数据更新时间: 2026-09-11T06:40:19Z
+- 核实时间: 2026-09-11T06:40:19Z
 
-共 **437** 个模型。
+共 **439** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -66,7 +66,7 @@
 | `cohere/command-r7b-12-2024` | ✅ 在线 | chat | 按量 | 128K | $0.0375 | $0.15 | — | — | —/— | — | OpenRouter reseller price |
 | `cohere/north-mini-code:free` | ✅ 在线 | reasoning | 免费 | 256K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `deepseek/deepseek-chat` | ✅ 在线 | chat | 按量 | 163.84K | $0.2574 | $1.0287 | — | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-chat-v3-0324` | ✅ 在线 | chat | 按量 | 163.84K | $0.29 | $1.14 | $0.11 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-chat-v3-0324` | ✅ 在线 | chat | 按量 | 163.84K | $0.25 | $1 | — | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-chat-v3.1` | ✅ 在线 | reasoning | 按量 | 163.84K | $0.25 | $0.95 | $0.13 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-r1` | ✅ 在线 | reasoning | 按量 | 64K | $0.7 | $2.5 | — | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-r1-0528` | ✅ 在线 | reasoning | 按量 | 163.84K | $0.5 | $2.15 | $0.35 | — | —/— | — | OpenRouter reseller price |
@@ -80,7 +80,7 @@
 | `deepseek/deepseek-v4-flash-vision-exp` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.22 | $0.66 | $0.007 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-vision-exp:batch` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.11 | $0.33 | $0.0035 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.95526 | $1.91052 | $0.079605 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-pro-0813` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.0494 | $3.1482 | $0.03498 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-pro-0813` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.66 | $1.98 | $0.066 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813:batch` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.66 | $1.98 | $0.022 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4.1-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.3 | $1.2 | $0.006 | — | —/— | — | OpenRouter reseller price |
 | `dots-studio/dots-3-note-preview:free` | ✅ 在线 | reasoning | 免费 | 512K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
@@ -384,7 +384,9 @@
 | `rekaai/reka-flash-3` | ✅ 在线 | reasoning | 按量 | 65.536K | $0.1 | $0.2 | — | — | —/— | — | OpenRouter reseller price |
 | `relace/relace-apply-3` | ✅ 在线 | chat | 按量 | 256K | $0.85 | $1.25 | — | — | —/— | — | OpenRouter reseller price |
 | `relace/relace-search` | ✅ 在线 | chat | 按量 | 256K | $1 | $3 | — | — | —/— | — | OpenRouter reseller price |
+| `sakana/fugu-max` | ✅ 在线 | reasoning | 按量 | 1M | $2 | $6 | $0.25 | — | —/— | — | OpenRouter reseller price |
 | `sakana/fugu-ultra` | ✅ 在线 | reasoning | 按量 | 1M | $5 | $30 | $0.5 | — | —/— | — | OpenRouter reseller price |
+| `sakana/fugu-ultra-v2` | ✅ 在线 | reasoning | 按量 | 1M | $5 | $30 | $0.5 | — | —/— | — | OpenRouter reseller price |
 | `sakana/sakana-namazu` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.95 | $4 | $0.15 | — | —/— | — | OpenRouter reseller price |
 | `sao10k/l3-lunaris-8b` | ✅ 在线 | chat | 按量 | 8.192K | $0.04 | $0.05 | — | — | —/— | — | OpenRouter reseller price |
 | `sao10k/l3.1-euryale-70b` | ✅ 在线 | chat | 按量 | 131.072K | $0.85 | $0.85 | — | — | —/— | — | OpenRouter reseller price |
