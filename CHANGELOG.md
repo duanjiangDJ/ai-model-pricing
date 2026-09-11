@@ -16,6 +16,16 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.122.69 — 2026-09-11T22:23Z (content update)
+
+- manual: correct cortecs qwen3.8-27b output price ($2.451 -> $0.4 per models.dev; stale value was silently skipped by the sync >5x surge guard)
+
+## 26.121.69 — 2026-09-11T21:58Z (content update)
+
+- price sync (5 changes):
+- **cortecs** (updated 3): `deepseek-v4-flash-0731`, `qwen3.8-27b`, `glm-5.3-flash`
+- **openrouter** (updated 4): `deepseek/deepseek-v4-flash`, `mistralai/mistral-small-3.2-24b-instruct`, `moonshotai/kimi-k3`, `~moonshotai/kimi-latest`
+
 ## 26.120.69 — 2026-09-11T20:09Z (feature update)
 
 - audit: detect per_mtok oscillation across syncs (OpenRouter override/time-of-day prices stored as one scalar)
