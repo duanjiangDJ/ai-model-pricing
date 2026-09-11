@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.115.62 — 2026-09-11T06:56Z (content update)
+
+- price sync (4 changes):
+- **openrouter** (+2): `sakana/fugu-max`, `sakana/fugu-ultra-v2`
+- **openrouter** (updated 2): `deepseek/deepseek-chat-v3-0324`, `deepseek/deepseek-v4-pro-0813`
+
 ## 26.114.62 — 2026-09-11T06:30Z (feature update)
 
 - docs(agents): codify aggregator-snapshot re-verification at review time
