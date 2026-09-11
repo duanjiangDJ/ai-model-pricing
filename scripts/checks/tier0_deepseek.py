@@ -25,8 +25,13 @@ PROVIDER_ID = "deepseek"
 URL = "https://api-docs.deepseek.com/quick_start/pricing/"  # trailing slash: avoids 302, serves static price table          # English (USD)
 URL_CNY = "https://api-docs.deepseek.com/zh-cn/quick_start/pricing"  # 中文 (CNY)
 
+# COLS keys MUST be model ids that exist in data/feed/providers/deepseek.json — a key that
+# no longer resolves makes update_model_prices silently skip it (the whole check no-ops for
+# that column). This went stale once: #166 renamed the DB id deepseek-v4.1-flash ->
+# deepseek-flash (official /models id) but left the old key here, so the live flash model
+# stopped being verified. Guarded by tests/test_check_model_id_alignment.py.
 COLS = {
-    "deepseek-v4.1-flash": 0,  # official model name on the page is `deepseek-flash`
+    "deepseek-flash": 0,  # == the official model id AND the page column header
     "deepseek-v4-pro": 1,
 }
 EXPECTED_PRICES = 12  # 6 rows x 2 columns
@@ -34,9 +39,9 @@ EXPECTED_PRICES = 12  # 6 rows x 2 columns
 NOTE_BASE = ("Official page (USD/1M tokens, peak tier; off-peak = 50%, "
              "peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC).")
 NOTE_EXTRA = {
-    "deepseek-v4.1-flash": (" Official model name on the page is deepseek-flash "
-                            "(DeepSeek-V4.1-Flash); legacy names deepseek-v4-flash and "
-                            "deepseek-v4-flash-vision-exp are retired and billed at this price."),
+    "deepseek-flash": (" The model id equals the official id `deepseek-flash` "
+                       "(= DeepSeek-V4.1-Flash); legacy names deepseek-v4-flash and "
+                       "deepseek-v4-flash-vision-exp are retired and billed at this price."),
     # 2026-09-11: DeepSeek REVERSED the V4 Pro retirement originally announced on the
     # page — the live page now states V4 Pro API service continues after 2026-09-14
     # with billing unchanged. Re-verify this note against the live footnote on each

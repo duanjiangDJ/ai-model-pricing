@@ -15,7 +15,7 @@ import sys
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")))
 from collect.router import collect  # noqa: E402
-from collect.utils import write_prices  # noqa: E402
+from collect.utils import write_prices, load_provider  # noqa: E402
 
 
 def run(provider_filter=None, dry_run=False):
@@ -36,9 +36,22 @@ def run(provider_filter=None, dry_run=False):
         if res.get("status") != "ok" or not parsed:
             summary[pid] = {"status": res.get("status"), "parsed": 0, "changed": 0}
             continue
+        # Surface collector model ids that do not resolve in the provider DB. write_prices ->
+        # update_model_prices SKIPS unknown ids silently, so a stale/renamed key (or an official
+        # model not yet seeded) makes the check a no-op that still looks green. Report-only:
+        # count + first few ids, so the daily log flags it without aborting the sync.
+        prov = load_provider(pid)
+        if prov:
+            db_ids = {m.get("id") for m in prov.get("models", [])}
+            missing = [mid for mid in parsed if mid not in db_ids]
+            if missing:
+                print(f"  WARN {pid}: {len(missing)} parsed model id(s) not in DB "
+                      f"(update silently skips them): {missing[:5]}")
+            res["missing_ids"] = missing
         # persist (unless dry-run) — write_prices updates the provider in the DB & changelog
         changed = write_prices(pid, parsed, res.get("source", ""), None) if not dry_run else len(parsed)
-        summary[pid] = {"status": "ok", "parsed": len(parsed), "changed": changed}
+        summary[pid] = {"status": "ok", "parsed": len(parsed), "changed": changed,
+                        "missing_ids": len(res.get("missing_ids") or [])}
     return summary
 
 

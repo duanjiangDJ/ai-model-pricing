@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.117.66 — 2026-09-11T14:14Z (feature update)
+
+- fix(deepseek): repoint tier0 check to the live model id deepseek-flash; add model-id alignment guard
+
 ## 26.117.65 — 2026-09-11T12:59Z (content update)
 
 - price sync (10 changes):
