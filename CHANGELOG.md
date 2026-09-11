@@ -16,6 +16,11 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.116.64 — 2026-09-11T09:55Z (content update)
+
+- price sync (3 changes):
+- **openrouter** (updated 3): `google/gemma-4-26b-a4b-it`, `~deepseek/deepseek-v4-flash-latest`, `~z-ai/glm-latest`
+
 ## 26.115.64 — 2026-09-11T09:47Z (feature update)
 
 - audit: guard stale-but-green auto_sync sources; prune orphaned sync_official manifest entries

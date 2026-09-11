@@ -1,6 +1,99 @@
 {
-  "schema_version": "26.115.64",
+  "schema_version": "26.116.64",
   "entries": [
+    {
+      "date": "2026-09-11T09:40:12Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "google/gemma-4-26b-a4b-it",
+      "field": "context_window",
+      "old": 1000000,
+      "new": 262144,
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-11T09:40:12Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~deepseek/deepseek-v4-flash-latest",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.04
+          },
+          "output": {
+            "usd": 0.16
+          },
+          "cache_read": {
+            "usd": 0.013
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.05
+          },
+          "output": {
+            "usd": 0.16
+          },
+          "cache_read": {
+            "usd": 0.013
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-11T09:40:12Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~z-ai/glm-latest",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.9
+          },
+          "output": {
+            "usd": 3.069
+          },
+          "cache_read": {
+            "usd": 0.18
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.97
+          },
+          "output": {
+            "usd": 3.3077
+          },
+          "cache_read": {
+            "usd": 0.194
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-11T06:40:19Z",
       "kind": "add",
