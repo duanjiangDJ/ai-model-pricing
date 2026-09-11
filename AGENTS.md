@@ -236,6 +236,18 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
   models.dev entry silently returns no price forever (the “check that never fires” gap).
   When extending the `SOURCES` registry, verify with `python scripts/tools/fetch_official.py <model> --json`.
 
+- **A check's model-id key must resolve in the provider DB, or the check silently no-ops.**
+  `update_model_prices()` skips ids it cannot resolve, so a check that keys its update on a
+  renamed/never-seeded id parses the page correctly (parse succeeds, `changed=0`) yet writes
+  NOTHING and still looks green — a dead check. Real 2026-09-11: PR #166 renamed the DeepSeek DB
+  id `deepseek-v4.1-flash` -> `deepseek-flash` (the official `/models` id) but left the old key in
+  `tier0_deepseek.py`'s `COLS`, so the live flash column was never verified and never got its
+  note. Guarded deterministically by `tests/test_check_model_id_alignment.py` (a check's `COLS`
+  keys AND its fixture-parsed ids must resolve in the provider file), and `price_check.py` now
+  emits a report-only `WARN` + `summary.missing_ids` for any collector id absent from the DB —
+  which is also how an official model that merely needs seeding gets surfaced (e.g.
+  `MiniMax-M2.1-highspeed`, `ministral-14b-latest`, seeded 2026-09-11).
+
 - **A `check:*` that is red in `manifest.json` is a bug signal, not noise.** `check:zhipuai`
   raised "no model rows matched" on EVERY run for weeks (the old JS marketing page
   `open.bigmodel.cn/pricing` was reworded) — `last_ok` stayed `null`, so the domestic CNY list was
