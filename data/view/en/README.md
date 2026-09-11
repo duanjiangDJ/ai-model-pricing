@@ -5,7 +5,7 @@
 
 - Generated: 2026-09-11T12:40:21Z
 - Providers: 190
-- Models total: 7588
+- Models total: 7590
 - Plans total: 67
 
 ## Providers
@@ -145,7 +145,7 @@
 | [Thinking Machines](providers/thinkingmachines.md) | Inference host | 2 | `providers/thinkingmachines.json` | 2026-09-04T00:22:51Z |
 | [Baseten](providers/baseten.md) | Inference host | 21 | `providers/baseten.json` | 2026-09-04T00:22:51Z |
 | [Poe](providers/poe.md) | Inference host | 137 | `providers/poe.json` | 2026-09-04T00:22:51Z |
-| [Mistral](providers/mistral.md) | First-party | 34 | `providers/mistral.json` | 2026-09-10T09:39:11Z |
+| [Mistral](providers/mistral.md) | First-party | 35 | `providers/mistral.json` | 2026-09-10T09:39:11Z |
 | [Modal](providers/modal.md) | Inference host | 4 | `providers/modal.json` | 2026-09-04T00:22:51Z |
 | [AIHubMix](providers/aihubmix.md) | Inference host | 77 | `providers/aihubmix.json` | 2026-09-04T00:22:51Z |
 | [ClinePass](providers/cline-pass.md) | Inference host | 13 | `providers/cline-pass.json` | 2026-09-04T00:22:51Z |
@@ -183,7 +183,7 @@
 | [Fireworks AI](providers/fireworks-ai.md) | Inference host | 26 | `providers/fireworks-ai.json` | 2026-09-04T00:22:51Z |
 | [Weights & Biases](providers/wandb.md) | Inference host | 32 | `providers/wandb.json` | 2026-09-04T00:22:51Z |
 | [Abacus](providers/abacus.md) | Inference host | 108 | `providers/abacus.json` | 2026-09-04T00:22:51Z |
-| [MiniMax (minimax.io)](providers/minimax.md) | First-party | 7 | `providers/minimax.json` | 2026-09-10T09:39:11Z |
+| [MiniMax (minimax.io)](providers/minimax.md) | First-party | 8 | `providers/minimax.json` | 2026-09-10T09:39:11Z |
 | [Vultr](providers/vultr.md) | Inference host | 10 | `providers/vultr.json` | 2026-09-04T00:22:51Z |
 | [GitHub](providers/github.md) | Subscription | 33 | `providers/github.json` | 2026-08-28T08:54:00Z |
 | [Cursor (Anysphere)](providers/cursor.md) | Subscription | 0 | `providers/cursor.json` | 2026-08-27T17:11:11Z |

@@ -9,7 +9,7 @@
 - Data updated: 2026-09-10T09:39:11Z
 - Verified: 2026-09-10T09:39:11Z
 
-**34** models in total.
+**35** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -25,6 +25,7 @@
 | `magistral-small` | ✅ online | reasoning | per-token | 128K | $0.5 | $1.5 | — | — | —/— | — | models.dev official list price |
 | `ministral-3b-latest` | ✅ online | chat | per-token | 128K | $0.1 | $0.1 | — | — | —/— | — | Official mistral.ai/pricing/api (USD per 1M tokens; page lists -latest aliase… |
 | `ministral-8b-latest` | ✅ online | chat | per-token | 128K | $0.15 | $0.15 | — | — | —/— | — | Official mistral.ai/pricing/api (USD per 1M tokens; page lists -latest aliase… |
+| `ministral-14b-latest` | ✅ online | chat | per-token | — | $0.2 | $0.2 | — | — | —/— | — | Official mistral.ai/pricing/api (USD per 1M tokens; page lists -latest aliase… |
 | `mistral-embed` | ✅ online | embedding | per-token | 8K | $0.1 | $0 | — | — | —/— | — | models.dev official list price |
 | `mistral-large-2411` | ✅ online | chat | per-token | 131.072K | $2 | $6 | — | — | —/— | — | models.dev official list price |
 | `mistral-large-2512` | ✅ online | chat | per-token | 262.144K | $0.5 | $1.5 | — | — | —/— | — | models.dev official list price |

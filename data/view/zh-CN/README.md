@@ -5,7 +5,7 @@
 
 - 数据更新时间: 2026-09-11T12:40:21Z
 - 覆盖渠道: 190
-- 模型总数: 7588
+- 模型总数: 7590
 - 订阅计划数: 67
 
 ## 供应商列表
@@ -145,7 +145,7 @@
 | [Thinking Machines](providers/thinkingmachines.md) | 推理托管 | 2 | `providers/thinkingmachines.json` | 2026-09-04T00:22:51Z |
 | [Baseten](providers/baseten.md) | 推理托管 | 21 | `providers/baseten.json` | 2026-09-04T00:22:51Z |
 | [Poe](providers/poe.md) | 推理托管 | 137 | `providers/poe.json` | 2026-09-04T00:22:51Z |
-| [Mistral](providers/mistral.md) | 官方直供 | 34 | `providers/mistral.json` | 2026-09-10T09:39:11Z |
+| [Mistral](providers/mistral.md) | 官方直供 | 35 | `providers/mistral.json` | 2026-09-10T09:39:11Z |
 | [Modal](providers/modal.md) | 推理托管 | 4 | `providers/modal.json` | 2026-09-04T00:22:51Z |
 | [AIHubMix](providers/aihubmix.md) | 推理托管 | 77 | `providers/aihubmix.json` | 2026-09-04T00:22:51Z |
 | [ClinePass](providers/cline-pass.md) | 推理托管 | 13 | `providers/cline-pass.json` | 2026-09-04T00:22:51Z |
@@ -183,7 +183,7 @@
 | [Fireworks AI](providers/fireworks-ai.md) | 推理托管 | 26 | `providers/fireworks-ai.json` | 2026-09-04T00:22:51Z |
 | [Weights & Biases](providers/wandb.md) | 推理托管 | 32 | `providers/wandb.json` | 2026-09-04T00:22:51Z |
 | [Abacus](providers/abacus.md) | 推理托管 | 108 | `providers/abacus.json` | 2026-09-04T00:22:51Z |
-| [MiniMax (minimax.io)](providers/minimax.md) | 官方直供 | 7 | `providers/minimax.json` | 2026-09-10T09:39:11Z |
+| [MiniMax (minimax.io)](providers/minimax.md) | 官方直供 | 8 | `providers/minimax.json` | 2026-09-10T09:39:11Z |
 | [Vultr](providers/vultr.md) | 推理托管 | 10 | `providers/vultr.json` | 2026-09-04T00:22:51Z |
 | [GitHub](providers/github.md) | 订阅制 | 33 | `providers/github.json` | 2026-08-28T08:54:00Z |
 | [Cursor (Anysphere)](providers/cursor.md) | 订阅制 | 0 | `providers/cursor.json` | 2026-08-27T17:11:11Z |

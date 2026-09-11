@@ -9,7 +9,7 @@
 - 数据更新时间: 2026-09-10T09:39:11Z
 - 核实时间: 2026-09-10T09:39:11Z
 
-共 **34** 个模型。
+共 **35** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -25,6 +25,7 @@
 | `magistral-small` | ✅ 在线 | reasoning | 按量 | 128K | $0.5 | $1.5 | — | — | —/— | — | models.dev official list price |
 | `ministral-3b-latest` | ✅ 在线 | chat | 按量 | 128K | $0.1 | $0.1 | — | — | —/— | — | Official mistral.ai/pricing/api (USD per 1M tokens; page lists -latest aliase… |
 | `ministral-8b-latest` | ✅ 在线 | chat | 按量 | 128K | $0.15 | $0.15 | — | — | —/— | — | Official mistral.ai/pricing/api (USD per 1M tokens; page lists -latest aliase… |
+| `ministral-14b-latest` | ✅ 在线 | chat | 按量 | — | $0.2 | $0.2 | — | — | —/— | — | Official mistral.ai/pricing/api (USD per 1M tokens; page lists -latest aliase… |
 | `mistral-embed` | ✅ 在线 | embedding | 按量 | 8K | $0.1 | $0 | — | — | —/— | — | models.dev official list price |
 | `mistral-large-2411` | ✅ 在线 | chat | 按量 | 131.072K | $2 | $6 | — | — | —/— | — | models.dev official list price |
 | `mistral-large-2512` | ✅ 在线 | chat | 按量 | 262.144K | $0.5 | $1.5 | — | — | —/— | — | models.dev official list price |

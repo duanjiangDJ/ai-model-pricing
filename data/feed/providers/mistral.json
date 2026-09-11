@@ -383,6 +383,37 @@
       "status": "online"
     },
     {
+      "id": "ministral-14b-latest",
+      "name": "Ministral 14B (latest)",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.2
+          },
+          "output": {
+            "usd": 0.2
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official mistral.ai/pricing/api (USD per 1M tokens; page lists -latest aliases; per-page/per-minute rows ignored). Context window not yet officially confirmed on the Mistral docs (client-rendered SPA) — left null rather than guess. Parsed by check mistral.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
       "id": "mistral-embed",
       "name": "Mistral Embed",
       "category": "embedding",

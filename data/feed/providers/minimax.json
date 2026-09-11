@@ -81,6 +81,41 @@
       "status": "online"
     },
     {
+      "id": "MiniMax-M2.1-highspeed",
+      "name": "MiniMax-M2.1-highspeed",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 204800,
+      "max_output": 131072,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.6
+          },
+          "output": {
+            "usd": 2.4
+          },
+          "cache_read": {
+            "usd": 0.03
+          },
+          "cache_write": {
+            "usd": 0.375
+          }
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official platform.minimax.io/docs/guides/pricing-paygo (USD per 1M tokens, cache-write where listed). Context window 204,800 per the official MiniMax models table (platform.minimax.io/docs/guides/text-generation). Parsed by check minimax.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
       "id": "MiniMax-M2.5",
       "name": "MiniMax-M2.5",
       "category": "reasoning",
