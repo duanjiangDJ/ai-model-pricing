@@ -6,8 +6,8 @@
 - 官网: https://api.cortecs.ai/v1/models
 - 定价页: https://api.cortecs.ai/v1/models
 - 币种: USD
-- 数据更新时间: 2026-09-10T09:39:10Z
-- 核实时间: 2026-09-10T09:39:10Z
+- 数据更新时间: 2026-09-11T21:41:49Z
+- 核实时间: 2026-09-11T21:41:49Z
 
 共 **112** 个模型。
 
@@ -28,7 +28,7 @@
 | `cosmos3-super-reasoner` | ✅ 在线 | reasoning | 按量 | 256K | $0.099 | $0.296 | — | — | —/— | — | models.dev official list price |
 | `deepseek-r1-0528` | ✅ 在线 | reasoning | 按量 | 164K | $0.652 | $2.57 | $0.163 | — | —/— | — | models.dev official list price |
 | `deepseek-v3.2` | ✅ 在线 | reasoning | 按量 | 163.84K | $0.296 | $0.495 | $0.075 | — | —/— | — | models.dev official list price |
-| `deepseek-v4-flash-0731` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.13 | $0.28 | $0.03 | — | —/— | — | models.dev official list price |
+| `deepseek-v4-flash-0731` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.09 | $0.17 | $0.014 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-pro` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.73 | $3.46 | $0.432 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-pro-0813` | ✅ 在线 | reasoning | 按量 | 1.04858M | $2 | $3.999 | $0.5 | — | —/— | — | models.dev official list price |
 | `devstral-2512` | ✅ 在线 | chat | 按量 | 262K | $0.478 | $2.392 | $0.045 | — | —/— | — | models.dev official list price |
@@ -49,7 +49,7 @@
 | `glm-5.1` | ✅ 在线 | reasoning | 按量 | 202.752K | $1.384 | $4.348 | $0.346 | — | —/— | — | models.dev official list price |
 | `glm-5.2` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.2 | $4.2 | $0.26 | — | —/— | — | models.dev official list price |
 | `glm-5.3` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.114 | $3.899 | $0.279 | — | —/— | — | models.dev official list price |
-| `glm-5.3-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.201 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
+| `glm-5.3-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.1 | $0.35 | $0.018 | — | —/— | — | models.dev official list price |
 | `glm-5v-turbo` | ✅ 在线 | reasoning | 按量 | 202.752K | $1.186 | $3.955 | $0.296 | — | —/— | — | models.dev official list price |
 | `gpt-4.1` | ✅ 在线 | chat | 按量 | 1.04758M | $2.192 | $8.769 | $0.546 | — | —/— | — | models.dev official list price |
 | `gpt-4.1-mini` | ✅ 在线 | chat | 按量 | 1.04758M | $0.434 | $1.704 | $0.134 | — | —/— | — | models.dev official list price |
@@ -120,7 +120,7 @@
 | `qwen3.6-27b` | ✅ 在线 | reasoning | 按量 | 262K | $0.446 | $3.008 | — | — | —/— | — | models.dev official list price |
 | `qwen3.6-35b-a3b` | ✅ 在线 | reasoning | 按量 | 262K | $0.167 | $0.557 | — | — | —/— | — | models.dev official list price |
 | `qwen3.8-2.4t-a95b` | ✅ 在线 | reasoning | 按量 | 262.144K | $2.5 | $6 | $0.625 | — | —/— | — | models.dev official list price |
-| `qwen3.8-27b` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.334 | $2.451 | $0.111 | — | —/— | — | models.dev official list price |
+| `qwen3.8-27b` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.1 | $2.451 | $0.04 | — | —/— | — | models.dev official list price |
 | `qwen3.8-flash-next` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.201 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
 | `qwen3guard-gen-0.6b` | ✅ 在线 | chat | 免费 | 32K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `qwen3guard-gen-8b` | ✅ 在线 | chat | 免费 | 32K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

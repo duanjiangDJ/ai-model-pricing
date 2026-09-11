@@ -6,8 +6,8 @@
 - Homepage: https://api.cortecs.ai/v1/models
 - Pricing page: https://api.cortecs.ai/v1/models
 - Currency: USD
-- Data updated: 2026-09-10T09:39:10Z
-- Verified: 2026-09-10T09:39:10Z
+- Data updated: 2026-09-11T21:41:49Z
+- Verified: 2026-09-11T21:41:49Z
 
 **112** models in total.
 
@@ -28,7 +28,7 @@
 | `cosmos3-super-reasoner` | ✅ online | reasoning | per-token | 256K | $0.099 | $0.296 | — | — | —/— | — | models.dev official list price |
 | `deepseek-r1-0528` | ✅ online | reasoning | per-token | 164K | $0.652 | $2.57 | $0.163 | — | —/— | — | models.dev official list price |
 | `deepseek-v3.2` | ✅ online | reasoning | per-token | 163.84K | $0.296 | $0.495 | $0.075 | — | —/— | — | models.dev official list price |
-| `deepseek-v4-flash-0731` | ✅ online | reasoning | per-token | 1.04858M | $0.13 | $0.28 | $0.03 | — | —/— | — | models.dev official list price |
+| `deepseek-v4-flash-0731` | ✅ online | reasoning | per-token | 1.04858M | $0.09 | $0.17 | $0.014 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-pro` | ✅ online | reasoning | per-token | 1.04858M | $1.73 | $3.46 | $0.432 | — | —/— | — | models.dev official list price |
 | `deepseek-v4-pro-0813` | ✅ online | reasoning | per-token | 1.04858M | $2 | $3.999 | $0.5 | — | —/— | — | models.dev official list price |
 | `devstral-2512` | ✅ online | chat | per-token | 262K | $0.478 | $2.392 | $0.045 | — | —/— | — | models.dev official list price |
@@ -49,7 +49,7 @@
 | `glm-5.1` | ✅ online | reasoning | per-token | 202.752K | $1.384 | $4.348 | $0.346 | — | —/— | — | models.dev official list price |
 | `glm-5.2` | ✅ online | reasoning | per-token | 1.04858M | $1.2 | $4.2 | $0.26 | — | —/— | — | models.dev official list price |
 | `glm-5.3` | ✅ online | reasoning | per-token | 1.04858M | $1.114 | $3.899 | $0.279 | — | —/— | — | models.dev official list price |
-| `glm-5.3-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.201 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
+| `glm-5.3-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.1 | $0.35 | $0.018 | — | —/— | — | models.dev official list price |
 | `glm-5v-turbo` | ✅ online | reasoning | per-token | 202.752K | $1.186 | $3.955 | $0.296 | — | —/— | — | models.dev official list price |
 | `gpt-4.1` | ✅ online | chat | per-token | 1.04758M | $2.192 | $8.769 | $0.546 | — | —/— | — | models.dev official list price |
 | `gpt-4.1-mini` | ✅ online | chat | per-token | 1.04758M | $0.434 | $1.704 | $0.134 | — | —/— | — | models.dev official list price |
@@ -120,7 +120,7 @@
 | `qwen3.6-27b` | ✅ online | reasoning | per-token | 262K | $0.446 | $3.008 | — | — | —/— | — | models.dev official list price |
 | `qwen3.6-35b-a3b` | ✅ online | reasoning | per-token | 262K | $0.167 | $0.557 | — | — | —/— | — | models.dev official list price |
 | `qwen3.8-2.4t-a95b` | ✅ online | reasoning | per-token | 262.144K | $2.5 | $6 | $0.625 | — | —/— | — | models.dev official list price |
-| `qwen3.8-27b` | ✅ online | reasoning | per-token | 262.144K | $0.334 | $2.451 | $0.111 | — | —/— | — | models.dev official list price |
+| `qwen3.8-27b` | ✅ online | reasoning | per-token | 262.144K | $0.1 | $2.451 | $0.04 | — | —/— | — | models.dev official list price |
 | `qwen3.8-flash-next` | ✅ online | reasoning | per-token | 262.144K | $0.201 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
 | `qwen3guard-gen-0.6b` | ✅ online | chat | free | 32K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `qwen3guard-gen-8b` | ✅ online | chat | free | 32K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

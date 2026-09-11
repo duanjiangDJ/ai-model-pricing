@@ -16,6 +16,12 @@
 
 ---
 
+## 26.121.69 — 2026-09-11T21:58Z（内容更新）
+
+- 价格同步（5 处变更）：
+- **cortecs**（更新 3）：`deepseek-v4-flash-0731`, `qwen3.8-27b`, `glm-5.3-flash`
+- **openrouter**（更新 4）：`deepseek/deepseek-v4-flash`, `mistralai/mistral-small-3.2-24b-instruct`, `moonshotai/kimi-k3`, `~moonshotai/kimi-latest`
+
 ## 26.120.69 — 2026-09-11T20:09Z（功能更新）
 
 - audit: 新增跨同步价格振荡检测（OpenRouter 时段/override 价被存成单值，导致价格反复跳变）
