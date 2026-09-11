@@ -6,8 +6,8 @@
 - Homepage: https://openrouter.ai
 - Pricing page: https://openrouter.ai/models
 - Currency: USD
-- Data updated: 2026-09-11T09:40:12Z
-- Verified: 2026-09-11T09:40:12Z
+- Data updated: 2026-09-11T12:40:21Z
+- Verified: 2026-09-11T12:40:21Z
 
 **439** models in total.
 
@@ -82,7 +82,7 @@
 | `deepseek/deepseek-v4-pro` | ✅ online | reasoning | per-token | 1.04858M | $0.95526 | $1.91052 | $0.079605 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813` | ✅ online | reasoning | per-token | 1.04858M | $0.66 | $1.98 | $0.066 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813:batch` | ✅ online | reasoning | per-token | 1.04858M | $0.66 | $1.98 | $0.022 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4.1-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.3 | $1.2 | $0.006 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4.1-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.15 | $0.6 | $0.003 | — | —/— | — | OpenRouter reseller price |
 | `dots-studio/dots-3-note-preview:free` | ✅ online | reasoning | free | 512K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `google/gemini-2.5-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.3 | $2.5 | $0.03 | $0.0833333 | —/— | — | OpenRouter reseller price |
 | `google/gemini-2.5-flash-image` | ✅ online | chat | per-token | 32.768K | $0.3 | $2.5 | $0.03 | $0.0833333 | —/— | — | OpenRouter reseller price |
@@ -142,7 +142,7 @@
 | `liquid/lfm-2.5-2.6b:free` | ✅ online | reasoning | free | 65.536K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `mancer/weaver` | ✅ online | chat | per-token | 8K | $0.4 | $0.75 | — | — | —/— | — | OpenRouter reseller price |
 | `meituan/longcat-2.0` | ✅ online | reasoning | per-token | 1.04876M | $0.3 | $1.2 | $0.006 | — | —/— | — | OpenRouter reseller price |
-| `meta-llama/llama-3.1-70b-instruct` | ✅ online | chat | per-token | 131.072K | $0.72 | $0.72 | — | — | —/— | — | OpenRouter reseller price |
+| `meta-llama/llama-3.1-70b-instruct` | ✅ online | chat | per-token | 131.072K | $0.4 | $0.4 | — | — | —/— | — | OpenRouter reseller price |
 | `meta-llama/llama-3.1-8b-instruct` | ✅ online | chat | per-token | 131.072K | $0.05 | $0.08 | $0.025 | — | —/— | — | OpenRouter reseller price |
 | `meta-llama/llama-3.2-1b-instruct` | ✅ online | chat | per-token | 60K | $0.027 | $0.201 | — | — | —/— | — | OpenRouter reseller price |
 | `meta-llama/llama-3.2-3b-instruct` | ✅ online | chat | per-token | 131.072K | $0.05 | $0.33 | — | — | —/— | — | OpenRouter reseller price |

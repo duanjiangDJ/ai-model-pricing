@@ -16,6 +16,19 @@
 
 ---
 
+## 26.117.65 — 2026-09-11T12:59Z（内容更新）
+
+- 价格同步（10 处变更）：
+- **deepinfra**（更新 1）：`XiaomiMiMo/MiMo-V2.5`
+- **edenai**（更新 7）：`qwen/deepseek-v4-pro-0813`, `qwen/deepseek-v4-flash-0731`, `scaleway/deepseek-v4-flash-0731`, `scaleway/gpt-oss-120b`, `scaleway/llama-3.3-70b-instruct`, `ionos/meta-llama/Llama-3.3-70B-Instruct`, `ionos/openai/gpt-oss-120b`
+- **hyper**（更新 11）：`gemma-4-26b-a4b-it`, `qwen3-next-80b-a3b-instruct`, `minimax-m2.7`, `llama-4-maverick-17b-128e-instruct-fp8`, `kimi-k2-thinking`, `glm-5`, `kimi-k2.5`, `glm-5.1`, `gpt-oss-120b`, `llama-3.3-70b-instruct`, `qwen3-coder-480b-a35b-instruct-int4-mixed-ar`
+- **kilo**（更新 5）：`nvidia/nemotron-3-super-120b-a12b`, `~moonshotai/kimi-latest`, `deepseek/deepseek-chat-v3-0324`, `~z-ai/glm-latest`, `tencent/hy3`
+- **llmgateway**（更新 1）：`gemma-4-31b-it`
+- **nano-gpt**（更新 7）：`alibaba/qwen3.8-flash`, `sakana/fugu-ultra`, `sakana/fugu-ultra-v1.1`, `deepseek/deepseek-v4-flash-vision-exp`, `deepseek/deepseek-v4-flash-0731`, `deepseek/deepseek-v4-flash-latest`, `deepseek/deepseek-v4-flash-0731:thinking`
+- **ofox**（更新 5）：`google/gemini-2.5-flash-lite`, `deepseek/deepseek-v4-pro-0423`, `z-ai/glm-4.7`, `z-ai/glm-4.6`, `z-ai/glm-4.7-flashx`
+- **openrouter**（更新 2）：`deepseek/deepseek-v4.1-flash`, `meta-llama/llama-3.1-70b-instruct`
+- **vercel**（更新 1）：`deepseek/deepseek-v3.2`
+
 ## 26.116.65 — 2026-09-11T12:00Z（功能更新）
 
 - 修复 deepseek-v4-pro 过时备注：官方已撤回下线计划，2026-09-14 后继续提供 V4 Pro 服务且计费不变

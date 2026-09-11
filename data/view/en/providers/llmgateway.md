@@ -6,8 +6,8 @@
 - Homepage: https://llmgateway.io/docs
 - Pricing page: https://llmgateway.io/docs
 - Currency: USD
-- Data updated: 2026-09-10T09:39:08Z
-- Verified: 2026-09-10T09:39:08Z
+- Data updated: 2026-09-11T12:41:08Z
+- Verified: 2026-09-11T12:41:08Z
 
 **565** models in total.
 
@@ -198,7 +198,7 @@
 | `gemini-pro-latest` | ✅ online | reasoning | per-token | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `gemma-3-27b` | ✅ online | chat | per-token | 110K | $0.1 | $0.3 | — | — | —/— | — | models.dev official list price |
 | `gemma-4-26b-a4b-it` | ✅ online | reasoning | per-token | 262.144K | $0.07 | $0.34 | — | — | —/— | — | models.dev official list price |
-| `gemma-4-31b-it` | ✅ online | reasoning | per-token | 262.144K | $0.102 | $0.297 | $0.012 | — | —/— | — | models.dev official list price |
+| `gemma-4-31b-it` | ✅ online | reasoning | per-token | 262.144K | $0.1 | $0.25 | $0.01 | — | —/— | — | models.dev official list price |
 | `glm-4-32b-0414-128k` | ✅ online | chat | per-token | 128K | $0.1 | $0.1 | — | — | —/— | — | models.dev official list price |
 | `glm-4.5` | ✅ online | reasoning | per-token | 131K | $0.6 | $2.2 | $0.11 | — | —/— | — | models.dev official list price |
 | `glm-4.5-air` | ✅ online | reasoning | per-token | 131K | $0.13 | $0.85 | $0.025 | — | —/— | — | models.dev official list price |

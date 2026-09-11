@@ -7,8 +7,8 @@
   "homepage": "https://kilo.ai",
   "pricing_page": "https://kilo.ai",
   "currency": "USD",
-  "updated_at": "2026-09-10T09:39:08Z",
-  "verified_at": "2026-09-10T09:39:08Z",
+  "updated_at": "2026-09-11T12:41:08Z",
+  "verified_at": "2026-09-11T12:41:08Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1526,10 +1526,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.29
+            "usd": 0.25
           },
           "output": {
-            "usd": 1.14
+            "usd": 1
           },
           "cache_read": {
             "usd": 0.11
@@ -5750,10 +5750,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.085
+            "usd": 0.08
           },
           "output": {
-            "usd": 0.4
+            "usd": 0.45
           },
           "cache_read": null,
           "cache_write": null
@@ -10662,13 +10662,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.132
+            "usd": 0.14
           },
           "output": {
-            "usd": 0.528
+            "usd": 0.58
           },
           "cache_read": {
-            "usd": 0.033
+            "usd": 0.035
           },
           "cache_write": null
         },
@@ -12134,13 +12134,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2.4
+            "usd": 2.34
           },
           "output": {
-            "usd": 12
+            "usd": 11.7
           },
           "cache_read": {
-            "usd": 0.24
+            "usd": 0.261
           },
           "cache_write": null
         },
@@ -12298,13 +12298,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.085
+            "usd": 0.97
           },
           "output": {
-            "usd": 3.41
+            "usd": 3.3077
           },
           "cache_read": {
-            "usd": 0.2015
+            "usd": 0.194
           },
           "cache_write": null
         },

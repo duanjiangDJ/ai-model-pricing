@@ -7,8 +7,8 @@
   "homepage": "https://docs.edenai.co",
   "pricing_page": "https://docs.edenai.co",
   "currency": "USD",
-  "updated_at": "2026-09-10T09:39:10Z",
-  "verified_at": "2026-09-10T09:39:10Z",
+  "updated_at": "2026-09-11T12:41:09Z",
+  "verified_at": "2026-09-11T12:41:09Z",
   "models": [
     {
       "id": "amazon/moonshot.kimi-k2-thinking",
@@ -3409,10 +3409,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.75738
+            "usd": 0.75504
           },
           "output": {
-            "usd": 0.75738
+            "usd": 0.75504
           },
           "cache_read": null,
           "cache_write": null
@@ -3440,10 +3440,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.17478
+            "usd": 0.17424
           },
           "output": {
-            "usd": 0.75738
+            "usd": 0.75504
           },
           "cache_read": null,
           "cache_write": null
@@ -5679,10 +5679,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.352
+            "usd": 0.176
           },
           "output": {
-            "usd": 1.056
+            "usd": 0.528
           },
           "cache_read": null,
           "cache_write": null
@@ -5710,10 +5710,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.122
+            "usd": 0.5808
           },
           "output": {
-            "usd": 3.366
+            "usd": 1.7424
           },
           "cache_read": null,
           "cache_write": null
@@ -6413,10 +6413,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.46608
+            "usd": 0.46464
           },
           "output": {
-            "usd": 0.93216
+            "usd": 0.92928
           },
           "cache_read": null,
           "cache_write": null
@@ -6444,10 +6444,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.17478
+            "usd": 0.17424
           },
           "output": {
-            "usd": 0.69912
+            "usd": 0.69696
           },
           "cache_read": null,
           "cache_write": null
@@ -6475,10 +6475,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.04868
+            "usd": 1.045439
           },
           "output": {
-            "usd": 1.04868
+            "usd": 1.045439
           },
           "cache_read": null,
           "cache_write": null

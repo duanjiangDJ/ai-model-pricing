@@ -1,6 +1,180 @@
 {
-  "schema_version": "26.116.65",
+  "schema_version": "26.117.65",
   "entries": [
+    {
+      "date": "2026-09-11T12:41:09Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "edenai",
+      "item_id": "qwen/deepseek-v4-pro-0813,qwen/deepseek-v4-pro-0813,qwen/deepseek-v4-flash-0731,qwen/deepseek-v4-flash-0731,scaleway/deepseek-v4-flash-0731,scaleway/deepseek-v4-flash-0731,scaleway/gpt-oss-120b,scaleway/gpt-oss-120b,scaleway/llama-3.3-70b-instruct,scaleway/llama-3.3-70b-instruct,ionos/meta-llama/Llama-3.3-70B-Instruct,ionos/meta-llama/Llama-3.3-70B-Instruct,ionos/openai/gpt-oss-120b,ionos/openai/gpt-oss-120b",
+      "field": "pricing",
+      "new": {
+        "models": 14
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-11T12:41:08Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "ofox",
+      "item_id": "google/gemini-2.5-flash-lite,deepseek/deepseek-v4-pro-0423,z-ai/glm-4.7,z-ai/glm-4.7,z-ai/glm-4.6,z-ai/glm-4.6,z-ai/glm-4.7-flashx,z-ai/glm-4.7-flashx",
+      "field": "pricing",
+      "new": {
+        "models": 8
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-11T12:41:08Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "kilo",
+      "item_id": "nvidia/nemotron-3-super-120b-a12b,nvidia/nemotron-3-super-120b-a12b,~moonshotai/kimi-latest,~moonshotai/kimi-latest,~moonshotai/kimi-latest,deepseek/deepseek-chat-v3-0324,deepseek/deepseek-chat-v3-0324,~z-ai/glm-latest,~z-ai/glm-latest,~z-ai/glm-latest,tencent/hy3,tencent/hy3,tencent/hy3",
+      "field": "pricing",
+      "new": {
+        "models": 13
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-11T12:41:08Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "deepinfra",
+      "item_id": "XiaomiMiMo/MiMo-V2.5",
+      "field": "pricing",
+      "new": {
+        "models": 1
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-11T12:41:08Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "llmgateway",
+      "item_id": "gemma-4-31b-it,gemma-4-31b-it,gemma-4-31b-it",
+      "field": "pricing",
+      "new": {
+        "models": 3
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-11T12:41:08Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "vercel",
+      "item_id": "deepseek/deepseek-v3.2,deepseek/deepseek-v3.2",
+      "field": "pricing",
+      "new": {
+        "models": 2
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-11T12:41:08Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "hyper",
+      "item_id": "gemma-4-26b-a4b-it,gemma-4-26b-a4b-it,gemma-4-26b-a4b-it,qwen3-next-80b-a3b-instruct,minimax-m2.7,minimax-m2.7,minimax-m2.7,llama-4-maverick-17b-128e-instruct-fp8,kimi-k2-thinking,glm-5,kimi-k2.5,glm-5.1,glm-5.1,glm-5.1,gpt-oss-120b,gpt-oss-120b,gpt-oss-120b,llama-3.3-70b-instruct,qwen3-coder-480b-a35b-instruct-int4-mixed-ar",
+      "field": "pricing",
+      "new": {
+        "models": 19
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-11T12:41:08Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "alibaba/qwen3.8-flash,alibaba/qwen3.8-flash,sakana/fugu-ultra,sakana/fugu-ultra,sakana/fugu-ultra,sakana/fugu-ultra-v1.1,sakana/fugu-ultra-v1.1,sakana/fugu-ultra-v1.1,deepseek/deepseek-v4-flash-vision-exp,deepseek/deepseek-v4-flash-vision-exp,deepseek/deepseek-v4-flash-vision-exp,deepseek/deepseek-v4-flash-0731,deepseek/deepseek-v4-flash-0731,deepseek/deepseek-v4-flash-0731,deepseek/deepseek-v4-flash-latest,deepseek/deepseek-v4-flash-latest,deepseek/deepseek-v4-flash-latest,deepseek/deepseek-v4-flash-0731:thinking,deepseek/deepseek-v4-flash-0731:thinking,deepseek/deepseek-v4-flash-0731:thinking",
+      "field": "pricing",
+      "new": {
+        "models": 20
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-11T12:40:21Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4.1-flash",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.3
+          },
+          "output": {
+            "usd": 1.2
+          },
+          "cache_read": {
+            "usd": 0.006
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.15
+          },
+          "output": {
+            "usd": 0.6
+          },
+          "cache_read": {
+            "usd": 0.003
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-11T12:40:21Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "meta-llama/llama-3.1-70b-instruct",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.72
+          },
+          "output": {
+            "usd": 0.72
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.4
+          },
+          "output": {
+            "usd": 0.4
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-11T09:40:12Z",
       "kind": "update",

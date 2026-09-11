@@ -6,8 +6,8 @@
 - 官网: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - 定价页: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - 币种: USD
-- 数据更新时间: 2026-09-10T09:39:08Z
-- 核实时间: 2026-09-10T09:39:08Z
+- 数据更新时间: 2026-09-11T12:41:08Z
+- 核实时间: 2026-09-11T12:41:08Z
 
 共 **375** 个模型。
 
@@ -113,7 +113,7 @@
 | `deepseek/deepseek-v3` | ✅ 在线 | chat | 按量 | 163.84K | $0.27 | $1.12 | $0.135 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v3.1` | ✅ 在线 | reasoning | 按量 | 163.84K | $0.25 | $0.95 | $0.13 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v3.1-terminus` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.27 | $1 | $0.135 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v3.2` | ✅ 在线 | chat | 按量 | 128K | $0.28 | $0.42 | $0.028 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v3.2` | ✅ 在线 | chat | 按量 | 128K | $0.62 | $1.85 | $0.028 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v3.2-thinking` | ✅ 在线 | reasoning | 按量 | 128K | $0.62 | $1.85 | — | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash` | ✅ 在线 | reasoning | 按量 | 1M | $0.13 | $0.26 | $0.028 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash-0731` | ✅ 在线 | reasoning | 按量 | 1M | $0.076 | $0.153 | $0.014 | — | —/— | — | models.dev official list price |
