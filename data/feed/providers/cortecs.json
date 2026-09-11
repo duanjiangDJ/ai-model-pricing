@@ -7,8 +7,8 @@
   "homepage": "https://api.cortecs.ai/v1/models",
   "pricing_page": "https://api.cortecs.ai/v1/models",
   "currency": "USD",
-  "updated_at": "2026-09-11T21:41:49Z",
-  "verified_at": "2026-09-11T21:41:49Z",
+  "updated_at": "2026-09-11T22:23:16Z",
+  "verified_at": "2026-09-11T22:23:16Z",
   "models": [
     {
       "id": "apertus-70b",
@@ -3465,7 +3465,7 @@
             "usd": 0.1
           },
           "output": {
-            "usd": 2.451
+            "usd": 0.4
           },
           "cache_read": {
             "usd": 0.04

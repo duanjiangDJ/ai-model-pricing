@@ -6,8 +6,8 @@
 - 官网: https://api.cortecs.ai/v1/models
 - 定价页: https://api.cortecs.ai/v1/models
 - 币种: USD
-- 数据更新时间: 2026-09-11T21:41:49Z
-- 核实时间: 2026-09-11T21:41:49Z
+- 数据更新时间: 2026-09-11T22:23:16Z
+- 核实时间: 2026-09-11T22:23:16Z
 
 共 **112** 个模型。
 
@@ -120,7 +120,7 @@
 | `qwen3.6-27b` | ✅ 在线 | reasoning | 按量 | 262K | $0.446 | $3.008 | — | — | —/— | — | models.dev official list price |
 | `qwen3.6-35b-a3b` | ✅ 在线 | reasoning | 按量 | 262K | $0.167 | $0.557 | — | — | —/— | — | models.dev official list price |
 | `qwen3.8-2.4t-a95b` | ✅ 在线 | reasoning | 按量 | 262.144K | $2.5 | $6 | $0.625 | — | —/— | — | models.dev official list price |
-| `qwen3.8-27b` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.1 | $2.451 | $0.04 | — | —/— | — | models.dev official list price |
+| `qwen3.8-27b` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.1 | $0.4 | $0.04 | — | —/— | — | models.dev official list price |
 | `qwen3.8-flash-next` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.201 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
 | `qwen3guard-gen-0.6b` | ✅ 在线 | chat | 免费 | 32K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `qwen3guard-gen-8b` | ✅ 在线 | chat | 免费 | 32K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

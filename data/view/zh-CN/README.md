@@ -26,7 +26,7 @@
 | [QVAC](providers/qvac.md) | 推理托管 | 9 | `providers/qvac.json` | 2026-09-04T00:22:51Z |
 | [iFlow](providers/iflowcn.md) | 推理托管 | 14 | `providers/iflowcn.json` | 2026-09-04T00:22:51Z |
 | [Claudinio](providers/claudinio.md) | 推理托管 | 2 | `providers/claudinio.json` | 2026-09-04T00:22:51Z |
-| [Cortecs](providers/cortecs.md) | 推理托管 | 112 | `providers/cortecs.json` | 2026-09-11T21:41:49Z |
+| [Cortecs](providers/cortecs.md) | 推理托管 | 112 | `providers/cortecs.json` | 2026-09-11T22:23:16Z |
 | [NanoGPT](providers/nano-gpt.md) | 推理托管 | 693 | `providers/nano-gpt.json` | 2026-09-11T12:41:08Z |
 | [ModelScope](providers/modelscope.md) | 推理托管 | 7 | `providers/modelscope.json` | 2026-09-04T00:22:51Z |
 | [Synthetic](providers/synthetic.md) | 推理托管 | 9 | `providers/synthetic.json` | 2026-09-04T00:22:51Z |

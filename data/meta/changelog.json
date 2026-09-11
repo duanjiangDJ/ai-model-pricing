@@ -1,6 +1,25 @@
 {
-  "schema_version": "26.121.69",
+  "schema_version": "26.122.69",
   "entries": [
+    {
+      "date": "2026-09-11T22:23:16Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "cortecs",
+      "item_id": "qwen3.8-27b",
+      "field": "pricing",
+      "old": {
+        "output": {
+          "usd": 2.451
+        }
+      },
+      "new": {
+        "output": {
+          "usd": 0.4
+        }
+      },
+      "source": "models.dev:api (manual correction; >5x surge-guard skip)"
+    },
     {
       "date": "2026-09-11T21:41:49Z",
       "kind": "update",

@@ -6,8 +6,8 @@
 - Homepage: https://api.cortecs.ai/v1/models
 - Pricing page: https://api.cortecs.ai/v1/models
 - Currency: USD
-- Data updated: 2026-09-11T21:41:49Z
-- Verified: 2026-09-11T21:41:49Z
+- Data updated: 2026-09-11T22:23:16Z
+- Verified: 2026-09-11T22:23:16Z
 
 **112** models in total.
 
@@ -120,7 +120,7 @@
 | `qwen3.6-27b` | ✅ online | reasoning | per-token | 262K | $0.446 | $3.008 | — | — | —/— | — | models.dev official list price |
 | `qwen3.6-35b-a3b` | ✅ online | reasoning | per-token | 262K | $0.167 | $0.557 | — | — | —/— | — | models.dev official list price |
 | `qwen3.8-2.4t-a95b` | ✅ online | reasoning | per-token | 262.144K | $2.5 | $6 | $0.625 | — | —/— | — | models.dev official list price |
-| `qwen3.8-27b` | ✅ online | reasoning | per-token | 262.144K | $0.1 | $2.451 | $0.04 | — | —/— | — | models.dev official list price |
+| `qwen3.8-27b` | ✅ online | reasoning | per-token | 262.144K | $0.1 | $0.4 | $0.04 | — | —/— | — | models.dev official list price |
 | `qwen3.8-flash-next` | ✅ online | reasoning | per-token | 262.144K | $0.201 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
 | `qwen3guard-gen-0.6b` | ✅ online | chat | free | 32K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `qwen3guard-gen-8b` | ✅ online | chat | free | 32K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
