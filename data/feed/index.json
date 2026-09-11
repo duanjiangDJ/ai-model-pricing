@@ -1,9 +1,9 @@
 {
-  "schema_version": "26.117.66",
+  "schema_version": "26.118.66",
   "generated_at": "2026-09-11T12:40:21Z",
   "currency": "USD",
   "provider_count": 189,
-  "model_count": 7588,
+  "model_count": 7590,
   "plan_count": 67,
   "providers": [
     {
@@ -1074,9 +1074,9 @@
       "id": "mistral",
       "name": "Mistral",
       "channel": "first_party",
-      "model_count": 34,
+      "model_count": 35,
       "file": "providers/mistral.json",
-      "updated_at": "2026-08-27T00:36:47Z"
+      "updated_at": "2026-09-11T14:17:01Z"
     },
     {
       "id": "modal",
@@ -1378,9 +1378,9 @@
       "id": "minimax",
       "name": "MiniMax (minimax.io)",
       "channel": "first_party",
-      "model_count": 7,
+      "model_count": 8,
       "file": "providers/minimax.json",
-      "updated_at": "2026-08-21T11:27:12Z"
+      "updated_at": "2026-09-11T14:17:01Z"
     },
     {
       "id": "vultr",
