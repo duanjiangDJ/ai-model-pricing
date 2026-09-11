@@ -96,6 +96,7 @@ dual_suspect = []  # models whose cny/usd ratio is uniform inside the FX band (l
 dual_nonuniform = []  # models whose cny/usd ratio varies >4x across fields (one field likely wrong-conversion)
 dual_fabricated = []  # models with a per_mtok field where usd literally == cny (a CNY value copied into the USD column on a CNY-only vendor; fabrication)
 free_contamination = []  # billing_model declares "free" but per_mtok has a positive price
+free_all_null = []  # billing_model declares "free" but per_mtok is ALL null (a dynamic-price sentinel mislabel)
 promo_stale = []  # expired promo whose list_price DIFFERS from per_mtok (discount over but promo price still published)
 promo_redundant = []  # expired promo whose list_price already EQUALS per_mtok (stale no-op block)
 asym_cny = []  # per_mtok sub-field carrying ONLY a cny value on a USD-declared provider (a secondary/CNY parser injected a field the primary USD source does not publish; mis-parse signature)
@@ -262,6 +263,23 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
         # ['free','pay_per_token'] (free tier + paid, e.g. Gemini) is NOT contamination.
         if "free" in bm and "pay_per_token" not in bm and has_val:
             free_contamination.append(f"{p['provider_id']} :: {m['id']}")
+        # free-label WITHOUT an explicit 0: a `free` model must assert a concrete 0 price.
+        # An all-null per_mtok under a `free` label is a dynamic-price sentinel mislabelled as
+        # free -- OpenRouter returns -1 for "no fixed published price" (router/auto models bill
+        # at the rate of the model they route to); to_float_or_none() dropped the negative to
+        # None, then all() on the emptied price set returned True -> free + a "per_mtok = 0"
+        # note. That publishes a false free price for a model that actually charges (real
+        # 2026-09-12: openrouter/auto, auto-beta, bodybuilder, fusion, pareto-code). Hard-fail
+        # the class so a sync that reintroduces the sentinel handling can never merge.
+        if "free" in _bm_list and "subscription_included" not in _bm_list:
+            _fvs = []
+            for _fv in pm.values():
+                if isinstance(_fv, dict):
+                    _fvs.extend(_fv.values())
+                else:
+                    _fvs.append(_fv)
+            if _fvs and all(x is None for x in _fvs):
+                free_all_null.append(f"{p['provider_id']} :: {m['id']}")
         if bm == ["unknown"] and (m.get("notes") or ""):
             unknown_models.append(f"{p['provider_id']} :: {m['id']}")
         # provenance: a PAID (positively priced) model must carry a source note (AGENTS.md:
@@ -374,6 +392,11 @@ if free_contamination:
     by_pid = _Cf(u.split(" :: ")[0] for u in free_contamination)
     warn(f"billing_model declares 'free' but per_mtok has a positive price (free-model contamination; {len(free_contamination)} models): "
          + ", ".join(f"{pid} x{c}" for pid, c in by_pid.most_common(12)))
+if free_all_null:
+    from collections import Counter as _Cfn
+    _by_pid = _Cfn(u.split(" :: ")[0] for u in free_all_null)
+    fail(f'"free" label with per_mtok all-null (a free model must assert an explicit 0; the all-null free label is a dynamic-price sentinel mislabel; {len(free_all_null)} models): '
+         + ", ".join(f"{pid} x{c}" for pid, c in _by_pid.most_common(12)))
 if promo_stale:
     from collections import Counter as _Cps
     _bps = _Cps(u.split(" :: ")[0] for u in promo_stale)

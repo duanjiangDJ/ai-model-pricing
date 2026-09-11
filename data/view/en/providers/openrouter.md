@@ -312,12 +312,12 @@
 | `openai/o4-mini` | ✅ online | reasoning | per-token | 200K | $1.1 | $4.4 | $0.275 | — | —/— | — | OpenRouter reseller price |
 | `openai/o4-mini-high` | ✅ online | reasoning | per-token | 200K | $1.1 | $4.4 | $0.275 | — | —/— | — | OpenRouter reseller price |
 | `openai/o4-mini:batch` | ✅ online | reasoning | per-token | 200K | $0.55 | $2.2 | $0.1375 | — | —/— | — | OpenRouter reseller price |
-| `openrouter/auto` | ✅ online | chat | free | 2M | — | — | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
-| `openrouter/auto-beta` | ✅ online | chat | free | 2M | — | — | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
-| `openrouter/bodybuilder` | ✅ online | chat | free | 128K | — | — | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
+| `openrouter/auto` | ✅ online | chat | ? | 2M | — | — | — | — | —/— | — | OpenRouter reseller price \| Dynamic routing price: billed at the selected mo… |
+| `openrouter/auto-beta` | ✅ online | chat | ? | 2M | — | — | — | — | —/— | — | OpenRouter reseller price \| Dynamic routing price: billed at the selected mo… |
+| `openrouter/bodybuilder` | ✅ online | chat | ? | 128K | — | — | — | — | —/— | — | OpenRouter reseller price \| Dynamic routing price: billed at the selected mo… |
 | `openrouter/free` | ✅ online | chat | free | 200K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
-| `openrouter/fusion` | ✅ online | chat | free | 1M | — | — | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
-| `openrouter/pareto-code` | ✅ online | chat | free | 2M | — | — | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
+| `openrouter/fusion` | ✅ online | chat | ? | 1M | — | — | — | — | —/— | — | OpenRouter reseller price \| Dynamic routing price: billed at the selected mo… |
+| `openrouter/pareto-code` | ✅ online | chat | ? | 2M | — | — | — | — | —/— | — | OpenRouter reseller price \| Dynamic routing price: billed at the selected mo… |
 | `perceptron/perceptron-mk1` | ✅ online | reasoning | per-token | 32.768K | $0.15 | $1.5 | — | — | —/— | — | OpenRouter reseller price |
 | `perplexity/sonar` | ✅ online | chat | per-token | 127.072K | $1 | $1 | — | — | —/— | — | OpenRouter reseller price |
 | `perplexity/sonar-deep-research` | ✅ online | reasoning | per-token | 128K | $2 | $8 | — | — | —/— | — | OpenRouter reseller price |

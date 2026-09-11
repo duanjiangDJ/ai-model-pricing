@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.122.71 — 2026-09-11T23:34Z (feature update)
+
+- fix(openrouter): -1 dynamic-price routers must not be labelled free; fail the all-null free label
+
 ## 26.122.70 — 2026-09-11T22:26Z (feature update)
 
 - fix(toolbox): surface >5x surge-guard rejections as changelog entries + audit check #9 for unresolved skips (the silent-skip class)

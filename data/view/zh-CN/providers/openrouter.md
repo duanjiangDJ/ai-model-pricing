@@ -312,12 +312,12 @@
 | `openai/o4-mini` | ✅ 在线 | reasoning | 按量 | 200K | $1.1 | $4.4 | $0.275 | — | —/— | — | OpenRouter reseller price |
 | `openai/o4-mini-high` | ✅ 在线 | reasoning | 按量 | 200K | $1.1 | $4.4 | $0.275 | — | —/— | — | OpenRouter reseller price |
 | `openai/o4-mini:batch` | ✅ 在线 | reasoning | 按量 | 200K | $0.55 | $2.2 | $0.1375 | — | —/— | — | OpenRouter reseller price |
-| `openrouter/auto` | ✅ 在线 | chat | 免费 | 2M | — | — | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
-| `openrouter/auto-beta` | ✅ 在线 | chat | 免费 | 2M | — | — | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
-| `openrouter/bodybuilder` | ✅ 在线 | chat | 免费 | 128K | — | — | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
+| `openrouter/auto` | ✅ 在线 | chat | 未知 | 2M | — | — | — | — | —/— | — | OpenRouter reseller price \| Dynamic routing price: billed at the selected mo… |
+| `openrouter/auto-beta` | ✅ 在线 | chat | 未知 | 2M | — | — | — | — | —/— | — | OpenRouter reseller price \| Dynamic routing price: billed at the selected mo… |
+| `openrouter/bodybuilder` | ✅ 在线 | chat | 未知 | 128K | — | — | — | — | —/— | — | OpenRouter reseller price \| Dynamic routing price: billed at the selected mo… |
 | `openrouter/free` | ✅ 在线 | chat | 免费 | 200K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
-| `openrouter/fusion` | ✅ 在线 | chat | 免费 | 1M | — | — | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
-| `openrouter/pareto-code` | ✅ 在线 | chat | 免费 | 2M | — | — | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
+| `openrouter/fusion` | ✅ 在线 | chat | 未知 | 1M | — | — | — | — | —/— | — | OpenRouter reseller price \| Dynamic routing price: billed at the selected mo… |
+| `openrouter/pareto-code` | ✅ 在线 | chat | 未知 | 2M | — | — | — | — | —/— | — | OpenRouter reseller price \| Dynamic routing price: billed at the selected mo… |
 | `perceptron/perceptron-mk1` | ✅ 在线 | reasoning | 按量 | 32.768K | $0.15 | $1.5 | — | — | —/— | — | OpenRouter reseller price |
 | `perplexity/sonar` | ✅ 在线 | chat | 按量 | 127.072K | $1 | $1 | — | — | —/— | — | OpenRouter reseller price |
 | `perplexity/sonar-deep-research` | ✅ 在线 | reasoning | 按量 | 128K | $2 | $8 | — | — | —/— | — | OpenRouter reseller price |
