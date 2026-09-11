@@ -224,6 +224,40 @@ def save_provider(provider):
     write_json(os.path.join(PROVIDERS, f"{provider['provider_id']}.json"), provider)
 
 
+def _record_surge_skips(provider_id, skips, now, source):
+    """Durably surface >5x surge-guard rejections as changelog provenance entries.
+
+    A skipped correction does NOT self-heal: the same >5x gap makes every later sync skip
+    again, so the stale value stays published forever with no trace of why. Real case
+    (2026-09-11): cortecs `qwen3.8-27b` output stuck at $2.451 while its declared source
+    (models.dev) reported $0.4 -- a 6.13x gap the guard silently rejected on every run, so
+    the row contradicted its own source indefinitely. Each rejection is now recorded as a
+    `kind="verify"`, `field="surge_skip:<field>.<currency>"` entry (old = stored value,
+    new = the official value the writer wanted to apply). audit.py flags any recorded skip
+    whose stored value is STILL the skipped one -- i.e. still unresolved. Identical pending
+    skips are deduped so a 3h sync cannot append a duplicate every run.
+    """
+    cl = load_changelog()
+    pending = set()
+    for e in cl.get("entries", [])[:500]:
+        if str(e.get("field", "")).startswith("surge_skip:") and e.get("provider_id") == provider_id:
+            pending.add((e.get("item_id"), e.get("field"), json.dumps(e.get("old"), sort_keys=True)))
+    fresh = []
+    for s in skips:
+        field = f"surge_skip:{s['field']}.{s['currency']}"
+        if (s["model_id"], field, json.dumps({"stored": s["stored"]}, sort_keys=True)) in pending:
+            continue
+        fresh.append({
+            "date": now, "kind": "verify", "scope": "model",
+            "provider_id": provider_id, "item_id": s["model_id"], "field": field,
+            "old": {"stored": s["stored"]}, "new": {"official": s["official"]},
+            "source": source,
+        })
+    if fresh:
+        append_changelog(fresh)
+        print(f"  RECORD {provider_id}: {len(fresh)} unresolved >5x surge skip(s) written to changelog")
+
+
 def update_model_prices(provider, updates, now, source, surge_factor=5.0):
     """Apply {model_id: {per_mtok: {...}, batch: {...}, notes: str}} updates.
     Only non-None values overwrite. Returns list of changed model ids.
@@ -232,6 +266,7 @@ def update_model_prices(provider, updates, now, source, surge_factor=5.0):
     """
     by_id = model_map(provider)
     changed = []
+    surge_skips = []  # >5x guard rejections, surfaced durably (see _record_surge_skips)
     for mid, data in updates.items():
         m = by_id.get(mid)
         if not m:
@@ -262,6 +297,7 @@ def update_model_prices(provider, updates, now, source, surge_factor=5.0):
                     _ratio = nv / ov
                     if _ratio > surge_factor or _ratio < (1.0 / surge_factor):
                         print(f"  SKIP {mid}.{k}.{currency}: {ov} -> {nv} looks like a parsing error (bidirectional {surge_factor}x surge); keeping old value")
+                        surge_skips.append({"model_id": mid, "field": k, "currency": currency, "stored": ov, "official": nv})
                         continue
                 cur_old[currency] = nv
                 changed.append(mid)
@@ -307,6 +343,8 @@ def update_model_prices(provider, updates, now, source, surge_factor=5.0):
                 # a check/collector literal like "retired" would corrupt the file and make
                 # validate/audit hard-fail on the next save.
                 print(f"  SKIP {mid}.status: invalid value {new_status!r} (only online/offline allowed)")
+    if surge_skips:
+        _record_surge_skips(provider.get("provider_id"), surge_skips, now, source)
     if changed:
         provider["verified_at"] = now
         provider["updated_at"] = now

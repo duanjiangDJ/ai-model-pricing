@@ -526,6 +526,56 @@ if _osc:
 else:
     print("OK oscillation: no model alternates between two prices across syncs")
 
+# 9. unresolved >5x surge skips (the silent-skip class)
+# update_model_prices() never applies a >5x correction (parse-error guard) but records every
+# rejection in the changelog as field="surge_skip:<field>.<currency>" (old = the stored value
+# it kept, new = the official value it wanted to write). Such a skip does NOT self-heal: the
+# same >5x gap re-skips on every later sync, so the stale price stays published forever with
+# no trace (real 2026-09-11: cortecs qwen3.8-27b output kept $2.451 vs the source's $0.4 --
+# a 6.13x gap the guard silently swallowed every run). Flag every recorded skip whose stored
+# value is STILL the skipped one; a resolved skip (manual correction, or a source that comes
+# back into range) no longer matches and drops out automatically.
+_unresolved = []
+try:
+    _cl2 = json.load(open("data/meta/changelog.json", encoding="utf-8"))
+    _provcache = {}
+    for _e in _cl2.get("entries", []):
+        _f = str(_e.get("field", ""))
+        if not _f.startswith("surge_skip:"):
+            continue
+        _pid, _mid = _e.get("provider_id"), _e.get("item_id")
+        _old, _new = _e.get("old"), _e.get("new")
+        if not isinstance(_old, dict) or not isinstance(_new, dict):
+            continue
+        _stored = _old.get("stored")
+        _key = _f.split("surge_skip:", 1)[1]  # e.g. "output.usd"
+        if "." not in _key:
+            continue
+        _k, _cur = _key.rsplit(".", 1)
+        if _pid not in _provcache:
+            _pf = os.path.join("data", "feed", "providers", f"{_pid}.json")
+            _provcache[_pid] = json.load(open(_pf, encoding="utf-8")) if os.path.exists(_pf) else None
+        _prov = _provcache[_pid]
+        if not _prov:
+            continue
+        _cur_val = None
+        for _m in _prov.get("models", []):
+            if _m.get("id") == _mid:
+                _node = ((_m.get("pricing") or {}).get("per_mtok") or {}).get(_k)
+                _cur_val = _node.get(_cur) if isinstance(_node, dict) else _node
+                break
+        if _stored is not None and _cur_val == _stored:
+            _unresolved.append(f"{_pid}:{_mid} {_k}.{_cur} still {_stored} "
+                               f"(source wanted {_new.get('official')})")
+except Exception as e:  # noqa: BLE001
+    fail(f"surge-skip check error: {e}")
+if _unresolved:
+    warn(f"unresolved >5x surge skip -- stored price still >5x from its source and the sync guard "
+         f"keeps rejecting the correction (can never self-heal; {len(_unresolved)}): "
+         + "; ".join(sorted(set(_unresolved))[:8]))
+else:
+    print("OK surge-skips: no unresolved >5x surge-guard rejection")
+
 if failures:
     print(f"\nAUDIT FAILED: {len(failures)} failures, {len(warnings)} warnings")
     sys.exit(1)
