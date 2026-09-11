@@ -8,6 +8,7 @@ Checks:
   - docs bilingual completeness: every prose doc has en + zh-CN pair
   - version scheme format: year.content.feature (e.g. 26.2.3)
   - broken relative links in markdown docs (generated data/view included)
+  - sync-health: an auto_sync manifest source that is stale-but-green (never refreshed)
 
 Usage: python scripts/audit.py  (exit 1 on failures, 0 with warnings ok)
 """
@@ -450,6 +451,41 @@ for f in sorted(md_files):
             broken_links += 1
             fail(f"broken relative link in {f}: [{m.group(1)}] (resolves to {p})")
 print(f"OK links: {len(md_files)} markdown files checked, {broken_links} broken")
+
+# 7. sync-health: an auto_sync manifest source that is stale-but-green (silently frozen)
+# The manifest's `sources[]` is SYNC HEALTH. A source with auto_sync:true and NO last_error
+# looks healthy, but if its last_ok is null/old it is silently dead -- the exact
+# "stale-but-green" class this repo guards against (models.dev sat frozen for 3 weeks; the
+# legacy sync_official `official` entries froze at 2026-08-21 when that layer was dropped
+# from the daily pipeline and superseded by scripts/checks/). A source that is genuinely
+# failing shows it via last_error, so we only flag the no-error case.
+STALE_SOURCE_DAYS = 7
+stale_sources = []
+try:
+    _mf = json.load(open("data/meta/manifest.json", encoding="utf-8"))
+    _now_src = datetime.now(timezone.utc)
+    for s in _mf.get("sources", []):
+        if not s.get("auto_sync") or s.get("last_error"):
+            continue
+        _lo = s.get("last_ok")
+        if not _lo:
+            stale_sources.append(f"{s.get('name')} (never ran)")
+            continue
+        try:
+            _dt = datetime.fromisoformat(str(_lo).replace("Z", "+00:00"))
+        except Exception:  # noqa: BLE001
+            stale_sources.append(f"{s.get('name')} (unparseable last_ok={_lo!r})")
+            continue
+        _age = (_now_src - _dt).days
+        if _age > STALE_SOURCE_DAYS:
+            stale_sources.append(f"{s.get('name')} ({_age}d)")
+except Exception as e:  # noqa: BLE001
+    fail(f"sync-health check error: {e}")
+if stale_sources:
+    warn(f"auto_sync source stale-but-green (auto_sync:true, no last_error, last_ok old/null -- a frozen sync-health entry; {len(stale_sources)}): "
+         + ", ".join(stale_sources))
+else:
+    print(f"OK sync-health: all auto_sync sources fresh (<{STALE_SOURCE_DAYS}d)")
 
 if failures:
     print(f"\nAUDIT FAILED: {len(failures)} failures, {len(warnings)} warnings")

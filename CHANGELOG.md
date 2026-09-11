@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.115.64 — 2026-09-11T09:47Z (feature update)
+
+- audit: guard stale-but-green auto_sync sources; prune orphaned sync_official manifest entries
+
 ## 26.115.63 — 2026-09-11T08:40Z (feature update)
 
 - fix(router): manifest check-source url points at the real check module file

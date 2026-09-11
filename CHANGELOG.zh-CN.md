@@ -16,6 +16,10 @@
 
 ---
 
+## 26.115.64 — 2026-09-11T09:47Z（功能更新）
+
+- audit：新增 stale-but-green 检查（auto_sync 源冻结即告警）；清理已被 checks 层取代的 sync_official 遗留 manifest 源
+
 ## 26.115.63 — 2026-09-11T08:40Z（功能更新）
 
 - 修复(router)：manifest 的 check 源 url 指向真实检查脚本文件
