@@ -5954,13 +5954,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2.1
+            "usd": 2.34
           },
           "output": {
-            "usd": 10.53
+            "usd": 11.7
           },
           "cache_read": {
-            "usd": 0.235
+            "usd": 0.261
           },
           "cache_write": null
         },
@@ -13575,13 +13575,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2.1
+            "usd": 2.34
           },
           "output": {
-            "usd": 10.53
+            "usd": 11.7
           },
           "cache_read": {
-            "usd": 0.235
+            "usd": 0.261
           },
           "cache_write": null
         },
@@ -13737,13 +13737,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.0
+            "usd": 0.9
           },
           "output": {
-            "usd": 3.41
+            "usd": 3.069
           },
           "cache_read": {
-            "usd": 0.2
+            "usd": 0.18
           },
           "cache_write": null
         },
