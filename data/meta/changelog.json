@@ -1,6 +1,182 @@
 {
-  "schema_version": "26.119.68",
+  "schema_version": "26.120.68",
   "entries": [
+    {
+      "date": "2026-09-11T18:41:33Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "requesty",
+      "item_id": "gpt-5.6-sol@eu,gpt-5.6-sol@eu,gpt-5.6-sol@eu",
+      "field": "pricing",
+      "new": {
+        "models": 3
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-11T18:41:03Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-flash",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08652
+          },
+          "output": {
+            "usd": 0.17304
+          },
+          "cache_read": {
+            "usd": 0.017304
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.08568
+          },
+          "output": {
+            "usd": 0.17136
+          },
+          "cache_read": {
+            "usd": 0.017136
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-11T18:41:03Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "tencent/hy3",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.132
+          },
+          "output": {
+            "usd": 0.528
+          },
+          "cache_read": {
+            "usd": 0.033
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.0825
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": {
+            "usd": 0.020625
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-11T18:41:03Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "z-ai/glm-5.2",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.966
+          },
+          "output": {
+            "usd": 3.036
+          },
+          "cache_read": {
+            "usd": 0.1932
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.6
+          },
+          "output": {
+            "usd": 2.0
+          },
+          "cache_read": {
+            "usd": 0.15
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-11T18:41:03Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~z-ai/glm-latest",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.7
+          },
+          "output": {
+            "usd": 2.2
+          },
+          "cache_read": {
+            "usd": 0.13
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.8727
+          },
+          "output": {
+            "usd": 3.36
+          },
+          "cache_read": {
+            "usd": 0.1639
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-11T15:40:45Z",
       "kind": "add",

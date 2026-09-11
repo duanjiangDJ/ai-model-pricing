@@ -6,8 +6,8 @@
 - 官网: https://openrouter.ai
 - 定价页: https://openrouter.ai/models
 - 币种: USD
-- 数据更新时间: 2026-09-11T15:40:45Z
-- 核实时间: 2026-09-11T15:40:45Z
+- 数据更新时间: 2026-09-11T18:41:03Z
+- 核实时间: 2026-09-11T18:41:03Z
 
 共 **443** 个模型。
 
@@ -74,7 +74,7 @@
 | `deepseek/deepseek-v3.1-terminus` | ✅ 在线 | reasoning | 按量 | 163.84K | $0.27 | $1 | $0.135 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2` | ✅ 在线 | reasoning | 按量 | 163.84K | $0.269 | $0.4 | $0.1345 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2-exp` | ✅ 在线 | reasoning | 按量 | 163.84K | $0.27 | $0.41 | — | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.08652 | $0.17304 | $0.017304 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.08568 | $0.17136 | $0.017136 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731` | ✅ 在线 | reasoning | 按量 | 1.31072M | $0.065 | $0.18 | $0.016 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731:batch` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.11 | $0.33 | $0.0035 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-vision-exp` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.22 | $0.66 | $0.007 | — | —/— | — | OpenRouter reseller price |
@@ -398,7 +398,7 @@
 | `tencent/hy-mt2-1.8b` | ✅ 在线 | chat | 按量 | 8.192K | $0.044 | $0.177 | — | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy-mt2-30b-a3b` | ✅ 在线 | chat | 按量 | 8.192K | $0.074 | $0.295 | — | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy-mt2-7b` | ✅ 在线 | chat | 按量 | 8.192K | $0.074 | $0.295 | — | — | —/— | — | OpenRouter reseller price |
-| `tencent/hy3` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.132 | $0.528 | $0.033 | — | —/— | — | OpenRouter reseller price |
+| `tencent/hy3` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.0825 | $0.33 | $0.020625 | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy3-preview` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.18 | $0.6 | $0.06 | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy4-preview` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.834 | $2.501 | $0.042 | — | —/— | — | OpenRouter reseller price |
 | `thedrummer/cydonia-24b-v4.1` | ✅ 在线 | chat | 按量 | 131.072K | $0.3 | $0.5 | $0.15 | — | —/— | — | OpenRouter reseller price |
@@ -433,7 +433,7 @@
 | `z-ai/glm-5` | ✅ 在线 | reasoning | 按量 | 204.8K | $0.6 | $1.92 | $0.12 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5-turbo` | ✅ 在线 | reasoning | 按量 | 202.752K | $1.2 | $4 | $0.24 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.1` | ✅ 在线 | reasoning | 按量 | 204.8K | $0.966 | $3.036 | $0.1794 | — | —/— | — | OpenRouter reseller price |
-| `z-ai/glm-5.2` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.966 | $3.036 | $0.1932 | — | —/— | — | OpenRouter reseller price |
+| `z-ai/glm-5.2` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.6 | $2 | $0.15 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.2:batch` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.7 | $2.2 | $0.07 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.3` | ✅ 在线 | reasoning | 按量 | 1.31072M | $1.4 | $4.4 | $0.26 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.3-flash` | ✅ 在线 | reasoning | 按量 | 1.31072M | $0.15 | $0.5 | $0.03 | — | —/— | — | OpenRouter reseller price |
@@ -455,4 +455,4 @@
 | `~openai/gpt-terra-latest` | ✅ 在线 | reasoning | 按量 | 1.05M | $2 | $12 | $0.2 | $2.5 | —/— | — | OpenRouter reseller price |
 | `~x-ai/grok-latest` | ✅ 在线 | reasoning | 按量 | 500K | $2 | $6 | $0.5 | — | —/— | — | OpenRouter reseller price |
 | `~z-ai/glm-flash-latest` | ✅ 在线 | reasoning | 按量 | 1.31072M | $0.075 | $0.25 | $0.015 | — | —/— | — | OpenRouter reseller price |
-| `~z-ai/glm-latest` | ✅ 在线 | reasoning | 按量 | 1.31072M | $0.7 | $2.2 | $0.13 | — | —/— | — | OpenRouter reseller price |
+| `~z-ai/glm-latest` | ✅ 在线 | reasoning | 按量 | 1.31072M | $0.8727 | $3.36 | $0.1639 | — | —/— | — | OpenRouter reseller price |

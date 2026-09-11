@@ -3,7 +3,7 @@
 > Data sources: official pricing pages & public APIs. Machine-readable version: [`data/feed/`](../../../data/feed/).
 > Auto-updated daily by GitHub Actions (see `.github/workflows/daily-check.yml`).
 
-- Generated: 2026-09-11T15:40:45Z
+- Generated: 2026-09-11T18:41:03Z
 - Providers: 190
 - Models total: 7594
 - Plans total: 67
@@ -133,7 +133,7 @@
 | [evroc](providers/evroc.md) | Inference host | 17 | `providers/evroc.json` | 2026-09-04T00:22:51Z |
 | [302.AI](providers/302ai.md) | Inference host | 97 | `providers/302ai.json` | 2026-09-10T09:39:09Z |
 | [OpenCode Zen](providers/opencode.md) | Aggregator | 99 | `providers/opencode.json` | 2026-09-11T00:09:22Z |
-| [Requesty](providers/requesty.md) | Inference host | 153 | `providers/requesty.json` | 2026-09-10T09:39:07Z |
+| [Requesty](providers/requesty.md) | Inference host | 153 | `providers/requesty.json` | 2026-09-11T18:41:33Z |
 | [SiliconFlow](providers/siliconflow.md) | Inference host | 61 | `providers/siliconflow.json` | 2026-09-04T00:22:51Z |
 | [Atomic Chat](providers/atomic-chat.md) | Inference host | 5 | `providers/atomic-chat.json` | 2026-09-04T00:22:51Z |
 | [Charm Hyper](providers/hyper.md) | Inference host | 32 | `providers/hyper.json` | 2026-09-11T12:41:08Z |
@@ -201,7 +201,7 @@
 | [百川智能 (Baichuan)](providers/baichuan.md) | First-party | 1 | `providers/baichuan.json` | 2026-08-28T10:02:16.380334Z |
 | [科大讯飞星火 (iFlytek Spark)](providers/iflytek.md) | First-party | 2 | `providers/iflytek.json` | 2026-08-28T10:02:16.380334Z |
 | [零一万物 (01.AI)](providers/lingyiwanwu.md) | First-party | 2 | `providers/lingyiwanwu.json` | 2026-08-28T10:02:16.380334Z |
-| [OpenRouter](providers/openrouter.md) | Aggregator | 443 | `providers/openrouter.json` | 2026-09-11T15:40:45Z |
+| [OpenRouter](providers/openrouter.md) | Aggregator | 443 | `providers/openrouter.json` | 2026-09-11T18:41:03Z |
 
 ## Plans
 
