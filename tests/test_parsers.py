@@ -31,8 +31,8 @@ class TestDeepSeekParser(unittest.TestCase):
     def test_parse_en_page(self):
         r = self.parse(load("deepseek_en.html"))
         # 2026-09-10 layout: 2 columns (deepseek-flash, deepseek-v4-pro) x 6 price rows.
-        self.assertIn("deepseek-v4.1-flash", r, "official name id must be the model id")
-        pm = r["deepseek-v4.1-flash"]["per_mtok"]
+        self.assertIn("deepseek-flash", r, "official name id must be the model id")
+        pm = r["deepseek-flash"]["per_mtok"]
         # Official EN page peak prices (USD): flash in $0.3, out $1.2, cache-hit $0.006
         # Prices are dual-currency objects {usd, cny} since schema 26.8.
         self.assertEqual(pm["input"], {"usd": 0.3})
@@ -54,13 +54,13 @@ class TestDeepSeekParser(unittest.TestCase):
         self.assertNotIn("deepseek-v4-flash-vision-exp", r)
         # off-peak flash cache-hit is $0.003; the peak value we record is $0.006 (a 3-col
         # stride would have written $0.014 here).
-        self.assertEqual(r["deepseek-v4.1-flash"]["per_mtok"]["cache_read"], {"usd": 0.006})
+        self.assertEqual(r["deepseek-flash"]["per_mtok"]["cache_read"], {"usd": 0.006})
 
     def test_parse_cny_page_2column(self):
         from checks.tier0_deepseek import parse_cny
         r = parse_cny(load("deepseek_cn.html"))
-        self.assertIn("deepseek-v4.1-flash", r)
-        flash = r["deepseek-v4.1-flash"]["per_mtok"]
+        self.assertIn("deepseek-flash", r)
+        flash = r["deepseek-flash"]["per_mtok"]
         # Official EN/zh-cn page peak prices (CNY): flash in ¥2.0, out ¥8.0, cache-hit ¥0.04
         self.assertEqual(flash["input"], {"cny": 2.0})
         self.assertEqual(flash["output"], {"cny": 8.0})
