@@ -39,6 +39,35 @@ def parse_stepfun(text):
     return out
 
 
+def build_updates(parsed, now=None):
+    """Wrap parse_stepfun's flat ¥/1M output into the collector contract shape.
+
+    Returns {model_id: {"per_mtok": {"input": {"cny": ..}, "cache_read": {"cny": ..},
+    "output": {"cny": ..}}, "notes": str}} — the shape make_result / price_check expect.
+
+    CNY-only vendor: the values MUST carry the "cny" currency key. A bare scalar is coerced
+    to {"usd": ...} by update_model_prices, which would store ¥ as $ (a ~7x unit error).
+
+    Shared by run() and scripts/collect/collectors/collect_stepfun.py so the two write paths
+    can never drift: the collect layer previously passed the raw flat dict straight to
+    make_result, which silently produced per_mtok=None for every model -> a DEAD collector
+    that parsed correctly but wrote NOTHING (2026-09-11)."""
+    now = now or now_iso()
+    updates = {}
+    for mid, pr in parsed.items():
+        updates[mid] = {
+            "per_mtok": {
+                "input": {"cny": pr["input"]},
+                "cache_read": {"cny": pr["cache_read"]},
+                "output": {"cny": pr["output"]},
+            },
+            "notes": (f"StepFun domestic pricing (¥/1M tokens, cache-miss/cache-hit/output): "
+                      f"¥{pr['input']:g}/¥{pr['cache_read']:g}/¥{pr['output']:g}. Verified {now} (CNY). "
+                      "Independent of the int'l USD list — not a currency conversion."),
+        }
+    return updates
+
+
 def run(ctx):
     html = js_fetch(URL, virtual_time=15000)
     if not html:
@@ -51,19 +80,6 @@ def run(ctx):
     if not provider:
         return {"changed": 0, "detail": "provider file missing"}
     by_id = {m["id"] for m in provider["models"]}
-    updates = {}
-    for mid, pr in parsed.items():
-        if mid not in by_id:
-            continue
-        updates[mid] = {
-            "per_mtok": {
-                "input": {"cny": pr["input"]},
-                "cache_read": {"cny": pr["cache_read"]},
-                "output": {"cny": pr["output"]},
-            },
-            "notes": (f"StepFun domestic pricing (¥/1M tokens, cache-miss/cache-hit/output): "
-                      f"¥{pr['input']:g}/¥{pr['cache_read']:g}/¥{pr['output']:g}. Verified {now_iso()} (CNY). "
-                      "Independent of the int'l USD list — not a currency conversion."),
-        }
+    updates = {mid: u for mid, u in build_updates(parsed, ctx["now"]).items() if mid in by_id}
     changed = update_model_prices(provider, updates, ctx["now"], URL)
     return {"changed": len(changed), "detail": f"StepFun CNY parsed via headless Chrome ({len(updates)} models)"}

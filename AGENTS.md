@@ -248,6 +248,18 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
   which is also how an official model that merely needs seeding gets surfaced (e.g.
   `MiniMax-M2.1-highspeed`, `ministral-14b-latest`, seeded 2026-09-11).
 
+- **A collector must hand `make_result` the `{per_mtok, notes}` contract shape — not a raw
+  price dict.** `collect/utils.make_result` reads `info.get("per_mtok")`, so a collector that
+  reuses a check's LOW-LEVEL flat parse (`tier1_stepfun.parse_stepfun` /
+  `tier1_baidu.parse_qianfan` return `{input, output, cache_read}`) silently emits
+  `per_mtok=None` for every model: the collector parses the page fine and writes NOTHING —
+  a DEAD collector, the sibling of the dead check above. Real 2026-09-11: `collect_stepfun`
+  and `collect_baidu` were both dead this way (the CNY branch was never updated). Fix: wrap
+  the flat parse with a check-level `build_updates(parsed, now)` that returns
+  `{mid: {"per_mtok": {"input": {"cny": ..}, ...}, "notes": ..}}` (CNY-only vendors MUST carry
+  the `cny` key — a scalar is coerced to `{"usd": ...}` by `update_model_prices`, storing ¥ as $).
+  `make_result` now RAISES on the shape mismatch, and `tests/test_collector_contract.py` locks it.
+
 - **A `check:*` that is red in `manifest.json` is a bug signal, not noise.** `check:zhipuai`
   raised "no model rows matched" on EVERY run for weeks (the old JS marketing page
   `open.bigmodel.cn/pricing` was reworded) — `last_ok` stayed `null`, so the domestic CNY list was

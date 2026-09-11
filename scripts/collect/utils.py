@@ -66,18 +66,41 @@ def load_collector(provider_id):
         return None
 
 
+_PRICE_KEYS = ("input", "output", "cache_read", "cache_write")
+
+
 def make_result(provider_id, source, updates, status=None):
     """Build a structured collector result from {model_id: {per_mtok, notes}} (no DB write).
 
     Returns the contract shape the router collects and price_check persists:
       {"provider_id", "source", "status", "parsed": {model_id: {per_mtok, notes}}, "errors"}
-    """
+
+    FAIL-LOUD on a contract violation: an update entry that carries raw per-token price keys
+    (input/output/cache_read/cache_write) but no "per_mtok" wrapper is a shape mismatch that
+    would otherwise silently become per_mtok=None, so the collector parses fine yet writes
+    NOTHING (a dead collector). This caught collect_stepfun / collect_baidu (2026-09-11): both
+    passed a check's low-level flat {input, output, cache_read} dict straight to make_result.
+    Wrap flat parses with a check's build_updates() (see checks/tier1_stepfun.build_updates)."""
     updates = updates or {}
+    parsed = {}
+    for mid, info in updates.items():
+        if not isinstance(info, dict):
+            raise ValueError(
+                f"{provider_id}: collector update for {mid!r} must be a dict "
+                f"{{'per_mtok': ..., 'notes': ...}}, got {type(info).__name__}")
+        if "per_mtok" not in info and any(k in info for k in _PRICE_KEYS):
+            raise ValueError(
+                f"{provider_id}: collector update for {mid!r} looks like a raw price dict "
+                f"{sorted(set(info) & set(_PRICE_KEYS))} without a 'per_mtok' wrapper. "
+                f"make_result would emit per_mtok=None and the collector would silently write "
+                f"NOTHING (dead collector). Wrap it as "
+                f"{{'per_mtok': {{'input': {{'cny'|'usd': ...}}, ...}}, 'notes': ...}} — "
+                f"see checks/tier1_stepfun.build_updates().")
+        parsed[mid] = {"per_mtok": info.get("per_mtok"), "notes": info.get("notes")}
     return {
         "provider_id": provider_id,
         "source": source,
         "status": status or ("ok" if updates else "no_source"),
-        "parsed": {mid: {"per_mtok": info.get("per_mtok"), "notes": info.get("notes")}
-                   for mid, info in updates.items()},
+        "parsed": parsed,
         "errors": [],
     }

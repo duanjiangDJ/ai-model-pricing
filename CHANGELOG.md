@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.119.68 — 2026-09-11T18:50Z (feature update)
+
+- Fix the collector contract: collect_stepfun / collect_baidu fed a check's flat price dict straight to make_result, producing per_mtok=None and silently writing nothing (dead collectors). Route both through a shared build_updates (cny-wrapped contract shape) and make make_result RAISE on a shape mismatch.
+
 ## 26.119.67 — 2026-09-11T16:10Z (content update)
 
 - price sync (11 changes):

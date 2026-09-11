@@ -49,6 +49,30 @@ def parse_qianfan(text):
     return out
 
 
+def build_updates(parsed, now=None):
+    """Wrap parse_qianfan's flat ¥/1M output into the collector contract shape.
+
+    Returns {model_id: {"per_mtok": {"input": {"cny": ..}, "output": {"cny": ..}}, "notes": str}}.
+
+    CNY-only vendor: values MUST carry the "cny" key (a scalar is coerced to {"usd": ...}
+    by update_model_prices). Shared by run() and collect_baidu.py so the two write paths
+    cannot drift (the collect layer previously fed the raw flat dict to make_result ->
+    per_mtok=None for every model -> a DEAD collector)."""
+    now = now or now_iso()
+    updates = {}
+    for mid, pr in parsed.items():
+        updates[mid] = {
+            "per_mtok": {
+                "input": {"cny": pr["input"]},
+                "output": {"cny": pr["output"]},
+            },
+            "notes": (f"Qianfan domestic pricing (¥/1M tokens): input ¥{pr['input']:g}, "
+                      f"output ¥{pr['output']:g} (<=32k tier). Verified {now} (CNY). "
+                      "Independent of the int'l USD list — not a currency conversion."),
+        }
+    return updates
+
+
 def run(ctx):
     html = js_fetch(URL, virtual_time=10000)
     if not html:
@@ -60,16 +84,7 @@ def run(ctx):
     provider = load_provider(PROVIDER_ID)
     if not provider:
         return {"changed": 0, "detail": "provider file missing"}
-    updates = {}
-    for mid, pr in parsed.items():
-        updates[mid] = {
-            "per_mtok": {
-                "input": {"cny": pr["input"]},
-                "output": {"cny": pr["output"]},
-            },
-            "notes": (f"Qianfan domestic pricing (¥/1M tokens): input ¥{pr['input']:g}, "
-                      f"output ¥{pr['output']:g} (<=32k tier). Verified {now_iso()} (CNY). "
-                      "Independent of the int'l USD list — not a currency conversion."),
-        }
+    by_id = {m["id"] for m in provider["models"]}
+    updates = {mid: u for mid, u in build_updates(parsed, ctx["now"]).items() if mid in by_id}
     changed = update_model_prices(provider, updates, ctx["now"], URL)
     return {"changed": len(changed), "detail": f"Qianfan CNY parsed via headless Chrome ({len(parsed)} models)"}
