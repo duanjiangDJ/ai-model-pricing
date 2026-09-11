@@ -16,6 +16,11 @@
 
 ---
 
+## 26.116.64 — 2026-09-11T09:55Z（内容更新）
+
+- 价格同步（3 处变更）：
+- **openrouter**（更新 3）：`google/gemma-4-26b-a4b-it`, `~deepseek/deepseek-v4-flash-latest`, `~z-ai/glm-latest`
+
 ## 26.115.64 — 2026-09-11T09:47Z（功能更新）
 
 - audit：新增 stale-but-green 检查（auto_sync 源冻结即告警）；清理已被 checks 层取代的 sync_official 遗留 manifest 源
