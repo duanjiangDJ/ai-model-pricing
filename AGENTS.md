@@ -209,8 +209,17 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
   republish dynamic/peak prices for models with peak/off-peak billing upstream (e.g. DeepSeek
   V4: peak = 2x off-peak). A sync records whatever the API returns at run time, so the same
   model’s OpenRouter-channel value can jump by a clean 2x between runs. When a review flags a
-  "surge" in an aggregator channel, cross-check against LIVE `openrouter.ai/api/v1/models` first
   — a clean 2x matching a first-party peak/off-peak tier is a timing snapshot, not corruption.
+- **An aggregation source must never write a provider the repo already checks one-hand.**
+  `collect_modelsdev` skips a provider when `has_official_collector(pid)` (a dedicated
+  `collect/collectors/collect_<pid>.py` exists) OR `verified_recently(pid, now)` (its
+  `verified_at` is inside a 26h freshness window). 2026-09-11 incident: the guard used to be an
+  **exact UTC-date equality** (`verified_at[:10] == now[:10]`), so it expired at midnight —
+  deepseek (verified 09-10T09:39Z) and zhipuai (09-10T21:28Z) were rewritten by the 09-11T00:39Z
+  sync to models.dev's own off-peak / expired-promo numbers AND lost their provenance notes.
+  Never make this guard depend on a calendar date, and never rely on `verified_at` alone: the
+  persist path only refreshes it when a price CHANGES, so it is stale for a stable price.
+  Guarded by `tests/test_writer_safety_guard.py::TestFirstPartyGuard`.
 
 - **Official-source verification reads each source's real keys.** `scripts/tools/fetch_official.py`
   must read the key each source actually uses: models.dev `api.json` stores prices under

@@ -42,31 +42,62 @@ class TestRouterPassesRealNow(unittest.TestCase):
 
 
 class TestFirstPartyGuard(unittest.TestCase):
-    """models.dev must skip a provider verified against its own official source today."""
+    """models.dev must never write a provider the repo maintains from its own official source.
+
+    2026-09-11 incident: the guard was `verified_at[:10] == now[:10]`, an exact UTC-date
+    equality. deepseek was verified 2026-09-10T09:39Z and zhipuai 2026-09-10T21:28Z, but the
+    next 3h sync ran at 2026-09-11T00:39Z — one UTC date later — so the guard opened and
+    models.dev rewrote deepseek-flash/v4-flash/v4-pro and zhipuai glm-5.3-flash with its own
+    (stale/off-peak/expired-promo) values and replaced their provenance notes.
+    """
 
     def setUp(self):
         self.tmp = tempfile.mkdtemp()
         self._orig = collect_modelsdev.PROVIDERS
         collect_modelsdev.PROVIDERS = self.tmp
-        with open(os.path.join(self.tmp, "deepseek.json"), "w") as f:
-            f.write('{"provider_id": "deepseek", "verified_at": "2026-09-10T00:00:00Z", "models": []}')
+        self._write_provider("deepseek", "2026-09-10T09:39:11Z")
 
     def tearDown(self):
         collect_modelsdev.PROVIDERS = self._orig
 
-    def test_verified_today_is_skipped(self):
-        self.assertTrue(collect_modelsdev.first_party_today("deepseek", "2026-09-10T09:39:11Z"))
+    def _write_provider(self, pid, verified_at):
+        with open(os.path.join(self.tmp, f"{pid}.json"), "w") as f:
+            f.write('{"provider_id": "%s", "verified_at": "%s", "models": []}' % (pid, verified_at))
+
+    def test_provider_with_own_official_collector_is_never_written(self):
+        # scripts/collect/collectors/collect_deepseek.py exists -> one-hand maintained
+        self.assertTrue(collect_modelsdev.has_official_collector("deepseek"))
+        self.assertTrue(collect_modelsdev.has_official_collector("zhipuai"))
+        self.assertFalse(collect_modelsdev.has_official_collector("hyper"))
+
+    def test_cross_midnight_verification_is_still_protected(self):
+        # THE regression: ~14h old and one UTC date later -> must remain protected
+        self.assertTrue(collect_modelsdev.verified_recently("deepseek", "2026-09-11T00:39:56Z"))
+
+    def test_stale_verification_opens_the_guard(self):
+        self._write_provider("deepseek", "2026-09-01T00:00:00Z")
+        self.assertFalse(collect_modelsdev.verified_recently("deepseek", "2026-09-11T00:00:00Z"))
 
     def test_falsy_now_leaves_guard_open(self):
-        # The regression: ctx {"now": None} silently disabled the guard for every provider.
-        self.assertFalse(collect_modelsdev.first_party_today("deepseek", None))
-        self.assertFalse(collect_modelsdev.first_party_today("deepseek", ""))
-
-    def test_other_day_is_not_skipped(self):
-        self.assertFalse(collect_modelsdev.first_party_today("deepseek", "2026-09-11T00:00:00Z"))
+        # The 2026-09-10 regression: ctx {"now": None} silently disabled the guard.
+        self.assertFalse(collect_modelsdev.verified_recently("deepseek", None))
+        self.assertFalse(collect_modelsdev.verified_recently("deepseek", ""))
 
     def test_unknown_provider_is_not_skipped(self):
-        self.assertFalse(collect_modelsdev.first_party_today("nope", "2026-09-10T00:00:00Z"))
+        self.assertFalse(collect_modelsdev.verified_recently("nope", "2026-09-10T00:00:00Z"))
+
+    def test_collect_skips_first_party_and_keeps_third_party(self):
+        """End-to-end: a first-party provider must not appear in models.dev's parsed output."""
+        catalog = {
+            "deepseek": {"models": {"deepseek-flash": {"cost": {"input": 0.15}}}},
+            "zhipuai": {"models": {"glm-5.3-flash": {"cost": {"input": 0.075}}}},
+            "some-host": {"models": {"m": {"cost": {"input": 1.0}}}},
+        }
+        with mock.patch.object(collect_modelsdev, "fetch_json", return_value=catalog):
+            res = collect_modelsdev.collect({"now": "2026-09-11T00:39:56Z"})
+        self.assertNotIn("deepseek", res["parsed"])
+        self.assertNotIn("zhipuai", res["parsed"])
+        self.assertIn("some-host", res["parsed"])
 
 
 if __name__ == "__main__":

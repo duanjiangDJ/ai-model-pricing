@@ -63,9 +63,9 @@ def collect(provider_filter=None, dry_run=False):
 
     results = {}
     # A REAL timestamp, not None: collectors gate on ctx["now"] (e.g. collect_modelsdev's
-    # first-party-priority guard compares it to the provider file's verified_at date). A None
-    # now silently disabled that guard for every provider (2026-09-10 bug: models.dev
-    # clobbered the first-party deepseek prices).
+    # first-party-priority guard compares it to the provider file's verified_at with a
+    # freshness window). A None now silently disabled that guard for every provider
+    # (2026-09-10 bug: models.dev clobbered the first-party deepseek prices).
     now = now_iso()
     for pid in ids:
         mod_name = "collect_" + pid
