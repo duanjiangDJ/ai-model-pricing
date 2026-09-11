@@ -90,6 +90,7 @@ bad_status = 0
 BILLING_ENUM = ("pay_per_token", "pay_per_image", "subscription_included", "credits", "free", "unknown")
 unknown_models = []
 no_price_models = []
+paid_no_note = []
 dual_suspect = []  # models whose cny/usd ratio is uniform inside the FX band (likely rate-derived)
 dual_nonuniform = []  # models whose cny/usd ratio varies >4x across fields (one field likely wrong-conversion)
 dual_fabricated = []  # models with a per_mtok field where usd literally == cny (a CNY value copied into the USD column on a CNY-only vendor; fabrication)
@@ -262,6 +263,13 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
             free_contamination.append(f"{p['provider_id']} :: {m['id']}")
         if bm == ["unknown"] and (m.get("notes") or ""):
             unknown_models.append(f"{p['provider_id']} :: {m['id']}")
+        # provenance: a PAID (positively priced) model must carry a source note (AGENTS.md:
+        # check notes/verified_at before trusting a number). update_model_prices only persisted
+        # a writer's notes alongside a price CHANGE, so a check that verified an already-correct
+        # price could never stamp its source -- 71 opencode/opencode-go models went sourceless
+        # (2026-09-11, fixed). Repo-wide this is now 0; the warn keeps the class from regressing.
+        if has_val and not (m.get("notes") or "").strip():
+            paid_no_note.append(f"{p['provider_id']} :: {m['id']}")
         # dual-currency independence: if cny/usd ratio is IDENTICAL (within 0.5%) across
         # input/output/cache fields AND sits in the plausible FX band (6-8), the cny is almost
         # certainly usd*rate, not an independent official CNY price. Ratios outside the band
@@ -334,6 +342,11 @@ if no_price_models:
     from collections import Counter as _C
     by_pid = _C(u.split(" :: ")[0] for u in no_price_models)
     warn(f"billing_model=pay_per_token but per_mtok all null (price not published, {len(no_price_models)} models): "
+         + ", ".join(f"{pid} x{c}" for pid, c in by_pid.most_common(12)))
+if paid_no_note:
+    from collections import Counter as _Cpn
+    by_pid = _Cpn(u.split(" :: ")[0] for u in paid_no_note)
+    warn(f"paid model with no provenance note (source/traceability gap; {len(paid_no_note)} models): "
          + ", ".join(f"{pid} x{c}" for pid, c in by_pid.most_common(12)))
 if dual_suspect:
     from collections import Counter as _Cd

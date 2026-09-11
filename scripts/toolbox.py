@@ -280,8 +280,21 @@ def update_model_prices(provider, updates, now, source, surge_factor=5.0):
             if m["pricing"].get("batch") != nb:
                 m["pricing"]["batch"] = nb
                 changed.append(mid)
-        if data.get("notes") and mid in changed:
-            m["notes"] = data["notes"]
+        # Provenance notes. Persist when the price/billing changed, and ALSO to backfill a
+        # model that has no note yet: a check that VERIFIES an already-correct price (nothing
+        # changed) must still be able to stamp its official source, or a model whose price the
+        # aggregator already happened to match stays sourceless forever (real 2026-09-11: the
+        # retargeted opencode/opencode-go checks mapped 71 models with a 0-diff price vs the
+        # official page, so `mid in changed` was empty and none of them got a note). Never
+        # rewrite an EXISTING note on a no-op verify, so an aggregator pass-through cannot
+        # clobber a first-party note (no notes tug-of-war).
+        _note = data.get("notes")
+        if _note:
+            _cur = m.get("notes") or ""
+            if (mid in changed or not _cur.strip()) and _cur != _note:
+                m["notes"] = _note
+                if mid not in changed:
+                    changed.append(mid)
         new_status = data.get("status")
         if new_status:
             if new_status in ("online", "offline"):

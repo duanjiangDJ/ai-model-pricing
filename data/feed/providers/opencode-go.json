@@ -8,8 +8,8 @@
   "pricing_page": "https://opencode.ai/docs/go/",
   "api_base_url": "https://opencode.ai/zen/go/v1/models",
   "currency": "USD",
-  "updated_at": "2026-09-10T20:23:09Z",
-  "verified_at": "2026-09-10T20:23:09Z",
+  "updated_at": "2026-09-11T00:09:22Z",
+  "verified_at": "2026-09-11T00:09:22Z",
   "models": [
     {
       "id": "deepseek-v4-flash",
@@ -95,7 +95,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/go/, USD per 1M tokens). Verified 2026-09-11T00:09:22Z.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -158,7 +158,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/go/, USD per 1M tokens). Verified 2026-09-11T00:09:22Z.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -188,7 +188,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/go/, USD per 1M tokens). Verified 2026-09-11T00:09:22Z.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -218,7 +218,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/go/, USD per 1M tokens). Verified 2026-09-11T00:09:22Z.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -283,7 +283,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/go/, USD per 1M tokens). Verified 2026-09-11T00:09:22Z.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -313,7 +313,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "models.dev catalog value (opencode-go); NOT on the official OpenCode Go price list (opencode.ai/docs/go/ lists Grok 4.6, not 4.5). Matches the OpenCode Zen Grok 4.5 list ($2/$6/$0.30 per 1M tokens, ≤200K tier); pending official verification for this channel.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -376,7 +376,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/go/, USD per 1M tokens). Verified 2026-09-11T00:09:22Z.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -471,7 +471,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/go/, USD per 1M tokens). Verified 2026-09-11T00:09:22Z.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -501,7 +501,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/go/, USD per 1M tokens). Verified 2026-09-11T00:09:22Z.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -531,7 +531,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/go/, USD per 1M tokens). Verified 2026-09-11T00:09:22Z.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -660,7 +660,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/go/, USD per 1M tokens). Verified 2026-09-11T00:09:22Z.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -690,7 +690,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/go/, USD per 1M tokens). Verified 2026-09-11T00:09:22Z.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -754,7 +754,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/go/, USD per 1M tokens). Verified 2026-09-11T00:09:22Z.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -784,7 +784,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/go/, USD per 1M tokens). Verified 2026-09-11T00:09:22Z.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -814,7 +814,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/go/, USD per 1M tokens). Verified 2026-09-11T00:09:22Z.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -941,7 +941,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/go/, USD per 1M tokens). Verified 2026-09-11T00:09:22Z.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -973,7 +973,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/go/, USD per 1M tokens). Verified 2026-09-11T00:09:22Z.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -1005,7 +1005,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/go/, USD per 1M tokens). Verified 2026-09-11T00:09:22Z.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -1071,7 +1071,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": null,
+      "notes": "OpenCode Zen official price list (opencode.ai/docs/go/, USD per 1M tokens). Verified 2026-09-11T00:09:22Z.",
       "billing_model": [
         "pay_per_token"
       ],
