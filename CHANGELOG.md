@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.114.62 — 2026-09-11T06:30Z (feature update)
+
+- docs(agents): codify aggregator-snapshot re-verification at review time
+
 ## 26.114.61 — 2026-09-11T03:57Z (content update)
 
 - price sync (15 changes):

@@ -208,8 +208,16 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
 - **Aggregator-channel prices can be time-of-day dependent.** OpenRouter (and some resellers)
   republish dynamic/peak prices for models with peak/off-peak billing upstream (e.g. DeepSeek
   V4: peak = 2x off-peak). A sync records whatever the API returns at run time, so the same
-  model’s OpenRouter-channel value can jump by a clean 2x between runs. When a review flags a
-  — a clean 2x matching a first-party peak/off-peak tier is a timing snapshot, not corruption.
+  model’s OpenRouter-channel value can jump by a clean 2x between runs. When a review flags such
+  a jump, a clean 2x matching a first-party peak/off-peak tier is a timing snapshot, not corruption.
+- **An aggregator snapshot is stale the moment it is taken — re-verify it at review time.** A
+  `bot/price-sync-*` PR records the aggregator API's values at run time; by the time it is reviewed
+  (up to ~3h later) some values have moved. Re-fetch `https://openrouter.ai/api/v1/models` (and
+  models.dev) at review time and compare every changed id: if a value drifted, re-pin the data AND
+  the sync's own `changelog.json` entry to the live value before merging. 2026-09-11:
+  `moonshotai/kimi-k3` + `~moonshotai/kimi-latest` were ~10% low vs live and `~z-ai/glm-latest`
+  ~11% high — all three re-pinned. Drift is not fabrication: resolve it by re-pinning,
+  never by blocking the PR.
 - **An aggregation source must never write a provider the repo already checks one-hand.**
   `collect_modelsdev` skips a provider when `has_official_collector(pid)` (a dedicated
   `collect/collectors/collect_<pid>.py` exists) OR `verified_recently(pid, now)` (its
