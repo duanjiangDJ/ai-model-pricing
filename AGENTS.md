@@ -210,6 +210,17 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
   V4: peak = 2x off-peak). A sync records whatever the API returns at run time, so the same
   model’s OpenRouter-channel value can jump by a clean 2x between runs. When a review flags such
   a jump, a clean 2x matching a first-party peak/off-peak tier is a timing snapshot, not corruption.
+  This **oscillates, it does not settle**. OpenRouter publishes the time windows in
+  `pricing.overrides` and returns a different scalar for different run hours, while
+  `sync_openrouter.build_model()` reads only `pricing.prompt/completion/input_cache_read`
+  and ignores `overrides` — so an affected row flips A -> B -> A -> B on every sync, forever
+  (2026-09-12: `tencent/hy3` 0.0825<->0.132, `nvidia/nemotron-3-ultra-550b-a55b` 0.6<->0.625,
+  `minimax/minimax-m1` 0.4<->0.55, `minimax/minimax-m2.5` 0.27<->0.3,
+  `deepseek/deepseek-v4-flash-vision-exp` 0.22<->0.44). `audit.py` check #8 flags the class as a
+  WARN (a strict A/B alternation across the recent changelog, not mere drift — the *drift* case
+  is the separate note below). The root fix is writer-side: model `overrides` (store the peak
+  tier + an `off_peak` block, or promo/list) instead of persisting whichever tier the run landed
+  in. That changes sync value semantics, so it needs human sign-off, unlike a check edit.
 - **An aggregator snapshot is stale the moment it is taken — re-verify it at review time.** A
   `bot/price-sync-*` PR records the aggregator API's values at run time; by the time it is reviewed
   (up to ~3h later) some values have moved. Re-fetch `https://openrouter.ai/api/v1/models` (and
