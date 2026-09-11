@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.115.63 — 2026-09-11T08:40Z (feature update)
+
+- fix(router): manifest check-source url points at the real check module file
+
 ## 26.115.62 — 2026-09-11T06:56Z (content update)
 
 - price sync (4 changes):
