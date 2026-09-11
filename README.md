@@ -32,8 +32,8 @@ systems, GPU-second pricing, consumer subscriptions, and coding-tool plans.
 **How this project is built**: the repository is maintained with
 [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness) using the
 **deepseek-v4-flash-0731** model. Data acquisition combines official pricing pages
-(`scripts/sync/sync_official.py`), public catalogs (models.dev, OpenRouter), and human/agent
-verification.
+(the per-provider `scripts/checks/` layer, run by `scripts/collect/router.py`), public catalogs
+(models.dev, OpenRouter), and human/agent verification.
 
 <!-- STATS:BEGIN -->
 

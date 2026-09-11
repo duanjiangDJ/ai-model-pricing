@@ -255,6 +255,19 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
   now refreshes both via `_refresh_manifest_sources`: OpenRouter from `summary["network_ok"]`,
   models.dev from the unified router's `modelsdev` result — a failed OR empty parse (`providers == 0`)
   marks it errored. If you add a non-check source, wire an explicit refresh here or it will freeze.
+  `scripts/audit.py` now also flags the whole class generically: any `sources[]` entry with
+  `auto_sync: true` and NO `last_error` whose `last_ok` is null/older than 7 days is reported as
+  "stale-but-green" (a warning). That guard immediately caught the real leftover: the three
+  legacy `official` entries (`DeepSeek/Baidu/Anthropic official pricing`) written by the
+  now-orphaned `sync_official.py` froze at `2026-08-21` when the 2026-09-04 collection refactor
+  dropped that layer from the daily pipeline (superseded by `scripts/checks/`). They were removed
+  from the manifest and their registry entries in `scripts/official_sources.json` set
+  `enabled: false` (with a supersession note) so a standalone run can't resurrect them. Rule: a
+  source that is no longer refreshed by the pipeline must not stay in the manifest claiming
+  `auto_sync: true`; either wire a refresh (above) or prune the entry.
+  *Note — `check:*` entries also carry `official: true`; when pruning legacy official sources
+  filter on `official and not check`, never `official` alone (filtering on `official` alone
+  wiped all 190 check entries in one pass).*
 
 - **A probe-only check is a DEAD check — it must parse the price table, not just fetch it.**
   `tier1_opencode`/`tier1_opencode_go` were auto-generated stubs that `js_fetch`ed the page and

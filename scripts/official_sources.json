@@ -6,8 +6,8 @@
       "strategy": "direct",
       "url": "https://api-docs.deepseek.com/quick_start/pricing",
       "parser": "deepseek",
-      "enabled": true,
-      "note": "Docusaurus static page; CNY pricing with peak/off-peak tiers"
+      "enabled": false,
+      "note": "SUPERSEDED 2026-09-11: disabled. The daily pipeline no longer runs sync_official.py (the 2026-09-04 collection refactor replaced it with the per-provider check/collect layer -- scripts/checks/tier0_deepseek.py, tier0_anthropic.py, tier1_baidu.py -- run by scripts/router.py + price_check). Leaving these enabled froze their manifest sync-health entries at 2026-08-21 (stale-but-green). Re-enable only to run this tool standalone."
     },
     {
       "provider_id": "baidu",
@@ -15,8 +15,8 @@
       "strategy": "direct",
       "url": "https://intl.cloud.baidu.com/en/doc/qianfan/s/Jm8r1826a-intl-en",
       "parser": "baidu",
-      "enabled": true,
-      "note": "Static doc page; CNY per 1K tokens"
+      "enabled": false,
+      "note": "SUPERSEDED 2026-09-11: disabled. The daily pipeline no longer runs sync_official.py (the 2026-09-04 collection refactor replaced it with the per-provider check/collect layer -- scripts/checks/tier0_deepseek.py, tier0_anthropic.py, tier1_baidu.py -- run by scripts/router.py + price_check). Leaving these enabled froze their manifest sync-health entries at 2026-08-21 (stale-but-green). Re-enable only to run this tool standalone."
     },
     {
       "provider_id": "anthropic",
@@ -24,8 +24,8 @@
       "strategy": "direct",
       "url": "https://www.anthropic.com/pricing",
       "parser": "anthropic",
-      "enabled": true,
-      "note": "SSR page with 'Input $X / MTok Output $Y / MTok ... Write $W / MTok Read $R / MTok' patterns"
+      "enabled": false,
+      "note": "SUPERSEDED 2026-09-11: disabled. The daily pipeline no longer runs sync_official.py (the 2026-09-04 collection refactor replaced it with the per-provider check/collect layer -- scripts/checks/tier0_deepseek.py, tier0_anthropic.py, tier1_baidu.py -- run by scripts/router.py + price_check). Leaving these enabled froze their manifest sync-health entries at 2026-08-21 (stale-but-green). Re-enable only to run this tool standalone."
     },
     {
       "provider_id": "openai",

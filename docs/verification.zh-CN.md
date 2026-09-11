@@ -7,10 +7,7 @@
 
 `scripts/daily_check.py` 每天执行以下步骤：
 
-0. **官方价格层** — `scripts/sync/sync_official.py` **直接抓取官方定价页**（来源注册表：`scripts/official_sources.json`）：
-   - 直接抓取并解析：DeepSeek、百度千帆、Anthropic（静态/SSR 页面）；
-   - Wayback 快照兜底：OpenAI（JS 渲染）、Google（暂禁用，待更好的解析器）；
-   - 解析得到的值更新 `per_mtok.{input,output,cache_read,cache_write}`/`batch`，即使价格未变也刷新 `verified_at`（"今日已检查"），并在 manifest 中记录每个来源的 `last_ok`/`last_error`。
+0. **官方价格层** — 官方定价页由 `scripts/checks/` 下**各供应商的检查模块直接抓取**（如 `tier0_deepseek.py`、`tier0_anthropic.py`、`tier1_baidu.py`），由 `scripts/collect/router.py` + `price_check` 发现并运行。解析得到的值更新 `per_mtok.{input,output,cache_read,cache_write}`/`batch`，即使价格未变也刷新 `verified_at`（"今日已检查"），并在 manifest 中按 `check:<provider>` 记录每个来源的 `last_ok`/`last_error`。`scripts/sync/sync_official.py`（注册表 `scripts/official_sources.json`）是**独立的/手动**抓取器，保留供临时使用；它**不在**每日流水线中，其历史来源已停用（2026-09-11 被取代）。
 1. **OpenRouter 差异比对** — 抓取 `https://openrouter.ai/api/v1/models`（完整目录），将每个模型的定价与 `data/feed/providers/openrouter.json` 对比：
    - 新模型 → `kind: add` changelog 条目
    - 移除的模型 → `kind: remove`
@@ -30,7 +27,7 @@
 | 层级 | 来源 | 更新节奏 | 可信度 |
 |---|---|---|---|
 | A+. 官方页面（agent 经 ego-browser） | 由 AI agent 通过 ego-lite 浏览器读取的实时 JS 渲染官方页面 | 按需，按重新核实活动执行 | 最高 —— 当前官方页面，已渲染 |
-| A. 官方页面（直接解析） | 仓库内直接解析的静态/SSR 官方页面（DeepSeek、百度、Anthropic）+ JS 页面的 Wayback 快照 | 每日自动同步（`sync_official.py`） | 高 —— 直接来自厂商（快照可能滞后） |
+| A. 官方页面（直接解析） | 仓库内直接解析的静态/SSR 官方页面（`scripts/checks/` 层：DeepSeek、百度、Anthropic 等） | 每日自动同步（`scripts/checks/`，由 router 运行） | 高 —— 直接来自厂商 |
 | B. models.dev | 第三方维护的官方挂牌价转载 | 每日自动同步（A/A+ 今日已核实时跳过） | 第一方条目可信度高；仍属第三方转载 |
 | C. OpenRouter API | 转售商/聚合商价格（OpenRouter 实际收取的价格） | 每日自动同步 | 作为 OpenRouter 的价格是正确的；与官方价格存在设计性差异 |
 

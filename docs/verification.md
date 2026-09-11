@@ -8,13 +8,14 @@ of the data in this repository.
 
 `scripts/daily_check.py` runs the following steps every day:
 
-0. **Official-price layer** — `scripts/sync/sync_official.py` fetches **official pricing pages
-   directly** (source registry: `scripts/official_sources.json`):
-   - direct fetch + parse: DeepSeek, Baidu Qianfan, Anthropic (static/SSR pages);
-   - Wayback-snapshot fallback: OpenAI (JS-rendered), Google (disabled pending better parser);
-   - parsed values update `per_mtok.{input,output,cache_read,cache_write}`/`batch`, refresh
-     `verified_at` even when prices are unchanged ("checked today"), and record per-source
-     `last_ok`/`last_error` in the manifest.
+0. **Official-price layer** — official pricing pages are fetched **directly** by the per-provider
+   check modules under `scripts/checks/` (e.g. `tier0_deepseek.py`, `tier0_anthropic.py`,
+   `tier1_baidu.py`), discovered and run by `scripts/collect/router.py` + `price_check`. Parsed
+   values update `per_mtok.{input,output,cache_read,cache_write}`/`batch`, refresh `verified_at`
+   even when prices are unchanged ("checked today"), and record per-source `last_ok`/`last_error`
+   in the manifest (as `check:<provider>`). `scripts/sync/sync_official.py` (registry
+   `scripts/official_sources.json`) is a **standalone/manual** fetcher kept for ad-hoc use; it is
+   NOT part of the daily pipeline, and its legacy sources are disabled (superseded 2026-09-11).
 1. **OpenRouter diff** — fetch `https://openrouter.ai/api/v1/models` (the full catalog),
    compare every model's pricing against `data/feed/providers/openrouter.json`:
    - new model → `kind: add` changelog entry
@@ -42,7 +43,7 @@ duplicate-id checks) on every run; a validation failure fails the workflow run.
 
 | Tier | Source | Update cadence | Trust level |
 |---|---|---|---|
-| A. Official pages (direct parse) | static/SSR official pages parsed in-repo (DeepSeek, Baidu, Anthropic) + Wayback snapshots for JS pages | daily auto-sync (`sync_official.py`) | High — direct from vendor (snapshots may lag) |
+| A. Official pages (direct parse) | static/SSR official pages parsed in-repo (the `scripts/checks/` layer: DeepSeek, Baidu, Anthropic, …) | daily auto-sync (`scripts/checks/`, run by the router) | High — direct from vendor |
 | B. models.dev | republished official list prices, maintained by a third party | daily auto-sync (skipped when A/A+ verified today) | High for first-party entries; still third-party republication |
 | C. OpenRouter API | reseller/aggregator prices (the price OpenRouter charges) | daily auto-sync | Correct *as OpenRouter's price*; differs from official prices by design |
 

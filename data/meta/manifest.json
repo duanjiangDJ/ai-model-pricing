@@ -1,35 +1,11 @@
 {
-  "schema_version": "26.115.63",
+  "schema_version": "26.115.64",
   "sources": [
     {
       "name": "models.dev",
       "url": "https://models.dev/api.json",
       "auto_sync": true,
       "last_ok": "2026-09-11T06:40:19Z",
-      "last_error": null
-    },
-    {
-      "name": "DeepSeek official pricing",
-      "url": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
-      "auto_sync": true,
-      "official": true,
-      "last_ok": "2026-08-21T13:59:17Z",
-      "last_error": null
-    },
-    {
-      "name": "Baidu Qianfan official pricing",
-      "url": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya",
-      "auto_sync": true,
-      "official": true,
-      "last_ok": "2026-08-21T13:59:17Z",
-      "last_error": null
-    },
-    {
-      "name": "Anthropic official pricing",
-      "url": "https://www.anthropic.com/pricing",
-      "auto_sync": true,
-      "official": true,
-      "last_ok": "2026-08-21T13:59:17Z",
       "last_error": null
     },
     {
