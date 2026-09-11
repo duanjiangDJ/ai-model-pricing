@@ -186,6 +186,35 @@ def check_stale_plans(stale_days):
     return stale
 
 
+def _refresh_manifest_sources(manifest, summary, now, no_network):
+    """Record sync-health for the non-check aggregation sources.
+
+    OpenRouter (fetched directly by this module) and models.dev (synced by the unified router,
+    price_check -> collect_modelsdev) are third-party catalogs, not check modules. The check
+    router (scripts/router.py) preserves every non-check `sources[]` entry verbatim, so without
+    an explicit refresh here their `last_ok` freezes forever -- models.dev sat at 2026-08-21 for
+    three weeks while `auto_sync: true` implied it was tracked (`last_error: null`). A stale-but-
+    green sync-health entry is the silent-failure class this repo guards against. A failed OR
+    empty models.dev parse (status != ok, or zero providers persisted) marks the entry errored;
+    a --no-network run leaves it untouched.
+    """
+    _pc = summary.get("router_pc")
+    _md = _pc.get("modelsdev") if isinstance(_pc, dict) else None
+    for s in manifest.get("sources", []):
+        if s.get("name") == "OpenRouter API":
+            if summary.get("network_ok"):
+                s["last_ok"] = now
+                s["last_error"] = None
+            else:
+                s["last_error"] = "fetch failed at " + now
+        elif s.get("name") == "models.dev" and not no_network:
+            if _md and _md.get("status") == "ok" and _md.get("providers", 0) > 0:
+                s["last_ok"] = now
+                s["last_error"] = None
+            else:
+                s["last_error"] = "models.dev collect failed/skipped at " + now
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--stale-days", type=int, default=30)
@@ -314,13 +343,7 @@ def main():
     # manifest
     manifest = load_manifest()
     manifest["last_daily_check"] = now
-    for s in manifest.get("sources", []):
-        if s["name"] == "OpenRouter API":
-            if summary["network_ok"]:
-                s["last_ok"] = now
-                s["last_error"] = None
-            else:
-                s["last_error"] = "fetch failed at " + now
+    _refresh_manifest_sources(manifest, summary, now, args.no_network)
     save_manifest(manifest)
 
     print("SUMMARY " + json.dumps(summary, ensure_ascii=False))

@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.113.61 — 2026-09-11T02:30Z (feature update)
+
+- fix(manifest): refresh non-check aggregation source sync-health (models.dev was frozen)
+
 ## 26.113.60 — 2026-09-11T01:21Z (feature update)
 
 - fix(collect): models.dev must never overwrite a one-hand maintained provider (first-party guard made timestamp-independent + 26h freshness window)

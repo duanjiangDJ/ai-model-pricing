@@ -240,6 +240,14 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
   `billing_model:["free"]` with all-zero `per_mtok`. The check RAISES on a paid/free mismatch
   (safety: `update_model_prices` cannot zero a price, so a bad paid listing would survive every sync).
 
+- **A frozen `last_ok` on an `auto_sync` source is a silent failure.** The non-check aggregation
+  sources (`models.dev`, `OpenRouter API`) are NOT check modules, so `scripts/router.py` preserves
+  their `sources[]` manifest entries verbatim — nothing refreshed them, and `models.dev` kept
+  `last_ok: 2026-08-21` for three weeks with `last_error: null` (stale-but-green). `daily_check.py`
+  now refreshes both via `_refresh_manifest_sources`: OpenRouter from `summary["network_ok"]`,
+  models.dev from the unified router's `modelsdev` result — a failed OR empty parse (`providers == 0`)
+  marks it errored. If you add a non-check source, wire an explicit refresh here or it will freeze.
+
 - **A probe-only check is a DEAD check — it must parse the price table, not just fetch it.**
   `tier1_opencode`/`tier1_opencode_go` were auto-generated stubs that `js_fetch`ed the page and
   returned `changed: 0` ("parser TODO"), so the `opencode` provider was maintained purely from the
