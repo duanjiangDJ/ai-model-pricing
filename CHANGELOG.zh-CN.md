@@ -16,6 +16,13 @@
 
 ---
 
+## 26.119.67 — 2026-09-11T16:10Z（内容更新）
+
+- 价格同步（11 处变更）：
+- **openrouter**（新增 5）：`inclusionai/ling-3.0-flash-vl`, `~openai/gpt-astra-latest`, `~openai/gpt-luna-latest`, `~openai/gpt-sol-latest`, `~openai/gpt-terra-latest`
+- **openrouter**（下架 1）：`~openai/gpt-latest`
+- **openrouter**（更新 5）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`, `minimax/minimax-m2.5`, `~z-ai/glm-latest`
+
 ## 26.118.67 — 2026-09-11T14:19Z（功能更新）
 
 - docs(agents): 记录检查项模型 id 对齐规则（失效键/未入库 id 类问题）
