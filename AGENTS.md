@@ -134,6 +134,16 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    model with no provenance note. Real 2026-09-11: the retargeted opencode / opencode-go checks
    left **71 paid models sourceless** because `mid in changed` was empty for every one of them
    (their prices already matched the official page). Regression: `tests/test_notes_backfill.py`.
+   **OpenRouter's `-1` sentinel means "dynamic price", NOT free**: `openrouter/auto` and the other
+   router models have no fixed published price (the request is forwarded to another model and billed
+   at THAT model's rate), which OpenRouter signals with `prompt`/`completion` = `-1`. `to_float_or_none()`
+   maps a negative to `None`, and `all(v == 0 ...)` is `True` on the emptied price set, so `build_model()`
+   mislabelled 5 routers as `billing_model: ["free"]` with a "per_mtok = 0" note — a **false free price**
+   for a model that actually charges. `build_model()` now reads the raw price with the sign intact,
+   classifies the sentinel as `billing_model: ["unknown"]` + an explicit "Dynamic routing price" note, and
+   only labels `free` when an explicit `0` is present. `audit.py` hard-fails a `free` label whose
+   `per_mtok` is all-null (a free model must assert a concrete 0; an all-null free label is a
+   dynamic-price sentinel mislabel). Regression: `tests/test_openrouter_dynamic_sentinel.py`.
 5. **A check parser must FAIL LOUDLY on a layout change, never return 0 rows.** `tier0_anthropic`
    was matching nothing for an unknown period (the page swapped the cache cells to
    **Read before Write** and renamed "Fable 5" → "Fable 5.1"), so `check:anthropic` stayed GREEN in

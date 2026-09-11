@@ -62,6 +62,21 @@ def _per_m(v):
     return round(v * 1e6, 8)
 
 
+def _raw(v):
+    """Parse a raw OpenRouter price WITHOUT the negative->None filter.
+
+    OpenRouter uses -1 as the sentinel for "no fixed published price" (dynamic routing:
+    the request is forwarded to another model and billed at THAT model's rate). The sign
+    must survive here so build_model() can tell a dynamic router apart from a genuinely
+    free model (whose price is the string "0")."""
+    if v is None or v == "":
+        return None
+    try:
+        return float(v)
+    except (TypeError, ValueError):
+        return None
+
+
 def build_model(entry):
     p = entry.get("pricing") or {}
     # Normalize to float first. OpenRouter returns prices as STRING decimals (e.g. "0"),
@@ -80,10 +95,23 @@ def build_model(entry):
     # Mapping it as-is misfiled per-token values ~1e-7 as a per-image price (unit bug).
     # If OpenRouter ever exposes a genuine per-image price (image != prompt), add it back
     # with proper per-image semantics (no ×1e6) and billing_model pay_per_image.
-    has_token_price = any(v is not None and v != 0 for v in token_vals)
-    if has_token_price:
+    # The -1 sentinel: to_float_or_none() drops negatives to None, so without the raw
+    # check below an all-None price set fell through `all(v == 0 ...)` (which is True on an
+    # emptied iterable) and the model was labelled "free" with a "per_mtok = 0" note --
+    # a false free price published for 5 dynamic routers (openrouter/auto, auto-beta,
+    # bodybuilder, fusion, pareto-code; 2026-09-12). A genuine free model carries the
+    # explicit string "0", never an absent price set.
+    raw_vals = [_raw(p.get("prompt")), _raw(p.get("completion")),
+                _raw(p.get("input_cache_read")), _raw(p.get("input_cache_write"))]
+    is_dynamic = any(v is not None and v < 0 for v in raw_vals)
+    has_token_price = any(v is not None and v > 0 for v in raw_vals)
+    all_present_zero = any(v is not None for v in raw_vals) and all(
+        v == 0 for v in raw_vals if v is not None)
+    if is_dynamic:
+        billing = ["unknown"]
+    elif has_token_price:
         billing = ["pay_per_token"]
-    elif entry["id"].lower().endswith(":free") or all(v == 0 for v in token_vals if v is not None):
+    elif entry["id"].lower().endswith(":free") or all_present_zero:
         billing = ["free"]
     else:
         billing = ["unknown"]
@@ -94,6 +122,9 @@ def build_model(entry):
     note = f"OpenRouter reseller price; top provider: {tp}" if tp else "OpenRouter reseller price"
     if billing == ["free"]:
         note += " | Free model (per_mtok = 0)."
+    elif is_dynamic:
+        note += (" | Dynamic routing price: billed at the selected model's rate "
+                 "(no fixed per-token price; OpenRouter sentinel -1).")
     pricing = {
         "per_mtok": {
             "input": _u(_per_m(prompt)),

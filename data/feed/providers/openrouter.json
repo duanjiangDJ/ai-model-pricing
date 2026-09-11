@@ -9488,7 +9488,7 @@
       "context_window": 2000000,
       "max_output": null,
       "billing_model": [
-        "free"
+        "unknown"
       ],
       "pricing": {
         "per_mtok": {
@@ -9500,7 +9500,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0).",
+      "notes": "OpenRouter reseller price | Dynamic routing price: billed at the selected model's rate (no fixed per-token price; OpenRouter sentinel -1).",
       "status": "online"
     },
     {
@@ -9516,7 +9516,7 @@
       "context_window": 2000000,
       "max_output": null,
       "billing_model": [
-        "free"
+        "unknown"
       ],
       "pricing": {
         "per_mtok": {
@@ -9528,7 +9528,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0).",
+      "notes": "OpenRouter reseller price | Dynamic routing price: billed at the selected model's rate (no fixed per-token price; OpenRouter sentinel -1).",
       "status": "online"
     },
     {
@@ -9541,7 +9541,7 @@
       "context_window": 128000,
       "max_output": null,
       "billing_model": [
-        "free"
+        "unknown"
       ],
       "pricing": {
         "per_mtok": {
@@ -9553,7 +9553,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0).",
+      "notes": "OpenRouter reseller price | Dynamic routing price: billed at the selected model's rate (no fixed per-token price; OpenRouter sentinel -1).",
       "status": "online"
     },
     {
@@ -9596,7 +9596,7 @@
       "context_window": 1000000,
       "max_output": null,
       "billing_model": [
-        "free"
+        "unknown"
       ],
       "pricing": {
         "per_mtok": {
@@ -9608,7 +9608,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0).",
+      "notes": "OpenRouter reseller price | Dynamic routing price: billed at the selected model's rate (no fixed per-token price; OpenRouter sentinel -1).",
       "status": "online"
     },
     {
@@ -9621,7 +9621,7 @@
       "context_window": 2000000,
       "max_output": null,
       "billing_model": [
-        "free"
+        "unknown"
       ],
       "pricing": {
         "per_mtok": {
@@ -9633,7 +9633,7 @@
         "per_image": null,
         "promo": null
       },
-      "notes": "OpenRouter reseller price | Free model (per_mtok = 0).",
+      "notes": "OpenRouter reseller price | Dynamic routing price: billed at the selected model's rate (no fixed per-token price; OpenRouter sentinel -1).",
       "status": "online"
     },
     {
