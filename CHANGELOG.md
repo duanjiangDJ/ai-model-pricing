@@ -16,6 +16,23 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.114.59 — 2026-09-11T00:56Z (content update)
+
+- price sync (28 changes):
+- **alibaba** (updated 14): `qwen3.7-plus`, `qwen3.6-flash`, `qwen-vl-ocr`, `qwen3.6-35b-a3b`, `qwen3-next-80b-a3b-thinking`, `qwen3-next-80b-a3b-instruct`, `qwen3-32b`
+- **deepseek** (updated 5): `deepseek-v4-pro`, `deepseek-v4-flash-vision-exp`, `deepseek-v4-flash`, `deepseek-flash`
+- **edenai** (updated 7): `qwen/deepseek-v4-pro-0813`, `qwen/deepseek-v4-flash-0731`, `scaleway/deepseek-v4-flash-0731`, `scaleway/gpt-oss-120b`, `scaleway/llama-3.3-70b-instruct`, `ionos/meta-llama/Llama-3.3-70B-Instruct`, `ionos/openai/gpt-oss-120b`
+- **hyper** (updated 11): `gemma-4-26b-a4b-it`, `qwen3-next-80b-a3b-instruct`, `minimax-m2.7`, `llama-4-maverick-17b-128e-instruct-fp8`, `kimi-k2-thinking`, `glm-5`, `kimi-k2.5`, `glm-5.1`, `gpt-oss-120b`, `llama-3.3-70b-instruct`, `qwen3-coder-480b-a35b-instruct-int4-mixed-ar`
+- **kilo** (updated 2): `~z-ai/glm-latest`, `tencent/hy3`
+- **llmgateway** (updated 1): `gemma-4-31b-it`
+- **minimax** (updated 2): `MiniMax-M2.5-highspeed`
+- **mistral** (updated 4): `ministral-3b-latest`, `ministral-8b-latest`
+- **nano-gpt** (updated 5): `alibaba/qwen3.8-flash`, `deepseek/deepseek-v4-flash-vision-exp`, `deepseek/deepseek-v4-flash-0731`, `deepseek/deepseek-v4-flash-latest`, `deepseek/deepseek-v4-flash-0731:thinking`
+- **openrouter** (updated 11): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`, `google/gemma-4-26b-a4b-it`, `meta-llama/llama-3.1-70b-instruct`, `minimax/minimax-m2.5`, `moonshotai/kimi-k3`, `qwen/qwen3-30b-a3b-instruct-2507`, `tencent/hy3`, `upstage/solar-pro4`, `z-ai/glm-5.2`
+- **vercel** (updated 1): `deepseek/deepseek-v3.2`
+- **zai** (updated 2): `glm-5.3-flash`
+- **zhipuai** (updated 1): `glm-5.3-flash`
+
 ## 26.113.59 — 2026-09-11T00:12Z (feature update)
 
 - docs(agents): document the writer's provenance-note invariant (persist on a verify, not only on a price change)

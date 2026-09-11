@@ -6,8 +6,8 @@
 - 官网: https://llmgateway.io/docs
 - 定价页: https://llmgateway.io/docs
 - 币种: USD
-- 数据更新时间: 2026-09-10T09:39:08Z
-- 核实时间: 2026-09-10T09:39:08Z
+- 数据更新时间: 2026-09-11T00:39:55Z
+- 核实时间: 2026-09-11T00:39:55Z
 
 共 **565** 个模型。
 
@@ -198,7 +198,7 @@
 | `gemini-pro-latest` | ✅ 在线 | reasoning | 按量 | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `gemma-3-27b` | ✅ 在线 | chat | 按量 | 110K | $0.1 | $0.3 | — | — | —/— | — | models.dev official list price |
 | `gemma-4-26b-a4b-it` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.07 | $0.34 | — | — | —/— | — | models.dev official list price |
-| `gemma-4-31b-it` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.102 | $0.297 | $0.012 | — | —/— | — | models.dev official list price |
+| `gemma-4-31b-it` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.1 | $0.25 | $0.01 | — | —/— | — | models.dev official list price |
 | `glm-4-32b-0414-128k` | ✅ 在线 | chat | 按量 | 128K | $0.1 | $0.1 | — | — | —/— | — | models.dev official list price |
 | `glm-4.5` | ✅ 在线 | reasoning | 按量 | 131K | $0.6 | $2.2 | $0.11 | — | —/— | — | models.dev official list price |
 | `glm-4.5-air` | ✅ 在线 | reasoning | 按量 | 131K | $0.13 | $0.85 | $0.025 | — | —/— | — | models.dev official list price |

@@ -6,8 +6,8 @@
 - Homepage: https://docs.nano-gpt.com
 - Pricing page: https://docs.nano-gpt.com
 - Currency: USD
-- Data updated: 2026-09-10T09:39:07Z
-- Verified: 2026-09-10T09:39:07Z
+- Data updated: 2026-09-11T00:39:54Z
+- Verified: 2026-09-11T00:39:54Z
 
 **693** models in total.
 
@@ -118,7 +118,7 @@
 | `alibaba/qwen3.6-27b` | ✅ online | chat | per-token | 260.096K | $0.203 | $2.24 | $0.1015 | — | —/— | — | models.dev official list price |
 | `alibaba/qwen3.6-27b:thinking` | ✅ online | reasoning | per-token | 260.096K | $0.203 | $2.24 | $0.1015 | — | —/— | — | models.dev official list price |
 | `alibaba/qwen3.6-flash` | ✅ online | chat | per-token | 991.808K | $0.19 | $1.16 | $0.02 | — | —/— | — | models.dev official list price |
-| `alibaba/qwen3.8-flash` | ✅ online | reasoning | per-token | 991.808K | $0.16 | $0.47 | $0.016 | — | —/— | — | models.dev official list price |
+| `alibaba/qwen3.8-flash` | ✅ online | reasoning | per-token | 991.808K | $0.14 | $0.42 | $0.016 | — | —/— | — | models.dev official list price |
 | `alibaba/qwen3.8-max-0902` | ✅ online | reasoning | per-token | 991.808K | $2 | $6 | $0.17 | — | —/— | — | models.dev official list price |
 | `amazon/nova-2-lite-v1` | ✅ online | chat | per-token | 1M | $0.51 | $4.25 | $0.255 | — | —/— | — | models.dev official list price |
 | `amazon/nova-lite-v1` | ✅ online | chat | per-token | 300K | $0.0595 | $0.238 | $0.02975 | — | —/— | — | models.dev official list price |
@@ -223,10 +223,10 @@
 | `deepseek/deepseek-v3.2` | ✅ online | chat | per-token | 163K | $0.28 | $0.42 | $0.14 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v3.2:thinking` | ✅ online | reasoning | per-token | 163K | $0.28 | $0.42 | $0.14 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-flash-0731` | ✅ online | reasoning | per-token | 1M | $0.14 | $0.28 | $0.014 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-flash-0731:thinking` | ✅ online | reasoning | per-token | 1M | $0.14 | $0.28 | $0.014 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-flash-latest` | ✅ online | reasoning | per-token | 1.04858M | $0.14 | $0.28 | $0.014 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-flash-vision-exp` | ✅ online | reasoning | per-token | 1.04858M | $0.44 | $1.32 | $0.014 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash-0731` | ✅ online | reasoning | per-token | 1M | $0.05 | $0.16 | $0.013 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash-0731:thinking` | ✅ online | reasoning | per-token | 1M | $0.05 | $0.16 | $0.013 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash-latest` | ✅ online | reasoning | per-token | 1.04858M | $0.05 | $0.16 | $0.013 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash-vision-exp` | ✅ online | reasoning | per-token | 1.04858M | $0.22 | $0.66 | $0.007 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash:thinking` | ✅ online | reasoning | per-token | 1.04858M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro` | ✅ online | reasoning | per-token | 1.04858M | $1.1 | $2.2 | $0.11 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro-0813` | ✅ online | reasoning | per-token | 1.04858M | $1.1 | $2.5 | $0.04 | — | —/— | — | models.dev official list price |

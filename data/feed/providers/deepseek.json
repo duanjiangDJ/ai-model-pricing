@@ -7,8 +7,8 @@
   "homepage": "https://api-docs.deepseek.com/quick_start/pricing",
   "pricing_page": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
   "currency": "USD",
-  "updated_at": "2026-09-10T09:39:11Z",
-  "verified_at": "2026-09-10T09:39:11Z",
+  "updated_at": "2026-09-11T00:39:56Z",
+  "verified_at": "2026-09-11T00:39:56Z",
   "models": [
     {
       "id": "deepseek-flash",
@@ -23,15 +23,15 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.3,
+            "usd": 0.15,
             "cny": 2.0
           },
           "output": {
-            "usd": 1.2,
+            "usd": 0.6,
             "cny": 8.0
           },
           "cache_read": {
-            "usd": 0.006,
+            "usd": 0.003,
             "cny": 0.04
           },
           "cache_write": null
@@ -61,7 +61,7 @@
           }
         }
       },
-      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). Official model name on the page is deepseek-flash (DeepSeek-V4.1-Flash); legacy names deepseek-v4-flash and deepseek-v4-flash-vision-exp are retired and billed at this price. Parsed by check deepseek.",
+      "notes": "models.dev official list price",
       "status": "online",
       "billing_model": [
         "pay_per_token"
@@ -136,15 +136,15 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.44,
+            "usd": 0.15,
             "cny": 3.0
           },
           "output": {
-            "usd": 1.32,
+            "usd": 0.6,
             "cny": 9.0
           },
           "cache_read": {
-            "usd": 0.014,
+            "usd": 0.003,
             "cny": 0.1
           },
           "cache_write": null
@@ -174,7 +174,7 @@
           }
         }
       },
-      "notes": "RETIRED — superseded by the official deepseek-flash (DeepSeek-V4.1-Flash) model. The name deepseek-v4-flash is still accepted as a legacy alias, but its requests are served by DeepSeek-V4.1-Flash and billed at the Flash price. Prices shown are the last published V4-Flash list prices, kept for historical reference only.",
+      "notes": "models.dev official list price",
       "billing_model": [
         "pay_per_token"
       ],
@@ -190,15 +190,15 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.44,
+            "usd": 0.15,
             "cny": 3.0
           },
           "output": {
-            "usd": 1.32,
+            "usd": 0.6,
             "cny": 9.0
           },
           "cache_read": {
-            "usd": 0.014,
+            "usd": 0.003,
             "cny": 0.1
           },
           "cache_write": null
@@ -228,7 +228,7 @@
           }
         }
       },
-      "notes": "RETIRED — superseded by the official deepseek-flash (DeepSeek-V4.1-Flash) model. The name deepseek-v4-flash-vision-exp is still accepted as a legacy alias, but its requests are served by DeepSeek-V4.1-Flash and billed at the Flash price. Prices shown are the last published V4-Flash list prices, kept for historical reference only.",
+      "notes": "models.dev official list price",
       "status": "offline",
       "billing_model": [
         "pay_per_token"

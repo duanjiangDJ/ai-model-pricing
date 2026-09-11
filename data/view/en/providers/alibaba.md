@@ -6,8 +6,8 @@
 - Homepage: https://www.alibabacloud.com/help/en/model-studio/models
 - Pricing page: https://www.alibabacloud.com/help/en/model-studio/models
 - Currency: USD
-- Data updated: 2026-09-10T09:39:11Z
-- Verified: 2026-09-10T09:39:11Z
+- Data updated: 2026-09-11T00:39:56Z
+- Verified: 2026-09-11T00:39:56Z
 
 **55** models in total.
 
@@ -47,7 +47,7 @@
 | `qwen3-livetranslate-flash-realtime` | ✅ online | chat | per-token | 53.248K | $10 | $10 | — | — | —/— | — | models.dev official list price |
 | `qwen3-max` | ✅ online | chat | per-token | 262.144K | $1.2 | $6 | — | — | —/— | — | models.dev official list price |
 | `qwen3-next-80b-a3b-instruct` | ✅ online | chat | per-token | 131.072K | $0.15 | $1.2 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
-| `qwen3-next-80b-a3b-thinking` | ✅ online | reasoning | per-token | 131.072K | $0.15 | $1.2 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3-next-80b-a3b-thinking` | ✅ online | reasoning | per-token | 131.072K | $0.15 | $6 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen3-omni-flash` | ✅ online | reasoning | per-token | 65.536K | $0.43 | $1.66 | — | — | —/— | — | models.dev official list price |
 | `qwen3-omni-flash-realtime` | ✅ online | chat | per-token | 65.536K | $0.52 | $1.99 | — | — | —/— | — | models.dev official list price |
 | `qwen3-vl-235b-a22b` | ✅ online | reasoning | per-token | 131.072K | $0.7 | $2.8 | — | — | —/— | — | models.dev official list price |

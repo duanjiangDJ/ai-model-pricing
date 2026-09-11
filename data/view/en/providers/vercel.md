@@ -6,8 +6,8 @@
 - Homepage: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - Pricing page: https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway
 - Currency: USD
-- Data updated: 2026-09-10T09:39:08Z
-- Verified: 2026-09-10T09:39:08Z
+- Data updated: 2026-09-11T00:39:55Z
+- Verified: 2026-09-11T00:39:55Z
 
 **375** models in total.
 
@@ -113,7 +113,7 @@
 | `deepseek/deepseek-v3` | ✅ online | chat | per-token | 163.84K | $0.27 | $1.12 | $0.135 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v3.1` | ✅ online | reasoning | per-token | 163.84K | $0.25 | $0.95 | $0.13 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v3.1-terminus` | ✅ online | reasoning | per-token | 131.072K | $0.27 | $1 | $0.135 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v3.2` | ✅ online | chat | per-token | 128K | $0.28 | $0.42 | $0.028 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v3.2` | ✅ online | chat | per-token | 128K | $0.62 | $1.85 | $0.028 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v3.2-thinking` | ✅ online | reasoning | per-token | 128K | $0.62 | $1.85 | — | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash` | ✅ online | reasoning | per-token | 1M | $0.13 | $0.26 | $0.028 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash-0731` | ✅ online | reasoning | per-token | 1M | $0.076 | $0.153 | $0.014 | — | —/— | — | models.dev official list price |

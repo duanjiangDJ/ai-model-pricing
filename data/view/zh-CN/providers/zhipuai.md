@@ -6,8 +6,8 @@
 - 官网: https://docs.z.ai/guides/overview/pricing
 - 定价页: https://docs.z.ai/guides/overview/pricing
 - 币种: USD
-- 数据更新时间: 2026-09-10T21:28:32Z
-- 核实时间: 2026-09-10T21:28:32Z
+- 数据更新时间: 2026-09-11T00:39:55Z
+- 核实时间: 2026-09-11T00:39:55Z
 
 共 **17** 个模型。
 
@@ -28,5 +28,5 @@
 | `glm-5.2` | ✅ 在线 | reasoning | 按量 | 1M | $1.4 / ¥8 | $4.4 / ¥28 | $0.26 / ¥2 | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥8, output ¥28, cache-hit… |
 | `glm-5.2-highspeed` | ✅ 在线 | reasoning | 订阅包含 | 1M | — | — | — | — | —/— | — | models.dev official list price \| Included in a subscription/coding plan (no … |
 | `glm-5.3` | ✅ 在线 | reasoning | 按量 | 1M | $1.4 / ¥8 | $4.4 / ¥28 | $0.26 / ¥2 | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥8, output ¥28, cache-hit… |
-| `glm-5.3-flash` | ✅ 在线 | reasoning | 按量 | 1M | $0.15 / ¥0.8 | $0.5 / ¥2.8 | $0.03 / ¥0.23 | — | —/— | — | Domestic bigmodel.cn pricing (CNY/1M tokens): input ¥0.8, output ¥2.8, cache-… |
+| `glm-5.3-flash` | ✅ 在线 | reasoning | 按量 | 1M | $0.075 / ¥0.8 | $0.25 / ¥2.8 | $0.015 / ¥0.23 | — | —/— | — | models.dev official list price |
 | `glm-5v-turbo` | ✅ 在线 | reasoning | 按量 | 200K | $5 | $22 | $1.2 | — | —/— | — | models.dev official list price |

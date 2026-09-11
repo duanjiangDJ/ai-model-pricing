@@ -6,16 +6,16 @@
 - Homepage: https://api-docs.deepseek.com/quick_start/pricing
 - Pricing page: https://api-docs.deepseek.com/zh-cn/quick_start/pricing
 - Currency: USD
-- Data updated: 2026-09-10T09:39:11Z
-- Verified: 2026-09-10T09:39:11Z
+- Data updated: 2026-09-11T00:39:56Z
+- Verified: 2026-09-11T00:39:56Z
 
 **6** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `deepseek-flash` | ✅ online | chat | per-token | 1M | $0.3 / ¥2/$0.15 / ¥1 | $1.2 / ¥8/$0.6 / ¥4 | $0.006 / ¥0.04/$0.003 / ¥0.02 | — | —/— | ⚡ off-peak x0.5 | Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00… |
+| `deepseek-flash` | ✅ online | chat | per-token | 1M | $0.15 / ¥2/$0.075 / ¥1 | $0.6 / ¥8/$0.3 / ¥4 | $0.003 / ¥0.04/$0.0015 / ¥0.02 | — | —/— | ⚡ off-peak x0.5 | models.dev official list price |
 | `deepseek-chat` | ❌ offline | chat | ? | — | — | — | — | — | —/— | — | Legacy model: NOT listed on the current official pricing page (api-docs.deeps… |
 | `deepseek-reasoner` | ❌ offline | reasoning | ? | — | — | — | — | — | —/— | — | Legacy model: NOT listed on the current official pricing page (api-docs.deeps… |
-| `deepseek-v4-flash` | ❌ offline | chat | per-token | 1M | $0.44 / ¥3/$0.22 / ¥1.5 | $1.32 / ¥9/$0.66 / ¥4.5 | $0.014 / ¥0.1/$0.007 / ¥0.05 | — | —/— | ⚡ off-peak x0.5 | RETIRED — superseded by the official deepseek-flash (DeepSeek-V4.1-Flash) mod… |
-| `deepseek-v4-flash-vision-exp` | ❌ offline | vision | per-token | 1M | $0.44 / ¥3/$0.22 / ¥1.5 | $1.32 / ¥9/$0.66 / ¥4.5 | $0.014 / ¥0.1/$0.007 / ¥0.05 | — | —/— | ⚡ off-peak x0.5 | RETIRED — superseded by the official deepseek-flash (DeepSeek-V4.1-Flash) mod… |
+| `deepseek-v4-flash` | ❌ offline | chat | per-token | 1M | $0.15 / ¥3/$0.075 / ¥1.5 | $0.6 / ¥9/$0.3 / ¥4.5 | $0.003 / ¥0.1/$0.0015 / ¥0.05 | — | —/— | ⚡ off-peak x0.5 | models.dev official list price |
+| `deepseek-v4-flash-vision-exp` | ❌ offline | vision | per-token | 1M | $0.15 / ¥3/$0.075 / ¥1.5 | $0.6 / ¥9/$0.3 / ¥4.5 | $0.003 / ¥0.1/$0.0015 / ¥0.05 | — | —/— | ⚡ off-peak x0.5 | models.dev official list price |
 | `deepseek-v4-pro` | ✅ online | chat | per-token | 1M | $1.32 / ¥9/$0.66 / ¥4.5 | $3.96 / ¥27/$1.98 / ¥13.5 | $0.044 / ¥0.3/$0.022 / ¥0.15 | — | —/— | ⚡ off-peak x0.5 | Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00… |

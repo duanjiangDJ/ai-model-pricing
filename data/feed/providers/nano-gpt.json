@@ -7,8 +7,8 @@
   "homepage": "https://docs.nano-gpt.com",
   "pricing_page": "https://docs.nano-gpt.com",
   "currency": "USD",
-  "updated_at": "2026-09-10T09:39:07Z",
-  "verified_at": "2026-09-10T09:39:07Z",
+  "updated_at": "2026-09-11T00:39:54Z",
+  "verified_at": "2026-09-11T00:39:54Z",
   "models": [
     {
       "id": "Baichuan-M2",
@@ -3480,10 +3480,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.16
+            "usd": 0.14
           },
           "output": {
-            "usd": 0.47
+            "usd": 0.42
           },
           "cache_read": {
             "usd": 0.016
@@ -6933,13 +6933,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.14
+            "usd": 0.05
           },
           "output": {
-            "usd": 0.28
+            "usd": 0.16
           },
           "cache_read": {
-            "usd": 0.014
+            "usd": 0.013
           },
           "cache_write": null
         },
@@ -6966,13 +6966,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.14
+            "usd": 0.05
           },
           "output": {
-            "usd": 0.28
+            "usd": 0.16
           },
           "cache_read": {
-            "usd": 0.014
+            "usd": 0.013
           },
           "cache_write": null
         },
@@ -6999,13 +6999,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.14
+            "usd": 0.05
           },
           "output": {
-            "usd": 0.28
+            "usd": 0.16
           },
           "cache_read": {
-            "usd": 0.014
+            "usd": 0.013
           },
           "cache_write": null
         },
@@ -7032,13 +7032,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.44
+            "usd": 0.22
           },
           "output": {
-            "usd": 1.32
+            "usd": 0.66
           },
           "cache_read": {
-            "usd": 0.014
+            "usd": 0.007
           },
           "cache_write": null
         },

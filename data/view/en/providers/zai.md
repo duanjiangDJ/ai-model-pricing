@@ -6,8 +6,8 @@
 - Homepage: https://docs.z.ai/guides/overview/pricing
 - Pricing page: https://docs.z.ai/guides/overview/pricing
 - Currency: USD
-- Data updated: 2026-09-10T09:39:10Z
-- Verified: 2026-09-10T09:39:10Z
+- Data updated: 2026-09-11T00:39:56Z
+- Verified: 2026-09-11T00:39:56Z
 
 **23** models in total.
 

@@ -7,8 +7,8 @@
   "homepage": "https://llmgateway.io/docs",
   "pricing_page": "https://llmgateway.io/docs",
   "currency": "USD",
-  "updated_at": "2026-09-10T09:39:08Z",
-  "verified_at": "2026-09-10T09:39:08Z",
+  "updated_at": "2026-09-11T00:39:55Z",
+  "verified_at": "2026-09-11T00:39:55Z",
   "models": [
     {
       "id": "Qwen3.8-27B",
@@ -6051,13 +6051,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.102
+            "usd": 0.1
           },
           "output": {
-            "usd": 0.297
+            "usd": 0.25
           },
           "cache_read": {
-            "usd": 0.012
+            "usd": 0.01
           },
           "cache_write": null
         },

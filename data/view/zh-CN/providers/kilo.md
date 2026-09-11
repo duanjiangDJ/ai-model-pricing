@@ -6,8 +6,8 @@
 - 官网: https://kilo.ai
 - 定价页: https://kilo.ai
 - 币种: USD
-- 数据更新时间: 2026-09-10T09:39:08Z
-- 核实时间: 2026-09-10T09:39:08Z
+- 数据更新时间: 2026-09-11T00:39:55Z
+- 核实时间: 2026-09-11T00:39:55Z
 
 共 **383** 个模型。
 
@@ -345,7 +345,7 @@
 | `tencent/hy-mt2-1.8b` | ✅ 在线 | chat | 按量 | 8.192K | $0.044 | $0.177 | — | — | —/— | — | models.dev official list price |
 | `tencent/hy-mt2-30b-a3b` | ✅ 在线 | chat | 按量 | 8.192K | $0.074 | $0.295 | — | — | —/— | — | models.dev official list price |
 | `tencent/hy-mt2-7b` | ✅ 在线 | chat | 按量 | 8.192K | $0.074 | $0.295 | — | — | —/— | — | models.dev official list price |
-| `tencent/hy3` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.132 | $0.528 | $0.033 | — | —/— | — | models.dev official list price |
+| `tencent/hy3` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.0825 | $0.33 | $0.020625 | — | —/— | — | models.dev official list price |
 | `tencent/hy3-preview` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.18 | $0.6 | $0.06 | — | —/— | — | models.dev official list price |
 | `tencent/hy3:free` | ✅ 在线 | reasoning | 免费 | 262.144K | $0 | $0 | $0 | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `tencent/hy4-preview` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.834 | $2.501 | $0.042 | — | —/— | — | models.dev official list price |
@@ -395,4 +395,4 @@
 | `~openai/gpt-mini-latest` | ✅ 在线 | reasoning | 按量 | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | models.dev official list price |
 | `~x-ai/grok-latest` | ✅ 在线 | reasoning | 按量 | 500K | $2 | $6 | $0.5 | — | —/— | — | models.dev official list price |
 | `~z-ai/glm-flash-latest` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |
-| `~z-ai/glm-latest` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.085 | $3.41 | $0.2015 | — | —/— | — | models.dev official list price |
+| `~z-ai/glm-latest` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.7 | $2.2 | $0.13 | — | —/— | — | models.dev official list price |

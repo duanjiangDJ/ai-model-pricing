@@ -16,6 +16,23 @@
 
 ---
 
+## 26.114.59 — 2026-09-11T00:56Z（内容更新）
+
+- 价格同步（28 处变更）：
+- **alibaba**（更新 14）：`qwen3.7-plus`, `qwen3.6-flash`, `qwen-vl-ocr`, `qwen3.6-35b-a3b`, `qwen3-next-80b-a3b-thinking`, `qwen3-next-80b-a3b-instruct`, `qwen3-32b`
+- **deepseek**（更新 5）：`deepseek-v4-pro`, `deepseek-v4-flash-vision-exp`, `deepseek-v4-flash`, `deepseek-flash`
+- **edenai**（更新 7）：`qwen/deepseek-v4-pro-0813`, `qwen/deepseek-v4-flash-0731`, `scaleway/deepseek-v4-flash-0731`, `scaleway/gpt-oss-120b`, `scaleway/llama-3.3-70b-instruct`, `ionos/meta-llama/Llama-3.3-70B-Instruct`, `ionos/openai/gpt-oss-120b`
+- **hyper**（更新 11）：`gemma-4-26b-a4b-it`, `qwen3-next-80b-a3b-instruct`, `minimax-m2.7`, `llama-4-maverick-17b-128e-instruct-fp8`, `kimi-k2-thinking`, `glm-5`, `kimi-k2.5`, `glm-5.1`, `gpt-oss-120b`, `llama-3.3-70b-instruct`, `qwen3-coder-480b-a35b-instruct-int4-mixed-ar`
+- **kilo**（更新 2）：`~z-ai/glm-latest`, `tencent/hy3`
+- **llmgateway**（更新 1）：`gemma-4-31b-it`
+- **minimax**（更新 2）：`MiniMax-M2.5-highspeed`
+- **mistral**（更新 4）：`ministral-3b-latest`, `ministral-8b-latest`
+- **nano-gpt**（更新 5）：`alibaba/qwen3.8-flash`, `deepseek/deepseek-v4-flash-vision-exp`, `deepseek/deepseek-v4-flash-0731`, `deepseek/deepseek-v4-flash-latest`, `deepseek/deepseek-v4-flash-0731:thinking`
+- **openrouter**（更新 11）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`, `google/gemma-4-26b-a4b-it`, `meta-llama/llama-3.1-70b-instruct`, `minimax/minimax-m2.5`, `moonshotai/kimi-k3`, `qwen/qwen3-30b-a3b-instruct-2507`, `tencent/hy3`, `upstage/solar-pro4`, `z-ai/glm-5.2`
+- **vercel**（更新 1）：`deepseek/deepseek-v3.2`
+- **zai**（更新 2）：`glm-5.3-flash`
+- **zhipuai**（更新 1）：`glm-5.3-flash`
+
 ## 26.113.59 — 2026-09-11T00:12Z（功能更新）
 
 - 文档(agents)：记录写入器的来源备注不变量（核验即写入，而非仅在价格变动时）

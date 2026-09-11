@@ -7,8 +7,8 @@
   "homepage": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
   "pricing_page": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
   "currency": "USD",
-  "updated_at": "2026-09-10T09:39:08Z",
-  "verified_at": "2026-09-10T09:39:08Z",
+  "updated_at": "2026-09-11T00:39:55Z",
+  "verified_at": "2026-09-11T00:39:55Z",
   "models": [
     {
       "id": "alibaba/qwen-3-14b",
@@ -3044,10 +3044,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.28
+            "usd": 0.62
           },
           "output": {
-            "usd": 0.42
+            "usd": 1.85
           },
           "cache_read": {
             "usd": 0.028
