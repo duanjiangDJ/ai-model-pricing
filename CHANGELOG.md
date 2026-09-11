@@ -16,6 +16,13 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.119.67 — 2026-09-11T16:10Z (content update)
+
+- price sync (11 changes):
+- **openrouter** (+5): `inclusionai/ling-3.0-flash-vl`, `~openai/gpt-astra-latest`, `~openai/gpt-luna-latest`, `~openai/gpt-sol-latest`, `~openai/gpt-terra-latest`
+- **openrouter** (-1): `~openai/gpt-latest`
+- **openrouter** (updated 5): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`, `minimax/minimax-m2.5`, `~z-ai/glm-latest`
+
 ## 26.118.67 — 2026-09-11T14:19Z (feature update)
 
 - docs(agents): codify the check model-id alignment rule (dead-key / unseeded-id class)
