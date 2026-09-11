@@ -24,14 +24,36 @@ SOURCE = "models.dev:api"
 # daily_check.sync_modelsdev_diff path used.
 SUB_PROVIDER_HINTS = ("coding-plan", "token-plan", "copilot", "kimi-for-coding")
 
+# Freshness window (hours) for the "verified one-hand not long ago" half of the guard.
+FRESH_HOURS = 26
 
-def first_party_today(pid, now):
-    """True when this provider was verified against its own official source TODAY.
 
-    Third-party republication (models.dev) must not overwrite one-hand official data. `now`
-    MUST be a real ISO timestamp — a falsy `now` returns False, i.e. the guard is open. The
-    router used to pass {"now": None}, silently disabling this guard for every provider and
-    letting models.dev clobber the first-party deepseek prices (2026-09-10).
+def has_official_collector(pid):
+    """True when the repo ships a dedicated collector for this provider (collect_<pid>.py).
+
+    Timestamp-independent: a provider whose price is maintained one-hand from its OWN
+    official source must never be written by a third-party republication, no matter how
+    old its `verified_at` is.
+
+    2026-09-11 incident: the old guard compared `verified_at[:10] == now[:10]`. deepseek was
+    verified 2026-09-10T09:39Z and zhipuai 2026-09-10T21:28Z, but the very next 3h sync ran
+    at 2026-09-11T00:39Z — one UTC date later — so the guard opened and models.dev rewrote
+    deepseek-flash/v4-flash/v4-pro (to its own off-peak 0.15/0.6/0.003) and zhipuai
+    glm-5.3-flash (to the expired promo 0.075/0.25/0.015), also replacing their provenance
+    notes. The dedicated collector is the durable signal, not a calendar date.
+    """
+    return os.path.exists(os.path.join(_THIS, f"collect_{pid}.py"))
+
+
+def verified_recently(pid, now, hours=FRESH_HOURS):
+    """True when this provider's `verified_at` is within `hours` of `now`.
+
+    Covers providers that have no dedicated collector module but still carry a fresh
+    one-hand verification (e.g. a research/merge pass). Freshness replaces the old exact
+    calendar-date equality, which expired at UTC midnight and left a provider verified the
+    previous day open to third-party clobbering. A falsy `now` leaves the guard OPEN (and
+    this must stay falsy-safe: the router used to pass {"now": None}, silently disabling the
+    guard for every provider — the 2026-09-10 bug).
     """
     if not now:
         return False
@@ -40,9 +62,25 @@ def first_party_today(pid, now):
         return False
     try:
         with open(pf, encoding="utf-8") as fh:
-            return str(json.load(fh).get("verified_at", ""))[:10] == str(now)[:10]
+            stamp = str(json.load(fh).get("verified_at", ""))
+        if not stamp:
+            return False
+        t = _parse_iso(stamp)
+        ref = _parse_iso(now)
+        if t is None or ref is None:
+            return False
+        return (ref - t).total_seconds() <= hours * 3600
     except Exception:  # noqa: BLE001
         return False
+
+
+def _parse_iso(v):
+    from datetime import datetime, timezone
+    try:
+        t = datetime.fromisoformat(str(v).strip().replace("Z", "+00:00"))
+    except Exception:  # noqa: BLE001
+        return None
+    return t.replace(tzinfo=timezone.utc) if t.tzinfo is None else t
 
 
 def collect(ctx):
@@ -53,9 +91,9 @@ def collect(ctx):
     for pid, pv in (data or {}).items():
         if any(h in pid for h in SUB_PROVIDER_HINTS):
             continue  # subscription-included: per_mtok stays null, never 0
-        # First-party priority: if this provider was verified against its official source
-        # today, third-party republication (models.dev) must not overwrite it.
-        if first_party_today(pid, now):
+        # First-party priority: never write a provider the repo already checks one-hand
+        # (dedicated collector), nor one verified against an official source very recently.
+        if has_official_collector(pid) or verified_recently(pid, now):
             continue
         models = {}
         for mid, m in ((pv.get("models") or {}).items()):
