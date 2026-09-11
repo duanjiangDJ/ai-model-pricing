@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.116.65 — 2026-09-11T12:00Z (feature update)
+
+- fix(deepseek): correct stale v4-pro note - official page reversed the retirement plan; V4 Pro service continues after 2026-09-14 with billing unchanged
+
 ## 26.116.64 — 2026-09-11T09:55Z (content update)
 
 - price sync (3 changes):

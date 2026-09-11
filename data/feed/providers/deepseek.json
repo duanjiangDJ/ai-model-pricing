@@ -285,7 +285,7 @@
           }
         }
       },
-      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). From 12:00 Beijing time 2026-09-14, deepseek-v4-pro requests are routed to V4.1-Flash and billed at the V4.1-Flash price (until a future V4.1 Pro release). Parsed by check deepseek.",
+      "notes": "Official page (USD/1M tokens, peak tier; off-peak = 50%, peak = Mon-Fri 01:00-04:00 / 06:00-10:00 UTC). DeepSeek reversed its earlier retirement plan: per the official page, V4 Pro API service continues after 2026-09-14 with billing unchanged (NOT routed to V4.1-Flash). Parsed by check deepseek.",
       "billing_model": [
         "pay_per_token"
       ],
