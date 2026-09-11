@@ -115,6 +115,15 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    hard-fails this class via `toolbox.mixed_currency_zero()`. The correct form for a single-currency
    vendor is the schema-blessed single-currency entry (`{"cny": 0.15}`) or `usd: null` — never `0`.
    Real 2026-09-10: zhipuai `glm-4.7-flash` (`usd: 0` vs `cny: 0.15` / `1.5`).
+   **Provenance notes must persist on a verify, not only on a price change**: a check that
+   re-verifies an already-correct price must still be able to (re)stamp its official source, or a
+   model whose price an aggregator happened to already match stays sourceless forever.
+   `update_model_prices()` writes a writer's `notes` when the price changed **or** when the model
+   has no note yet, and never rewrites an existing note on a no-op verify (so an aggregator
+   pass-through cannot clobber a first-party note — no tug-of-war). `audit.py` warns on any paid
+   model with no provenance note. Real 2026-09-11: the retargeted opencode / opencode-go checks
+   left **71 paid models sourceless** because `mid in changed` was empty for every one of them
+   (their prices already matched the official page). Regression: `tests/test_notes_backfill.py`.
 5. **A check parser must FAIL LOUDLY on a layout change, never return 0 rows.** `tier0_anthropic`
    was matching nothing for an unknown period (the page swapped the cache cells to
    **Read before Write** and renamed "Fable 5" → "Fable 5.1"), so `check:anthropic` stayed GREEN in
