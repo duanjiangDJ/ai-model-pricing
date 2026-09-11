@@ -1,6 +1,30 @@
 {
-  "schema_version": "26.113.57",
+  "schema_version": "26.113.58",
   "entries": [
+    {
+      "date": "2026-09-11T00:09:22Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "opencode-go",
+      "item_id": "glm-5.3,glm-5.2,glm-5.1,kimi-k3,kimi-k2.7-code,kimi-k2.6,mimo-v2.5,mimo-v2.5-pro,minimax-m3,minimax-m2.7,muse-spark-1.2-contributor,qwen3.8-max,qwen3.7-max,qwen3.7-plus,qwen3.6-plus,deepseek-v4-pro,hy3,gpt-5.6-luna",
+      "field": "pricing",
+      "new": {
+        "models": 18
+      },
+      "source": "https://opencode.ai/docs/go/"
+    },
+    {
+      "date": "2026-09-11T00:09:22Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "minimax-m3,minimax-m2.7,minimax-m2.5,glm-5.2,glm-5.1,glm-5,kimi-k2.7-code,kimi-k3,kimi-k2.6,qwen3.7-max,qwen3.7-plus,qwen3.6-plus,qwen3.5-plus,deepseek-v4-flash,claude-fable-5,claude-opus-5,claude-opus-4-8,claude-opus-4-7,claude-opus-4-6,claude-opus-4-5",
+      "field": "pricing",
+      "new": {
+        "models": 52
+      },
+      "source": "https://opencode.ai/docs/zen/"
+    },
     {
       "date": "2026-09-10T21:32:06Z",
       "kind": "update",

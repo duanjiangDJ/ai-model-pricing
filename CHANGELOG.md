@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.113.58 — 2026-09-11T00:10Z (feature update)
+
+- fix(writer): persist a check's provenance note even when the price is unchanged (backfills 71 sourceless opencode/opencode-go models); audit warns on any paid model without a note
+
 ## 26.113.57 — 2026-09-10T21:51Z (content update)
 
 - price sync (1 change):
