@@ -6,8 +6,8 @@
 - Homepage: https://deepinfra.com/models
 - Pricing page: https://deepinfra.com/models
 - Currency: USD
-- Data updated: 2026-09-10T09:39:08Z
-- Verified: 2026-09-10T09:39:08Z
+- Data updated: 2026-09-11T12:41:08Z
+- Verified: 2026-09-11T12:41:08Z
 
 **63** models in total.
 
@@ -37,7 +37,7 @@
 | `Qwen/Qwen3.8-2.4T-A95B` | ✅ online | reasoning | per-token | 262.144K | $2 | $6 | $0.2 | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3.8-27B` | ✅ online | reasoning | per-token | 262.144K | $0.4 | $3 | $0.04 | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3.8-Max` | ✅ online | chat | per-token | 256K | $1.65 | $4.951 | $0.206 | — | —/— | — | models.dev official list price |
-| `XiaomiMiMo/MiMo-V2.5` | ✅ online | reasoning | per-token | 262.144K | $0.4 | $2 | $0.08 | — | —/— | — | models.dev official list price |
+| `XiaomiMiMo/MiMo-V2.5` | ✅ online | reasoning | per-token | 262.144K | $0.14 | $2 | $0.08 | — | —/— | — | models.dev official list price |
 | `XiaomiMiMo/MiMo-V2.5-Pro` | ✅ online | reasoning | per-token | 1.04858M | $1 | $3 | $0.2 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-R1-0528` | ✅ online | reasoning | per-token | 163.84K | $0.5 | $2.15 | $0.35 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V3` | ✅ online | chat | per-token | 163.84K | $0.32 | $0.89 | — | — | —/— | — | models.dev official list price |

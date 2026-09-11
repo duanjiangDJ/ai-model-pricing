@@ -6,8 +6,8 @@
 - 官网: https://openrouter.ai
 - 定价页: https://openrouter.ai/models
 - 币种: USD
-- 数据更新时间: 2026-09-11T09:40:12Z
-- 核实时间: 2026-09-11T09:40:12Z
+- 数据更新时间: 2026-09-11T12:40:21Z
+- 核实时间: 2026-09-11T12:40:21Z
 
 共 **439** 个模型。
 
@@ -82,7 +82,7 @@
 | `deepseek/deepseek-v4-pro` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.95526 | $1.91052 | $0.079605 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.66 | $1.98 | $0.066 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813:batch` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.66 | $1.98 | $0.022 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4.1-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.3 | $1.2 | $0.006 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4.1-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.15 | $0.6 | $0.003 | — | —/— | — | OpenRouter reseller price |
 | `dots-studio/dots-3-note-preview:free` | ✅ 在线 | reasoning | 免费 | 512K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `google/gemini-2.5-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.3 | $2.5 | $0.03 | $0.0833333 | —/— | — | OpenRouter reseller price |
 | `google/gemini-2.5-flash-image` | ✅ 在线 | chat | 按量 | 32.768K | $0.3 | $2.5 | $0.03 | $0.0833333 | —/— | — | OpenRouter reseller price |
@@ -142,7 +142,7 @@
 | `liquid/lfm-2.5-2.6b:free` | ✅ 在线 | reasoning | 免费 | 65.536K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `mancer/weaver` | ✅ 在线 | chat | 按量 | 8K | $0.4 | $0.75 | — | — | —/— | — | OpenRouter reseller price |
 | `meituan/longcat-2.0` | ✅ 在线 | reasoning | 按量 | 1.04876M | $0.3 | $1.2 | $0.006 | — | —/— | — | OpenRouter reseller price |
-| `meta-llama/llama-3.1-70b-instruct` | ✅ 在线 | chat | 按量 | 131.072K | $0.72 | $0.72 | — | — | —/— | — | OpenRouter reseller price |
+| `meta-llama/llama-3.1-70b-instruct` | ✅ 在线 | chat | 按量 | 131.072K | $0.4 | $0.4 | — | — | —/— | — | OpenRouter reseller price |
 | `meta-llama/llama-3.1-8b-instruct` | ✅ 在线 | chat | 按量 | 131.072K | $0.05 | $0.08 | $0.025 | — | —/— | — | OpenRouter reseller price |
 | `meta-llama/llama-3.2-1b-instruct` | ✅ 在线 | chat | 按量 | 60K | $0.027 | $0.201 | — | — | —/— | — | OpenRouter reseller price |
 | `meta-llama/llama-3.2-3b-instruct` | ✅ 在线 | chat | 按量 | 131.072K | $0.05 | $0.33 | — | — | —/— | — | OpenRouter reseller price |

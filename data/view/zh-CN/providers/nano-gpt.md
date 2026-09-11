@@ -6,8 +6,8 @@
 - 官网: https://docs.nano-gpt.com
 - 定价页: https://docs.nano-gpt.com
 - 币种: USD
-- 数据更新时间: 2026-09-10T09:39:07Z
-- 核实时间: 2026-09-10T09:39:07Z
+- 数据更新时间: 2026-09-11T12:41:08Z
+- 核实时间: 2026-09-11T12:41:08Z
 
 共 **693** 个模型。
 
@@ -118,7 +118,7 @@
 | `alibaba/qwen3.6-27b` | ✅ 在线 | chat | 按量 | 260.096K | $0.203 | $2.24 | $0.1015 | — | —/— | — | models.dev official list price |
 | `alibaba/qwen3.6-27b:thinking` | ✅ 在线 | reasoning | 按量 | 260.096K | $0.203 | $2.24 | $0.1015 | — | —/— | — | models.dev official list price |
 | `alibaba/qwen3.6-flash` | ✅ 在线 | chat | 按量 | 991.808K | $0.19 | $1.16 | $0.02 | — | —/— | — | models.dev official list price |
-| `alibaba/qwen3.8-flash` | ✅ 在线 | reasoning | 按量 | 991.808K | $0.16 | $0.47 | $0.016 | — | —/— | — | models.dev official list price |
+| `alibaba/qwen3.8-flash` | ✅ 在线 | reasoning | 按量 | 991.808K | $0.14 | $0.42 | $0.016 | — | —/— | — | models.dev official list price |
 | `alibaba/qwen3.8-max-0902` | ✅ 在线 | reasoning | 按量 | 991.808K | $2 | $6 | $0.17 | — | —/— | — | models.dev official list price |
 | `amazon/nova-2-lite-v1` | ✅ 在线 | chat | 按量 | 1M | $0.51 | $4.25 | $0.255 | — | —/— | — | models.dev official list price |
 | `amazon/nova-lite-v1` | ✅ 在线 | chat | 按量 | 300K | $0.0595 | $0.238 | $0.02975 | — | —/— | — | models.dev official list price |
@@ -223,10 +223,10 @@
 | `deepseek/deepseek-v3.2` | ✅ 在线 | chat | 按量 | 163K | $0.28 | $0.42 | $0.14 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v3.2:thinking` | ✅ 在线 | reasoning | 按量 | 163K | $0.28 | $0.42 | $0.14 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-flash-0731` | ✅ 在线 | reasoning | 按量 | 1M | $0.14 | $0.28 | $0.014 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-flash-0731:thinking` | ✅ 在线 | reasoning | 按量 | 1M | $0.14 | $0.28 | $0.014 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-flash-latest` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.14 | $0.28 | $0.014 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-flash-vision-exp` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.44 | $1.32 | $0.014 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash-0731` | ✅ 在线 | reasoning | 按量 | 1M | $0.05 | $0.16 | $0.013 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash-0731:thinking` | ✅ 在线 | reasoning | 按量 | 1M | $0.05 | $0.16 | $0.013 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash-latest` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.05 | $0.16 | $0.013 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash-vision-exp` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.22 | $0.66 | $0.007 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash:thinking` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.1 | $2.2 | $0.11 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro-0813` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.1 | $2.5 | $0.04 | — | —/— | — | models.dev official list price |
@@ -589,8 +589,8 @@
 | `qwen3.8-27b:thinking` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.15 | $0.7 | $0.04 | — | —/— | — | models.dev official list price |
 | `qwen3.8-max` | ✅ 在线 | chat | 按量 | 991K | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
 | `qwen3.8-max:thinking` | ✅ 在线 | reasoning | 按量 | 991K | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
-| `sakana/fugu-ultra` | ✅ 在线 | reasoning | 按量 | 1M | $5.25 | $31.5 | $0.525 | — | —/— | — | models.dev official list price |
-| `sakana/fugu-ultra-v1.1` | ✅ 在线 | reasoning | 按量 | 1M | $5.25 | $31.5 | $0.525 | — | —/— | — | models.dev official list price |
+| `sakana/fugu-ultra` | ✅ 在线 | reasoning | 按量 | 1M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
+| `sakana/fugu-ultra-v1.1` | ✅ 在线 | reasoning | 按量 | 1M | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
 | `sarvam-105b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.054 | $0.2124 | $0.0336 | — | —/— | — | models.dev official list price |
 | `sarvam-30b` | ✅ 在线 | reasoning | 按量 | 65.536K | $0.028 | $0.111 | $0.017 | — | —/— | — | models.dev official list price |
 | `shisa-ai/shisa-v2-llama3.3-70b` | ✅ 在线 | chat | 按量 | 128K | $0.5 | $0.5 | $0.25 | — | —/— | — | models.dev official list price |

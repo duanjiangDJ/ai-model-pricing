@@ -6,8 +6,8 @@
 - 官网: https://deepinfra.com/models
 - 定价页: https://deepinfra.com/models
 - 币种: USD
-- 数据更新时间: 2026-09-10T09:39:08Z
-- 核实时间: 2026-09-10T09:39:08Z
+- 数据更新时间: 2026-09-11T12:41:08Z
+- 核实时间: 2026-09-11T12:41:08Z
 
 共 **63** 个模型。
 
@@ -37,7 +37,7 @@
 | `Qwen/Qwen3.8-2.4T-A95B` | ✅ 在线 | reasoning | 按量 | 262.144K | $2 | $6 | $0.2 | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3.8-27B` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.4 | $3 | $0.04 | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3.8-Max` | ✅ 在线 | chat | 按量 | 256K | $1.65 | $4.951 | $0.206 | — | —/— | — | models.dev official list price |
-| `XiaomiMiMo/MiMo-V2.5` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.4 | $2 | $0.08 | — | —/— | — | models.dev official list price |
+| `XiaomiMiMo/MiMo-V2.5` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.14 | $2 | $0.08 | — | —/— | — | models.dev official list price |
 | `XiaomiMiMo/MiMo-V2.5-Pro` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1 | $3 | $0.2 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-R1-0528` | ✅ 在线 | reasoning | 按量 | 163.84K | $0.5 | $2.15 | $0.35 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V3` | ✅ 在线 | chat | 按量 | 163.84K | $0.32 | $0.89 | — | — | —/— | — | models.dev official list price |

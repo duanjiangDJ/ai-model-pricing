@@ -7,8 +7,8 @@
   "homepage": "https://hyper.charm.land",
   "pricing_page": "https://hyper.charm.land",
   "currency": "USD",
-  "updated_at": "2026-09-10T09:39:07Z",
-  "verified_at": "2026-09-10T09:39:07Z",
+  "updated_at": "2026-09-11T12:41:08Z",
+  "verified_at": "2026-09-11T12:41:08Z",
   "models": [
     {
       "id": "deepseek-v4-flash",
@@ -154,12 +154,14 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.106
+            "usd": 0.122
           },
           "output": {
-            "usd": 0.368
+            "usd": 0.42
           },
-          "cache_read": null,
+          "cache_read": {
+            "usd": 0.061
+          },
           "cache_write": null
         },
         "batch": null,
@@ -190,7 +192,9 @@
           "output": {
             "usd": 2.784
           },
-          "cache_read": null,
+          "cache_read": {
+            "usd": 0.43
+          },
           "cache_write": null
         },
         "batch": null,
@@ -216,12 +220,14 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.386
+            "usd": 1.326
           },
           "output": {
-            "usd": 4.356
+            "usd": 4.22
           },
-          "cache_read": null,
+          "cache_read": {
+            "usd": 0.663
+          },
           "cache_write": null
         },
         "batch": null,
@@ -344,12 +350,14 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.18
+            "usd": 0.178
           },
           "output": {
-            "usd": 0.61
+            "usd": 0.68
           },
-          "cache_read": null,
+          "cache_read": {
+            "usd": 0.089
+          },
           "cache_write": null
         },
         "batch": null,
@@ -383,7 +391,9 @@
           "output": {
             "usd": 2.5
           },
-          "cache_read": null,
+          "cache_read": {
+            "usd": 0.3
+          },
           "cache_write": null
         },
         "batch": null,
@@ -410,7 +420,9 @@
           "output": {
             "usd": 2.935
           },
-          "cache_read": null,
+          "cache_read": {
+            "usd": 0.2792
+          },
           "cache_write": null
         },
         "batch": null,
@@ -540,7 +552,9 @@
           "output": {
             "usd": 1.0386
           },
-          "cache_read": null,
+          "cache_read": {
+            "usd": 0.3033
+          },
           "cache_write": null
         },
         "batch": null,
@@ -571,7 +585,9 @@
           "output": {
             "usd": 0.8992
           },
-          "cache_read": null,
+          "cache_read": {
+            "usd": 0.137
+          },
           "cache_write": null
         },
         "batch": null,
@@ -597,12 +613,14 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.458
+            "usd": 0.404
           },
           "output": {
-            "usd": 1.712
+            "usd": 1.496
           },
-          "cache_read": null,
+          "cache_read": {
+            "usd": 0.202
+          },
           "cache_write": null
         },
         "batch": null,
@@ -666,7 +684,9 @@
           "output": {
             "usd": 2.145
           },
-          "cache_read": null,
+          "cache_read": {
+            "usd": 0.2225
+          },
           "cache_write": null
         },
         "batch": null,
@@ -697,7 +717,9 @@
           "output": {
             "usd": 1.136
           },
-          "cache_read": null,
+          "cache_read": {
+            "usd": 0.05875
+          },
           "cache_write": null
         },
         "batch": null,

@@ -6,8 +6,8 @@
 - Homepage: https://ofox.ai/docs
 - Pricing page: https://ofox.ai/docs
 - Currency: USD
-- Data updated: 2026-09-10T09:39:09Z
-- Verified: 2026-09-10T09:39:09Z
+- Data updated: 2026-09-11T12:41:08Z
+- Verified: 2026-09-11T12:41:08Z
 
 **114** models in total.
 
@@ -53,10 +53,10 @@
 | `deepseek/deepseek-v4-flash-0731` | ✅ online | reasoning | per-token | 1M | $0.44 | $1.32 | $0.014 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash-vision-exp` | ✅ online | reasoning | per-token | 1M | $0.44 | $1.32 | $0.014 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro` | ✅ online | reasoning | per-token | 1M | $1.32 | $3.96 | $0.044 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-pro-0423` | ✅ online | reasoning | per-token | 1M | $1.32 | $3.96 | $0.044 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-pro-0423` | ✅ online | reasoning | per-token | 1M | $1.32 | $3.96 | $0.15 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro-0813` | ✅ online | reasoning | per-token | 1M | $1.32 | $3.96 | $0.044 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
-| `google/gemini-2.5-flash-lite` | ✅ online | reasoning | per-token | 1.04858M | $0.1 | $0.4 | $0.025 | — | —/— | — | models.dev official list price |
+| `google/gemini-2.5-flash-lite` | ✅ online | reasoning | per-token | 1.04858M | $0.1 | $0.4 | $0.01 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-pro` | ✅ online | reasoning | per-token | 1.04858M | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |
 | `google/gemini-3-flash-preview` | ✅ online | reasoning | per-token | 1.04858M | $0.5 | $3 | $0.05 | — | —/— | — | models.dev official list price |
 | `google/gemini-3.1-flash-lite` | ✅ online | reasoning | per-token | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |
@@ -117,9 +117,9 @@
 | `x-ai/grok-4.3` | ✅ online | reasoning | per-token | 1M | $1.25 | $2.5 | $0.2 | — | —/— | — | models.dev official list price |
 | `x-ai/grok-4.5` | ✅ online | reasoning | per-token | 500K | $2 | $6 | $0.3 | — | —/— | — | models.dev official list price |
 | `x-ai/grok-4.6` | ✅ online | reasoning | per-token | 500K | $2 | $6 | $0.5 | — | —/— | — | models.dev official list price |
-| `z-ai/glm-4.6` | ✅ online | reasoning | per-token | 204.8K | $0.4 | $1.9 | $0.11 | — | —/— | — | models.dev official list price |
-| `z-ai/glm-4.7` | ✅ online | reasoning | per-token | 204.8K | $0.4 | $2 | $0.08 | — | —/— | — | models.dev official list price |
-| `z-ai/glm-4.7-flashx` | ✅ online | reasoning | per-token | 200K | $0.072 | $0.43 | $0.015 | — | —/— | — | models.dev official list price |
+| `z-ai/glm-4.6` | ✅ online | reasoning | per-token | 204.8K | $0.6 | $2.2 | $0.11 | — | —/— | — | models.dev official list price |
+| `z-ai/glm-4.7` | ✅ online | reasoning | per-token | 204.8K | $0.4 | $2.2 | $0.11 | — | —/— | — | models.dev official list price |
+| `z-ai/glm-4.7-flashx` | ✅ online | reasoning | per-token | 200K | $0.072 | $0.4 | $0.01 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5` | ✅ online | reasoning | per-token | 204.8K | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5-turbo` | ✅ online | reasoning | per-token | 200K | $1.2 | $4 | $0.24 | — | —/— | — | models.dev official list price |
 | `z-ai/glm-5.1` | ✅ online | reasoning | per-token | 200K | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
