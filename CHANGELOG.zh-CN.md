@@ -16,6 +16,11 @@
 
 ---
 
+## 26.114.61 — 2026-09-11T03:57Z（内容更新）
+
+- 价格同步（15 处变更）：
+- **openrouter**（更新 15）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`, `deepseek/deepseek-v4.1-flash`, `google/gemma-4-26b-a4b-it`, `meta-llama/llama-3.1-70b-instruct`, `minimax/minimax-m2.5`, `moonshotai/kimi-k3`, `qwen/qwen3-30b-a3b-instruct-2507`, `tencent/hy3`, `upstage/solar-pro4`, `z-ai/glm-5.2`, `~deepseek/deepseek-v4-flash-latest`, `~moonshotai/kimi-latest`, `~z-ai/glm-latest`
+
 ## 26.113.61 — 2026-09-11T02:30Z（功能更新）
 
 - 修复清单同步健康：刷新非 check 聚合源（models.dev 健康度自 2026-08-21 冻结）
