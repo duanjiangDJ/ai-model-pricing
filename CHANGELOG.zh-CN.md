@@ -16,6 +16,10 @@
 
 ---
 
+## 26.119.68 — 2026-09-11T18:50Z（功能更新）
+
+- 修复采集层契约：collect_stepfun / collect_baidu 之前把 check 的扁平价格字典直接交给 make_result，导致 per_mtok=None、采集器静默不写入（死采集器）；改为经 build_updates 包装为 cny 契约形状，并让 make_result 对形状不符的更新直接报错。
+
 ## 26.119.67 — 2026-09-11T16:10Z（内容更新）
 
 - 价格同步（11 处变更）：
