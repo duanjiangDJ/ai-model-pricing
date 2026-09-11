@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.118.67 — 2026-09-11T14:19Z (feature update)
+
+- docs(agents): codify the check model-id alignment rule (dead-key / unseeded-id class)
+
 ## 26.118.66 — 2026-09-11T14:17Z (content update)
 
 - data: seed two officially-listed live models missing from the DB (MiniMax-M2.1-highspeed, ministral-14b-latest)
