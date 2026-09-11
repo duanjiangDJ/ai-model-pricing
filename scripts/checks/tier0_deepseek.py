@@ -37,9 +37,13 @@ NOTE_EXTRA = {
     "deepseek-v4.1-flash": (" Official model name on the page is deepseek-flash "
                             "(DeepSeek-V4.1-Flash); legacy names deepseek-v4-flash and "
                             "deepseek-v4-flash-vision-exp are retired and billed at this price."),
-    "deepseek-v4-pro": (" From 12:00 Beijing time 2026-09-14, deepseek-v4-pro requests are "
-                        "routed to V4.1-Flash and billed at the V4.1-Flash price (until a "
-                        "future V4.1 Pro release)."),
+    # 2026-09-11: DeepSeek REVERSED the V4 Pro retirement originally announced on the
+    # page — the live page now states V4 Pro API service continues after 2026-09-14
+    # with billing unchanged. Re-verify this note against the live footnote on each
+    # review (forward-looking vendor policy can flip).
+    "deepseek-v4-pro": (" DeepSeek reversed its earlier retirement plan: per the official "
+                        "page, V4 Pro API service continues after 2026-09-14 with billing "
+                        "unchanged (NOT routed to V4.1-Flash)."),
 }
 
 
