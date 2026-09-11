@@ -1,5 +1,5 @@
 {
-  "schema_version": "26.115.62",
+  "schema_version": "26.115.63",
   "sources": [
     {
       "name": "models.dev",
@@ -41,7 +41,7 @@
     },
     {
       "name": "check:alibaba",
-      "url": "scripts/checks/alibaba.py",
+      "url": "scripts/checks/tier0_alibaba.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -50,7 +50,7 @@
     },
     {
       "name": "check:anthropic",
-      "url": "scripts/checks/anthropic.py",
+      "url": "scripts/checks/tier0_anthropic.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -59,7 +59,7 @@
     },
     {
       "name": "check:deepseek",
-      "url": "scripts/checks/deepseek.py",
+      "url": "scripts/checks/tier0_deepseek.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -68,7 +68,7 @@
     },
     {
       "name": "check:google",
-      "url": "scripts/checks/google.py",
+      "url": "scripts/checks/tier0_google.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -77,7 +77,7 @@
     },
     {
       "name": "check:meta",
-      "url": "scripts/checks/meta.py",
+      "url": "scripts/checks/tier0_meta.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -86,7 +86,7 @@
     },
     {
       "name": "check:minimax",
-      "url": "scripts/checks/minimax.py",
+      "url": "scripts/checks/tier0_minimax.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -95,7 +95,7 @@
     },
     {
       "name": "check:mistral",
-      "url": "scripts/checks/mistral.py",
+      "url": "scripts/checks/tier0_mistral.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -104,7 +104,7 @@
     },
     {
       "name": "check:moonshotai",
-      "url": "scripts/checks/moonshotai.py",
+      "url": "scripts/checks/tier0_moonshotai.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -113,7 +113,7 @@
     },
     {
       "name": "check:openai",
-      "url": "scripts/checks/openai.py",
+      "url": "scripts/checks/tier0_openai.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -122,7 +122,7 @@
     },
     {
       "name": "check:xai",
-      "url": "scripts/checks/xai.py",
+      "url": "scripts/checks/tier0_xai.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -131,7 +131,7 @@
     },
     {
       "name": "check:zai",
-      "url": "scripts/checks/zai.py",
+      "url": "scripts/checks/tier0_zai.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -140,7 +140,7 @@
     },
     {
       "name": "check:302ai",
-      "url": "scripts/checks/302ai.py",
+      "url": "scripts/checks/tier1_302ai.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -149,7 +149,7 @@
     },
     {
       "name": "check:abacus",
-      "url": "scripts/checks/abacus.py",
+      "url": "scripts/checks/tier1_abacus.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -158,7 +158,7 @@
     },
     {
       "name": "check:abliteration-ai",
-      "url": "scripts/checks/abliteration-ai.py",
+      "url": "scripts/checks/tier1_abliteration_ai.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -167,7 +167,7 @@
     },
     {
       "name": "check:ai-router",
-      "url": "scripts/checks/ai-router.py",
+      "url": "scripts/checks/tier1_ai_router.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -176,7 +176,7 @@
     },
     {
       "name": "check:ai21",
-      "url": "scripts/checks/ai21.py",
+      "url": "scripts/checks/tier1_ai21.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -185,7 +185,7 @@
     },
     {
       "name": "check:aiand",
-      "url": "scripts/checks/aiand.py",
+      "url": "scripts/checks/tier1_aiand.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -194,7 +194,7 @@
     },
     {
       "name": "check:aihubmix",
-      "url": "scripts/checks/aihubmix.py",
+      "url": "scripts/checks/tier1_aihubmix.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -203,7 +203,7 @@
     },
     {
       "name": "check:aki-io",
-      "url": "scripts/checks/aki-io.py",
+      "url": "scripts/checks/tier1_aki_io.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -212,7 +212,7 @@
     },
     {
       "name": "check:alibaba-cn",
-      "url": "scripts/checks/alibaba-cn.py",
+      "url": "scripts/checks/tier1_alibaba_cn.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -221,7 +221,7 @@
     },
     {
       "name": "check:alibaba-coding-plan",
-      "url": "scripts/checks/alibaba-coding-plan.py",
+      "url": "scripts/checks/tier1_alibaba_coding_plan.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -230,7 +230,7 @@
     },
     {
       "name": "check:alibaba-coding-plan-cn",
-      "url": "scripts/checks/alibaba-coding-plan-cn.py",
+      "url": "scripts/checks/tier1_alibaba_coding_plan_cn.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -239,7 +239,7 @@
     },
     {
       "name": "check:alibaba-token-plan",
-      "url": "scripts/checks/alibaba-token-plan.py",
+      "url": "scripts/checks/tier1_alibaba_token_plan.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -248,7 +248,7 @@
     },
     {
       "name": "check:alibaba-token-plan-cn",
-      "url": "scripts/checks/alibaba-token-plan-cn.py",
+      "url": "scripts/checks/tier1_alibaba_token_plan_cn.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -257,7 +257,7 @@
     },
     {
       "name": "check:ambient",
-      "url": "scripts/checks/ambient.py",
+      "url": "scripts/checks/tier1_ambient.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -266,7 +266,7 @@
     },
     {
       "name": "check:amd",
-      "url": "scripts/checks/amd.py",
+      "url": "scripts/checks/tier1_amd.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -275,7 +275,7 @@
     },
     {
       "name": "check:anyapi",
-      "url": "scripts/checks/anyapi.py",
+      "url": "scripts/checks/tier1_anyapi.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -284,7 +284,7 @@
     },
     {
       "name": "check:arcee",
-      "url": "scripts/checks/arcee.py",
+      "url": "scripts/checks/tier1_arcee.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -293,7 +293,7 @@
     },
     {
       "name": "check:atomic-chat",
-      "url": "scripts/checks/atomic-chat.py",
+      "url": "scripts/checks/tier1_atomic_chat.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -302,7 +302,7 @@
     },
     {
       "name": "check:auriko",
-      "url": "scripts/checks/auriko.py",
+      "url": "scripts/checks/tier1_auriko.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -311,7 +311,7 @@
     },
     {
       "name": "check:aws",
-      "url": "scripts/checks/aws.py",
+      "url": "scripts/checks/tier1_aws.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -320,7 +320,7 @@
     },
     {
       "name": "check:azure",
-      "url": "scripts/checks/azure.py",
+      "url": "scripts/checks/tier1_azure.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -329,7 +329,7 @@
     },
     {
       "name": "check:baichuan",
-      "url": "scripts/checks/baichuan.py",
+      "url": "scripts/checks/tier1_baichuan.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -338,7 +338,7 @@
     },
     {
       "name": "check:baidu",
-      "url": "scripts/checks/baidu.py",
+      "url": "scripts/checks/tier1_baidu.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -347,7 +347,7 @@
     },
     {
       "name": "check:bailing",
-      "url": "scripts/checks/bailing.py",
+      "url": "scripts/checks/tier1_bailing.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -356,7 +356,7 @@
     },
     {
       "name": "check:baseten",
-      "url": "scripts/checks/baseten.py",
+      "url": "scripts/checks/tier1_baseten.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -365,7 +365,7 @@
     },
     {
       "name": "check:berget",
-      "url": "scripts/checks/berget.py",
+      "url": "scripts/checks/tier1_berget.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -374,7 +374,7 @@
     },
     {
       "name": "check:blueclaw",
-      "url": "scripts/checks/blueclaw.py",
+      "url": "scripts/checks/tier1_blueclaw.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -383,7 +383,7 @@
     },
     {
       "name": "check:cerebras",
-      "url": "scripts/checks/cerebras.py",
+      "url": "scripts/checks/tier1_cerebras.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -392,7 +392,7 @@
     },
     {
       "name": "check:chutes",
-      "url": "scripts/checks/chutes.py",
+      "url": "scripts/checks/tier1_chutes.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -401,7 +401,7 @@
     },
     {
       "name": "check:clarifai",
-      "url": "scripts/checks/clarifai.py",
+      "url": "scripts/checks/tier1_clarifai.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -410,7 +410,7 @@
     },
     {
       "name": "check:claudinio",
-      "url": "scripts/checks/claudinio.py",
+      "url": "scripts/checks/tier1_claudinio.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -419,7 +419,7 @@
     },
     {
       "name": "check:cline-pass",
-      "url": "scripts/checks/cline-pass.py",
+      "url": "scripts/checks/tier1_cline_pass.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -428,7 +428,7 @@
     },
     {
       "name": "check:cloudferro-sherlock",
-      "url": "scripts/checks/cloudferro-sherlock.py",
+      "url": "scripts/checks/tier1_cloudferro_sherlock.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -437,7 +437,7 @@
     },
     {
       "name": "check:cloudflare-ai-gateway",
-      "url": "scripts/checks/cloudflare-ai-gateway.py",
+      "url": "scripts/checks/tier1_cloudflare_ai_gateway.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -446,7 +446,7 @@
     },
     {
       "name": "check:cloudflare-workers-ai",
-      "url": "scripts/checks/cloudflare-workers-ai.py",
+      "url": "scripts/checks/tier1_cloudflare_workers_ai.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -455,7 +455,7 @@
     },
     {
       "name": "check:cohere",
-      "url": "scripts/checks/cohere.py",
+      "url": "scripts/checks/tier1_cohere.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -464,7 +464,7 @@
     },
     {
       "name": "check:coralbricks",
-      "url": "scripts/checks/coralbricks.py",
+      "url": "scripts/checks/tier1_coralbricks.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -473,7 +473,7 @@
     },
     {
       "name": "check:cortecs",
-      "url": "scripts/checks/cortecs.py",
+      "url": "scripts/checks/tier1_cortecs.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -482,7 +482,7 @@
     },
     {
       "name": "check:crof",
-      "url": "scripts/checks/crof.py",
+      "url": "scripts/checks/tier1_crof.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -491,7 +491,7 @@
     },
     {
       "name": "check:crossmodel",
-      "url": "scripts/checks/crossmodel.py",
+      "url": "scripts/checks/tier1_crossmodel.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -500,7 +500,7 @@
     },
     {
       "name": "check:crusoe",
-      "url": "scripts/checks/crusoe.py",
+      "url": "scripts/checks/tier1_crusoe.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -509,7 +509,7 @@
     },
     {
       "name": "check:cursor",
-      "url": "scripts/checks/cursor.py",
+      "url": "scripts/checks/tier1_cursor.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -518,7 +518,7 @@
     },
     {
       "name": "check:daoxe",
-      "url": "scripts/checks/daoxe.py",
+      "url": "scripts/checks/tier1_daoxe.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -527,7 +527,7 @@
     },
     {
       "name": "check:databricks",
-      "url": "scripts/checks/databricks.py",
+      "url": "scripts/checks/tier1_databricks.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -536,7 +536,7 @@
     },
     {
       "name": "check:deepinfra",
-      "url": "scripts/checks/deepinfra.py",
+      "url": "scripts/checks/tier1_deepinfra.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -545,7 +545,7 @@
     },
     {
       "name": "check:devin",
-      "url": "scripts/checks/devin.py",
+      "url": "scripts/checks/tier1_devin.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -554,7 +554,7 @@
     },
     {
       "name": "check:digitalocean",
-      "url": "scripts/checks/digitalocean.py",
+      "url": "scripts/checks/tier1_digitalocean.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -563,7 +563,7 @@
     },
     {
       "name": "check:dinference",
-      "url": "scripts/checks/dinference.py",
+      "url": "scripts/checks/tier1_dinference.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -572,7 +572,7 @@
     },
     {
       "name": "check:drun",
-      "url": "scripts/checks/drun.py",
+      "url": "scripts/checks/tier1_drun.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -581,7 +581,7 @@
     },
     {
       "name": "check:ebcloud",
-      "url": "scripts/checks/ebcloud.py",
+      "url": "scripts/checks/tier1_ebcloud.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -590,7 +590,7 @@
     },
     {
       "name": "check:echo",
-      "url": "scripts/checks/echo.py",
+      "url": "scripts/checks/tier1_echo.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -599,7 +599,7 @@
     },
     {
       "name": "check:edenai",
-      "url": "scripts/checks/edenai.py",
+      "url": "scripts/checks/tier1_edenai.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -608,7 +608,7 @@
     },
     {
       "name": "check:empiriolabs",
-      "url": "scripts/checks/empiriolabs.py",
+      "url": "scripts/checks/tier1_empiriolabs.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -617,7 +617,7 @@
     },
     {
       "name": "check:evroc",
-      "url": "scripts/checks/evroc.py",
+      "url": "scripts/checks/tier1_evroc.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -626,7 +626,7 @@
     },
     {
       "name": "check:fastrouter",
-      "url": "scripts/checks/fastrouter.py",
+      "url": "scripts/checks/tier1_fastrouter.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -635,7 +635,7 @@
     },
     {
       "name": "check:fireworks-ai",
-      "url": "scripts/checks/fireworks-ai.py",
+      "url": "scripts/checks/tier1_fireworks_ai.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -644,7 +644,7 @@
     },
     {
       "name": "check:freemodel",
-      "url": "scripts/checks/freemodel.py",
+      "url": "scripts/checks/tier1_freemodel.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -653,7 +653,7 @@
     },
     {
       "name": "check:friendli",
-      "url": "scripts/checks/friendli.py",
+      "url": "scripts/checks/tier1_friendli.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -662,7 +662,7 @@
     },
     {
       "name": "check:frogbot",
-      "url": "scripts/checks/frogbot.py",
+      "url": "scripts/checks/tier1_frogbot.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -671,7 +671,7 @@
     },
     {
       "name": "check:github",
-      "url": "scripts/checks/github.py",
+      "url": "scripts/checks/tier1_github.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -680,7 +680,7 @@
     },
     {
       "name": "check:gitlab",
-      "url": "scripts/checks/gitlab.py",
+      "url": "scripts/checks/tier1_gitlab.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -689,7 +689,7 @@
     },
     {
       "name": "check:gmicloud",
-      "url": "scripts/checks/gmicloud.py",
+      "url": "scripts/checks/tier1_gmicloud.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -698,7 +698,7 @@
     },
     {
       "name": "check:google-vertex",
-      "url": "scripts/checks/google-vertex.py",
+      "url": "scripts/checks/tier1_google_vertex.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -707,7 +707,7 @@
     },
     {
       "name": "check:greenpt",
-      "url": "scripts/checks/greenpt.py",
+      "url": "scripts/checks/tier1_greenpt.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -716,7 +716,7 @@
     },
     {
       "name": "check:groq",
-      "url": "scripts/checks/groq.py",
+      "url": "scripts/checks/tier1_groq.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -725,7 +725,7 @@
     },
     {
       "name": "check:helicone",
-      "url": "scripts/checks/helicone.py",
+      "url": "scripts/checks/tier1_helicone.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -734,7 +734,7 @@
     },
     {
       "name": "check:hetzner",
-      "url": "scripts/checks/hetzner.py",
+      "url": "scripts/checks/tier1_hetzner.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -743,7 +743,7 @@
     },
     {
       "name": "check:hpc-ai",
-      "url": "scripts/checks/hpc-ai.py",
+      "url": "scripts/checks/tier1_hpc_ai.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -752,7 +752,7 @@
     },
     {
       "name": "check:huggingface",
-      "url": "scripts/checks/huggingface.py",
+      "url": "scripts/checks/tier1_huggingface.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -761,7 +761,7 @@
     },
     {
       "name": "check:hyper",
-      "url": "scripts/checks/hyper.py",
+      "url": "scripts/checks/tier1_hyper.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -770,7 +770,7 @@
     },
     {
       "name": "check:iflowcn",
-      "url": "scripts/checks/iflowcn.py",
+      "url": "scripts/checks/tier1_iflowcn.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -779,7 +779,7 @@
     },
     {
       "name": "check:iflytek",
-      "url": "scripts/checks/iflytek.py",
+      "url": "scripts/checks/tier1_iflytek.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -788,7 +788,7 @@
     },
     {
       "name": "check:impossibl",
-      "url": "scripts/checks/impossibl.py",
+      "url": "scripts/checks/tier1_impossibl.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -797,7 +797,7 @@
     },
     {
       "name": "check:inception",
-      "url": "scripts/checks/inception.py",
+      "url": "scripts/checks/tier1_inception.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -806,7 +806,7 @@
     },
     {
       "name": "check:inceptron",
-      "url": "scripts/checks/inceptron.py",
+      "url": "scripts/checks/tier1_inceptron.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -815,7 +815,7 @@
     },
     {
       "name": "check:inference",
-      "url": "scripts/checks/inference.py",
+      "url": "scripts/checks/tier1_inference.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -824,7 +824,7 @@
     },
     {
       "name": "check:inferx",
-      "url": "scripts/checks/inferx.py",
+      "url": "scripts/checks/tier1_inferx.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -833,7 +833,7 @@
     },
     {
       "name": "check:infomaniak",
-      "url": "scripts/checks/infomaniak.py",
+      "url": "scripts/checks/tier1_infomaniak.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -842,7 +842,7 @@
     },
     {
       "name": "check:io-net",
-      "url": "scripts/checks/io-net.py",
+      "url": "scripts/checks/tier1_io_net.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -851,7 +851,7 @@
     },
     {
       "name": "check:jalapeno",
-      "url": "scripts/checks/jalapeno.py",
+      "url": "scripts/checks/tier1_jalapeno.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -860,7 +860,7 @@
     },
     {
       "name": "check:jetbrains",
-      "url": "scripts/checks/jetbrains.py",
+      "url": "scripts/checks/tier1_jetbrains.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -869,7 +869,7 @@
     },
     {
       "name": "check:kenari",
-      "url": "scripts/checks/kenari.py",
+      "url": "scripts/checks/tier1_kenari.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -878,7 +878,7 @@
     },
     {
       "name": "check:kilo",
-      "url": "scripts/checks/kilo.py",
+      "url": "scripts/checks/tier1_kilo.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -887,7 +887,7 @@
     },
     {
       "name": "check:kosmik",
-      "url": "scripts/checks/kosmik.py",
+      "url": "scripts/checks/tier1_kosmik.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -896,7 +896,7 @@
     },
     {
       "name": "check:kuae-cloud-coding-plan",
-      "url": "scripts/checks/kuae-cloud-coding-plan.py",
+      "url": "scripts/checks/tier1_kuae_cloud_coding_plan.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -905,7 +905,7 @@
     },
     {
       "name": "check:lilac",
-      "url": "scripts/checks/lilac.py",
+      "url": "scripts/checks/tier1_lilac.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -914,7 +914,7 @@
     },
     {
       "name": "check:lingyiwanwu",
-      "url": "scripts/checks/lingyiwanwu.py",
+      "url": "scripts/checks/tier1_lingyiwanwu.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -923,7 +923,7 @@
     },
     {
       "name": "check:llama",
-      "url": "scripts/checks/llama.py",
+      "url": "scripts/checks/tier1_llama.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -932,7 +932,7 @@
     },
     {
       "name": "check:llmgateway",
-      "url": "scripts/checks/llmgateway.py",
+      "url": "scripts/checks/tier1_llmgateway.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -941,7 +941,7 @@
     },
     {
       "name": "check:llmtr",
-      "url": "scripts/checks/llmtr.py",
+      "url": "scripts/checks/tier1_llmtr.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -950,7 +950,7 @@
     },
     {
       "name": "check:lmstudio",
-      "url": "scripts/checks/lmstudio.py",
+      "url": "scripts/checks/tier1_lmstudio.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -959,7 +959,7 @@
     },
     {
       "name": "check:longcat",
-      "url": "scripts/checks/longcat.py",
+      "url": "scripts/checks/tier1_longcat.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -968,7 +968,7 @@
     },
     {
       "name": "check:lucidquery",
-      "url": "scripts/checks/lucidquery.py",
+      "url": "scripts/checks/tier1_lucidquery.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -977,7 +977,7 @@
     },
     {
       "name": "check:lynkr",
-      "url": "scripts/checks/lynkr.py",
+      "url": "scripts/checks/tier1_lynkr.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -986,7 +986,7 @@
     },
     {
       "name": "check:meganova",
-      "url": "scripts/checks/meganova.py",
+      "url": "scripts/checks/tier1_meganova.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -995,7 +995,7 @@
     },
     {
       "name": "check:merge-gateway",
-      "url": "scripts/checks/merge-gateway.py",
+      "url": "scripts/checks/tier1_merge_gateway.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1004,7 +1004,7 @@
     },
     {
       "name": "check:mixlayer",
-      "url": "scripts/checks/mixlayer.py",
+      "url": "scripts/checks/tier1_mixlayer.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1013,7 +1013,7 @@
     },
     {
       "name": "check:moark",
-      "url": "scripts/checks/moark.py",
+      "url": "scripts/checks/tier1_moark.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1022,7 +1022,7 @@
     },
     {
       "name": "check:modal",
-      "url": "scripts/checks/modal.py",
+      "url": "scripts/checks/tier1_modal.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1031,7 +1031,7 @@
     },
     {
       "name": "check:model-oracle-ai",
-      "url": "scripts/checks/model-oracle-ai.py",
+      "url": "scripts/checks/tier1_model_oracle_ai.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1040,7 +1040,7 @@
     },
     {
       "name": "check:modelis",
-      "url": "scripts/checks/modelis.py",
+      "url": "scripts/checks/tier1_modelis.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1049,7 +1049,7 @@
     },
     {
       "name": "check:modelscope",
-      "url": "scripts/checks/modelscope.py",
+      "url": "scripts/checks/tier1_modelscope.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1058,7 +1058,7 @@
     },
     {
       "name": "check:morph",
-      "url": "scripts/checks/morph.py",
+      "url": "scripts/checks/tier1_morph.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1067,7 +1067,7 @@
     },
     {
       "name": "check:nano-gpt",
-      "url": "scripts/checks/nano-gpt.py",
+      "url": "scripts/checks/tier1_nano_gpt.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1076,7 +1076,7 @@
     },
     {
       "name": "check:nearai",
-      "url": "scripts/checks/nearai.py",
+      "url": "scripts/checks/tier1_nearai.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1085,7 +1085,7 @@
     },
     {
       "name": "check:nebius",
-      "url": "scripts/checks/nebius.py",
+      "url": "scripts/checks/tier1_nebius.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1094,7 +1094,7 @@
     },
     {
       "name": "check:neon",
-      "url": "scripts/checks/neon.py",
+      "url": "scripts/checks/tier1_neon.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1103,7 +1103,7 @@
     },
     {
       "name": "check:neuralwatt",
-      "url": "scripts/checks/neuralwatt.py",
+      "url": "scripts/checks/tier1_neuralwatt.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1112,7 +1112,7 @@
     },
     {
       "name": "check:nova",
-      "url": "scripts/checks/nova.py",
+      "url": "scripts/checks/tier1_nova.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1121,7 +1121,7 @@
     },
     {
       "name": "check:novita-ai",
-      "url": "scripts/checks/novita-ai.py",
+      "url": "scripts/checks/tier1_novita_ai.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1130,7 +1130,7 @@
     },
     {
       "name": "check:nvidia",
-      "url": "scripts/checks/nvidia.py",
+      "url": "scripts/checks/tier1_nvidia.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1139,7 +1139,7 @@
     },
     {
       "name": "check:ofox",
-      "url": "scripts/checks/ofox.py",
+      "url": "scripts/checks/tier1_ofox.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1148,7 +1148,7 @@
     },
     {
       "name": "check:ollama-cloud",
-      "url": "scripts/checks/ollama-cloud.py",
+      "url": "scripts/checks/tier1_ollama_cloud.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1157,7 +1157,7 @@
     },
     {
       "name": "check:opencode",
-      "url": "scripts/checks/opencode.py",
+      "url": "scripts/checks/tier1_opencode.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1166,7 +1166,7 @@
     },
     {
       "name": "check:opencode-go",
-      "url": "scripts/checks/opencode-go.py",
+      "url": "scripts/checks/tier1_opencode_go.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1175,7 +1175,7 @@
     },
     {
       "name": "check:orcarouter",
-      "url": "scripts/checks/orcarouter.py",
+      "url": "scripts/checks/tier1_orcarouter.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1184,7 +1184,7 @@
     },
     {
       "name": "check:ovhcloud",
-      "url": "scripts/checks/ovhcloud.py",
+      "url": "scripts/checks/tier1_ovhcloud.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1193,7 +1193,7 @@
     },
     {
       "name": "check:perplexity",
-      "url": "scripts/checks/perplexity.py",
+      "url": "scripts/checks/tier1_perplexity.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1202,7 +1202,7 @@
     },
     {
       "name": "check:pioneer",
-      "url": "scripts/checks/pioneer.py",
+      "url": "scripts/checks/tier1_pioneer.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1211,7 +1211,7 @@
     },
     {
       "name": "check:poe",
-      "url": "scripts/checks/poe.py",
+      "url": "scripts/checks/tier1_poe.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1220,7 +1220,7 @@
     },
     {
       "name": "check:poolside",
-      "url": "scripts/checks/poolside.py",
+      "url": "scripts/checks/tier1_poolside.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1229,7 +1229,7 @@
     },
     {
       "name": "check:privatemode-ai",
-      "url": "scripts/checks/privatemode-ai.py",
+      "url": "scripts/checks/tier1_privatemode_ai.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1238,7 +1238,7 @@
     },
     {
       "name": "check:qihang-ai",
-      "url": "scripts/checks/qihang-ai.py",
+      "url": "scripts/checks/tier1_qihang_ai.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1247,7 +1247,7 @@
     },
     {
       "name": "check:qiniu-ai",
-      "url": "scripts/checks/qiniu-ai.py",
+      "url": "scripts/checks/tier1_qiniu_ai.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1256,7 +1256,7 @@
     },
     {
       "name": "check:qvac",
-      "url": "scripts/checks/qvac.py",
+      "url": "scripts/checks/tier1_qvac.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1265,7 +1265,7 @@
     },
     {
       "name": "check:regolo-ai",
-      "url": "scripts/checks/regolo-ai.py",
+      "url": "scripts/checks/tier1_regolo_ai.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1274,7 +1274,7 @@
     },
     {
       "name": "check:replit",
-      "url": "scripts/checks/replit.py",
+      "url": "scripts/checks/tier1_replit.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1283,7 +1283,7 @@
     },
     {
       "name": "check:requesty",
-      "url": "scripts/checks/requesty.py",
+      "url": "scripts/checks/tier1_requesty.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1292,7 +1292,7 @@
     },
     {
       "name": "check:routing-run",
-      "url": "scripts/checks/routing-run.py",
+      "url": "scripts/checks/tier1_routing_run.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1301,7 +1301,7 @@
     },
     {
       "name": "check:runinfra",
-      "url": "scripts/checks/runinfra.py",
+      "url": "scripts/checks/tier1_runinfra.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1310,7 +1310,7 @@
     },
     {
       "name": "check:sakana",
-      "url": "scripts/checks/sakana.py",
+      "url": "scripts/checks/tier1_sakana.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1319,7 +1319,7 @@
     },
     {
       "name": "check:salad-cloud",
-      "url": "scripts/checks/salad-cloud.py",
+      "url": "scripts/checks/tier1_salad_cloud.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1328,7 +1328,7 @@
     },
     {
       "name": "check:sap-ai-core",
-      "url": "scripts/checks/sap-ai-core.py",
+      "url": "scripts/checks/tier1_sap_ai_core.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1337,7 +1337,7 @@
     },
     {
       "name": "check:sarvam",
-      "url": "scripts/checks/sarvam.py",
+      "url": "scripts/checks/tier1_sarvam.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1346,7 +1346,7 @@
     },
     {
       "name": "check:scaleway",
-      "url": "scripts/checks/scaleway.py",
+      "url": "scripts/checks/tier1_scaleway.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1355,7 +1355,7 @@
     },
     {
       "name": "check:scnet-token-plan",
-      "url": "scripts/checks/scnet-token-plan.py",
+      "url": "scripts/checks/tier1_scnet_token_plan.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1364,7 +1364,7 @@
     },
     {
       "name": "check:scx-ai",
-      "url": "scripts/checks/scx-ai.py",
+      "url": "scripts/checks/tier1_scx_ai.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1373,7 +1373,7 @@
     },
     {
       "name": "check:siliconflow",
-      "url": "scripts/checks/siliconflow.py",
+      "url": "scripts/checks/tier1_siliconflow.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1382,7 +1382,7 @@
     },
     {
       "name": "check:snowflake-cortex",
-      "url": "scripts/checks/snowflake-cortex.py",
+      "url": "scripts/checks/tier1_snowflake_cortex.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1391,7 +1391,7 @@
     },
     {
       "name": "check:stackit",
-      "url": "scripts/checks/stackit.py",
+      "url": "scripts/checks/tier1_stackit.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1400,7 +1400,7 @@
     },
     {
       "name": "check:stepfun",
-      "url": "scripts/checks/stepfun.py",
+      "url": "scripts/checks/tier1_stepfun.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1409,7 +1409,7 @@
     },
     {
       "name": "check:stepfun-ai-step-plan",
-      "url": "scripts/checks/stepfun-ai-step-plan.py",
+      "url": "scripts/checks/tier1_stepfun_ai_step_plan.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1418,7 +1418,7 @@
     },
     {
       "name": "check:stepfun-step-plan",
-      "url": "scripts/checks/stepfun-step-plan.py",
+      "url": "scripts/checks/tier1_stepfun_step_plan.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1427,7 +1427,7 @@
     },
     {
       "name": "check:subconscious",
-      "url": "scripts/checks/subconscious.py",
+      "url": "scripts/checks/tier1_subconscious.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1436,7 +1436,7 @@
     },
     {
       "name": "check:submodel",
-      "url": "scripts/checks/submodel.py",
+      "url": "scripts/checks/tier1_submodel.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1445,7 +1445,7 @@
     },
     {
       "name": "check:synthetic",
-      "url": "scripts/checks/synthetic.py",
+      "url": "scripts/checks/tier1_synthetic.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1454,7 +1454,7 @@
     },
     {
       "name": "check:tabnine",
-      "url": "scripts/checks/tabnine.py",
+      "url": "scripts/checks/tier1_tabnine.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1463,7 +1463,7 @@
     },
     {
       "name": "check:tencent",
-      "url": "scripts/checks/tencent.py",
+      "url": "scripts/checks/tier1_tencent.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1472,7 +1472,7 @@
     },
     {
       "name": "check:tencent-coding-plan",
-      "url": "scripts/checks/tencent-coding-plan.py",
+      "url": "scripts/checks/tier1_tencent_coding_plan.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1481,7 +1481,7 @@
     },
     {
       "name": "check:tencent-token-plan",
-      "url": "scripts/checks/tencent-token-plan.py",
+      "url": "scripts/checks/tier1_tencent_token_plan.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1490,7 +1490,7 @@
     },
     {
       "name": "check:tencent-tokenhub",
-      "url": "scripts/checks/tencent-tokenhub.py",
+      "url": "scripts/checks/tier1_tencent_tokenhub.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1499,7 +1499,7 @@
     },
     {
       "name": "check:tensorx",
-      "url": "scripts/checks/tensorx.py",
+      "url": "scripts/checks/tier1_tensorx.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1508,7 +1508,7 @@
     },
     {
       "name": "check:the-grid-ai",
-      "url": "scripts/checks/the-grid-ai.py",
+      "url": "scripts/checks/tier1_the_grid_ai.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1517,7 +1517,7 @@
     },
     {
       "name": "check:thinkingmachines",
-      "url": "scripts/checks/thinkingmachines.py",
+      "url": "scripts/checks/tier1_thinkingmachines.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1526,7 +1526,7 @@
     },
     {
       "name": "check:tinfoil",
-      "url": "scripts/checks/tinfoil.py",
+      "url": "scripts/checks/tier1_tinfoil.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1535,7 +1535,7 @@
     },
     {
       "name": "check:togetherai",
-      "url": "scripts/checks/togetherai.py",
+      "url": "scripts/checks/tier1_togetherai.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1544,7 +1544,7 @@
     },
     {
       "name": "check:trustedrouter",
-      "url": "scripts/checks/trustedrouter.py",
+      "url": "scripts/checks/tier1_trustedrouter.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1553,7 +1553,7 @@
     },
     {
       "name": "check:umans-ai",
-      "url": "scripts/checks/umans-ai.py",
+      "url": "scripts/checks/tier1_umans_ai.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1562,7 +1562,7 @@
     },
     {
       "name": "check:unorouter",
-      "url": "scripts/checks/unorouter.py",
+      "url": "scripts/checks/tier1_unorouter.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1571,7 +1571,7 @@
     },
     {
       "name": "check:upstage",
-      "url": "scripts/checks/upstage.py",
+      "url": "scripts/checks/tier1_upstage.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1580,7 +1580,7 @@
     },
     {
       "name": "check:v0",
-      "url": "scripts/checks/v0.py",
+      "url": "scripts/checks/tier1_v0.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1589,7 +1589,7 @@
     },
     {
       "name": "check:venice",
-      "url": "scripts/checks/venice.py",
+      "url": "scripts/checks/tier1_venice.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1598,7 +1598,7 @@
     },
     {
       "name": "check:vercel",
-      "url": "scripts/checks/vercel.py",
+      "url": "scripts/checks/tier1_vercel.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1607,7 +1607,7 @@
     },
     {
       "name": "check:vivgrid",
-      "url": "scripts/checks/vivgrid.py",
+      "url": "scripts/checks/tier1_vivgrid.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1616,7 +1616,7 @@
     },
     {
       "name": "check:volcengine",
-      "url": "scripts/checks/volcengine.py",
+      "url": "scripts/checks/tier1_volcengine.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1625,7 +1625,7 @@
     },
     {
       "name": "check:vultr",
-      "url": "scripts/checks/vultr.py",
+      "url": "scripts/checks/tier1_vultr.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1634,7 +1634,7 @@
     },
     {
       "name": "check:wafer.ai",
-      "url": "scripts/checks/wafer.ai.py",
+      "url": "scripts/checks/tier1_wafer_ai.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1643,7 +1643,7 @@
     },
     {
       "name": "check:wandb",
-      "url": "scripts/checks/wandb.py",
+      "url": "scripts/checks/tier1_wandb.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1652,7 +1652,7 @@
     },
     {
       "name": "check:watsonx",
-      "url": "scripts/checks/watsonx.py",
+      "url": "scripts/checks/tier1_watsonx.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1661,7 +1661,7 @@
     },
     {
       "name": "check:windsurf",
-      "url": "scripts/checks/windsurf.py",
+      "url": "scripts/checks/tier1_windsurf.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1670,7 +1670,7 @@
     },
     {
       "name": "check:xiaomi",
-      "url": "scripts/checks/xiaomi.py",
+      "url": "scripts/checks/tier1_xiaomi.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1679,7 +1679,7 @@
     },
     {
       "name": "check:xpersona",
-      "url": "scripts/checks/xpersona.py",
+      "url": "scripts/checks/tier1_xpersona.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1688,7 +1688,7 @@
     },
     {
       "name": "check:zai-coding-plan",
-      "url": "scripts/checks/zai-coding-plan.py",
+      "url": "scripts/checks/tier1_zai_coding_plan.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1697,7 +1697,7 @@
     },
     {
       "name": "check:zeldoc",
-      "url": "scripts/checks/zeldoc.py",
+      "url": "scripts/checks/tier1_zeldoc.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1706,7 +1706,7 @@
     },
     {
       "name": "check:zenifra",
-      "url": "scripts/checks/zenifra.py",
+      "url": "scripts/checks/tier1_zenifra.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1715,7 +1715,7 @@
     },
     {
       "name": "check:zenmux",
-      "url": "scripts/checks/zenmux.py",
+      "url": "scripts/checks/tier1_zenmux.py",
       "auto_sync": true,
       "official": true,
       "check": true,
@@ -1724,7 +1724,7 @@
     },
     {
       "name": "check:zhipuai",
-      "url": "scripts/checks/zhipuai.py",
+      "url": "scripts/checks/tier1_zhipuai.py",
       "auto_sync": true,
       "official": true,
       "check": true,

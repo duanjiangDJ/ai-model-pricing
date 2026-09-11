@@ -34,7 +34,7 @@ def discover():
                 mod = importlib.import_module(f"checks.{name}")
                 tier = getattr(mod, "TIER", 9)
                 pid = getattr(mod, "PROVIDER_ID", name)
-                modules.append((tier, pid, mod))
+                modules.append((tier, pid, mod, name))
             except Exception as e:  # noqa: BLE001
                 print(f"WARN failed to load check {name}: {e}")
     modules.sort(key=lambda x: (x[0], x[1]))
@@ -55,7 +55,8 @@ def _merge_check_sources(non_check_srcs, results, now):
         name = f"check:{r['provider']}"
         e = seen.get(name)
         if e is None:
-            e = {"name": name, "url": f"scripts/checks/{r['provider']}.py",
+            e = {"name": name,
+                 "url": f"scripts/checks/{r.get('module') or r['provider']}.py",
                  "auto_sync": True, "official": True, "check": True}
             seen[name] = e
         if r["status"] == "ok":
@@ -71,17 +72,19 @@ def run_router(provider_filter=None, dry_run=False):
     now = now_iso()
     manifest = load_manifest()
     results = []
-    for tier, pid, mod in discover():
+    for tier, pid, mod, modname in discover():
         if provider_filter and pid not in provider_filter:
             continue
         ctx = {"now": now, "dry_run": dry_run}
         try:
             res = mod.run(ctx)
-            results.append({"provider": pid, "tier": tier, "status": "ok",
+            results.append({"provider": pid, "tier": tier, "module": modname,
+                            "status": "ok",
                             "changed": res.get("changed", 0), "detail": res.get("detail", "")})
             print(f"[tier{tier}] {pid}: ok (changed={res.get('changed', 0)})")
         except Exception as e:  # noqa: BLE001
-            results.append({"provider": pid, "tier": tier, "status": "error",
+            results.append({"provider": pid, "tier": tier, "module": modname,
+                            "status": "error",
                             "changed": 0, "detail": str(e)[:200]})
             print(f"[tier{tier}] {pid}: ERROR {str(e)[:160]}")
 
