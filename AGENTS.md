@@ -106,6 +106,16 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    `tier0_alibaba._surge_blocked`); a silent skip leaves a stale price published forever. Real
    2026-09-10: `qwen-vl-ocr` input stuck at $0.72 vs the official $0.07, and
    `qwen3-next-80b-a3b-thinking` output $6 vs $1.2.
+   **Silent-skip surfacing (2026-09-11)**: the guard no longer rejects *silently*. Every rejected
+   correction is recorded as a changelog entry (`kind:"verify"`, `field:"surge_skip:<field>.<currency>"`,
+   `old={"stored":…}`, `new={"official":…}`), deduped so a 3h sync cannot append a duplicate, and
+   `audit.py` check #9 WARNs for as long as the stored value still equals the skipped one (a resolved
+   skip drops out automatically). Real case: cortecs `qwen3.8-27b` output stayed $2.451 while
+   models.dev — its declared source — reported $0.4 (6.13x), so every sync skipped and the row
+   contradicted its own source indefinitely; corrected manually on the bot branch. This applies to
+   aggregator writers too (`collect_modelsdev` is cortecs's only source — it has no fetchable official
+   page, its `tier1_cortecs.py` being a stub), so an aggregation-only provider has no check to raise
+   from and the guard record is its only signal.
    **Mixed-currency zero (fabricated)**: `0` means *free*, so a per_mtok field that is `0` in one
    currency but `>0` in another is self-contradictory — e.g. `{"usd": 0, "cny": 0.15}` claims the
    model is free in USD while it is demonstrably paid in CNY. This happens when a CNY-only vendor's

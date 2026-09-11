@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.122.70 — 2026-09-11T22:26Z (feature update)
+
+- fix(toolbox): surface >5x surge-guard rejections as changelog entries + audit check #9 for unresolved skips (the silent-skip class)
+
 ## 26.122.69 — 2026-09-11T22:23Z (content update)
 
 - manual: correct cortecs qwen3.8-27b output price ($2.451 -> $0.4 per models.dev; stale value was silently skipped by the sync >5x surge guard)
