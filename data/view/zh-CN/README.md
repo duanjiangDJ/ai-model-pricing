@@ -3,7 +3,7 @@
 > 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/feed/`](../../../data/feed/)。
 > 更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。
 
-- 数据更新时间: 2026-09-11T15:40:45Z
+- 数据更新时间: 2026-09-11T18:41:03Z
 - 覆盖渠道: 190
 - 模型总数: 7594
 - 订阅计划数: 67
@@ -133,7 +133,7 @@
 | [evroc](providers/evroc.md) | 推理托管 | 17 | `providers/evroc.json` | 2026-09-04T00:22:51Z |
 | [302.AI](providers/302ai.md) | 推理托管 | 97 | `providers/302ai.json` | 2026-09-10T09:39:09Z |
 | [OpenCode Zen](providers/opencode.md) | 聚合站 | 99 | `providers/opencode.json` | 2026-09-11T00:09:22Z |
-| [Requesty](providers/requesty.md) | 推理托管 | 153 | `providers/requesty.json` | 2026-09-10T09:39:07Z |
+| [Requesty](providers/requesty.md) | 推理托管 | 153 | `providers/requesty.json` | 2026-09-11T18:41:33Z |
 | [SiliconFlow](providers/siliconflow.md) | 推理托管 | 61 | `providers/siliconflow.json` | 2026-09-04T00:22:51Z |
 | [Atomic Chat](providers/atomic-chat.md) | 推理托管 | 5 | `providers/atomic-chat.json` | 2026-09-04T00:22:51Z |
 | [Charm Hyper](providers/hyper.md) | 推理托管 | 32 | `providers/hyper.json` | 2026-09-11T12:41:08Z |
@@ -201,7 +201,7 @@
 | [百川智能 (Baichuan)](providers/baichuan.md) | 官方直供 | 1 | `providers/baichuan.json` | 2026-08-28T10:02:16.380334Z |
 | [科大讯飞星火 (iFlytek Spark)](providers/iflytek.md) | 官方直供 | 2 | `providers/iflytek.json` | 2026-08-28T10:02:16.380334Z |
 | [零一万物 (01.AI)](providers/lingyiwanwu.md) | 官方直供 | 2 | `providers/lingyiwanwu.json` | 2026-08-28T10:02:16.380334Z |
-| [OpenRouter](providers/openrouter.md) | 聚合站 | 443 | `providers/openrouter.json` | 2026-09-11T15:40:45Z |
+| [OpenRouter](providers/openrouter.md) | 聚合站 | 443 | `providers/openrouter.json` | 2026-09-11T18:41:03Z |
 
 ## 订阅计划
 

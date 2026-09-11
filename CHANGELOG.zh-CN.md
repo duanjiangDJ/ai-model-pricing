@@ -16,6 +16,12 @@
 
 ---
 
+## 26.120.68 — 2026-09-11T18:57Z（内容更新）
+
+- 价格同步（5 处变更）：
+- **openrouter**（更新 4）：`deepseek/deepseek-v4-flash`, `tencent/hy3`, `z-ai/glm-5.2`, `~z-ai/glm-latest`
+- **requesty**（更新 1）：`gpt-5.6-sol@eu`
+
 ## 26.119.68 — 2026-09-11T18:50Z（功能更新）
 
 - 修复采集层契约：collect_stepfun / collect_baidu 之前把 check 的扁平价格字典直接交给 make_result，导致 per_mtok=None、采集器静默不写入（死采集器）；改为经 build_updates 包装为 cny 契约形状，并让 make_result 对形状不符的更新直接报错。
