@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.120.69 — 2026-09-11T20:09Z (feature update)
+
+- audit: detect per_mtok oscillation across syncs (OpenRouter override/time-of-day prices stored as one scalar)
+
 ## 26.120.68 — 2026-09-11T18:57Z (content update)
 
 - price sync (5 changes):

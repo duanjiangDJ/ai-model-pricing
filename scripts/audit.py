@@ -487,6 +487,45 @@ if stale_sources:
 else:
     print(f"OK sync-health: all auto_sync sources fresh (<{STALE_SOURCE_DAYS}d)")
 
+# 8. price oscillation across syncs (the OpenRouter `overrides` class)
+# A model whose stored per_mtok.input.usd alternates A -> B -> A -> B across consecutive syncs
+# is NOT a price move -- it is a time-of-day / override price that a writer stored as ONE
+# scalar. OpenRouter exposes time windows in `pricing.overrides`, which sync_openrouter ignores,
+# so its aggregator rows flip between tiers depending on the run's UTC hour. Real cases
+# (2026-09-12): tencent/hy3 0.0825<->0.132, nvidia/nemotron-3-ultra-550b-a55b 0.6<->0.625,
+# minimax/minimax-m1 0.4<->0.55, minimax/minimax-m2.5 0.27<->0.3. WARN (not FAIL): both values
+# are real, but the scalar representation loses the peak/off-peak (or promo/list) distinction
+# and the price churns forever. The root fix is in the writer (needs sign-off), not the value.
+_osc = []
+try:
+    _cl = json.load(open("data/meta/changelog.json", encoding="utf-8"))
+    _seq = {}
+    for _e in reversed(_cl.get("entries", [])):  # oldest -> newest
+        _iid = _e.get("item_id")
+        _new = _e.get("new")
+        if not isinstance(_iid, str) or not isinstance(_new, dict):
+            continue
+        _pm = _new.get("per_mtok")
+        _in = _pm.get("input") if isinstance(_pm, dict) else None
+        _v = _in.get("usd") if isinstance(_in, dict) else None
+        if isinstance(_v, (int, float)) and not isinstance(_v, bool):
+            _seq.setdefault((_e.get("provider_id"), _iid), []).append(round(float(_v), 12))
+    for (_pid, _iid), _vals in _seq.items():
+        _t = _vals[-10:]
+        _c = [_t[0]]
+        for _x in _t[1:]:
+            if _x != _c[-1]:
+                _c.append(_x)
+        if len(_c) >= 4 and len(set(_c)) == 2 and all(_c[_i] != _c[_i + 1] for _i in range(len(_c) - 1)):
+            _osc.append(f"{_pid}:{_iid} ({_c[0]}/{_c[1]}, {len(_c) - 1} flips)")
+except Exception as e:  # noqa: BLE001
+    fail(f"price-oscillation check error: {e}")
+if _osc:
+    warn(f"per_mtok alternates between two values across syncs (a time-of-day/override price stored as one scalar; {len(_osc)} models): "
+         + ", ".join(sorted(_osc)[:12]))
+else:
+    print("OK oscillation: no model alternates between two prices across syncs")
+
 if failures:
     print(f"\nAUDIT FAILED: {len(failures)} failures, {len(warnings)} warnings")
     sys.exit(1)
