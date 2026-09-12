@@ -174,6 +174,21 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    only labels `free` when an explicit `0` is present. `audit.py` hard-fails a `free` label whose
    `per_mtok` is all-null (a free model must assert a concrete 0; an all-null free label is a
    dynamic-price sentinel mislabel). Regression: `tests/test_openrouter_dynamic_sentinel.py`.
+   **Limit-pair sanity (2026-09-12)**: every token a model does not merely READ but GENERATES also
+   occupies a slot in its own `context_window` (input + output share one bounded budget), so
+   `max_output > context_window` is self-contradictory — at least one spec is wrong. It is the
+   signature of an INVERTED limit block from an aggregation source, or of a stale spec kept after a
+   window shrink (`update_model_prices` never clears a value its source stopped publishing).
+   `audit.py` WARNs on the whole class via `toolbox.max_output_exceeds_context()` (online rows only —
+   an offline row keeps its last published spec on purpose); 99 models across 28 providers were
+   publishing such a pair silently. It is a WARN, not a FAIL, because the repo mirrors its declared
+   source and models.dev really does publish inverted pairs — real case: models.dev
+   `limit: {context: 524288, output: 1048576}` for deepinfra `thinkingmachines/Inkling`, while
+   DeepInfra's own first-party API (`https://api.deepinfra.com/v1/openai/models`) reports
+   `context_length` 524288 / `max_tokens` 524288 for the same model, i.e. the VENDOR endpoint is the
+   anchor that corrects the pair (191/191 deepinfra rows keep `max_tokens <= context_length`, 0
+   inverted). Regression: `tests/test_max_output_context.py`.
+
 5. **A check parser must FAIL LOUDLY on a layout change, never return 0 rows.** `tier0_anthropic`
    was matching nothing for an unknown period (the page swapped the cache cells to
    **Read before Write** and renamed "Fable 5" → "Fable 5.1"), so `check:anthropic` stayed GREEN in
