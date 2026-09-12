@@ -152,7 +152,7 @@
 | `meta-llama/llama-3.3-70b-instruct` | ✅ 在线 | chat | 按量 | 131.072K | $0.1 | $0.32 | — | — | —/— | — | OpenRouter reseller price |
 | `meta-llama/llama-4-maverick` | ✅ 在线 | chat | 按量 | 1.04858M | $0.2 | $0.696 | — | — | —/— | — | OpenRouter reseller price |
 | `meta-llama/llama-4-scout` | ✅ 在线 | chat | 按量 | 1.31072M | $0.1 | $0.3 | — | — | —/— | — | OpenRouter reseller price |
-| `meta-llama/llama-guard-4-12b` | ✅ 在线 | chat | 按量 | 163.84K | $0.18 | $0.18 | — | — | —/— | — | OpenRouter reseller price |
+| `meta-llama/llama-guard-4-12b` | ✅ 在线 | moderation | 按量 | 163.84K | $0.18 | $0.18 | — | — | —/— | — | OpenRouter reseller price |
 | `meta/muse-glimmer-30b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.3 | $1.1 | $0.04 | — | —/— | — | OpenRouter reseller price |
 | `meta/muse-glimmer-30b:batch` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.175 | $0.75 | $0.02 | — | —/— | — | OpenRouter reseller price |
 | `meta/muse-spark-1.1` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | OpenRouter reseller price |
@@ -217,8 +217,8 @@
 | `nvidia/nemotron-3-super-120b-a12b:free` | ✅ 在线 | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-3-ultra-550b-a55b` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.625 | $3.125 | $0.1875 | — | —/— | — | OpenRouter reseller price |
 | `nvidia/nemotron-3-ultra-550b-a55b:free` | ✅ 在线 | reasoning | 免费 | 1M | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
-| `nvidia/nemotron-3.5-content-safety` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.2 | $0.2 | — | — | —/— | — | OpenRouter reseller price |
-| `nvidia/nemotron-3.5-content-safety:free` | ✅ 在线 | reasoning | 免费 | 128K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
+| `nvidia/nemotron-3.5-content-safety` | ✅ 在线 | moderation | 按量 | 131.072K | $0.2 | $0.2 | — | — | —/— | — | OpenRouter reseller price |
+| `nvidia/nemotron-3.5-content-safety:free` | ✅ 在线 | moderation | 免费 | 128K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-3.5-lightning` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.08 | $0.2 | $0.04 | — | —/— | — | OpenRouter reseller price |
 | `nvidia/nemotron-3.5-lightning:free` | ✅ 在线 | reasoning | 免费 | 1M | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `openai/gpt-3.5-turbo` | ✅ 在线 | chat | 按量 | 16.385K | $0.5 | $1.5 | — | — | —/— | — | OpenRouter reseller price |
@@ -302,7 +302,7 @@
 | `openai/gpt-oss-120b:batch` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.15 | $0.6 | — | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-oss-20b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.03 | $0.13 | $0.03 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-oss-20b:batch` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.05 | $0.2 | — | — | —/— | — | OpenRouter reseller price |
-| `openai/gpt-oss-safeguard-20b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.075 | $0.3 | $0.0375 | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-oss-safeguard-20b` | ✅ 在线 | moderation | 按量 | 131.072K | $0.075 | $0.3 | $0.0375 | — | —/— | — | OpenRouter reseller price |
 | `openai/o1` | ✅ 在线 | reasoning | 按量 | 200K | $15 | $60 | $7.5 | — | —/— | — | OpenRouter reseller price |
 | `openai/o1-pro` | ✅ 在线 | reasoning | 按量 | 200K | $150 | $600 | — | — | —/— | — | OpenRouter reseller price |
 | `openai/o3` | ✅ 在线 | reasoning | 按量 | 200K | $2 | $8 | $0.5 | — | —/— | — | OpenRouter reseller price |

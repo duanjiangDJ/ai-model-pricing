@@ -75,7 +75,7 @@
 | `workers-ai/@cf/meta/llama-3.2-3b-instruct` | ✅ 在线 | chat | 按量 | 80K | $0.0509 | $0.335 | — | — | —/— | — | models.dev official list price |
 | `workers-ai/@cf/meta/llama-3.3-70b-instruct-fp8-fast` | ✅ 在线 | chat | 按量 | 24K | $0.293 | $2.253 | — | — | —/— | — | models.dev official list price |
 | `workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct` | ✅ 在线 | chat | 按量 | 131K | $0.27 | $0.85 | — | — | —/— | — | models.dev official list price |
-| `workers-ai/@cf/meta/llama-guard-3-8b` | ✅ 在线 | chat | 按量 | 131.072K | $0.484 | $0.03 | — | — | —/— | — | models.dev official list price |
+| `workers-ai/@cf/meta/llama-guard-3-8b` | ✅ 在线 | moderation | 按量 | 131.072K | $0.484 | $0.03 | — | — | —/— | — | models.dev official list price |
 | `workers-ai/@cf/mistralai/mistral-small-3.1-24b-instruct` | ✅ 在线 | chat | 按量 | 128K | $0.351 | $0.555 | — | — | —/— | — | models.dev official list price |
 | `workers-ai/@cf/moonshotai/kimi-k2.6` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.95 | $4 | $0.16 | — | —/— | — | models.dev official list price |
 | `workers-ai/@cf/moonshotai/kimi-k2.7-code` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.95 | $4 | $0.19 | — | —/— | — | models.dev official list price |

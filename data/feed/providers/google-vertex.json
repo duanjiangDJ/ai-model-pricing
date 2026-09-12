@@ -637,7 +637,7 @@
     {
       "id": "gemini-2.5-flash-tts",
       "name": "Gemini 2.5 Flash TTS",
-      "category": "chat",
+      "category": "audio_tts",
       "modalities": [
         "text"
       ],
@@ -701,7 +701,7 @@
     {
       "id": "gemini-2.5-pro-tts",
       "name": "Gemini 2.5 Pro TTS",
-      "category": "chat",
+      "category": "audio_tts",
       "modalities": [
         "text"
       ],

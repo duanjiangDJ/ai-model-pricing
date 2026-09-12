@@ -12,6 +12,7 @@ import sys
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')))
 from common import (  # noqa: E402
+    category_signature_hint,
     PROVIDERS, FEED, SCHEMA_VERSION, append_changelog, fetch_json, load_index,
     load_manifest, load_provider, now_iso, save_index, save_manifest, to_float_or_none, write_json,
 )
@@ -77,6 +78,29 @@ def _raw(v):
         return None
 
 
+def infer_category(entry):
+    """Infer `category` from the entry's id markers then its `architecture.output_modalities`.
+
+    OpenRouter's output modality is the only reliable generator signal (an image-INPUT chat
+    model is still chat); id markers (shared with audit.py) cover embedding/reranking/
+    speech/video/moderation. Previously every non-reasoning entry became "chat".
+    """
+    hint = category_signature_hint(entry.get("id"))
+    if hint:
+        return hint
+    arch = entry.get("architecture") or {}
+    out = [str(x).lower() for x in (arch.get("output_modalities") or [])]
+    if any("video" in x for x in out):
+        return "video_gen"
+    if any("audio" in x for x in out):
+        return "audio_tts"
+    if any("image" in x for x in out):
+        return "image_gen"
+    if entry.get("reasoning"):
+        return "reasoning"
+    return "chat"
+
+
 def build_model(entry):
     p = entry.get("pricing") or {}
     # Normalize to float first. OpenRouter returns prices as STRING decimals (e.g. "0"),
@@ -138,7 +162,7 @@ def build_model(entry):
     return {
         "id": entry["id"],
         "name": entry.get("name", entry["id"]),
-        "category": "reasoning" if entry.get("reasoning") else "chat",
+        "category": infer_category(entry),
         "modalities": map_modalities(arch.get("input_modalities")),
         "context_window": entry.get("context_length") or None,
         "max_output": None,

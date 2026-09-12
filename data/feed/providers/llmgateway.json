@@ -7748,7 +7748,7 @@
     {
       "id": "gpt-4o-mini-transcribe",
       "name": "GPT-4o Mini Transcribe",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],
@@ -7810,7 +7810,7 @@
     {
       "id": "gpt-4o-transcribe",
       "name": "GPT-4o Transcribe",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],
@@ -13828,7 +13828,7 @@
     {
       "id": "openai/gpt-4o-mini-transcribe",
       "name": "GPT-4o Mini Transcribe (OpenAI)",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],
@@ -13890,7 +13890,7 @@
     {
       "id": "openai/gpt-4o-transcribe",
       "name": "GPT-4o Transcribe (OpenAI)",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],

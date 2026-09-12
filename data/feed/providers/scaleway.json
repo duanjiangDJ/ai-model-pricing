@@ -13,7 +13,7 @@
     {
       "id": "bge-multilingual-gemma2",
       "name": "BGE Multilingual Gemma2",
-      "category": "chat",
+      "category": "embedding",
       "modalities": [
         "text"
       ],
@@ -449,7 +449,7 @@
     {
       "id": "whisper-large-v3",
       "name": "Whisper Large v3",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],

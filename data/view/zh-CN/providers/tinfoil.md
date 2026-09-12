@@ -18,7 +18,7 @@
 | `glm-5-2` | ✅ 在线 | reasoning | 按量 | 393.216K | $1.5 | $5.25 | $0.375 | — | —/— | — | models.dev official list price |
 | `glm-5-3-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.4 | $1.25 | $0.1 | — | —/— | — | models.dev official list price |
 | `gpt-oss-120b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
-| `gpt-oss-safeguard-120b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
+| `gpt-oss-safeguard-120b` | ✅ 在线 | moderation | 按量 | 131.072K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
 | `kimi-k3` | ✅ 在线 | reasoning | 按量 | 262.144K | $4 | $20 | $0.8 | — | —/— | — | models.dev official list price |
 | `llama3-3-70b` | ✅ 在线 | chat | 按量 | 131.072K | $1.75 | $2.75 | — | — | —/— | — | models.dev official list price |
 | `nomic-embed-text` | ✅ 在线 | embedding | 按量 | 8.192K | $0.05 | $0 | — | — | —/— | — | models.dev official list price |

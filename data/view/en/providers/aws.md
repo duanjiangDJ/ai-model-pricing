@@ -103,8 +103,8 @@
 | `openai.gpt-oss-120b-1:0` | ✅ online | reasoning | per-token | 128K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
 | `openai.gpt-oss-20b` | ✅ online | reasoning | per-token | 128K | $0.07 | $0.3 | — | — | —/— | — | models.dev official list price |
 | `openai.gpt-oss-20b-1:0` | ✅ online | reasoning | per-token | 128K | $0.07 | $0.3 | — | — | —/— | — | models.dev official list price |
-| `openai.gpt-oss-safeguard-120b` | ✅ online | chat | per-token | 128K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
-| `openai.gpt-oss-safeguard-20b` | ✅ online | chat | per-token | 128K | $0.07 | $0.2 | — | — | —/— | — | models.dev official list price |
+| `openai.gpt-oss-safeguard-120b` | ✅ online | moderation | per-token | 128K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
+| `openai.gpt-oss-safeguard-20b` | ✅ online | moderation | per-token | 128K | $0.07 | $0.2 | — | — | —/— | — | models.dev official list price |
 | `qwen.qwen3-235b-a22b-2507-v1:0` | ✅ online | chat | per-token | 262.144K | $0.22 | $0.88 | — | — | —/— | — | models.dev official list price |
 | `qwen.qwen3-32b-v1:0` | ✅ online | reasoning | per-token | 16.384K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
 | `qwen.qwen3-coder-30b-a3b-v1:0` | ✅ online | chat | per-token | 262.144K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |

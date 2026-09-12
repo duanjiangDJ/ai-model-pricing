@@ -16,6 +16,10 @@
 
 ---
 
+## 26.131.84 — 2026-09-12T23:37Z（功能更新）
+
+- fix(category): 采集器按模型类别标注 category（原只写 chat/reasoning），修正 116 个被标为 chat 的语音/图像/向量模型并加校验
+
 ## 26.131.83 — 2026-09-12T22:24Z（功能更新）
 
 - 修复(novita)：29 个官方已下线模型标记 offline、4 个 id 大小写按官方目录对齐；cache/batch 关系检查仅针对在线模型；fetch_official 的 novita 记录补充 context/max_output/status

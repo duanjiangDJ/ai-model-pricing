@@ -3933,7 +3933,7 @@
     {
       "id": "meta-llama/llama-guard-4-12b",
       "name": "Meta: Llama Guard 4 12B",
-      "category": "chat",
+      "category": "moderation",
       "modalities": [
         "text"
       ],
@@ -5867,7 +5867,7 @@
     {
       "id": "nvidia/nemotron-3.5-content-safety:free",
       "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
-      "category": "reasoning",
+      "category": "moderation",
       "modalities": [
         "text"
       ],
@@ -7582,7 +7582,7 @@
     {
       "id": "openai/gpt-oss-safeguard-20b",
       "name": "OpenAI: gpt-oss-safeguard-20b",
-      "category": "reasoning",
+      "category": "moderation",
       "modalities": [
         "text"
       ],

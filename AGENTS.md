@@ -267,6 +267,20 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
 7. Research-subagent output can be merged automatically:
    `python scripts/merge_research.py <research.json>` (format contract: `docs/research-contract.md`).
 
+8. **`category` must match the model's KIND, never a default.** `category` is a schema enum
+   (`chat | reasoning | embedding | image_gen | video_gen | audio_tts | audio_stt | rerank |
+   moderation | ...`). The two aggregator writers used to emit `"reasoning"` or `"chat"` and
+   nothing else, so speech / image / embedding rows were published as chat models (real
+   2026-09-13: 116 rows across 31 providers — `whisper-large-v3` as chat, `openai/tts-1` as
+   chat, `bfl/flux-2-pro` as chat, `baai/bge-m3` as chat, `gpt-oss-safeguard-20b` as chat).
+   Classification now runs through the SHARED table `toolbox.CATEGORY_SIGNATURES` +
+   `toolbox.category_signature_hint()`, used by BOTH writers and by `audit.py`, so the writer's
+   inference and the gate can never drift apart. Precedence: the FIRST matching id marker wins
+   (`flux-3-video` -> `video_gen` not `image_gen`; `synthetic-video-detector` -> `moderation`
+   not `video_gen`), then the source's OUTPUT modality (`image`/`audio`/`video`) — a model that
+   merely ACCEPTS images is still `chat`. `audit.py` warns when a row contradicts its own id;
+   fix the row, never the check.
+
 ## Automation (daily check)
 
 `.github/workflows/daily-check.yml` (cron `0 */3 * * *`, every 3 hours) runs `scripts/daily_check.py`:

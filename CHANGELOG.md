@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.131.84 — 2026-09-12T23:37Z (feature update)
+
+- fix(category): classify model category by id/kind in both aggregator writers (was always chat/reasoning) and audit contradictions
+
 ## 26.131.83 — 2026-09-12T22:24Z (feature update)
 
 - fix(novita): mark 29 vendor-retired rows offline + align 4 id casings to the live catalog; narrow the cache/batch relationship audit WARNs to online rows; fetch_official novita now carries context/max_output/status

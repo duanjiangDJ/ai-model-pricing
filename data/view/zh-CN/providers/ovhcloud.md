@@ -26,5 +26,5 @@
 | `qwen3.5-9b` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.12 | $0.18 | — | — | —/— | — | models.dev official list price |
 | `qwen3.6-27b` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.47 | $3.19 | — | — | —/— | — | models.dev official list price |
 | `qwen3.8-27b` | ✅ 在线 | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `qwen3guard-gen-0.6b` | ✅ 在线 | chat | 免费 | 32.768K | $0 | $0 | — | — | —/— | — | Free on OVHcloud AI Endpoints (guard/safety model, $0 per mTok per models.dev… |
-| `qwen3guard-gen-8b` | ✅ 在线 | chat | 免费 | 32.768K | $0 | $0 | — | — | —/— | — | Free on OVHcloud AI Endpoints (guard/safety model, $0 per mTok per models.dev… |
+| `qwen3guard-gen-0.6b` | ✅ 在线 | moderation | 免费 | 32.768K | $0 | $0 | — | — | —/— | — | Free on OVHcloud AI Endpoints (guard/safety model, $0 per mTok per models.dev… |
+| `qwen3guard-gen-8b` | ✅ 在线 | moderation | 免费 | 32.768K | $0 | $0 | — | — | —/— | — | Free on OVHcloud AI Endpoints (guard/safety model, $0 per mTok per models.dev… |

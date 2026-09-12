@@ -17,7 +17,7 @@
 | `brick-complexity-pro` | ✅ 在线 | chat | 按量 | 100K | $0.12 | $0.46 | — | — | —/— | — | models.dev official list price |
 | `brick-v1-beta` | ✅ 在线 | chat | 免费 | 100K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `deepseek-ocr-2` | ✅ 在线 | chat | 免费 | 4K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `faster-whisper-large-v3` | ✅ 在线 | chat | 免费 | 448 | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `faster-whisper-large-v3` | ✅ 在线 | audio_stt | 免费 | 448 | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gemma4-31b` | ✅ 在线 | reasoning | 按量 | 100K | $0.46 | $2.42 | — | — | —/— | — | models.dev official list price |
 | `glm5.2` | ✅ 在线 | reasoning | 按量 | 96K | $2.31 | $6 | — | — | —/— | — | models.dev official list price |
 | `gpt-oss-120b` | ✅ 在线 | reasoning | 按量 | 128K | $1 | $4.2 | — | — | —/— | — | models.dev official list price |

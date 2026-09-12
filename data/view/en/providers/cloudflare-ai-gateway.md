@@ -75,7 +75,7 @@
 | `workers-ai/@cf/meta/llama-3.2-3b-instruct` | ✅ online | chat | per-token | 80K | $0.0509 | $0.335 | — | — | —/— | — | models.dev official list price |
 | `workers-ai/@cf/meta/llama-3.3-70b-instruct-fp8-fast` | ✅ online | chat | per-token | 24K | $0.293 | $2.253 | — | — | —/— | — | models.dev official list price |
 | `workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct` | ✅ online | chat | per-token | 131K | $0.27 | $0.85 | — | — | —/— | — | models.dev official list price |
-| `workers-ai/@cf/meta/llama-guard-3-8b` | ✅ online | chat | per-token | 131.072K | $0.484 | $0.03 | — | — | —/— | — | models.dev official list price |
+| `workers-ai/@cf/meta/llama-guard-3-8b` | ✅ online | moderation | per-token | 131.072K | $0.484 | $0.03 | — | — | —/— | — | models.dev official list price |
 | `workers-ai/@cf/mistralai/mistral-small-3.1-24b-instruct` | ✅ online | chat | per-token | 128K | $0.351 | $0.555 | — | — | —/— | — | models.dev official list price |
 | `workers-ai/@cf/moonshotai/kimi-k2.6` | ✅ online | reasoning | per-token | 262.144K | $0.95 | $4 | $0.16 | — | —/— | — | models.dev official list price |
 | `workers-ai/@cf/moonshotai/kimi-k2.7-code` | ✅ online | reasoning | per-token | 262.144K | $0.95 | $4 | $0.19 | — | —/— | — | models.dev official list price |

@@ -415,7 +415,7 @@
     {
       "id": "qwen3guard-gen-0.6b",
       "name": "Qwen3Guard-Gen-0.6B",
-      "category": "chat",
+      "category": "moderation",
       "modalities": [
         "text"
       ],
@@ -446,7 +446,7 @@
     {
       "id": "qwen3guard-gen-8b",
       "name": "Qwen3Guard-Gen-8B",
-      "category": "chat",
+      "category": "moderation",
       "modalities": [
         "text"
       ],

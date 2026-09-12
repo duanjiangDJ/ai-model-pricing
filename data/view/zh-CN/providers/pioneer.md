@@ -46,7 +46,7 @@
 | `deepseek-ai/DeepSeek-V4-Flash` | ✅ 在线 | reasoning | 按量 | 1M | $0.1 | $0.2 | $0.0197 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Pro` | ✅ 在线 | reasoning | 按量 | 1M | $0.435 | $0.87 | $0.003625 | — | —/— | — | models.dev official list price |
 | `devstral-2` | ✅ 在线 | chat | 按量 | 256K | $0.4 | $2 | $0.4 | — | —/— | — | models.dev official list price |
-| `fastino/gliguard-LLMGuardrails-300M` | ✅ 在线 | chat | 按量 | 8.192K | $0.15 | $0.15 | $0.15 | — | —/— | — | models.dev official list price |
+| `fastino/gliguard-LLMGuardrails-300M` | ✅ 在线 | moderation | 按量 | 8.192K | $0.15 | $0.15 | $0.15 | — | —/— | — | models.dev official list price |
 | `fastino/gliner2-base-v1` | ✅ 在线 | chat | 按量 | 8.192K | $0.15 | $0.15 | $0.15 | — | —/— | — | models.dev official list price |
 | `fastino/gliner2-large-v1` | ✅ 在线 | chat | 按量 | 8.192K | $0.15 | $0.15 | $0.15 | — | —/— | — | models.dev official list price |
 | `fastino/gliner2-multi-large-v1` | ✅ 在线 | chat | 按量 | 8.192K | $0.15 | $0.15 | $0.15 | — | —/— | — | models.dev official list price |

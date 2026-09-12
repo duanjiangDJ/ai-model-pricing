@@ -20,12 +20,12 @@
 | `groq/compound-mini` | ✅ online | chat | per-token | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
 | `llama-3.1-8b-instant` | ✅ online | chat | per-token | 131.072K | $0.05 | $0.08 | — | — | —/— | — | models.dev official list price |
 | `llama-3.3-70b-versatile` | ✅ online | chat | per-token | 131.072K | $0.59 | $0.79 | — | — | —/— | — | models.dev official list price |
-| `meta-llama/llama-prompt-guard-2-22m` | ✅ online | chat | per-token | 512 | $0.03 | $0.03 | — | — | —/— | — | models.dev official list price |
-| `meta-llama/llama-prompt-guard-2-86m` | ✅ online | chat | per-token | 512 | $0.04 | $0.04 | — | — | —/— | — | models.dev official list price |
+| `meta-llama/llama-prompt-guard-2-22m` | ✅ online | moderation | per-token | 512 | $0.03 | $0.03 | — | — | —/— | — | models.dev official list price |
+| `meta-llama/llama-prompt-guard-2-86m` | ✅ online | moderation | per-token | 512 | $0.04 | $0.04 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-120b` | ✅ online | reasoning | per-token | 131.072K | $0.15 | $0.6 | $0.075 | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-20b` | ✅ online | reasoning | per-token | 131.072K | $0.075 | $0.3 | $0.0375 | — | —/— | — | models.dev official list price |
-| `openai/gpt-oss-safeguard-20b` | ✅ online | reasoning | per-token | 131.072K | $0.075 | $0.3 | — | — | —/— | — | models.dev official list price |
+| `openai/gpt-oss-safeguard-20b` | ✅ online | moderation | per-token | 131.072K | $0.075 | $0.3 | — | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.6-27b` | ✅ online | reasoning | per-token | 131.072K | $0.6 | $3 | $0.3 | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.8-27b` | ✅ online | reasoning | per-token | 131.042K | $0.8 | $4 | — | — | —/— | — | models.dev official list price |
-| `whisper-large-v3` | ✅ online | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
-| `whisper-large-v3-turbo` | ✅ online | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
+| `whisper-large-v3` | ✅ online | audio_stt | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
+| `whisper-large-v3-turbo` | ✅ online | audio_stt | per-token | — | — | — | — | — | —/— | — | models.dev official list price |

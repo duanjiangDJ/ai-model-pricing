@@ -103,8 +103,8 @@
 | `openai.gpt-oss-120b-1:0` | ✅ 在线 | reasoning | 按量 | 128K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
 | `openai.gpt-oss-20b` | ✅ 在线 | reasoning | 按量 | 128K | $0.07 | $0.3 | — | — | —/— | — | models.dev official list price |
 | `openai.gpt-oss-20b-1:0` | ✅ 在线 | reasoning | 按量 | 128K | $0.07 | $0.3 | — | — | —/— | — | models.dev official list price |
-| `openai.gpt-oss-safeguard-120b` | ✅ 在线 | chat | 按量 | 128K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
-| `openai.gpt-oss-safeguard-20b` | ✅ 在线 | chat | 按量 | 128K | $0.07 | $0.2 | — | — | —/— | — | models.dev official list price |
+| `openai.gpt-oss-safeguard-120b` | ✅ 在线 | moderation | 按量 | 128K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
+| `openai.gpt-oss-safeguard-20b` | ✅ 在线 | moderation | 按量 | 128K | $0.07 | $0.2 | — | — | —/— | — | models.dev official list price |
 | `qwen.qwen3-235b-a22b-2507-v1:0` | ✅ 在线 | chat | 按量 | 262.144K | $0.22 | $0.88 | — | — | —/— | — | models.dev official list price |
 | `qwen.qwen3-32b-v1:0` | ✅ 在线 | reasoning | 按量 | 16.384K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
 | `qwen.qwen3-coder-30b-a3b-v1:0` | ✅ 在线 | chat | 按量 | 262.144K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |

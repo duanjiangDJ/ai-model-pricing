@@ -22,6 +22,38 @@ UA = "ai-model-pricing-bot/1.0 (+https://github.com/duanjiangDJ/ai-model-pricing
 _HAN_RE = re.compile(r"[\u4e00-\u9fff]")
 
 
+# ---------------------------------------------------------------- model category
+# Unambiguous id markers -> the model `category` they MUST carry. Deliberately narrow: only
+# markers that cannot describe a chat model. Shared by the aggregator writers (to infer a new
+# model's category) AND audit.py (to catch a regression), so the writer's inference and the
+# check can never drift apart. First matching marker wins (an id can carry several, e.g.
+# "synthetic-video-detector" matches both "video" and "detector").
+CATEGORY_SIGNATURES = (
+    (re.compile(r"detector|classifier|moderation|content-safety|guard"), "moderation"),
+    (re.compile(r"video"), "video_gen"),
+    (re.compile(r"whisper|transcribe"), "audio_stt"),
+    (re.compile(r"(^|[/_.-])tts([/_.-]|$)|-tts$|tts-|text-to-speech"), "audio_tts"),
+    (re.compile(r"rerank|re-rank"), "rerank"),
+    (re.compile(r"embed|bge|e5-|e5_|gte-|gte_|mpnet|minilm|mini-lm|mini_lm"), "embedding"),
+    (re.compile(r"stable-diffusion|sdxl|flux"), "image_gen"),
+)
+
+
+def category_signature_hint(mid):
+    """Return the `category` an unambiguous model-id marker implies, else None.
+
+    Used by the aggregator writers to classify a NEW model and by audit.py to flag a row
+    whose category contradicts its own id (the class the writers used to default to
+    "chat" for every non-reasoning model: whisper/TTS/flux/embedding rows published as
+    chat; real 2026-09-13: 105 rows across 31 providers).
+    """
+    low = (mid or "").lower()
+    for pat, want in CATEGORY_SIGNATURES:
+        if pat.search(low):
+            return want
+    return None
+
+
 # ---------------------------------------------------------------- time & json
 
 def now_iso():

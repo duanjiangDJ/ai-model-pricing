@@ -78,9 +78,9 @@
 | `llama-3.3-70b-versatile` | ✅ online | chat | per-token | 131.072K | $0.59 | $0.79 | — | — | —/— | — | models.dev official list price |
 | `llama-4-maverick` | ✅ online | chat | per-token | 131.072K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
 | `llama-4-scout` | ✅ online | chat | per-token | 131.072K | $0.08 | $0.3 | — | — | —/— | — | models.dev official list price |
-| `llama-guard-4` | ✅ online | chat | per-token | 131.072K | $0.21 | $0.21 | — | — | —/— | — | models.dev official list price |
-| `llama-prompt-guard-2-22m` | ✅ online | chat | per-token | 512 | $0.01 | $0.01 | — | — | —/— | — | models.dev official list price |
-| `llama-prompt-guard-2-86m` | ✅ online | chat | per-token | 512 | $0.01 | $0.01 | — | — | —/— | — | models.dev official list price |
+| `llama-guard-4` | ✅ online | moderation | per-token | 131.072K | $0.21 | $0.21 | — | — | —/— | — | models.dev official list price |
+| `llama-prompt-guard-2-22m` | ✅ online | moderation | per-token | 512 | $0.01 | $0.01 | — | — | —/— | — | models.dev official list price |
+| `llama-prompt-guard-2-86m` | ✅ online | moderation | per-token | 512 | $0.01 | $0.01 | — | — | —/— | — | models.dev official list price |
 | `mistral-large-2411` | ✅ online | chat | per-token | 128K | $2 | $6 | — | — | —/— | — | models.dev official list price |
 | `mistral-nemo` | ✅ online | chat | per-token | 128K | $20 | $40 | — | — | —/— | — | models.dev official list price |
 | `mistral-small` | ✅ online | chat | per-token | 128K | $0.075 | $0.2 | — | — | —/— | — | models.dev official list price |

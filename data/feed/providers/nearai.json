@@ -366,7 +366,7 @@
     {
       "id": "black-forest-labs/FLUX.2-klein-4B",
       "name": "FLUX.2 Klein 4B",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -1152,7 +1152,7 @@
     {
       "id": "openai/whisper-large-v3",
       "name": "Whisper Large v3",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],

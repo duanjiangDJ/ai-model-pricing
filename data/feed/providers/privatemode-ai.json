@@ -207,7 +207,7 @@
     {
       "id": "whisper-large-v3",
       "name": "Whisper large-v3",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],

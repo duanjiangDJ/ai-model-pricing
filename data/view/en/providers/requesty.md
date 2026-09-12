@@ -140,7 +140,7 @@
 | `nemotron-3-super-120b-a12b` | ✅ online | reasoning | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nemotron-3-ultra-550b-a55b` | ✅ online | reasoning | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nemotron-3-ultra-nvfp4` | ✅ online | reasoning | per-token | 262.144K | $0.6 | $2.4 | $0.12 | — | —/— | — | models.dev official list price |
-| `nemotron-3.5-content-safety` | ✅ online | reasoning | free | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `nemotron-3.5-content-safety` | ✅ online | moderation | free | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nemotron-3.5-lightning-30b-a3b` | ✅ online | reasoning | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nemotron-lightning-3.5-30b-a3b` | ✅ online | reasoning | per-token | 262.144K | $0.05 | $0.2 | $0.01 | — | —/— | — | models.dev official list price |
 | `nvidia-nemotron-3-super-120b-a12b` | ✅ online | reasoning | per-token | 262.144K | $0.1 | $0.5 | — | — | —/— | — | models.dev official list price |

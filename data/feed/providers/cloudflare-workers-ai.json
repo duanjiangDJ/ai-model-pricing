@@ -389,7 +389,7 @@
     {
       "id": "@cf/meta/llama-guard-3-8b",
       "name": "Llama Guard 3 8B",
-      "category": "chat",
+      "category": "moderation",
       "modalities": [
         "text"
       ],

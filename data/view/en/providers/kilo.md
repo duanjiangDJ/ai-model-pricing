@@ -135,7 +135,7 @@
 | `meta-llama/llama-3.3-70b-instruct` | ✅ online | chat | per-token | 131.072K | $0.1 | $0.32 | — | — | —/— | — | models.dev official list price |
 | `meta-llama/llama-4-maverick` | ✅ online | chat | per-token | 1.04858M | $0.2 | $0.696 | — | — | —/— | — | models.dev official list price |
 | `meta-llama/llama-4-scout` | ✅ online | chat | per-token | 327.68K | $0.1 | $0.3 | — | — | —/— | — | models.dev official list price |
-| `meta-llama/llama-guard-4-12b` | ✅ online | chat | per-token | 163.84K | $0.18 | $0.18 | — | — | —/— | — | models.dev official list price |
+| `meta-llama/llama-guard-4-12b` | ✅ online | moderation | per-token | 163.84K | $0.18 | $0.18 | — | — | —/— | — | models.dev official list price |
 | `meta/muse-glimmer-30b` | ✅ online | reasoning | per-token | 131.072K | $0.3 | $1.1 | $0.04 | — | —/— | — | models.dev official list price |
 | `meta/muse-spark-1.1` | ✅ online | reasoning | per-token | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
 | `meta/muse-spark-1.2` | ✅ online | reasoning | per-token | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
@@ -195,7 +195,7 @@
 | `nvidia/nemotron-3-super-120b-a12b:free` | ✅ online | reasoning | free | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-3-ultra-550b-a55b` | ✅ online | reasoning | per-token | 512.288K | $0.5 | $2.2 | $0.1 | — | —/— | — | models.dev official list price |
 | `nvidia/nemotron-3-ultra-550b-a55b:free` | ✅ online | reasoning | free | 1M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `nvidia/nemotron-3.5-content-safety:free` | ✅ online | reasoning | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `nvidia/nemotron-3.5-content-safety:free` | ✅ online | moderation | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-3.5-lightning` | ✅ online | reasoning | per-token | 262.144K | $0.065 | $0.18 | $0.04 | — | —/— | — | models.dev official list price |
 | `nvidia/nemotron-3.5-lightning:free` | ✅ online | reasoning | free | 1M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `openai/gpt-3.5-turbo` | ✅ online | chat | per-token | 16.385K | $0.5 | $1.5 | — | — | —/— | — | models.dev official list price |
@@ -248,7 +248,7 @@
 | `openai/gpt-chat-latest` | ✅ online | chat | per-token | 400K | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-120b` | ✅ online | reasoning | per-token | 131.072K | $0.03 | $0.17 | $0.03 | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-20b` | ✅ online | reasoning | per-token | 131.072K | $0.02 | $0.1 | — | — | —/— | — | models.dev official list price |
-| `openai/gpt-oss-safeguard-20b` | ✅ online | reasoning | per-token | 131.072K | $0.075 | $0.3 | $0.0375 | — | —/— | — | models.dev official list price |
+| `openai/gpt-oss-safeguard-20b` | ✅ online | moderation | per-token | 131.072K | $0.075 | $0.3 | $0.0375 | — | —/— | — | models.dev official list price |
 | `openai/o1` | ✅ online | reasoning | per-token | 200K | $15 | $60 | $7.5 | — | —/— | — | models.dev official list price |
 | `openai/o1-pro` | ✅ online | reasoning | per-token | 200K | $150 | $600 | — | — | —/— | — | models.dev official list price |
 | `openai/o3` | ✅ online | reasoning | per-token | 200K | $2 | $8 | $0.5 | — | —/— | — | models.dev official list price |

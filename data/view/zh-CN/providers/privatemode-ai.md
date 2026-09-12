@@ -19,4 +19,4 @@
 | `kimi-latest` | ✅ 在线 | reasoning | 按量 | 256K | $1.791 | $8.9436 | $0.1733 | — | —/— | — | models.dev official list price |
 | `qwen3-embedding-4b` | ✅ 在线 | embedding | 按量 | 32K | $0.1502 | $0 | — | — | —/— | — | models.dev official list price |
 | `voxtral-mini-3b` | ✅ 在线 | chat | 按量 | 32K | $0.00462 | $0 | — | — | —/— | — | models.dev official list price |
-| `whisper-large-v3` | ✅ 在线 | chat | 按量 | 448 | $0.01618 | $0 | — | — | —/— | — | models.dev official list price |
+| `whisper-large-v3` | ✅ 在线 | audio_stt | 按量 | 448 | $0.01618 | $0 | — | — | —/— | — | models.dev official list price |

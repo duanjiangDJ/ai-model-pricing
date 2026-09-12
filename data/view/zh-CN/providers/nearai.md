@@ -24,7 +24,7 @@
 | `anthropic/claude-opus-4-7` | ✅ 在线 | reasoning | 按量 | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-sonnet-4-5` | ✅ 在线 | reasoning | 按量 | 200K | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-sonnet-4-6` | ✅ 在线 | reasoning | 按量 | 1M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
-| `black-forest-labs/FLUX.2-klein-4B` | ✅ 在线 | chat | 按量 | 128K | $1 | $1 | — | — | —/— | — | models.dev official list price |
+| `black-forest-labs/FLUX.2-klein-4B` | ✅ 在线 | image_gen | 按量 | 128K | $1 | $1 | — | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-flash-lite` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.1 | $0.4 | $0.01 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-pro` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |
@@ -48,5 +48,5 @@
 | `openai/o3` | ✅ 在线 | reasoning | 按量 | 200K | $2 | $8 | $0.5 | — | —/— | — | models.dev official list price |
 | `openai/o3-mini` | ✅ 在线 | reasoning | 按量 | 200K | $1.1 | $4.4 | $0.55 | — | —/— | — | models.dev official list price |
 | `openai/o4-mini` | ✅ 在线 | reasoning | 按量 | 200K | $1.1 | $4.4 | $0.275 | — | —/— | — | models.dev official list price |
-| `openai/whisper-large-v3` | ✅ 在线 | chat | 按量 | 448 | $0.01 | $0.01 | — | — | —/— | — | models.dev official list price |
+| `openai/whisper-large-v3` | ✅ 在线 | audio_stt | 按量 | 448 | $0.01 | $0.01 | — | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.1-FP8` | ✅ 在线 | reasoning | 按量 | 202.752K | $1.4 | $4.4 | — | — | —/— | — | models.dev official list price |

@@ -45,6 +45,6 @@
 | `pixtral-12b` | ✅ 在线 | chat | 按量 | 128K | $0.15 | $0.15 | — | — | —/— | — | models.dev official list price |
 | `pixtral-large-latest` | ✅ 在线 | chat | 按量 | 128K | $2 | $6 | — | — | —/— | — | models.dev official list price |
 | `voxtral-mini-latest` | ✅ 在线 | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
-| `voxtral-mini-tts-latest` | ✅ 在线 | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
+| `voxtral-mini-tts-latest` | ✅ 在线 | audio_tts | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
 | `voxtral-small-latest` | ✅ 在线 | chat | 按量 | 32K | $0.1 | $0.3 | — | — | —/— | — | models.dev official list price |
 | `zai-glm-5-2` | ✅ 在线 | reasoning | 按量 | 1M | $1.4 | $4.4 | $0.14 | — | —/— | — | models.dev official list price |

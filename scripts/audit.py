@@ -21,6 +21,7 @@ import sys
 from datetime import datetime, timezone  # noqa: E402
 
 from toolbox import (  # noqa: E402
+    category_signature_hint,
     any_price_positive,
     batch_exceeds_standard,
     cache_read_exceeds_input,
@@ -110,6 +111,7 @@ asym_cny = []  # per_mtok sub-field carrying ONLY a cny value on a USD-declared 
 cache_rel = []  # cache_read > input (impossible: a cache hit cannot cost more than fresh input; signature of a parser column swap / stale value)
 ctx_rel = []  # max_output > context_window on an ONLINE model (impossible: generated tokens occupy the context window; signature of an inverted/aggregator limit block)
 batch_rel = []  # batch.<field> > per_mtok.<field> (a batch API is a DISCOUNT on standard; impossible -> stale/shared batch block or unit error)
+cat_mismatch = []  # category contradicts an unambiguous id signature (a speech/image/embedding model published as "chat")
 for f in sorted(glob.glob("data/feed/providers/*.json")):
     p = json.load(open(f, encoding="utf-8"))
     is_sub = any(h in p["provider_id"] for h in SUB_HINTS)
@@ -268,6 +270,17 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
                 f"{p['provider_id']} :: {m['id']} ({_bx[0]}: batch "
                 f"{( _bmap2.get(_bx[0]) or {}).get('usd')} > standard "
                 f"{(pm.get(_bx[0]) or {}).get('usd')})"
+            )
+        # category vs an unambiguous id signature: a model whose id says whisper/transcribe
+        # (speech-to-text), *-tts (text-to-speech), flux/stable-diffusion/sdxl (image
+        # generation) or embed/rerank cannot be category "chat". WARN (not FAIL): category is
+        # classification metadata, not a price -- surface a regression without blocking a
+        # data-healthy sync. Guards the class the aggregator writers defaulted to "chat".
+        _mid_l = m["id"].lower()
+        _cwant = category_signature_hint(_mid_l)
+        if _cwant and m.get("category") != _cwant:
+            cat_mismatch.append(
+                f"{p['provider_id']} :: {m['id']} (category {m.get('category')} != {_cwant})"
             )
         # mixed-currency zero: a per_mtok field that is 0 in one currency but >0 in another is
         # self-contradictory (0 = free, yet the other currency proves the model is paid). This is
@@ -504,6 +517,14 @@ if batch_rel:
          + "; ".join(sorted(batch_rel)[:8]))
 else:
     print("OK batch-relationship: batch <= standard on every priced model")
+if cat_mismatch:
+    from collections import Counter as _Ccm
+    _bcm = _Ccm(u.split(" :: ")[0] for u in cat_mismatch)
+    warn(f"category contradicts the model id (a whisper/TTS/image/embedding model must not be "
+         f"'chat'; {len(cat_mismatch)} models): "
+         + ", ".join(f"{pid} x{c}" for pid, c in _bcm.most_common(12)))
+else:
+    print("OK category: no chat-labelled speech/image/embedding model ids")
 
 # 4. docs bilingual completeness (AGENTS + agent-policy are English-only by design)
 EN_ONLY_DOCS = {"AGENTS.md", "agent-policy.md", "agent-governance-design.md"}

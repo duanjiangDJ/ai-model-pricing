@@ -383,7 +383,7 @@
     {
       "id": "gemini-3-1-flash-tts",
       "name": "Gemini 3.1 Flash TTS Preview",
-      "category": "chat",
+      "category": "audio_tts",
       "modalities": [
         "text"
       ],
@@ -1791,7 +1791,7 @@
     {
       "id": "whisper-large-v3-turbo",
       "name": "Whisper Large v3 Turbo",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],
