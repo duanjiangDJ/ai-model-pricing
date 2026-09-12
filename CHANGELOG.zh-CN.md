@@ -16,6 +16,10 @@
 
 ---
 
+## 26.131.82 — 2026-09-12T20:14Z（功能更新）
+
+- fix(audit): 新增 batch 价高于标准价的检查；修正 OpenAI 陈旧的 batch 价
+
 ## 26.131.81 — 2026-09-12T19:07Z（功能更新）
 
 - audit：新增 max_output > context_window 限制对一致性检查

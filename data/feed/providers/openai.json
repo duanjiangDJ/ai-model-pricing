@@ -1216,17 +1216,17 @@
         },
         "batch": {
           "input": {
-            "usd": 2.5
+            "usd": 2.0
           },
           "output": {
-            "usd": 15.0
+            "usd": 10.0
           }
         },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30; long context $10/$1/$12.50/$45; batch $2.5/$0.25/$3.125/$15; flex $2.5/$15. Data-residency regions +10% (models released on/after 2026-03-05).",
+      "notes": "Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30; long context $10/$1/$12.50/$45; batch $2.5/$0.25/$3.125/$15; flex $2.5/$15. Data-residency regions +10% (models released on/after 2026-03-05). | batch corrected 2026-09-13 to the official Batch pricing table (developers.openai.com/api/docs/pricing.md): a batch API is a discount on standard, the prior block was gpt-5.5's {2.5, 15} copied onto every gpt-5.6 row.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -1258,17 +1258,17 @@
         },
         "batch": {
           "input": {
-            "usd": 2.5
+            "usd": 0.1
           },
           "output": {
-            "usd": 15.0
+            "usd": 0.6
           }
         },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30; long context $10/$1/$12.50/$45; batch $2.5/$0.25/$3.125/$15; flex $2.5/$15. Data-residency regions +10% (models released on/after 2026-03-05). | Official platform.openai.com/docs/pricing (Wayback snapshot, USD/1M, standard tier). Parsed by sync_official.py.",
+      "notes": "Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30; long context $10/$1/$12.50/$45; batch $2.5/$0.25/$3.125/$15; flex $2.5/$15. Data-residency regions +10% (models released on/after 2026-03-05). | Official platform.openai.com/docs/pricing (Wayback snapshot, USD/1M, standard tier). Parsed by sync_official.py. | batch corrected 2026-09-13 to the official Batch pricing table (developers.openai.com/api/docs/pricing.md): a batch API is a discount on standard, the prior block was gpt-5.5's {2.5, 15} copied onto every gpt-5.6 row.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -1300,17 +1300,17 @@
         },
         "batch": {
           "input": {
-            "usd": 2.5
+            "usd": 2.0
           },
           "output": {
-            "usd": 15.0
+            "usd": 10.0
           }
         },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official OpenAI pricing (Standard, short context, USD/1M). Parsed via developers.openai.com/api/docs/pricing.md",
+      "notes": "Official OpenAI pricing (Standard, short context, USD/1M). Parsed via developers.openai.com/api/docs/pricing.md | batch corrected 2026-09-13 to the official Batch pricing table (developers.openai.com/api/docs/pricing.md): a batch API is a discount on standard, the prior block was gpt-5.5's {2.5, 15} copied onto every gpt-5.6 row.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -1342,17 +1342,17 @@
         },
         "batch": {
           "input": {
-            "usd": 2.5
+            "usd": 1.0
           },
           "output": {
-            "usd": 15.0
+            "usd": 6.0
           }
         },
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30; long context $10/$1/$12.50/$45; batch $2.5/$0.25/$3.125/$15; flex $2.5/$15. Data-residency regions +10% (models released on/after 2026-03-05). | Official platform.openai.com/docs/pricing (Wayback snapshot, USD/1M, standard tier). Parsed by sync_official.py.",
+      "notes": "Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30; long context $10/$1/$12.50/$45; batch $2.5/$0.25/$3.125/$15; flex $2.5/$15. Data-residency regions +10% (models released on/after 2026-03-05). | Official platform.openai.com/docs/pricing (Wayback snapshot, USD/1M, standard tier). Parsed by sync_official.py. | batch corrected 2026-09-13 to the official Batch pricing table (developers.openai.com/api/docs/pricing.md): a batch API is a discount on standard, the prior block was gpt-5.5's {2.5, 15} copied onto every gpt-5.6 row.",
       "billing_model": [
         "pay_per_token"
       ],
