@@ -6,12 +6,34 @@
       "kind": "update",
       "scope": "model",
       "provider_id": "openrouter",
-      "item_id": "deepseek/deepseek-v4-pro,deepseek/deepseek-v4-pro,deepseek/deepseek-v4-pro,deepseek/deepseek-v4-flash,deepseek/deepseek-v4-flash,deepseek/deepseek-v4-flash",
+      "item_id": "deepseek/deepseek-v4-pro,deepseek/deepseek-v4-flash",
       "field": "pricing",
-      "new": {
-        "models": 6
+      "old": {
+        "deepseek/deepseek-v4-pro": {
+          "input": 0.778824,
+          "output": 1.557648,
+          "cache_read": 0.064902
+        },
+        "deepseek/deepseek-v4-flash": {
+          "input": 0.06678,
+          "output": 0.13356,
+          "cache_read": 0.013356
+        }
       },
-      "source": "openrouter:api"
+      "new": {
+        "models": 2,
+        "deepseek/deepseek-v4-pro": {
+          "input": 0.768732,
+          "output": 1.537464,
+          "cache_read": 0.064061
+        },
+        "deepseek/deepseek-v4-flash": {
+          "input": 0.0665,
+          "output": 0.133,
+          "cache_read": 0.0133
+        }
+      },
+      "source": "https://openrouter.ai/api/v1/models"
     },
     {
       "date": "2026-09-12T12:41:52Z",
