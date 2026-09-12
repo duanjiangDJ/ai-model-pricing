@@ -16,6 +16,11 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.131.80 — 2026-09-12T18:59Z (content update)
+
+- price sync (7 changes):
+- **openrouter** (updated 7): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `meta-llama/llama-3.1-70b-instruct`, `moonshotai/kimi-k3`, `tencent/hy3`, `z-ai/glm-5.3-flash`, `~moonshotai/kimi-latest`
+
 ## 26.130.80 — 2026-09-12T17:54Z (feature update)
 
 - fix(docs): auto-refresh the generated docs/providers*.md pages and hard-fail a stale one
