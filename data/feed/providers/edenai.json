@@ -889,7 +889,7 @@
     {
       "id": "cloudflare/@cf/meta/llama-guard-3-8b",
       "name": "Llama-Guard-3-8B",
-      "category": "chat",
+      "category": "moderation",
       "modalities": [
         "text"
       ],
@@ -1651,7 +1651,7 @@
     {
       "id": "deepinfra/meta-llama/Llama-Guard-3-8B",
       "name": "Llama-Guard-3-8B",
-      "category": "chat",
+      "category": "moderation",
       "modalities": [
         "text"
       ],

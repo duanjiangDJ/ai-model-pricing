@@ -135,7 +135,7 @@
 | `meta-llama/llama-3.3-70b-instruct` | ✅ 在线 | chat | 按量 | 131.072K | $0.1 | $0.32 | — | — | —/— | — | models.dev official list price |
 | `meta-llama/llama-4-maverick` | ✅ 在线 | chat | 按量 | 1.04858M | $0.2 | $0.696 | — | — | —/— | — | models.dev official list price |
 | `meta-llama/llama-4-scout` | ✅ 在线 | chat | 按量 | 327.68K | $0.1 | $0.3 | — | — | —/— | — | models.dev official list price |
-| `meta-llama/llama-guard-4-12b` | ✅ 在线 | chat | 按量 | 163.84K | $0.18 | $0.18 | — | — | —/— | — | models.dev official list price |
+| `meta-llama/llama-guard-4-12b` | ✅ 在线 | moderation | 按量 | 163.84K | $0.18 | $0.18 | — | — | —/— | — | models.dev official list price |
 | `meta/muse-glimmer-30b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.3 | $1.1 | $0.04 | — | —/— | — | models.dev official list price |
 | `meta/muse-spark-1.1` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
 | `meta/muse-spark-1.2` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | models.dev official list price |
@@ -195,7 +195,7 @@
 | `nvidia/nemotron-3-super-120b-a12b:free` | ✅ 在线 | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-3-ultra-550b-a55b` | ✅ 在线 | reasoning | 按量 | 512.288K | $0.5 | $2.2 | $0.1 | — | —/— | — | models.dev official list price |
 | `nvidia/nemotron-3-ultra-550b-a55b:free` | ✅ 在线 | reasoning | 免费 | 1M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `nvidia/nemotron-3.5-content-safety:free` | ✅ 在线 | reasoning | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `nvidia/nemotron-3.5-content-safety:free` | ✅ 在线 | moderation | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-3.5-lightning` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.065 | $0.18 | $0.04 | — | —/— | — | models.dev official list price |
 | `nvidia/nemotron-3.5-lightning:free` | ✅ 在线 | reasoning | 免费 | 1M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `openai/gpt-3.5-turbo` | ✅ 在线 | chat | 按量 | 16.385K | $0.5 | $1.5 | — | — | —/— | — | models.dev official list price |
@@ -248,7 +248,7 @@
 | `openai/gpt-chat-latest` | ✅ 在线 | chat | 按量 | 400K | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-120b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.03 | $0.17 | $0.03 | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-20b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.02 | $0.1 | — | — | —/— | — | models.dev official list price |
-| `openai/gpt-oss-safeguard-20b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.075 | $0.3 | $0.0375 | — | —/— | — | models.dev official list price |
+| `openai/gpt-oss-safeguard-20b` | ✅ 在线 | moderation | 按量 | 131.072K | $0.075 | $0.3 | $0.0375 | — | —/— | — | models.dev official list price |
 | `openai/o1` | ✅ 在线 | reasoning | 按量 | 200K | $15 | $60 | $7.5 | — | —/— | — | models.dev official list price |
 | `openai/o1-pro` | ✅ 在线 | reasoning | 按量 | 200K | $150 | $600 | — | — | —/— | — | models.dev official list price |
 | `openai/o3` | ✅ 在线 | reasoning | 按量 | 200K | $2 | $8 | $0.5 | — | —/— | — | models.dev official list price |

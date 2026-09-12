@@ -24,7 +24,7 @@
 | `anthropic/claude-opus-4-7` | ✅ online | reasoning | per-token | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-sonnet-4-5` | ✅ online | reasoning | per-token | 200K | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
 | `anthropic/claude-sonnet-4-6` | ✅ online | reasoning | per-token | 1M | $3 | $15 | $0.3 | — | —/— | — | models.dev official list price |
-| `black-forest-labs/FLUX.2-klein-4B` | ✅ online | chat | per-token | 128K | $1 | $1 | — | — | —/— | — | models.dev official list price |
+| `black-forest-labs/FLUX.2-klein-4B` | ✅ online | image_gen | per-token | 128K | $1 | $1 | — | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-flash-lite` | ✅ online | reasoning | per-token | 1.04858M | $0.1 | $0.4 | $0.01 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-pro` | ✅ online | reasoning | per-token | 1.04858M | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |
@@ -48,5 +48,5 @@
 | `openai/o3` | ✅ online | reasoning | per-token | 200K | $2 | $8 | $0.5 | — | —/— | — | models.dev official list price |
 | `openai/o3-mini` | ✅ online | reasoning | per-token | 200K | $1.1 | $4.4 | $0.55 | — | —/— | — | models.dev official list price |
 | `openai/o4-mini` | ✅ online | reasoning | per-token | 200K | $1.1 | $4.4 | $0.275 | — | —/— | — | models.dev official list price |
-| `openai/whisper-large-v3` | ✅ online | chat | per-token | 448 | $0.01 | $0.01 | — | — | —/— | — | models.dev official list price |
+| `openai/whisper-large-v3` | ✅ online | audio_stt | per-token | 448 | $0.01 | $0.01 | — | — | —/— | — | models.dev official list price |
 | `zai-org/GLM-5.1-FP8` | ✅ online | reasoning | per-token | 202.752K | $1.4 | $4.4 | — | — | —/— | — | models.dev official list price |

@@ -44,7 +44,7 @@
     {
       "id": "baai/bge-m3",
       "name": "BGE M3",
-      "category": "chat",
+      "category": "embedding",
       "modalities": [
         "text"
       ],
@@ -75,7 +75,7 @@
     {
       "id": "black-forest-labs/flux.1-dev",
       "name": "FLUX.1-dev",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -106,7 +106,7 @@
     {
       "id": "black-forest-labs/flux_1-kontext-dev",
       "name": "FLUX.1-Kontext-dev",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -137,7 +137,7 @@
     {
       "id": "black-forest-labs/flux_1-schnell",
       "name": "FLUX.1-schnell",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -168,7 +168,7 @@
     {
       "id": "black-forest-labs/flux_2-klein-4b",
       "name": "FLUX.2 Klein 4B",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -884,7 +884,7 @@
     {
       "id": "meta/llama-guard-4-12b",
       "name": "Llama Guard 4 12B",
-      "category": "chat",
+      "category": "moderation",
       "modalities": [
         "text"
       ],
@@ -1783,7 +1783,7 @@
     {
       "id": "nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
       "name": "llama-3.1-nemotron-safety-guard-8b-v3",
-      "category": "chat",
+      "category": "moderation",
       "modalities": [
         "text"
       ],
@@ -2000,7 +2000,7 @@
     {
       "id": "nvidia/magpie-tts-zeroshot",
       "name": "magpie-tts-zeroshot",
-      "category": "chat",
+      "category": "audio_tts",
       "modalities": [
         "text"
       ],
@@ -2031,7 +2031,7 @@
     {
       "id": "nvidia/nemotron-3-content-safety",
       "name": "nemotron-3-content-safety",
-      "category": "chat",
+      "category": "moderation",
       "modalities": [
         "text"
       ],
@@ -2219,7 +2219,7 @@
     {
       "id": "nvidia/nemotron-content-safety-reasoning-4b",
       "name": "nemotron-content-safety-reasoning-4b",
-      "category": "reasoning",
+      "category": "moderation",
       "modalities": [
         "text"
       ],
@@ -2591,7 +2591,7 @@
     {
       "id": "nvidia/synthetic-video-detector",
       "name": "synthetic-video-detector",
-      "category": "chat",
+      "category": "moderation",
       "modalities": [
         "text"
       ],
@@ -2746,7 +2746,7 @@
     {
       "id": "openai/whisper-large-v3",
       "name": "Whisper Large v3",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],

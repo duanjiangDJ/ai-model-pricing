@@ -28,5 +28,5 @@
 | `grok-imagine-image` | ✅ online | chat | ? | 8K | — | — | — | — | —/— | — | models.dev official list price |
 | `grok-imagine-image-2.0` | ✅ online | chat | ? | 8K | — | — | — | — | —/— | — | models.dev official list price |
 | `grok-imagine-image-quality` | ✅ online | chat | ? | 8K | — | — | — | — | —/— | — | models.dev official list price |
-| `grok-imagine-video` | ✅ online | chat | ? | 1.024K | — | — | — | — | —/— | — | models.dev official list price |
-| `grok-imagine-video-1.5` | ✅ online | chat | ? | 1.024K | — | — | — | — | —/— | — | models.dev official list price |
+| `grok-imagine-video` | ✅ online | video_gen | ? | 1.024K | — | — | — | — | —/— | — | models.dev official list price |
+| `grok-imagine-video-1.5` | ✅ online | video_gen | ? | 1.024K | — | — | — | — | —/— | — | models.dev official list price |

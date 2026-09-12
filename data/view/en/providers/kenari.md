@@ -25,7 +25,7 @@
 | `gemini-2-5-flash` | ✅ online | reasoning | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gemini-2-5-flash-lite` | ✅ online | reasoning | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gemini-3-1-flash-lite` | ✅ online | reasoning | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `gemini-3-1-flash-tts` | ✅ online | chat | free | 8.192K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `gemini-3-1-flash-tts` | ✅ online | audio_tts | free | 8.192K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gemini-3-1-pro` | ✅ online | reasoning | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gemini-3-5-flash` | ✅ online | reasoning | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gemini-3-6-flash` | ✅ online | reasoning | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
@@ -71,4 +71,4 @@
 | `qwen3-8-max` | ✅ online | reasoning | free | 1M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `step-3-7-flash` | ✅ online | reasoning | free | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `step-3-7-flash:free` | ✅ online | reasoning | free | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `whisper-large-v3-turbo` | ✅ online | chat | free | 448 | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `whisper-large-v3-turbo` | ✅ online | audio_stt | free | 448 | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

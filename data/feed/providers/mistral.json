@@ -1001,7 +1001,7 @@
     {
       "id": "voxtral-mini-tts-latest",
       "name": "Voxtral Mini TTS (latest)",
-      "category": "chat",
+      "category": "audio_tts",
       "modalities": [
         "text"
       ],

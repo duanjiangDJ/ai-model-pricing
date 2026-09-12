@@ -45,6 +45,6 @@
 | `pixtral-12b` | ✅ online | chat | per-token | 128K | $0.15 | $0.15 | — | — | —/— | — | models.dev official list price |
 | `pixtral-large-latest` | ✅ online | chat | per-token | 128K | $2 | $6 | — | — | —/— | — | models.dev official list price |
 | `voxtral-mini-latest` | ✅ online | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
-| `voxtral-mini-tts-latest` | ✅ online | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
+| `voxtral-mini-tts-latest` | ✅ online | audio_tts | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
 | `voxtral-small-latest` | ✅ online | chat | per-token | 32K | $0.1 | $0.3 | — | — | —/— | — | models.dev official list price |
 | `zai-glm-5-2` | ✅ online | reasoning | per-token | 1M | $1.4 | $4.4 | $0.14 | — | —/— | — | models.dev official list price |

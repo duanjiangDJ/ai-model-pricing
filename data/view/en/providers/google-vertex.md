@@ -32,9 +32,9 @@
 | `gemini-2.5-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `gemini-2.5-flash-image` | ✅ online | chat | per-token | 32.768K | $0.3 | $30 | — | — | —/— | — | models.dev official list price |
 | `gemini-2.5-flash-lite` | ✅ online | reasoning | per-token | 1.04858M | $0.1 | $0.4 | $0.01 | — | —/— | — | models.dev official list price |
-| `gemini-2.5-flash-tts` | ✅ online | chat | per-token | 32.768K | $0.5 | $10 | — | — | —/— | — | models.dev official list price |
+| `gemini-2.5-flash-tts` | ✅ online | audio_tts | per-token | 32.768K | $0.5 | $10 | — | — | —/— | — | models.dev official list price |
 | `gemini-2.5-pro` | ✅ online | reasoning | per-token | 1.04858M | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |
-| `gemini-2.5-pro-tts` | ✅ online | chat | per-token | 32.768K | $1 | $20 | — | — | —/— | — | models.dev official list price |
+| `gemini-2.5-pro-tts` | ✅ online | audio_tts | per-token | 32.768K | $1 | $20 | — | — | —/— | — | models.dev official list price |
 | `gemini-3-flash-preview` | ✅ online | reasoning | per-token | 1.04858M | $0.5 | $3 | $0.05 | — | —/— | — | models.dev official list price |
 | `gemini-3-pro-image` | ✅ online | reasoning | per-token | 65.536K | $2 | $120 | $0.2 | — | —/— | — | models.dev official list price |
 | `gemini-3.1-flash-image` | ✅ online | reasoning | per-token | 131.072K | $0.5 | $60 | $0.05 | — | —/— | — | models.dev official list price |

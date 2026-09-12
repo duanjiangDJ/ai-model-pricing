@@ -2915,7 +2915,7 @@
     {
       "id": "openai.gpt-oss-safeguard-120b",
       "name": "GPT OSS Safeguard 120B",
-      "category": "chat",
+      "category": "moderation",
       "modalities": [
         "text"
       ],
@@ -2946,7 +2946,7 @@
     {
       "id": "openai.gpt-oss-safeguard-20b",
       "name": "GPT OSS Safeguard 20B",
-      "category": "chat",
+      "category": "moderation",
       "modalities": [
         "text"
       ],

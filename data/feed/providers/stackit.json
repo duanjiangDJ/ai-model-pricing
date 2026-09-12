@@ -168,7 +168,7 @@
     {
       "id": "intfloat/e5-mistral-7b-instruct",
       "name": "E5 Mistral 7B",
-      "category": "chat",
+      "category": "embedding",
       "modalities": [
         "text"
       ],

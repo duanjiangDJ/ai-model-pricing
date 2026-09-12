@@ -66,7 +66,7 @@
 | `gpt-5.6-terra` | ✅ 在线 | reasoning | 按量 | 1.05M | $2.2 | $13.199 | $0.219 | — | —/— | — | models.dev official list price |
 | `gpt-oss-120b` | ✅ 在线 | reasoning | 按量 | 131K | $0.089 | $0.446 | $0.01 | — | —/— | — | models.dev official list price |
 | `gpt-oss-20b` | ✅ 在线 | reasoning | 按量 | 131K | $0.045 | $0.167 | — | — | —/— | — | models.dev official list price |
-| `gpt-oss-safeguard-120b` | ✅ 在线 | reasoning | 按量 | 128K | $0.179 | $0.697 | — | — | —/— | — | models.dev official list price |
+| `gpt-oss-safeguard-120b` | ✅ 在线 | moderation | 按量 | 128K | $0.179 | $0.697 | — | — | —/— | — | models.dev official list price |
 | `hermes-4-405b` | ✅ 在线 | chat | 按量 | 128K | $0.996 | $2.989 | — | — | —/— | — | models.dev official list price |
 | `hermes-4-70b` | ✅ 在线 | chat | 按量 | 128K | $0.129 | $0.399 | — | — | —/— | — | models.dev official list price |
 | `kimi-k2.5` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.495 | $2.768 | $0.124 | — | —/— | — | models.dev official list price |
@@ -122,6 +122,6 @@
 | `qwen3.8-2.4t-a95b` | ✅ 在线 | reasoning | 按量 | 262.144K | $2.5 | $6 | $0.625 | — | —/— | — | models.dev official list price |
 | `qwen3.8-27b` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.1 | $0.4 | $0.04 | — | —/— | — | models.dev official list price |
 | `qwen3.8-flash-next` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.201 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
-| `qwen3guard-gen-0.6b` | ✅ 在线 | chat | 免费 | 32K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `qwen3guard-gen-8b` | ✅ 在线 | chat | 免费 | 32K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `qwen3guard-gen-0.6b` | ✅ 在线 | moderation | 免费 | 32K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `qwen3guard-gen-8b` | ✅ 在线 | moderation | 免费 | 32K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `voxtral-small-2507` | ✅ 在线 | chat | 按量 | 32K | $0.111 | $0.334 | $0.011 | — | —/— | — | models.dev official list price |

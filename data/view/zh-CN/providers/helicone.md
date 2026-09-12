@@ -78,9 +78,9 @@
 | `llama-3.3-70b-versatile` | ✅ 在线 | chat | 按量 | 131.072K | $0.59 | $0.79 | — | — | —/— | — | models.dev official list price |
 | `llama-4-maverick` | ✅ 在线 | chat | 按量 | 131.072K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
 | `llama-4-scout` | ✅ 在线 | chat | 按量 | 131.072K | $0.08 | $0.3 | — | — | —/— | — | models.dev official list price |
-| `llama-guard-4` | ✅ 在线 | chat | 按量 | 131.072K | $0.21 | $0.21 | — | — | —/— | — | models.dev official list price |
-| `llama-prompt-guard-2-22m` | ✅ 在线 | chat | 按量 | 512 | $0.01 | $0.01 | — | — | —/— | — | models.dev official list price |
-| `llama-prompt-guard-2-86m` | ✅ 在线 | chat | 按量 | 512 | $0.01 | $0.01 | — | — | —/— | — | models.dev official list price |
+| `llama-guard-4` | ✅ 在线 | moderation | 按量 | 131.072K | $0.21 | $0.21 | — | — | —/— | — | models.dev official list price |
+| `llama-prompt-guard-2-22m` | ✅ 在线 | moderation | 按量 | 512 | $0.01 | $0.01 | — | — | —/— | — | models.dev official list price |
+| `llama-prompt-guard-2-86m` | ✅ 在线 | moderation | 按量 | 512 | $0.01 | $0.01 | — | — | —/— | — | models.dev official list price |
 | `mistral-large-2411` | ✅ 在线 | chat | 按量 | 128K | $2 | $6 | — | — | —/— | — | models.dev official list price |
 | `mistral-nemo` | ✅ 在线 | chat | 按量 | 128K | $20 | $40 | — | — | —/— | — | models.dev official list price |
 | `mistral-small` | ✅ 在线 | chat | 按量 | 128K | $0.075 | $0.2 | — | — | —/— | — | models.dev official list price |

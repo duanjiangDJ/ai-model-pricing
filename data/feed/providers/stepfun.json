@@ -187,7 +187,7 @@
     {
       "id": "step-tts-2",
       "name": "Step TTS 2",
-      "category": "chat",
+      "category": "audio_tts",
       "modalities": [
         "text"
       ],
@@ -241,7 +241,7 @@
     {
       "id": "stepaudio-2.5-tts",
       "name": "StepAudio 2.5 TTS",
-      "category": "chat",
+      "category": "audio_tts",
       "modalities": [
         "text"
       ],

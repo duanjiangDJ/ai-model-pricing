@@ -14,11 +14,11 @@
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `abacusai/dracarys-llama-3.1-70b-instruct` | ✅ online | chat | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `baai/bge-m3` | ✅ online | chat | free | 8.192K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `black-forest-labs/flux.1-dev` | ✅ online | chat | free | 4.096K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `black-forest-labs/flux_1-kontext-dev` | ✅ online | chat | free | 40.96K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `black-forest-labs/flux_1-schnell` | ✅ online | chat | free | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). \| context_windo… |
-| `black-forest-labs/flux_2-klein-4b` | ✅ online | chat | free | 40.96K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `baai/bge-m3` | ✅ online | embedding | free | 8.192K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `black-forest-labs/flux.1-dev` | ✅ online | image_gen | free | 4.096K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `black-forest-labs/flux_1-kontext-dev` | ✅ online | image_gen | free | 40.96K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `black-forest-labs/flux_1-schnell` | ✅ online | image_gen | free | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). \| context_windo… |
+| `black-forest-labs/flux_2-klein-4b` | ✅ online | image_gen | free | 40.96K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `bytedance/seed-oss-36b-instruct` | ✅ online | chat | free | 262K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `deepseek-ai/deepseek-v4-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/deepseek-v4-flash-0731` | ✅ online | reasoning | free | 1M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
@@ -41,7 +41,7 @@
 | `meta/llama-3.2-90b-vision-instruct` | ✅ online | chat | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `meta/llama-3.3-70b-instruct` | ✅ online | chat | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `meta/llama-4-maverick-17b-128e-instruct` | ✅ online | chat | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `meta/llama-guard-4-12b` | ✅ online | chat | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `meta/llama-guard-4-12b` | ✅ online | moderation | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `meta/muse-glimmer-30b` | ✅ online | reasoning | free | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `microsoft/phi-4-mini-instruct` | ✅ online | chat | free | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `microsoft/phi-4-multimodal-instruct` | ✅ online | chat | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
@@ -70,21 +70,21 @@
 | `nvidia/llama-3.1-nemotron-70b-instruct` | ✅ online | chat | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/llama-3.1-nemotron-nano-8b-v1` | ✅ online | reasoning | free | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/llama-3.1-nemotron-nano-vl-8b-v1` | ✅ online | reasoning | free | 32.768K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `nvidia/llama-3.1-nemotron-safety-guard-8b-v3` | ✅ online | chat | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `nvidia/llama-3.1-nemotron-safety-guard-8b-v3` | ✅ online | moderation | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/llama-3.1-nemotron-ultra-253b-v1` | ✅ online | reasoning | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/llama-3.3-nemotron-super-49b-v1` | ✅ online | reasoning | free | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/llama-3.3-nemotron-super-49b-v1.5` | ✅ online | reasoning | free | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/llama-3_2-nemoretriever-300m-embed-v1` | ✅ online | embedding | free | 32.768K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/llama-nemotron-embed-vl-1b-v2` | ✅ online | embedding | free | 32.768K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/llama-nemotron-rerank-vl-1b-v2` | ✅ online | rerank | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `nvidia/magpie-tts-zeroshot` | ✅ online | chat | free | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `nvidia/nemotron-3-content-safety` | ✅ online | chat | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `nvidia/magpie-tts-zeroshot` | ✅ online | audio_tts | free | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `nvidia/nemotron-3-content-safety` | ✅ online | moderation | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-3-nano-30b-a3b` | ✅ online | reasoning | free | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning` | ✅ online | reasoning | free | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-3-super-120b-a12b` | ✅ online | reasoning | per-token | 262.144K | $0.2 | $0.8 | — | — | —/— | — | models.dev official list price |
 | `nvidia/nemotron-3-ultra-550b-a55b` | ✅ online | reasoning | per-token | 1M | $0.5 | $2.5 | $0.15 | — | —/— | — | models.dev official list price |
 | `nvidia/nemotron-3.5-lightning-30b-a3b` | ✅ online | reasoning | free | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `nvidia/nemotron-content-safety-reasoning-4b` | ✅ online | reasoning | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `nvidia/nemotron-content-safety-reasoning-4b` | ✅ online | moderation | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-mini-4b-instruct` | ✅ online | chat | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-nano-12b-v2-vl` | ✅ online | reasoning | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-voicechat` | ✅ online | chat | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
@@ -96,12 +96,12 @@
 | `nvidia/sparsedrive` | ✅ online | chat | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/streampetr` | ✅ online | chat | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/studiovoice` | ✅ online | chat | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `nvidia/synthetic-video-detector` | ✅ online | chat | free | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `nvidia/synthetic-video-detector` | ✅ online | moderation | free | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/usdcode` | ✅ online | chat | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/usdvalidate` | ✅ online | chat | free | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `openai/gpt-oss-120b` | ✅ online | reasoning | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `openai/gpt-oss-20b` | ✅ online | reasoning | free | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `openai/whisper-large-v3` | ✅ online | chat | free | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `openai/whisper-large-v3` | ✅ online | audio_stt | free | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `poolside/laguna-xs-2.1` | ✅ online | reasoning | free | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `qwen/qwen-image` | ✅ online | chat | free | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `qwen/qwen-image-edit` | ✅ online | chat | free | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

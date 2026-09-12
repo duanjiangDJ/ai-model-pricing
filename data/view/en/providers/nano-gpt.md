@@ -493,7 +493,7 @@
 | `openai/gpt-latest` | ✅ online | reasoning | per-token | 1.05M | $10 | $50 | $1 | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-120b` | ✅ online | reasoning | per-token | 128K | $0.35 | $0.75 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-20b` | ✅ online | reasoning | per-token | 128K | $0.2 | $0.3 | — | — | —/— | — | models.dev official list price |
-| `openai/gpt-oss-safeguard-20b` | ✅ online | reasoning | per-token | 128K | $0.075 | $0.3 | — | — | —/— | — | models.dev official list price |
+| `openai/gpt-oss-safeguard-20b` | ✅ online | moderation | per-token | 128K | $0.075 | $0.3 | — | — | —/— | — | models.dev official list price |
 | `openai/o1` | ✅ online | reasoning | per-token | 200K | $15 | $60 | $7.5 | — | —/— | — | models.dev official list price |
 | `openai/o1-preview` | ✅ online | reasoning | per-token | 128K | $15 | $60 | $7.5 | — | —/— | — | models.dev official list price |
 | `openai/o1-pro` | ✅ online | chat | per-token | 200K | $150 | $600 | $75 | — | —/— | — | models.dev official list price |

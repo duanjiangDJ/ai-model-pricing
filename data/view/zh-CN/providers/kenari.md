@@ -25,7 +25,7 @@
 | `gemini-2-5-flash` | ✅ 在线 | reasoning | 免费 | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gemini-2-5-flash-lite` | ✅ 在线 | reasoning | 免费 | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gemini-3-1-flash-lite` | ✅ 在线 | reasoning | 免费 | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `gemini-3-1-flash-tts` | ✅ 在线 | chat | 免费 | 8.192K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `gemini-3-1-flash-tts` | ✅ 在线 | audio_tts | 免费 | 8.192K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gemini-3-1-pro` | ✅ 在线 | reasoning | 免费 | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gemini-3-5-flash` | ✅ 在线 | reasoning | 免费 | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gemini-3-6-flash` | ✅ 在线 | reasoning | 免费 | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
@@ -71,4 +71,4 @@
 | `qwen3-8-max` | ✅ 在线 | reasoning | 免费 | 1M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `step-3-7-flash` | ✅ 在线 | reasoning | 免费 | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `step-3-7-flash:free` | ✅ 在线 | reasoning | 免费 | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `whisper-large-v3-turbo` | ✅ 在线 | chat | 免费 | 448 | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `whisper-large-v3-turbo` | ✅ 在线 | audio_stt | 免费 | 448 | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

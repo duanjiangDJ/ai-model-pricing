@@ -66,7 +66,7 @@
 | `gpt-5.6-terra` | ✅ online | reasoning | per-token | 1.05M | $2.2 | $13.199 | $0.219 | — | —/— | — | models.dev official list price |
 | `gpt-oss-120b` | ✅ online | reasoning | per-token | 131K | $0.089 | $0.446 | $0.01 | — | —/— | — | models.dev official list price |
 | `gpt-oss-20b` | ✅ online | reasoning | per-token | 131K | $0.045 | $0.167 | — | — | —/— | — | models.dev official list price |
-| `gpt-oss-safeguard-120b` | ✅ online | reasoning | per-token | 128K | $0.179 | $0.697 | — | — | —/— | — | models.dev official list price |
+| `gpt-oss-safeguard-120b` | ✅ online | moderation | per-token | 128K | $0.179 | $0.697 | — | — | —/— | — | models.dev official list price |
 | `hermes-4-405b` | ✅ online | chat | per-token | 128K | $0.996 | $2.989 | — | — | —/— | — | models.dev official list price |
 | `hermes-4-70b` | ✅ online | chat | per-token | 128K | $0.129 | $0.399 | — | — | —/— | — | models.dev official list price |
 | `kimi-k2.5` | ✅ online | reasoning | per-token | 262.144K | $0.495 | $2.768 | $0.124 | — | —/— | — | models.dev official list price |
@@ -122,6 +122,6 @@
 | `qwen3.8-2.4t-a95b` | ✅ online | reasoning | per-token | 262.144K | $2.5 | $6 | $0.625 | — | —/— | — | models.dev official list price |
 | `qwen3.8-27b` | ✅ online | reasoning | per-token | 262.144K | $0.1 | $0.4 | $0.04 | — | —/— | — | models.dev official list price |
 | `qwen3.8-flash-next` | ✅ online | reasoning | per-token | 262.144K | $0.201 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
-| `qwen3guard-gen-0.6b` | ✅ online | chat | free | 32K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `qwen3guard-gen-8b` | ✅ online | chat | free | 32K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `qwen3guard-gen-0.6b` | ✅ online | moderation | free | 32K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `qwen3guard-gen-8b` | ✅ online | moderation | free | 32K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `voxtral-small-2507` | ✅ online | chat | per-token | 32K | $0.111 | $0.334 | $0.011 | — | —/— | — | models.dev official list price |

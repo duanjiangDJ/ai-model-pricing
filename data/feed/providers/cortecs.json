@@ -1743,7 +1743,7 @@
     {
       "id": "gpt-oss-safeguard-120b",
       "name": "GPT OSS Safeguard 120B",
-      "category": "reasoning",
+      "category": "moderation",
       "modalities": [
         "text"
       ],
@@ -3518,7 +3518,7 @@
     {
       "id": "qwen3guard-gen-0.6b",
       "name": "qwen3guard-gen-0.6b",
-      "category": "chat",
+      "category": "moderation",
       "modalities": [
         "text"
       ],
@@ -3549,7 +3549,7 @@
     {
       "id": "qwen3guard-gen-8b",
       "name": "qwen3guard-gen-8b",
-      "category": "chat",
+      "category": "moderation",
       "modalities": [
         "text"
       ],

@@ -2118,7 +2118,7 @@
     {
       "id": "llama-guard-4",
       "name": "Meta Llama Guard 4 12B",
-      "category": "chat",
+      "category": "moderation",
       "modalities": [
         "text"
       ],
@@ -2149,7 +2149,7 @@
     {
       "id": "llama-prompt-guard-2-22m",
       "name": "Meta Llama Prompt Guard 2 22M",
-      "category": "chat",
+      "category": "moderation",
       "modalities": [
         "text"
       ],
@@ -2180,7 +2180,7 @@
     {
       "id": "llama-prompt-guard-2-86m",
       "name": "Meta Llama Prompt Guard 2 86M",
-      "category": "chat",
+      "category": "moderation",
       "modalities": [
         "text"
       ],

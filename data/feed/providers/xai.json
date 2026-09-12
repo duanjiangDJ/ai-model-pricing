@@ -473,7 +473,7 @@
     {
       "id": "grok-imagine-video",
       "name": "Grok Imagine Video",
-      "category": "chat",
+      "category": "video_gen",
       "modalities": [
         "text"
       ],
@@ -500,7 +500,7 @@
     {
       "id": "grok-imagine-video-1.5",
       "name": "Grok Imagine Video 1.5",
-      "category": "chat",
+      "category": "video_gen",
       "modalities": [
         "text"
       ],

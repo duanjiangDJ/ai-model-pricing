@@ -493,7 +493,7 @@
 | `openai/gpt-latest` | ✅ 在线 | reasoning | 按量 | 1.05M | $10 | $50 | $1 | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-120b` | ✅ 在线 | reasoning | 按量 | 128K | $0.35 | $0.75 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-20b` | ✅ 在线 | reasoning | 按量 | 128K | $0.2 | $0.3 | — | — | —/— | — | models.dev official list price |
-| `openai/gpt-oss-safeguard-20b` | ✅ 在线 | reasoning | 按量 | 128K | $0.075 | $0.3 | — | — | —/— | — | models.dev official list price |
+| `openai/gpt-oss-safeguard-20b` | ✅ 在线 | moderation | 按量 | 128K | $0.075 | $0.3 | — | — | —/— | — | models.dev official list price |
 | `openai/o1` | ✅ 在线 | reasoning | 按量 | 200K | $15 | $60 | $7.5 | — | —/— | — | models.dev official list price |
 | `openai/o1-preview` | ✅ 在线 | reasoning | 按量 | 128K | $15 | $60 | $7.5 | — | —/— | — | models.dev official list price |
 | `openai/o1-pro` | ✅ 在线 | chat | 按量 | 200K | $150 | $600 | $75 | — | —/— | — | models.dev official list price |

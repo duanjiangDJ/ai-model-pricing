@@ -18,6 +18,6 @@
 | `Qwen/Qwen3.6-27B` | ✅ 在线 | chat | 按量 | 262.144K | $0.53 | $0.76 | — | — | —/— | — | models.dev official list price |
 | `cortecs/Llama-3.3-70B-Instruct-FP8-Dynamic` | ✅ 在线 | chat | 按量 | 128K | $0.53 | $0.76 | — | — | —/— | — | models.dev official list price |
 | `google/gemma-3-27b-it` | ✅ 在线 | chat | 按量 | 37K | $0.53 | $0.76 | — | — | —/— | — | models.dev official list price |
-| `intfloat/e5-mistral-7b-instruct` | ✅ 在线 | chat | 按量 | 4.096K | $0.02 | $0.02 | — | — | —/— | — | models.dev official list price |
+| `intfloat/e5-mistral-7b-instruct` | ✅ 在线 | embedding | 按量 | 4.096K | $0.02 | $0.02 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-120b` | ✅ 在线 | reasoning | 按量 | 131K | $0.53 | $0.76 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-20b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.18 | $0.29 | — | — | —/— | — | models.dev official list price |

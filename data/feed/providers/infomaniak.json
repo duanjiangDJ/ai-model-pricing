@@ -75,7 +75,7 @@
     {
       "id": "bge_multilingual_gemma2",
       "name": "BGE Multilingual Gemma2",
-      "category": "chat",
+      "category": "embedding",
       "modalities": [
         "text"
       ],
@@ -137,7 +137,7 @@
     {
       "id": "mini_lm_l12_v2",
       "name": "All-MiniLM-L12-v2",
-      "category": "chat",
+      "category": "embedding",
       "modalities": [
         "text"
       ],

@@ -250,9 +250,9 @@
 | `gpt-4o` | ✅ online | chat | per-token | 128K | $2.5 | $10 | $1.25 | — | —/— | — | models.dev official list price |
 | `gpt-4o-mini` | ✅ online | chat | per-token | 128K | $0.15 | $0.6 | $0.075 | — | —/— | — | models.dev official list price |
 | `gpt-4o-mini-search-preview` | ✅ online | chat | per-token | 128K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
-| `gpt-4o-mini-transcribe` | ✅ online | chat | per-token | 16K | $1.25 | $5 | — | — | —/— | — | models.dev official list price |
+| `gpt-4o-mini-transcribe` | ✅ online | audio_stt | per-token | 16K | $1.25 | $5 | — | — | —/— | — | models.dev official list price |
 | `gpt-4o-search-preview` | ✅ online | chat | per-token | 128K | $2.5 | $10 | — | — | —/— | — | models.dev official list price |
-| `gpt-4o-transcribe` | ✅ online | chat | per-token | 16K | $2.5 | $10 | — | — | —/— | — | models.dev official list price |
+| `gpt-4o-transcribe` | ✅ online | audio_stt | per-token | 16K | $2.5 | $10 | — | — | —/— | — | models.dev official list price |
 | `gpt-5` | ✅ online | reasoning | per-token | 400K | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |
 | `gpt-5-mini` | ✅ online | reasoning | per-token | 400K | $0.25 | $2 | $0.025 | — | —/— | — | models.dev official list price |
 | `gpt-5-nano` | ✅ online | reasoning | per-token | 400K | $0.05 | $0.4 | $0.005 | — | —/— | — | models.dev official list price |
@@ -440,9 +440,9 @@
 | `openai/gpt-4o` | ✅ online | chat | per-token | 128K | $2.5 | $10 | $1.25 | — | —/— | — | models.dev official list price |
 | `openai/gpt-4o-mini` | ✅ online | chat | per-token | 128K | $0.15 | $0.6 | $0.075 | — | —/— | — | models.dev official list price |
 | `openai/gpt-4o-mini-search-preview` | ✅ online | chat | per-token | 128K | $0.15 | $0.6 | — | — | —/— | — | models.dev official list price |
-| `openai/gpt-4o-mini-transcribe` | ✅ online | chat | per-token | 16K | $1.25 | $5 | — | — | —/— | — | models.dev official list price |
+| `openai/gpt-4o-mini-transcribe` | ✅ online | audio_stt | per-token | 16K | $1.25 | $5 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-4o-search-preview` | ✅ online | chat | per-token | 128K | $2.5 | $10 | — | — | —/— | — | models.dev official list price |
-| `openai/gpt-4o-transcribe` | ✅ online | chat | per-token | 16K | $2.5 | $10 | — | — | —/— | — | models.dev official list price |
+| `openai/gpt-4o-transcribe` | ✅ online | audio_stt | per-token | 16K | $2.5 | $10 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-5` | ✅ online | reasoning | per-token | 400K | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5-mini` | ✅ online | reasoning | per-token | 400K | $0.25 | $2 | $0.025 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5-nano` | ✅ online | reasoning | per-token | 400K | $0.05 | $0.4 | $0.005 | — | —/— | — | models.dev official list price |

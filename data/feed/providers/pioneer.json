@@ -1102,7 +1102,7 @@
     {
       "id": "fastino/gliguard-LLMGuardrails-300M",
       "name": "GLiGuard LLM Guardrails 300M",
-      "category": "chat",
+      "category": "moderation",
       "modalities": [
         "text"
       ],

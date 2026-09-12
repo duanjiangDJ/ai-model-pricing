@@ -40,7 +40,7 @@
 | `cloudflare/@cf/aisingapore/gemma-sea-lion-v4-27b-it` | ✅ 在线 | chat | 按量 | 128K | $0.351 | $0.555 | — | — | —/— | — | models.dev official list price |
 | `cloudflare/@cf/deepseek-ai/deepseek-v4-flash-0731` | ✅ 在线 | reasoning | 按量 | 1.31072M | $0.44 | $1.32 | $0.014 | — | —/— | — | models.dev official list price |
 | `cloudflare/@cf/deepseek-ai/deepseek-v4-pro-0813` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.32 | $3.96 | $0.044 | — | —/— | — | models.dev official list price |
-| `cloudflare/@cf/meta/llama-guard-3-8b` | ✅ 在线 | chat | 按量 | 131.072K | $0.484 | $0.03 | — | — | —/— | — | models.dev official list price |
+| `cloudflare/@cf/meta/llama-guard-3-8b` | ✅ 在线 | moderation | 按量 | 131.072K | $0.484 | $0.03 | — | — | —/— | — | models.dev official list price |
 | `cloudflare/@cf/openai/gpt-oss-120b` | ✅ 在线 | reasoning | 按量 | 128K | $0.35 | $0.75 | — | — | —/— | — | models.dev official list price |
 | `cloudflare/@cf/openai/gpt-oss-20b` | ✅ 在线 | reasoning | 按量 | 128K | $0.2 | $0.3 | — | — | —/— | — | models.dev official list price |
 | `cloudflare/@cf/qwen/qwen2.5-coder-32b-instruct` | ✅ 在线 | chat | 按量 | 32.768K | $0.66 | $1 | — | — | —/— | — | models.dev official list price |
@@ -64,7 +64,7 @@
 | `deepinfra/deepseek-ai/DeepSeek-V4-Pro-0813` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.3 | $2.6 | $0.1 | — | —/— | — | models.dev official list price |
 | `deepinfra/meta-llama/Llama-3.2-11B-Vision-Instruct` | ✅ 在线 | chat | 按量 | 131.072K | $0.345 | $0.345 | — | — | —/— | — | models.dev official list price |
 | `deepinfra/meta-llama/Llama-3.3-70B-Instruct` | ✅ 在线 | chat | 按量 | 131.072K | $0.1 | $0.32 | — | — | —/— | — | models.dev official list price |
-| `deepinfra/meta-llama/Llama-Guard-3-8B` | ✅ 在线 | chat | 按量 | 131.072K | $0.055 | $0.055 | — | — | —/— | — | models.dev official list price |
+| `deepinfra/meta-llama/Llama-Guard-3-8B` | ✅ 在线 | moderation | 按量 | 131.072K | $0.055 | $0.055 | — | — | —/— | — | models.dev official list price |
 | `deepinfra/meta-models/Muse-Glimmer-30B` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.3 | $1.2 | $0.04 | — | —/— | — | models.dev official list price |
 | `deepinfra/moonshotai/Kimi-K2.5` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.45 | $2.25 | $0.07 | — | —/— | — | models.dev official list price |
 | `deepinfra/nemotron-3-ultra-550b-a55b` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.5 | $2.2 | $0.1 | — | —/— | — | models.dev official list price |

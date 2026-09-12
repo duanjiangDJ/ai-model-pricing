@@ -137,7 +137,7 @@
     {
       "id": "faster-whisper-large-v3",
       "name": "Faster Whisper Large v3",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],

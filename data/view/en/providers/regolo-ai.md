@@ -17,7 +17,7 @@
 | `brick-complexity-pro` | ✅ online | chat | per-token | 100K | $0.12 | $0.46 | — | — | —/— | — | models.dev official list price |
 | `brick-v1-beta` | ✅ online | chat | free | 100K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `deepseek-ocr-2` | ✅ online | chat | free | 4K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `faster-whisper-large-v3` | ✅ online | chat | free | 448 | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `faster-whisper-large-v3` | ✅ online | audio_stt | free | 448 | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gemma4-31b` | ✅ online | reasoning | per-token | 100K | $0.46 | $2.42 | — | — | —/— | — | models.dev official list price |
 | `glm5.2` | ✅ online | reasoning | per-token | 96K | $2.31 | $6 | — | — | —/— | — | models.dev official list price |
 | `gpt-oss-120b` | ✅ online | reasoning | per-token | 128K | $1 | $4.2 | — | — | —/— | — | models.dev official list price |

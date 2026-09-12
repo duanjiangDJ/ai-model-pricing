@@ -1305,7 +1305,7 @@
     {
       "id": "alibaba/wan-v3.0-video",
       "name": "Wan v3.0 Video",
-      "category": "chat",
+      "category": "video_gen",
       "modalities": [
         "text"
       ],
@@ -1332,7 +1332,7 @@
     {
       "id": "alibaba/wan-v3.0-video-prime",
       "name": "Wan v3.0 Video Prime",
-      "category": "chat",
+      "category": "video_gen",
       "modalities": [
         "text"
       ],
@@ -2106,7 +2106,7 @@
     {
       "id": "bfl/flux-2-flex",
       "name": "FLUX.2 [flex]",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -2133,7 +2133,7 @@
     {
       "id": "bfl/flux-2-klein-4b",
       "name": "FLUX.2 [klein] 4B",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -2160,7 +2160,7 @@
     {
       "id": "bfl/flux-2-klein-9b",
       "name": "FLUX.2 [klein] 9B",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -2187,7 +2187,7 @@
     {
       "id": "bfl/flux-2-max",
       "name": "FLUX.2 [max]",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -2214,7 +2214,7 @@
     {
       "id": "bfl/flux-2-pro",
       "name": "FLUX.2 [pro]",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -2241,7 +2241,7 @@
     {
       "id": "bfl/flux-3-video",
       "name": "Flux 3",
-      "category": "chat",
+      "category": "video_gen",
       "modalities": [
         "text"
       ],
@@ -2268,7 +2268,7 @@
     {
       "id": "bfl/flux-kontext-max",
       "name": "FLUX.1 Kontext Max",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -2295,7 +2295,7 @@
     {
       "id": "bfl/flux-kontext-pro",
       "name": "FLUX.1 Kontext Pro",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -2322,7 +2322,7 @@
     {
       "id": "bfl/flux-pro-1.0-fill",
       "name": "FLUX.1 Fill [pro]",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -2349,7 +2349,7 @@
     {
       "id": "bfl/flux-pro-1.1",
       "name": "FLUX1.1 [pro]",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -2376,7 +2376,7 @@
     {
       "id": "bfl/flux-pro-1.1-ultra",
       "name": "FLUX1.1 [pro] Ultra",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -3426,7 +3426,7 @@
     {
       "id": "fish-audio/transcribe-1",
       "name": "Transcribe-1",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],
@@ -3453,7 +3453,7 @@
     {
       "id": "fish-audio/transcribe-1-free",
       "name": "Transcribe-1 (Free)",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],
@@ -3909,7 +3909,7 @@
     {
       "id": "google/gemini-3.5-transcribe",
       "name": "Gemini 3.5 Transcribe",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],
@@ -3940,7 +3940,7 @@
     {
       "id": "google/gemini-3.5-transcribe-live",
       "name": "Gemini 3.5 Transcribe Live",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],
@@ -7123,7 +7123,7 @@
     {
       "id": "openai/gpt-4o-mini-transcribe",
       "name": "GPT-4o mini Transcribe",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],
@@ -7154,7 +7154,7 @@
     {
       "id": "openai/gpt-4o-transcribe",
       "name": "GPT-4o Transcribe",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],
@@ -8460,7 +8460,7 @@
     {
       "id": "openai/gpt-oss-safeguard-120b",
       "name": "GPT OSS Safeguard 120B",
-      "category": "reasoning",
+      "category": "moderation",
       "modalities": [
         "text"
       ],
@@ -8491,7 +8491,7 @@
     {
       "id": "openai/gpt-oss-safeguard-20b",
       "name": "gpt-oss-safeguard-20b",
-      "category": "reasoning",
+      "category": "moderation",
       "modalities": [
         "text"
       ],
@@ -8656,7 +8656,7 @@
     {
       "id": "openai/gpt-realtime-whisper",
       "name": "gpt-realtime-whisper",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],
@@ -9026,7 +9026,7 @@
     {
       "id": "openai/tts-1",
       "name": "TTS-1",
-      "category": "chat",
+      "category": "audio_tts",
       "modalities": [
         "text"
       ],
@@ -9053,7 +9053,7 @@
     {
       "id": "openai/tts-1-hd",
       "name": "TTS-1 HD",
-      "category": "chat",
+      "category": "audio_tts",
       "modalities": [
         "text"
       ],
@@ -9080,7 +9080,7 @@
     {
       "id": "openai/whisper-1",
       "name": "Whisper",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],
@@ -9306,7 +9306,7 @@
     {
       "id": "prodia/flux-fast-schnell",
       "name": "Flux Schnell",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -10092,7 +10092,7 @@
     {
       "id": "spacexai/grok-imagine-video",
       "name": "Grok Imagine",
-      "category": "chat",
+      "category": "video_gen",
       "modalities": [
         "text"
       ],
@@ -10119,7 +10119,7 @@
     {
       "id": "spacexai/grok-imagine-video-1.5",
       "name": "Grok Imagine Video 1.5",
-      "category": "chat",
+      "category": "video_gen",
       "modalities": [
         "text"
       ],
@@ -10146,7 +10146,7 @@
     {
       "id": "spacexai/grok-imagine-video-1.5-preview",
       "name": "Grok Imagine Video 1.5 Preview",
-      "category": "chat",
+      "category": "video_gen",
       "modalities": [
         "text"
       ],
@@ -10200,7 +10200,7 @@
     {
       "id": "spacexai/grok-tts",
       "name": "Grok TTS",
-      "category": "chat",
+      "category": "audio_tts",
       "modalities": [
         "text"
       ],

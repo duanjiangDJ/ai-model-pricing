@@ -14,11 +14,11 @@
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `abacusai/dracarys-llama-3.1-70b-instruct` | ✅ 在线 | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `baai/bge-m3` | ✅ 在线 | chat | 免费 | 8.192K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `black-forest-labs/flux.1-dev` | ✅ 在线 | chat | 免费 | 4.096K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `black-forest-labs/flux_1-kontext-dev` | ✅ 在线 | chat | 免费 | 40.96K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `black-forest-labs/flux_1-schnell` | ✅ 在线 | chat | 免费 | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). \| context_windo… |
-| `black-forest-labs/flux_2-klein-4b` | ✅ 在线 | chat | 免费 | 40.96K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `baai/bge-m3` | ✅ 在线 | embedding | 免费 | 8.192K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `black-forest-labs/flux.1-dev` | ✅ 在线 | image_gen | 免费 | 4.096K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `black-forest-labs/flux_1-kontext-dev` | ✅ 在线 | image_gen | 免费 | 40.96K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `black-forest-labs/flux_1-schnell` | ✅ 在线 | image_gen | 免费 | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). \| context_windo… |
+| `black-forest-labs/flux_2-klein-4b` | ✅ 在线 | image_gen | 免费 | 40.96K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `bytedance/seed-oss-36b-instruct` | ✅ 在线 | chat | 免费 | 262K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `deepseek-ai/deepseek-v4-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/deepseek-v4-flash-0731` | ✅ 在线 | reasoning | 免费 | 1M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
@@ -41,7 +41,7 @@
 | `meta/llama-3.2-90b-vision-instruct` | ✅ 在线 | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `meta/llama-3.3-70b-instruct` | ✅ 在线 | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `meta/llama-4-maverick-17b-128e-instruct` | ✅ 在线 | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `meta/llama-guard-4-12b` | ✅ 在线 | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `meta/llama-guard-4-12b` | ✅ 在线 | moderation | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `meta/muse-glimmer-30b` | ✅ 在线 | reasoning | 免费 | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `microsoft/phi-4-mini-instruct` | ✅ 在线 | chat | 免费 | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `microsoft/phi-4-multimodal-instruct` | ✅ 在线 | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
@@ -70,21 +70,21 @@
 | `nvidia/llama-3.1-nemotron-70b-instruct` | ✅ 在线 | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/llama-3.1-nemotron-nano-8b-v1` | ✅ 在线 | reasoning | 免费 | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/llama-3.1-nemotron-nano-vl-8b-v1` | ✅ 在线 | reasoning | 免费 | 32.768K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `nvidia/llama-3.1-nemotron-safety-guard-8b-v3` | ✅ 在线 | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `nvidia/llama-3.1-nemotron-safety-guard-8b-v3` | ✅ 在线 | moderation | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/llama-3.1-nemotron-ultra-253b-v1` | ✅ 在线 | reasoning | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/llama-3.3-nemotron-super-49b-v1` | ✅ 在线 | reasoning | 免费 | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/llama-3.3-nemotron-super-49b-v1.5` | ✅ 在线 | reasoning | 免费 | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/llama-3_2-nemoretriever-300m-embed-v1` | ✅ 在线 | embedding | 免费 | 32.768K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/llama-nemotron-embed-vl-1b-v2` | ✅ 在线 | embedding | 免费 | 32.768K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/llama-nemotron-rerank-vl-1b-v2` | ✅ 在线 | rerank | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `nvidia/magpie-tts-zeroshot` | ✅ 在线 | chat | 免费 | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `nvidia/nemotron-3-content-safety` | ✅ 在线 | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `nvidia/magpie-tts-zeroshot` | ✅ 在线 | audio_tts | 免费 | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `nvidia/nemotron-3-content-safety` | ✅ 在线 | moderation | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-3-nano-30b-a3b` | ✅ 在线 | reasoning | 免费 | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning` | ✅ 在线 | reasoning | 免费 | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-3-super-120b-a12b` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.2 | $0.8 | — | — | —/— | — | models.dev official list price |
 | `nvidia/nemotron-3-ultra-550b-a55b` | ✅ 在线 | reasoning | 按量 | 1M | $0.5 | $2.5 | $0.15 | — | —/— | — | models.dev official list price |
 | `nvidia/nemotron-3.5-lightning-30b-a3b` | ✅ 在线 | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `nvidia/nemotron-content-safety-reasoning-4b` | ✅ 在线 | reasoning | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `nvidia/nemotron-content-safety-reasoning-4b` | ✅ 在线 | moderation | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-mini-4b-instruct` | ✅ 在线 | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-nano-12b-v2-vl` | ✅ 在线 | reasoning | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-voicechat` | ✅ 在线 | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
@@ -96,12 +96,12 @@
 | `nvidia/sparsedrive` | ✅ 在线 | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/streampetr` | ✅ 在线 | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/studiovoice` | ✅ 在线 | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `nvidia/synthetic-video-detector` | ✅ 在线 | chat | 免费 | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `nvidia/synthetic-video-detector` | ✅ 在线 | moderation | 免费 | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/usdcode` | ✅ 在线 | chat | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/usdvalidate` | ✅ 在线 | chat | 免费 | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `openai/gpt-oss-120b` | ✅ 在线 | reasoning | 免费 | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `openai/gpt-oss-20b` | ✅ 在线 | reasoning | 免费 | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `openai/whisper-large-v3` | ✅ 在线 | chat | 免费 | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `openai/whisper-large-v3` | ✅ 在线 | audio_stt | 免费 | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `poolside/laguna-xs-2.1` | ✅ 在线 | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `qwen/qwen-image` | ✅ 在线 | chat | 免费 | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `qwen/qwen-image-edit` | ✅ 在线 | chat | 免费 | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

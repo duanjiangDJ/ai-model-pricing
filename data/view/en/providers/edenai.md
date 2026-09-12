@@ -40,7 +40,7 @@
 | `cloudflare/@cf/aisingapore/gemma-sea-lion-v4-27b-it` | ✅ online | chat | per-token | 128K | $0.351 | $0.555 | — | — | —/— | — | models.dev official list price |
 | `cloudflare/@cf/deepseek-ai/deepseek-v4-flash-0731` | ✅ online | reasoning | per-token | 1.31072M | $0.44 | $1.32 | $0.014 | — | —/— | — | models.dev official list price |
 | `cloudflare/@cf/deepseek-ai/deepseek-v4-pro-0813` | ✅ online | reasoning | per-token | 1.04858M | $1.32 | $3.96 | $0.044 | — | —/— | — | models.dev official list price |
-| `cloudflare/@cf/meta/llama-guard-3-8b` | ✅ online | chat | per-token | 131.072K | $0.484 | $0.03 | — | — | —/— | — | models.dev official list price |
+| `cloudflare/@cf/meta/llama-guard-3-8b` | ✅ online | moderation | per-token | 131.072K | $0.484 | $0.03 | — | — | —/— | — | models.dev official list price |
 | `cloudflare/@cf/openai/gpt-oss-120b` | ✅ online | reasoning | per-token | 128K | $0.35 | $0.75 | — | — | —/— | — | models.dev official list price |
 | `cloudflare/@cf/openai/gpt-oss-20b` | ✅ online | reasoning | per-token | 128K | $0.2 | $0.3 | — | — | —/— | — | models.dev official list price |
 | `cloudflare/@cf/qwen/qwen2.5-coder-32b-instruct` | ✅ online | chat | per-token | 32.768K | $0.66 | $1 | — | — | —/— | — | models.dev official list price |
@@ -64,7 +64,7 @@
 | `deepinfra/deepseek-ai/DeepSeek-V4-Pro-0813` | ✅ online | reasoning | per-token | 1.04858M | $1.3 | $2.6 | $0.1 | — | —/— | — | models.dev official list price |
 | `deepinfra/meta-llama/Llama-3.2-11B-Vision-Instruct` | ✅ online | chat | per-token | 131.072K | $0.345 | $0.345 | — | — | —/— | — | models.dev official list price |
 | `deepinfra/meta-llama/Llama-3.3-70B-Instruct` | ✅ online | chat | per-token | 131.072K | $0.1 | $0.32 | — | — | —/— | — | models.dev official list price |
-| `deepinfra/meta-llama/Llama-Guard-3-8B` | ✅ online | chat | per-token | 131.072K | $0.055 | $0.055 | — | — | —/— | — | models.dev official list price |
+| `deepinfra/meta-llama/Llama-Guard-3-8B` | ✅ online | moderation | per-token | 131.072K | $0.055 | $0.055 | — | — | —/— | — | models.dev official list price |
 | `deepinfra/meta-models/Muse-Glimmer-30B` | ✅ online | reasoning | per-token | 131.072K | $0.3 | $1.2 | $0.04 | — | —/— | — | models.dev official list price |
 | `deepinfra/moonshotai/Kimi-K2.5` | ✅ online | reasoning | per-token | 262.144K | $0.45 | $2.25 | $0.07 | — | —/— | — | models.dev official list price |
 | `deepinfra/nemotron-3-ultra-550b-a55b` | ✅ online | reasoning | per-token | 262.144K | $0.5 | $2.2 | $0.1 | — | —/— | — | models.dev official list price |

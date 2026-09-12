@@ -17,6 +17,7 @@ import sys
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')))
 from common import (  # noqa: E402
+    category_signature_hint,
     PROVIDERS, SCHEMA_VERSION, append_changelog, fetch_json, load_index, load_manifest,
     now_iso, save_index, save_manifest, write_json,
 )
@@ -43,13 +44,26 @@ def infer_channel(pid, name, api):
 
 
 def infer_category(mid, m):
+    """Infer the model `category`.
+
+    First the shared unambiguous id markers (toolbox.category_signature_hint), then
+    models.dev's `modalities.output` -- only an OUTPUT generator modality distinguishes a
+    generator from a chat model (a model that ACCEPTS images is still chat). Previously
+    everything that was not embedding/rerank/reasoning fell through to "chat".
+    """
+    hint = category_signature_hint(mid)
+    if hint:
+        return hint
+    mods = m.get("modalities") or {}
+    out = [str(x).lower() for x in (mods.get("output") or [])] if isinstance(mods, dict) else []
+    if any("video" in x for x in out):
+        return "video_gen"
+    if any("audio" in x for x in out):
+        return "audio_tts"
+    if any("image" in x for x in out):
+        return "image_gen"
     if m.get("reasoning"):
         return "reasoning"
-    low = mid.lower()
-    if "embed" in low:
-        return "embedding"
-    if "rerank" in low or "rank" in low:
-        return "rerank"
     return "chat"
 
 

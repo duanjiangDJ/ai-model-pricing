@@ -112,7 +112,7 @@
     {
       "id": "mimo-v2-tts",
       "name": "MiMo-V2-TTS",
-      "category": "chat",
+      "category": "audio_tts",
       "modalities": [
         "text"
       ],
@@ -238,7 +238,7 @@
     {
       "id": "mimo-v2.5-tts",
       "name": "MiMo-V2.5-TTS",
-      "category": "chat",
+      "category": "audio_tts",
       "modalities": [
         "text"
       ],
@@ -265,7 +265,7 @@
     {
       "id": "mimo-v2.5-tts-voiceclone",
       "name": "MiMo-V2.5-TTS-VoiceClone",
-      "category": "chat",
+      "category": "audio_tts",
       "modalities": [
         "text"
       ],
@@ -292,7 +292,7 @@
     {
       "id": "mimo-v2.5-tts-voicedesign",
       "name": "MiMo-V2.5-TTS-VoiceDesign",
-      "category": "chat",
+      "category": "audio_tts",
       "modalities": [
         "text"
       ],

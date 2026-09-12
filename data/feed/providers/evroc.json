@@ -13,7 +13,7 @@
     {
       "id": "KBLab/kb-whisper-large",
       "name": "KB Whisper",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],
@@ -261,7 +261,7 @@
     {
       "id": "intfloat/multilingual-e5-large-instruct",
       "name": "E5 Multi-Lingual Large Embeddings 0.6B",
-      "category": "chat",
+      "category": "embedding",
       "modalities": [
         "text"
       ],
@@ -447,7 +447,7 @@
     {
       "id": "openai/whisper-large-v3",
       "name": "Whisper 3 Large",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],
@@ -478,7 +478,7 @@
     {
       "id": "openai/whisper-large-v3-turbo",
       "name": "Whisper Large v3 Turbo",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],

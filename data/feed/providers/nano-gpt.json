@@ -15783,7 +15783,7 @@
     {
       "id": "openai/gpt-oss-safeguard-20b",
       "name": "GPT OSS Safeguard 20B",
-      "category": "reasoning",
+      "category": "moderation",
       "modalities": [
         "text"
       ],

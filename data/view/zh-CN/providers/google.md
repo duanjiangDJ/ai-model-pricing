@@ -20,9 +20,9 @@
 | `gemini-2.5-flash` | ✅ 在线 | chat | 按量 | 1.04858M | $0.3 | $2.5 | $0.03 | — | $0.15/$1.25 | — | Input $0.30 text/image/video, $1.00 audio; cache $0.03 text/image/video, $0.1… |
 | `gemini-2.5-flash-image` | ✅ 在线 | reasoning | 按量 | 32.768K | $0.3 | $30 | $0.075 | — | —/— | — | models.dev official list price |
 | `gemini-2.5-flash-lite` | ✅ 在线 | chat | 按量 | 1.04858M | $0.1 | $0.4 | $0.01 | — | $0.05/$0.2 | — | Input $0.10 text/image/video, $0.30 audio; cache $0.01 text/image/video, $0.0… |
-| `gemini-2.5-flash-preview-tts` | ✅ 在线 | chat | 按量 | 8.192K | $0.5 | $10 | — | — | $0.25/$5 | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
+| `gemini-2.5-flash-preview-tts` | ✅ 在线 | audio_tts | 按量 | 8.192K | $0.5 | $10 | — | — | $0.25/$5 | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
 | `gemini-2.5-pro` | ✅ 在线 | chat | 按量 | 1.04858M | $1.25 | $10 | $0.125 | — | $0.625/$5 | — | Two-tier pricing at 200k prompt tokens. <=200k: input $1.25 / output $10.00 /… |
-| `gemini-2.5-pro-preview-tts` | ✅ 在线 | chat | 按量 | 8.192K | $1 | $20 | — | — | $0.5/$10 | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
+| `gemini-2.5-pro-preview-tts` | ✅ 在线 | audio_tts | 按量 | 8.192K | $1 | $20 | — | — | $0.5/$10 | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
 | `gemini-3-flash-preview` | ❌ 下线 | chat | 按量 | 1.04858M | $0.5 | $3 | $0.05 | — | $0.25/$1.5 | — | Preview model. Input $0.50 text/image/video, $1.00 audio; cache $0.05 text/im… |
 | `gemini-3-pro-image` | ✅ 在线 | reasoning | 按量 | 131.072K | $2 | $120 | — | — | —/— | — | models.dev official list price |
 | `gemini-3-pro-image-preview` | ✅ 在线 | reasoning | 按量 | 131.072K | $2 | $120 | — | — | —/— | — | models.dev official list price |
@@ -32,7 +32,7 @@
 | `gemini-3.1-flash-lite-image` | ✅ 在线 | reasoning | 按量 | 65.536K | $0.25 | $30 | — | — | —/— | — | models.dev official list price |
 | `gemini-3.1-flash-lite-preview` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |
 | `gemini-3.1-flash-live-preview` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.75 | $4.5 | — | — | —/— | — | models.dev official list price |
-| `gemini-3.1-flash-tts-preview` | ✅ 在线 | reasoning | 按量 | 8.192K | $1 | $20 | — | — | $0.5/$10 | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
+| `gemini-3.1-flash-tts-preview` | ✅ 在线 | audio_tts | 按量 | 8.192K | $1 | $20 | — | — | $0.5/$10 | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
 | `gemini-3.1-pro-preview` | ✅ 在线 | chat | 按量 | 1.04858M | $2 | $12 | $0.2 | — | $1/$6 | — | Two-tier pricing at 200k prompt tokens. <=200k: input $2.00 / output $12.00 /… |
 | `gemini-3.1-pro-preview-customtools` | ✅ 在线 | reasoning | 按量 | 1.04858M | $2 | $12 | $0.2 | — | $1/$6 | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
 | `gemini-3.5-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.5 | $9 | $0.15 | — | $0.75/$4.5 | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |

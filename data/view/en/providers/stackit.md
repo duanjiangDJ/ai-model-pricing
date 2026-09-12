@@ -18,6 +18,6 @@
 | `Qwen/Qwen3.6-27B` | ✅ online | chat | per-token | 262.144K | $0.53 | $0.76 | — | — | —/— | — | models.dev official list price |
 | `cortecs/Llama-3.3-70B-Instruct-FP8-Dynamic` | ✅ online | chat | per-token | 128K | $0.53 | $0.76 | — | — | —/— | — | models.dev official list price |
 | `google/gemma-3-27b-it` | ✅ online | chat | per-token | 37K | $0.53 | $0.76 | — | — | —/— | — | models.dev official list price |
-| `intfloat/e5-mistral-7b-instruct` | ✅ online | chat | per-token | 4.096K | $0.02 | $0.02 | — | — | —/— | — | models.dev official list price |
+| `intfloat/e5-mistral-7b-instruct` | ✅ online | embedding | per-token | 4.096K | $0.02 | $0.02 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-120b` | ✅ online | reasoning | per-token | 131K | $0.53 | $0.76 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-20b` | ✅ online | reasoning | per-token | 131.072K | $0.18 | $0.29 | — | — | —/— | — | models.dev official list price |

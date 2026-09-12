@@ -46,7 +46,7 @@
 | `deepseek-ai/DeepSeek-V4-Flash` | ✅ online | reasoning | per-token | 1M | $0.1 | $0.2 | $0.0197 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Pro` | ✅ online | reasoning | per-token | 1M | $0.435 | $0.87 | $0.003625 | — | —/— | — | models.dev official list price |
 | `devstral-2` | ✅ online | chat | per-token | 256K | $0.4 | $2 | $0.4 | — | —/— | — | models.dev official list price |
-| `fastino/gliguard-LLMGuardrails-300M` | ✅ online | chat | per-token | 8.192K | $0.15 | $0.15 | $0.15 | — | —/— | — | models.dev official list price |
+| `fastino/gliguard-LLMGuardrails-300M` | ✅ online | moderation | per-token | 8.192K | $0.15 | $0.15 | $0.15 | — | —/— | — | models.dev official list price |
 | `fastino/gliner2-base-v1` | ✅ online | chat | per-token | 8.192K | $0.15 | $0.15 | $0.15 | — | —/— | — | models.dev official list price |
 | `fastino/gliner2-large-v1` | ✅ online | chat | per-token | 8.192K | $0.15 | $0.15 | $0.15 | — | —/— | — | models.dev official list price |
 | `fastino/gliner2-multi-large-v1` | ✅ online | chat | per-token | 8.192K | $0.15 | $0.15 | $0.15 | — | —/— | — | models.dev official list price |

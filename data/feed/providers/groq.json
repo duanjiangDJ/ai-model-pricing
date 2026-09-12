@@ -214,7 +214,7 @@
     {
       "id": "meta-llama/llama-prompt-guard-2-22m",
       "name": "Llama Prompt Guard 2 22M",
-      "category": "chat",
+      "category": "moderation",
       "modalities": [
         "text"
       ],
@@ -245,7 +245,7 @@
     {
       "id": "meta-llama/llama-prompt-guard-2-86m",
       "name": "Prompt Guard 2 86M",
-      "category": "chat",
+      "category": "moderation",
       "modalities": [
         "text"
       ],
@@ -342,7 +342,7 @@
     {
       "id": "openai/gpt-oss-safeguard-20b",
       "name": "Safety GPT OSS 20B",
-      "category": "reasoning",
+      "category": "moderation",
       "modalities": [
         "text"
       ],
@@ -436,7 +436,7 @@
     {
       "id": "whisper-large-v3",
       "name": "Whisper",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],
@@ -463,7 +463,7 @@
     {
       "id": "whisper-large-v3-turbo",
       "name": "Whisper Large V3 Turbo",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],

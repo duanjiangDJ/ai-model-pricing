@@ -44,7 +44,7 @@
     {
       "id": "all-mini-lm-l6-v2",
       "name": "All-MiniLM-L6-v2",
-      "category": "chat",
+      "category": "embedding",
       "modalities": [
         "text"
       ],
@@ -734,7 +734,7 @@
     {
       "id": "bge-m3",
       "name": "BGE M3",
-      "category": "chat",
+      "category": "embedding",
       "modalities": [
         "text"
       ],
@@ -1019,7 +1019,7 @@
     {
       "id": "e5-large-v2",
       "name": "E5 Large v2",
-      "category": "chat",
+      "category": "embedding",
       "modalities": [
         "text"
       ],
@@ -1050,7 +1050,7 @@
     {
       "id": "fal-ai/elevenlabs/tts/multilingual-v2",
       "name": "ElevenLabs Multilingual TTS v2",
-      "category": "chat",
+      "category": "audio_tts",
       "modalities": [
         "text"
       ],
@@ -1077,7 +1077,7 @@
     {
       "id": "fal-ai/fast-sdxl",
       "name": "Fast SDXL",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -1104,7 +1104,7 @@
     {
       "id": "fal-ai/flux/schnell",
       "name": "FLUX.1 [schnell]",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -1354,7 +1354,7 @@
     {
       "id": "gte-large-en-v1.5",
       "name": "GTE Large (v1.5)",
-      "category": "chat",
+      "category": "embedding",
       "modalities": [
         "text"
       ],
@@ -1759,7 +1759,7 @@
     {
       "id": "multi-qa-mpnet-base-dot-v1",
       "name": "Multi-QA-mpnet-base-dot-v1",
-      "category": "chat",
+      "category": "embedding",
       "modalities": [
         "text"
       ],
@@ -2884,7 +2884,7 @@
     {
       "id": "qwen3-tts-voicedesign",
       "name": "Qwen3 TTS VoiceDesign",
-      "category": "chat",
+      "category": "audio_tts",
       "modalities": [
         "text"
       ],
@@ -2977,7 +2977,7 @@
     {
       "id": "stable-diffusion-3.5-large",
       "name": "Stable Diffusion 3.5 Large",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],

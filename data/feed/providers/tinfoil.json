@@ -173,7 +173,7 @@
     {
       "id": "gpt-oss-safeguard-120b",
       "name": "gpt-oss-safeguard-120b",
-      "category": "reasoning",
+      "category": "moderation",
       "modalities": [
         "text"
       ],

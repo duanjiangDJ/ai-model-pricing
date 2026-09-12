@@ -4164,7 +4164,7 @@
     {
       "id": "nemotron-3.5-content-safety",
       "name": "Nemotron 3.5 Content Safety",
-      "category": "reasoning",
+      "category": "moderation",
       "modalities": [
         "text"
       ],
