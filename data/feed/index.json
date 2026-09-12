@@ -1,9 +1,9 @@
 {
-  "schema_version": "26.128.77",
+  "schema_version": "26.128.78",
   "generated_at": "2026-09-12T12:41:52Z",
   "currency": "USD",
   "provider_count": 189,
-  "model_count": 7596,
+  "model_count": 7594,
   "plan_count": 67,
   "providers": [
     {
@@ -1186,7 +1186,7 @@
       "id": "edenai",
       "name": "Eden AI",
       "channel": "hosted",
-      "model_count": 255,
+      "model_count": 254,
       "file": "providers/edenai.json",
       "updated_at": "2026-09-04T00:22:51Z"
     },
@@ -1210,7 +1210,7 @@
       "id": "llmgateway",
       "name": "DevPass (LLM Gateway)",
       "channel": "aggregator",
-      "model_count": 565,
+      "model_count": 564,
       "file": "providers/llmgateway.json",
       "updated_at": "2026-09-04T00:22:51Z"
     },

@@ -9,7 +9,7 @@
 - 数据更新时间: 2026-09-11T12:41:08Z
 - 核实时间: 2026-09-11T12:41:08Z
 
-共 **565** 个模型。
+共 **564** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -502,7 +502,6 @@
 | `qwen3.7-flash` | ✅ 在线 | reasoning | 按量 | 1M | $0.03 | $0.13 | $0.006 | — | —/— | — | models.dev official list price |
 | `qwen3.7-max` | ✅ 在线 | reasoning | 按量 | 1M | $1.25 | $3.75 | $0.25 | — | —/— | — | models.dev official list price |
 | `qwen3.7-plus` | ✅ 在线 | reasoning | 按量 | 1M | $0.4 | $1.6 | $0.08 | — | —/— | — | models.dev official list price |
-| `qwen3.8-27b` | ✅ 在线 | reasoning | 按量 | 1M | $0.42 | $3 | $0.085 | — | —/— | — | models.dev official list price |
 | `qwen3.8-flash` | ✅ 在线 | reasoning | 按量 | 1M | $0.15 | $0.47 | $0.016 | — | —/— | — | models.dev official list price |
 | `qwen3.8-max` | ✅ 在线 | reasoning | 按量 | 1M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
 | `qwen35-397b-a17b` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.6 | $3.6 | — | — | —/— | — | models.dev official list price |

@@ -2621,37 +2621,6 @@
       "status": "online"
     },
     {
-      "id": "flexai/deepseek-v4-flash-0731",
-      "name": "DeepSeek V4 Flash 0731",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 1000000,
-      "max_output": 384000,
-      "pricing": {
-        "per_mtok": {
-          "input": {
-            "usd": 0.03
-          },
-          "output": {
-            "usd": 0.1
-          },
-          "cache_read": null,
-          "cache_write": null
-        },
-        "batch": null,
-        "per_image": null,
-        "per_audio_second": null,
-        "per_request": null
-      },
-      "notes": "models.dev official list price",
-      "billing_model": [
-        "pay_per_token"
-      ],
-      "status": "online"
-    },
-    {
       "id": "flexai/gpt-oss-120b",
       "name": "GPT OSS 120B",
       "category": "reasoning",

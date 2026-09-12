@@ -211,6 +211,28 @@ def mixed_currency_zero(pm, keys=("input", "output", "cache_read", "cache_write"
     return out
 
 
+def duplicate_ids(ids):
+    """Exact duplicate ids within one provider (the same string appearing twice)."""
+    seq = list(ids)
+    return {i for i in seq if seq.count(i) > 1}
+
+
+def case_variant_duplicate_ids(ids):
+    """Map casefold(id) -> sorted distinct casings, for ids stored under >1 casing.
+
+    One logical model stored twice under different id casings is a data defect: the two rows
+    drift apart, so a consumer reading either id gets a divergent price. An exact-id dup
+    check is case-sensitive and never fires on it. Real 2026-09-12: edenai
+    `flexai/DeepSeek-V4-Flash-0731` ($0.065/$0.18) vs `flexai/deepseek-v4-flash-0731`
+    ($0.03/$0.1), and llmgateway `Qwen3.8-27B` ($0.2/$2) vs `qwen3.8-27b` ($0.42/$3). Only
+    the casing the declared source still publishes is kept; the other row is a stale ghost.
+    """
+    groups = {}
+    for i in ids:
+        groups.setdefault(str(i).casefold(), set()).add(i)
+    return {k: sorted(v) for k, v in groups.items() if len(v) > 1}
+
+
 def cache_read_exceeds_input(pm):
     """Return the currencies where cache_read > input on the same model.
 

@@ -40,7 +40,7 @@ systems, GPU-second pricing, consumer subscriptions, and coding-tool plans.
 ## Data Statistics (exact)
 
 - **Providers**: 190
-- **Models**: 7596
+- **Models**: 7594
 - **Subscription plans**: 67
 - **Distinct API endpoints**: 183
 - **Free models**: 465
@@ -49,10 +49,10 @@ systems, GPU-second pricing, consumer subscriptions, and coding-tool plans.
 
 | Channel | Providers | Models |
 |---|---|---|
-| Inference host | 138 | 4531 |
+| Inference host | 138 | 4530 |
 | First-party | 20 | 430 |
 | Subscription | 18 | 176 |
-| Aggregator | 13 | 2339 |
+| Aggregator | 13 | 2338 |
 | Cloud-hosted | 1 | 120 |
 
 ### By region
@@ -67,7 +67,7 @@ systems, GPU-second pricing, consumer subscriptions, and coding-tool plans.
 
 | Status | Models |
 |---|---|
-| online | 7551 |
+| online | 7549 |
 | offline | 45 |
 | (unmarked) | 0 |
 
@@ -76,11 +76,11 @@ systems, GPU-second pricing, consumer subscriptions, and coding-tool plans.
 | Provider | Models |
 |---|---|
 | NanoGPT (`nano-gpt`) | 693 |
-| DevPass (LLM Gateway) (`llmgateway`) | 565 |
+| DevPass (LLM Gateway) (`llmgateway`) | 564 |
 | OpenRouter (`openrouter`) | 445 |
 | Kilo Gateway (`kilo`) | 383 |
 | Vercel AI Gateway (`vercel`) | 375 |
-| Eden AI (`edenai`) | 255 |
+| Eden AI (`edenai`) | 254 |
 | Merge Gateway (`merge-gateway`) | 179 |
 | Requesty (`requesty`) | 153 |
 | Poe (`poe`) | 137 |
@@ -143,7 +143,7 @@ Reading/updating rules for AI agents: [AGENTS.md](AGENTS.md).
 | Consumer subscriptions | ChatGPT Plus/Pro, Claude Pro/Max, Gemini AI, Perplexity, SuperGrok, Poe etc. | ✅ in DB |
 | Coding plans | Copilot, Cursor, Windsurf, Claude Code, JetBrains AI, Devin, Amazon Q, Replit, Tabnine etc. | ✅ in DB |
 
-**Current scale**: 190 providers, 7,596 models, 67 subscription plans. Exact numbers in the [Data Statistics](#data-statistics-exact) section above.
+**Current scale**: 190 providers, 7,594 models, 67 subscription plans. Exact numbers in the [Data Statistics](#data-statistics-exact) section above.
 Data is auto-synced daily (OpenRouter + models.dev); human-verified entries carry `verified_at` + source URLs.
 
 > Honest scope statement: **no single source covers all pricing** (verified: OpenRouter / models.dev /

@@ -9,7 +9,7 @@
 - Data updated: 2026-09-11T12:41:09Z
 - Verified: 2026-09-11T12:41:09Z
 
-**255** models in total.
+**254** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -94,7 +94,6 @@
 | `flexai/Muse-Glimmer-30B` | ✅ online | reasoning | per-token | 131.072K | $0.3 | $1.1 | — | — | —/— | — | models.dev official list price |
 | `flexai/Nemotron-3-Super-120B-A12B` | ✅ online | reasoning | per-token | 262.144K | $0.085 | $0.4 | — | — | —/— | — | models.dev official list price |
 | `flexai/Step-3.7-Flash` | ✅ online | reasoning | per-token | 262.144K | $0.2 | $1.15 | — | — | —/— | — | models.dev official list price |
-| `flexai/deepseek-v4-flash-0731` | ✅ online | reasoning | per-token | 1M | $0.03 | $0.1 | — | — | —/— | — | models.dev official list price |
 | `flexai/gpt-oss-120b` | ✅ online | reasoning | per-token | 131.072K | $0.037 | $0.17 | — | — | —/— | — | models.dev official list price |
 | `flexai/gpt-oss-20b` | ✅ online | reasoning | per-token | 131.072K | $0.03 | $0.13 | — | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-flash-image` | ✅ online | reasoning | per-token | 32.768K | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |

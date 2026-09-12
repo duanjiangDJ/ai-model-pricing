@@ -300,6 +300,18 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
   first-party collector so a retired model is marked `offline` instead of re-stamped online each
   sync) changes value semantics and needs sign-off.
 
+- **A model id's CASE is part of its key — a casing change creates a DUPLICATE row, not an update.**
+  `update_model_prices()` and the providers' `by_id` maps resolve ids EXACTLY, so when an aggregator
+  (or a source that published both at once) emits an id in a new casing, the repo ends up with two
+  `status: "online"` rows for ONE logical model — and they drift apart, so a consumer reading either
+  id gets a divergent price. `validate.py`'s duplicate-id check was case-SENSITIVE and never fired.
+  Real 2026-09-12: edenai `flexai/DeepSeek-V4-Flash-0731` ($0.065/$0.18) vs
+  `flexai/deepseek-v4-flash-0731` ($0.03/$0.1), and llmgateway `Qwen3.8-27B` ($0.2/$2, ctx 32K) vs
+  `qwen3.8-27b` ($0.42/$3, ctx 1M) — in both, the lowercase id is ABSENT from the declared source
+  (`https://models.dev/api.json`) and is a stale ghost; the source-published casing is canonical.
+  Fix: keep the source's casing, drop the ghost, and `validate.py` now hard-fails the whole class via
+  `toolbox.case_variant_duplicate_ids()`. Regression: `tests/test_duplicate_ids.py`.
+
 - **A check's model-id key must resolve in the provider DB, or the check silently no-ops.**
   `update_model_prices()` skips ids it cannot resolve, so a check that keys its update on a
   renamed/never-seeded id parses the page correctly (parse succeeds, `changed=0`) yet writes
