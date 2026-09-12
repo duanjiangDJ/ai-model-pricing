@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.128.77 — 2026-09-12T14:24Z (feature update)
+
+- tools(fetch_official): register Novita's first-party /models catalog as an official source
+
 ## 26.128.76 — 2026-09-12T13:17Z (feature update)
 
 - docs(agents): codify the distinct-model changelog/headline count rule

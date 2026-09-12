@@ -88,9 +88,47 @@ def fetch_modelsdev():
             }
 
 
+def fetch_novita():
+    """Novita AI first-party API: /openai/v1/models returns the LIVE catalog with
+    per-1M USD prices (pricing.*.price_per_m_decimal), context, modalities and status.
+
+    First-party, unlike an aggregator: absence from this list (or a 404 on
+    /openai/v1/models/<id>) means Novita no longer serves the model -> retired, so the
+    repo must not keep it `status: online`. Verified 2026-09-12: models.dev listed 29
+    novita rows the vendor's catalog no longer contains, and missed 39 live ones.
+    """
+    data = _get("https://api.novita.ai/openai/v1/models")
+
+    def _dec(v):
+        if isinstance(v, dict):
+            v = v.get("price_per_m_decimal")
+        if v is None:
+            return None
+        try:
+            return round(float(v), 8)
+        except (TypeError, ValueError):
+            return None
+
+    for m in data.get("data", []):
+        pr = m.get("pricing") or {}
+        yield {
+            "source": "novita",
+            "model_id": m.get("id"),
+            "per_mtok": {  # price_per_m_decimal is USD per 1M tokens
+                "input": _dec(pr.get("prompt")),
+                "output": _dec(pr.get("completion")),
+                "cache_read": _dec(pr.get("input_cache_read")),
+            },
+            "source_url": f"https://api.novita.ai/openai/v1/models/{m.get('id')}",
+            "verified_at": datetime.now(timezone.utc).isoformat(),
+            "note": "Novita official API (USD per 1M tokens, first-party live catalog)",
+        }
+
+
 SOURCES = {
     "openrouter": fetch_openrouter,
     "models.dev": fetch_modelsdev,
+    "novita": fetch_novita,
     # Add more official sources here to evolve the workflow, e.g.:
     # "deepseek": fetch_deepseek_official, "zai": fetch_zai_official, ...
 }
