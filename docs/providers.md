@@ -24,11 +24,11 @@ Every provider in the database, its status, and its automation. The table below 
 |---|---|---|---|---|---|---|
 | `alibaba` | Alibaba | 55 | `https://dashscope-intl.aliyuncs.com/c…` | `tier0_alibaba.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `anthropic` | Anthropic | 17 | `https://api.anthropic.com/v1` | `tier0_anthropic.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
-| `deepseek` | DeepSeek | 5 | `https://api.deepseek.com` | `tier0_deepseek.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
+| `deepseek` | DeepSeek | 6 | `https://api.deepseek.com` | `tier0_deepseek.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `google` | Google | 41 | `https://generativelanguage.googleapis…` | `tier0_google.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `meta` | Meta | 5 | `https://api.meta.ai/v1` | `tier0_meta.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
-| `minimax` | MiniMax (minimax.io) | 7 | `https://api.minimax.chat/v1` | `tier0_minimax.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
-| `mistral` | Mistral | 34 | `https://api.mistral.ai/v1` | `tier0_mistral.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
+| `minimax` | MiniMax (minimax.io) | 8 | `https://api.minimax.chat/v1` | `tier0_minimax.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
+| `mistral` | Mistral | 35 | `https://api.mistral.ai/v1` | `tier0_mistral.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `moonshotai` | Moonshot AI | 14 | `https://api.moonshot.cn/v1` | `tier0_moonshotai.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `openai` | OpenAI | 55 | `https://api.openai.com/v1` | `tier0_openai.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `xai` | xAI | 17 | `https://api.x.ai/v1` | `tier0_xai.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
@@ -95,7 +95,7 @@ Every provider in the database, its status, and its automation. The table below 
 | `databricks` | Databricks | 30 | `https://${DATABRICKS_HOST}/ai-gateway…` | `tier1_databricks.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `deepinfra` | Deep Infra | 63 | `https://api.deepinfra.com/v1/openai` | `tier1_deepinfra.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `digitalocean` | DigitalOcean | 95 | `https://inference.do-ai.run/v1` | `tier1_digitalocean.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
-| `edenai` | Eden AI | 255 | `https://api.edenai.run/v3` | `tier1_edenai.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
+| `edenai` | Eden AI | 254 | `https://api.edenai.run/v3` | `tier1_edenai.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `fastrouter` | FastRouter | 47 | `https://go.fastrouter.ai/api/v1` | `tier1_fastrouter.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `fireworks-ai` | Fireworks AI | 26 | `https://api.fireworks.ai/inference/v1/` | `tier1_fireworks_ai.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `friendli` | Friendli | 6 | `https://api.friendli.ai/serverless/v1` | `tier1_friendli.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
@@ -105,7 +105,7 @@ Every provider in the database, its status, and its automation. The table below 
 | `huggingface` | Hugging Face | 73 | `https://router.huggingface.co/v1` | `tier1_huggingface.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `jiekou` | Jiekou.AI | 61 | `https://api.jiekou.ai/openai` | `—` | 🟡 manual | — (aggregation only) |
 | `kilo` | Kilo Gateway | 383 | `https://api.kilo.ai/api/gateway` | `tier1_kilo.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
-| `llmgateway` | DevPass (LLM Gateway) | 565 | `https://api.llmgateway.io/v1` | `tier1_llmgateway.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
+| `llmgateway` | DevPass (LLM Gateway) | 564 | `https://api.llmgateway.io/v1` | `tier1_llmgateway.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `merge-gateway` | Merge Gateway | 179 | `https://api-gateway.merge.dev/v1/ai-sdk` | `tier1_merge_gateway.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `modal` | Modal | 4 | `https://inference.us-west.modal.direc…` | `tier1_modal.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `nano-gpt` | NanoGPT | 693 | `https://api.nano-gpt.com/v1` | `tier1_nano_gpt.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
@@ -114,7 +114,7 @@ Every provider in the database, its status, and its automation. The table below 
 | `ollama-cloud` | Ollama Cloud | 22 | `https://ollama.com/api` | `tier1_ollama_cloud.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `opencode` | OpenCode Zen | 99 | `https://opencode.ai/zen/v1/models` | `tier1_opencode.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `opencode-go` | OpenCode Go | 34 | `https://opencode.ai/zen/go/v1/models` | `tier1_opencode_go.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
-| `openrouter` | OpenRouter | 426 | `https://openrouter.ai/api/v1` | `—` | 🟡 manual | — (aggregation only) |
+| `openrouter` | OpenRouter | 445 | `https://openrouter.ai/api/v1` | `—` | 🟡 manual | — (aggregation only) |
 | `orcarouter` | OrcaRouter | 124 | `https://api.orcarouter.ai/v1` | `tier1_orcarouter.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `ovhcloud` | OVHcloud AI Endpoints | 15 | `https://oai.endpoints.kepler.ai.cloud…` | `tier1_ovhcloud.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `poe` | Poe | 137 | `https://api.poe.com/v1` | `tier1_poe.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |

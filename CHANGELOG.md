@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.130.80 — 2026-09-12T17:54Z (feature update)
+
+- fix(docs): auto-refresh the generated docs/providers*.md pages and hard-fail a stale one
+
 ## 26.130.79 — 2026-09-12T16:47Z (feature update)
 
 - docs(agents): codify the official JSON price-API anchors for deepinfra and nano-gpt (a stub tier1 probe can hide a real first-party API)

@@ -377,6 +377,14 @@ def main():
     import stats
     stats.refresh_readme()
 
+    # Same rule for the OTHER generated doc: docs/providers*.md is rendered by
+    # provider_status.table_block(), and it used to be refreshed only when someone remembered to
+    # run `python scripts/provider_status.py` -- so it drifted silently with no gate to catch it
+    # (real 2026-09-12: committed openrouter 426 / deepseek 5 / mistral 34 vs data 445 / 6 / 35).
+    # Rendering it here makes every data change re-render it in both the 3h sync and the PR gate.
+    import provider_status
+    provider_status.refresh_docs()
+
 
 if __name__ == "__main__":
     main()
