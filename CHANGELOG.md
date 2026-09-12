@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.128.75 — 2026-09-12T13:15Z (feature update)
+
+- fix(summary): count distinct models in sync changelog (dedupe item_id + headline count)
+
 ## 26.128.74 — 2026-09-12T12:59Z (content update)
 
 - price sync (3 changes):
