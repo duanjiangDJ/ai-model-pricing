@@ -6,14 +6,14 @@
 - Homepage: https://docs.tinfoil.sh
 - Pricing page: https://docs.tinfoil.sh
 - Currency: USD
-- Data updated: 2026-09-04T00:22:51Z
-- Verified: 2026-09-04T00:22:51Z
+- Data updated: 2026-09-12T03:41:55Z
+- Verified: 2026-09-12T03:41:55Z
 
 **9** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `deepseek-v4-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.3 | $0.7 | $0.06 | — | —/— | — | models.dev official list price |
+| `deepseek-v4-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.65 | $1.45 | $0.13 | — | —/— | — | models.dev official list price |
 | `gemma4-31b` | ✅ online | reasoning | per-token | 262.144K | $0.4 | $1 | — | — | —/— | — | models.dev official list price |
 | `glm-5-2` | ✅ online | reasoning | per-token | 393.216K | $1.5 | $5.25 | $0.375 | — | —/— | — | models.dev official list price |
 | `glm-5-3-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.4 | $1.25 | $0.1 | — | —/— | — | models.dev official list price |

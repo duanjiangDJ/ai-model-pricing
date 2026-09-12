@@ -30,7 +30,7 @@ API 按 token（输入/输出/缓存/批处理）、按图、按音频秒、按�
 ## 数据统计（精确值）
 
 - **供应商数**：190
-- **模型数**：7594
+- **模型数**：7596
 - **订阅计划数**：67
 - **去重后的 API 端点数**：183
 - **免费模型数**：465
@@ -42,7 +42,7 @@ API 按 token（输入/输出/缓存/批处理）、按图、按音频秒、按�
 | 推理托管 | 138 | 4531 |
 | 官方直供 | 20 | 430 |
 | 订阅产品 | 18 | 176 |
-| 聚合站 | 13 | 2337 |
+| 聚合站 | 13 | 2339 |
 | 云平台托管 | 1 | 120 |
 
 ### 按地区
@@ -57,7 +57,7 @@ API 按 token（输入/输出/缓存/批处理）、按图、按音频秒、按�
 
 | 状态 | 模型数 |
 |---|---|
-| online | 7549 |
+| online | 7551 |
 | offline | 45 |
 | （未标注） | 0 |
 
@@ -67,7 +67,7 @@ API 按 token（输入/输出/缓存/批处理）、按图、按音频秒、按�
 |---|---|
 | NanoGPT（`nano-gpt`） | 693 |
 | DevPass (LLM Gateway)（`llmgateway`） | 565 |
-| OpenRouter（`openrouter`） | 443 |
+| OpenRouter（`openrouter`） | 445 |
 | Kilo Gateway（`kilo`） | 383 |
 | Vercel AI Gateway（`vercel`） | 375 |
 | Eden AI（`edenai`） | 255 |
@@ -133,7 +133,7 @@ provider = json.load(urllib.request.urlopen(
 | 消费级订阅 | ChatGPT Plus/Pro、Claude Pro/Max、Gemini AI、Perplexity、SuperGrok、Poe 等 | ✅ 已入库 |
 | 编码工具计划 | Copilot、Cursor、Windsurf、Claude Code、JetBrains AI、Devin、Amazon Q、Replit、Tabnine 等 | ✅ 已入库 |
 
-**当前规模**：190 个供应商、7,594 个模型、67 个订阅计划，
+**当前规模**：190 个供应商、7,596 个模型、67 个订阅计划，
 数据每日自动同步（OpenRouter + models.dev），人工核实条目带 `verified_at` 与来源。
 
 > 诚实声明：**没有任何单一来源覆盖全部定价**（已核实 OpenRouter / models.dev / LiteLLM 等仅覆盖 API token 定价）。

@@ -6,14 +6,14 @@
 - 官网: https://docs.tinfoil.sh
 - 定价页: https://docs.tinfoil.sh
 - 币种: USD
-- 数据更新时间: 2026-09-04T00:22:51Z
-- 核实时间: 2026-09-04T00:22:51Z
+- 数据更新时间: 2026-09-12T03:41:55Z
+- 核实时间: 2026-09-12T03:41:55Z
 
 共 **9** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `deepseek-v4-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.3 | $0.7 | $0.06 | — | —/— | — | models.dev official list price |
+| `deepseek-v4-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.65 | $1.45 | $0.13 | — | —/— | — | models.dev official list price |
 | `gemma4-31b` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.4 | $1 | — | — | —/— | — | models.dev official list price |
 | `glm-5-2` | ✅ 在线 | reasoning | 按量 | 393.216K | $1.5 | $5.25 | $0.375 | — | —/— | — | models.dev official list price |
 | `glm-5-3-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.4 | $1.25 | $0.1 | — | —/— | — | models.dev official list price |

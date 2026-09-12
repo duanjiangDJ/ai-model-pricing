@@ -7,8 +7,8 @@
   "homepage": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
   "pricing_page": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
   "currency": "USD",
-  "updated_at": "2026-09-10T09:39:07Z",
-  "verified_at": "2026-09-10T09:39:07Z",
+  "updated_at": "2026-09-12T03:41:54Z",
+  "verified_at": "2026-09-12T03:41:54Z",
   "models": [
     {
       "id": "alibaba-qwen3-32b",
@@ -1302,13 +1302,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.4
+            "usd": 0.95
           },
           "output": {
-            "usd": 4.4
+            "usd": 3.4
           },
           "cache_read": {
-            "usd": 0.26
+            "usd": 0.2
           },
           "cache_write": null
         },

@@ -6,8 +6,8 @@
 - Homepage: https://docs.digitalocean.com/products/gradient-ai-platform/details/models/
 - Pricing page: https://docs.digitalocean.com/products/gradient-ai-platform/details/models/
 - Currency: USD
-- Data updated: 2026-09-10T09:39:07Z
-- Verified: 2026-09-10T09:39:07Z
+- Data updated: 2026-09-12T03:41:54Z
+- Verified: 2026-09-12T03:41:54Z
 
 **95** models in total.
 
@@ -53,7 +53,7 @@
 | `glm-5` | ✅ online | reasoning | per-token | 64K | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
 | `glm-5.1` | ✅ online | reasoning | per-token | 163.84K | $1.3 | $4.3 | $0.26 | — | —/— | — | models.dev official list price |
 | `glm-5.2` | ✅ online | reasoning | per-token | 262.144K | $0.7 | $2.2 | $0.105 | — | —/— | — | models.dev official list price |
-| `glm-5.3` | ✅ online | reasoning | per-token | 1.04858M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
+| `glm-5.3` | ✅ online | reasoning | per-token | 1.04858M | $0.95 | $3.4 | $0.2 | — | —/— | — | models.dev official list price |
 | `glm-5.3-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `gte-large-en-v1.5` | ✅ online | chat | per-token | 8.192K | $0.09 | $0 | — | — | —/— | — | models.dev official list price |
 | `kimi-k2.5` | ✅ online | reasoning | per-token | 262.144K | $0.5 | $2.7 | $0.203 | — | —/— | — | models.dev official list price |

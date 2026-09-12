@@ -16,6 +16,16 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.125.72 — 2026-09-12T03:57Z (content update)
+
+- price sync (11 changes):
+- **digitalocean** (updated 1): `glm-5.3`
+- **opencode** (updated 6): `kimi-k2.5`, `deepseek-v4-pro`, `gpt-5.6-terra`
+- **opencode-go** (updated 2): `minimax-m2.5`
+- **openrouter** (+2): `inference-net/schematron-v2-small`, `inference-net/schematron-v2-turbo`
+- **openrouter** (updated 3): `deepseek/deepseek-v4-flash`, `moonshotai/kimi-k3`, `~moonshotai/kimi-latest`
+- **tinfoil** (updated 1): `deepseek-v4-flash`
+
 ## 26.124.72 — 2026-09-12T03:09Z (content update)
 
 - fix(merge-gateway): align stale deepseek-v4-flash rows to declared source
