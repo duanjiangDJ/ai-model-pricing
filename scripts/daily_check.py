@@ -404,8 +404,17 @@ def print_sync_summary():
         key = (e.get("provider_id", "?"), e.get("kind", "?"))
         groups.setdefault(key, []).append(e)
 
-    en = ["price sync ({} change{}):".format(len(fresh), "" if len(fresh) == 1 else "s")]
-    zh = ["价格同步（{} 处变更）：".format(len(fresh))]
+    # Split price-changing entries from pure verification records: a `kind="verify"`
+    # entry (a >5x surge-skip that held the stored value, or an official-source no-change
+    # check) is NOT a price change and must never be reported as one.
+    _changes = [e for e in fresh if e.get("kind") != "verify"]
+    _verifies = [e for e in fresh if e.get("kind") == "verify"]
+    en = ["price sync ({} change{}{}):".format(
+        len(_changes), "" if len(_changes) == 1 else "s",
+        "" if not _verifies else ", {} verification record{}".format(
+            len(_verifies), "" if len(_verifies) == 1 else "s"))]
+    zh = ["价格同步（{} 处变更{}）：".format(
+        len(_changes), "" if not _verifies else "，另有 {} 项校验记录".format(len(_verifies)))]
     labels = (("input", "in"), ("output", "out"), ("cache_read", "cache"))
     labels_zh = (("input", "入"), ("output", "出"), ("cache_read", "缓存"))
     for (pid, kind) in sorted(groups):
@@ -422,6 +431,10 @@ def print_sync_summary():
         elif kind == "remove":
             en.append(f"- **{pid}** (-{n}): {shown}")
             zh.append(f"- **{pid}**（下架 {n}）：{shown}")
+        elif kind == "verify":  # a verification record — NOT a price change
+            _skip = any(str(i.get("field", "")).startswith("surge_skip:") for i in items)
+            en.append(f"- **{pid}** ({'skipped' if _skip else 'verified'} {n}): {shown}")
+            zh.append(f"- **{pid}**（{'校验跳过' if _skip else '已校验'} {n}）：{shown}")
         else:  # update — always show price detail, no count-based truncation
             detail = ""
             dparts = []
