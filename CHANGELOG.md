@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.130.79 — 2026-09-12T16:47Z (feature update)
+
+- docs(agents): codify the official JSON price-API anchors for deepinfra and nano-gpt (a stub tier1 probe can hide a real first-party API)
+
 ## 26.130.78 — 2026-09-12T16:44Z (content update)
 
 - Correct 6 prices stuck behind the >5x surge guard (deepinfra, nano-gpt), verified against each provider's own official pricing API

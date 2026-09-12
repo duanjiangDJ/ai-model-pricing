@@ -16,6 +16,10 @@
 
 ---
 
+## 26.130.79 — 2026-09-12T16:47Z（功能更新）
+
+- docs(agents): 记录 deepinfra / nano-gpt 的官方 JSON 价格 API（stub tier1 探针会掩盖真正的第一方 API）
+
 ## 26.130.78 — 2026-09-12T16:44Z（内容更新）
 
 - 修正 deepinfra / nano-gpt 6 个被 5x 熔断永久卡住的错误价格（依据供应商官方 API 核对）
