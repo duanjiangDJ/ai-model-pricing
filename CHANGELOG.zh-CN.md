@@ -16,6 +16,17 @@
 
 ---
 
+## 26.129.78 — 2026-09-12T15:58Z（内容更新）
+
+- 价格同步（7 处变更，另有 6 项校验记录）：
+- **deepinfra**（校验跳过 2）：`deepseek-ai/DeepSeek-V4-Flash-Vision-Exp`, `XiaomiMiMo/MiMo-V2.5`
+- **edenai**（更新 5）：`scaleway/deepseek-v4-flash-0731`, `scaleway/gpt-oss-120b`, `scaleway/llama-3.3-70b-instruct`, `ionos/meta-llama/Llama-3.3-70B-Instruct`, `ionos/openai/gpt-oss-120b`
+- **hyper**（更新 6）：`gemma-4-26b-a4b-it`, `minimax-m2.7`, `llama-4-maverick-17b-128e-instruct-fp8`, `glm-5`, `glm-5.1`, `gpt-oss-120b`
+- **kilo**（更新 4）：`~deepseek/deepseek-v4-flash-latest`, `nvidia/nemotron-3.5-lightning`, `~moonshotai/kimi-latest`, `~z-ai/glm-latest`
+- **llmgateway**（更新 1）：`hy3`
+- **nano-gpt**（校验跳过 1）：`TEE/gpt-oss-20b`
+- **openrouter**（更新 3）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`
+
 ## 26.128.78 — 2026-09-12T15:33Z（功能更新）
 
 - validate：硬失败 id 大小写变体重复；删除 2 条陈旧幽灵行（edenai、llmgateway）

@@ -6,8 +6,8 @@
 - 官网: https://llmgateway.io/docs
 - 定价页: https://llmgateway.io/docs
 - 币种: USD
-- 数据更新时间: 2026-09-11T12:41:08Z
-- 核实时间: 2026-09-11T12:41:08Z
+- 数据更新时间: 2026-09-12T15:42:40Z
+- 核实时间: 2026-09-12T15:42:40Z
 
 共 **564** 个模型。
 
@@ -290,7 +290,7 @@
 | `groq/gpt-oss-20b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.1 | $0.5 | — | — | —/— | — | models.dev official list price |
 | `hermes-4-405b` | ✅ 在线 | reasoning | 按量 | 131.072K | $1 | $3 | — | — | —/— | — | models.dev official list price |
 | `hermes-4-70b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.13 | $0.4 | — | — | —/— | — | models.dev official list price |
-| `hy3` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.14 | $0.58 | $0.035 | — | —/— | — | models.dev official list price |
+| `hy3` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.132 | $0.528 | $0.033 | — | —/— | — | models.dev official list price |
 | `iceberg/gemini-3-flash-preview` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.5 | $3 | $0.05 | — | —/— | — | models.dev official list price |
 | `iceberg/gemini-3.1-pro-preview` | ✅ 在线 | reasoning | 按量 | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `iceberg/gemini-3.6-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |

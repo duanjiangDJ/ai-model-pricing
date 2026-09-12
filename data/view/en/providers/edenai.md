@@ -6,8 +6,8 @@
 - Homepage: https://docs.edenai.co
 - Pricing page: https://docs.edenai.co
 - Currency: USD
-- Data updated: 2026-09-11T12:41:09Z
-- Verified: 2026-09-11T12:41:09Z
+- Data updated: 2026-09-12T15:42:40Z
+- Verified: 2026-09-12T15:42:40Z
 
 **254** models in total.
 
@@ -117,8 +117,8 @@
 | `google/lyria-3-clip-preview` | ✅ online | chat | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `groq/openai/gpt-oss-120b` | ✅ online | reasoning | per-token | 131.072K | $0.15 | $0.6 | $0.075 | — | —/— | — | models.dev official list price |
 | `groq/openai/gpt-oss-20b` | ✅ online | reasoning | per-token | 131.072K | $0.075 | $0.3 | $0.0375 | — | —/— | — | models.dev official list price |
-| `ionos/meta-llama/Llama-3.3-70B-Instruct` | ✅ online | chat | per-token | 128K | $0.75504 | $0.75504 | — | — | —/— | — | models.dev official list price |
-| `ionos/openai/gpt-oss-120b` | ✅ online | reasoning | per-token | 131.072K | $0.17424 | $0.75504 | — | — | —/— | — | models.dev official list price |
+| `ionos/meta-llama/Llama-3.3-70B-Instruct` | ✅ online | chat | per-token | 128K | $0.75348 | $0.75348 | — | — | —/— | — | models.dev official list price |
+| `ionos/openai/gpt-oss-120b` | ✅ online | reasoning | per-token | 131.072K | $0.17388 | $0.75348 | — | — | —/— | — | models.dev official list price |
 | `minimax/MiniMax-M2` | ✅ online | reasoning | per-token | 204.8K | $0.3 | $1.2 | — | — | —/— | — | models.dev official list price |
 | `minimax/MiniMax-M2.1` | ✅ online | reasoning | per-token | 204.8K | $0.3 | $1.2 | $0.03 | — | —/— | — | models.dev official list price |
 | `minimax/MiniMax-M2.5` | ✅ online | reasoning | per-token | 204.8K | $0.3 | $1.2 | $0.03 | — | —/— | — | models.dev official list price |
@@ -210,9 +210,9 @@
 | `qwen/qwen3.8-flash` | ✅ online | reasoning | per-token | 1M | $0.15 | $0.47 | $0.016 | — | —/— | — | models.dev official list price |
 | `qwen/qwen3.8-max` | ✅ online | reasoning | per-token | 1M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
 | `qwen/qwq-plus` | ✅ online | reasoning | per-token | 131.072K | $0.8 | $2.4 | — | — | —/— | — | models.dev official list price |
-| `scaleway/deepseek-v4-flash-0731` | ✅ online | reasoning | per-token | 256K | $0.46464 | $0.92928 | — | — | —/— | — | models.dev official list price |
-| `scaleway/gpt-oss-120b` | ✅ online | reasoning | per-token | 128K | $0.17424 | $0.69696 | — | — | —/— | — | models.dev official list price |
-| `scaleway/llama-3.3-70b-instruct` | ✅ online | chat | per-token | 128K | $1.04544 | $1.04544 | — | — | —/— | — | models.dev official list price |
+| `scaleway/deepseek-v4-flash-0731` | ✅ online | reasoning | per-token | 256K | $0.46368 | $0.92736 | — | — | —/— | — | models.dev official list price |
+| `scaleway/gpt-oss-120b` | ✅ online | reasoning | per-token | 128K | $0.17388 | $0.69552 | — | — | —/— | — | models.dev official list price |
+| `scaleway/llama-3.3-70b-instruct` | ✅ online | chat | per-token | 128K | $1.04328 | $1.04328 | — | — | —/— | — | models.dev official list price |
 | `tensorx/deepseek/deepseek-v4-flash-0731` | ✅ online | reasoning | per-token | 1.04858M | $0.25 | $0.3 | $0.0625 | — | —/— | — | models.dev official list price |
 | `tensorx/deepseek/deepseek-v4-pro-0813` | ✅ online | reasoning | per-token | 1.04858M | $2 | $4 | $0.5 | — | —/— | — | models.dev official list price |
 | `tensorx/moonshotai/kimi-k2.5` | ✅ online | reasoning | per-token | 262.144K | $0.5 | $2.8 | $0.125 | — | —/— | — | models.dev official list price |
