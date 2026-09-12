@@ -20,7 +20,12 @@ import sys
 
 from datetime import datetime, timezone  # noqa: E402
 
-from toolbox import any_price_positive, price_all_zero, mixed_currency_zero  # noqa: E402
+from toolbox import (  # noqa: E402
+    any_price_positive,
+    cache_read_exceeds_input,
+    mixed_currency_zero,
+    price_all_zero,
+)
 
 sys.stdout.reconfigure(encoding="utf-8")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -100,6 +105,7 @@ free_all_null = []  # billing_model declares "free" but per_mtok is ALL null (a 
 promo_stale = []  # expired promo whose list_price DIFFERS from per_mtok (discount over but promo price still published)
 promo_redundant = []  # expired promo whose list_price already EQUALS per_mtok (stale no-op block)
 asym_cny = []  # per_mtok sub-field carrying ONLY a cny value on a USD-declared provider (a secondary/CNY parser injected a field the primary USD source does not publish; mis-parse signature)
+cache_rel = []  # cache_read > input (impossible: a cache hit cannot cost more than fresh input; signature of a parser column swap / stale value)
 for f in sorted(glob.glob("data/feed/providers/*.json")):
     p = json.load(open(f, encoding="utf-8"))
     is_sub = any(h in p["provider_id"] for h in SUB_HINTS)
@@ -199,6 +205,18 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
                         f"{p['provider_id']} :: {m['id']} {_cfield}.usd=0 on a non-free model "
                         f"(0 is reserved for free; use null for not-offered)"
                     )
+        # cache relationship sanity: `cache_read` is a DISCOUNT on fresh `input`, so a cache
+        # HIT costing MORE than an uncached input token is impossible -- the signature of a
+        # parser COLUMN SWAP (a page that renders the cache cells "Write before Read" drops the
+        # write PREMIUM into cache_read; tier0_anthropic's page once read Read-before-Write).
+        # WARN, not FAIL: an aggregation source can itself publish an odd pair (models.dev
+        # reports novita-ai xiaomimimo/mimo-v2-flash cache_read 0.3 > input 0.1), so a hard-fail
+        # would block every sync for a value we cannot correctly re-derive -- surface for review.
+        for _curc in cache_read_exceeds_input(pm):
+            cache_rel.append(
+                f"{p['provider_id']} :: {m['id']} ({_curc} input {pm['input'][_curc]} "
+                f"< cache_read {pm['cache_read'][_curc]})"
+            )
         # mixed-currency zero: a per_mtok field that is 0 in one currency but >0 in another is
         # self-contradictory (0 = free, yet the other currency proves the model is paid). This is
         # a fabricated zero -- typically a stale usd=0 left on a CNY-only model whose collector
@@ -408,6 +426,15 @@ if promo_redundant:
     warn(f"expired promo block with list_price == per_mtok (stale no-op; remove the promo; {len(promo_redundant)} models): "
          + ", ".join(f"{pid} x{c}" for pid, c in _bpr.most_common(12)))
 print(f"OK zero-price: {zero_free} free-flagged, {zero_suspect} suspect")
+if cache_rel:
+    from collections import Counter as _Ccr
+    _bcr = _Ccr(u.split(" :: ")[0] for u in cache_rel)
+    warn(f"cache_read > input (a cache hit costs MORE than fresh input -- impossible; signature "
+         f"of a parser column swap or a stale value its source no longer publishes; "
+         f"{len(cache_rel)} models): "
+         + "; ".join(sorted(cache_rel)[:8]))
+else:
+    print("OK cache-relationship: cache_read <= input on every priced model")
 
 # 4. docs bilingual completeness (AGENTS + agent-policy are English-only by design)
 EN_ONLY_DOCS = {"AGENTS.md", "agent-policy.md", "agent-governance-design.md"}
