@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.128.78 — 2026-09-12T15:33Z (feature update)
+
+- validate: hard-fail case-variant duplicate model ids; drop 2 stale ghost rows (edenai, llmgateway)
+
 ## 26.128.77 — 2026-09-12T14:24Z (feature update)
 
 - tools(fetch_official): register Novita's first-party /models catalog as an official source

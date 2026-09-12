@@ -5,7 +5,7 @@
 
 - Generated: 2026-09-12T12:41:52Z
 - Providers: 190
-- Models total: 7596
+- Models total: 7594
 - Plans total: 67
 
 ## Providers
@@ -159,10 +159,10 @@
 | [Bailing](providers/bailing.md) | Inference host | 2 | `providers/bailing.json` | 2026-09-04T00:22:51Z |
 | [watsonx.ai](providers/watsonx.md) | Inference host | 5 | `providers/watsonx.json` | 2026-09-04T00:22:51Z |
 | [Vercel AI Gateway](providers/vercel.md) | Aggregator | 375 | `providers/vercel.json` | 2026-09-11T12:41:08Z |
-| [Eden AI](providers/edenai.md) | Inference host | 255 | `providers/edenai.json` | 2026-09-11T12:41:09Z |
+| [Eden AI](providers/edenai.md) | Inference host | 254 | `providers/edenai.json` | 2026-09-11T12:41:09Z |
 | [NovitaAI](providers/novita-ai.md) | Inference host | 107 | `providers/novita-ai.json` | 2026-09-04T00:22:51Z |
 | [Upstage](providers/upstage.md) | Inference host | 4 | `providers/upstage.json` | 2026-09-04T00:22:51Z |
-| [DevPass (LLM Gateway)](providers/llmgateway.md) | Aggregator | 565 | `providers/llmgateway.json` | 2026-09-11T12:41:08Z |
+| [DevPass (LLM Gateway)](providers/llmgateway.md) | Aggregator | 564 | `providers/llmgateway.json` | 2026-09-11T12:41:08Z |
 | [Chutes](providers/chutes.md) | Inference host | 14 | `providers/chutes.json` | 2026-09-04T00:22:51Z |
 | [CrofAI](providers/crof.md) | Inference host | 30 | `providers/crof.json` | 2026-09-04T00:22:51Z |
 | [v0](providers/v0.md) | Subscription | 3 | `providers/v0.json` | 2026-09-04T00:22:51Z |

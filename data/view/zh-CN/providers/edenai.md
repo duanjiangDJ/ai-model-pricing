@@ -9,7 +9,7 @@
 - 数据更新时间: 2026-09-11T12:41:09Z
 - 核实时间: 2026-09-11T12:41:09Z
 
-共 **255** 个模型。
+共 **254** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -94,7 +94,6 @@
 | `flexai/Muse-Glimmer-30B` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.3 | $1.1 | — | — | —/— | — | models.dev official list price |
 | `flexai/Nemotron-3-Super-120B-A12B` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.085 | $0.4 | — | — | —/— | — | models.dev official list price |
 | `flexai/Step-3.7-Flash` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.2 | $1.15 | — | — | —/— | — | models.dev official list price |
-| `flexai/deepseek-v4-flash-0731` | ✅ 在线 | reasoning | 按量 | 1M | $0.03 | $0.1 | — | — | —/— | — | models.dev official list price |
 | `flexai/gpt-oss-120b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.037 | $0.17 | — | — | —/— | — | models.dev official list price |
 | `flexai/gpt-oss-20b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.03 | $0.13 | — | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-flash-image` | ✅ 在线 | reasoning | 按量 | 32.768K | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |

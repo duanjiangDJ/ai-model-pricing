@@ -5,7 +5,7 @@
 
 - 数据更新时间: 2026-09-12T12:41:52Z
 - 覆盖渠道: 190
-- 模型总数: 7596
+- 模型总数: 7594
 - 订阅计划数: 67
 
 ## 供应商列表
@@ -159,10 +159,10 @@
 | [Bailing](providers/bailing.md) | 推理托管 | 2 | `providers/bailing.json` | 2026-09-04T00:22:51Z |
 | [watsonx.ai](providers/watsonx.md) | 推理托管 | 5 | `providers/watsonx.json` | 2026-09-04T00:22:51Z |
 | [Vercel AI Gateway](providers/vercel.md) | 聚合站 | 375 | `providers/vercel.json` | 2026-09-11T12:41:08Z |
-| [Eden AI](providers/edenai.md) | 推理托管 | 255 | `providers/edenai.json` | 2026-09-11T12:41:09Z |
+| [Eden AI](providers/edenai.md) | 推理托管 | 254 | `providers/edenai.json` | 2026-09-11T12:41:09Z |
 | [NovitaAI](providers/novita-ai.md) | 推理托管 | 107 | `providers/novita-ai.json` | 2026-09-04T00:22:51Z |
 | [Upstage](providers/upstage.md) | 推理托管 | 4 | `providers/upstage.json` | 2026-09-04T00:22:51Z |
-| [DevPass (LLM Gateway)](providers/llmgateway.md) | 聚合站 | 565 | `providers/llmgateway.json` | 2026-09-11T12:41:08Z |
+| [DevPass (LLM Gateway)](providers/llmgateway.md) | 聚合站 | 564 | `providers/llmgateway.json` | 2026-09-11T12:41:08Z |
 | [Chutes](providers/chutes.md) | 推理托管 | 14 | `providers/chutes.json` | 2026-09-04T00:22:51Z |
 | [CrofAI](providers/crof.md) | 推理托管 | 30 | `providers/crof.json` | 2026-09-04T00:22:51Z |
 | [v0](providers/v0.md) | 订阅制 | 3 | `providers/v0.json` | 2026-09-04T00:22:51Z |

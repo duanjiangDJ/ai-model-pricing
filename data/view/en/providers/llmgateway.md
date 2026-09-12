@@ -9,7 +9,7 @@
 - Data updated: 2026-09-11T12:41:08Z
 - Verified: 2026-09-11T12:41:08Z
 
-**565** models in total.
+**564** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -502,7 +502,6 @@
 | `qwen3.7-flash` | ✅ online | reasoning | per-token | 1M | $0.03 | $0.13 | $0.006 | — | —/— | — | models.dev official list price |
 | `qwen3.7-max` | ✅ online | reasoning | per-token | 1M | $1.25 | $3.75 | $0.25 | — | —/— | — | models.dev official list price |
 | `qwen3.7-plus` | ✅ online | reasoning | per-token | 1M | $0.4 | $1.6 | $0.08 | — | —/— | — | models.dev official list price |
-| `qwen3.8-27b` | ✅ online | reasoning | per-token | 1M | $0.42 | $3 | $0.085 | — | —/— | — | models.dev official list price |
 | `qwen3.8-flash` | ✅ online | reasoning | per-token | 1M | $0.15 | $0.47 | $0.016 | — | —/— | — | models.dev official list price |
 | `qwen3.8-max` | ✅ online | reasoning | per-token | 1M | $2 | $6 | $0.25 | — | —/— | — | models.dev official list price |
 | `qwen35-397b-a17b` | ✅ online | reasoning | per-token | 262.144K | $0.6 | $3.6 | — | — | —/— | — | models.dev official list price |

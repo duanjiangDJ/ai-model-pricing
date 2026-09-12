@@ -16,6 +16,10 @@
 
 ---
 
+## 26.128.78 — 2026-09-12T15:33Z（功能更新）
+
+- validate：硬失败 id 大小写变体重复；删除 2 条陈旧幽灵行（edenai、llmgateway）
+
 ## 26.128.77 — 2026-09-12T14:24Z（功能更新）
 
 - tools(fetch_official)：新增 Novita 官方 /models 目录为官方源

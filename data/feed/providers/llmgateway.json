@@ -15818,38 +15818,6 @@
       "status": "online"
     },
     {
-      "id": "qwen3.8-27b",
-      "name": "Qwen3.8 27B",
-      "category": "reasoning",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 1000000,
-      "max_output": 32768,
-      "billing_model": [
-        "pay_per_token"
-      ],
-      "pricing": {
-        "per_mtok": {
-          "input": {
-            "usd": 0.42
-          },
-          "output": {
-            "usd": 3
-          },
-          "cache_read": {
-            "usd": 0.085
-          },
-          "cache_write": null
-        },
-        "batch": null,
-        "per_image": null,
-        "promo": null
-      },
-      "notes": "models.dev official list price",
-      "status": "online"
-    },
-    {
       "id": "qwen3.8-flash",
       "name": "Qwen3.8 Flash",
       "category": "reasoning",
