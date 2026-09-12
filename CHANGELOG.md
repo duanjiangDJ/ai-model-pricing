@@ -16,6 +16,11 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.127.72 — 2026-09-12T09:57Z (content update)
+
+- price sync (16 changes):
+- **openrouter** (updated 16): `deepseek/deepseek-v4-pro`, `moonshotai/kimi-k2-thinking`, `z-ai/glm-5.3-flash`, `~anthropic/claude-haiku-latest`, `~anthropic/claude-sonnet-latest`, `~deepseek/deepseek-v4-flash-latest`, `~google/gemini-flash-latest`, `~google/gemini-pro-latest`, `~moonshotai/kimi-latest`, `~openai/gpt-astra-latest`, `~openai/gpt-luna-latest`, `~openai/gpt-mini-latest`, `~openai/gpt-sol-latest`, `~openai/gpt-terra-latest`
+
 ## 26.126.72 — 2026-09-12T07:00Z (content update)
 
 - price sync (4 changes):
