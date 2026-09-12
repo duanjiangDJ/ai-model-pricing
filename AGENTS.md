@@ -155,6 +155,23 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    WARN, not a FAIL: an aggregation source can itself publish an odd pair (models.dev reports
    novita-ai `xiaomimimo/mimo-v2-flash` `cache_read 0.3 > input 0.1`), and a check must never block a
    sync for a value we cannot correctly re-derive (guarded by `tests/test_cache_relationship.py`).
+   **Batch-relationship sanity (2026-09-13)**: a batch API is a DISCOUNT on the standard rate
+   (OpenAI / Google / Anthropic / xAI batch is ~50-80% of standard), so `batch.<field> >
+   per_mtok.<field>` is IMPOSSIBLE — the signature of a stale/shared `batch` block copied from a
+   SIBLING model in the same family, or of a unit/scale error. `audit.py` WARNs via
+   `toolbox.batch_exceeds_standard()` (same rationale as the cache rule: an aggregation source can
+   publish an odd pair, so never hard-fail) and hard-FAILS a `batch` value below `1e-4` (the
+   per-token-as-per-M signature — `batch` was previously unchecked, so a mis-scaled batch price
+   passed the gate silently). Real case: openai `gpt-5.6` / `-luna` / `-sol` / `-terra` ALL carried
+   `batch {input 2.5, output 15}` — that is gpt-5.5's batch, copied onto every gpt-5.6 row — while
+   `gpt-5.6-luna`'s own standard input is 0.2 (12.5x) and `-terra`'s is 2.0. **Root cause is
+   writer-side**: NO writer sets `batch` for openai (`sync_official.parse_openai` emits
+   `batch=None`; `tier0_openai` omits it), so a hand-written block survives every 3h sync and is
+   never re-verified against the official Batch table. Corrected to the official
+   `developers.openai.com/api/docs/pricing.md` Batch table (sol 2/10, terra 1/6, luna 0.1/0.6;
+   gpt-5.6 = sol's standard -> 2/10). Regression: `tests/test_batch_relationship.py`. When adding a
+   first-party check that parses a vendor page, parse its Batch table too — otherwise the batch
+   price is a frozen hand-written value with no source.
    **Provenance notes must persist on a verify, not only on a price change**: a check that
    re-verifies an already-correct price must still be able to (re)stamp its official source, or a
    model whose price an aggregator happened to already match stays sourceless forever.

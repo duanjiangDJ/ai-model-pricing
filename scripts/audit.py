@@ -22,6 +22,7 @@ from datetime import datetime, timezone  # noqa: E402
 
 from toolbox import (  # noqa: E402
     any_price_positive,
+    batch_exceeds_standard,
     cache_read_exceeds_input,
     max_output_exceeds_context,
     mixed_currency_zero,
@@ -108,6 +109,7 @@ promo_redundant = []  # expired promo whose list_price already EQUALS per_mtok (
 asym_cny = []  # per_mtok sub-field carrying ONLY a cny value on a USD-declared provider (a secondary/CNY parser injected a field the primary USD source does not publish; mis-parse signature)
 cache_rel = []  # cache_read > input (impossible: a cache hit cannot cost more than fresh input; signature of a parser column swap / stale value)
 ctx_rel = []  # max_output > context_window on an ONLINE model (impossible: generated tokens occupy the context window; signature of an inverted/aggregator limit block)
+batch_rel = []  # batch.<field> > per_mtok.<field> (a batch API is a DISCOUNT on standard; impossible -> stale/shared batch block or unit error)
 for f in sorted(glob.glob("data/feed/providers/*.json")):
     p = json.load(open(f, encoding="utf-8"))
     is_sub = any(h in p["provider_id"] for h in SUB_HINTS)
@@ -166,6 +168,24 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
                         f"suspicious per_mtok {_pk}.{_cur}={_val} in {p['provider_id']} :: {m['id']} "
                         f"(expected $/1M in [1e-3,1e5]; borderline cheap or absurd)"
                     )
+        # batch magnitude sanity: `batch.<field>` is ALSO $ per 1M tokens, so the same
+        # per-token-stored-as-per-M signature applies -> hard-fail below 1e-4 (this field was
+        # previously unchecked, so a mis-scaled batch price passed the gate silently).
+        _bmap = (m.get("pricing") or {}).get("batch")
+        if isinstance(_bmap, dict):
+            for _bk, _bvv in _bmap.items():
+                if not isinstance(_bvv, dict):
+                    continue
+                for _bcur, _bval in _bvv.items():
+                    if _bval is None:
+                        continue
+                    _bf = float(_bval)
+                    if _bf != 0 and abs(_bf) < 1e-4:
+                        fail(
+                            f"batch {_bk}.{_bcur}={_bval} in {p['provider_id']} :: {m['id']} "
+                            f"is $/1M tokens; a non-zero value below 1e-4 is impossible for a "
+                            f"priced API (likely per-token stored as per-M, ~1e6 too small)"
+                        )
         # promo expiry: `pricing.promo` is a TEMPORARY discount (per_mtok = promo price,
         # promo.list_price = pre-promo price). Once ends_at has passed, per_mtok must have
         # moved to the list price and the promo block is stale metadata. An expired promo
@@ -234,6 +254,19 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
                 ctx_rel.append(
                     f"{p['provider_id']} :: {m['id']} (context {_lpt[0]} < max_output {_lpt[1]})"
                 )
+        # batch discount sanity: a batch API is a DISCOUNT on the standard rate, so
+        # `batch.<field> > per_mtok.<field>` is impossible -- the signature of a stale/shared
+        # batch block (copied from a sibling model) or a unit error. WARN, not FAIL: mirrors
+        # cache_read_exceeds_input (an aggregation source could publish an odd pair). Real
+        # 2026-09-13: openai gpt-5.6-luna/-terra inherited gpt-5.5's batch {2.5, 15}.
+        _bx = batch_exceeds_standard(m.get("pricing") or {})
+        if _bx:
+            _bmap2 = (m.get("pricing") or {}).get("batch") or {}
+            batch_rel.append(
+                f"{p['provider_id']} :: {m['id']} ({_bx[0]}: batch "
+                f"{( _bmap2.get(_bx[0]) or {}).get('usd')} > standard "
+                f"{(pm.get(_bx[0]) or {}).get('usd')})"
+            )
         # mixed-currency zero: a per_mtok field that is 0 in one currency but >0 in another is
         # self-contradictory (0 = free, yet the other currency proves the model is paid). This is
         # a fabricated zero -- typically a stale usd=0 left on a CNY-only model whose collector
@@ -462,6 +495,13 @@ if ctx_rel:
          + ", ".join(f"{pid} x{c}" for pid, c in _bctx.most_common(12)))
 else:
     print("OK limit-pair: max_output <= context_window on every online model")
+if batch_rel:
+    warn(f"batch price > standard price (a batch API is a DISCOUNT on the standard rate, so a "
+         f"batch price above standard is impossible; signature of a stale/shared batch block "
+         f"copied from a sibling model or a unit error; {len(batch_rel)} models): "
+         + "; ".join(sorted(batch_rel)[:8]))
+else:
+    print("OK batch-relationship: batch <= standard on every priced model")
 
 # 4. docs bilingual completeness (AGENTS + agent-policy are English-only by design)
 EN_ONLY_DOCS = {"AGENTS.md", "agent-policy.md", "agent-governance-design.md"}

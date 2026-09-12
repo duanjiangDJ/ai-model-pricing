@@ -260,6 +260,42 @@ def cache_read_exceeds_input(pm):
     return bad
 
 
+def batch_exceeds_standard(pricing):
+    """Return the batch fields ("input"/"output") whose price exceeds the standard rate.
+
+    A batch API is a DISCOUNT on the standard rate (OpenAI / Google / Anthropic / xAI batch
+    is ~50-80% of standard), so `batch.<field> > per_mtok.<field>` is impossible: it is the
+    signature of a stale/shared batch block copied from a DIFFERENT model in the same family,
+    or of a unit/scale error. Real 2026-09-13: openai `gpt-5.6-luna` carried batch input 2.5
+    against its own standard input 0.2 (12.5x), and `gpt-5.6-terra` batch 2.5 against 2.0 --
+    both had inherited gpt-5.5's batch {input 2.5, output 15}. No writer sets `batch` for
+    openai (sync_official.parse_openai emits batch=None and tier0_openai omits it), so a
+    hand-written stale block survived every 3h sync and `audit.py` never looked at `batch`.
+
+    Callers surface this as a WARN, never a hard-fail: the repo mirrors its declared source,
+    and an aggregation source could publish an odd pair (mirrors cache_read_exceeds_input).
+    """
+    if not isinstance(pricing, dict):
+        return []
+    pm = pricing.get("per_mtok") or {}
+    bt = pricing.get("batch") or {}
+    if not isinstance(pm, dict) or not isinstance(bt, dict):
+        return []
+    bad = []
+    for k in ("input", "output"):
+        bv, sv = bt.get(k), pm.get(k)
+        if not isinstance(bv, dict) or not isinstance(sv, dict):
+            continue
+        for cur in sorted(set(bv) & set(sv)):
+            b, s = bv.get(cur), sv.get(cur)
+            if (isinstance(b, (int, float)) and not isinstance(b, bool)
+                    and isinstance(s, (int, float)) and not isinstance(s, bool)
+                    and s > 0 and b > s):
+                if k not in bad:
+                    bad.append(k)
+    return bad
+
+
 def max_output_exceeds_context(model):
     """Return (context_window, max_output) when max_output > context_window, else None.
 
