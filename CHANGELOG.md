@@ -16,6 +16,11 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.128.74 — 2026-09-12T12:59Z (content update)
+
+- price sync (3 changes):
+- **openrouter** (updated 3): `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-flash`, `minimax/minimax-m2.5`
+
 ## 26.127.74 — 2026-09-12T12:07Z (feature update)
 
 - docs(agents): codify the cache-relationship (cache_read > input) audit rule

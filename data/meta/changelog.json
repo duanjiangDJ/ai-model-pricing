@@ -1,6 +1,122 @@
 {
-  "schema_version": "26.127.74",
+  "schema_version": "26.128.74",
   "entries": [
+    {
+      "date": "2026-09-12T12:42:31Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-pro,deepseek/deepseek-v4-flash",
+      "field": "pricing",
+      "old": {
+        "deepseek/deepseek-v4-pro": {
+          "input": 0.778824,
+          "output": 1.557648,
+          "cache_read": 0.064902
+        },
+        "deepseek/deepseek-v4-flash": {
+          "input": 0.06678,
+          "output": 0.13356,
+          "cache_read": 0.013356
+        }
+      },
+      "new": {
+        "models": 2,
+        "deepseek/deepseek-v4-pro": {
+          "input": 0.768732,
+          "output": 1.537464,
+          "cache_read": 0.064061
+        },
+        "deepseek/deepseek-v4-flash": {
+          "input": 0.0665,
+          "output": 0.133,
+          "cache_read": 0.0133
+        }
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-12T12:41:52Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-pro",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.809274
+          },
+          "output": {
+            "usd": 1.618548
+          },
+          "cache_read": {
+            "usd": 0.0674395
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.778824
+          },
+          "output": {
+            "usd": 1.557648
+          },
+          "cache_read": {
+            "usd": 0.064902
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-12T12:41:52Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "minimax/minimax-m2.5",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.3
+          },
+          "output": {
+            "usd": 1.2
+          },
+          "cache_read": {
+            "usd": 0.03
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.27
+          },
+          "output": {
+            "usd": 1.08
+          },
+          "cache_read": {
+            "usd": 0.027
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-12T09:41:33Z",
       "kind": "update",

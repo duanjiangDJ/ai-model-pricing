@@ -16,6 +16,11 @@
 
 ---
 
+## 26.128.74 — 2026-09-12T12:59Z（内容更新）
+
+- 价格同步（3 处变更）：
+- **openrouter**（更新 3）：`deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-flash`, `minimax/minimax-m2.5`
+
 ## 26.127.74 — 2026-09-12T12:07Z（功能更新）
 
 - docs(agents)：补充 cache_read 大于 input 的校验规则说明
