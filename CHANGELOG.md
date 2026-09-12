@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.123.72 — 2026-09-12T01:59Z (feature update)
+
+- fix(summary): do not report >5x surge-skip verify records as price updates
+
 ## 26.123.71 — 2026-09-12T01:06Z (content update)
 
 - price sync (14 changes):
