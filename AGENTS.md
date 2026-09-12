@@ -285,6 +285,21 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
   models.dev entry silently returns no price forever (the “check that never fires” gap).
   When extending the `SOURCES` registry, verify with `python scripts/tools/fetch_official.py <model> --json`.
 
+- **An aggregator-only provider's CATALOG drifts from the vendor's own `/models` — even when its
+  prices are exact.** models.dev / OpenRouter republish prices faithfully, but they keep retired
+  models and lag new ones, and `sync_modelsdev` stamps every catalog entry `status: "online"` — so
+  a provider fed ONLY by an aggregator (a fetch-less tier1 stub is not a real check) accumulates
+  phantom `online` rows and misses live models. Verify membership against the vendor's own live
+  catalog, not the aggregator. Real 2026-09-12 (`novita-ai`, models.dev-sourced): of 107 repo rows,
+  29 are retired at Novita (all 404 on `https://api.novita.ai/openai/v1/models/<id>`) yet still
+  `online`, 4 more carry the wrong id CASE (`sao10K/...` vs the official `sao10k/...`), and 39
+  live models are absent from the repo (`zai-org/glm-5.3`, `qwen/qwen3.8-max`, `minimax/minimax-m3`,
+  `tencent/hy3`, …). Prices for the 74 overlapping models match Novita's own API exactly — the
+  drift is membership/status/casing, NOT price. `python scripts/tools/fetch_official.py novita`
+  now queries that first-party catalog (registered 2026-09-12); the write-path reconciliation (a
+  first-party collector so a retired model is marked `offline` instead of re-stamped online each
+  sync) changes value semantics and needs sign-off.
+
 - **A check's model-id key must resolve in the provider DB, or the check silently no-ops.**
   `update_model_prices()` skips ids it cannot resolve, so a check that keys its update on a
   renamed/never-seeded id parses the page correctly (parse succeeds, `changed=0`) yet writes
