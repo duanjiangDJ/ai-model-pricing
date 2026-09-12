@@ -16,6 +16,16 @@
 
 ---
 
+## 26.125.72 — 2026-09-12T03:57Z（内容更新）
+
+- 价格同步（11 处变更）：
+- **digitalocean**（更新 1）：`glm-5.3`
+- **opencode**（更新 6）：`kimi-k2.5`, `deepseek-v4-pro`, `gpt-5.6-terra`
+- **opencode-go**（更新 2）：`minimax-m2.5`
+- **openrouter**（新增 2）：`inference-net/schematron-v2-small`, `inference-net/schematron-v2-turbo`
+- **openrouter**（更新 3）：`deepseek/deepseek-v4-flash`, `moonshotai/kimi-k3`, `~moonshotai/kimi-latest`
+- **tinfoil**（更新 1）：`deepseek-v4-flash`
+
 ## 26.124.72 — 2026-09-12T03:09Z（内容更新）
 
 - 修复 merge-gateway 遗留行：deepseek-v4-flash/-0731 对齐声明源（models.dev 同步自 Merge Gateway 官方 API）

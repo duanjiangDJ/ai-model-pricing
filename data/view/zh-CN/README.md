@@ -3,9 +3,9 @@
 > 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/feed/`](../../../data/feed/)。
 > 更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。
 
-- 数据更新时间: 2026-09-12T00:41:10Z
+- 数据更新时间: 2026-09-12T03:41:20Z
 - 覆盖渠道: 190
-- 模型总数: 7594
+- 模型总数: 7596
 - 订阅计划数: 67
 
 ## 供应商列表
@@ -76,7 +76,7 @@
 | [Crusoe](providers/crusoe.md) | 推理托管 | 8 | `providers/crusoe.json` | 2026-09-04T00:22:51Z |
 | [DInference](providers/dinference.md) | 推理托管 | 6 | `providers/dinference.json` | 2026-09-04T00:22:51Z |
 | [OpenAI](providers/openai.md) | 官方直供 | 55 | `providers/openai.json` | 2026-09-04T00:22:51Z |
-| [OpenCode Go](providers/opencode-go.md) | 订阅制 | 34 | `providers/opencode-go.json` | 2026-09-11T00:09:22Z |
+| [OpenCode Go](providers/opencode-go.md) | 订阅制 | 34 | `providers/opencode-go.json` | 2026-09-12T03:41:55Z |
 | [xAI](providers/xai.md) | 官方直供 | 17 | `providers/xai.json` | 2026-09-04T00:22:51Z |
 | [LMStudio](providers/lmstudio.md) | 推理托管 | 3 | `providers/lmstudio.json` | 2026-09-04T00:22:51Z |
 | [Ambient](providers/ambient.md) | 推理托管 | 10 | `providers/ambient.json` | 2026-09-02T00:19:17Z |
@@ -85,7 +85,7 @@
 | [Echo](providers/echo.md) | 推理托管 | 1 | `providers/echo.json` | 2026-09-04T00:22:51Z |
 | [CloudFerro Sherlock](providers/cloudferro-sherlock.md) | 推理托管 | 5 | `providers/cloudferro-sherlock.json` | 2026-09-04T00:22:51Z |
 | [NEAR AI Cloud](providers/nearai.md) | 推理托管 | 37 | `providers/nearai.json` | 2026-09-10T09:39:09Z |
-| [Tinfoil](providers/tinfoil.md) | 推理托管 | 9 | `providers/tinfoil.json` | 2026-09-04T00:22:51Z |
+| [Tinfoil](providers/tinfoil.md) | 推理托管 | 9 | `providers/tinfoil.json` | 2026-09-12T03:41:55Z |
 | [LLMTR](providers/llmtr.md) | 推理托管 | 32 | `providers/llmtr.json` | 2026-09-04T00:22:51Z |
 | [Merge Gateway](providers/merge-gateway.md) | 聚合站 | 179 | `providers/merge-gateway.json` | 2026-09-12T03:09:07Z |
 | [Inceptron](providers/inceptron.md) | 推理托管 | 4 | `providers/inceptron.json` | 2026-09-04T00:22:51Z |
@@ -96,7 +96,7 @@
 | [Cloudflare AI Gateway](providers/cloudflare-ai-gateway.md) | 聚合站 | 79 | `providers/cloudflare-ai-gateway.json` | 2026-09-04T00:22:51Z |
 | [D.Run (China)](providers/drun.md) | 推理托管 | 3 | `providers/drun.json` | 2026-09-04T00:22:51Z |
 | [Sarvam AI](providers/sarvam.md) | 推理托管 | 2 | `providers/sarvam.json` | 2026-09-04T00:22:51Z |
-| [DigitalOcean](providers/digitalocean.md) | 推理托管 | 95 | `providers/digitalocean.json` | 2026-09-10T09:39:07Z |
+| [DigitalOcean](providers/digitalocean.md) | 推理托管 | 95 | `providers/digitalocean.json` | 2026-09-12T03:41:54Z |
 | [Alibaba Coding Plan (China)](providers/alibaba-coding-plan-cn.md) | 订阅制 | 12 | `providers/alibaba-coding-plan-cn.json` | 2026-08-28T08:54:00Z |
 | [StepFun Step Plan (Global)](providers/stepfun-ai-step-plan.md) | 推理托管 | 3 | `providers/stepfun-ai-step-plan.json` | 2026-09-04T00:22:51Z |
 | [FastRouter](providers/fastrouter.md) | 聚合站 | 47 | `providers/fastrouter.json` | 2026-09-04T00:22:51Z |
@@ -132,7 +132,7 @@
 | [Neon](providers/neon.md) | 推理托管 | 42 | `providers/neon.json` | 2026-09-04T00:22:51Z |
 | [evroc](providers/evroc.md) | 推理托管 | 17 | `providers/evroc.json` | 2026-09-04T00:22:51Z |
 | [302.AI](providers/302ai.md) | 推理托管 | 97 | `providers/302ai.json` | 2026-09-10T09:39:09Z |
-| [OpenCode Zen](providers/opencode.md) | 聚合站 | 99 | `providers/opencode.json` | 2026-09-11T00:09:22Z |
+| [OpenCode Zen](providers/opencode.md) | 聚合站 | 99 | `providers/opencode.json` | 2026-09-12T03:41:55Z |
 | [Requesty](providers/requesty.md) | 推理托管 | 153 | `providers/requesty.json` | 2026-09-11T18:41:33Z |
 | [SiliconFlow](providers/siliconflow.md) | 推理托管 | 61 | `providers/siliconflow.json` | 2026-09-04T00:22:51Z |
 | [Atomic Chat](providers/atomic-chat.md) | 推理托管 | 5 | `providers/atomic-chat.json` | 2026-09-04T00:22:51Z |
@@ -201,7 +201,7 @@
 | [百川智能 (Baichuan)](providers/baichuan.md) | 官方直供 | 1 | `providers/baichuan.json` | 2026-08-28T10:02:16.380334Z |
 | [科大讯飞星火 (iFlytek Spark)](providers/iflytek.md) | 官方直供 | 2 | `providers/iflytek.json` | 2026-08-28T10:02:16.380334Z |
 | [零一万物 (01.AI)](providers/lingyiwanwu.md) | 官方直供 | 2 | `providers/lingyiwanwu.json` | 2026-08-28T10:02:16.380334Z |
-| [OpenRouter](providers/openrouter.md) | 聚合站 | 443 | `providers/openrouter.json` | 2026-09-12T00:41:10Z |
+| [OpenRouter](providers/openrouter.md) | 聚合站 | 445 | `providers/openrouter.json` | 2026-09-12T03:41:20Z |
 
 ## 订阅计划
 

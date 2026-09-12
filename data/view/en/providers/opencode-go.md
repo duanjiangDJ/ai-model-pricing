@@ -6,8 +6,8 @@
 - Homepage: https://opencode.ai/go
 - Pricing page: https://opencode.ai/docs/go/
 - Currency: USD
-- Data updated: 2026-09-11T00:09:22Z
-- Verified: 2026-09-11T00:09:22Z
+- Data updated: 2026-09-12T03:41:55Z
+- Verified: 2026-09-12T03:41:55Z
 
 **34** models in total.
 
