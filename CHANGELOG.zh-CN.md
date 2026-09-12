@@ -16,6 +16,11 @@
 
 ---
 
+## 26.126.72 — 2026-09-12T07:00Z（内容更新）
+
+- 价格同步（4 处变更）：
+- **openrouter**（更新 4）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-flash-0731`, `deepseek/deepseek-v4-pro`, `~deepseek/deepseek-v4-flash-latest`
+
 ## 26.125.72 — 2026-09-12T03:57Z（内容更新）
 
 - 价格同步（11 处变更）：
