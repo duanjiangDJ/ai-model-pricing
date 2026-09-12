@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.123.71 — 2026-09-12T01:06Z (content update)
+
+- price sync (14 changes):
+- **merge-gateway** (updated 4): `deepseek/deepseek-v4-flash-0731`, `deepseek/deepseek-v4-flash`
+- **openrouter** (updated 10): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`, `meta-llama/llama-3.1-70b-instruct`, `minimax/minimax-m2.5`, `moonshotai/kimi-k3`, `qwen/qwen3-235b-a22b-2507`, `qwen/qwen3.8-27b`, `tencent/hy3`, `~moonshotai/kimi-latest`
+
 ## 26.122.71 — 2026-09-11T23:34Z (feature update)
 
 - fix(openrouter): -1 dynamic-price routers must not be labelled free; fail the all-null free label

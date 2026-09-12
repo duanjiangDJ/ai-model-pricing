@@ -16,6 +16,12 @@
 
 ---
 
+## 26.123.71 — 2026-09-12T01:06Z（内容更新）
+
+- 价格同步（14 处变更）：
+- **merge-gateway**（更新 4）：`deepseek/deepseek-v4-flash-0731`, `deepseek/deepseek-v4-flash`
+- **openrouter**（更新 10）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`, `meta-llama/llama-3.1-70b-instruct`, `minimax/minimax-m2.5`, `moonshotai/kimi-k3`, `qwen/qwen3-235b-a22b-2507`, `qwen/qwen3.8-27b`, `tencent/hy3`, `~moonshotai/kimi-latest`
+
 ## 26.122.71 — 2026-09-11T23:34Z（功能更新）
 
 - fix(openrouter): -1 动态定价路由模型不再误标为免费；audit 拦截全 null 的 free 标签
