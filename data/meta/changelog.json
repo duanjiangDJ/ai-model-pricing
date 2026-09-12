@@ -1,6 +1,330 @@
 {
-  "schema_version": "26.126.72",
+  "schema_version": "26.127.72",
   "entries": [
+    {
+      "date": "2026-09-12T09:41:33Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-pro",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.819366
+          },
+          "output": {
+            "usd": 1.638732
+          },
+          "cache_read": {
+            "usd": 0.0682805
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.809274
+          },
+          "output": {
+            "usd": 1.618548
+          },
+          "cache_read": {
+            "usd": 0.0674395
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-12T09:41:33Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "moonshotai/kimi-k2-thinking",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.6
+          },
+          "output": {
+            "usd": 2.5
+          },
+          "cache_read": {
+            "usd": 0.15
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.6
+          },
+          "output": {
+            "usd": 2.5
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-12T09:41:33Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "z-ai/glm-5.3-flash",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.15
+          },
+          "output": {
+            "usd": 0.5
+          },
+          "cache_read": {
+            "usd": 0.03
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.075
+          },
+          "output": {
+            "usd": 0.25
+          },
+          "cache_read": {
+            "usd": 0.015
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-12T09:41:33Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~anthropic/claude-haiku-latest",
+      "field": "name",
+      "old": "Anthropic Claude Haiku Latest",
+      "new": "Anthropic: Claude Haiku Latest",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-12T09:41:33Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~anthropic/claude-sonnet-latest",
+      "field": "name",
+      "old": "Anthropic Claude Sonnet Latest",
+      "new": "Anthropic: Claude Sonnet Latest",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-12T09:41:33Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~deepseek/deepseek-v4-flash-latest",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.04
+          },
+          "output": {
+            "usd": 0.08
+          },
+          "cache_read": {
+            "usd": 0.008
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.03
+          },
+          "output": {
+            "usd": 0.07
+          },
+          "cache_read": {
+            "usd": 0.003
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-12T09:41:33Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~deepseek/deepseek-v4-flash-latest",
+      "field": "name",
+      "old": "DeepSeek V4 Flash Latest",
+      "new": "DeepSeek: DeepSeek V4 Flash Latest",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-12T09:41:33Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~google/gemini-flash-latest",
+      "field": "name",
+      "old": "Google Gemini Flash Latest",
+      "new": "Google: Gemini Flash Latest",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-12T09:41:33Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~google/gemini-pro-latest",
+      "field": "name",
+      "old": "Google Gemini Pro Latest",
+      "new": "Google: Gemini Pro Latest",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-12T09:41:33Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~moonshotai/kimi-latest",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.30272875
+          },
+          "output": {
+            "usd": 11.550195
+          },
+          "cache_read": {
+            "usd": 0.263169
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.125
+          },
+          "output": {
+            "usd": 11.9
+          },
+          "cache_read": {
+            "usd": 0.2465
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-12T09:41:33Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~moonshotai/kimi-latest",
+      "field": "name",
+      "old": "MoonshotAI Kimi Latest",
+      "new": "MoonshotAI: Kimi Latest",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-12T09:41:33Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~openai/gpt-astra-latest",
+      "field": "name",
+      "old": "OpenAI GPT Astra Latest",
+      "new": "OpenAI: GPT Astra Latest",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-12T09:41:33Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~openai/gpt-luna-latest",
+      "field": "name",
+      "old": "OpenAI GPT Luna Latest",
+      "new": "OpenAI: GPT Luna Latest",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-12T09:41:33Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~openai/gpt-mini-latest",
+      "field": "name",
+      "old": "OpenAI GPT Mini Latest",
+      "new": "OpenAI: GPT Mini Latest",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-12T09:41:33Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~openai/gpt-sol-latest",
+      "field": "name",
+      "old": "OpenAI GPT Sol Latest",
+      "new": "OpenAI: GPT Sol Latest",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-12T09:41:33Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~openai/gpt-terra-latest",
+      "field": "name",
+      "old": "OpenAI GPT Terra Latest",
+      "new": "OpenAI: GPT Terra Latest",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-12T06:41:32Z",
       "kind": "update",

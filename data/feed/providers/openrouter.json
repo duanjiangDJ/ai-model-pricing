@@ -8,8 +8,8 @@
   "pricing_page": "https://openrouter.ai/models",
   "api_base_url": "https://openrouter.ai/api/v1",
   "currency": "USD",
-  "updated_at": "2026-09-12T06:41:32Z",
-  "verified_at": "2026-09-12T06:41:32Z",
+  "updated_at": "2026-09-12T09:41:33Z",
+  "verified_at": "2026-09-12T09:41:33Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -2126,13 +2126,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.819366
+            "usd": 0.809274
           },
           "output": {
-            "usd": 1.638732
+            "usd": 1.618548
           },
           "cache_read": {
-            "usd": 0.0682805
+            "usd": 0.0674395
           },
           "cache_write": null
         },
@@ -5919,9 +5919,7 @@
           "output": {
             "usd": 2.5
           },
-          "cache_read": {
-            "usd": 0.15
-          },
+          "cache_read": null,
           "cache_write": null
         },
         "per_image": null,
@@ -13361,13 +13359,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.15
+            "usd": 0.075
           },
           "output": {
-            "usd": 0.5
+            "usd": 0.25
           },
           "cache_read": {
-            "usd": 0.03
+            "usd": 0.015
           },
           "cache_write": null
         },
@@ -13510,7 +13508,7 @@
     },
     {
       "id": "~anthropic/claude-haiku-latest",
-      "name": "Anthropic Claude Haiku Latest",
+      "name": "Anthropic: Claude Haiku Latest",
       "category": "reasoning",
       "modalities": [
         "text",
@@ -13578,7 +13576,7 @@
     },
     {
       "id": "~anthropic/claude-sonnet-latest",
-      "name": "Anthropic Claude Sonnet Latest",
+      "name": "Anthropic: Claude Sonnet Latest",
       "category": "reasoning",
       "modalities": [
         "text",
@@ -13612,7 +13610,7 @@
     },
     {
       "id": "~deepseek/deepseek-v4-flash-latest",
-      "name": "DeepSeek V4 Flash Latest",
+      "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "category": "reasoning",
       "modalities": [
         "text"
@@ -13625,13 +13623,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.04
+            "usd": 0.03
           },
           "output": {
-            "usd": 0.08
+            "usd": 0.07
           },
           "cache_read": {
-            "usd": 0.008
+            "usd": 0.003
           },
           "cache_write": null
         },
@@ -13643,7 +13641,7 @@
     },
     {
       "id": "~google/gemini-flash-latest",
-      "name": "Google Gemini Flash Latest",
+      "name": "Google: Gemini Flash Latest",
       "category": "reasoning",
       "modalities": [
         "text",
@@ -13679,7 +13677,7 @@
     },
     {
       "id": "~google/gemini-pro-latest",
-      "name": "Google Gemini Pro Latest",
+      "name": "Google: Gemini Pro Latest",
       "category": "reasoning",
       "modalities": [
         "audio_in",
@@ -13715,7 +13713,7 @@
     },
     {
       "id": "~moonshotai/kimi-latest",
-      "name": "MoonshotAI Kimi Latest",
+      "name": "MoonshotAI: Kimi Latest",
       "category": "reasoning",
       "modalities": [
         "text",
@@ -13730,13 +13728,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2.30272875
+            "usd": 2.125
           },
           "output": {
-            "usd": 11.550195
+            "usd": 11.9
           },
           "cache_read": {
-            "usd": 0.263169
+            "usd": 0.2465
           },
           "cache_write": null
         },
@@ -13748,7 +13746,7 @@
     },
     {
       "id": "~openai/gpt-astra-latest",
-      "name": "OpenAI GPT Astra Latest",
+      "name": "OpenAI: GPT Astra Latest",
       "category": "reasoning",
       "modalities": [
         "image_in",
@@ -13782,7 +13780,7 @@
     },
     {
       "id": "~openai/gpt-luna-latest",
-      "name": "OpenAI GPT Luna Latest",
+      "name": "OpenAI: GPT Luna Latest",
       "category": "reasoning",
       "modalities": [
         "image_in",
@@ -13816,7 +13814,7 @@
     },
     {
       "id": "~openai/gpt-mini-latest",
-      "name": "OpenAI GPT Mini Latest",
+      "name": "OpenAI: GPT Mini Latest",
       "category": "reasoning",
       "modalities": [
         "image_in",
@@ -13848,7 +13846,7 @@
     },
     {
       "id": "~openai/gpt-sol-latest",
-      "name": "OpenAI GPT Sol Latest",
+      "name": "OpenAI: GPT Sol Latest",
       "category": "reasoning",
       "modalities": [
         "image_in",
@@ -13882,7 +13880,7 @@
     },
     {
       "id": "~openai/gpt-terra-latest",
-      "name": "OpenAI GPT Terra Latest",
+      "name": "OpenAI: GPT Terra Latest",
       "category": "reasoning",
       "modalities": [
         "image_in",
