@@ -87,7 +87,7 @@
 | [NEAR AI Cloud](providers/nearai.md) | 推理托管 | 37 | `providers/nearai.json` | 2026-09-10T09:39:09Z |
 | [Tinfoil](providers/tinfoil.md) | 推理托管 | 9 | `providers/tinfoil.json` | 2026-09-04T00:22:51Z |
 | [LLMTR](providers/llmtr.md) | 推理托管 | 32 | `providers/llmtr.json` | 2026-09-04T00:22:51Z |
-| [Merge Gateway](providers/merge-gateway.md) | 聚合站 | 179 | `providers/merge-gateway.json` | 2026-09-04T00:22:51Z |
+| [Merge Gateway](providers/merge-gateway.md) | 聚合站 | 179 | `providers/merge-gateway.json` | 2026-09-12T03:09:07Z |
 | [Inceptron](providers/inceptron.md) | 推理托管 | 4 | `providers/inceptron.json` | 2026-09-04T00:22:51Z |
 | [OVHcloud AI Endpoints](providers/ovhcloud.md) | 推理托管 | 15 | `providers/ovhcloud.json` | 2026-09-04T00:22:51Z |
 | [AKI.IO](providers/aki-io.md) | 推理托管 | 8 | `providers/aki-io.json` | 2026-09-04T00:22:51Z |

@@ -7,8 +7,8 @@
   "homepage": "https://docs.merge.dev/merge-gateway",
   "pricing_page": "https://docs.merge.dev/merge-gateway",
   "currency": "USD",
-  "updated_at": "2026-09-04T00:22:51Z",
-  "verified_at": "2026-09-04T00:22:51Z",
+  "updated_at": "2026-09-12T03:09:07Z",
+  "verified_at": "2026-09-12T03:09:07Z",
   "models": [
     {
       "id": "anthropic/claude-3-7-sonnet-20250219",
@@ -921,10 +921,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.22
+            "usd": 0.035
           },
           "output": {
-            "usd": 0.66
+            "usd": 0.07
           },
           "cache_read": {
             "usd": 0.007
@@ -954,10 +954,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.22
+            "usd": 0.035
           },
           "output": {
-            "usd": 0.66
+            "usd": 0.07
           },
           "cache_read": {
             "usd": 0.007

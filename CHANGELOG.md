@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.124.72 — 2026-09-12T03:09Z (content update)
+
+- fix(merge-gateway): align stale deepseek-v4-flash rows to declared source
+
 ## 26.123.72 — 2026-09-12T01:59Z (feature update)
 
 - fix(summary): do not report >5x surge-skip verify records as price updates
