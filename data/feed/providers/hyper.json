@@ -7,8 +7,8 @@
   "homepage": "https://hyper.charm.land",
   "pricing_page": "https://hyper.charm.land",
   "currency": "USD",
-  "updated_at": "2026-09-11T12:41:08Z",
-  "verified_at": "2026-09-11T12:41:08Z",
+  "updated_at": "2026-09-12T15:42:39Z",
+  "verified_at": "2026-09-12T15:42:39Z",
   "models": [
     {
       "id": "deepseek-v4-flash",
@@ -154,13 +154,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.122
+            "usd": 0.102
           },
           "output": {
-            "usd": 0.42
+            "usd": 0.356
           },
           "cache_read": {
-            "usd": 0.061
+            "usd": 0.051
           },
           "cache_write": null
         },
@@ -190,7 +190,7 @@
             "usd": 0.86
           },
           "output": {
-            "usd": 2.784
+            "usd": 2.752
           },
           "cache_read": {
             "usd": 0.43
@@ -220,13 +220,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.326
+            "usd": 1.318
           },
           "output": {
-            "usd": 4.22
+            "usd": 4.308
           },
           "cache_read": {
-            "usd": 0.663
+            "usd": 0.659
           },
           "cache_write": null
         },
@@ -350,13 +350,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.178
+            "usd": 0.168
           },
           "output": {
-            "usd": 0.68
+            "usd": 0.66
           },
           "cache_read": {
-            "usd": 0.089
+            "usd": 0.084
           },
           "cache_write": null
         },
@@ -580,13 +580,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.274
+            "usd": 0.255
           },
           "output": {
-            "usd": 0.8992
+            "usd": 0.8365
           },
           "cache_read": {
-            "usd": 0.137
+            "usd": 0.1275
           },
           "cache_write": null
         },
@@ -613,13 +613,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.404
+            "usd": 0.396
           },
           "output": {
-            "usd": 1.496
+            "usd": 1.464
           },
           "cache_read": {
-            "usd": 0.202
+            "usd": 0.198
           },
           "cache_write": null
         },

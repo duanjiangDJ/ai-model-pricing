@@ -6,8 +6,8 @@
 - Homepage: https://kilo.ai
 - Pricing page: https://kilo.ai
 - Currency: USD
-- Data updated: 2026-09-11T12:41:08Z
-- Verified: 2026-09-11T12:41:08Z
+- Data updated: 2026-09-12T15:42:40Z
+- Verified: 2026-09-12T15:42:40Z
 
 **383** models in total.
 
@@ -196,7 +196,7 @@
 | `nvidia/nemotron-3-ultra-550b-a55b` | ✅ online | reasoning | per-token | 512.288K | $0.5 | $2.2 | $0.1 | — | —/— | — | models.dev official list price |
 | `nvidia/nemotron-3-ultra-550b-a55b:free` | ✅ online | reasoning | free | 1M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-3.5-content-safety:free` | ✅ online | reasoning | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `nvidia/nemotron-3.5-lightning` | ✅ online | reasoning | per-token | 262.144K | $0.08 | $0.2 | $0.04 | — | —/— | — | models.dev official list price |
+| `nvidia/nemotron-3.5-lightning` | ✅ online | reasoning | per-token | 262.144K | $0.065 | $0.18 | $0.04 | — | —/— | — | models.dev official list price |
 | `nvidia/nemotron-3.5-lightning:free` | ✅ online | reasoning | free | 1M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `openai/gpt-3.5-turbo` | ✅ online | chat | per-token | 16.385K | $0.5 | $1.5 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-3.5-turbo-0613` | ✅ online | chat | per-token | 4.095K | $1 | $2 | — | — | —/— | — | models.dev official list price |
@@ -387,12 +387,12 @@
 | `~anthropic/claude-haiku-latest` | ✅ online | reasoning | per-token | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `~anthropic/claude-opus-latest` | ✅ online | reasoning | per-token | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
 | `~anthropic/claude-sonnet-latest` | ✅ online | reasoning | per-token | 1M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
-| `~deepseek/deepseek-v4-flash-latest` | ✅ online | reasoning | per-token | 1.04858M | $0.05 | $0.16 | $0.013 | — | —/— | — | models.dev official list price |
+| `~deepseek/deepseek-v4-flash-latest` | ✅ online | reasoning | per-token | 1.04858M | $0.03 | $0.07 | $0.003 | — | —/— | — | models.dev official list price |
 | `~google/gemini-flash-latest` | ✅ online | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `~google/gemini-pro-latest` | ✅ online | reasoning | per-token | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
-| `~moonshotai/kimi-latest` | ✅ online | reasoning | per-token | 974.842K | $2.34 | $11.7 | $0.261 | — | —/— | — | models.dev official list price |
+| `~moonshotai/kimi-latest` | ✅ online | reasoning | per-token | 974.842K | $2.125 | $11.9 | $0.2465 | — | —/— | — | models.dev official list price |
 | `~openai/gpt-latest` | ✅ online | reasoning | per-token | 1.05M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
 | `~openai/gpt-mini-latest` | ✅ online | reasoning | per-token | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | models.dev official list price |
 | `~x-ai/grok-latest` | ✅ online | reasoning | per-token | 500K | $2 | $6 | $0.5 | — | —/— | — | models.dev official list price |
 | `~z-ai/glm-flash-latest` | ✅ online | reasoning | per-token | 1.04858M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |
-| `~z-ai/glm-latest` | ✅ online | reasoning | per-token | 1.04858M | $0.97 | $3.3077 | $0.194 | — | —/— | — | models.dev official list price |
+| `~z-ai/glm-latest` | ✅ online | reasoning | per-token | 1.04858M | $0.8727 | $3.36 | $0.1639 | — | —/— | — | models.dev official list price |

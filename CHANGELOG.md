@@ -16,6 +16,17 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.129.78 — 2026-09-12T15:58Z (content update)
+
+- price sync (7 changes, 6 verification records):
+- **deepinfra** (skipped 2): `deepseek-ai/DeepSeek-V4-Flash-Vision-Exp`, `XiaomiMiMo/MiMo-V2.5`
+- **edenai** (updated 5): `scaleway/deepseek-v4-flash-0731`, `scaleway/gpt-oss-120b`, `scaleway/llama-3.3-70b-instruct`, `ionos/meta-llama/Llama-3.3-70B-Instruct`, `ionos/openai/gpt-oss-120b`
+- **hyper** (updated 6): `gemma-4-26b-a4b-it`, `minimax-m2.7`, `llama-4-maverick-17b-128e-instruct-fp8`, `glm-5`, `glm-5.1`, `gpt-oss-120b`
+- **kilo** (updated 4): `~deepseek/deepseek-v4-flash-latest`, `nvidia/nemotron-3.5-lightning`, `~moonshotai/kimi-latest`, `~z-ai/glm-latest`
+- **llmgateway** (updated 1): `hy3`
+- **nano-gpt** (skipped 1): `TEE/gpt-oss-20b`
+- **openrouter** (updated 3): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro`, `deepseek/deepseek-v4-pro-0813`
+
 ## 26.128.78 — 2026-09-12T15:33Z (feature update)
 
 - validate: hard-fail case-variant duplicate model ids; drop 2 stale ghost rows (edenai, llmgateway)

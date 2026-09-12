@@ -3,7 +3,7 @@
 > 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/feed/`](../../../data/feed/)。
 > 更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。
 
-- 数据更新时间: 2026-09-12T12:41:52Z
+- 数据更新时间: 2026-09-12T15:41:52Z
 - 覆盖渠道: 190
 - 模型总数: 7594
 - 订阅计划数: 67
@@ -136,7 +136,7 @@
 | [Requesty](providers/requesty.md) | 推理托管 | 153 | `providers/requesty.json` | 2026-09-11T18:41:33Z |
 | [SiliconFlow](providers/siliconflow.md) | 推理托管 | 61 | `providers/siliconflow.json` | 2026-09-04T00:22:51Z |
 | [Atomic Chat](providers/atomic-chat.md) | 推理托管 | 5 | `providers/atomic-chat.json` | 2026-09-04T00:22:51Z |
-| [Charm Hyper](providers/hyper.md) | 推理托管 | 32 | `providers/hyper.json` | 2026-09-11T12:41:08Z |
+| [Charm Hyper](providers/hyper.md) | 推理托管 | 32 | `providers/hyper.json` | 2026-09-12T15:42:39Z |
 | [Subconscious](providers/subconscious.md) | 推理托管 | 2 | `providers/subconscious.json` | 2026-09-02T00:19:17Z |
 | [Azure](providers/azure.md) | 推理托管 | 86 | `providers/azure.json` | 2026-09-04T00:22:51Z |
 | [TrustedRouter](providers/trustedrouter.md) | 聚合站 | 14 | `providers/trustedrouter.json` | 2026-09-04T00:22:51Z |
@@ -159,10 +159,10 @@
 | [Bailing](providers/bailing.md) | 推理托管 | 2 | `providers/bailing.json` | 2026-09-04T00:22:51Z |
 | [watsonx.ai](providers/watsonx.md) | 推理托管 | 5 | `providers/watsonx.json` | 2026-09-04T00:22:51Z |
 | [Vercel AI Gateway](providers/vercel.md) | 聚合站 | 375 | `providers/vercel.json` | 2026-09-11T12:41:08Z |
-| [Eden AI](providers/edenai.md) | 推理托管 | 254 | `providers/edenai.json` | 2026-09-11T12:41:09Z |
+| [Eden AI](providers/edenai.md) | 推理托管 | 254 | `providers/edenai.json` | 2026-09-12T15:42:40Z |
 | [NovitaAI](providers/novita-ai.md) | 推理托管 | 107 | `providers/novita-ai.json` | 2026-09-04T00:22:51Z |
 | [Upstage](providers/upstage.md) | 推理托管 | 4 | `providers/upstage.json` | 2026-09-04T00:22:51Z |
-| [DevPass (LLM Gateway)](providers/llmgateway.md) | 聚合站 | 564 | `providers/llmgateway.json` | 2026-09-11T12:41:08Z |
+| [DevPass (LLM Gateway)](providers/llmgateway.md) | 聚合站 | 564 | `providers/llmgateway.json` | 2026-09-12T15:42:40Z |
 | [Chutes](providers/chutes.md) | 推理托管 | 14 | `providers/chutes.json` | 2026-09-04T00:22:51Z |
 | [CrofAI](providers/crof.md) | 推理托管 | 30 | `providers/crof.json` | 2026-09-04T00:22:51Z |
 | [v0](providers/v0.md) | 订阅制 | 3 | `providers/v0.json` | 2026-09-04T00:22:51Z |
@@ -177,7 +177,7 @@
 | [EBCloud](providers/ebcloud.md) | 推理托管 | 4 | `providers/ebcloud.json` | 2026-09-04T00:22:51Z |
 | [TensorX](providers/tensorx.md) | 推理托管 | 25 | `providers/tensorx.json` | 2026-09-04T00:22:51Z |
 | [Tencent Token Plan](providers/tencent-token-plan.md) | 订阅制 | 1 | `providers/tencent-token-plan.json` | 2026-08-27T17:11:11Z |
-| [Kilo Gateway](providers/kilo.md) | 聚合站 | 383 | `providers/kilo.json` | 2026-09-11T12:41:08Z |
+| [Kilo Gateway](providers/kilo.md) | 聚合站 | 383 | `providers/kilo.json` | 2026-09-12T15:42:40Z |
 | [Pioneer](providers/pioneer.md) | 推理托管 | 103 | `providers/pioneer.json` | 2026-09-04T00:22:51Z |
 | [Venice AI](providers/venice.md) | 推理托管 | 103 | `providers/venice.json` | 2026-09-10T09:39:08Z |
 | [Fireworks AI](providers/fireworks-ai.md) | 推理托管 | 26 | `providers/fireworks-ai.json` | 2026-09-04T00:22:51Z |
@@ -201,7 +201,7 @@
 | [百川智能 (Baichuan)](providers/baichuan.md) | 官方直供 | 1 | `providers/baichuan.json` | 2026-08-28T10:02:16.380334Z |
 | [科大讯飞星火 (iFlytek Spark)](providers/iflytek.md) | 官方直供 | 2 | `providers/iflytek.json` | 2026-08-28T10:02:16.380334Z |
 | [零一万物 (01.AI)](providers/lingyiwanwu.md) | 官方直供 | 2 | `providers/lingyiwanwu.json` | 2026-08-28T10:02:16.380334Z |
-| [OpenRouter](providers/openrouter.md) | 聚合站 | 445 | `providers/openrouter.json` | 2026-09-12T12:42:31Z |
+| [OpenRouter](providers/openrouter.md) | 聚合站 | 445 | `providers/openrouter.json` | 2026-09-12T15:41:52Z |
 
 ## 订阅计划
 

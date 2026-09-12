@@ -1,6 +1,267 @@
 {
-  "schema_version": "26.128.78",
+  "schema_version": "26.129.78",
   "entries": [
+    {
+      "date": "2026-09-12T15:42:40Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "edenai",
+      "item_id": "scaleway/deepseek-v4-flash-0731,scaleway/gpt-oss-120b,scaleway/llama-3.3-70b-instruct,ionos/meta-llama/Llama-3.3-70B-Instruct,ionos/openai/gpt-oss-120b",
+      "field": "pricing",
+      "new": {
+        "models": 5
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-12T15:42:40Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "kilo",
+      "item_id": "~deepseek/deepseek-v4-flash-latest,nvidia/nemotron-3.5-lightning,~moonshotai/kimi-latest,~z-ai/glm-latest",
+      "field": "pricing",
+      "new": {
+        "models": 4
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-12T15:42:40Z",
+      "kind": "verify",
+      "scope": "model",
+      "provider_id": "deepinfra",
+      "item_id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+      "field": "surge_skip:cache_read.usd",
+      "old": {
+        "stored": 0.14
+      },
+      "new": {
+        "official": 0.014
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-12T15:42:40Z",
+      "kind": "verify",
+      "scope": "model",
+      "provider_id": "deepinfra",
+      "item_id": "XiaomiMiMo/MiMo-V2.5",
+      "field": "surge_skip:output.usd",
+      "old": {
+        "stored": 2
+      },
+      "new": {
+        "official": 0.28
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-12T15:42:40Z",
+      "kind": "verify",
+      "scope": "model",
+      "provider_id": "deepinfra",
+      "item_id": "XiaomiMiMo/MiMo-V2.5",
+      "field": "surge_skip:cache_read.usd",
+      "old": {
+        "stored": 0.08
+      },
+      "new": {
+        "official": 0.0028
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-12T15:42:40Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "llmgateway",
+      "item_id": "hy3",
+      "field": "pricing",
+      "new": {
+        "models": 1
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-12T15:42:39Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "hyper",
+      "item_id": "gemma-4-26b-a4b-it,minimax-m2.7,llama-4-maverick-17b-128e-instruct-fp8,glm-5,glm-5.1,gpt-oss-120b",
+      "field": "pricing",
+      "new": {
+        "models": 6
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-12T15:42:39Z",
+      "kind": "verify",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "TEE/gpt-oss-20b",
+      "field": "surge_skip:input.usd",
+      "old": {
+        "stored": 0.2
+      },
+      "new": {
+        "official": 0.04
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-12T15:42:39Z",
+      "kind": "verify",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "TEE/gpt-oss-20b",
+      "field": "surge_skip:output.usd",
+      "old": {
+        "stored": 0.8
+      },
+      "new": {
+        "official": 0.15
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-12T15:42:39Z",
+      "kind": "verify",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "TEE/gpt-oss-20b",
+      "field": "surge_skip:cache_read.usd",
+      "old": {
+        "stored": 0.1
+      },
+      "new": {
+        "official": 0.02
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-12T15:41:52Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-flash",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.0665
+          },
+          "output": {
+            "usd": 0.133
+          },
+          "cache_read": {
+            "usd": 0.0133
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.06594
+          },
+          "output": {
+            "usd": 0.13188
+          },
+          "cache_read": {
+            "usd": 0.013188
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-12T15:41:52Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-pro",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.768732
+          },
+          "output": {
+            "usd": 1.537464
+          },
+          "cache_read": {
+            "usd": 0.064061
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.748374
+          },
+          "output": {
+            "usd": 1.496748
+          },
+          "cache_read": {
+            "usd": 0.0623645
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-12T15:41:52Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-pro-0813",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.57816
+          },
+          "output": {
+            "usd": 1.73448
+          },
+          "cache_read": {
+            "usd": 0.018396
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.57948
+          },
+          "output": {
+            "usd": 1.73844
+          },
+          "cache_read": {
+            "usd": 0.019316
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-12T12:42:31Z",
       "kind": "update",
