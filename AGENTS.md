@@ -125,6 +125,17 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    hard-fails this class via `toolbox.mixed_currency_zero()`. The correct form for a single-currency
    vendor is the schema-blessed single-currency entry (`{"cny": 0.15}`) or `usd: null` — never `0`.
    Real 2026-09-10: zhipuai `glm-4.7-flash` (`usd: 0` vs `cny: 0.15` / `1.5`).
+   **Cache-relationship sanity (2026-09-12)**: `cache_read` is a DISCOUNT on fresh `input`, so a
+   cache HIT can never cost more than an uncached input token — `cache_read > input` is impossible
+   and is the signature of a parser COLUMN SWAP (a page rendering the cache cells "Write before
+   Read" drops the write premium into `cache_read`; `tier0_anthropic` once rendered Read-before-Write)
+   or of a stale value whose declared source no longer publishes the field (`update_model_prices`
+   only writes non-None values and **never clears a removed one**, so a dropped `cache_read` survives
+   every sync — real: kilo `openai/gpt-oss-20b` `cache_read 0.03 > input 0.02`, aligned to its source
+   models.dev). `audit.py` WARNs on the whole class via `toolbox.cache_read_exceeds_input()`. It is a
+   WARN, not a FAIL: an aggregation source can itself publish an odd pair (models.dev reports
+   novita-ai `xiaomimimo/mimo-v2-flash` `cache_read 0.3 > input 0.1`), and a check must never block a
+   sync for a value we cannot correctly re-derive (guarded by `tests/test_cache_relationship.py`).
    **Provenance notes must persist on a verify, not only on a price change**: a check that
    re-verifies an already-correct price must still be able to (re)stamp its official source, or a
    model whose price an aggregator happened to already match stays sourceless forever.

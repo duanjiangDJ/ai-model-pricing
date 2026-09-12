@@ -16,6 +16,10 @@
 
 ---
 
+## 26.127.74 — 2026-09-12T12:07Z（功能更新）
+
+- docs(agents)：补充 cache_read 大于 input 的校验规则说明
+
 ## 26.127.73 — 2026-09-12T12:05Z（功能更新）
 
 - audit 新增 cache_read 大于 input 校验（列错位/陈旧值整类）；按声明源对齐 kilo gpt-oss-20b
