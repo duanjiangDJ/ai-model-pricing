@@ -260,6 +260,40 @@ def cache_read_exceeds_input(pm):
     return bad
 
 
+def max_output_exceeds_context(model):
+    """Return (context_window, max_output) when max_output > context_window, else None.
+
+    Every token a model GENERATES occupies a slot in its own context window (input + output
+    share one bounded budget), so `max_output > context_window` is self-contradictory: at least
+    one of the two specs is wrong. The pair is the signature of an aggregation source publishing
+    an INVERTED limit block, or of a stale spec kept after a context-window shrink
+    (`update_model_prices` never clears a value its source stopped publishing).
+
+    Callers surface this as a WARN, never a hard-fail: the repo mirrors its declared source and
+    cannot re-derive the pair without the vendor's own model card -- and models.dev DOES publish
+    inverted pairs. Real 2026-09-12: models.dev `limit: {context: 524288, output: 1048576}` for
+    deepinfra `thinkingmachines/Inkling`, while DeepInfra's own first-party API
+    (`https://api.deepinfra.com/v1/openai/models`) reports `context_length` 524288 /
+    `max_tokens` 524288 for the same model -- i.e. the repo's pair is wrong and the vendor's own
+    endpoint is the anchor that fixes it. A first-party vendor API keeps the invariant
+    (191/191 deepinfra rows: max_tokens <= context_length; 0 inverted).
+    """
+    if not isinstance(model, dict):
+        return None
+    cw = model.get("context_window")
+    mo = model.get("max_output")
+    if not _is_number(cw) or not _is_number(mo):
+        return None
+    if cw <= 0 or mo <= cw:
+        return None
+    return (cw, mo)
+
+
+def _is_number(v):
+    """True for a real int/float (bool is not a number here)."""
+    return isinstance(v, (int, float)) and not isinstance(v, bool)
+
+
 def model_map(provider):
     return {m["id"]: m for m in provider.get("models", [])}
 

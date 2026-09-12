@@ -23,6 +23,7 @@ from datetime import datetime, timezone  # noqa: E402
 from toolbox import (  # noqa: E402
     any_price_positive,
     cache_read_exceeds_input,
+    max_output_exceeds_context,
     mixed_currency_zero,
     price_all_zero,
 )
@@ -106,6 +107,7 @@ promo_stale = []  # expired promo whose list_price DIFFERS from per_mtok (discou
 promo_redundant = []  # expired promo whose list_price already EQUALS per_mtok (stale no-op block)
 asym_cny = []  # per_mtok sub-field carrying ONLY a cny value on a USD-declared provider (a secondary/CNY parser injected a field the primary USD source does not publish; mis-parse signature)
 cache_rel = []  # cache_read > input (impossible: a cache hit cannot cost more than fresh input; signature of a parser column swap / stale value)
+ctx_rel = []  # max_output > context_window on an ONLINE model (impossible: generated tokens occupy the context window; signature of an inverted/aggregator limit block)
 for f in sorted(glob.glob("data/feed/providers/*.json")):
     p = json.load(open(f, encoding="utf-8"))
     is_sub = any(h in p["provider_id"] for h in SUB_HINTS)
@@ -217,6 +219,21 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
                 f"{p['provider_id']} :: {m['id']} ({_curc} input {pm['input'][_curc]} "
                 f"< cache_read {pm['cache_read'][_curc]})"
             )
+        # limit-pair sanity: every generated token occupies a slot in the model's OWN
+        # context_window (input + output share one bounded budget), so `max_output >
+        # context_window` is self-contradictory -- one of the two specs is wrong. Signature of
+        # an INVERTED limit block from an aggregation source, or of a stale spec kept after a
+        # window shrink. WARN, not FAIL: the repo mirrors its declared source and models.dev
+        # really does publish inverted pairs (deepinfra thinkingmachines/Inkling
+        # {context: 524288, output: 1048576} while DeepInfra's own /v1/openai/models reports
+        # context_length 524288 / max_tokens 524288). Online rows only: an offline row keeps
+        # its last published spec on purpose.
+        if st == "online":
+            _lpt = max_output_exceeds_context(m)
+            if _lpt:
+                ctx_rel.append(
+                    f"{p['provider_id']} :: {m['id']} (context {_lpt[0]} < max_output {_lpt[1]})"
+                )
         # mixed-currency zero: a per_mtok field that is 0 in one currency but >0 in another is
         # self-contradictory (0 = free, yet the other currency proves the model is paid). This is
         # a fabricated zero -- typically a stale usd=0 left on a CNY-only model whose collector
@@ -435,6 +452,16 @@ if cache_rel:
          + "; ".join(sorted(cache_rel)[:8]))
 else:
     print("OK cache-relationship: cache_read <= input on every priced model")
+if ctx_rel:
+    from collections import Counter as _Cctx
+    _bctx = _Cctx(u.split(" :: ")[0] for u in ctx_rel)
+    warn(f"max_output > context_window (a model cannot generate more tokens than its whole "
+         f"context window holds -- one of the two specs is wrong; signature of an inverted "
+         f"limit block from an aggregator or of a stale spec after a window shrink; "
+         f"{len(ctx_rel)} models): "
+         + ", ".join(f"{pid} x{c}" for pid, c in _bctx.most_common(12)))
+else:
+    print("OK limit-pair: max_output <= context_window on every online model")
 
 # 4. docs bilingual completeness (AGENTS + agent-policy are English-only by design)
 EN_ONLY_DOCS = {"AGENTS.md", "agent-policy.md", "agent-governance-design.md"}

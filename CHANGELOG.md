@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.131.81 — 2026-09-12T19:07Z (feature update)
+
+- audit: flag max_output > context_window (impossible limit pair)
+
 ## 26.131.80 — 2026-09-12T18:59Z (content update)
 
 - price sync (7 changes):
