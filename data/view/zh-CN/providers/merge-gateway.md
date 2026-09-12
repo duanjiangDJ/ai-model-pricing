@@ -6,8 +6,8 @@
 - 官网: https://docs.merge.dev/merge-gateway
 - 定价页: https://docs.merge.dev/merge-gateway
 - 币种: USD
-- 数据更新时间: 2026-09-04T00:22:51Z
-- 核实时间: 2026-09-04T00:22:51Z
+- 数据更新时间: 2026-09-12T03:09:07Z
+- 核实时间: 2026-09-12T03:09:07Z
 
 共 **179** 个模型。
 
@@ -41,8 +41,8 @@
 | `deepseek/deepseek-v3` | ✅ 在线 | chat | 按量 | 163.84K | $0.58 | $1.68 | — | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v3.1` | ✅ 在线 | reasoning | 按量 | 164K | $0.5 | $1.5 | — | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v3.2` | ✅ 在线 | reasoning | 按量 | 163.84K | $0.28 | $0.45 | $0.14 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-flash` | ✅ 在线 | reasoning | 按量 | 1M | $0.22 | $0.66 | $0.007 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-flash-0731` | ✅ 在线 | reasoning | 按量 | 1M | $0.22 | $0.66 | $0.007 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash` | ✅ 在线 | reasoning | 按量 | 1M | $0.035 | $0.07 | $0.007 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash-0731` | ✅ 在线 | reasoning | 按量 | 1M | $0.035 | $0.07 | $0.007 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash-0731-fast` | ✅ 在线 | reasoning | 按量 | 1M | $0.28 | $0.56 | $0.07 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro` | ✅ 在线 | reasoning | 按量 | 1M | $0.66 | $1.98 | $0.022 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro-0423` | ✅ 在线 | reasoning | 按量 | 1M | $1.65 | $3.3 | — | — | —/— | — | models.dev official list price |

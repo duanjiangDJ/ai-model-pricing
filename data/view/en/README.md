@@ -87,7 +87,7 @@
 | [NEAR AI Cloud](providers/nearai.md) | Inference host | 37 | `providers/nearai.json` | 2026-09-10T09:39:09Z |
 | [Tinfoil](providers/tinfoil.md) | Inference host | 9 | `providers/tinfoil.json` | 2026-09-04T00:22:51Z |
 | [LLMTR](providers/llmtr.md) | Inference host | 32 | `providers/llmtr.json` | 2026-09-04T00:22:51Z |
-| [Merge Gateway](providers/merge-gateway.md) | Aggregator | 179 | `providers/merge-gateway.json` | 2026-09-04T00:22:51Z |
+| [Merge Gateway](providers/merge-gateway.md) | Aggregator | 179 | `providers/merge-gateway.json` | 2026-09-12T03:09:07Z |
 | [Inceptron](providers/inceptron.md) | Inference host | 4 | `providers/inceptron.json` | 2026-09-04T00:22:51Z |
 | [OVHcloud AI Endpoints](providers/ovhcloud.md) | Inference host | 15 | `providers/ovhcloud.json` | 2026-09-04T00:22:51Z |
 | [AKI.IO](providers/aki-io.md) | Inference host | 8 | `providers/aki-io.json` | 2026-09-04T00:22:51Z |

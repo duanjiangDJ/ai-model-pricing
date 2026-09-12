@@ -6,8 +6,8 @@
 - Homepage: https://docs.merge.dev/merge-gateway
 - Pricing page: https://docs.merge.dev/merge-gateway
 - Currency: USD
-- Data updated: 2026-09-04T00:22:51Z
-- Verified: 2026-09-04T00:22:51Z
+- Data updated: 2026-09-12T03:09:07Z
+- Verified: 2026-09-12T03:09:07Z
 
 **179** models in total.
 
@@ -41,8 +41,8 @@
 | `deepseek/deepseek-v3` | ✅ online | chat | per-token | 163.84K | $0.58 | $1.68 | — | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v3.1` | ✅ online | reasoning | per-token | 164K | $0.5 | $1.5 | — | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v3.2` | ✅ online | reasoning | per-token | 163.84K | $0.28 | $0.45 | $0.14 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-flash` | ✅ online | reasoning | per-token | 1M | $0.22 | $0.66 | $0.007 | — | —/— | — | models.dev official list price |
-| `deepseek/deepseek-v4-flash-0731` | ✅ online | reasoning | per-token | 1M | $0.22 | $0.66 | $0.007 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash` | ✅ online | reasoning | per-token | 1M | $0.035 | $0.07 | $0.007 | — | —/— | — | models.dev official list price |
+| `deepseek/deepseek-v4-flash-0731` | ✅ online | reasoning | per-token | 1M | $0.035 | $0.07 | $0.007 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-flash-0731-fast` | ✅ online | reasoning | per-token | 1M | $0.28 | $0.56 | $0.07 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro` | ✅ online | reasoning | per-token | 1M | $0.66 | $1.98 | $0.022 | — | —/— | — | models.dev official list price |
 | `deepseek/deepseek-v4-pro-0423` | ✅ online | reasoning | per-token | 1M | $1.65 | $3.3 | — | — | —/— | — | models.dev official list price |
