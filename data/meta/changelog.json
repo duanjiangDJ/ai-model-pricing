@@ -1,6 +1,96 @@
 {
-  "schema_version": "26.129.78",
+  "schema_version": "26.130.78",
   "entries": [
+    {
+      "date": "2026-09-12T16:45:12Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "deepinfra",
+      "item_id": "XiaomiMiMo/MiMo-V2.5",
+      "field": "pricing.per_mtok.output.usd",
+      "old": {
+        "usd": 2
+      },
+      "new": {
+        "usd": 0.28
+      },
+      "source": "manual-repair:deepinfra official API https://api.deepinfra.com/models/list"
+    },
+    {
+      "date": "2026-09-12T16:45:12Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "deepinfra",
+      "item_id": "XiaomiMiMo/MiMo-V2.5",
+      "field": "pricing.per_mtok.cache_read.usd",
+      "old": {
+        "usd": 0.08
+      },
+      "new": {
+        "usd": 0.0028
+      },
+      "source": "manual-repair:deepinfra official API https://api.deepinfra.com/models/list"
+    },
+    {
+      "date": "2026-09-12T16:45:12Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "deepinfra",
+      "item_id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+      "field": "pricing.per_mtok.cache_read.usd",
+      "old": {
+        "usd": 0.14
+      },
+      "new": {
+        "usd": 0.014
+      },
+      "source": "manual-repair:deepinfra official API https://api.deepinfra.com/models/list"
+    },
+    {
+      "date": "2026-09-12T16:45:12Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "TEE/gpt-oss-20b",
+      "field": "pricing.per_mtok.input.usd",
+      "old": {
+        "usd": 0.2
+      },
+      "new": {
+        "usd": 0.04
+      },
+      "source": "manual-repair:nano-gpt official API https://nano-gpt.com/api/models"
+    },
+    {
+      "date": "2026-09-12T16:45:12Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "TEE/gpt-oss-20b",
+      "field": "pricing.per_mtok.output.usd",
+      "old": {
+        "usd": 0.8
+      },
+      "new": {
+        "usd": 0.15
+      },
+      "source": "manual-repair:nano-gpt official API https://nano-gpt.com/api/models"
+    },
+    {
+      "date": "2026-09-12T16:45:12Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "nano-gpt",
+      "item_id": "TEE/gpt-oss-20b",
+      "field": "pricing.per_mtok.cache_read.usd",
+      "old": {
+        "usd": 0.1
+      },
+      "new": {
+        "usd": 0.02
+      },
+      "source": "manual-repair:nano-gpt official API https://nano-gpt.com/api/models"
+    },
     {
       "date": "2026-09-12T15:42:40Z",
       "kind": "update",

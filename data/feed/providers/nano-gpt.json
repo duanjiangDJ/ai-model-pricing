@@ -2099,13 +2099,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.2
+            "usd": 0.04
           },
           "output": {
-            "usd": 0.8
+            "usd": 0.15
           },
           "cache_read": {
-            "usd": 0.1
+            "usd": 0.02
           },
           "cache_write": null
         },
