@@ -211,6 +211,33 @@ def mixed_currency_zero(pm, keys=("input", "output", "cache_read", "cache_write"
     return out
 
 
+def cache_read_exceeds_input(pm):
+    """Return the currencies where cache_read > input on the same model.
+
+    A cache HIT can never cost more than an uncached input token, so `cache_read > input`
+    is impossible -- the signature of a parser COLUMN SWAP (a pricing page that renders the
+    cache cells "Write before Read" drops the write PREMIUM into cache_read; tier0_anthropic
+    once swapped to Read-before-Write). Callers surface this as a WARN, never a hard-fail: an
+    aggregation source can itself publish an odd pair (models.dev reports novita-ai
+    xiaomimimo/mimo-v2-flash cache_read 0.3 > input 0.1), and a check must not block a sync
+    for a value we cannot correctly re-derive. Real stale case surfaced by this guard:
+    kilo openai/gpt-oss-20b cache_read 0.03 > input 0.02 (a value its declared source
+    models.dev no longer publishes -- update_model_prices never clears a removed value).
+    """
+    inp = (pm or {}).get("input")
+    cr = (pm or {}).get("cache_read")
+    if not isinstance(inp, dict) or not isinstance(cr, dict):
+        return []
+    bad = []
+    for cur in sorted(set(inp) & set(cr)):
+        iv, rv = inp.get(cur), cr.get(cur)
+        if (isinstance(iv, (int, float)) and not isinstance(iv, bool)
+                and isinstance(rv, (int, float)) and not isinstance(rv, bool)
+                and iv > 0 and rv > iv):
+            bad.append(cur)
+    return bad
+
+
 def model_map(provider):
     return {m["id"]: m for m in provider.get("models", [])}
 

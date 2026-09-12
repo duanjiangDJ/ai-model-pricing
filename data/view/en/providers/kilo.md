@@ -247,7 +247,7 @@
 | `openai/gpt-audio-mini` | ✅ online | chat | per-token | 128K | $0.6 | $2.4 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-chat-latest` | ✅ online | chat | per-token | 400K | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-120b` | ✅ online | reasoning | per-token | 131.072K | $0.03 | $0.17 | $0.03 | — | —/— | — | models.dev official list price |
-| `openai/gpt-oss-20b` | ✅ online | reasoning | per-token | 131.072K | $0.02 | $0.1 | $0.03 | — | —/— | — | models.dev official list price |
+| `openai/gpt-oss-20b` | ✅ online | reasoning | per-token | 131.072K | $0.02 | $0.1 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-oss-safeguard-20b` | ✅ online | reasoning | per-token | 131.072K | $0.075 | $0.3 | $0.0375 | — | —/— | — | models.dev official list price |
 | `openai/o1` | ✅ online | reasoning | per-token | 200K | $15 | $60 | $7.5 | — | —/— | — | models.dev official list price |
 | `openai/o1-pro` | ✅ online | reasoning | per-token | 200K | $150 | $600 | — | — | —/— | — | models.dev official list price |

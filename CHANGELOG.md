@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.127.73 — 2026-09-12T12:05Z (feature update)
+
+- audit: flag cache_read > input (parser column-swap / stale value class); align kilo gpt-oss-20b to its declared source
+
 ## 26.127.72 — 2026-09-12T09:57Z (content update)
 
 - price sync (16 changes):

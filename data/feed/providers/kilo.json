@@ -7565,9 +7565,7 @@
           "output": {
             "usd": 0.1
           },
-          "cache_read": {
-            "usd": 0.03
-          },
+          "cache_read": null,
           "cache_write": null
         },
         "batch": null,
