@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.130.78 — 2026-09-12T16:44Z (content update)
+
+- Correct 6 prices stuck behind the >5x surge guard (deepinfra, nano-gpt), verified against each provider's own official pricing API
+
 ## 26.129.78 — 2026-09-12T15:58Z (content update)
 
 - price sync (7 changes, 6 verification records):

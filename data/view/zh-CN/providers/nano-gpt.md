@@ -76,7 +76,7 @@
 | `TEE/glm-5.3` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.4 | $4.4 | $0.26 | — | —/— | — | models.dev official list price |
 | `TEE/glm-5.3-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.15 | $0.5 | $0.03 | — | —/— | — | models.dev official list price |
 | `TEE/gpt-oss-120b` | ✅ 在线 | chat | 按量 | 131.072K | $2 | $2 | $2 | — | —/— | — | models.dev official list price |
-| `TEE/gpt-oss-20b` | ✅ 在线 | chat | 按量 | 131.072K | $0.2 | $0.8 | $0.1 | — | —/— | — | models.dev official list price |
+| `TEE/gpt-oss-20b` | ✅ 在线 | chat | 按量 | 131.072K | $0.04 | $0.15 | $0.02 | — | —/— | — | models.dev official list price |
 | `TEE/kimi-k2.6` | ✅ 在线 | chat | 按量 | 262.144K | $1.5 | $5.25 | $0.375 | — | —/— | — | models.dev official list price |
 | `TEE/kimi-k2.7-code` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.95 | $4 | $0.19 | — | —/— | — | models.dev official list price |
 | `TEE/kimi-k3` | ✅ 在线 | reasoning | 按量 | 1.04858M | $3 | $15 | $1.5 | — | —/— | — | models.dev official list price |

@@ -37,7 +37,7 @@
 | `Qwen/Qwen3.8-2.4T-A95B` | ✅ online | reasoning | per-token | 262.144K | $2 | $6 | $0.2 | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3.8-27B` | ✅ online | reasoning | per-token | 262.144K | $0.4 | $3 | $0.04 | — | —/— | — | models.dev official list price |
 | `Qwen/Qwen3.8-Max` | ✅ online | chat | per-token | 256K | $1.65 | $4.951 | $0.206 | — | —/— | — | models.dev official list price |
-| `XiaomiMiMo/MiMo-V2.5` | ✅ online | reasoning | per-token | 262.144K | $0.14 | $2 | $0.08 | — | —/— | — | models.dev official list price |
+| `XiaomiMiMo/MiMo-V2.5` | ✅ online | reasoning | per-token | 262.144K | $0.14 | $0.28 | $0.0028 | — | —/— | — | models.dev official list price |
 | `XiaomiMiMo/MiMo-V2.5-Pro` | ✅ online | reasoning | per-token | 1.04858M | $1 | $3 | $0.2 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-R1-0528` | ✅ online | reasoning | per-token | 163.84K | $0.5 | $2.15 | $0.35 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V3` | ✅ online | chat | per-token | 163.84K | $0.32 | $0.89 | — | — | —/— | — | models.dev official list price |
@@ -46,7 +46,7 @@
 | `deepseek-ai/DeepSeek-V3.2` | ✅ online | reasoning | per-token | 163.84K | $0.26 | $0.38 | $0.13 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Flash` | ✅ online | reasoning | per-token | 1.04858M | $0.09 | $0.18 | $0.018 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Flash-0731` | ✅ online | reasoning | per-token | 1.04858M | $0.06 | $0.18 | $0.015 | — | —/— | — | models.dev official list price |
-| `deepseek-ai/DeepSeek-V4-Flash-Vision-Exp` | ✅ online | reasoning | per-token | 1.04858M | $0.44 | $1.32 | $0.14 | — | —/— | — | models.dev official list price |
+| `deepseek-ai/DeepSeek-V4-Flash-Vision-Exp` | ✅ online | reasoning | per-token | 1.04858M | $0.44 | $1.32 | $0.014 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Pro` | ✅ online | reasoning | per-token | 1.04858M | $1.3 | $2.6 | $0.1 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/DeepSeek-V4-Pro-0813` | ✅ online | reasoning | per-token | 1.04858M | $1.3 | $2.6 | $0.1 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-26B-A4B-it` | ✅ online | reasoning | per-token | 262.144K | $0.07 | $0.34 | — | — | —/— | — | models.dev official list price |
