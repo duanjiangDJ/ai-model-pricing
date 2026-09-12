@@ -116,6 +116,25 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    aggregator writers too (`collect_modelsdev` is cortecs's only source — it has no fetchable official
    page, its `tier1_cortecs.py` being a stub), so an aggregation-only provider has no check to raise
    from and the guard record is its only signal.
+   **A stub `tier1_*.py` can hide a real official API (2026-09-12)**: before concluding a provider
+   has "no fetchable official source", probe its `/api/models`-style JSON endpoints — several
+   auto-generated `tier1_*.py` stubs only `js_fetch` an HTML docs page and report "not fetchable",
+   while the vendor in fact publishes exact machine-readable prices. Verification AND manual repair
+   must use the first-party API (aggregators are peers, not authorities):
+   - deepinfra: `https://api.deepinfra.com/models/list` — `cents_per_input_token` /
+     `cents_per_output_token` are **cents per token** (`$/M = value x 1e6 / 100`), and
+     `rate_per_input_token_cached` is a **ratio of the input price**, NOT a price
+     (`cache_read $/M = ratio x input $/M`; cross-checked on `XiaomiMiMo/MiMo-V2.5-Pro`:
+     0.2 x $1.0 = $0.2, a row `audit.py` does not flag, so the interpretation is confirmed).
+   - nano-gpt: `https://nano-gpt.com/api/models` — `input_price_per_million` /
+     `output_price_per_million` are already **$/M**, and `cacheReadInputPer1kTokens` x 1000 = $/M.
+     A `TEE/<model>` id is a **separate SKU** from the plain `<vendor>/<model>` row and is priced
+     lower — never copy the plain row's price onto it.
+   The 2026-09-12 repair cleared all 6 unresolved surge-skips with these anchors (deepinfra
+   `XiaomiMiMo/MiMo-V2.5` output 2 -> 0.28 and cache_read 0.08 -> 0.0028,
+   `deepseek-ai/DeepSeek-V4-Flash-Vision-Exp` cache_read 0.14 -> 0.014; nano-gpt
+   `TEE/gpt-oss-20b` 0.2/0.8/0.1 -> 0.04/0.15/0.02), each recorded in
+   `data/meta/changelog.json` with its official source URL (#226).
    **Mixed-currency zero (fabricated)**: `0` means *free*, so a per_mtok field that is `0` in one
    currency but `>0` in another is self-contradictory — e.g. `{"usd": 0, "cny": 0.15}` claims the
    model is free in USD while it is demonstrably paid in CNY. This happens when a CNY-only vendor's
