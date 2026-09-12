@@ -48,6 +48,16 @@ class TestCacheReadExceedsInput(unittest.TestCase):
     def test_zero_input_not_flagged(self):
         self.assertEqual(cache_read_exceeds_input({"input": {"usd": 0}, "cache_read": {"usd": 0.5}}), [])
 
+    def test_offline_row_is_exempt(self):
+        # A retired row keeps its last published spec as a historical record on purpose, so a
+        # WARN about it is unactionable noise. Real case 2026-09-13: novita-ai
+        # xiaomimimo/mimo-v2-flash (cache_read 0.3 > input 0.1, straight from models.dev) was
+        # marked offline after the vendor's live catalog dropped it.
+        pm = {"input": {"usd": 0.1}, "cache_read": {"usd": 0.3}}
+        self.assertEqual(cache_read_exceeds_input(pm, "offline"), [])
+        self.assertEqual(cache_read_exceeds_input(pm, "online"), ["usd"])
+        self.assertEqual(cache_read_exceeds_input(pm, None), ["usd"])
+
 
 if __name__ == "__main__":
     unittest.main()

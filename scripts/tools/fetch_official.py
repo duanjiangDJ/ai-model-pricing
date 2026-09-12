@@ -119,6 +119,13 @@ def fetch_novita():
                 "output": _dec(pr.get("completion")),
                 "cache_read": _dec(pr.get("input_cache_read")),
             },
+            # The live catalog is also the membership/spec anchor, not just the price anchor:
+            # a row absent from this list (or 404 on its per-model URL) is RETIRED, and the
+            # vendor's own context/max_output pair is what corrects an aggregator's inverted
+            # limit block. Carrying them here is what makes the limit-pair check verifiable.
+            "context_window": m.get("context_size"),
+            "max_output": m.get("max_output_tokens"),
+            "status": "online" if str(m.get("status")) in ("1", "true", "True", "online") else "offline",
             "source_url": f"https://api.novita.ai/openai/v1/models/{m.get('id')}",
             "verified_at": datetime.now(timezone.utc).isoformat(),
             "note": "Novita official API (USD per 1M tokens, first-party live catalog)",

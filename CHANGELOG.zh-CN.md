@@ -16,6 +16,10 @@
 
 ---
 
+## 26.131.83 — 2026-09-12T22:24Z（功能更新）
+
+- 修复(novita)：29 个官方已下线模型标记 offline、4 个 id 大小写按官方目录对齐；cache/batch 关系检查仅针对在线模型；fetch_official 的 novita 记录补充 context/max_output/status
+
 ## 26.131.82 — 2026-09-12T20:14Z（功能更新）
 
 - fix(audit): 新增 batch 价高于标准价的检查；修正 OpenAI 陈旧的 batch 价

@@ -234,7 +234,9 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
         # WARN, not FAIL: an aggregation source can itself publish an odd pair (models.dev
         # reports novita-ai xiaomimimo/mimo-v2-flash cache_read 0.3 > input 0.1), so a hard-fail
         # would block every sync for a value we cannot correctly re-derive -- surface for review.
-        for _curc in cache_read_exceeds_input(pm):
+        # Online rows only: an offline row keeps its last published spec on purpose (the same
+        # rule the limit-pair check below follows), so a WARN about it is unactionable.
+        for _curc in cache_read_exceeds_input(pm, st):
             cache_rel.append(
                 f"{p['provider_id']} :: {m['id']} ({_curc} input {pm['input'][_curc]} "
                 f"< cache_read {pm['cache_read'][_curc]})"
@@ -259,7 +261,7 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
         # batch block (copied from a sibling model) or a unit error. WARN, not FAIL: mirrors
         # cache_read_exceeds_input (an aggregation source could publish an odd pair). Real
         # 2026-09-13: openai gpt-5.6-luna/-terra inherited gpt-5.5's batch {2.5, 15}.
-        _bx = batch_exceeds_standard(m.get("pricing") or {})
+        _bx = batch_exceeds_standard(m.get("pricing") or {}, st)
         if _bx:
             _bmap2 = (m.get("pricing") or {}).get("batch") or {}
             batch_rel.append(

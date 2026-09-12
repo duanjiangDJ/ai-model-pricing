@@ -160,7 +160,7 @@
 | [watsonx.ai](providers/watsonx.md) | 推理托管 | 5 | `providers/watsonx.json` | 2026-09-04T00:22:51Z |
 | [Vercel AI Gateway](providers/vercel.md) | 聚合站 | 375 | `providers/vercel.json` | 2026-09-11T12:41:08Z |
 | [Eden AI](providers/edenai.md) | 推理托管 | 254 | `providers/edenai.json` | 2026-09-12T15:42:40Z |
-| [NovitaAI](providers/novita-ai.md) | 推理托管 | 107 | `providers/novita-ai.json` | 2026-09-04T00:22:51Z |
+| [NovitaAI](providers/novita-ai.md) | 推理托管 | 107 | `providers/novita-ai.json` | 2026-09-12T22:24:33Z |
 | [Upstage](providers/upstage.md) | 推理托管 | 4 | `providers/upstage.json` | 2026-09-04T00:22:51Z |
 | [DevPass (LLM Gateway)](providers/llmgateway.md) | 聚合站 | 564 | `providers/llmgateway.json` | 2026-09-12T15:42:40Z |
 | [Chutes](providers/chutes.md) | 推理托管 | 14 | `providers/chutes.json` | 2026-09-04T00:22:51Z |

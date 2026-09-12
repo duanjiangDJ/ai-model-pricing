@@ -212,6 +212,14 @@ walk away — that leaves the writer broken and the bug returns).
   a parser can start returning 0 or silently fall back (Wayback). Distinguish a real data
   gap from a **source-shape change** — a parse-0 that is not a gap is a checker that needs
   updating, not a data loss.
+- **Catalog membership drift (aggregator vs vendor).** A provider fed only by an aggregation
+  source has its `online` flag and id CASING unverified: the aggregator keeps retired models and
+  lags new ones, so `status: online` can outlive the vendor's support while a live model sits
+  under a stale casing (two rows for one logical model). Reconcile membership against the
+  vendor's OWN `/models` endpoint (`python scripts/tools/fetch_official.py <provider>`), never
+  the aggregator: absence from the live catalog — or a 404 on the per-model URL — means retired
+  -> `status: offline` + a provenance note (prices kept as history); a case-only mismatch means
+  the ID is stale, not the model.
 - **Repair cross-check.** After a §15.2 fix, confirm it didn't introduce a NEW problem (not
   just validate/audit green) — e.g. a "fix" that re-breaks a sibling field or currency.
 
