@@ -419,12 +419,16 @@ def print_sync_summary():
     labels_zh = (("input", "入"), ("output", "出"), ("cache_read", "缓存"))
     for (pid, kind) in sorted(groups):
         items = groups[(pid, kind)]
-        n = sum(_model_list(i.get("item_id", "?"))[1] for i in items)
-        # merge model names across entries of the same provider+kind
+        # Merge model names across ALL entries of this provider+kind and count DISTINCT
+        # models ONCE. A model can legitimately appear in more than one entry in a single
+        # run (a per-model pass AND an aggregate pass, or a price + batch entry); the old
+        # per-entry sum counted it once per entry, so the reported "updated N" disagreed
+        # with the model list printed next to it (real 2026-09-12: "updated 4" listing 3
+        # models; several historical "mistral (updated 4)" entries listing only 2).
         merged = []
         for i in items:
-            merged += [x for x in dict.fromkeys(str(i.get("item_id", "?")).split(",")) if x]
-        shown, _ = _model_list(",".join(merged))
+            merged += [x for x in str(i.get("item_id", "?")).split(",") if x]
+        shown, n = _model_list(",".join(merged))  # _model_list dedupes -> distinct count
         if kind == "add":
             en.append(f"- **{pid}** (+{n}): {shown}")
             zh.append(f"- **{pid}**（新增 {n}）：{shown}")

@@ -327,7 +327,8 @@ def update_model_prices(provider, updates, now, source, surge_factor=5.0):
                         surge_skips.append({"model_id": mid, "field": k, "currency": currency, "stored": ov, "official": nv})
                         continue
                 cur_old[currency] = nv
-                changed.append(mid)
+                if mid not in changed:
+                    changed.append(mid)
             pm[k] = cur_old if cur_old else None
         # billing_model sync: once a model has a real (positive) token price in ANY currency,
         # it is billed per token — correct stale free/subscription/unknown labels.
@@ -342,7 +343,8 @@ def update_model_prices(provider, updates, now, source, surge_factor=5.0):
                   for k, v in data["batch"].items()}
             if m["pricing"].get("batch") != nb:
                 m["pricing"]["batch"] = nb
-                changed.append(mid)
+                if mid not in changed:
+                    changed.append(mid)
         # Provenance notes. Persist when the price/billing changed, and ALSO to backfill a
         # model that has no note yet: a check that VERIFIES an already-correct price (nothing
         # changed) must still be able to stamp its official source, or a model whose price the
