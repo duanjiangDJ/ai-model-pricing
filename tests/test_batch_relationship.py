@@ -67,5 +67,16 @@ class TestBatchExceedsStandard(unittest.TestCase):
         self.assertEqual(batch_exceeds_standard(pricing), [])
 
 
+    def test_offline_row_is_exempt(self):
+        # Same rule as the cache-relationship check: a retired row keeps its last published
+        # spec on purpose, so the WARN is unactionable for it.
+        pricing = {
+            "per_mtok": {"input": {"usd": 0.2}, "output": {"usd": 1}},
+            "batch": {"input": {"usd": 2.5}, "output": {"usd": 15}},
+        }
+        self.assertEqual(batch_exceeds_standard(pricing, "offline"), [])
+        self.assertEqual(batch_exceeds_standard(pricing, "online"), ["input", "output"])
+
+
 if __name__ == "__main__":
     unittest.main()

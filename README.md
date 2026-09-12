@@ -67,8 +67,8 @@ systems, GPU-second pricing, consumer subscriptions, and coding-tool plans.
 
 | Status | Models |
 |---|---|
-| online | 7549 |
-| offline | 45 |
+| online | 7520 |
+| offline | 74 |
 | (unmarked) | 0 |
 
 ### Top providers by model count

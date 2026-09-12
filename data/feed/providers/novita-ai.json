@@ -7,9 +7,40 @@
   "homepage": "https://novita.ai/docs/guides/introduction",
   "pricing_page": "https://novita.ai/docs/guides/introduction",
   "currency": "USD",
-  "updated_at": "2026-09-04T00:22:51Z",
-  "verified_at": "2026-09-04T00:22:51Z",
+  "updated_at": "2026-09-12T22:24:33Z",
+  "verified_at": "2026-09-12T22:24:33Z",
   "models": [
+    {
+      "id": "Sao10K/L3-8B-Stheno-v3.2",
+      "name": "L3 8B Stheno V3.2",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 8192,
+      "max_output": 32000,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.05
+          },
+          "output": {
+            "usd": 0.05
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "models.dev official list price; id casing aligned to Novita's live catalog (api.novita.ai/openai/v1/models), checked 2026-09-12",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
     {
       "id": "baichuan/baichuan-m2-32b",
       "name": "baichuan-m2-32b",
@@ -97,11 +128,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/baidu/ernie-4.5-21B-a3b-thinking); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "baidu/ernie-4.5-300b-a47b-paddle",
@@ -128,11 +159,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/baidu/ernie-4.5-300b-a47b-paddle); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "baidu/ernie-4.5-vl-28b-a3b",
@@ -159,11 +190,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/baidu/ernie-4.5-vl-28b-a3b); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "baidu/ernie-4.5-vl-28b-a3b-thinking",
@@ -190,11 +221,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/baidu/ernie-4.5-vl-28b-a3b-thinking); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "baidu/ernie-4.5-vl-424b-a47b",
@@ -252,11 +283,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/deepseek/deepseek-ocr); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "deepseek/deepseek-ocr-2",
@@ -314,11 +345,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/deepseek/deepseek-prover-v2-671b); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "deepseek/deepseek-r1-0528",
@@ -440,11 +471,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/deepseek/deepseek-r1-distill-qwen-14b); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "deepseek/deepseek-r1-distill-qwen-32b",
@@ -471,11 +502,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/deepseek/deepseek-r1-distill-qwen-32b); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "deepseek/deepseek-r1-turbo",
@@ -535,11 +566,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/deepseek/deepseek-v3-0324); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "deepseek/deepseek-v3-turbo",
@@ -566,11 +597,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/deepseek/deepseek-v3-turbo); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "deepseek/deepseek-v3.1",
@@ -950,11 +981,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/inclusionai/ling-2.6-1t); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "inclusionai/ling-2.6-flash",
@@ -983,11 +1014,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/inclusionai/ling-2.6-flash); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "inclusionai/ring-2.6-1t",
@@ -1016,11 +1047,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/inclusionai/ring-2.6-1t); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "kwaipilot/kat-coder-pro",
@@ -1049,11 +1080,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/kwaipilot/kat-coder-pro); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "meta-llama/llama-3-70b-instruct",
@@ -1080,11 +1111,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/meta-llama/llama-3-70b-instruct); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "meta-llama/llama-3-8b-instruct",
@@ -1111,11 +1142,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/meta-llama/llama-3-8b-instruct); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "meta-llama/llama-3.1-8b-instruct",
@@ -1173,11 +1204,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/meta-llama/llama-3.2-3b-instruct); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "meta-llama/llama-3.3-70b-instruct",
@@ -2001,11 +2032,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/qwen/qwen2.5-7b-instruct); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "qwen/qwen2.5-vl-72b-instruct",
@@ -2032,11 +2063,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/qwen/qwen2.5-vl-72b-instruct); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "qwen/qwen3-235b-a22b-fp8",
@@ -2156,11 +2187,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/qwen/qwen3-30b-a3b-fp8); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "qwen/qwen3-32b-fp8",
@@ -2187,11 +2218,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/qwen/qwen3-32b-fp8); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "qwen/qwen3-4b-fp8",
@@ -2218,11 +2249,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/qwen/qwen3-4b-fp8); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "qwen/qwen3-8b-fp8",
@@ -2249,11 +2280,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/qwen/qwen3-8b-fp8); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "qwen/qwen3-coder-30b-a3b-instruct",
@@ -2435,11 +2466,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/qwen/qwen3-next-80b-a3b-thinking); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "qwen/qwen3-omni-30b-a3b-instruct",
@@ -2621,11 +2652,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/qwen/qwen3-vl-30b-a3b-thinking); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "qwen/qwen3-vl-8b-instruct",
@@ -2652,11 +2683,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/qwen/qwen3-vl-8b-instruct); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "qwen/qwen3.5-122b-a10b",
@@ -2816,38 +2847,7 @@
       "status": "online"
     },
     {
-      "id": "sao10K/L3-8B-stheno-v3.2",
-      "name": "L3 8B Stheno V3.2",
-      "category": "chat",
-      "modalities": [
-        "text"
-      ],
-      "context_window": 8192,
-      "max_output": 32000,
-      "pricing": {
-        "per_mtok": {
-          "input": {
-            "usd": 0.05
-          },
-          "output": {
-            "usd": 0.05
-          },
-          "cache_read": null,
-          "cache_write": null
-        },
-        "batch": null,
-        "per_image": null,
-        "per_audio_second": null,
-        "per_request": null
-      },
-      "notes": "models.dev official list price",
-      "billing_model": [
-        "pay_per_token"
-      ],
-      "status": "online"
-    },
-    {
-      "id": "sao10K/l3-70b-euryale-v2.1",
+      "id": "sao10k/l3-70b-euryale-v2.1",
       "name": "L3 70B Euryale V2.1\t",
       "category": "chat",
       "modalities": [
@@ -2871,14 +2871,14 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price; id casing aligned to Novita's live catalog (api.novita.ai/openai/v1/models), checked 2026-09-12",
       "billing_model": [
         "pay_per_token"
       ],
       "status": "online"
     },
     {
-      "id": "sao10K/l3-8b-lunaris",
+      "id": "sao10k/l3-8b-lunaris",
       "name": "Sao10k L3 8B Lunaris\t",
       "category": "chat",
       "modalities": [
@@ -2902,14 +2902,14 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price; id casing aligned to Novita's live catalog (api.novita.ai/openai/v1/models), checked 2026-09-12",
       "billing_model": [
         "pay_per_token"
       ],
       "status": "online"
     },
     {
-      "id": "sao10K/l31-70b-euryale-v2.2",
+      "id": "sao10k/l31-70b-euryale-v2.2",
       "name": "L31 70B Euryale V2.2",
       "category": "chat",
       "modalities": [
@@ -2933,7 +2933,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "models.dev official list price; id casing aligned to Novita's live catalog (api.novita.ai/openai/v1/models), checked 2026-09-12",
       "billing_model": [
         "pay_per_token"
       ],
@@ -2966,11 +2966,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/xiaomimimo/mimo-v2-flash); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "xiaomimimo/mimo-v2-pro",
@@ -2999,11 +2999,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/xiaomimimo/mimo-v2-pro); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "xiaomimimo/mimo-v2.5-pro",
@@ -3096,11 +3096,11 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price",
+      "notes": "Retired at Novita; absent from the vendor's live catalog (checked 2026-09-12, 404 on its per-model API URL https://api.novita.ai/openai/v1/models/zai-org/glm-4.5); last published models.dev price kept as a historical entry.",
       "billing_model": [
         "pay_per_token"
       ],
-      "status": "online"
+      "status": "offline"
     },
     {
       "id": "zai-org/glm-4.5-air",

@@ -357,6 +357,16 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
   now queries that first-party catalog (registered 2026-09-12); the write-path reconciliation (a
   first-party collector so a retired model is marked `offline` instead of re-stamped online each
   sync) changes value semantics and needs sign-off.
+  **Repaired for novita 2026-09-13 (the data half):** the 29 retired rows are now `status:
+  offline` with a provenance note (live-catalog absence + the per-model 404 URL), and the 4
+  wrong-case ids were renamed to the vendor's casing. The marking PERSISTS because no writer ever
+  emits a per-model `status` for an aggregator-only provider: `collect_modelsdev` supplies
+  prices/notes only, and `update_model_prices` writes `status` only when an update carries one —
+  so the "needs sign-off" concern covers the still-open half alone (a new model has no row for
+  `update_model_prices` to patch, so the 39 live-but-absent models must be SEEDED, and the
+  first-party collector is what keeps membership fresh). `fetch_official`'s novita record now
+  carries `context_window` / `max_output` / `status` (not just the price) so membership and the
+  limit pair are verifiable from the vendor catalog.
 
 - **A model id's CASE is part of its key — a casing change creates a DUPLICATE row, not an update.**
   `update_model_prices()` and the providers' `by_id` maps resolve ids EXACTLY, so when an aggregator

@@ -233,8 +233,12 @@ def case_variant_duplicate_ids(ids):
     return {k: sorted(v) for k, v in groups.items() if len(v) > 1}
 
 
-def cache_read_exceeds_input(pm):
+def cache_read_exceeds_input(pm, status=None):
     """Return the currencies where cache_read > input on the same model.
+
+    An ``offline`` row (``status="offline"``) is EXEMPT: a retired row keeps its last published
+    spec as a historical record on purpose, so a WARN about it can never be actioned -- the same
+    rule the limit-pair check applies. Pass the row's status to get that exemption.
 
     A cache HIT can never cost more than an uncached input token, so `cache_read > input`
     is impossible -- the signature of a parser COLUMN SWAP (a pricing page that renders the
@@ -246,6 +250,8 @@ def cache_read_exceeds_input(pm):
     kilo openai/gpt-oss-20b cache_read 0.03 > input 0.02 (a value its declared source
     models.dev no longer publishes -- update_model_prices never clears a removed value).
     """
+    if status == "offline":
+        return []
     inp = (pm or {}).get("input")
     cr = (pm or {}).get("cache_read")
     if not isinstance(inp, dict) or not isinstance(cr, dict):
@@ -260,8 +266,11 @@ def cache_read_exceeds_input(pm):
     return bad
 
 
-def batch_exceeds_standard(pricing):
+def batch_exceeds_standard(pricing, status=None):
     """Return the batch fields ("input"/"output") whose price exceeds the standard rate.
+
+    An ``offline`` row (``status="offline"``) is EXEMPT, for the same reason as
+    ``cache_read_exceeds_input``: a retired row keeps its last published spec on purpose.
 
     A batch API is a DISCOUNT on the standard rate (OpenAI / Google / Anthropic / xAI batch
     is ~50-80% of standard), so `batch.<field> > per_mtok.<field>` is impossible: it is the
@@ -275,6 +284,8 @@ def batch_exceeds_standard(pricing):
     Callers surface this as a WARN, never a hard-fail: the repo mirrors its declared source,
     and an aggregation source could publish an odd pair (mirrors cache_read_exceeds_input).
     """
+    if status == "offline":
+        return []
     if not isinstance(pricing, dict):
         return []
     pm = pricing.get("per_mtok") or {}
