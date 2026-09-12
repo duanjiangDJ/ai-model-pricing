@@ -151,7 +151,20 @@ def table_block(lang):
     return "\n".join(lines)
 
 
-if __name__ == "__main__":
+def refresh_docs():
+    """Regenerate the PROVIDERS:BEGIN/END table in both docs/providers*.md files.
+
+    Returns the list of files whose content actually changed.
+
+    Import-safe: this module performs no work at import time, and the function is called from
+    two places -- the CLI (``python scripts/provider_status.py``) and ``scripts/build_human.py``,
+    which runs in BOTH the 3h bot sync (daily-check.yml) and the PR gate. That hook is what keeps
+    the pages from drifting: they are GENERATED ("never edit by hand" -- see the file header), but
+    nothing used to re-run this generator, so a model count changing never touched them and no gate
+    compared them. Real 2026-09-12: the committed docs/providers.md still advertised openrouter 426
+    models / deepseek 5 / mistral 34 / edenai 255 while the data had moved to 445 / 6 / 35 / 254.
+    """
+    changed = []
     for readme, lang in (("docs/providers.md", "en"), ("docs/providers.zh-CN.md", "zh-CN")):
         t = open(readme, encoding="utf-8").read()
         block = table_block(lang)
@@ -159,8 +172,17 @@ if __name__ == "__main__":
         end = "<!-- PROVIDERS:END -->"
         section = f"{begin}\n\n{block}\n\n{end}"
         if begin in t:
-            t = re.sub(rf"{re.escape(begin)}.*?{re.escape(end)}", section, t, flags=re.S)
+            new = re.sub(rf"{re.escape(begin)}.*?{re.escape(end)}", section, t, flags=re.S)
         else:
-            t += "\n\n" + section
-        open(readme, "w", encoding="utf-8").write(t)
-        print(f"providers table updated ({lang})")
+            new = t + "\n\n" + section
+        if new != t:
+            open(readme, "w", encoding="utf-8").write(new)
+            changed.append(readme)
+            print(f"providers table updated ({lang})")
+        else:
+            print(f"providers table already current ({lang})")
+    return changed
+
+
+if __name__ == "__main__":
+    refresh_docs()

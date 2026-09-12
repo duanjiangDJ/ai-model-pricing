@@ -16,6 +16,10 @@
 
 ---
 
+## 26.130.80 — 2026-09-12T17:54Z（功能更新）
+
+- 修复生成文档漂移：build_human 自动重渲染 docs/providers*.md，audit 新增硬性校验
+
 ## 26.130.79 — 2026-09-12T16:47Z（功能更新）
 
 - docs(agents): 记录 deepinfra / nano-gpt 的官方 JSON 价格 API（stub tier1 探针会掩盖真正的第一方 API）

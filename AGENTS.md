@@ -217,6 +217,13 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    via at least one secondary source where possible. Record `source` URLs and `verified_at`.
 2. Edit `data/feed/providers/<id>.json` or `plans.json` directly; **never edit `data/view/`**
    (run `python scripts/build_human.py` instead — it regenerates both en and zh-CN pages).
+   `docs/providers.md` / `docs/providers.zh-CN.md` are generated too (by
+   `provider_status.table_block()`), and `build_human.py` now calls
+   `provider_status.refresh_docs()` so BOTH the 3h sync and the PR check re-render them. They used
+   to be refreshed only when someone remembered to run `python scripts/provider_status.py`, so the
+   per-provider `Models` counts drifted silently with nothing to catch them (real 2026-09-12:
+   committed openrouter 426 / deepseek 5 / mistral 34 / edenai 255 vs data 445 / 6 / 35 / 254).
+   `audit.py` check #10 hard-fails a stale page — never hand-edit it, run the generator.
 3. After any data change, run `python scripts/validate.py` (needs `pip install jsonschema`).
    It checks schema conformance, index count consistency, and duplicate model ids.
 4. When prices change: update the value(s) AND `verified_at`/`updated_at`, then append a
