@@ -16,6 +16,11 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.140.92 — 2026-09-13T21:59Z (content update)
+
+- price sync (1 change):
+- **openrouter** (updated 1): `deepseek/deepseek-v4-flash`
+
 ## 26.139.92 — 2026-09-13T20:44Z (content update)
 
 - price sync (7 changes): kilo 3, openrouter 6
