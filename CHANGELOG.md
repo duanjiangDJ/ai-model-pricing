@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.133.84 — 2026-09-13T01:53Z (content update)
+
+- fix(requesty): correct thinkingcap-qwen3.6-27b cache_read to its models.dev source (0.26 -> 0.05), resolving a >5x surge-guard skip that could never self-heal
+
 ## 26.132.84 — 2026-09-13T01:00Z (content update)
 
 - price sync (21 changes, 2 verification records):
