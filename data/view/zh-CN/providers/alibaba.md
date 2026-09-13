@@ -39,7 +39,7 @@
 | `qwen3-235b-a22b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.7 | $2.8 | — | — | —/— | — | models.dev official list price |
 | `qwen3-32b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.16 | $0.64 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen3-8b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.18 | $0.7 | — | — | —/— | — | models.dev official list price |
-| `qwen3-asr-flash` | ✅ 在线 | chat | 按量 | 53.248K | $0.035 | $0.035 | — | — | —/— | — | models.dev official list price |
+| `qwen3-asr-flash` | ✅ 在线 | audio_stt | 按量 | 53.248K | $0.035 | $0.035 | — | — | —/— | — | models.dev official list price |
 | `qwen3-coder-30b-a3b-instruct` | ✅ 在线 | chat | 按量 | 262.144K | $0.45 | $2.25 | — | — | —/— | — | models.dev official list price |
 | `qwen3-coder-480b-a35b-instruct` | ✅ 在线 | chat | 按量 | 262.144K | $1.5 | $7.5 | — | — | —/— | — | models.dev official list price |
 | `qwen3-coder-flash` | ✅ 在线 | chat | 按量 | 1M | $0.3 | $1.5 | — | — | —/— | — | models.dev official list price |

@@ -1763,7 +1763,7 @@
     {
       "id": "qwen3-asr-flash",
       "name": "Qwen3-ASR Flash",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],

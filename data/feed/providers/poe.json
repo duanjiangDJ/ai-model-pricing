@@ -1369,7 +1369,7 @@
     {
       "id": "google/nano-banana",
       "name": "Nano-Banana",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -1402,7 +1402,7 @@
     {
       "id": "google/nano-banana-pro",
       "name": "Nano-Banana-Pro",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -3840,7 +3840,7 @@
     {
       "id": "stabilityai/stablediffusionxl",
       "name": "StableDiffusionXL",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],

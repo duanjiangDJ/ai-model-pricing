@@ -69,7 +69,7 @@
 | `qwen3-235b-a22b` | ✅ online | reasoning | per-token | 131.072K | $0.287 | $1.147 | — | — | —/— | — | models.dev official list price |
 | `qwen3-32b` | ✅ online | reasoning | per-token | 131.072K | $0.287 | $1.147 | — | — | —/— | — | models.dev official list price |
 | `qwen3-8b` | ✅ online | reasoning | per-token | 131.072K | $0.072 | $0.287 | — | — | —/— | — | models.dev official list price |
-| `qwen3-asr-flash` | ✅ online | chat | per-token | 53.248K | $0.032 | $0.032 | — | — | —/— | — | models.dev official list price |
+| `qwen3-asr-flash` | ✅ online | audio_stt | per-token | 53.248K | $0.032 | $0.032 | — | — | —/— | — | models.dev official list price |
 | `qwen3-coder-30b-a3b-instruct` | ✅ online | chat | per-token | 262.144K | $0.216 | $0.861 | — | — | —/— | — | models.dev official list price |
 | `qwen3-coder-480b-a35b-instruct` | ✅ online | chat | per-token | 262.144K | $0.861 | $3.441 | — | — | —/— | — | models.dev official list price |
 | `qwen3-coder-flash` | ✅ online | chat | per-token | 1M | $0.144 | $0.574 | — | — | —/— | — | models.dev official list price |

@@ -48,7 +48,7 @@
 | `fal-ai/elevenlabs/tts/multilingual-v2` | ✅ online | audio_tts | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
 | `fal-ai/fast-sdxl` | ✅ online | image_gen | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
 | `fal-ai/flux/schnell` | ✅ online | image_gen | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
-| `fal-ai/stable-audio-25/text-to-audio` | ✅ online | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
+| `fal-ai/stable-audio-25/text-to-audio` | ✅ online | audio_tts | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
 | `gemma-4-31B-it` | ✅ online | chat | per-token | 256K | $0.18 | $0.5 | $0.036 | — | —/— | — | models.dev official list price |
 | `glm-5` | ✅ online | reasoning | per-token | 64K | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
 | `glm-5.1` | ✅ online | reasoning | per-token | 163.84K | $1.3 | $4.3 | $0.26 | — | —/— | — | models.dev official list price |

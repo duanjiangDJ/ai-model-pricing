@@ -340,6 +340,19 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    carries those families too, and `tier0_zai.py` (which appends brand-new official models) uses
    `category_signature_hint()` instead of a hardcoded `"chat"`. When a new generator family
    appears, add its marker AND recategorise the rows in the same change.
+   **Round 3 (2026-09-14, found by the §15.1 proactive sweep):** three failure modes a
+   "families already seen" pass still leaves behind — (a) a *task* marker nobody encoded (`asr`;
+   `stepaudio-2.5-asr` and `qwen3-asr-flash` were chat), (b) a marker that only matches ONE
+   spelling of the same name (`stable-diffusion` vs poe's hyphen-less `stablediffusionxl`), and
+   (c) a spelled-out synonym (`text-to-speech` known, `text-to-audio` not). Make a marker
+   hyphen/separator-OPTIONAL and encode the synonym, then recategorise (13 rows across 6
+   providers). Also: a vendor-family marker (`fish-audio`) must be inserted AFTER the more
+   specific rule it would otherwise outrank — `fish-audio/transcribe-1` is `audio_stt`, so the
+   family's `audio_tts` marker belongs below the `whisper|transcribe|asr` rule; the test
+   `test_asr_does_not_steal_the_tts_rows` pins that ordering. Do NOT encode an id whose correct
+   bucket is not derivable (`gpt-audio`, `grok-voice-*`, `nemotron-voicechat`, `studiovoice`,
+   `elevenlabs-music`: audio_tts vs audio_understanding vs realtime is a judgment call) — that
+   just moves the error, so it stays a WARN and is listed in the test as deliberately unclassified.
 
 ## Automation (daily check)
 
