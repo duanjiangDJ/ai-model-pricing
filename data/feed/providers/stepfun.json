@@ -214,7 +214,7 @@
     {
       "id": "stepaudio-2.5-asr",
       "name": "StepAudio 2.5 ASR",
-      "category": "chat",
+      "category": "audio_stt",
       "modalities": [
         "text"
       ],

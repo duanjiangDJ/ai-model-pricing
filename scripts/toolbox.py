@@ -42,11 +42,23 @@ CATEGORY_SIGNATURES = (
     # `wan` carry an id boundary because `thinkingmachines/Inkling` is an ordinary chat model.
     (re.compile(r"video|veo|sora|seedance|runway|hailuo|lumalabs|ray-?2($|[/_.-])|t2v|i2v|r2v|"
                 r"(^|[/_.-])kling|(^|[/_.-])wan"), "video_gen"),
-    (re.compile(r"whisper|transcribe"), "audio_stt"),
-    (re.compile(r"(^|[/_.-])tts([/_.-]|$)|-tts$|tts-|text-to-speech"), "audio_tts"),
+    # Speech-to-text: `whisper`/`transcribe` plus the `asr` family marker (Alibaba
+    # `qwen3-asr-flash`, StepFun `stepaudio-2.5-asr`) -- both were classified "chat" because
+    # the table only knew the two literal words. Boundary-anchored so a random substring
+    # cannot match.
+    (re.compile(r"whisper|transcribe|(^|[/_.-])asr([/_.-]|$)"), "audio_stt"),
+    # Text-to-speech: the `tts` marker, the spelled-out phrase, and the `text-to-audio` variant
+    # (`fal-ai/stable-audio-25/text-to-audio`). `fish-audio/*` is the Fish Audio TTS/voice-
+    # cloning family (`s1`, `s2-pro`, `s2.1-pro`); it sits AFTER the stt rule on purpose so
+    # `fish-audio/transcribe-1` keeps matching `transcribe` -> audio_stt.
+    (re.compile(r"(^|[/_.-])tts([/_.-]|$)|-tts$|tts-|text-to-speech|text-to-audio|fish-audio"),
+     "audio_tts"),
     (re.compile(r"rerank|re-rank"), "rerank"),
     (re.compile(r"embed|bge|e5-|e5_|gte-|gte_|mpnet|minilm|mini-lm|mini_lm"), "embedding"),
-    (re.compile(r"stable-diffusion|sdxl|flux|imagen"), "image_gen"),
+    # `stable-?diffusion` is hyphen-OPTIONAL: poe spells SDXL `stablediffusionxl`, which the
+    # literal `stable-diffusion` marker missed. `nano-?banana` is the published alias of
+    # Google's Gemini image family (poe lists `google/nano-banana[-pro]`).
+    (re.compile(r"stable-?diffusion|sdxl|flux|imagen|nano-?banana"), "image_gen"),
 )
 
 

@@ -48,7 +48,7 @@
 | `fal-ai/elevenlabs/tts/multilingual-v2` | ✅ 在线 | audio_tts | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
 | `fal-ai/fast-sdxl` | ✅ 在线 | image_gen | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
 | `fal-ai/flux/schnell` | ✅ 在线 | image_gen | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
-| `fal-ai/stable-audio-25/text-to-audio` | ✅ 在线 | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
+| `fal-ai/stable-audio-25/text-to-audio` | ✅ 在线 | audio_tts | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
 | `gemma-4-31B-it` | ✅ 在线 | chat | 按量 | 256K | $0.18 | $0.5 | $0.036 | — | —/— | — | models.dev official list price |
 | `glm-5` | ✅ 在线 | reasoning | 按量 | 64K | $1 | $3.2 | $0.2 | — | —/— | — | models.dev official list price |
 | `glm-5.1` | ✅ 在线 | reasoning | 按量 | 163.84K | $1.3 | $4.3 | $0.26 | — | —/— | — | models.dev official list price |

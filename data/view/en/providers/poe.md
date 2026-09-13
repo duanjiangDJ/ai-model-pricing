@@ -57,8 +57,8 @@
 | `google/imagen-4-fast` | ✅ online | image_gen | per-token | 480 | — | — | — | — | —/— | — | models.dev official list price |
 | `google/imagen-4-ultra` | ✅ online | image_gen | per-token | 480 | — | — | — | — | —/— | — | models.dev official list price |
 | `google/lyria` | ✅ online | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
-| `google/nano-banana` | ✅ online | chat | per-token | 65.536K | $0.21 | $1.8 | $0.021 | — | —/— | — | models.dev official list price |
-| `google/nano-banana-pro` | ✅ online | chat | per-token | 65.536K | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
+| `google/nano-banana` | ✅ online | image_gen | per-token | 65.536K | $0.21 | $1.8 | $0.021 | — | —/— | — | models.dev official list price |
+| `google/nano-banana-pro` | ✅ online | image_gen | per-token | 65.536K | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `google/veo-2` | ✅ online | video_gen | per-token | 480 | — | — | — | — | —/— | — | models.dev official list price |
 | `google/veo-3` | ✅ online | video_gen | per-token | 480 | — | — | — | — | —/— | — | models.dev official list price |
 | `google/veo-3-fast` | ✅ online | video_gen | per-token | 480 | — | — | — | — | —/— | — | models.dev official list price |
@@ -138,7 +138,7 @@
 | `poetools/claude-code` | ✅ online | reasoning | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
 | `runwayml/runway` | ✅ online | video_gen | per-token | 256 | — | — | — | — | —/— | — | models.dev official list price |
 | `runwayml/runway-gen-4-turbo` | ✅ online | video_gen | per-token | 256 | — | — | — | — | —/— | — | models.dev official list price |
-| `stabilityai/stablediffusionxl` | ✅ online | chat | per-token | 200 | — | — | — | — | —/— | — | models.dev official list price |
+| `stabilityai/stablediffusionxl` | ✅ online | image_gen | per-token | 200 | — | — | — | — | —/— | — | models.dev official list price |
 | `topazlabs-co/topazlabs` | ✅ online | chat | per-token | 204 | — | — | — | — | —/— | — | models.dev official list price |
 | `trytako/tako` | ✅ online | chat | per-token | 2.048K | — | — | — | — | —/— | — | models.dev official list price |
 | `xai/grok-3` | ✅ online | chat | per-token | 131.072K | $3 | $15 | $0.75 | — | —/— | — | models.dev official list price |

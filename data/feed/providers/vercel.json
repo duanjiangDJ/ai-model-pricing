@@ -3264,7 +3264,7 @@
     {
       "id": "fish-audio/s1",
       "name": "S1",
-      "category": "chat",
+      "category": "audio_tts",
       "modalities": [
         "text"
       ],
@@ -3291,7 +3291,7 @@
     {
       "id": "fish-audio/s1-free",
       "name": "S1 (Free)",
-      "category": "chat",
+      "category": "audio_tts",
       "modalities": [
         "text"
       ],
@@ -3318,7 +3318,7 @@
     {
       "id": "fish-audio/s2-pro",
       "name": "S2 Pro",
-      "category": "chat",
+      "category": "audio_tts",
       "modalities": [
         "text"
       ],
@@ -3345,7 +3345,7 @@
     {
       "id": "fish-audio/s2-pro-free",
       "name": "S2 Pro (Free)",
-      "category": "chat",
+      "category": "audio_tts",
       "modalities": [
         "text"
       ],
@@ -3372,7 +3372,7 @@
     {
       "id": "fish-audio/s2.1-pro",
       "name": "S2.1 Pro",
-      "category": "chat",
+      "category": "audio_tts",
       "modalities": [
         "text"
       ],
@@ -3399,7 +3399,7 @@
     {
       "id": "fish-audio/s2.1-pro-free",
       "name": "S2.1 Pro (Free)",
-      "category": "chat",
+      "category": "audio_tts",
       "modalities": [
         "text"
       ],

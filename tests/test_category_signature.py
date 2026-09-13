@@ -65,6 +65,16 @@ class TestCategorySignatureHint(unittest.TestCase):
             "wan2.7-image-pro": "image_gen",
             "xai/grok-imagine-image-2.0": "image_gen",
             "meta/muse-image-1.0": "image_gen",
+            # round 3 (2026-09-14): whole families the table still missed, each found by a
+            # proactive audit sweep -- every one of these rows was published as "chat".
+            "stepfun/stepaudio-2.5-asr": "audio_stt",        # `asr` was not a marker at all
+            "qwen3-asr-flash": "audio_stt",
+            "fal-ai/stable-audio-25/text-to-audio": "audio_tts",  # only text-to-SPEECH was known
+            "stabilityai/stablediffusionxl": "image_gen",    # `stable-diffusion` was hyphen-literal
+            "google/nano-banana": "image_gen",               # Google Gemini image alias
+            "google/nano-banana-pro": "image_gen",
+            "fish-audio/s1": "audio_tts",                    # Fish Audio TTS family
+            "fish-audio/s2.1-pro-free": "audio_tts",
         }
         for mid, want in cases.items():
             self.assertEqual(category_signature_hint(mid), want, mid)
@@ -74,6 +84,26 @@ class TestCategorySignatureHint(unittest.TestCase):
                     "meta-llama/llama-4-maverick",
                     # the `kling`/`wan` markers are boundary-anchored, so these stay chat
                     "nano-gpt/thinkingmachines/Inkling-Small", "thinkingmachines/inkling"):
+            self.assertIsNone(category_signature_hint(mid), mid)
+
+    def test_asr_does_not_steal_the_tts_rows(self):
+        # `fish-audio` is a TTS family marker but it must NOT outrank the stt rule: Fish Audio
+        # also ships `transcribe-1`, which stays audio_stt (the ordering is load-bearing).
+        self.assertEqual(category_signature_hint("fish-audio/transcribe-1"), "audio_stt")
+        self.assertEqual(category_signature_hint("fish-audio/transcribe-1-free"), "audio_stt")
+        self.assertEqual(category_signature_hint("fish-audio/s1"), "audio_tts")
+        # `asr` is boundary-anchored: a bare substring must not match.
+        self.assertIsNone(category_signature_hint("openai/gpt-5"))
+
+    def test_ambiguous_voice_models_stay_unclassified(self):
+        # Deliberately NOT in the table: gpt-audio / grok-voice-* / nemotron-voicechat / studiovoice
+        # are conversational or enhancement models whose correct bucket (audio_tts vs
+        # audio_understanding vs realtime) is not derivable from the id -- guessing would trade one
+        # wrong category for another, so they stay as the source classifies them.
+        for mid in ("openai/gpt-audio", "openai/gpt-audio-mini",
+                    "vercel/spacexai/grok-voice-think-fast-1.0",
+                    "nvidia/nemotron-voicechat", "nvidia/studiovoice",
+                    "poe/elevenlabs/elevenlabs-music"):
             self.assertIsNone(category_signature_hint(mid), mid)
 
     def test_image_before_video_precedence(self):

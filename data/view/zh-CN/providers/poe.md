@@ -57,8 +57,8 @@
 | `google/imagen-4-fast` | ✅ 在线 | image_gen | 按量 | 480 | — | — | — | — | —/— | — | models.dev official list price |
 | `google/imagen-4-ultra` | ✅ 在线 | image_gen | 按量 | 480 | — | — | — | — | —/— | — | models.dev official list price |
 | `google/lyria` | ✅ 在线 | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
-| `google/nano-banana` | ✅ 在线 | chat | 按量 | 65.536K | $0.21 | $1.8 | $0.021 | — | —/— | — | models.dev official list price |
-| `google/nano-banana-pro` | ✅ 在线 | chat | 按量 | 65.536K | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
+| `google/nano-banana` | ✅ 在线 | image_gen | 按量 | 65.536K | $0.21 | $1.8 | $0.021 | — | —/— | — | models.dev official list price |
+| `google/nano-banana-pro` | ✅ 在线 | image_gen | 按量 | 65.536K | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `google/veo-2` | ✅ 在线 | video_gen | 按量 | 480 | — | — | — | — | —/— | — | models.dev official list price |
 | `google/veo-3` | ✅ 在线 | video_gen | 按量 | 480 | — | — | — | — | —/— | — | models.dev official list price |
 | `google/veo-3-fast` | ✅ 在线 | video_gen | 按量 | 480 | — | — | — | — | —/— | — | models.dev official list price |
@@ -138,7 +138,7 @@
 | `poetools/claude-code` | ✅ 在线 | reasoning | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
 | `runwayml/runway` | ✅ 在线 | video_gen | 按量 | 256 | — | — | — | — | —/— | — | models.dev official list price |
 | `runwayml/runway-gen-4-turbo` | ✅ 在线 | video_gen | 按量 | 256 | — | — | — | — | —/— | — | models.dev official list price |
-| `stabilityai/stablediffusionxl` | ✅ 在线 | chat | 按量 | 200 | — | — | — | — | —/— | — | models.dev official list price |
+| `stabilityai/stablediffusionxl` | ✅ 在线 | image_gen | 按量 | 200 | — | — | — | — | —/— | — | models.dev official list price |
 | `topazlabs-co/topazlabs` | ✅ 在线 | chat | 按量 | 204 | — | — | — | — | —/— | — | models.dev official list price |
 | `trytako/tako` | ✅ 在线 | chat | 按量 | 2.048K | — | — | — | — | —/— | — | models.dev official list price |
 | `xai/grok-3` | ✅ 在线 | chat | 按量 | 131.072K | $3 | $15 | $0.75 | — | —/— | — | models.dev official list price |

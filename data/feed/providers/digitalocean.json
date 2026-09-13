@@ -1131,7 +1131,7 @@
     {
       "id": "fal-ai/stable-audio-25/text-to-audio",
       "name": "Stable Audio 2.5 (Text-to-Audio)",
-      "category": "chat",
+      "category": "audio_tts",
       "modalities": [
         "text"
       ],

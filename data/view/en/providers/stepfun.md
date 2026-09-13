@@ -19,7 +19,7 @@
 | `step-3.5-flash-2603` | ✅ online | reasoning | per-token | 256K | $0.1 / ¥0.7 | $0.3 / ¥2.1 | $0.02 / ¥0.14 | — | —/— | — | StepFun domestic pricing (¥/1M tokens, cache-miss/cache-hit/output): ¥0.7/¥0.… |
 | `step-3.7-flash` | ✅ online | reasoning | per-token | 256K | $0.185 / ¥1.35 | $1.11 / ¥8.1 | $0.037 / ¥0.27 | — | —/— | — | StepFun domestic pricing (¥/1M tokens, cache-miss/cache-hit/output): ¥1.35/¥0… |
 | `step-tts-2` | ✅ online | audio_tts | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
-| `stepaudio-2.5-asr` | ✅ online | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
+| `stepaudio-2.5-asr` | ✅ online | audio_stt | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
 | `stepaudio-2.5-tts` | ✅ online | audio_tts | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
 | `step-1o-turbo-vision` | ✅ online | vision | per-token | — | ¥2.5 | ¥8 | ¥0.5 | — | —/— | — | Official StepFun domestic pricing page (¥/1M tokens, cache-miss/cache-hit/out… |
 | `stepaudio-2.5-realtime` | ✅ online | realtime | per-token | — | ¥10 | ¥70 | ¥2 | — | —/— | — | Official StepFun domestic pricing page (¥/1M tokens, cache-miss/cache-hit/out… |
