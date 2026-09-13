@@ -58,7 +58,7 @@
 | `gpt-oss-120b` | ✅ online | reasoning | ? | 128K | — | — | — | — | —/— | — | models.dev official list price |
 | `gpt-oss-20b` | ✅ online | reasoning | ? | 128K | — | — | — | — | —/— | — | models.dev official list price |
 | `kimi-k2` | ✅ online | chat | ? | 128K | — | — | — | — | —/— | — | models.dev official list price |
-| `kling-v2-6` | ✅ online | chat | ? | — | — | — | — | — | —/— | — | models.dev official list price \| context_window corrected from placeholder 9… |
+| `kling-v2-6` | ✅ online | chat | ? | — | — | — | — | — | —/— | — | models.dev official list price \| context_window/max_output corrected from pl… |
 | `meituan/longcat-flash-chat` | ✅ online | chat | ? | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
 | `meituan/longcat-flash-lite` | ✅ online | chat | ? | 256K | — | — | — | — | —/— | — | models.dev official list price |
 | `mimo-v2-flash` | ✅ online | reasoning | per-token | 256K | $0.1 | $0.3 | $0.01 | — | —/— | — | models.dev official list price |

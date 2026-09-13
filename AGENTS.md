@@ -204,7 +204,15 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    DeepInfra's own first-party API (`https://api.deepinfra.com/v1/openai/models`) reports
    `context_length` 524288 / `max_tokens` 524288 for the same model, i.e. the VENDOR endpoint is the
    anchor that corrects the pair (191/191 deepinfra rows keep `max_tokens <= context_length`, 0
-   inverted). Regression: `tests/test_max_output_context.py`.
+   inverted). **Placeholder sentinels need a DIRECT range check**: models.dev stores
+   `99999999` as its "this model has no token output" sentinel. `qiniu-ai/kling-v2-6`
+   carried it in BOTH limit fields; a repair cleared `context_window` but left
+   `max_output`, and `max_output_exceeds_context()` was blind to it (the pair rule needs
+   BOTH fields to be ints, and context was null) -- so 1e8 published silently for weeks.
+   `toolbox.suspicious_max_output()` (+ the audit WARN that calls it) asserts the
+   plausible range directly, mirroring the inline `context_window` sanity check, so a
+   half-cleared placeholder pair of either field is caught. When you clear one side of a
+   placeholder pair, clear BOTH. Regression: `tests/test_max_output_context.py`.
 
 5. **A check parser must FAIL LOUDLY on a layout change, never return 0 rows.** `tier0_anthropic`
    was matching nothing for an unknown period (the page swapped the cache cells to

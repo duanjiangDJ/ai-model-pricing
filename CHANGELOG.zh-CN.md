@@ -16,6 +16,10 @@
 
 ---
 
+## 26.133.85 — 2026-09-13T03:04Z（功能更新）
+
+- audit: 新增 max_output 占位哨兵值检查（kling-v2-6 的 1e8 → null）
+
 ## 26.133.84 — 2026-09-13T01:53Z（内容更新）
 
 - 修复 requesty: 将 thinkingcap-qwen3.6-27b 的 cache_read 对齐其 models.dev 来源(0.26 -> 0.05)，解决无法自愈的 >5x 突变守卫跳过

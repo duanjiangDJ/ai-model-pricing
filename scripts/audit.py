@@ -28,6 +28,7 @@ from toolbox import (  # noqa: E402
     max_output_exceeds_context,
     mixed_currency_zero,
     price_all_zero,
+    suspicious_max_output,
 )
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -146,6 +147,13 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
         cw = m.get("context_window")
         if cw and (cw > 10_000_000 or 0 < cw < 100):
             warn(f"suspicious context_window {cw} in {p['provider_id']} :: {m['id']} (check placeholder)")
+        # max_output sanity: the SAME placeholder-sentinel class as context_window. models.dev's
+        # "no token output" sentinel is 99999999; qiniu-ai/kling-v2-6 kept it in max_output after
+        # context_window was cleared, and the pair check could not see it (context was null).
+        # The predicate lives in toolbox so it is unit-testable (see suspicious_max_output).
+        _mo = suspicious_max_output(m)
+        if _mo is not None:
+            warn(f"suspicious max_output {_mo} in {p['provider_id']} :: {m['id']} (check placeholder)")
         # per_mtok magnitude sanity: per_mtok is $ per 1M tokens. A non-zero value
         # below 1e-4 ($0.0001/1M) is impossible for any priced API and is the signature
         # of a per-token value stored as per-1M (the ~1e6x bug that once shipped, e.g.
