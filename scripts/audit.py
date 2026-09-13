@@ -26,6 +26,7 @@ from toolbox import (  # noqa: E402
     batch_exceeds_standard,
     cache_read_exceeds_input,
     max_output_exceeds_context,
+    max_output_on_non_token_category,
     mixed_currency_zero,
     price_all_zero,
     suspicious_max_output,
@@ -114,6 +115,7 @@ cache_rel = []  # cache_read > input (impossible: a cache hit cannot cost more t
 ctx_rel = []  # max_output > context_window on an ONLINE model (impossible: generated tokens occupy the context window; signature of an inverted/aggregator limit block)
 batch_rel = []  # batch.<field> > per_mtok.<field> (a batch API is a DISCOUNT on standard; impossible -> stale/shared batch block or unit error)
 cat_mismatch = []  # category contradicts an unambiguous id signature (a speech/image/embedding model published as "chat")
+nontoken_mo = []  # max_output set on a category that emits no output tokens (embedding/rerank: the value is the source's DIMENSION, not a token limit)
 for f in sorted(glob.glob("data/feed/providers/*.json")):
     p = json.load(open(f, encoding="utf-8"))
     is_sub = any(h in p["provider_id"] for h in SUB_HINTS)
@@ -284,6 +286,20 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
                 ctx_rel.append(
                     f"{p['provider_id']} :: {m['id']} (context {_lpt[0]} < max_output {_lpt[1]})"
                 )
+        # non-token-output categories must not carry `max_output` at all. An embedding/rerank
+        # model emits a vector / a score, never generated tokens, so a `max_output` here is the
+        # aggregation source's embedding DIMENSION leaking into a token field (models.dev
+        # `limit.output`). Hard-fail: publishing a vector size as a token limit is a data-truth
+        # violation of the same class as a fabricated 0 -- and it is definitely wrong, unlike the
+        # "we mirror our declared source" pair check, which is only a WARN because a *token* pair
+        # can legitimately be re-derived only from the vendor. Real 2026-09-14: 68 rows
+        # (text-embedding-3-large "max_output" 3072, ada-002 1536, bge-m3 1024, ...), 24 of them
+        # silent because the dimension did not exceed the context window.
+        _nt = max_output_on_non_token_category(m)
+        if _nt:
+            nontoken_mo.append(
+                f"{p['provider_id']} :: {m['id']} ({_nt[0]} max_output {_nt[1]})"
+            )
         # batch discount sanity: a batch API is a DISCOUNT on the standard rate, so
         # `batch.<field> > per_mtok.<field>` is impossible -- the signature of a stale/shared
         # batch block (copied from a sibling model) or a unit error. WARN, not FAIL: mirrors
@@ -536,6 +552,16 @@ if ctx_rel:
          + ", ".join(f"{pid} x{c}" for pid, c in _bctx.most_common(12)))
 else:
     print("OK limit-pair: max_output <= context_window on every online model")
+if nontoken_mo:
+    from collections import Counter as _Cnt
+    _bnt = _Cnt(u.split(" :: ")[0] for u in nontoken_mo)
+    fail(f"max_output on a category that emits no output tokens (embedding/rerank return a "
+         f"vector/score, not generated tokens -- the stored value is the aggregation source's "
+         f"DIMENSION, e.g. models.dev limit.output 3072 for text-embedding-3-large; must be "
+         f"null; {len(nontoken_mo)} models): "
+         + ", ".join(f"{pid} x{c}" for pid, c in _bnt.most_common(12)))
+else:
+    print("OK non-token-output: no embedding/rerank row carries max_output")
 if batch_rel:
     warn(f"batch price > standard price (a batch API is a DISCOUNT on the standard rate, so a "
          f"batch price above standard is impossible; signature of a stale/shared batch block "

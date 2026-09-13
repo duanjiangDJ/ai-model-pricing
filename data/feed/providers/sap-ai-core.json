@@ -111,7 +111,7 @@
         "text"
       ],
       "context_window": 8192,
-      "max_output": 1536,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": {
@@ -800,7 +800,7 @@
         "text"
       ],
       "context_window": 2048,
-      "max_output": 1,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": null,
@@ -827,7 +827,7 @@
         "text"
       ],
       "context_window": 8192,
-      "max_output": 3072,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": null,
@@ -1337,7 +1337,7 @@
         "text"
       ],
       "context_window": 8192,
-      "max_output": 4096,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": {
@@ -1492,7 +1492,7 @@
         "text"
       ],
       "context_window": 8191,
-      "max_output": 3072,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": {
@@ -1523,7 +1523,7 @@
         "text"
       ],
       "context_window": 8191,
-      "max_output": 1536,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": {

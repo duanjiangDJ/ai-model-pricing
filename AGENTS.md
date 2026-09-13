@@ -244,6 +244,19 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    plausible range directly, mirroring the inline `context_window` sanity check, so a
    half-cleared placeholder pair of either field is caught. When you clear one side of a
    placeholder pair, clear BOTH. Regression: `tests/test_max_output_context.py`.
+   **`max_output` is meaningless for a non-generative category (2026-09-14)**: an embedding or
+   rerank model emits a vector / a score, never generated tokens, so `max_output` must be `null`.
+   models.dev stores the embedding DIMENSION in `limit.output` (`text-embedding-3-large` 3072,
+   `ada-002` / `3-small` 1536, `bge-m3` 1024, `all-mini-lm-l6-v2` 384, rerankers 1) and
+   `sync_modelsdev.build_model` copied it verbatim into `max_output`, so 68 embedding/rerank rows
+   published a vector size as a token limit. The pair rule above saw only the 7 whose dimension
+   happened to EXCEED the context window; the other 61 (e.g. azure/openai
+   `text-embedding-3-large`, context 8191 with "max_output" 3072) passed silently — a check that
+   fires on only part of a bug class is itself the bug, so this one is a HARD FAIL:
+   `toolbox.max_output_on_non_token_category()` + the audit rule that calls it. `build_model` now
+   leaves `NON_TOKEN_OUTPUT_CATEGORIES` (embedding, rerank) null. Regression:
+   `tests/test_non_token_output_category.py`. To re-verify the rule, inject a violation
+   (`max_output` 3072 on an embedding row) → `audit.py` must FAIL → restore.
 
 5. **A check parser must FAIL LOUDLY on a layout change, never return 0 rows.** `tier0_anthropic`
    was matching nothing for an unknown period (the page swapped the cache cells to
