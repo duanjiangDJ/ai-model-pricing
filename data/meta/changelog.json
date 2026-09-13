@@ -1,6 +1,47 @@
 {
-  "schema_version": "26.135.86",
+  "schema_version": "26.136.86",
   "entries": [
+    {
+      "date": "2026-09-13T09:42:51Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-flash",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.04984
+          },
+          "output": {
+            "usd": 0.09968
+          },
+          "cache_read": {
+            "usd": 0.009968
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.049
+          },
+          "output": {
+            "usd": 0.098
+          },
+          "cache_read": {
+            "usd": 0.0098
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-13T06:43:26Z",
       "kind": "update",
