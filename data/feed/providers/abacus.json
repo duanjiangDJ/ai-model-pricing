@@ -918,7 +918,7 @@
     {
       "id": "gemini-2.5-flash-image",
       "name": "Nano Banana",
-      "category": "reasoning",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -1015,7 +1015,7 @@
     {
       "id": "gemini-3-pro-image",
       "name": "Nano Banana Pro",
-      "category": "reasoning",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -1048,7 +1048,7 @@
     {
       "id": "gemini-3-pro-image-preview",
       "name": "Nano Banana Pro",
-      "category": "reasoning",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -1081,7 +1081,7 @@
     {
       "id": "gemini-3.1-flash-image",
       "name": "Nano Banana 2",
-      "category": "reasoning",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -1112,7 +1112,7 @@
     {
       "id": "gemini-3.1-flash-image-preview",
       "name": "Nano Banana 2",
-      "category": "reasoning",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],

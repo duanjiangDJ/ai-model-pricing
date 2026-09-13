@@ -14,7 +14,7 @@
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `babbage-002` | ✅ 在线 | chat | 按量 | — | $0.4 | $0.4 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
-| `chatgpt-image-latest` | ❌ 下线 | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `chatgpt-image-latest` | ❌ 下线 | image_gen | 按量 | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `davinci-002` | ✅ 在线 | chat | 按量 | — | $2 | $2 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
 | `gpt-3.5-turbo` | ✅ 在线 | chat | 按量 | 16.385K | $0.5 | $1.5 | — | — | —/— | — | models.dev official list price |
 | `gpt-3.5-turbo-0125` | ✅ 在线 | chat | 按量 | — | $0.5 | $1.5 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
@@ -53,10 +53,10 @@
 | `gpt-5.6-luna` | ✅ 在线 | reasoning | 按量 | 1.05M | $0.2 | $1.2 | $0.02 | $0.25 | $0.1/$0.6 | — | Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30… |
 | `gpt-5.6-sol` | ✅ 在线 | reasoning | 按量 | 1.05M | $4 | $20 | $0.4 | $5 | $2/$10 | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
 | `gpt-5.6-terra` | ✅ 在线 | reasoning | 按量 | 1.05M | $2 | $12 | $0.2 | $2.5 | $1/$6 | — | Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30… |
-| `gpt-image-1` | ❌ 下线 | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `gpt-image-1-mini` | ❌ 下线 | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `gpt-image-1.5` | ❌ 下线 | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `gpt-image-2` | ✅ 在线 | chat | 按量 | — | $5 | $30 | $1.25 | — | —/— | — | models.dev official list price |
+| `gpt-image-1` | ❌ 下线 | image_gen | 按量 | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-image-1-mini` | ❌ 下线 | image_gen | 按量 | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-image-1.5` | ❌ 下线 | image_gen | 按量 | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-image-2` | ✅ 在线 | image_gen | 按量 | — | $5 | $30 | $1.25 | — | —/— | — | models.dev official list price |
 | `gpt-realtime-2.1` | ✅ 在线 | reasoning | 按量 | 128K | $4 | $24 | $0.4 | — | —/— | — | models.dev official list price |
 | `o1` | ❌ 下线 | reasoning | 按量 | 200K | $15 | $60 | $7.5 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `o1-pro` | ❌ 下线 | reasoning | 按量 | 200K | $150 | $600 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |

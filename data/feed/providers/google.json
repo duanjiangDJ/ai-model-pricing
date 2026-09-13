@@ -187,7 +187,7 @@
     {
       "id": "gemini-2.5-flash-image",
       "name": "Nano Banana",
-      "category": "reasoning",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -416,7 +416,7 @@
     {
       "id": "gemini-3-pro-image",
       "name": "Nano Banana Pro",
-      "category": "reasoning",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -447,7 +447,7 @@
     {
       "id": "gemini-3-pro-image-preview",
       "name": "Nano Banana Pro",
-      "category": "reasoning",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -478,7 +478,7 @@
     {
       "id": "gemini-3.1-flash-image",
       "name": "Nano Banana 2",
-      "category": "reasoning",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -509,7 +509,7 @@
     {
       "id": "gemini-3.1-flash-image-preview",
       "name": "Nano Banana 2",
-      "category": "reasoning",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -580,7 +580,7 @@
     {
       "id": "gemini-3.1-flash-lite-image",
       "name": "Nano Banana 2 Lite",
-      "category": "reasoning",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -1346,7 +1346,7 @@
     {
       "id": "veo-3.1-fast-generate-preview",
       "name": "Veo 3.1 fast",
-      "category": "chat",
+      "category": "video_gen",
       "modalities": [
         "text"
       ],
@@ -1373,7 +1373,7 @@
     {
       "id": "veo-3.1-generate-preview",
       "name": "Veo 3.1",
-      "category": "chat",
+      "category": "video_gen",
       "modalities": [
         "text"
       ],
@@ -1400,7 +1400,7 @@
     {
       "id": "veo-3.1-lite-generate-preview",
       "name": "Veo 3.1 lite",
-      "category": "chat",
+      "category": "video_gen",
       "modalities": [
         "text"
       ],

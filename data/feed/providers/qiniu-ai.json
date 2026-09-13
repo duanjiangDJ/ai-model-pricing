@@ -931,7 +931,7 @@
     {
       "id": "gemini-2.5-flash-image",
       "name": "Gemini 2.5 Flash Image",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -1039,7 +1039,7 @@
     {
       "id": "gemini-3.0-pro-image-preview",
       "name": "Gemini 3.0 Pro Image Preview",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -1228,7 +1228,7 @@
     {
       "id": "kling-v2-6",
       "name": "Kling-V2 6",
-      "category": "chat",
+      "category": "video_gen",
       "modalities": [
         "text"
       ],

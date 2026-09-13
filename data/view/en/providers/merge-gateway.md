@@ -49,13 +49,13 @@
 | `deepseek/deepseek-v4-pro-0813` | ✅ online | reasoning | per-token | 1M | $0.66 | $1.98 | $0.022 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-computer-use-preview-10-2025` | ✅ online | reasoning | per-token | 128K | $1.25 | $10 | — | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
-| `google/gemini-2.5-flash-image` | ✅ online | reasoning | per-token | 32.768K | $0.3 | $2.5 | — | — | —/— | — | models.dev official list price |
+| `google/gemini-2.5-flash-image` | ✅ online | image_gen | per-token | 32.768K | $0.3 | $2.5 | — | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-flash-lite` | ✅ online | reasoning | per-token | 1M | $0.1 | $0.4 | $0.01 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-pro` | ✅ online | reasoning | per-token | 1.04858M | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |
 | `google/gemini-3-flash-preview` | ✅ online | reasoning | per-token | 1.04858M | $0.5 | $3 | $0.05 | — | —/— | — | models.dev official list price |
-| `google/gemini-3-pro-image` | ✅ online | reasoning | per-token | 65.536K | $2 | $12 | — | — | —/— | — | models.dev official list price |
+| `google/gemini-3-pro-image` | ✅ online | image_gen | per-token | 65.536K | $2 | $12 | — | — | —/— | — | models.dev official list price |
 | `google/gemini-3-pro-preview` | ✅ online | reasoning | per-token | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
-| `google/gemini-3.1-flash-image` | ✅ online | reasoning | per-token | 32.768K | $0.5 | $3 | — | — | —/— | — | models.dev official list price |
+| `google/gemini-3.1-flash-image` | ✅ online | image_gen | per-token | 32.768K | $0.5 | $3 | — | — | —/— | — | models.dev official list price |
 | `google/gemini-3.1-flash-lite` | ✅ online | reasoning | per-token | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |
 | `google/gemini-3.1-flash-lite-preview` | ✅ online | reasoning | per-token | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |
 | `google/gemini-3.1-pro-preview` | ✅ online | reasoning | per-token | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |

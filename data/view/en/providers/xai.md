@@ -25,8 +25,8 @@
 | `grok-build-0.1` | ❌ offline | code | per-token | 256K | $1 | $2 | $0.2 | — | —/— | — | Agentic coding model. Two-tier pricing at 200k: <200k input $1.00 / cached $0… |
 | `grok-code-fast-1` | ❌ offline | code | ? | — | — | — | — | — | —/— | — | Retired from xAI API 2026-05-15; redirects to grok-build-0.1 (recommended rep… |
 | `grok-embedding` | ✅ online | embedding | ? | — | — | — | — | — | —/— | — | No embedding model listed on official xAI pricing or models pages as of 2026-… |
-| `grok-imagine-image` | ✅ online | chat | ? | 8K | — | — | — | — | —/— | — | models.dev official list price |
-| `grok-imagine-image-2.0` | ✅ online | chat | ? | 8K | — | — | — | — | —/— | — | models.dev official list price |
-| `grok-imagine-image-quality` | ✅ online | chat | ? | 8K | — | — | — | — | —/— | — | models.dev official list price |
+| `grok-imagine-image` | ✅ online | image_gen | ? | 8K | — | — | — | — | —/— | — | models.dev official list price |
+| `grok-imagine-image-2.0` | ✅ online | image_gen | ? | 8K | — | — | — | — | —/— | — | models.dev official list price |
+| `grok-imagine-image-quality` | ✅ online | image_gen | ? | 8K | — | — | — | — | —/— | — | models.dev official list price |
 | `grok-imagine-video` | ✅ online | video_gen | ? | 1.024K | — | — | — | — | —/— | — | models.dev official list price |
 | `grok-imagine-video-1.5` | ✅ online | video_gen | ? | 1.024K | — | — | — | — | —/— | — | models.dev official list price |

@@ -1100,7 +1100,7 @@
     {
       "id": "gemini-2.5-flash-image",
       "name": "gemini-2.5-flash-image",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -1286,7 +1286,7 @@
     {
       "id": "gemini-3-pro-image-preview",
       "name": "gemini-3-pro-image-preview",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -1348,7 +1348,7 @@
     {
       "id": "gemini-3.1-flash-image-preview",
       "name": "gemini-3.1-flash-image-preview",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],

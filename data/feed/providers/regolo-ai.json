@@ -354,7 +354,7 @@
     {
       "id": "qwen-image",
       "name": "Qwen-Image",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],

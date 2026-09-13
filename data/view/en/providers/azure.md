@@ -68,9 +68,9 @@
 | `gpt-5.6-sol` | ✅ online | reasoning | per-token | 1.05M | $4 | $20 | $0.5 | — | —/— | — | models.dev official list price |
 | `gpt-5.6-terra` | ✅ online | reasoning | per-token | 1.05M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `gpt-chat-latest` | ✅ online | reasoning | per-token | 128K | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
-| `gpt-image-1` | ✅ online | chat | per-token | — | $5 | $40 | $1.25 | — | —/— | — | models.dev official list price |
-| `gpt-image-1.5` | ✅ online | chat | per-token | — | $5 | $32 | $1.25 | — | —/— | — | models.dev official list price |
-| `gpt-image-2` | ✅ online | chat | per-token | — | $5 | $30 | $1.25 | — | —/— | — | models.dev official list price |
+| `gpt-image-1` | ✅ online | image_gen | per-token | — | $5 | $40 | $1.25 | — | —/— | — | models.dev official list price |
+| `gpt-image-1.5` | ✅ online | image_gen | per-token | — | $5 | $32 | $1.25 | — | —/— | — | models.dev official list price |
+| `gpt-image-2` | ✅ online | image_gen | per-token | — | $5 | $30 | $1.25 | — | —/— | — | models.dev official list price |
 | `grok-4-1-fast-non-reasoning` | ✅ online | chat | per-token | 128K | $0.2 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
 | `grok-4-1-fast-reasoning` | ✅ online | reasoning | per-token | 128K | $0.2 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
 | `grok-4-20-non-reasoning` | ✅ online | chat | per-token | 262K | $2 | $6 | — | — | —/— | — | models.dev official list price |

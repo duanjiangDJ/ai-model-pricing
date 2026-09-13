@@ -8471,7 +8471,7 @@
     {
       "id": "gemini-3-pro-image-preview",
       "name": "Gemini 3 Pro Image",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],

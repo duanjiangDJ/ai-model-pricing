@@ -47,18 +47,18 @@
 | `gemini-2.0-flash` | ✅ 在线 | chat | 未知 | 1.04858M | — | — | — | — | —/— | — | models.dev official list price |
 | `gemini-2.0-flash-lite` | ✅ 在线 | reasoning | 未知 | 1.04858M | — | — | — | — | —/— | — | models.dev official list price |
 | `gemini-2.5-flash` | ✅ 在线 | reasoning | 未知 | 1.04858M | — | — | — | — | —/— | — | models.dev official list price |
-| `gemini-2.5-flash-image` | ✅ 在线 | chat | 未知 | 32.768K | — | — | — | — | —/— | — | models.dev official list price |
+| `gemini-2.5-flash-image` | ✅ 在线 | image_gen | 未知 | 32.768K | — | — | — | — | —/— | — | models.dev official list price |
 | `gemini-2.5-flash-lite` | ✅ 在线 | chat | 未知 | 1.04858M | — | — | — | — | —/— | — | models.dev official list price |
 | `gemini-2.5-pro` | ✅ 在线 | reasoning | 未知 | 1.04858M | — | — | — | — | —/— | — | models.dev official list price |
 | `gemini-3.0-flash-preview` | ✅ 在线 | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `gemini-3.0-pro-image-preview` | ✅ 在线 | chat | 未知 | 32.768K | — | — | — | — | —/— | — | models.dev official list price |
+| `gemini-3.0-pro-image-preview` | ✅ 在线 | image_gen | 未知 | 32.768K | — | — | — | — | —/— | — | models.dev official list price |
 | `gemini-3.0-pro-preview` | ✅ 在线 | reasoning | 未知 | 1M | — | — | — | — | —/— | — | models.dev official list price |
 | `glm-4.5` | ✅ 在线 | reasoning | 未知 | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
 | `glm-4.5-air` | ✅ 在线 | reasoning | 未知 | 131K | — | — | — | — | —/— | — | models.dev official list price |
 | `gpt-oss-120b` | ✅ 在线 | reasoning | 未知 | 128K | — | — | — | — | —/— | — | models.dev official list price |
 | `gpt-oss-20b` | ✅ 在线 | reasoning | 未知 | 128K | — | — | — | — | —/— | — | models.dev official list price |
 | `kimi-k2` | ✅ 在线 | chat | 未知 | 128K | — | — | — | — | —/— | — | models.dev official list price |
-| `kling-v2-6` | ✅ 在线 | chat | 未知 | — | — | — | — | — | —/— | — | models.dev official list price \| context_window/max_output corrected from pl… |
+| `kling-v2-6` | ✅ 在线 | video_gen | 未知 | — | — | — | — | — | —/— | — | models.dev official list price \| context_window/max_output corrected from pl… |
 | `meituan/longcat-flash-chat` | ✅ 在线 | chat | 未知 | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
 | `meituan/longcat-flash-lite` | ✅ 在线 | chat | 未知 | 256K | — | — | — | — | —/— | — | models.dev official list price |
 | `mimo-v2-flash` | ✅ 在线 | reasoning | 按量 | 256K | $0.1 | $0.3 | $0.01 | — | —/— | — | models.dev official list price |

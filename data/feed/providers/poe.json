@@ -1207,7 +1207,7 @@
     {
       "id": "google/imagen-3",
       "name": "Imagen-3",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -1234,7 +1234,7 @@
     {
       "id": "google/imagen-3-fast",
       "name": "Imagen-3-Fast",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -1261,7 +1261,7 @@
     {
       "id": "google/imagen-4",
       "name": "Imagen-4",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -1288,7 +1288,7 @@
     {
       "id": "google/imagen-4-fast",
       "name": "Imagen-4-Fast",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -1315,7 +1315,7 @@
     {
       "id": "google/imagen-4-ultra",
       "name": "Imagen-4-Ultra",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -1435,7 +1435,7 @@
     {
       "id": "google/veo-2",
       "name": "Veo-2",
-      "category": "chat",
+      "category": "video_gen",
       "modalities": [
         "text"
       ],
@@ -1462,7 +1462,7 @@
     {
       "id": "google/veo-3",
       "name": "Veo-3",
-      "category": "chat",
+      "category": "video_gen",
       "modalities": [
         "text"
       ],
@@ -1489,7 +1489,7 @@
     {
       "id": "google/veo-3-fast",
       "name": "Veo-3-Fast",
-      "category": "chat",
+      "category": "video_gen",
       "modalities": [
         "text"
       ],
@@ -1516,7 +1516,7 @@
     {
       "id": "google/veo-3.1",
       "name": "Veo-3.1",
-      "category": "chat",
+      "category": "video_gen",
       "modalities": [
         "text"
       ],
@@ -1543,7 +1543,7 @@
     {
       "id": "google/veo-3.1-fast",
       "name": "Veo-3.1-Fast",
-      "category": "chat",
+      "category": "video_gen",
       "modalities": [
         "text"
       ],
@@ -1678,7 +1678,7 @@
     {
       "id": "lumalabs/ray2",
       "name": "Ray2",
-      "category": "chat",
+      "category": "video_gen",
       "modalities": [
         "text"
       ],
@@ -3304,7 +3304,7 @@
     {
       "id": "openai/gpt-image-1",
       "name": "GPT-Image-1",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -3331,7 +3331,7 @@
     {
       "id": "openai/gpt-image-1-mini",
       "name": "GPT-Image-1-Mini",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -3358,7 +3358,7 @@
     {
       "id": "openai/gpt-image-1.5",
       "name": "gpt-image-1.5",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -3385,7 +3385,7 @@
     {
       "id": "openai/gpt-image-2",
       "name": "GPT-Image-2",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -3705,7 +3705,7 @@
     {
       "id": "openai/sora-2",
       "name": "Sora-2",
-      "category": "chat",
+      "category": "video_gen",
       "modalities": [
         "text"
       ],
@@ -3732,7 +3732,7 @@
     {
       "id": "openai/sora-2-pro",
       "name": "Sora-2-Pro",
-      "category": "chat",
+      "category": "video_gen",
       "modalities": [
         "text"
       ],
@@ -3786,7 +3786,7 @@
     {
       "id": "runwayml/runway",
       "name": "Runway",
-      "category": "chat",
+      "category": "video_gen",
       "modalities": [
         "text"
       ],
@@ -3813,7 +3813,7 @@
     {
       "id": "runwayml/runway-gen-4-turbo",
       "name": "Runway-Gen-4-Turbo",
-      "category": "chat",
+      "category": "video_gen",
       "modalities": [
         "text"
       ],

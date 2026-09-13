@@ -50,8 +50,8 @@
 | `gemini-2.5-flash-lite@eu` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.1 | $0.4 | $0.01 | — | —/— | — | models.dev official list price |
 | `gemini-2.5-flash@eu` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.3 | $2.5 | $0.075 | — | —/— | — | models.dev official list price |
 | `gemini-2.5-pro@eu` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.25 | $10 | $0.31 | — | —/— | — | models.dev official list price |
-| `gemini-3-pro-image` | ✅ 在线 | reasoning | 按量 | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
-| `gemini-3.1-flash-image` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.5 | $2 | — | — | —/— | — | models.dev official list price |
+| `gemini-3-pro-image` | ✅ 在线 | image_gen | 按量 | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
+| `gemini-3.1-flash-image` | ✅ 在线 | image_gen | 按量 | 131.072K | $0.5 | $2 | — | — | —/— | — | models.dev official list price |
 | `gemini-3.1-flash-lite` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |
 | `gemini-3.1-flash-lite@eu` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.275 | $1.65 | $0.0275 | — | —/— | — | models.dev official list price |
 | `gemini-3.1-pro-preview` | ✅ 在线 | reasoning | 按量 | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |

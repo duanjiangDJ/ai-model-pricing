@@ -41,13 +41,13 @@
 | `gpt-5-6-luna` | ✅ 在线 | reasoning | 免费 | 1.05M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gpt-5-6-sol` | ✅ 在线 | reasoning | 免费 | 1.05M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gpt-5-6-terra` | ✅ 在线 | reasoning | 免费 | 1.05M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `gpt-image-2` | ✅ 在线 | chat | 免费 | 272K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `gpt-image-2` | ✅ 在线 | image_gen | 免费 | 272K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gpt-oss-120b` | ✅ 在线 | reasoning | 免费 | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gpt-oss-20b` | ✅ 在线 | reasoning | 免费 | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `grok-4-5` | ✅ 在线 | reasoning | 免费 | 500K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `grok-4-6` | ✅ 在线 | reasoning | 免费 | 500K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `grok-build-0-1` | ✅ 在线 | reasoning | 免费 | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `grok-imagine-image-2-0` | ✅ 在线 | chat | 免费 | 8K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `grok-imagine-image-2-0` | ✅ 在线 | image_gen | 免费 | 8K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `hy3` | ✅ 在线 | reasoning | 免费 | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `hy3:free` | ✅ 在线 | reasoning | 免费 | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `kimi-k2-6` | ✅ 在线 | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

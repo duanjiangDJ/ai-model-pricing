@@ -14,7 +14,7 @@
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `babbage-002` | ✅ online | chat | per-token | — | $0.4 | $0.4 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
-| `chatgpt-image-latest` | ❌ offline | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `chatgpt-image-latest` | ❌ offline | image_gen | per-token | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `davinci-002` | ✅ online | chat | per-token | — | $2 | $2 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
 | `gpt-3.5-turbo` | ✅ online | chat | per-token | 16.385K | $0.5 | $1.5 | — | — | —/— | — | models.dev official list price |
 | `gpt-3.5-turbo-0125` | ✅ online | chat | per-token | — | $0.5 | $1.5 | — | — | —/— | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
@@ -53,10 +53,10 @@
 | `gpt-5.6-luna` | ✅ online | reasoning | per-token | 1.05M | $0.2 | $1.2 | $0.02 | $0.25 | $0.1/$0.6 | — | Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30… |
 | `gpt-5.6-sol` | ✅ online | reasoning | per-token | 1.05M | $4 | $20 | $0.4 | $5 | $2/$10 | — | Official OpenAI pricing (Standard, short context, USD/1M). Parsed via develop… |
 | `gpt-5.6-terra` | ✅ online | reasoning | per-token | 1.05M | $2 | $12 | $0.2 | $2.5 | $1/$6 | — | Official pricing page (2026-08-12 snapshot): short context $5/$0.50/$6.25/$30… |
-| `gpt-image-1` | ❌ offline | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `gpt-image-1-mini` | ❌ offline | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `gpt-image-1.5` | ❌ offline | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
-| `gpt-image-2` | ✅ online | chat | per-token | — | $5 | $30 | $1.25 | — | —/— | — | models.dev official list price |
+| `gpt-image-1` | ❌ offline | image_gen | per-token | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-image-1-mini` | ❌ offline | image_gen | per-token | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-image-1.5` | ❌ offline | image_gen | per-token | — | — | — | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
+| `gpt-image-2` | ✅ online | image_gen | per-token | — | $5 | $30 | $1.25 | — | —/— | — | models.dev official list price |
 | `gpt-realtime-2.1` | ✅ online | reasoning | per-token | 128K | $4 | $24 | $0.4 | — | —/— | — | models.dev official list price |
 | `o1` | ❌ offline | reasoning | per-token | 200K | $15 | $60 | $7.5 | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |
 | `o1-pro` | ❌ offline | reasoning | per-token | 200K | $150 | $600 | — | — | —/— | — | models.dev official list price ⚠ Listed in OpenAI official deprecations page … |

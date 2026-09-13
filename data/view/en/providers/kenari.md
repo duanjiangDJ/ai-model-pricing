@@ -41,13 +41,13 @@
 | `gpt-5-6-luna` | ✅ online | reasoning | free | 1.05M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gpt-5-6-sol` | ✅ online | reasoning | free | 1.05M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gpt-5-6-terra` | ✅ online | reasoning | free | 1.05M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `gpt-image-2` | ✅ online | chat | free | 272K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `gpt-image-2` | ✅ online | image_gen | free | 272K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gpt-oss-120b` | ✅ online | reasoning | free | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gpt-oss-20b` | ✅ online | reasoning | free | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `grok-4-5` | ✅ online | reasoning | free | 500K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `grok-4-6` | ✅ online | reasoning | free | 500K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `grok-build-0-1` | ✅ online | reasoning | free | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `grok-imagine-image-2-0` | ✅ online | chat | free | 8K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `grok-imagine-image-2-0` | ✅ online | image_gen | free | 8K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `hy3` | ✅ online | reasoning | free | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `hy3:free` | ✅ online | reasoning | free | 256K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `kimi-k2-6` | ✅ online | reasoning | free | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

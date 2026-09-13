@@ -68,9 +68,9 @@
 | `gpt-5.6-sol` | ✅ 在线 | reasoning | 按量 | 1.05M | $4 | $20 | $0.5 | — | —/— | — | models.dev official list price |
 | `gpt-5.6-terra` | ✅ 在线 | reasoning | 按量 | 1.05M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `gpt-chat-latest` | ✅ 在线 | reasoning | 按量 | 128K | $5 | $30 | $0.5 | — | —/— | — | models.dev official list price |
-| `gpt-image-1` | ✅ 在线 | chat | 按量 | — | $5 | $40 | $1.25 | — | —/— | — | models.dev official list price |
-| `gpt-image-1.5` | ✅ 在线 | chat | 按量 | — | $5 | $32 | $1.25 | — | —/— | — | models.dev official list price |
-| `gpt-image-2` | ✅ 在线 | chat | 按量 | — | $5 | $30 | $1.25 | — | —/— | — | models.dev official list price |
+| `gpt-image-1` | ✅ 在线 | image_gen | 按量 | — | $5 | $40 | $1.25 | — | —/— | — | models.dev official list price |
+| `gpt-image-1.5` | ✅ 在线 | image_gen | 按量 | — | $5 | $32 | $1.25 | — | —/— | — | models.dev official list price |
+| `gpt-image-2` | ✅ 在线 | image_gen | 按量 | — | $5 | $30 | $1.25 | — | —/— | — | models.dev official list price |
 | `grok-4-1-fast-non-reasoning` | ✅ 在线 | chat | 按量 | 128K | $0.2 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
 | `grok-4-1-fast-reasoning` | ✅ 在线 | reasoning | 按量 | 128K | $0.2 | $0.5 | $0.05 | — | —/— | — | models.dev official list price |
 | `grok-4-20-non-reasoning` | ✅ 在线 | chat | 按量 | 262K | $2 | $6 | — | — | —/— | — | models.dev official list price |

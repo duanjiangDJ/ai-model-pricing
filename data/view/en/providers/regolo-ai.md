@@ -24,7 +24,7 @@
 | `gpt-oss-20b` | ✅ online | reasoning | per-token | 128K | $0.4 | $1.8 | — | — | —/— | — | models.dev official list price |
 | `llama-3.3-70b-instruct` | ✅ online | chat | per-token | 128K | $0.6 | $2.7 | — | — | —/— | — | models.dev official list price |
 | `mistral-small-4-119b` | ✅ online | reasoning | per-token | 256K | $0.75 | $3 | — | — | —/— | — | models.dev official list price |
-| `qwen-image` | ✅ online | chat | per-token | 8.192K | $0.5 | $2 | — | — | —/— | — | models.dev official list price |
+| `qwen-image` | ✅ online | image_gen | per-token | 8.192K | $0.5 | $2 | — | — | —/— | — | models.dev official list price |
 | `qwen3-coder-next` | ✅ online | reasoning | per-token | 262.144K | $0.3 | $1.2 | — | — | —/— | — | models.dev official list price |
 | `qwen3-embedding-8b` | ✅ online | embedding | per-token | 32.768K | $0.1 | $0.1 | — | — | —/— | — | models.dev official list price |
 | `qwen3-reranker-4b` | ✅ online | rerank | per-token | 32.768K | $0.12 | $0.12 | — | — | —/— | — | models.dev official list price |

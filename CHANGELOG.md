@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.134.86 — 2026-09-13T05:43Z (feature update)
+
+- fix(category): cover the remaining generator families (video veo/sora/kling/seedance/runway/wan, image gemini-*-image/gpt-image/qwen-image/imagen) so the writers stop re-defaulting 151 rows to chat/reasoning
+
 ## 26.134.85 — 2026-09-13T04:00Z (content update)
 
 - price sync (4 changes):

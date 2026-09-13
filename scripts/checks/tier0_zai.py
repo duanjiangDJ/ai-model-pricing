@@ -17,7 +17,8 @@ import re
 import sys
 
 sys.path.insert(0, __file__.rsplit("checks", 1)[0])
-from toolbox import (  # noqa: E402
+from toolbox import (
+    category_signature_hint,  # noqa: E402
     append_changelog, http_get, load_provider, save_provider, to_text, update_model_prices,
 )
 
@@ -87,7 +88,7 @@ def run(ctx):
         provider["models"].append({
             "id": mid,
             "name": mid,
-            "category": "chat",
+            "category": category_signature_hint(mid) or "chat",
             "status": "online",
             "context_window": None,
             "max_output": None,

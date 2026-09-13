@@ -30,14 +30,14 @@
 | `deepseek-ai/deepseek-v3.1-maas` | ✅ 在线 | reasoning | 按量 | 163.84K | $0.6 | $1.7 | $0.06 | — | —/— | — | models.dev official list price |
 | `deepseek-ai/deepseek-v3.2-maas` | ✅ 在线 | reasoning | 按量 | 163.84K | $0.56 | $1.68 | $0.056 | — | —/— | — | models.dev official list price |
 | `gemini-2.5-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
-| `gemini-2.5-flash-image` | ✅ 在线 | chat | 按量 | 32.768K | $0.3 | $30 | — | — | —/— | — | models.dev official list price |
+| `gemini-2.5-flash-image` | ✅ 在线 | image_gen | 按量 | 32.768K | $0.3 | $30 | — | — | —/— | — | models.dev official list price |
 | `gemini-2.5-flash-lite` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.1 | $0.4 | $0.01 | — | —/— | — | models.dev official list price |
 | `gemini-2.5-flash-tts` | ✅ 在线 | audio_tts | 按量 | 32.768K | $0.5 | $10 | — | — | —/— | — | models.dev official list price |
 | `gemini-2.5-pro` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |
 | `gemini-2.5-pro-tts` | ✅ 在线 | audio_tts | 按量 | 32.768K | $1 | $20 | — | — | —/— | — | models.dev official list price |
 | `gemini-3-flash-preview` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.5 | $3 | $0.05 | — | —/— | — | models.dev official list price |
-| `gemini-3-pro-image` | ✅ 在线 | reasoning | 按量 | 65.536K | $2 | $120 | $0.2 | — | —/— | — | models.dev official list price |
-| `gemini-3.1-flash-image` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.5 | $60 | $0.05 | — | —/— | — | models.dev official list price |
+| `gemini-3-pro-image` | ✅ 在线 | image_gen | 按量 | 65.536K | $2 | $120 | $0.2 | — | —/— | — | models.dev official list price |
+| `gemini-3.1-flash-image` | ✅ 在线 | image_gen | 按量 | 131.072K | $0.5 | $60 | $0.05 | — | —/— | — | models.dev official list price |
 | `gemini-3.1-flash-lite` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |
 | `gemini-3.1-flash-lite-preview` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |
 | `gemini-3.1-pro-preview` | ✅ 在线 | reasoning | 按量 | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
