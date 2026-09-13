@@ -9,8 +9,8 @@ Rules (order matters, first match wins for the primary billing method):
   5. otherwise                       -> unknown (needs human review)
 
 Usage:
-  python scripts/annotate_billing.py            # dry-run: stats + pending list
-  python scripts/annotate_billing.py --write    # write billing_model + changelog entries
+  python scripts/migrate/annotate_billing.py            # dry-run: stats + pending list
+  python scripts/migrate/annotate_billing.py --write    # write billing_model + changelog entries
 """
 import argparse
 import json
@@ -111,7 +111,7 @@ def main():
             append_changelog([{
                 "date": now_iso(), "kind": "update", "scope": "model", "provider_id": "all",
                 "item_id": f"{changed} models", "field": "billing_model",
-                "new": "annotated billing_model across all providers", "source": "scripts/annotate_billing.py",
+                "new": "annotated billing_model across all providers", "source": "scripts/migrate/annotate_billing.py",
             }])
         print(f"\n已写入 {changed} 个模型的 billing_model")
 

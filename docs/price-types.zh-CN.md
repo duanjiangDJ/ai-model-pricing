@@ -21,7 +21,7 @@
 | `free` | 完全免费（per_mtok = 0） |
 | `unknown` | 计费方式未确定（待人工核实；audit 会标记） |
 
-标注工具：`scripts/annotate_billing.py`（自动分类 + provider 上下文兜底），再由 `scripts/audit.py` 校验一致性（如 per_mtok > 0 必须含 `pay_per_token`）。
+标注工具：`scripts/migrate/annotate_billing.py`（自动分类 + provider 上下文兜底），再由 `scripts/audit.py` 校验一致性（如 per_mtok > 0 必须含 `pay_per_token`）。
 
 ## 1. per_mtok —— 每百万 tokens
 
@@ -73,7 +73,7 @@
 3. **缺失数据**用 `null`；**不适用**用 `null` + `notes` 说明；**绝不用 0 表示缺失**。
 4. 价格变更：每日检查脚本与旧值对比；相对变化 > 5× 视为解析错误，跳过并告警（突变护栏）。所有变更写入 `changelog.json`。
 5. 订阅计划价格遵循官方定价页；每日检查为超过 30 天未核实的计划生成"待人工核实"清单。
-6. 每个模型必须有 `billing_model`；批量导入后运行 `scripts/annotate_billing.py`，并由 `scripts/audit.py` 校验。
+6. 每个模型必须有 `billing_model`；批量导入后运行 `scripts/migrate/annotate_billing.py`，并由 `scripts/audit.py` 校验。
 
 ---
 

@@ -4,8 +4,8 @@ left untouched. The wrapping currency is derived from each provider's `currency`
 (USD -> usd, CNY -> cny), assuming existing scalar prices are expressed in that currency.
 
 Usage:
-  python scripts/migrate_dual_currency.py            # dry-run: report counts
-  python scripts/migrate_dual_currency.py --write    # apply
+  python scripts/migrate/migrate_dual_currency.py            # dry-run: report counts
+  python scripts/migrate/migrate_dual_currency.py --write    # apply
 """
 import argparse
 import glob

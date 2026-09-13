@@ -2,7 +2,7 @@
 # Research Subagent Contract / 调研子代理契约（research-contract）
 
 > 本仓库的"人工核实"数据通过**调研子代理**批量采集。本文档定义子代理的输入要求与输出格式，
-> 保证输出可直接被 `scripts/merge_research.py` 合并入库。
+> 保证输出可直接被 `scripts/migrate/merge_research.py` 合并入库。
 
 ## 输出格式（子代理必须返回）
 
@@ -71,7 +71,7 @@
 
 ## 消费端
 
-`scripts/merge_research.py <research.json>`：
+`scripts/migrate/merge_research.py <research.json>`：
 - provider 按 `provider_id` 合并（调研数据覆盖同 id 模型的价格与元信息，保留 models.dev 独有模型）；
 - plans 按 `id` upsert 进 `data/feed/plans.json`；
 - 自动刷新 `index.json` 计数并写 changelog。

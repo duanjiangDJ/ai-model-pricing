@@ -4,7 +4,7 @@ OpenRouter pricing fields (USD, string decimals):
   prompt, completion, image, request, web_search, input_cache_read, input_cache_write, internal_reasoning
 All prices are RESELLER prices (aggregator channel), kept separate from first-party prices.
 
-Usage: python scripts/sync_openrouter.py [--write]
+Usage: python scripts/sync/sync_openrouter.py [--write]
 """
 import argparse
 import os

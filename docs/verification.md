@@ -74,7 +74,7 @@ Guarantees we explicitly do **not** make:
 
 Periodically (e.g. after model releases or price wars) a full re-verification pass is run:
 research subagents check official docs per vendor and write results to
-`pricing_research/*.json`, which is merged via `scripts/merge_research.py`
+`pricing_research/*.json`, which is merged via `scripts/migrate/merge_research.py`
 (upserts by model id, refreshes `verified_at`). The contract for these campaigns is
 documented in `docs/research-contract.md`.
 

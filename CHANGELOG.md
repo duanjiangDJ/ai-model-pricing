@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.136.87 — 2026-09-13T11:42Z (feature update)
+
+- fix(audit,docs): resolve stale scripts/*.py paths after the scripts-layer refactor; add audit check #6b
+
 ## 26.136.86 — 2026-09-13T09:59Z (content update)
 
 - price sync (1 change):

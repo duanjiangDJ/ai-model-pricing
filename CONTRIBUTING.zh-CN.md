@@ -45,7 +45,7 @@
 3. 按 `data/feed/schema.json` 创建 `data/feed/providers/<id>.json`（**必须包含 `api_base_url`**）。
 4. 若通过子代理调研，按 `docs/research-contract.md` 输出并用以下命令合并：
    ```bash
-   python scripts/merge_research.py <research.json>
+   python scripts/migrate/merge_research.py <research.json>
    ```
 5. 若官方页可解析，请同时新增检查脚本（见下），让数据每日自动保鲜。
 6. 版本提升（新增供应商基础设施=功能更新，价格=内容更新）、重建、开 PR。

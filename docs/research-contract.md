@@ -2,7 +2,7 @@
 # Research Subagent Contract (research-contract)
 
 > The repository's "human-verified" data is collected in bulk by **research subagents**. This document defines the input requirements and output format for subagents,
-> guaranteeing that the output can be merged directly into the repository by `scripts/merge_research.py`.
+> guaranteeing that the output can be merged directly into the repository by `scripts/migrate/merge_research.py`.
 
 ## Output format (subagents must return)
 
@@ -71,7 +71,7 @@ A single JSON object (**not** wrapped in a Markdown code block — output raw JS
 
 ## Consumers
 
-`scripts/merge_research.py <research.json>`:
+`scripts/migrate/merge_research.py <research.json>`:
 - providers merged by `provider_id` (research data overwrites the price and metadata of models with the same id, keeping models.dev-exclusive models);
 - plans upserted into `data/feed/plans.json` by `id`;
 - `index.json` counts refreshed automatically and changelog written.
