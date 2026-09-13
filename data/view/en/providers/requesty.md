@@ -164,5 +164,5 @@
 | `seed-2.0-mini` | ✅ online | reasoning | per-token | 256K | $0.1 | $0.4 | $0.02 | — | —/— | — | models.dev official list price |
 | `seed-2.0-pro` | ✅ online | reasoning | per-token | 256K | $0.5 | $3 | $0.1 | — | —/— | — | models.dev official list price |
 | `step-3.7-flash` | ✅ online | reasoning | per-token | 262.144K | $0.2 | $1.15 | $0.04 | — | —/— | — | models.dev official list price |
-| `thinkingcap-qwen3.6-27b` | ✅ online | reasoning | per-token | 262.144K | $0.4 | $2.6 | $0.26 | — | —/— | — | models.dev official list price |
-| `thinkingcap-qwen3.6-27b@eu` | ✅ online | reasoning | per-token | 262.144K | $0.4 | $2.6 | $0.26 | — | —/— | — | models.dev official list price |
+| `thinkingcap-qwen3.6-27b` | ✅ online | reasoning | per-token | 262.144K | $0.4 | $2.6 | $0.05 | — | —/— | — | models.dev official list price |
+| `thinkingcap-qwen3.6-27b@eu` | ✅ online | reasoning | per-token | 262.144K | $0.4 | $2.6 | $0.05 | — | —/— | — | models.dev official list price |

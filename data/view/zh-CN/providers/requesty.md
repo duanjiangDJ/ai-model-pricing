@@ -164,5 +164,5 @@
 | `seed-2.0-mini` | ✅ 在线 | reasoning | 按量 | 256K | $0.1 | $0.4 | $0.02 | — | —/— | — | models.dev official list price |
 | `seed-2.0-pro` | ✅ 在线 | reasoning | 按量 | 256K | $0.5 | $3 | $0.1 | — | —/— | — | models.dev official list price |
 | `step-3.7-flash` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.2 | $1.15 | $0.04 | — | —/— | — | models.dev official list price |
-| `thinkingcap-qwen3.6-27b` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.4 | $2.6 | $0.26 | — | —/— | — | models.dev official list price |
-| `thinkingcap-qwen3.6-27b@eu` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.4 | $2.6 | $0.26 | — | —/— | — | models.dev official list price |
+| `thinkingcap-qwen3.6-27b` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.4 | $2.6 | $0.05 | — | —/— | — | models.dev official list price |
+| `thinkingcap-qwen3.6-27b@eu` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.4 | $2.6 | $0.05 | — | —/— | — | models.dev official list price |
