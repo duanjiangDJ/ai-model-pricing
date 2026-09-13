@@ -16,11 +16,13 @@
 
 ---
 
-## 26.139.91 — 2026-09-13T19:00Z（内容更新）
+## 26.139.92 — 2026-09-13T20:44Z（内容更新）
 
-- 价格同步（7 处变更）：
-- **kilo**（更新 3）：`~deepseek/deepseek-v4-flash-latest`, `~moonshotai/kimi-latest`, `~z-ai/glm-latest`
-- **openrouter**（更新 6）：`deepseek/deepseek-v4-flash`, `inference-net/schematron-v2-small`, `inference-net/schematron-v2-turbo`, `tencent/hy3`, `z-ai/glm-5.3-flash`, `~moonshotai/kimi-latest`
+- 价格同步（7 处变更）：kilo 3 条、openrouter 6 条
+
+## 26.138.92 — 2026-09-13T19:31Z（功能更新）
+
+- audit：价格振荡检查扩展到 per_mtok 全字段与非严格振荡（覆盖促销/原价来回切换类）
 
 ## 26.138.91 — 2026-09-13T18:24Z（功能更新）
 

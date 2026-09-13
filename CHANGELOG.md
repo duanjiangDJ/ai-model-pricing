@@ -16,11 +16,13 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
-## 26.139.91 — 2026-09-13T19:00Z (content update)
+## 26.139.92 — 2026-09-13T20:44Z (content update)
 
-- price sync (7 changes):
-- **kilo** (updated 3): `~deepseek/deepseek-v4-flash-latest`, `~moonshotai/kimi-latest`, `~z-ai/glm-latest`
-- **openrouter** (updated 6): `deepseek/deepseek-v4-flash`, `inference-net/schematron-v2-small`, `inference-net/schematron-v2-turbo`, `tencent/hy3`, `z-ai/glm-5.3-flash`, `~moonshotai/kimi-latest`
+- price sync (7 changes): kilo 3, openrouter 6
+
+## 26.138.92 — 2026-09-13T19:31Z (feature update)
+
+- audit: widen the price-oscillation check to all per_mtok fields and non-strict churn (catches the promo/list class)
 
 ## 26.138.91 — 2026-09-13T18:24Z (feature update)
 

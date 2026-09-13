@@ -387,8 +387,11 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
   (2026-09-12: `tencent/hy3` 0.0825<->0.132, `nvidia/nemotron-3-ultra-550b-a55b` 0.6<->0.625,
   `minimax/minimax-m1` 0.4<->0.55, `minimax/minimax-m2.5` 0.27<->0.3,
   `deepseek/deepseek-v4-flash-vision-exp` 0.22<->0.44). `audit.py` check #8 flags the class as a
-  WARN (a strict A/B alternation across the recent changelog, not mere drift — the *drift* case
-  is the separate note below). The root fix is writer-side: model `overrides` (store the peak
+  WARN — it now scans ALL of `per_mtok` (input/output/cache_read/cache_write x usd/cny) across the
+  recent changelog and fires when a value RETURNS to one it already held (A -> B -> A) within a
+  small value set, so it also catches the promo/list churn (e.g. `z-ai/glm-5.3-flash` 0.075
+  <-> 0.15) that the old strict A/B test missed; a one-way drift (A -> B -> C) is the separate
+  note below. The root fix is writer-side: model `overrides` (store the peak
   tier + an `off_peak` block, or promo/list) instead of persisting whichever tier the run landed
   in. That changes sync value semantics, so it needs human sign-off, unlike a check edit.
 - **An aggregator snapshot is stale the moment it is taken — re-verify it at review time.** A
