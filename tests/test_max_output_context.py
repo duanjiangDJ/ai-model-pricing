@@ -21,7 +21,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.join(HERE, "..")
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
 
-from toolbox import max_output_exceeds_context  # noqa: E402
+from toolbox import max_output_exceeds_context, suspicious_max_output  # noqa: E402
 
 
 class TestMaxOutputExceedsContext(unittest.TestCase):
@@ -69,5 +69,36 @@ class TestMaxOutputExceedsContext(unittest.TestCase):
         )
 
 
+class TestSuspiciousMaxOutput(unittest.TestCase):
+    """The placeholder-sentinel sibling of the pair rule.
+
+    models.dev stores 99999999 as the "no token output" sentinel. qiniu-ai/kling-v2-6 kept it in
+    `max_output` after `context_window` was cleared, and the pair rule could not see it (it needs
+    BOTH fields to be ints, and context was null) -- so an absurd 1e8 published silently. The
+    direct range check closes that blind spot.
+    """
+
+    def test_flags_modelsdev_placeholder_sentinel(self):
+        # real case: models.dev limit {context: 99999999, output: 99999999} for qiniu-ai kling-v2-6
+        self.assertEqual(
+            suspicious_max_output({"context_window": None, "max_output": 99999999}), 99999999
+        )
+
+    def test_flags_absurd_and_nonpositive_values(self):
+        self.assertEqual(suspicious_max_output({"max_output": 0}), 0)
+        self.assertEqual(suspicious_max_output({"max_output": -5}), -5)
+
+    def test_accepts_plausible_values(self):
+        for ok in (1, 4096, 384_000, 1_048_576, 10_000_000):
+            self.assertIsNone(suspicious_max_output({"max_output": ok}))
+
+    def test_ignores_missing_and_non_numeric(self):
+        self.assertIsNone(suspicious_max_output({}))
+        self.assertIsNone(suspicious_max_output({"max_output": None}))
+        self.assertIsNone(suspicious_max_output({"max_output": "8192"}))
+        self.assertIsNone(suspicious_max_output({"max_output": True}))
+
+
 if __name__ == "__main__":
     unittest.main()
+

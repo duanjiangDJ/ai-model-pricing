@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.133.85 — 2026-09-13T03:04Z (feature update)
+
+- audit: catch placeholder max_output sentinels (kling-v2-6 1e8 -> null)
+
 ## 26.133.84 — 2026-09-13T01:53Z (content update)
 
 - fix(requesty): correct thinkingcap-qwen3.6-27b cache_read to its models.dev source (0.26 -> 0.05), resolving a >5x surge-guard skip that could never self-heal

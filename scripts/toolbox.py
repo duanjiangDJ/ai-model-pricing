@@ -339,6 +339,22 @@ def batch_exceeds_standard(pricing, status=None):
     return bad
 
 
+def suspicious_max_output(model, limit=10_000_000):
+    """Return `max_output` when it is an implausible placeholder value, else None.
+
+    models.dev stores 99999999 as its "this model has no token output" sentinel (video/image
+    models with no token context). qiniu-ai/kling-v2-6 carried that sentinel in BOTH limit
+    fields; an earlier repair cleared `context_window` but left `max_output`, and
+    `max_output_exceeds_context()` could not see it (that pair check needs BOTH fields to be
+    ints, and context was null) -- so 1e8 published silently. Mirrors the inline
+    context_window sanity check in audit.py so the whole placeholder class is caught.
+    """
+    mo = model.get("max_output")
+    if isinstance(mo, bool) or not isinstance(mo, int):
+        return None
+    return mo if (mo > limit or mo < 1) else None
+
+
 def max_output_exceeds_context(model):
     """Return (context_window, max_output) when max_output > context_window, else None.
 

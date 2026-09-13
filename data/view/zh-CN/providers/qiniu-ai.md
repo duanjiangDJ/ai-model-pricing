@@ -58,7 +58,7 @@
 | `gpt-oss-120b` | ✅ 在线 | reasoning | 未知 | 128K | — | — | — | — | —/— | — | models.dev official list price |
 | `gpt-oss-20b` | ✅ 在线 | reasoning | 未知 | 128K | — | — | — | — | —/— | — | models.dev official list price |
 | `kimi-k2` | ✅ 在线 | chat | 未知 | 128K | — | — | — | — | —/— | — | models.dev official list price |
-| `kling-v2-6` | ✅ 在线 | chat | 未知 | — | — | — | — | — | —/— | — | models.dev official list price \| context_window corrected from placeholder 9… |
+| `kling-v2-6` | ✅ 在线 | chat | 未知 | — | — | — | — | — | —/— | — | models.dev official list price \| context_window/max_output corrected from pl… |
 | `meituan/longcat-flash-chat` | ✅ 在线 | chat | 未知 | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
 | `meituan/longcat-flash-lite` | ✅ 在线 | chat | 未知 | 256K | — | — | — | — | —/— | — | models.dev official list price |
 | `mimo-v2-flash` | ✅ 在线 | reasoning | 按量 | 256K | $0.1 | $0.3 | $0.01 | — | —/— | — | models.dev official list price |

@@ -1233,7 +1233,7 @@
         "text"
       ],
       "context_window": null,
-      "max_output": 99999999,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": null,
@@ -1246,7 +1246,7 @@
         "per_audio_second": null,
         "per_request": null
       },
-      "notes": "models.dev official list price | context_window corrected from placeholder 99999999 (model has no token context).",
+      "notes": "models.dev official list price | context_window/max_output corrected from placeholder 99999999 (model has no token context).",
       "billing_model": [
         "unknown"
       ],
