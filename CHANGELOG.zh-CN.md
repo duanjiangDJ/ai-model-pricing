@@ -16,6 +16,12 @@
 
 ---
 
+## 26.139.91 — 2026-09-13T19:00Z（内容更新）
+
+- 价格同步（7 处变更）：
+- **kilo**（更新 3）：`~deepseek/deepseek-v4-flash-latest`, `~moonshotai/kimi-latest`, `~z-ai/glm-latest`
+- **openrouter**（更新 6）：`deepseek/deepseek-v4-flash`, `inference-net/schematron-v2-small`, `inference-net/schematron-v2-turbo`, `tencent/hy3`, `z-ai/glm-5.3-flash`, `~moonshotai/kimi-latest`
+
 ## 26.138.91 — 2026-09-13T18:24Z（功能更新）
 
 - audit：对非生成类（embedding/rerank）分类硬性拦截 max_output；修正 68 条把向量维度当作输出 token 上限的记录；堵住 models.dev 写入器

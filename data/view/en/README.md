@@ -3,7 +3,7 @@
 > Data sources: official pricing pages & public APIs. Machine-readable version: [`data/feed/`](../../../data/feed/).
 > Auto-updated daily by GitHub Actions (see `.github/workflows/daily-check.yml`).
 
-- Generated: 2026-09-13T15:42:57Z
+- Generated: 2026-09-13T18:43:01Z
 - Providers: 190
 - Models total: 7600
 - Plans total: 67
@@ -177,7 +177,7 @@
 | [EBCloud](providers/ebcloud.md) | Inference host | 4 | `providers/ebcloud.json` | 2026-09-04T00:22:51Z |
 | [TensorX](providers/tensorx.md) | Inference host | 25 | `providers/tensorx.json` | 2026-09-04T00:22:51Z |
 | [Tencent Token Plan](providers/tencent-token-plan.md) | Subscription | 1 | `providers/tencent-token-plan.json` | 2026-08-27T17:11:11Z |
-| [Kilo Gateway](providers/kilo.md) | Aggregator | 383 | `providers/kilo.json` | 2026-09-12T15:42:40Z |
+| [Kilo Gateway](providers/kilo.md) | Aggregator | 383 | `providers/kilo.json` | 2026-09-13T18:43:44Z |
 | [Pioneer](providers/pioneer.md) | Inference host | 103 | `providers/pioneer.json` | 2026-09-04T00:22:51Z |
 | [Venice AI](providers/venice.md) | Inference host | 103 | `providers/venice.json` | 2026-09-10T09:39:08Z |
 | [Fireworks AI](providers/fireworks-ai.md) | Inference host | 26 | `providers/fireworks-ai.json` | 2026-09-04T00:22:51Z |
@@ -201,7 +201,7 @@
 | [百川智能 (Baichuan)](providers/baichuan.md) | First-party | 1 | `providers/baichuan.json` | 2026-08-28T10:02:16.380334Z |
 | [科大讯飞星火 (iFlytek Spark)](providers/iflytek.md) | First-party | 2 | `providers/iflytek.json` | 2026-08-28T10:02:16.380334Z |
 | [零一万物 (01.AI)](providers/lingyiwanwu.md) | First-party | 2 | `providers/lingyiwanwu.json` | 2026-08-28T10:02:16.380334Z |
-| [OpenRouter](providers/openrouter.md) | Aggregator | 445 | `providers/openrouter.json` | 2026-09-13T15:42:57Z |
+| [OpenRouter](providers/openrouter.md) | Aggregator | 445 | `providers/openrouter.json` | 2026-09-13T18:43:01Z |
 
 ## Plans
 

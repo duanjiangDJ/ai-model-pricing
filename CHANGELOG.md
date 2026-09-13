@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.139.91 — 2026-09-13T19:00Z (content update)
+
+- price sync (7 changes):
+- **kilo** (updated 3): `~deepseek/deepseek-v4-flash-latest`, `~moonshotai/kimi-latest`, `~z-ai/glm-latest`
+- **openrouter** (updated 6): `deepseek/deepseek-v4-flash`, `inference-net/schematron-v2-small`, `inference-net/schematron-v2-turbo`, `tencent/hy3`, `z-ai/glm-5.3-flash`, `~moonshotai/kimi-latest`
+
 ## 26.138.91 — 2026-09-13T18:24Z (feature update)
 
 - audit: hard-fail max_output on non-generative (embedding/rerank) categories; null 68 dimension-as-token-limit rows; guard the models.dev writer

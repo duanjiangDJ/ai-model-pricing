@@ -6,8 +6,8 @@
 - Homepage: https://kilo.ai
 - Pricing page: https://kilo.ai
 - Currency: USD
-- Data updated: 2026-09-12T15:42:40Z
-- Verified: 2026-09-12T15:42:40Z
+- Data updated: 2026-09-13T18:43:44Z
+- Verified: 2026-09-13T18:43:44Z
 
 **383** models in total.
 
@@ -387,12 +387,12 @@
 | `~anthropic/claude-haiku-latest` | ✅ online | reasoning | per-token | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `~anthropic/claude-opus-latest` | ✅ online | reasoning | per-token | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
 | `~anthropic/claude-sonnet-latest` | ✅ online | reasoning | per-token | 1M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
-| `~deepseek/deepseek-v4-flash-latest` | ✅ online | reasoning | per-token | 1.04858M | $0.03 | $0.07 | $0.003 | — | —/— | — | models.dev official list price |
+| `~deepseek/deepseek-v4-flash-latest` | ✅ online | reasoning | per-token | 1.04858M | $0.0352 | $0.1056 | $0.00112 | — | —/— | — | models.dev official list price |
 | `~google/gemini-flash-latest` | ✅ online | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `~google/gemini-pro-latest` | ✅ online | reasoning | per-token | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
-| `~moonshotai/kimi-latest` | ✅ online | reasoning | per-token | 974.842K | $2.125 | $11.9 | $0.2465 | — | —/— | — | models.dev official list price |
+| `~moonshotai/kimi-latest` | ✅ online | reasoning | per-token | 974.842K | $2.1 | $10.95 | $0.23 | — | —/— | — | models.dev official list price |
 | `~openai/gpt-latest` | ✅ online | reasoning | per-token | 1.05M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
 | `~openai/gpt-mini-latest` | ✅ online | reasoning | per-token | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | models.dev official list price |
 | `~x-ai/grok-latest` | ✅ online | reasoning | per-token | 500K | $2 | $6 | $0.5 | — | —/— | — | models.dev official list price |
 | `~z-ai/glm-flash-latest` | ✅ online | reasoning | per-token | 1.04858M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |
-| `~z-ai/glm-latest` | ✅ online | reasoning | per-token | 1.04858M | $0.8727 | $3.36 | $0.1639 | — | —/— | — | models.dev official list price |
+| `~z-ai/glm-latest` | ✅ online | reasoning | per-token | 1.04858M | $0.936 | $3.168 | $0.1872 | — | —/— | — | models.dev official list price |

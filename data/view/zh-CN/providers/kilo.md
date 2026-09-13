@@ -6,8 +6,8 @@
 - 官网: https://kilo.ai
 - 定价页: https://kilo.ai
 - 币种: USD
-- 数据更新时间: 2026-09-12T15:42:40Z
-- 核实时间: 2026-09-12T15:42:40Z
+- 数据更新时间: 2026-09-13T18:43:44Z
+- 核实时间: 2026-09-13T18:43:44Z
 
 共 **383** 个模型。
 
@@ -387,12 +387,12 @@
 | `~anthropic/claude-haiku-latest` | ✅ 在线 | reasoning | 按量 | 200K | $1 | $5 | $0.1 | — | —/— | — | models.dev official list price |
 | `~anthropic/claude-opus-latest` | ✅ 在线 | reasoning | 按量 | 1M | $5 | $25 | $0.5 | — | —/— | — | models.dev official list price |
 | `~anthropic/claude-sonnet-latest` | ✅ 在线 | reasoning | 按量 | 1M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
-| `~deepseek/deepseek-v4-flash-latest` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.03 | $0.07 | $0.003 | — | —/— | — | models.dev official list price |
+| `~deepseek/deepseek-v4-flash-latest` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.0352 | $0.1056 | $0.00112 | — | —/— | — | models.dev official list price |
 | `~google/gemini-flash-latest` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `~google/gemini-pro-latest` | ✅ 在线 | reasoning | 按量 | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
-| `~moonshotai/kimi-latest` | ✅ 在线 | reasoning | 按量 | 974.842K | $2.125 | $11.9 | $0.2465 | — | —/— | — | models.dev official list price |
+| `~moonshotai/kimi-latest` | ✅ 在线 | reasoning | 按量 | 974.842K | $2.1 | $10.95 | $0.23 | — | —/— | — | models.dev official list price |
 | `~openai/gpt-latest` | ✅ 在线 | reasoning | 按量 | 1.05M | $2 | $10 | $0.2 | — | —/— | — | models.dev official list price |
 | `~openai/gpt-mini-latest` | ✅ 在线 | reasoning | 按量 | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | models.dev official list price |
 | `~x-ai/grok-latest` | ✅ 在线 | reasoning | 按量 | 500K | $2 | $6 | $0.5 | — | —/— | — | models.dev official list price |
 | `~z-ai/glm-flash-latest` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.075 | $0.25 | $0.015 | — | —/— | — | models.dev official list price |
-| `~z-ai/glm-latest` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.8727 | $3.36 | $0.1639 | — | —/— | — | models.dev official list price |
+| `~z-ai/glm-latest` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.936 | $3.168 | $0.1872 | — | —/— | — | models.dev official list price |
