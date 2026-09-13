@@ -16,6 +16,11 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.134.85 — 2026-09-13T04:00Z (content update)
+
+- price sync (4 changes):
+- **openrouter** (updated 4): `deepseek/deepseek-v4-flash`, `qwen/qwen3-30b-a3b-instruct-2507`, `~deepseek/deepseek-v4-flash-latest`, `~moonshotai/kimi-latest`
+
 ## 26.133.85 — 2026-09-13T03:04Z (feature update)
 
 - audit: catch placeholder max_output sentinels (kling-v2-6 1e8 -> null)

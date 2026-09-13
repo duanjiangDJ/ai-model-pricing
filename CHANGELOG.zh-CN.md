@@ -16,6 +16,11 @@
 
 ---
 
+## 26.134.85 — 2026-09-13T04:00Z（内容更新）
+
+- 价格同步（4 处变更）：
+- **openrouter**（更新 4）：`deepseek/deepseek-v4-flash`, `qwen/qwen3-30b-a3b-instruct-2507`, `~deepseek/deepseek-v4-flash-latest`, `~moonshotai/kimi-latest`
+
 ## 26.133.85 — 2026-09-13T03:04Z（功能更新）
 
 - audit: 新增 max_output 占位哨兵值检查（kling-v2-6 的 1e8 → null）
