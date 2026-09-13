@@ -96,7 +96,7 @@ def sync_modelsdev_diff(now):
             continue
         path = os.path.join(PROVIDERS, f"{pid}.json")
         if not os.path.exists(path):
-            continue  # do not auto-create here; run scripts/sync_modelsdev.py --write for that
+            continue  # do not auto-create here; run scripts/sync/sync_modelsdev.py --write for that
         local = read_json(path)
         # If the official-price layer verified this provider today, models.dev
         # (third-party republication) must not overwrite it.

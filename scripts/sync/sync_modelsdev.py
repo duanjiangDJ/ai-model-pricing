@@ -7,7 +7,7 @@ Policy:
   - If data/feed/providers/{id}.json already exists -> SKIP (keep existing richer data).
   - Otherwise write a provider file with channel inferred (first_party / hosted / aggregator).
 
-Usage: python scripts/sync_modelsdev.py [--write] [--force]
+Usage: python scripts/sync/sync_modelsdev.py [--write] [--force]
 """
 import argparse
 import json

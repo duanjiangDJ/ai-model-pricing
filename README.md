@@ -177,7 +177,7 @@ AGENTS.md               # guide for AI agents working in this repo
 
 ## Daily Update Mechanism
 
-1. `scripts/sync_openrouter.py` — pull OpenRouter catalog (reseller prices, 419+ models);
+1. `scripts/sync/sync_openrouter.py` — pull OpenRouter catalog (reseller prices, 419+ models);
 2. `scripts/daily_check.py` — daily diff (OpenRouter + models.dev), update + changelog,
    flag plans unverified for >30 days, rebuild human pages;
 3. `scripts/validate.py` — schema + cross-consistency validation (also in CI);
@@ -189,9 +189,9 @@ Manual trigger: repo Actions → **Daily Price Check** → Run workflow.
 
 ```bash
 pip install jsonschema
-python scripts/sync_openrouter.py --write   # sync OpenRouter
-python scripts/sync_modelsdev.py --write    # sync models.dev providers
-python scripts/merge_research.py x.json     # merge subagent research output
+python scripts/sync/sync_openrouter.py --write   # sync OpenRouter
+python scripts/sync/sync_modelsdev.py --write    # sync models.dev providers
+python scripts/migrate/merge_research.py x.json     # merge subagent research output
 python scripts/build_human.py               # rebuild human pages (en + zh-CN)
 python scripts/daily_check.py               # full daily check (network)
 python scripts/validate.py                  # full validation

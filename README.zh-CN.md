@@ -165,7 +165,7 @@ AGENTS.md               # 给 AI agent 的仓库指南
 
 ## 每日更新机制
 
-1. `scripts/sync_openrouter.py` — 从 OpenRouter API 同步聚合转售价（419+ 模型）；
+1. `scripts/sync/sync_openrouter.py` — 从 OpenRouter API 同步聚合转售价（419+ 模型）；
 2. `scripts/daily_check.py` — 每日 diff（OpenRouter + models.dev）、更新、记录 changelog、
    检查订阅计划过期（30 天）、重建人类可读页；
 3. `scripts/validate.py` — schema + 交叉一致性校验（CI 与每日任务都会跑）；
@@ -177,9 +177,9 @@ AGENTS.md               # 给 AI agent 的仓库指南
 
 ```bash
 pip install jsonschema
-python scripts/sync_openrouter.py --write   # 同步 OpenRouter
-python scripts/sync_modelsdev.py --write    # 同步 models.dev 供应商
-python scripts/merge_research.py x.json     # 合并调研子代理结果
+python scripts/sync/sync_openrouter.py --write   # 同步 OpenRouter
+python scripts/sync/sync_modelsdev.py --write    # 同步 models.dev 供应商
+python scripts/migrate/merge_research.py x.json     # 合并调研子代理结果
 python scripts/build_human.py               # 重建人类可读页（en + zh-CN）
 python scripts/daily_check.py               # 每日检查（含网络）
 python scripts/validate.py                  # 全量校验

@@ -50,7 +50,7 @@ data/meta/
 
 **`billing_model`**（每个模型必填，数组）：收费方式——一个模型可有多种。
 取值：`pay_per_token` / `pay_per_image` / `subscription_included` / `credits` / `free` / `unknown`。
-须与 `pricing` 保持一致；可用 `scripts/annotate_billing.py` 重新标注。
+须与 `pricing` 保持一致；可用 `scripts/migrate/annotate_billing.py` 重新标注。
 
 > 2026-08-28 移除（无实际使用）：`per_audio_second`、`per_character`、`per_request`、
 > `credits`、`gpu[]`、`neuron_second`、`finetune`、`provisioned`。如需恢复某种计费方式，

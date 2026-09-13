@@ -10,7 +10,7 @@ Rules:
     verified_at filled from provider verified_at when missing.
   - index.json provider entries updated (counts + updated_at).
 
-Usage: python scripts/merge_research.py <research.json> [--provider-only]
+Usage: python scripts/migrate/merge_research.py <research.json> [--provider-only]
 """
 import argparse
 import json

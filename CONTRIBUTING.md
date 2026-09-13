@@ -49,7 +49,7 @@ consistency, version/CHANGELOG enforcement).
    (include `api_base_url`!).
 4. If you researched it via a subagent, output per `docs/research-contract.md` and merge:
    ```bash
-   python scripts/merge_research.py <research.json>
+   python scripts/migrate/merge_research.py <research.json>
    ```
 5. If the provider's official page can be parsed, add a check module (see below) so it
    stays fresh automatically.

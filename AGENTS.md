@@ -34,7 +34,7 @@ systems, GPU-hour pricing, consumer subscriptions, and coding-tool plans.
 
 ```
 data/feed/
-  schema.json            # THE authoritative JSON Schema (26.0.1)
+  schema.json            # THE authoritative JSON Schema (version == VERSION)
   index.json             # Entry point: providers/resellers lists, counts, timestamps
   providers/*.json       # One file per provider (provider_id.json)
   plans.json             # Subscription & coding-tool plans
@@ -59,7 +59,10 @@ scripts/
   build_human.py         # Generate human pages (en + zh-CN)
   stats.py               # Exact data statistics for README
   bump_version.py        # Version bump (year.content.feature) + changelog entries
-  merge_research.py      # Merge research-subagent JSON output
+  migrate/
+    annotate_billing.py  # (Re-)annotate billing_model across all providers
+    merge_research.py    # Merge research-subagent JSON output
+    migrate_dual_currency.py  # Dual-currency migration helper
 CONTRIBUTING.md          # contribution guide (en + zh-CN)
 ```
 
@@ -73,7 +76,7 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    `billing_model` (required, array) = how the model is billed; one model can have several:
    `pay_per_token` (per-token API, incl. cache/batch), `pay_per_image`, `subscription_included`
    (included in a subscription/coding plan), `credits` (points-based), `free`, `unknown` (needs review).
-   Use `python scripts/annotate_billing.py` to (re-)annotate; audit flags unknown/pay-per-token inconsistencies.
+   Use `python scripts/migrate/annotate_billing.py` to (re-)annotate; audit flags unknown/pay-per-token inconsistencies.
    `free` means the model is TRULY free: every `per_mtok` value is 0/null. A model with any
    positive `per_mtok` is `pay_per_token` — never flag it `free` (`annotate_billing.py` does
    this; a paid model stays `free`-free even when it has a zero-price dimension such as
@@ -273,7 +276,7 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
 6. Non-USD providers (CNY etc.): set `currency`/`price_currency` on the provider and explain
    the conversion in `currency_usd_note`.
 7. Research-subagent output can be merged automatically:
-   `python scripts/merge_research.py <research.json>` (format contract: `docs/research-contract.md`).
+   `python scripts/migrate/merge_research.py <research.json>` (format contract: `docs/research-contract.md`).
 
 8. **`category` must match the model's KIND, never a default.** `category` is a schema enum
    (`chat | reasoning | embedding | image_gen | video_gen | audio_tts | audio_stt | rerank |
@@ -410,6 +413,18 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
   Fix: keep the source's casing, drop the ghost, and `validate.py` now hard-fails the whole class via
   `toolbox.case_variant_duplicate_ids()`. Regression: `tests/test_duplicate_ids.py`.
 
+- **A doc that tells you to run a `scripts/` path that no longer exists is a BROKEN INSTRUCTION —
+  and nothing caught it.** The scripts-layer refactor moved `sync_*` / `migrate_*` into
+  `scripts/sync/` and `scripts/migrate/`, but AGENTS.md, README(.zh-CN), CONTRIBUTING(.zh-CN),
+  FORMAT(.zh-CN) and docs/{price-types,verification,research-contract}(.zh-CN) kept citing the old
+  FLAT `scripts/<file>.py` form — every `python <old path>` line in the docs failed with
+  "No such file", including the (re-)annotate command AGENTS.md itself recommends. The broken-LINK
+  check only resolves markdown link targets, and these references sit in backticks/prose, so a
+  `scripts/` path was never validated. Fix 2026-09-13: the paths are corrected AND `audit.py`
+  check #6b hard-fails any prose doc referencing a nonexistent script path (`CHANGELOG*.md` is a
+  historical provenance log and is EXCLUDED — never rewrite a path that was true then). Rule:
+  when a refactor moves an entry point, grep every doc for the old path in the SAME commit.
+
 - **A check's model-id key must resolve in the provider DB, or the check silently no-ops.**
   `update_model_prices()` skips ids it cannot resolve, so a check that keys its update on a
   renamed/never-seeded id parses the page correctly (parse succeeds, `changed=0`) yet writes
@@ -491,15 +506,15 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    describing which provider/prices changed and the source.
 2. PRs must include the pricing-page URL used.
 3. For large additions (new vendor), follow `docs/research-contract.md` and merge via
-   `scripts/merge_research.py`.
+   `scripts/migrate/merge_research.py`.
 
 ## Quick Commands
 
 ```bash
 pip install jsonschema
-python scripts/sync_openrouter.py --write   # pull OpenRouter catalog (aggregator prices)
-python scripts/sync_modelsdev.py --write    # pull models.dev (official-ish list prices)
-python scripts/merge_research.py x.json     # merge subagent research output
+python scripts/sync/sync_openrouter.py --write   # pull OpenRouter catalog (aggregator prices)
+python scripts/sync/sync_modelsdev.py --write    # pull models.dev (official-ish list prices)
+python scripts/migrate/merge_research.py x.json     # merge subagent research output
 python scripts/daily_check.py               # full daily check (network)
 python scripts/build_human.py               # regenerate human pages (en + zh-CN)
 python scripts/validate.py                  # schema + consistency validation

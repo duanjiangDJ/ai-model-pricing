@@ -46,7 +46,7 @@
 
 ## 3. 重新核实活动
 
-周期性（例如模型发布或价格战之后）会执行一次完整的重新核实：调研子代理按厂商检查官方文档，将结果写入 `pricing_research/*.json`，再经 `scripts/merge_research.py` 合并（按模型 id upsert，并刷新 `verified_at`）。这些活动的契约记录在 `docs/research-contract.md`。
+周期性（例如模型发布或价格战之后）会执行一次完整的重新核实：调研子代理按厂商检查官方文档，将结果写入 `pricing_research/*.json`，再经 `scripts/migrate/merge_research.py` 合并（按模型 id upsert，并刷新 `verified_at`）。这些活动的契约记录在 `docs/research-contract.md`。
 
 ## 4. 如何自行核对某个具体数字
 

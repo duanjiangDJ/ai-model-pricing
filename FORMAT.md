@@ -50,7 +50,7 @@ data/meta/
 
 **`billing_model`** (on every model, required array): how the model is billed — one model can have
 several methods. Values: `pay_per_token` / `pay_per_image` / `subscription_included` / `credits` /
-`free` / `unknown`. Keep it in sync with `pricing`; run `scripts/annotate_billing.py` to re-annotate.
+`free` / `unknown`. Keep it in sync with `pricing`; run `scripts/migrate/annotate_billing.py` to re-annotate.
 
 > Removed on 2026-08-28 (nothing used them): `per_audio_second`, `per_character`, `per_request`,
 > `credits`, `gpu[]`, `neuron_second`, `finetune`, `provisioned`. To add a billing mode back, follow

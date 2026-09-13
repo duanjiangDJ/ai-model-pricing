@@ -600,6 +600,29 @@ for f in sorted(md_files):
             fail(f"broken relative link in {f}: [{m.group(1)}] (resolves to {p})")
 print(f"OK links: {len(md_files)} markdown files checked, {broken_links} broken")
 
+# 6b. documented script paths resolve (the scripts-layer-refactor stale-path class).
+# A prose doc that tells an agent/user to run `scripts/<...>.py` at a path that no longer
+# exists is a BROKEN INSTRUCTION -- the refactor moved sync_*/migrate_* into subpackages
+# (scripts/sync/, scripts/migrate/) and left the docs citing the old flat paths. Nothing
+# caught it: the link check above only resolves markdown [](target) links, and these
+# references sit in backticks/prose. Fail so a stale path can never re-enter silently.
+# CHANGELOG*.md is a historical provenance log (it must keep the path that was true THEN)
+# and generated data/view pages are regenerated, so neither is scanned.
+SCRIPT_PATH_RE = re.compile(r"scripts/[A-Za-z0-9_./-]+\.py")
+_script_docs = [f for f in glob.glob("*.md") + glob.glob("docs/*.md")
+                if "CHANGELOG" not in os.path.basename(f)]
+_stale_paths = []
+for _f in sorted(_script_docs):
+    _txt = open(_f, encoding="utf-8", errors="ignore").read()
+    for _m in SCRIPT_PATH_RE.findall(_txt):
+        if not os.path.exists(_m):
+            _stale_paths.append(f"{_f}: {_m}")
+if _stale_paths:
+    fail(f"documented script path does not exist ({len(_stale_paths)}; stale after a scripts refactor): "
+         + "; ".join(sorted(set(_stale_paths))[:6]))
+else:
+    print(f"OK script-paths: {len(_script_docs)} docs, every referenced scripts/*.py exists")
+
 # 7. sync-health: an auto_sync manifest source that is stale-but-green (silently frozen)
 # The manifest's `sources[]` is SYNC HEALTH. A source with auto_sync:true and NO last_error
 # looks healthy, but if its last_ok is null/old it is silently dead -- the exact

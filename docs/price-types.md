@@ -24,7 +24,7 @@ several (e.g. Gemini models have a free tier AND pay-per-token pricing: `["free"
 | `free` | Truly free (per_mtok = 0) |
 | `unknown` | Pricing not yet determined (needs human review; flagged by audit) |
 
-Annotation: `scripts/annotate_billing.py` (auto-classify + provider-context fallback), then
+Annotation: `scripts/migrate/annotate_billing.py` (auto-classify + provider-context fallback), then
 `scripts/audit.py` verifies consistency (e.g. per_mtok > 0 must imply `pay_per_token`).
 
 ## 1. per_mtok — per million tokens
@@ -107,7 +107,7 @@ structurally in an `off_peak` field instead of as prose in `notes`:
 3. **Missing data** uses `null`; **not applicable** uses `null` + `notes` explanation; **never use 0 for missing**.
 4. Price changes: the daily check script diffs against the previous values; a change > 5× relative is treated as a parsing error and skipped with a warning (surge guard). All changes are written to `changelog.json`.
 5. Subscription plan prices follow the official pricing pages; the daily check generates a "needs manual verification" list for plans not verified for more than 30 days.
-6. Every model must have a `billing_model`; run `scripts/annotate_billing.py` after bulk imports and let `scripts/audit.py` verify.
+6. Every model must have a `billing_model`; run `scripts/migrate/annotate_billing.py` after bulk imports and let `scripts/audit.py` verify.
 
 ---
 
