@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.138.92 — 2026-09-13T19:31Z (feature update)
+
+- audit: widen the price-oscillation check to all per_mtok fields and non-strict churn (catches the promo/list class)
+
 ## 26.138.91 — 2026-09-13T18:24Z (feature update)
 
 - audit: hard-fail max_output on non-generative (embedding/rerank) categories; null 68 dimension-as-token-limit rows; guard the models.dev writer
