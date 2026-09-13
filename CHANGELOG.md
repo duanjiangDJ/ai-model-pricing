@@ -16,6 +16,14 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.135.86 — 2026-09-13T06:59Z (content update)
+
+- price sync (9 changes):
+- **opencode** (updated 3): `kimi-k2.5`, `deepseek-v4-pro`, `gpt-5.6-terra`
+- **opencode-go** (updated 1): `minimax-m2.5`
+- **openrouter** (updated 4): `deepseek/deepseek-v4-flash`, `qwen/qwen3-coder-plus`, `~deepseek/deepseek-v4-flash-latest`, `~z-ai/glm-latest`
+- **tinfoil** (updated 1): `deepseek-v4-flash`
+
 ## 26.134.86 — 2026-09-13T05:43Z (feature update)
 
 - fix(category): cover the remaining generator families (video veo/sora/kling/seedance/runway/wan, image gemini-*-image/gpt-image/qwen-image/imagen) so the writers stop re-defaulting 151 rows to chat/reasoning

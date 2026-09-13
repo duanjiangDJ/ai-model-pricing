@@ -1,6 +1,200 @@
 {
-  "schema_version": "26.134.86",
+  "schema_version": "26.135.86",
   "entries": [
+    {
+      "date": "2026-09-13T06:43:26Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "opencode-go",
+      "item_id": "minimax-m2.5",
+      "field": "pricing",
+      "new": {
+        "models": 1
+      },
+      "source": "https://opencode.ai/docs/go/"
+    },
+    {
+      "date": "2026-09-13T06:43:26Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "kimi-k2.5,deepseek-v4-pro,gpt-5.6-terra",
+      "field": "pricing",
+      "new": {
+        "models": 3
+      },
+      "source": "https://opencode.ai/docs/zen/"
+    },
+    {
+      "date": "2026-09-13T06:43:26Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "tinfoil",
+      "item_id": "deepseek-v4-flash",
+      "field": "pricing",
+      "new": {
+        "models": 1
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-13T06:43:26Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "opencode-go",
+      "item_id": "minimax-m2.5",
+      "field": "pricing",
+      "new": {
+        "models": 1
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-13T06:43:26Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "opencode",
+      "item_id": "kimi-k2.5,deepseek-v4-pro,gpt-5.6-terra",
+      "field": "pricing",
+      "new": {
+        "models": 3
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-13T06:42:38Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-flash",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.06538
+          },
+          "output": {
+            "usd": 0.13076
+          },
+          "cache_read": {
+            "usd": 0.013076
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.04984
+          },
+          "output": {
+            "usd": 0.09968
+          },
+          "cache_read": {
+            "usd": 0.009968
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-13T06:42:38Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "qwen/qwen3-coder-plus",
+      "field": "category",
+      "old": "reasoning",
+      "new": "chat",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-13T06:42:38Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~deepseek/deepseek-v4-flash-latest",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.03
+          },
+          "output": {
+            "usd": 0.07
+          },
+          "cache_read": {
+            "usd": 0.005
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.0352
+          },
+          "output": {
+            "usd": 0.1056
+          },
+          "cache_read": {
+            "usd": 0.00112
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-13T06:42:38Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~z-ai/glm-latest",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.8727
+          },
+          "output": {
+            "usd": 3.36
+          },
+          "cache_read": {
+            "usd": 0.1639
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.936
+          },
+          "output": {
+            "usd": 3.168
+          },
+          "cache_read": {
+            "usd": 0.1872
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-13T03:42:19Z",
       "kind": "update",
