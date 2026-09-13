@@ -703,6 +703,9 @@ else:
     print(f"OK sync-health: all auto_sync sources fresh (<{STALE_SOURCE_DAYS}d)")
 
 # 8. price oscillation across syncs (the OpenRouter `overrides` class)
+#    WIDENED 2026-09-14: used to scan ONLY per_mtok.input.usd and require a STRICT A/B alternation,
+#    so it reported 7 models while 32 field-sequences churn (z-ai/glm-5.3-flash promo/list
+#    0.075<->0.15 never fired) and any output/cache_read oscillation was invisible.
 # A model whose stored per_mtok.input.usd alternates A -> B -> A -> B across consecutive syncs
 # is NOT a price move -- it is a time-of-day / override price that a writer stored as ONE
 # scalar. OpenRouter exposes time windows in `pricing.overrides`, which sync_openrouter ignores,
@@ -721,25 +724,35 @@ try:
         if not isinstance(_iid, str) or not isinstance(_new, dict):
             continue
         _pm = _new.get("per_mtok")
-        _in = _pm.get("input") if isinstance(_pm, dict) else None
-        _v = _in.get("usd") if isinstance(_in, dict) else None
-        if isinstance(_v, (int, float)) and not isinstance(_v, bool):
-            _seq.setdefault((_e.get("provider_id"), _iid), []).append(round(float(_v), 12))
-    for (_pid, _iid), _vals in _seq.items():
+        if not isinstance(_pm, dict):
+            continue
+        for _k in ("input", "output", "cache_read", "cache_write"):
+            _node = _pm.get(_k)
+            if not isinstance(_node, dict):
+                continue
+            for _cur, _v in _node.items():
+                if isinstance(_v, (int, float)) and not isinstance(_v, bool):
+                    _seq.setdefault((_e.get("provider_id"), _iid, _k, _cur), []).append(round(float(_v), 12))
+    for (_pid, _iid, _k, _cur), _vals in _seq.items():
         _t = _vals[-10:]
         _c = [_t[0]]
         for _x in _t[1:]:
             if _x != _c[-1]:
                 _c.append(_x)
-        if len(_c) >= 4 and len(set(_c)) == 2 and all(_c[_i] != _c[_i + 1] for _i in range(len(_c) - 1)):
-            _osc.append(f"{_pid}:{_iid} ({_c[0]}/{_c[1]}, {len(_c) - 1} flips)")
+        # An OSCILLATION RETURNS to a value it already held after holding another one (A -> B -> A);
+        # a DRIFT never goes back (A -> B -> C). Require >=2 returns within a SMALL value set -- a
+        # row with many distinct values is drift/re-pinning, which is the separate case noted below.
+        _ret = sum(1 for _i in range(1, len(_c)) if _c[_i] in _c[:_i])
+        if len(_c) >= 4 and 2 <= len(set(_c)) <= 4 and _ret >= 2:
+            _osc.append(f"{_pid}:{_iid}.{_k}.{_cur} ({_c}; {_ret} returns)")
 except Exception as e:  # noqa: BLE001
     fail(f"price-oscillation check error: {e}")
 if _osc:
-    warn(f"per_mtok alternates between two values across syncs (a time-of-day/override price stored as one scalar; {len(_osc)} models): "
-         + ", ".join(sorted(_osc)[:12]))
+    warn(f"per_mtok returns to a previously-seen value across syncs (an override/time-of-day or "
+         f"promo/list price a writer stores as ONE scalar, so the row churns instead of settling; "
+         f"{len(_osc)} sequence(s)): " + ", ".join(sorted(_osc)[:12]))
 else:
-    print("OK oscillation: no model alternates between two prices across syncs")
+    print("OK oscillation: no per_mtok sequence returns to a previously-seen value across syncs")
 
 # 9. unresolved >5x surge skips (the silent-skip class)
 # update_model_prices() never applies a >5x correction (parse-error guard) but records every
