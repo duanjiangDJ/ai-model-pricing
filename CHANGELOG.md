@@ -16,6 +16,11 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.137.87 — 2026-09-13T13:00Z (content update)
+
+- price sync (1 change):
+- **openrouter** (updated 1): `deepseek/deepseek-v4-flash`
+
 ## 26.136.87 — 2026-09-13T11:42Z (feature update)
 
 - fix(audit,docs): resolve stale scripts/*.py paths after the scripts-layer refactor; add audit check #6b
