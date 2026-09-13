@@ -3,7 +3,7 @@
 > Data sources: official pricing pages & public APIs. Machine-readable version: [`data/feed/`](../../../data/feed/).
 > Auto-updated daily by GitHub Actions (see `.github/workflows/daily-check.yml`).
 
-- Generated: 2026-09-13T03:42:19Z
+- Generated: 2026-09-13T06:42:38Z
 - Providers: 190
 - Models total: 7594
 - Plans total: 67
@@ -76,7 +76,7 @@
 | [Crusoe](providers/crusoe.md) | Inference host | 8 | `providers/crusoe.json` | 2026-09-04T00:22:51Z |
 | [DInference](providers/dinference.md) | Inference host | 6 | `providers/dinference.json` | 2026-09-04T00:22:51Z |
 | [OpenAI](providers/openai.md) | First-party | 55 | `providers/openai.json` | 2026-09-04T00:22:51Z |
-| [OpenCode Go](providers/opencode-go.md) | Subscription | 34 | `providers/opencode-go.json` | 2026-09-12T03:41:55Z |
+| [OpenCode Go](providers/opencode-go.md) | Subscription | 34 | `providers/opencode-go.json` | 2026-09-13T06:43:26Z |
 | [xAI](providers/xai.md) | First-party | 17 | `providers/xai.json` | 2026-09-04T00:22:51Z |
 | [LMStudio](providers/lmstudio.md) | Inference host | 3 | `providers/lmstudio.json` | 2026-09-04T00:22:51Z |
 | [Ambient](providers/ambient.md) | Inference host | 10 | `providers/ambient.json` | 2026-09-02T00:19:17Z |
@@ -85,7 +85,7 @@
 | [Echo](providers/echo.md) | Inference host | 1 | `providers/echo.json` | 2026-09-04T00:22:51Z |
 | [CloudFerro Sherlock](providers/cloudferro-sherlock.md) | Inference host | 5 | `providers/cloudferro-sherlock.json` | 2026-09-04T00:22:51Z |
 | [NEAR AI Cloud](providers/nearai.md) | Inference host | 37 | `providers/nearai.json` | 2026-09-10T09:39:09Z |
-| [Tinfoil](providers/tinfoil.md) | Inference host | 9 | `providers/tinfoil.json` | 2026-09-12T03:41:55Z |
+| [Tinfoil](providers/tinfoil.md) | Inference host | 9 | `providers/tinfoil.json` | 2026-09-13T06:43:26Z |
 | [LLMTR](providers/llmtr.md) | Inference host | 32 | `providers/llmtr.json` | 2026-09-04T00:22:51Z |
 | [Merge Gateway](providers/merge-gateway.md) | Aggregator | 179 | `providers/merge-gateway.json` | 2026-09-12T03:09:07Z |
 | [Inceptron](providers/inceptron.md) | Inference host | 4 | `providers/inceptron.json` | 2026-09-04T00:22:51Z |
@@ -132,7 +132,7 @@
 | [Neon](providers/neon.md) | Inference host | 42 | `providers/neon.json` | 2026-09-04T00:22:51Z |
 | [evroc](providers/evroc.md) | Inference host | 17 | `providers/evroc.json` | 2026-09-04T00:22:51Z |
 | [302.AI](providers/302ai.md) | Inference host | 97 | `providers/302ai.json` | 2026-09-10T09:39:09Z |
-| [OpenCode Zen](providers/opencode.md) | Aggregator | 99 | `providers/opencode.json` | 2026-09-12T03:41:55Z |
+| [OpenCode Zen](providers/opencode.md) | Aggregator | 99 | `providers/opencode.json` | 2026-09-13T06:43:26Z |
 | [Requesty](providers/requesty.md) | Inference host | 153 | `providers/requesty.json` | 2026-09-11T18:41:33Z |
 | [SiliconFlow](providers/siliconflow.md) | Inference host | 61 | `providers/siliconflow.json` | 2026-09-04T00:22:51Z |
 | [Atomic Chat](providers/atomic-chat.md) | Inference host | 5 | `providers/atomic-chat.json` | 2026-09-04T00:22:51Z |
@@ -201,7 +201,7 @@
 | [百川智能 (Baichuan)](providers/baichuan.md) | First-party | 1 | `providers/baichuan.json` | 2026-08-28T10:02:16.380334Z |
 | [科大讯飞星火 (iFlytek Spark)](providers/iflytek.md) | First-party | 2 | `providers/iflytek.json` | 2026-08-28T10:02:16.380334Z |
 | [零一万物 (01.AI)](providers/lingyiwanwu.md) | First-party | 2 | `providers/lingyiwanwu.json` | 2026-08-28T10:02:16.380334Z |
-| [OpenRouter](providers/openrouter.md) | Aggregator | 445 | `providers/openrouter.json` | 2026-09-13T03:42:19Z |
+| [OpenRouter](providers/openrouter.md) | Aggregator | 445 | `providers/openrouter.json` | 2026-09-13T06:42:38Z |
 
 ## Plans
 

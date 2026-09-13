@@ -16,6 +16,14 @@
 
 ---
 
+## 26.135.86 — 2026-09-13T06:59Z（内容更新）
+
+- 价格同步（9 处变更）：
+- **opencode**（更新 3）：`kimi-k2.5`, `deepseek-v4-pro`, `gpt-5.6-terra`
+- **opencode-go**（更新 1）：`minimax-m2.5`
+- **openrouter**（更新 4）：`deepseek/deepseek-v4-flash`, `qwen/qwen3-coder-plus`, `~deepseek/deepseek-v4-flash-latest`, `~z-ai/glm-latest`
+- **tinfoil**（更新 1）：`deepseek-v4-flash`
+
 ## 26.134.86 — 2026-09-13T05:43Z（功能更新）
 
 - 修复(category)：补齐生成类模型识别（视频 veo/sora/kling/seedance/runway/wan、图像 gemini-*-image/gpt-image/qwen-image/imagen），修正 151 个被默认为 chat/reasoning 的行

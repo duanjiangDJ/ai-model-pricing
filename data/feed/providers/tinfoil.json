@@ -7,8 +7,8 @@
   "homepage": "https://docs.tinfoil.sh",
   "pricing_page": "https://docs.tinfoil.sh",
   "currency": "USD",
-  "updated_at": "2026-09-12T03:41:55Z",
-  "verified_at": "2026-09-12T03:41:55Z",
+  "updated_at": "2026-09-13T06:43:26Z",
+  "verified_at": "2026-09-13T06:43:26Z",
   "models": [
     {
       "id": "deepseek-v4-flash",
@@ -22,13 +22,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.65
+            "usd": 0.3
           },
           "output": {
-            "usd": 1.45
+            "usd": 0.7
           },
           "cache_read": {
-            "usd": 0.13
+            "usd": 0.06
           },
           "cache_write": null
         },
