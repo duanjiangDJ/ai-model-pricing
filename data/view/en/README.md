@@ -5,7 +5,7 @@
 
 - Generated: 2026-09-13T12:42:51Z
 - Providers: 190
-- Models total: 7594
+- Models total: 7600
 - Plans total: 67
 
 ## Providers
@@ -91,7 +91,7 @@
 | [Inceptron](providers/inceptron.md) | Inference host | 4 | `providers/inceptron.json` | 2026-09-04T00:22:51Z |
 | [OVHcloud AI Endpoints](providers/ovhcloud.md) | Inference host | 15 | `providers/ovhcloud.json` | 2026-09-04T00:22:51Z |
 | [AKI.IO](providers/aki-io.md) | Inference host | 8 | `providers/aki-io.json` | 2026-09-04T00:22:51Z |
-| [StepFun (China)](providers/stepfun.md) | First-party | 8 | `providers/stepfun.json` | 2026-09-04T00:22:51Z |
+| [StepFun (China)](providers/stepfun.md) | First-party | 14 | `providers/stepfun.json` | 2026-09-13T14:57:56Z |
 | [Llama](providers/llama.md) | Inference host | 7 | `providers/llama.json` | 2026-09-04T00:22:51Z |
 | [Cloudflare AI Gateway](providers/cloudflare-ai-gateway.md) | Aggregator | 79 | `providers/cloudflare-ai-gateway.json` | 2026-09-04T00:22:51Z |
 | [D.Run (China)](providers/drun.md) | Inference host | 3 | `providers/drun.json` | 2026-09-04T00:22:51Z |

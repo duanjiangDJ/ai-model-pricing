@@ -47,7 +47,7 @@
 | `lingyiwanwu` | 零一万物 (01.AI) | 2 | `https://api.lingyiwanwu.com/v1` | `tier1_lingyiwanwu.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `nvidia` | Nvidia | 103 | `https://integrate.api.nvidia.com/v1` | `tier1_nvidia.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `perplexity` | Perplexity | 26 | `https://api.perplexity.ai` | `tier1_perplexity.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
-| `stepfun` | StepFun (China) | 8 | `https://api.stepfun.com/v1` | `tier1_stepfun.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
+| `stepfun` | StepFun (China) | 14 | `https://api.stepfun.com/v1` | `tier1_stepfun.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `tencent` | 腾讯混元 (Tencent Hunyuan) | 1 | `https://api.hunyuan.cloud.tencent.com/v1` | `tier1_tencent.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `upstage` | Upstage | 4 | `https://api.upstage.ai/v1/solar` | `tier1_upstage.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `volcengine` | 字节跳动·火山引擎方舟 (ByteDance Volcengine Ark / 豆包) | 17 | `https://ark.cn-beijing.volces.com/api/v3` | `tier1_volcengine.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |

@@ -5,7 +5,7 @@
 
 - 数据更新时间: 2026-09-13T12:42:51Z
 - 覆盖渠道: 190
-- 模型总数: 7594
+- 模型总数: 7600
 - 订阅计划数: 67
 
 ## 供应商列表
@@ -91,7 +91,7 @@
 | [Inceptron](providers/inceptron.md) | 推理托管 | 4 | `providers/inceptron.json` | 2026-09-04T00:22:51Z |
 | [OVHcloud AI Endpoints](providers/ovhcloud.md) | 推理托管 | 15 | `providers/ovhcloud.json` | 2026-09-04T00:22:51Z |
 | [AKI.IO](providers/aki-io.md) | 推理托管 | 8 | `providers/aki-io.json` | 2026-09-04T00:22:51Z |
-| [StepFun (China)](providers/stepfun.md) | 官方直供 | 8 | `providers/stepfun.json` | 2026-09-04T00:22:51Z |
+| [StepFun (China)](providers/stepfun.md) | 官方直供 | 14 | `providers/stepfun.json` | 2026-09-13T14:57:56Z |
 | [Llama](providers/llama.md) | 推理托管 | 7 | `providers/llama.json` | 2026-09-04T00:22:51Z |
 | [Cloudflare AI Gateway](providers/cloudflare-ai-gateway.md) | 聚合站 | 79 | `providers/cloudflare-ai-gateway.json` | 2026-09-04T00:22:51Z |
 | [D.Run (China)](providers/drun.md) | 推理托管 | 3 | `providers/drun.json` | 2026-09-04T00:22:51Z |

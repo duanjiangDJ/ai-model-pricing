@@ -16,6 +16,7 @@ import sys
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")))
 from collect.router import collect  # noqa: E402
 from collect.utils import write_prices, load_provider  # noqa: E402
+from toolbox import record_unseeded_official, now_iso  # noqa: E402
 
 
 def run(provider_filter=None, dry_run=False):
@@ -47,11 +48,16 @@ def run(provider_filter=None, dry_run=False):
             if missing:
                 print(f"  WARN {pid}: {len(missing)} parsed model id(s) not in DB "
                       f"(update silently skips them): {missing[:5]}")
+                if not dry_run:
+                    # Durable surfacing: a missing id is skipped forever, so record it in the
+                    # changelog (deduped) where audit.py reports it until it is seeded.
+                    record_unseeded_official(pid, missing, now_iso(), res.get("source", ""))
             res["missing_ids"] = missing
         # persist (unless dry-run) — write_prices updates the provider in the DB & changelog
         changed = write_prices(pid, parsed, res.get("source", ""), None) if not dry_run else len(parsed)
         summary[pid] = {"status": "ok", "parsed": len(parsed), "changed": changed,
-                        "missing_ids": len(res.get("missing_ids") or [])}
+                        "missing_ids": len(res.get("missing_ids") or []),
+                        "unseeded_ids": res.get("missing_ids") or []}
     return summary
 
 

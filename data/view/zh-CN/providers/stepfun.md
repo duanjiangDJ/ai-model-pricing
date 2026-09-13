@@ -6,10 +6,10 @@
 - 官网: https://platform.stepfun.com/docs/zh/overview/concept
 - 定价页: https://platform.stepfun.com/docs/zh/overview/concept
 - 币种: USD
-- 数据更新时间: 2026-09-04T00:22:51Z
-- 核实时间: 2026-09-04T00:22:51Z
+- 数据更新时间: 2026-09-13T14:57:56Z
+- 核实时间: 2026-09-13T14:57:56Z
 
-共 **8** 个模型。
+共 **14** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -21,3 +21,9 @@
 | `step-tts-2` | ✅ 在线 | audio_tts | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
 | `stepaudio-2.5-asr` | ✅ 在线 | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
 | `stepaudio-2.5-tts` | ✅ 在线 | audio_tts | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
+| `step-1o-turbo-vision` | ✅ 在线 | vision | 按量 | — | ¥2.5 | ¥8 | ¥0.5 | — | —/— | — | Official StepFun domestic pricing page (¥/1M tokens, cache-miss/cache-hit/out… |
+| `stepaudio-2.5-realtime` | ✅ 在线 | realtime | 按量 | — | ¥10 | ¥70 | ¥2 | — | —/— | — | Official StepFun domestic pricing page (¥/1M tokens, cache-miss/cache-hit/out… |
+| `stepaudio-2.5-chat` | ✅ 在线 | audio_understanding | 按量 | — | ¥10 | ¥25 | ¥2 | — | —/— | — | Official StepFun domestic pricing page (¥/1M tokens, cache-miss/cache-hit/out… |
+| `step-1o-audio` | ✅ 在线 | audio_understanding | 按量 | — | ¥25 | ¥60 | ¥5 | — | —/— | — | Official StepFun domestic pricing page (¥/1M tokens, cache-miss/cache-hit/out… |
+| `step-audio-2` | ✅ 在线 | audio_understanding | 按量 | — | ¥10 | ¥70 | ¥2 | — | —/— | — | Official StepFun domestic pricing page (¥/1M tokens, cache-miss/cache-hit/out… |
+| `step-audio-r1.5` | ✅ 在线 | audio_understanding | 按量 | — | ¥10 | ¥105 | ¥2 | — | —/— | — | Official StepFun domestic pricing page (¥/1M tokens, cache-miss/cache-hit/out… |

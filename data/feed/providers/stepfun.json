@@ -7,8 +7,8 @@
   "homepage": "https://platform.stepfun.com/docs/zh/overview/concept",
   "pricing_page": "https://platform.stepfun.com/docs/zh/overview/concept",
   "currency": "USD",
-  "updated_at": "2026-09-04T00:22:51Z",
-  "verified_at": "2026-09-04T00:22:51Z",
+  "updated_at": "2026-09-13T14:57:56Z",
+  "verified_at": "2026-09-13T14:57:56Z",
   "models": [
     {
       "id": "step-1-32k",
@@ -264,6 +264,221 @@
         "pay_per_token"
       ],
       "status": "online"
+    },
+    {
+      "id": "step-1o-turbo-vision",
+      "name": "Step 1o Turbo Vision",
+      "category": "vision",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "cny": 2.5
+          },
+          "output": {
+            "cny": 8.0
+          },
+          "cache_read": {
+            "cny": 0.5
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official StepFun domestic pricing page (¥/1M tokens, cache-miss/cache-hit/output): ¥2.5/¥0.5/¥8. Seeded from the official page (proactive discovery 2026-09-13T14:57:56Z); parsed by check stepfun.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online",
+      "source": "https://platform.stepfun.com/docs/zh/guides/pricing/details"
+    },
+    {
+      "id": "stepaudio-2.5-realtime",
+      "name": "StepAudio 2.5 Realtime",
+      "category": "realtime",
+      "modalities": [
+        "text",
+        "audio_in",
+        "audio_out"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "cny": 10.0
+          },
+          "output": {
+            "cny": 70.0
+          },
+          "cache_read": {
+            "cny": 2.0
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official StepFun domestic pricing page (¥/1M tokens, cache-miss/cache-hit/output): ¥10/¥2/¥70. Seeded from the official page (proactive discovery 2026-09-13T14:57:56Z); parsed by check stepfun.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online",
+      "source": "https://platform.stepfun.com/docs/zh/guides/pricing/details"
+    },
+    {
+      "id": "stepaudio-2.5-chat",
+      "name": "StepAudio 2.5 Chat",
+      "category": "audio_understanding",
+      "modalities": [
+        "text",
+        "audio_in",
+        "audio_out"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "cny": 10.0
+          },
+          "output": {
+            "cny": 25.0
+          },
+          "cache_read": {
+            "cny": 2.0
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official StepFun domestic pricing page (¥/1M tokens, cache-miss/cache-hit/output): ¥10/¥2/¥25. Seeded from the official page (proactive discovery 2026-09-13T14:57:56Z); parsed by check stepfun.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online",
+      "source": "https://platform.stepfun.com/docs/zh/guides/pricing/details"
+    },
+    {
+      "id": "step-1o-audio",
+      "name": "Step 1o Audio",
+      "category": "audio_understanding",
+      "modalities": [
+        "text",
+        "audio_in",
+        "audio_out"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "cny": 25.0
+          },
+          "output": {
+            "cny": 60.0
+          },
+          "cache_read": {
+            "cny": 5.0
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official StepFun domestic pricing page (¥/1M tokens, cache-miss/cache-hit/output): ¥25/¥5/¥60. Seeded from the official page (proactive discovery 2026-09-13T14:57:56Z); parsed by check stepfun.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online",
+      "source": "https://platform.stepfun.com/docs/zh/guides/pricing/details"
+    },
+    {
+      "id": "step-audio-2",
+      "name": "Step Audio 2",
+      "category": "audio_understanding",
+      "modalities": [
+        "text",
+        "audio_in",
+        "audio_out"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "cny": 10.0
+          },
+          "output": {
+            "cny": 70.0
+          },
+          "cache_read": {
+            "cny": 2.0
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official StepFun domestic pricing page (¥/1M tokens, cache-miss/cache-hit/output): ¥10/¥2/¥70. Seeded from the official page (proactive discovery 2026-09-13T14:57:56Z); parsed by check stepfun.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online",
+      "source": "https://platform.stepfun.com/docs/zh/guides/pricing/details"
+    },
+    {
+      "id": "step-audio-r1.5",
+      "name": "Step Audio R1.5",
+      "category": "audio_understanding",
+      "modalities": [
+        "text",
+        "audio_in",
+        "audio_out"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "cny": 10.0
+          },
+          "output": {
+            "cny": 105.0
+          },
+          "cache_read": {
+            "cny": 2.0
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official StepFun domestic pricing page (¥/1M tokens, cache-miss/cache-hit/output): ¥10/¥2/¥105. Seeded from the official page (proactive discovery 2026-09-13T14:57:56Z); parsed by check stepfun.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online",
+      "source": "https://platform.stepfun.com/docs/zh/guides/pricing/details"
     }
   ],
   "api_base_url": "https://api.stepfun.com/v1",

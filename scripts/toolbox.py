@@ -447,6 +447,40 @@ def _record_surge_skips(provider_id, skips, now, source):
         print(f"  RECORD {provider_id}: {len(fresh)} unresolved >5x surge skip(s) written to changelog")
 
 
+def record_unseeded_official(provider_id, missing, now, source):
+    """Durably surface official model ids that the DB does not contain.
+
+    update_model_prices() never ADDS a model: a parsed id that is absent from the provider
+    file is skipped silently (see the `continue` on `if not m`). So a first-party check can
+    look green forever while the vendor's live models never enter the DB. Real 2026-09-13:
+    stepfun's whole `stepaudio-*` family (6 token-priced models on the official pricing page,
+    0 in the DB -- the check regex was `step-`, which silently dropped the family), alibaba
+    56 ids, google 6 ids.
+
+    Each unresolved id set is recorded as a `kind="verify"`,
+    `field="unseeded_official:<pid>"` changelog entry (new = the parsed ids), and audit.py
+    WARNs while those ids are still absent -- the warning drops out automatically once they
+    are seeded. Identical pending sets are deduped so a 3h sync cannot append a duplicate.
+    """
+    if not missing:
+        return
+    cl = load_changelog()
+    for e in cl.get("entries", [])[:500]:
+        if e.get("field") == f"unseeded_official:{provider_id}":
+            if sorted((e.get("new") or {}).get("ids") or []) == sorted(missing):
+                return  # already recorded, still unresolved
+            break
+    append_changelog([{
+        "date": now, "kind": "verify", "scope": "provider",
+        "provider_id": provider_id, "item_id": ",".join(sorted(missing)[:3]),
+        "field": f"unseeded_official:{provider_id}",
+        "new": {"ids": sorted(missing), "count": len(missing)},
+        "source": source,
+    }])
+    print(f"  RECORD {provider_id}: {len(missing)} official model id(s) absent from the DB "
+          f"-> changelog (the writer cannot ADD a model)")
+
+
 def update_model_prices(provider, updates, now, source, surge_factor=5.0):
     """Apply {model_id: {per_mtok: {...}, batch: {...}, notes: str}} updates.
     Only non-None values overwrite. Returns list of changed model ids.

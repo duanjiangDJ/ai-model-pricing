@@ -22,13 +22,20 @@ URL = "https://platform.stepfun.com/docs/zh/guides/pricing/details"
 def parse_stepfun(text):
     """Extract {db_id: {cny input(cache-miss), cny cache_read, cny output}}.
 
-    Row shape: '<model> 1M tokens <in-miss>元 <in-hit>元 <out>元'. Only models actually
-    present in the DB are kept (matched by page name)."""
+    Row shape: '<model> 1M tokens <in-miss>元 <in-hit>元 <out>元'. EVERY token-priced row on
+    the page is returned; rows whose id is not (yet) in the provider file are reported by
+    price_check as unseeded official models instead of being dropped here."""
+    # NOTE(2026-09-13): the id prefix below is 'step' (not 'step-'). The END-TO-END
+    # SPEECH family is published as `stepaudio-*` (stepaudio-2.5-realtime / -chat), so a
+    # 'step-' prefix dropped that whole family -- official token-priced models that then
+    # never reached the DB (the writer cannot ADD a model: a parsed id absent from the
+    # provider file is skipped silently, so the check stayed green while 6 live models
+    # were invisible). Keep the broad prefix; the '1M tokens' anchor keeps it precise.
     seg = re.sub(r"<[^>]+>", " ", text)
     seg = re.sub(r"\s+", " ", seg)
     out = {}
     for m in re.finditer(
-        r"(step-[\w.\-]+)\s+1M tokens\s+([\d.]+)元\s+([\d.]+)元\s+([\d.]+)元", seg
+        r"(step[\w.\-]*)\s+1M tokens\s+([\d.]+)元\s+([\d.]+)元\s+([\d.]+)元", seg
     ):
         mid = m.group(1)
         out[mid] = {

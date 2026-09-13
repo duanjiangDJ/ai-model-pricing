@@ -119,6 +119,19 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    aggregator writers too (`collect_modelsdev` is cortecs's only source — it has no fetchable official
    page, its `tier1_cortecs.py` being a stub), so an aggregation-only provider has no check to raise
    from and the guard record is its only signal.
+   **The writer never ADDS a model — an unseeded official model is skipped silently (2026-09-13)**:
+   `update_model_prices()` only updates ids that already exist in the provider file (`if not m:
+   continue`), so a first-party check can parse a vendor's live, token-priced models and stay
+   GREEN forever while none of them enter the DB. Real case: stepfun's whole `stepaudio-*` family
+   (6 models on the official pricing page, 0 in the provider file) — the check's id regex was
+   `step-`, which dropped the family entirely, and 4 further ids were parsed but never seeded.
+   `price_check.py` now records every unresolved id set as `kind:"verify"`,
+   `field:"unseeded_official:<pid>"` (deduped), and `audit.py` check #11 WARNs while any recorded
+   id is STILL missing — seeding the models clears the warning automatically. WARN, never FAIL: a
+   vendor adding a model must not block a bot-sync PR, and the fix is a seed, not an invention.
+   When a collector reports missing ids, seed the models from the official page (prices + category
+   + status + a source note), then `refresh_index_counts`, `stats.py`, `build_human.py` and bump.
+   Same-3h-sync sibling class: an aggregator row can also be *stale* (see the re-verify note below).
    **A stub `tier1_*.py` can hide a real official API (2026-09-12)**: before concluding a provider
    has "no fetchable official source", probe its `/api/models`-style JSON endpoints — several
    auto-generated `tier1_*.py` stubs only `js_fetch` an HTML docs page and report "not fetchable",
