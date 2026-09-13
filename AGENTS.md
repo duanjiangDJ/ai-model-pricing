@@ -129,6 +129,9 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    `field:"unseeded_official:<pid>"` (deduped), and `audit.py` check #11 WARNs while any recorded
    id is STILL missing — seeding the models clears the warning automatically. WARN, never FAIL: a
    vendor adding a model must not block a bot-sync PR, and the fix is a seed, not an invention.
+   A unit test that calls `price_check.run(dry_run=False)` reaches the REAL persist path: mock
+   every writer it can touch (`write_prices`, `load_provider`, `record_unseeded_official`) — a
+   fixture id leaked a bogus `unseeded_official:deepseek` entry into the committed changelog.
    When a collector reports missing ids, seed the models from the official page (prices + category
    + status + a source note), then `refresh_index_counts`, `stats.py`, `build_human.py` and bump.
    Same-3h-sync sibling class: an aggregator row can also be *stale* (see the re-verify note below).

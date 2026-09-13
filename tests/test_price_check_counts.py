@@ -48,9 +48,17 @@ class TestPriceCheckRunCounts(unittest.TestCase):
             "deepseek": {"provider_id": "deepseek", "status": "ok",
                          "source": "s", "parsed": {"d1": {}}},
         }
+        # NOTE: dry_run=False reaches price_check's REAL persist path, so every writer it may
+        # touch must be mocked -- including record_unseeded_official, which appends to the real
+        # data/meta/changelog.json. Without this patch a fixture id ("d1") leaked a bogus
+        # `unseeded_official:deepseek` entry into the committed changelog (2026-09-13).
         with mock.patch.object(pc, "collect", return_value=fake), \
-             mock.patch.object(pc, "write_prices", return_value=2):
+             mock.patch.object(pc, "write_prices", return_value=2), \
+             mock.patch.object(pc, "load_provider", return_value={"models": []}), \
+             mock.patch.object(pc, "record_unseeded_official", return_value=None) as rec:
             summary = pc.run(dry_run=False)
+        self.assertTrue(rec.called)   # the class-surfacing hook is exercised, but isolated
+        self.assertEqual([c.args[1] for c in rec.call_args_list], [["d1"]])
         self.assertTrue(summary["models.dev"]["cross_provider"])
         self.assertEqual(summary["models.dev"]["providers"], 2)
         self.assertEqual(summary["models.dev"]["changed"], 4)   # 2 sub-providers x 2
