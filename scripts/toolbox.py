@@ -254,6 +254,51 @@ def mixed_currency_zero(pm, keys=("input", "output", "cache_read", "cache_write"
     return out
 
 
+# Categories whose OUTPUT side is structurally not billed per token: an embedding/rerank
+# model generates nothing, an STT model bills audio seconds, image/video models bill per
+# image/second. A 0 in such a row's `output` field therefore means "no output-token charge"
+# and is legitimate -- unlike the same 0 on a chat/reasoning row, which asserts "output
+# tokens are FREE" next to a positive input price and is really a source's "price not
+# published" sentinel that leaked into the value.
+ZERO_OUTPUT_CATEGORIES = ("embedding", "rerank", "audio_stt", "audio_tts", "image_gen", "video_gen")
+
+
+def zero_token_price_fields(pm, billing_model, category=None):
+    """Return the per_mtok TOKEN fields carrying usd == 0 on a NON-free model, else [].
+
+    Schema / docs/price-types.md rule: ``null`` = not offered / unknown, ``0`` = genuinely
+    free. A model that is not labelled free / subscription_included and publishes
+    ``usd: 0`` on ``input`` or ``output`` while another field is positive therefore claims
+    "these tokens are free" -- a data-truth violation, and the same class ``audit.py`` already
+    hard-fails for ``cache_read``/``cache_write``. The real meaning of such a 0 is "price not
+    published by the source" (models.dev's sentinel), i.e. it must be ``null``.
+
+    Real case 2026-09-14: greenpt ``green-s``/``green-s-pro``, azure ``model-router`` and
+    privatemode-ai ``voxtral-mini-3b`` all carried ``output: {"usd": 0}`` alongside a positive
+    input, every one of them sourced from models.dev ``cost.output = 0``. They were written
+    BEFORE sync_modelsdev's ``_u()`` 0->None guard (2026-09-10), and that guard made the stale
+    value UNCLEARABLE: the writer now maps the source's 0 to None and ``update_model_prices``
+    skips None, so every later 3h sync leaves the 0 in place. Only a hand repair clears it --
+    which is exactly why the check lives here and not only in the writer.
+
+    ``output`` is exempted for the structurally-zero-output categories above; ``input`` is
+    never exempted (no category bills nothing for its input side).
+    """
+    bm = billing_model if isinstance(billing_model, list) else ([billing_model] if billing_model else [])
+    if any(b in ("free", "subscription_included") for b in bm):
+        return []
+    if not any_price_positive(pm):
+        # An all-zero / all-null price is the free- vs unknown-labelling checks' business.
+        return []
+    fields = ["input"] if category in ZERO_OUTPUT_CATEGORIES else ["input", "output"]
+    out = []
+    for k in fields:
+        v = (pm or {}).get(k)
+        if isinstance(v, dict) and v.get("usd") == 0:
+            out.append(k)
+    return out
+
+
 def duplicate_ids(ids):
     """Exact duplicate ids within one provider (the same string appearing twice)."""
     seq = list(ids)

@@ -33,8 +33,8 @@
 | `green-l-raw` | ✅ online | chat | per-token | 128K | $0.285 | $0.912 | — | — | —/— | — | models.dev official list price |
 | `green-r` | ✅ online | reasoning | per-token | 131.072K | $0.399 | $1.083 | — | — | —/— | — | models.dev official list price |
 | `green-r-raw` | ✅ online | reasoning | per-token | 131.072K | $0.399 | $1.083 | — | — | —/— | — | models.dev official list price |
-| `green-s` | ✅ online | chat | per-token | — | $0.00437 | $0 | — | — | —/— | — | models.dev official list price |
-| `green-s-pro` | ✅ online | chat | per-token | — | $0.00437 | $0 | — | — | —/— | — | models.dev official list price |
+| `green-s` | ✅ online | chat | per-token | — | $0.00437 | — | — | — | —/— | — | models.dev official list price |
+| `green-s-pro` | ✅ online | chat | per-token | — | $0.00437 | — | — | — | —/— | — | models.dev official list price |
 | `holo2-30b-a3b` | ✅ online | reasoning | per-token | 22.016K | $0.399 | $0.969 | — | — | —/— | — | models.dev official list price |
 | `kimi-k2.6` | ✅ online | reasoning | per-token | 262.144K | $0.7524 | $4.275 | $0.2508 | — | —/— | — | models.dev official list price |
 | `kimi-k2.6-fast` | ✅ online | reasoning | per-token | 262.144K | $1.655 | $8.778 | — | — | —/— | — | models.dev official list price |

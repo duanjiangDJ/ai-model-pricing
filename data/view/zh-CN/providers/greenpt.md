@@ -33,8 +33,8 @@
 | `green-l-raw` | ✅ 在线 | chat | 按量 | 128K | $0.285 | $0.912 | — | — | —/— | — | models.dev official list price |
 | `green-r` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.399 | $1.083 | — | — | —/— | — | models.dev official list price |
 | `green-r-raw` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.399 | $1.083 | — | — | —/— | — | models.dev official list price |
-| `green-s` | ✅ 在线 | chat | 按量 | — | $0.00437 | $0 | — | — | —/— | — | models.dev official list price |
-| `green-s-pro` | ✅ 在线 | chat | 按量 | — | $0.00437 | $0 | — | — | —/— | — | models.dev official list price |
+| `green-s` | ✅ 在线 | chat | 按量 | — | $0.00437 | — | — | — | —/— | — | models.dev official list price |
+| `green-s-pro` | ✅ 在线 | chat | 按量 | — | $0.00437 | — | — | — | —/— | — | models.dev official list price |
 | `holo2-30b-a3b` | ✅ 在线 | reasoning | 按量 | 22.016K | $0.399 | $0.969 | — | — | —/— | — | models.dev official list price |
 | `kimi-k2.6` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.7524 | $4.275 | $0.2508 | — | —/— | — | models.dev official list price |
 | `kimi-k2.6-fast` | ✅ 在线 | reasoning | 按量 | 262.144K | $1.655 | $8.778 | — | — | —/— | — | models.dev official list price |
