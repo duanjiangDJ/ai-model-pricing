@@ -2338,9 +2338,7 @@
           "input": {
             "usd": 0.14
           },
-          "output": {
-            "usd": 0
-          },
+          "output": null,
           "cache_read": null,
           "cache_write": null
         },

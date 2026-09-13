@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.138.90 — 2026-09-13T17:19Z (feature update)
+
+- audit: fail input/output usd=0 on non-free models; repair 4 models.dev rows
+
 ## 26.138.89 — 2026-09-13T15:59Z (content update)
 
 - price sync (3 changes, 2 verification records):

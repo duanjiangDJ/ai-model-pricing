@@ -666,9 +666,7 @@
           "input": {
             "usd": 0.00437
           },
-          "output": {
-            "usd": 0
-          },
+          "output": null,
           "cache_read": null,
           "cache_write": null
         },
@@ -697,9 +695,7 @@
           "input": {
             "usd": 0.00437
           },
-          "output": {
-            "usd": 0
-          },
+          "output": null,
           "cache_read": null,
           "cache_write": null
         },

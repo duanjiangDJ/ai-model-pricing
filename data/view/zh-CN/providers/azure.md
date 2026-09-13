@@ -85,7 +85,7 @@
 | `ministral-3b` | ✅ 在线 | chat | 按量 | 128K | $0.04 | $0.04 | — | — | —/— | — | models.dev official list price |
 | `mistral-medium-2505` | ✅ 在线 | chat | 按量 | 128K | $0.4 | $2 | — | — | —/— | — | models.dev official list price |
 | `mistral-small-2503` | ✅ 在线 | chat | 按量 | 128K | $0.1 | $0.3 | — | — | —/— | — | models.dev official list price |
-| `model-router` | ✅ 在线 | chat | 按量 | 200K | $0.14 | $0 | — | — | —/— | — | models.dev official list price |
+| `model-router` | ✅ 在线 | chat | 按量 | 200K | $0.14 | — | — | — | —/— | — | models.dev official list price |
 | `o1` | ✅ 在线 | reasoning | 按量 | 200K | $15 | $60 | $7.5 | — | —/— | — | models.dev official list price |
 | `o3` | ✅ 在线 | reasoning | 按量 | 200K | $2 | $8 | $0.5 | — | —/— | — | models.dev official list price |
 | `o3-mini` | ✅ 在线 | reasoning | 按量 | 200K | $1.1 | $4.4 | $0.55 | — | —/— | — | models.dev official list price |

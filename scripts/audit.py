@@ -29,6 +29,7 @@ from toolbox import (  # noqa: E402
     mixed_currency_zero,
     price_all_zero,
     suspicious_max_output,
+    zero_token_price_fields,
 )
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -237,6 +238,23 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
                         f"{p['provider_id']} :: {m['id']} {_cfield}.usd=0 on a non-free model "
                         f"(0 is reserved for free; use null for not-offered)"
                     )
+        # input/output zero policy: the SAME 0-as-unknown class the cache fields above
+        # hard-fail on, extended to the two TOKEN fields. A non-free model publishing
+        # `usd: 0` on input/output claims free tokens while another field is positive -- the
+        # real meaning of that 0 is "the source publishes no price" (models.dev's sentinel),
+        # so it must be `null`. Real case 2026-09-14: greenpt green-s/green-s-pro, azure
+        # model-router, privatemode-ai voxtral-mini-3b -- 4 chat rows carrying
+        # `output: {usd: 0}` from models.dev `cost.output = 0`, all written before
+        # sync_modelsdev's `_u()` 0->None guard and unclearable afterwards (the writer now
+        # maps 0 to None and update_model_prices skips None), so audit was the only thing
+        # that could ever see them -- and it looked only at cache_read/cache_write. Hard-fail,
+        # like the cache rule: publishing "free output tokens" is a data-truth violation.
+        if not _is_free_billing:
+            for _tfield in zero_token_price_fields(pm, _bm_list, m.get("category")):
+                fail(
+                    f"{p['provider_id']} :: {m['id']} {_tfield}.usd=0 on a non-free "
+                    f"{m.get('category')} model (0 is reserved for free; not-published must be null)"
+                )
         # cache relationship sanity: `cache_read` is a DISCOUNT on fresh `input`, so a cache
         # HIT costing MORE than an uncached input token is impossible -- the signature of a
         # parser COLUMN SWAP (a page that renders the cache cells "Write before Read" drops the

@@ -43,7 +43,7 @@ systems, GPU-second pricing, consumer subscriptions, and coding-tool plans.
 - **Models**: 7600
 - **Subscription plans**: 67
 - **Distinct API endpoints**: 183
-- **Free models**: 465
+- **Free models**: 461
 
 ### By channel
 

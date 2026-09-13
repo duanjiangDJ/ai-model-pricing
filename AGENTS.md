@@ -174,6 +174,18 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    WARN, not a FAIL: an aggregation source can itself publish an odd pair (models.dev reports
    novita-ai `xiaomimimo/mimo-v2-flash` `cache_read 0.3 > input 0.1`), and a check must never block a
    sync for a value we cannot correctly re-derive (guarded by `tests/test_cache_relationship.py`).
+   **Token-field zero policy (2026-09-14)**: `input`/`output` `usd: 0` on a NON-free model is the
+   same 0-as-unknown class the cache fields already hard-fail on: it claims "these tokens are free"
+   while another field is positive, when the real meaning is "the source publishes no such price"
+   (models.dev's `cost.output = 0` sentinel) — the correct value is `null`. `audit.py` hard-FAILs via
+   `toolbox.zero_token_price_fields()`, which exempts `output` only for the structurally-zero-output
+   categories (embedding / rerank / audio_stt / audio_tts / image_gen / video_gen — they generate no
+   billed output tokens) and never exempts `input`. These values are UNCLEARABLE by a sync: they were
+   written before `sync_modelsdev._u()` mapped `0 -> None`, and `update_model_prices` skips None, so
+   only a hand repair clears them. Real 2026-09-14: greenpt `green-s`/`green-s-pro`, azure
+   `model-router`, privatemode-ai `voxtral-mini-3b` (`output: {"usd": 0}` + a positive input, all
+   sourced from models.dev) — 4 chat rows that passed every gate silently; guarded by
+   `tests/test_zero_token_price_fields.py`.
    **Batch-relationship sanity (2026-09-13)**: a batch API is a DISCOUNT on the standard rate
    (OpenAI / Google / Anthropic / xAI batch is ~50-80% of standard), so `batch.<field> >
    per_mtok.<field>` is IMPOSSIBLE — the signature of a stale/shared `batch` block copied from a

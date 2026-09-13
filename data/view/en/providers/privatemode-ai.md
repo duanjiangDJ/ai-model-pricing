@@ -18,5 +18,5 @@
 | `kimi-k2.6` | ✅ online | reasoning | per-token | 256K | $1.791 | $8.9436 | $0.1733 | — | —/— | — | models.dev official list price |
 | `kimi-latest` | ✅ online | reasoning | per-token | 256K | $1.791 | $8.9436 | $0.1733 | — | —/— | — | models.dev official list price |
 | `qwen3-embedding-4b` | ✅ online | embedding | per-token | 32K | $0.1502 | $0 | — | — | —/— | — | models.dev official list price |
-| `voxtral-mini-3b` | ✅ online | chat | per-token | 32K | $0.00462 | $0 | — | — | —/— | — | models.dev official list price |
+| `voxtral-mini-3b` | ✅ online | chat | per-token | 32K | $0.00462 | — | — | — | —/— | — | models.dev official list price |
 | `whisper-large-v3` | ✅ online | audio_stt | per-token | 448 | $0.01618 | $0 | — | — | —/— | — | models.dev official list price |

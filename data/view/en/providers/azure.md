@@ -85,7 +85,7 @@
 | `ministral-3b` | ✅ online | chat | per-token | 128K | $0.04 | $0.04 | — | — | —/— | — | models.dev official list price |
 | `mistral-medium-2505` | ✅ online | chat | per-token | 128K | $0.4 | $2 | — | — | —/— | — | models.dev official list price |
 | `mistral-small-2503` | ✅ online | chat | per-token | 128K | $0.1 | $0.3 | — | — | —/— | — | models.dev official list price |
-| `model-router` | ✅ online | chat | per-token | 200K | $0.14 | $0 | — | — | —/— | — | models.dev official list price |
+| `model-router` | ✅ online | chat | per-token | 200K | $0.14 | — | — | — | —/— | — | models.dev official list price |
 | `o1` | ✅ online | reasoning | per-token | 200K | $15 | $60 | $7.5 | — | —/— | — | models.dev official list price |
 | `o3` | ✅ online | reasoning | per-token | 200K | $2 | $8 | $0.5 | — | —/— | — | models.dev official list price |
 | `o3-mini` | ✅ online | reasoning | per-token | 200K | $1.1 | $4.4 | $0.55 | — | —/— | — | models.dev official list price |
