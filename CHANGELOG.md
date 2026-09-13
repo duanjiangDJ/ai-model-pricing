@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.137.88 — 2026-09-13T14:58Z (feature update)
+
+- fix(check,stepfun): parse the stepaudio-* family + seed the 6 missing official models
+
 ## 26.137.87 — 2026-09-13T13:00Z (content update)
 
 - price sync (1 change):

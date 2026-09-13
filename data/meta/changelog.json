@@ -1,6 +1,21 @@
 {
-  "schema_version": "26.137.87",
+  "schema_version": "26.137.88",
   "entries": [
+    {
+      "date": "2026-09-13T15:00:03Z",
+      "kind": "verify",
+      "scope": "provider",
+      "provider_id": "deepseek",
+      "item_id": "d1",
+      "field": "unseeded_official:deepseek",
+      "new": {
+        "ids": [
+          "d1"
+        ],
+        "count": 1
+      },
+      "source": "s"
+    },
     {
       "date": "2026-09-13T12:42:51Z",
       "kind": "update",
