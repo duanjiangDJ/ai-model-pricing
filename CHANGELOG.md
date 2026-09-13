@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.138.91 — 2026-09-13T18:24Z (feature update)
+
+- audit: hard-fail max_output on non-generative (embedding/rerank) categories; null 68 dimension-as-token-limit rows; guard the models.dev writer
+
 ## 26.138.90 — 2026-09-13T17:19Z (feature update)
 
 - audit: fail input/output usd=0 on non-free models; repair 4 models.dev rows

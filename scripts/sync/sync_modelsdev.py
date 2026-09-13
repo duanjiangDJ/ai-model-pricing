@@ -17,6 +17,7 @@ import sys
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')))
 from common import (  # noqa: E402
+    NON_TOKEN_OUTPUT_CATEGORIES,
     category_signature_hint,
     PROVIDERS, SCHEMA_VERSION, append_changelog, fetch_json, load_index, load_manifest,
     now_iso, save_index, save_manifest, write_json,
@@ -81,6 +82,7 @@ def _u(v):
 def build_model(mid, m):
     cost = m.get("cost") or {}
     limit = m.get("limit") or {}
+    category = infer_category(mid, m)
     token_vals = [cost.get("input"), cost.get("output"), cost.get("cache_read")]
     has_token_price = any(v is not None and v != 0 for v in token_vals)
     # models.dev's 0 means "no published per-token price" (plan-included / unknown), never a
@@ -90,13 +92,18 @@ def build_model(mid, m):
     return {
         "id": mid,
         "name": m.get("name", mid),
-        "category": infer_category(mid, m),
+        "category": category,
         # A live catalog entry is online; status is required (PR #169 invariant) and a
         # missing one now FAILS audit.
         "status": "online",
         "modalities": ["text"],
         "context_window": limit.get("context") or None,
-        "max_output": limit.get("output") or None,
+        # `max_output` is a GENERATED-token limit. An embedding/rerank model emits no output
+        # tokens, and models.dev's `limit.output` for those is the embedding DIMENSION
+        # (3072/1536/1024/384) -- copying it into max_output publishes a vector size as a
+        # token limit (68 rows, found 2026-09-14). Leave it null for those categories.
+        "max_output": (None if category in NON_TOKEN_OUTPUT_CATEGORIES
+                       else (limit.get("output") or None)),
         "billing_model": billing,
         "pricing": {
             "per_mtok": {

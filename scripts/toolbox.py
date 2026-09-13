@@ -440,6 +440,39 @@ def max_output_exceeds_context(model):
     return (cw, mo)
 
 
+# --- non-token-output categories -------------------------------------------------
+
+# Categories that emit a vector / a score, NOT generated tokens. `max_output` (a
+# generated-token limit) does not apply to them and must be null.
+NON_TOKEN_OUTPUT_CATEGORIES = ("embedding", "rerank")
+
+
+def max_output_on_non_token_category(model):
+    """Return (category, max_output) when a model that emits NO output tokens carries one.
+
+    `max_output` is the maximum number of tokens a model GENERATES. An embedding or rerank
+    model generates no tokens at all -- it returns a vector / a score -- so the field does not
+    apply and must be null. models.dev stores the embedding DIMENSION in `limit.output`
+    (text-embedding-3-large 3072, ada-002 / 3-small 1536, bge-m3 1024, all-mini-lm-l6-v2 384,
+    rerankers 1), and `sync_modelsdev.build_model` copied it verbatim into `max_output`, so 68
+    embedding/rerank rows published a vector size as a token limit (real finding 2026-09-14).
+    The existing pair check (`max_output > context_window`) saw only the 44 whose dimension
+    happened to exceed the context window; the other 24 -- e.g. text-embedding-3-large with
+    context 8191 and "max_output" 3072 -- passed silently. A check that fires on only half a
+    bug class is itself the bug (policy §15.1), hence this predicate + its audit rule. The
+    predicate lives here, not inline, so it is unit-testable.
+    """
+    if not isinstance(model, dict):
+        return None
+    cat = str(model.get("category") or "").lower()
+    if cat not in NON_TOKEN_OUTPUT_CATEGORIES:
+        return None
+    mo = model.get("max_output")
+    if mo is None:
+        return None
+    return (cat, mo)
+
+
 def _is_number(v):
     """True for a real int/float (bool is not a number here)."""
     return isinstance(v, (int, float)) and not isinstance(v, bool)

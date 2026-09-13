@@ -49,7 +49,7 @@
         "text"
       ],
       "context_window": 40960,
-      "max_output": 4096,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": {
@@ -80,7 +80,7 @@
         "text"
       ],
       "context_window": 32000,
-      "max_output": 4096,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": {
@@ -266,7 +266,7 @@
         "text"
       ],
       "context_window": 512,
-      "max_output": 512,
+      "max_output": null,
       "pricing": {
         "per_mtok": {
           "input": {

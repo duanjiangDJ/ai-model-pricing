@@ -16,6 +16,10 @@
 
 ---
 
+## 26.138.91 — 2026-09-13T18:24Z（功能更新）
+
+- audit：对非生成类（embedding/rerank）分类硬性拦截 max_output；修正 68 条把向量维度当作输出 token 上限的记录；堵住 models.dev 写入器
+
 ## 26.138.90 — 2026-09-13T17:19Z（功能更新）
 
 - audit 修复: 非免费模型 input/output usd=0 现硬失败；修复 4 条 models.dev 0 值行
