@@ -1,6 +1,164 @@
 {
-  "schema_version": "26.133.85",
+  "schema_version": "26.134.85",
   "entries": [
+    {
+      "date": "2026-09-13T03:42:19Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "deepseek/deepseek-v4-flash",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.06566
+          },
+          "output": {
+            "usd": 0.13132
+          },
+          "cache_read": {
+            "usd": 0.013132
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.06538
+          },
+          "output": {
+            "usd": 0.13076
+          },
+          "cache_read": {
+            "usd": 0.013076
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-13T03:42:19Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "qwen/qwen3-30b-a3b-instruct-2507",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.09
+          },
+          "output": {
+            "usd": 0.3
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.04815
+          },
+          "output": {
+            "usd": 0.19305
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-13T03:42:19Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~deepseek/deepseek-v4-flash-latest",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.03
+          },
+          "output": {
+            "usd": 0.07
+          },
+          "cache_read": {
+            "usd": 0.003
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.03
+          },
+          "output": {
+            "usd": 0.07
+          },
+          "cache_read": {
+            "usd": 0.005
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-09-13T03:42:19Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~moonshotai/kimi-latest",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.375
+          },
+          "output": {
+            "usd": 13.3
+          },
+          "cache_read": {
+            "usd": 0.2755
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.1
+          },
+          "output": {
+            "usd": 10.95
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-13T00:42:50Z",
       "kind": "verify",

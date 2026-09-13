@@ -6,8 +6,8 @@
 - 官网: https://openrouter.ai
 - 定价页: https://openrouter.ai/models
 - 币种: USD
-- 数据更新时间: 2026-09-13T00:42:11Z
-- 核实时间: 2026-09-13T00:42:11Z
+- 数据更新时间: 2026-09-13T03:42:19Z
+- 核实时间: 2026-09-13T03:42:19Z
 
 共 **445** 个模型。
 
@@ -74,7 +74,7 @@
 | `deepseek/deepseek-v3.1-terminus` | ✅ 在线 | reasoning | 按量 | 163.84K | $0.27 | $1 | $0.135 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2` | ✅ 在线 | reasoning | 按量 | 163.84K | $0.269 | $0.4 | $0.1345 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2-exp` | ✅ 在线 | reasoning | 按量 | 163.84K | $0.27 | $0.41 | — | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.06566 | $0.13132 | $0.013132 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.06538 | $0.13076 | $0.013076 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731` | ✅ 在线 | reasoning | 按量 | 1.31072M | $0.04 | $0.08 | $0.008 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731:batch` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.11 | $0.33 | $0.0035 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-vision-exp` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.22 | $0.66 | $0.007 | — | —/— | — | OpenRouter reseller price |
@@ -341,7 +341,7 @@
 | `qwen/qwen3-235b-a22b-2507` | ✅ 在线 | chat | 按量 | 262.144K | $0.0875 | $0.35 | $0.0175 | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-235b-a22b-thinking-2507` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.23 | $2.3 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-30b-a3b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.12 | $0.5 | — | — | —/— | — | OpenRouter reseller price |
-| `qwen/qwen3-30b-a3b-instruct-2507` | ✅ 在线 | chat | 按量 | 262.144K | $0.09 | $0.3 | — | — | —/— | — | OpenRouter reseller price |
+| `qwen/qwen3-30b-a3b-instruct-2507` | ✅ 在线 | chat | 按量 | 262.144K | $0.04815 | $0.19305 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-30b-a3b-thinking-2507` | ✅ 在线 | reasoning | 按量 | 81.92K | $0.2 | $2.4 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-32b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.08 | $0.28 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-8b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.117 | $0.455 | — | — | —/— | — | OpenRouter reseller price |
@@ -446,10 +446,10 @@
 | `~anthropic/claude-haiku-latest` | ✅ 在线 | reasoning | 按量 | 200K | $1 | $5 | $0.1 | $1.25 | —/— | — | OpenRouter reseller price |
 | `~anthropic/claude-opus-latest` | ✅ 在线 | reasoning | 按量 | 1M | $5 | $25 | $0.5 | $6.25 | —/— | — | OpenRouter reseller price |
 | `~anthropic/claude-sonnet-latest` | ✅ 在线 | reasoning | 按量 | 1M | $2 | $10 | $0.2 | $2.5 | —/— | — | OpenRouter reseller price |
-| `~deepseek/deepseek-v4-flash-latest` | ✅ 在线 | reasoning | 按量 | 1.31072M | $0.03 | $0.07 | $0.003 | — | —/— | — | OpenRouter reseller price |
+| `~deepseek/deepseek-v4-flash-latest` | ✅ 在线 | reasoning | 按量 | 1.31072M | $0.03 | $0.07 | $0.005 | — | —/— | — | OpenRouter reseller price |
 | `~google/gemini-flash-latest` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | $0.0416667 | —/— | — | OpenRouter reseller price |
 | `~google/gemini-pro-latest` | ✅ 在线 | reasoning | 按量 | 1.04858M | $2 | $12 | $0.2 | $0.375 | —/— | — | OpenRouter reseller price |
-| `~moonshotai/kimi-latest` | ✅ 在线 | reasoning | 按量 | 1.04858M | $2.375 | $13.3 | $0.2755 | — | —/— | — | OpenRouter reseller price |
+| `~moonshotai/kimi-latest` | ✅ 在线 | reasoning | 按量 | 1.04858M | $2.1 | $10.95 | — | — | —/— | — | OpenRouter reseller price |
 | `~openai/gpt-astra-latest` | ✅ 在线 | reasoning | 按量 | 1.05M | $10 | $50 | $1 | $12.5 | —/— | — | OpenRouter reseller price |
 | `~openai/gpt-luna-latest` | ✅ 在线 | reasoning | 按量 | 1.05M | $0.2 | $1.2 | $0.02 | $0.25 | —/— | — | OpenRouter reseller price |
 | `~openai/gpt-mini-latest` | ✅ 在线 | reasoning | 按量 | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | OpenRouter reseller price |
