@@ -16,6 +16,13 @@
 
 ---
 
+## 26.138.89 — 2026-09-13T15:59Z（内容更新）
+
+- 价格同步（3 处变更，另有 2 项校验记录）：
+- **alibaba**（已校验 3）：`deepseek-v3.2`, `deepseek-v4-flash`, `deepseek-v4-pro`
+- **google**（已校验 3）：`gemini-2.5-flash-native-audio-preview-12-2025`, `gemini-3.5-transcribe`, `gemini-3.5-transcribe-live`
+- **openrouter**（更新 3）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro-0813`, `z-ai/glm-5.3-flash`
+
 ## 26.137.89 — 2026-09-13T15:02Z（功能更新）
 
 - 修复测试污染：price_check 的未入库官方模型记录写入被单测触发，已隔离并清理误入 changelog 的测试夹具条目

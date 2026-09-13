@@ -6,8 +6,8 @@
 - 官网: https://openrouter.ai
 - 定价页: https://openrouter.ai/models
 - 币种: USD
-- 数据更新时间: 2026-09-13T12:42:51Z
-- 核实时间: 2026-09-13T12:42:51Z
+- 数据更新时间: 2026-09-13T15:42:57Z
+- 核实时间: 2026-09-13T15:42:57Z
 
 共 **445** 个模型。
 
@@ -74,13 +74,13 @@
 | `deepseek/deepseek-v3.1-terminus` | ✅ 在线 | reasoning | 按量 | 163.84K | $0.27 | $1 | $0.135 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2` | ✅ 在线 | reasoning | 按量 | 163.84K | $0.269 | $0.4 | $0.1345 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2-exp` | ✅ 在线 | reasoning | 按量 | 163.84K | $0.27 | $0.41 | — | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.04928 | $0.09856 | $0.009856 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.04844 | $0.09688 | $0.009688 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731` | ✅ 在线 | reasoning | 按量 | 1.31072M | $0.04 | $0.08 | $0.008 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731:batch` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.11 | $0.33 | $0.0035 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-vision-exp` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.22 | $0.66 | $0.007 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-vision-exp:batch` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.11 | $0.33 | $0.0035 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.6 | $3.2 | $0.135 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-pro-0813` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.57816 | $1.73448 | $0.018396 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-pro-0813` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.57948 | $1.73844 | $0.019316 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813:batch` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.66 | $1.98 | $0.022 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4.1-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.15 | $0.6 | $0.003 | — | —/— | — | OpenRouter reseller price |
 | `dots-studio/dots-3-note-preview:free` | ✅ 在线 | reasoning | 免费 | 512K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
@@ -438,7 +438,7 @@
 | `z-ai/glm-5.2` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.6 | $2 | $0.15 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.2:batch` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.7 | $2.2 | $0.07 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.3` | ✅ 在线 | reasoning | 按量 | 1.31072M | $1.092 | $3.432 | $0.2028 | — | —/— | — | OpenRouter reseller price |
-| `z-ai/glm-5.3-flash` | ✅ 在线 | reasoning | 按量 | 1.31072M | $0.15 | $0.5 | $0.03 | — | —/— | — | OpenRouter reseller price |
+| `z-ai/glm-5.3-flash` | ✅ 在线 | reasoning | 按量 | 1.31072M | $0.075 | $0.25 | $0.015 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.3-flash:batch` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.075 | $0.25 | $0.015 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.3:batch` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.7 | $2.2 | $0.13 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5v-turbo` | ✅ 在线 | reasoning | 按量 | 202.752K | $1.2 | $4 | $0.24 | — | —/— | — | OpenRouter reseller price |

@@ -16,6 +16,13 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.138.89 — 2026-09-13T15:59Z (content update)
+
+- price sync (3 changes, 2 verification records):
+- **alibaba** (verified 3): `deepseek-v3.2`, `deepseek-v4-flash`, `deepseek-v4-pro`
+- **google** (verified 3): `gemini-2.5-flash-native-audio-preview-12-2025`, `gemini-3.5-transcribe`, `gemini-3.5-transcribe-live`
+- **openrouter** (updated 3): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-pro-0813`, `z-ai/glm-5.3-flash`
+
 ## 26.137.89 — 2026-09-13T15:02Z (feature update)
 
 - fix(tests): isolate price_check's unseeded-official changelog write + drop the fixture entry it leaked into the committed changelog
