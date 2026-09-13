@@ -7,8 +7,8 @@
   "homepage": "https://kilo.ai",
   "pricing_page": "https://kilo.ai",
   "currency": "USD",
-  "updated_at": "2026-09-12T15:42:40Z",
-  "verified_at": "2026-09-12T15:42:40Z",
+  "updated_at": "2026-09-13T18:43:44Z",
+  "verified_at": "2026-09-13T18:43:44Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -12033,13 +12033,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.03
+            "usd": 0.0352
           },
           "output": {
-            "usd": 0.07
+            "usd": 0.1056
           },
           "cache_read": {
-            "usd": 0.003
+            "usd": 0.00112
           },
           "cache_write": null
         },
@@ -12132,13 +12132,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2.125
+            "usd": 2.1
           },
           "output": {
-            "usd": 11.9
+            "usd": 10.95
           },
           "cache_read": {
-            "usd": 0.2465
+            "usd": 0.23
           },
           "cache_write": null
         },
@@ -12296,13 +12296,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.8727
+            "usd": 0.936
           },
           "output": {
-            "usd": 3.36
+            "usd": 3.168
           },
           "cache_read": {
-            "usd": 0.1639
+            "usd": 0.1872
           },
           "cache_write": null
         },

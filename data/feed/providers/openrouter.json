@@ -8,8 +8,8 @@
   "pricing_page": "https://openrouter.ai/models",
   "api_base_url": "https://openrouter.ai/api/v1",
   "currency": "USD",
-  "updated_at": "2026-09-13T15:42:57Z",
-  "verified_at": "2026-09-13T15:42:57Z",
+  "updated_at": "2026-09-13T18:43:01Z",
+  "verified_at": "2026-09-13T18:43:01Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1969,13 +1969,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.04844
+            "usd": 0.0476
           },
           "output": {
-            "usd": 0.09688
+            "usd": 0.0952
           },
           "cache_read": {
-            "usd": 0.009688
+            "usd": 0.00952
           },
           "cache_write": null
         },
@@ -4068,7 +4068,9 @@
           "output": {
             "usd": 0.23
           },
-          "cache_read": null,
+          "cache_read": {
+            "usd": 0.05
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -4097,7 +4099,9 @@
           "output": {
             "usd": 0.15
           },
-          "cache_read": null,
+          "cache_read": {
+            "usd": 0.03
+          },
           "cache_write": null
         },
         "per_image": null,
@@ -12170,13 +12174,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.132
+            "usd": 0.0825
           },
           "output": {
-            "usd": 0.528
+            "usd": 0.33
           },
           "cache_read": {
-            "usd": 0.033
+            "usd": 0.020625
           },
           "cache_write": null
         },
@@ -13363,13 +13367,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.075
+            "usd": 0.15
           },
           "output": {
-            "usd": 0.25
+            "usd": 0.5
           },
           "cache_read": {
-            "usd": 0.015
+            "usd": 0.03
           },
           "cache_write": null
         },
@@ -13737,7 +13741,9 @@
           "output": {
             "usd": 10.95
           },
-          "cache_read": null,
+          "cache_read": {
+            "usd": 0.23
+          },
           "cache_write": null
         },
         "per_image": null,

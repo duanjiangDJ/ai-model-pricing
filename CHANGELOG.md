@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.139.92 — 2026-09-13T20:44Z (content update)
+
+- price sync (7 changes): kilo 3, openrouter 6
+
 ## 26.138.92 — 2026-09-13T19:31Z (feature update)
 
 - audit: widen the price-oscillation check to all per_mtok fields and non-strict churn (catches the promo/list class)

@@ -6,8 +6,8 @@
 - Homepage: https://openrouter.ai
 - Pricing page: https://openrouter.ai/models
 - Currency: USD
-- Data updated: 2026-09-13T15:42:57Z
-- Verified: 2026-09-13T15:42:57Z
+- Data updated: 2026-09-13T18:43:01Z
+- Verified: 2026-09-13T18:43:01Z
 
 **445** models in total.
 
@@ -74,7 +74,7 @@
 | `deepseek/deepseek-v3.1-terminus` | ✅ online | reasoning | per-token | 163.84K | $0.27 | $1 | $0.135 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2` | ✅ online | reasoning | per-token | 163.84K | $0.269 | $0.4 | $0.1345 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2-exp` | ✅ online | reasoning | per-token | 163.84K | $0.27 | $0.41 | — | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.04844 | $0.09688 | $0.009688 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.0476 | $0.0952 | $0.00952 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731` | ✅ online | reasoning | per-token | 1.31072M | $0.04 | $0.08 | $0.008 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731:batch` | ✅ online | reasoning | per-token | 1.04858M | $0.11 | $0.33 | $0.0035 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-vision-exp` | ✅ online | reasoning | per-token | 1.04858M | $0.22 | $0.66 | $0.007 | — | —/— | — | OpenRouter reseller price |
@@ -138,8 +138,8 @@
 | `inclusionai/ling-3.0-flash-sante:free` | ✅ online | reasoning | free | 262.144K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `inclusionai/ling-3.0-flash-vl` | ✅ online | reasoning | per-token | 131.072K | $0.06 | $0.18 | $0.012 | — | —/— | — | OpenRouter reseller price |
 | `inclusionai/ling-3.0-flash-vl:free` | ✅ online | reasoning | free | 262.144K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
-| `inference-net/schematron-v2-small` | ✅ online | chat | per-token | 128K | $0.05 | $0.23 | — | — | —/— | — | OpenRouter reseller price |
-| `inference-net/schematron-v2-turbo` | ✅ online | chat | per-token | 128K | $0.03 | $0.15 | — | — | —/— | — | OpenRouter reseller price |
+| `inference-net/schematron-v2-small` | ✅ online | chat | per-token | 128K | $0.05 | $0.23 | $0.05 | — | —/— | — | OpenRouter reseller price |
+| `inference-net/schematron-v2-turbo` | ✅ online | chat | per-token | 128K | $0.03 | $0.15 | $0.03 | — | —/— | — | OpenRouter reseller price |
 | `kwaipilot/kat-coder-pro-v2` | ✅ online | chat | per-token | 262.144K | $0.3 | $1.2 | $0.06 | — | —/— | — | OpenRouter reseller price |
 | `kwaipilot/kat-coder-pro-v2.5` | ✅ online | chat | per-token | 262.144K | $0.74 | $2.96 | $0.15 | — | —/— | — | OpenRouter reseller price |
 | `liquid/lfm-2.5-2.6b:free` | ✅ online | reasoning | free | 65.536K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
@@ -400,7 +400,7 @@
 | `tencent/hy-mt2-1.8b` | ✅ online | chat | per-token | 8.192K | $0.044 | $0.177 | — | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy-mt2-30b-a3b` | ✅ online | chat | per-token | 8.192K | $0.074 | $0.295 | — | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy-mt2-7b` | ✅ online | chat | per-token | 8.192K | $0.074 | $0.295 | — | — | —/— | — | OpenRouter reseller price |
-| `tencent/hy3` | ✅ online | reasoning | per-token | 262.144K | $0.132 | $0.528 | $0.033 | — | —/— | — | OpenRouter reseller price |
+| `tencent/hy3` | ✅ online | reasoning | per-token | 262.144K | $0.0825 | $0.33 | $0.020625 | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy3-preview` | ✅ online | reasoning | per-token | 262.144K | $0.18 | $0.6 | $0.06 | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy4-preview` | ✅ online | reasoning | per-token | 1.04858M | $0.834 | $2.501 | $0.042 | — | —/— | — | OpenRouter reseller price |
 | `thedrummer/cydonia-24b-v4.1` | ✅ online | chat | per-token | 131.072K | $0.3 | $0.5 | $0.15 | — | —/— | — | OpenRouter reseller price |
@@ -438,7 +438,7 @@
 | `z-ai/glm-5.2` | ✅ online | reasoning | per-token | 1.04858M | $0.6 | $2 | $0.15 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.2:batch` | ✅ online | reasoning | per-token | 1.04858M | $0.7 | $2.2 | $0.07 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.3` | ✅ online | reasoning | per-token | 1.31072M | $1.092 | $3.432 | $0.2028 | — | —/— | — | OpenRouter reseller price |
-| `z-ai/glm-5.3-flash` | ✅ online | reasoning | per-token | 1.31072M | $0.075 | $0.25 | $0.015 | — | —/— | — | OpenRouter reseller price |
+| `z-ai/glm-5.3-flash` | ✅ online | reasoning | per-token | 1.31072M | $0.15 | $0.5 | $0.03 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.3-flash:batch` | ✅ online | reasoning | per-token | 1.04858M | $0.075 | $0.25 | $0.015 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.3:batch` | ✅ online | reasoning | per-token | 1.04858M | $0.7 | $2.2 | $0.13 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5v-turbo` | ✅ online | reasoning | per-token | 202.752K | $1.2 | $4 | $0.24 | — | —/— | — | OpenRouter reseller price |
@@ -449,7 +449,7 @@
 | `~deepseek/deepseek-v4-flash-latest` | ✅ online | reasoning | per-token | 1.31072M | $0.0352 | $0.1056 | $0.00112 | — | —/— | — | OpenRouter reseller price |
 | `~google/gemini-flash-latest` | ✅ online | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | $0.0416667 | —/— | — | OpenRouter reseller price |
 | `~google/gemini-pro-latest` | ✅ online | reasoning | per-token | 1.04858M | $2 | $12 | $0.2 | $0.375 | —/— | — | OpenRouter reseller price |
-| `~moonshotai/kimi-latest` | ✅ online | reasoning | per-token | 1.04858M | $2.1 | $10.95 | — | — | —/— | — | OpenRouter reseller price |
+| `~moonshotai/kimi-latest` | ✅ online | reasoning | per-token | 1.04858M | $2.1 | $10.95 | $0.23 | — | —/— | — | OpenRouter reseller price |
 | `~openai/gpt-astra-latest` | ✅ online | reasoning | per-token | 1.05M | $10 | $50 | $1 | $12.5 | —/— | — | OpenRouter reseller price |
 | `~openai/gpt-luna-latest` | ✅ online | reasoning | per-token | 1.05M | $0.2 | $1.2 | $0.02 | $0.25 | —/— | — | OpenRouter reseller price |
 | `~openai/gpt-mini-latest` | ✅ online | reasoning | per-token | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | OpenRouter reseller price |
