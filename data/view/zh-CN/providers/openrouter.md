@@ -6,8 +6,8 @@
 - 官网: https://openrouter.ai
 - 定价页: https://openrouter.ai/models
 - 币种: USD
-- 数据更新时间: 2026-09-12T18:41:56Z
-- 核实时间: 2026-09-12T18:41:56Z
+- 数据更新时间: 2026-09-13T00:42:11Z
+- 核实时间: 2026-09-13T00:42:11Z
 
 共 **445** 个模型。
 
@@ -80,12 +80,12 @@
 | `deepseek/deepseek-v4-flash-vision-exp` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.22 | $0.66 | $0.007 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-vision-exp:batch` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.11 | $0.33 | $0.0035 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.6 | $3.2 | $0.135 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-pro-0813` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.57948 | $1.73844 | $0.019316 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-pro-0813` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.57816 | $1.73448 | $0.018396 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813:batch` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.66 | $1.98 | $0.022 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4.1-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.15 | $0.6 | $0.003 | — | —/— | — | OpenRouter reseller price |
 | `dots-studio/dots-3-note-preview:free` | ✅ 在线 | reasoning | 免费 | 512K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `google/gemini-2.5-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.3 | $2.5 | $0.03 | $0.0833333 | —/— | — | OpenRouter reseller price |
-| `google/gemini-2.5-flash-image` | ✅ 在线 | chat | 按量 | 32.768K | $0.3 | $2.5 | $0.03 | $0.0833333 | —/— | — | OpenRouter reseller price |
+| `google/gemini-2.5-flash-image` | ✅ 在线 | image_gen | 按量 | 32.768K | $0.3 | $2.5 | $0.03 | $0.0833333 | —/— | — | OpenRouter reseller price |
 | `google/gemini-2.5-flash-lite` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.1 | $0.4 | $0.01 | $0.0833333 | —/— | — | OpenRouter reseller price |
 | `google/gemini-2.5-flash-lite:batch` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.05 | $0.2 | $0.01 | — | —/— | — | OpenRouter reseller price |
 | `google/gemini-2.5-flash:batch` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.15 | $1.25 | $0.03 | — | —/— | — | OpenRouter reseller price |
@@ -95,12 +95,12 @@
 | `google/gemini-2.5-pro:batch` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.625 | $5 | $0.125 | — | —/— | — | OpenRouter reseller price |
 | `google/gemini-3-flash-preview` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.5 | $3 | $0.05 | $0.0833333 | —/— | — | OpenRouter reseller price |
 | `google/gemini-3-flash-preview:batch` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.25 | $1.5 | — | — | —/— | — | OpenRouter reseller price |
-| `google/gemini-3-pro-image` | ✅ 在线 | reasoning | 按量 | 131.072K | $2 | $12 | $0.2 | $0.375 | —/— | — | OpenRouter reseller price |
-| `google/gemini-3-pro-image-preview` | ✅ 在线 | reasoning | 按量 | 65.536K | $2 | $12 | $0.2 | $0.375 | —/— | — | OpenRouter reseller price |
-| `google/gemini-3.1-flash-image` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.5 | $3 | — | — | —/— | — | OpenRouter reseller price |
-| `google/gemini-3.1-flash-image-preview` | ✅ 在线 | reasoning | 按量 | 65.536K | $0.5 | $3 | — | — | —/— | — | OpenRouter reseller price |
+| `google/gemini-3-pro-image` | ✅ 在线 | image_gen | 按量 | 131.072K | $2 | $12 | $0.2 | $0.375 | —/— | — | OpenRouter reseller price |
+| `google/gemini-3-pro-image-preview` | ✅ 在线 | image_gen | 按量 | 65.536K | $2 | $12 | $0.2 | $0.375 | —/— | — | OpenRouter reseller price |
+| `google/gemini-3.1-flash-image` | ✅ 在线 | image_gen | 按量 | 131.072K | $0.5 | $3 | — | — | —/— | — | OpenRouter reseller price |
+| `google/gemini-3.1-flash-image-preview` | ✅ 在线 | image_gen | 按量 | 65.536K | $0.5 | $3 | — | — | —/— | — | OpenRouter reseller price |
 | `google/gemini-3.1-flash-lite` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.25 | $1.5 | $0.025 | $0.0833333 | —/— | — | OpenRouter reseller price |
-| `google/gemini-3.1-flash-lite-image` | ✅ 在线 | reasoning | 按量 | 65.536K | $0.25 | $1.5 | — | — | —/— | — | OpenRouter reseller price |
+| `google/gemini-3.1-flash-lite-image` | ✅ 在线 | image_gen | 按量 | 65.536K | $0.25 | $1.5 | — | — | —/— | — | OpenRouter reseller price |
 | `google/gemini-3.1-flash-lite-preview` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.25 | $1.5 | $0.025 | $0.0833333 | —/— | — | OpenRouter reseller price |
 | `google/gemini-3.1-flash-lite:batch` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.125 | $0.75 | $0.0125 | — | —/— | — | OpenRouter reseller price |
 | `google/gemini-3.1-pro-preview` | ✅ 在线 | reasoning | 按量 | 1.04858M | $2 | $12 | $0.2 | $0.375 | —/— | — | OpenRouter reseller price |
@@ -120,13 +120,13 @@
 | `google/gemma-3-12b-it` | ✅ 在线 | chat | 按量 | 131.072K | $0.05 | $0.15 | — | — | —/— | — | OpenRouter reseller price |
 | `google/gemma-3-27b-it` | ✅ 在线 | chat | 按量 | 131.072K | $0.08 | $0.45 | $0.04 | — | —/— | — | OpenRouter reseller price |
 | `google/gemma-3-4b-it` | ✅ 在线 | chat | 按量 | 131.072K | $0.05 | $0.1 | — | — | —/— | — | OpenRouter reseller price |
-| `google/gemma-4-26b-a4b-it` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.042 | $0.22 | — | — | —/— | — | OpenRouter reseller price |
+| `google/gemma-4-26b-a4b-it` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.09 | $0.3 | $0.05 | — | —/— | — | OpenRouter reseller price |
 | `google/gemma-4-26b-a4b-it:free` | ✅ 在线 | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `google/gemma-4-31b-it` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.09 | $0.34 | $0.05 | — | —/— | — | OpenRouter reseller price |
 | `google/gemma-4-31b-it:batch` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.39 | $0.97 | — | — | —/— | — | OpenRouter reseller price |
 | `google/gemma-4-31b-it:free` | ✅ 在线 | reasoning | 免费 | 262.144K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
-| `google/lyria-3-clip-preview` | ✅ 在线 | chat | 免费 | 1.04858M | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
-| `google/lyria-3-pro-preview` | ✅ 在线 | chat | 免费 | 1.04858M | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
+| `google/lyria-3-clip-preview` | ✅ 在线 | audio_tts | 免费 | 1.04858M | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
+| `google/lyria-3-pro-preview` | ✅ 在线 | audio_tts | 免费 | 1.04858M | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `gryphe/mythomax-l2-13b` | ✅ 在线 | chat | 按量 | 8.192K | $0.06 | $0.06 | — | — | —/— | — | OpenRouter reseller price |
 | `ibm-granite/granite-4.0-h-micro` | ✅ 在线 | chat | 按量 | 131K | $0.017 | $0.112 | — | — | —/— | — | OpenRouter reseller price |
 | `ibm-granite/granite-4.2-8b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.06 | $0.25 | $0.015 | — | —/— | — | OpenRouter reseller price |
@@ -153,7 +153,7 @@
 | `meta-llama/llama-4-maverick` | ✅ 在线 | chat | 按量 | 1.04858M | $0.2 | $0.696 | — | — | —/— | — | OpenRouter reseller price |
 | `meta-llama/llama-4-scout` | ✅ 在线 | chat | 按量 | 1.31072M | $0.1 | $0.3 | — | — | —/— | — | OpenRouter reseller price |
 | `meta-llama/llama-guard-4-12b` | ✅ 在线 | moderation | 按量 | 163.84K | $0.18 | $0.18 | — | — | —/— | — | OpenRouter reseller price |
-| `meta/muse-glimmer-30b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.3 | $1.1 | $0.04 | — | —/— | — | OpenRouter reseller price |
+| `meta/muse-glimmer-30b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.35 | $1.5 | $0.04 | — | —/— | — | OpenRouter reseller price |
 | `meta/muse-glimmer-30b:batch` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.175 | $0.75 | $0.02 | — | —/— | — | OpenRouter reseller price |
 | `meta/muse-spark-1.1` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | OpenRouter reseller price |
 | `meta/muse-spark-1.2` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.25 | $4.25 | $0.15 | — | —/— | — | OpenRouter reseller price |
@@ -198,7 +198,7 @@
 | `mistralai/voxtral-small-24b-2507` | ✅ 在线 | chat | 按量 | 32.768K | $0.1 | $0.3 | $0.01 | — | —/— | — | OpenRouter reseller price |
 | `moonshotai/kimi-k2` | ✅ 在线 | chat | 按量 | 131.072K | $0.57 | $2.3 | — | — | —/— | — | OpenRouter reseller price |
 | `moonshotai/kimi-k2-0905` | ✅ 在线 | chat | 按量 | 262.144K | $0.6 | $2.5 | — | — | —/— | — | OpenRouter reseller price |
-| `moonshotai/kimi-k2-thinking` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.6 | $2.5 | — | — | —/— | — | OpenRouter reseller price |
+| `moonshotai/kimi-k2-thinking` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.6 | $2.5 | $0.15 | — | —/— | — | OpenRouter reseller price |
 | `moonshotai/kimi-k2.5` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.45 | $2.25 | $0.07 | — | —/— | — | OpenRouter reseller price |
 | `moonshotai/kimi-k2.6` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.95 | $4 | $0.16 | — | —/— | — | OpenRouter reseller price |
 | `moonshotai/kimi-k2.7-code` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.71 | $3.5 | $0.15 | — | —/— | — | OpenRouter reseller price |
@@ -245,8 +245,8 @@
 | `openai/gpt-4o-mini:batch` | ✅ 在线 | chat | 按量 | 128K | $0.075 | $0.3 | $0.0375 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-4o:batch` | ✅ 在线 | chat | 按量 | 128K | $1.25 | $5 | $0.625 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5` | ✅ 在线 | reasoning | 按量 | 400K | $1.25 | $10 | $0.125 | — | —/— | — | OpenRouter reseller price |
-| `openai/gpt-5-image` | ✅ 在线 | reasoning | 按量 | 400K | $10 | $10 | $1.25 | — | —/— | — | OpenRouter reseller price |
-| `openai/gpt-5-image-mini` | ✅ 在线 | reasoning | 按量 | 400K | $2.5 | $2 | $0.25 | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-5-image` | ✅ 在线 | image_gen | 按量 | 400K | $10 | $10 | $1.25 | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-5-image-mini` | ✅ 在线 | image_gen | 按量 | 400K | $2.5 | $2 | $0.25 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5-mini` | ✅ 在线 | reasoning | 按量 | 400K | $0.25 | $2 | $0.025 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5-mini:batch` | ✅ 在线 | reasoning | 按量 | 400K | $0.125 | $1 | $0.0125 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5-nano` | ✅ 在线 | reasoning | 按量 | 400K | $0.05 | $0.4 | $0.005 | — | —/— | — | OpenRouter reseller price |
@@ -266,7 +266,7 @@
 | `openai/gpt-5.2:batch` | ✅ 在线 | reasoning | 按量 | 400K | $0.875 | $7 | $0.0875 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.3-codex` | ✅ 在线 | reasoning | 按量 | 400K | $1.75 | $14 | $0.175 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.4` | ✅ 在线 | reasoning | 按量 | 1.05M | $2.5 | $15 | $0.25 | — | —/— | — | OpenRouter reseller price |
-| `openai/gpt-5.4-image-2` | ✅ 在线 | reasoning | 按量 | 272K | $8 | $15 | $2 | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-5.4-image-2` | ✅ 在线 | image_gen | 按量 | 272K | $8 | $15 | $2 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.4-mini` | ✅ 在线 | reasoning | 按量 | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.4-mini:batch` | ✅ 在线 | reasoning | 按量 | 400K | $0.375 | $2.25 | $0.0375 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-5.4-nano` | ✅ 在线 | reasoning | 按量 | 400K | $0.2 | $1.25 | $0.02 | — | —/— | — | OpenRouter reseller price |
@@ -295,8 +295,8 @@
 | `openai/gpt-6-astra-pro` | ✅ 在线 | reasoning | 按量 | 1.05M | $10 | $50 | $1 | $12.5 | —/— | — | OpenRouter reseller price |
 | `openai/gpt-6-astra-pro:batch` | ✅ 在线 | reasoning | 按量 | 1.05M | $5 | $25 | $0.5 | $6.25 | —/— | — | OpenRouter reseller price |
 | `openai/gpt-6-astra:batch` | ✅ 在线 | reasoning | 按量 | 1.05M | $5 | $25 | $0.5 | $6.25 | —/— | — | OpenRouter reseller price |
-| `openai/gpt-audio` | ✅ 在线 | chat | 按量 | 128K | $2.5 | $10 | — | — | —/— | — | OpenRouter reseller price |
-| `openai/gpt-audio-mini` | ✅ 在线 | chat | 按量 | 128K | $0.6 | $2.4 | — | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-audio` | ✅ 在线 | audio_tts | 按量 | 128K | $2.5 | $10 | — | — | —/— | — | OpenRouter reseller price |
+| `openai/gpt-audio-mini` | ✅ 在线 | audio_tts | 按量 | 128K | $0.6 | $2.4 | — | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-chat-latest` | ✅ 在线 | chat | 按量 | 400K | $5 | $30 | $0.5 | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-oss-120b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.037 | $0.17 | — | — | —/— | — | OpenRouter reseller price |
 | `openai/gpt-oss-120b:batch` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.15 | $0.6 | — | — | —/— | — | OpenRouter reseller price |
@@ -314,8 +314,8 @@
 | `openai/o4-mini` | ✅ 在线 | reasoning | 按量 | 200K | $1.1 | $4.4 | $0.275 | — | —/— | — | OpenRouter reseller price |
 | `openai/o4-mini-high` | ✅ 在线 | reasoning | 按量 | 200K | $1.1 | $4.4 | $0.275 | — | —/— | — | OpenRouter reseller price |
 | `openai/o4-mini:batch` | ✅ 在线 | reasoning | 按量 | 200K | $0.55 | $2.2 | $0.1375 | — | —/— | — | OpenRouter reseller price |
-| `openrouter/auto` | ✅ 在线 | chat | 未知 | 2M | — | — | — | — | —/— | — | OpenRouter reseller price \| Dynamic routing price: billed at the selected mo… |
-| `openrouter/auto-beta` | ✅ 在线 | chat | 未知 | 2M | — | — | — | — | —/— | — | OpenRouter reseller price \| Dynamic routing price: billed at the selected mo… |
+| `openrouter/auto` | ✅ 在线 | image_gen | 未知 | 2M | — | — | — | — | —/— | — | OpenRouter reseller price \| Dynamic routing price: billed at the selected mo… |
+| `openrouter/auto-beta` | ✅ 在线 | image_gen | 未知 | 2M | — | — | — | — | —/— | — | OpenRouter reseller price \| Dynamic routing price: billed at the selected mo… |
 | `openrouter/bodybuilder` | ✅ 在线 | chat | 未知 | 128K | — | — | — | — | —/— | — | OpenRouter reseller price \| Dynamic routing price: billed at the selected mo… |
 | `openrouter/free` | ✅ 在线 | chat | 免费 | 200K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `openrouter/fusion` | ✅ 在线 | chat | 未知 | 1M | — | — | — | — | —/— | — | OpenRouter reseller price \| Dynamic routing price: billed at the selected mo… |
@@ -400,7 +400,7 @@
 | `tencent/hy-mt2-1.8b` | ✅ 在线 | chat | 按量 | 8.192K | $0.044 | $0.177 | — | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy-mt2-30b-a3b` | ✅ 在线 | chat | 按量 | 8.192K | $0.074 | $0.295 | — | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy-mt2-7b` | ✅ 在线 | chat | 按量 | 8.192K | $0.074 | $0.295 | — | — | —/— | — | OpenRouter reseller price |
-| `tencent/hy3` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.0825 | $0.33 | $0.020625 | — | —/— | — | OpenRouter reseller price |
+| `tencent/hy3` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.132 | $0.528 | $0.033 | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy3-preview` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.18 | $0.6 | $0.06 | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy4-preview` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.834 | $2.501 | $0.042 | — | —/— | — | OpenRouter reseller price |
 | `thedrummer/cydonia-24b-v4.1` | ✅ 在线 | chat | 按量 | 131.072K | $0.3 | $0.5 | $0.15 | — | —/— | — | OpenRouter reseller price |
@@ -437,7 +437,7 @@
 | `z-ai/glm-5.1` | ✅ 在线 | reasoning | 按量 | 204.8K | $0.966 | $3.036 | $0.1794 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.2` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.6 | $2 | $0.15 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.2:batch` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.7 | $2.2 | $0.07 | — | —/— | — | OpenRouter reseller price |
-| `z-ai/glm-5.3` | ✅ 在线 | reasoning | 按量 | 1.31072M | $1.4 | $4.4 | $0.26 | — | —/— | — | OpenRouter reseller price |
+| `z-ai/glm-5.3` | ✅ 在线 | reasoning | 按量 | 1.31072M | $1.092 | $3.432 | $0.2028 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.3-flash` | ✅ 在线 | reasoning | 按量 | 1.31072M | $0.15 | $0.5 | $0.03 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.3-flash:batch` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.075 | $0.25 | $0.015 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.3:batch` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.7 | $2.2 | $0.13 | — | —/— | — | OpenRouter reseller price |

@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.132.84 — 2026-09-13T01:00Z (content update)
+
+- price sync (21 changes, 2 verification records):
+- **openrouter** (updated 21): `deepseek/deepseek-v4-pro-0813`, `google/gemini-2.5-flash-image`, `google/gemini-3-pro-image`, `google/gemini-3-pro-image-preview`, `google/gemini-3.1-flash-image`, `google/gemini-3.1-flash-image-preview`, `google/gemini-3.1-flash-lite-image`, `google/gemma-4-26b-a4b-it`, `google/lyria-3-clip-preview`, `google/lyria-3-pro-preview`, `meta/muse-glimmer-30b`, `moonshotai/kimi-k2-thinking`, `openai/gpt-5-image`, `openai/gpt-5-image-mini`, `openai/gpt-5.4-image-2`, `openai/gpt-audio`, `openai/gpt-audio-mini`, `openrouter/auto`, `openrouter/auto-beta`, `tencent/hy3`, `z-ai/glm-5.3`
+- **requesty** (skipped 2): `thinkingcap-qwen3.6-27b`, `thinkingcap-qwen3.6-27b@eu`
+
 ## 26.131.84 — 2026-09-12T23:37Z (feature update)
 
 - fix(category): classify model category by id/kind in both aggregator writers (was always chat/reasoning) and audit contradictions
