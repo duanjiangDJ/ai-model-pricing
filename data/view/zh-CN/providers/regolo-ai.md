@@ -24,7 +24,7 @@
 | `gpt-oss-20b` | ✅ 在线 | reasoning | 按量 | 128K | $0.4 | $1.8 | — | — | —/— | — | models.dev official list price |
 | `llama-3.3-70b-instruct` | ✅ 在线 | chat | 按量 | 128K | $0.6 | $2.7 | — | — | —/— | — | models.dev official list price |
 | `mistral-small-4-119b` | ✅ 在线 | reasoning | 按量 | 256K | $0.75 | $3 | — | — | —/— | — | models.dev official list price |
-| `qwen-image` | ✅ 在线 | chat | 按量 | 8.192K | $0.5 | $2 | — | — | —/— | — | models.dev official list price |
+| `qwen-image` | ✅ 在线 | image_gen | 按量 | 8.192K | $0.5 | $2 | — | — | —/— | — | models.dev official list price |
 | `qwen3-coder-next` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.3 | $1.2 | — | — | —/— | — | models.dev official list price |
 | `qwen3-embedding-8b` | ✅ 在线 | embedding | 按量 | 32.768K | $0.1 | $0.1 | — | — | —/— | — | models.dev official list price |
 | `qwen3-reranker-4b` | ✅ 在线 | rerank | 按量 | 32.768K | $0.12 | $0.12 | — | — | —/— | — | models.dev official list price |

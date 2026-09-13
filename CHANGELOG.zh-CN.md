@@ -16,6 +16,10 @@
 
 ---
 
+## 26.134.86 — 2026-09-13T05:43Z（功能更新）
+
+- 修复(category)：补齐生成类模型识别（视频 veo/sora/kling/seedance/runway/wan、图像 gemini-*-image/gpt-image/qwen-image/imagen），修正 151 个被默认为 chat/reasoning 的行
+
 ## 26.134.85 — 2026-09-13T04:00Z（内容更新）
 
 - 价格同步（4 处变更）：

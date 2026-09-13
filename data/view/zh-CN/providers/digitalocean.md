@@ -92,9 +92,9 @@
 | `openai-gpt-5.6-luna` | ✅ 在线 | reasoning | 按量 | 1.05M | $0.2 | $1.2 | $0.02 | — | —/— | — | models.dev official list price |
 | `openai-gpt-5.6-sol` | ✅ 在线 | reasoning | 按量 | 1.05M | $4 | $20 | $0.4 | — | —/— | — | models.dev official list price |
 | `openai-gpt-5.6-terra` | ✅ 在线 | reasoning | 按量 | 1.05M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
-| `openai-gpt-image-1` | ✅ 在线 | chat | 按量 | — | $5 | $40 | $1.25 | — | —/— | — | models.dev official list price |
-| `openai-gpt-image-1.5` | ✅ 在线 | chat | 按量 | — | $5 | $10 | $1 | — | —/— | — | models.dev official list price |
-| `openai-gpt-image-2` | ✅ 在线 | chat | 按量 | — | $8 | $30 | — | — | —/— | — | models.dev official list price |
+| `openai-gpt-image-1` | ✅ 在线 | image_gen | 按量 | — | $5 | $40 | $1.25 | — | —/— | — | models.dev official list price |
+| `openai-gpt-image-1.5` | ✅ 在线 | image_gen | 按量 | — | $5 | $10 | $1 | — | —/— | — | models.dev official list price |
+| `openai-gpt-image-2` | ✅ 在线 | image_gen | 按量 | — | $8 | $30 | — | — | —/— | — | models.dev official list price |
 | `openai-gpt-oss-120b` | ✅ 在线 | reasoning | 按量 | 128K | $0.055 | $0.385 | $0.02 | — | —/— | — | models.dev official list price |
 | `openai-gpt-oss-20b` | ✅ 在线 | reasoning | 按量 | 128K | $0.05 | $0.45 | — | — | —/— | — | models.dev official list price |
 | `openai-o1` | ✅ 在线 | reasoning | 按量 | 200K | $15 | $60 | $7.5 | — | —/— | — | models.dev official list price |
@@ -107,4 +107,4 @@
 | `qwen3.5-397b-a17b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.55 | $3.5 | $0.111 | — | —/— | — | models.dev official list price |
 | `qwen3.8-max` | ✅ 在线 | reasoning | 按量 | 262.144K | $2 | $6 | $0.2 | — | —/— | — | models.dev official list price |
 | `stable-diffusion-3.5-large` | ✅ 在线 | image_gen | 按量 | 256 | $0.08 | $0 | — | — | —/— | — | models.dev official list price |
-| `wan2-2-t2v-a14b` | ✅ 在线 | chat | 按量 | 100 | $0.6 | $0 | — | — | —/— | — | models.dev official list price |
+| `wan2-2-t2v-a14b` | ✅ 在线 | video_gen | 按量 | 100 | $0.6 | $0 | — | — | —/— | — | models.dev official list price |

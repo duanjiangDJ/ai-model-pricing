@@ -270,7 +270,7 @@
 | `gemini-2.5-pro-preview-03-25` | ✅ 在线 | reasoning | 按量 | 1.04876M | $2.5 | $10 | $0.25 | — | —/— | — | models.dev official list price |
 | `gemini-2.5-pro-preview-05-06` | ✅ 在线 | reasoning | 按量 | 1.04876M | $2.5 | $10 | $0.25 | — | —/— | — | models.dev official list price |
 | `gemini-2.5-pro-preview-06-05` | ✅ 在线 | reasoning | 按量 | 1.04876M | $2.5 | $10 | $0.25 | — | —/— | — | models.dev official list price |
-| `gemini-3-pro-image-preview` | ✅ 在线 | chat | 按量 | 1.04876M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
+| `gemini-3-pro-image-preview` | ✅ 在线 | image_gen | 按量 | 1.04876M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `gemini-exp-1206` | ✅ 在线 | chat | 按量 | 2.09715M | $1.258 | $4.998 | $0.629 | — | —/— | — | models.dev official list price |
 | `gemma-4-12b-it` | ✅ 在线 | chat | 按量 | 262.144K | $0.05 | $0.25 | $0.025 | — | —/— | — | models.dev official list price |
 | `gemma-4-26b-a4b-it-chimerax` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.12 | $0.38 | $0.06 | — | —/— | — | models.dev official list price |

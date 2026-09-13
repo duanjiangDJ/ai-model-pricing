@@ -48,7 +48,7 @@
     {
       "id": "chatgpt-image-latest",
       "name": "chatgpt-image-latest",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -1361,7 +1361,7 @@
     {
       "id": "gpt-image-1",
       "name": "gpt-image-1",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -1388,7 +1388,7 @@
     {
       "id": "gpt-image-1-mini",
       "name": "gpt-image-1-mini",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -1415,7 +1415,7 @@
     {
       "id": "gpt-image-1.5",
       "name": "gpt-image-1.5",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -1442,7 +1442,7 @@
     {
       "id": "gpt-image-2",
       "name": "gpt-image-2",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],

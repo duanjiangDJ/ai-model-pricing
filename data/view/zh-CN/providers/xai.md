@@ -25,8 +25,8 @@
 | `grok-build-0.1` | ❌ 下线 | code | 按量 | 256K | $1 | $2 | $0.2 | — | —/— | — | Agentic coding model. Two-tier pricing at 200k: <200k input $1.00 / cached $0… |
 | `grok-code-fast-1` | ❌ 下线 | code | 未知 | — | — | — | — | — | —/— | — | Retired from xAI API 2026-05-15; redirects to grok-build-0.1 (recommended rep… |
 | `grok-embedding` | ✅ 在线 | embedding | 未知 | — | — | — | — | — | —/— | — | No embedding model listed on official xAI pricing or models pages as of 2026-… |
-| `grok-imagine-image` | ✅ 在线 | chat | 未知 | 8K | — | — | — | — | —/— | — | models.dev official list price |
-| `grok-imagine-image-2.0` | ✅ 在线 | chat | 未知 | 8K | — | — | — | — | —/— | — | models.dev official list price |
-| `grok-imagine-image-quality` | ✅ 在线 | chat | 未知 | 8K | — | — | — | — | —/— | — | models.dev official list price |
+| `grok-imagine-image` | ✅ 在线 | image_gen | 未知 | 8K | — | — | — | — | —/— | — | models.dev official list price |
+| `grok-imagine-image-2.0` | ✅ 在线 | image_gen | 未知 | 8K | — | — | — | — | —/— | — | models.dev official list price |
+| `grok-imagine-image-quality` | ✅ 在线 | image_gen | 未知 | 8K | — | — | — | — | —/— | — | models.dev official list price |
 | `grok-imagine-video` | ✅ 在线 | video_gen | 未知 | 1.024K | — | — | — | — | —/— | — | models.dev official list price |
 | `grok-imagine-video-1.5` | ✅ 在线 | video_gen | 未知 | 1.024K | — | — | — | — | —/— | — | models.dev official list price |

@@ -47,18 +47,18 @@
 | `gemini-2.0-flash` | ✅ online | chat | ? | 1.04858M | — | — | — | — | —/— | — | models.dev official list price |
 | `gemini-2.0-flash-lite` | ✅ online | reasoning | ? | 1.04858M | — | — | — | — | —/— | — | models.dev official list price |
 | `gemini-2.5-flash` | ✅ online | reasoning | ? | 1.04858M | — | — | — | — | —/— | — | models.dev official list price |
-| `gemini-2.5-flash-image` | ✅ online | chat | ? | 32.768K | — | — | — | — | —/— | — | models.dev official list price |
+| `gemini-2.5-flash-image` | ✅ online | image_gen | ? | 32.768K | — | — | — | — | —/— | — | models.dev official list price |
 | `gemini-2.5-flash-lite` | ✅ online | chat | ? | 1.04858M | — | — | — | — | —/— | — | models.dev official list price |
 | `gemini-2.5-pro` | ✅ online | reasoning | ? | 1.04858M | — | — | — | — | —/— | — | models.dev official list price |
 | `gemini-3.0-flash-preview` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
-| `gemini-3.0-pro-image-preview` | ✅ online | chat | ? | 32.768K | — | — | — | — | —/— | — | models.dev official list price |
+| `gemini-3.0-pro-image-preview` | ✅ online | image_gen | ? | 32.768K | — | — | — | — | —/— | — | models.dev official list price |
 | `gemini-3.0-pro-preview` | ✅ online | reasoning | ? | 1M | — | — | — | — | —/— | — | models.dev official list price |
 | `glm-4.5` | ✅ online | reasoning | ? | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
 | `glm-4.5-air` | ✅ online | reasoning | ? | 131K | — | — | — | — | —/— | — | models.dev official list price |
 | `gpt-oss-120b` | ✅ online | reasoning | ? | 128K | — | — | — | — | —/— | — | models.dev official list price |
 | `gpt-oss-20b` | ✅ online | reasoning | ? | 128K | — | — | — | — | —/— | — | models.dev official list price |
 | `kimi-k2` | ✅ online | chat | ? | 128K | — | — | — | — | —/— | — | models.dev official list price |
-| `kling-v2-6` | ✅ online | chat | ? | — | — | — | — | — | —/— | — | models.dev official list price \| context_window/max_output corrected from pl… |
+| `kling-v2-6` | ✅ online | video_gen | ? | — | — | — | — | — | —/— | — | models.dev official list price \| context_window/max_output corrected from pl… |
 | `meituan/longcat-flash-chat` | ✅ online | chat | ? | 131.072K | — | — | — | — | —/— | — | models.dev official list price |
 | `meituan/longcat-flash-lite` | ✅ online | chat | ? | 256K | — | — | — | — | —/— | — | models.dev official list price |
 | `mimo-v2-flash` | ✅ online | reasoning | per-token | 256K | $0.1 | $0.3 | $0.01 | — | —/— | — | models.dev official list price |

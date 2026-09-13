@@ -872,7 +872,7 @@
     {
       "id": "gpt-image-2",
       "name": "GPT-Image-2",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -1057,7 +1057,7 @@
     {
       "id": "grok-imagine-image-2-0",
       "name": "Grok Imagine Image 2.0",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],

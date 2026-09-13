@@ -2685,7 +2685,7 @@
     {
       "id": "google/gemini-2.5-flash-image",
       "name": "Nano Banana",
-      "category": "reasoning",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -2751,7 +2751,7 @@
     {
       "id": "google/gemini-3-pro-image",
       "name": "Nano Banana Pro",
-      "category": "reasoning",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -2784,7 +2784,7 @@
     {
       "id": "google/gemini-3-pro-image-preview",
       "name": "Nano Banana Pro",
-      "category": "reasoning",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -2817,7 +2817,7 @@
     {
       "id": "google/gemini-3.1-flash-image",
       "name": "Nano Banana 2",
-      "category": "reasoning",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -2848,7 +2848,7 @@
     {
       "id": "google/gemini-3.1-flash-image-preview",
       "name": "Nano Banana 2",
-      "category": "reasoning",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -2912,7 +2912,7 @@
     {
       "id": "google/gemini-3.1-flash-lite-image",
       "name": "Nano Banana 2 Lite",
-      "category": "reasoning",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -6824,7 +6824,7 @@
     {
       "id": "vertex/gemini-2.5-flash-image",
       "name": "Nano Banana",
-      "category": "reasoning",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -6890,7 +6890,7 @@
     {
       "id": "vertex/gemini-3-pro-image",
       "name": "Nano Banana Pro",
-      "category": "reasoning",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -6923,7 +6923,7 @@
     {
       "id": "vertex/gemini-3.1-flash-image",
       "name": "Nano Banana 2",
-      "category": "reasoning",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -6986,7 +6986,7 @@
     {
       "id": "vertex/gemini-3.1-flash-lite-image",
       "name": "Nano Banana 2 Lite",
-      "category": "reasoning",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],

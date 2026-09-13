@@ -2533,7 +2533,7 @@
     {
       "id": "openai-gpt-image-1",
       "name": "GPT Image 1",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -2566,7 +2566,7 @@
     {
       "id": "openai-gpt-image-1.5",
       "name": "OpenAI GPT Image 1.5",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -2599,7 +2599,7 @@
     {
       "id": "openai-gpt-image-2",
       "name": "OpenAI GPT Image 2",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -3008,7 +3008,7 @@
     {
       "id": "wan2-2-t2v-a14b",
       "name": "Wan2.2-T2V-A14B",
-      "category": "chat",
+      "category": "video_gen",
       "modalities": [
         "text"
       ],

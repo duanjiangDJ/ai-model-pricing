@@ -30,12 +30,23 @@ _HAN_RE = re.compile(r"[\u4e00-\u9fff]")
 # "synthetic-video-detector" matches both "video" and "detector").
 CATEGORY_SIGNATURES = (
     (re.compile(r"detector|classifier|moderation|content-safety|guard"), "moderation"),
-    (re.compile(r"video"), "video_gen"),
+    # Image generators. The `image` marker covers the Google/OpenAI/Alibaba/xAI/Meta image
+    # families (gemini-*-image, gpt-image, chatgpt-image, qwen-image, wan*-image,
+    # grok-imagine-image, muse-image); `imagen` covers Google Imagen. It sits BEFORE the video
+    # rule so `wan2.7-image` stays image_gen while `wan-v2.6-t2v` becomes video_gen.
+    (re.compile(r"imagen|gpt-image|qwen-image|[-_.]image([-_.]|$)"), "image_gen"),
+    # Video generators: the generic "video" marker PLUS the generator families whose ids carry
+    # no literal "video" (Google Veo, OpenAI Sora, Kuaishou Kling, ByteDance Seedance, Runway,
+    # Luma Ray, MiniMax Hailuo, Alibaba wan/wanx) and the t2v/i2v/r2v task suffixes. Without
+    # these the writers re-defaulted every one of these rows to "chat"/"reasoning". `kling` and
+    # `wan` carry an id boundary because `thinkingmachines/Inkling` is an ordinary chat model.
+    (re.compile(r"video|veo|sora|seedance|runway|hailuo|lumalabs|ray-?2($|[/_.-])|t2v|i2v|r2v|"
+                r"(^|[/_.-])kling|(^|[/_.-])wan"), "video_gen"),
     (re.compile(r"whisper|transcribe"), "audio_stt"),
     (re.compile(r"(^|[/_.-])tts([/_.-]|$)|-tts$|tts-|text-to-speech"), "audio_tts"),
     (re.compile(r"rerank|re-rank"), "rerank"),
     (re.compile(r"embed|bge|e5-|e5_|gte-|gte_|mpnet|minilm|mini-lm|mini_lm"), "embedding"),
-    (re.compile(r"stable-diffusion|sdxl|flux"), "image_gen"),
+    (re.compile(r"stable-diffusion|sdxl|flux|imagen"), "image_gen"),
 )
 
 

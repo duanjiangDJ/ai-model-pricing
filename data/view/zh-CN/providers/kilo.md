@@ -75,18 +75,18 @@
 | `deepseek/deepseek-v4-pro-0813` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.32 | $3.96 | $0.044 | — | —/— | — | models.dev official list price |
 | `dots-studio/dots-3-note-preview:free` | ✅ 在线 | reasoning | 免费 | 512K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `google/gemini-2.5-flash` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
-| `google/gemini-2.5-flash-image` | ✅ 在线 | chat | 按量 | 32.768K | $0.15 | $1.25 | $0.015 | — | —/— | — | models.dev official list price |
+| `google/gemini-2.5-flash-image` | ✅ 在线 | image_gen | 按量 | 32.768K | $0.15 | $1.25 | $0.015 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-flash-lite` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.1 | $0.4 | $0.01 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-pro` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-pro-preview` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |
 | `google/gemini-2.5-pro-preview-05-06` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |
 | `google/gemini-3-flash-preview` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |
-| `google/gemini-3-pro-image` | ✅ 在线 | reasoning | 按量 | 65.536K | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
-| `google/gemini-3-pro-image-preview` | ✅ 在线 | reasoning | 按量 | 65.536K | $1 | $6 | $0.1 | — | —/— | — | models.dev official list price |
-| `google/gemini-3.1-flash-image` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.5 | $3 | — | — | —/— | — | models.dev official list price |
-| `google/gemini-3.1-flash-image-preview` | ✅ 在线 | reasoning | 按量 | 65.536K | $0.5 | $3 | — | — | —/— | — | models.dev official list price |
+| `google/gemini-3-pro-image` | ✅ 在线 | image_gen | 按量 | 65.536K | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
+| `google/gemini-3-pro-image-preview` | ✅ 在线 | image_gen | 按量 | 65.536K | $1 | $6 | $0.1 | — | —/— | — | models.dev official list price |
+| `google/gemini-3.1-flash-image` | ✅ 在线 | image_gen | 按量 | 131.072K | $0.5 | $3 | — | — | —/— | — | models.dev official list price |
+| `google/gemini-3.1-flash-image-preview` | ✅ 在线 | image_gen | 按量 | 65.536K | $0.5 | $3 | — | — | —/— | — | models.dev official list price |
 | `google/gemini-3.1-flash-lite` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.125 | $0.75 | $0.0125 | — | —/— | — | models.dev official list price |
-| `google/gemini-3.1-flash-lite-image` | ✅ 在线 | reasoning | 按量 | 65.536K | $0.25 | $1.5 | — | — | —/— | — | models.dev official list price |
+| `google/gemini-3.1-flash-lite-image` | ✅ 在线 | image_gen | 按量 | 65.536K | $0.25 | $1.5 | — | — | —/— | — | models.dev official list price |
 | `google/gemini-3.1-flash-lite-preview` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.125 | $0.75 | $0.0125 | — | —/— | — | models.dev official list price |
 | `google/gemini-3.1-pro-preview` | ✅ 在线 | reasoning | 按量 | 1.04858M | $1 | $6 | $0.1 | — | —/— | — | models.dev official list price |
 | `google/gemini-3.1-pro-preview-customtools` | ✅ 在线 | reasoning | 按量 | 1.04858M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
@@ -215,8 +215,8 @@
 | `openai/gpt-4o-mini` | ✅ 在线 | chat | 按量 | 128K | $0.15 | $0.6 | $0.075 | — | —/— | — | models.dev official list price |
 | `openai/gpt-4o-mini-2024-07-18` | ✅ 在线 | chat | 按量 | 128K | $0.15 | $0.6 | $0.075 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5` | ✅ 在线 | reasoning | 按量 | 400K | $1.25 | $10 | $0.125 | — | —/— | — | models.dev official list price |
-| `openai/gpt-5-image` | ✅ 在线 | reasoning | 按量 | 400K | $10 | $10 | $1.25 | — | —/— | — | models.dev official list price |
-| `openai/gpt-5-image-mini` | ✅ 在线 | reasoning | 按量 | 400K | $2.5 | $2 | $0.25 | — | —/— | — | models.dev official list price |
+| `openai/gpt-5-image` | ✅ 在线 | image_gen | 按量 | 400K | $10 | $10 | $1.25 | — | —/— | — | models.dev official list price |
+| `openai/gpt-5-image-mini` | ✅ 在线 | image_gen | 按量 | 400K | $2.5 | $2 | $0.25 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5-mini` | ✅ 在线 | reasoning | 按量 | 400K | $0.25 | $2 | $0.025 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5-nano` | ✅ 在线 | reasoning | 按量 | 400K | $0.05 | $0.4 | $0.005 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5-pro` | ✅ 在线 | reasoning | 按量 | 400K | $15 | $120 | — | — | —/— | — | models.dev official list price |
@@ -230,7 +230,7 @@
 | `openai/gpt-5.2-pro` | ✅ 在线 | reasoning | 按量 | 400K | $21 | $168 | — | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.3-codex` | ✅ 在线 | reasoning | 按量 | 400K | $1.75 | $14 | $0.175 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.4` | ✅ 在线 | reasoning | 按量 | 1.05M | $2.5 | $15 | $0.25 | — | —/— | — | models.dev official list price |
-| `openai/gpt-5.4-image-2` | ✅ 在线 | reasoning | 按量 | 272K | $8 | $15 | $2 | — | —/— | — | models.dev official list price |
+| `openai/gpt-5.4-image-2` | ✅ 在线 | image_gen | 按量 | 272K | $8 | $15 | $2 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.4-mini` | ✅ 在线 | reasoning | 按量 | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.4-nano` | ✅ 在线 | reasoning | 按量 | 400K | $0.2 | $1.25 | $0.02 | — | —/— | — | models.dev official list price |
 | `openai/gpt-5.4-pro` | ✅ 在线 | reasoning | 按量 | 1.05M | $30 | $180 | — | — | —/— | — | models.dev official list price |

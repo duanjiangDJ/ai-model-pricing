@@ -41,14 +41,47 @@ class TestCategorySignatureHint(unittest.TestCase):
             "nvidia/synthetic-video-detector": "moderation",  # detector wins over video
             "bfl/flux-3-video": "video_gen",                  # video wins over flux
             "openai/gpt-oss-safeguard-20b": "moderation",
+            # video-generator families whose ids carry no literal "video" (2026-09-13: the
+            # writers re-defaulted 54 such rows to "chat" every 3h sync)
+            "google/veo-3.1-fast-generate-001": "video_gen",
+            "veo-3.1-generate-preview": "video_gen",
+            "openai/sora-2": "video_gen",
+            "klingai/kling-v2.6-t2v": "video_gen",
+            "qiniu-ai/kling-v2-6": "video_gen",
+            "bytedance/seedance-2.0": "video_gen",
+            "runwayml/runway-gen-4-turbo": "video_gen",
+            "lumalabs/ray2": "video_gen",
+            "alibaba/wan-v2.6-t2v": "video_gen",
+            "wanx/wan-v2-6": "video_gen",
+            "wan2-2-t2v-a14b": "video_gen",
+            "happyhorse-1.1-i2v": "video_gen",
+            # image generators (2026-09-13: 97 such rows were chat/reasoning)
+            "google/imagen-4-fast": "image_gen",
+            "google/gemini-3-pro-image-preview": "image_gen",
+            "openai/gpt-image-2": "image_gen",
+            "chatgpt-image-latest": "image_gen",
+            "nvidia/qwen/qwen-image-edit": "image_gen",
+            "wan2.7-image": "image_gen",
+            "wan2.7-image-pro": "image_gen",
+            "xai/grok-imagine-image-2.0": "image_gen",
+            "meta/muse-image-1.0": "image_gen",
         }
         for mid, want in cases.items():
             self.assertEqual(category_signature_hint(mid), want, mid)
 
     def test_chat_models_have_no_hint(self):
         for mid in ("openai/gpt-5", "google/gemini-3.5-flash", "x-ai/grok-4.6",
-                    "meta-llama/llama-4-maverick"):
+                    "meta-llama/llama-4-maverick",
+                    # the `kling`/`wan` markers are boundary-anchored, so these stay chat
+                    "nano-gpt/thinkingmachines/Inkling-Small", "thinkingmachines/inkling"):
             self.assertIsNone(category_signature_hint(mid), mid)
+
+    def test_image_before_video_precedence(self):
+        # `wan2.7-image` is an IMAGE generator and `wan-v2.6-t2v` a VIDEO one, even though both
+        # carry the `wan` marker -- the image rule must be evaluated first.
+        self.assertEqual(category_signature_hint("wan2.7-image"), "image_gen")
+        self.assertEqual(category_signature_hint("alibaba/wan-v2.6-t2v"), "video_gen")
+        self.assertEqual(category_signature_hint("bfl/flux-3-video"), "video_gen")
 
     def test_writers_agree_with_the_shared_table(self):
         # A hinted id must classify identically in both writers (and in audit.py, which

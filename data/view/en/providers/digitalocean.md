@@ -92,9 +92,9 @@
 | `openai-gpt-5.6-luna` | ✅ online | reasoning | per-token | 1.05M | $0.2 | $1.2 | $0.02 | — | —/— | — | models.dev official list price |
 | `openai-gpt-5.6-sol` | ✅ online | reasoning | per-token | 1.05M | $4 | $20 | $0.4 | — | —/— | — | models.dev official list price |
 | `openai-gpt-5.6-terra` | ✅ online | reasoning | per-token | 1.05M | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
-| `openai-gpt-image-1` | ✅ online | chat | per-token | — | $5 | $40 | $1.25 | — | —/— | — | models.dev official list price |
-| `openai-gpt-image-1.5` | ✅ online | chat | per-token | — | $5 | $10 | $1 | — | —/— | — | models.dev official list price |
-| `openai-gpt-image-2` | ✅ online | chat | per-token | — | $8 | $30 | — | — | —/— | — | models.dev official list price |
+| `openai-gpt-image-1` | ✅ online | image_gen | per-token | — | $5 | $40 | $1.25 | — | —/— | — | models.dev official list price |
+| `openai-gpt-image-1.5` | ✅ online | image_gen | per-token | — | $5 | $10 | $1 | — | —/— | — | models.dev official list price |
+| `openai-gpt-image-2` | ✅ online | image_gen | per-token | — | $8 | $30 | — | — | —/— | — | models.dev official list price |
 | `openai-gpt-oss-120b` | ✅ online | reasoning | per-token | 128K | $0.055 | $0.385 | $0.02 | — | —/— | — | models.dev official list price |
 | `openai-gpt-oss-20b` | ✅ online | reasoning | per-token | 128K | $0.05 | $0.45 | — | — | —/— | — | models.dev official list price |
 | `openai-o1` | ✅ online | reasoning | per-token | 200K | $15 | $60 | $7.5 | — | —/— | — | models.dev official list price |
@@ -107,4 +107,4 @@
 | `qwen3.5-397b-a17b` | ✅ online | reasoning | per-token | 131.072K | $0.55 | $3.5 | $0.111 | — | —/— | — | models.dev official list price |
 | `qwen3.8-max` | ✅ online | reasoning | per-token | 262.144K | $2 | $6 | $0.2 | — | —/— | — | models.dev official list price |
 | `stable-diffusion-3.5-large` | ✅ online | image_gen | per-token | 256 | $0.08 | $0 | — | — | —/— | — | models.dev official list price |
-| `wan2-2-t2v-a14b` | ✅ online | chat | per-token | 100 | $0.6 | $0 | — | — | —/— | — | models.dev official list price |
+| `wan2-2-t2v-a14b` | ✅ online | video_gen | per-token | 100 | $0.6 | $0 | — | — | —/— | — | models.dev official list price |

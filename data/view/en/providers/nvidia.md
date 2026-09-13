@@ -103,8 +103,8 @@
 | `openai/gpt-oss-20b` | ✅ online | reasoning | free | 131.072K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `openai/whisper-large-v3` | ✅ online | audio_stt | free | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `poolside/laguna-xs-2.1` | ✅ online | reasoning | free | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `qwen/qwen-image` | ✅ online | chat | free | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `qwen/qwen-image-edit` | ✅ online | chat | free | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `qwen/qwen-image` | ✅ online | image_gen | free | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `qwen/qwen-image-edit` | ✅ online | image_gen | free | — | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `qwen/qwen2.5-coder-32b-instruct` | ✅ online | chat | free | 128K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `qwen/qwen3-coder-480b-a35b-instruct` | ✅ online | chat | free | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `qwen/qwen3-next-80b-a3b-instruct` | ✅ online | chat | free | 262.144K | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |

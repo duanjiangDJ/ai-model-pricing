@@ -18,18 +18,18 @@
 | `gemini-2.0-flash` | ❌ offline | chat | per-token | 1.04858M | $0.1 | $0.4 | $0.025 | — | $0.05/$0.2 | — | DEPRECATED and shut down 2026-06-01 (migrate to newer models). Input $0.10 te… |
 | `gemini-2.5-computer-use-preview-10-2025` | ✅ online | reasoning | per-token | 131.072K | $1.25 | $10 | — | — | —/— | — | models.dev official list price |
 | `gemini-2.5-flash` | ✅ online | chat | per-token | 1.04858M | $0.3 | $2.5 | $0.03 | — | $0.15/$1.25 | — | Input $0.30 text/image/video, $1.00 audio; cache $0.03 text/image/video, $0.1… |
-| `gemini-2.5-flash-image` | ✅ online | reasoning | per-token | 32.768K | $0.3 | $30 | $0.075 | — | —/— | — | models.dev official list price |
+| `gemini-2.5-flash-image` | ✅ online | image_gen | per-token | 32.768K | $0.3 | $30 | $0.075 | — | —/— | — | models.dev official list price |
 | `gemini-2.5-flash-lite` | ✅ online | chat | per-token | 1.04858M | $0.1 | $0.4 | $0.01 | — | $0.05/$0.2 | — | Input $0.10 text/image/video, $0.30 audio; cache $0.01 text/image/video, $0.0… |
 | `gemini-2.5-flash-preview-tts` | ✅ online | audio_tts | per-token | 8.192K | $0.5 | $10 | — | — | $0.25/$5 | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
 | `gemini-2.5-pro` | ✅ online | chat | per-token | 1.04858M | $1.25 | $10 | $0.125 | — | $0.625/$5 | — | Two-tier pricing at 200k prompt tokens. <=200k: input $1.25 / output $10.00 /… |
 | `gemini-2.5-pro-preview-tts` | ✅ online | audio_tts | per-token | 8.192K | $1 | $20 | — | — | $0.5/$10 | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
 | `gemini-3-flash-preview` | ❌ offline | chat | per-token | 1.04858M | $0.5 | $3 | $0.05 | — | $0.25/$1.5 | — | Preview model. Input $0.50 text/image/video, $1.00 audio; cache $0.05 text/im… |
-| `gemini-3-pro-image` | ✅ online | reasoning | per-token | 131.072K | $2 | $120 | — | — | —/— | — | models.dev official list price |
-| `gemini-3-pro-image-preview` | ✅ online | reasoning | per-token | 131.072K | $2 | $120 | — | — | —/— | — | models.dev official list price |
-| `gemini-3.1-flash-image` | ✅ online | reasoning | per-token | 65.536K | $0.5 | $60 | — | — | —/— | — | models.dev official list price |
-| `gemini-3.1-flash-image-preview` | ✅ online | reasoning | per-token | 65.536K | $0.5 | $60 | — | — | —/— | — | models.dev official list price |
+| `gemini-3-pro-image` | ✅ online | image_gen | per-token | 131.072K | $2 | $120 | — | — | —/— | — | models.dev official list price |
+| `gemini-3-pro-image-preview` | ✅ online | image_gen | per-token | 131.072K | $2 | $120 | — | — | —/— | — | models.dev official list price |
+| `gemini-3.1-flash-image` | ✅ online | image_gen | per-token | 65.536K | $0.5 | $60 | — | — | —/— | — | models.dev official list price |
+| `gemini-3.1-flash-image-preview` | ✅ online | image_gen | per-token | 65.536K | $0.5 | $60 | — | — | —/— | — | models.dev official list price |
 | `gemini-3.1-flash-lite` | ✅ online | reasoning | per-token | 1.04858M | $0.25 | $1.5 | $0.025 | — | $0.125/$0.75 | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
-| `gemini-3.1-flash-lite-image` | ✅ online | reasoning | per-token | 65.536K | $0.25 | $30 | — | — | —/— | — | models.dev official list price |
+| `gemini-3.1-flash-lite-image` | ✅ online | image_gen | per-token | 65.536K | $0.25 | $30 | — | — | —/— | — | models.dev official list price |
 | `gemini-3.1-flash-lite-preview` | ✅ online | reasoning | per-token | 1.04858M | $0.25 | $1.5 | $0.025 | — | —/— | — | models.dev official list price |
 | `gemini-3.1-flash-live-preview` | ✅ online | reasoning | per-token | 131.072K | $0.75 | $4.5 | — | — | —/— | — | models.dev official list price |
 | `gemini-3.1-flash-tts-preview` | ✅ online | audio_tts | per-token | 8.192K | $1 | $20 | — | — | $0.5/$10 | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
@@ -51,6 +51,6 @@
 | `gemma-4-31b-it` | ✅ online | reasoning | per-token | 262.144K | — | — | — | — | —/— | — | models.dev official list price |
 | `lyria-3-clip-preview` | ✅ online | chat | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `lyria-3-pro-preview` | ✅ online | chat | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `veo-3.1-fast-generate-preview` | ✅ online | chat | per-token | 480 | — | — | — | — | —/— | — | models.dev official list price |
-| `veo-3.1-generate-preview` | ✅ online | chat | per-token | 480 | — | — | — | — | —/— | — | models.dev official list price |
-| `veo-3.1-lite-generate-preview` | ✅ online | chat | per-token | 480 | — | — | — | — | —/— | — | models.dev official list price |
+| `veo-3.1-fast-generate-preview` | ✅ online | video_gen | per-token | 480 | — | — | — | — | —/— | — | models.dev official list price |
+| `veo-3.1-generate-preview` | ✅ online | video_gen | per-token | 480 | — | — | — | — | —/— | — | models.dev official list price |
+| `veo-3.1-lite-generate-preview` | ✅ online | video_gen | per-token | 480 | — | — | — | — | —/— | — | models.dev official list price |

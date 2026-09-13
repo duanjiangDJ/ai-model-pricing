@@ -285,9 +285,17 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    `toolbox.category_signature_hint()`, used by BOTH writers and by `audit.py`, so the writer's
    inference and the gate can never drift apart. Precedence: the FIRST matching id marker wins
    (`flux-3-video` -> `video_gen` not `image_gen`; `synthetic-video-detector` -> `moderation`
-   not `video_gen`), then the source's OUTPUT modality (`image`/`audio`/`video`) — a model that
-   merely ACCEPTS images is still `chat`. `audit.py` warns when a row contradicts its own id;
-   fix the row, never the check.
+   not `video_gen`; `wan2.7-image` -> `image_gen` not `video_gen`), then the source's OUTPUT
+   modality (`image`/`audio`/`video`) — a model that merely ACCEPTS images is still `chat`.
+   `audit.py` warns when a row contradicts its own id; fix the row, never the check.
+   **Marker coverage must be complete, not just the families already seen** (round 2,
+   2026-09-13): the first pass only caught ids containing a literal `video`/`flux`/`tts`, so the
+   writers kept re-defaulting 151 more generator rows (54 video, 97 image) to `chat`/`reasoning`
+   on every sync — Google Veo, OpenAI Sora, Kuaishou Kling, ByteDance Seedance, Runway, Luma Ray,
+   Alibaba wan/wanx, `t2v|i2v|r2v`, and every `*-image`/`gpt-image`/`imagen` id. The table now
+   carries those families too, and `tier0_zai.py` (which appends brand-new official models) uses
+   `category_signature_hint()` instead of a hardcoded `"chat"`. When a new generator family
+   appears, add its marker AND recategorise the rows in the same change.
 
 ## Automation (daily check)
 

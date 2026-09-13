@@ -392,7 +392,7 @@
     {
       "id": "grok-imagine-image",
       "name": "Grok Imagine Image",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -419,7 +419,7 @@
     {
       "id": "grok-imagine-image-2.0",
       "name": "Grok Imagine Image 2.0",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
@@ -446,7 +446,7 @@
     {
       "id": "grok-imagine-image-quality",
       "name": "Grok Imagine Image Quality",
-      "category": "chat",
+      "category": "image_gen",
       "modalities": [
         "text"
       ],
