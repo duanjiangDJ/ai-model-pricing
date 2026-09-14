@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.145.96 — 2026-09-14T07:53Z (feature update)
+
+- audit: bound per_mtok/batch magnitude at BOTH ends (toolbox.per_mtok_magnitude; >2000 per 1M is a per-1k unit error and now hard-fails, was a warn above 1e5)
+
 ## 26.145.95 — 2026-09-14T07:48Z (content update)
 
 - Re-pin openrouter ~moonshotai/kimi-latest to the live API price (in $2.1 / out $10.95 / cache_read $0.23 per MTok), replacing the 06:43Z float that had drifted ~3.6% at review time.

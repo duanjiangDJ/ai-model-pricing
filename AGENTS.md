@@ -203,6 +203,19 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    gpt-5.6 = sol's standard -> 2/10). Regression: `tests/test_batch_relationship.py`. When adding a
    first-party check that parses a vendor page, parse its Batch table too — otherwise the batch
    price is a frozen hand-written value with no source.
+   **per_mtok / batch magnitude is bounded at BOTH ends (2026-09-14)**: `per_mtok` and `batch`
+   values are $ per 1M tokens, and EACH end of the scale carries a unit-error signature, so
+   `audit.py` hard-FAILs both via `toolbox.per_mtok_magnitude()`: a non-zero value below `1e-4` is
+   a per-token value stored as per-M (~1e6x too small, e.g. OpenRouter's `2.2e-7`), and a value
+   above `2e3` is a per-1k table stored as per-M (~1e3x too large — several vendors publish a
+   CNY-per-1k table beside their per-M one). The ceiling sits 3.3x beyond the priciest published
+   per-token price ($600 per 1M, openai o1-pro output), so a value past it is an error rather than
+   a new record; the `1e3`-`2e3` band only WARNs. Before this the upper bound was a bare WARN
+   above `1e5`, so a per-1k value like `5000` produced ZERO output (probe 2026-09-14: `per_mtok
+   output=5000` -> `AUDIT PASSED`, i.e. a whole unit-error class could ship). A threshold cannot
+   catch a `1e3x` mis-scale of a sub-$2/M model (that lands inside the legitimate range), but
+   every mis-scale of anything pricier is now blocked. Regression:
+   `tests/test_per_mtok_magnitude.py`.
    **Provenance notes must persist on a verify, not only on a price change**: a check that
    re-verifies an already-correct price must still be able to (re)stamp its official source, or a
    model whose price an aggregator happened to already match stays sourceless forever.

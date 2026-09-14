@@ -16,6 +16,10 @@
 
 ---
 
+## 26.145.96 — 2026-09-14T07:53Z（功能更新）
+
+- audit：per_mtok/batch 量级上下双端设限（toolbox.per_mtok_magnitude；每 1M 超过 2000 即 per-1k 单位错误，现硬性 FAIL，此前仅 >1e5 才 warn）
+
 ## 26.145.95 — 2026-09-14T07:48Z（内容更新）
 
 - 重钉 openrouter ~moonshotai/kimi-latest 到实时 API 价格（in $2.1 / out $10.95 / cache_read $0.23 每 MTok），替换合并前已漂移约 3.6% 的 06:43Z 浮动值。
