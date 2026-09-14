@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.144.95 — 2026-09-14T07:00Z (content update)
+
+- price sync (2 changes):
+- **edenai** (updated 2): `qwen/deepseek-v4-pro-0813`, `qwen/deepseek-v4-flash-0731`
+- **openrouter** (updated 1): `~moonshotai/kimi-latest`
+
 ## 26.143.95 — 2026-09-14T06:38Z (content update)
 
 - data: seed 6 officially-listed Google models missing from the DB (gemini-3.5-transcribe[-live], gemini-omni-1.1-flash, gemini-2.5-flash-native-audio-preview-12-2025, gemini-robotics-er-2[-streaming]-preview)

@@ -6,8 +6,8 @@
 - 官网: https://openrouter.ai
 - 定价页: https://openrouter.ai/models
 - 币种: USD
-- 数据更新时间: 2026-09-14T03:43:23Z
-- 核实时间: 2026-09-14T03:43:23Z
+- 数据更新时间: 2026-09-14T06:43:36Z
+- 核实时间: 2026-09-14T06:43:36Z
 
 共 **445** 个模型。
 
@@ -449,7 +449,7 @@
 | `~deepseek/deepseek-v4-flash-latest` | ✅ 在线 | reasoning | 按量 | 1.31072M | $0.0352 | $0.1056 | $0.00112 | — | —/— | — | OpenRouter reseller price |
 | `~google/gemini-flash-latest` | ✅ 在线 | reasoning | 按量 | 1.04858M | $0.75 | $3.75 | $0.075 | $0.0416667 | —/— | — | OpenRouter reseller price |
 | `~google/gemini-pro-latest` | ✅ 在线 | reasoning | 按量 | 1.04858M | $2 | $12 | $0.2 | $0.375 | —/— | — | OpenRouter reseller price |
-| `~moonshotai/kimi-latest` | ✅ 在线 | reasoning | 按量 | 1.04858M | $2.275 | $12.74 | $0.2639 | — | —/— | — | OpenRouter reseller price |
+| `~moonshotai/kimi-latest` | ✅ 在线 | reasoning | 按量 | 1.04858M | $2.025 | $11.34 | $0.2349 | — | —/— | — | OpenRouter reseller price |
 | `~openai/gpt-astra-latest` | ✅ 在线 | reasoning | 按量 | 1.05M | $10 | $50 | $1 | $12.5 | —/— | — | OpenRouter reseller price |
 | `~openai/gpt-luna-latest` | ✅ 在线 | reasoning | 按量 | 1.05M | $0.2 | $1.2 | $0.02 | $0.25 | —/— | — | OpenRouter reseller price |
 | `~openai/gpt-mini-latest` | ✅ 在线 | reasoning | 按量 | 400K | $0.75 | $4.5 | $0.075 | — | —/— | — | OpenRouter reseller price |

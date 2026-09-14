@@ -6,8 +6,8 @@
 - 官网: https://docs.edenai.co
 - 定价页: https://docs.edenai.co
 - 币种: USD
-- 数据更新时间: 2026-09-12T15:42:40Z
-- 核实时间: 2026-09-12T15:42:40Z
+- 数据更新时间: 2026-09-14T06:44:17Z
+- 核实时间: 2026-09-14T06:44:17Z
 
 共 **254** 个模型。
 
@@ -187,8 +187,8 @@
 | `perplexityai/sonar-deep-research` | ✅ 在线 | reasoning | 按量 | 128K | $2 | $8 | — | — | —/— | — | models.dev official list price |
 | `perplexityai/sonar-pro` | ✅ 在线 | chat | 按量 | 200K | $3 | $15 | — | — | —/— | — | models.dev official list price |
 | `perplexityai/sonar-reasoning-pro` | ✅ 在线 | reasoning | 按量 | 128K | $2 | $8 | — | — | —/— | — | models.dev official list price |
-| `qwen/deepseek-v4-flash-0731` | ✅ 在线 | reasoning | 按量 | 1M | $0.176 | $0.528 | — | — | —/— | — | models.dev official list price |
-| `qwen/deepseek-v4-pro-0813` | ✅ 在线 | reasoning | 按量 | 1M | $0.5808 | $1.7424 | — | — | —/— | — | models.dev official list price |
+| `qwen/deepseek-v4-flash-0731` | ✅ 在线 | reasoning | 按量 | 1M | $0.352 | $1.056 | — | — | —/— | — | models.dev official list price |
+| `qwen/deepseek-v4-pro-0813` | ✅ 在线 | reasoning | 按量 | 1M | $1.122 | $3.366 | — | — | —/— | — | models.dev official list price |
 | `qwen/qwen-max` | ✅ 在线 | chat | 按量 | 32.768K | $1.6 | $6.4 | $0.32 | — | —/— | — | models.dev official list price |
 | `qwen/qwen-vl-max` | ✅ 在线 | chat | 按量 | 131.072K | $0.8 | $3.2 | $0.16 | — | —/— | — | models.dev official list price |
 | `qwen/qwen-vl-plus` | ✅ 在线 | chat | 按量 | 131.072K | $0.21 | $0.63 | $0.042 | — | —/— | — | models.dev official list price |

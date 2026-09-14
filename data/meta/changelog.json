@@ -1,6 +1,59 @@
 {
-  "schema_version": "26.143.95",
+  "schema_version": "26.144.95",
   "entries": [
+    {
+      "date": "2026-09-14T06:44:17Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "edenai",
+      "item_id": "qwen/deepseek-v4-pro-0813,qwen/deepseek-v4-flash-0731",
+      "field": "pricing",
+      "new": {
+        "models": 2
+      },
+      "source": "models.dev:api"
+    },
+    {
+      "date": "2026-09-14T06:43:36Z",
+      "kind": "update",
+      "scope": "model",
+      "provider_id": "openrouter",
+      "item_id": "~moonshotai/kimi-latest",
+      "field": "pricing",
+      "old": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.275
+          },
+          "output": {
+            "usd": 12.74
+          },
+          "cache_read": {
+            "usd": 0.2639
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "new": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.025
+          },
+          "output": {
+            "usd": 11.34
+          },
+          "cache_read": {
+            "usd": 0.2349
+          },
+          "cache_write": null
+        },
+        "per_image": null,
+        "promo": null
+      },
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-09-14T06:38:10Z",
       "kind": "add",

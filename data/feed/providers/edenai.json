@@ -7,8 +7,8 @@
   "homepage": "https://docs.edenai.co",
   "pricing_page": "https://docs.edenai.co",
   "currency": "USD",
-  "updated_at": "2026-09-12T15:42:40Z",
-  "verified_at": "2026-09-12T15:42:40Z",
+  "updated_at": "2026-09-14T06:44:17Z",
+  "verified_at": "2026-09-14T06:44:17Z",
   "models": [
     {
       "id": "amazon/moonshot.kimi-k2-thinking",
@@ -5648,10 +5648,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.176
+            "usd": 0.352
           },
           "output": {
-            "usd": 0.528
+            "usd": 1.056
           },
           "cache_read": null,
           "cache_write": null
@@ -5679,10 +5679,10 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.5808
+            "usd": 1.122
           },
           "output": {
-            "usd": 1.7424
+            "usd": 3.366
           },
           "cache_read": null,
           "cache_write": null
