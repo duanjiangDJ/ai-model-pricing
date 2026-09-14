@@ -6,8 +6,8 @@
 - Homepage: https://opencode.ai/zen
 - Pricing page: https://opencode.ai/docs/zen/
 - Currency: USD
-- Data updated: 2026-09-13T06:43:26Z
-- Verified: 2026-09-13T06:43:26Z
+- Data updated: 2026-09-14T09:44:20Z
+- Verified: 2026-09-14T09:44:20Z
 
 **99** models in total.
 

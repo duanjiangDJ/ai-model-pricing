@@ -16,6 +16,12 @@
 
 ---
 
+## 26.146.96 — 2026-09-14T10:00Z（内容更新）
+
+- 价格同步（4 处变更）：
+- **opencode**（更新 3）：`kimi-k2.5`, `deepseek-v4-pro`, `gpt-5.6-terra`
+- **opencode-go**（更新 1）：`minimax-m2.5`
+
 ## 26.145.96 — 2026-09-14T07:53Z（功能更新）
 
 - audit：per_mtok/batch 量级上下双端设限（toolbox.per_mtok_magnitude；每 1M 超过 2000 即 per-1k 单位错误，现硬性 FAIL，此前仅 >1e5 才 warn）
