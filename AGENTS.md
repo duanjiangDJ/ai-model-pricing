@@ -216,6 +216,21 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    catch a `1e3x` mis-scale of a sub-$2/M model (that lands inside the legitimate range), but
    every mis-scale of anything pricier is now blocked. Regression:
    `tests/test_per_mtok_magnitude.py`.
+   **Price-object SHAPE guard (2026-09-14)**: `dualPrice` in `schema.json` types `usd`/`cny`
+   but does NOT set `additionalProperties: false`, and every numeric helper
+   (`any_price_positive` / `price_all_zero` / the dual-currency rules) reads only those two keys.
+   A price stored under a typo/foreign key (`"USD"`, `"usd "`, `"eur"`) therefore passed
+   `validate.py` AND every audit check with ZERO output — a real, unverifiable price invisible to
+   the whole pipeline — while a non-numeric value (`"0.3"`) raised `TypeError: '>' not supported
+   between instances of 'str' and 'int'` inside `any((x or 0) > 0 …)` and killed the ENTIRE audit
+   (one bad field masked every later finding, and the crash was order-dependent: `{"usd":0.3,
+   "eur":"0.28"}` slipped through because `usd` short-circuits `any()`, while `{"eur":"0.28",
+   "usd":0.3}` raised). `toolbox.price_shape_errors()` now scans `per_mtok.{input,output,
+   cache_read,cache_write}`, `batch.{input,output}`, `per_image[].price` and `promo.list_price`:
+   an unknown key or a non-numeric value hard-FAILs (naming the field), and a value whose type
+   would raise in a comparison makes the audit skip that model's remaining checks instead of
+   crashing. `context_window` gets the same type guard (it was the other raw `>` comparison).
+   Regression: `tests/test_price_shape_guard.py`.
    **Provenance notes must persist on a verify, not only on a price change**: a check that
    re-verifies an already-correct price must still be able to (re)stamp its official source, or a
    model whose price an aggregator happened to already match stays sourceless forever.

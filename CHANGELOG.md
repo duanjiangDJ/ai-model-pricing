@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.146.98 — 2026-09-14T11:38Z (feature update)
+
+- audit(check): fail closed on a malformed price object (unknown currency key / non-numeric value) instead of silently ignoring it or crashing the whole audit
+
 ## 26.146.97 — 2026-09-14T10:27Z (feature update)
 
 - collect_modelsdev: one-hand guard now covers check-layer providers (opencode/opencode-go/moonshotai/tencent/xiaomi) so models.dev can no longer clobber a first-party price whose verified_at aged past 26h; codify the 2026-09-14 tug-of-war incident + regression tests

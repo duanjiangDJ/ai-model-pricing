@@ -16,6 +16,10 @@
 
 ---
 
+## 26.146.98 — 2026-09-14T11:38Z（功能更新）
+
+- audit(检查): 价格对象形状非法(未知币种键/非数值)时改为失败关闭，不再静默忽略或整段崩溃
+
 ## 26.146.97 — 2026-09-14T10:27Z（功能更新）
 
 - collect_modelsdev：一手来源守卫扩展到 check 层供应商（opencode/opencode-go/moonshotai/tencent/xiaomi），models.dev 不再能在其一手价格 verified_at 超过 26h 后覆盖；补充 2026-09-14 拉锯事件教训与回归测试
