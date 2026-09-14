@@ -31,6 +31,7 @@ from toolbox import (  # noqa: E402
     off_peak_violation,
     per_mtok_magnitude,
     price_all_zero,
+    price_shape_errors,
     suspicious_max_output,
     zero_token_price_fields,
 )
@@ -135,6 +136,17 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
             bad_status += 1
             fail(f"invalid model status '{st}' in {p['provider_id']} :: {m['id']} (only online/offline allowed)")
         pm = (m.get("pricing") or {}).get("per_mtok") or {}
+        # price-object shape sanity (see §15.1 check-effectiveness): a price stored under an
+        # unknown currency key is read by NO other check (any_price_positive/price_all_zero
+        # look up only usd/cny), and a non-numeric value raises TypeError inside `> 0`,
+        # aborting the whole audit so one bad field masks every later finding. Fail closed on
+        # the whole class with a named field; skip the model only when its types would crash a
+        # numeric comparison (otherwise keep auditing its other rules).
+        _perr, _pfatal = price_shape_errors(m)
+        for _bmsg in _perr:
+            fail(f"{p['provider_id']} :: {m['id']} {_bmsg}")
+        if _pfatal:
+            continue
         # zero-price policy (free): every present currency value is 0
         if price_all_zero(pm):
             if is_sub:
@@ -152,7 +164,12 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
                     zero_free += 1
         # context_window sanity: placeholder values (video/image models without token context)
         cw = m.get("context_window")
-        if cw and (cw > 10_000_000 or 0 < cw < 100):
+        if cw is not None and (isinstance(cw, bool) or not isinstance(cw, (int, float))):
+            # a non-numeric token-window spec must fail closed, not raise TypeError and abort
+            # every later check (the same class the price-shape guard covers).
+            fail(f"{p['provider_id']} :: {m['id']} context_window={cw!r} is not a number "
+                 "(a token window must be numeric or null)")
+        elif cw and (cw > 10_000_000 or 0 < cw < 100):
             warn(f"suspicious context_window {cw} in {p['provider_id']} :: {m['id']} (check placeholder)")
         # max_output sanity: the SAME placeholder-sentinel class as context_window. models.dev's
         # "no token output" sentinel is 99999999; qiniu-ai/kling-v2-6 kept it in max_output after

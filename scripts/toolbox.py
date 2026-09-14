@@ -654,6 +654,89 @@ def _is_number(v):
     return isinstance(v, (int, float)) and not isinstance(v, bool)
 
 
+def price_shape_errors(model):
+    """Return ``(errors, fatal)`` describing shape problems in a model's price objects.
+
+    Every price is a dual-currency object (``{usd, cny}``) under
+    ``per_mtok.{input,output,cache_read,cache_write}``, ``batch.{input,output}``,
+    ``per_image[].price`` or ``promo.list_price``.
+
+    The JSON Schema types ``usd``/``cny`` but does NOT forbid EXTRA keys
+    (``additionalProperties`` is unset), and every numeric helper
+    (``any_price_positive`` / ``price_all_zero`` / the dual-currency audit rules) reads only
+    the three known keys. So a price stored under a typo/foreign key (``"USD"``, ``"usd "``,
+    ``"eur"``) passes ``validate.py`` AND every audit check SILENTLY, while being unreadable
+    in the human pages and unverifiable against any source. A non-numeric value (``"0.3"``)
+    is worse: it raises ``TypeError`` inside a ``> 0`` comparison, which aborts the WHOLE
+    audit (exit 1, traceback) so one bad field masks every later finding.
+
+    ``errors`` is a list of human-readable strings (one per offending field); ``fatal`` is
+    True when the model carries a value/object whose type would raise in a numeric
+    comparison -- the caller must then skip the rest of that model's checks rather than
+    crash. Real probe 2026-09-14: ``per_mtok.input={"usd":0.3,"eur":"0.28"}`` passed
+    validate + audit with zero output (the ``eur`` value silently dropped); the same dict
+    reordered (``"eur"`` first) raised ``TypeError: '>' not supported between instances of
+    'str' and 'int'`` and killed the run.
+    """
+    errors = []
+    fatal = False
+    currencies = ("usd", "cny")
+
+    def _scan(obj, label):
+        nonlocal fatal
+        if obj is None:
+            return
+        if not isinstance(obj, dict):
+            errors.append(f"{label} is {type(obj).__name__}, expected a {{usd/cny}} object or null")
+            fatal = True
+            return
+        for cur, val in obj.items():
+            if cur not in currencies:
+                errors.append(f"{label}.{cur} is not a currency (only usd/cny are readable, "
+                              "so this price is invisible to every check)")
+                if val is not None and not _is_number(val):
+                    fatal = True
+            elif val is not None and not _is_number(val):
+                errors.append(f"{label}.{cur}={val!r} is not a number "
+                              "(a price must be numeric or null)")
+                fatal = True
+
+    pr = model.get("pricing")
+    if pr is None:
+        return errors, fatal
+    if not isinstance(pr, dict):
+        return [f"pricing is {type(pr).__name__}, expected an object"], True
+    pm = pr.get("per_mtok")
+    if pm is not None and not isinstance(pm, dict):
+        errors.append("per_mtok is not an object")
+        fatal = True
+    elif isinstance(pm, dict):
+        for k in ("input", "output", "cache_read", "cache_write"):
+            _scan(pm.get(k), f"per_mtok.{k}")
+    b = pr.get("batch")
+    if b is not None and not isinstance(b, dict):
+        errors.append("batch is not an object")
+        fatal = True
+    elif isinstance(b, dict):
+        for k in ("input", "output"):
+            _scan(b.get(k), f"batch.{k}")
+    pi = pr.get("per_image")
+    if pi is not None and not isinstance(pi, list):
+        errors.append("per_image is not an array")
+        fatal = True
+    elif isinstance(pi, list):
+        for i, tier in enumerate(pi):
+            if not isinstance(tier, dict):
+                errors.append(f"per_image[{i}] is not an object")
+                fatal = True
+                continue
+            _scan(tier.get("price"), f"per_image[{i}].price")
+    promo = pr.get("promo")
+    if isinstance(promo, dict):
+        _scan(promo.get("list_price"), "promo.list_price")
+    return errors, fatal
+
+
 def model_map(provider):
     return {m["id"]: m for m in provider.get("models", [])}
 
