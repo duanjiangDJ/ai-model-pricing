@@ -6,8 +6,8 @@
 - Homepage: https://openrouter.ai
 - Pricing page: https://openrouter.ai/models
 - Currency: USD
-- Data updated: 2026-09-13T21:43:05Z
-- Verified: 2026-09-13T21:43:05Z
+- Data updated: 2026-09-14T00:43:17Z
+- Verified: 2026-09-14T00:43:17Z
 
 **445** models in total.
 
@@ -74,13 +74,13 @@
 | `deepseek/deepseek-v3.1-terminus` | ✅ online | reasoning | per-token | 163.84K | $0.27 | $1 | $0.135 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2` | ✅ online | reasoning | per-token | 163.84K | $0.269 | $0.4 | $0.1345 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v3.2-exp` | ✅ online | reasoning | per-token | 163.84K | $0.27 | $0.41 | — | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.04676 | $0.09352 | $0.009352 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-flash-0731` | ✅ online | reasoning | per-token | 1.31072M | $0.04 | $0.08 | $0.008 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.089866 | $0.179732 | $0.0179732 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-flash-0731` | ✅ online | reasoning | per-token | 1.31072M | $0.065 | $0.18 | $0.016 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-0731:batch` | ✅ online | reasoning | per-token | 1.04858M | $0.11 | $0.33 | $0.0035 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-vision-exp` | ✅ online | reasoning | per-token | 1.04858M | $0.22 | $0.66 | $0.007 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-flash-vision-exp:batch` | ✅ online | reasoning | per-token | 1.04858M | $0.11 | $0.33 | $0.0035 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro` | ✅ online | reasoning | per-token | 1.04858M | $1.6 | $3.2 | $0.135 | — | —/— | — | OpenRouter reseller price |
-| `deepseek/deepseek-v4-pro-0813` | ✅ online | reasoning | per-token | 1.04858M | $0.57948 | $1.73844 | $0.019316 | — | —/— | — | OpenRouter reseller price |
+| `deepseek/deepseek-v4-pro-0813` | ✅ online | reasoning | per-token | 1.04858M | $1.05468 | $3.16404 | $0.035156 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4-pro-0813:batch` | ✅ online | reasoning | per-token | 1.04858M | $0.66 | $1.98 | $0.022 | — | —/— | — | OpenRouter reseller price |
 | `deepseek/deepseek-v4.1-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.15 | $0.6 | $0.003 | — | —/— | — | OpenRouter reseller price |
 | `dots-studio/dots-3-note-preview:free` | ✅ online | reasoning | free | 512K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
@@ -215,7 +215,7 @@
 | `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free` | ✅ online | reasoning | free | 256K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-3-super-120b-a12b` | ✅ online | reasoning | per-token | 262.144K | $0.085 | $0.4 | — | — | —/— | — | OpenRouter reseller price |
 | `nvidia/nemotron-3-super-120b-a12b:free` | ✅ online | reasoning | free | 262.144K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
-| `nvidia/nemotron-3-ultra-550b-a55b` | ✅ online | reasoning | per-token | 262.144K | $0.625 | $3.125 | $0.1875 | — | —/— | — | OpenRouter reseller price |
+| `nvidia/nemotron-3-ultra-550b-a55b` | ✅ online | reasoning | per-token | 262.144K | $0.6 | $2.4 | $0.12 | — | —/— | — | OpenRouter reseller price |
 | `nvidia/nemotron-3-ultra-550b-a55b:free` | ✅ online | reasoning | free | 1M | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `nvidia/nemotron-3.5-content-safety` | ✅ online | moderation | per-token | 131.072K | $0.2 | $0.2 | — | — | —/— | — | OpenRouter reseller price |
 | `nvidia/nemotron-3.5-content-safety:free` | ✅ online | moderation | free | 128K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
@@ -336,7 +336,7 @@
 | `qwen/qwen-plus` | ✅ online | chat | per-token | 1M | $0.26 | $0.78 | $0.052 | $0.325 | —/— | — | OpenRouter reseller price |
 | `qwen/qwen-plus-2025-07-28` | ✅ online | reasoning | per-token | 1M | $0.26 | $0.78 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen2.5-vl-72b-instruct` | ✅ online | chat | per-token | 128K | $0.8 | $1 | $0.4 | — | —/— | — | OpenRouter reseller price |
-| `qwen/qwen3-14b` | ✅ online | reasoning | per-token | 131.072K | $0.2275 | $0.91 | — | — | —/— | — | OpenRouter reseller price |
+| `qwen/qwen3-14b` | ✅ online | reasoning | per-token | 131.072K | $0.12 | $0.24 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-235b-a22b` | ✅ online | reasoning | per-token | 131.072K | $0.455 | $1.82 | — | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-235b-a22b-2507` | ✅ online | chat | per-token | 262.144K | $0.0875 | $0.35 | $0.0175 | — | —/— | — | OpenRouter reseller price |
 | `qwen/qwen3-235b-a22b-thinking-2507` | ✅ online | reasoning | per-token | 131.072K | $0.23 | $2.3 | — | — | —/— | — | OpenRouter reseller price |
@@ -400,7 +400,7 @@
 | `tencent/hy-mt2-1.8b` | ✅ online | chat | per-token | 8.192K | $0.044 | $0.177 | — | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy-mt2-30b-a3b` | ✅ online | chat | per-token | 8.192K | $0.074 | $0.295 | — | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy-mt2-7b` | ✅ online | chat | per-token | 8.192K | $0.074 | $0.295 | — | — | —/— | — | OpenRouter reseller price |
-| `tencent/hy3` | ✅ online | reasoning | per-token | 262.144K | $0.0825 | $0.33 | $0.020625 | — | —/— | — | OpenRouter reseller price |
+| `tencent/hy3` | ✅ online | reasoning | per-token | 262.144K | $0.132 | $0.528 | $0.033 | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy3-preview` | ✅ online | reasoning | per-token | 262.144K | $0.18 | $0.6 | $0.06 | — | —/— | — | OpenRouter reseller price |
 | `tencent/hy4-preview` | ✅ online | reasoning | per-token | 1.04858M | $0.834 | $2.501 | $0.042 | — | —/— | — | OpenRouter reseller price |
 | `thedrummer/cydonia-24b-v4.1` | ✅ online | chat | per-token | 131.072K | $0.3 | $0.5 | $0.15 | — | —/— | — | OpenRouter reseller price |
@@ -435,9 +435,9 @@
 | `z-ai/glm-5` | ✅ online | reasoning | per-token | 204.8K | $0.6 | $1.92 | $0.12 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5-turbo` | ✅ online | reasoning | per-token | 202.752K | $1.2 | $4 | $0.24 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.1` | ✅ online | reasoning | per-token | 204.8K | $0.966 | $3.036 | $0.1794 | — | —/— | — | OpenRouter reseller price |
-| `z-ai/glm-5.2` | ✅ online | reasoning | per-token | 1.04858M | $0.6 | $2 | $0.15 | — | —/— | — | OpenRouter reseller price |
+| `z-ai/glm-5.2` | ✅ online | reasoning | per-token | 1.04858M | $0.6832 | $2.1472 | $0.12688 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.2:batch` | ✅ online | reasoning | per-token | 1.04858M | $0.7 | $2.2 | $0.07 | — | —/— | — | OpenRouter reseller price |
-| `z-ai/glm-5.3` | ✅ online | reasoning | per-token | 1.31072M | $1.092 | $3.432 | $0.2028 | — | —/— | — | OpenRouter reseller price |
+| `z-ai/glm-5.3` | ✅ online | reasoning | per-token | 1.31072M | $1.4 | $4.4 | $0.26 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.3-flash` | ✅ online | reasoning | per-token | 1.31072M | $0.15 | $0.5 | $0.03 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.3-flash:batch` | ✅ online | reasoning | per-token | 1.04858M | $0.075 | $0.25 | $0.015 | — | —/— | — | OpenRouter reseller price |
 | `z-ai/glm-5.3:batch` | ✅ online | reasoning | per-token | 1.04858M | $0.7 | $2.2 | $0.13 | — | —/— | — | OpenRouter reseller price |

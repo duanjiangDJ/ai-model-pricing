@@ -16,6 +16,11 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.141.93 — 2026-09-14T01:01Z (content update)
+
+- price sync (8 changes):
+- **openrouter** (updated 8): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-flash-0731`, `deepseek/deepseek-v4-pro-0813`, `nvidia/nemotron-3-ultra-550b-a55b`, `qwen/qwen3-14b`, `tencent/hy3`, `z-ai/glm-5.2`, `z-ai/glm-5.3`
+
 ## 26.140.93 — 2026-09-13T23:11Z (feature update)
 
 - fix(category): encode asr / text-to-audio / hyphen-optional diffusion / nano-banana / fish-audio markers; recategorise 13 rows
