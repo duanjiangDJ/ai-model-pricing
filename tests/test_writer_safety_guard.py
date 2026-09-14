@@ -100,6 +100,64 @@ class TestFirstPartyGuard(unittest.TestCase):
         self.assertIn("some-host", res["parsed"])
 
 
+class TestOneHandCheckGuard(unittest.TestCase):
+    """A check-only one-hand provider must also be off-limits to models.dev.
+
+    2026-09-14: opencode/opencode-go ship a price-fetching check
+    (scripts/checks/tier1_opencode*.py) but no collect/collectors/collect_<pid>.py, so
+    has_official_collector() was False for them. Their verified_at only advances when a write
+    happens, so once it aged past FRESH_HOURS the guard opened: models.dev wrote its own values
+    (opencode kimi-k2.5 cache_read 0.08 vs the official 0.10; gpt-5.6-terra 2.5/15 vs 2.0/12)
+    and the official check reverted them in the SAME run -- collectors run before checks. Net
+    price diff was zero, but every ~26h the cycle produced 4 phantom "pricing" changelog
+    entries, note churn, a re-rendered view and a version bump.
+    """
+
+    def test_fetching_check_counts_as_one_hand(self):
+        self.assertTrue(collect_modelsdev.has_official_check("opencode"))
+        self.assertTrue(collect_modelsdev.has_official_check("opencode-go"))
+        self.assertTrue(collect_modelsdev.has_official_check("moonshotai"))
+
+    def test_static_curated_check_counts_as_one_hand(self):
+        # tier1_tencent has no live parser (its page is JS-rendered) and tier1_xiaomi likewise:
+        # they persist curated official constants, which is still one-hand maintenance.
+        self.assertTrue(collect_modelsdev.has_official_check("tencent"))
+        self.assertTrue(collect_modelsdev.has_official_check("xiaomi"))
+
+    def test_record_only_stub_check_is_not_one_hand(self):
+        # An auto-generated record/stub check (it neither fetches nor writes prices) must NOT
+        # be protected, or the ~170 long-tail providers would lose their aggregator fallback.
+        self.assertFalse(collect_modelsdev.has_official_check("302ai"))
+        self.assertFalse(collect_modelsdev.has_official_check("hyper"))
+        self.assertFalse(collect_modelsdev.has_one_hand_source("302ai"))
+
+    def test_one_hand_source_covers_both_layers(self):
+        self.assertTrue(collect_modelsdev.has_one_hand_source("deepseek"))  # collector layer
+        self.assertTrue(collect_modelsdev.has_one_hand_source("opencode"))  # check layer
+        self.assertFalse(collect_modelsdev.has_one_hand_source("hyper"))    # neither
+
+    def test_stale_check_only_provider_is_still_skipped(self):
+        """The regression: a check-only provider whose verified_at is older than FRESH_HOURS."""
+        tmp = tempfile.mkdtemp()
+        orig = collect_modelsdev.PROVIDERS
+        collect_modelsdev.PROVIDERS = tmp
+        try:
+            with open(os.path.join(tmp, "opencode.json"), "w") as f:
+                f.write('{"provider_id": "opencode", "verified_at": "2026-09-01T00:00:00Z", "models": []}')
+            self.assertFalse(collect_modelsdev.verified_recently("opencode", "2026-09-14T09:44:20Z"))
+            catalog = {
+                "opencode": {"models": {"kimi-k2.5": {"cost": {"input": 0.6}}}},
+                "some-host": {"models": {"m": {"cost": {"input": 1.0}}}},
+            }
+            with mock.patch.object(collect_modelsdev, "fetch_json", return_value=catalog):
+                res = collect_modelsdev.collect({"now": "2026-09-14T09:44:20Z"})
+            self.assertNotIn("opencode", res["parsed"])
+            self.assertIn("some-host", res["parsed"])
+        finally:
+            collect_modelsdev.PROVIDERS = orig
+
+
+
 if __name__ == "__main__":
     unittest.main()
 
