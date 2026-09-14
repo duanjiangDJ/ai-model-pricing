@@ -7,8 +7,8 @@
   "homepage": "https://ai.google.dev/gemini-api/docs/models",
   "pricing_page": "https://ai.google.dev/gemini-api/docs/pricing",
   "currency": "USD",
-  "updated_at": "2026-09-04T00:22:51Z",
-  "verified_at": "2026-09-04T00:22:51Z",
+  "updated_at": "2026-09-14T06:38:10Z",
+  "verified_at": "2026-09-14T06:38:10Z",
   "models": [
     {
       "id": "deep-research-max-preview-04-2026",
@@ -252,6 +252,39 @@
         "per_request": null
       },
       "notes": "Input $0.10 text/image/video, $0.30 audio; cache $0.01 text/image/video, $0.03 audio; storage $1.00/1M tokens/hr. Batch/Flex $0.05/$0.20. Priority input $0.18 (text/image/video) / $0.54 (audio), output $0.72.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "gemini-2.5-flash-native-audio-preview-12-2025",
+      "name": "Gemini 2.5 Flash Native Audio (Live API)",
+      "category": "realtime",
+      "modalities": [
+        "text",
+        "audio_in",
+        "audio_out"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.5
+          },
+          "output": {
+            "usd": 2.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier; two-tier models recorded at the <200k tier; audio inputs recorded at text price; image/video models recorded at the images/video token rate). Parsed by check google.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -902,6 +935,70 @@
       "status": "online"
     },
     {
+      "id": "gemini-3.5-transcribe",
+      "name": "Gemini 3.5 Transcribe",
+      "category": "audio_stt",
+      "modalities": [
+        "text",
+        "audio_in"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.0
+          },
+          "output": {
+            "usd": 12.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier; two-tier models recorded at the <200k tier; audio inputs recorded at text price; image/video models recorded at the images/video token rate). Parsed by check google.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "gemini-3.5-transcribe-live",
+      "name": "Gemini 3.5 Transcribe Live",
+      "category": "audio_stt",
+      "modalities": [
+        "text",
+        "audio_in"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 3.5
+          },
+          "output": {
+            "usd": 21.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier; two-tier models recorded at the <200k tier; audio inputs recorded at text price; image/video models recorded at the images/video token rate). Parsed by check google.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
       "id": "gemini-3.6-flash",
       "name": "Gemini 3.6 Flash",
       "category": "chat",
@@ -1159,6 +1256,40 @@
       "status": "online"
     },
     {
+      "id": "gemini-omni-1.1-flash",
+      "name": "Gemini Omni Flash",
+      "category": "video_gen",
+      "modalities": [
+        "text",
+        "image_in",
+        "video_in",
+        "video_out"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.5
+          },
+          "output": {
+            "usd": 17.5
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier; two-tier models recorded at the <200k tier; audio inputs recorded at text price; image/video models recorded at the images/video token rate). Parsed by check google.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
       "id": "gemini-omni-flash-preview",
       "name": "Gemini Omni Flash Preview",
       "category": "video_gen",
@@ -1217,6 +1348,82 @@
             "usd": 2.5
           }
         },
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier; two-tier models recorded at the <200k tier; audio inputs recorded at text price; image/video models recorded at the images/video token rate). Parsed by check google.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "gemini-robotics-er-2-preview",
+      "name": "Gemini Robotics-ER 2 Preview",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in",
+        "video_in"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.0
+          },
+          "output": {
+            "usd": 5.0
+          },
+          "cache_read": {
+            "usd": 0.1
+          },
+          "cache_write": null
+        },
+        "batch": {
+          "input": {
+            "usd": 0.5
+          },
+          "output": {
+            "usd": 2.5
+          }
+        },
+        "per_image": null,
+        "per_audio_second": null,
+        "per_request": null
+      },
+      "notes": "Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier; two-tier models recorded at the <200k tier; audio inputs recorded at text price; image/video models recorded at the images/video token rate). Parsed by check google.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "gemini-robotics-er-2-streaming-preview",
+      "name": "Gemini Robotics-ER 2 Streaming Preview",
+      "category": "reasoning",
+      "modalities": [
+        "text",
+        "image_in",
+        "video_in",
+        "audio_in"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.0
+          },
+          "output": {
+            "usd": 5.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
         "per_image": null,
         "per_audio_second": null,
         "per_request": null

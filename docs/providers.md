@@ -25,7 +25,7 @@ Every provider in the database, its status, and its automation. The table below 
 | `alibaba` | Alibaba | 55 | `https://dashscope-intl.aliyuncs.com/c…` | `tier0_alibaba.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `anthropic` | Anthropic | 17 | `https://api.anthropic.com/v1` | `tier0_anthropic.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `deepseek` | DeepSeek | 6 | `https://api.deepseek.com` | `tier0_deepseek.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
-| `google` | Google | 41 | `https://generativelanguage.googleapis…` | `tier0_google.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
+| `google` | Google | 47 | `https://generativelanguage.googleapis…` | `tier0_google.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `meta` | Meta | 5 | `https://api.meta.ai/v1` | `tier0_meta.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `minimax` | MiniMax (minimax.io) | 8 | `https://api.minimax.chat/v1` | `tier0_minimax.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `mistral` | Mistral | 35 | `https://api.mistral.ai/v1` | `tier0_mistral.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |

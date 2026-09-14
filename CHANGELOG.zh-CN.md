@@ -16,6 +16,10 @@
 
 ---
 
+## 26.143.95 — 2026-09-14T06:38Z（内容更新）
+
+- 数据：补齐 google 供应商缺失的 6 个官方在售模型（gemini-3.5-transcribe[-live]、gemini-omni-1.1-flash、gemini-2.5-flash-native-audio-preview-12-2025、gemini-robotics-er-2[-streaming]-preview），价格取自官方定价页
+
 ## 26.142.95 — 2026-09-14T05:30Z（功能更新）
 
 - 新增 off_peak 时段价合约校验：multiplier 必须是折价(0<m<1)、window 的 days/utc 格式合法、per_mtok 必须有可折价的基础价，并补单测

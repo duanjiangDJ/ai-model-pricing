@@ -1,6 +1,140 @@
 {
-  "schema_version": "26.142.95",
+  "schema_version": "26.143.95",
   "entries": [
+    {
+      "date": "2026-09-14T06:38:10Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "google",
+      "item_id": "gemini-2.5-flash-native-audio-preview-12-2025",
+      "new": {
+        "name": "Gemini 2.5 Flash Native Audio (Live API)",
+        "category": "realtime",
+        "per_mtok": {
+          "input": {
+            "usd": 0.5
+          },
+          "output": {
+            "usd": 2.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        }
+      },
+      "source": "https://ai.google.dev/gemini-api/docs/pricing"
+    },
+    {
+      "date": "2026-09-14T06:38:10Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "google",
+      "item_id": "gemini-3.5-transcribe",
+      "new": {
+        "name": "Gemini 3.5 Transcribe",
+        "category": "audio_stt",
+        "per_mtok": {
+          "input": {
+            "usd": 2.0
+          },
+          "output": {
+            "usd": 12.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        }
+      },
+      "source": "https://ai.google.dev/gemini-api/docs/pricing"
+    },
+    {
+      "date": "2026-09-14T06:38:10Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "google",
+      "item_id": "gemini-3.5-transcribe-live",
+      "new": {
+        "name": "Gemini 3.5 Transcribe Live",
+        "category": "audio_stt",
+        "per_mtok": {
+          "input": {
+            "usd": 3.5
+          },
+          "output": {
+            "usd": 21.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        }
+      },
+      "source": "https://ai.google.dev/gemini-api/docs/pricing"
+    },
+    {
+      "date": "2026-09-14T06:38:10Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "google",
+      "item_id": "gemini-omni-1.1-flash",
+      "new": {
+        "name": "Gemini Omni Flash",
+        "category": "video_gen",
+        "per_mtok": {
+          "input": {
+            "usd": 1.5
+          },
+          "output": {
+            "usd": 17.5
+          },
+          "cache_read": null,
+          "cache_write": null
+        }
+      },
+      "source": "https://ai.google.dev/gemini-api/docs/pricing"
+    },
+    {
+      "date": "2026-09-14T06:38:10Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "google",
+      "item_id": "gemini-robotics-er-2-preview",
+      "new": {
+        "name": "Gemini Robotics-ER 2 Preview",
+        "category": "reasoning",
+        "per_mtok": {
+          "input": {
+            "usd": 1.0
+          },
+          "output": {
+            "usd": 5.0
+          },
+          "cache_read": {
+            "usd": 0.1
+          },
+          "cache_write": null
+        }
+      },
+      "source": "https://ai.google.dev/gemini-api/docs/pricing"
+    },
+    {
+      "date": "2026-09-14T06:38:10Z",
+      "kind": "add",
+      "scope": "model",
+      "provider_id": "google",
+      "item_id": "gemini-robotics-er-2-streaming-preview",
+      "new": {
+        "name": "Gemini Robotics-ER 2 Streaming Preview",
+        "category": "reasoning",
+        "per_mtok": {
+          "input": {
+            "usd": 1.0
+          },
+          "output": {
+            "usd": 5.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        }
+      },
+      "source": "https://ai.google.dev/gemini-api/docs/pricing"
+    },
     {
       "date": "2026-09-14T03:43:23Z",
       "kind": "update",
