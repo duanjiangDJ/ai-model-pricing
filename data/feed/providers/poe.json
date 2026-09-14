@@ -649,7 +649,7 @@
     {
       "id": "elevenlabs/elevenlabs-music",
       "name": "ElevenLabs-Music",
-      "category": "chat",
+      "category": "music_gen",
       "modalities": [
         "text"
       ],
@@ -1342,7 +1342,7 @@
     {
       "id": "google/lyria",
       "name": "Lyria",
-      "category": "chat",
+      "category": "music_gen",
       "modalities": [
         "text"
       ],

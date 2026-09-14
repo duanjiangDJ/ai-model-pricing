@@ -33,7 +33,7 @@
 | `cerebras/llama-3.3-70b-cs` | ✅ 在线 | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
 | `cerebras/qwen3-235b-2507-cs` | ✅ 在线 | reasoning | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
 | `cerebras/qwen3-32b-cs` | ✅ 在线 | reasoning | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
-| `elevenlabs/elevenlabs-music` | ✅ 在线 | chat | 按量 | 2K | — | — | — | — | —/— | — | models.dev official list price |
+| `elevenlabs/elevenlabs-music` | ✅ 在线 | music_gen | 按量 | 2K | — | — | — | — | —/— | — | models.dev official list price |
 | `elevenlabs/elevenlabs-v2.5-turbo` | ✅ 在线 | chat | 按量 | 128K | — | — | — | — | —/— | — | models.dev official list price |
 | `elevenlabs/elevenlabs-v3` | ✅ 在线 | chat | 按量 | 128K | — | — | — | — | —/— | — | models.dev official list price |
 | `empiriolabs/deepseek-v4-flash-el` | ✅ 在线 | reasoning | 按量 | 1M | $0.14 | $0.28 | — | — | —/— | — | models.dev official list price |
@@ -56,7 +56,7 @@
 | `google/imagen-4` | ✅ 在线 | image_gen | 按量 | 480 | — | — | — | — | —/— | — | models.dev official list price |
 | `google/imagen-4-fast` | ✅ 在线 | image_gen | 按量 | 480 | — | — | — | — | —/— | — | models.dev official list price |
 | `google/imagen-4-ultra` | ✅ 在线 | image_gen | 按量 | 480 | — | — | — | — | —/— | — | models.dev official list price |
-| `google/lyria` | ✅ 在线 | chat | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
+| `google/lyria` | ✅ 在线 | music_gen | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
 | `google/nano-banana` | ✅ 在线 | image_gen | 按量 | 65.536K | $0.21 | $1.8 | $0.021 | — | —/— | — | models.dev official list price |
 | `google/nano-banana-pro` | ✅ 在线 | image_gen | 按量 | 65.536K | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `google/veo-2` | ✅ 在线 | video_gen | 按量 | 480 | — | — | — | — | —/— | — | models.dev official list price |

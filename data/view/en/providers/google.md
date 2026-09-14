@@ -45,12 +45,12 @@
 | `gemini-embedding-2` | ✅ online | embedding | per-token | — | $0.2 | $0 | — | — | $0.1/— | — | Multimodal embedding model (gemini-embedding-2, endpoint gemini-embedding-2-p… |
 | `gemini-flash-latest` | ✅ online | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `gemini-flash-lite-latest` | ✅ online | reasoning | per-token | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
-| `gemini-omni-flash-preview` | ✅ online | reasoning | per-token | 131.072K | $1.5 | $17.5 | — | — | —/— | — | models.dev official list price |
+| `gemini-omni-flash-preview` | ✅ online | video_gen | per-token | 131.072K | $1.5 | $17.5 | — | — | —/— | — | models.dev official list price |
 | `gemini-robotics-er-1.6-preview` | ✅ online | reasoning | per-token | 131.072K | $1 | $5 | — | — | $0.5/$2.5 | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
 | `gemma-4-26b-a4b-it` | ✅ online | reasoning | per-token | 262.144K | — | — | — | — | —/— | — | models.dev official list price |
 | `gemma-4-31b-it` | ✅ online | reasoning | per-token | 262.144K | — | — | — | — | —/— | — | models.dev official list price |
-| `lyria-3-clip-preview` | ✅ online | chat | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `lyria-3-pro-preview` | ✅ online | chat | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `lyria-3-clip-preview` | ✅ online | music_gen | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `lyria-3-pro-preview` | ✅ online | music_gen | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `veo-3.1-fast-generate-preview` | ✅ online | video_gen | per-token | 480 | — | — | — | — | —/— | — | models.dev official list price |
 | `veo-3.1-generate-preview` | ✅ online | video_gen | per-token | 480 | — | — | — | — | —/— | — | models.dev official list price |
 | `veo-3.1-lite-generate-preview` | ✅ online | video_gen | per-token | 480 | — | — | — | — | —/— | — | models.dev official list price |

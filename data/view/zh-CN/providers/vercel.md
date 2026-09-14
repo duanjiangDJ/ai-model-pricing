@@ -148,7 +148,7 @@
 | `google/gemini-3.8-flash` | ✅ 在线 | reasoning | 按量 | 1M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `google/gemini-embedding-001` | ✅ 在线 | embedding | 按量 | 8.192K | — | — | — | — | —/— | — | models.dev official list price |
 | `google/gemini-embedding-2` | ✅ 在线 | embedding | 按量 | — | — | — | — | — | —/— | — | models.dev official list price |
-| `google/gemini-omni-flash-preview` | ✅ 在线 | reasoning | 按量 | 1M | $1.5 | $9 | — | — | —/— | — | models.dev official list price |
+| `google/gemini-omni-flash-preview` | ✅ 在线 | video_gen | 按量 | 1M | $1.5 | $9 | — | — | —/— | — | models.dev official list price |
 | `google/gemma-4-26b-a4b-it` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.15 | $0.6 | $0.015 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-31b-it` | ✅ 在线 | chat | 按量 | 262.144K | $0.14 | $0.4 | — | — | —/— | — | models.dev official list price |
 | `google/text-embedding-005` | ✅ 在线 | embedding | 按量 | 8.192K | — | — | — | — | —/— | — | models.dev official list price |

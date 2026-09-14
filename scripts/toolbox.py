@@ -40,7 +40,7 @@ CATEGORY_SIGNATURES = (
     # Luma Ray, MiniMax Hailuo, Alibaba wan/wanx) and the t2v/i2v/r2v task suffixes. Without
     # these the writers re-defaulted every one of these rows to "chat"/"reasoning". `kling` and
     # `wan` carry an id boundary because `thinkingmachines/Inkling` is an ordinary chat model.
-    (re.compile(r"video|veo|sora|seedance|runway|hailuo|lumalabs|ray-?2($|[/_.-])|t2v|i2v|r2v|"
+    (re.compile(r"video|veo|sora|seedance|runway|hailuo|lumalabs|ray-?2($|[/_.-])|t2v|i2v|r2v|gemini-omni|"
                 r"(^|[/_.-])kling|(^|[/_.-])wan"), "video_gen"),
     # Speech-to-text: `whisper`/`transcribe` plus the `asr` family marker (Alibaba
     # `qwen3-asr-flash`, StepFun `stepaudio-2.5-asr`) -- both were classified "chat" because
@@ -53,6 +53,12 @@ CATEGORY_SIGNATURES = (
     # `fish-audio/transcribe-1` keeps matching `transcribe` -> audio_stt.
     (re.compile(r"(^|[/_.-])tts([/_.-]|$)|-tts$|tts-|text-to-speech|text-to-audio|fish-audio"),
      "audio_tts"),
+    # Music generation: Google's Lyria family and ElevenLabs Music emit AUDIO TRACKS, not
+    # speech -- they were published as `chat`/`audio_tts` because the table carried no music
+    # marker at all, leaving the schema's `music_gen` category with ZERO rows (real 2026-09-14,
+    # found by the §15.1 "dead category" sweep). `music` is boundary-anchored so an unrelated
+    # suffix (`gemma-4-...-musica`) or `studiovoice` cannot match.
+    (re.compile(r"lyria|(^|[/_.-])music([/_.-]|$)"), "music_gen"),
     (re.compile(r"rerank|re-rank"), "rerank"),
     (re.compile(r"embed|bge|e5-|e5_|gte-|gte_|mpnet|minilm|mini-lm|mini_lm"), "embedding"),
     # `stable-?diffusion` is hyphen-OPTIONAL: poe spells SDXL `stablediffusionxl`, which the

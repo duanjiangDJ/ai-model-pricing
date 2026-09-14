@@ -33,7 +33,7 @@
 | `cerebras/llama-3.3-70b-cs` | ✅ online | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
 | `cerebras/qwen3-235b-2507-cs` | ✅ online | reasoning | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
 | `cerebras/qwen3-32b-cs` | ✅ online | reasoning | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
-| `elevenlabs/elevenlabs-music` | ✅ online | chat | per-token | 2K | — | — | — | — | —/— | — | models.dev official list price |
+| `elevenlabs/elevenlabs-music` | ✅ online | music_gen | per-token | 2K | — | — | — | — | —/— | — | models.dev official list price |
 | `elevenlabs/elevenlabs-v2.5-turbo` | ✅ online | chat | per-token | 128K | — | — | — | — | —/— | — | models.dev official list price |
 | `elevenlabs/elevenlabs-v3` | ✅ online | chat | per-token | 128K | — | — | — | — | —/— | — | models.dev official list price |
 | `empiriolabs/deepseek-v4-flash-el` | ✅ online | reasoning | per-token | 1M | $0.14 | $0.28 | — | — | —/— | — | models.dev official list price |
@@ -56,7 +56,7 @@
 | `google/imagen-4` | ✅ online | image_gen | per-token | 480 | — | — | — | — | —/— | — | models.dev official list price |
 | `google/imagen-4-fast` | ✅ online | image_gen | per-token | 480 | — | — | — | — | —/— | — | models.dev official list price |
 | `google/imagen-4-ultra` | ✅ online | image_gen | per-token | 480 | — | — | — | — | —/— | — | models.dev official list price |
-| `google/lyria` | ✅ online | chat | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
+| `google/lyria` | ✅ online | music_gen | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
 | `google/nano-banana` | ✅ online | image_gen | per-token | 65.536K | $0.21 | $1.8 | $0.021 | — | —/— | — | models.dev official list price |
 | `google/nano-banana-pro` | ✅ online | image_gen | per-token | 65.536K | $2 | $12 | $0.2 | — | —/— | — | models.dev official list price |
 | `google/veo-2` | ✅ online | video_gen | per-token | 480 | — | — | — | — | —/— | — | models.dev official list price |

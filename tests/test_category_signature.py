@@ -75,6 +75,17 @@ class TestCategorySignatureHint(unittest.TestCase):
             "google/nano-banana-pro": "image_gen",
             "fish-audio/s1": "audio_tts",                    # Fish Audio TTS family
             "fish-audio/s2.1-pro-free": "audio_tts",
+            # round 4 (2026-09-14): the schema's `music_gen` category held ZERO rows repo-wide
+            # -- the table carried no music marker, so Google's Lyria family and ElevenLabs
+            # Music (both music GENERATORS) were published as `chat`/`audio_tts`. `music` is
+            # boundary-anchored: `gemma-...-musica` / `studiovoice` must NOT match.
+            "google/lyria-3-pro-preview": "music_gen",
+            "lyria-3-clip-preview": "music_gen",
+            "google/lyria": "music_gen",
+            "elevenlabs/elevenlabs-music": "music_gen",
+            # Google's Gemini Omni is a video generation / editing family (official pricing page)
+            "google/gemini-omni-flash-preview": "video_gen",
+            "gemini-omni-flash-preview": "video_gen",
         }
         for mid, want in cases.items():
             self.assertEqual(category_signature_hint(mid), want, mid)
@@ -103,7 +114,9 @@ class TestCategorySignatureHint(unittest.TestCase):
         for mid in ("openai/gpt-audio", "openai/gpt-audio-mini",
                     "vercel/spacexai/grok-voice-think-fast-1.0",
                     "nvidia/nemotron-voicechat", "nvidia/studiovoice",
-                    "poe/elevenlabs/elevenlabs-music"):
+                    # `musica` is a Gemma variant and `studiovoice` a voice model -- neither is
+                    # music generation (round 4: the `music` marker is boundary-anchored)
+                    "gemma-4-26b-a4b-it-musica", "nano-gpt/gemma-4-26b-a4b-it-musica"):
             self.assertIsNone(category_signature_hint(mid), mid)
 
     def test_image_before_video_precedence(self):

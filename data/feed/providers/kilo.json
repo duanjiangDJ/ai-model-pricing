@@ -2876,7 +2876,7 @@
     {
       "id": "google/lyria-3-clip-preview",
       "name": "Lyria 3 Clip Preview",
-      "category": "chat",
+      "category": "music_gen",
       "modalities": [
         "text"
       ],
@@ -2907,7 +2907,7 @@
     {
       "id": "google/lyria-3-pro-preview",
       "name": "Lyria 3 Pro Preview",
-      "category": "chat",
+      "category": "music_gen",
       "modalities": [
         "text"
       ],

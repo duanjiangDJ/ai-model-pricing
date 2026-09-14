@@ -3656,7 +3656,7 @@
     {
       "id": "google/lyria-3-clip-preview",
       "name": "Google: Lyria 3 Clip Preview",
-      "category": "audio_tts",
+      "category": "music_gen",
       "modalities": [
         "text",
         "image_in"
@@ -3686,7 +3686,7 @@
     {
       "id": "google/lyria-3-pro-preview",
       "name": "Google: Lyria 3 Pro Preview",
-      "category": "audio_tts",
+      "category": "music_gen",
       "modalities": [
         "text",
         "image_in"
