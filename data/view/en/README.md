@@ -3,7 +3,7 @@
 > Data sources: official pricing pages & public APIs. Machine-readable version: [`data/feed/`](../../../data/feed/).
 > Auto-updated daily by GitHub Actions (see `.github/workflows/daily-check.yml`).
 
-- Generated: 2026-09-14T03:43:23Z
+- Generated: 2026-09-14T07:48:03Z
 - Providers: 190
 - Models total: 7606
 - Plans total: 67
@@ -159,7 +159,7 @@
 | [Bailing](providers/bailing.md) | Inference host | 2 | `providers/bailing.json` | 2026-09-04T00:22:51Z |
 | [watsonx.ai](providers/watsonx.md) | Inference host | 5 | `providers/watsonx.json` | 2026-09-04T00:22:51Z |
 | [Vercel AI Gateway](providers/vercel.md) | Aggregator | 375 | `providers/vercel.json` | 2026-09-11T12:41:08Z |
-| [Eden AI](providers/edenai.md) | Inference host | 254 | `providers/edenai.json` | 2026-09-12T15:42:40Z |
+| [Eden AI](providers/edenai.md) | Inference host | 254 | `providers/edenai.json` | 2026-09-14T06:44:17Z |
 | [NovitaAI](providers/novita-ai.md) | Inference host | 107 | `providers/novita-ai.json` | 2026-09-12T22:24:33Z |
 | [Upstage](providers/upstage.md) | Inference host | 4 | `providers/upstage.json` | 2026-09-04T00:22:51Z |
 | [DevPass (LLM Gateway)](providers/llmgateway.md) | Aggregator | 564 | `providers/llmgateway.json` | 2026-09-12T15:42:40Z |
@@ -201,7 +201,7 @@
 | [百川智能 (Baichuan)](providers/baichuan.md) | First-party | 1 | `providers/baichuan.json` | 2026-08-28T10:02:16.380334Z |
 | [科大讯飞星火 (iFlytek Spark)](providers/iflytek.md) | First-party | 2 | `providers/iflytek.json` | 2026-08-28T10:02:16.380334Z |
 | [零一万物 (01.AI)](providers/lingyiwanwu.md) | First-party | 2 | `providers/lingyiwanwu.json` | 2026-08-28T10:02:16.380334Z |
-| [OpenRouter](providers/openrouter.md) | Aggregator | 445 | `providers/openrouter.json` | 2026-09-14T03:43:23Z |
+| [OpenRouter](providers/openrouter.md) | Aggregator | 445 | `providers/openrouter.json` | 2026-09-14T07:48:03Z |
 
 ## Plans
 

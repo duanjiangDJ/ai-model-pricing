@@ -6,8 +6,8 @@
 - Homepage: https://docs.edenai.co
 - Pricing page: https://docs.edenai.co
 - Currency: USD
-- Data updated: 2026-09-12T15:42:40Z
-- Verified: 2026-09-12T15:42:40Z
+- Data updated: 2026-09-14T06:44:17Z
+- Verified: 2026-09-14T06:44:17Z
 
 **254** models in total.
 
@@ -187,8 +187,8 @@
 | `perplexityai/sonar-deep-research` | ✅ online | reasoning | per-token | 128K | $2 | $8 | — | — | —/— | — | models.dev official list price |
 | `perplexityai/sonar-pro` | ✅ online | chat | per-token | 200K | $3 | $15 | — | — | —/— | — | models.dev official list price |
 | `perplexityai/sonar-reasoning-pro` | ✅ online | reasoning | per-token | 128K | $2 | $8 | — | — | —/— | — | models.dev official list price |
-| `qwen/deepseek-v4-flash-0731` | ✅ online | reasoning | per-token | 1M | $0.176 | $0.528 | — | — | —/— | — | models.dev official list price |
-| `qwen/deepseek-v4-pro-0813` | ✅ online | reasoning | per-token | 1M | $0.5808 | $1.7424 | — | — | —/— | — | models.dev official list price |
+| `qwen/deepseek-v4-flash-0731` | ✅ online | reasoning | per-token | 1M | $0.352 | $1.056 | — | — | —/— | — | models.dev official list price |
+| `qwen/deepseek-v4-pro-0813` | ✅ online | reasoning | per-token | 1M | $1.122 | $3.366 | — | — | —/— | — | models.dev official list price |
 | `qwen/qwen-max` | ✅ online | chat | per-token | 32.768K | $1.6 | $6.4 | $0.32 | — | —/— | — | models.dev official list price |
 | `qwen/qwen-vl-max` | ✅ online | chat | per-token | 131.072K | $0.8 | $3.2 | $0.16 | — | —/— | — | models.dev official list price |
 | `qwen/qwen-vl-plus` | ✅ online | chat | per-token | 131.072K | $0.21 | $0.63 | $0.042 | — | —/— | — | models.dev official list price |

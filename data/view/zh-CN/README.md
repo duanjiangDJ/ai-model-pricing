@@ -3,7 +3,7 @@
 > 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/feed/`](../../../data/feed/)。
 > 更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。
 
-- 数据更新时间: 2026-09-14T03:43:23Z
+- 数据更新时间: 2026-09-14T07:48:03Z
 - 覆盖渠道: 190
 - 模型总数: 7606
 - 订阅计划数: 67
@@ -159,7 +159,7 @@
 | [Bailing](providers/bailing.md) | 推理托管 | 2 | `providers/bailing.json` | 2026-09-04T00:22:51Z |
 | [watsonx.ai](providers/watsonx.md) | 推理托管 | 5 | `providers/watsonx.json` | 2026-09-04T00:22:51Z |
 | [Vercel AI Gateway](providers/vercel.md) | 聚合站 | 375 | `providers/vercel.json` | 2026-09-11T12:41:08Z |
-| [Eden AI](providers/edenai.md) | 推理托管 | 254 | `providers/edenai.json` | 2026-09-12T15:42:40Z |
+| [Eden AI](providers/edenai.md) | 推理托管 | 254 | `providers/edenai.json` | 2026-09-14T06:44:17Z |
 | [NovitaAI](providers/novita-ai.md) | 推理托管 | 107 | `providers/novita-ai.json` | 2026-09-12T22:24:33Z |
 | [Upstage](providers/upstage.md) | 推理托管 | 4 | `providers/upstage.json` | 2026-09-04T00:22:51Z |
 | [DevPass (LLM Gateway)](providers/llmgateway.md) | 聚合站 | 564 | `providers/llmgateway.json` | 2026-09-12T15:42:40Z |
@@ -201,7 +201,7 @@
 | [百川智能 (Baichuan)](providers/baichuan.md) | 官方直供 | 1 | `providers/baichuan.json` | 2026-08-28T10:02:16.380334Z |
 | [科大讯飞星火 (iFlytek Spark)](providers/iflytek.md) | 官方直供 | 2 | `providers/iflytek.json` | 2026-08-28T10:02:16.380334Z |
 | [零一万物 (01.AI)](providers/lingyiwanwu.md) | 官方直供 | 2 | `providers/lingyiwanwu.json` | 2026-08-28T10:02:16.380334Z |
-| [OpenRouter](providers/openrouter.md) | 聚合站 | 445 | `providers/openrouter.json` | 2026-09-14T03:43:23Z |
+| [OpenRouter](providers/openrouter.md) | 聚合站 | 445 | `providers/openrouter.json` | 2026-09-14T07:48:03Z |
 
 ## 订阅计划
 

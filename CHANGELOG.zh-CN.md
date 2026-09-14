@@ -16,6 +16,16 @@
 
 ---
 
+## 26.145.95 — 2026-09-14T07:48Z（内容更新）
+
+- 重钉 openrouter ~moonshotai/kimi-latest 到实时 API 价格（in $2.1 / out $10.95 / cache_read $0.23 每 MTok），替换合并前已漂移约 3.6% 的 06:43Z 浮动值。
+
+## 26.144.95 — 2026-09-14T07:00Z（内容更新）
+
+- 价格同步（2 处变更）：
+- **edenai**（更新 2）：`qwen/deepseek-v4-pro-0813`, `qwen/deepseek-v4-flash-0731`
+- **openrouter**（更新 1）：`~moonshotai/kimi-latest`
+
 ## 26.143.95 — 2026-09-14T06:38Z（内容更新）
 
 - 数据：补齐 google 供应商缺失的 6 个官方在售模型（gemini-3.5-transcribe[-live]、gemini-omni-1.1-flash、gemini-2.5-flash-native-audio-preview-12-2025、gemini-robotics-er-2[-streaming]-preview），价格取自官方定价页
