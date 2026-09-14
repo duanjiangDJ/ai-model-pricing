@@ -6,24 +6,38 @@
 - 官网: https://www.alibabacloud.com/help/en/model-studio/models
 - 定价页: https://www.alibabacloud.com/help/en/model-studio/models
 - 币种: USD
-- 数据更新时间: 2026-09-10T09:39:11Z
-- 核实时间: 2026-09-10T09:39:11Z
+- 数据更新时间: 2026-09-14T12:44:49Z
+- 核实时间: 2026-09-14T12:44:49Z
 
-共 **55** 个模型。
+共 **111** 个模型。
 
 | 模型 | 状态 | 类别 | 计费 | 上下文 | 输入 $/MTok | 输出 $/MTok | 缓存读 | 缓存写 | 批处理(入/出) | 其他计费 | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| `deepseek-v3.2` | ✅ 在线 | reasoning | 按量 | — | $0.57 | $1.71 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `deepseek-v4-flash` | ✅ 在线 | reasoning | 按量 | — | $0.2 | $0.4 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `deepseek-v4-flash-0731` | ✅ 在线 | reasoning | 按量 | 1M | $0.2 | $0.4 | $0.04 | — | —/— | — | models.dev official list price |
+| `deepseek-v4-pro` | ✅ 在线 | reasoning | 按量 | — | $2.4 | $4.8 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `glm-5.1` | ✅ 在线 | reasoning | 按量 | — | $1.4 | $4.4 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `glm-5.2` | ✅ 在线 | reasoning | 按量 | 1M | $1.4 | $4.4 | $0.28 | — | —/— | — | models.dev official list price |
 | `qvq-max` | ✅ 在线 | reasoning | 按量 | 131.072K | $1.2 / ¥8 | $4.8 / ¥32 | — | — | —/— | — | models.dev official list price \| Alibaba Bailian (CNY/1M tokens, CN region f… |
 | `qwen-flash` | ✅ 在线 | reasoning | 按量 | 1M | $0.05 / ¥0.15 | $0.4 / ¥1.5 | — | — | —/— | — | models.dev official list price \| Alibaba Bailian (CNY/1M tokens, CN region f… |
+| `qwen-flash-2025-07-28` | ✅ 在线 | reasoning | 按量 | — | $0.05 | $0.4 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen-max` | ✅ 在线 | chat | 按量 | 32.768K | $1.6 / ¥2.4 | $6.4 / ¥9.6 | — | — | —/— | — | models.dev official list price \| Alibaba Bailian (CNY/1M tokens, CN region f… |
+| `qwen-mt-flash` | ✅ 在线 | chat | 按量 | — | $0.16 | $0.49 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen-mt-lite` | ✅ 在线 | chat | 按量 | — | $0.12 | $0.36 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen-mt-plus` | ✅ 在线 | chat | 按量 | 16.384K | $2.46 | $7.37 | — | — | —/— | — | models.dev official list price |
 | `qwen-mt-turbo` | ✅ 在线 | chat | 按量 | 16.384K | $0.16 | $0.49 | — | — | —/— | — | models.dev official list price |
 | `qwen-omni-turbo` | ✅ 在线 | chat | 按量 | 32.768K | $0.07 | $0.27 | — | — | —/— | — | models.dev official list price |
 | `qwen-omni-turbo-realtime` | ✅ 在线 | chat | 按量 | 32.768K | $0.27 | $1.07 | — | — | —/— | — | models.dev official list price |
 | `qwen-plus` | ✅ 在线 | reasoning | 按量 | 1M | $0.4 | $1.2 | — | — | —/— | — | models.dev official list price |
+| `qwen-plus-2025-01-25` | ✅ 在线 | reasoning | 按量 | — | $0.4 | $1.2 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen-plus-2025-04-28` | ✅ 在线 | reasoning | 按量 | — | $0.4 | $1.2 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen-plus-2025-07-14` | ✅ 在线 | reasoning | 按量 | — | $0.4 | $1.2 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen-plus-2025-07-28` | ✅ 在线 | reasoning | 按量 | — | $0.4 | $1.2 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen-plus-2025-09-11` | ✅ 在线 | reasoning | 按量 | — | $0.4 | $1.2 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen-plus-2025-12-01` | ✅ 在线 | reasoning | 按量 | — | $0.4 | $1.2 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen-plus-character-ja` | ✅ 在线 | chat | 按量 | 8.192K | $0.5 | $1.4 | — | — | —/— | — | models.dev official list price |
+| `qwen-plus-latest` | ✅ 在线 | reasoning | 按量 | — | $0.4 | $1.2 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen-turbo` | ✅ 在线 | reasoning | 按量 | 1M | $0.05 / ¥0.3 | $0.2 / ¥3 | — | — | —/— | — | models.dev official list price \| Alibaba Bailian (CNY/1M tokens, CN region f… |
 | `qwen-vl-max` | ✅ 在线 | chat | 按量 | 131.072K | $0.8 / ¥1.6 | $3.2 / ¥4 | — | — | —/— | — | models.dev official list price \| Alibaba Bailian (CNY/1M tokens, CN region f… |
 | `qwen-vl-ocr` | ✅ 在线 | chat | 按量 | 34.096K | $0.07 | $0.16 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
@@ -37,34 +51,76 @@
 | `qwen2-5-vl-7b-instruct` | ✅ 在线 | chat | 按量 | 131.072K | $0.35 | $1.05 | — | — | —/— | — | models.dev official list price |
 | `qwen3-14b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.35 | $1.4 | — | — | —/— | — | models.dev official list price |
 | `qwen3-235b-a22b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.7 | $2.8 | — | — | —/— | — | models.dev official list price |
+| `qwen3-235b-a22b-instruct-2507` | ✅ 在线 | chat | 按量 | — | $0.23 | $0.92 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3-235b-a22b-thinking-2507` | ✅ 在线 | reasoning | 按量 | — | $0.23 | $2.3 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3-30b-a3b` | ✅ 在线 | reasoning | 按量 | — | $0.2 | $0.8 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3-30b-a3b-instruct-2507` | ✅ 在线 | chat | 按量 | — | $0.2 | $0.8 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3-30b-a3b-thinking-2507` | ✅ 在线 | reasoning | 按量 | — | $0.2 | $2.4 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen3-32b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.16 | $0.64 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen3-8b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.18 | $0.7 | — | — | —/— | — | models.dev official list price |
 | `qwen3-asr-flash` | ✅ 在线 | audio_stt | 按量 | 53.248K | $0.035 | $0.035 | — | — | —/— | — | models.dev official list price |
 | `qwen3-coder-30b-a3b-instruct` | ✅ 在线 | chat | 按量 | 262.144K | $0.45 | $2.25 | — | — | —/— | — | models.dev official list price |
 | `qwen3-coder-480b-a35b-instruct` | ✅ 在线 | chat | 按量 | 262.144K | $1.5 | $7.5 | — | — | —/— | — | models.dev official list price |
 | `qwen3-coder-flash` | ✅ 在线 | chat | 按量 | 1M | $0.3 | $1.5 | — | — | —/— | — | models.dev official list price |
+| `qwen3-coder-flash-2025-07-28` | ✅ 在线 | chat | 按量 | — | $0.3 | $1.5 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3-coder-next` | ✅ 在线 | chat | 按量 | — | $0.3 | $1.5 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen3-coder-plus` | ✅ 在线 | chat | 按量 | 1.04858M | $1 | $5 | — | — | —/— | — | models.dev official list price |
+| `qwen3-coder-plus-2025-07-22` | ✅ 在线 | chat | 按量 | — | $1 | $5 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3-coder-plus-2025-09-23` | ✅ 在线 | chat | 按量 | — | $1 | $5 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen3-livetranslate-flash-realtime` | ✅ 在线 | chat | 按量 | 53.248K | $10 | $10 | — | — | —/— | — | models.dev official list price |
 | `qwen3-max` | ✅ 在线 | chat | 按量 | 262.144K | $1.2 | $6 | — | — | —/— | — | models.dev official list price |
+| `qwen3-max-2025-09-23` | ✅ 在线 | chat | 按量 | — | $1.2 | $6 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3-max-2026-01-23` | ✅ 在线 | chat | 按量 | — | $1.2 | $6 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3-max-preview` | ✅ 在线 | chat | 按量 | — | $1.2 | $6 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen3-next-80b-a3b-instruct` | ✅ 在线 | chat | 按量 | 131.072K | $0.15 | $1.2 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen3-next-80b-a3b-thinking` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.15 | $1.2 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3-omni-30b-a3b-captioner` | ✅ 在线 | reasoning | 按量 | — | $3.81 | $3.06 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen3-omni-flash` | ✅ 在线 | reasoning | 按量 | 65.536K | $0.43 | $1.66 | — | — | —/— | — | models.dev official list price |
 | `qwen3-omni-flash-realtime` | ✅ 在线 | chat | 按量 | 65.536K | $0.52 | $1.99 | — | — | —/— | — | models.dev official list price |
 | `qwen3-vl-235b-a22b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.7 | $2.8 | — | — | —/— | — | models.dev official list price |
+| `qwen3-vl-235b-a22b-instruct` | ✅ 在线 | reasoning | 按量 | — | $0.4 | $1.6 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3-vl-235b-a22b-thinking` | ✅ 在线 | reasoning | 按量 | — | $0.4 | $4 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen3-vl-30b-a3b` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.2 | $0.8 | — | — | —/— | — | models.dev official list price |
+| `qwen3-vl-30b-a3b-instruct` | ✅ 在线 | reasoning | 按量 | — | $0.2 | $0.8 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3-vl-30b-a3b-thinking` | ✅ 在线 | reasoning | 按量 | — | $0.2 | $2.4 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3-vl-32b-instruct` | ✅ 在线 | reasoning | 按量 | — | $0.16 | $0.64 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3-vl-32b-thinking` | ✅ 在线 | reasoning | 按量 | — | $0.16 | $0.64 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3-vl-8b-instruct` | ✅ 在线 | reasoning | 按量 | — | $0.18 | $0.7 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3-vl-8b-thinking` | ✅ 在线 | reasoning | 按量 | — | $0.18 | $2.1 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3-vl-flash` | ✅ 在线 | reasoning | 按量 | — | $0.05 | $0.4 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3-vl-flash-2025-10-15` | ✅ 在线 | reasoning | 按量 | — | $0.05 | $0.4 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3-vl-flash-2026-01-22` | ✅ 在线 | reasoning | 按量 | — | $0.05 | $0.4 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen3-vl-plus` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.2 | $1.6 | — | — | —/— | — | models.dev official list price |
+| `qwen3-vl-plus-2025-09-23` | ✅ 在线 | reasoning | 按量 | — | $0.2 | $1.6 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3-vl-plus-2025-12-19` | ✅ 在线 | reasoning | 按量 | — | $0.2 | $1.6 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen3.5-122b-a10b` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.4 | $3.2 | — | — | —/— | — | models.dev official list price |
 | `qwen3.5-27b` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.3 | $2.4 | — | — | —/— | — | models.dev official list price |
 | `qwen3.5-35b-a3b` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.25 | $2 | — | — | —/— | — | models.dev official list price |
 | `qwen3.5-397b-a17b` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.6 | $3.6 | — | — | —/— | — | models.dev official list price |
+| `qwen3.5-flash` | ✅ 在线 | reasoning | 按量 | — | $0.1 | $0.4 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3.5-flash-2026-02-23` | ✅ 在线 | reasoning | 按量 | — | $0.1 | $0.4 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen3.5-plus` | ✅ 在线 | reasoning | 按量 | 1M | $0.4 | $2.4 | — | — | —/— | — | models.dev official list price |
+| `qwen3.5-plus-2026-02-15` | ✅ 在线 | reasoning | 按量 | — | $0.4 | $2.4 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3.5-plus-2026-04-20` | ✅ 在线 | reasoning | 按量 | — | $0.4 | $2.4 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen3.6-27b` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.6 | $3.6 | — | — | —/— | — | models.dev official list price |
 | `qwen3.6-35b-a3b` | ✅ 在线 | reasoning | 按量 | 262.144K | $0.375 | $2.25 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen3.6-flash` | ✅ 在线 | reasoning | 按量 | 1M | $0.25 | $1.5 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3.6-flash-2026-04-16` | ✅ 在线 | reasoning | 按量 | — | $0.25 | $1.5 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen3.6-max-preview` | ✅ 在线 | reasoning | 按量 | 262.144K | $1.3 | $7.8 | $0.13 | — | —/— | — | models.dev official list price |
 | `qwen3.6-plus` | ✅ 在线 | reasoning | 按量 | 1M | $0.5 | $3 | $0.05 | — | —/— | — | models.dev official list price |
+| `qwen3.6-plus-2026-04-02` | ✅ 在线 | reasoning | 按量 | — | $0.5 | $3 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3.7-flash` | ✅ 在线 | reasoning | 按量 | — | $0.03 | $0.13 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3.7-flash-2026-07-15` | ✅ 在线 | reasoning | 按量 | — | $0.03 | $0.13 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen3.7-max` | ✅ 在线 | reasoning | 按量 | 1M | $2.5 | $7.5 | $0.5 | — | —/— | — | models.dev official list price |
+| `qwen3.7-max-2026-05-17` | ✅ 在线 | reasoning | 按量 | — | $2.5 | $7.5 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3.7-max-2026-05-20` | ✅ 在线 | reasoning | 按量 | — | $2.5 | $7.5 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3.7-max-2026-06-08` | ✅ 在线 | reasoning | 按量 | — | $2.5 | $7.5 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3.7-max-preview` | ✅ 在线 | reasoning | 按量 | — | $2.5 | $7.5 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen3.7-plus` | ✅ 在线 | reasoning | 按量 | 1M | $0.4 | $1.6 | $0.05 | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3.7-plus-2026-05-26` | ✅ 在线 | reasoning | 按量 | — | $0.4 | $1.6 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3.8-2.4t-a95b` | ✅ 在线 | reasoning | 按量 | — | $2 | $6 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
+| `qwen3.8-27b` | ✅ 在线 | reasoning | 按量 | — | $0.5 | $3 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwen3.8-flash` | ✅ 在线 | reasoning | 按量 | 1M | $0.15 | $0.47 | $0.016 | — | —/— | — | models.dev official list price |
 | `qwen3.8-max` | ✅ 在线 | reasoning | 按量 | 1M | $2 / ¥12 | $6 / ¥36 | $0.25 | — | —/— | — | models.dev official list price \| Alibaba Bailian (CNY/1M tokens, CN region f… |
+| `qwen3.8-max-0902` | ✅ 在线 | reasoning | 按量 | — | $2 | $6 | — | — | —/— | — | Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, In… |
 | `qwq-plus` | ✅ 在线 | reasoning | 按量 | 131.072K | $0.8 | $2.4 | — | — | —/— | — | models.dev official list price |

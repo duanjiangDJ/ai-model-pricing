@@ -7,9 +7,69 @@
   "homepage": "https://www.alibabacloud.com/help/en/model-studio/models",
   "pricing_page": "https://www.alibabacloud.com/help/en/model-studio/models",
   "currency": "USD",
-  "updated_at": "2026-09-10T09:39:11Z",
-  "verified_at": "2026-09-10T09:39:11Z",
+  "updated_at": "2026-09-14T12:44:49Z",
+  "verified_at": "2026-09-14T12:44:49Z",
   "models": [
+    {
+      "id": "deepseek-v3.2",
+      "name": "DeepSeek V3.2",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.57
+          },
+          "output": {
+            "usd": 1.71
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "deepseek-v4-flash",
+      "name": "DeepSeek V4 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.2
+          },
+          "output": {
+            "usd": 0.4
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
     {
       "id": "deepseek-v4-flash-0731",
       "name": "DeepSeek V4 Flash 0731",
@@ -38,6 +98,66 @@
         "per_request": null
       },
       "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "name": "DeepSeek V4 Pro",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.4
+          },
+          "output": {
+            "usd": 4.8
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "glm-5.1",
+      "name": "GLM-5.1",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.4
+          },
+          "output": {
+            "usd": 4.4
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -143,6 +263,36 @@
       "status": "online"
     },
     {
+      "id": "qwen-flash-2025-07-28",
+      "name": "Qwen Flash 2025-07-28",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.05
+          },
+          "output": {
+            "usd": 0.4
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
       "id": "qwen-max",
       "name": "Qwen Max",
       "category": "chat",
@@ -170,6 +320,66 @@
         "per_request": null
       },
       "notes": "models.dev official list price | Alibaba Bailian (CNY/1M tokens, CN region first tier, non-thinking). Verified 2026-08-28. [DUAL-CURRENCY UNVERIFIED: cny/usd ratio is off-band; official CNY vs USD page pending verification]",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen-mt-flash",
+      "name": "Qwen-MT Flash",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.16
+          },
+          "output": {
+            "usd": 0.49
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen-mt-lite",
+      "name": "Qwen-MT Lite",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.12
+          },
+          "output": {
+            "usd": 0.36
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -331,6 +541,186 @@
       "status": "online"
     },
     {
+      "id": "qwen-plus-2025-01-25",
+      "name": "Qwen Plus 2025-01-25",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.4
+          },
+          "output": {
+            "usd": 1.2
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen-plus-2025-04-28",
+      "name": "Qwen Plus 2025-04-28",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.4
+          },
+          "output": {
+            "usd": 1.2
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen-plus-2025-07-14",
+      "name": "Qwen Plus 2025-07-14",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.4
+          },
+          "output": {
+            "usd": 1.2
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen-plus-2025-07-28",
+      "name": "Qwen Plus 2025-07-28",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.4
+          },
+          "output": {
+            "usd": 1.2
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen-plus-2025-09-11",
+      "name": "Qwen Plus 2025-09-11",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.4
+          },
+          "output": {
+            "usd": 1.2
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen-plus-2025-12-01",
+      "name": "Qwen Plus 2025-12-01",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.4
+          },
+          "output": {
+            "usd": 1.2
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
       "id": "qwen-plus-character-ja",
       "name": "Qwen Plus Character (Japanese)",
       "category": "chat",
@@ -356,6 +746,36 @@
         "per_request": null
       },
       "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen-plus-latest",
+      "name": "Qwen Plus Latest",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.4
+          },
+          "output": {
+            "usd": 1.2
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -769,6 +1189,156 @@
       "status": "online"
     },
     {
+      "id": "qwen3-235b-a22b-instruct-2507",
+      "name": "Qwen3 235B A22B Instruct 2507",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.23
+          },
+          "output": {
+            "usd": 0.92
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3-235b-a22b-thinking-2507",
+      "name": "Qwen3 235B A22B Thinking 2507",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.23
+          },
+          "output": {
+            "usd": 2.3
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3-30b-a3b",
+      "name": "Qwen3 30B A3B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.2
+          },
+          "output": {
+            "usd": 0.8
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3-30b-a3b-instruct-2507",
+      "name": "Qwen3 30B A3B Instruct 2507",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.2
+          },
+          "output": {
+            "usd": 0.8
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3-30b-a3b-thinking-2507",
+      "name": "Qwen3 30B A3B Thinking 2507",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.2
+          },
+          "output": {
+            "usd": 2.4
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
       "id": "qwen3-32b",
       "name": "Qwen3 32B",
       "category": "reasoning",
@@ -955,6 +1525,66 @@
       "status": "online"
     },
     {
+      "id": "qwen3-coder-flash-2025-07-28",
+      "name": "Qwen3 Coder Flash 2025-07-28",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.3
+          },
+          "output": {
+            "usd": 1.5
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3-coder-next",
+      "name": "Qwen3 Coder Next",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.3
+          },
+          "output": {
+            "usd": 1.5
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
       "id": "qwen3-coder-plus",
       "name": "Qwen3 Coder Plus",
       "category": "chat",
@@ -980,6 +1610,66 @@
         "per_request": null
       },
       "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3-coder-plus-2025-07-22",
+      "name": "Qwen3 Coder Plus 2025-07-22",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.0
+          },
+          "output": {
+            "usd": 5.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3-coder-plus-2025-09-23",
+      "name": "Qwen3 Coder Plus 2025-09-23",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.0
+          },
+          "output": {
+            "usd": 5.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -1048,6 +1738,96 @@
       "status": "online"
     },
     {
+      "id": "qwen3-max-2025-09-23",
+      "name": "Qwen3 Max 2025-09-23",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.2
+          },
+          "output": {
+            "usd": 6.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3-max-2026-01-23",
+      "name": "Qwen3 Max 2026-01-23",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.2
+          },
+          "output": {
+            "usd": 6.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3-max-preview",
+      "name": "Qwen3 Max Preview",
+      "category": "chat",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.2
+          },
+          "output": {
+            "usd": 6.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
       "id": "qwen3-next-80b-a3b-instruct",
       "name": "Qwen3-Next 80B-A3B Instruct",
       "category": "chat",
@@ -1102,6 +1882,36 @@
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3-omni-30b-a3b-captioner",
+      "name": "Qwen3-Omni 30B A3B Captioner",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 3.81
+          },
+          "output": {
+            "usd": 3.06
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
       },
       "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
       "billing_model": [
@@ -1203,6 +2013,66 @@
       "status": "online"
     },
     {
+      "id": "qwen3-vl-235b-a22b-instruct",
+      "name": "Qwen3-VL 235B A22B Instruct",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.4
+          },
+          "output": {
+            "usd": 1.6
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3-vl-235b-a22b-thinking",
+      "name": "Qwen3-VL 235B A22B Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.4
+          },
+          "output": {
+            "usd": 4.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
       "id": "qwen3-vl-30b-a3b",
       "name": "Qwen3-VL 30B-A3B",
       "category": "reasoning",
@@ -1234,6 +2104,276 @@
       "status": "online"
     },
     {
+      "id": "qwen3-vl-30b-a3b-instruct",
+      "name": "Qwen3-VL 30B A3B Instruct",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.2
+          },
+          "output": {
+            "usd": 0.8
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3-vl-30b-a3b-thinking",
+      "name": "Qwen3-VL 30B A3B Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.2
+          },
+          "output": {
+            "usd": 2.4
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3-vl-32b-instruct",
+      "name": "Qwen3-VL 32B Instruct",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.16
+          },
+          "output": {
+            "usd": 0.64
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3-vl-32b-thinking",
+      "name": "Qwen3-VL 32B Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.16
+          },
+          "output": {
+            "usd": 0.64
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3-vl-8b-instruct",
+      "name": "Qwen3-VL 8B Instruct",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.18
+          },
+          "output": {
+            "usd": 0.7
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3-vl-8b-thinking",
+      "name": "Qwen3-VL 8B Thinking",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.18
+          },
+          "output": {
+            "usd": 2.1
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3-vl-flash",
+      "name": "Qwen3-VL Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.05
+          },
+          "output": {
+            "usd": 0.4
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3-vl-flash-2025-10-15",
+      "name": "Qwen3-VL Flash 2025-10-15",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.05
+          },
+          "output": {
+            "usd": 0.4
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3-vl-flash-2026-01-22",
+      "name": "Qwen3-VL Flash 2026-01-22",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.05
+          },
+          "output": {
+            "usd": 0.4
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
       "id": "qwen3-vl-plus",
       "name": "Qwen3-VL Plus",
       "category": "reasoning",
@@ -1259,6 +2399,66 @@
         "per_request": null
       },
       "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3-vl-plus-2025-09-23",
+      "name": "Qwen3-VL Plus 2025-09-23",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.2
+          },
+          "output": {
+            "usd": 1.6
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3-vl-plus-2025-12-19",
+      "name": "Qwen3-VL Plus 2025-12-19",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.2
+          },
+          "output": {
+            "usd": 1.6
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -1389,6 +2589,66 @@
       "status": "online"
     },
     {
+      "id": "qwen3.5-flash",
+      "name": "Qwen3.5 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.1
+          },
+          "output": {
+            "usd": 0.4
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3.5-flash-2026-02-23",
+      "name": "Qwen3.5 Flash 2026-02-23",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.1
+          },
+          "output": {
+            "usd": 0.4
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
       "id": "qwen3.5-plus",
       "name": "Qwen3.5 Plus",
       "category": "reasoning",
@@ -1414,6 +2674,66 @@
         "per_request": null
       },
       "notes": "models.dev official list price",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3.5-plus-2026-02-15",
+      "name": "Qwen3.5 Plus 2026-02-15",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.4
+          },
+          "output": {
+            "usd": 2.4
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3.5-plus-2026-04-20",
+      "name": "Qwen3.5 Plus 2026-04-20",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.4
+          },
+          "output": {
+            "usd": 2.4
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
       "billing_model": [
         "pay_per_token"
       ],
@@ -1513,6 +2833,36 @@
       "status": "online"
     },
     {
+      "id": "qwen3.6-flash-2026-04-16",
+      "name": "Qwen3.6 Flash 2026-04-16",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.25
+          },
+          "output": {
+            "usd": 1.5
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
       "id": "qwen3.6-max-preview",
       "name": "Qwen3.6 Max Preview",
       "category": "reasoning",
@@ -1579,6 +2929,96 @@
       "status": "online"
     },
     {
+      "id": "qwen3.6-plus-2026-04-02",
+      "name": "Qwen3.6 Plus 2026-04-02",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.5
+          },
+          "output": {
+            "usd": 3.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3.7-flash",
+      "name": "Qwen3.7 Flash",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.03
+          },
+          "output": {
+            "usd": 0.13
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3.7-flash-2026-07-15",
+      "name": "Qwen3.7 Flash 2026-07-15",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.03
+          },
+          "output": {
+            "usd": 0.13
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
       "id": "qwen3.7-max",
       "name": "Qwen3.7 Max",
       "category": "reasoning",
@@ -1612,6 +3052,126 @@
       "status": "online"
     },
     {
+      "id": "qwen3.7-max-2026-05-17",
+      "name": "Qwen3.7 Max 2026-05-17",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.5
+          },
+          "output": {
+            "usd": 7.5
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3.7-max-2026-05-20",
+      "name": "Qwen3.7 Max 2026-05-20",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.5
+          },
+          "output": {
+            "usd": 7.5
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3.7-max-2026-06-08",
+      "name": "Qwen3.7 Max 2026-06-08",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.5
+          },
+          "output": {
+            "usd": 7.5
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3.7-max-preview",
+      "name": "Qwen3.7 Max Preview",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.5
+          },
+          "output": {
+            "usd": 7.5
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
       "id": "qwen3.7-plus",
       "name": "Qwen3.7 Plus",
       "category": "reasoning",
@@ -1637,6 +3197,96 @@
         "per_image": null,
         "per_audio_second": null,
         "per_request": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3.7-plus-2026-05-26",
+      "name": "Qwen3.7 Plus 2026-05-26",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.4
+          },
+          "output": {
+            "usd": 1.6
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3.8-2.4t-a95b",
+      "name": "Qwen3.8 2.4T A95B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.0
+          },
+          "output": {
+            "usd": 6.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3.8-27b",
+      "name": "Qwen3.8 27B",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.5
+          },
+          "output": {
+            "usd": 3.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
       },
       "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
       "billing_model": [
@@ -1706,6 +3356,36 @@
         "per_request": null
       },
       "notes": "models.dev official list price | Alibaba Bailian (CNY/1M tokens, CN region first tier, non-thinking). Verified 2026-08-28.",
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "status": "online"
+    },
+    {
+      "id": "qwen3.8-max-0902",
+      "name": "Qwen3.8 Max 0902",
+      "category": "reasoning",
+      "modalities": [
+        "text"
+      ],
+      "context_window": null,
+      "max_output": null,
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.0
+          },
+          "output": {
+            "usd": 6.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null,
+        "promo": null
+      },
+      "notes": "Official alibabacloud.com/help/en/model-studio/billing (USD per 1M tokens, International scope, first token range; cache left unset). Parsed by check alibaba.",
       "billing_model": [
         "pay_per_token"
       ],

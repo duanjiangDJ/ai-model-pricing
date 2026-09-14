@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.147.98 — 2026-09-14T12:45Z (content update)
+
+- data(alibaba): seed the 56 official Model Studio International models the DB was missing (tier0_alibaba parser output; unpublished specs left null)
+
 ## 26.146.98 — 2026-09-14T11:38Z (feature update)
 
 - audit(check): fail closed on a malformed price object (unknown currency key / non-numeric value) instead of silently ignoring it or crashing the whole audit

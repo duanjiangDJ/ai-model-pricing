@@ -5,7 +5,7 @@
 
 - Generated: 2026-09-14T07:48:03Z
 - Providers: 190
-- Models total: 7606
+- Models total: 7662
 - Plans total: 67
 
 ## Providers
@@ -106,7 +106,7 @@
 | [IO.NET](providers/io-net.md) | Inference host | 17 | `providers/io-net.json` | 2026-09-04T00:22:51Z |
 | [Berget.AI](providers/berget.md) | Inference host | 12 | `providers/berget.json` | 2026-09-04T00:22:51Z |
 | [Xiaomi](providers/xiaomi.md) | Inference host | 10 | `providers/xiaomi.json` | 2026-09-04T00:22:51Z |
-| [Alibaba](providers/alibaba.md) | First-party | 55 | `providers/alibaba.json` | 2026-09-10T09:39:11Z |
+| [Alibaba](providers/alibaba.md) | First-party | 111 | `providers/alibaba.json` | 2026-09-14T12:44:49Z |
 | [Sakana AI](providers/sakana.md) | Inference host | 4 | `providers/sakana.json` | 2026-09-04T00:22:51Z |
 | [ZenMux](providers/zenmux.md) | Inference host | 120 | `providers/zenmux.json` | 2026-09-04T00:22:51Z |
 | [Alibaba Coding Plan](providers/alibaba-coding-plan.md) | Subscription | 12 | `providers/alibaba-coding-plan.json` | 2026-08-28T08:54:00Z |
