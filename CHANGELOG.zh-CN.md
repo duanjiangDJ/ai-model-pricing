@@ -16,6 +16,10 @@
 
 ---
 
+## 26.146.97 — 2026-09-14T10:27Z（功能更新）
+
+- collect_modelsdev：一手来源守卫扩展到 check 层供应商（opencode/opencode-go/moonshotai/tencent/xiaomi），models.dev 不再能在其一手价格 verified_at 超过 26h 后覆盖；补充 2026-09-14 拉锯事件教训与回归测试
+
 ## 26.146.96 — 2026-09-14T10:00Z（内容更新）
 
 - 价格同步（4 处变更）：

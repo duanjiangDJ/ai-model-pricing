@@ -452,15 +452,27 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
   ~11% high — all three re-pinned. Drift is not fabrication: resolve it by re-pinning,
   never by blocking the PR.
 - **An aggregation source must never write a provider the repo already checks one-hand.**
-  `collect_modelsdev` skips a provider when `has_official_collector(pid)` (a dedicated
-  `collect/collectors/collect_<pid>.py` exists) OR `verified_recently(pid, now)` (its
-  `verified_at` is inside a 26h freshness window). 2026-09-11 incident: the guard used to be an
-  **exact UTC-date equality** (`verified_at[:10] == now[:10]`), so it expired at midnight —
-  deepseek (verified 09-10T09:39Z) and zhipuai (09-10T21:28Z) were rewritten by the 09-11T00:39Z
-  sync to models.dev's own off-peak / expired-promo numbers AND lost their provenance notes.
-  Never make this guard depend on a calendar date, and never rely on `verified_at` alone: the
-  persist path only refreshes it when a price CHANGES, so it is stale for a stable price.
-  Guarded by `tests/test_writer_safety_guard.py::TestFirstPartyGuard`.
+  `collect_modelsdev` skips a provider when `has_one_hand_source(pid)` — a dedicated
+  `collect/collectors/collect_<pid>.py` exists **or** a price-writing check module
+  `scripts/checks/tierN_<pid>.py` does (one-hand maintenance lives in EITHER layer; see
+  `has_official_check()`) — OR `verified_recently(pid, now)` (its `verified_at` is inside a 26h
+  freshness window). The freshness half is only a backstop, never the primary signal.
+  2026-09-11 incident: the guard used to be an **exact UTC-date equality**
+  (`verified_at[:10] == now[:10]`), so it expired at midnight — deepseek (verified 09-10T09:39Z)
+  and zhipuai (09-10T21:28Z) were rewritten by the 09-11T00:39Z sync to models.dev's own
+  off-peak / expired-promo numbers AND lost their provenance notes.
+  2026-09-14 incident (**check-only** one-hand providers): `has_official_collector()` only saw the
+  `collect/collectors/` layer, so opencode/opencode-go (maintained by
+  `scripts/checks/tier1_opencode*.py`) fell through to the freshness backstop. Because the persist
+  path refreshes `verified_at` only when a price CHANGES, that stamp goes stale for a stable price;
+  past 26h models.dev wrote its own numbers (opencode `kimi-k2.5` cache_read 0.08 vs the official
+  0.10; `gpt-5.6-terra` 2.5/15 vs 2.0/12; `deepseek-v4-pro` output 3.84 vs 3.48) and the official
+  check reverted them in the SAME run (collectors run before checks in `daily_check`). Net price
+  diff was zero, but every ~26h it produced 4 phantom `field:"pricing"` changelog entries, note
+  churn, a re-rendered view and a version bump — and had the check failed instead of reverting, the
+  aggregator value would have been left published. So: never make this guard depend on a calendar
+  date, never on a single layer, and never on `verified_at` alone.
+  Guarded by `tests/test_writer_safety_guard.py::TestFirstPartyGuard` and `::TestOneHandCheckGuard`.
 
 - **Official-source verification reads each source's real keys.** `scripts/tools/fetch_official.py`
   must read the key each source actually uses: models.dev `api.json` stores prices under

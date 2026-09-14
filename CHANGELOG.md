@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.146.97 — 2026-09-14T10:27Z (feature update)
+
+- collect_modelsdev: one-hand guard now covers check-layer providers (opencode/opencode-go/moonshotai/tencent/xiaomi) so models.dev can no longer clobber a first-party price whose verified_at aged past 26h; codify the 2026-09-14 tug-of-war incident + regression tests
+
 ## 26.146.96 — 2026-09-14T10:00Z (content update)
 
 - price sync (4 changes):
