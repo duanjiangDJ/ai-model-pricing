@@ -29,6 +29,7 @@ from toolbox import (  # noqa: E402
     max_output_on_non_token_category,
     mixed_currency_zero,
     off_peak_violation,
+    per_mtok_magnitude,
     price_all_zero,
     suspicious_max_output,
     zero_token_price_fields,
@@ -160,47 +161,60 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
         _mo = suspicious_max_output(m)
         if _mo is not None:
             warn(f"suspicious max_output {_mo} in {p['provider_id']} :: {m['id']} (check placeholder)")
-        # per_mtok magnitude sanity: per_mtok is $ per 1M tokens. A non-zero value
-        # below 1e-4 ($0.0001/1M) is impossible for any priced API and is the signature
-        # of a per-token value stored as per-1M (the ~1e6x bug that once shipped, e.g.
-        # OpenRouter $0.22/M stored as 2.2e-7). That is a data-truth bug -> hard-fail so
-        # a bot sync can never merge a per-token-as-per-M value. The [1e-4, 1e-3) band and
-        # >1e5 remain suspect-but-not-obviously-misfiled -> warn (borderline cheap/absurd).
+        # per_mtok magnitude sanity: per_mtok is $ per 1M tokens, and BOTH ends of the
+        # scale carry a unit-error signature, so each end hard-fails (never publishable):
+        #   - a non-zero value below 1e-4 is a per-token value stored as per-M (~1e6x too
+        #     small; OpenRouter's real per-token price once shipped as 2.2e-7), and
+        #   - a value above 2e3 is a per-1k table stored as per-M (~1e3x too large; several
+        #     vendors publish a CNY-per-1k table beside their per-M one). The priciest
+        #     published per-token API price is $600 per 1M (openai o1-pro output), so the
+        #     ceiling sits 3.3x beyond it and the 1e3-2e3 band only WARNs.
+        # Without the ceiling a per-1k value passed the whole gate silently (probe
+        # 2026-09-14: per_mtok output=5000 -> AUDIT PASSED with zero output).
+        # The predicate lives in toolbox so it is unit-testable (see per_mtok_magnitude).
         for _pk, _pv in pm.items():
             if not isinstance(_pv, dict):
                 continue
             for _cur, _val in _pv.items():
-                if _val is None:
-                    continue
-                _f = float(_val)
-                if _f != 0 and abs(_f) < 1e-4:
+                _mag = per_mtok_magnitude(_val)
+                if _mag == "too_small":
                     fail(
                         f"per_mtok {_pk}.{_cur}={_val} in {p['provider_id']} :: {m['id']} "
                         f"is $/1M tokens; a non-zero value below 1e-4 is impossible for a "
                         f"priced API (likely per-token stored as per-M, ~1e6 too small)"
                     )
-                elif _f != 0 and (abs(_f) < 1e-3 or abs(_f) > 1e5):
+                elif _mag == "too_large":
+                    fail(
+                        f"per_mtok {_pk}.{_cur}={_val} in {p['provider_id']} :: {m['id']} "
+                        f"is $/1M tokens; a value above 2000 is impossible for a priced API "
+                        f"(likely a per-1k value stored as per-M, ~1e3 too large)"
+                    )
+                elif _mag == "suspect":
                     warn(
                         f"suspicious per_mtok {_pk}.{_cur}={_val} in {p['provider_id']} :: {m['id']} "
-                        f"(expected $/1M in [1e-3,1e5]; borderline cheap or absurd)"
+                        f"(expected $/1M in [1e-3,1e3]; borderline cheap or absurd)"
                     )
-        # batch magnitude sanity: `batch.<field>` is ALSO $ per 1M tokens, so the same
-        # per-token-stored-as-per-M signature applies -> hard-fail below 1e-4 (this field was
-        # previously unchecked, so a mis-scaled batch price passed the gate silently).
+        # batch magnitude sanity: `batch.<field>` is ALSO $ per 1M tokens, so the SAME two
+        # unit-error signatures apply at both ends (the small end was previously unchecked,
+        # so a mis-scaled batch price passed the gate silently).
         _bmap = (m.get("pricing") or {}).get("batch")
         if isinstance(_bmap, dict):
             for _bk, _bvv in _bmap.items():
                 if not isinstance(_bvv, dict):
                     continue
                 for _bcur, _bval in _bvv.items():
-                    if _bval is None:
-                        continue
-                    _bf = float(_bval)
-                    if _bf != 0 and abs(_bf) < 1e-4:
+                    _bmag = per_mtok_magnitude(_bval)
+                    if _bmag == "too_small":
                         fail(
                             f"batch {_bk}.{_bcur}={_bval} in {p['provider_id']} :: {m['id']} "
                             f"is $/1M tokens; a non-zero value below 1e-4 is impossible for a "
                             f"priced API (likely per-token stored as per-M, ~1e6 too small)"
+                        )
+                    elif _bmag == "too_large":
+                        fail(
+                            f"batch {_bk}.{_bcur}={_bval} in {p['provider_id']} :: {m['id']} "
+                            f"is $/1M tokens; a value above 2000 is impossible for a priced API "
+                            f"(likely a per-1k value stored as per-M, ~1e3 too large)"
                         )
         # off_peak (time-of-day) price contract: `per_mtok` holds the PEAK tier and
         # `off_peak.multiplier` is the discount applied outside `window.peak`, so the

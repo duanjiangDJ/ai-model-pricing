@@ -372,6 +372,50 @@ def cache_read_exceeds_input(pm, status=None):
     return bad
 
 
+# ------------------------------------------------------------- price magnitude
+# per_mtok / batch values are a price PER 1M TOKENS, so both ends of the scale carry a
+# unit-error signature that no real price can produce:
+#   - a non-zero value BELOW 1e-4 ($0.0001 per 1M) is the per-token-as-per-M bug
+#     (~1e6x too small; OpenRouter's per-token API value once shipped as 2.2e-7);
+#   - a value ABOVE 2e3 ($2000 per 1M = $0.002 per token) is the per-1k-as-per-M bug
+#     (~1e3x too large; several vendors publish a CNY-per-1k table beside a per-M one).
+#     The priciest published per-token API price is $600 per 1M (openai o1-pro output),
+#     so the ceiling sits 3.3x beyond it: a value past it is an error, not a new record.
+#     (A threshold CANNOT catch a 1e3x mis-scale of a sub-$2/M model -- that lands inside
+#     the legitimate range -- but every mis-scale of anything pricier is blocked.)
+#     If a vendor ever legitimately publishes above $2000/1M, raise this constant.
+PER_MTOK_IMPOSSIBLE_SMALL = 1e-4
+PER_MTOK_IMPOSSIBLE_LARGE = 2e3
+PER_MTOK_SUSPECT_SMALL = 1e-3
+PER_MTOK_SUSPECT_LARGE = 1e3
+
+
+def per_mtok_magnitude(value):
+    """Classify one non-zero $/1M price: None | "too_small" | "too_large" | "suspect".
+
+    ``None`` when the value is null / zero / non-numeric: null means unknown and 0 means
+    free, so neither is a magnitude problem. Callers hard-fail "too_small" and "too_large"
+    (both are unit/scale errors that no real price can produce) and warn "suspect" (inside
+    the narrow band next to a hard boundary -- borderline, possibly real).
+    """
+    if value is None or isinstance(value, bool):
+        return None
+    try:
+        f = float(value)
+    except (TypeError, ValueError):
+        return None
+    if f == 0:
+        return None
+    a = abs(f)
+    if a < PER_MTOK_IMPOSSIBLE_SMALL:
+        return "too_small"
+    if a > PER_MTOK_IMPOSSIBLE_LARGE:
+        return "too_large"
+    if a < PER_MTOK_SUSPECT_SMALL or a > PER_MTOK_SUSPECT_LARGE:
+        return "suspect"
+    return None
+
+
 def batch_exceeds_standard(pricing, status=None):
     """Return the batch fields ("input"/"output") whose price exceeds the standard rate.
 
