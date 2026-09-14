@@ -16,6 +16,12 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.146.96 — 2026-09-14T10:00Z (content update)
+
+- price sync (4 changes):
+- **opencode** (updated 3): `kimi-k2.5`, `deepseek-v4-pro`, `gpt-5.6-terra`
+- **opencode-go** (updated 1): `minimax-m2.5`
+
 ## 26.145.96 — 2026-09-14T07:53Z (feature update)
 
 - audit: bound per_mtok/batch magnitude at BOTH ends (toolbox.per_mtok_magnitude; >2000 per 1M is a per-1k unit error and now hard-fails, was a warn above 1e5)
