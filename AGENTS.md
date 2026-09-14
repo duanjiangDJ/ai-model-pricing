@@ -417,6 +417,19 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
   note below. The root fix is writer-side: model `overrides` (store the peak
   tier + an `off_peak` block, or promo/list) instead of persisting whichever tier the run landed
   in. That changes sync value semantics, so it needs human sign-off, unlike a check edit.
+
+- **`off_peak` is a machine-checked DERIVED-price contract, not prose.** The field means
+  `off-peak price = per_mtok x multiplier`, with `per_mtok` holding the PEAK (standard) tier and
+  `window.peak` defining the hours that are off-peak (everything outside them).
+  `toolbox.off_peak_violation()`, called by `audit.py`, hard-FAILs a block that contradicts the
+  price it derives -- `multiplier` that is not a genuine discount (`0 < m < 1`; `2.0` is the
+  signature of a writer that stored peak/off-peak INVERTED), a window whose `days` are not
+  weekday names or whose `utc` entries are not `HH:MM-HH:MM` ranges, or an `off_peak` block with
+  no non-zero `per_mtok` to discount -- and WARNs when `multiplier`/`window`/`peak`/`tz` is
+  missing. `schema.json` only types the block, so until 2026-09-14 all of those passed validate +
+  audit with zero output (verified by injecting them into a scratch copy); guarded by
+  `tests/test_off_peak_contract.py`. The general rule: when a new pricing MECHANISM is added,
+  encode its invariant as a check -- a schema that only checks shape is not a check.
 - **An aggregator snapshot is stale the moment it is taken — re-verify it at review time.** A
   `bot/price-sync-*` PR records the aggregator API's values at run time; by the time it is reviewed
   (up to ~3h later) some values have moved. Re-fetch `https://openrouter.ai/api/v1/models` (and

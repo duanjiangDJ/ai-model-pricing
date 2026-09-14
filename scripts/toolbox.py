@@ -413,6 +413,120 @@ def batch_exceeds_standard(pricing, status=None):
     return bad
 
 
+# --- off_peak (time-of-day) price contract ---------------------------------------
+
+OFF_PEAK_DAYS = ("mon", "tue", "wed", "thu", "fri", "sat", "sun")
+_OFF_PEAK_UTC_RE = re.compile(r"^\d{1,2}:\d{2}\s*-\s*\d{1,2}:\d{2}$")
+
+
+def off_peak_violation(pricing):
+    """Validate the `off_peak` time-of-day contract; return [(severity, message)].
+
+    `pricing.off_peak` is a DERIVED-price contract, not free-form prose:
+    ``off-peak price = per_mtok x multiplier``, with `per_mtok` holding the PEAK
+    (standard) tier and `window.peak` defining the hours that are NOT off-peak. So the
+    block is only meaningful when (a) there is a per_mtok price to derive from and (b)
+    `multiplier` is a genuine DISCOUNT. Both are machine-checkable and neither was
+    checked: `schema.json` types `multiplier` as a bare number and `days`/`utc` as bare
+    strings, and no audit rule looked at the block at all (real finding 2026-09-14 --
+    setting `multiplier: 2.0` and storing the OFF-peak tier in `per_mtok` while still
+    declaring 0.5 both passed validate + audit with zero output, so a writer that
+    inverted the ratio (2.0 = peak/off-peak instead of 0.5) or halved the price twice
+    would publish silently). Same lesson as `max_output_on_non_token_category`: a field
+    introduced for a new pricing mechanism needs its invariant encoded as a check, not
+    just its shape.
+
+    severity "fail" = the block contradicts the price it derives (impossible, e.g. an
+    "off-peak" rate at or above the peak rate, or a discount with no base price to
+    discount); "warn" = the contract is present but incomplete/unverifiable. Returns []
+    when `off_peak` is absent (most models). The predicate lives here, not inline in
+    audit.py, so it is unit-testable.
+    """
+    if not isinstance(pricing, dict):
+        return []
+    op = pricing.get("off_peak")
+    if op is None:
+        return []
+    if not isinstance(op, dict):
+        return [("fail", "off_peak is not an object")]
+
+    out = []
+
+    # (a) a discount needs a base: off-peak = per_mtok x multiplier.
+    pm = pricing.get("per_mtok")
+    has_base = False
+    if isinstance(pm, dict):
+        for _k, _v in pm.items():
+            if not isinstance(_v, dict):
+                continue
+            for _cur, _val in _v.items():
+                if _is_number(_val) and _val != 0:
+                    has_base = True
+                    break
+            if has_base:
+                break
+    if not has_base:
+        out.append((
+            "fail",
+            "off_peak declares a time-of-day discount but per_mtok carries no non-zero "
+            "price to derive it from (off-peak = per_mtok x multiplier); an off-peak rate "
+            "is not a standalone price",
+        ))
+
+    # (b) multiplier must be a real discount (per_mtok is the PEAK tier).
+    mult = op.get("multiplier")
+    if mult is None:
+        out.append(("warn", "off_peak.multiplier is null -- the off-peak rate cannot be derived"))
+    elif not _is_number(mult):
+        out.append(("fail", f"off_peak.multiplier={mult!r} is not a number"))
+    elif not 0.0 < mult < 1.0:
+        out.append((
+            "fail",
+            f"off_peak.multiplier={mult} is not a discount (must satisfy 0 < m < 1; "
+            "per_mtok holds the PEAK tier, so m >= 1 publishes an 'off-peak' rate at or "
+            "above the peak rate -- signature of storing peak/off-peak inverted)",
+        ))
+
+    # (c) window.peak is what defines off-peak (everything outside it).
+    window = op.get("window")
+    if window is None:
+        out.append(("warn", "off_peak.window is missing -- no machine-readable off-peak window"))
+    elif not isinstance(window, dict):
+        out.append(("fail", "off_peak.window is not an object"))
+    else:
+        peak = window.get("peak")
+        if peak is None:
+            out.append(("warn", "off_peak.window.peak is missing -- the peak window defines off-peak"))
+        elif not isinstance(peak, dict):
+            out.append(("fail", "off_peak.window.peak is not an object"))
+        else:
+            days = peak.get("days")
+            if not isinstance(days, list) or not days:
+                out.append(("warn", "off_peak.window.peak.days is empty/absent"))
+            else:
+                bad_days = [d for d in days if str(d).strip().lower() not in OFF_PEAK_DAYS]
+                if bad_days:
+                    out.append((
+                        "fail",
+                        f"off_peak.window.peak.days={bad_days} are not weekday names "
+                        f"{list(OFF_PEAK_DAYS)}",
+                    ))
+            utc = peak.get("utc")
+            if not isinstance(utc, list) or not utc:
+                out.append(("warn", "off_peak.window.peak.utc is empty/absent"))
+            else:
+                bad_utc = [u for u in utc if not _OFF_PEAK_UTC_RE.match(str(u).strip())]
+                if bad_utc:
+                    out.append((
+                        "fail",
+                        f"off_peak.window.peak.utc={bad_utc} are not HH:MM-HH:MM ranges",
+                    ))
+        tz = window.get("tz")
+        if not isinstance(tz, str) or not tz.strip():
+            out.append(("warn", "off_peak.window.tz is missing -- the peak window is ambiguous"))
+    return out
+
+
 def suspicious_max_output(model, limit=10_000_000):
     """Return `max_output` when it is an implausible placeholder value, else None.
 

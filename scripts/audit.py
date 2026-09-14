@@ -28,6 +28,7 @@ from toolbox import (  # noqa: E402
     max_output_exceeds_context,
     max_output_on_non_token_category,
     mixed_currency_zero,
+    off_peak_violation,
     price_all_zero,
     suspicious_max_output,
     zero_token_price_fields,
@@ -116,6 +117,8 @@ ctx_rel = []  # max_output > context_window on an ONLINE model (impossible: gene
 batch_rel = []  # batch.<field> > per_mtok.<field> (a batch API is a DISCOUNT on standard; impossible -> stale/shared batch block or unit error)
 cat_mismatch = []  # category contradicts an unambiguous id signature (a speech/image/embedding model published as "chat")
 nontoken_mo = []  # max_output set on a category that emits no output tokens (embedding/rerank: the value is the source's DIMENSION, not a token limit)
+off_peak_fail = []  # off_peak contract violated in a way that contradicts the derived price (impossible)
+off_peak_warn = []  # off_peak contract present but incomplete/unverifiable
 for f in sorted(glob.glob("data/feed/providers/*.json")):
     p = json.load(open(f, encoding="utf-8"))
     is_sub = any(h in p["provider_id"] for h in SUB_HINTS)
@@ -199,6 +202,18 @@ for f in sorted(glob.glob("data/feed/providers/*.json")):
                             f"is $/1M tokens; a non-zero value below 1e-4 is impossible for a "
                             f"priced API (likely per-token stored as per-M, ~1e6 too small)"
                         )
+        # off_peak (time-of-day) price contract: `per_mtok` holds the PEAK tier and
+        # `off_peak.multiplier` is the discount applied outside `window.peak`, so the
+        # block is a DERIVED-price contract -- not prose. Nothing checked it: schema.json
+        # types `multiplier` as a bare number and `days`/`utc` as bare strings, and no
+        # audit rule read the block (real gap 2026-09-14: `multiplier: 2.0` -- i.e. an
+        # "off-peak" rate at twice the peak rate -- and an `off_peak` block with no
+        # per_mtok base both passed validate + audit with zero output). A writer that
+        # inverted the ratio, or stored the OFF-peak tier in per_mtok while still
+        # declaring 0.5, would publish a wrong derived price silently forever.
+        for _sev, _omsg in off_peak_violation(m.get("pricing") or {}):
+            _oline = f"{p['provider_id']} :: {m['id']} ({_omsg})"
+            (off_peak_fail if _sev == "fail" else off_peak_warn).append(_oline)
         # promo expiry: `pricing.promo` is a TEMPORARY discount (per_mtok = promo price,
         # promo.list_price = pre-promo price). Once ends_at has passed, per_mtok must have
         # moved to the list price and the promo block is stale metadata. An expired promo
@@ -569,6 +584,22 @@ if batch_rel:
          + "; ".join(sorted(batch_rel)[:8]))
 else:
     print("OK batch-relationship: batch <= standard on every priced model")
+if off_peak_fail:
+    from collections import Counter as _Cop
+    _bop = _Cop(u.split(" :: ")[0] for u in off_peak_fail)
+    fail(f"off_peak violates its own derived-price contract (per_mtok holds the PEAK tier and "
+         f"off-peak price = per_mtok x multiplier, so the block cannot contradict the price it "
+         f"derives; {len(off_peak_fail)} model(s)): "
+         + "; ".join(sorted(off_peak_fail)[:8])
+         + (" | providers: " + ", ".join(f"{pid} x{c}" for pid, c in _bop.most_common(6)) if len(off_peak_fail) > 1 else ""))
+elif off_peak_warn:
+    warn(f"off_peak contract incomplete (the off-peak rate/window is not fully derivable; "
+         f"{len(off_peak_warn)} model(s)): " + "; ".join(sorted(set(off_peak_warn))[:8]))
+else:
+    _opn = sum(1 for _f in glob.glob("data/feed/providers/*.json")
+               for _m in json.load(open(_f, encoding="utf-8")).get("models", [])
+               if (_m.get("pricing") or {}).get("off_peak"))
+    print(f"OK off_peak: {_opn} model(s) declare a derivable time-of-day contract")
 if cat_mismatch:
     from collections import Counter as _Ccm
     _bcm = _Ccm(u.split(" :: ")[0] for u in cat_mismatch)
