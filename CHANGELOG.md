@@ -16,6 +16,11 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.142.94 — 2026-09-14T04:02Z (content update)
+
+- price sync (6 changes):
+- **openrouter** (updated 6): `deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-flash-0731`, `deepseek/deepseek-v4-pro-0813`, `deepseek/deepseek-v4.1-flash`, `~moonshotai/kimi-latest`, `~z-ai/glm-latest`
+
 ## 26.141.94 — 2026-09-14T02:39Z (feature update)
 
 - fix(category): encode music_gen + gemini-omni markers; recategorise 11 rows

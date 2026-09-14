@@ -8,8 +8,8 @@
   "pricing_page": "https://openrouter.ai/models",
   "api_base_url": "https://openrouter.ai/api/v1",
   "currency": "USD",
-  "updated_at": "2026-09-14T00:43:17Z",
-  "verified_at": "2026-09-14T00:43:17Z",
+  "updated_at": "2026-09-14T03:43:23Z",
+  "verified_at": "2026-09-14T03:43:23Z",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1969,13 +1969,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.089866
+            "usd": 0.088606
           },
           "output": {
-            "usd": 0.179732
+            "usd": 0.177212
           },
           "cache_read": {
-            "usd": 0.0179732
+            "usd": 0.0177212
           },
           "cache_write": null
         },
@@ -2000,13 +2000,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.065
+            "usd": 0.06
           },
           "output": {
-            "usd": 0.18
+            "usd": 0.12
           },
           "cache_read": {
-            "usd": 0.016
+            "usd": 0.012
           },
           "cache_write": null
         },
@@ -2157,13 +2157,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 1.05468
+            "usd": 0.9834
           },
           "output": {
-            "usd": 3.16404
+            "usd": 2.9502
           },
           "cache_read": {
-            "usd": 0.035156
+            "usd": 0.03278
           },
           "cache_write": null
         },
@@ -2220,13 +2220,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.15
+            "usd": 0.3
           },
           "output": {
-            "usd": 0.6
+            "usd": 1.2
           },
           "cache_read": {
-            "usd": 0.003
+            "usd": 0.006
           },
           "cache_write": null
         },
@@ -13736,13 +13736,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 2.1
+            "usd": 2.275
           },
           "output": {
-            "usd": 10.95
+            "usd": 12.74
           },
           "cache_read": {
-            "usd": 0.23
+            "usd": 0.2639
           },
           "cache_write": null
         },
@@ -14000,13 +14000,13 @@
       "pricing": {
         "per_mtok": {
           "input": {
-            "usd": 0.936
+            "usd": 0.92
           },
           "output": {
-            "usd": 3.168
+            "usd": 3.1372
           },
           "cache_read": {
-            "usd": 0.1872
+            "usd": 0.184
           },
           "cache_write": null
         },

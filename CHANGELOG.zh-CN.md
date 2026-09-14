@@ -16,6 +16,11 @@
 
 ---
 
+## 26.142.94 — 2026-09-14T04:02Z（内容更新）
+
+- 价格同步（6 处变更）：
+- **openrouter**（更新 6）：`deepseek/deepseek-v4-flash`, `deepseek/deepseek-v4-flash-0731`, `deepseek/deepseek-v4-pro-0813`, `deepseek/deepseek-v4.1-flash`, `~moonshotai/kimi-latest`, `~z-ai/glm-latest`
+
 ## 26.141.94 — 2026-09-14T02:39Z（功能更新）
 
 - 修复分类：新增 music_gen（Lyria/ElevenLabs Music）与 gemini-omni(video_gen) 标记，重分类 11 行
