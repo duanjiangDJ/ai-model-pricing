@@ -1,9 +1,9 @@
 {
-  "schema_version": "26.142.95",
+  "schema_version": "26.143.95",
   "generated_at": "2026-09-14T03:43:23Z",
   "currency": "USD",
   "provider_count": 189,
-  "model_count": 7600,
+  "model_count": 7606,
   "plan_count": 67,
   "providers": [
     {
@@ -234,9 +234,9 @@
       "id": "google",
       "name": "Google",
       "channel": "first_party",
-      "model_count": 41,
+      "model_count": 47,
       "file": "providers/google.json",
-      "updated_at": "2026-09-03T00:20:55Z"
+      "updated_at": "2026-09-14T06:38:10Z"
     },
     {
       "id": "model-oracle-ai",

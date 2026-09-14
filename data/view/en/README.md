@@ -5,7 +5,7 @@
 
 - Generated: 2026-09-14T03:43:23Z
 - Providers: 190
-- Models total: 7600
+- Models total: 7606
 - Plans total: 67
 
 ## Providers
@@ -40,7 +40,7 @@
 | [The Grid AI](providers/the-grid-ai.md) | Inference host | 9 | `providers/the-grid-ai.json` | 2026-09-04T00:22:51Z |
 | [Vertex](providers/google-vertex.md) | Inference host | 45 | `providers/google-vertex.json` | 2026-09-04T00:22:51Z |
 | [Alibaba Token Plan](providers/alibaba-token-plan.md) | Subscription | 25 | `providers/alibaba-token-plan.json` | 2026-08-27T17:11:11Z |
-| [Google](providers/google.md) | First-party | 41 | `providers/google.json` | 2026-09-04T00:22:51Z |
+| [Google](providers/google.md) | First-party | 47 | `providers/google.json` | 2026-09-14T06:38:10Z |
 | [Model Oracle AI](providers/model-oracle-ai.md) | Inference host | 15 | `providers/model-oracle-ai.json` | 2026-09-04T00:22:51Z |
 | [Deep Infra](providers/deepinfra.md) | Inference host | 63 | `providers/deepinfra.json` | 2026-09-11T12:41:08Z |
 | [Meta](providers/meta.md) | Inference host | 5 | `providers/meta.json` | 2026-09-04T00:22:51Z |

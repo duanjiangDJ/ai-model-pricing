@@ -6,10 +6,10 @@
 - Homepage: https://ai.google.dev/gemini-api/docs/models
 - Pricing page: https://ai.google.dev/gemini-api/docs/pricing
 - Currency: USD
-- Data updated: 2026-09-04T00:22:51Z
-- Verified: 2026-09-04T00:22:51Z
+- Data updated: 2026-09-14T06:38:10Z
+- Verified: 2026-09-14T06:38:10Z
 
-**41** models in total.
+**47** models in total.
 
 | Model | Status | Category | Billing | Context | Input $/MTok | Output $/MTok | Cache read | Cache write | Batch (in/out) | Other billing | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -20,6 +20,7 @@
 | `gemini-2.5-flash` | ✅ online | chat | per-token | 1.04858M | $0.3 | $2.5 | $0.03 | — | $0.15/$1.25 | — | Input $0.30 text/image/video, $1.00 audio; cache $0.03 text/image/video, $0.1… |
 | `gemini-2.5-flash-image` | ✅ online | image_gen | per-token | 32.768K | $0.3 | $30 | $0.075 | — | —/— | — | models.dev official list price |
 | `gemini-2.5-flash-lite` | ✅ online | chat | per-token | 1.04858M | $0.1 | $0.4 | $0.01 | — | $0.05/$0.2 | — | Input $0.10 text/image/video, $0.30 audio; cache $0.01 text/image/video, $0.0… |
+| `gemini-2.5-flash-native-audio-preview-12-2025` | ✅ online | realtime | per-token | — | $0.5 | $2 | — | — | —/— | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
 | `gemini-2.5-flash-preview-tts` | ✅ online | audio_tts | per-token | 8.192K | $0.5 | $10 | — | — | $0.25/$5 | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
 | `gemini-2.5-pro` | ✅ online | chat | per-token | 1.04858M | $1.25 | $10 | $0.125 | — | $0.625/$5 | — | Two-tier pricing at 200k prompt tokens. <=200k: input $1.25 / output $10.00 /… |
 | `gemini-2.5-pro-preview-tts` | ✅ online | audio_tts | per-token | 8.192K | $1 | $20 | — | — | $0.5/$10 | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
@@ -38,6 +39,8 @@
 | `gemini-3.5-flash` | ✅ online | reasoning | per-token | 1.04858M | $1.5 | $9 | $0.15 | — | $0.75/$4.5 | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
 | `gemini-3.5-flash-lite` | ✅ online | reasoning | per-token | 1.04858M | $0.3 | $2.5 | $0.03 | — | $0.15/$1.25 | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
 | `gemini-3.5-live-translate-preview` | ✅ online | chat | per-token | 16.384K | $3.5 | $21 | — | — | —/— | — | models.dev official list price |
+| `gemini-3.5-transcribe` | ✅ online | audio_stt | per-token | — | $2 | $12 | — | — | —/— | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
+| `gemini-3.5-transcribe-live` | ✅ online | audio_stt | per-token | — | $3.5 | $21 | — | — | —/— | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
 | `gemini-3.6-flash` | ✅ online | chat | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | $0.375/$1.875 | — | Introductory pricing through 2026-12-31: input $0.75 / output $3.75 / cache $… |
 | `gemini-3.7-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | $0.375/$1.875 | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
 | `gemini-3.8-flash` | ✅ online | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | $0.375/$1.875 | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
@@ -45,8 +48,11 @@
 | `gemini-embedding-2` | ✅ online | embedding | per-token | — | $0.2 | $0 | — | — | $0.1/— | — | Multimodal embedding model (gemini-embedding-2, endpoint gemini-embedding-2-p… |
 | `gemini-flash-latest` | ✅ online | reasoning | per-token | 1.04858M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `gemini-flash-lite-latest` | ✅ online | reasoning | per-token | 1.04858M | $0.3 | $2.5 | $0.03 | — | —/— | — | models.dev official list price |
+| `gemini-omni-1.1-flash` | ✅ online | video_gen | per-token | — | $1.5 | $17.5 | — | — | —/— | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
 | `gemini-omni-flash-preview` | ✅ online | video_gen | per-token | 131.072K | $1.5 | $17.5 | — | — | —/— | — | models.dev official list price |
 | `gemini-robotics-er-1.6-preview` | ✅ online | reasoning | per-token | 131.072K | $1 | $5 | — | — | $0.5/$2.5 | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
+| `gemini-robotics-er-2-preview` | ✅ online | reasoning | per-token | — | $1 | $5 | $0.1 | — | $0.5/$2.5 | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
+| `gemini-robotics-er-2-streaming-preview` | ✅ online | reasoning | per-token | — | $1 | $5 | — | — | —/— | — | Official ai.google.dev/gemini-api/docs/pricing (USD/1M tokens, standard tier;… |
 | `gemma-4-26b-a4b-it` | ✅ online | reasoning | per-token | 262.144K | — | — | — | — | —/— | — | models.dev official list price |
 | `gemma-4-31b-it` | ✅ online | reasoning | per-token | 262.144K | — | — | — | — | —/— | — | models.dev official list price |
 | `lyria-3-clip-preview` | ✅ online | music_gen | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
