@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.142.95 — 2026-09-14T05:30Z (feature update)
+
+- check(off_peak): validate the time-of-day derived-price contract (multiplier/window/per_mtok base) + unit tests
+
 ## 26.142.94 — 2026-09-14T04:02Z (content update)
 
 - price sync (6 changes):
