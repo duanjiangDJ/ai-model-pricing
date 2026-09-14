@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.145.95 — 2026-09-14T07:48Z (content update)
+
+- Re-pin openrouter ~moonshotai/kimi-latest to the live API price (in $2.1 / out $10.95 / cache_read $0.23 per MTok), replacing the 06:43Z float that had drifted ~3.6% at review time.
+
 ## 26.144.95 — 2026-09-14T07:00Z (content update)
 
 - price sync (2 changes):
