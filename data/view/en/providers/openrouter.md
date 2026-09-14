@@ -125,8 +125,8 @@
 | `google/gemma-4-31b-it` | ✅ online | reasoning | per-token | 262.144K | $0.09 | $0.34 | $0.05 | — | —/— | — | OpenRouter reseller price |
 | `google/gemma-4-31b-it:batch` | ✅ online | reasoning | per-token | 262.144K | $0.39 | $0.97 | — | — | —/— | — | OpenRouter reseller price |
 | `google/gemma-4-31b-it:free` | ✅ online | reasoning | free | 262.144K | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
-| `google/lyria-3-clip-preview` | ✅ online | audio_tts | free | 1.04858M | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
-| `google/lyria-3-pro-preview` | ✅ online | audio_tts | free | 1.04858M | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
+| `google/lyria-3-clip-preview` | ✅ online | music_gen | free | 1.04858M | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
+| `google/lyria-3-pro-preview` | ✅ online | music_gen | free | 1.04858M | $0 | $0 | — | — | —/— | — | OpenRouter reseller price \| Free model (per_mtok = 0). |
 | `gryphe/mythomax-l2-13b` | ✅ online | chat | per-token | 8.192K | $0.06 | $0.06 | — | — | —/— | — | OpenRouter reseller price |
 | `ibm-granite/granite-4.0-h-micro` | ✅ online | chat | per-token | 131K | $0.017 | $0.112 | — | — | —/— | — | OpenRouter reseller price |
 | `ibm-granite/granite-4.2-8b` | ✅ online | reasoning | per-token | 131.072K | $0.06 | $0.25 | $0.015 | — | —/— | — | OpenRouter reseller price |

@@ -16,6 +16,10 @@ Version number format: **`year.content.feature`** (e.g. `26.2.3` = the 2nd conte
 
 ---
 
+## 26.141.94 — 2026-09-14T02:39Z (feature update)
+
+- fix(category): encode music_gen + gemini-omni markers; recategorise 11 rows
+
 ## 26.141.93 — 2026-09-14T01:01Z (content update)
 
 - price sync (8 changes):

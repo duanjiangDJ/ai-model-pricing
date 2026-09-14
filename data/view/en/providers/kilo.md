@@ -102,8 +102,8 @@
 | `google/gemma-3n-e4b-it` | ✅ online | chat | per-token | 32.768K | $0.06 | $0.12 | — | — | —/— | — | models.dev official list price |
 | `google/gemma-4-26b-a4b-it` | ✅ online | reasoning | per-token | 262.144K | $0.042 | $0.22 | — | — | —/— | — | models.dev official list price |
 | `google/gemma-4-31b-it` | ✅ online | reasoning | per-token | 262.144K | $0.09 | $0.34 | $0.05 | — | —/— | — | models.dev official list price |
-| `google/lyria-3-clip-preview` | ✅ online | chat | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
-| `google/lyria-3-pro-preview` | ✅ online | chat | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `google/lyria-3-clip-preview` | ✅ online | music_gen | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
+| `google/lyria-3-pro-preview` | ✅ online | music_gen | free | 1.04858M | $0 | $0 | — | — | —/— | — | models.dev official list price \| Free model (per_mtok = 0). |
 | `gryphe/mythomax-l2-13b` | ✅ online | chat | per-token | 4.096K | $0.06 | $0.06 | — | — | —/— | — | models.dev official list price |
 | `ibm-granite/granite-4.0-h-micro` | ✅ online | chat | per-token | 131K | $0.017 | $0.112 | — | — | —/— | — | models.dev official list price |
 | `ibm-granite/granite-4.1-8b` | ✅ online | chat | per-token | 131.072K | $0.05 | $0.1 | $0.05 | — | —/— | — | models.dev official list price |

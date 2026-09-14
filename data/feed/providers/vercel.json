@@ -4119,7 +4119,7 @@
     {
       "id": "google/gemini-omni-flash-preview",
       "name": "Gemini Omni Flash Preview",
-      "category": "reasoning",
+      "category": "video_gen",
       "modalities": [
         "text"
       ],

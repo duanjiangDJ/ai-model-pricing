@@ -353,6 +353,16 @@ CONTRIBUTING.md          # contribution guide (en + zh-CN)
    bucket is not derivable (`gpt-audio`, `grok-voice-*`, `nemotron-voicechat`, `studiovoice`,
    `elevenlabs-music`: audio_tts vs audio_understanding vs realtime is a judgment call) — that
    just moves the error, so it stays a WARN and is listed in the test as deliberately unclassified.
+   **Round 4 (2026-09-14, §15.1 "dead category" sweep):** a category the schema declares but the
+   signature table can never PRODUCE is a silent hole -- `music_gen` held ZERO rows repo-wide
+   while Google's Lyria family (`lyria-3-clip-preview` / `-pro-preview`) and ElevenLabs Music
+   were published as `chat` (Lyria again as `audio_tts` on openrouter). A dead enum value is a
+   signal: sweep `Counter(category)` against `schema.modelCategory` and treat a 0 as a missing
+   marker. Fixed: `lyria|(^|[/_.-])music([/_.-]|$)` -> `music_gen`, boundary-anchored so
+   `gemma-...-musica` / `studiovoice` cannot match, plus `gemini-omni` -> `video_gen` (Gemini
+   Omni is a video generation/editing family per the official pricing page); 11 rows
+   recategorised across 6 providers. `test_no_row_contradicts_its_id` now enforces it -- it had
+   passed before only because the marker was absent (`want` was None).
 
 ## Automation (daily check)
 

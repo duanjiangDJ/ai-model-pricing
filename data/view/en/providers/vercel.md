@@ -148,7 +148,7 @@
 | `google/gemini-3.8-flash` | ✅ online | reasoning | per-token | 1M | $0.75 | $3.75 | $0.075 | — | —/— | — | models.dev official list price |
 | `google/gemini-embedding-001` | ✅ online | embedding | per-token | 8.192K | — | — | — | — | —/— | — | models.dev official list price |
 | `google/gemini-embedding-2` | ✅ online | embedding | per-token | — | — | — | — | — | —/— | — | models.dev official list price |
-| `google/gemini-omni-flash-preview` | ✅ online | reasoning | per-token | 1M | $1.5 | $9 | — | — | —/— | — | models.dev official list price |
+| `google/gemini-omni-flash-preview` | ✅ online | video_gen | per-token | 1M | $1.5 | $9 | — | — | —/— | — | models.dev official list price |
 | `google/gemma-4-26b-a4b-it` | ✅ online | reasoning | per-token | 262.144K | $0.15 | $0.6 | $0.015 | — | —/— | — | models.dev official list price |
 | `google/gemma-4-31b-it` | ✅ online | chat | per-token | 262.144K | $0.14 | $0.4 | — | — | —/— | — | models.dev official list price |
 | `google/text-embedding-005` | ✅ online | embedding | per-token | 8.192K | — | — | — | — | —/— | — | models.dev official list price |
