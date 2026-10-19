@@ -1,0 +1,569 @@
+{
+  "provider_id": "fikra-api",
+  "name": "Fikra API",
+  "channel": "hosted",
+  "category": "inference_host",
+  "region": "other",
+  "homepage": "https://fikraapi.co.ke",
+  "pricing_page": "https://fikraapi.co.ke/pricing",
+  "api_base_url": "https://fikraapi.co.ke/v1",
+  "currency": "USD",
+  "updated_at": "2026-10-19T00:00:00Z",
+  "verified_at": "2026-10-19T00:00:00Z",
+  "models": [
+    {
+      "id": "deepseek-v4-flash-0731",
+      "name": "DeepSeek V4 Flash 0731",
+      "category": "chat",
+      "status": "online",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.045
+          },
+          "output": {
+            "usd": 0.1
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null
+      },
+      "notes": "Fikra API pricing page https://fikraapi.co.ke/pricing, USD per 1M tokens. Verified 2026-10-19. OpenAI-compatible gateway (https://fikraapi.co.ke/v1), billed per token in USD, $1 minimum top-up (M-Pesa and cards accepted)."
+    },
+    {
+      "id": "deepseek-v4.1-flash",
+      "name": "DeepSeek V4.1 Flash",
+      "category": "chat",
+      "status": "online",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.045
+          },
+          "output": {
+            "usd": 0.09
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null
+      },
+      "notes": "Fikra API pricing page https://fikraapi.co.ke/pricing, USD per 1M tokens. Verified 2026-10-19. OpenAI-compatible gateway (https://fikraapi.co.ke/v1), billed per token in USD, $1 minimum top-up (M-Pesa and cards accepted)."
+    },
+    {
+      "id": "deepseek-v4.1-flash-1017",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "category": "chat",
+      "status": "online",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.05
+          },
+          "output": {
+            "usd": 0.11
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null
+      },
+      "notes": "Fikra API pricing page https://fikraapi.co.ke/pricing, USD per 1M tokens. Verified 2026-10-19. OpenAI-compatible gateway (https://fikraapi.co.ke/v1), billed per token in USD, $1 minimum top-up (M-Pesa and cards accepted)."
+    },
+    {
+      "id": "glm-5.3-flash",
+      "name": "GLM 5.3 Flash",
+      "category": "chat",
+      "status": "online",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 327680,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.155
+          },
+          "output": {
+            "usd": 0.49
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null
+      },
+      "notes": "Fikra API pricing page https://fikraapi.co.ke/pricing, USD per 1M tokens. Verified 2026-10-19. OpenAI-compatible gateway (https://fikraapi.co.ke/v1), billed per token in USD, $1 minimum top-up (M-Pesa and cards accepted)."
+    },
+    {
+      "id": "glm-5.3",
+      "name": "GLM 5.3",
+      "category": "chat",
+      "status": "online",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.05
+          },
+          "output": {
+            "usd": 3.35
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null
+      },
+      "notes": "Fikra API pricing page https://fikraapi.co.ke/pricing, USD per 1M tokens. Verified 2026-10-19. OpenAI-compatible gateway (https://fikraapi.co.ke/v1), billed per token in USD, $1 minimum top-up (M-Pesa and cards accepted)."
+    },
+    {
+      "id": "glm-5.2",
+      "name": "GLM 5.2",
+      "category": "chat",
+      "status": "online",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.75
+          },
+          "output": {
+            "usd": 1.65
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null
+      },
+      "notes": "Fikra API pricing page https://fikraapi.co.ke/pricing, USD per 1M tokens. Verified 2026-10-19. OpenAI-compatible gateway (https://fikraapi.co.ke/v1), billed per token in USD, $1 minimum top-up (M-Pesa and cards accepted)."
+    },
+    {
+      "id": "kimi-k3",
+      "name": "Kimi K3",
+      "category": "chat",
+      "status": "online",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.1
+          },
+          "output": {
+            "usd": 10.5
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null
+      },
+      "notes": "Fikra API pricing page https://fikraapi.co.ke/pricing, USD per 1M tokens. Verified 2026-10-19. OpenAI-compatible gateway (https://fikraapi.co.ke/v1), billed per token in USD, $1 minimum top-up (M-Pesa and cards accepted)."
+    },
+    {
+      "id": "step-5-preview",
+      "name": "Step 5 Preview",
+      "category": "chat",
+      "status": "online",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 1.25
+          },
+          "output": {
+            "usd": 3.3
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null
+      },
+      "notes": "Fikra API pricing page https://fikraapi.co.ke/pricing, USD per 1M tokens. Verified 2026-10-19. OpenAI-compatible gateway (https://fikraapi.co.ke/v1), billed per token in USD, $1 minimum top-up (M-Pesa and cards accepted)."
+    },
+    {
+      "id": "qwen3.8-27b",
+      "name": "Qwen 3.8 27B",
+      "category": "chat",
+      "status": "online",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1001536,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.045
+          },
+          "output": {
+            "usd": 0.35
+          },
+          "cache_read": {
+            "usd": 0.1
+          },
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null
+      },
+      "notes": "Fikra API pricing page https://fikraapi.co.ke/pricing, USD per 1M tokens. Verified 2026-10-19. Cached input $0.10 per 1M tokens. OpenAI-compatible gateway (https://fikraapi.co.ke/v1), billed per token in USD, $1 minimum top-up (M-Pesa and cards accepted)."
+    },
+    {
+      "id": "mimo-v2.6-pro",
+      "name": "MiMo V2.6 Pro",
+      "category": "chat",
+      "status": "online",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.6
+          },
+          "output": {
+            "usd": 1.2
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null
+      },
+      "notes": "Fikra API pricing page https://fikraapi.co.ke/pricing, USD per 1M tokens. Verified 2026-10-19. OpenAI-compatible gateway (https://fikraapi.co.ke/v1), billed per token in USD, $1 minimum top-up (M-Pesa and cards accepted)."
+    },
+    {
+      "id": "nvidia-nemotron-3.5-super-vl",
+      "name": "NVIDIA Nemotron 3.5 Super VL",
+      "category": "vision",
+      "status": "online",
+      "modalities": [
+        "text",
+        "image_in"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.5
+          },
+          "output": {
+            "usd": 1.25
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null
+      },
+      "notes": "Vision-language model per its published name (VL). Fikra API pricing page https://fikraapi.co.ke/pricing, USD per 1M tokens. Verified 2026-10-19. OpenAI-compatible gateway (https://fikraapi.co.ke/v1), billed per token in USD, $1 minimum top-up (M-Pesa and cards accepted)."
+    },
+    {
+      "id": "gemini-4-argon",
+      "name": "Gemini 4 Argon",
+      "category": "chat",
+      "status": "online",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 2.5
+          },
+          "output": {
+            "usd": 12.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null
+      },
+      "notes": "Fikra API pricing page https://fikraapi.co.ke/pricing, USD per 1M tokens. Verified 2026-10-19. OpenAI-compatible gateway (https://fikraapi.co.ke/v1), billed per token in USD, $1 minimum top-up (M-Pesa and cards accepted)."
+    },
+    {
+      "id": "fikra-pro-20b",
+      "name": "Fikra Pro 20B",
+      "category": "chat",
+      "status": "online",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131072,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.2
+          },
+          "output": {
+            "usd": 0.2
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null
+      },
+      "notes": "Fikra API pricing page https://fikraapi.co.ke/pricing, USD per 1M tokens. Verified 2026-10-19. OpenAI-compatible gateway (https://fikraapi.co.ke/v1), billed per token in USD, $1 minimum top-up (M-Pesa and cards accepted)."
+    },
+    {
+      "id": "fikra-pro-120b",
+      "name": "Fikra Pro 120B",
+      "category": "chat",
+      "status": "online",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 131072,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.3
+          },
+          "output": {
+            "usd": 0.3
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null
+      },
+      "notes": "Fikra API pricing page https://fikraapi.co.ke/pricing, USD per 1M tokens. Verified 2026-10-19. OpenAI-compatible gateway (https://fikraapi.co.ke/v1), billed per token in USD, $1 minimum top-up (M-Pesa and cards accepted)."
+    },
+    {
+      "id": "fikra-qwen-27b",
+      "name": "Fikra Qwen 27B",
+      "category": "chat",
+      "status": "online",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.045
+          },
+          "output": {
+            "usd": 0.35
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null
+      },
+      "notes": "Fikra API pricing page https://fikraapi.co.ke/pricing, USD per 1M tokens. Verified 2026-10-19. OpenAI-compatible gateway (https://fikraapi.co.ke/v1), billed per token in USD, $1 minimum top-up (M-Pesa and cards accepted)."
+    },
+    {
+      "id": "fikra-qwen-max",
+      "name": "Fikra Qwen Max",
+      "category": "chat",
+      "status": "online",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 256000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 6.0
+          },
+          "output": {
+            "usd": 12.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null
+      },
+      "notes": "Fikra API pricing page https://fikraapi.co.ke/pricing, USD per 1M tokens. Verified 2026-10-19. OpenAI-compatible gateway (https://fikraapi.co.ke/v1), billed per token in USD, $1 minimum top-up (M-Pesa and cards accepted)."
+    },
+    {
+      "id": "fikra-auto",
+      "name": "Fikra Auto",
+      "category": "chat",
+      "status": "online",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.045
+          },
+          "output": {
+            "usd": 0.35
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null
+      },
+      "notes": "Fikra API pricing page https://fikraapi.co.ke/pricing, USD per 1M tokens. Verified 2026-10-19. OpenAI-compatible gateway (https://fikraapi.co.ke/v1), billed per token in USD, $1 minimum top-up (M-Pesa and cards accepted)."
+    },
+    {
+      "id": "fikra-auto-pro",
+      "name": "Fikra Auto Pro",
+      "category": "chat",
+      "status": "online",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 1048576,
+      "max_output": 256000,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 6.0
+          },
+          "output": {
+            "usd": 12.0
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null
+      },
+      "notes": "Fikra API pricing page https://fikraapi.co.ke/pricing, USD per 1M tokens. Verified 2026-10-19. OpenAI-compatible gateway (https://fikraapi.co.ke/v1), billed per token in USD, $1 minimum top-up (M-Pesa and cards accepted)."
+    },
+    {
+      "id": "fikra-code-35b",
+      "name": "Fikra Code 35B",
+      "category": "code",
+      "status": "online",
+      "modalities": [
+        "text"
+      ],
+      "context_window": 262144,
+      "max_output": 65536,
+      "billing_model": [
+        "pay_per_token"
+      ],
+      "pricing": {
+        "per_mtok": {
+          "input": {
+            "usd": 0.045
+          },
+          "output": {
+            "usd": 0.33
+          },
+          "cache_read": null,
+          "cache_write": null
+        },
+        "batch": null,
+        "per_image": null
+      },
+      "notes": "Fikra API pricing page https://fikraapi.co.ke/pricing, USD per 1M tokens. Verified 2026-10-19. OpenAI-compatible gateway (https://fikraapi.co.ke/v1), billed per token in USD, $1 minimum top-up (M-Pesa and cards accepted)."
+    }
+  ]
+}

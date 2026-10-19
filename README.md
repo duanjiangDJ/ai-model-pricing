@@ -39,17 +39,17 @@ systems, GPU-second pricing, consumer subscriptions, and coding-tool plans.
 
 ## Data Statistics (exact)
 
-- **Providers**: 190
-- **Models**: 7662
+- **Providers**: 191
+- **Models**: 7681
 - **Subscription plans**: 67
-- **Distinct API endpoints**: 183
+- **Distinct API endpoints**: 184
 - **Free models**: 461
 
 ### By channel
 
 | Channel | Providers | Models |
 |---|---|---|
-| Inference host | 138 | 4530 |
+| Inference host | 139 | 4549 |
 | First-party | 20 | 498 |
 | Subscription | 18 | 176 |
 | Aggregator | 13 | 2338 |
@@ -62,12 +62,13 @@ systems, GPU-second pricing, consumer subscriptions, and coding-tool plans.
 | Global | 175 |
 | US | 9 |
 | China | 6 |
+| Other | 1 |
 
 ### Model status
 
 | Status | Models |
 |---|---|
-| online | 7588 |
+| online | 7607 |
 | offline | 74 |
 | (unmarked) | 0 |
 
@@ -95,7 +96,7 @@ systems, GPU-second pricing, consumer subscriptions, and coding-tool plans.
 
 | Currency | Providers |
 |---|---|
-| USD | 186 |
+| USD | 187 |
 | CNY | 4 |
 
 <!-- STATS:END -->
@@ -143,7 +144,7 @@ Reading/updating rules for AI agents: [AGENTS.md](AGENTS.md).
 | Consumer subscriptions | ChatGPT Plus/Pro, Claude Pro/Max, Gemini AI, Perplexity, SuperGrok, Poe etc. | ✅ in DB |
 | Coding plans | Copilot, Cursor, Windsurf, Claude Code, JetBrains AI, Devin, Amazon Q, Replit, Tabnine etc. | ✅ in DB |
 
-**Current scale**: 190 providers, 7,662 models, 67 subscription plans. Exact numbers in the [Data Statistics](#data-statistics-exact) section above.
+**Current scale**: 191 providers, 7,681 models, 67 subscription plans. Exact numbers in the [Data Statistics](#data-statistics-exact) section above.
 Data is auto-synced daily (OpenRouter + models.dev); human-verified entries carry `verified_at` + source URLs.
 
 > Honest scope statement: **no single source covers all pricing** (verified: OpenRouter / models.dev /
