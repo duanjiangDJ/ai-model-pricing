@@ -1,9 +1,9 @@
 {
   "schema_version": "26.147.98",
-  "generated_at": "2026-09-14T07:48:03Z",
+  "generated_at": "2026-10-19T00:00:00Z",
   "currency": "USD",
-  "provider_count": 189,
-  "model_count": 7662,
+  "provider_count": 190,
+  "model_count": 7681,
   "plan_count": 67,
   "providers": [
     {
@@ -1517,6 +1517,14 @@
       "model_count": 2,
       "file": "providers/lingyiwanwu.json",
       "updated_at": "2026-08-28T10:02:37.202960Z"
+    },
+    {
+      "id": "fikra-api",
+      "name": "Fikra API",
+      "channel": "hosted",
+      "model_count": 19,
+      "file": "providers/fikra-api.json",
+      "updated_at": "2026-10-19T00:00:00Z"
     }
   ],
   "resellers": [

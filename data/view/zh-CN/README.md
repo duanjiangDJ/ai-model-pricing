@@ -3,9 +3,9 @@
 > 数据来源于各厂商官方定价页与公开 API，机器可读版本见 [`data/feed/`](../../../data/feed/)。
 > 更新机制：GitHub Actions 每日自动检查（见 `.github/workflows/daily-check.yml`）。
 
-- 数据更新时间: 2026-09-14T07:48:03Z
-- 覆盖渠道: 190
-- 模型总数: 7662
+- 数据更新时间: 2026-10-19T00:00:00Z
+- 覆盖渠道: 191
+- 模型总数: 7681
 - 订阅计划数: 67
 
 ## 供应商列表
@@ -201,6 +201,7 @@
 | [百川智能 (Baichuan)](providers/baichuan.md) | 官方直供 | 1 | `providers/baichuan.json` | 2026-08-28T10:02:16.380334Z |
 | [科大讯飞星火 (iFlytek Spark)](providers/iflytek.md) | 官方直供 | 2 | `providers/iflytek.json` | 2026-08-28T10:02:16.380334Z |
 | [零一万物 (01.AI)](providers/lingyiwanwu.md) | 官方直供 | 2 | `providers/lingyiwanwu.json` | 2026-08-28T10:02:16.380334Z |
+| [Fikra API](providers/fikra-api.md) | 推理托管 | 19 | `providers/fikra-api.json` | 2026-10-19T00:00:00Z |
 | [OpenRouter](providers/openrouter.md) | 聚合站 | 445 | `providers/openrouter.json` | 2026-09-14T07:48:03Z |
 
 ## 订阅计划

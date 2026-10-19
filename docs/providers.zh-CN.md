@@ -175,6 +175,7 @@
 | `echo` | Echo | 1 | `https://echo.tracerml.ai/v1` | `tier1_echo.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `empiriolabs` | EmpirioLabs AI | 59 | `https://api.empiriolabs.ai/v1` | `tier1_empiriolabs.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `evroc` | evroc | 17 | `https://models.think.evroc.com/v1` | `tier1_evroc.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
+| `fikra-api` | Fikra API | 19 | `https://fikraapi.co.ke/v1` | `—` | 🟡 manual | — (aggregation only) |
 | `freemodel` | FreeModel | 10 | `https://cc.freemodel.dev/v1` | `tier1_freemodel.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `frogbot` | FrogBot | 26 | `https://app.frogbot.ai/api/v1` | `tier1_frogbot.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |
 | `github` | GitHub | 33 | `https://api.githubcopilot.com` | `tier1_github.py` | 🟢 automated | ⚠️ manual (daily-check does NOT auto-run official source) |

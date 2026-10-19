@@ -135280,6 +135280,19 @@
         "provider_count": 192
       },
       "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-10-19T00:00:00Z",
+      "kind": "add",
+      "scope": "provider",
+      "provider_id": "fikra-api",
+      "item_id": "fikra-api",
+      "field": "catalog",
+      "new": {
+        "provider_count": 190,
+        "model_count": 7681
+      },
+      "source": "https://fikraapi.co.ke/pricing"
     }
   ]
 }
